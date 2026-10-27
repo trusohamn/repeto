@@ -2,6 +2,7 @@ import argparse
 import asyncio
 import hashlib
 import json
+import logging
 import math
 import re
 import shutil
@@ -11,7 +12,9 @@ from pathlib import Path
 from typing import Literal, TypedDict
 
 import edge_tts
+from edge_tts.exceptions import NoAudioReceived
 from pydub import AudioSegment
+from pydub.effects import compress_dynamic_range
 from pydub.silence import detect_nonsilent
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -29,6 +32,8 @@ LEAD_IN_MS = 1000
 THINKING_MS = 2000
 REPETITION_MS = 2500
 VOICE_DBFS = -20.0
+TTS_ATTEMPTS = 3
+LOGGER = logging.getLogger(__name__)
 
 
 class Entry(TypedDict):
@@ -104,8 +109,12 @@ def topic_filename(
     return f"{section_number:02d}_{slug[:80]}_{source}_{target}{mode}_{timestamp}.mp3"
 
 
+def speech_text(text: str) -> str:
+    return text if text.endswith((".", "!", "?", "…")) else f"{text}."
+
+
 def clip_path(text: str, lang: Language, cache: Path) -> Path:
-    settings = [text, lang, VOICES[lang], RATES[lang], "+0Hz"]
+    settings = [speech_text(text), lang, VOICES[lang], RATES[lang], "+0Hz"]
     digest = hashlib.sha256(
         json.dumps(settings, ensure_ascii=False).encode("utf-8")
     ).hexdigest()
@@ -116,15 +125,31 @@ async def generate_clip(text: str, lang: Language, out_path: Path) -> None:
     if out_path.is_file() and out_path.stat().st_size > 0:
         return
     out_path.parent.mkdir(parents=True, exist_ok=True)
-    with tempfile.TemporaryDirectory(dir=out_path.parent) as directory:
-        pending = Path(directory) / "clip.mp3"
-        communicate = edge_tts.Communicate(
-            text=text, voice=VOICES[lang], rate=RATES[lang], pitch="+0Hz"
-        )
-        await communicate.save(str(pending))
-        if not pending.is_file() or pending.stat().st_size == 0:
-            raise RuntimeError(f"TTS returned no audio for {lang}: {text!r}")
-        pending.replace(out_path)
+    for attempt in range(1, TTS_ATTEMPTS + 1):
+        try:
+            with tempfile.TemporaryDirectory(dir=out_path.parent) as directory:
+                pending = Path(directory) / "clip.mp3"
+                communicate = edge_tts.Communicate(
+                    text=speech_text(text), voice=VOICES[lang], rate=RATES[lang], pitch="+0Hz"
+                )
+                await communicate.save(str(pending))
+                if not pending.is_file() or pending.stat().st_size == 0:
+                    raise NoAudioReceived("TTS returned an empty audio file.")
+                pending.replace(out_path)
+            return
+        except NoAudioReceived as error:
+            if attempt == TTS_ATTEMPTS:
+                raise RuntimeError(
+                    f"Edge TTS returned no audio after {attempt} attempts: "
+                    f"language={lang}, voice={VOICES[lang]}, text={text!r}. "
+                    "Rerun the command to reuse completed cached clips."
+                ) from error
+            delay = 2 ** attempt
+            LOGGER.warning(
+                "Edge TTS returned no audio for %s %r (attempt %s/%s); retrying in %ss.",
+                lang, text, attempt, TTS_ATTEMPTS, delay,
+            )
+            await asyncio.sleep(delay)
 
 
 def silence(duration_ms: int) -> AudioSegment:
@@ -151,10 +176,21 @@ def prepare_clip(audio: AudioSegment, context: str) -> AudioSegment:
         raise ValueError(f"Empty or silent speech clip: {context}")
     gain = VOICE_DBFS - audio.dBFS
     if audio.max_dBFS + gain > -1.0:
-        raise ValueError(
-            f"Cannot normalize {context} to {VOICE_DBFS} dBFS without exceeding "
-            "-1 dBFS peak headroom. Check or regenerate this clip."
+        LOGGER.warning(
+            "Compressing high speech peaks before normalization: %s", context
         )
+        for _ in range(3):
+            audio = compress_dynamic_range(
+                audio, threshold=-24.0, ratio=4.0, attack=0.1, release=50.0
+            )
+            gain = VOICE_DBFS - audio.dBFS
+            if audio.max_dBFS + gain <= -1.0:
+                break
+        else:
+            raise ValueError(
+                f"Cannot normalize {context} to {VOICE_DBFS} dBFS without exceeding "
+                "-1 dBFS peak headroom, even after compression. Check or regenerate this clip."
+            )
     return audio.apply_gain(gain)
 
 
@@ -192,6 +228,7 @@ def append_entry(
 def export_section(
     output: Path, tracks: dict[Language, AudioSegment], manifests: dict[Language, Manifest]
 ) -> None:
+    output.mkdir(parents=True, exist_ok=True)
     # Stage all versions before replacing any existing deliverables.
     with tempfile.TemporaryDirectory(dir=output) as directory:
         staging = Path(directory)

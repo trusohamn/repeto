@@ -108,7 +108,8 @@ class RendererTests(unittest.TestCase):
 
         with tempfile.TemporaryDirectory() as directory:
             path = Path(directory) / "clip.mp3"
-            with patch.object(renderer.edge_tts, "Communicate") as tts:
+            with patch.object(renderer.edge_tts, "Communicate") as tts, \
+                 patch.object(renderer.asyncio, "sleep", new_callable=AsyncMock):
                 tts.return_value.save = AsyncMock(side_effect=save)
                 asyncio.run(renderer.generate_clip("Cześć!", "pl", path))
                 asyncio.run(renderer.generate_clip("Cześć!", "pl", path))
@@ -116,6 +117,25 @@ class RendererTests(unittest.TestCase):
                     text="Cześć!", voice="pl-PL-ZofiaNeural", rate="-15%", pitch="+0Hz"
                 )
                 self.assertEqual(path.read_bytes(), b"speech")
+
+    def test_unpunctuated_vocabulary_has_sentence_boundary_for_tts(self):
+        async def save(path):
+            Path(path).write_bytes(b"speech")
+
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "clip.mp3"
+            with patch.object(renderer.edge_tts, "Communicate") as tts:
+                tts.return_value.save = AsyncMock(side_effect=save)
+                asyncio.run(renderer.generate_clip("Kanin", "se", path))
+                tts.assert_called_once_with(
+                    text="Kanin.", voice="sv-SE-SofieNeural", rate="-5%", pitch="+0Hz"
+                )
+        for text in ("Hej!", "Varför?", "Hej."):
+            self.assertEqual(renderer.speech_text(text), text)
+        self.assertEqual(
+            renderer.clip_path("Kanin", "se", Path("cache")),
+            renderer.clip_path("Kanin.", "se", Path("cache")),
+        )
 
     def test_failed_or_empty_tts_does_not_publish_partial_clip(self):
         async def fail(path):
@@ -128,11 +148,51 @@ class RendererTests(unittest.TestCase):
         ]:
             with self.subTest(error=error), tempfile.TemporaryDirectory() as directory:
                 path = Path(directory) / "clip.mp3"
-                with patch.object(renderer.edge_tts, "Communicate") as tts:
+                with patch.object(renderer.edge_tts, "Communicate") as tts, \
+                     patch.object(renderer.asyncio, "sleep", new_callable=AsyncMock):
                     tts.return_value.save = save
                     with self.assertRaises(error):
                         asyncio.run(renderer.generate_clip("Hej!", "se", path))
                 self.assertEqual(list(Path(directory).iterdir()), [])
+
+    def test_no_audio_retries_with_fresh_requests_and_clean_staging(self):
+        paths = []
+
+        async def save(path):
+            paths.append(Path(path))
+            if len(paths) < 3:
+                Path(path).write_bytes(b"partial")
+                raise renderer.NoAudioReceived("No audio")
+            Path(path).write_bytes(b"complete")
+
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "clip.mp3"
+            with patch.object(renderer.edge_tts, "Communicate") as tts, \
+                 patch.object(renderer.asyncio, "sleep", new_callable=AsyncMock) as sleep, \
+                 self.assertLogs(renderer.LOGGER, level="WARNING") as logs:
+                tts.return_value.save = AsyncMock(side_effect=save)
+                asyncio.run(renderer.generate_clip("Fem", "se", path))
+            self.assertEqual(tts.call_count, 3)
+            self.assertEqual([x.args[0] for x in sleep.await_args_list], [2, 4])
+            self.assertEqual(len(logs.output), 2)
+            self.assertEqual(path.read_bytes(), b"complete")
+            self.assertEqual(len(set(paths)), 3)
+            self.assertEqual(list(Path(directory).iterdir()), [path])
+
+    def test_no_audio_exhaustion_reports_context_and_leaves_no_cache(self):
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "clip.mp3"
+            with patch.object(renderer.edge_tts, "Communicate") as tts, \
+                 patch.object(renderer.asyncio, "sleep", new_callable=AsyncMock), \
+                 self.assertLogs(renderer.LOGGER, level="WARNING"):
+                tts.return_value.save = AsyncMock(
+                    side_effect=renderer.NoAudioReceived("No audio")
+                )
+                with self.assertRaisesRegex(RuntimeError, "after 3 attempts.*text='Fem'") as caught:
+                    asyncio.run(renderer.generate_clip("Fem", "se", path))
+            self.assertIsInstance(caught.exception.__cause__, renderer.NoAudioReceived)
+            self.assertEqual(tts.call_count, 3)
+            self.assertEqual(list(Path(directory).iterdir()), [])
 
     def test_normalization_and_audio_format(self):
         prepared = renderer.prepare_clip(tone().set_channels(2), "test")
@@ -150,6 +210,18 @@ class RendererTests(unittest.TestCase):
         self.assertGreaterEqual(len(prepared), 440)
         self.assertLessEqual(len(prepared), 460)
         self.assertGreater(prepared[50:350].rms, 0)
+        self.assertLessEqual(prepared.max_dBFS, -1.0)
+
+    def test_high_peak_speech_is_compressed_before_normalization(self):
+        speech = (
+            tone(300).apply_gain(-18)
+            + tone(5).fade_in(2).fade_out(2)
+            + tone(300).apply_gain(-18)
+        )
+        with self.assertLogs(renderer.LOGGER, level="WARNING"):
+            prepared = renderer.prepare_clip(speech, "high peak speech")
+        self.assertEqual(len(prepared), len(speech))
+        self.assertAlmostEqual(prepared.dBFS, -20.0, delta=0.01)
         self.assertLessEqual(prepared.max_dBFS, -1.0)
 
     def test_empty_silent_or_unscalable_clip_is_rejected(self):
@@ -366,6 +438,34 @@ class RendererTests(unittest.TestCase):
                 self.assertEqual(len(manifests[target]["entries"]), 1)
                 self.assertEqual(len(manifests[target]["entries"][0]["target_playbacks"]), 2)
 
+    def test_last_phrase_failure_publishes_no_topic_files(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            transcript = root / "input.json"
+            transcript.write_text(json.dumps([
+                entry(), dict(entry(identifier="phrase_000002"), en="Goodbye!"),
+            ]), encoding="utf-8")
+            output = root / "output"
+            output.mkdir()
+            existing = output / "previous.mp3"
+            existing.write_bytes(b"previous successful topic")
+
+            async def synthesize(text, lang, path):
+                if text == "Goodbye!" and lang == "en":
+                    raise RuntimeError("Last phrase failed")
+
+            with patch.object(renderer.shutil, "which", return_value="/mock/ffmpeg"), \
+                 patch.object(renderer, "generate_clip", side_effect=synthesize), \
+                 patch.object(AudioSegment, "from_file", return_value=tone()), \
+                 patch.object(renderer, "export_section") as export:
+                with self.assertRaisesRegex(RuntimeError, "Last phrase failed"):
+                    asyncio.run(renderer.build_audio_tracks(
+                        transcript, output, root / "cache",
+                    ))
+                export.assert_not_called()
+            self.assertEqual(list(output.iterdir()), [existing])
+            self.assertEqual(existing.read_bytes(), b"previous successful topic")
+
     @unittest.skipUnless(shutil.which("ffmpeg") and shutil.which("ffprobe"), "FFmpeg required")
     def test_real_mp3_export_manifests_and_preservation_on_failure(self):
         with tempfile.TemporaryDirectory() as directory:
@@ -427,6 +527,37 @@ class RendererTests(unittest.TestCase):
                         {target: tone(500) for target in renderer.TARGETS},
                         manifests,
                     )
+            self.assertEqual(
+                {path.name: path.read_bytes() for path in output.iterdir()}, originals
+            )
+            recreated = root / "removed-output"
+            renderer.export_section(recreated, {
+                target: AudioSegment.from_file(output / manifests[target]["audio_file"])
+                for target in renderer.TARGETS
+            }, manifests)
+            self.assertEqual(len(list(recreated.iterdir())), 4)
+            encode = AudioSegment.export
+            calls = 0
+
+            def fail_second(audio, *args, **kwargs):
+                nonlocal calls
+                calls += 1
+                if calls == 2:
+                    raise RuntimeError("Second track failed")
+                return encode(audio, *args, **kwargs)
+
+            tracks = {
+                target: AudioSegment.from_file(output / manifests[target]["audio_file"])
+                for target in renderer.TARGETS
+            }
+            with patch.object(AudioSegment, "export", new=fail_second):
+                with self.assertRaisesRegex(RuntimeError, "Second track failed"):
+                    renderer.export_section(
+                        output,
+                        tracks,
+                        manifests,
+                    )
+            self.assertEqual(calls, 2)
             self.assertEqual(
                 {path.name: path.read_bytes() for path in output.iterdir()}, originals
             )

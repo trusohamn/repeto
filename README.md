@@ -50,7 +50,20 @@ Both playbacks have timestamps in `target_playbacks` in the manifest.
 The duration cap includes both. Timestamped filenames keep separate renders
 apart; avoid starting renders in the same output folder within the same second.
 Uncached speech requires internet access and sends the text to Edge TTS.
+Unpunctuated words receive a final full stop for TTS reliability; transcript
+and manifest text stay unchanged. Cache keys use this speech text, so older
+unpunctuated clips may need regenerating once.
+Empty-audio responses are retried up to three attempts, with 2- and 4-second
+waits. If rendering still fails, rerun the same command; completed speech clips
+are cached and reused. No phrases are silently skipped.
+High speech peaks are gently compressed when needed to reach consistent volume
+without clipping; clips that still cannot meet the limits are rejected.
 Do not run simultaneous renders into the same output folder.
+Final MP3 and JSON files are published per topic only after every selected
+entry and language track succeeds and passes export validation. A failed topic
+publishes no final files; previously completed topics and cached clips remain.
+If the output folder disappears during synthesis, export recreates it.
+With a duration cap, success means all complete entries selected for the preview.
 
 ## Setup (macOS)
 

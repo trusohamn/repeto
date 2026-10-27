@@ -30,6 +30,18 @@ Measure -20 dBFS as the RMS of each decoded voice clip before assembly, excludin
 
 Trim excess leading and trailing TTS silence before normalization, retaining 50 ms around speech detected above -60 dBFS. Preserve internal speech pauses. Segment timestamps describe the resulting trimmed clips.
 
+If normalization would exceed -1 dBFS peak headroom, apply dynamic-range
+compression before gain adjustment (threshold -24 dBFS, ratio 4:1, attack 0.1 ms,
+release 50 ms; at most three passes). Log compression and reject clips that
+still cannot meet both RMS and peak limits. Already-compliant clips are unchanged.
+Retry empty Edge TTS responses at most three times in total, waiting 2 then 4
+seconds between attempts. For synthesis, append a full stop to text without
+terminal punctuation (. ! ? or ellipsis). Preserve original transcript and
+manifest text. Cache keys use the punctuated synthesis text.
+Use fresh requests and staging files; never publish partial cache files or
+skip failed phrases. Exhausted retries report language, voice, and text;
+reruns reuse completed cached speech.
+
 3. Phrase Timing & Sequential Flow
    Each entry inside a section track must follow this exact order and spacing:
 
