@@ -33,7 +33,9 @@ def entry(topic="Greetings", identifier="phrase_000001"):
 
 class RendererTests(unittest.TestCase):
     def test_real_transcript(self):
-        topics = renderer.load_topics(renderer.ROOT / "course_transcript.json")
+        topics = renderer.load_topics(
+            renderer.ROOT / "courses" / "practice" / "transcript.json"
+        )
         self.assertEqual(len(topics), 30)
         self.assertGreater(sum(map(len, topics.values())), 0)
 

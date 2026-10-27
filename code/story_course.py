@@ -606,14 +606,16 @@ async def render_story(args: argparse.Namespace) -> dict[str, Any]:
 def package_podcasts(
     args: argparse.Namespace, transcript: dict[str, Any], build: dict[str, Any]
 ) -> None:
+    if args.podcast_course and not re.fullmatch(r"[a-z0-9-]+", args.podcast_course):
+        raise ValueError("--podcast-course must be a lowercase URL-safe course slug.")
     source_language = args.source_language
     story_root = args.transcript.parent.parent
     cover = args.cover or story_root / "cover.jpg"
-    if not cover.is_file():
+    if not args.podcast_course and not cover.is_file():
         raise FileNotFoundError(
             f"Podcast packaging requires the story cover image; not found: {cover}"
         )
-    if not args.email:
+    if not args.podcast_course and not args.email:
         raise ValueError("Podcast packaging requires --email for the public RSS owner contact.")
     podcast_root = args.podcast_root
     if not podcast_root.is_absolute():
@@ -625,66 +627,123 @@ def package_podcasts(
     builder = _podcast_builder()
     feed_catalogs: dict[str, dict[str, Any]] = {}
     for target in build["settings"]["target_languages"]:
-        slug = f'{transcript["story_id"]}-{source_language}-{target}'
+        slug = args.podcast_course or f'{transcript["story_id"]}-{source_language}-{target}'
         course = podcast_root / slug
         audio_dir = course / "audio"
         audio_dir.mkdir(parents=True, exist_ok=True)
-        cover_name = "cover.jpeg"
-        packaged_cover = course / cover_name
-        if packaged_cover.exists() and packaged_cover.read_bytes() != cover.read_bytes():
-            raise FileExistsError(
-                f"Refusing to overwrite a different podcast cover: {packaged_cover}"
-            )
-        shutil.copyfile(cover, packaged_cover)
         story_titles = transcript.get("titles", transcript["chapters"][0]["titles"])
         target_title = story_titles[target]
         source_title = story_titles[source_language]
-        catalog = {
-            "title": f'{story_titles["pl"]} — {source_title} to {target_title}',
-            "description": (
-                f'A children’s story course: practice {target_title} with {source_title} '
-                "prompts, then hear each chapter read aloud in the target language. "
-                "Voices are AI-generated."
-            ),
-            "language": target,
-            "author": args.author,
-            "email": args.email,
-            "episodes": [],
-        }
+        existing_catalog = course / "course.json"
+        if args.podcast_course:
+            if not existing_catalog.is_file():
+                raise FileNotFoundError(
+                    f"Existing podcast course catalog not found: {existing_catalog}"
+                )
+            if not (course / "cover.jpeg").is_file():
+                raise FileNotFoundError(f"Existing podcast cover not found: {course / 'cover.jpeg'}")
+            catalog = json.loads(existing_catalog.read_text(encoding="utf-8"))
+            if (
+                catalog.get("source_language") != source_language
+                or catalog.get("target_language") != target
+                or catalog.get("language") != source_language
+            ):
+                raise ValueError(
+                    f"Podcast course {slug!r} does not match direction "
+                    f"{source_language} to {target}."
+                )
+            if not isinstance(catalog.get("episodes"), list):
+                raise ValueError(f"Podcast course {slug!r} has no valid episodes list.")
+        else:
+            if not args.email:
+                raise ValueError("Podcast packaging requires --email for the public RSS owner contact.")
+            course.mkdir(parents=True, exist_ok=True)
+            packaged_cover = course / "cover.jpeg"
+            if packaged_cover.exists() and packaged_cover.read_bytes() != cover.read_bytes():
+                raise FileExistsError(
+                    f"Refusing to overwrite a different podcast cover: {packaged_cover}"
+                )
+            shutil.copyfile(cover, packaged_cover)
+            catalog = {
+                "title": f'{story_titles["pl"]} — {source_title} to {target_title}',
+                "description": (
+                    f'A children’s story course: practice {target_title} with {source_title} '
+                    "prompts, then hear each chapter read aloud in the target language. "
+                    "Voices are AI-generated."
+                ),
+                "language": source_language,
+                "source_language": source_language,
+                "target_language": target,
+                "author": args.author,
+                "email": args.email,
+                "episodes": [],
+            }
+
+        episodes = catalog["episodes"]
+        previous_by_id = {episode["id"]: episode for episode in episodes}
+        story_id_prefix = f'{transcript["story_id"]}:{source_language}:{target}:chapter-'
+        previous_story_episodes = [
+            episode for episode in episodes
+            if isinstance(episode.get("id"), str)
+            and episode["id"].startswith(story_id_prefix)
+        ]
+        if previous_story_episodes:
+            story_season = previous_story_episodes[0]["season"]
+            if any(episode.get("season") != story_season for episode in previous_story_episodes):
+                raise ValueError("Existing story chapters use inconsistent podcast seasons.")
+        else:
+            existing_seasons = [
+                episode.get("season") for episode in episodes
+                if type(episode.get("season")) is int and episode["season"] > 0
+            ]
+            story_season = max(existing_seasons, default=0) + 1 if args.podcast_course else 1
+
         for chapter in transcript["chapters"]:
             number = chapter["chapter_number"]
             data = build["chapters"][str(number)]["targets"][target]
             audio_name = data["audio_file"]
             audio_source = args.output / audio_name
-            audio_destination = audio_dir / audio_name
+            relative_audio_name = f'stories/{transcript["story_id"]}/{audio_name}'
+            audio_destination = audio_dir / relative_audio_name
             if not audio_source.is_file():
                 raise FileNotFoundError(f"Missing completed story audio: {audio_source}")
             if audio_destination.exists() and audio_destination.read_bytes() != audio_source.read_bytes():
                 raise FileExistsError(f"Refusing to overwrite different episode audio: {audio_destination}")
+            audio_destination.parent.mkdir(parents=True, exist_ok=True)
             shutil.copyfile(audio_source, audio_destination)
-            catalog["episodes"].append({
-                "id": f'{transcript["story_id"]}:{source_language}:{target}:chapter-{number:02d}',
+            episode_id = f'{transcript["story_id"]}:{source_language}:{target}:chapter-{number:02d}'
+            previous = previous_by_id.get(episode_id, {})
+            episode = {
+                "id": episode_id,
                 "title": (
-                    f'{chapter["titles"][source_language]} — '
+                    f'{source_title}: {chapter["titles"][source_language]} — '
                     f'{chapter["titles"][target]}'
                 ),
-                "file": audio_name,
+                "file": relative_audio_name,
                 "duration_ms": data["total_duration_ms"],
-                "published": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-                "description": (
-                    f'Practice {chapter["titles"][target]} with {chapter["titles"][source_language]} '
-                    "prompts, then listen to the complete chapter in the target language."
+                "published": previous.get(
+                    "published", datetime.now(timezone.utc).isoformat(timespec="seconds")
                 ),
-                "season": 1,
-                "episode": number,
-            })
-        existing_catalog = course / "course.json"
-        if existing_catalog.exists():
-            old = json.loads(existing_catalog.read_text(encoding="utf-8"))
-            previous = {episode["id"]: episode for episode in old.get("episodes", [])}
-            for episode in catalog["episodes"]:
-                if episode["id"] in previous:
-                    episode["published"] = previous[episode["id"]]["published"]
+                "description": (
+                    f'Öva polska med svenska ledtrådar i berättelsen '
+                    f'{story_titles["pl"]}. Lyssna sedan på hela kapitlet på polska.'
+                    if source_language == "sv" and target == "pl"
+                    else f'Practice {chapter["titles"][target]} with '
+                    f'{chapter["titles"][source_language]} prompts, then listen to '
+                    "the complete chapter in the target language."
+                ),
+                "season": previous.get("season", story_season),
+                "episode": previous.get("episode", number),
+            }
+            if episode_id in previous_by_id:
+                episode_index = next(
+                    index for index, existing in enumerate(episodes)
+                    if existing["id"] == episode_id
+                )
+                episodes[episode_index] = episode
+            else:
+                episodes.append(episode)
+                previous_by_id[episode_id] = episode
         _write_json(existing_catalog, catalog)
         builder.build_feed(course, base_url)
         feed_catalogs[target] = {
@@ -706,7 +765,7 @@ def package_podcasts(
 
 def create_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description=__doc__)
-    default_story = ROOT / "stories" / "magical_radio"
+    default_story = ROOT / "courses" / "swedish-polish" / "stories" / "magical_radio"
     parser.add_argument("--transcript", type=Path, default=default_story / "generated/transcript.json")
     parser.add_argument("--source-text", type=Path, default=default_story / "complete/pl.txt")
     parser.add_argument(
@@ -748,6 +807,10 @@ def create_parser() -> argparse.ArgumentParser:
     )
     parser.add_argument("--author", default="Repeto")
     parser.add_argument("--email", default="repeto.lingo@gmail.com")
+    parser.add_argument(
+        "--podcast-course",
+        help="Add story chapters to an existing podcast course slug instead of creating a new feed.",
+    )
     parser.add_argument("--list", action="store_true", help="Validate and list chapters without TTS.")
     return parser
 

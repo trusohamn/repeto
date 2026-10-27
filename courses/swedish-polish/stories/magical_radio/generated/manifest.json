@@ -154,7 +154,16 @@
       }
     }
   },
-  "podcasts": {},
+  "podcasts": {
+    "pl": {
+      "slug": "swedish-polish",
+      "feed_url": "https://trusohamn.github.io/repeto/swedish-polish/feed.xml",
+      "episodes": 38,
+      "title": "Repeto – Svenska till polska",
+      "author": "Repeto",
+      "owner_email": "repeto.lingo@gmail.com"
+    }
+  },
   "settings": {
     "source_language": "sv",
     "target_languages": [

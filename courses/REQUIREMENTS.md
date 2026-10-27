@@ -1,4 +1,6 @@
-Här är den justerade arkitekturen där **alla genererade transkript sparas som JSON** istället för `.txt`. Det gör parsningen helt automatisk, typstark och slipper specialtecken eller regextolkning.
+Story- och övningsmaterial organiseras under `courses/`. Delade
+vokabulärövningar har en enda källa; berättelser ligger under sin
+språkriktnings kursmapp.
 
 ---
 
@@ -6,22 +8,28 @@ Här är den justerade arkitekturen där **alla genererade transkript sparas som
 
 ```text
 polish_course/
-└── stories/
-    └── magical_radio/
-        ├── cover.jpg                  <-- Omslagsbild (3000x3000px)
-        │
-        ├── complete/                  <-- Din manuella input
-        │   └── pl.txt                 <-- Ren polsk råtext (kapitel 1–8)
-        │
-        └── generated/                 <-- Skapas helt av agenten
-            ├── manifest.json          <-- Byggrecept, Spotify-metadata & kapitelmarkörer
-            └── transcript.json        <-- Alla kapitel, siffer-ID:n och översättningar
-
+├── courses/
+│   ├── practice/
+│   │   └── transcript.json            <-- Delad vokabulärkälla för språkpraktik
+│   ├── REQUIREMENTS.md
+│   └── swedish-polish/
+│       └── stories/
+│           └── magical_radio/
+│               ├── cover_se_pl.jpeg
+│               ├── complete/
+│               │   └── pl.txt         <-- Oförändrad polsk originaltext
+│               └── generated/
+│                   ├── transcript.json
+│                   ├── manifest.json
+│                   └── audio/sv_pl/   <-- Renderade filer och tidsstämplar
+└── code/
+    ├── transcription.py               <-- Renderer för delad vokabulärpraktik
+    └── story_course.py                <-- Storyrenderer och podcastpaketerare
 ```
 
 ---
 
-### Filformat: `complete/pl.txt` (Din input)
+### Filformat: `courses/swedish-polish/stories/magical_radio/complete/pl.txt` (Din input)
 
 Bara ren, läsbar polska uppdelad per kapitel:
 
@@ -36,7 +44,7 @@ Dzieci biegną do ogrodu. Szukają starego dębu z mapy. Pod korzeniami leży ma
 
 ---
 
-### Filformat: `generated/transcript.json` (Agentens output)
+### Filformat: `generated/transcript.json` (Kursens output)
 
 Varje vokabulärord eller -uttryck får ett positivt heltal som ID. ID:n är unika för hela berättelsen, även mellan kapitel, och återanvänds aldrig. Berättelsen lagras som en enda sammanhängande `chapter_text` per tillgängligt uppläsningsspråk; meningar i berättelsen får inga separata översättningar eller övnings-ID:n. Språken i `text` är ISO 639-1-koder.
 
@@ -149,23 +157,29 @@ Transkriptet innehåller innehåll och översättningar. Manifestet innehåller 
 
 ### Körning
 
-Storyverktyget finns i `stories/story_course.py`. Validera transkriptet och jämför det polska originalet mot samtliga kapitelmeningar:
+Storyverktyget finns i `code/story_course.py`. Validera transkriptet och
+jämför det polska originalet mot samtliga kapitelmeningar:
 
 ```sh
-.venv/bin/python stories/story_course.py --list
+.venv/bin/python code/story_course.py --list
 ```
 
 Generera som standard polsk vokabulärövning med långsamma svenska ledtrådar och därefter uppläsning av hela kapitlet på polska:
 
 ```sh
-.venv/bin/python stories/story_course.py --source-language sv --target pl
+.venv/bin/python code/story_course.py --source-language sv --target pl
 ```
 
 Använd `--help` för alla alternativ. Källspråk, mål, röster (`--voice LANG=VOICE`), hastigheter (`--rate LANG=RATE`), tonhöjd (`--pitch LANG=PITCH`), pauser, ljudformat, varaktighetsgräns, transkript, cache och utdatasökvägar är konfigurerbara. En varaktighetsgräns avvisar ett helt kapitel som överskrider gränsen; den skapar aldrig ett ofullständigt slutspår.
 
 Standardhastigheten för polska och svenska är `-15%`; svenska är avsiktligt långsammare för tydligare uttal.
 
-Podcastflöden skapas bara med `--package-podcast` och kräver en tillgänglig omslagsbild samt kontaktadress för RSS. Ljudfiler och flöden publiceras inte automatiskt till Spotify. Publicering sker först efter separat commit/push och en lyckad GitHub Pages-deploy.
+Podcastflöden skapas bara med `--package-podcast`. När en berättelse läggs till
+i en befintlig språkshow används showens befintliga omslag och ägaruppgifter;
+kapitlen läggs till som en ny säsong under `audio/stories/<story-id>/`. En ny,
+separat show kräver omslagsbild och kontaktadress för RSS. Ljudfiler och flöden
+publiceras inte automatiskt till Spotify. Publicering sker först efter separat
+commit/push och en lyckad GitHub Pages-deploy.
 
 ### Varför detta är bättre för din pipeline
 

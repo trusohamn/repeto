@@ -276,7 +276,7 @@ def export_section(
 
 
 async def build_audio_tracks(
-    transcript: Path = ROOT / "course_transcript.json",
+    transcript: Path = ROOT / "courses" / "practice" / "transcript.json",
     output: Path = ROOT / "output",
     cache: Path = ROOT / ".audio_cache",
     topic: str | None = None,
@@ -375,7 +375,11 @@ def main() -> None:
     parser = argparse.ArgumentParser(
         description="Build course audio for any pair of transcript languages: se, en, pl."
     )
-    parser.add_argument("--transcript", type=Path, default=ROOT / "course_transcript.json")
+    parser.add_argument(
+        "--transcript",
+        type=Path,
+        default=ROOT / "courses" / "practice" / "transcript.json",
+    )
     parser.add_argument("--output", type=Path, default=ROOT / "output")
     parser.add_argument("--cache", type=Path, default=ROOT / ".audio_cache")
     parser.add_argument("--topic", help="Render only this exact topic title.")

@@ -33,9 +33,10 @@ does not synthesize audio or submit shows to Spotify.
    within 1 ms of its manifest, nonempty speech segments, segment bounds, and
    the configured opening/think/repetition pauses. Reject preview-length,
    missing, corrupt, stale, or incomplete topics; report the exact failure.
-6. Require the course's cover and inspect its actual format/dimensions.
-   Spotify artwork should be square JPEG, 1400-3000 pixels per side. Do not
-   overwrite existing artwork or reuse another course's without approval.
+6. For a new podcast show, require a cover and inspect its actual
+   format/dimensions. Spotify artwork should be square JPEG, 1400-3000 pixels
+   per side. When adding to an existing show, keep its existing cover and
+   owner metadata; do not overwrite or replace them.
 
 ## Prepare catalog and audio
 
@@ -45,12 +46,17 @@ Use one directory per course:
 podcast/<slug>/
   cover.jpeg
   course.json
-  audio/<original-render-filename>.mp3
+  audio/
+    practice/<original-render-filename>.mp3
+    stories/<story-id>/<original-render-filename>.mp3
   feed.xml
   index.html
 ```
 
 - Copy validated MP3s without transcoding or renaming them.
+- Store vocabulary-topic recordings under `audio/practice/`; store story
+  chapters under `audio/stories/<story-id>/`. `course.json` episode `file`
+  values are paths relative to `audio/`, not necessarily basenames.
 - Create the catalog using the existing schema. Use the source audience's
   language for the show description; explain pauses, double playback, and
   AI-generated voices accurately.
@@ -96,6 +102,12 @@ Parse the new RSS and verify:
 Update the README feed list and report the local package path, topic/entry
 counts, total duration, and expected feed URL. Do not call an unpublished URL
 live or Spotify-ready online.
+
+For a story that belongs in an existing language-direction show, use
+`code/story_course.py --package-podcast --podcast-course <slug>`. This
+appends its chapters as a new season, preserves the existing show metadata,
+episode GUIDs, and publication dates, and stores the MP3s under
+`audio/stories/<story-id>/`. Use a separate feed only when explicitly requested.
 
 ## Publish only when authorized
 

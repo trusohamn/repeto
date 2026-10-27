@@ -1,13 +1,16 @@
 ---
 name: create-story-course
-description: Turn a chaptered children's story into a faithful multilingual transcript, validate its permanent IDs, render language-practice and full-chapter audio, and optionally package podcast feeds. Use for new or extended stories in stories/.
+description: Turn a chaptered children's story into a faithful multilingual transcript, validate its permanent IDs, render language-practice and full-chapter audio, and optionally package podcast feeds. Use for new or extended course stories.
 ---
 
 # Create or extend a Repeto story course
 
 ## Source and scope
 
-- Read `stories/REQUIREMENTS.md` and this story's `complete/<source>.txt`.
+- Read `courses/REQUIREMENTS.md` and the story's
+  `courses/<course-slug>/stories/<story-id>/complete/<source>.txt`.
+- Keep shared practice data in `courses/practice/transcript.json`; do not
+  duplicate that corpus into individual direction-specific course folders.
 - Inspect existing `generated/transcript.json`, `generated/manifest.json`, and
   any rendered files before changing or regenerating them.
 - Ask for clarification if the source, target languages, pronunciation, or
@@ -25,7 +28,8 @@ description: Turn a chaptered children's story into a faithful multilingual tran
   string per available target. Preserve the Polish original exactly. Only add
   full-chapter translations if requested; never create aligned sentence
   translations for practice.
-- Use `stories/magical_radio/generated/transcript.json` as the schema example.
+- Use `courses/swedish-polish/stories/magical_radio/generated/transcript.json`
+  as the schema example.
 - IDs are positive integers unique across all vocabulary items in the story.
   Treat IDs as permanent: preserve existing IDs and allocate new unused IDs
   only for new items. Never renumber to close gaps.
@@ -40,7 +44,7 @@ description: Turn a chaptered children's story into a faithful multilingual tran
 - Validate the JSON and its exact Polish-source reconstruction before TTS:
 
   ```sh
-  .venv/bin/python stories/story_course.py --list
+  .venv/bin/python code/story_course.py --list
   ```
 
 ## Audio rendering
@@ -48,7 +52,7 @@ description: Turn a chaptered children's story into a faithful multilingual tran
 - Use the story renderer; do not generate or publish files by hand:
 
   ```sh
-  .venv/bin/python stories/story_course.py --source-language sv --target pl
+  .venv/bin/python code/story_course.py --source-language sv --target pl
   ```
 
 - Defaults are Swedish prompts, Polish targets, then the original whole chapter
@@ -74,14 +78,19 @@ description: Turn a chaptered children's story into a faithful multilingual tran
 
 ## Podcast packaging
 
-- Package only when explicitly requested and a story cover is available:
+- Package only when explicitly requested. For the existing Swedish-to-Polish
+  show, reuse its show artwork:
 
   ```sh
-  .venv/bin/python stories/story_course.py --package-podcast --cover stories/<id>/cover.jpg
+  .venv/bin/python code/story_course.py --package-podcast --podcast-course swedish-polish
   ```
 
-- Verify artwork and public owner metadata; owner email is exposed in RSS.
-  Preserve existing episode GUIDs and publication dates when updating.
+- For this story, append to the existing Swedish-to-Polish show as a new
+  season. The existing show artwork and owner metadata are retained, and
+  chapter MP3s are stored under `podcast/swedish-polish/audio/stories/<id>/`.
+- When creating a separate feed instead, verify artwork and public owner
+  metadata; owner email is exposed in RSS. Preserve existing episode GUIDs
+  and publication dates when updating.
 - Run the podcast tests and RSS builder. Verify episode counts, enclosures,
   actual file sizes, cover links, and target-language feed URLs.
 - Publishing is separate: never commit, push, or submit a show to Spotify

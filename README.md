@@ -1,8 +1,9 @@
 # Language audio course
 
-Generate children's language-learning MP3s and timestamp JSON files from
-[course_transcript.json](course_transcript.json). Supports Swedish (`se`),
-English (`en`), and Polish (`pl`) in any direction.
+Generate children's language-learning MP3s and timestamp JSON files from the
+shared practice corpus in
+[courses/practice/transcript.json](courses/practice/transcript.json). Supports
+Swedish (`se`), English (`en`), and Polish (`pl`) in any direction.
 
 ## Podcast / Spotify
 
@@ -15,12 +16,15 @@ To package another completed course, ask the agent to use the repository's
 [package-podcast skill](.github/skills/package-podcast/SKILL.md).
 Packaging does not commit, push, or publish anything by itself.
 
-Each course lives in `podcast/<course>/` with `cover.jpeg`, `course.json`, and
-`audio/`. The catalog stores permanent episode IDs and publication dates;
-keep these unchanged when replacing recordings.
-Each episode also sets `season` and `episode` explicitly (currently season 1,
-episodes 1–30). These become the podcast's season/episode metadata in Spotify;
-the title's number uses `episode`, not its position in the JSON list.
+Each podcast lives in `podcast/<course>/` with `cover.jpeg`, `course.json`,
+categorized audio, and generated RSS files. Vocabulary-topic MP3s live in
+`audio/practice/`; story chapters live in `audio/stories/<story-id>/`. The
+catalog's `file` path is relative to `audio/`. It stores permanent episode IDs
+and publication dates; keep these unchanged when replacing recordings.
+Episodes set `season` and `episode` explicitly. Swedish-to-Polish vocabulary
+topics are season 1, episodes 1–30; *Den magiska radion* story chapters are season
+2, episodes 1–8. These values become podcast metadata in Spotify; the title's
+number uses `episode`, not its position in the JSON list.
 
 ```sh
 .venv/bin/python code/podcast.py
@@ -39,12 +43,19 @@ Run commands from this project directory after setup below.
 **Story audio (Swedish prompt → Polish vocabulary twice, then the whole Polish chapter):**
 
 ```sh
-.venv/bin/python stories/story_course.py --source-language sv --target pl
+.venv/bin/python code/story_course.py --source-language sv --target pl
 ```
 
 Use `--help` for language, voice, pause, output, and format options. Review
-[story requirements](stories/REQUIREMENTS.md) and the reusable
+[course requirements](courses/REQUIREMENTS.md) and the reusable
 [create-story-course skill](.github/skills/create-story-course/SKILL.md).
+To add the chapters to the existing Swedish-to-Polish feed as a new season,
+include `--package-podcast --podcast-course swedish-polish`. This updates the
+existing catalog and RSS without creating a separate show.
+
+Course sources live under `courses/`: reusable vocabulary shared across
+language directions is stored once in `practice/`, while direction-specific
+stories and their generated assets live under the corresponding course folder.
 
 **English → Polish, Greetings preview (up to 5 minutes):**
 

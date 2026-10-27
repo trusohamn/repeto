@@ -1,4 +1,5 @@
 import asyncio
+import argparse
 import importlib.util
 import json
 import tempfile
@@ -11,7 +12,7 @@ from pydub.generators import Sine
 
 ROOT = Path(__file__).resolve().parents[1]
 SPEC = importlib.util.spec_from_file_location(
-    "story_course", ROOT / "stories/story_course.py"
+    "story_course", ROOT / "code/story_course.py"
 )
 assert SPEC and SPEC.loader
 story_course = importlib.util.module_from_spec(SPEC)
@@ -46,8 +47,8 @@ def mini_story() -> dict:
 class StoryCourseTests(unittest.TestCase):
     def test_real_story_validates_and_reconstructs_source(self):
         story = story_course.load_transcript(
-            ROOT / "stories/magical_radio/generated/transcript.json",
-            ROOT / "stories/magical_radio/complete/pl.txt",
+            ROOT / "courses/swedish-polish/stories/magical_radio/generated/transcript.json",
+            ROOT / "courses/swedish-polish/stories/magical_radio/complete/pl.txt",
         )
         self.assertEqual(story["story_id"], "magical_radio")
         self.assertEqual(len(story["chapters"]), 8)
@@ -61,8 +62,8 @@ class StoryCourseTests(unittest.TestCase):
 
     def test_each_chapter_has_beginner_vocabulary_coverage(self):
         story = story_course.load_transcript(
-            ROOT / "stories/magical_radio/generated/transcript.json",
-            ROOT / "stories/magical_radio/complete/pl.txt",
+            ROOT / "courses/swedish-polish/stories/magical_radio/generated/transcript.json",
+            ROOT / "courses/swedish-polish/stories/magical_radio/complete/pl.txt",
         )
         for chapter in story["chapters"]:
             with self.subTest(chapter=chapter["chapter_number"]):
@@ -227,6 +228,80 @@ class StoryCourseTests(unittest.TestCase):
                 manifest = json.loads((output / data["manifest_file"]).read_text())
                 self.assertEqual(manifest["target_language"], target)
                 self.assertEqual(len(manifest["practice"]), 1)
+
+    def test_story_packaging_appends_to_existing_matching_feed(self):
+        source_catalog = ROOT / "podcast/swedish-polish/course.json"
+        catalog_data = json.loads(source_catalog.read_text(encoding="utf-8"))
+        catalog_data["episodes"] = catalog_data["episodes"][:2]
+        catalog_data["source_language"] = "sv"
+        catalog_data["target_language"] = "pl"
+        chapter = mini_story()["chapters"][0]
+        transcript = {
+            "story_id": "test_story",
+            "titles": {"pl": "Testowa historia", "sv": "Testberättelsen", "en": "Test Story"},
+            "chapters": [chapter],
+        }
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            course = root / "podcast" / "swedish-polish"
+            audio_dir = course / "audio"
+            audio_dir.mkdir(parents=True)
+            (course / "cover.jpeg").write_bytes(b"existing cover")
+            for episode in catalog_data["episodes"]:
+                audio = audio_dir / episode["file"]
+                audio.parent.mkdir(parents=True, exist_ok=True)
+                audio.write_bytes(b"existing audio")
+            catalog_path = course / "course.json"
+            catalog_path.write_text(json.dumps(catalog_data), encoding="utf-8")
+            audio_source_dir = root / "render"
+            audio_source_dir.mkdir()
+            audio_name = "01_chapter_01_sv_pl_2026-10-27_22-00-00.mp3"
+            (audio_source_dir / audio_name).write_bytes(b"story audio")
+            args = argparse.Namespace(
+                podcast_course="swedish-polish",
+                source_language="sv",
+                transcript=root / "story" / "generated" / "transcript.json",
+                cover=None,
+                email="repeto.lingo@gmail.com",
+                podcast_root=root / "podcast",
+                podcast_base_url="https://example.com/repeto",
+                author="Repeto",
+                output=audio_source_dir,
+            )
+            build = {
+                "settings": {"target_languages": ["pl"]},
+                "chapters": {
+                    "1": {
+                        "targets": {
+                            "pl": {
+                                "audio_file": audio_name,
+                                "total_duration_ms": 8400,
+                            }
+                        }
+                    }
+                },
+            }
+            story_course.package_podcasts(args, transcript, build)
+            original_dates = [
+                episode["published"] for episode in catalog_data["episodes"]
+            ]
+            result = json.loads(catalog_path.read_text(encoding="utf-8"))
+            self.assertEqual(len(result["episodes"]), 3)
+            self.assertEqual(
+                [episode["published"] for episode in result["episodes"][:2]],
+                original_dates,
+            )
+            added = result["episodes"][2]
+            self.assertEqual(added["id"], "test_story:sv:pl:chapter-01")
+            self.assertEqual((added["season"], added["episode"]), (2, 1))
+            self.assertEqual(added["file"], f"stories/test_story/{audio_name}")
+            self.assertEqual(
+                (audio_dir / added["file"]).read_bytes(), b"story audio"
+            )
+            story_course.package_podcasts(args, transcript, build)
+            rerun = json.loads(catalog_path.read_text(encoding="utf-8"))
+            self.assertEqual(len(rerun["episodes"]), 3)
+            self.assertEqual(rerun["episodes"][2]["published"], added["published"])
 
     def test_duration_limit_rejects_complete_chapter_without_files(self):
         with tempfile.TemporaryDirectory() as directory:

@@ -7,6 +7,7 @@ import xml.etree.ElementTree as ET
 from datetime import datetime
 from email.utils import format_datetime
 from pathlib import Path
+from pathlib import PurePosixPath
 from urllib.parse import quote
 
 ITUNES = "http://www.itunes.com/dtds/podcast-1.0.dtd"
@@ -64,9 +65,18 @@ def build_feed(course: Path, base_url: str) -> None:
             raise ValueError(f"Duplicate season/episode: {season}/{number}")
         seen_numbers.add((season, number))
         filename = episode["file"]
-        if Path(filename).name != filename or not filename.endswith(".mp3"):
+        if not isinstance(filename, str):
             raise ValueError(f"Invalid audio filename: {filename!r}")
-        audio = course / "audio" / filename
+        relative_audio_path = PurePosixPath(filename)
+        if (
+            "\\" in filename
+            or relative_audio_path.is_absolute()
+            or str(relative_audio_path) != filename
+            or any(part in {"", ".", ".."} for part in relative_audio_path.parts)
+            or relative_audio_path.suffix != ".mp3"
+        ):
+            raise ValueError(f"Invalid audio filename: {filename!r}")
+        audio = course / "audio" / Path(*relative_audio_path.parts)
         if not audio.is_file() or audio.stat().st_size == 0:
             raise ValueError(f"Missing or empty audio: {audio}")
         if episode["id"] in seen:
@@ -85,7 +95,10 @@ def build_feed(course: Path, base_url: str) -> None:
         field(item, f"{{{ITUNES}}}duration", str(round(episode["duration_ms"] / 1000)))
         field(item, f"{{{ITUNES}}}explicit", "false")
         ET.SubElement(
-            item, "enclosure", url=url + "/audio/" + quote(filename),
+            item, "enclosure",
+            url=url + "/audio/" + "/".join(
+                quote(part) for part in relative_audio_path.parts
+            ),
             length=str(audio.stat().st_size), type="audio/mpeg",
         )
     ET.indent(rss)
