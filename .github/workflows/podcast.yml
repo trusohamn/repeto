@@ -2,7 +2,7 @@ name: Publish podcasts
 on:
   push:
     branches: [main]
-    paths: ["podcast/**", "code/podcast.py", ".github/workflows/podcast.yml"]
+    paths: ["podcast/**", "code/podcast.py", "tests/test_podcast.py", ".github/workflows/podcast.yml"]
   workflow_dispatch:
 
 permissions:
@@ -25,7 +25,9 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.13"
-      - run: python code/podcast.py
+      - run: |
+          python -m unittest discover -s tests -p test_podcast.py -v
+          python code/podcast.py
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
