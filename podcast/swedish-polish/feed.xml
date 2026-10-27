@@ -1,0 +1,351 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Repeto – Svenska till polska</title>
+    <link>https://trusohamn.github.io/repeto/swedish-polish/</link>
+    <description>Lär dig polska med svenska ledtrådar. En språkkurs för barn med tydligt uttal, tankepauser och varje polsk fras två gånger. Rösterna är AI-genererade.</description>
+    <language>sv</language>
+    <itunes:author>Marta Trusohamn</itunes:author>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:type>serial</itunes:type>
+    <itunes:owner>
+      <itunes:name>Marta Trusohamn</itunes:name>
+      <itunes:email>marta.trusohamn@gmail.com</itunes:email>
+    </itunes:owner>
+    <itunes:image href="https://trusohamn.github.io/repeto/swedish-polish/cover.jpeg" />
+    <itunes:category text="Education">
+      <itunes:category text="Language Learning" />
+    </itunes:category>
+    <atom:link href="https://trusohamn.github.io/repeto/swedish-polish/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>01. Greetings</title>
+      <description>Öva polska med svenska ledtrådar. Ämne: Greetings. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-polish:topic-01</guid>
+      <pubDate>Tue, 27 Oct 2026 14:00:00 +0000</pubDate>
+      <itunes:episode>1</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>371</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-polish/audio/01_greetings_se_pl_double_2026-10-27_11-56-13.mp3" length="8914485" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>02. Numbers</title>
+      <description>Öva polska med svenska ledtrådar. Ämne: Numbers. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-polish:topic-02</guid>
+      <pubDate>Tue, 27 Oct 2026 14:00:00 +0000</pubDate>
+      <itunes:episode>2</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>350</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-polish/audio/02_numbers_se_pl_double_2026-10-27_11-56-13.mp3" length="8409799" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>03. Colors</title>
+      <description>Öva polska med svenska ledtrådar. Ämne: Colors. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-polish:topic-03</guid>
+      <pubDate>Tue, 27 Oct 2026 14:00:00 +0000</pubDate>
+      <itunes:episode>3</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>316</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-polish/audio/03_colors_se_pl_double_2026-10-27_11-56-13.mp3" length="7580359" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>04. Animals</title>
+      <description>Öva polska med svenska ledtrådar. Ämne: Animals. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-polish:topic-04</guid>
+      <pubDate>Tue, 27 Oct 2026 14:00:00 +0000</pubDate>
+      <itunes:episode>4</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>413</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-polish/audio/04_animals_se_pl_double_2026-10-27_11-56-13.mp3" length="9911318" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>05. Family</title>
+      <description>Öva polska med svenska ledtrådar. Ämne: Family. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-polish:topic-05</guid>
+      <pubDate>Tue, 27 Oct 2026 14:00:00 +0000</pubDate>
+      <itunes:episode>5</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>293</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-polish/audio/05_family_se_pl_double_2026-10-27_11-56-13.mp3" length="7039938" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>06. Food</title>
+      <description>Öva polska med svenska ledtrådar. Ämne: Food. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-polish:topic-06</guid>
+      <pubDate>Tue, 27 Oct 2026 14:00:00 +0000</pubDate>
+      <itunes:episode>6</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>499</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-polish/audio/06_food_se_pl_double_2026-10-27_12-16-09.mp3" length="11972692" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>07. Body</title>
+      <description>Öva polska med svenska ledtrådar. Ämne: Body. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-polish:topic-07</guid>
+      <pubDate>Tue, 27 Oct 2026 14:00:00 +0000</pubDate>
+      <itunes:episode>7</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>371</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-polish/audio/07_body_se_pl_double_2026-10-27_12-18-16.mp3" length="8896931" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>08. Clothing</title>
+      <description>Öva polska med svenska ledtrådar. Ämne: Clothing. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-polish:topic-08</guid>
+      <pubDate>Tue, 27 Oct 2026 14:00:00 +0000</pubDate>
+      <itunes:episode>8</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>313</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-polish/audio/08_clothing_se_pl_double_2026-10-27_12-23-11.mp3" length="7525189" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>09. Home</title>
+      <description>Öva polska med svenska ledtrådar. Ämne: Home. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-polish:topic-09</guid>
+      <pubDate>Tue, 27 Oct 2026 14:00:00 +0000</pubDate>
+      <itunes:episode>9</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>391</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-polish/audio/09_home_se_pl_double_2026-10-27_12-25-12.mp3" length="9389705" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>10. School</title>
+      <description>Öva polska med svenska ledtrådar. Ämne: School. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-polish:topic-10</guid>
+      <pubDate>Tue, 27 Oct 2026 14:00:00 +0000</pubDate>
+      <itunes:episode>10</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>436</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-polish/audio/10_school_se_pl_double_2026-10-27_12-27-33.mp3" length="10466159" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>11. Weather</title>
+      <description>Öva polska med svenska ledtrådar. Ämne: Weather. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-polish:topic-11</guid>
+      <pubDate>Tue, 27 Oct 2026 14:00:00 +0000</pubDate>
+      <itunes:episode>11</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>257</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-polish/audio/11_weather_se_pl_double_2026-10-27_12-30-37.mp3" length="6173509" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>12. Seasons</title>
+      <description>Öva polska med svenska ledtrådar. Ämne: Seasons. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-polish:topic-12</guid>
+      <pubDate>Tue, 27 Oct 2026 14:00:00 +0000</pubDate>
+      <itunes:episode>12</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>206</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-polish/audio/12_seasons_se_pl_double_2026-10-27_12-32-41.mp3" length="4935305" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>13. Days and Time</title>
+      <description>Öva polska med svenska ledtrådar. Ämne: Days and Time. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-polish:topic-13</guid>
+      <pubDate>Tue, 27 Oct 2026 14:00:00 +0000</pubDate>
+      <itunes:episode>13</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>308</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-polish/audio/13_days_and_time_se_pl_double_2026-10-27_12-33-55.mp3" length="7400428" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>14. Toys and Play</title>
+      <description>Öva polska med svenska ledtrådar. Ämne: Toys and Play. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-polish:topic-14</guid>
+      <pubDate>Tue, 27 Oct 2026 14:00:00 +0000</pubDate>
+      <itunes:episode>14</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>368</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-polish/audio/14_toys_and_play_se_pl_double_2026-10-27_12-36-37.mp3" length="8843641" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>15. Sports and Activities</title>
+      <description>Öva polska med svenska ledtrådar. Ämne: Sports and Activities. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-polish:topic-15</guid>
+      <pubDate>Tue, 27 Oct 2026 14:00:00 +0000</pubDate>
+      <itunes:episode>15</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>279</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-polish/audio/15_sports_and_activities_se_pl_double_2026-10-27_12-40-32.mp3" length="6708288" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>16. I want / I need</title>
+      <description>Öva polska med svenska ledtrådar. Ämne: I want / I need. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-polish:topic-16</guid>
+      <pubDate>Tue, 27 Oct 2026 14:00:00 +0000</pubDate>
+      <itunes:episode>16</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>320</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-polish/audio/16_i_want_i_need_se_pl_double_2026-10-27_12-41-58.mp3" length="7689447" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>17. Where is?</title>
+      <description>Öva polska med svenska ledtrådar. Ämne: Where is?. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-polish:topic-17</guid>
+      <pubDate>Tue, 27 Oct 2026 14:00:00 +0000</pubDate>
+      <itunes:episode>17</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>317</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-polish/audio/17_where_is_se_pl_double_2026-10-27_12-43-30.mp3" length="7613587" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>18. Feelings and Emotions</title>
+      <description>Öva polska med svenska ledtrådar. Ämne: Feelings and Emotions. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-polish:topic-18</guid>
+      <pubDate>Tue, 27 Oct 2026 14:00:00 +0000</pubDate>
+      <itunes:episode>18</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>308</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-polish/audio/18_feelings_and_emotions_se_pl_double_2026-10-27_12-45-13.mp3" length="7391651" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>19. Transport</title>
+      <description>Öva polska med svenska ledtrådar. Ämne: Transport. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-polish:topic-19</guid>
+      <pubDate>Tue, 27 Oct 2026 14:00:00 +0000</pubDate>
+      <itunes:episode>19</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>271</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-polish/audio/19_transport_se_pl_double_2026-10-27_12-46-45.mp3" length="6508921" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>20. Nature</title>
+      <description>Öva polska med svenska ledtrådar. Ämne: Nature. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-polish:topic-20</guid>
+      <pubDate>Tue, 27 Oct 2026 14:00:00 +0000</pubDate>
+      <itunes:episode>20</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>277</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-polish/audio/20_nature_se_pl_double_2026-10-27_12-48-06.mp3" length="6655625" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>21. Holidays and Celebrations</title>
+      <description>Öva polska med svenska ledtrådar. Ämne: Holidays and Celebrations. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-polish:topic-21</guid>
+      <pubDate>Tue, 27 Oct 2026 14:00:00 +0000</pubDate>
+      <itunes:episode>21</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>264</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-polish/audio/21_holidays_and_celebrations_se_pl_double_2026-10-27_12-49-30.mp3" length="6346544" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>22. Daily Routine</title>
+      <description>Öva polska med svenska ledtrådar. Ämne: Daily Routine. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-polish:topic-22</guid>
+      <pubDate>Tue, 27 Oct 2026 14:00:00 +0000</pubDate>
+      <itunes:episode>22</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>314</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-polish/audio/22_daily_routine_se_pl_double_2026-10-27_12-50-49.mp3" length="7545878" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>23. Asking and Requests</title>
+      <description>Öva polska med svenska ledtrådar. Ämne: Asking and Requests. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-polish:topic-23</guid>
+      <pubDate>Tue, 27 Oct 2026 14:00:00 +0000</pubDate>
+      <itunes:episode>23</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>275</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-polish/audio/23_asking_and_requests_se_pl_double_2026-10-27_13-49-39.mp3" length="6597946" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>24. Opposites</title>
+      <description>Öva polska med svenska ledtrådar. Ämne: Opposites. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-polish:topic-24</guid>
+      <pubDate>Tue, 27 Oct 2026 14:00:00 +0000</pubDate>
+      <itunes:episode>24</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>288</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-polish/audio/24_opposites_se_pl_double_2026-10-27_13-50-51.mp3" length="6917685" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>25. Actions and Verbs</title>
+      <description>Öva polska med svenska ledtrådar. Ämne: Actions and Verbs. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-polish:topic-25</guid>
+      <pubDate>Tue, 27 Oct 2026 14:00:00 +0000</pubDate>
+      <itunes:episode>25</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>424</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-polish/audio/25_actions_and_verbs_se_pl_double_2026-10-27_13-52-25.mp3" length="10180901" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>26. Places in Town</title>
+      <description>Öva polska med svenska ledtrådar. Ämne: Places in Town. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-polish:topic-26</guid>
+      <pubDate>Tue, 27 Oct 2026 14:00:00 +0000</pubDate>
+      <itunes:episode>26</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>254</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-polish/audio/26_places_in_town_se_pl_double_2026-10-27_14-00-22.mp3" length="6102038" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>27. Technology</title>
+      <description>Öva polska med svenska ledtrådar. Ämne: Technology. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-polish:topic-27</guid>
+      <pubDate>Tue, 27 Oct 2026 14:00:00 +0000</pubDate>
+      <itunes:episode>27</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>247</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-polish/audio/27_technology_se_pl_double_2026-10-27_14-02-06.mp3" length="5939034" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>28. Music and Art</title>
+      <description>Öva polska med svenska ledtrådar. Ämne: Music and Art. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-polish:topic-28</guid>
+      <pubDate>Tue, 27 Oct 2026 14:00:00 +0000</pubDate>
+      <itunes:episode>28</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>246</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-polish/audio/28_music_and_art_se_pl_double_2026-10-27_14-03-24.mp3" length="5905179" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>29. Polite Phrases</title>
+      <description>Öva polska med svenska ledtrådar. Ämne: Polite Phrases. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-polish:topic-29</guid>
+      <pubDate>Tue, 27 Oct 2026 14:00:00 +0000</pubDate>
+      <itunes:episode>29</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>176</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-polish/audio/29_polite_phrases_se_pl_double_2026-10-27_14-04-47.mp3" length="4226864" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>30. Review and Recap</title>
+      <description>Öva polska med svenska ledtrådar. Ämne: Review and Recap. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-polish:topic-30</guid>
+      <pubDate>Tue, 27 Oct 2026 14:00:00 +0000</pubDate>
+      <itunes:episode>30</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>125</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-polish/audio/30_review_and_recap_se_pl_double_2026-10-27_14-05-41.mp3" length="3003079" type="audio/mpeg" />
+    </item>
+  </channel>
+</rss>

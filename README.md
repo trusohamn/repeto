@@ -4,6 +4,24 @@ Generate children's language-learning MP3s and timestamp JSON files from
 [course_transcript.json](course_transcript.json). Supports Swedish (`se`),
 English (`en`), and Polish (`pl`) in any direction.
 
+## Podcast / Spotify
+
+RSS: https://trusohamn.github.io/repeto/swedish-polish/feed.xml
+
+Each course lives in `podcast/<course>/` with `cover.jpeg`, `course.json`, and
+`audio/`. The catalog stores permanent episode IDs and publication dates;
+keep these unchanged when replacing recordings.
+
+```sh
+.venv/bin/python code/podcast.py
+```
+
+Push changes to `main` to publish through GitHub Actions. One-time GitHub setup:
+**Settings → Pages → Build and deployment → Source: GitHub Actions**.
+In [Spotify for Creators](https://creators.spotify.com/), choose **Add a new show
+→ Find an existing show → Somewhere else**, enter the RSS URL, and verify
+using the code emailed to the feed owner. The owner email is public in RSS.
+
 ## Generate audio
 
 Run commands from this project directory after setup below.
