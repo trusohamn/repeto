@@ -1,0 +1,1290 @@
+{
+  "story_id": "magical_radio",
+  "titles": {
+    "pl": "Magiczne Radio",
+    "sv": "Den magiska radion",
+    "en": "The Magical Radio"
+  },
+  "chapters": [
+    {
+      "chapter_number": 1,
+      "titles": {
+        "pl": "Stary stół",
+        "sv": "Det gamla bordet",
+        "en": "The Old Table"
+      },
+      "vocabulary": [
+        {
+          "id": 1,
+          "text": {
+            "pl": "pchli targ",
+            "sv": "loppmarknad",
+            "en": "flea market"
+          }
+        },
+        {
+          "id": 2,
+          "text": {
+            "pl": "złote pokrętła",
+            "sv": "gyllene rattar",
+            "en": "gold knobs"
+          }
+        },
+        {
+          "id": 3,
+          "text": {
+            "pl": "kolorowe przyciski",
+            "sv": "färgade knappar",
+            "en": "colourful buttons"
+          }
+        },
+        {
+          "id": 4,
+          "text": {
+            "pl": "cicho szumieć",
+            "sv": "susa tyst",
+            "en": "hum quietly"
+          }
+        },
+        {
+          "id": 5,
+          "text": {
+            "pl": "złoty napis",
+            "sv": "gyllene inskription",
+            "en": "golden inscription"
+          }
+        },
+        {
+          "id": 6,
+          "text": {
+            "pl": "otworzyć szeroko oczy",
+            "sv": "spärra upp ögonen",
+            "en": "open one's eyes wide"
+          }
+        },
+        {
+          "id": 111,
+        "text": {
+          "pl": "sobota",
+          "sv": "lördag",
+          "en": "Saturday"
+        }
+      },
+      {
+        "id": 112,
+        "text": {
+          "pl": "ma dziewięć lat",
+          "sv": "är nio år",
+          "en": "is nine years old"
+        }
+      },
+      {
+        "id": 113,
+        "text": {
+          "pl": "jej brat",
+          "sv": "hennes bror",
+          "en": "her brother"
+        }
+      },
+      {
+        "id": 114,
+        "text": {
+          "pl": "ma sześć lat",
+          "sv": "är sex år",
+          "en": "is six years old"
+        }
+      },
+      {
+        "id": 115,
+        "text": {
+          "pl": "razem",
+          "sv": "tillsammans",
+          "en": "together"
+        }
+      },
+      {
+        "id": 116,
+        "text": {
+          "pl": "w rogu",
+          "sv": "i hörnet",
+          "en": "in the corner"
+        }
+      },
+      {
+        "id": 117,
+        "text": {
+          "pl": "stary stół",
+          "sv": "ett gammalt bord",
+          "en": "an old table"
+        }
+      },
+      {
+        "id": 118,
+        "text": {
+          "pl": "drewniane radio",
+          "sv": "en radio av trä",
+          "en": "a wooden radio"
+        }
+      },
+      {
+        "id": 119,
+        "text": {
+          "pl": "na stole",
+          "sv": "på bordet",
+          "en": "on the table"
+        }
+      },
+      {
+        "id": 120,
+        "text": {
+          "pl": "podchodzić bliżej",
+          "sv": "komma närmare",
+          "en": "come closer"
+        }
+      },
+      {
+        "id": 121,
+        "text": {
+          "pl": "nagle",
+          "sv": "plötsligt",
+          "en": "suddenly"
+        }
+      },
+      {
+        "id": 122,
+        "text": {
+          "pl": "pojawić się",
+          "sv": "dyka upp",
+          "en": "appear"
+        }
+      },
+      {
+        "id": 200,
+        "text": {
+          "pl": "gdy",
+          "sv": "när",
+          "en": "when"
+        }
+      },
+      {
+        "id": 210,
+        "text": {
+          "pl": "stać",
+          "sv": "stå",
+          "en": "stand"
+        }
+      },
+      {
+        "id": 211,
+        "text": {
+          "pl": "iść na pchli targ",
+          "sv": "gå på loppmarknad",
+          "en": "go to a flea market"
+        }
+      }
+      ],
+      "chapter_text": {
+        "pl": "Jest sobota. Maja ma dziewięć lat, a jej brat Tomek ma sześć lat. Razem idą na pchli targ. W rogu stoi stary stół, a na stole – drewniane radio. Ma złote pokrętła i kolorowe przyciski. Gdy Maja podchodzi bliżej, radio nagle cicho szumi: Dzyń! Na radiu pojawia się złoty napis: „Dla Mai i Tomka”. Dzieci otwierają szeroko oczy."
+      }
+    },
+    {
+      "chapter_number": 2,
+      "titles": {
+        "pl": "Głos z radia",
+        "sv": "En röst ur radion",
+        "en": "A Voice from the Radio"
+      },
+      "vocabulary": [
+        {
+          "id": 15,
+          "text": {
+            "pl": "niebieski przycisk",
+            "sv": "blå knapp",
+            "en": "blue button"
+          }
+        },
+        {
+          "id": 16,
+          "text": {
+            "pl": "mała chmurka",
+            "sv": "litet moln",
+            "en": "little cloud"
+          }
+        },
+        {
+          "id": 17,
+          "text": {
+            "pl": "pachnieć cynamonem",
+            "sv": "dofta av kanel",
+            "en": "smell of cinnamon"
+          }
+        },
+        {
+          "id": 18,
+          "text": {
+            "pl": "wesoły głos",
+            "sv": "glad röst",
+            "en": "cheerful voice"
+          }
+        },
+        {
+          "id": 19,
+          "text": {
+            "pl": "odkrywcy",
+            "sv": "upptäckare",
+            "en": "explorers"
+          }
+        },
+        {
+          "id": 20,
+          "text": {
+            "pl": "latarka",
+            "sv": "ficklampa",
+            "en": "flashlight"
+          }
+        },
+        {
+          "id": 21,
+          "text": {
+            "pl": "kawałek sera",
+            "sv": "en bit ost",
+            "en": "a piece of cheese"
+          }
+        },
+        {
+          "id": 123,
+          "text": {
+            "pl": "nieść radio do domu",
+            "sv": "bära hem radion",
+            "en": "carry the radio home"
+          }
+        },
+        {
+          "id": 124,
+          "text": {
+            "pl": "naciskać przycisk",
+            "sv": "trycka på en knapp",
+            "en": "press a button"
+          }
+        },
+        {
+          "id": 125,
+          "text": {
+            "pl": "wylatywać z radia",
+            "sv": "flyga ut ur radion",
+            "en": "fly out of the radio"
+          }
+        },
+        {
+          "id": 126,
+          "text": {
+            "pl": "nazywać się",
+            "sv": "heta",
+            "en": "be called"
+          }
+        },
+        {
+          "id": 127,
+          "text": {
+            "pl": "wasz ogród",
+            "sv": "er trädgård",
+            "en": "your garden"
+          }
+        },
+        {
+          "id": 128,
+          "text": {
+            "pl": "pod starym drzewem",
+            "sv": "under det gamla trädet",
+            "en": "under the old tree"
+          }
+        },
+        {
+          "id": 129,
+          "text": {
+            "pl": "leżeć",
+            "sv": "ligga",
+            "en": "lie"
+          }
+        },
+        {
+          "id": 130,
+          "text": {
+            "pl": "klucz",
+            "sv": "en nyckel",
+            "en": "a key"
+          }
+        },
+        {
+          "id": 131,
+          "text": {
+            "pl": "weźcie",
+            "sv": "ta med er",
+            "en": "bring"
+          }
+        },
+        {
+          "id": 201,
+          "text": {
+            "pl": "cześć",
+            "sv": "hej",
+            "en": "hi"
+          }
+        },
+        {
+          "id": 208,
+          "text": {
+            "pl": "mówić",
+            "sv": "säga",
+            "en": "say"
+          }
+        }
+      ],
+      "chapter_text": {
+        "pl": "Dzieci niosą radio do domu. Tomek naciska niebieski przycisk. Z radia wylatuje mała chmurka, która pachnie cynamonem. – Cześć, odkrywcy! – mówi wesoły głos. – Nazywam się Radiofon. W waszym ogrodzie, pod starym drzewem, leży klucz. Weźcie latarkę i kawałek sera!"
+      }
+    },
+    {
+      "chapter_number": 3,
+      "titles": {
+        "pl": "Mysz pod drzewem",
+        "sv": "En mus under trädet",
+        "en": "A Mouse under the Tree"
+      },
+      "vocabulary": [
+        {
+          "id": 29,
+          "text": {
+            "pl": "żółty ser",
+            "sv": "gul ost",
+            "en": "yellow cheese"
+          }
+        },
+        {
+          "id": 30,
+          "text": {
+            "pl": "świecić latarką",
+            "sv": "lysa med ficklampan",
+            "en": "shine a flashlight"
+          }
+        },
+        {
+          "id": 31,
+          "text": {
+            "pl": "korzenie",
+            "sv": "rötter",
+            "en": "roots"
+          }
+        },
+        {
+          "id": 32,
+          "text": {
+            "pl": "dziura",
+            "sv": "hål",
+            "en": "hole"
+          }
+        },
+        {
+          "id": 33,
+          "text": {
+            "pl": "łapki",
+            "sv": "små tassar",
+            "en": "little paws"
+          }
+        },
+        {
+          "id": 34,
+          "text": {
+            "pl": "srebrny klucz",
+            "sv": "silvernyckel",
+            "en": "silver key"
+          }
+        },
+        {
+          "id": 35,
+          "text": {
+            "pl": "pod liśćmi",
+            "sv": "under löven",
+            "en": "under the leaves"
+          }
+        },
+        {
+          "id": 132,
+          "text": {
+            "pl": "brać",
+            "sv": "ta",
+            "en": "take"
+          }
+        },
+        {
+          "id": 133,
+          "text": {
+            "pl": "iść pod drzewo",
+            "sv": "gå under det stora trädet",
+            "en": "go under the big tree"
+          }
+        },
+        {
+          "id": 134,
+          "text": {
+            "pl": "w ogrodzie",
+            "sv": "i trädgården",
+            "en": "in the garden"
+          }
+        },
+        {
+          "id": 135,
+          "text": {
+            "pl": "wielkie drzewo",
+            "sv": "ett stort träd",
+            "en": "a big tree"
+          }
+        },
+        {
+          "id": 136,
+          "text": {
+            "pl": "wychodzić z dziury",
+            "sv": "komma ut ur ett hål",
+            "en": "come out of a hole"
+          }
+        },
+        {
+          "id": 137,
+          "text": {
+            "pl": "mała mysz",
+            "sv": "en liten mus",
+            "en": "a little mouse"
+          }
+        },
+        {
+          "id": 138,
+          "text": {
+            "pl": "książka",
+            "sv": "en bok",
+            "en": "a book"
+          }
+        },
+        {
+          "id": 139,
+          "text": {
+            "pl": "mamy ser",
+            "sv": "vi har ost",
+            "en": "we have cheese"
+          }
+        },
+        {
+          "id": 140,
+          "text": {
+            "pl": "masz klucz?",
+            "sv": "har du en nyckel?",
+            "en": "do you have a key?"
+          }
+        },
+        {
+          "id": 141,
+          "text": {
+            "pl": "pytać",
+            "sv": "fråga",
+            "en": "ask"
+          }
+        },
+        {
+          "id": 142,
+          "text": {
+            "pl": "dawać",
+            "sv": "ge",
+            "en": "give"
+          }
+        },
+        {
+          "id": 143,
+          "text": {
+            "pl": "zabierać ser",
+            "sv": "ta med sig osten",
+            "en": "take the cheese away"
+          }
+        },
+        {
+          "id": 144,
+          "text": {
+            "pl": "znikać",
+            "sv": "försvinna",
+            "en": "disappear"
+          }
+        },
+        {
+          "id": 145,
+          "text": {
+            "pl": "znajdować",
+            "sv": "hitta",
+            "en": "find"
+          }
+        },
+        {
+          "id": 197,
+          "text": {
+            "pl": "stare drzwi w ziemi",
+            "sv": "en gammal dörr i marken",
+            "en": "an old door in the ground"
+          }
+        }
+      ],
+      "chapter_text": {
+        "pl": "Maja bierze latarkę, a Tomek żółty ser. Idą pod wielkie drzewo w ogrodzie. Tomek świeci latarką pod korzenie. Z dziury wychodzi mała mysz z książką w łapkach. – Mamy ser. Masz klucz? – pyta Tomek. Mysz daje im srebrny klucz, zabiera ser i znika. Pod liśćmi dzieci znajdują stare drzwi w ziemi."
+      }
+    },
+    {
+      "chapter_number": 4,
+      "titles": {
+        "pl": "Schody w dół",
+        "sv": "Trappan ner",
+        "en": "The Stairs Going Down"
+      },
+      "vocabulary": [
+        {
+          "id": 44,
+          "text": {
+            "pl": "przekręcić klucz",
+            "sv": "vrida om nyckeln",
+            "en": "turn the key"
+          }
+        },
+        {
+          "id": 45,
+          "text": {
+            "pl": "otwierać się",
+            "sv": "öppnas",
+            "en": "open"
+          }
+        },
+        {
+          "id": 46,
+          "text": {
+            "pl": "kamienne schody",
+            "sv": "stentrappa",
+            "en": "stone stairs"
+          }
+        },
+        {
+          "id": 47,
+          "text": {
+            "pl": "świecące kwiaty",
+            "sv": "lysande blommor",
+            "en": "glowing flowers"
+          }
+        },
+        {
+          "id": 48,
+          "text": {
+            "pl": "sufit",
+            "sv": "tak",
+            "en": "ceiling"
+          }
+        },
+        {
+          "id": 49,
+          "text": {
+            "pl": "na środku",
+            "sv": "i mitten",
+            "en": "in the middle"
+          }
+        },
+        {
+          "id": 146,
+          "text": {
+            "pl": "klik!",
+            "sv": "klick!",
+            "en": "click!"
+          }
+        },
+        {
+          "id": 147,
+          "text": {
+            "pl": "prowadzić w dół",
+            "sv": "leda neråt",
+            "en": "lead down"
+          }
+        },
+        {
+          "id": 148,
+          "text": {
+            "pl": "ściana",
+            "sv": "en vägg",
+            "en": "a wall"
+          }
+        },
+        {
+          "id": 149,
+          "text": {
+            "pl": "rosnąć",
+            "sv": "växa",
+            "en": "grow"
+          }
+        },
+        {
+          "id": 150,
+          "text": {
+            "pl": "schodzić",
+            "sv": "gå ner",
+            "en": "go down"
+          }
+        },
+        {
+          "id": 151,
+          "text": {
+            "pl": "wielki pokój",
+            "sv": "ett stort rum",
+            "en": "a big room"
+          }
+        },
+        {
+          "id": 152,
+          "text": {
+            "pl": "wszędzie",
+            "sv": "överallt",
+            "en": "everywhere"
+          }
+        },
+        {
+          "id": 153,
+          "text": {
+            "pl": "książki",
+            "sv": "böcker",
+            "en": "books"
+          }
+        },
+        {
+          "id": 154,
+          "text": {
+            "pl": "niektóre",
+            "sv": "några",
+            "en": "some"
+          }
+        },
+        {
+          "id": 155,
+          "text": {
+            "pl": "latać",
+            "sv": "flyga",
+            "en": "fly"
+          }
+        },
+        {
+          "id": 156,
+          "text": {
+            "pl": "pod sufitem",
+            "sv": "under taket",
+            "en": "under the ceiling"
+          }
+        },
+        {
+          "id": 157,
+          "text": {
+            "pl": "drugie radio",
+            "sv": "en radio till",
+            "en": "a second radio"
+          }
+        },
+        {
+          "id": 202,
+          "text": {
+            "pl": "stać",
+            "sv": "stå",
+            "en": "stand"
+          }
+        },
+        {
+          "id": 203,
+          "text": {
+            "pl": "na ścianach",
+            "sv": "på väggarna",
+            "en": "on the walls"
+          }
+        },
+        {
+          "id": 204,
+          "text": {
+            "pl": "świecić na niebiesko",
+            "sv": "lysa blått",
+            "en": "glow blue"
+          }
+        }
+      ],
+      "chapter_text": {
+        "pl": "Maja przekręca klucz. Klik! Drzwi się otwierają. W dół prowadzą kamienne schody. Na ścianach rosną świecące na niebiesko kwiaty. Dzieci schodzą do wielkiego pokoju. Wszędzie stoją książki – niektóre latają pod sufitem! Na środku stoi drugie radio."
+      }
+    },
+    {
+      "chapter_number": 5,
+      "titles": {
+        "pl": "Latająca książka",
+        "sv": "Den flygande boken",
+        "en": "The Flying Book"
+      },
+      "vocabulary": [
+        {
+          "id": 58,
+          "text": {
+            "pl": "złota książka",
+            "sv": "gyllene bok",
+            "en": "golden book"
+          }
+        },
+        {
+          "id": 59,
+          "text": {
+            "pl": "machać stronami",
+            "sv": "flaxa med sidorna",
+            "en": "flap its pages"
+          }
+        },
+        {
+          "id": 60,
+          "text": {
+            "pl": "ramię",
+            "sv": "axel",
+            "en": "shoulder"
+          }
+        },
+        {
+          "id": 61,
+          "text": {
+            "pl": "zaklęcie",
+            "sv": "trollformel",
+            "en": "spell"
+          }
+        },
+        {
+          "id": 62,
+          "text": {
+            "pl": "zepsuty kompas",
+            "sv": "en trasig kompass",
+            "en": "a broken compass"
+          }
+        },
+        {
+          "id": 158,
+          "text": {
+            "pl": "wylądować na ramieniu",
+            "sv": "landa på axeln",
+            "en": "land on a shoulder"
+          }
+        },
+        {
+          "id": 159,
+          "text": {
+            "pl": "natychmiast",
+            "sv": "genast",
+            "en": "immediately"
+          }
+        },
+        {
+          "id": 160,
+          "text": {
+            "pl": "odezwać się",
+            "sv": "börja tala",
+            "en": "speak up"
+          }
+        },
+        {
+          "id": 161,
+          "text": {
+            "pl": "uczyć",
+            "sv": "lära ut",
+            "en": "teach"
+          }
+        },
+        {
+          "id": 162,
+          "text": {
+            "pl": "ważny",
+            "sv": "viktig",
+            "en": "important"
+          }
+        },
+        {
+          "id": 163,
+          "text": {
+            "pl": "słowo",
+            "sv": "ett ord",
+            "en": "a word"
+          }
+        },
+        {
+          "id": 164,
+          "text": {
+            "pl": "naprawiać",
+            "sv": "laga",
+            "en": "repair"
+          }
+        },
+        {
+          "id": 165,
+          "text": {
+            "pl": "zepsuta rzecz",
+            "sv": "en trasig sak",
+            "en": "a broken thing"
+          }
+        },
+        {
+          "id": 166,
+          "text": {
+            "pl": "wyciągać z kieszeni",
+            "sv": "ta upp ur fickan",
+            "en": "take out of a pocket"
+          }
+        },
+        {
+          "id": 167,
+          "text": {
+            "pl": "stary",
+            "sv": "gammal",
+            "en": "old"
+          }
+        },
+        {
+          "id": 198,
+          "text": {
+            "pl": "każda zepsuta rzecz",
+            "sv": "varje trasig sak",
+            "en": "every broken thing"
+          }
+        },
+        {
+          "id": 199,
+          "text": {
+            "pl": "Reparo!",
+            "sv": "Reparo!",
+            "en": "Reparo!"
+          }
+        }
+      ],
+      "chapter_text": {
+        "pl": "Złota książka macha stronami i ląduje na ramieniu Mai. Drugie radio odzywa się natychmiast: – Ta książka uczy ważnego zaklęcia. Słowo to: Reparo! Naprawia każdą zepsutą rzecz. Tomek wyciąga z kieszeni stary, zepsuty kompas."
+      }
+    },
+    {
+      "chapter_number": 6,
+      "titles": {
+        "pl": "Pierwsze zaklęcie",
+        "sv": "Den första trollformeln",
+        "en": "The First Spell"
+      },
+      "vocabulary": [
+        {
+          "id": 69,
+          "text": {
+            "pl": "trzymać kompas",
+            "sv": "hålla i kompassen",
+            "en": "hold the compass"
+          }
+        },
+        {
+          "id": 70,
+          "text": {
+            "pl": "mówić razem",
+            "sv": "säga tillsammans",
+            "en": "say together"
+          }
+        },
+        {
+          "id": 71,
+          "text": {
+            "pl": "złota iskra",
+            "sv": "gyllene gnista",
+            "en": "golden spark"
+          }
+        },
+        {
+          "id": 72,
+          "text": {
+            "pl": "igła",
+            "sv": "nål",
+            "en": "needle"
+          }
+        },
+        {
+          "id": 73,
+          "text": {
+            "pl": "zielone drzwi",
+            "sv": "grön dörr",
+            "en": "green door"
+          }
+        },
+        {
+          "id": 74,
+          "text": {
+            "pl": "czekać na pomoc",
+            "sv": "vänta på hjälp",
+            "en": "wait for help"
+          }
+        },
+        {
+          "id": 168,
+          "text": {
+            "pl": "znów",
+            "sv": "igen",
+            "en": "again"
+          }
+        },
+        {
+          "id": 169,
+          "text": {
+            "pl": "być całym",
+            "sv": "vara hel",
+            "en": "be whole"
+          }
+        },
+        {
+          "id": 170,
+          "text": {
+            "pl": "kręcić się",
+            "sv": "snurra",
+            "en": "spin"
+          }
+        },
+        {
+          "id": 171,
+          "text": {
+            "pl": "wskazywać",
+            "sv": "peka",
+            "en": "point"
+          }
+        },
+        {
+          "id": 172,
+          "text": {
+            "pl": "działać",
+            "sv": "fungera",
+            "en": "work"
+          }
+        },
+        {
+          "id": 173,
+          "text": {
+            "pl": "krzyczeć",
+            "sv": "ropa",
+            "en": "shout"
+          }
+        },
+        {
+          "id": 174,
+          "text": {
+            "pl": "za drzwiami",
+            "sv": "bakom dörren",
+            "en": "behind the door"
+          }
+        },
+        {
+          "id": 175,
+          "text": {
+            "pl": "ktoś",
+            "sv": "någon",
+            "en": "someone"
+          }
+        },
+        {
+          "id": 176,
+          "text": {
+            "pl": "wasza pomoc",
+            "sv": "er hjälp",
+            "en": "your help"
+          }
+        }
+      ],
+      "chapter_text": {
+        "pl": "Tomek trzyma kompas. Dzieci mówią razem: – Reparo! Błyska złota iskra. Kompas znów jest cały! Igła kręci się i pokazuje zielone drzwi. – Działa! – krzyczy Tomek. Radio mówi: – Za drzwiami ktoś czeka na waszą pomoc."
+      }
+    },
+    {
+      "chapter_number": 7,
+      "titles": {
+        "pl": "Złoty ptak",
+        "sv": "Den gyllene fågeln",
+        "en": "The Golden Bird"
+      },
+      "vocabulary": [
+        {
+          "id": 84,
+          "text": {
+            "pl": "otworzyć drzwi",
+            "sv": "öppna dörren",
+            "en": "open the door"
+          }
+        },
+        {
+          "id": 85,
+          "text": {
+            "pl": "gałąź",
+            "sv": "gren",
+            "en": "branch"
+          }
+        },
+        {
+          "id": 86,
+          "text": {
+            "pl": "tykać jak zegar",
+            "sv": "ticka som en klocka",
+            "en": "tick like a clock"
+          }
+        },
+        {
+          "id": 87,
+          "text": {
+            "pl": "skrzydło",
+            "sv": "vinge",
+            "en": "wing"
+          }
+        },
+        {
+          "id": 88,
+          "text": {
+            "pl": "kamyczek",
+            "sv": "liten sten",
+            "en": "little stone"
+          }
+        },
+        {
+          "id": 89,
+          "text": {
+            "pl": "szybko",
+            "sv": "fort",
+            "en": "quickly"
+          }
+        },
+        {
+          "id": 177,
+          "text": {
+            "pl": "wejść do ogrodu",
+            "sv": "gå in i trädgården",
+            "en": "go into the garden"
+          }
+        },
+        {
+          "id": 178,
+          "text": {
+            "pl": "siedzieć na gałęzi",
+            "sv": "sitta på en gren",
+            "en": "sit on a branch"
+          }
+        },
+        {
+          "id": 179,
+          "text": {
+            "pl": "złoty ptak",
+            "sv": "en gyllene fågel",
+            "en": "a golden bird"
+          }
+        },
+        {
+          "id": 180,
+          "text": {
+            "pl": "nie śpiewać",
+            "sv": "inte sjunga",
+            "en": "not sing"
+          }
+        },
+        {
+          "id": 181,
+          "text": {
+            "pl": "tylko",
+            "sv": "bara",
+            "en": "only"
+          }
+        },
+        {
+          "id": 182,
+          "text": {
+            "pl": "brakować",
+            "sv": "saknas",
+            "en": "be missing"
+          }
+        },
+        {
+          "id": 183,
+          "text": {
+            "pl": "na jego skrzydle",
+            "sv": "på dess ena vinge",
+            "en": "on its wing"
+          }
+        },
+        {
+          "id": 184,
+          "text": {
+            "pl": "nasze radio",
+            "sv": "vår radio",
+            "en": "our radio"
+          }
+        },
+        {
+          "id": 185,
+          "text": {
+            "pl": "w pokoju",
+            "sv": "i rummet",
+            "en": "in the room"
+          }
+        },
+        {
+          "id": 186,
+          "text": {
+            "pl": "niebieski kamień",
+            "sv": "en blå sten",
+            "en": "a blue stone"
+          }
+        },
+        {
+          "id": 207,
+          "text": {
+            "pl": "wołać",
+            "sv": "ropa",
+            "en": "call out"
+          }
+        }
+      ],
+      "chapter_text": {
+        "pl": "Dzieci otwierają zielone drzwi i wchodzą do ogrodu. Na gałęzi siedzi złoty ptak. Nie śpiewa, tylko tyka jak zegar: Tik-tak, tik-tak. Na jego skrzydle brakuje małego kamyka. – Tomek, nasze radio w pokoju ma niebieski kamień! – woła Maja. – Szybko!"
+      }
+    },
+    {
+      "chapter_number": 8,
+      "titles": {
+        "pl": "Wielki koncert",
+        "sv": "Den stora konserten",
+        "en": "The Grand Concert"
+      },
+      "vocabulary": [
+        {
+          "id": 96,
+          "text": {
+            "pl": "przynieść radio",
+            "sv": "hämta radion",
+            "en": "bring the radio"
+          }
+        },
+        {
+          "id": 97,
+          "text": {
+            "pl": "mała skrytka",
+            "sv": "litet gömställe",
+            "en": "little compartment"
+          }
+        },
+        {
+          "id": 98,
+          "text": {
+            "pl": "włożyć kamyk",
+            "sv": "stoppa in stenen",
+            "en": "put the stone in"
+          }
+        },
+        {
+          "id": 99,
+          "text": {
+            "pl": "machać skrzydłami",
+            "sv": "flaxa med vingarna",
+            "en": "flap its wings"
+          }
+        },
+        {
+          "id": 100,
+          "text": {
+            "pl": "wesoło śpiewać",
+            "sv": "sjunga glatt",
+            "en": "sing happily"
+          }
+        },
+        {
+          "id": 101,
+          "text": {
+            "pl": "dobra robota",
+            "sv": "bra jobbat",
+            "en": "good job"
+          }
+        },
+        {
+          "id": 187,
+          "text": {
+            "pl": "wypadać ze skrytki",
+            "sv": "falla ut ur det lilla facket",
+            "en": "fall out of the compartment"
+          }
+        },
+        {
+          "id": 188,
+          "text": {
+            "pl": "niebieski kamyk",
+            "sv": "en liten blå sten",
+            "en": "a little blue stone"
+          }
+        },
+        {
+          "id": 189,
+          "text": {
+            "pl": "wkładać kamyk w skrzydło",
+            "sv": "sätta in stenen i vingen",
+            "en": "put the stone into the wing"
+          }
+        },
+        {
+          "id": 190,
+          "text": {
+            "pl": "wołać",
+            "sv": "ropa",
+            "en": "call out"
+          }
+        },
+        {
+          "id": 191,
+          "text": {
+            "pl": "zaczynać śpiewać",
+            "sv": "börja sjunga",
+            "en": "begin to sing"
+          }
+        },
+        {
+          "id": 192,
+          "text": {
+            "pl": "wesoło",
+            "sv": "glatt",
+            "en": "happily"
+          }
+        },
+        {
+          "id": 193,
+          "text": {
+            "pl": "motyle",
+            "sv": "fjärilar",
+            "en": "butterflies"
+          }
+        },
+        {
+          "id": 194,
+          "text": {
+            "pl": "w powietrzu",
+            "sv": "i luften",
+            "en": "in the air"
+          }
+        },
+        {
+          "id": 195,
+          "text": {
+            "pl": "tańczyć",
+            "sv": "dansa",
+            "en": "dance"
+          }
+        },
+        {
+          "id": 196,
+          "text": {
+            "pl": "zostawać na zawsze",
+            "sv": "stanna för alltid",
+            "en": "stay forever"
+          }
+        }
+      ],
+      "chapter_text": {
+        "pl": "Dzieci przynoszą radio. Z małej skrytki wypada niebieski kamyk. Tomek wkłada go w skrzydło ptaka. Dzieci wołają: – Reparo! Złoty ptak macha skrzydłami i zaczyna wesoło śpiewać. W powietrzu tańczą motyle. – Dobra robota! – mówi Radiofon. – Zostaję z wami na zawsze!"
+      }
+    }
+  ]
+}

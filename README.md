@@ -36,6 +36,16 @@ using the code emailed to the feed owner. The owner email is public in RSS.
 
 Run commands from this project directory after setup below.
 
+**Story audio (Swedish prompt → Polish vocabulary twice, then the whole Polish chapter):**
+
+```sh
+.venv/bin/python stories/story_course.py --source-language sv --target pl
+```
+
+Use `--help` for language, voice, pause, output, and format options. Review
+[story requirements](stories/REQUIREMENTS.md) and the reusable
+[create-story-course skill](.github/skills/create-story-course/SKILL.md).
+
 **English → Polish, Greetings preview (up to 5 minutes):**
 
 ```sh

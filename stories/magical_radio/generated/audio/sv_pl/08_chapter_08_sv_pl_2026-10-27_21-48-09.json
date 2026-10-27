@@ -1,0 +1,405 @@
+{
+  "chapter_number": 8,
+  "title": {
+    "pl": "Wielki koncert",
+    "sv": "Den stora konserten",
+    "en": "The Grand Concert"
+  },
+  "source_language": "sv",
+  "target_language": "pl",
+  "practice_order": "deterministically_shuffled",
+  "total_duration_ms": 200866,
+  "practice": [
+    {
+      "id": 99,
+      "kind": "vocabulary",
+      "start_ms": 1000,
+      "end_ms": 12703,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "flaxa med vingarna",
+        "start_ms": 1000,
+        "end_ms": 2565
+      },
+      "target_playbacks": [
+        {
+          "text": "machać skrzydłami",
+          "start_ms": 4565,
+          "end_ms": 6134
+        },
+        {
+          "text": "machać skrzydłami",
+          "start_ms": 8634,
+          "end_ms": 10203
+        }
+      ]
+    },
+    {
+      "id": 187,
+      "kind": "vocabulary",
+      "start_ms": 12703,
+      "end_ms": 25305,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "falla ut ur det lilla facket",
+        "start_ms": 12703,
+        "end_ms": 14941
+      },
+      "target_playbacks": [
+        {
+          "text": "wypadać ze skrytki",
+          "start_ms": 16941,
+          "end_ms": 18623
+        },
+        {
+          "text": "wypadać ze skrytki",
+          "start_ms": 21123,
+          "end_ms": 22805
+        }
+      ]
+    },
+    {
+      "id": 190,
+      "kind": "vocabulary",
+      "start_ms": 25305,
+      "end_ms": 34594,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "ropa",
+        "start_ms": 25305,
+        "end_ms": 26120
+      },
+      "target_playbacks": [
+        {
+          "text": "wołać",
+          "start_ms": 28120,
+          "end_ms": 28857
+        },
+        {
+          "text": "wołać",
+          "start_ms": 31357,
+          "end_ms": 32094
+        }
+      ]
+    },
+    {
+      "id": 192,
+      "kind": "vocabulary",
+      "start_ms": 34594,
+      "end_ms": 43770,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "glatt",
+        "start_ms": 34594,
+        "end_ms": 35264
+      },
+      "target_playbacks": [
+        {
+          "text": "wesoło",
+          "start_ms": 37264,
+          "end_ms": 38017
+        },
+        {
+          "text": "wesoło",
+          "start_ms": 40517,
+          "end_ms": 41270
+        }
+      ]
+    },
+    {
+      "id": 194,
+      "kind": "vocabulary",
+      "start_ms": 43770,
+      "end_ms": 53564,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "i luften",
+        "start_ms": 43770,
+        "end_ms": 44708
+      },
+      "target_playbacks": [
+        {
+          "text": "w powietrzu",
+          "start_ms": 46708,
+          "end_ms": 47636
+        },
+        {
+          "text": "w powietrzu",
+          "start_ms": 50136,
+          "end_ms": 51064
+        }
+      ]
+    },
+    {
+      "id": 189,
+      "kind": "vocabulary",
+      "start_ms": 53564,
+      "end_ms": 66600,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "sätta in stenen i vingen",
+        "start_ms": 53564,
+        "end_ms": 55788
+      },
+      "target_playbacks": [
+        {
+          "text": "wkładać kamyk w skrzydło",
+          "start_ms": 57788,
+          "end_ms": 59694
+        },
+        {
+          "text": "wkładać kamyk w skrzydło",
+          "start_ms": 62194,
+          "end_ms": 64100
+        }
+      ]
+    },
+    {
+      "id": 191,
+      "kind": "vocabulary",
+      "start_ms": 66600,
+      "end_ms": 77861,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "börja sjunga",
+        "start_ms": 66600,
+        "end_ms": 67859
+      },
+      "target_playbacks": [
+        {
+          "text": "zaczynać śpiewać",
+          "start_ms": 69859,
+          "end_ms": 71360
+        },
+        {
+          "text": "zaczynać śpiewać",
+          "start_ms": 73860,
+          "end_ms": 75361
+        }
+      ]
+    },
+    {
+      "id": 195,
+      "kind": "vocabulary",
+      "start_ms": 77861,
+      "end_ms": 87228,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "dansa",
+        "start_ms": 77861,
+        "end_ms": 78624
+      },
+      "target_playbacks": [
+        {
+          "text": "tańczyć",
+          "start_ms": 80624,
+          "end_ms": 81426
+        },
+        {
+          "text": "tańczyć",
+          "start_ms": 83926,
+          "end_ms": 84728
+        }
+      ]
+    },
+    {
+      "id": 196,
+      "kind": "vocabulary",
+      "start_ms": 87228,
+      "end_ms": 99075,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "stanna för alltid",
+        "start_ms": 87228,
+        "end_ms": 88863
+      },
+      "target_playbacks": [
+        {
+          "text": "zostawać na zawsze",
+          "start_ms": 90863,
+          "end_ms": 92469
+        },
+        {
+          "text": "zostawać na zawsze",
+          "start_ms": 94969,
+          "end_ms": 96575
+        }
+      ]
+    },
+    {
+      "id": 101,
+      "kind": "vocabulary",
+      "start_ms": 99075,
+      "end_ms": 109664,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "bra jobbat",
+        "start_ms": 99075,
+        "end_ms": 100274
+      },
+      "target_playbacks": [
+        {
+          "text": "dobra robota",
+          "start_ms": 102274,
+          "end_ms": 103469
+        },
+        {
+          "text": "dobra robota",
+          "start_ms": 105969,
+          "end_ms": 107164
+        }
+      ]
+    },
+    {
+      "id": 193,
+      "kind": "vocabulary",
+      "start_ms": 109664,
+      "end_ms": 119247,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "fjärilar",
+        "start_ms": 109664,
+        "end_ms": 110725
+      },
+      "target_playbacks": [
+        {
+          "text": "motyle",
+          "start_ms": 112725,
+          "end_ms": 113486
+        },
+        {
+          "text": "motyle",
+          "start_ms": 115986,
+          "end_ms": 116747
+        }
+      ]
+    },
+    {
+      "id": 96,
+      "kind": "vocabulary",
+      "start_ms": 119247,
+      "end_ms": 130062,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "hämta radion",
+        "start_ms": 119247,
+        "end_ms": 120590
+      },
+      "target_playbacks": [
+        {
+          "text": "przynieść radio",
+          "start_ms": 122590,
+          "end_ms": 123826
+        },
+        {
+          "text": "przynieść radio",
+          "start_ms": 126326,
+          "end_ms": 127562
+        }
+      ]
+    },
+    {
+      "id": 98,
+      "kind": "vocabulary",
+      "start_ms": 130062,
+      "end_ms": 141219,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "stoppa in stenen",
+        "start_ms": 130062,
+        "end_ms": 131857
+      },
+      "target_playbacks": [
+        {
+          "text": "włożyć kamyk",
+          "start_ms": 133857,
+          "end_ms": 135038
+        },
+        {
+          "text": "włożyć kamyk",
+          "start_ms": 137538,
+          "end_ms": 138719
+        }
+      ]
+    },
+    {
+      "id": 188,
+      "kind": "vocabulary",
+      "start_ms": 141219,
+      "end_ms": 152644,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "en liten blå sten",
+        "start_ms": 141219,
+        "end_ms": 142978
+      },
+      "target_playbacks": [
+        {
+          "text": "niebieski kamyk",
+          "start_ms": 144978,
+          "end_ms": 146311
+        },
+        {
+          "text": "niebieski kamyk",
+          "start_ms": 148811,
+          "end_ms": 150144
+        }
+      ]
+    },
+    {
+      "id": 97,
+      "kind": "vocabulary",
+      "start_ms": 152644,
+      "end_ms": 163749,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "litet gömställe",
+        "start_ms": 152644,
+        "end_ms": 154293
+      },
+      "target_playbacks": [
+        {
+          "text": "mała skrytka",
+          "start_ms": 156293,
+          "end_ms": 157521
+        },
+        {
+          "text": "mała skrytka",
+          "start_ms": 160021,
+          "end_ms": 161249
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "kind": "vocabulary",
+      "start_ms": 163749,
+      "end_ms": 174566,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "sjunga glatt",
+        "start_ms": 163749,
+        "end_ms": 164942
+      },
+      "target_playbacks": [
+        {
+          "text": "wesoło śpiewać",
+          "start_ms": 166942,
+          "end_ms": 168254
+        },
+        {
+          "text": "wesoło śpiewać",
+          "start_ms": 170754,
+          "end_ms": 172066
+        }
+      ]
+    }
+  ],
+  "book_introduction": null,
+  "chapter_reading": {
+    "text": "Dzieci przynoszą radio. Z małej skrytki wypada niebieski kamyk. Tomek wkłada go w skrzydło ptaka. Dzieci wołają: – Reparo! Złoty ptak macha skrzydłami i zaczyna wesoło śpiewać. W powietrzu tańczą motyle. – Dobra robota! – mówi Radiofon. – Zostaję z wami na zawsze!",
+    "start_ms": 174566,
+    "end_ms": 200866
+  },
+  "audio_file": "08_chapter_08_sv_pl_2026-10-27_21-48-09.mp3"
+}

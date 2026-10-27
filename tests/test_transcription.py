@@ -118,6 +118,32 @@ class RendererTests(unittest.TestCase):
                 )
                 self.assertEqual(path.read_bytes(), b"speech")
 
+    def test_custom_voice_rate_and_pitch_are_used_for_synthesis(self):
+        async def save(path):
+            Path(path).write_bytes(b"speech")
+
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "clip.mp3"
+            with patch.object(renderer.edge_tts, "Communicate") as tts:
+                tts.return_value.save = AsyncMock(side_effect=save)
+                asyncio.run(renderer.generate_clip(
+                    "Hej!", "se", path,
+                    voice="sv-SE-SomeoneNeural", rate="+5%", pitch="+2Hz",
+                ))
+            tts.assert_called_once_with(
+                text="Hej!",
+                voice="sv-SE-SomeoneNeural",
+                rate="+5%",
+                pitch="+2Hz",
+            )
+            self.assertNotEqual(
+                renderer.clip_path(
+                    "Hej!", "se", Path("cache"),
+                    "sv-SE-SomeoneNeural", "+5%", "+2Hz",
+                ),
+                renderer.clip_path("Hej!", "se", Path("cache")),
+            )
+
     def test_unpunctuated_vocabulary_has_sentence_boundary_for_tts(self):
         async def save(path):
             Path(path).write_bytes(b"speech")

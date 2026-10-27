@@ -113,15 +113,31 @@ def speech_text(text: str) -> str:
     return text if text.endswith((".", "!", "?", "…")) else f"{text}."
 
 
-def clip_path(text: str, lang: Language, cache: Path) -> Path:
-    settings = [speech_text(text), lang, VOICES[lang], RATES[lang], "+0Hz"]
+def clip_path(
+    text: str,
+    lang: Language,
+    cache: Path,
+    voice: str | None = None,
+    rate: str | None = None,
+    pitch: str = "+0Hz",
+) -> Path:
+    settings = [
+        speech_text(text), lang, voice or VOICES[lang], rate or RATES[lang], pitch
+    ]
     digest = hashlib.sha256(
         json.dumps(settings, ensure_ascii=False).encode("utf-8")
     ).hexdigest()
     return cache / f"{lang}_{digest}.mp3"
 
 
-async def generate_clip(text: str, lang: Language, out_path: Path) -> None:
+async def generate_clip(
+    text: str,
+    lang: Language,
+    out_path: Path,
+    voice: str | None = None,
+    rate: str | None = None,
+    pitch: str = "+0Hz",
+) -> None:
     if out_path.is_file() and out_path.stat().st_size > 0:
         return
     out_path.parent.mkdir(parents=True, exist_ok=True)
@@ -130,7 +146,10 @@ async def generate_clip(text: str, lang: Language, out_path: Path) -> None:
             with tempfile.TemporaryDirectory(dir=out_path.parent) as directory:
                 pending = Path(directory) / "clip.mp3"
                 communicate = edge_tts.Communicate(
-                    text=speech_text(text), voice=VOICES[lang], rate=RATES[lang], pitch="+0Hz"
+                    text=speech_text(text),
+                    voice=voice or VOICES[lang],
+                    rate=rate or RATES[lang],
+                    pitch=pitch,
                 )
                 await communicate.save(str(pending))
                 if not pending.is_file() or pending.stat().st_size == 0:

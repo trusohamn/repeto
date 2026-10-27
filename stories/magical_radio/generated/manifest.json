@@ -1,0 +1,183 @@
+{
+  "story_id": "magical_radio",
+  "chapters": {
+    "1": {
+      "titles": {
+        "pl": "Stary stół",
+        "sv": "Det gamla bordet",
+        "en": "The Old Table"
+      },
+      "targets": {
+        "pl": {
+          "audio_file": "01_chapter_01_sv_pl_2026-10-27_21-48-09.mp3",
+          "manifest_file": "01_chapter_01_sv_pl_2026-10-27_21-48-09.json",
+          "total_duration_ms": 249487,
+          "chapter_reading": {
+            "text": "Jest sobota. Maja ma dziewięć lat, a jej brat Tomek ma sześć lat. Razem idą na pchli targ. W rogu stoi stary stół, a na stole – drewniane radio. Ma złote pokrętła i kolorowe przyciski. Gdy Maja podchodzi bliżej, radio nagle cicho szumi: Dzyń! Na radiu pojawia się złoty napis: „Dla Mai i Tomka”. Dzieci otwierają szeroko oczy.",
+            "start_ms": 219382,
+            "end_ms": 249487
+          }
+        }
+      }
+    },
+    "2": {
+      "titles": {
+        "pl": "Głos z radia",
+        "sv": "En röst ur radion",
+        "en": "A Voice from the Radio"
+      },
+      "targets": {
+        "pl": {
+          "audio_file": "02_chapter_02_sv_pl_2026-10-27_21-48-09.mp3",
+          "manifest_file": "02_chapter_02_sv_pl_2026-10-27_21-48-09.json",
+          "total_duration_ms": 212831,
+          "chapter_reading": {
+            "text": "Dzieci niosą radio do domu. Tomek naciska niebieski przycisk. Z radia wylatuje mała chmurka, która pachnie cynamonem. – Cześć, odkrywcy! – mówi wesoły głos. – Nazywam się Radiofon. W waszym ogrodzie, pod starym drzewem, leży klucz. Weźcie latarkę i kawałek sera!",
+            "start_ms": 187849,
+            "end_ms": 212831
+          }
+        }
+      }
+    },
+    "3": {
+      "titles": {
+        "pl": "Mysz pod drzewem",
+        "sv": "En mus under trädet",
+        "en": "A Mouse under the Tree"
+      },
+      "targets": {
+        "pl": {
+          "audio_file": "03_chapter_03_sv_pl_2026-10-27_21-48-09.mp3",
+          "manifest_file": "03_chapter_03_sv_pl_2026-10-27_21-48-09.json",
+          "total_duration_ms": 253080,
+          "chapter_reading": {
+            "text": "Maja bierze latarkę, a Tomek żółty ser. Idą pod wielkie drzewo w ogrodzie. Tomek świeci latarką pod korzenie. Z dziury wychodzi mała mysz z książką w łapkach. – Mamy ser. Masz klucz? – pyta Tomek. Mysz daje im srebrny klucz, zabiera ser i znika. Pod liśćmi dzieci znajdują stare drzwi w ziemi.",
+            "start_ms": 225078,
+            "end_ms": 253080
+          }
+        }
+      }
+    },
+    "4": {
+      "titles": {
+        "pl": "Schody w dół",
+        "sv": "Trappan ner",
+        "en": "The Stairs Going Down"
+      },
+      "targets": {
+        "pl": {
+          "audio_file": "04_chapter_04_sv_pl_2026-10-27_21-48-09.mp3",
+          "manifest_file": "04_chapter_04_sv_pl_2026-10-27_21-48-09.json",
+          "total_duration_ms": 234618,
+          "chapter_reading": {
+            "text": "Maja przekręca klucz. Klik! Drzwi się otwierają. W dół prowadzą kamienne schody. Na ścianach rosną świecące na niebiesko kwiaty. Dzieci schodzą do wielkiego pokoju. Wszędzie stoją książki – niektóre latają pod sufitem! Na środku stoi drugie radio.",
+            "start_ms": 210935,
+            "end_ms": 234618
+          }
+        }
+      }
+    },
+    "5": {
+      "titles": {
+        "pl": "Latająca książka",
+        "sv": "Den flygande boken",
+        "en": "The Flying Book"
+      },
+      "targets": {
+        "pl": {
+          "audio_file": "05_chapter_05_sv_pl_2026-10-27_21-48-09.mp3",
+          "manifest_file": "05_chapter_05_sv_pl_2026-10-27_21-48-09.json",
+          "total_duration_ms": 197798,
+          "chapter_reading": {
+            "text": "Złota książka macha stronami i ląduje na ramieniu Mai. Drugie radio odzywa się natychmiast: – Ta książka uczy ważnego zaklęcia. Słowo to: Reparo! Naprawia każdą zepsutą rzecz. Tomek wyciąga z kieszeni stary, zepsuty kompas.",
+            "start_ms": 177612,
+            "end_ms": 197798
+          }
+        }
+      }
+    },
+    "6": {
+      "titles": {
+        "pl": "Pierwsze zaklęcie",
+        "sv": "Den första trollformeln",
+        "en": "The First Spell"
+      },
+      "targets": {
+        "pl": {
+          "audio_file": "06_chapter_06_sv_pl_2026-10-27_21-48-09.mp3",
+          "manifest_file": "06_chapter_06_sv_pl_2026-10-27_21-48-09.json",
+          "total_duration_ms": 173978,
+          "chapter_reading": {
+            "text": "Tomek trzyma kompas. Dzieci mówią razem: – Reparo! Błyska złota iskra. Kompas znów jest cały! Igła kręci się i pokazuje zielone drzwi. – Działa! – krzyczy Tomek. Radio mówi: – Za drzwiami ktoś czeka na waszą pomoc.",
+            "start_ms": 151510,
+            "end_ms": 173978
+          }
+        }
+      }
+    },
+    "7": {
+      "titles": {
+        "pl": "Złoty ptak",
+        "sv": "Den gyllene fågeln",
+        "en": "The Golden Bird"
+      },
+      "targets": {
+        "pl": {
+          "audio_file": "07_chapter_07_sv_pl_2026-10-27_21-48-09.mp3",
+          "manifest_file": "07_chapter_07_sv_pl_2026-10-27_21-48-09.json",
+          "total_duration_ms": 197135,
+          "chapter_reading": {
+            "text": "Dzieci otwierają zielone drzwi i wchodzą do ogrodu. Na gałęzi siedzi złoty ptak. Nie śpiewa, tylko tyka jak zegar: Tik-tak, tik-tak. Na jego skrzydle brakuje małego kamyka. – Tomek, nasze radio w pokoju ma niebieski kamień! – woła Maja. – Szybko!",
+            "start_ms": 174483,
+            "end_ms": 197135
+          }
+        }
+      }
+    },
+    "8": {
+      "titles": {
+        "pl": "Wielki koncert",
+        "sv": "Den stora konserten",
+        "en": "The Grand Concert"
+      },
+      "targets": {
+        "pl": {
+          "audio_file": "08_chapter_08_sv_pl_2026-10-27_21-48-09.mp3",
+          "manifest_file": "08_chapter_08_sv_pl_2026-10-27_21-48-09.json",
+          "total_duration_ms": 200866,
+          "chapter_reading": {
+            "text": "Dzieci przynoszą radio. Z małej skrytki wypada niebieski kamyk. Tomek wkłada go w skrzydło ptaka. Dzieci wołają: – Reparo! Złoty ptak macha skrzydłami i zaczyna wesoło śpiewać. W powietrzu tańczą motyle. – Dobra robota! – mówi Radiofon. – Zostaję z wami na zawsze!",
+            "start_ms": 174566,
+            "end_ms": 200866
+          }
+        }
+      }
+    }
+  },
+  "podcasts": {},
+  "settings": {
+    "source_language": "sv",
+    "target_languages": [
+      "pl"
+    ],
+    "voices": {
+      "sv": "sv-SE-SofieNeural",
+      "pl": "pl-PL-ZofiaNeural"
+    },
+    "rates": {
+      "sv": "-15%",
+      "pl": "-15%"
+    },
+    "pitches": {
+      "sv": "+0Hz",
+      "pl": "+0Hz"
+    },
+    "format": "mp3",
+    "bitrate": "192k",
+    "lead_in_ms": 1000,
+    "thinking_ms": 2000,
+    "repetition_ms": 2500,
+    "practice_order": "deterministically_shuffled",
+    "timestamp": "2026-10-27_21-48-09"
+  }
+}

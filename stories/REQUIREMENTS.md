@@ -38,11 +38,16 @@ Dzieci biegną do ogrodu. Szukają starego dębu z mapy. Pod korzeniami leży ma
 
 ### Filformat: `generated/transcript.json` (Agentens output)
 
-Varje ord och mening får ett unikt heltal som ID. ID:n är unika för hela berättelsen, även mellan kapitel och mellan `vocabulary` och `story_sentences`, och återanvänds aldrig. Språken ligger som ISO 639-1-nycklar under `text`.
+Varje vokabulärord eller -uttryck får ett positivt heltal som ID. ID:n är unika för hela berättelsen, även mellan kapitel, och återanvänds aldrig. Berättelsen lagras som en enda sammanhängande `chapter_text` per tillgängligt uppläsningsspråk; meningar i berättelsen får inga separata översättningar eller övnings-ID:n. Språken i `text` är ISO 639-1-koder.
 
 ```json
 {
   "story_id": "magical_radio",
+  "titles": {
+    "pl": "Magiczne Radio",
+    "sv": "Den magiska radion",
+    "en": "The Magical Radio"
+  },
   "chapters": [
     {
       "chapter_number": 1,
@@ -101,64 +106,9 @@ Varje ord och mening får ett unikt heltal som ID. ID:n är unika för hela ber�
           }
         }
       ],
-      "story_sentences": [
-        {
-          "id": 107,
-          "text": {
-            "pl": "Jest sobota rano.",
-            "sv": "Det är lördag förmiddag.",
-            "en": "It is Saturday morning."
-          }
-        },
-        {
-          "id": 108,
-          "text": {
-            "pl": "Maja i Tomek rozglądają się po targu.",
-            "sv": "Maja och Tomek ser sig omkring på loppisen.",
-            "en": "Maja and Tomek look around the flea market."
-          }
-        },
-        {
-          "id": 109,
-          "text": {
-            "pl": "W rogu stoi stary stół, a na stole – duże, drewniane radio z czerwonymi przyciskami.",
-            "sv": "I hörnet står ett gammalt bord, och på bordet står en stor träradio med röda knappar.",
-            "en": "In the corner stands an old table, and on the table is a big wooden radio with red buttons."
-          }
-        },
-        {
-          "id": 110,
-          "text": {
-            "pl": "Tomek naciska pierwszy przycisk.",
-            "sv": "Tomek trycker på den första knappen.",
-            "en": "Tomek presses the first button."
-          }
-        },
-        {
-          "id": 111,
-          "text": {
-            "pl": "Radio piszczy i zaczyna mówić: – Cześć, Maja! Cześć, Tomek!",
-            "sv": "Radion piper och börjar prata: – Hej, Maja! Hej, Tomek!",
-            "en": "The radio beeps and speaks: 'Hello Maja! Hello Tomek!'"
-          }
-        },
-        {
-          "id": 112,
-          "text": {
-            "pl": "Z głośnika wylatuje mała, tajna mapa.",
-            "sv": "Ur högtalaren flyger en liten, hemlig karta fram.",
-            "en": "From the speaker flies out a small, secret map."
-          }
-        },
-        {
-          "id": 113,
-          "text": {
-            "pl": "– Patrz! – krzyczy Tomek. – Mapa pokazuje nasz ogród!",
-            "sv": "– Titta! – ropar Tomek. – Kartan visar vår trädgård!",
-            "en": "'Look!' shouts Tomek. 'The map shows our garden!'"
-          }
-        }
-      ]
+      "chapter_text": {
+        "pl": "Jest sobota rano. Maja i Tomek rozglądają się po targu. W rogu stoi stary stół, a na stole – duże, drewniane radio z czerwonymi przyciskami. Tomek naciska pierwszy przycisk. Radio piszczy i zaczyna mówić: – Cześć, Maja! Cześć, Tomek! Z głośnika wylatuje mała, tajna mapa. – Patrz! – krzyczy Tomek. – Mapa pokazuje nasz ogród!"
+      }
     }
   ]
 }
@@ -166,21 +116,59 @@ Varje ord och mening får ett unikt heltal som ID. ID:n är unika för hela ber�
 
 ---
 
+### Vokabulärens täckning
+
+Varje kapitel ska ha tillräckligt med ord och korta uttryck för att ett barn med
+begränsade förkunskaper ska kunna följa kapitlets personer, plats, handling och
+viktiga händelser när hela texten läses. Gå igenom hela kapitlet och ta med
+berättelsekritiska substantiv, verb/handlingar, beskrivningar och uttryck samt
+småord eller sambandsord när de behövs för att förstå betydelsen. Vokabulären
+ska förbereda barnet för just det kapitlet; anta inte att ett viktigt ord redan
+har lärts i ett senare kapitel. Använd naturliga ord eller korta fraser, inte
+hela meningar som ersätter översättning eller övning av berättelsen. Det finns
+inget fast antal: välj täckning efter kapitlets innehåll och svårighetsgrad.
+
 ### Ljudgenerering och konfiguration
 
 Ljudet för varje kapitel ska spelas i denna ordning:
 
-1. **Ord- och meningsövning:** spela först varje polskt original som ledtråd en gång. Spela därefter måltexten två gånger, med pauser så att barnet hinner tänka och härma uttalet. Övningen omfattar först kapitlets `vocabulary` i ordning och därefter `story_sentences` i ordning.
-2. **Hela kapitlet:** spela därefter hela kapitlets sammanhängande berättelsetext en gång på målspråket, utan övningspauser eller upprepningar mellan meningarna.
+1. **Boktitel:** i kapitel 1 sägs bokens titel en gång i början, före
+   ordövningen. Titeln ska inte läsas upp igen i kapiteltexten.
+2. **Ordövning:** öva bara ord och uttryck i kapitlets `vocabulary`, i en
+   deterministiskt slumpad ordning som skiljer sig från berättelsens kronologi.
+   Ordningen blandas separat per kapitel och är densamma vid omrendering, så
+   ljudet blir reproducerbart. Spela varje uttryck på barnets modersmål en gång
+   som ledtråd, därefter uttrycket på målspråket två gånger, med pauser.
+3. **Hela kapitlet:** spela därefter hela kapitlets sammanhängande original-/måltext en gång på målspråket. Översätt inte och öva inte berättelsens enskilda meningar var för sig.
 
-Övningssekvensen följer den befintliga Repeto-modellen: ledtråd på källspråket, två sekunders tänkepaus, målfras, 2,5 sekunders repetitionspaus, samma målfras igen och därefter 2,5 sekunders paus. Pauser och varje delsegments tidsstämplar dokumenteras i manifestet. Den sammanhängande uppläsningen av kapitlet använder måltextens `story_sentences` i ordning.
+Övningssekvensen följer den befintliga Repeto-modellen: svensk ledtråd, två sekunders tänkepaus, polsk målfras, 2,5 sekunders repetitionspaus, samma polska fras igen och därefter 2,5 sekunders paus. Övningsfraserna blandas deterministiskt per kapitel, utan att ändra berättelsetexten eller transkriptets permanenta ID:n. Pauser och varje delsegments tidsstämplar dokumenteras i manifestet. Kapiteluppläsningen använder hela `chapter_text`-strängen på målspråket som en enda sammanhängande text. Kapitel 1:s boksintroduktion och dess tidsstämpel dokumenteras separat i manifestet.
 
-Som standard genereras en version med svenska (`sv`) och en med engelska (`en`) som målspråk, båda med polska (`pl`) som käll-/ledtrådsspråk. Nya språk ska kunna läggas till utan ändringar i ljudmotorn. Källspråk, ett eller flera målspråk, röstval och röstinställningar, pauslängder, sökvägar, utdataformat och eventuella varaktighetsgränser ska kunna anges som kommandoradsargument (CLI-flaggor/”props”), inte vara hårdkodade. Standardvärden ska vara dokumenterade och kunna åsidosättas.
+Som standard används svenska (`sv`) som ledtråds-/modersmål och polska (`pl`) som målspråk. Den polska originaltexten läses sedan upp en gång som hela kapitlet. Nya språk ska kunna läggas till utan ändringar i ljudmotorn: vokabulär har parallella texter för övningsspråken, medan varje kapitel har en hel `chapter_text` per tillgängligt uppläsningsspråk. Berättelsens meningar behöver inte segmenteras eller översättas individuellt. Källspråk, ett eller flera målspråk, röstval och röstinställningar, pauslängder, sökvägar, utdataformat och eventuella varaktighetsgränser ska kunna anges som kommandoradsargument (CLI-flaggor/”props”), inte vara hårdkodade. Standardvärden ska vara dokumenterade och kunna åsidosättas.
 
 Transkriptet innehåller innehåll och översättningar. Manifestet innehåller genereringsinställningar, röstval, ljud- och kapiteltidsstämplar samt Spotify-/podcastmetadata. Validera hela kapitelutdata innan den publiceras; ett ofullständigt kapitel får inte presenteras som färdigt.
 
+### Körning
+
+Storyverktyget finns i `stories/story_course.py`. Validera transkriptet och jämför det polska originalet mot samtliga kapitelmeningar:
+
+```sh
+.venv/bin/python stories/story_course.py --list
+```
+
+Generera som standard polsk vokabulärövning med långsamma svenska ledtrådar och därefter uppläsning av hela kapitlet på polska:
+
+```sh
+.venv/bin/python stories/story_course.py --source-language sv --target pl
+```
+
+Använd `--help` för alla alternativ. Källspråk, mål, röster (`--voice LANG=VOICE`), hastigheter (`--rate LANG=RATE`), tonhöjd (`--pitch LANG=PITCH`), pauser, ljudformat, varaktighetsgräns, transkript, cache och utdatasökvägar är konfigurerbara. En varaktighetsgräns avvisar ett helt kapitel som överskrider gränsen; den skapar aldrig ett ofullständigt slutspår.
+
+Standardhastigheten för polska och svenska är `-15%`; svenska är avsiktligt långsammare för tydligare uttal.
+
+Podcastflöden skapas bara med `--package-podcast` och kräver en tillgänglig omslagsbild samt kontaktadress för RSS. Ljudfiler och flöden publiceras inte automatiskt till Spotify. Publicering sker först efter separat commit/push och en lyckad GitHub Pages-deploy.
+
 ### Varför detta är bättre för din pipeline
 
-- **Snabb åtkomst:** Ditt ljudskript hämtar alla meningar i ett kapitel via en vanlig array (`chapter.story_sentences.map(s => s.text[target_lang])`).
-- **Ingen duplicering:** Vill du lägga till tyska (`de`) eller spanska (`es`) lägger agenten bara till nyckeln i samma objekt under befintligt ID.
-- **Tydlig ansvarsfördelning:** `transcript.json` sköter text/språk med unika nummer, medan `manifest.json` sköter tidsstämplar, TTS-röstval och Spotify-beskrivningar.
+- **Sammanhängande berättelse:** Ljudskriptet läser ett helt kapitel från `chapter.chapter_text[target_lang]`; berättelsen segmenteras inte till meningar för översättningsövning.
+- **Nya språk:** Lägg till översättningar i vokabulär och en hel `chapter_text` för varje nytt uppläsningsspråk som ska stödjas.
+- **Tydlig ansvarsfördelning:** `transcript.json` sköter vokabulär och hela kapiteltexter, medan `manifest.json` sköter tidsstämplar, TTS-röstval och Spotify-beskrivningar.
