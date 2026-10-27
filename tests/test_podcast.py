@@ -34,6 +34,8 @@ class PodcastTests(unittest.TestCase):
                 items[0].findtext("title"), "01 Hälsningar — Powitania"
             )
             self.assertEqual(items[0].findtext("guid"), config["episodes"][0]["id"])
+            self.assertEqual(items[0].findtext(f"{{{podcast.ITUNES}}}season"), "1")
+            self.assertEqual(items[0].findtext(f"{{{podcast.ITUNES}}}episode"), "1")
             enclosure = items[0].find("enclosure")
             assert enclosure is not None
             self.assertEqual(enclosure.get("length"), "5")
@@ -48,6 +50,18 @@ class PodcastTests(unittest.TestCase):
             self.assertEqual(
                 updated.findtext("./channel/item/guid"), config["episodes"][0]["id"]
             )
+            config["episodes"][0]["season"] = 2
+            config["episodes"][0]["episode"] = 7
+            catalog.write_text(json.dumps(config))
+            podcast.build_feed(course, "https://example.com/repeto")
+            updated = ET.parse(course / "feed.xml")
+            self.assertEqual(updated.findtext(
+                f"./channel/item/{{{podcast.ITUNES}}}episode"
+            ), "7")
+            self.assertEqual(updated.findtext(
+                f"./channel/item/{{{podcast.ITUNES}}}season"
+            ), "2")
+            self.assertTrue(updated.findtext("./channel/item/title", "").startswith("07 "))
             (course / "audio" / config["episodes"][1]["file"]).unlink()
             with self.assertRaisesRegex(ValueError, "Missing or empty audio"):
                 podcast.build_feed(course, "https://example.com/repeto")

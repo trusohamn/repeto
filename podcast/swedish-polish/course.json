@@ -11,7 +11,9 @@
       "file": "01_greetings_se_pl_double_2026-10-27_11-56-13.mp3",
       "duration_ms": 371366,
       "published": "2026-10-27T14:00:00+00:00",
-      "description": "Öva polska med svenska ledtrådar. Ämne: Greetings. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet."
+      "description": "Öva polska med svenska ledtrådar. Ämne: Greetings. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.",
+      "season": 1,
+      "episode": 1
     },
     {
       "id": "repeto:swedish-polish:topic-02",
@@ -19,7 +21,9 @@
       "file": "02_numbers_se_pl_double_2026-10-27_11-56-13.mp3",
       "duration_ms": 350353,
       "published": "2026-10-27T14:00:00+00:00",
-      "description": "Öva polska med svenska ledtrådar. Ämne: Numbers. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet."
+      "description": "Öva polska med svenska ledtrådar. Ämne: Numbers. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.",
+      "season": 1,
+      "episode": 2
     },
     {
       "id": "repeto:swedish-polish:topic-03",
@@ -27,7 +31,9 @@
       "file": "03_colors_se_pl_double_2026-10-27_11-56-13.mp3",
       "duration_ms": 315790,
       "published": "2026-10-27T14:00:00+00:00",
-      "description": "Öva polska med svenska ledtrådar. Ämne: Colors. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet."
+      "description": "Öva polska med svenska ledtrådar. Ämne: Colors. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.",
+      "season": 1,
+      "episode": 3
     },
     {
       "id": "repeto:swedish-polish:topic-04",
@@ -35,7 +41,9 @@
       "file": "04_animals_se_pl_double_2026-10-27_11-56-13.mp3",
       "duration_ms": 412911,
       "published": "2026-10-27T14:00:00+00:00",
-      "description": "Öva polska med svenska ledtrådar. Ämne: Animals. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet."
+      "description": "Öva polska med svenska ledtrådar. Ämne: Animals. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.",
+      "season": 1,
+      "episode": 4
     },
     {
       "id": "repeto:swedish-polish:topic-05",
@@ -43,7 +51,9 @@
       "file": "05_family_se_pl_double_2026-10-27_11-56-13.mp3",
       "duration_ms": 293261,
       "published": "2026-10-27T14:00:00+00:00",
-      "description": "Öva polska med svenska ledtrådar. Ämne: Family. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet."
+      "description": "Öva polska med svenska ledtrådar. Ämne: Family. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.",
+      "season": 1,
+      "episode": 5
     },
     {
       "id": "repeto:swedish-polish:topic-06",
@@ -51,7 +61,9 @@
       "file": "06_food_se_pl_double_2026-10-27_12-16-09.mp3",
       "duration_ms": 498801,
       "published": "2026-10-27T14:00:00+00:00",
-      "description": "Öva polska med svenska ledtrådar. Ämne: Food. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet."
+      "description": "Öva polska med svenska ledtrådar. Ämne: Food. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.",
+      "season": 1,
+      "episode": 6
     },
     {
       "id": "repeto:swedish-polish:topic-07",
@@ -59,7 +71,9 @@
       "file": "07_body_se_pl_double_2026-10-27_12-18-16.mp3",
       "duration_ms": 370636,
       "published": "2026-10-27T14:00:00+00:00",
-      "description": "Öva polska med svenska ledtrådar. Ämne: Body. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet."
+      "description": "Öva polska med svenska ledtrådar. Ämne: Body. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.",
+      "season": 1,
+      "episode": 7
     },
     {
       "id": "repeto:swedish-polish:topic-08",
@@ -67,7 +81,9 @@
       "file": "08_clothing_se_pl_double_2026-10-27_12-23-11.mp3",
       "duration_ms": 313472,
       "published": "2026-10-27T14:00:00+00:00",
-      "description": "Öva polska med svenska ledtrådar. Ämne: Clothing. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet."
+      "description": "Öva polska med svenska ledtrådar. Ämne: Clothing. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.",
+      "season": 1,
+      "episode": 8
     },
     {
       "id": "repeto:swedish-polish:topic-09",
@@ -75,7 +91,9 @@
       "file": "09_home_se_pl_double_2026-10-27_12-25-12.mp3",
       "duration_ms": 391182,
       "published": "2026-10-27T14:00:00+00:00",
-      "description": "Öva polska med svenska ledtrådar. Ämne: Home. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet."
+      "description": "Öva polska med svenska ledtrådar. Ämne: Home. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.",
+      "season": 1,
+      "episode": 9
     },
     {
       "id": "repeto:swedish-polish:topic-10",
@@ -83,7 +101,9 @@
       "file": "10_school_se_pl_double_2026-10-27_12-27-33.mp3",
       "duration_ms": 436013,
       "published": "2026-10-27T14:00:00+00:00",
-      "description": "Öva polska med svenska ledtrådar. Ämne: School. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet."
+      "description": "Öva polska med svenska ledtrådar. Ämne: School. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.",
+      "season": 1,
+      "episode": 10
     },
     {
       "id": "repeto:swedish-polish:topic-11",
@@ -91,7 +111,9 @@
       "file": "11_weather_se_pl_double_2026-10-27_12-30-37.mp3",
       "duration_ms": 257170,
       "published": "2026-10-27T14:00:00+00:00",
-      "description": "Öva polska med svenska ledtrådar. Ämne: Weather. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet."
+      "description": "Öva polska med svenska ledtrådar. Ämne: Weather. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.",
+      "season": 1,
+      "episode": 11
     },
     {
       "id": "repeto:swedish-polish:topic-12",
@@ -99,7 +121,9 @@
       "file": "12_seasons_se_pl_double_2026-10-27_12-32-41.mp3",
       "duration_ms": 205562,
       "published": "2026-10-27T14:00:00+00:00",
-      "description": "Öva polska med svenska ledtrådar. Ämne: Seasons. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet."
+      "description": "Öva polska med svenska ledtrådar. Ämne: Seasons. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.",
+      "season": 1,
+      "episode": 12
     },
     {
       "id": "repeto:swedish-polish:topic-13",
@@ -107,7 +131,9 @@
       "file": "13_days_and_time_se_pl_double_2026-10-27_12-33-55.mp3",
       "duration_ms": 308282,
       "published": "2026-10-27T14:00:00+00:00",
-      "description": "Öva polska med svenska ledtrådar. Ämne: Days and Time. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet."
+      "description": "Öva polska med svenska ledtrådar. Ämne: Days and Time. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.",
+      "season": 1,
+      "episode": 13
     },
     {
       "id": "repeto:swedish-polish:topic-14",
@@ -115,7 +141,9 @@
       "file": "14_toys_and_play_se_pl_double_2026-10-27_12-36-37.mp3",
       "duration_ms": 368418,
       "published": "2026-10-27T14:00:00+00:00",
-      "description": "Öva polska med svenska ledtrådar. Ämne: Toys and Play. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet."
+      "description": "Öva polska med svenska ledtrådar. Ämne: Toys and Play. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.",
+      "season": 1,
+      "episode": 14
     },
     {
       "id": "repeto:swedish-polish:topic-15",
@@ -123,7 +151,9 @@
       "file": "15_sports_and_activities_se_pl_double_2026-10-27_12-40-32.mp3",
       "duration_ms": 279447,
       "published": "2026-10-27T14:00:00+00:00",
-      "description": "Öva polska med svenska ledtrådar. Ämne: Sports and Activities. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet."
+      "description": "Öva polska med svenska ledtrådar. Ämne: Sports and Activities. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.",
+      "season": 1,
+      "episode": 15
     },
     {
       "id": "repeto:swedish-polish:topic-16",
@@ -131,7 +161,9 @@
       "file": "16_i_want_i_need_se_pl_double_2026-10-27_12-41-58.mp3",
       "duration_ms": 320320,
       "published": "2026-10-27T14:00:00+00:00",
-      "description": "Öva polska med svenska ledtrådar. Ämne: I want / I need. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet."
+      "description": "Öva polska med svenska ledtrådar. Ämne: I want / I need. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.",
+      "season": 1,
+      "episode": 16
     },
     {
       "id": "repeto:swedish-polish:topic-17",
@@ -139,7 +171,9 @@
       "file": "17_where_is_se_pl_double_2026-10-27_12-43-30.mp3",
       "duration_ms": 317169,
       "published": "2026-10-27T14:00:00+00:00",
-      "description": "Öva polska med svenska ledtrådar. Ämne: Where is?. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet."
+      "description": "Öva polska med svenska ledtrådar. Ämne: Where is?. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.",
+      "season": 1,
+      "episode": 17
     },
     {
       "id": "repeto:swedish-polish:topic-18",
@@ -147,7 +181,9 @@
       "file": "18_feelings_and_emotions_se_pl_double_2026-10-27_12-45-13.mp3",
       "duration_ms": 307915,
       "published": "2026-10-27T14:00:00+00:00",
-      "description": "Öva polska med svenska ledtrådar. Ämne: Feelings and Emotions. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet."
+      "description": "Öva polska med svenska ledtrådar. Ämne: Feelings and Emotions. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.",
+      "season": 1,
+      "episode": 18
     },
     {
       "id": "repeto:swedish-polish:topic-19",
@@ -155,7 +191,9 @@
       "file": "19_transport_se_pl_double_2026-10-27_12-46-45.mp3",
       "duration_ms": 271135,
       "published": "2026-10-27T14:00:00+00:00",
-      "description": "Öva polska med svenska ledtrådar. Ämne: Transport. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet."
+      "description": "Öva polska med svenska ledtrådar. Ämne: Transport. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.",
+      "season": 1,
+      "episode": 19
     },
     {
       "id": "repeto:swedish-polish:topic-20",
@@ -163,7 +201,9 @@
       "file": "20_nature_se_pl_double_2026-10-27_12-48-06.mp3",
       "duration_ms": 277242,
       "published": "2026-10-27T14:00:00+00:00",
-      "description": "Öva polska med svenska ledtrådar. Ämne: Nature. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet."
+      "description": "Öva polska med svenska ledtrådar. Ämne: Nature. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.",
+      "season": 1,
+      "episode": 20
     },
     {
       "id": "repeto:swedish-polish:topic-21",
@@ -171,7 +211,9 @@
       "file": "21_holidays_and_celebrations_se_pl_double_2026-10-27_12-49-30.mp3",
       "duration_ms": 264369,
       "published": "2026-10-27T14:00:00+00:00",
-      "description": "Öva polska med svenska ledtrådar. Ämne: Holidays and Celebrations. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet."
+      "description": "Öva polska med svenska ledtrådar. Ämne: Holidays and Celebrations. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.",
+      "season": 1,
+      "episode": 21
     },
     {
       "id": "repeto:swedish-polish:topic-22",
@@ -179,7 +221,9 @@
       "file": "22_daily_routine_se_pl_double_2026-10-27_12-50-49.mp3",
       "duration_ms": 314339,
       "published": "2026-10-27T14:00:00+00:00",
-      "description": "Öva polska med svenska ledtrådar. Ämne: Daily Routine. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet."
+      "description": "Öva polska med svenska ledtrådar. Ämne: Daily Routine. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.",
+      "season": 1,
+      "episode": 22
     },
     {
       "id": "repeto:swedish-polish:topic-23",
@@ -187,7 +231,9 @@
       "file": "23_asking_and_requests_se_pl_double_2026-10-27_13-49-39.mp3",
       "duration_ms": 274854,
       "published": "2026-10-27T14:00:00+00:00",
-      "description": "Öva polska med svenska ledtrådar. Ämne: Asking and Requests. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet."
+      "description": "Öva polska med svenska ledtrådar. Ämne: Asking and Requests. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.",
+      "season": 1,
+      "episode": 23
     },
     {
       "id": "repeto:swedish-polish:topic-24",
@@ -195,7 +241,9 @@
       "file": "24_opposites_se_pl_double_2026-10-27_13-50-51.mp3",
       "duration_ms": 288169,
       "published": "2026-10-27T14:00:00+00:00",
-      "description": "Öva polska med svenska ledtrådar. Ämne: Opposites. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet."
+      "description": "Öva polska med svenska ledtrådar. Ämne: Opposites. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.",
+      "season": 1,
+      "episode": 24
     },
     {
       "id": "repeto:swedish-polish:topic-25",
@@ -203,7 +251,9 @@
       "file": "25_actions_and_verbs_se_pl_double_2026-10-27_13-52-25.mp3",
       "duration_ms": 424128,
       "published": "2026-10-27T14:00:00+00:00",
-      "description": "Öva polska med svenska ledtrådar. Ämne: Actions and Verbs. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet."
+      "description": "Öva polska med svenska ledtrådar. Ämne: Actions and Verbs. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.",
+      "season": 1,
+      "episode": 25
     },
     {
       "id": "repeto:swedish-polish:topic-26",
@@ -211,7 +261,9 @@
       "file": "26_places_in_town_se_pl_double_2026-10-27_14-00-22.mp3",
       "duration_ms": 254180,
       "published": "2026-10-27T14:00:00+00:00",
-      "description": "Öva polska med svenska ledtrådar. Ämne: Places in Town. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet."
+      "description": "Öva polska med svenska ledtrådar. Ämne: Places in Town. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.",
+      "season": 1,
+      "episode": 26
     },
     {
       "id": "repeto:swedish-polish:topic-27",
@@ -219,7 +271,9 @@
       "file": "27_technology_se_pl_double_2026-10-27_14-02-06.mp3",
       "duration_ms": 247383,
       "published": "2026-10-27T14:00:00+00:00",
-      "description": "Öva polska med svenska ledtrådar. Ämne: Technology. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet."
+      "description": "Öva polska med svenska ledtrådar. Ämne: Technology. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.",
+      "season": 1,
+      "episode": 27
     },
     {
       "id": "repeto:swedish-polish:topic-28",
@@ -227,7 +281,9 @@
       "file": "28_music_and_art_se_pl_double_2026-10-27_14-03-24.mp3",
       "duration_ms": 245992,
       "published": "2026-10-27T14:00:00+00:00",
-      "description": "Öva polska med svenska ledtrådar. Ämne: Music and Art. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet."
+      "description": "Öva polska med svenska ledtrådar. Ämne: Music and Art. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.",
+      "season": 1,
+      "episode": 28
     },
     {
       "id": "repeto:swedish-polish:topic-29",
@@ -235,7 +291,9 @@
       "file": "29_polite_phrases_se_pl_double_2026-10-27_14-04-47.mp3",
       "duration_ms": 176058,
       "published": "2026-10-27T14:00:00+00:00",
-      "description": "Öva polska med svenska ledtrådar. Ämne: Polite Phrases. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet."
+      "description": "Öva polska med svenska ledtrådar. Ämne: Polite Phrases. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.",
+      "season": 1,
+      "episode": 29
     },
     {
       "id": "repeto:swedish-polish:topic-30",
@@ -243,7 +301,9 @@
       "file": "30_review_and_recap_se_pl_double_2026-10-27_14-05-41.mp3",
       "duration_ms": 125059,
       "published": "2026-10-27T14:00:00+00:00",
-      "description": "Öva polska med svenska ledtrådar. Ämne: Review and Recap. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet."
+      "description": "Öva polska med svenska ledtrådar. Ämne: Review and Recap. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.",
+      "season": 1,
+      "episode": 30
     }
   ]
 }

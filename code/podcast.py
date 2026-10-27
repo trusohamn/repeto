@@ -51,7 +51,18 @@ def build_feed(course: Path, base_url: str) -> None:
         rel="self", type="application/rss+xml",
     )
     seen = set()
-    for number, episode in enumerate(episodes, 1):
+    seen_numbers = set()
+    for episode in episodes:
+        season = episode["season"]
+        number = episode["episode"]
+        if (
+            type(season) is not int or season < 1
+            or type(number) is not int or number < 1
+        ):
+            raise ValueError("Season and episode numbers must be positive integers.")
+        if (season, number) in seen_numbers:
+            raise ValueError(f"Duplicate season/episode: {season}/{number}")
+        seen_numbers.add((season, number))
         filename = episode["file"]
         if Path(filename).name != filename or not filename.endswith(".mp3"):
             raise ValueError(f"Invalid audio filename: {filename!r}")
@@ -69,6 +80,7 @@ def build_feed(course: Path, base_url: str) -> None:
         guid.set("isPermaLink", "false")
         field(item, "pubDate", format_datetime(datetime.fromisoformat(episode["published"])))
         field(item, f"{{{ITUNES}}}episode", str(number))
+        field(item, f"{{{ITUNES}}}season", str(season))
         field(item, f"{{{ITUNES}}}episodeType", "full")
         field(item, f"{{{ITUNES}}}duration", str(round(episode["duration_ms"] / 1000)))
         field(item, f"{{{ITUNES}}}explicit", "false")

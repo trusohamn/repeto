@@ -11,6 +11,9 @@ RSS: https://trusohamn.github.io/repeto/swedish-polish/feed.xml
 Each course lives in `podcast/<course>/` with `cover.jpeg`, `course.json`, and
 `audio/`. The catalog stores permanent episode IDs and publication dates;
 keep these unchanged when replacing recordings.
+Each episode also sets `season` and `episode` explicitly (currently season 1,
+episodes 1–30). These become the podcast's season/episode metadata in Spotify;
+the title's number uses `episode`, not its position in the JSON list.
 
 ```sh
 .venv/bin/python code/podcast.py
