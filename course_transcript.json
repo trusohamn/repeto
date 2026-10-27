@@ -1,5231 +1,6096 @@
 [
   {
+    "id": "phrase_000001",
     "topic": "Greetings",
     "se": "Hej!",
     "pl": "Cześć!",
     "en": "Hi!"
   },
   {
-    "topic": "Greetings",
-    "se": "Hej hej!",
-    "pl": "Hej!",
-    "en": "Hey!"
-  },
-  {
+    "id": "phrase_000003",
     "topic": "Greetings",
     "se": "God morgon!",
     "pl": "Dzień dobry!",
     "en": "Good morning!"
   },
   {
+    "id": "phrase_000004",
     "topic": "Greetings",
     "se": "God eftermiddag!",
     "pl": "Dzień dobry!",
     "en": "Good afternoon!"
   },
   {
+    "id": "phrase_000005",
     "topic": "Greetings",
     "se": "God kväll!",
     "pl": "Dobry wieczór!",
     "en": "Good evening!"
   },
   {
+    "id": "phrase_000006",
     "topic": "Greetings",
     "se": "God natt!",
     "pl": "Dobranoc!",
     "en": "Good night!"
   },
   {
+    "id": "phrase_000007",
     "topic": "Greetings",
     "se": "Hejdå!",
     "pl": "Do widzenia!",
     "en": "Goodbye!"
   },
   {
+    "id": "phrase_000008",
     "topic": "Greetings",
     "se": "Vi ses!",
     "pl": "Na razie!",
     "en": "See you!"
   },
   {
+    "id": "phrase_000009",
     "topic": "Greetings",
     "se": "Vi ses imorgon!",
     "pl": "Do jutra!",
     "en": "See you tomorrow!"
   },
   {
+    "id": "phrase_000010",
     "topic": "Greetings",
     "se": "Tack!",
     "pl": "Dziękuję!",
     "en": "Thank you!"
   },
   {
+    "id": "phrase_000011",
     "topic": "Greetings",
     "se": "Tack så mycket!",
     "pl": "Dziękuję bardzo!",
     "en": "Thank you very much!"
   },
   {
+    "id": "phrase_000012",
     "topic": "Greetings",
     "se": "Varsågod!",
     "pl": "Proszę!",
     "en": "You're welcome!"
   },
   {
+    "id": "phrase_000013",
     "topic": "Greetings",
     "se": "Förlåt!",
     "pl": "Przepraszam!",
     "en": "Sorry!"
   },
   {
+    "id": "phrase_000014",
     "topic": "Greetings",
     "se": "Ursäkta!",
     "pl": "Przepraszam!",
     "en": "Excuse me!"
   },
   {
+    "id": "phrase_000015",
     "topic": "Greetings",
     "se": "Ja.",
     "pl": "Tak.",
     "en": "Yes."
   },
   {
+    "id": "phrase_000016",
     "topic": "Greetings",
     "se": "Nej.",
     "pl": "Nie.",
     "en": "No."
   },
   {
+    "id": "phrase_000017",
     "topic": "Greetings",
     "se": "Kanske.",
     "pl": "Może.",
     "en": "Maybe."
   },
   {
+    "id": "phrase_000018",
     "topic": "Greetings",
     "se": "Okej!",
     "pl": "Dobra!",
     "en": "Okay!"
   },
   {
+    "id": "phrase_000019",
     "topic": "Greetings",
     "se": "Bra!",
     "pl": "Dobrze!",
     "en": "Good!"
   },
   {
+    "id": "phrase_000020",
     "topic": "Greetings",
     "se": "Hur mår du?",
     "pl": "Jak się masz?",
     "en": "How are you?"
   },
   {
+    "id": "phrase_000021",
     "topic": "Greetings",
     "se": "Jag mår bra.",
     "pl": "Czuję się dobrze.",
     "en": "I'm fine."
   },
   {
+    "id": "phrase_000022",
     "topic": "Greetings",
     "se": "Jag mår inte bra.",
     "pl": "Źle się czuję.",
     "en": "I'm not feeling well."
   },
   {
+    "id": "phrase_000023",
     "topic": "Greetings",
     "se": "Vad heter du?",
     "pl": "Jak masz na imię?",
     "en": "What's your name?"
   },
   {
+    "id": "phrase_000024",
     "topic": "Greetings",
     "se": "Jag heter Maja.",
     "pl": "Mam na imię Maja.",
     "en": "My name is Maja."
   },
   {
+    "id": "phrase_000025",
     "topic": "Greetings",
     "se": "Hur gammal är du?",
     "pl": "Ile masz lat?",
     "en": "How old are you?"
   },
   {
+    "id": "phrase_000026",
     "topic": "Greetings",
     "se": "Jag är sju år.",
     "pl": "Mam siedem lat.",
     "en": "I am seven years old."
   },
   {
+    "id": "phrase_000027",
     "topic": "Greetings",
     "se": "Varifrån kommer du?",
     "pl": "Skąd pochodzisz?",
     "en": "Where are you from?"
   },
   {
+    "id": "phrase_000028",
     "topic": "Greetings",
     "se": "Jag kommer från Sverige.",
     "pl": "Pochodzę ze Szwecji.",
     "en": "I come from Sweden."
   },
   {
+    "id": "phrase_000029",
     "topic": "Greetings",
     "se": "Vad kul att träffa dig!",
     "pl": "Miło cię poznać!",
     "en": "Nice to meet you!"
   },
   {
+    "id": "phrase_000030",
     "topic": "Numbers",
     "se": "Ett",
     "pl": "Jeden",
     "en": "One"
   },
   {
+    "id": "phrase_000031",
     "topic": "Numbers",
     "se": "Två",
     "pl": "Dwa",
     "en": "Two"
   },
   {
+    "id": "phrase_000032",
     "topic": "Numbers",
     "se": "Tre",
     "pl": "Trzy",
     "en": "Three"
   },
   {
+    "id": "phrase_000033",
     "topic": "Numbers",
     "se": "Fyra",
     "pl": "Cztery",
     "en": "Four"
   },
   {
+    "id": "phrase_000034",
     "topic": "Numbers",
     "se": "Fem",
     "pl": "Pięć",
     "en": "Five"
   },
   {
+    "id": "phrase_000035",
     "topic": "Numbers",
     "se": "Sex",
     "pl": "Sześć",
     "en": "Six"
   },
   {
+    "id": "phrase_000036",
     "topic": "Numbers",
     "se": "Sju",
     "pl": "Siedem",
     "en": "Seven"
   },
   {
+    "id": "phrase_000037",
     "topic": "Numbers",
     "se": "Åtta",
     "pl": "Osiem",
     "en": "Eight"
   },
   {
+    "id": "phrase_000038",
     "topic": "Numbers",
     "se": "Nio",
     "pl": "Dziewięć",
     "en": "Nine"
   },
   {
+    "id": "phrase_000039",
     "topic": "Numbers",
     "se": "Tio",
     "pl": "Dziesięć",
     "en": "Ten"
   },
   {
+    "id": "phrase_000040",
     "topic": "Numbers",
     "se": "Elva",
     "pl": "Jedenaście",
     "en": "Eleven"
   },
   {
+    "id": "phrase_000041",
     "topic": "Numbers",
     "se": "Tolv",
     "pl": "Dwanaście",
     "en": "Twelve"
   },
   {
+    "id": "phrase_000042",
     "topic": "Numbers",
     "se": "Tretton",
     "pl": "Trzynaście",
     "en": "Thirteen"
   },
   {
+    "id": "phrase_000043",
     "topic": "Numbers",
     "se": "Fjorton",
     "pl": "Czternaście",
     "en": "Fourteen"
   },
   {
+    "id": "phrase_000044",
     "topic": "Numbers",
     "se": "Femton",
     "pl": "Piętnaście",
     "en": "Fifteen"
   },
   {
+    "id": "phrase_000045",
     "topic": "Numbers",
     "se": "Sexton",
     "pl": "Szesnaście",
     "en": "Sixteen"
   },
   {
+    "id": "phrase_000046",
     "topic": "Numbers",
     "se": "Sjutton",
     "pl": "Siedemnaście",
     "en": "Seventeen"
   },
   {
+    "id": "phrase_000047",
     "topic": "Numbers",
     "se": "Arton",
     "pl": "Osiemnaście",
     "en": "Eighteen"
   },
   {
+    "id": "phrase_000048",
     "topic": "Numbers",
     "se": "Nitton",
     "pl": "Dziewiętnaście",
     "en": "Nineteen"
   },
   {
+    "id": "phrase_000049",
     "topic": "Numbers",
     "se": "Tjugo",
     "pl": "Dwadzieścia",
     "en": "Twenty"
   },
   {
+    "id": "phrase_000050",
     "topic": "Numbers",
     "se": "Trettio",
     "pl": "Trzydzieści",
     "en": "Thirty"
   },
   {
+    "id": "phrase_000051",
     "topic": "Numbers",
     "se": "Fyrtio",
     "pl": "Czterdzieści",
     "en": "Forty"
   },
   {
+    "id": "phrase_000052",
     "topic": "Numbers",
     "se": "Femtio",
     "pl": "Pięćdziesiąt",
     "en": "Fifty"
   },
   {
+    "id": "phrase_000053",
     "topic": "Numbers",
     "se": "Hundra",
     "pl": "Sto",
     "en": "One hundred"
   },
   {
+    "id": "phrase_000054",
     "topic": "Numbers",
     "se": "Jag har två katter.",
     "pl": "Mam dwa koty.",
     "en": "I have two cats."
   },
   {
+    "id": "phrase_000055",
     "topic": "Numbers",
     "se": "Jag är åtta år.",
     "pl": "Mam osiem lat.",
     "en": "I am eight years old."
   },
   {
+    "id": "phrase_000056",
     "topic": "Numbers",
     "se": "Jag har tre systrar.",
     "pl": "Mam trzy siostry.",
     "en": "I have three sisters."
   },
   {
+    "id": "phrase_000057",
     "topic": "Numbers",
     "se": "Det finns fyra äpplen.",
     "pl": "Są cztery jabłka.",
     "en": "There are four apples."
   },
   {
+    "id": "phrase_000058",
     "topic": "Numbers",
     "se": "Hur många?",
     "pl": "Ile?",
     "en": "How many?"
   },
   {
+    "id": "phrase_000059",
     "topic": "Numbers",
     "se": "Räkna med mig!",
     "pl": "Licz ze mną!",
     "en": "Count with me!"
   },
   {
+    "id": "phrase_000060",
     "topic": "Colors",
     "se": "Röd",
     "pl": "Czerwony",
     "en": "Red"
   },
   {
+    "id": "phrase_000061",
     "topic": "Colors",
     "se": "Blå",
     "pl": "Niebieski",
     "en": "Blue"
   },
   {
+    "id": "phrase_000062",
     "topic": "Colors",
     "se": "Gul",
     "pl": "Żółty",
     "en": "Yellow"
   },
   {
+    "id": "phrase_000063",
     "topic": "Colors",
     "se": "Grön",
     "pl": "Zielony",
     "en": "Green"
   },
   {
+    "id": "phrase_000064",
     "topic": "Colors",
     "se": "Orange",
     "pl": "Pomarańczowy",
     "en": "Orange"
   },
   {
+    "id": "phrase_000065",
     "topic": "Colors",
     "se": "Lila",
     "pl": "Fioletowy",
     "en": "Purple"
   },
   {
+    "id": "phrase_000066",
     "topic": "Colors",
     "se": "Rosa",
     "pl": "Różowy",
     "en": "Pink"
   },
   {
+    "id": "phrase_000067",
     "topic": "Colors",
     "se": "Vit",
     "pl": "Biały",
     "en": "White"
   },
   {
+    "id": "phrase_000068",
     "topic": "Colors",
     "se": "Svart",
     "pl": "Czarny",
     "en": "Black"
   },
   {
+    "id": "phrase_000069",
     "topic": "Colors",
     "se": "Grå",
     "pl": "Szary",
     "en": "Grey"
   },
   {
+    "id": "phrase_000070",
     "topic": "Colors",
     "se": "Brun",
     "pl": "Brązowy",
     "en": "Brown"
   },
   {
+    "id": "phrase_000071",
     "topic": "Colors",
     "se": "Vilken färg är det?",
     "pl": "Jakiego to koloru?",
     "en": "What colour is it?"
   },
   {
+    "id": "phrase_000072",
     "topic": "Colors",
     "se": "Det är rött.",
     "pl": "To jest czerwone.",
     "en": "It is red."
   },
   {
+    "id": "phrase_000073",
     "topic": "Colors",
     "se": "Det är blått.",
     "pl": "To jest niebieskie.",
     "en": "It is blue."
   },
   {
+    "id": "phrase_000074",
     "topic": "Colors",
     "se": "Det är gult.",
     "pl": "To jest żółte.",
     "en": "It is yellow."
   },
   {
+    "id": "phrase_000075",
     "topic": "Colors",
     "se": "Min favoritfärg är grön.",
     "pl": "Mój ulubiony kolor to zielony.",
     "en": "My favourite colour is green."
   },
   {
+    "id": "phrase_000076",
     "topic": "Colors",
     "se": "Himlen är blå.",
     "pl": "Niebo jest niebieskie.",
     "en": "The sky is blue."
   },
   {
+    "id": "phrase_000077",
     "topic": "Colors",
     "se": "Gräset är grönt.",
     "pl": "Trawa jest zielona.",
     "en": "The grass is green."
   },
   {
+    "id": "phrase_000078",
     "topic": "Colors",
     "se": "Solen är gul.",
     "pl": "Słońce jest żółte.",
     "en": "The sun is yellow."
   },
   {
+    "id": "phrase_000079",
     "topic": "Colors",
     "se": "Tomaten är röd.",
     "pl": "Pomidor jest czerwony.",
     "en": "The tomato is red."
   },
   {
+    "id": "phrase_000080",
     "topic": "Colors",
     "se": "Snön är vit.",
     "pl": "Śnieg jest biały.",
     "en": "The snow is white."
   },
   {
+    "id": "phrase_000081",
     "topic": "Colors",
     "se": "Natten är svart.",
     "pl": "Noc jest czarna.",
     "en": "The night is black."
   },
   {
+    "id": "phrase_000082",
     "topic": "Colors",
     "se": "Min tröja är rosa.",
     "pl": "Mój sweter jest różowy.",
     "en": "My jumper is pink."
   },
   {
+    "id": "phrase_000083",
     "topic": "Colors",
     "se": "Björnen är brun.",
     "pl": "Niedźwiedź jest brązowy.",
     "en": "The bear is brown."
   },
   {
+    "id": "phrase_000084",
     "topic": "Animals",
     "se": "Hund",
     "pl": "Pies",
     "en": "Dog"
   },
   {
+    "id": "phrase_000085",
     "topic": "Animals",
     "se": "Katt",
     "pl": "Kot",
     "en": "Cat"
   },
   {
+    "id": "phrase_000086",
     "topic": "Animals",
     "se": "Fågel",
     "pl": "Ptak",
     "en": "Bird"
   },
   {
+    "id": "phrase_000087",
     "topic": "Animals",
     "se": "Fisk",
     "pl": "Ryba",
     "en": "Fish"
   },
   {
+    "id": "phrase_000088",
     "topic": "Animals",
     "se": "Häst",
     "pl": "Koń",
     "en": "Horse"
   },
   {
+    "id": "phrase_000089",
     "topic": "Animals",
     "se": "Ko",
     "pl": "Krowa",
     "en": "Cow"
   },
   {
+    "id": "phrase_000090",
     "topic": "Animals",
     "se": "Gris",
     "pl": "Świnia",
     "en": "Pig"
   },
   {
+    "id": "phrase_000091",
     "topic": "Animals",
     "se": "Får",
     "pl": "Owca",
     "en": "Sheep"
   },
   {
+    "id": "phrase_000092",
     "topic": "Animals",
     "se": "Kanin",
     "pl": "Królik",
     "en": "Rabbit"
   },
   {
+    "id": "phrase_000093",
     "topic": "Animals",
     "se": "Björn",
     "pl": "Niedźwiedź",
     "en": "Bear"
   },
   {
+    "id": "phrase_000094",
     "topic": "Animals",
     "se": "Lejon",
     "pl": "Lew",
     "en": "Lion"
   },
   {
+    "id": "phrase_000095",
     "topic": "Animals",
     "se": "Tiger",
     "pl": "Tygrys",
     "en": "Tiger"
   },
   {
+    "id": "phrase_000096",
     "topic": "Animals",
     "se": "Elefant",
     "pl": "Słoń",
     "en": "Elephant"
   },
   {
+    "id": "phrase_000097",
     "topic": "Animals",
     "se": "Giraff",
     "pl": "Żyrafa",
     "en": "Giraffe"
   },
   {
+    "id": "phrase_000098",
     "topic": "Animals",
     "se": "Apa",
     "pl": "Małpa",
     "en": "Monkey"
   },
   {
+    "id": "phrase_000099",
     "topic": "Animals",
     "se": "Orm",
     "pl": "Wąż",
     "en": "Snake"
   },
   {
+    "id": "phrase_000100",
     "topic": "Animals",
     "se": "Groda",
     "pl": "Żaba",
     "en": "Frog"
   },
   {
+    "id": "phrase_000101",
     "topic": "Animals",
     "se": "Anka",
     "pl": "Kaczka",
     "en": "Duck"
   },
   {
+    "id": "phrase_000102",
     "topic": "Animals",
     "se": "Höna",
     "pl": "Kura",
     "en": "Hen"
   },
   {
+    "id": "phrase_000103",
     "topic": "Animals",
     "se": "Tupp",
     "pl": "Kogut",
     "en": "Rooster"
   },
   {
+    "id": "phrase_000104",
     "topic": "Animals",
     "se": "Mus",
     "pl": "Mysz",
     "en": "Mouse"
   },
   {
+    "id": "phrase_000105",
     "topic": "Animals",
     "se": "Råtta",
     "pl": "Szczur",
     "en": "Rat"
   },
   {
+    "id": "phrase_000106",
     "topic": "Animals",
     "se": "Spindel",
     "pl": "Pająk",
     "en": "Spider"
   },
   {
+    "id": "phrase_000107",
     "topic": "Animals",
     "se": "Fjäril",
     "pl": "Motyl",
     "en": "Butterfly"
   },
   {
+    "id": "phrase_000108",
     "topic": "Animals",
     "se": "Bi",
     "pl": "Pszczoła",
     "en": "Bee"
   },
   {
+    "id": "phrase_000109",
     "topic": "Animals",
     "se": "Jag har en hund.",
     "pl": "Mam psa.",
     "en": "I have a dog."
   },
   {
+    "id": "phrase_000110",
     "topic": "Animals",
     "se": "Jag har en katt.",
     "pl": "Mam kota.",
     "en": "I have a cat."
   },
   {
+    "id": "phrase_000111",
     "topic": "Animals",
     "se": "Jag vill ha en kanin.",
     "pl": "Chcę mieć królika.",
     "en": "I want a rabbit."
   },
   {
+    "id": "phrase_000112",
     "topic": "Animals",
     "se": "Hunden heter Max.",
     "pl": "Pies ma na imię Max.",
     "en": "The dog's name is Max."
   },
   {
+    "id": "phrase_000113",
     "topic": "Animals",
     "se": "Katten sover.",
     "pl": "Kot śpi.",
     "en": "The cat is sleeping."
   },
   {
+    "id": "phrase_000114",
     "topic": "Animals",
     "se": "Hästen springer.",
     "pl": "Koń biegnie.",
     "en": "The horse is running."
   },
   {
+    "id": "phrase_000115",
     "topic": "Animals",
     "se": "Fågeln sjunger.",
     "pl": "Ptak śpiewa.",
     "en": "The bird is singing."
   },
   {
+    "id": "phrase_000116",
     "topic": "Animals",
     "se": "Kon äter gräs.",
     "pl": "Krowa je trawę.",
     "en": "The cow is eating grass."
   },
   {
+    "id": "phrase_000117",
     "topic": "Animals",
     "se": "Lejonet är stort.",
     "pl": "Lew jest duży.",
     "en": "The lion is big."
   },
   {
+    "id": "phrase_000118",
     "topic": "Animals",
     "se": "Musen är liten.",
     "pl": "Mysz jest mała.",
     "en": "The mouse is small."
   },
   {
+    "id": "phrase_000119",
     "topic": "Family",
     "se": "Mamma",
     "pl": "Mama",
     "en": "Mum"
   },
   {
+    "id": "phrase_000120",
     "topic": "Family",
     "se": "Pappa",
     "pl": "Tata",
     "en": "Dad"
   },
   {
+    "id": "phrase_000121",
     "topic": "Family",
     "se": "Syster",
     "pl": "Siostra",
     "en": "Sister"
   },
   {
+    "id": "phrase_000122",
     "topic": "Family",
     "se": "Bror",
     "pl": "Brat",
     "en": "Brother"
   },
   {
+    "id": "phrase_000123",
     "topic": "Family",
     "se": "Farmor",
     "pl": "Babcia",
     "en": "Grandma"
   },
   {
+    "id": "phrase_000124",
     "topic": "Family",
     "se": "Farfar",
     "pl": "Dziadek",
     "en": "Grandpa"
   },
   {
+    "id": "phrase_000125",
     "topic": "Family",
     "se": "Moster",
     "pl": "Ciocia",
     "en": "Aunt"
   },
   {
+    "id": "phrase_000126",
     "topic": "Family",
     "se": "Farbror",
     "pl": "Wujek",
     "en": "Uncle"
   },
   {
+    "id": "phrase_000127",
     "topic": "Family",
     "se": "Kusin",
     "pl": "Kuzyn",
     "en": "Cousin"
   },
   {
+    "id": "phrase_000128",
     "topic": "Family",
     "se": "Bebis",
     "pl": "Niemowlę",
     "en": "Baby"
   },
   {
+    "id": "phrase_000129",
     "topic": "Family",
     "se": "Min mamma heter Anna.",
     "pl": "Moja mama ma na imię Anna.",
     "en": "My mum's name is Anna."
   },
   {
+    "id": "phrase_000130",
     "topic": "Family",
     "se": "Min pappa heter Piotr.",
     "pl": "Mój tata ma na imię Piotr.",
     "en": "My dad's name is Piotr."
   },
   {
+    "id": "phrase_000131",
     "topic": "Family",
     "se": "Jag älskar min familj.",
     "pl": "Kocham moją rodzinę.",
     "en": "I love my family."
   },
   {
+    "id": "phrase_000132",
     "topic": "Family",
     "se": "Min syster är yngre.",
     "pl": "Moja siostra jest młodsza.",
     "en": "My sister is younger."
   },
   {
+    "id": "phrase_000133",
     "topic": "Family",
     "se": "Min bror är äldre.",
     "pl": "Mój brat jest starszy.",
     "en": "My brother is older."
   },
   {
+    "id": "phrase_000134",
     "topic": "Family",
     "se": "Vi bor tillsammans.",
     "pl": "Mieszkamy razem.",
     "en": "We live together."
   },
   {
+    "id": "phrase_000135",
     "topic": "Family",
     "se": "Farmor bakar kakor.",
     "pl": "Babcia piecze ciasteczka.",
     "en": "Grandma bakes cookies."
   },
   {
+    "id": "phrase_000136",
     "topic": "Family",
     "se": "Farfar berättar sagor.",
     "pl": "Dziadek opowiada bajki.",
     "en": "Grandpa tells stories."
   },
   {
+    "id": "phrase_000137",
     "topic": "Family",
     "se": "Vi leker med kusinen.",
     "pl": "Bawimy się z kuzynem.",
     "en": "We play with our cousin."
   },
   {
+    "id": "phrase_000138",
     "topic": "Family",
     "se": "Vi är en stor familj.",
     "pl": "Jesteśmy dużą rodziną.",
     "en": "We are a big family."
   },
   {
+    "id": "phrase_000139",
     "topic": "Food",
     "se": "Bröd",
     "pl": "Chleb",
     "en": "Bread"
   },
   {
+    "id": "phrase_000140",
     "topic": "Food",
     "se": "Mjölk",
     "pl": "Mleko",
     "en": "Milk"
   },
   {
+    "id": "phrase_000141",
     "topic": "Food",
     "se": "Ägg",
     "pl": "Jajko",
     "en": "Egg"
   },
   {
+    "id": "phrase_000142",
     "topic": "Food",
     "se": "Smör",
     "pl": "Masło",
     "en": "Butter"
   },
   {
+    "id": "phrase_000143",
     "topic": "Food",
     "se": "Ost",
     "pl": "Ser",
     "en": "Cheese"
   },
   {
+    "id": "phrase_000144",
     "topic": "Food",
     "se": "Äpple",
     "pl": "Jabłko",
     "en": "Apple"
   },
   {
+    "id": "phrase_000145",
     "topic": "Food",
     "se": "Päron",
     "pl": "Gruszka",
     "en": "Pear"
   },
   {
+    "id": "phrase_000146",
     "topic": "Food",
     "se": "Banan",
     "pl": "Banan",
     "en": "Banana"
   },
   {
+    "id": "phrase_000147",
     "topic": "Food",
     "se": "Jordgubbe",
     "pl": "Truskawka",
     "en": "Strawberry"
   },
   {
+    "id": "phrase_000148",
     "topic": "Food",
     "se": "Vattenmelon",
     "pl": "Arbuz",
     "en": "Watermelon"
   },
   {
+    "id": "phrase_000149",
     "topic": "Food",
     "se": "Apelsin",
     "pl": "Pomarańcza",
     "en": "Orange"
   },
   {
+    "id": "phrase_000150",
     "topic": "Food",
     "se": "Citron",
     "pl": "Cytryna",
     "en": "Lemon"
   },
   {
+    "id": "phrase_000151",
     "topic": "Food",
     "se": "Morot",
     "pl": "Marchew",
     "en": "Carrot"
   },
   {
+    "id": "phrase_000152",
     "topic": "Food",
     "se": "Tomat",
     "pl": "Pomidor",
     "en": "Tomato"
   },
   {
+    "id": "phrase_000153",
     "topic": "Food",
     "se": "Potatis",
     "pl": "Ziemniak",
     "en": "Potato"
   },
   {
+    "id": "phrase_000154",
     "topic": "Food",
     "se": "Gurka",
     "pl": "Ogórek",
     "en": "Cucumber"
   },
   {
+    "id": "phrase_000155",
     "topic": "Food",
     "se": "Soppa",
     "pl": "Zupa",
     "en": "Soup"
   },
   {
+    "id": "phrase_000156",
     "topic": "Food",
     "se": "Pasta",
     "pl": "Makaron",
     "en": "Pasta"
   },
   {
+    "id": "phrase_000157",
     "topic": "Food",
     "se": "Pizza",
     "pl": "Pizza",
     "en": "Pizza"
   },
   {
+    "id": "phrase_000158",
     "topic": "Food",
     "se": "Ris",
     "pl": "Ryż",
     "en": "Rice"
   },
   {
+    "id": "phrase_000159",
     "topic": "Food",
     "se": "Kyckling",
     "pl": "Kurczak",
     "en": "Chicken"
   },
   {
+    "id": "phrase_000160",
     "topic": "Food",
     "se": "Kött",
     "pl": "Mięso",
     "en": "Meat"
   },
   {
+    "id": "phrase_000161",
     "topic": "Food",
     "se": "Fisk",
     "pl": "Ryba",
     "en": "Fish"
   },
   {
+    "id": "phrase_000162",
     "topic": "Food",
     "se": "Glass",
     "pl": "Lody",
     "en": "Ice cream"
   },
   {
+    "id": "phrase_000163",
     "topic": "Food",
     "se": "Kaka",
     "pl": "Ciastko",
     "en": "Cookie"
   },
   {
+    "id": "phrase_000164",
     "topic": "Food",
     "se": "Choklad",
     "pl": "Czekolada",
     "en": "Chocolate"
   },
   {
+    "id": "phrase_000165",
     "topic": "Food",
     "se": "Vatten",
     "pl": "Woda",
     "en": "Water"
   },
   {
+    "id": "phrase_000166",
     "topic": "Food",
     "se": "Juice",
     "pl": "Sok",
     "en": "Juice"
   },
   {
+    "id": "phrase_000167",
     "topic": "Food",
     "se": "Te",
     "pl": "Herbata",
     "en": "Tea"
   },
   {
+    "id": "phrase_000168",
     "topic": "Food",
     "se": "Jag är hungrig.",
     "pl": "Jestem głodny.",
     "en": "I am hungry."
   },
   {
+    "id": "phrase_000169",
     "topic": "Food",
     "se": "Jag är törstig.",
     "pl": "Jestem spragniony.",
     "en": "I am thirsty."
   },
   {
+    "id": "phrase_000170",
     "topic": "Food",
     "se": "Jag vill äta.",
     "pl": "Chcę jeść.",
     "en": "I want to eat."
   },
   {
+    "id": "phrase_000171",
     "topic": "Food",
     "se": "Jag vill dricka vatten.",
     "pl": "Chcę pić wodę.",
     "en": "I want to drink water."
   },
   {
+    "id": "phrase_000172",
     "topic": "Food",
     "se": "Jag vill ha glass.",
     "pl": "Chcę lody.",
     "en": "I want ice cream."
   },
   {
+    "id": "phrase_000173",
     "topic": "Food",
     "se": "Kan jag få en kaka?",
     "pl": "Czy mogę dostać ciastko?",
     "en": "Can I have a cookie?"
   },
   {
+    "id": "phrase_000174",
     "topic": "Food",
     "se": "Det smakar gott!",
     "pl": "To jest smaczne!",
     "en": "It tastes good!"
   },
   {
+    "id": "phrase_000175",
     "topic": "Food",
     "se": "Det smakar inte gott.",
     "pl": "To nie jest smaczne.",
     "en": "It doesn't taste good."
   },
   {
+    "id": "phrase_000176",
     "topic": "Food",
     "se": "Min favoritmat är pizza.",
     "pl": "Moje ulubione jedzenie to pizza.",
     "en": "My favourite food is pizza."
   },
   {
+    "id": "phrase_000177",
     "topic": "Food",
     "se": "Jag gillar jordgubbar.",
     "pl": "Lubię truskawki.",
     "en": "I like strawberries."
   },
   {
+    "id": "phrase_000178",
     "topic": "Food",
     "se": "Jag gillar inte broccoli.",
     "pl": "Nie lubię brokułów.",
     "en": "I don't like broccoli."
   },
   {
+    "id": "phrase_000179",
     "topic": "Food",
     "se": "Smaklig måltid!",
     "pl": "Smacznego!",
     "en": "Enjoy your meal!"
   },
   {
+    "id": "phrase_000180",
     "topic": "Body",
     "se": "Huvud",
     "pl": "Głowa",
     "en": "Head"
   },
   {
+    "id": "phrase_000181",
     "topic": "Body",
     "se": "Hår",
     "pl": "Włosy",
     "en": "Hair"
   },
   {
+    "id": "phrase_000182",
     "topic": "Body",
     "se": "Öga",
     "pl": "Oko",
     "en": "Eye"
   },
   {
+    "id": "phrase_000183",
     "topic": "Body",
     "se": "Öra",
     "pl": "Ucho",
     "en": "Ear"
   },
   {
+    "id": "phrase_000184",
     "topic": "Body",
     "se": "Näsa",
     "pl": "Nos",
     "en": "Nose"
   },
   {
+    "id": "phrase_000185",
     "topic": "Body",
     "se": "Mun",
     "pl": "Usta",
     "en": "Mouth"
   },
   {
+    "id": "phrase_000186",
     "topic": "Body",
     "se": "Tand",
     "pl": "Ząb",
     "en": "Tooth"
   },
   {
+    "id": "phrase_000187",
     "topic": "Body",
     "se": "Tunga",
     "pl": "Język",
     "en": "Tongue"
   },
   {
+    "id": "phrase_000188",
     "topic": "Body",
     "se": "Hals",
     "pl": "Gardło",
     "en": "Throat"
   },
   {
+    "id": "phrase_000189",
     "topic": "Body",
     "se": "Hals",
     "pl": "Szyja",
     "en": "Neck"
   },
   {
+    "id": "phrase_000190",
     "topic": "Body",
     "se": "Axel",
     "pl": "Bark",
     "en": "Shoulder"
   },
   {
+    "id": "phrase_000191",
     "topic": "Body",
     "se": "Arm",
     "pl": "Ramię",
     "en": "Arm"
   },
   {
+    "id": "phrase_000192",
     "topic": "Body",
     "se": "Hand",
     "pl": "Ręka",
     "en": "Hand"
   },
   {
+    "id": "phrase_000193",
     "topic": "Body",
     "se": "Finger",
     "pl": "Palec",
     "en": "Finger"
   },
   {
+    "id": "phrase_000194",
     "topic": "Body",
     "se": "Mage",
     "pl": "Brzuch",
     "en": "Tummy"
   },
   {
+    "id": "phrase_000195",
     "topic": "Body",
     "se": "Rygg",
     "pl": "Plecy",
     "en": "Back"
   },
   {
+    "id": "phrase_000196",
     "topic": "Body",
     "se": "Ben",
     "pl": "Noga",
     "en": "Leg"
   },
   {
+    "id": "phrase_000197",
     "topic": "Body",
     "se": "Knä",
     "pl": "Kolano",
     "en": "Knee"
   },
   {
+    "id": "phrase_000198",
     "topic": "Body",
     "se": "Fot",
     "pl": "Stopa",
     "en": "Foot"
   },
   {
+    "id": "phrase_000199",
     "topic": "Body",
     "se": "Tå",
     "pl": "Palec u nogi",
     "en": "Toe"
   },
   {
+    "id": "phrase_000200",
     "topic": "Body",
     "se": "Jag har ont i huvudet.",
     "pl": "Boli mnie głowa.",
     "en": "My head hurts."
   },
   {
+    "id": "phrase_000201",
     "topic": "Body",
     "se": "Jag har ont i magen.",
     "pl": "Boli mnie brzuch.",
     "en": "My tummy hurts."
   },
   {
+    "id": "phrase_000202",
     "topic": "Body",
     "se": "Jag kan stå på ett ben.",
     "pl": "Umiem stać na jednej nodze.",
     "en": "I can stand on one leg."
   },
   {
+    "id": "phrase_000203",
     "topic": "Body",
     "se": "Jag hör med öronen.",
     "pl": "Słyszę uszami.",
     "en": "I hear with my ears."
   },
   {
+    "id": "phrase_000204",
     "topic": "Body",
     "se": "Jag böjer på knäna.",
     "pl": "Zginam kolana.",
     "en": "I bend my knees."
   },
   {
+    "id": "phrase_000205",
     "topic": "Body",
     "se": "Jag är sjuk.",
     "pl": "Jestem chory.",
     "en": "I am sick."
   },
   {
+    "id": "phrase_000206",
     "topic": "Body",
     "se": "Jag känner mig trött.",
     "pl": "Czuję się zmęczony.",
     "en": "I feel tired."
   },
   {
+    "id": "phrase_000207",
     "topic": "Body",
     "se": "Jag känner mig glad.",
     "pl": "Jestem wesoły.",
     "en": "I feel happy."
   },
   {
+    "id": "phrase_000208",
     "topic": "Body",
     "se": "Peka på näsan!",
     "pl": "Wskaż nos!",
     "en": "Point to your nose!"
   },
   {
+    "id": "phrase_000209",
     "topic": "Body",
     "se": "Peka på ögonen!",
     "pl": "Wskaż oczy!",
     "en": "Point to your eyes!"
   },
   {
+    "id": "phrase_000210",
     "topic": "Clothing",
     "se": "Tröja",
     "pl": "Sweter",
     "en": "Jumper"
   },
   {
+    "id": "phrase_000211",
     "topic": "Clothing",
     "se": "T-shirt",
     "pl": "Koszulka",
     "en": "T-shirt"
   },
   {
+    "id": "phrase_000212",
     "topic": "Clothing",
     "se": "Skjorta",
     "pl": "Koszula",
     "en": "Shirt"
   },
   {
+    "id": "phrase_000213",
     "topic": "Clothing",
     "se": "Byxor",
     "pl": "Spodnie",
     "en": "Trousers"
   },
   {
+    "id": "phrase_000214",
     "topic": "Clothing",
     "se": "Shorts",
     "pl": "Szorty",
     "en": "Shorts"
   },
   {
+    "id": "phrase_000215",
     "topic": "Clothing",
     "se": "Kjol",
     "pl": "Spódnica",
     "en": "Skirt"
   },
   {
+    "id": "phrase_000216",
     "topic": "Clothing",
     "se": "Klänning",
     "pl": "Sukienka",
     "en": "Dress"
   },
   {
+    "id": "phrase_000217",
     "topic": "Clothing",
     "se": "Jacka",
     "pl": "Kurtka",
     "en": "Jacket"
   },
   {
+    "id": "phrase_000218",
     "topic": "Clothing",
     "se": "Kappa",
     "pl": "Płaszcz",
     "en": "Coat"
   },
   {
+    "id": "phrase_000219",
     "topic": "Clothing",
     "se": "Mössa",
     "pl": "Czapka",
     "en": "Hat"
   },
   {
+    "id": "phrase_000220",
     "topic": "Clothing",
     "se": "Halsduk",
     "pl": "Szalik",
     "en": "Scarf"
   },
   {
+    "id": "phrase_000221",
     "topic": "Clothing",
     "se": "Vantar",
     "pl": "Rękawiczki",
     "en": "Mittens"
   },
   {
+    "id": "phrase_000222",
     "topic": "Clothing",
     "se": "Skor",
     "pl": "Buty",
     "en": "Shoes"
   },
   {
+    "id": "phrase_000223",
     "topic": "Clothing",
     "se": "Stövlar",
     "pl": "Kozaki",
     "en": "Boots"
   },
   {
+    "id": "phrase_000224",
     "topic": "Clothing",
     "se": "Strumpor",
     "pl": "Skarpetki",
     "en": "Socks"
   },
   {
+    "id": "phrase_000225",
     "topic": "Clothing",
     "se": "Pyjamas",
     "pl": "Piżama",
     "en": "Pyjamas"
   },
   {
+    "id": "phrase_000226",
     "topic": "Clothing",
     "se": "Jag tar på mig tröjan.",
     "pl": "Zakładam sweter.",
     "en": "I am putting on my jumper."
   },
   {
+    "id": "phrase_000227",
     "topic": "Clothing",
     "se": "Jag tar av mig skorna.",
     "pl": "Zdejmuję buty.",
     "en": "I am taking off my shoes."
   },
   {
+    "id": "phrase_000228",
     "topic": "Clothing",
     "se": "Var är min mössa?",
     "pl": "Gdzie jest moja czapka?",
     "en": "Where is my hat?"
   },
   {
+    "id": "phrase_000229",
     "topic": "Clothing",
     "se": "Jag hittar inte mina strumpor.",
     "pl": "Nie mogę znaleźć skarpetek.",
     "en": "I can't find my socks."
   },
   {
+    "id": "phrase_000230",
     "topic": "Clothing",
     "se": "Det är kallt — ta på dig jackan!",
     "pl": "Jest zimno — załóż kurtkę!",
     "en": "It's cold — put on your jacket!"
   },
   {
+    "id": "phrase_000231",
     "topic": "Clothing",
     "se": "Min favoritklänning är rosa.",
     "pl": "Moja ulubiona sukienka jest różowa.",
     "en": "My favourite dress is pink."
   },
   {
+    "id": "phrase_000232",
     "topic": "Clothing",
     "se": "Jag gillar mina nya skor.",
     "pl": "Lubię moje nowe buty.",
     "en": "I like my new shoes."
   },
   {
+    "id": "phrase_000233",
     "topic": "Home",
     "se": "Hus",
     "pl": "Dom",
     "en": "House"
   },
   {
+    "id": "phrase_000234",
     "topic": "Home",
     "se": "Lägenhet",
     "pl": "Mieszkanie",
     "en": "Flat"
   },
   {
+    "id": "phrase_000235",
     "topic": "Home",
     "se": "Rum",
     "pl": "Pokój",
     "en": "Room"
   },
   {
+    "id": "phrase_000236",
     "topic": "Home",
     "se": "Kök",
     "pl": "Kuchnia",
     "en": "Kitchen"
   },
   {
+    "id": "phrase_000237",
     "topic": "Home",
     "se": "Badrum",
     "pl": "Łazienka",
     "en": "Bathroom"
   },
   {
+    "id": "phrase_000238",
     "topic": "Home",
     "se": "Sovrum",
     "pl": "Sypialnia",
     "en": "Bedroom"
   },
   {
+    "id": "phrase_000239",
     "topic": "Home",
     "se": "Vardagsrum",
     "pl": "Salon",
     "en": "Living room"
   },
   {
+    "id": "phrase_000240",
     "topic": "Home",
     "se": "Dörr",
     "pl": "Drzwi",
     "en": "Door"
   },
   {
+    "id": "phrase_000241",
     "topic": "Home",
     "se": "Fönster",
     "pl": "Okno",
     "en": "Window"
   },
   {
+    "id": "phrase_000242",
     "topic": "Home",
     "se": "Golv",
     "pl": "Podłoga",
     "en": "Floor"
   },
   {
+    "id": "phrase_000243",
     "topic": "Home",
     "se": "Tak",
     "pl": "Sufit",
     "en": "Ceiling"
   },
   {
+    "id": "phrase_000244",
     "topic": "Home",
     "se": "Vägg",
     "pl": "Ściana",
     "en": "Wall"
   },
   {
+    "id": "phrase_000245",
     "topic": "Home",
     "se": "Trappa",
     "pl": "Schody",
     "en": "Stairs"
   },
   {
+    "id": "phrase_000246",
     "topic": "Home",
     "se": "Säng",
     "pl": "Łóżko",
     "en": "Bed"
   },
   {
+    "id": "phrase_000247",
     "topic": "Home",
     "se": "Soffa",
     "pl": "Sofa",
     "en": "Sofa"
   },
   {
+    "id": "phrase_000248",
     "topic": "Home",
     "se": "Stol",
     "pl": "Krzesło",
     "en": "Chair"
   },
   {
+    "id": "phrase_000249",
     "topic": "Home",
     "se": "Bord",
     "pl": "Stół",
     "en": "Table"
   },
   {
+    "id": "phrase_000250",
     "topic": "Home",
     "se": "Bokhylla",
     "pl": "Półka na książki",
     "en": "Bookshelf"
   },
   {
+    "id": "phrase_000251",
     "topic": "Home",
     "se": "Lampa",
     "pl": "Lampa",
     "en": "Lamp"
   },
   {
+    "id": "phrase_000252",
     "topic": "Home",
     "se": "Kylskåp",
     "pl": "Lodówka",
     "en": "Fridge"
   },
   {
+    "id": "phrase_000253",
     "topic": "Home",
     "se": "Spis",
     "pl": "Kuchenka",
     "en": "Cooker"
   },
   {
+    "id": "phrase_000254",
     "topic": "Home",
     "se": "Jag är hemma.",
     "pl": "Jestem w domu.",
     "en": "I am home."
   },
   {
+    "id": "phrase_000255",
     "topic": "Home",
     "se": "Jag går hem.",
     "pl": "Idę do domu.",
     "en": "I am going home."
   },
   {
+    "id": "phrase_000256",
     "topic": "Home",
     "se": "Välkommen hem!",
     "pl": "Witaj w domu!",
     "en": "Welcome home!"
   },
   {
+    "id": "phrase_000257",
     "topic": "Home",
     "se": "Var är badrummet?",
     "pl": "Gdzie jest łazienka?",
     "en": "Where is the bathroom?"
   },
   {
+    "id": "phrase_000258",
     "topic": "Home",
     "se": "Köket är stort.",
     "pl": "Kuchnia jest duża.",
     "en": "The kitchen is big."
   },
   {
+    "id": "phrase_000259",
     "topic": "Home",
     "se": "Mitt rum är litet.",
     "pl": "Mój pokój jest mały.",
     "en": "My room is small."
   },
   {
+    "id": "phrase_000260",
     "topic": "Home",
     "se": "Dörren är stängd.",
     "pl": "Drzwi są zamknięte.",
     "en": "The door is closed."
   },
   {
+    "id": "phrase_000261",
     "topic": "Home",
     "se": "Fönstret är öppet.",
     "pl": "Okno jest otwarte.",
     "en": "The window is open."
   },
   {
+    "id": "phrase_000262",
     "topic": "Home",
     "se": "Jag sover i sovrummet.",
     "pl": "Śpię w sypialni.",
     "en": "I sleep in the bedroom."
   },
   {
+    "id": "phrase_000263",
     "topic": "Home",
     "se": "Vi äter i köket.",
     "pl": "Jemy w kuchni.",
     "en": "We eat in the kitchen."
   },
   {
+    "id": "phrase_000264",
     "topic": "School",
     "se": "Skola",
     "pl": "Szkoła",
     "en": "School"
   },
   {
+    "id": "phrase_000265",
     "topic": "School",
     "se": "Klassrum",
     "pl": "Klasa",
     "en": "Classroom"
   },
   {
+    "id": "phrase_000266",
     "topic": "School",
     "se": "Lärare",
     "pl": "Nauczyciel",
     "en": "Teacher"
   },
   {
+    "id": "phrase_000267",
     "topic": "School",
     "se": "Elev",
     "pl": "Uczeń",
     "en": "Pupil"
   },
   {
+    "id": "phrase_000268",
     "topic": "School",
     "se": "Bok",
     "pl": "Książka",
     "en": "Book"
   },
   {
+    "id": "phrase_000269",
     "topic": "School",
     "se": "Häfte",
     "pl": "Zeszyt",
     "en": "Notebook"
   },
   {
+    "id": "phrase_000270",
     "topic": "School",
     "se": "Blyertspenna",
     "pl": "Ołówek",
     "en": "Pencil"
   },
   {
+    "id": "phrase_000271",
     "topic": "School",
     "se": "Kulspetspenna",
     "pl": "Długopis",
     "en": "Pen"
   },
   {
+    "id": "phrase_000272",
     "topic": "School",
     "se": "Suddgummi",
     "pl": "Gumka",
     "en": "Eraser"
   },
   {
+    "id": "phrase_000273",
     "topic": "School",
     "se": "Linjal",
     "pl": "Linijka",
     "en": "Ruler"
   },
   {
+    "id": "phrase_000274",
     "topic": "School",
     "se": "Ryggsäck",
     "pl": "Plecak",
     "en": "Backpack"
   },
   {
+    "id": "phrase_000275",
     "topic": "School",
     "se": "Bänk",
     "pl": "Ławka",
     "en": "Desk"
   },
   {
+    "id": "phrase_000276",
     "topic": "School",
     "se": "Tavla",
     "pl": "Tablica",
     "en": "Blackboard"
   },
   {
+    "id": "phrase_000277",
     "topic": "School",
     "se": "Krita",
     "pl": "Kreda",
     "en": "Chalk"
   },
   {
+    "id": "phrase_000278",
     "topic": "School",
     "se": "Läxa",
     "pl": "Zadanie domowe",
     "en": "Homework"
   },
   {
+    "id": "phrase_000279",
     "topic": "School",
     "se": "Rast",
     "pl": "Przerwa",
     "en": "Break"
   },
   {
+    "id": "phrase_000280",
     "topic": "School",
     "se": "Klockan är åtta.",
     "pl": "Jest godzina ósma.",
     "en": "It is eight o'clock."
   },
   {
+    "id": "phrase_000281",
     "topic": "School",
     "se": "Skolan börjar.",
     "pl": "Zaczyna się szkoła.",
     "en": "School is starting."
   },
   {
+    "id": "phrase_000282",
     "topic": "School",
     "se": "Jag går till skolan.",
     "pl": "Idę do szkoły.",
     "en": "I am going to school."
   },
   {
+    "id": "phrase_000283",
     "topic": "School",
     "se": "Jag gillar skolan.",
     "pl": "Lubię szkołę.",
     "en": "I like school."
   },
   {
+    "id": "phrase_000284",
     "topic": "School",
     "se": "Jag gillar inte läxor.",
     "pl": "Nie lubię zadań domowych.",
     "en": "I don't like homework."
   },
   {
+    "id": "phrase_000285",
     "topic": "School",
     "se": "Läraren pratar polska.",
     "pl": "Nauczyciel mówi po polsku.",
     "en": "The teacher speaks Polish."
   },
   {
+    "id": "phrase_000286",
     "topic": "School",
     "se": "Öppna boken!",
     "pl": "Otwórz książkę!",
     "en": "Open the book!"
   },
   {
+    "id": "phrase_000287",
     "topic": "School",
     "se": "Stäng boken!",
     "pl": "Zamknij książkę!",
     "en": "Close the book!"
   },
   {
+    "id": "phrase_000288",
     "topic": "School",
     "se": "Lyssna noga!",
     "pl": "Słuchaj uważnie!",
     "en": "Listen carefully!"
   },
   {
+    "id": "phrase_000289",
     "topic": "School",
     "se": "Räck upp handen!",
     "pl": "Podnieś rękę!",
     "en": "Raise your hand!"
   },
   {
+    "id": "phrase_000290",
     "topic": "School",
     "se": "Sitt ner!",
     "pl": "Usiądź!",
     "en": "Sit down!"
   },
   {
+    "id": "phrase_000291",
     "topic": "School",
     "se": "Stå upp!",
     "pl": "Wstań!",
     "en": "Stand up!"
   },
   {
+    "id": "phrase_000292",
     "topic": "School",
     "se": "Förstår du?",
     "pl": "Rozumiesz?",
     "en": "Do you understand?"
   },
   {
+    "id": "phrase_000293",
     "topic": "School",
     "se": "Jag förstår.",
     "pl": "Rozumiem.",
     "en": "I understand."
   },
   {
+    "id": "phrase_000294",
     "topic": "School",
     "se": "Jag förstår inte.",
     "pl": "Nie rozumiem.",
     "en": "I don't understand."
   },
   {
+    "id": "phrase_000295",
     "topic": "School",
     "se": "Kan du upprepa det?",
     "pl": "Czy możesz powtórzyć?",
     "en": "Can you repeat that?"
   },
   {
+    "id": "phrase_000296",
     "topic": "School",
     "se": "Hur säger man det på polska?",
     "pl": "Jak się to mówi po polsku?",
     "en": "How do you say that in Polish?"
   },
   {
+    "id": "phrase_000297",
     "topic": "Weather",
     "se": "Väder",
     "pl": "Pogoda",
     "en": "Weather"
   },
   {
+    "id": "phrase_000298",
     "topic": "Weather",
     "se": "Sol",
     "pl": "Słońce",
     "en": "Sun"
   },
   {
+    "id": "phrase_000299",
     "topic": "Weather",
     "se": "Regn",
     "pl": "Deszcz",
     "en": "Rain"
   },
   {
+    "id": "phrase_000300",
     "topic": "Weather",
     "se": "Snö",
     "pl": "Śnieg",
     "en": "Snow"
   },
   {
+    "id": "phrase_000301",
     "topic": "Weather",
     "se": "Vind",
     "pl": "Wiatr",
     "en": "Wind"
   },
   {
+    "id": "phrase_000302",
     "topic": "Weather",
     "se": "Moln",
     "pl": "Chmura",
     "en": "Cloud"
   },
   {
+    "id": "phrase_000303",
     "topic": "Weather",
     "se": "Åska",
     "pl": "Burza",
     "en": "Thunderstorm"
   },
   {
+    "id": "phrase_000304",
     "topic": "Weather",
     "se": "Blixt",
     "pl": "Błyskawica",
     "en": "Lightning"
   },
   {
+    "id": "phrase_000305",
     "topic": "Weather",
     "se": "Dimma",
     "pl": "Mgła",
     "en": "Fog"
   },
   {
+    "id": "phrase_000306",
     "topic": "Weather",
     "se": "Is",
     "pl": "Lód",
     "en": "Ice"
   },
   {
+    "id": "phrase_000307",
     "topic": "Weather",
     "se": "Vad är det för väder?",
     "pl": "Jaka jest pogoda?",
     "en": "What's the weather like?"
   },
   {
+    "id": "phrase_000308",
     "topic": "Weather",
     "se": "Det är soligt.",
     "pl": "Jest słonecznie.",
     "en": "It is sunny."
   },
   {
+    "id": "phrase_000309",
     "topic": "Weather",
     "se": "Det regnar.",
     "pl": "Pada deszcz.",
     "en": "It is raining."
   },
   {
+    "id": "phrase_000310",
     "topic": "Weather",
     "se": "Det snöar!",
     "pl": "Pada śnieg!",
     "en": "It is snowing!"
   },
   {
+    "id": "phrase_000311",
     "topic": "Weather",
     "se": "Det är blåsigt.",
     "pl": "Jest wietrznie.",
     "en": "It is windy."
   },
   {
+    "id": "phrase_000312",
     "topic": "Weather",
     "se": "Det är kallt.",
     "pl": "Jest zimno.",
     "en": "It is cold."
   },
   {
+    "id": "phrase_000313",
     "topic": "Weather",
     "se": "Det är varmt.",
     "pl": "Jest ciepło.",
     "en": "It is warm."
   },
   {
+    "id": "phrase_000314",
     "topic": "Weather",
     "se": "Det är mulet.",
     "pl": "Jest pochmurno.",
     "en": "It is cloudy."
   },
   {
+    "id": "phrase_000315",
     "topic": "Weather",
     "se": "Idag är det fint väder.",
     "pl": "Dzisiaj jest ładna pogoda.",
     "en": "The weather is nice today."
   },
   {
+    "id": "phrase_000316",
     "topic": "Weather",
     "se": "Ta med ett paraply!",
     "pl": "Weź parasol!",
     "en": "Take an umbrella!"
   },
   {
+    "id": "phrase_000317",
     "topic": "Seasons",
     "se": "Vår",
     "pl": "Wiosna",
     "en": "Spring"
   },
   {
+    "id": "phrase_000318",
     "topic": "Seasons",
     "se": "Sommar",
     "pl": "Lato",
     "en": "Summer"
   },
   {
+    "id": "phrase_000319",
     "topic": "Seasons",
     "se": "Höst",
     "pl": "Jesień",
     "en": "Autumn"
   },
   {
+    "id": "phrase_000320",
     "topic": "Seasons",
     "se": "Vinter",
     "pl": "Zima",
     "en": "Winter"
   },
   {
+    "id": "phrase_000321",
     "topic": "Seasons",
     "se": "Vilken årstid är det?",
     "pl": "Jaka jest pora roku?",
     "en": "What season is it?"
   },
   {
+    "id": "phrase_000322",
     "topic": "Seasons",
     "se": "Det är sommar.",
     "pl": "Jest lato.",
     "en": "It is summer."
   },
   {
+    "id": "phrase_000323",
     "topic": "Seasons",
     "se": "Det är vinter.",
     "pl": "Jest zima.",
     "en": "It is winter."
   },
   {
+    "id": "phrase_000324",
     "topic": "Seasons",
     "se": "På sommaren är det varmt.",
     "pl": "Latem jest ciepło.",
     "en": "In summer it is warm."
   },
   {
+    "id": "phrase_000325",
     "topic": "Seasons",
     "se": "På vintern är det kallt.",
     "pl": "Zimą jest zimno.",
     "en": "In winter it is cold."
   },
   {
+    "id": "phrase_000326",
     "topic": "Seasons",
     "se": "Jag älskar sommaren!",
     "pl": "Uwielbiam lato!",
     "en": "I love summer!"
   },
   {
+    "id": "phrase_000327",
     "topic": "Seasons",
     "se": "Jag gillar vintern för att det snöar.",
     "pl": "Lubię zimę, bo pada śnieg.",
     "en": "I like winter because it snows."
   },
   {
+    "id": "phrase_000328",
     "topic": "Seasons",
     "se": "På hösten faller löven.",
     "pl": "Jesienią opadają liście.",
     "en": "In autumn the leaves fall."
   },
   {
+    "id": "phrase_000329",
     "topic": "Seasons",
     "se": "På våren blommar blommorna.",
     "pl": "Wiosną kwitną kwiaty.",
     "en": "In spring the flowers bloom."
   },
   {
+    "id": "phrase_000330",
     "topic": "Days and Time",
     "se": "Måndag",
     "pl": "Poniedziałek",
     "en": "Monday"
   },
   {
+    "id": "phrase_000331",
     "topic": "Days and Time",
     "se": "Tisdag",
     "pl": "Wtorek",
     "en": "Tuesday"
   },
   {
+    "id": "phrase_000332",
     "topic": "Days and Time",
     "se": "Onsdag",
     "pl": "Środa",
     "en": "Wednesday"
   },
   {
+    "id": "phrase_000333",
     "topic": "Days and Time",
     "se": "Torsdag",
     "pl": "Czwartek",
     "en": "Thursday"
   },
   {
+    "id": "phrase_000334",
     "topic": "Days and Time",
     "se": "Fredag",
     "pl": "Piątek",
     "en": "Friday"
   },
   {
+    "id": "phrase_000335",
     "topic": "Days and Time",
     "se": "Lördag",
     "pl": "Sobota",
     "en": "Saturday"
   },
   {
+    "id": "phrase_000336",
     "topic": "Days and Time",
     "se": "Söndag",
     "pl": "Niedziela",
     "en": "Sunday"
   },
   {
+    "id": "phrase_000337",
     "topic": "Days and Time",
     "se": "Idag",
     "pl": "Dzisiaj",
     "en": "Today"
   },
   {
+    "id": "phrase_000338",
     "topic": "Days and Time",
     "se": "Igår",
     "pl": "Wczoraj",
     "en": "Yesterday"
   },
   {
+    "id": "phrase_000339",
     "topic": "Days and Time",
     "se": "Imorgon",
     "pl": "Jutro",
     "en": "Tomorrow"
   },
   {
+    "id": "phrase_000340",
     "topic": "Days and Time",
     "se": "Nu",
     "pl": "Teraz",
     "en": "Now"
   },
   {
+    "id": "phrase_000341",
     "topic": "Days and Time",
     "se": "Snart",
     "pl": "Wkrótce",
     "en": "Soon"
   },
   {
+    "id": "phrase_000342",
     "topic": "Days and Time",
     "se": "Hur mycket är klockan?",
     "pl": "Która godzina?",
     "en": "What's the time?"
   },
   {
+    "id": "phrase_000343",
     "topic": "Days and Time",
     "se": "Morgon",
     "pl": "Poranek",
     "en": "Morning"
   },
   {
+    "id": "phrase_000344",
     "topic": "Days and Time",
     "se": "Mitt på dagen",
     "pl": "Południe",
     "en": "Midday"
   },
   {
+    "id": "phrase_000345",
     "topic": "Days and Time",
     "se": "Kväll",
     "pl": "Wieczór",
     "en": "Evening"
   },
   {
+    "id": "phrase_000346",
     "topic": "Days and Time",
     "se": "Natt",
     "pl": "Noc",
     "en": "Night"
   },
   {
+    "id": "phrase_000347",
     "topic": "Days and Time",
     "se": "Vilken dag är det idag?",
     "pl": "Jaki dzisiaj jest dzień?",
     "en": "What day is it today?"
   },
   {
+    "id": "phrase_000348",
     "topic": "Days and Time",
     "se": "Idag är det måndag.",
     "pl": "Dzisiaj jest poniedziałek.",
     "en": "Today is Monday."
   },
   {
+    "id": "phrase_000349",
     "topic": "Days and Time",
     "se": "Vad är klockan?",
     "pl": "Która jest godzina?",
     "en": "What time is it?"
   },
   {
+    "id": "phrase_000350",
     "topic": "Days and Time",
     "se": "Klockan är tre.",
     "pl": "Jest godzina trzecia.",
     "en": "It is three o'clock."
   },
   {
+    "id": "phrase_000351",
     "topic": "Days and Time",
     "se": "Klockan är halv fyra.",
     "pl": "Jest wpół do czwartej.",
     "en": "It is half past three."
   },
   {
+    "id": "phrase_000352",
     "topic": "Days and Time",
     "se": "På fredag har vi ingen skola.",
     "pl": "W piątek nie mamy szkoły.",
     "en": "We don't have school on Friday."
   },
   {
+    "id": "phrase_000353",
     "topic": "Days and Time",
     "se": "Imorgon åker vi till farmor.",
     "pl": "Jutro jedziemy do babci.",
     "en": "Tomorrow we are going to grandma's."
   },
   {
+    "id": "phrase_000354",
     "topic": "Toys and Play",
     "se": "Leksak",
     "pl": "Zabawka",
     "en": "Toy"
   },
   {
+    "id": "phrase_000355",
     "topic": "Toys and Play",
     "se": "Boll",
     "pl": "Piłka",
     "en": "Ball"
   },
   {
+    "id": "phrase_000356",
     "topic": "Toys and Play",
     "se": "Docka",
     "pl": "Lalka",
     "en": "Doll"
   },
   {
+    "id": "phrase_000357",
     "topic": "Toys and Play",
     "se": "Leksaksbil",
     "pl": "Samochodzik",
     "en": "Toy car"
   },
   {
+    "id": "phrase_000358",
     "topic": "Toys and Play",
     "se": "Pussel",
     "pl": "Puzzle",
     "en": "Puzzle"
   },
   {
+    "id": "phrase_000359",
     "topic": "Toys and Play",
     "se": "Byggklossar",
     "pl": "Klocki",
     "en": "Building blocks"
   },
   {
+    "id": "phrase_000360",
     "topic": "Toys and Play",
     "se": "Spelkort",
     "pl": "Karty",
     "en": "Playing cards"
   },
   {
+    "id": "phrase_000361",
     "topic": "Toys and Play",
     "se": "Brädspel",
     "pl": "Gra planszowa",
     "en": "Board game"
   },
   {
+    "id": "phrase_000362",
     "topic": "Toys and Play",
     "se": "Datorspel",
     "pl": "Gra komputerowa",
     "en": "Video game"
   },
   {
+    "id": "phrase_000363",
     "topic": "Toys and Play",
     "se": "Cykel",
     "pl": "Rower",
     "en": "Bicycle"
   },
   {
+    "id": "phrase_000364",
     "topic": "Toys and Play",
     "se": "Sparkcykel",
     "pl": "Hulajnoga",
     "en": "Scooter"
   },
   {
+    "id": "phrase_000365",
     "topic": "Toys and Play",
     "se": "Gunga",
     "pl": "Huśtawka",
     "en": "Swing"
   },
   {
+    "id": "phrase_000366",
     "topic": "Toys and Play",
     "se": "Rutschkana",
     "pl": "Zjeżdżalnia",
     "en": "Slide"
   },
   {
+    "id": "phrase_000367",
     "topic": "Toys and Play",
     "se": "Sandlåda",
     "pl": "Piaskownica",
     "en": "Sandpit"
   },
   {
+    "id": "phrase_000368",
     "topic": "Toys and Play",
     "se": "Jag vill leka!",
     "pl": "Chcę się bawić!",
     "en": "I want to play!"
   },
   {
+    "id": "phrase_000369",
     "topic": "Toys and Play",
     "se": "Jag vill spela.",
     "pl": "Chcę grać.",
     "en": "I want to play."
   },
   {
+    "id": "phrase_000370",
     "topic": "Toys and Play",
     "se": "Jag vill spela fotboll.",
     "pl": "Chcę grać w piłkę nożną.",
     "en": "I want to play football."
   },
   {
+    "id": "phrase_000371",
     "topic": "Toys and Play",
     "se": "Jag vill spela brädspel.",
     "pl": "Chcę grać w gry planszowe.",
     "en": "I want to play board games."
   },
   {
+    "id": "phrase_000372",
     "topic": "Toys and Play",
     "se": "Kan vi leka tillsammans?",
     "pl": "Czy możemy razem się bawić?",
     "en": "Can we play together?"
   },
   {
+    "id": "phrase_000373",
     "topic": "Toys and Play",
     "se": "Det är min tur.",
     "pl": "Moja kolej.",
     "en": "It's my turn."
   },
   {
+    "id": "phrase_000374",
     "topic": "Toys and Play",
     "se": "Det är din tur.",
     "pl": "Twoja kolej.",
     "en": "It's your turn."
   },
   {
+    "id": "phrase_000375",
     "topic": "Toys and Play",
     "se": "Jag vann!",
     "pl": "Wygrałem!",
     "en": "I won!"
   },
   {
+    "id": "phrase_000376",
     "topic": "Toys and Play",
     "se": "Du vann!",
     "pl": "Wygrałeś!",
     "en": "You won!"
   },
   {
+    "id": "phrase_000377",
     "topic": "Toys and Play",
     "se": "Nu spelar vi igen!",
     "pl": "Zagrajmy jeszcze raz!",
     "en": "Let's play again!"
   },
   {
+    "id": "phrase_000378",
     "topic": "Toys and Play",
     "se": "Var är min boll?",
     "pl": "Gdzie jest moja piłka?",
     "en": "Where is my ball?"
   },
   {
+    "id": "phrase_000379",
     "topic": "Toys and Play",
     "se": "Kan jag låna din docka?",
     "pl": "Czy mogę pożyczyć twoją lalkę?",
     "en": "Can I borrow your doll?"
   },
   {
+    "id": "phrase_000380",
     "topic": "Sports and Activities",
     "se": "Fotboll",
     "pl": "Piłka nożna",
     "en": "Football"
   },
   {
+    "id": "phrase_000381",
     "topic": "Sports and Activities",
     "se": "Simning",
     "pl": "Pływanie",
     "en": "Swimming"
   },
   {
+    "id": "phrase_000382",
     "topic": "Sports and Activities",
     "se": "Cykling",
     "pl": "Jazda na rowerze",
     "en": "Cycling"
   },
   {
+    "id": "phrase_000383",
     "topic": "Sports and Activities",
     "se": "Löpning",
     "pl": "Bieganie",
     "en": "Running"
   },
   {
+    "id": "phrase_000384",
     "topic": "Sports and Activities",
     "se": "Dans",
     "pl": "Taniec",
     "en": "Dancing"
   },
   {
+    "id": "phrase_000385",
     "topic": "Sports and Activities",
     "se": "Gymnastik",
     "pl": "Gimnastyka",
     "en": "Gymnastics"
   },
   {
+    "id": "phrase_000386",
     "topic": "Sports and Activities",
     "se": "Tennis",
     "pl": "Tenis",
     "en": "Tennis"
   },
   {
+    "id": "phrase_000387",
     "topic": "Sports and Activities",
     "se": "Basket",
     "pl": "Koszykówka",
     "en": "Basketball"
   },
   {
+    "id": "phrase_000388",
     "topic": "Sports and Activities",
     "se": "Skridskoåkning",
     "pl": "Łyżwiarstwo",
     "en": "Ice skating"
   },
   {
+    "id": "phrase_000389",
     "topic": "Sports and Activities",
     "se": "Skidåkning",
     "pl": "Narciarstwo",
     "en": "Skiing"
   },
   {
+    "id": "phrase_000390",
     "topic": "Sports and Activities",
     "se": "Jag spelar fotboll.",
     "pl": "Gram w piłkę nożną.",
     "en": "I play football."
   },
   {
+    "id": "phrase_000391",
     "topic": "Sports and Activities",
     "se": "Jag simmar.",
     "pl": "Pływam.",
     "en": "I swim."
   },
   {
+    "id": "phrase_000392",
     "topic": "Sports and Activities",
     "se": "Jag dansar.",
     "pl": "Tańczę.",
     "en": "I dance."
   },
   {
+    "id": "phrase_000393",
     "topic": "Sports and Activities",
     "se": "Jag cyklar varje dag.",
     "pl": "Codziennie jeżdżę na rowerze.",
     "en": "I cycle every day."
   },
   {
+    "id": "phrase_000394",
     "topic": "Sports and Activities",
     "se": "Jag vill lära mig simma.",
     "pl": "Chcę nauczyć się pływać.",
     "en": "I want to learn to swim."
   },
   {
+    "id": "phrase_000395",
     "topic": "Sports and Activities",
     "se": "Sport är roligt!",
     "pl": "Sport jest fajny!",
     "en": "Sport is fun!"
   },
   {
+    "id": "phrase_000396",
     "topic": "Sports and Activities",
     "se": "Jag gillar att springa.",
     "pl": "Lubię biegać.",
     "en": "I like to run."
   },
   {
+    "id": "phrase_000397",
     "topic": "Sports and Activities",
     "se": "Mitt favoritlag vinner!",
     "pl": "Moja ulubiona drużyna wygrywa!",
     "en": "My favourite team is winning!"
   },
   {
+    "id": "phrase_000398",
     "topic": "I want / I need",
     "se": "Jag vill gå ut.",
     "pl": "Chcę wyjść na dwór.",
     "en": "I want to go outside."
   },
   {
+    "id": "phrase_000399",
     "topic": "I want / I need",
     "se": "Jag vill ha en boll.",
     "pl": "Chcę piłkę.",
     "en": "I want a ball."
   },
   {
+    "id": "phrase_000400",
     "topic": "I want / I need",
     "se": "Jag vill äta.",
     "pl": "Chcę jeść.",
     "en": "I want to eat."
   },
   {
+    "id": "phrase_000401",
     "topic": "I want / I need",
     "se": "Jag vill sova.",
     "pl": "Chcę spać.",
     "en": "I want to sleep."
   },
   {
+    "id": "phrase_000402",
     "topic": "I want / I need",
     "se": "Jag vill leka.",
     "pl": "Chcę się bawić.",
     "en": "I want to play."
   },
   {
+    "id": "phrase_000403",
     "topic": "I want / I need",
     "se": "Jag vill titta på TV.",
     "pl": "Chcę oglądać telewizję.",
     "en": "I want to watch TV."
   },
   {
+    "id": "phrase_000404",
     "topic": "I want / I need",
     "se": "Jag vill läsa en bok.",
     "pl": "Chcę czytać książkę.",
     "en": "I want to read a book."
   },
   {
+    "id": "phrase_000405",
     "topic": "I want / I need",
     "se": "Jag vill rita.",
     "pl": "Chcę rysować.",
     "en": "I want to draw."
   },
   {
+    "id": "phrase_000406",
     "topic": "I want / I need",
     "se": "Jag vill sjunga.",
     "pl": "Chcę śpiewać.",
     "en": "I want to sing."
   },
   {
+    "id": "phrase_000407",
     "topic": "I want / I need",
     "se": "Jag vill dansa.",
     "pl": "Chcę tańczyć.",
     "en": "I want to dance."
   },
   {
+    "id": "phrase_000408",
     "topic": "I want / I need",
     "se": "Jag vill åka till Polen.",
     "pl": "Chcę pojechać do Polski.",
     "en": "I want to go to Poland."
   },
   {
+    "id": "phrase_000409",
     "topic": "I want / I need",
     "se": "Jag vill ha en hund.",
     "pl": "Chcę mieć psa.",
     "en": "I want a dog."
   },
   {
+    "id": "phrase_000410",
     "topic": "I want / I need",
     "se": "Jag vill ha godis.",
     "pl": "Chcę cukierki.",
     "en": "I want sweets."
   },
   {
+    "id": "phrase_000411",
     "topic": "I want / I need",
     "se": "Jag behöver hjälp.",
     "pl": "Potrzebuję pomocy.",
     "en": "I need help."
   },
   {
+    "id": "phrase_000412",
     "topic": "I want / I need",
     "se": "Jag behöver gå på toaletten.",
     "pl": "Muszę iść do toalety.",
     "en": "I need to go to the toilet."
   },
   {
+    "id": "phrase_000413",
     "topic": "I want / I need",
     "se": "Jag behöver ett glas vatten.",
     "pl": "Potrzebuję szklanki wody.",
     "en": "I need a glass of water."
   },
   {
+    "id": "phrase_000414",
     "topic": "I want / I need",
     "se": "Jag vill inte.",
     "pl": "Nie chcę.",
     "en": "I don't want to."
   },
   {
+    "id": "phrase_000415",
     "topic": "I want / I need",
     "se": "Jag måste gå hem.",
     "pl": "Muszę iść do domu.",
     "en": "I have to go home."
   },
   {
+    "id": "phrase_000416",
     "topic": "I want / I need",
     "se": "Jag måste gå nu.",
     "pl": "Muszę już iść.",
     "en": "I have to go now."
   },
   {
+    "id": "phrase_000417",
     "topic": "I want / I need",
     "se": "Jag får inte.",
     "pl": "Nie wolno mi.",
     "en": "I'm not allowed."
   },
   {
+    "id": "phrase_000418",
     "topic": "Where is?",
     "se": "Var är nallen?",
     "pl": "Gdzie jest miś?",
     "en": "Where is the teddy bear?"
   },
   {
+    "id": "phrase_000419",
     "topic": "Where is?",
     "se": "Var är min mobil?",
     "pl": "Gdzie jest mój telefon?",
     "en": "Where is my phone?"
   },
   {
+    "id": "phrase_000420",
     "topic": "Where is?",
     "se": "Var är min väska?",
     "pl": "Gdzie jest moja torba?",
     "en": "Where is my bag?"
   },
   {
+    "id": "phrase_000421",
     "topic": "Where is?",
     "se": "Var är mina skor?",
     "pl": "Gdzie są moje buty?",
     "en": "Where are my shoes?"
   },
   {
+    "id": "phrase_000422",
     "topic": "Where is?",
     "se": "Var är mamma?",
     "pl": "Gdzie jest mama?",
     "en": "Where is mum?"
   },
   {
+    "id": "phrase_000423",
     "topic": "Where is?",
     "se": "Var är pappa?",
     "pl": "Gdzie jest tata?",
     "en": "Where is dad?"
   },
   {
+    "id": "phrase_000424",
     "topic": "Where is?",
     "se": "Var är hunden?",
     "pl": "Gdzie jest pies?",
     "en": "Where is the dog?"
   },
   {
+    "id": "phrase_000425",
     "topic": "Where is?",
     "se": "Var är badrummet?",
     "pl": "Gdzie jest łazienka?",
     "en": "Where is the bathroom?"
   },
   {
+    "id": "phrase_000426",
     "topic": "Where is?",
     "se": "Var är toaletten?",
     "pl": "Gdzie jest toaleta?",
     "en": "Where is the toilet?"
   },
   {
+    "id": "phrase_000427",
     "topic": "Where is?",
     "se": "Var är boken?",
     "pl": "Gdzie jest książka?",
     "en": "Where is the book?"
   },
   {
+    "id": "phrase_000428",
     "topic": "Where is?",
     "se": "Var är fjärrkontrollen?",
     "pl": "Gdzie jest pilot?",
     "en": "Where is the remote control?"
   },
   {
+    "id": "phrase_000429",
     "topic": "Where is?",
     "se": "Var är min tröja?",
     "pl": "Gdzie jest mój sweter?",
     "en": "Where is my jumper?"
   },
   {
+    "id": "phrase_000430",
     "topic": "Where is?",
     "se": "Var är min cykel?",
     "pl": "Gdzie jest mój rower?",
     "en": "Where is my bicycle?"
   },
   {
+    "id": "phrase_000431",
     "topic": "Where is?",
     "se": "Var är skolan?",
     "pl": "Gdzie jest szkoła?",
     "en": "Where is the school?"
   },
   {
+    "id": "phrase_000432",
     "topic": "Where is?",
     "se": "Var är parken?",
     "pl": "Gdzie jest park?",
     "en": "Where is the park?"
   },
   {
+    "id": "phrase_000433",
     "topic": "Where is?",
     "se": "Här!",
     "pl": "Tutaj!",
     "en": "Here!"
   },
   {
+    "id": "phrase_000434",
     "topic": "Where is?",
     "se": "Där!",
     "pl": "Tam!",
     "en": "There!"
   },
   {
+    "id": "phrase_000435",
     "topic": "Where is?",
     "se": "Jag vet inte var det är.",
     "pl": "Nie wiem, gdzie to jest.",
     "en": "I don't know where it is."
   },
   {
+    "id": "phrase_000436",
     "topic": "Where is?",
     "se": "Det är på bordet.",
     "pl": "To jest na stole.",
     "en": "It is on the table."
   },
   {
+    "id": "phrase_000437",
     "topic": "Where is?",
     "se": "Det är under soffan.",
     "pl": "To jest pod sofą.",
     "en": "It is under the sofa."
   },
   {
+    "id": "phrase_000438",
     "topic": "Where is?",
     "se": "Det är i ryggsäcken.",
     "pl": "To jest w plecaku.",
     "en": "It is in the backpack."
   },
   {
+    "id": "phrase_000439",
     "topic": "Where is?",
     "se": "Det är bakom dörren.",
     "pl": "To jest za drzwiami.",
     "en": "It is behind the door."
   },
   {
+    "id": "phrase_000440",
     "topic": "Feelings and Emotions",
     "se": "Glad",
     "pl": "Wesoły",
     "en": "Happy"
   },
   {
+    "id": "phrase_000441",
     "topic": "Feelings and Emotions",
     "se": "Ledsen",
     "pl": "Smutny",
     "en": "Sad"
   },
   {
+    "id": "phrase_000442",
     "topic": "Feelings and Emotions",
     "se": "Arg",
     "pl": "Zły",
     "en": "Angry"
   },
   {
+    "id": "phrase_000443",
     "topic": "Feelings and Emotions",
     "se": "Rädd",
     "pl": "Przestraszony",
     "en": "Scared"
   },
   {
+    "id": "phrase_000444",
     "topic": "Feelings and Emotions",
     "se": "Trött",
     "pl": "Zmęczony",
     "en": "Tired"
   },
   {
+    "id": "phrase_000445",
     "topic": "Feelings and Emotions",
     "se": "Hungrig",
     "pl": "Głodny",
     "en": "Hungry"
   },
   {
+    "id": "phrase_000446",
     "topic": "Feelings and Emotions",
     "se": "Törstig",
     "pl": "Spragniony",
     "en": "Thirsty"
   },
   {
+    "id": "phrase_000447",
     "topic": "Feelings and Emotions",
     "se": "Förvånad",
     "pl": "Zaskoczony",
     "en": "Surprised"
   },
   {
+    "id": "phrase_000448",
     "topic": "Feelings and Emotions",
     "se": "Nervös",
     "pl": "Zdenerwowany",
     "en": "Nervous"
   },
   {
+    "id": "phrase_000449",
     "topic": "Feelings and Emotions",
     "se": "Sjuk",
     "pl": "Chory",
     "en": "Ill"
   },
   {
+    "id": "phrase_000450",
     "topic": "Feelings and Emotions",
     "se": "Jag är glad!",
     "pl": "Jestem wesoły!",
     "en": "I am happy!"
   },
   {
+    "id": "phrase_000451",
     "topic": "Feelings and Emotions",
     "se": "Jag är ledsen.",
     "pl": "Jestem smutny.",
     "en": "I am sad."
   },
   {
+    "id": "phrase_000452",
     "topic": "Feelings and Emotions",
     "se": "Jag är arg.",
     "pl": "Jestem zły.",
     "en": "I am angry."
   },
   {
+    "id": "phrase_000453",
     "topic": "Feelings and Emotions",
     "se": "Jag är rädd.",
     "pl": "Boję się.",
     "en": "I am scared."
   },
   {
+    "id": "phrase_000454",
     "topic": "Feelings and Emotions",
     "se": "Jag är trött.",
     "pl": "Jestem zmęczony.",
     "en": "I am tired."
   },
   {
+    "id": "phrase_000455",
     "topic": "Feelings and Emotions",
     "se": "Jag är inte rädd!",
     "pl": "Nie boję się!",
     "en": "I am not scared!"
   },
   {
+    "id": "phrase_000456",
     "topic": "Feelings and Emotions",
     "se": "Varför gråter du?",
     "pl": "Dlaczego płaczesz?",
     "en": "Why are you crying?"
   },
   {
+    "id": "phrase_000457",
     "topic": "Feelings and Emotions",
     "se": "Jag är lycklig!",
     "pl": "Jestem szczęśliwy!",
     "en": "I am happy!"
   },
   {
+    "id": "phrase_000458",
     "topic": "Feelings and Emotions",
     "se": "Det gör ont.",
     "pl": "To boli.",
     "en": "It hurts."
   },
   {
+    "id": "phrase_000459",
     "topic": "Feelings and Emotions",
     "se": "Jag mår bättre nu.",
     "pl": "Teraz czuję się lepiej.",
     "en": "I feel better now."
   },
   {
+    "id": "phrase_000460",
     "topic": "Transport",
     "se": "Bil",
     "pl": "Samochód",
     "en": "Car"
   },
   {
+    "id": "phrase_000461",
     "topic": "Transport",
     "se": "Buss",
     "pl": "Autobus",
     "en": "Bus"
   },
   {
+    "id": "phrase_000462",
     "topic": "Transport",
     "se": "Tåg",
     "pl": "Pociąg",
     "en": "Train"
   },
   {
+    "id": "phrase_000463",
     "topic": "Transport",
     "se": "Flygplan",
     "pl": "Samolot",
     "en": "Aeroplane"
   },
   {
+    "id": "phrase_000464",
     "topic": "Transport",
     "se": "Cykel",
     "pl": "Rower",
     "en": "Bicycle"
   },
   {
+    "id": "phrase_000465",
     "topic": "Transport",
     "se": "Motorcykel",
     "pl": "Motocykl",
     "en": "Motorcycle"
   },
   {
+    "id": "phrase_000466",
     "topic": "Transport",
     "se": "Båt",
     "pl": "Łódka",
     "en": "Boat"
   },
   {
+    "id": "phrase_000467",
     "topic": "Transport",
     "se": "Fartyg",
     "pl": "Statek",
     "en": "Ship"
   },
   {
+    "id": "phrase_000468",
     "topic": "Transport",
     "se": "Spårvagn",
     "pl": "Tramwaj",
     "en": "Tram"
   },
   {
+    "id": "phrase_000469",
     "topic": "Transport",
     "se": "Tunnelbana",
     "pl": "Metro",
     "en": "Underground"
   },
   {
+    "id": "phrase_000470",
     "topic": "Transport",
     "se": "Ambulans",
     "pl": "Karetka",
     "en": "Ambulance"
   },
   {
+    "id": "phrase_000471",
     "topic": "Transport",
     "se": "Brandbil",
     "pl": "Wóz strażacki",
     "en": "Fire engine"
   },
   {
+    "id": "phrase_000472",
     "topic": "Transport",
     "se": "Vi åker bil.",
     "pl": "Jedziemy samochodem.",
     "en": "We are going by car."
   },
   {
+    "id": "phrase_000473",
     "topic": "Transport",
     "se": "Vi åker tåg.",
     "pl": "Jedziemy pociągiem.",
     "en": "We are going by train."
   },
   {
+    "id": "phrase_000474",
     "topic": "Transport",
     "se": "Vi flyger till Polen!",
     "pl": "Lecimy do Polski!",
     "en": "We are flying to Poland!"
   },
   {
+    "id": "phrase_000475",
     "topic": "Transport",
     "se": "Jag åker buss till skolan.",
     "pl": "Jeżdżę autobusem do szkoły.",
     "en": "I take the bus to school."
   },
   {
+    "id": "phrase_000476",
     "topic": "Transport",
     "se": "Hur lång tid tar det?",
     "pl": "Jak długo to trwa?",
     "en": "How long does it take?"
   },
   {
+    "id": "phrase_000477",
     "topic": "Transport",
     "se": "Är vi framme snart?",
     "pl": "Daleko jeszcze?",
     "en": "Are we nearly there?"
   },
   {
+    "id": "phrase_000478",
     "topic": "Transport",
     "se": "Vi är framme!",
     "pl": "Już jesteśmy!",
     "en": "We're here!"
   },
   {
+    "id": "phrase_000479",
     "topic": "Nature",
     "se": "Skog",
     "pl": "Las",
     "en": "Forest"
   },
   {
+    "id": "phrase_000480",
     "topic": "Nature",
     "se": "Hav",
     "pl": "Morze",
     "en": "Sea"
   },
   {
+    "id": "phrase_000481",
     "topic": "Nature",
     "se": "Sjö",
     "pl": "Jezioro",
     "en": "Lake"
   },
   {
+    "id": "phrase_000482",
     "topic": "Nature",
     "se": "Flod",
     "pl": "Rzeka",
     "en": "River"
   },
   {
+    "id": "phrase_000483",
     "topic": "Nature",
     "se": "Berg",
     "pl": "Góra",
     "en": "Mountain"
   },
   {
+    "id": "phrase_000484",
     "topic": "Nature",
     "se": "Dal",
     "pl": "Dolina",
     "en": "Valley"
   },
   {
+    "id": "phrase_000485",
     "topic": "Nature",
     "se": "Strand",
     "pl": "Plaża",
     "en": "Beach"
   },
   {
+    "id": "phrase_000486",
     "topic": "Nature",
     "se": "Blomma",
     "pl": "Kwiat",
     "en": "Flower"
   },
   {
+    "id": "phrase_000487",
     "topic": "Nature",
     "se": "Träd",
     "pl": "Drzewo",
     "en": "Tree"
   },
   {
+    "id": "phrase_000488",
     "topic": "Nature",
     "se": "Gräs",
     "pl": "Trawa",
     "en": "Grass"
   },
   {
+    "id": "phrase_000489",
     "topic": "Nature",
     "se": "Sten",
     "pl": "Kamień",
     "en": "Stone"
   },
   {
+    "id": "phrase_000490",
     "topic": "Nature",
     "se": "Jord",
     "pl": "Ziemia",
     "en": "Earth"
   },
   {
+    "id": "phrase_000491",
     "topic": "Nature",
     "se": "Himmel",
     "pl": "Niebo",
     "en": "Sky"
   },
   {
+    "id": "phrase_000492",
     "topic": "Nature",
     "se": "Stjärna",
     "pl": "Gwiazda",
     "en": "Star"
   },
   {
+    "id": "phrase_000493",
     "topic": "Nature",
     "se": "Måne",
     "pl": "Księżyc",
     "en": "Moon"
   },
   {
+    "id": "phrase_000494",
     "topic": "Nature",
     "se": "Jag gillar skogen.",
     "pl": "Lubię las.",
     "en": "I like the forest."
   },
   {
+    "id": "phrase_000495",
     "topic": "Nature",
     "se": "Havet är stort och blått.",
     "pl": "Morze jest duże i niebieskie.",
     "en": "The sea is big and blue."
   },
   {
+    "id": "phrase_000496",
     "topic": "Nature",
     "se": "Blommorna är vackra.",
     "pl": "Kwiaty są piękne.",
     "en": "The flowers are beautiful."
   },
   {
+    "id": "phrase_000497",
     "topic": "Nature",
     "se": "Vi går till stranden!",
     "pl": "Idziemy na plażę!",
     "en": "We are going to the beach!"
   },
   {
+    "id": "phrase_000498",
     "topic": "Nature",
     "se": "Titta på stjärnorna!",
     "pl": "Popatrz na gwiazdy!",
     "en": "Look at the stars!"
   },
   {
+    "id": "phrase_000499",
     "topic": "Nature",
     "se": "Månen lyser.",
     "pl": "Księżyc świeci.",
     "en": "The moon is shining."
   },
   {
+    "id": "phrase_000500",
     "topic": "Holidays and Celebrations",
     "se": "Födelsedag",
     "pl": "Urodziny",
     "en": "Birthday"
   },
   {
+    "id": "phrase_000501",
     "topic": "Holidays and Celebrations",
     "se": "Grattis på födelsedagen!",
     "pl": "Wszystkiego najlepszego z okazji urodzin!",
     "en": "Happy birthday!"
   },
   {
+    "id": "phrase_000502",
     "topic": "Holidays and Celebrations",
     "se": "Jul",
     "pl": "Boże Narodzenie",
     "en": "Christmas"
   },
   {
+    "id": "phrase_000503",
     "topic": "Holidays and Celebrations",
     "se": "God jul!",
     "pl": "Wesołych Świąt!",
     "en": "Merry Christmas!"
   },
   {
+    "id": "phrase_000504",
     "topic": "Holidays and Celebrations",
     "se": "Nyår",
     "pl": "Nowy Rok",
     "en": "New Year"
   },
   {
+    "id": "phrase_000505",
     "topic": "Holidays and Celebrations",
     "se": "Gott nytt år!",
     "pl": "Szczęśliwego Nowego Roku!",
     "en": "Happy New Year!"
   },
   {
+    "id": "phrase_000506",
     "topic": "Holidays and Celebrations",
     "se": "Påsk",
     "pl": "Wielkanoc",
     "en": "Easter"
   },
   {
+    "id": "phrase_000507",
     "topic": "Holidays and Celebrations",
     "se": "Glad påsk!",
     "pl": "Wesołych Świąt Wielkanocnych!",
     "en": "Happy Easter!"
   },
   {
+    "id": "phrase_000508",
     "topic": "Holidays and Celebrations",
     "se": "Present",
     "pl": "Prezent",
     "en": "Present"
   },
   {
+    "id": "phrase_000509",
     "topic": "Holidays and Celebrations",
     "se": "Tårta",
     "pl": "Tort",
     "en": "Cake"
   },
   {
+    "id": "phrase_000510",
     "topic": "Holidays and Celebrations",
     "se": "Ballonger",
     "pl": "Balony",
     "en": "Balloons"
   },
   {
+    "id": "phrase_000511",
     "topic": "Holidays and Celebrations",
     "se": "Ljus",
     "pl": "Świeczka",
     "en": "Candle"
   },
   {
+    "id": "phrase_000512",
     "topic": "Holidays and Celebrations",
     "se": "Idag fyller jag år!",
     "pl": "Dzisiaj mam urodziny!",
     "en": "Today is my birthday!"
   },
   {
+    "id": "phrase_000513",
     "topic": "Holidays and Celebrations",
     "se": "Jag fyller tio år.",
     "pl": "Kończę dziesięć lat.",
     "en": "I am turning ten."
   },
   {
+    "id": "phrase_000514",
     "topic": "Holidays and Celebrations",
     "se": "Blås ut ljusen!",
     "pl": "Zdmuchnij świeczki!",
     "en": "Blow out the candles!"
   },
   {
+    "id": "phrase_000515",
     "topic": "Holidays and Celebrations",
     "se": "Kan jag öppna presenten?",
     "pl": "Czy mogę otworzyć prezent?",
     "en": "Can I open the present?"
   },
   {
+    "id": "phrase_000516",
     "topic": "Holidays and Celebrations",
     "se": "Vi firar i helgen.",
     "pl": "Świętujemy w weekend.",
     "en": "We are celebrating at the weekend."
   },
   {
+    "id": "phrase_000517",
     "topic": "Daily Routine",
     "se": "Vakna",
     "pl": "Budzić się",
     "en": "Wake up"
   },
   {
+    "id": "phrase_000518",
     "topic": "Daily Routine",
     "se": "Stiga upp",
     "pl": "Wstawać",
     "en": "Get up"
   },
   {
+    "id": "phrase_000519",
     "topic": "Daily Routine",
     "se": "Borsta tänderna",
     "pl": "Myć zęby",
     "en": "Brush your teeth"
   },
   {
+    "id": "phrase_000520",
     "topic": "Daily Routine",
     "se": "Tvätta sig",
     "pl": "Myć się",
     "en": "Have a wash"
   },
   {
+    "id": "phrase_000521",
     "topic": "Daily Routine",
     "se": "Duscha",
     "pl": "Brać prysznic",
     "en": "Have a shower"
   },
   {
+    "id": "phrase_000522",
     "topic": "Daily Routine",
     "se": "Klä på sig",
     "pl": "Ubierać się",
     "en": "Get dressed"
   },
   {
+    "id": "phrase_000523",
     "topic": "Daily Routine",
     "se": "Äta frukost",
     "pl": "Jeść śniadanie",
     "en": "Eat breakfast"
   },
   {
+    "id": "phrase_000524",
     "topic": "Daily Routine",
     "se": "Gå till skolan",
     "pl": "Iść do szkoły",
     "en": "Go to school"
   },
   {
+    "id": "phrase_000525",
     "topic": "Daily Routine",
     "se": "Äta lunch",
     "pl": "Jeść obiad",
     "en": "Eat lunch"
   },
   {
+    "id": "phrase_000526",
     "topic": "Daily Routine",
     "se": "Göra läxor",
     "pl": "Odrabiać lekcje",
     "en": "Do homework"
   },
   {
+    "id": "phrase_000527",
     "topic": "Daily Routine",
     "se": "Leka utomhus",
     "pl": "Bawić się na dworze",
     "en": "Play outside"
   },
   {
+    "id": "phrase_000528",
     "topic": "Daily Routine",
     "se": "Äta middag",
     "pl": "Jeść kolację",
     "en": "Eat dinner"
   },
   {
+    "id": "phrase_000529",
     "topic": "Daily Routine",
     "se": "Lägga sig",
     "pl": "Kłaść się spać",
     "en": "Go to bed"
   },
   {
+    "id": "phrase_000530",
     "topic": "Daily Routine",
     "se": "Sova",
     "pl": "Spać",
     "en": "Sleep"
   },
   {
+    "id": "phrase_000531",
     "topic": "Daily Routine",
     "se": "Jag vaknar klockan sju.",
     "pl": "Budzę się o siódmej.",
     "en": "I wake up at seven o'clock."
   },
   {
+    "id": "phrase_000532",
     "topic": "Daily Routine",
     "se": "Jag borstar tänderna varje morgon.",
     "pl": "Co rano myję zęby.",
     "en": "I brush my teeth every morning."
   },
   {
+    "id": "phrase_000533",
     "topic": "Daily Routine",
     "se": "Vi äter frukost tillsammans.",
     "pl": "Razem jemy śniadanie.",
     "en": "We eat breakfast together."
   },
   {
+    "id": "phrase_000534",
     "topic": "Daily Routine",
     "se": "Jag gör läxorna efter skolan.",
     "pl": "Odrabiam lekcje po szkole.",
     "en": "I do my homework after school."
   },
   {
+    "id": "phrase_000535",
     "topic": "Daily Routine",
     "se": "Jag går och lägger mig klockan åtta.",
     "pl": "O ósmej kładę się spać.",
     "en": "I go to bed at eight o'clock."
   },
   {
+    "id": "phrase_000536",
     "topic": "Daily Routine",
     "se": "Sov gott!",
     "pl": "Śpij dobrze!",
     "en": "Sleep well!"
   },
   {
+    "id": "phrase_000537",
     "topic": "Daily Routine",
     "se": "Dags att sova nu.",
     "pl": "Czas spać.",
     "en": "Time to sleep now."
   },
   {
+    "id": "phrase_000538",
     "topic": "Asking and Requests",
     "se": "Kan du hjälpa mig?",
     "pl": "Czy możesz mi pomóc?",
     "en": "Can you help me?"
   },
   {
+    "id": "phrase_000539",
     "topic": "Asking and Requests",
     "se": "Hjälp!",
     "pl": "Pomocy!",
     "en": "Help!"
   },
   {
+    "id": "phrase_000540",
     "topic": "Asking and Requests",
     "se": "Snälla!",
     "pl": "Proszę!",
     "en": "Please!"
   },
   {
+    "id": "phrase_000541",
     "topic": "Asking and Requests",
     "se": "Vänta!",
     "pl": "Poczekaj!",
     "en": "Wait!"
   },
   {
+    "id": "phrase_000542",
     "topic": "Asking and Requests",
     "se": "Kom hit!",
     "pl": "Chodź tutaj!",
     "en": "Come here!"
   },
   {
+    "id": "phrase_000543",
     "topic": "Asking and Requests",
     "se": "Gå dit!",
     "pl": "Idź tam!",
     "en": "Go there!"
   },
   {
+    "id": "phrase_000544",
     "topic": "Asking and Requests",
     "se": "Ge mig det!",
     "pl": "Daj mi to!",
     "en": "Give me that!"
   },
   {
+    "id": "phrase_000545",
     "topic": "Asking and Requests",
     "se": "Titta!",
     "pl": "Patrz!",
     "en": "Look!"
   },
   {
+    "id": "phrase_000546",
     "topic": "Asking and Requests",
     "se": "Lyssna!",
     "pl": "Słuchaj!",
     "en": "Listen!"
   },
   {
+    "id": "phrase_000547",
     "topic": "Asking and Requests",
     "se": "Stanna!",
     "pl": "Stój!",
     "en": "Stop!"
   },
   {
+    "id": "phrase_000548",
     "topic": "Asking and Requests",
     "se": "Vänta lite!",
     "pl": "Poczekaj!",
     "en": "Wait a moment!"
   },
   {
+    "id": "phrase_000549",
     "topic": "Asking and Requests",
     "se": "Öppna!",
     "pl": "Otwórz!",
     "en": "Open!"
   },
   {
+    "id": "phrase_000550",
     "topic": "Asking and Requests",
     "se": "Stäng!",
     "pl": "Zamknij!",
     "en": "Close!"
   },
   {
+    "id": "phrase_000551",
     "topic": "Asking and Requests",
     "se": "Kan du säga det igen?",
     "pl": "Czy możesz powtórzyć?",
     "en": "Can you say that again?"
   },
   {
+    "id": "phrase_000552",
     "topic": "Asking and Requests",
     "se": "Kan du prata långsammare?",
     "pl": "Czy możesz mówić wolniej?",
     "en": "Can you speak more slowly?"
   },
   {
+    "id": "phrase_000553",
     "topic": "Asking and Requests",
     "se": "Vad betyder det?",
     "pl": "Co to znaczy?",
     "en": "What does that mean?"
   },
   {
+    "id": "phrase_000554",
     "topic": "Asking and Requests",
     "se": "Hur säger man det?",
     "pl": "Jak się to mówi?",
     "en": "How do you say that?"
   },
   {
+    "id": "phrase_000555",
     "topic": "Asking and Requests",
     "se": "Kan vi leka?",
     "pl": "Czy możemy się bawić?",
     "en": "Can we play?"
   },
   {
+    "id": "phrase_000556",
     "topic": "Asking and Requests",
     "se": "Kan vi äta nu?",
     "pl": "Czy możemy teraz jeść?",
     "en": "Can we eat now?"
   },
   {
+    "id": "phrase_000557",
     "topic": "Asking and Requests",
     "se": "Får jag gå på toaletten?",
     "pl": "Czy mogę iść do toalety?",
     "en": "May I go to the toilet?"
   },
   {
+    "id": "phrase_000558",
     "topic": "Asking and Requests",
     "se": "Är vi framme snart?",
     "pl": "Daleko jeszcze?",
     "en": "Are we nearly there?"
   },
   {
+    "id": "phrase_000559",
     "topic": "Opposites",
     "se": "Stor",
     "pl": "Duży",
     "en": "Big"
   },
   {
+    "id": "phrase_000560",
     "topic": "Opposites",
     "se": "Liten",
     "pl": "Mały",
     "en": "Small"
   },
   {
+    "id": "phrase_000561",
     "topic": "Opposites",
     "se": "Lång",
     "pl": "Długi",
     "en": "Long"
   },
   {
+    "id": "phrase_000562",
     "topic": "Opposites",
     "se": "Kort",
     "pl": "Krótki",
     "en": "Short"
   },
   {
+    "id": "phrase_000563",
     "topic": "Opposites",
     "se": "Snabb",
     "pl": "Szybki",
     "en": "Fast"
   },
   {
+    "id": "phrase_000564",
     "topic": "Opposites",
     "se": "Långsam",
     "pl": "Wolny",
     "en": "Slow"
   },
   {
+    "id": "phrase_000565",
     "topic": "Opposites",
     "se": "Varm",
     "pl": "Ciepły",
     "en": "Warm"
   },
   {
+    "id": "phrase_000566",
     "topic": "Opposites",
     "se": "Kall",
     "pl": "Zimny",
     "en": "Cold"
   },
   {
+    "id": "phrase_000567",
     "topic": "Opposites",
     "se": "Ny",
     "pl": "Nowy",
     "en": "New"
   },
   {
+    "id": "phrase_000568",
     "topic": "Opposites",
     "se": "Gammal",
     "pl": "Stary",
     "en": "Old"
   },
   {
+    "id": "phrase_000569",
     "topic": "Opposites",
     "se": "Ren",
     "pl": "Czysty",
     "en": "Clean"
   },
   {
+    "id": "phrase_000570",
     "topic": "Opposites",
     "se": "Smutsig",
     "pl": "Brudny",
     "en": "Dirty"
   },
   {
+    "id": "phrase_000571",
     "topic": "Opposites",
     "se": "Tung",
     "pl": "Ciężki",
     "en": "Heavy"
   },
   {
+    "id": "phrase_000572",
     "topic": "Opposites",
     "se": "Lätt",
     "pl": "Lekki",
     "en": "Light"
   },
   {
+    "id": "phrase_000573",
     "topic": "Opposites",
     "se": "Hård",
     "pl": "Twardy",
     "en": "Hard"
   },
   {
+    "id": "phrase_000574",
     "topic": "Opposites",
     "se": "Mjuk",
     "pl": "Miękki",
     "en": "Soft"
   },
   {
+    "id": "phrase_000575",
     "topic": "Opposites",
     "se": "Öppen",
     "pl": "Otwarty",
     "en": "Open"
   },
   {
+    "id": "phrase_000576",
     "topic": "Opposites",
     "se": "Stängd",
     "pl": "Zamknięty",
     "en": "Closed"
   },
   {
+    "id": "phrase_000577",
     "topic": "Opposites",
     "se": "Elefanten är stor.",
     "pl": "Słoń jest duży.",
     "en": "The elephant is big."
   },
   {
+    "id": "phrase_000578",
     "topic": "Opposites",
     "se": "Musen är liten.",
     "pl": "Mysz jest mała.",
     "en": "The mouse is small."
   },
   {
+    "id": "phrase_000579",
     "topic": "Opposites",
     "se": "Det här är lätt!",
     "pl": "To jest łatwe!",
     "en": "This is easy!"
   },
   {
+    "id": "phrase_000580",
     "topic": "Opposites",
     "se": "Det här är svårt.",
     "pl": "To jest trudne.",
     "en": "This is hard."
   },
   {
+    "id": "phrase_000581",
     "topic": "Actions and Verbs",
     "se": "Gå",
     "pl": "Iść",
     "en": "Walk"
   },
   {
+    "id": "phrase_000582",
     "topic": "Actions and Verbs",
     "se": "Springa",
     "pl": "Biegać",
     "en": "Run"
   },
   {
+    "id": "phrase_000583",
     "topic": "Actions and Verbs",
     "se": "Hoppa",
     "pl": "Skakać",
     "en": "Jump"
   },
   {
+    "id": "phrase_000584",
     "topic": "Actions and Verbs",
     "se": "Sitta",
     "pl": "Siedzieć",
     "en": "Sit"
   },
   {
+    "id": "phrase_000585",
     "topic": "Actions and Verbs",
     "se": "Stå",
     "pl": "Stać",
     "en": "Stand"
   },
   {
+    "id": "phrase_000586",
     "topic": "Actions and Verbs",
     "se": "Ligga",
     "pl": "Leżeć",
     "en": "Lie"
   },
   {
+    "id": "phrase_000587",
     "topic": "Actions and Verbs",
     "se": "Sova",
     "pl": "Spać",
     "en": "Sleep"
   },
   {
+    "id": "phrase_000588",
     "topic": "Actions and Verbs",
     "se": "Äta",
     "pl": "Jeść",
     "en": "Eat"
   },
   {
+    "id": "phrase_000589",
     "topic": "Actions and Verbs",
     "se": "Dricka",
     "pl": "Pić",
     "en": "Drink"
   },
   {
+    "id": "phrase_000590",
     "topic": "Actions and Verbs",
     "se": "Läsa",
     "pl": "Czytać",
     "en": "Read"
   },
   {
+    "id": "phrase_000591",
     "topic": "Actions and Verbs",
     "se": "Skriva",
     "pl": "Pisać",
     "en": "Write"
   },
   {
+    "id": "phrase_000592",
     "topic": "Actions and Verbs",
     "se": "Rita",
     "pl": "Rysować",
     "en": "Draw"
   },
   {
+    "id": "phrase_000593",
     "topic": "Actions and Verbs",
     "se": "Sjunga",
     "pl": "Śpiewać",
     "en": "Sing"
   },
   {
+    "id": "phrase_000594",
     "topic": "Actions and Verbs",
     "se": "Dansa",
     "pl": "Tańczyć",
     "en": "Dance"
   },
   {
+    "id": "phrase_000595",
     "topic": "Actions and Verbs",
     "se": "Leka",
     "pl": "Bawić się",
     "en": "Play"
   },
   {
+    "id": "phrase_000596",
     "topic": "Actions and Verbs",
     "se": "Simma",
     "pl": "Pływać",
     "en": "Swim"
   },
   {
+    "id": "phrase_000597",
     "topic": "Actions and Verbs",
     "se": "Cykla",
     "pl": "Jeździć na rowerze",
     "en": "Cycle"
   },
   {
+    "id": "phrase_000598",
     "topic": "Actions and Verbs",
     "se": "Titta",
     "pl": "Patrzeć",
     "en": "Look"
   },
   {
+    "id": "phrase_000599",
     "topic": "Actions and Verbs",
     "se": "Lyssna",
     "pl": "Słuchać",
     "en": "Listen"
   },
   {
+    "id": "phrase_000600",
     "topic": "Actions and Verbs",
     "se": "Prata",
     "pl": "Mówić",
     "en": "Talk"
   },
   {
+    "id": "phrase_000601",
     "topic": "Actions and Verbs",
     "se": "Skratta",
     "pl": "Śmiać się",
     "en": "Laugh"
   },
   {
+    "id": "phrase_000602",
     "topic": "Actions and Verbs",
     "se": "Gråta",
     "pl": "Płakać",
     "en": "Cry"
   },
   {
+    "id": "phrase_000603",
     "topic": "Actions and Verbs",
     "se": "Kramas",
     "pl": "Przytulać się",
     "en": "Hug"
   },
   {
+    "id": "phrase_000604",
     "topic": "Actions and Verbs",
     "se": "Kyssa",
     "pl": "Całować",
     "en": "Kiss"
   },
   {
+    "id": "phrase_000605",
     "topic": "Actions and Verbs",
     "se": "Jag springer snabbt.",
     "pl": "Biegnę szybko.",
     "en": "I run fast."
   },
   {
+    "id": "phrase_000606",
     "topic": "Actions and Verbs",
     "se": "Han sjunger vackert.",
     "pl": "On śpiewa pięknie.",
     "en": "He sings beautifully."
   },
   {
+    "id": "phrase_000607",
     "topic": "Actions and Verbs",
     "se": "Hon dansar bra.",
     "pl": "Ona dobrze tańczy.",
     "en": "She dances well."
   },
   {
+    "id": "phrase_000608",
     "topic": "Actions and Verbs",
     "se": "Vi leker i parken.",
     "pl": "Bawimy się w parku.",
     "en": "We play in the park."
   },
   {
+    "id": "phrase_000609",
     "topic": "Actions and Verbs",
     "se": "Jag ritade en blomma.",
     "pl": "Narysowałem kwiatek.",
     "en": "I drew a flower."
   },
   {
+    "id": "phrase_000610",
     "topic": "Actions and Verbs",
     "se": "Kan du hoppa?",
     "pl": "Czy umiesz skakać?",
     "en": "Can you jump?"
   },
   {
+    "id": "phrase_000611",
     "topic": "Places in Town",
     "se": "Park",
     "pl": "Park",
     "en": "Park"
   },
   {
+    "id": "phrase_000612",
     "topic": "Places in Town",
     "se": "Lekplats",
     "pl": "Plac zabaw",
     "en": "Playground"
   },
   {
+    "id": "phrase_000613",
     "topic": "Places in Town",
     "se": "Affär",
     "pl": "Sklep",
     "en": "Shop"
   },
   {
+    "id": "phrase_000614",
     "topic": "Places in Town",
     "se": "Bibliotek",
     "pl": "Biblioteka",
     "en": "Library"
   },
   {
+    "id": "phrase_000615",
     "topic": "Places in Town",
     "se": "Sjukhus",
     "pl": "Szpital",
     "en": "Hospital"
   },
   {
+    "id": "phrase_000616",
     "topic": "Places in Town",
     "se": "Apotek",
     "pl": "Apteka",
     "en": "Pharmacy"
   },
   {
+    "id": "phrase_000617",
     "topic": "Places in Town",
     "se": "Restaurang",
     "pl": "Restauracja",
     "en": "Restaurant"
   },
   {
+    "id": "phrase_000618",
     "topic": "Places in Town",
     "se": "Café",
     "pl": "Kawiarnia",
     "en": "Café"
   },
   {
+    "id": "phrase_000619",
     "topic": "Places in Town",
     "se": "Zoo",
     "pl": "Zoo",
     "en": "Zoo"
   },
   {
+    "id": "phrase_000620",
     "topic": "Places in Town",
     "se": "Museum",
     "pl": "Muzeum",
     "en": "Museum"
   },
   {
+    "id": "phrase_000621",
     "topic": "Places in Town",
     "se": "Biograf",
     "pl": "Kino",
     "en": "Cinema"
   },
   {
+    "id": "phrase_000622",
     "topic": "Places in Town",
     "se": "Kyrka",
     "pl": "Kościół",
     "en": "Church"
   },
   {
+    "id": "phrase_000623",
     "topic": "Places in Town",
     "se": "Jag vill gå till lekplatsen.",
     "pl": "Chcę iść na plac zabaw.",
     "en": "I want to go to the playground."
   },
   {
+    "id": "phrase_000624",
     "topic": "Places in Town",
     "se": "Vi går till parken.",
     "pl": "Idziemy do parku.",
     "en": "We are going to the park."
   },
   {
+    "id": "phrase_000625",
     "topic": "Places in Town",
     "se": "Kan vi gå till zoo?",
     "pl": "Czy możemy iść do zoo?",
     "en": "Can we go to the zoo?"
   },
   {
+    "id": "phrase_000626",
     "topic": "Places in Town",
     "se": "Affären är stängd.",
     "pl": "Sklep jest zamknięty.",
     "en": "The shop is closed."
   },
   {
+    "id": "phrase_000627",
     "topic": "Places in Town",
     "se": "Biblioteket är öppet.",
     "pl": "Biblioteka jest otwarta.",
     "en": "The library is open."
   },
   {
+    "id": "phrase_000628",
     "topic": "Places in Town",
     "se": "Hur långt är det till parken?",
     "pl": "Jak daleko jest do parku?",
     "en": "How far is it to the park?"
   },
   {
+    "id": "phrase_000629",
     "topic": "Technology",
     "se": "Telefon",
     "pl": "Telefon",
     "en": "Phone"
   },
   {
+    "id": "phrase_000630",
     "topic": "Technology",
     "se": "Mobiltelefon",
     "pl": "Telefon komórkowy",
     "en": "Mobile phone"
   },
   {
+    "id": "phrase_000631",
     "topic": "Technology",
     "se": "Dator",
     "pl": "Komputer",
     "en": "Computer"
   },
   {
+    "id": "phrase_000632",
     "topic": "Technology",
     "se": "Surfplatta",
     "pl": "Tablet",
     "en": "Tablet"
   },
   {
+    "id": "phrase_000633",
     "topic": "Technology",
     "se": "TV",
     "pl": "Telewizor",
     "en": "TV"
   },
   {
+    "id": "phrase_000634",
     "topic": "Technology",
     "se": "Radio",
     "pl": "Radio",
     "en": "Radio"
   },
   {
+    "id": "phrase_000635",
     "topic": "Technology",
     "se": "Internet",
     "pl": "Internet",
     "en": "Internet"
   },
   {
+    "id": "phrase_000636",
     "topic": "Technology",
     "se": "Spel",
     "pl": "Gra",
     "en": "Game"
   },
   {
+    "id": "phrase_000637",
     "topic": "Technology",
     "se": "Kamera",
     "pl": "Aparat",
     "en": "Camera"
   },
   {
+    "id": "phrase_000638",
     "topic": "Technology",
     "se": "Hörlurar",
     "pl": "Słuchawki",
     "en": "Headphones"
   },
   {
+    "id": "phrase_000639",
     "topic": "Technology",
     "se": "Var är min mobil?",
     "pl": "Gdzie jest mój telefon?",
     "en": "Where is my phone?"
   },
   {
+    "id": "phrase_000640",
     "topic": "Technology",
     "se": "Kan jag använda datorn?",
     "pl": "Czy mogę używać komputera?",
     "en": "Can I use the computer?"
   },
   {
+    "id": "phrase_000641",
     "topic": "Technology",
     "se": "Jag vill titta på YouTube.",
     "pl": "Chcę oglądać YouTube.",
     "en": "I want to watch YouTube."
   },
   {
+    "id": "phrase_000642",
     "topic": "Technology",
     "se": "Batteriet är slut.",
     "pl": "Bateria się rozładowała.",
     "en": "The battery is dead."
   },
   {
+    "id": "phrase_000643",
     "topic": "Technology",
     "se": "Kan du ladda min telefon?",
     "pl": "Czy możesz naładować mój telefon?",
     "en": "Can you charge my phone?"
   },
   {
+    "id": "phrase_000644",
     "topic": "Technology",
     "se": "Jag spelar datorspel.",
     "pl": "Gram w gry komputerowe.",
     "en": "I play video games."
   },
   {
+    "id": "phrase_000645",
     "topic": "Technology",
     "se": "Stäng av TV:n!",
     "pl": "Wyłącz telewizor!",
     "en": "Turn off the TV!"
   },
   {
+    "id": "phrase_000646",
     "topic": "Music and Art",
     "se": "Musik",
     "pl": "Muzyka",
     "en": "Music"
   },
   {
+    "id": "phrase_000647",
     "topic": "Music and Art",
     "se": "Sång",
     "pl": "Piosenka",
     "en": "Song"
   },
   {
+    "id": "phrase_000648",
     "topic": "Music and Art",
     "se": "Dans",
     "pl": "Taniec",
     "en": "Dancing"
   },
   {
+    "id": "phrase_000649",
     "topic": "Music and Art",
     "se": "Piano",
     "pl": "Pianino",
     "en": "Piano"
   },
   {
+    "id": "phrase_000650",
     "topic": "Music and Art",
     "se": "Gitarr",
     "pl": "Gitara",
     "en": "Guitar"
   },
   {
+    "id": "phrase_000651",
     "topic": "Music and Art",
     "se": "Trummor",
     "pl": "Perkusja",
     "en": "Drums"
   },
   {
+    "id": "phrase_000652",
     "topic": "Music and Art",
     "se": "Violin",
     "pl": "Skrzypce",
     "en": "Violin"
   },
   {
+    "id": "phrase_000653",
     "topic": "Music and Art",
     "se": "Teckning",
     "pl": "Rysunek",
     "en": "Drawing"
   },
   {
+    "id": "phrase_000654",
     "topic": "Music and Art",
     "se": "Målning",
     "pl": "Obraz",
     "en": "Painting"
   },
   {
+    "id": "phrase_000655",
     "topic": "Music and Art",
     "se": "Färgpennor",
     "pl": "Kredki",
     "en": "Coloured pencils"
   },
   {
+    "id": "phrase_000656",
     "topic": "Music and Art",
     "se": "Pensel",
     "pl": "Pędzel",
     "en": "Paintbrush"
   },
   {
+    "id": "phrase_000657",
     "topic": "Music and Art",
     "se": "Jag sjunger en sång.",
     "pl": "Śpiewam piosenkę.",
     "en": "I sing a song."
   },
   {
+    "id": "phrase_000658",
     "topic": "Music and Art",
     "se": "Jag spelar piano.",
     "pl": "Gram na pianinie.",
     "en": "I play the piano."
   },
   {
+    "id": "phrase_000659",
     "topic": "Music and Art",
     "se": "Jag älskar musik!",
     "pl": "Uwielbiam muzykę!",
     "en": "I love music!"
   },
   {
+    "id": "phrase_000660",
     "topic": "Music and Art",
     "se": "Jag ritar med färgpennor.",
     "pl": "Rysuję kredkami.",
     "en": "I draw with coloured pencils."
   },
   {
+    "id": "phrase_000661",
     "topic": "Music and Art",
     "se": "Konst är roligt!",
     "pl": "Sztuka jest fajna!",
     "en": "Art is fun!"
   },
   {
+    "id": "phrase_000662",
     "topic": "Music and Art",
     "se": "Sjung med mig!",
     "pl": "Śpiewaj ze mną!",
     "en": "Sing with me!"
   },
   {
+    "id": "phrase_000663",
     "topic": "Polite Phrases",
     "se": "Snälla.",
     "pl": "Proszę.",
     "en": "Please."
   },
   {
+    "id": "phrase_000664",
     "topic": "Polite Phrases",
     "se": "Tack!",
     "pl": "Dziękuję!",
     "en": "Thank you!"
   },
   {
+    "id": "phrase_000665",
     "topic": "Polite Phrases",
     "se": "Tack så mycket!",
     "pl": "Bardzo dziękuję!",
     "en": "Thank you very much!"
   },
   {
+    "id": "phrase_000666",
     "topic": "Polite Phrases",
     "se": "Ingen orsak.",
     "pl": "Nie ma za co.",
     "en": "Don't mention it."
   },
   {
+    "id": "phrase_000667",
     "topic": "Polite Phrases",
     "se": "Varsågod!",
     "pl": "Proszę!",
     "en": "You're welcome!"
   },
   {
+    "id": "phrase_000668",
     "topic": "Polite Phrases",
     "se": "Förlåt.",
     "pl": "Przepraszam.",
     "en": "Sorry."
   },
   {
+    "id": "phrase_000669",
     "topic": "Polite Phrases",
     "se": "Det gör ingenting.",
     "pl": "Nic się nie stało.",
     "en": "That's all right."
   },
   {
+    "id": "phrase_000670",
     "topic": "Polite Phrases",
     "se": "Välkommen!",
     "pl": "Witaj!",
     "en": "Welcome!"
   },
   {
+    "id": "phrase_000671",
     "topic": "Polite Phrases",
     "se": "Lycka till!",
     "pl": "Powodzenia!",
     "en": "Good luck!"
   },
   {
+    "id": "phrase_000672",
     "topic": "Polite Phrases",
     "se": "Grattis!",
     "pl": "Gratulacje!",
     "en": "Congratulations!"
   },
   {
+    "id": "phrase_000673",
     "topic": "Polite Phrases",
     "se": "Bra jobbat!",
     "pl": "Dobra robota!",
     "en": "Well done!"
   },
   {
+    "id": "phrase_000674",
     "topic": "Polite Phrases",
     "se": "Jättebra!",
     "pl": "Świetnie!",
     "en": "Excellent!"
   },
   {
+    "id": "phrase_000675",
     "topic": "Polite Phrases",
     "se": "Wow, det där gjorde du bra!",
     "pl": "Super, świetnie ci poszło!",
     "en": "Wow, you did a great job!"
   },
   {
+    "id": "phrase_000676",
     "topic": "Polite Phrases",
     "se": "Kan du hjälpa mig, snälla?",
     "pl": "Pomożesz mi, proszę?",
     "en": "Can you help me, please?"
   },
   {
+    "id": "phrase_000677",
     "topic": "Polite Phrases",
     "se": "Får jag störa?",
     "pl": "Czy mogę przeszkodzić?",
     "en": "May I interrupt?"
   },
   {
+    "id": "phrase_000678",
     "topic": "Polite Phrases",
     "se": "Ha en bra dag!",
     "pl": "Miłego dnia!",
     "en": "Have a nice day!"
   },
   {
+    "id": "phrase_000679",
     "topic": "Polite Phrases",
     "se": "Ta hand om dig!",
     "pl": "Dbaj o siebie!",
     "en": "Take care!"
   },
   {
+    "id": "phrase_000680",
     "topic": "Review and Recap",
     "se": "Bra gjort!",
     "pl": "Dobra robota!",
     "en": "Well done!"
   },
   {
+    "id": "phrase_000681",
     "topic": "Review and Recap",
     "se": "Du lär dig polska!",
     "pl": "Uczysz się polskiego!",
     "en": "You are learning Polish!"
   },
   {
+    "id": "phrase_000682",
     "topic": "Review and Recap",
     "se": "Nu övar vi!",
     "pl": "Ćwiczmy!",
     "en": "Let's practise!"
   },
   {
+    "id": "phrase_000683",
     "topic": "Review and Recap",
     "se": "Upprepa efter mig.",
     "pl": "Powtarzaj za mną.",
     "en": "Repeat after me."
   },
   {
+    "id": "phrase_000684",
     "topic": "Review and Recap",
     "se": "Säg det på polska.",
     "pl": "Powiedz to po polsku.",
     "en": "Say it in Polish."
   },
   {
+    "id": "phrase_000685",
     "topic": "Review and Recap",
     "se": "Vad heter det på polska?",
     "pl": "Jak to się mówi po polsku?",
     "en": "What is it called in Polish?"
   },
   {
+    "id": "phrase_000686",
     "topic": "Review and Recap",
     "se": "Jag kan polska!",
     "pl": "Znam polski!",
     "en": "I know Polish!"
   },
   {
+    "id": "phrase_000687",
     "topic": "Review and Recap",
     "se": "Polska är roligt!",
     "pl": "Polski jest fajny!",
     "en": "Polish is fun!"
   },
   {
+    "id": "phrase_000688",
     "topic": "Review and Recap",
     "se": "Fortsätt träna!",
     "pl": "Ćwicz dalej!",
     "en": "Keep practising!"
   },
   {
+    "id": "phrase_000689",
     "topic": "Review and Recap",
     "se": "Varje dag blir du bättre.",
     "pl": "Z każdym dniem idzie ci coraz lepiej.",
     "en": "Every day you get better."
   },
   {
+    "id": "phrase_000690",
     "topic": "Review and Recap",
     "se": "Hejdå, vi ses!",
     "pl": "Cześć, do zobaczenia!",
     "en": "Bye, see you!"
   },
   {
+    "id": "phrase_000691",
     "topic": "Greetings",
     "se": "Han heter Tomek.",
     "pl": "On ma na imię Tomek.",
     "en": "His name is Tomek."
   },
   {
+    "id": "phrase_000692",
     "topic": "Greetings",
     "se": "Hon heter Zosia.",
     "pl": "Ona ma na imię Zosia.",
     "en": "Her name is Zosia."
   },
   {
+    "id": "phrase_000693",
     "topic": "Greetings",
     "se": "Han är nio år.",
     "pl": "On ma dziewięć lat.",
     "en": "He is nine years old."
   },
   {
+    "id": "phrase_000694",
     "topic": "Greetings",
     "se": "Hon är sju år.",
     "pl": "Ona ma siedem lat.",
     "en": "She is seven years old."
   },
   {
+    "id": "phrase_000695",
     "topic": "Greetings",
     "se": "Han mår bra.",
     "pl": "On czuje się dobrze.",
     "en": "He is doing well."
   },
   {
+    "id": "phrase_000696",
     "topic": "Greetings",
     "se": "Hon mår inte bra idag.",
     "pl": "Ona źle się dzisiaj czuje.",
     "en": "She is not feeling well today."
   },
   {
+    "id": "phrase_000697",
     "topic": "Greetings",
     "se": "De säger hej.",
     "pl": "Oni mówią cześć.",
     "en": "They say hi."
   },
   {
+    "id": "phrase_000698",
     "topic": "Greetings",
     "se": "Vi hälsar på farmor.",
     "pl": "Odwiedzamy babcię.",
     "en": "We are visiting grandma."
   },
   {
+    "id": "phrase_000699",
     "topic": "Numbers",
     "se": "Han har tre katter.",
     "pl": "On ma trzy koty.",
     "en": "He has three cats."
   },
   {
+    "id": "phrase_000700",
     "topic": "Numbers",
     "se": "Hon har två bröder.",
     "pl": "Ona ma dwóch braci.",
     "en": "She has two brothers."
   },
   {
+    "id": "phrase_000701",
     "topic": "Numbers",
     "se": "De har fyra hundar.",
     "pl": "Oni mają cztery psy.",
     "en": "They have four dogs."
   },
   {
+    "id": "phrase_000702",
     "topic": "Numbers",
     "se": "Han är tio år.",
     "pl": "On ma dziesięć lat.",
     "en": "He is ten years old."
   },
   {
+    "id": "phrase_000703",
     "topic": "Numbers",
     "se": "Hon fyller åtta år.",
     "pl": "Ona kończy osiem lat.",
     "en": "She is turning eight."
   },
   {
+    "id": "phrase_000704",
     "topic": "Colors",
     "se": "Han har en röd cykel.",
     "pl": "On ma czerwony rower.",
     "en": "He has a red bicycle."
   },
   {
+    "id": "phrase_000705",
     "topic": "Colors",
     "se": "Hon har på sig en blå klänning.",
     "pl": "Ona ma na sobie niebieską sukienkę.",
     "en": "She is wearing a blue dress."
   },
   {
+    "id": "phrase_000706",
     "topic": "Colors",
     "se": "Han målar med gul färg.",
     "pl": "On maluje żółtą farbą.",
     "en": "He paints with yellow paint."
   },
   {
+    "id": "phrase_000707",
     "topic": "Colors",
     "se": "De gillar gröna äpplen.",
     "pl": "Oni lubią zielone jabłka.",
     "en": "They like green apples."
   },
   {
+    "id": "phrase_000708",
     "topic": "Colors",
     "se": "Hon vill ha en rosa väska.",
     "pl": "Ona chce różową torbę.",
     "en": "She wants a pink bag."
   },
   {
+    "id": "phrase_000709",
     "topic": "Animals",
     "se": "Han vill ha en hund.",
     "pl": "On chce mieć psa.",
     "en": "He wants a dog."
   },
   {
+    "id": "phrase_000710",
     "topic": "Animals",
     "se": "Hon har en liten katt.",
     "pl": "Ona ma małego kota.",
     "en": "She has a small cat."
   },
   {
+    "id": "phrase_000711",
     "topic": "Animals",
     "se": "Han matar fiskarna.",
     "pl": "On karmi ryby.",
     "en": "He is feeding the fish."
   },
   {
+    "id": "phrase_000712",
     "topic": "Animals",
     "se": "Hon rider på hästen.",
     "pl": "Ona jedzie konno.",
     "en": "She is riding the horse."
   },
   {
+    "id": "phrase_000713",
     "topic": "Animals",
     "se": "De tittar på elefanterna på zoo.",
     "pl": "Oni patrzą na słonie w zoo.",
     "en": "They are looking at the elephants at the zoo."
   },
   {
+    "id": "phrase_000714",
     "topic": "Animals",
     "se": "Han är rädd för spindlar.",
     "pl": "On boi się pająków.",
     "en": "He is scared of spiders."
   },
   {
+    "id": "phrase_000715",
     "topic": "Animals",
     "se": "Hon älskar fjärilar.",
     "pl": "Ona kocha motyle.",
     "en": "She loves butterflies."
   },
   {
+    "id": "phrase_000716",
     "topic": "Family",
     "se": "Han har en lillasyster.",
     "pl": "On ma młodszą siostrę.",
     "en": "He has a little sister."
   },
   {
+    "id": "phrase_000717",
     "topic": "Family",
     "se": "Hon har en storebror.",
     "pl": "Ona ma starszego brata.",
     "en": "She has a big brother."
   },
   {
+    "id": "phrase_000718",
     "topic": "Family",
     "se": "Han besöker farfar varje söndag.",
     "pl": "On odwiedza dziadka w każdą niedzielę.",
     "en": "He visits grandpa every Sunday."
   },
   {
+    "id": "phrase_000719",
     "topic": "Family",
     "se": "Hon hjälper mamma i köket.",
     "pl": "Ona pomaga mamie w kuchni.",
     "en": "She helps mum in the kitchen."
   },
   {
+    "id": "phrase_000720",
     "topic": "Family",
     "se": "De leker med sin kusin.",
     "pl": "Oni bawią się z kuzynem.",
     "en": "They play with their cousin."
   },
   {
+    "id": "phrase_000721",
     "topic": "Family",
     "se": "Vi äter middag med hela familjen.",
     "pl": "Jemy kolację z całą rodziną.",
     "en": "We eat dinner with the whole family."
   },
   {
+    "id": "phrase_000722",
     "topic": "Food",
     "se": "Han vill äta pizza.",
     "pl": "On chce jeść pizzę.",
     "en": "He wants to eat pizza."
   },
   {
+    "id": "phrase_000723",
     "topic": "Food",
     "se": "Hon dricker mjölk varje morgon.",
     "pl": "Ona co rano pije mleko.",
     "en": "She drinks milk every morning."
   },
   {
+    "id": "phrase_000724",
     "topic": "Food",
     "se": "Han gillar inte tomater.",
     "pl": "On nie lubi pomidorów.",
     "en": "He doesn't like tomatoes."
   },
   {
+    "id": "phrase_000725",
     "topic": "Food",
     "se": "Hon älskar choklad.",
     "pl": "Ona uwielbia czekoladę.",
     "en": "She loves chocolate."
   },
   {
+    "id": "phrase_000726",
     "topic": "Food",
     "se": "De äter frukost tillsammans.",
     "pl": "Oni razem jedzą śniadanie.",
     "en": "They eat breakfast together."
   },
   {
+    "id": "phrase_000727",
     "topic": "Food",
     "se": "Han är hungrig efter skolan.",
     "pl": "On jest głodny po szkole.",
     "en": "He is hungry after school."
   },
   {
+    "id": "phrase_000728",
     "topic": "Food",
     "se": "Hon ber om en glass.",
     "pl": "Ona prosi o lody.",
     "en": "She asks for an ice cream."
   },
   {
+    "id": "phrase_000729",
     "topic": "Food",
     "se": "Vi lagar mat tillsammans.",
     "pl": "Gotujemy razem.",
     "en": "We cook together."
   },
   {
+    "id": "phrase_000730",
     "topic": "Body",
     "se": "Han har ont i huvudet.",
     "pl": "Boli go głowa.",
     "en": "His head hurts."
   },
   {
+    "id": "phrase_000731",
     "topic": "Body",
     "se": "Hon har ont i magen.",
     "pl": "Boli ją brzuch.",
     "en": "Her tummy hurts."
   },
   {
+    "id": "phrase_000732",
     "topic": "Body",
     "se": "Han har ont i halsen.",
     "pl": "Boli go gardło.",
     "en": "His throat hurts."
   },
   {
+    "id": "phrase_000733",
     "topic": "Body",
     "se": "Hon slog i knät.",
     "pl": "Uderzyła się w kolano.",
     "en": "She banged her knee."
   },
   {
+    "id": "phrase_000734",
     "topic": "Body",
     "se": "Han är sjuk och ligger i sängen.",
     "pl": "On jest chory i leży w łóżku.",
     "en": "He is sick and lying in bed."
   },
   {
+    "id": "phrase_000735",
     "topic": "Body",
     "se": "Hon tvättar händerna.",
     "pl": "Ona myje ręce.",
     "en": "She is washing her hands."
   },
   {
+    "id": "phrase_000736",
     "topic": "Body",
     "se": "De borstar tänderna.",
     "pl": "Oni myją zęby.",
     "en": "They are brushing their teeth."
   },
   {
+    "id": "phrase_000737",
     "topic": "Clothing",
     "se": "Han tar på sig jackan.",
     "pl": "On zakłada kurtkę.",
     "en": "He is putting on his jacket."
   },
   {
+    "id": "phrase_000738",
     "topic": "Clothing",
     "se": "Hon letar efter sina strumpor.",
     "pl": "Ona szuka skarpetek.",
     "en": "She is looking for her socks."
   },
   {
+    "id": "phrase_000739",
     "topic": "Clothing",
     "se": "Han gillar sin nya tröja.",
     "pl": "On lubi swój nowy sweter.",
     "en": "He likes his new jumper."
   },
   {
+    "id": "phrase_000740",
     "topic": "Clothing",
     "se": "Hon vill ha en ny klänning.",
     "pl": "Ona chce nową sukienkę.",
     "en": "She wants a new dress."
   },
   {
+    "id": "phrase_000741",
     "topic": "Clothing",
     "se": "De klär på sig snabbt.",
     "pl": "Oni szybko się ubierają.",
     "en": "They get dressed quickly."
   },
   {
+    "id": "phrase_000742",
     "topic": "Clothing",
     "se": "Han glömde sin mössa hemma.",
     "pl": "On zostawił czapkę w domu.",
     "en": "He left his hat at home."
   },
   {
+    "id": "phrase_000743",
     "topic": "Home",
     "se": "Han sover i sitt rum.",
     "pl": "On śpi w swoim pokoju.",
     "en": "He sleeps in his room."
   },
   {
+    "id": "phrase_000744",
     "topic": "Home",
     "se": "Hon hjälper till att städa.",
     "pl": "Ona pomaga sprzątać.",
     "en": "She helps with the cleaning."
   },
   {
+    "id": "phrase_000745",
     "topic": "Home",
     "se": "Han tittar ut genom fönstret.",
     "pl": "On patrzy przez okno.",
     "en": "He looks out of the window."
   },
   {
+    "id": "phrase_000746",
     "topic": "Home",
     "se": "Hon lagar mat i köket.",
     "pl": "Ona gotuje w kuchni.",
     "en": "She cooks in the kitchen."
   },
   {
+    "id": "phrase_000747",
     "topic": "Home",
     "se": "De leker i vardagsrummet.",
     "pl": "Oni bawią się w salonie.",
     "en": "They play in the living room."
   },
   {
+    "id": "phrase_000748",
     "topic": "Home",
     "se": "Han öppnar dörren.",
     "pl": "On otwiera drzwi.",
     "en": "He opens the door."
   },
   {
+    "id": "phrase_000749",
     "topic": "Home",
     "se": "Hon stänger fönstret.",
     "pl": "Ona zamyka okno.",
     "en": "She closes the window."
   },
   {
+    "id": "phrase_000750",
     "topic": "School",
     "se": "Han gillar matematik.",
     "pl": "On lubi matematykę.",
     "en": "He likes maths."
   },
   {
+    "id": "phrase_000751",
     "topic": "School",
     "se": "Hon är bäst i klassen.",
     "pl": "Ona jest najlepsza w klasie.",
     "en": "She is the best in the class."
   },
   {
+    "id": "phrase_000752",
     "topic": "School",
     "se": "Han glömde sin läxa.",
     "pl": "On zapomniał zadanie domowe.",
     "en": "He forgot his homework."
   },
   {
+    "id": "phrase_000753",
     "topic": "School",
     "se": "Hon räcker upp handen.",
     "pl": "Ona podnosi rękę.",
     "en": "She raises her hand."
   },
   {
+    "id": "phrase_000754",
     "topic": "School",
     "se": "De sitter vid samma bänk.",
     "pl": "Oni siedzą przy tej samej ławce.",
     "en": "They sit at the same desk."
   },
   {
+    "id": "phrase_000755",
     "topic": "School",
     "se": "Han pratar med läraren.",
     "pl": "On rozmawia z nauczycielem.",
     "en": "He talks to the teacher."
   },
   {
+    "id": "phrase_000756",
     "topic": "School",
     "se": "Hon läser en bok på rasten.",
     "pl": "Ona czyta książkę podczas przerwy.",
     "en": "She reads a book at break time."
   },
   {
+    "id": "phrase_000757",
     "topic": "School",
     "se": "Vi lär oss polska i skolan.",
     "pl": "Uczymy się polskiego w szkole.",
     "en": "We are learning Polish at school."
   },
   {
+    "id": "phrase_000758",
     "topic": "Weather",
     "se": "Han gillar regn.",
     "pl": "On lubi deszcz.",
     "en": "He likes rain."
   },
   {
+    "id": "phrase_000759",
     "topic": "Weather",
     "se": "Hon är rädd för åska.",
     "pl": "Ona boi się burzy.",
     "en": "She is scared of thunderstorms."
   },
   {
+    "id": "phrase_000760",
     "topic": "Weather",
     "se": "Han leker i snön.",
     "pl": "On bawi się w śniegu.",
     "en": "He plays in the snow."
   },
   {
+    "id": "phrase_000761",
     "topic": "Weather",
     "se": "Hon tar med sig paraplyet.",
     "pl": "Ona bierze parasol.",
     "en": "She takes her umbrella."
   },
   {
+    "id": "phrase_000762",
     "topic": "Weather",
     "se": "De cyklar när solen skiner.",
     "pl": "Oni jeżdżą na rowerach, gdy świeci słońce.",
     "en": "They cycle when the sun shines."
   },
   {
+    "id": "phrase_000763",
     "topic": "Seasons",
     "se": "Han älskar vintern.",
     "pl": "On uwielbia zimę.",
     "en": "He loves winter."
   },
   {
+    "id": "phrase_000764",
     "topic": "Seasons",
     "se": "Hon längtar efter sommaren.",
     "pl": "Ona nie może się doczekać lata.",
     "en": "She is looking forward to summer."
   },
   {
+    "id": "phrase_000765",
     "topic": "Seasons",
     "se": "Han samlar löv på hösten.",
     "pl": "On zbiera liście jesienią.",
     "en": "He collects leaves in autumn."
   },
   {
+    "id": "phrase_000766",
     "topic": "Seasons",
     "se": "Hon plockar blommor på våren.",
     "pl": "Ona zbiera kwiaty wiosną.",
     "en": "She picks flowers in spring."
   },
   {
+    "id": "phrase_000767",
     "topic": "Seasons",
     "se": "De åker skidor på vintern.",
     "pl": "Oni jeżdżą na nartach zimą.",
     "en": "They go skiing in winter."
   },
   {
+    "id": "phrase_000768",
     "topic": "Days and Time",
     "se": "Han vaknar alltid tidigt.",
     "pl": "On zawsze budzi się wcześnie.",
     "en": "He always wakes up early."
   },
   {
+    "id": "phrase_000769",
     "topic": "Days and Time",
     "se": "Hon somnar sent på fredagar.",
     "pl": "Ona zasypia późno w piątki.",
     "en": "She falls asleep late on Fridays."
   },
   {
+    "id": "phrase_000770",
     "topic": "Days and Time",
     "se": "Han har fotbollsträning på onsdagar.",
     "pl": "On ma trening piłki nożnej w środy.",
     "en": "He has football practice on Wednesdays."
   },
   {
+    "id": "phrase_000771",
     "topic": "Days and Time",
     "se": "Hon dansar på tisdagar.",
     "pl": "Ona tańczy we wtorki.",
     "en": "She dances on Tuesdays."
   },
   {
+    "id": "phrase_000772",
     "topic": "Days and Time",
     "se": "De åker till farmor på söndagar.",
     "pl": "Oni jeżdżą do babci w niedziele.",
     "en": "They go to grandma's on Sundays."
   },
   {
+    "id": "phrase_000773",
     "topic": "Toys and Play",
     "se": "Han vill spela fotboll.",
     "pl": "On chce grać w piłkę nożną.",
     "en": "He wants to play football."
   },
   {
+    "id": "phrase_000774",
     "topic": "Toys and Play",
     "se": "Hon vill spela brädspel.",
     "pl": "Ona chce grać w gry planszowe.",
     "en": "She wants to play board games."
   },
   {
+    "id": "phrase_000775",
     "topic": "Toys and Play",
     "se": "Han bygger med klossar.",
     "pl": "On buduje z klocków.",
     "en": "He is building with blocks."
   },
   {
+    "id": "phrase_000776",
     "topic": "Toys and Play",
     "se": "Hon leker med sin docka.",
     "pl": "Ona bawi się lalką.",
     "en": "She is playing with her doll."
   },
   {
+    "id": "phrase_000777",
     "topic": "Toys and Play",
     "se": "De leker i sandlådan.",
     "pl": "Oni bawią się w piaskownicy.",
     "en": "They are playing in the sandpit."
   },
   {
+    "id": "phrase_000778",
     "topic": "Toys and Play",
     "se": "Han vinner alltid!",
     "pl": "On zawsze wygrywa!",
     "en": "He always wins!"
   },
   {
+    "id": "phrase_000779",
     "topic": "Toys and Play",
     "se": "Hon gillar att gunga.",
     "pl": "Ona lubi się huśtać.",
     "en": "She likes to swing."
   },
   {
+    "id": "phrase_000780",
     "topic": "Toys and Play",
     "se": "De delar leksakerna.",
     "pl": "Oni dzielą się zabawkami.",
     "en": "They share the toys."
   },
   {
+    "id": "phrase_000781",
     "topic": "Sports and Activities",
     "se": "Han spelar fotboll varje dag.",
     "pl": "On codziennie gra w piłkę nożną.",
     "en": "He plays football every day."
   },
   {
+    "id": "phrase_000782",
     "topic": "Sports and Activities",
     "se": "Hon simmar jättebra.",
     "pl": "Ona świetnie pływa.",
     "en": "She swims really well."
   },
   {
+    "id": "phrase_000783",
     "topic": "Sports and Activities",
     "se": "Han cyklar till skolan.",
     "pl": "On jeździ na rowerze do szkoły.",
     "en": "He cycles to school."
   },
   {
+    "id": "phrase_000784",
     "topic": "Sports and Activities",
     "se": "Hon dansar balett.",
     "pl": "Ona tańczy balet.",
     "en": "She dances ballet."
   },
   {
+    "id": "phrase_000785",
     "topic": "Sports and Activities",
     "se": "De springer i parken.",
     "pl": "Oni biegają w parku.",
     "en": "They run in the park."
   },
   {
+    "id": "phrase_000786",
     "topic": "Sports and Activities",
     "se": "Han vill lära sig åka skridskor.",
     "pl": "On chce nauczyć się jeździć na łyżwach.",
     "en": "He wants to learn to ice skate."
   },
   {
+    "id": "phrase_000787",
     "topic": "Sports and Activities",
     "se": "Hon tränar tre gånger i veckan.",
     "pl": "Ona trenuje trzy razy w tygodniu.",
     "en": "She trains three times a week."
   },
   {
+    "id": "phrase_000788",
     "topic": "I want / I need",
     "se": "Han vill äta glass.",
     "pl": "On chce jeść lody.",
     "en": "He wants to eat ice cream."
   },
   {
+    "id": "phrase_000789",
     "topic": "I want / I need",
     "se": "Hon vill inte gå och lägga sig.",
     "pl": "Ona nie chce iść spać.",
     "en": "She doesn't want to go to bed."
   },
   {
+    "id": "phrase_000790",
     "topic": "I want / I need",
     "se": "Han behöver hjälp med läxan.",
     "pl": "On potrzebuje pomocy w odrabianiu lekcji.",
     "en": "He needs help with his homework."
   },
   {
+    "id": "phrase_000791",
     "topic": "I want / I need",
     "se": "Hon vill ha ett husdjur.",
     "pl": "Ona chce mieć zwierzątko.",
     "en": "She wants a pet."
   },
   {
+    "id": "phrase_000792",
     "topic": "I want / I need",
     "se": "Han måste borsta tänderna.",
     "pl": "On musi umyć zęby.",
     "en": "He has to brush his teeth."
   },
   {
+    "id": "phrase_000793",
     "topic": "I want / I need",
     "se": "Hon vill gå till lekplatsen.",
     "pl": "Ona chce iść na plac zabaw.",
     "en": "She wants to go to the playground."
   },
   {
+    "id": "phrase_000794",
     "topic": "I want / I need",
     "se": "De vill ha glass efter maten.",
     "pl": "Oni chcą lody po jedzeniu.",
     "en": "They want ice cream after the meal."
   },
   {
+    "id": "phrase_000795",
     "topic": "I want / I need",
     "se": "Vi vill spela ett spel.",
     "pl": "Chcemy zagrać w grę.",
     "en": "We want to play a game."
   },
   {
+    "id": "phrase_000796",
     "topic": "Where is?",
     "se": "Han vet var bollen är.",
     "pl": "On wie, gdzie jest piłka.",
     "en": "He knows where the ball is."
   },
   {
+    "id": "phrase_000797",
     "topic": "Where is?",
     "se": "Hon hittar inte sin mobil.",
     "pl": "Ona nie może znaleźć telefonu.",
     "en": "She can't find her phone."
   },
   {
+    "id": "phrase_000798",
     "topic": "Where is?",
     "se": "Han letar efter sin jacka.",
     "pl": "On szuka kurtki.",
     "en": "He is looking for his jacket."
   },
   {
+    "id": "phrase_000799",
     "topic": "Where is?",
     "se": "Hon frågar var toaletten är.",
     "pl": "Ona pyta, gdzie jest toaleta.",
     "en": "She asks where the toilet is."
   },
   {
+    "id": "phrase_000800",
     "topic": "Where is?",
     "se": "De vet inte var de är.",
     "pl": "Oni nie wiedzą, gdzie są.",
     "en": "They don't know where they are."
   },
   {
+    "id": "phrase_000801",
     "topic": "Where is?",
     "se": "Han hittar nyckeln under kudden.",
     "pl": "On znajduje klucz pod poduszką.",
     "en": "He finds the key under the pillow."
   },
   {
+    "id": "phrase_000802",
     "topic": "Feelings and Emotions",
     "se": "Han är glad idag.",
     "pl": "On jest dzisiaj szczęśliwy.",
     "en": "He is happy today."
   },
   {
+    "id": "phrase_000803",
     "topic": "Feelings and Emotions",
     "se": "Hon är ledsen för att hunden är sjuk.",
     "pl": "Ona jest smutna, bo pies jest chory.",
     "en": "She is sad because the dog is ill."
   },
   {
+    "id": "phrase_000804",
     "topic": "Feelings and Emotions",
     "se": "Han är arg på sin bror.",
     "pl": "On jest zły na swojego brata.",
     "en": "He is angry at his brother."
   },
   {
+    "id": "phrase_000805",
     "topic": "Feelings and Emotions",
     "se": "Hon är rädd för mörkret.",
     "pl": "Ona boi się ciemności.",
     "en": "She is scared of the dark."
   },
   {
+    "id": "phrase_000806",
     "topic": "Feelings and Emotions",
     "se": "Han är trött efter skolan.",
     "pl": "On jest zmęczony po szkole.",
     "en": "He is tired after school."
   },
   {
+    "id": "phrase_000807",
     "topic": "Feelings and Emotions",
     "se": "Hon är förvånad över presenten.",
     "pl": "Ona jest zaskoczona prezentem.",
     "en": "She is surprised by the present."
   },
   {
+    "id": "phrase_000808",
     "topic": "Feelings and Emotions",
     "se": "De är glada för att de vann.",
     "pl": "Oni są szczęśliwi, bo wygrali.",
     "en": "They are happy because they won."
   },
   {
+    "id": "phrase_000809",
     "topic": "Feelings and Emotions",
     "se": "Vi är ledsna när sommaren tar slut.",
     "pl": "Jesteśmy smutni, gdy kończy się lato.",
     "en": "We are sad when summer ends."
   },
   {
+    "id": "phrase_000810",
     "topic": "Transport",
     "se": "Han åker buss till skolan.",
     "pl": "On jeździ autobusem do szkoły.",
     "en": "He takes the bus to school."
   },
   {
+    "id": "phrase_000811",
     "topic": "Transport",
     "se": "Hon flyger för första gången.",
     "pl": "Ona leci po raz pierwszy.",
     "en": "She is flying for the first time."
   },
   {
+    "id": "phrase_000812",
     "topic": "Transport",
     "se": "Han cyklar hem.",
     "pl": "On jedzie rowerem do domu.",
     "en": "He cycles home."
   },
   {
+    "id": "phrase_000813",
     "topic": "Transport",
     "se": "Hon är rädd för tunnelbanan.",
     "pl": "Ona boi się metra.",
     "en": "She is scared of the underground."
   },
   {
+    "id": "phrase_000814",
     "topic": "Transport",
     "se": "De åker tåg till farmor.",
     "pl": "Oni jadą pociągiem do babci.",
     "en": "They take the train to grandma's."
   },
   {
+    "id": "phrase_000815",
     "topic": "Transport",
     "se": "Han tittar ut genom bilfönstret.",
     "pl": "On patrzy przez okno samochodu.",
     "en": "He looks out of the car window."
   },
   {
+    "id": "phrase_000816",
     "topic": "Nature",
     "se": "Han klättrar upp i trädet.",
     "pl": "On wspina się na drzewo.",
     "en": "He climbs up the tree."
   },
   {
+    "id": "phrase_000817",
     "topic": "Nature",
     "se": "Hon plockar blommor.",
     "pl": "Ona zbiera kwiaty.",
     "en": "She picks flowers."
   },
   {
+    "id": "phrase_000818",
     "topic": "Nature",
     "se": "Han kastar stenar i sjön.",
     "pl": "On rzuca kamienie do jeziora.",
     "en": "He throws stones into the lake."
   },
   {
+    "id": "phrase_000819",
     "topic": "Nature",
     "se": "Hon tittar på stjärnorna.",
     "pl": "Ona patrzy na gwiazdy.",
     "en": "She looks at the stars."
   },
   {
+    "id": "phrase_000820",
     "topic": "Nature",
     "se": "De leker i skogen.",
     "pl": "Oni bawią się w lesie.",
     "en": "They play in the forest."
   },
   {
+    "id": "phrase_000821",
     "topic": "Nature",
     "se": "Han gillar att bada i havet.",
     "pl": "On lubi kąpać się w morzu.",
     "en": "He likes to swim in the sea."
   },
   {
+    "id": "phrase_000822",
     "topic": "Holidays and Celebrations",
     "se": "Han fyller år på lördag.",
     "pl": "On ma urodziny w sobotę.",
     "en": "His birthday is on Saturday."
   },
   {
+    "id": "phrase_000823",
     "topic": "Holidays and Celebrations",
     "se": "Hon bakar en tårta till sin bror.",
     "pl": "Ona piecze tort dla swojego brata.",
     "en": "She bakes a cake for her brother."
   },
   {
+    "id": "phrase_000824",
     "topic": "Holidays and Celebrations",
     "se": "Han fick en jättestor present.",
     "pl": "On dostał ogromny prezent.",
     "en": "He got a huge present."
   },
   {
+    "id": "phrase_000825",
     "topic": "Holidays and Celebrations",
     "se": "Hon blåste ut alla ljus!",
     "pl": "Ona zdmuchnęła wszystkie świeczki!",
     "en": "She blew out all the candles!"
   },
   {
+    "id": "phrase_000826",
     "topic": "Holidays and Celebrations",
     "se": "De sjunger grattissången.",
     "pl": "Oni śpiewają piosenkę urodzinową.",
     "en": "They sing the birthday song."
   },
   {
+    "id": "phrase_000827",
     "topic": "Holidays and Celebrations",
     "se": "Han öppnar presenten.",
     "pl": "On otwiera prezent.",
     "en": "He opens the present."
   },
   {
+    "id": "phrase_000828",
     "topic": "Daily Routine",
     "se": "Han vaknar klockan sju.",
     "pl": "On budzi się o siódmej.",
     "en": "He wakes up at seven o'clock."
   },
   {
+    "id": "phrase_000829",
     "topic": "Daily Routine",
     "se": "Hon duschar varje morgon.",
     "pl": "Ona co rano bierze prysznic.",
     "en": "She has a shower every morning."
   },
   {
+    "id": "phrase_000830",
     "topic": "Daily Routine",
     "se": "Han äter frukost snabbt.",
     "pl": "On szybko je śniadanie.",
     "en": "He eats breakfast quickly."
   },
   {
+    "id": "phrase_000831",
     "topic": "Daily Routine",
     "se": "Hon gör alltid läxorna direkt.",
     "pl": "Ona zawsze od razu odrabia lekcje.",
     "en": "She always does her homework straight away."
   },
   {
+    "id": "phrase_000832",
     "topic": "Daily Routine",
     "se": "Han leker utomhus efter skolan.",
     "pl": "On bawi się na dworze po szkole.",
     "en": "He plays outside after school."
   },
   {
+    "id": "phrase_000833",
     "topic": "Daily Routine",
     "se": "Hon somnar klockan åtta.",
     "pl": "Ona zasypia o ósmej.",
     "en": "She falls asleep at eight o'clock."
   },
   {
+    "id": "phrase_000834",
     "topic": "Daily Routine",
     "se": "De borstar tänderna tillsammans.",
     "pl": "Oni razem myją zęby.",
     "en": "They brush their teeth together."
   },
   {
+    "id": "phrase_000835",
     "topic": "Asking and Requests",
     "se": "Han ber om hjälp.",
     "pl": "On prosi o pomoc.",
     "en": "He asks for help."
   },
   {
+    "id": "phrase_000836",
     "topic": "Asking and Requests",
     "se": "Hon frågar om hon får ta en kaka.",
     "pl": "Ona pyta, czy może wziąć ciastko.",
     "en": "She asks if she can take a cookie."
   },
   {
+    "id": "phrase_000837",
     "topic": "Asking and Requests",
     "se": "Han väntar på sin tur.",
     "pl": "On czeka na swoją kolej.",
     "en": "He waits for his turn."
   },
   {
+    "id": "phrase_000838",
     "topic": "Asking and Requests",
     "se": "Hon säger förlåt.",
     "pl": "Ona mówi przepraszam.",
     "en": "She says sorry."
   },
   {
+    "id": "phrase_000839",
     "topic": "Asking and Requests",
     "se": "De lyssnar på läraren.",
     "pl": "Oni słuchają nauczyciela.",
     "en": "They listen to the teacher."
   },
   {
+    "id": "phrase_000840",
     "topic": "Opposites",
     "se": "Han är stor men hon är liten.",
     "pl": "On jest duży, ale ona jest mała.",
     "en": "He is big but she is small."
   },
   {
+    "id": "phrase_000841",
     "topic": "Opposites",
     "se": "Han springer snabbt, hon springer långsamt.",
     "pl": "On biega szybko, ona biega wolno.",
     "en": "He runs fast, she runs slowly."
   },
   {
+    "id": "phrase_000842",
     "topic": "Opposites",
     "se": "Hans väska är tung.",
     "pl": "Jego torba jest ciężka.",
     "en": "His bag is heavy."
   },
   {
+    "id": "phrase_000843",
     "topic": "Opposites",
     "se": "Hennes ryggsäck är lätt.",
     "pl": "Jej plecak jest lekki.",
     "en": "Her backpack is light."
   },
   {
+    "id": "phrase_000844",
     "topic": "Opposites",
     "se": "Han gillar varmt väder.",
     "pl": "On lubi ciepłą pogodę.",
     "en": "He likes warm weather."
   },
   {
+    "id": "phrase_000845",
     "topic": "Opposites",
     "se": "Hon föredrar kallt väder.",
     "pl": "Ona woli zimną pogodę.",
     "en": "She prefers cold weather."
   },
   {
+    "id": "phrase_000846",
     "topic": "Actions and Verbs",
     "se": "Han springer till skolan.",
     "pl": "On biegnie do szkoły.",
     "en": "He runs to school."
   },
   {
+    "id": "phrase_000847",
     "topic": "Actions and Verbs",
     "se": "Hon sjunger en sång.",
     "pl": "Ona śpiewa piosenkę.",
     "en": "She sings a song."
   },
   {
+    "id": "phrase_000848",
     "topic": "Actions and Verbs",
     "se": "Han hoppar på studsmattan.",
     "pl": "On skacze na trampolinie.",
     "en": "He jumps on the trampoline."
   },
   {
+    "id": "phrase_000849",
     "topic": "Actions and Verbs",
     "se": "Hon ritar en katt.",
     "pl": "Ona rysuje kota.",
     "en": "She draws a cat."
   },
   {
+    "id": "phrase_000850",
     "topic": "Actions and Verbs",
     "se": "Han läser en bok.",
     "pl": "On czyta książkę.",
     "en": "He reads a book."
   },
   {
+    "id": "phrase_000851",
     "topic": "Actions and Verbs",
     "se": "Hon dansar i rummet.",
     "pl": "Ona tańczy w pokoju.",
     "en": "She dances in the room."
   },
   {
+    "id": "phrase_000852",
     "topic": "Actions and Verbs",
     "se": "De skrattar tillsammans.",
     "pl": "Oni razem się śmieją.",
     "en": "They laugh together."
   },
   {
+    "id": "phrase_000853",
     "topic": "Actions and Verbs",
     "se": "Vi kramas varje dag.",
     "pl": "Codziennie się przytulamy.",
     "en": "We hug every day."
   },
   {
+    "id": "phrase_000854",
     "topic": "Actions and Verbs",
     "se": "Han simmar i havet.",
     "pl": "On pływa w morzu.",
     "en": "He swims in the sea."
   },
   {
+    "id": "phrase_000855",
     "topic": "Actions and Verbs",
     "se": "Hon cyklar till parken.",
     "pl": "Ona jedzie rowerem do parku.",
     "en": "She cycles to the park."
   },
   {
+    "id": "phrase_000856",
     "topic": "Actions and Verbs",
     "se": "De pratar polska med farmor.",
     "pl": "Oni rozmawiają z babcią po polsku.",
     "en": "They speak Polish with grandma."
   },
   {
+    "id": "phrase_000857",
     "topic": "Places in Town",
     "se": "Han vill gå till zoo.",
     "pl": "On chce iść do zoo.",
     "en": "He wants to go to the zoo."
   },
   {
+    "id": "phrase_000858",
     "topic": "Places in Town",
     "se": "Hon lånar böcker på biblioteket.",
     "pl": "Ona pożycza książki w bibliotece.",
     "en": "She borrows books from the library."
   },
   {
+    "id": "phrase_000859",
     "topic": "Places in Town",
     "se": "Han äter på restaurangen med familjen.",
     "pl": "On je w restauracji z rodziną.",
     "en": "He eats at the restaurant with his family."
   },
   {
+    "id": "phrase_000860",
     "topic": "Places in Town",
     "se": "Hon leker på lekplatsen.",
     "pl": "Ona bawi się na placu zabaw.",
     "en": "She plays at the playground."
   },
   {
+    "id": "phrase_000861",
     "topic": "Places in Town",
     "se": "De går på museum på lördag.",
     "pl": "Oni idą do muzeum w sobotę.",
     "en": "They're going to the museum on Saturday."
   },
   {
+    "id": "phrase_000862",
     "topic": "Technology",
     "se": "Han spelar datorspel.",
     "pl": "On gra w gry komputerowe.",
     "en": "He plays video games."
   },
   {
+    "id": "phrase_000863",
     "topic": "Technology",
     "se": "Hon tittar på film på surfplattan.",
     "pl": "Ona ogląda film na tablecie.",
     "en": "She watches a film on the tablet."
   },
   {
+    "id": "phrase_000864",
     "topic": "Technology",
     "se": "Han hittar inte sin mobil.",
     "pl": "On nie może znaleźć telefonu.",
     "en": "He can't find his phone."
   },
   {
+    "id": "phrase_000865",
     "topic": "Technology",
     "se": "Hon lyssnar på musik i hörlurarna.",
     "pl": "Ona słucha muzyki w słuchawkach.",
     "en": "She listens to music through headphones."
   },
   {
+    "id": "phrase_000866",
     "topic": "Technology",
     "se": "De tar ett foto.",
     "pl": "Oni robią zdjęcie.",
     "en": "They take a photo."
   },
   {
+    "id": "phrase_000867",
     "topic": "Music and Art",
     "se": "Han spelar gitarr.",
     "pl": "On gra na gitarze.",
     "en": "He plays the guitar."
   },
   {
+    "id": "phrase_000868",
     "topic": "Music and Art",
     "se": "Hon sjunger vackert.",
     "pl": "Ona śpiewa pięknie.",
     "en": "She sings beautifully."
   },
   {
+    "id": "phrase_000869",
     "topic": "Music and Art",
     "se": "Han ritar en dinosaurie.",
     "pl": "On rysuje dinozaura.",
     "en": "He draws a dinosaur."
   },
   {
+    "id": "phrase_000870",
     "topic": "Music and Art",
     "se": "Hon målar med pensel.",
     "pl": "Ona maluje pędzlem.",
     "en": "She paints with a brush."
   },
   {
+    "id": "phrase_000871",
     "topic": "Music and Art",
     "se": "De dansar till musiken.",
     "pl": "Oni tańczą przy muzyce.",
     "en": "They dance to the music."
   },
   {
+    "id": "phrase_000872",
     "topic": "Music and Art",
     "se": "Han övar på att spela piano varje dag.",
     "pl": "On codziennie ćwiczy grę na pianinie.",
