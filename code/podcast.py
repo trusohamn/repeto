@@ -62,7 +62,7 @@ def build_feed(course: Path, base_url: str) -> None:
             raise ValueError(f"Duplicate episode ID: {episode['id']}")
         seen.add(episode["id"])
         item = ET.SubElement(channel, "item")
-        title = f"{number:02d}. {episode['title']}"
+        title = f"{number:02d} {episode['title']}"
         field(item, "title", title)
         field(item, "description", episode["description"])
         guid = field(item, "guid", episode["id"])

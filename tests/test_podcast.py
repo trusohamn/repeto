@@ -30,6 +30,9 @@ class PodcastTests(unittest.TestCase):
             root = ET.parse(course / "feed.xml")
             items = root.findall("./channel/item")
             self.assertEqual(len(items), 2)
+            self.assertEqual(
+                items[0].findtext("title"), "01 Hälsningar — Powitania"
+            )
             self.assertEqual(items[0].findtext("guid"), config["episodes"][0]["id"])
             enclosure = items[0].find("enclosure")
             assert enclosure is not None
