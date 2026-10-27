@@ -122,13 +122,13 @@
   {
     "topic": "Greetings",
     "se": "Jag mår bra.",
-    "pl": "Mam się dobrze.",
+    "pl": "Czuję się dobrze.",
     "en": "I'm fine."
   },
   {
     "topic": "Greetings",
     "se": "Jag mår inte bra.",
-    "pl": "Nie mam się dobrze.",
+    "pl": "Źle się czuję.",
     "en": "I'm not feeling well."
   },
   {
@@ -151,7 +151,7 @@
   },
   {
     "topic": "Greetings",
-    "se": "Jag är sju år gammal.",
+    "se": "Jag är sju år.",
     "pl": "Mam siedem lat.",
     "en": "I am seven years old."
   },
@@ -169,7 +169,7 @@
   },
   {
     "topic": "Greetings",
-    "se": "Glad att träffa dig!",
+    "se": "Vad kul att träffa dig!",
     "pl": "Miło cię poznać!",
     "en": "Nice to meet you!"
   },
@@ -325,7 +325,7 @@
   },
   {
     "topic": "Numbers",
-    "se": "Jag är åtta år gammal.",
+    "se": "Jag är åtta år.",
     "pl": "Mam osiem lat.",
     "en": "I am eight years old."
   },
@@ -763,7 +763,7 @@
   },
   {
     "topic": "Family",
-    "se": "Baby",
+    "se": "Bebis",
     "pl": "Niemowlę",
     "en": "Baby"
   },
@@ -1040,13 +1040,13 @@
   {
     "topic": "Food",
     "se": "Det smakar gott!",
-    "pl": "To smakuje dobrze!",
+    "pl": "To jest smaczne!",
     "en": "It tastes good!"
   },
   {
     "topic": "Food",
     "se": "Det smakar inte gott.",
-    "pl": "To nie smakuje dobrze.",
+    "pl": "To nie jest smaczne.",
     "en": "It doesn't taste good."
   },
   {
@@ -1129,14 +1129,14 @@
   },
   {
     "topic": "Body",
-    "se": "Nacke",
+    "se": "Hals",
     "pl": "Szyja",
     "en": "Neck"
   },
   {
     "topic": "Body",
     "se": "Axel",
-    "pl": "Ramię",
+    "pl": "Bark",
     "en": "Shoulder"
   },
   {
@@ -1195,33 +1195,33 @@
   },
   {
     "topic": "Body",
-    "se": "Mitt huvud gör ont.",
+    "se": "Jag har ont i huvudet.",
     "pl": "Boli mnie głowa.",
     "en": "My head hurts."
   },
   {
     "topic": "Body",
-    "se": "Min mage gör ont.",
+    "se": "Jag har ont i magen.",
     "pl": "Boli mnie brzuch.",
     "en": "My tummy hurts."
   },
   {
     "topic": "Body",
-    "se": "Min fot gör ont.",
-    "pl": "Boli mnie stopa.",
-    "en": "My foot hurts."
+    "se": "Jag kan stå på ett ben.",
+    "pl": "Umiem stać na jednej nodze.",
+    "en": "I can stand on one leg."
   },
   {
     "topic": "Body",
-    "se": "Min hals gör ont.",
-    "pl": "Boli mnie gardło.",
-    "en": "My throat hurts."
+    "se": "Jag hör med öronen.",
+    "pl": "Słyszę uszami.",
+    "en": "I hear with my ears."
   },
   {
     "topic": "Body",
-    "se": "Mitt knä gör ont.",
-    "pl": "Boli mnie kolano.",
-    "en": "My knee hurts."
+    "se": "Jag böjer på knäna.",
+    "pl": "Zginam kolana.",
+    "en": "I bend my knees."
   },
   {
     "topic": "Body",
@@ -1345,7 +1345,7 @@
   },
   {
     "topic": "Clothing",
-    "se": "Pyjamasen",
+    "se": "Pyjamas",
     "pl": "Piżama",
     "en": "Pyjamas"
   },
@@ -1599,7 +1599,7 @@
     "topic": "School",
     "se": "Elev",
     "pl": "Uczeń",
-    "en": "Student"
+    "en": "Pupil"
   },
   {
     "topic": "School",
@@ -1615,7 +1615,7 @@
   },
   {
     "topic": "School",
-    "se": "Penna",
+    "se": "Blyertspenna",
     "pl": "Ołówek",
     "en": "Pencil"
   },
@@ -1815,7 +1815,7 @@
     "topic": "Weather",
     "se": "Åska",
     "pl": "Burza",
-    "en": "Thunder"
+    "en": "Thunderstorm"
   },
   {
     "topic": "Weather",
@@ -1957,7 +1957,7 @@
   },
   {
     "topic": "Seasons",
-    "se": "Jag gillar vintern för det snöar.",
+    "se": "Jag gillar vintern för att det snöar.",
     "pl": "Lubię zimę, bo pada śnieg.",
     "en": "I like winter because it snows."
   },
@@ -2047,19 +2047,19 @@
   },
   {
     "topic": "Days and Time",
-    "se": "Klockan",
-    "pl": "Godzina",
-    "en": "The time"
+    "se": "Hur mycket är klockan?",
+    "pl": "Która godzina?",
+    "en": "What's the time?"
   },
   {
     "topic": "Days and Time",
     "se": "Morgon",
-    "pl": "Rano",
+    "pl": "Poranek",
     "en": "Morning"
   },
   {
     "topic": "Days and Time",
-    "se": "Middag",
+    "se": "Mitt på dagen",
     "pl": "Południe",
     "en": "Midday"
   },
@@ -2109,7 +2109,7 @@
     "topic": "Days and Time",
     "se": "På fredag har vi ingen skola.",
     "pl": "W piątek nie mamy szkoły.",
-    "en": "On Friday we have no school."
+    "en": "We don't have school on Friday."
   },
   {
     "topic": "Days and Time",
@@ -2143,7 +2143,7 @@
   },
   {
     "topic": "Toys and Play",
-    "se": "Pusselbit",
+    "se": "Pussel",
     "pl": "Puzzle",
     "en": "Puzzle"
   },
@@ -2223,7 +2223,7 @@
     "topic": "Toys and Play",
     "se": "Jag vill spela brädspel.",
     "pl": "Chcę grać w gry planszowe.",
-    "en": "I want to play a board game."
+    "en": "I want to play board games."
   },
   {
     "topic": "Toys and Play",
@@ -2257,7 +2257,7 @@
   },
   {
     "topic": "Toys and Play",
-    "se": "Låt oss spela igen!",
+    "se": "Nu spelar vi igen!",
     "pl": "Zagrajmy jeszcze raz!",
     "en": "Let's play again!"
   },
@@ -2354,7 +2354,7 @@
   {
     "topic": "Sports and Activities",
     "se": "Jag cyklar varje dag.",
-    "pl": "Jeżdżę na rowerze każdego dnia.",
+    "pl": "Codziennie jeżdżę na rowerze.",
     "en": "I cycle every day."
   },
   {
@@ -2383,15 +2383,15 @@
   },
   {
     "topic": "I want / I need",
-    "se": "Jag vill ...",
-    "pl": "Chcę ...",
-    "en": "I want to ..."
+    "se": "Jag vill gå ut.",
+    "pl": "Chcę wyjść na dwór.",
+    "en": "I want to go outside."
   },
   {
     "topic": "I want / I need",
-    "se": "Jag vill ha ...",
-    "pl": "Chcę mieć ...",
-    "en": "I want ..."
+    "se": "Jag vill ha en boll.",
+    "pl": "Chcę piłkę.",
+    "en": "I want a ball."
   },
   {
     "topic": "I want / I need",
@@ -2485,9 +2485,9 @@
   },
   {
     "topic": "I want / I need",
-    "se": "Jag måste ...",
-    "pl": "Muszę ...",
-    "en": "I have to ..."
+    "se": "Jag måste gå hem.",
+    "pl": "Muszę iść do domu.",
+    "en": "I have to go home."
   },
   {
     "topic": "I want / I need",
@@ -2503,9 +2503,9 @@
   },
   {
     "topic": "Where is?",
-    "se": "Var är ...?",
-    "pl": "Gdzie jest ...?",
-    "en": "Where is ...?"
+    "se": "Var är nallen?",
+    "pl": "Gdzie jest miś?",
+    "en": "Where is the teddy bear?"
   },
   {
     "topic": "Where is?",
@@ -2744,7 +2744,7 @@
   {
     "topic": "Feelings and Emotions",
     "se": "Det gör ont.",
-    "pl": "Boli mnie.",
+    "pl": "To boli.",
     "en": "It hurts."
   },
   {
@@ -2851,21 +2851,21 @@
   },
   {
     "topic": "Transport",
-    "se": "Hur länge tar det?",
+    "se": "Hur lång tid tar det?",
     "pl": "Jak długo to trwa?",
     "en": "How long does it take?"
   },
   {
     "topic": "Transport",
     "se": "Är vi framme snart?",
-    "pl": "Czy już prawie jesteśmy?",
-    "en": "Are we there yet?"
+    "pl": "Daleko jeszcze?",
+    "en": "Are we nearly there?"
   },
   {
     "topic": "Transport",
     "se": "Vi är framme!",
     "pl": "Już jesteśmy!",
-    "en": "We are here!"
+    "en": "We're here!"
   },
   {
     "topic": "Nature",
@@ -3111,13 +3111,13 @@
     "topic": "Daily Routine",
     "se": "Borsta tänderna",
     "pl": "Myć zęby",
-    "en": "Brush teeth"
+    "en": "Brush your teeth"
   },
   {
     "topic": "Daily Routine",
     "se": "Tvätta sig",
     "pl": "Myć się",
-    "en": "Wash yourself"
+    "en": "Have a wash"
   },
   {
     "topic": "Daily Routine",
@@ -3188,13 +3188,13 @@
   {
     "topic": "Daily Routine",
     "se": "Jag borstar tänderna varje morgon.",
-    "pl": "Myję zęby każdego ranka.",
+    "pl": "Co rano myję zęby.",
     "en": "I brush my teeth every morning."
   },
   {
     "topic": "Daily Routine",
     "se": "Vi äter frukost tillsammans.",
-    "pl": "Jemy śniadanie razem.",
+    "pl": "Razem jemy śniadanie.",
     "en": "We eat breakfast together."
   },
   {
@@ -3205,7 +3205,7 @@
   },
   {
     "topic": "Daily Routine",
-    "se": "Klockan åtta lägger jag mig.",
+    "se": "Jag går och lägger mig klockan åtta.",
     "pl": "O ósmej kładę się spać.",
     "en": "I go to bed at eight o'clock."
   },
@@ -3277,8 +3277,8 @@
   },
   {
     "topic": "Asking and Requests",
-    "se": "Stoppa!",
-    "pl": "Zatrzymaj się!",
+    "se": "Stanna!",
+    "pl": "Stój!",
     "en": "Stop!"
   },
   {
@@ -3337,9 +3337,15 @@
   },
   {
     "topic": "Asking and Requests",
+    "se": "Får jag gå på toaletten?",
+    "pl": "Czy mogę iść do toalety?",
+    "en": "May I go to the toilet?"
+  },
+  {
+    "topic": "Asking and Requests",
     "se": "Är vi framme snart?",
-    "pl": "Czy już prawie jesteśmy?",
-    "en": "Are we there yet?"
+    "pl": "Daleko jeszcze?",
+    "en": "Are we nearly there?"
   },
   {
     "topic": "Opposites",
@@ -3507,7 +3513,7 @@
     "topic": "Actions and Verbs",
     "se": "Ligga",
     "pl": "Leżeć",
-    "en": "Lie down"
+    "en": "Lie"
   },
   {
     "topic": "Actions and Verbs",
@@ -3740,7 +3746,7 @@
   {
     "topic": "Places in Town",
     "se": "Kan vi gå till zoo?",
-    "pl": "Czy możemy pojechać do zoo?",
+    "pl": "Czy możemy iść do zoo?",
     "en": "Can we go to the zoo?"
   },
   {
@@ -3842,7 +3848,7 @@
   {
     "topic": "Technology",
     "se": "Batteriet är slut.",
-    "pl": "Bateria się skończyła.",
+    "pl": "Bateria się rozładowała.",
     "en": "The battery is dead."
   },
   {
@@ -3914,7 +3920,7 @@
   {
     "topic": "Music and Art",
     "se": "Målning",
-    "pl": "Malowanie",
+    "pl": "Obraz",
     "en": "Painting"
   },
   {
@@ -4005,7 +4011,7 @@
     "topic": "Polite Phrases",
     "se": "Det gör ingenting.",
     "pl": "Nic się nie stało.",
-    "en": "It doesn't matter."
+    "en": "That's all right."
   },
   {
     "topic": "Polite Phrases",
@@ -4039,14 +4045,14 @@
   },
   {
     "topic": "Polite Phrases",
-    "se": "Wow, vilket bra arbete!",
-    "pl": "Wow, jaka dobra robota!",
-    "en": "Wow, what great work!"
+    "se": "Wow, det där gjorde du bra!",
+    "pl": "Super, świetnie ci poszło!",
+    "en": "Wow, you did a great job!"
   },
   {
     "topic": "Polite Phrases",
-    "se": "Kan du hjälpa mig, tack?",
-    "pl": "Czy możesz mi pomóc, proszę?",
+    "se": "Kan du hjälpa mig, snälla?",
+    "pl": "Pomożesz mi, proszę?",
     "en": "Can you help me, please?"
   },
   {
@@ -4057,7 +4063,7 @@
   },
   {
     "topic": "Polite Phrases",
-    "se": "Ha det så bra!",
+    "se": "Ha en bra dag!",
     "pl": "Miłego dnia!",
     "en": "Have a nice day!"
   },
@@ -4081,7 +4087,7 @@
   },
   {
     "topic": "Review and Recap",
-    "se": "Låt oss öva!",
+    "se": "Nu övar vi!",
     "pl": "Ćwiczmy!",
     "en": "Let's practise!"
   },
@@ -4124,14 +4130,14 @@
   {
     "topic": "Review and Recap",
     "se": "Varje dag blir du bättre.",
-    "pl": "Każdego dnia jesteś coraz lepszy.",
+    "pl": "Z każdym dniem idzie ci coraz lepiej.",
     "en": "Every day you get better."
   },
   {
     "topic": "Review and Recap",
-    "se": "Hejdå och vi ses igen!",
-    "pl": "Do widzenia i do zobaczenia!",
-    "en": "Goodbye and see you again!"
+    "se": "Hejdå, vi ses!",
+    "pl": "Cześć, do zobaczenia!",
+    "en": "Bye, see you!"
   },
   {
     "topic": "Greetings",
@@ -4147,26 +4153,26 @@
   },
   {
     "topic": "Greetings",
-    "se": "Han är nio år gammal.",
+    "se": "Han är nio år.",
     "pl": "On ma dziewięć lat.",
     "en": "He is nine years old."
   },
   {
     "topic": "Greetings",
-    "se": "Hon är sju år gammal.",
+    "se": "Hon är sju år.",
     "pl": "Ona ma siedem lat.",
     "en": "She is seven years old."
   },
   {
     "topic": "Greetings",
     "se": "Han mår bra.",
-    "pl": "On ma się dobrze.",
+    "pl": "On czuje się dobrze.",
     "en": "He is doing well."
   },
   {
     "topic": "Greetings",
     "se": "Hon mår inte bra idag.",
-    "pl": "Ona dzisiaj nie ma się dobrze.",
+    "pl": "Ona źle się dzisiaj czuje.",
     "en": "She is not feeling well today."
   },
   {
@@ -4201,7 +4207,7 @@
   },
   {
     "topic": "Numbers",
-    "se": "Han är tio år gammal.",
+    "se": "Han är tio år.",
     "pl": "On ma dziesięć lat.",
     "en": "He is ten years old."
   },
@@ -4219,15 +4225,15 @@
   },
   {
     "topic": "Colors",
-    "se": "Hon bär en blå klänning.",
-    "pl": "Ona nosi niebieską sukienkę.",
+    "se": "Hon har på sig en blå klänning.",
+    "pl": "Ona ma na sobie niebieską sukienkę.",
     "en": "She is wearing a blue dress."
   },
   {
     "topic": "Colors",
-    "se": "Han målar med gula färger.",
-    "pl": "On maluje żółtymi farbami.",
-    "en": "He paints with yellow colours."
+    "se": "Han målar med gul färg.",
+    "pl": "On maluje żółtą farbą.",
+    "en": "He paints with yellow paint."
   },
   {
     "topic": "Colors",
@@ -4262,7 +4268,7 @@
   {
     "topic": "Animals",
     "se": "Hon rider på hästen.",
-    "pl": "Ona jedzie na koniu.",
+    "pl": "Ona jedzie konno.",
     "en": "She is riding the horse."
   },
   {
@@ -4328,7 +4334,7 @@
   {
     "topic": "Food",
     "se": "Hon dricker mjölk varje morgon.",
-    "pl": "Ona pije mleko każdego ranka.",
+    "pl": "Ona co rano pije mleko.",
     "en": "She drinks milk every morning."
   },
   {
@@ -4346,7 +4352,7 @@
   {
     "topic": "Food",
     "se": "De äter frukost tillsammans.",
-    "pl": "Oni jedzą śniadanie razem.",
+    "pl": "Oni razem jedzą śniadanie.",
     "en": "They eat breakfast together."
   },
   {
@@ -4357,9 +4363,9 @@
   },
   {
     "topic": "Food",
-    "se": "Hon vill ha en glass tack.",
-    "pl": "Ona chce lody, proszę.",
-    "en": "She wants an ice cream please."
+    "se": "Hon ber om en glass.",
+    "pl": "Ona prosi o lody.",
+    "en": "She asks for an ice cream."
   },
   {
     "topic": "Food",
@@ -4369,13 +4375,13 @@
   },
   {
     "topic": "Body",
-    "se": "Hans huvud gör ont.",
+    "se": "Han har ont i huvudet.",
     "pl": "Boli go głowa.",
     "en": "His head hurts."
   },
   {
     "topic": "Body",
-    "se": "Hennes mage gör ont.",
+    "se": "Hon har ont i magen.",
     "pl": "Boli ją brzuch.",
     "en": "Her tummy hurts."
   },
@@ -4387,9 +4393,9 @@
   },
   {
     "topic": "Body",
-    "se": "Hon slog sitt knä.",
+    "se": "Hon slog i knät.",
     "pl": "Uderzyła się w kolano.",
-    "en": "She hit her knee."
+    "en": "She banged her knee."
   },
   {
     "topic": "Body",
@@ -4442,8 +4448,8 @@
   {
     "topic": "Clothing",
     "se": "Han glömde sin mössa hemma.",
-    "pl": "On zapomniał czapki w domu.",
-    "en": "He forgot his hat at home."
+    "pl": "On zostawił czapkę w domu.",
+    "en": "He left his hat at home."
   },
   {
     "topic": "Home",
@@ -4461,7 +4467,7 @@
     "topic": "Home",
     "se": "Han tittar ut genom fönstret.",
     "pl": "On patrzy przez okno.",
-    "en": "He looks out through the window."
+    "en": "He looks out of the window."
   },
   {
     "topic": "Home",
@@ -4502,7 +4508,7 @@
   {
     "topic": "School",
     "se": "Han glömde sin läxa.",
-    "pl": "On zapomniał zadania domowego.",
+    "pl": "On zapomniał zadanie domowe.",
     "en": "He forgot his homework."
   },
   {
@@ -4527,7 +4533,7 @@
     "topic": "School",
     "se": "Hon läser en bok på rasten.",
     "pl": "Ona czyta książkę podczas przerwy.",
-    "en": "She reads a book during break."
+    "en": "She reads a book at break time."
   },
   {
     "topic": "School",
@@ -4545,7 +4551,7 @@
     "topic": "Weather",
     "se": "Hon är rädd för åska.",
     "pl": "Ona boi się burzy.",
-    "en": "She is scared of thunder."
+    "en": "She is scared of thunderstorms."
   },
   {
     "topic": "Weather",
@@ -4574,7 +4580,7 @@
   {
     "topic": "Seasons",
     "se": "Hon längtar efter sommaren.",
-    "pl": "Ona tęskni za latem.",
+    "pl": "Ona nie może się doczekać lata.",
     "en": "She is looking forward to summer."
   },
   {
@@ -4598,7 +4604,7 @@
   {
     "topic": "Days and Time",
     "se": "Han vaknar alltid tidigt.",
-    "pl": "On zawsze wstaje wcześnie.",
+    "pl": "On zawsze budzi się wcześnie.",
     "en": "He always wakes up early."
   },
   {
@@ -4609,9 +4615,9 @@
   },
   {
     "topic": "Days and Time",
-    "se": "Han har fotboll på onsdagar.",
-    "pl": "On ma piłkę nożną w środy.",
-    "en": "He has football on Wednesdays."
+    "se": "Han har fotbollsträning på onsdagar.",
+    "pl": "On ma trening piłki nożnej w środy.",
+    "en": "He has football practice on Wednesdays."
   },
   {
     "topic": "Days and Time",
@@ -4635,7 +4641,7 @@
     "topic": "Toys and Play",
     "se": "Hon vill spela brädspel.",
     "pl": "Ona chce grać w gry planszowe.",
-    "en": "She wants to play a board game."
+    "en": "She wants to play board games."
   },
   {
     "topic": "Toys and Play",
@@ -4664,7 +4670,7 @@
   {
     "topic": "Toys and Play",
     "se": "Hon gillar att gunga.",
-    "pl": "Ona lubi huśtać się.",
+    "pl": "Ona lubi się huśtać.",
     "en": "She likes to swing."
   },
   {
@@ -4676,7 +4682,7 @@
   {
     "topic": "Sports and Activities",
     "se": "Han spelar fotboll varje dag.",
-    "pl": "On gra w piłkę nożną każdego dnia.",
+    "pl": "On codziennie gra w piłkę nożną.",
     "en": "He plays football every day."
   },
   {
@@ -4688,7 +4694,7 @@
   {
     "topic": "Sports and Activities",
     "se": "Han cyklar till skolan.",
-    "pl": "On jedzie na rowerze do szkoły.",
+    "pl": "On jeździ na rowerze do szkoły.",
     "en": "He cycles to school."
   },
   {
@@ -4730,7 +4736,7 @@
   {
     "topic": "I want / I need",
     "se": "Han behöver hjälp med läxan.",
-    "pl": "On potrzebuje pomocy przy zadaniu.",
+    "pl": "On potrzebuje pomocy w odrabianiu lekcji.",
     "en": "He needs help with his homework."
   },
   {
@@ -4755,7 +4761,7 @@
     "topic": "I want / I need",
     "se": "De vill ha glass efter maten.",
     "pl": "Oni chcą lody po jedzeniu.",
-    "en": "They want ice cream after dinner."
+    "en": "They want ice cream after the meal."
   },
   {
     "topic": "I want / I need",
@@ -4850,7 +4856,7 @@
   {
     "topic": "Transport",
     "se": "Han åker buss till skolan.",
-    "pl": "On jedzie autobusem do szkoły.",
+    "pl": "On jeździ autobusem do szkoły.",
     "en": "He takes the bus to school."
   },
   {
@@ -4964,13 +4970,13 @@
   {
     "topic": "Daily Routine",
     "se": "Hon duschar varje morgon.",
-    "pl": "Ona bierze prysznic każdego ranka.",
+    "pl": "Ona co rano bierze prysznic.",
     "en": "She has a shower every morning."
   },
   {
     "topic": "Daily Routine",
     "se": "Han äter frukost snabbt.",
-    "pl": "On je śniadanie szybko.",
+    "pl": "On szybko je śniadanie.",
     "en": "He eats breakfast quickly."
   },
   {
@@ -5108,7 +5114,7 @@
   {
     "topic": "Actions and Verbs",
     "se": "Vi kramas varje dag.",
-    "pl": "Przytulamy się każdego dnia.",
+    "pl": "Codziennie się przytulamy.",
     "en": "We hug every day."
   },
   {
@@ -5126,7 +5132,7 @@
   {
     "topic": "Actions and Verbs",
     "se": "De pratar polska med farmor.",
-    "pl": "Oni mówią po polsku z babcią.",
+    "pl": "Oni rozmawiają z babcią po polsku.",
     "en": "They speak Polish with grandma."
   },
   {
@@ -5145,7 +5151,7 @@
     "topic": "Places in Town",
     "se": "Han äter på restaurangen med familjen.",
     "pl": "On je w restauracji z rodziną.",
-    "en": "He eats at the restaurant with the family."
+    "en": "He eats at the restaurant with his family."
   },
   {
     "topic": "Places in Town",
@@ -5157,7 +5163,7 @@
     "topic": "Places in Town",
     "se": "De går på museum på lördag.",
     "pl": "Oni idą do muzeum w sobotę.",
-    "en": "They go to the museum on Saturday."
+    "en": "They're going to the museum on Saturday."
   },
   {
     "topic": "Technology",
@@ -5193,7 +5199,7 @@
     "topic": "Music and Art",
     "se": "Han spelar gitarr.",
     "pl": "On gra na gitarze.",
-    "en": "He plays guitar."
+    "en": "He plays the guitar."
   },
   {
     "topic": "Music and Art",
@@ -5221,8 +5227,8 @@
   },
   {
     "topic": "Music and Art",
-    "se": "Han övar piano varje dag.",
-    "pl": "On ćwiczy grę na pianinie każdego dnia.",
-    "en": "He practises piano every day."
+    "se": "Han övar på att spela piano varje dag.",
+    "pl": "On codziennie ćwiczy grę na pianinie.",
+    "en": "He practises playing the piano every day."
   }
 ]
