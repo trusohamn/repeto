@@ -5,12 +5,12 @@
     <link>https://trusohamn.github.io/repeto/swedish-polish/</link>
     <description>Lär dig polska med svenska ledtrådar. En språkkurs för barn med tydligt uttal, tankepauser och varje polsk fras två gånger. Rösterna är AI-genererade.</description>
     <language>sv</language>
-    <itunes:author>Marta Trusohamn</itunes:author>
+    <itunes:author>Repeto</itunes:author>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>serial</itunes:type>
     <itunes:owner>
-      <itunes:name>Marta Trusohamn</itunes:name>
-      <itunes:email>marta.trusohamn@gmail.com</itunes:email>
+      <itunes:name>Repeto</itunes:name>
+      <itunes:email>repeto.lingo@gmail.com</itunes:email>
     </itunes:owner>
     <itunes:image href="https://trusohamn.github.io/repeto/swedish-polish/cover.jpeg" />
     <itunes:category text="Education">

@@ -6,7 +6,14 @@ English (`en`), and Polish (`pl`) in any direction.
 
 ## Podcast / Spotify
 
-RSS: https://trusohamn.github.io/repeto/swedish-polish/feed.xml
+Swedish to Polish: https://trusohamn.github.io/repeto/swedish-polish/feed.xml
+
+Swedish to English
+https://trusohamn.github.io/repeto/swedish-english/feed.xml
+
+To package another completed course, ask the agent to use the repository's
+[package-podcast skill](.github/skills/package-podcast/SKILL.md).
+Packaging does not commit, push, or publish anything by itself.
 
 Each course lives in `podcast/<course>/` with `cover.jpeg`, `course.json`, and
 `audio/`. The catalog stores permanent episode IDs and publication dates;

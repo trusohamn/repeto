@@ -1,0 +1,381 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Repeto – Svenska till engelska</title>
+    <link>https://trusohamn.github.io/repeto/swedish-english/</link>
+    <description>Lär dig engelska med svenska ledtrådar. En språkkurs för barn med tydligt uttal, tankepauser och varje engelsk fras två gånger. Rösterna är AI-genererade.</description>
+    <language>sv</language>
+    <itunes:author>Repeto</itunes:author>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:type>serial</itunes:type>
+    <itunes:owner>
+      <itunes:name>Repeto</itunes:name>
+      <itunes:email>repeto.lingo@gmail.com</itunes:email>
+    </itunes:owner>
+    <itunes:image href="https://trusohamn.github.io/repeto/swedish-english/cover.jpeg" />
+    <itunes:category text="Education">
+      <itunes:category text="Language Learning" />
+    </itunes:category>
+    <atom:link href="https://trusohamn.github.io/repeto/swedish-english/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>01 Hälsningar — Greetings</title>
+      <description>Öva engelska med svenska ledtrådar. Ämne: Hälsningar. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje engelsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-english:topic-01</guid>
+      <pubDate>Tue, 27 Oct 2026 18:52:57 +0000</pubDate>
+      <itunes:episode>1</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>366</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-english/audio/01_greetings_se_en_double_2026-10-27_18-40-30.mp3" length="8775932" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>02 Tal — Numbers</title>
+      <description>Öva engelska med svenska ledtrådar. Ämne: Tal. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje engelsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-english:topic-02</guid>
+      <pubDate>Tue, 27 Oct 2026 18:52:57 +0000</pubDate>
+      <itunes:episode>2</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>341</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-english/audio/02_numbers_se_en_double_2026-10-27_18-40-39.mp3" length="8177832" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>03 Färger — Colors</title>
+      <description>Öva engelska med svenska ledtrådar. Ämne: Färger. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje engelsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-english:topic-03</guid>
+      <pubDate>Tue, 27 Oct 2026 18:52:57 +0000</pubDate>
+      <itunes:episode>3</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>300</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-english/audio/03_colors_se_en_double_2026-10-27_18-41-47.mp3" length="7192911" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>04 Djur — Animals</title>
+      <description>Öva engelska med svenska ledtrådar. Ämne: Djur. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje engelsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-english:topic-04</guid>
+      <pubDate>Tue, 27 Oct 2026 18:52:57 +0000</pubDate>
+      <itunes:episode>4</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>416</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-english/audio/04_animals_se_en_double_2026-10-27_18-42-50.mp3" length="9992193" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>05 Familj — Family</title>
+      <description>Öva engelska med svenska ledtrådar. Ämne: Familj. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje engelsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-english:topic-05</guid>
+      <pubDate>Tue, 27 Oct 2026 18:52:57 +0000</pubDate>
+      <itunes:episode>5</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>282</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-english/audio/05_family_se_en_double_2026-10-27_18-44-34.mp3" length="6777878" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>06 Mat — Food</title>
+      <description>Öva engelska med svenska ledtrådar. Ämne: Mat. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje engelsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-english:topic-06</guid>
+      <pubDate>Tue, 27 Oct 2026 18:52:57 +0000</pubDate>
+      <itunes:episode>6</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>493</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-english/audio/06_food_se_en_double_2026-10-27_18-45-53.mp3" length="11822854" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>07 Kroppen — Body</title>
+      <description>Öva engelska med svenska ledtrådar. Ämne: Kroppen. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje engelsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-english:topic-07</guid>
+      <pubDate>Tue, 27 Oct 2026 18:52:57 +0000</pubDate>
+      <itunes:episode>7</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>364</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-english/audio/07_body_se_en_double_2026-10-27_18-47-54.mp3" length="8747719" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>08 Kläder — Clothing</title>
+      <description>Öva engelska med svenska ledtrådar. Ämne: Kläder. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje engelsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-english:topic-08</guid>
+      <pubDate>Tue, 27 Oct 2026 18:52:57 +0000</pubDate>
+      <itunes:episode>8</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>305</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-english/audio/08_clothing_se_en_double_2026-10-27_18-49-27.mp3" length="7310776" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>09 Hemma — Home</title>
+      <description>Öva engelska med svenska ledtrådar. Ämne: Hemma. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje engelsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-english:topic-09</guid>
+      <pubDate>Tue, 27 Oct 2026 18:52:57 +0000</pubDate>
+      <itunes:episode>9</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>382</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-english/audio/09_home_se_en_double_2026-10-27_18-50-44.mp3" length="9179053" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>10 Skolan — School</title>
+      <description>Öva engelska med svenska ledtrådar. Ämne: Skolan. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje engelsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-english:topic-10</guid>
+      <pubDate>Tue, 27 Oct 2026 18:52:57 +0000</pubDate>
+      <itunes:episode>10</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>428</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-english/audio/10_school_se_en_double_2026-10-27_18-52-11.mp3" length="10268046" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>11 Väder — Weather</title>
+      <description>Öva engelska med svenska ledtrådar. Ämne: Väder. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje engelsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-english:topic-11</guid>
+      <pubDate>Tue, 27 Oct 2026 18:52:57 +0000</pubDate>
+      <itunes:episode>11</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>253</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-english/audio/11_weather_se_en_double_2026-10-27_18-53-48.mp3" length="6070064" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>12 Årstider — Seasons</title>
+      <description>Öva engelska med svenska ledtrådar. Ämne: Årstider. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje engelsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-english:topic-12</guid>
+      <pubDate>Tue, 27 Oct 2026 18:52:57 +0000</pubDate>
+      <itunes:episode>12</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>201</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-english/audio/12_seasons_se_en_double_2026-10-27_18-54-46.mp3" length="4819321" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>13 Dagar och tid — Days and Time</title>
+      <description>Öva engelska med svenska ledtrådar. Ämne: Dagar och tid. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje engelsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-english:topic-13</guid>
+      <pubDate>Tue, 27 Oct 2026 18:52:57 +0000</pubDate>
+      <itunes:episode>13</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>305</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-english/audio/13_days_and_time_se_en_double_2026-10-27_18-55-38.mp3" length="7323314" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>14 Leksaker och lek — Toys and Play</title>
+      <description>Öva engelska med svenska ledtrådar. Ämne: Leksaker och lek. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje engelsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-english:topic-14</guid>
+      <pubDate>Tue, 27 Oct 2026 18:52:57 +0000</pubDate>
+      <itunes:episode>14</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>354</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-english/audio/14_toys_and_play_se_en_double_2026-10-27_18-56-37.mp3" length="8493809" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>15 Sport och aktiviteter — Sports and Activities</title>
+      <description>Öva engelska med svenska ledtrådar. Ämne: Sport och aktiviteter. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje engelsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-english:topic-15</guid>
+      <pubDate>Tue, 27 Oct 2026 18:52:57 +0000</pubDate>
+      <itunes:episode>15</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>268</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-english/audio/15_sports_and_activities_se_en_double_2026-10-27_19-16-25.mp3" length="6438077" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>16 Jag vill ha och jag behöver — I want and I need</title>
+      <description>Öva engelska med svenska ledtrådar. Ämne: Jag vill ha och jag behöver. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje engelsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-english:topic-16</guid>
+      <pubDate>Tue, 27 Oct 2026 18:52:57 +0000</pubDate>
+      <itunes:episode>16</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>314</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-english/audio/16_i_want_i_need_se_en_double_2026-10-27_19-17-34.mp3" length="7543997" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>17 Var är? — Where is it?</title>
+      <description>Öva engelska med svenska ledtrådar. Ämne: Var är?. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje engelsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-english:topic-17</guid>
+      <pubDate>Tue, 27 Oct 2026 18:52:57 +0000</pubDate>
+      <itunes:episode>17</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>310</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-english/audio/17_where_is_se_en_double_2026-10-27_19-18-56.mp3" length="7433656" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>18 Känslor — Feelings and Emotions</title>
+      <description>Öva engelska med svenska ledtrådar. Ämne: Känslor. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje engelsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-english:topic-18</guid>
+      <pubDate>Tue, 27 Oct 2026 18:52:57 +0000</pubDate>
+      <itunes:episode>18</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>295</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-english/audio/18_feelings_and_emotions_se_en_double_2026-10-27_19-22-27.mp3" length="7076928" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>19 Färdmedel — Transport</title>
+      <description>Öva engelska med svenska ledtrådar. Ämne: Färdmedel. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje engelsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-english:topic-19</guid>
+      <pubDate>Tue, 27 Oct 2026 18:52:57 +0000</pubDate>
+      <itunes:episode>19</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>265</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-english/audio/19_transport_se_en_double_2026-10-27_19-23-50.mp3" length="6367860" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>20 Naturen — Nature</title>
+      <description>Öva engelska med svenska ledtrådar. Ämne: Naturen. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje engelsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-english:topic-20</guid>
+      <pubDate>Tue, 27 Oct 2026 18:52:57 +0000</pubDate>
+      <itunes:episode>20</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>273</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-english/audio/20_nature_se_en_double_2026-10-27_19-24-59.mp3" length="6547164" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>21 Högtider och firande — Holidays and Celebrations</title>
+      <description>Öva engelska med svenska ledtrådar. Ämne: Högtider och firande. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje engelsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-english:topic-21</guid>
+      <pubDate>Tue, 27 Oct 2026 18:52:57 +0000</pubDate>
+      <itunes:episode>21</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>250</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-english/audio/21_holidays_and_celebrations_se_en_double_2026-10-27_19-26-09.mp3" length="6001101" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>22 Vardagsrutiner — Daily Routine</title>
+      <description>Öva engelska med svenska ledtrådar. Ämne: Vardagsrutiner. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje engelsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-english:topic-22</guid>
+      <pubDate>Tue, 27 Oct 2026 18:52:57 +0000</pubDate>
+      <itunes:episode>22</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>316</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-english/audio/22_daily_routine_se_en_double_2026-10-27_19-27-07.mp3" length="7587883" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>23 Fråga och be om hjälp — Asking and Requests</title>
+      <description>Öva engelska med svenska ledtrådar. Ämne: Fråga och be om hjälp. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje engelsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-english:topic-23</guid>
+      <pubDate>Tue, 27 Oct 2026 18:52:57 +0000</pubDate>
+      <itunes:episode>23</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>267</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-english/audio/23_asking_and_requests_se_en_double_2026-10-27_19-28-22.mp3" length="6404849" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>24 Motsatser — Opposites</title>
+      <description>Öva engelska med svenska ledtrådar. Ämne: Motsatser. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje engelsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-english:topic-24</guid>
+      <pubDate>Tue, 27 Oct 2026 18:52:57 +0000</pubDate>
+      <itunes:episode>24</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>278</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-english/audio/24_opposites_se_en_double_2026-10-27_19-29-22.mp3" length="6682583" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>25 Handlingar och verb — Actions and Verbs</title>
+      <description>Öva engelska med svenska ledtrådar. Ämne: Handlingar och verb. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje engelsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-english:topic-25</guid>
+      <pubDate>Tue, 27 Oct 2026 18:52:57 +0000</pubDate>
+      <itunes:episode>25</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>406</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-english/audio/25_actions_and_verbs_se_en_double_2026-10-27_19-34-45.mp3" length="9742044" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>26 Platser i staden — Places in Town</title>
+      <description>Öva engelska med svenska ledtrådar. Ämne: Platser i staden. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje engelsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-english:topic-26</guid>
+      <pubDate>Tue, 27 Oct 2026 18:52:57 +0000</pubDate>
+      <itunes:episode>26</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>248</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-english/audio/26_places_in_town_se_en_double_2026-10-27_19-36-13.mp3" length="5964111" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>27 Teknik — Technology</title>
+      <description>Öva engelska med svenska ledtrådar. Ämne: Teknik. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje engelsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-english:topic-27</guid>
+      <pubDate>Tue, 27 Oct 2026 18:52:57 +0000</pubDate>
+      <itunes:episode>27</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>238</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-english/audio/27_technology_se_en_double_2026-10-27_19-37-16.mp3" length="5707693" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>28 Musik och konst — Music and Art</title>
+      <description>Öva engelska med svenska ledtrådar. Ämne: Musik och konst. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje engelsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-english:topic-28</guid>
+      <pubDate>Tue, 27 Oct 2026 18:52:57 +0000</pubDate>
+      <itunes:episode>28</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>243</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-english/audio/28_music_and_art_se_en_double_2026-10-27_19-38-07.mp3" length="5824304" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>29 Artiga fraser — Polite Phrases</title>
+      <description>Öva engelska med svenska ledtrådar. Ämne: Artiga fraser. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje engelsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-english:topic-29</guid>
+      <pubDate>Tue, 27 Oct 2026 18:52:57 +0000</pubDate>
+      <itunes:episode>29</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>174</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-english/audio/29_polite_phrases_se_en_double_2026-10-27_19-38-57.mp3" length="4182978" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>30 Repetition — Review and Recap</title>
+      <description>Öva engelska med svenska ledtrådar. Ämne: Repetition. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje engelsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-english:topic-30</guid>
+      <pubDate>Tue, 27 Oct 2026 18:52:57 +0000</pubDate>
+      <itunes:episode>30</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>122</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-english/audio/30_review_and_recap_se_en_double_2026-10-27_19-39-21.mp3" length="2922831" type="audio/mpeg" />
+    </item>
+  </channel>
+</rss>
