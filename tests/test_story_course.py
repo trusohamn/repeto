@@ -45,6 +45,9 @@ def mini_story() -> dict:
     }
 
 
+STORY_COVER_HASH = "41b6d295"
+EXISTING_COVER_HASH = "7be87c5d"
+
 class StoryCourseTests(unittest.TestCase):
     def test_azure_is_default_and_practice_stays_on_edge_for_all_languages(self):
         azure = story_course._azure()
@@ -477,8 +480,12 @@ class StoryCourseTests(unittest.TestCase):
                 "Lyssna på ett kapitel ur berättelsen Testowa historia på polska, "
                 "öva orden med svenska ledtrådar och lyssna sedan på kapitlet igen.",
             )
-            self.assertEqual((course / added["image"]).read_bytes(), b"story cover")
-            self.assertEqual((course / "cover.jpeg").read_bytes(), b"existing cover")
+            story_cover = course / f"images/stories/test_story/cover-{STORY_COVER_HASH}.jpeg"
+            self.assertEqual(story_cover.read_bytes(), b"story cover")
+            self.assertFalse((course / added["image"]).exists())
+            self.assertEqual(
+                (course / f"cover-{EXISTING_COVER_HASH}.jpeg").read_bytes(), b"existing cover"
+            )
             feed = ET.parse(course / "feed.xml")
             artwork = feed.findall("./channel/item")[2].find(
                 "{http://www.itunes.com/dtds/podcast-1.0.dtd}image"
@@ -487,7 +494,7 @@ class StoryCourseTests(unittest.TestCase):
             self.assertEqual(
                 artwork.get("href"),
                 "https://example.com/repeto/swedish-polish/"
-                "images/stories/test_story/cover.jpeg",
+                f"images/stories/test_story/cover-{STORY_COVER_HASH}.jpeg",
             )
             self.assertEqual(
                 (audio_dir / added["file"]).read_bytes(), b"story audio"
@@ -520,7 +527,10 @@ class StoryCourseTests(unittest.TestCase):
                 story_course.package_podcasts(args, transcript, build)
             (story_root / "cover.jpeg").write_bytes(b"story cover")
             story_course.package_podcasts(args, transcript, build)
-            self.assertEqual((course / added["image"]).read_bytes(), b"story cover")
+            self.assertEqual(story_cover.read_bytes(), b"story cover")
+            self.assertEqual(
+                sorted(path.name for path in story_cover.parent.iterdir()), [story_cover.name]
+            )
 
     def test_swedish_english_story_episode_has_swedish_description(self):
         chapter = mini_story()["chapters"][0]

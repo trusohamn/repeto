@@ -42,14 +42,17 @@ class PodcastTests(unittest.TestCase):
             self.assertEqual(
                 artwork.get("href"),
                 "https://example.com/repeto/swedish-polish/"
-                "images/stories/test%20story/cover.jpeg",
+                "images/stories/test%20story/cover-41b6d295.jpeg",
             )
             self.assertIsNone(items[1].find(f"{{{podcast.ITUNES}}}image"))
             show_artwork = root.find(f"./channel/{{{podcast.ITUNES}}}image")
             assert show_artwork is not None
             self.assertEqual(
                 show_artwork.get("href"),
-                "https://example.com/repeto/swedish-polish/cover.jpeg",
+                "https://example.com/repeto/swedish-polish/cover-37fbc2b9.jpeg",
+            )
+            self.assertIn(
+                'src="cover-37fbc2b9.jpeg"', (course / "index.html").read_text()
             )
             for invalid in (
                 "../escape.jpeg", "/absolute.jpeg", "nested\\escape.jpeg",
@@ -63,12 +66,34 @@ class PodcastTests(unittest.TestCase):
                         podcast.build_feed(course, "https://example.com/repeto")
             config["episodes"][0]["image"] = image_path
             catalog.write_text(json.dumps(config))
+            for published in image.parent.iterdir():
+                published.unlink()
             image.write_bytes(b"")
             with self.assertRaisesRegex(ValueError, "Missing or empty episode image"):
                 podcast.build_feed(course, "https://example.com/repeto")
             image.unlink()
             with self.assertRaisesRegex(ValueError, "Missing or empty episode image"):
                 podcast.build_feed(course, "https://example.com/repeto")
+
+    def test_replaced_cover_gets_new_fingerprinted_url_without_duplicates(self):
+        with tempfile.TemporaryDirectory() as directory:
+            cover = Path(directory) / "cover.jpeg"
+            cover.write_bytes(b"old art")
+            old = podcast.fingerprint_image(cover)
+            self.assertFalse(cover.exists())
+            self.assertEqual(podcast.fingerprint_image(cover), old)
+            cover.write_bytes(b"new art")
+            new = podcast.fingerprint_image(cover)
+            self.assertNotEqual(new, old)
+            self.assertEqual(sorted(Path(directory).iterdir()), [new])
+            new.write_bytes(b"edited in place")
+            edited = podcast.fingerprint_image(cover)
+            self.assertNotEqual(edited, new)
+            self.assertEqual(sorted(Path(directory).iterdir()), [edited])
+            self.assertEqual(podcast.find_image(cover), edited)
+            (Path(directory) / "cover-0000000a.jpeg").write_bytes(b"x")
+            with self.assertRaisesRegex(ValueError, "Several published versions"):
+                podcast.find_image(cover)
 
     def test_feed_and_stable_ids(self):
         source = Path(__file__).resolve().parents[1] / "podcast/swedish-polish/course.json"

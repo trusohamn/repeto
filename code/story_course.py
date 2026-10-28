@@ -880,7 +880,7 @@ def package_podcasts(
                 raise FileNotFoundError(
                     f"Existing podcast course catalog not found: {existing_catalog}"
                 )
-            if not (course / "cover.jpeg").is_file():
+            if builder.find_image(course / "cover.jpeg") is None:
                 raise FileNotFoundError(f"Existing podcast cover not found: {course / 'cover.jpeg'}")
             catalog = json.loads(existing_catalog.read_text(encoding="utf-8"))
             if (
@@ -898,12 +898,13 @@ def package_podcasts(
             if not args.email:
                 raise ValueError("Podcast packaging requires --email for the public RSS owner contact.")
             course.mkdir(parents=True, exist_ok=True)
-            packaged_cover = course / "cover.jpeg"
-            if packaged_cover.exists() and packaged_cover.read_bytes() != cover.read_bytes():
+            packaged_cover = builder.find_image(course / "cover.jpeg")
+            if packaged_cover is not None and packaged_cover.read_bytes() != cover.read_bytes():
                 raise FileExistsError(
                     f"Refusing to overwrite a different podcast cover: {packaged_cover}"
                 )
-            shutil.copyfile(cover, packaged_cover)
+            if packaged_cover is None:
+                shutil.copyfile(cover, course / "cover.jpeg")
             catalog = {
                 "title": f'{story_titles["pl"]} — {source_title} to {target_title}',
                 "description": (
@@ -921,16 +922,17 @@ def package_podcasts(
             }
 
         relative_cover_name = f'images/stories/{transcript["story_id"]}/cover.jpeg'
-        packaged_story_cover = course / relative_cover_name
+        packaged_story_cover = builder.find_image(course / relative_cover_name)
         if (
-            packaged_story_cover.exists()
+            packaged_story_cover is not None
             and packaged_story_cover.read_bytes() != cover.read_bytes()
         ):
             raise FileExistsError(
                 f"Refusing to overwrite a different story cover: {packaged_story_cover}"
             )
-        packaged_story_cover.parent.mkdir(parents=True, exist_ok=True)
-        shutil.copyfile(cover, packaged_story_cover)
+        if packaged_story_cover is None:
+            (course / relative_cover_name).parent.mkdir(parents=True, exist_ok=True)
+            shutil.copyfile(cover, course / relative_cover_name)
 
         episodes = catalog["episodes"]
         previous_by_id = {episode["id"]: episode for episode in episodes}

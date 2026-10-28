@@ -39,6 +39,14 @@ and publication dates; keep these unchanged when replacing recordings.
 Story artwork lives under `images/stories/<story-id>/cover.jpeg`. Each chapter
 sets an optional catalog `image` path relative to the podcast folder, emitted
 as an episode-level `itunes:image`; the main show cover remains unchanged.
+
+Artwork is published under content-fingerprinted names such as
+`cover-1719c6cd.jpeg`, because Spotify and other apps cache images by URL. To
+change a cover, drop the new image in as plain `cover.jpeg` (or overwrite the
+current `cover-<hash>.jpeg`) and run `.venv/bin/python code/podcast.py`. The
+builder renames it to its new fingerprint, removes the old version, and points
+the feed and web page at the new URL. `course.json` keeps the logical
+`cover.jpeg` path.
 Episodes set `season` and `episode` explicitly. Swedish-to-Polish vocabulary
 topics are season 1, episodes 1–30; *Den magiska radion* story chapters are season
 2, episodes 1–8. These values become podcast metadata in Spotify; the title's

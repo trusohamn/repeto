@@ -1,8 +1,10 @@
 """Build podcast RSS feeds from course catalogs using only the standard library."""
 
 import argparse
+import hashlib
 import html
 import json
+import re
 import xml.etree.ElementTree as ET
 from datetime import datetime
 from email.utils import format_datetime
@@ -14,6 +16,43 @@ ITUNES = "http://www.itunes.com/dtds/podcast-1.0.dtd"
 ATOM = "http://www.w3.org/2005/Atom"
 ET.register_namespace("itunes", ITUNES)
 ET.register_namespace("atom", ATOM)
+FINGERPRINT = re.compile(r"-[0-9a-f]{8}")
+
+
+def _fingerprinted_versions(path: Path) -> list[Path]:
+    return sorted(
+        candidate for candidate in path.parent.glob(f"{path.stem}-*{path.suffix}")
+        if FINGERPRINT.fullmatch(candidate.stem[len(path.stem):])
+    )
+
+
+def find_image(path: Path) -> Path | None:
+    """Return the file currently published for a logical image path such as cover.jpeg."""
+    if path.is_file():
+        return path
+    versions = _fingerprinted_versions(path)
+    if len(versions) > 1:
+        raise ValueError(f"Several published versions of {path.name}: {versions}")
+    return versions[0] if versions else None
+
+
+def fingerprint_image(path: Path) -> Path:
+    """Publish an image under a content-hashed name so podcast apps fetch new artwork.
+
+    A plain file (for example a newly dropped-in cover.jpeg) replaces older
+    fingerprinted versions; only the current version is kept on disk.
+    """
+    current = find_image(path)
+    if current is None or current.stat().st_size == 0:
+        raise ValueError(f"Missing or empty image: {path}")
+    digest = hashlib.sha256(current.read_bytes()).hexdigest()[:8]
+    published = path.with_name(f"{path.stem}-{digest}{path.suffix}")
+    if current != published:
+        current.replace(published)
+    for stale in _fingerprinted_versions(path):
+        if stale != published:
+            stale.unlink()
+    return published
 
 
 def build_feed(course: Path, base_url: str) -> None:
@@ -21,11 +60,12 @@ def build_feed(course: Path, base_url: str) -> None:
     url = f"{base_url.rstrip('/')}/{quote(course.name)}"
     if not base_url.startswith("https://"):
         raise ValueError("Podcast hosting requires an HTTPS base URL.")
-    if not (course / "cover.jpeg").is_file():
+    if find_image(course / "cover.jpeg") is None:
         raise ValueError(f"Missing cover: {course}")
     episodes = config["episodes"]
     if not episodes:
         raise ValueError(f"No episodes: {course}")
+    cover = fingerprint_image(course / "cover.jpeg")
     rss = ET.Element("rss", version="2.0")
     channel = ET.SubElement(rss, "channel")
 
@@ -44,7 +84,7 @@ def build_feed(course: Path, base_url: str) -> None:
     owner = ET.SubElement(channel, f"{{{ITUNES}}}owner")
     field(owner, f"{{{ITUNES}}}name", config["author"])
     field(owner, f"{{{ITUNES}}}email", config["email"])
-    ET.SubElement(channel, f"{{{ITUNES}}}image", href=url + "/cover.jpeg")
+    ET.SubElement(channel, f"{{{ITUNES}}}image", href=url + "/" + quote(cover.name))
     category = ET.SubElement(channel, f"{{{ITUNES}}}category", text="Education")
     ET.SubElement(category, f"{{{ITUNES}}}category", text="Language Learning")
     ET.SubElement(
@@ -108,14 +148,15 @@ def build_feed(course: Path, base_url: str) -> None:
                 or relative_image_path.suffix.lower() not in {".jpg", ".jpeg", ".png"}
             ):
                 raise ValueError(f"Invalid episode image: {image_name!r}")
-            image = course / Path(*relative_image_path.parts)
-            if not image.is_file() or image.stat().st_size == 0:
-                raise ValueError(f"Missing or empty episode image: {image}")
+            logical_image = course / Path(*relative_image_path.parts)
+            published_image = find_image(logical_image)
+            if published_image is None or published_image.stat().st_size == 0:
+                raise ValueError(f"Missing or empty episode image: {logical_image}")
+            image = fingerprint_image(logical_image)
+            published_parts = (*relative_image_path.parts[:-1], image.name)
             ET.SubElement(
                 item, f"{{{ITUNES}}}image",
-                href=url + "/" + "/".join(
-                    quote(part) for part in relative_image_path.parts
-                ),
+                href=url + "/" + "/".join(quote(part) for part in published_parts),
             )
         ET.SubElement(
             item, "enclosure",
@@ -131,7 +172,7 @@ def build_feed(course: Path, base_url: str) -> None:
         f'<!doctype html><html lang="sv"><meta charset="utf-8">'
         f'<meta name="viewport" content="width=device-width">'
         f"<title>{title}</title><h1>{title}</h1>"
-        f'<img src="cover.jpeg" alt="Podcast cover" width="300">'
+        f'<img src="{html.escape(quote(cover.name))}" alt="Podcast cover" width="300">'
         f'<p>{html.escape(config["description"])}</p>'
         f'<p><a href="feed.xml">Podcast RSS feed</a></p></html>\n',
         encoding="utf-8",

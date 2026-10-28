@@ -1,6 +1,7 @@
 """Validate double-output practice renders and package them as podcast season 1."""
 
 import argparse
+import importlib.util
 import json
 import shutil
 import subprocess
@@ -19,6 +20,16 @@ LANGUAGE_NAMES = {
     "en": ("engelska", "engelsk"),
     "ru": ("ryska", "rysk"),
 }
+
+
+def _podcast_builder() -> Any:
+    path = ROOT / "code" / "podcast.py"
+    spec = importlib.util.spec_from_file_location("podcast_builder", path)
+    if spec is None or spec.loader is None:
+        raise RuntimeError(f"Cannot load podcast builder from {path}")
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    return module
 
 
 def load_topic_titles(path: Path, topics: list[str], languages: tuple[str, ...]) -> dict:
@@ -116,7 +127,7 @@ def package(args: argparse.Namespace) -> dict[str, Any]:
     titles = load_topic_titles(args.topic_titles, list(topics), (source, target))
     manifests = select_manifests(args.renders, topics, source, target)
     course = args.podcast_root / args.course
-    if not (course / "cover.jpeg").is_file():
+    if _podcast_builder().find_image(course / "cover.jpeg") is None:
         raise FileNotFoundError(f"Podcast cover not found: {course / 'cover.jpeg'}")
     catalog_path = course / "course.json"
     language_name, adjective = LANGUAGE_NAMES[target]

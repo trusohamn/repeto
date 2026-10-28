@@ -235,6 +235,12 @@ annars används riktningsfilen, till exempel `cover_se_pl.jpeg`, sedan det
 gemensamma `cover.jpeg` och sist äldre `cover.jpg`. Saknat omslag ska avbryta
 paketeringen med ett tydligt fel.
 
+Publicerade omslag får ett innehållsbaserat filnamn, till exempel
+`cover-1719c6cd.jpeg`, eftersom Spotify och andra appar cachar bilder per URL.
+Ett nytt omslag läggs in som `cover.jpeg` (eller skriver över nuvarande
+`cover-<hash>.jpeg`); flödesbyggaren byter namn, tar bort den gamla versionen
+och uppdaterar flöde och webbsida. Bara en version av varje bild får finnas.
+
 Renderingar hamnar som standard i `generated/audio/<källspråk>_<målspråk>/`.
 Byggmanifestet delas av alla riktningar: att rendera ett målspråk får inte ta
 bort andra målspråks kapitelposter, och `renders` sparar inställningarna per

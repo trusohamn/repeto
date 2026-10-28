@@ -48,12 +48,12 @@ Use one directory per course:
 
 ```text
 podcast/<slug>/
-  cover.jpeg
+  cover-<hash>.jpeg        # published name; drop a new cover.jpeg to replace it
   course.json
   audio/
     practice/<original-render-filename>.mp3
     stories/<story-id>/<original-render-filename>.mp3
-  images/stories/<story-id>/cover.jpeg
+  images/stories/<story-id>/cover-<hash>.jpeg
   feed.xml
   index.html
 ```
@@ -68,6 +68,10 @@ podcast/<slug>/
 - Copy the story cover to `images/stories/<story-id>/cover.jpeg` and set each
   chapter's `image` to that path, relative to the podcast folder. The RSS
   builder emits an episode-level `itunes:image`. Preserve the show cover.
+- `code/podcast.py` publishes every cover under a content-fingerprinted name
+  (`cover-<sha256[:8]>.jpeg`) and deletes older versions, so apps such as
+  Spotify fetch changed artwork. `course.json` keeps the logical `cover.jpeg`
+  path; use `find_image` rather than checking for `cover.jpeg` directly.
 - Create the catalog using the existing schema. Use the source audience's
   language for the show description; explain pauses, double playback, and
   AI-generated voices accurately.

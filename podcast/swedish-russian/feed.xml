@@ -12,7 +12,7 @@
       <itunes:name>Repeto</itunes:name>
       <itunes:email>repeto.lingo@gmail.com</itunes:email>
     </itunes:owner>
-    <itunes:image href="https://trusohamn.github.io/repeto/swedish-russian/cover.jpeg" />
+    <itunes:image href="https://trusohamn.github.io/repeto/swedish-russian/cover-1719c6cd.jpeg" />
     <itunes:category text="Education">
       <itunes:category text="Language Learning" />
     </itunes:category>
@@ -387,7 +387,7 @@
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>315</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <itunes:image href="https://trusohamn.github.io/repeto/swedish-russian/images/stories/magical_radio/cover.jpeg" />
+      <itunes:image href="https://trusohamn.github.io/repeto/swedish-russian/images/stories/magical_radio/cover-447076a6.jpeg" />
       <enclosure url="https://trusohamn.github.io/repeto/swedish-russian/audio/stories/magical_radio/01_chapter_01_sv_ru_2026-10-28_18-34-29.mp3" length="7562805" type="audio/mpeg" />
     </item>
     <item>
@@ -400,7 +400,7 @@
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>267</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <itunes:image href="https://trusohamn.github.io/repeto/swedish-russian/images/stories/magical_radio/cover.jpeg" />
+      <itunes:image href="https://trusohamn.github.io/repeto/swedish-russian/images/stories/magical_radio/cover-447076a6.jpeg" />
       <enclosure url="https://trusohamn.github.io/repeto/swedish-russian/audio/stories/magical_radio/02_chapter_02_sv_ru_2026-10-28_18-34-29.mp3" length="6413626" type="audio/mpeg" />
     </item>
     <item>
@@ -413,7 +413,7 @@
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>317</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <itunes:image href="https://trusohamn.github.io/repeto/swedish-russian/images/stories/magical_radio/cover.jpeg" />
+      <itunes:image href="https://trusohamn.github.io/repeto/swedish-russian/images/stories/magical_radio/cover-447076a6.jpeg" />
       <enclosure url="https://trusohamn.github.io/repeto/swedish-russian/audio/stories/magical_radio/03_chapter_03_sv_ru_2026-10-28_18-34-29.mp3" length="7610452" type="audio/mpeg" />
     </item>
     <item>
@@ -426,7 +426,7 @@
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>288</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <itunes:image href="https://trusohamn.github.io/repeto/swedish-russian/images/stories/magical_radio/cover.jpeg" />
+      <itunes:image href="https://trusohamn.github.io/repeto/swedish-russian/images/stories/magical_radio/cover-447076a6.jpeg" />
       <enclosure url="https://trusohamn.github.io/repeto/swedish-russian/audio/stories/magical_radio/04_chapter_04_sv_ru_2026-10-28_18-34-29.mp3" length="6922074" type="audio/mpeg" />
     </item>
     <item>
@@ -439,7 +439,7 @@
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>241</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <itunes:image href="https://trusohamn.github.io/repeto/swedish-russian/images/stories/magical_radio/cover.jpeg" />
+      <itunes:image href="https://trusohamn.github.io/repeto/swedish-russian/images/stories/magical_radio/cover-447076a6.jpeg" />
       <enclosure url="https://trusohamn.github.io/repeto/swedish-russian/audio/stories/magical_radio/05_chapter_05_sv_ru_2026-10-28_18-34-29.mp3" length="5787314" type="audio/mpeg" />
     </item>
     <item>
@@ -452,7 +452,7 @@
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>223</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <itunes:image href="https://trusohamn.github.io/repeto/swedish-russian/images/stories/magical_radio/cover.jpeg" />
+      <itunes:image href="https://trusohamn.github.io/repeto/swedish-russian/images/stories/magical_radio/cover-447076a6.jpeg" />
       <enclosure url="https://trusohamn.github.io/repeto/swedish-russian/audio/stories/magical_radio/06_chapter_06_sv_ru_2026-10-28_18-34-29.mp3" length="5347203" type="audio/mpeg" />
     </item>
     <item>
@@ -465,7 +465,7 @@
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>248</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <itunes:image href="https://trusohamn.github.io/repeto/swedish-russian/images/stories/magical_radio/cover.jpeg" />
+      <itunes:image href="https://trusohamn.github.io/repeto/swedish-russian/images/stories/magical_radio/cover-447076a6.jpeg" />
       <enclosure url="https://trusohamn.github.io/repeto/swedish-russian/audio/stories/magical_radio/07_chapter_07_sv_ru_2026-10-28_18-34-29.mp3" length="5949065" type="audio/mpeg" />
     </item>
     <item>
@@ -478,7 +478,7 @@
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>255</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <itunes:image href="https://trusohamn.github.io/repeto/swedish-russian/images/stories/magical_radio/cover.jpeg" />
+      <itunes:image href="https://trusohamn.github.io/repeto/swedish-russian/images/stories/magical_radio/cover-447076a6.jpeg" />
       <enclosure url="https://trusohamn.github.io/repeto/swedish-russian/audio/stories/magical_radio/08_chapter_08_sv_ru_2026-10-28_18-34-29.mp3" length="6132131" type="audio/mpeg" />
     </item>
   </channel>
