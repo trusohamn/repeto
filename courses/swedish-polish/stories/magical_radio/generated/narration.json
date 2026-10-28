@@ -1,0 +1,64 @@
+{
+  "pl": {
+    "1": [
+      {
+        "text": "Jest sobota. Maja ma dziewięć lat, a jej brat Tomek ma sześć lat. Razem idą na pchli targ.",
+        "intent": "Warm, continuous introduction; let punctuation guide natural phrasing",
+        "rate": "-12%",
+        "pitch": "+1%",
+        "volume": "+0%",
+        "pause_after_ms": 250
+      },
+      {
+        "text": "W rogu stoi stary stół, a na stole – drewniane radio. Ma złote pokrętła i kolorowe przyciski.",
+        "intent": "Interested discovery, without resetting the voice after every sentence",
+        "rate": "-14%",
+        "pitch": "+2%",
+        "volume": "+0%",
+        "pause_after_ms": 350
+      },
+      {
+        "text": "Gdy Maja podchodzi bliżej, radio nagle cicho szumi:",
+        "intent": "Quieter, slower suspense; gently lower the pitch toward the reveal",
+        "rate": "-18%",
+        "pitch": "-2%",
+        "volume": "-12%",
+        "contour": "(0%,+0%) (65%,-2%) (100%,-4%)",
+        "pause_after_ms": 550
+      },
+      {
+        "text": "Dzyń!",
+        "intent": "Brief bright surprise, not a shout",
+        "rate": "-8%",
+        "pitch": "+8%",
+        "volume": "+5%",
+        "pause_after_ms": 400
+      },
+      {
+        "text": "Na radiu pojawia się złoty napis:",
+        "intent": "Anticipation before reading the magical message",
+        "rate": "-15%",
+        "pitch": "+1%",
+        "volume": "+0%",
+        "pause_after_ms": 250
+      },
+      {
+        "text": "„Dla Mai i Tomka”.",
+        "intent": "Tender emphasis on the children's names",
+        "rate": "-17%",
+        "pitch": "+3%",
+        "volume": "-5%",
+        "pause_after_ms": 450
+      },
+      {
+        "text": "Dzieci otwierają szeroko oczy.",
+        "intent": "Quiet wonder with a gentle final falling cadence",
+        "rate": "-14%",
+        "pitch": "+2%",
+        "volume": "+0%",
+        "contour": "(0%,+0%) (55%,+3%) (100%,-3%)",
+        "pause_after_ms": 0
+      }
+    ]
+  }
+}

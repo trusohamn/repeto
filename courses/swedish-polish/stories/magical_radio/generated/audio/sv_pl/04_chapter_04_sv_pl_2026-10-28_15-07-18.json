@@ -1,0 +1,582 @@
+{
+  "chapter_number": 4,
+  "title": {
+    "pl": "Schody w dół",
+    "sv": "Trappan ner",
+    "en": "The Stairs Going Down"
+  },
+  "source_language": "sv",
+  "target_language": "pl",
+  "practice_order": "deterministically_shuffled",
+  "sequence": [
+    "story",
+    "practice",
+    "story"
+  ],
+  "total_duration_ms": 270223,
+  "practice": [
+    {
+      "id": 151,
+      "kind": "vocabulary",
+      "start_ms": 34080,
+      "end_ms": 44609,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "ett stort rum",
+        "start_ms": 34080,
+        "end_ms": 35297
+      },
+      "target_playbacks": [
+        {
+          "text": "wielki pokój",
+          "start_ms": 37297,
+          "end_ms": 38453
+        },
+        {
+          "text": "wielki pokój",
+          "start_ms": 40953,
+          "end_ms": 42109
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "kind": "vocabulary",
+      "start_ms": 44609,
+      "end_ms": 54524,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "öppnas",
+        "start_ms": 44609,
+        "end_ms": 45484
+      },
+      "target_playbacks": [
+        {
+          "text": "otwierać się",
+          "start_ms": 47484,
+          "end_ms": 48504
+        },
+        {
+          "text": "otwierać się",
+          "start_ms": 51004,
+          "end_ms": 52024
+        }
+      ]
+    },
+    {
+      "id": 146,
+      "kind": "vocabulary",
+      "start_ms": 54524,
+      "end_ms": 63347,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "klick!",
+        "start_ms": 54524,
+        "end_ms": 55185
+      },
+      "target_playbacks": [
+        {
+          "text": "klik!",
+          "start_ms": 57185,
+          "end_ms": 57766
+        },
+        {
+          "text": "klik!",
+          "start_ms": 60266,
+          "end_ms": 60847
+        }
+      ]
+    },
+    {
+      "id": 204,
+      "kind": "vocabulary",
+      "start_ms": 63347,
+      "end_ms": 74826,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "lysa blått",
+        "start_ms": 63347,
+        "end_ms": 64536
+      },
+      "target_playbacks": [
+        {
+          "text": "świecić na niebiesko",
+          "start_ms": 66536,
+          "end_ms": 68181
+        },
+        {
+          "text": "świecić na niebiesko",
+          "start_ms": 70681,
+          "end_ms": 72326
+        }
+      ]
+    },
+    {
+      "id": 203,
+      "kind": "vocabulary",
+      "start_ms": 74826,
+      "end_ms": 84951,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "på väggarna",
+        "start_ms": 74826,
+        "end_ms": 75829
+      },
+      "target_playbacks": [
+        {
+          "text": "na ścianach",
+          "start_ms": 77829,
+          "end_ms": 78890
+        },
+        {
+          "text": "na ścianach",
+          "start_ms": 81390,
+          "end_ms": 82451
+        }
+      ]
+    },
+    {
+      "id": 152,
+      "kind": "vocabulary",
+      "start_ms": 84951,
+      "end_ms": 94411,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "överallt",
+        "start_ms": 84951,
+        "end_ms": 85987
+      },
+      "target_playbacks": [
+        {
+          "text": "wszędzie",
+          "start_ms": 87987,
+          "end_ms": 88699
+        },
+        {
+          "text": "wszędzie",
+          "start_ms": 91199,
+          "end_ms": 91911
+        }
+      ]
+    },
+    {
+      "id": 149,
+      "kind": "vocabulary",
+      "start_ms": 94411,
+      "end_ms": 103876,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "växa",
+        "start_ms": 94411,
+        "end_ms": 95170
+      },
+      "target_playbacks": [
+        {
+          "text": "rosnąć",
+          "start_ms": 97170,
+          "end_ms": 98023
+        },
+        {
+          "text": "rosnąć",
+          "start_ms": 100523,
+          "end_ms": 101376
+        }
+      ]
+    },
+    {
+      "id": 157,
+      "kind": "vocabulary",
+      "start_ms": 103876,
+      "end_ms": 114387,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "en radio till",
+        "start_ms": 103876,
+        "end_ms": 105229
+      },
+      "target_playbacks": [
+        {
+          "text": "drugie radio",
+          "start_ms": 107229,
+          "end_ms": 108308
+        },
+        {
+          "text": "drugie radio",
+          "start_ms": 110808,
+          "end_ms": 111887
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "kind": "vocabulary",
+      "start_ms": 114387,
+      "end_ms": 125103,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "stentrappa",
+        "start_ms": 114387,
+        "end_ms": 115583
+      },
+      "target_playbacks": [
+        {
+          "text": "kamienne schody",
+          "start_ms": 117583,
+          "end_ms": 118843
+        },
+        {
+          "text": "kamienne schody",
+          "start_ms": 121343,
+          "end_ms": 122603
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "kind": "vocabulary",
+      "start_ms": 125103,
+      "end_ms": 136499,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "vrida om nyckeln",
+        "start_ms": 125103,
+        "end_ms": 126821
+      },
+      "target_playbacks": [
+        {
+          "text": "przekręcić klucz",
+          "start_ms": 128821,
+          "end_ms": 130160
+        },
+        {
+          "text": "przekręcić klucz",
+          "start_ms": 132660,
+          "end_ms": 133999
+        }
+      ]
+    },
+    {
+      "id": 148,
+      "kind": "vocabulary",
+      "start_ms": 136499,
+      "end_ms": 145875,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "en vägg",
+        "start_ms": 136499,
+        "end_ms": 137397
+      },
+      "target_playbacks": [
+        {
+          "text": "ściana",
+          "start_ms": 139397,
+          "end_ms": 140136
+        },
+        {
+          "text": "ściana",
+          "start_ms": 142636,
+          "end_ms": 143375
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "kind": "vocabulary",
+      "start_ms": 145875,
+      "end_ms": 157242,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "lysande blommor",
+        "start_ms": 145875,
+        "end_ms": 147436
+      },
+      "target_playbacks": [
+        {
+          "text": "świecące kwiaty",
+          "start_ms": 149436,
+          "end_ms": 150839
+        },
+        {
+          "text": "świecące kwiaty",
+          "start_ms": 153339,
+          "end_ms": 154742
+        }
+      ]
+    },
+    {
+      "id": 147,
+      "kind": "vocabulary",
+      "start_ms": 157242,
+      "end_ms": 167986,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "leda neråt",
+        "start_ms": 157242,
+        "end_ms": 158574
+      },
+      "target_playbacks": [
+        {
+          "text": "prowadzić w dół",
+          "start_ms": 160574,
+          "end_ms": 161780
+        },
+        {
+          "text": "prowadzić w dół",
+          "start_ms": 164280,
+          "end_ms": 165486
+        }
+      ]
+    },
+    {
+      "id": 202,
+      "kind": "vocabulary",
+      "start_ms": 167986,
+      "end_ms": 176976,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "stå",
+        "start_ms": 167986,
+        "end_ms": 168706
+      },
+      "target_playbacks": [
+        {
+          "text": "stać",
+          "start_ms": 170706,
+          "end_ms": 171341
+        },
+        {
+          "text": "stać",
+          "start_ms": 173841,
+          "end_ms": 174476
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "kind": "vocabulary",
+      "start_ms": 176976,
+      "end_ms": 186045,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "tak",
+        "start_ms": 176976,
+        "end_ms": 177630
+      },
+      "target_playbacks": [
+        {
+          "text": "sufit",
+          "start_ms": 179630,
+          "end_ms": 180337
+        },
+        {
+          "text": "sufit",
+          "start_ms": 182837,
+          "end_ms": 183545
+        }
+      ]
+    },
+    {
+      "id": 155,
+      "kind": "vocabulary",
+      "start_ms": 186045,
+      "end_ms": 195370,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "flyga",
+        "start_ms": 186045,
+        "end_ms": 186934
+      },
+      "target_playbacks": [
+        {
+          "text": "latać",
+          "start_ms": 188934,
+          "end_ms": 189652
+        },
+        {
+          "text": "latać",
+          "start_ms": 192152,
+          "end_ms": 192870
+        }
+      ]
+    },
+    {
+      "id": 156,
+      "kind": "vocabulary",
+      "start_ms": 195370,
+      "end_ms": 205735,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "under taket",
+        "start_ms": 195370,
+        "end_ms": 196613
+      },
+      "target_playbacks": [
+        {
+          "text": "pod sufitem",
+          "start_ms": 198613,
+          "end_ms": 199674
+        },
+        {
+          "text": "pod sufitem",
+          "start_ms": 202174,
+          "end_ms": 203235
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "kind": "vocabulary",
+      "start_ms": 205735,
+      "end_ms": 215611,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "i mitten",
+        "start_ms": 205735,
+        "end_ms": 206667
+      },
+      "target_playbacks": [
+        {
+          "text": "na środku",
+          "start_ms": 208667,
+          "end_ms": 209639
+        },
+        {
+          "text": "na środku",
+          "start_ms": 212139,
+          "end_ms": 213111
+        }
+      ]
+    },
+    {
+      "id": 150,
+      "kind": "vocabulary",
+      "start_ms": 215611,
+      "end_ms": 225230,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "gå ner",
+        "start_ms": 215611,
+        "end_ms": 216556
+      },
+      "target_playbacks": [
+        {
+          "text": "schodzić",
+          "start_ms": 218556,
+          "end_ms": 219393
+        },
+        {
+          "text": "schodzić",
+          "start_ms": 221893,
+          "end_ms": 222730
+        }
+      ]
+    },
+    {
+      "id": 153,
+      "kind": "vocabulary",
+      "start_ms": 225230,
+      "end_ms": 234603,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "böcker",
+        "start_ms": 225230,
+        "end_ms": 225933
+      },
+      "target_playbacks": [
+        {
+          "text": "książki",
+          "start_ms": 227933,
+          "end_ms": 228768
+        },
+        {
+          "text": "książki",
+          "start_ms": 231268,
+          "end_ms": 232103
+        }
+      ]
+    },
+    {
+      "id": 154,
+      "kind": "vocabulary",
+      "start_ms": 234603,
+      "end_ms": 244015,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "några",
+        "start_ms": 234603,
+        "end_ms": 235457
+      },
+      "target_playbacks": [
+        {
+          "text": "niektóre",
+          "start_ms": 237457,
+          "end_ms": 238236
+        },
+        {
+          "text": "niektóre",
+          "start_ms": 240736,
+          "end_ms": 241515
+        }
+      ]
+    }
+  ],
+  "book_introduction": null,
+  "chapter_introduction": {
+    "text": "Schody w dół.",
+    "start_ms": 1000,
+    "end_ms": 2872
+  },
+  "transitions": [
+    {
+      "kind": "chime",
+      "from": "story",
+      "to": "practice",
+      "start_ms": 30960,
+      "end_ms": 31580
+    },
+    {
+      "kind": "chime",
+      "from": "practice",
+      "to": "story",
+      "start_ms": 244015,
+      "end_ms": 244635
+    }
+  ],
+  "chapter_readings": [
+    {
+      "text": "Maja przekręca klucz. Klik! Drzwi się otwierają. W dół prowadzą kamienne schody. Na ścianach rosną świecące na niebiesko kwiaty. Dzieci schodzą do wielkiego pokoju. Wszędzie stoją książki – niektóre latają pod sufitem! Na środku stoi drugie radio.",
+      "start_ms": 5372,
+      "end_ms": 28460
+    },
+    {
+      "text": "Maja przekręca klucz. Klik! Drzwi się otwierają. W dół prowadzą kamienne schody. Na ścianach rosną świecące na niebiesko kwiaty. Dzieci schodzą do wielkiego pokoju. Wszędzie stoją książki – niektóre latają pod sufitem! Na środku stoi drugie radio.",
+      "start_ms": 247135,
+      "end_ms": 270223
+    }
+  ],
+  "chapter_reading": {
+    "text": "Maja przekręca klucz. Klik! Drzwi się otwierają. W dół prowadzą kamienne schody. Na ścianach rosną świecące na niebiesko kwiaty. Dzieci schodzą do wielkiego pokoju. Wszędzie stoją książki – niektóre latają pod sufitem! Na środku stoi drugie radio.",
+    "start_ms": 247135,
+    "end_ms": 270223
+  },
+  "narration": {
+    "engine": "azure",
+    "voice": "pl-PL-Harper:MAI-Voice-2.1",
+    "style": "audiobook",
+    "rate": "-12%",
+    "locale": "pl-PL",
+    "capabilities": {
+      "voice": "pl-PL-Harper:MAI-Voice-2.1",
+      "locale": "pl-PL",
+      "advertised_styles": [
+        "agent",
+        "audiobook",
+        "customer_call_center",
+        "educational",
+        "narrator"
+      ]
+    },
+    "ssml": "<speak xmlns:mstts=\"http://www.w3.org/2001/mstts\" version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"pl-PL\"><voice name=\"pl-PL-Harper:MAI-Voice-2.1\"><mstts:express-as style=\"audiobook\"><prosody rate=\"-12%\"><p>Maja przekręca klucz. Klik! Drzwi się otwierają. W dół prowadzą kamienne schody. Na ścianach rosną świecące na niebiesko kwiaty. Dzieci schodzą do wielkiego pokoju. Wszędzie stoją książki – niektóre latają pod sufitem! Na środku stoi drugie radio.</p></prosody></mstts:express-as></voice></speak>"
+  },
+  "audio_file": "04_chapter_04_sv_pl_2026-10-28_15-07-18.mp3"
+}

@@ -46,6 +46,85 @@ def mini_story() -> dict:
 
 
 class StoryCourseTests(unittest.TestCase):
+    def test_azure_is_default_and_practice_stays_on_edge_for_all_languages(self):
+        azure = story_course._azure()
+        self.assertEqual(story_course.create_parser().parse_args([]).narration_engine, "azure")
+        for source_language, target in (("sv", "pl"), ("pl", "sv"), ("sv", "en")):
+            with self.subTest(target=target), tempfile.TemporaryDirectory() as directory:
+                root = Path(directory)
+                transcript = root / "transcript.json"
+                transcript.write_text(json.dumps(mini_story()), encoding="utf-8")
+                source = root / "pl.txt"
+                source.write_text("Rozdział 1: Kot\nKot śpi.", encoding="utf-8")
+                passage = {
+                    "text": mini_story()["chapters"][0]["chapter_text"][target],
+                    "intent": "Gentle narration", "rate": "-15%",
+                    "pitch": "+2%", "volume": "-5%", "pause_after_ms": 0,
+                }
+                (root / "delivery.json").write_text(json.dumps([passage]), encoding="utf-8")
+                (root / "narration.json").write_text(
+                    json.dumps({target: {"1": "delivery.json"}}), encoding="utf-8",
+                )
+                args = story_course.create_parser().parse_args([
+                    "--transcript", str(transcript), "--source-text", str(source),
+                    "--output", str(root / "audio"), "--cache", str(root / "cache"),
+                    "--build-manifest", str(root / "manifest.json"),
+                    "--source-language", source_language, "--target", target, "--format", "wav",
+                ])
+                with patch.object(story_course, "_azure", return_value=azure), patch.object(
+                    azure, "check_voice", return_value={"advertised_styles": ["audiobook"]}
+                ), patch.object(
+                    story_course, "_clip", new_callable=AsyncMock, return_value=tone()
+                ) as practice, patch.object(
+                    story_course, "_narration_clip", new_callable=AsyncMock, return_value=tone()
+                ) as narration:
+                    result = asyncio.run(story_course.render_story(args))
+                self.assertEqual(practice.await_count, 2)
+                self.assertEqual(narration.await_count, 3)
+                data = result["chapters"]["1"]["targets"][target]
+                settings = data["narration"]
+                title = data["chapter_introduction"]
+                self.assertEqual(title["text"], f'{mini_story()["chapters"][0]["titles"][target]}.')
+                self.assertLess(title["end_ms"], data["chapter_readings"][0]["start_ms"])
+                self.assertIn(title["text"], narration.await_args_list[1].args[0])
+                self.assertEqual(len(data["chapter_readings"]), 2)
+                self.assertEqual(data["sequence"], ["story", "practice", "story"])
+                with (args.output / data["audio_file"]).open("rb") as audio_file:
+                    decoded = AudioSegment.from_file(audio_file)
+                before, after = data["chapter_readings"]
+                self.assertEqual(
+                    decoded[before["start_ms"]:before["end_ms"]].raw_data,
+                    decoded[after["start_ms"]:after["end_ms"]].raw_data,
+                )
+                self.assertEqual(settings["voice"], azure.NARRATION_VOICES[target])
+                self.assertEqual(settings["style"], "audiobook")
+                self.assertIn(azure.LOCALES[target], settings["ssml"])
+                self.assertIn('volume="-5%"', settings["ssml"])
+                self.assertIn('rate="-15%"', settings["ssml"])
+                previous_manifest = args.build_manifest.read_bytes()
+                with patch.object(story_course, "_azure", return_value=azure), patch.object(
+                    azure, "check_voice", side_effect=RuntimeError("Azure unavailable")
+                ), patch.object(story_course, "_clip", new_callable=AsyncMock) as practice:
+                    with self.assertRaisesRegex(RuntimeError, "Azure unavailable"):
+                        asyncio.run(story_course.render_story(args))
+                    practice.assert_not_awaited()
+                self.assertEqual(args.build_manifest.read_bytes(), previous_manifest)
+
+    def test_azure_cache_reuses_audio_and_keys_include_ssml(self):
+        azure = story_course._azure()
+        import io
+        buffer = io.BytesIO()
+        tone().export(buffer, format="mp3")
+        with tempfile.TemporaryDirectory() as directory, patch.object(
+            story_course, "_azure", return_value=azure
+        ), patch.object(azure, "synthesize", return_value=buffer.getvalue()) as synthesis:
+            for ssml in ("first", "first", "changed"):
+                clip = asyncio.run(story_course._narration_clip(
+                    ssml, Path(directory), "fake", "swedencentral"
+                ))
+                self.assertEqual(clip.frame_rate, 44100)
+            self.assertEqual(synthesis.call_count, 2)
+
     def test_real_story_validates_and_reconstructs_source(self):
         story = story_course.load_transcript(
             ROOT / "courses/swedish-polish/stories/magical_radio/generated/transcript.json",
@@ -124,7 +203,7 @@ class StoryCourseTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "LANG=VALUE"):
             story_course._parse_language_settings(["pl"], "--voice")
 
-    def test_practice_precedes_complete_chapter_reading(self):
+    def test_identical_chapter_readings_surround_practice(self):
         chapter = mini_story()["chapters"][0]
         clips = {1: (tone(), tone())}
         track, manifest = story_course._compose_track(
@@ -136,6 +215,7 @@ class StoryCourseTests(unittest.TestCase):
             lead_in_ms=10,
             thinking_ms=20,
             repetition_ms=30,
+            chapter_intro_clip=tone(150),
         )
         self.assertEqual([entry["kind"] for entry in manifest["practice"]], [
             "vocabulary"
@@ -147,11 +227,50 @@ class StoryCourseTests(unittest.TestCase):
             first, second = entry["target_playbacks"]
             self.assertEqual(first["start_ms"] - prompt["end_ms"], 20)
             self.assertEqual(second["start_ms"] - first["end_ms"], 30)
+        self.assertEqual(manifest["sequence"], ["story", "practice", "story"])
+        before, after = manifest["chapter_readings"]
+        self.assertEqual(manifest["chapter_introduction"]["start_ms"], 10)
+        self.assertEqual(before["start_ms"], 190)
+        self.assertEqual(before["text"], "Katten sover.")
+        self.assertEqual(after["text"], before["text"])
+        cue = story_course._transition_cue()
+        self.assertEqual(
+            manifest["practice"][0]["start_ms"] - before["end_ms"], 60 + len(cue)
+        )
+        self.assertEqual(after, manifest["chapter_reading"])
+        for reading in (before, after):
+            self.assertEqual(
+                track[reading["start_ms"]:reading["end_ms"]].raw_data,
+                tone(300).raw_data,
+            )
         self.assertEqual(
             manifest["chapter_reading"]["start_ms"],
-            manifest["practice"][-1]["end_ms"],
+            manifest["practice"][-1]["end_ms"] + len(cue) + 30,
         )
         self.assertEqual(track[manifest["chapter_reading"]["start_ms"]:].rms, tone(300).rms)
+        to_practice, to_story = manifest["transitions"]
+        self.assertEqual((to_practice["from"], to_practice["to"]), ("story", "practice"))
+        self.assertEqual((to_story["from"], to_story["to"]), ("practice", "story"))
+        self.assertEqual(to_practice["start_ms"], before["end_ms"] + 30)
+        self.assertEqual(to_practice["end_ms"] + 30, manifest["practice"][0]["start_ms"])
+        self.assertEqual(to_story["start_ms"], manifest["practice"][-1]["end_ms"])
+        self.assertEqual(to_story["end_ms"] + 30, after["start_ms"])
+        for transition in manifest["transitions"]:
+            self.assertEqual(
+                track[transition["start_ms"]:transition["end_ms"]].raw_data,
+                cue.raw_data,
+            )
+
+    def test_transition_cue_is_short_quiet_and_fades_without_clicks(self):
+        cue = story_course._transition_cue()
+        self.assertEqual(cue.frame_rate, 44100)
+        self.assertEqual(len(cue), 620)
+        self.assertGreater(cue.rms, 0)
+        self.assertLessEqual(cue.max_dBFS, -23.9)
+        self.assertEqual(cue[220:300].rms, 0)
+        samples = cue.get_array_of_samples()
+        self.assertEqual(samples[0], 0)
+        self.assertLess(abs(samples[-1]) / 32768, 0.0002)
 
     def test_vocabulary_practice_order_is_shuffled_and_reproducible(self):
         chapter = mini_story()["chapters"][0]
@@ -166,37 +285,48 @@ class StoryCourseTests(unittest.TestCase):
             })
         clips = {identifier: (tone(), tone()) for identifier in range(1, 7)}
         first_manifest = story_course._compose_track(
-            chapter, "sv", "pl", clips, tone(300), 10, 20, 30
+            chapter, "sv", "pl", clips, tone(300), 10, 20, 30,
+            chapter_intro_clip=tone(150),
         )[1]
         second_manifest = story_course._compose_track(
-            chapter, "sv", "pl", clips, tone(300), 10, 20, 30
+            chapter, "sv", "pl", clips, tone(300), 10, 20, 30,
+            chapter_intro_clip=tone(150),
         )[1]
         first_order = [entry["id"] for entry in first_manifest["practice"]]
         self.assertNotEqual(first_order, list(range(1, 7)))
         self.assertEqual(first_order, [entry["id"] for entry in second_manifest["practice"]])
         self.assertEqual(first_manifest["practice_order"], "deterministically_shuffled")
 
-    def test_book_title_is_introduced_before_practice_in_first_chapter_only(self):
+    def test_book_title_is_introduced_before_first_reading_in_first_chapter_only(self):
         chapter = mini_story()["chapters"][0]
         _, first = story_course._compose_track(
             chapter, "pl", "sv", {1: (tone(), tone())}, tone(300),
             10, 20, 30, story_title="Kot. Wielka przygoda",
             book_intro_clip=tone(150),
+            chapter_intro_clip=tone(150),
         )
         self.assertEqual(first["book_introduction"]["text"], "Kot. Wielka przygoda.")
         self.assertEqual(first["book_introduction"]["start_ms"], 10)
         self.assertEqual(
-            first["practice"][0]["start_ms"],
-            first["book_introduction"]["end_ms"],
+            first["chapter_introduction"]["start_ms"],
+            first["book_introduction"]["end_ms"] + 30,
+        )
+        self.assertEqual(first["chapter_introduction"]["text"], "Kot.")
+        self.assertEqual(
+            first["chapter_readings"][0]["start_ms"],
+            first["chapter_introduction"]["end_ms"] + 30,
         )
         self.assertEqual(first["chapter_reading"]["text"], "Kot śpi.")
         second_chapter = {**chapter, "chapter_number": 2}
         _, second = story_course._compose_track(
             second_chapter, "pl", "sv", {1: (tone(), tone())}, tone(300),
             10, 20, 30, story_title="Kot. Wielka przygoda",
+            chapter_intro_clip=tone(150),
         )
         self.assertIsNone(second["book_introduction"])
         self.assertEqual(second["chapter_reading"]["text"], "Kot śpi.")
+        self.assertEqual(second["chapter_introduction"]["start_ms"], 10)
+        self.assertEqual(second["chapter_readings"][0]["start_ms"], 190)
 
     def test_render_exports_all_targets_and_timestamp_manifests(self):
         with tempfile.TemporaryDirectory() as directory:
@@ -209,6 +339,7 @@ class StoryCourseTests(unittest.TestCase):
             transcript.write_text(json.dumps(mini_story()), encoding="utf-8")
             source.write_text("Rozdział 1: Kot\nKot śpi.", encoding="utf-8")
             args = story_course.create_parser().parse_args([
+                "--narration-engine", "edge",
                 "--transcript", str(transcript),
                 "--source-text", str(source),
                 "--output", str(output),
@@ -229,6 +360,22 @@ class StoryCourseTests(unittest.TestCase):
                 manifest = json.loads((output / data["manifest_file"]).read_text())
                 self.assertEqual(manifest["target_language"], target)
                 self.assertEqual(len(manifest["practice"]), 1)
+                self.assertEqual(len(manifest["chapter_readings"]), 2)
+                self.assertEqual(data["chapter_readings"], manifest["chapter_readings"])
+                self.assertEqual(data["sequence"], ["story", "practice", "story"])
+                self.assertEqual(data["transitions"], manifest["transitions"])
+                self.assertEqual(data["chapter_introduction"], manifest["chapter_introduction"])
+                self.assertEqual(
+                    manifest["chapter_introduction"]["text"],
+                    f'{mini_story()["chapters"][0]["titles"][target]}.',
+                )
+
+    def test_missing_chapter_title_clip_is_rejected(self):
+        with self.assertRaisesRegex(ValueError, "chapter title clip"):
+            story_course._compose_track(
+                mini_story()["chapters"][0], "pl", "sv",
+                {1: (tone(), tone())}, tone(300), 10, 20, 30,
+            )
 
     def test_story_packaging_appends_to_existing_matching_feed(self):
         source_catalog = ROOT / "podcast/swedish-polish/course.json"
@@ -300,6 +447,11 @@ class StoryCourseTests(unittest.TestCase):
             self.assertEqual((added["season"], added["episode"]), (2, 1))
             self.assertEqual(added["file"], f"stories/test_story/{audio_name}")
             self.assertEqual(added["image"], "images/stories/test_story/cover.jpeg")
+            self.assertEqual(
+                added["description"],
+                "Lyssna på ett kapitel ur berättelsen Testowa historia på polska, "
+                "öva orden med svenska ledtrådar och lyssna sedan på kapitlet igen.",
+            )
             self.assertEqual((course / added["image"]).read_bytes(), b"story cover")
             self.assertEqual((course / "cover.jpeg").read_bytes(), b"existing cover")
             feed = ET.parse(course / "feed.xml")
@@ -315,7 +467,22 @@ class StoryCourseTests(unittest.TestCase):
             self.assertEqual(
                 (audio_dir / added["file"]).read_bytes(), b"story audio"
             )
+            self.assertFalse((audio_source_dir / audio_name).exists())
+            self.assertEqual(
+                build["chapters"]["1"]["targets"]["pl"]["packaged_audio"],
+                f"swedish-polish/audio/stories/test_story/{audio_name}",
+            )
             story_course.package_podcasts(args, transcript, build)
+            self.assertEqual(
+                (audio_dir / added["file"]).read_bytes(), b"story audio"
+            )
+            (audio_source_dir / audio_name).write_bytes(b"story audio")
+            story_course.package_podcasts(args, transcript, build)
+            self.assertFalse((audio_source_dir / audio_name).exists())
+            (audio_source_dir / audio_name).write_bytes(b"changed audio")
+            with self.assertRaisesRegex(FileExistsError, "different episode audio"):
+                story_course.package_podcasts(args, transcript, build)
+            (audio_source_dir / audio_name).unlink()
             rerun = json.loads(catalog_path.read_text(encoding="utf-8"))
             self.assertEqual(len(rerun["episodes"]), 3)
             self.assertEqual(rerun["episodes"][2]["published"], added["published"])
@@ -336,6 +503,7 @@ class StoryCourseTests(unittest.TestCase):
             transcript.write_text(json.dumps(mini_story()), encoding="utf-8")
             source.write_text("Rozdział 1: Kot\nKot śpi.", encoding="utf-8")
             args = story_course.create_parser().parse_args([
+                "--narration-engine", "edge",
                 "--transcript", str(transcript),
                 "--source-text", str(source),
                 "--output", str(output),

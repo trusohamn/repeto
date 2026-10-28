@@ -33,6 +33,10 @@ does not synthesize audio or submit shows to Spotify.
    within 1 ms of its manifest, nonempty speech segments, segment bounds, and
    the configured opening/think/repetition pauses. Reject preview-length,
    missing, corrupt, stale, or incomplete topics; report the exact failure.
+   For new story renders, check narration provenance (Azure voice, style,
+   locale, and SSML) separately from Edge vocabulary practice. Preserve the
+   exact configured chapter text and use the new render's timing; never reuse
+   old Edge chapter timestamps for Azure narration.
 6. For a new podcast show, require a cover and inspect its actual
    format/dimensions. Spotify artwork should be square JPEG, 1400-3000 pixels
    per side. When adding to an existing show, keep its existing cover and
@@ -113,7 +117,11 @@ For a story that belongs in an existing language-direction show, use
 `code/story_course.py --package-podcast --podcast-course <slug>`. This
 appends its chapters as a new season, preserves the existing show metadata,
 episode GUIDs, and publication dates, and stores the MP3s under
-`audio/stories/<story-id>/`. Use a separate feed only when explicitly requested.
+`audio/stories/<story-id>/`. Packaging moves each rendered MP3 there rather
+than copying it, so only one copy exists; the timing JSON stays in the story's
+`generated/audio/` folder and the build manifest records `packaged_audio`.
+Reruns accept already-moved audio and refuse to overwrite different audio.
+Use a separate feed only when explicitly requested.
 
 ## Publish only when authorized
 

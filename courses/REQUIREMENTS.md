@@ -138,20 +138,52 @@ inget fast antal: välj täckning efter kapitlets innehåll och svårighetsgrad.
 
 ### Ljudgenerering och konfiguration
 
+Hela kapitel och boktiteln använder som standard Azure Speech, Harper
+MAI-Voice-2.1 med stilen `audiobook` och hastigheten `-12%`. Svenska, polska
+och engelska har egna röstmodeller. Uppläsningsspråket styr röstvalet,
+oberoende av barnets modersmål. Ordövningar använder fortsatt Edge TTS.
+Azure-inställningar anges separat med `--narration-voice`,
+`--narration-rate` och `--narration-style`. Fel får inte ge tyst återgång till
+Edge; äldre beteende väljs uttryckligen med `--narration-engine edge`.
+
+Godkända kapitelanvisningar registreras i `generated/narration.json` som
+språkkod -> kapitelnummer -> passagearray eller relativ JSON-fil. Texten
+ska rekonstruera originalkapitlet exakt. Saknade anvisningar ger vanlig
+sammanhängande audiobook-uppläsning, inte påstått handregisserat ljud.
+Manifestet ska innehålla uppläsningsmotor, röst, stil, språk och exakt SSML.
+
 Ljudet för varje kapitel ska spelas i denna ordning:
 
+Varje inspelning inleds med kapitlets titel på målspråket, med samma röst
+som berättelsen och repetitionspausen före första uppläsningen. I kapitel 1
+kommer boktiteln först. Kapitelrubriken sägs bara en gång och registreras
+med text och tidsstämplar i `chapter_introduction` i båda manifesten.
+
 1. **Boktitel:** i kapitel 1 sägs bokens titel en gång i början, före
-   ordövningen. Titeln ska inte läsas upp igen i kapiteltexten.
-2. **Ordövning:** öva bara ord och uttryck i kapitlets `vocabulary`, i en
+   första uppläsningen. Titeln ska inte läsas upp igen i kapiteltexten.
+2. **Första lyssningen:** spela hela kapitlet sammanhängande på målspråket,
+   så att barnet hör orden i sitt sammanhang före övningen.
+3. **Ordövning:** öva bara ord och uttryck i kapitlets `vocabulary`, i en
    deterministiskt slumpad ordning som skiljer sig från berättelsens kronologi.
    Ordningen blandas separat per kapitel och är densamma vid omrendering, så
    ljudet blir reproducerbart. Spela varje uttryck på barnets modersmål en gång
    som ledtråd, därefter uttrycket på målspråket två gånger, med pauser.
-3. **Hela kapitlet:** spela därefter hela kapitlets sammanhängande original-/måltext en gång på målspråket. Översätt inte och öva inte berättelsens enskilda meningar var för sig.
+4. **Andra lyssningen:** spela samma kapitelinspelning igen efter övningen.
+   Återanvänd exakt samma ljudklipp utan ett nytt TTS-anrop. Översätt inte
+   och öva inte berättelsens enskilda meningar var för sig.
+
+Använd den konfigurerade repetitionspausen mellan delarna (standard 2,5 sekunder).
+Markera båda övergångarna mellan berättelse och övning med en mjuk tvåtonssignal
+(620 ms), med repetitionspausen före och efter. Signalen skapas lokalt och
+dess riktning och tidsstämplar sparas i `transitions`.
+Manifestets `sequence` är `["story", "practice", "story"]`.
+`chapter_readings` innehåller båda uppläsningarnas text och tidsstämplar i
+kronologisk ordning. Behåll `chapter_reading` för den sista uppläsningen
+så att befintliga verktyg fortsätter fungera.
 
 Övningssekvensen följer den befintliga Repeto-modellen: svensk ledtråd, två sekunders tänkepaus, polsk målfras, 2,5 sekunders repetitionspaus, samma polska fras igen och därefter 2,5 sekunders paus. Övningsfraserna blandas deterministiskt per kapitel, utan att ändra berättelsetexten eller transkriptets permanenta ID:n. Pauser och varje delsegments tidsstämplar dokumenteras i manifestet. Kapiteluppläsningen använder hela `chapter_text`-strängen på målspråket som en enda sammanhängande text. Kapitel 1:s boksintroduktion och dess tidsstämpel dokumenteras separat i manifestet.
 
-Som standard används svenska (`sv`) som ledtråds-/modersmål och polska (`pl`) som målspråk. Den polska originaltexten läses sedan upp en gång som hela kapitlet. Nya språk ska kunna läggas till utan ändringar i ljudmotorn: vokabulär har parallella texter för övningsspråken, medan varje kapitel har en hel `chapter_text` per tillgängligt uppläsningsspråk. Berättelsens meningar behöver inte segmenteras eller översättas individuellt. Källspråk, ett eller flera målspråk, röstval och röstinställningar, pauslängder, sökvägar, utdataformat och eventuella varaktighetsgränser ska kunna anges som kommandoradsargument (CLI-flaggor/”props”), inte vara hårdkodade. Standardvärden ska vara dokumenterade och kunna åsidosättas.
+Som standard används svenska (`sv`) som ledtråds-/modersmål och polska (`pl`) som målspråk. Hela den polska originaltexten spelas före ordövningen och en gång till efteråt. Nya språk ska kunna läggas till utan ändringar i ljudmotorn: vokabulär har parallella texter för övningsspråken, medan varje kapitel har en hel `chapter_text` per tillgängligt uppläsningsspråk. Berättelsens meningar behöver inte segmenteras eller översättas individuellt. Källspråk, ett eller flera målspråk, röstval och röstinställningar, pauslängder, sökvägar, utdataformat och eventuella varaktighetsgränser ska kunna anges som kommandoradsargument (CLI-flaggor/”props”), inte vara hårdkodade. Standardvärden ska vara dokumenterade och kunna åsidosättas.
 
 Transkriptet innehåller innehåll och översättningar. Manifestet innehåller genereringsinställningar, röstval, ljud- och kapiteltidsstämplar samt Spotify-/podcastmetadata. Validera hela kapitelutdata innan den publiceras; ett ofullständigt kapitel får inte presenteras som färdigt.
 
@@ -164,7 +196,7 @@ jämför det polska originalet mot samtliga kapitelmeningar:
 .venv/bin/python code/story_course.py --list
 ```
 
-Generera som standard polsk vokabulärövning med långsamma svenska ledtrådar och därefter uppläsning av hela kapitlet på polska:
+Generera som standard hela kapitlet på polska, ordövning med långsamma svenska ledtrådar och samma kapitel en gång till:
 
 ```sh
 .venv/bin/python code/story_course.py --source-language sv --target pl
@@ -172,11 +204,16 @@ Generera som standard polsk vokabulärövning med långsamma svenska ledtrådar 
 
 Använd `--help` för alla alternativ. Källspråk, mål, röster (`--voice LANG=VOICE`), hastigheter (`--rate LANG=RATE`), tonhöjd (`--pitch LANG=PITCH`), pauser, ljudformat, varaktighetsgräns, transkript, cache och utdatasökvägar är konfigurerbara. En varaktighetsgräns avvisar ett helt kapitel som överskrider gränsen; den skapar aldrig ett ofullständigt slutspår.
 
-Standardhastigheten för polska och svenska är `-15%`; svenska är avsiktligt långsammare för tydligare uttal.
+Standardhastigheten för polska och svenska i Edge-ordövningar är `-15%`;
+svenska är avsiktligt långsammare för tydligare uttal. Azure-uppläsning
+använder separat hastighet och eventuella kapitelanvisningar.
 
 Podcastflöden skapas bara med `--package-podcast`. När en berättelse läggs till
 i en befintlig språkshow används showens befintliga omslag och ägaruppgifter;
-kapitlen läggs till som en ny säsong under `audio/stories/<story-id>/`. En ny,
+kapitlen läggs till som en ny säsong under `audio/stories/<story-id>/`.
+Paketeringen flyttar MP3-filen dit i stället för att kopiera den, så varje
+avsnitt finns bara en gång. Tidsstämpel-JSON stannar i `generated/audio/`, och
+byggmanifestet anger `packaged_audio`. En ny,
 separat show kräver omslagsbild och kontaktadress för RSS. Ljudfiler och flöden
 publiceras inte automatiskt till Spotify. Publicering sker först efter separat
 commit/push och en lyckad GitHub Pages-deploy.

@@ -1,0 +1,586 @@
+{
+  "chapter_number": 1,
+  "title": {
+    "pl": "Stary stół",
+    "sv": "Det gamla bordet",
+    "en": "The Old Table"
+  },
+  "source_language": "sv",
+  "target_language": "pl",
+  "practice_order": "deterministically_shuffled",
+  "sequence": [
+    "story",
+    "practice",
+    "story"
+  ],
+  "total_duration_ms": 311806,
+  "practice": [
+    {
+      "id": 210,
+      "kind": "vocabulary",
+      "start_ms": 53716,
+      "end_ms": 62706,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "stå",
+        "start_ms": 53716,
+        "end_ms": 54436
+      },
+      "target_playbacks": [
+        {
+          "text": "stać",
+          "start_ms": 56436,
+          "end_ms": 57071
+        },
+        {
+          "text": "stać",
+          "start_ms": 59571,
+          "end_ms": 60206
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "kind": "vocabulary",
+      "start_ms": 62706,
+      "end_ms": 74814,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "spärra upp ögonen",
+        "start_ms": 62706,
+        "end_ms": 64518
+      },
+      "target_playbacks": [
+        {
+          "text": "otworzyć szeroko oczy",
+          "start_ms": 66518,
+          "end_ms": 68166
+        },
+        {
+          "text": "otworzyć szeroko oczy",
+          "start_ms": 70666,
+          "end_ms": 72314
+        }
+      ]
+    },
+    {
+      "id": 114,
+      "kind": "vocabulary",
+      "start_ms": 74814,
+      "end_ms": 85583,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "är sex år",
+        "start_ms": 74814,
+        "end_ms": 76061
+      },
+      "target_playbacks": [
+        {
+          "text": "ma sześć lat",
+          "start_ms": 78061,
+          "end_ms": 79322
+        },
+        {
+          "text": "ma sześć lat",
+          "start_ms": 81822,
+          "end_ms": 83083
+        }
+      ]
+    },
+    {
+      "id": 115,
+      "kind": "vocabulary",
+      "start_ms": 85583,
+      "end_ms": 95162,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "tillsammans",
+        "start_ms": 85583,
+        "end_ms": 86858
+      },
+      "target_playbacks": [
+        {
+          "text": "razem",
+          "start_ms": 88858,
+          "end_ms": 89510
+        },
+        {
+          "text": "razem",
+          "start_ms": 92010,
+          "end_ms": 92662
+        }
+      ]
+    },
+    {
+      "id": 122,
+      "kind": "vocabulary",
+      "start_ms": 95162,
+      "end_ms": 105175,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "dyka upp",
+        "start_ms": 95162,
+        "end_ms": 96221
+      },
+      "target_playbacks": [
+        {
+          "text": "pojawić się",
+          "start_ms": 98221,
+          "end_ms": 99198
+        },
+        {
+          "text": "pojawić się",
+          "start_ms": 101698,
+          "end_ms": 102675
+        }
+      ]
+    },
+    {
+      "id": 111,
+      "kind": "vocabulary",
+      "start_ms": 105175,
+      "end_ms": 114668,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "lördag",
+        "start_ms": 105175,
+        "end_ms": 105986
+      },
+      "target_playbacks": [
+        {
+          "text": "sobota",
+          "start_ms": 107986,
+          "end_ms": 108827
+        },
+        {
+          "text": "sobota",
+          "start_ms": 111327,
+          "end_ms": 112168
+        }
+      ]
+    },
+    {
+      "id": 211,
+      "kind": "vocabulary",
+      "start_ms": 114668,
+      "end_ms": 126221,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "gå på loppmarknad",
+        "start_ms": 114668,
+        "end_ms": 116273
+      },
+      "target_playbacks": [
+        {
+          "text": "iść na pchli targ",
+          "start_ms": 118273,
+          "end_ms": 119747
+        },
+        {
+          "text": "iść na pchli targ",
+          "start_ms": 122247,
+          "end_ms": 123721
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "kind": "vocabulary",
+      "start_ms": 126221,
+      "end_ms": 136247,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "loppmarknad",
+        "start_ms": 126221,
+        "end_ms": 127405
+      },
+      "target_playbacks": [
+        {
+          "text": "pchli targ",
+          "start_ms": 129405,
+          "end_ms": 130326
+        },
+        {
+          "text": "pchli targ",
+          "start_ms": 132826,
+          "end_ms": 133747
+        }
+      ]
+    },
+    {
+      "id": 200,
+      "kind": "vocabulary",
+      "start_ms": 136247,
+      "end_ms": 144861,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "när",
+        "start_ms": 136247,
+        "end_ms": 136891
+      },
+      "target_playbacks": [
+        {
+          "text": "gdy",
+          "start_ms": 138891,
+          "end_ms": 139376
+        },
+        {
+          "text": "gdy",
+          "start_ms": 141876,
+          "end_ms": 142361
+        }
+      ]
+    },
+    {
+      "id": 117,
+      "kind": "vocabulary",
+      "start_ms": 144861,
+      "end_ms": 155156,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "ett gammalt bord",
+        "start_ms": 144861,
+        "end_ms": 146244
+      },
+      "target_playbacks": [
+        {
+          "text": "stary stół",
+          "start_ms": 148244,
+          "end_ms": 149200
+        },
+        {
+          "text": "stary stół",
+          "start_ms": 151700,
+          "end_ms": 152656
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "kind": "vocabulary",
+      "start_ms": 155156,
+      "end_ms": 166358,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "gyllene inskription",
+        "start_ms": 155156,
+        "end_ms": 156888
+      },
+      "target_playbacks": [
+        {
+          "text": "złoty napis",
+          "start_ms": 158888,
+          "end_ms": 160123
+        },
+        {
+          "text": "złoty napis",
+          "start_ms": 162623,
+          "end_ms": 163858
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "kind": "vocabulary",
+      "start_ms": 166358,
+      "end_ms": 176746,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "susa tyst",
+        "start_ms": 166358,
+        "end_ms": 167606
+      },
+      "target_playbacks": [
+        {
+          "text": "cicho szumieć",
+          "start_ms": 169606,
+          "end_ms": 170676
+        },
+        {
+          "text": "cicho szumieć",
+          "start_ms": 173176,
+          "end_ms": 174246
+        }
+      ]
+    },
+    {
+      "id": 119,
+      "kind": "vocabulary",
+      "start_ms": 176746,
+      "end_ms": 186460,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "på bordet",
+        "start_ms": 176746,
+        "end_ms": 177752
+      },
+      "target_playbacks": [
+        {
+          "text": "na stole",
+          "start_ms": 179752,
+          "end_ms": 180606
+        },
+        {
+          "text": "na stole",
+          "start_ms": 183106,
+          "end_ms": 183960
+        }
+      ]
+    },
+    {
+      "id": 120,
+      "kind": "vocabulary",
+      "start_ms": 186460,
+      "end_ms": 197465,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "komma närmare",
+        "start_ms": 186460,
+        "end_ms": 187701
+      },
+      "target_playbacks": [
+        {
+          "text": "podchodzić bliżej",
+          "start_ms": 189701,
+          "end_ms": 191083
+        },
+        {
+          "text": "podchodzić bliżej",
+          "start_ms": 193583,
+          "end_ms": 194965
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "kind": "vocabulary",
+      "start_ms": 197465,
+      "end_ms": 208662,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "gyllene rattar",
+        "start_ms": 197465,
+        "end_ms": 198798
+      },
+      "target_playbacks": [
+        {
+          "text": "złote pokrętła",
+          "start_ms": 200798,
+          "end_ms": 202230
+        },
+        {
+          "text": "złote pokrętła",
+          "start_ms": 204730,
+          "end_ms": 206162
+        }
+      ]
+    },
+    {
+      "id": 112,
+      "kind": "vocabulary",
+      "start_ms": 208662,
+      "end_ms": 219638,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "är nio år",
+        "start_ms": 208662,
+        "end_ms": 210045
+      },
+      "target_playbacks": [
+        {
+          "text": "ma dziewięć lat",
+          "start_ms": 212045,
+          "end_ms": 213341
+        },
+        {
+          "text": "ma dziewięć lat",
+          "start_ms": 215841,
+          "end_ms": 217138
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "kind": "vocabulary",
+      "start_ms": 219638,
+      "end_ms": 231112,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "färgade knappar",
+        "start_ms": 219638,
+        "end_ms": 221092
+      },
+      "target_playbacks": [
+        {
+          "text": "kolorowe przyciski",
+          "start_ms": 223092,
+          "end_ms": 224602
+        },
+        {
+          "text": "kolorowe przyciski",
+          "start_ms": 227102,
+          "end_ms": 228612
+        }
+      ]
+    },
+    {
+      "id": 113,
+      "kind": "vocabulary",
+      "start_ms": 231112,
+      "end_ms": 240945,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "hennes bror",
+        "start_ms": 231112,
+        "end_ms": 232247
+      },
+      "target_playbacks": [
+        {
+          "text": "jej brat",
+          "start_ms": 234247,
+          "end_ms": 235096
+        },
+        {
+          "text": "jej brat",
+          "start_ms": 237596,
+          "end_ms": 238445
+        }
+      ]
+    },
+    {
+      "id": 118,
+      "kind": "vocabulary",
+      "start_ms": 240945,
+      "end_ms": 252206,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "en radio av trä",
+        "start_ms": 240945,
+        "end_ms": 242582
+      },
+      "target_playbacks": [
+        {
+          "text": "drewniane radio",
+          "start_ms": 244582,
+          "end_ms": 245894
+        },
+        {
+          "text": "drewniane radio",
+          "start_ms": 248394,
+          "end_ms": 249706
+        }
+      ]
+    },
+    {
+      "id": 121,
+      "kind": "vocabulary",
+      "start_ms": 252206,
+      "end_ms": 261475,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "plötsligt",
+        "start_ms": 252206,
+        "end_ms": 253171
+      },
+      "target_playbacks": [
+        {
+          "text": "nagle",
+          "start_ms": 255171,
+          "end_ms": 255823
+        },
+        {
+          "text": "nagle",
+          "start_ms": 258323,
+          "end_ms": 258975
+        }
+      ]
+    },
+    {
+      "id": 116,
+      "kind": "vocabulary",
+      "start_ms": 261475,
+      "end_ms": 270838,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "i hörnet",
+        "start_ms": 261475,
+        "end_ms": 262504
+      },
+      "target_playbacks": [
+        {
+          "text": "w rogu",
+          "start_ms": 264504,
+          "end_ms": 265171
+        },
+        {
+          "text": "w rogu",
+          "start_ms": 267671,
+          "end_ms": 268338
+        }
+      ]
+    }
+  ],
+  "book_introduction": {
+    "text": "Magiczne Radio.",
+    "start_ms": 1000,
+    "end_ms": 2872
+  },
+  "chapter_introduction": {
+    "text": "Stary stół.",
+    "start_ms": 5372,
+    "end_ms": 7748
+  },
+  "transitions": [
+    {
+      "kind": "chime",
+      "from": "story",
+      "to": "practice",
+      "start_ms": 50596,
+      "end_ms": 51216
+    },
+    {
+      "kind": "chime",
+      "from": "practice",
+      "to": "story",
+      "start_ms": 270838,
+      "end_ms": 271458
+    }
+  ],
+  "chapter_readings": [
+    {
+      "text": "Jest sobota. Maja ma dziewięć lat, a jej brat Tomek ma sześć lat. Razem idą na pchli targ. W rogu stoi stary stół, a na stole – drewniane radio. Ma złote pokrętła i kolorowe przyciski. Gdy Maja podchodzi bliżej, radio nagle cicho szumi: Dzyń! Na radiu pojawia się złoty napis: „Dla Mai i Tomka”. Dzieci otwierają szeroko oczy.",
+      "start_ms": 10248,
+      "end_ms": 48096
+    },
+    {
+      "text": "Jest sobota. Maja ma dziewięć lat, a jej brat Tomek ma sześć lat. Razem idą na pchli targ. W rogu stoi stary stół, a na stole – drewniane radio. Ma złote pokrętła i kolorowe przyciski. Gdy Maja podchodzi bliżej, radio nagle cicho szumi: Dzyń! Na radiu pojawia się złoty napis: „Dla Mai i Tomka”. Dzieci otwierają szeroko oczy.",
+      "start_ms": 273958,
+      "end_ms": 311806
+    }
+  ],
+  "chapter_reading": {
+    "text": "Jest sobota. Maja ma dziewięć lat, a jej brat Tomek ma sześć lat. Razem idą na pchli targ. W rogu stoi stary stół, a na stole – drewniane radio. Ma złote pokrętła i kolorowe przyciski. Gdy Maja podchodzi bliżej, radio nagle cicho szumi: Dzyń! Na radiu pojawia się złoty napis: „Dla Mai i Tomka”. Dzieci otwierają szeroko oczy.",
+    "start_ms": 273958,
+    "end_ms": 311806
+  },
+  "narration": {
+    "engine": "azure",
+    "voice": "pl-PL-Harper:MAI-Voice-2.1",
+    "style": "audiobook",
+    "rate": "-12%",
+    "locale": "pl-PL",
+    "capabilities": {
+      "voice": "pl-PL-Harper:MAI-Voice-2.1",
+      "locale": "pl-PL",
+      "advertised_styles": [
+        "agent",
+        "audiobook",
+        "customer_call_center",
+        "educational",
+        "narrator"
+      ]
+    },
+    "ssml": "<speak xmlns:mstts=\"http://www.w3.org/2001/mstts\" version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"pl-PL\"><voice name=\"pl-PL-Harper:MAI-Voice-2.1\"><mstts:express-as style=\"audiobook\"><p><prosody rate=\"-12%\" pitch=\"+1%\" volume=\"+0%\">Jest sobota. Maja ma dziewięć lat, a jej brat Tomek ma sześć lat. Razem idą na pchli targ.</prosody><break time=\"250ms\" /><prosody rate=\"-14%\" pitch=\"+2%\" volume=\"+0%\">W rogu stoi stary stół, a na stole – drewniane radio. Ma złote pokrętła i kolorowe przyciski.</prosody><break time=\"350ms\" /><prosody rate=\"-18%\" pitch=\"-2%\" volume=\"-12%\" contour=\"(0%,+0%) (65%,-2%) (100%,-4%)\">Gdy Maja podchodzi bliżej, radio nagle cicho szumi:</prosody><break time=\"550ms\" /><prosody rate=\"-8%\" pitch=\"+8%\" volume=\"+5%\">Dzyń!</prosody><break time=\"400ms\" /><prosody rate=\"-15%\" pitch=\"+1%\" volume=\"+0%\">Na radiu pojawia się złoty napis:</prosody><break time=\"250ms\" /><prosody rate=\"-17%\" pitch=\"+3%\" volume=\"-5%\">„Dla Mai i Tomka”.</prosody><break time=\"450ms\" /><prosody rate=\"-14%\" pitch=\"+2%\" volume=\"+0%\" contour=\"(0%,+0%) (55%,+3%) (100%,-3%)\">Dzieci otwierają szeroko oczy.</prosody></p></mstts:express-as></voice></speak>"
+  },
+  "audio_file": "01_chapter_01_sv_pl_2026-10-28_15-07-18.mp3"
+}

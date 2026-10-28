@@ -5,6 +5,7 @@ from __future__ import annotations
 import argparse
 import asyncio
 import hashlib
+import io
 import importlib.util
 import json
 import logging
@@ -22,6 +23,7 @@ from urllib.parse import quote
 
 from aiohttp import ClientConnectionError
 from pydub import AudioSegment
+from pydub.generators import Sine
 
 ROOT = Path(__file__).resolve().parents[1]
 LANGUAGE_PATTERN = re.compile(r"^[a-z]{2}$")
@@ -36,6 +38,40 @@ DEFAULT_TARGETS = ("pl",)
 SAMPLE_RATE = 44100
 BITRATE = "192k"
 LOGGER = logging.getLogger(__name__)
+
+
+def _azure() -> Any:
+    path = ROOT / "code/azure_speech.py"
+    spec = importlib.util.spec_from_file_location("azure_speech", path)
+    if spec is None or spec.loader is None:
+        raise RuntimeError(f"Cannot load Azure helpers from {path}")
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    return module
+
+
+async def _narration_clip(
+    ssml: str, cache: Path, key: str, region: str,
+) -> AudioSegment:
+    azure = _azure()
+    digest = hashlib.sha256(
+        ("azure:audio-24khz-160kbitrate-mono-mp3:" + ssml).encode("utf-8")
+    ).hexdigest()
+    path = cache / f"azure_{digest}.mp3"
+    if path.is_file():
+        audio = AudioSegment.from_file(path)
+    else:
+        data = await asyncio.to_thread(azure.synthesize, ssml, key, region)
+        audio = AudioSegment.from_file(io.BytesIO(data), format="mp3")
+        if len(audio) == 0 or audio.rms == 0:
+            raise RuntimeError("Azure narration is empty or silent.")
+        with tempfile.TemporaryDirectory(dir=cache) as directory:
+            pending = Path(directory) / "narration.mp3"
+            pending.write_bytes(data)
+            pending.replace(path)
+    if len(audio) == 0 or audio.rms == 0:
+        raise RuntimeError(f"Azure narration cache is empty or silent: {path}")
+    return audio.set_frame_rate(SAMPLE_RATE).set_channels(1)
 
 
 def _renderer() -> Any:
@@ -299,6 +335,16 @@ def _read_chapter_text(chapter: dict[str, Any], language: str) -> str:
         ) from error
 
 
+def _transition_cue() -> AudioSegment:
+    first = Sine(523.25, sample_rate=SAMPLE_RATE).to_audio_segment(
+        duration=220, volume=-24,
+    ).fade_in(20).fade_out(160)
+    second = Sine(659.25, sample_rate=SAMPLE_RATE).to_audio_segment(
+        duration=320, volume=-24,
+    ).fade_in(20).fade_out(240)
+    return first + _renderer().silence(80) + second
+
+
 def _compose_track(
     chapter: dict[str, Any],
     language: str,
@@ -310,7 +356,10 @@ def _compose_track(
     repetition_ms: int,
     story_title: str | None = None,
     book_intro_clip: AudioSegment | None = None,
+    chapter_intro_clip: AudioSegment | None = None,
 ) -> tuple[AudioSegment, dict[str, Any]]:
+    if chapter_intro_clip is None:
+        raise ValueError("Each chapter requires a generated chapter title clip.")
     renderer = _renderer()
     track = renderer.silence(lead_in_ms)
     book_introduction = None
@@ -320,6 +369,26 @@ def _compose_track(
         intro_start = len(track)
         track += book_intro_clip
         book_introduction = _segment(f"{story_title}.", intro_start, len(track))
+        track += renderer.silence(repetition_ms)
+    title_start = len(track)
+    track += chapter_intro_clip
+    chapter_introduction = _segment(
+        f'{chapter["titles"][language]}.', title_start, len(track),
+    )
+    track += renderer.silence(repetition_ms)
+    chapter_text = _read_chapter_text(chapter, language)
+    first_reading_start = len(track)
+    track += chapter_clip
+    first_reading = _segment(chapter_text, first_reading_start, len(track))
+    track += renderer.silence(repetition_ms)
+    cue = _transition_cue()
+    cue_start = len(track)
+    track += cue
+    transitions = [{
+        "kind": "chime", "from": "story", "to": "practice",
+        "start_ms": cue_start, "end_ms": len(track),
+    }]
+    track += renderer.silence(repetition_ms)
     practice_items = list(chapter["vocabulary"])
     shuffle_seed = f'{chapter["chapter_number"]}:{chapter["titles"]["pl"]}'
     random.Random(shuffle_seed).shuffle(practice_items)
@@ -346,23 +415,31 @@ def _compose_track(
             "prompt": prompt,
             "target_playbacks": playbacks,
         })
+    cue_start = len(track)
+    track += cue
+    transitions.append({
+        "kind": "chime", "from": "practice", "to": "story",
+        "start_ms": cue_start, "end_ms": len(track),
+    })
+    track += renderer.silence(repetition_ms)
     chapter_start = len(track)
     track += chapter_clip
     chapter_end = len(track)
+    final_reading = _segment(chapter_text, chapter_start, chapter_end)
     manifest = {
         "chapter_number": chapter["chapter_number"],
         "title": chapter["titles"],
         "source_language": source_language,
         "target_language": language,
         "practice_order": "deterministically_shuffled",
+        "sequence": ["story", "practice", "story"],
         "total_duration_ms": len(track),
         "practice": entries,
         "book_introduction": book_introduction,
-        "chapter_reading": _segment(
-            _read_chapter_text(chapter, language),
-            chapter_start,
-            chapter_end,
-        ),
+        "chapter_introduction": chapter_introduction,
+        "transitions": transitions,
+        "chapter_readings": [first_reading, final_reading],
+        "chapter_reading": final_reading,
     }
     return track, manifest
 
@@ -499,6 +576,75 @@ async def render_story(args: argparse.Namespace) -> dict[str, Any]:
                 f"No rate configured for {language}; pass --rate {language}=RATE."
             )
 
+    narration: dict[str, dict[str, Any]] = {}
+    azure = _azure()
+    narration_voices = {
+        **azure.NARRATION_VOICES,
+        **_parse_language_settings(args.narration_voice, "--narration-voice"),
+    }
+    narration_rates = {
+        lang: "-12%" for lang in targets
+    }
+    narration_rates.update(_parse_language_settings(args.narration_rate, "--narration-rate"))
+    narration_styles = {lang: "audiobook" for lang in targets}
+    narration_styles.update(_parse_language_settings(args.narration_style, "--narration-style"))
+    azure.load_dotenv(ROOT / ".env", override=False)
+    key = azure.os.environ.get("AZURE_SPEECH_KEY", "")
+    region = azure.os.environ.get("AZURE_SPEECH_REGION", "")
+    if args.narration_engine == "azure":
+        for target in targets:
+            if target not in narration_voices or target not in azure.LOCALES:
+                raise ValueError(f"No Azure narration locale/voice configured for {target}.")
+            capabilities = await asyncio.to_thread(
+                azure.check_voice, key, region, narration_voices[target],
+                narration_styles[target], azure.LOCALES[target],
+            )
+            narration[target] = {
+                "engine": "azure", "voice": narration_voices[target],
+                "style": narration_styles[target], "rate": narration_rates[target],
+                "locale": azure.LOCALES[target], "capabilities": capabilities,
+            }
+    direction_map = {}
+    directions_path = args.narration_directions
+    if directions_path is None and args.narration_engine == "azure":
+        candidate = args.transcript.parent / "narration.json"
+        if candidate.is_file():
+            directions_path = candidate
+    if directions_path:
+        direction_map = json.loads(directions_path.read_text(encoding="utf-8"))
+        if not isinstance(direction_map, dict):
+            raise ValueError("Narration directions must map language to chapter number to passages.")
+        if args.narration_engine != "azure":
+            raise ValueError("Narration directions require --narration-engine azure.")
+        chapters_by_number = {
+            str(chapter["chapter_number"]): chapter for chapter in transcript["chapters"]
+        }
+        for language, chapters in direction_map.items():
+            if language not in available or not isinstance(chapters, dict):
+                raise ValueError(f"Invalid narration direction language/map: {language}")
+            for number, passages in chapters.items():
+                if number not in chapters_by_number:
+                    raise ValueError(f"Unknown narration chapter: {number}")
+                if isinstance(passages, str):
+                    passages = json.loads(
+                        (directions_path.parent / passages).read_text(encoding="utf-8")
+                    )
+                chapters[number] = azure.validate_passages(
+                    passages, _read_chapter_text(chapters_by_number[number], language),
+                )
+    ssml_by_chapter = {}
+    for chapter in transcript["chapters"]:
+        for target in targets:
+            text = _read_chapter_text(chapter, target)
+            if args.narration_engine == "azure":
+                passages = direction_map.get(target, {}).get(str(chapter["chapter_number"]))
+                ssml_by_chapter[(chapter["chapter_number"], target)] = azure.build_ssml(
+                    text, narration_rates[target], 0,
+                    voice_name=narration_voices[target], style=narration_styles[target],
+                    locale=azure.LOCALES[target],
+                    passages=azure.validate_passages(passages, text) if passages is not None else None,
+                )
+
     args.cache.mkdir(parents=True, exist_ok=True)
     args.output.mkdir(parents=True, exist_ok=True)
     timestamp = datetime.now().astimezone().strftime("%Y-%m-%d_%H-%M-%S")
@@ -516,7 +662,10 @@ async def render_story(args: argparse.Namespace) -> dict[str, Any]:
         "thinking_ms": args.thinking_ms,
         "repetition_ms": args.repetition_ms,
         "practice_order": "deterministically_shuffled",
+        "sequence": ["story", "practice", "story"],
         "timestamp": timestamp,
+        "narration": narration,
+        "narration_engine": args.narration_engine,
     }
     build["chapters"] = {}
     for chapter in transcript["chapters"]:
@@ -543,16 +692,40 @@ async def render_story(args: argparse.Namespace) -> dict[str, Any]:
                 if chapter_number == 1 else None
             )
             chapter_text = _read_chapter_text(chapter, target)
-            chapter_clip = await _clip(
-                chapter_text, target, args.cache,
-                voices[target], rates[target], pitch[target],
-            )
-            book_intro_clip = None
-            if story_title:
-                book_intro_clip = await _clip(
-                    f"{story_title}.", target, args.cache,
+            if args.narration_engine == "azure":
+                chapter_ssml = ssml_by_chapter[(chapter_number, target)]
+                chapter_clip = await _narration_clip(chapter_ssml, args.cache, key, region)
+                title_ssml = azure.build_ssml(
+                    f'{chapter["titles"][target]}.', narration_rates[target], 0,
+                    voice_name=narration_voices[target], style=narration_styles[target],
+                    locale=azure.LOCALES[target],
+                )
+                chapter_intro_clip = await _narration_clip(
+                    title_ssml, args.cache, key, region,
+                )
+            else:
+                chapter_clip = await _clip(
+                    chapter_text, target, args.cache,
                     voices[target], rates[target], pitch[target],
                 )
+                chapter_intro_clip = await _clip(
+                    f'{chapter["titles"][target]}.', target, args.cache,
+                    voices[target], rates[target], pitch[target],
+                )
+            book_intro_clip = None
+            if story_title:
+                if args.narration_engine == "azure":
+                    intro_ssml = azure.build_ssml(
+                        f"{story_title}.", narration_rates[target], 0,
+                        voice_name=narration_voices[target], style=narration_styles[target],
+                        locale=azure.LOCALES[target],
+                    )
+                    book_intro_clip = await _narration_clip(intro_ssml, args.cache, key, region)
+                else:
+                    book_intro_clip = await _clip(
+                        f"{story_title}.", target, args.cache,
+                        voices[target], rates[target], pitch[target],
+                    )
             practice_clips = {
                 item["id"]: (
                     clip_cache[(item["id"], args.source_language)],
@@ -565,6 +738,13 @@ async def render_story(args: argparse.Namespace) -> dict[str, Any]:
                 args.lead_in_ms, args.thinking_ms, args.repetition_ms,
                 story_title=story_title,
                 book_intro_clip=book_intro_clip,
+                chapter_intro_clip=chapter_intro_clip,
+            )
+            manifest["narration"] = (
+                {**narration[target], "ssml": chapter_ssml}
+                if args.narration_engine == "azure"
+                else {"engine": "edge", "voice": voices[target], "rate": rates[target],
+                      "pitch": pitch[target]}
             )
             if args.max_duration is not None and len(track) > args.max_duration * 1000:
                 raise ValueError(
@@ -585,6 +765,11 @@ async def render_story(args: argparse.Namespace) -> dict[str, Any]:
                     "manifest_file": Path(data["audio_file"]).with_suffix(".json").name,
                     "total_duration_ms": data["total_duration_ms"],
                     "chapter_reading": data["chapter_reading"],
+                    "chapter_introduction": data["chapter_introduction"],
+                    "chapter_readings": data["chapter_readings"],
+                    "sequence": data["sequence"],
+                    "transitions": data["transitions"],
+                    "narration": data["narration"],
                 }
                 for language, data in files.items()
             },
@@ -673,8 +858,9 @@ def package_podcasts(
             catalog = {
                 "title": f'{story_titles["pl"]} — {source_title} to {target_title}',
                 "description": (
-                    f'A children’s story course: practice {target_title} with {source_title} '
-                    "prompts, then hear each chapter read aloud in the target language. "
+                    f'A children’s story course: hear each chapter in {target_title}, '
+                    f'practice vocabulary with {source_title} prompts, then hear '
+                    "the same chapter again. "
                     "Voices are AI-generated."
                 ),
                 "language": source_language,
@@ -723,12 +909,23 @@ def package_podcasts(
             audio_source = args.output / audio_name
             relative_audio_name = f'stories/{transcript["story_id"]}/{audio_name}'
             audio_destination = audio_dir / relative_audio_name
-            if not audio_source.is_file():
+            # Packaging moves the render so each episode MP3 exists only once;
+            # reruns accept audio that an earlier run already moved.
+            if audio_source.is_file():
+                if audio_destination.exists():
+                    if audio_destination.read_bytes() != audio_source.read_bytes():
+                        raise FileExistsError(
+                            f"Refusing to overwrite different episode audio: {audio_destination}"
+                        )
+                    audio_source.unlink()
+                else:
+                    audio_destination.parent.mkdir(parents=True, exist_ok=True)
+                    shutil.move(audio_source, audio_destination)
+            elif not audio_destination.is_file():
                 raise FileNotFoundError(f"Missing completed story audio: {audio_source}")
-            if audio_destination.exists() and audio_destination.read_bytes() != audio_source.read_bytes():
-                raise FileExistsError(f"Refusing to overwrite different episode audio: {audio_destination}")
-            audio_destination.parent.mkdir(parents=True, exist_ok=True)
-            shutil.copyfile(audio_source, audio_destination)
+            data["packaged_audio"] = (
+                audio_destination.relative_to(podcast_root).as_posix()
+            )
             episode_id = f'{transcript["story_id"]}:{source_language}:{target}:chapter-{number:02d}'
             previous = previous_by_id.get(episode_id, {})
             episode = {
@@ -744,12 +941,12 @@ def package_podcasts(
                     "published", datetime.now(timezone.utc).isoformat(timespec="seconds")
                 ),
                 "description": (
-                    f'Öva polska med svenska ledtrådar i berättelsen '
-                    f'{story_titles["pl"]}. Lyssna sedan på hela kapitlet på polska.'
+                    f'Lyssna på ett kapitel ur berättelsen {story_titles["pl"]} på polska, '
+                    "öva orden med svenska ledtrådar och lyssna sedan på kapitlet igen."
                     if source_language == "sv" and target == "pl"
-                    else f'Practice {chapter["titles"][target]} with '
-                    f'{chapter["titles"][source_language]} prompts, then listen to '
-                    "the complete chapter in the target language."
+                    else "Listen to the complete chapter in the target language, "
+                    "practice vocabulary with native-language prompts, then listen "
+                    "to the same chapter again."
                 ),
                 "season": previous.get("season", story_season),
                 "episode": previous.get("episode", number),
@@ -784,6 +981,11 @@ def package_podcasts(
 
 def create_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--narration-engine", choices=("azure", "edge"), default="azure")
+    parser.add_argument("--narration-voice", action="append", default=[], metavar="LANG=VOICE")
+    parser.add_argument("--narration-rate", action="append", default=[], metavar="LANG=RATE")
+    parser.add_argument("--narration-style", action="append", default=[], metavar="LANG=STYLE")
+    parser.add_argument("--narration-directions", type=Path)
     default_story = ROOT / "courses" / "swedish-polish" / "stories" / "magical_radio"
     parser.add_argument("--transcript", type=Path, default=default_story / "generated/transcript.json")
     parser.add_argument("--source-text", type=Path, default=default_story / "complete/pl.txt")

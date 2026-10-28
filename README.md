@@ -41,20 +41,112 @@ using the code emailed to the feed owner. The owner email is public in RSS.
 
 ## Generate audio
 
+### Azure story narration preview
+
+For a local pacing comparison only, copy `.env.example` to `.env` and enter
+your Azure Speech key and region locally. `.env` is ignored by Git; never
+share or commit its contents. Install the project requirements before running:
+
+```sh
+.venv/bin/python code/azure_story_preview.py
+```
+
+This sends the actual first Polish chapter to Azure Speech using Zofia with
+SSML sentence pauses (350 ms) and rate `-8%`. It loads `.env` without
+overriding existing environment variables. Use `--chapter`, `--rate=-8%`,
+`--pause-ms`, and `--output` to adjust the preview.
+The ignored `output/azure-preview/` folder receives an Azure MP3, the existing
+Edge narration extracted as WAV, SSML, and comparison metadata. No practice
+audio, packaged episodes, or RSS are changed. This tests pacing, not a
+voice-specific emotional style. Azure synthesis consumes the resource's
+quota and can incur charges on a paid tier.
+
+To test an explicit audiobook style with the Polish Harper voice:
+
+```sh
+.venv/bin/python code/azure_story_preview.py --voice pl-PL-Harper:MAI-Voice-2.1 --style audiobook --rate=0% --pause-ms 200
+```
+
+The preview checks the region's live voice list for Polish and requested-style
+support before synthesis, and saves the advertised capabilities and requested
+style in the comparison metadata. Availability and free-tier access can vary;
+unsupported requests fail explicitly rather than falling back to a neutral voice.
+
+For passage-directed previews, pass `--directions PATH` with a JSON array
+of passages. The directions override global rate and pauses, and specify each passage's
+rate, pitch, and pause. They must reconstruct the original chapter
+exactly. Intent labels explain the desired emotion in saved metadata; they
+are not spoken text or unsupported named emotion styles. Actual expressiveness
+and whether the voice honors each prosody setting require a listening test.
+The earlier volume test used unsupported decibel syntax. Optional `volume`
+directions now use signed percentages; optional `contour` directions specify
+increasing pitch-control positions, for example `(0%,+0%) (100%,-3%)`.
+
+The approved delivery groups related sentences and avoids forcing each fragment
+into a separate sentence tag. It is stored directly in the story's
+`generated/narration.json`, rather than in separate experimental direction files.
+Acceptance alone does not prove every setting changes the voice audibly.
+Compare recordings by ear.
+
 Run commands from this project directory after setup below.
 
-**Story audio (Swedish prompt → Polish vocabulary twice, then the whole Polish chapter):**
+**Story audio (whole Polish chapter → vocabulary practice → same chapter again):**
 
 ```sh
 .venv/bin/python code/story_course.py --source-language sv --target pl
 ```
+
+Story narration and the opening book title now default to Azure Harper
+MAI-Voice-2.1, using the `audiobook` style and a `-12%` rate. Polish uses
+`pl-PL-Harper:MAI-Voice-2.1`, Swedish `sv-SE-Harper:MAI-Voice-2.1`, and English
+`en-US-Harper:MAI-Voice-2.1`. The narration voice follows the language being
+read, independently of the prompt/native language. Vocabulary practice stays
+on Edge TTS, including both target repetitions.
+
+Each episode plays the complete target-language chapter before vocabulary
+practice and repeats the identical narration clip afterward, without a second
+synthesis request. Practice still uses Swedish prompts and two Polish answers.
+The book title is spoken once before the first reading in chapter 1.
+Every episode also announces its chapter title once in the target language,
+using the narration voice, before the first reading (after the book title in
+chapter 1). A repetition pause separates the title from the story. Its text
+and timestamps are recorded in `chapter_introduction`.
+Both story/practice transitions have a quiet, fading two-note chime (620 ms)
+with the configured repetition pause on either side (default 2.5 seconds).
+The chime is generated locally, with no external sound asset or TTS request.
+Manifests record both readings in chronological `chapter_readings` order and
+the `sequence` as `["story", "practice", "story"]`; the existing
+`chapter_reading` field continues to identify the final reading. The
+`transitions` array records each chime's direction and timestamps.
+
+Configure `.env` as described above. Override narration independently with
+`--narration-voice LANG=VOICE`, `--narration-rate LANG=RATE`, or
+`--narration-style LANG=STYLE`. Use `--narration-engine edge` explicitly for
+the previous all-Edge behavior; Azure failures never silently fall back.
+Existing `--voice`, `--rate`, and `--pitch` settings control Edge speech.
+
+The renderer automatically reads `narration.json` beside the transcript when
+present. Its shape is `{"pl": {"1": [{...passage settings...}]}}`;
+each chapter value is either a passage array or a JSON path relative to that
+configuration. Use `--narration-directions PATH` to select another map.
+The approved Polish chapter-one directions are configured; chapters without
+directions use continuous audiobook narration at the selected narration rate.
+Directions must preserve chapter text exactly. Native/target swaps do not
+create missing story translations.
+
+Azure voice/style/language support and chapter text are checked before
+rendering practice. Cached narration is keyed by the complete SSML and output
+format. Chapter manifests record engine, voice, style, locale, and exact SSML.
+Rerenders create new files; packaging and publishing remain separate actions.
 
 Use `--help` for language, voice, pause, output, and format options. Review
 [course requirements](courses/REQUIREMENTS.md) and the reusable
 [create-story-course skill](.github/skills/create-story-course/SKILL.md).
 To add the chapters to the existing Swedish-to-Polish feed as a new season,
 include `--package-podcast --podcast-course swedish-polish`. This updates the
-existing catalog and RSS without creating a separate show.
+existing catalog and RSS without creating a separate show. Packaging moves
+each chapter MP3 into the podcast folder instead of copying it, so the audio
+exists once; timing JSON stays under `generated/audio/`.
 
 Course sources live under `courses/`: reusable vocabulary shared across
 language directions is stored once in `practice/`, while direction-specific

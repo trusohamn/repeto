@@ -9,14 +9,72 @@
       },
       "targets": {
         "pl": {
-          "audio_file": "01_chapter_01_sv_pl_2026-10-27_21-48-09.mp3",
-          "manifest_file": "01_chapter_01_sv_pl_2026-10-27_21-48-09.json",
-          "total_duration_ms": 249487,
+          "audio_file": "01_chapter_01_sv_pl_2026-10-28_15-07-18.mp3",
+          "manifest_file": "01_chapter_01_sv_pl_2026-10-28_15-07-18.json",
+          "total_duration_ms": 311806,
           "chapter_reading": {
             "text": "Jest sobota. Maja ma dziewięć lat, a jej brat Tomek ma sześć lat. Razem idą na pchli targ. W rogu stoi stary stół, a na stole – drewniane radio. Ma złote pokrętła i kolorowe przyciski. Gdy Maja podchodzi bliżej, radio nagle cicho szumi: Dzyń! Na radiu pojawia się złoty napis: „Dla Mai i Tomka”. Dzieci otwierają szeroko oczy.",
-            "start_ms": 219382,
-            "end_ms": 249487
-          }
+            "start_ms": 273958,
+            "end_ms": 311806
+          },
+          "chapter_introduction": {
+            "text": "Stary stół.",
+            "start_ms": 5372,
+            "end_ms": 7748
+          },
+          "chapter_readings": [
+            {
+              "text": "Jest sobota. Maja ma dziewięć lat, a jej brat Tomek ma sześć lat. Razem idą na pchli targ. W rogu stoi stary stół, a na stole – drewniane radio. Ma złote pokrętła i kolorowe przyciski. Gdy Maja podchodzi bliżej, radio nagle cicho szumi: Dzyń! Na radiu pojawia się złoty napis: „Dla Mai i Tomka”. Dzieci otwierają szeroko oczy.",
+              "start_ms": 10248,
+              "end_ms": 48096
+            },
+            {
+              "text": "Jest sobota. Maja ma dziewięć lat, a jej brat Tomek ma sześć lat. Razem idą na pchli targ. W rogu stoi stary stół, a na stole – drewniane radio. Ma złote pokrętła i kolorowe przyciski. Gdy Maja podchodzi bliżej, radio nagle cicho szumi: Dzyń! Na radiu pojawia się złoty napis: „Dla Mai i Tomka”. Dzieci otwierają szeroko oczy.",
+              "start_ms": 273958,
+              "end_ms": 311806
+            }
+          ],
+          "sequence": [
+            "story",
+            "practice",
+            "story"
+          ],
+          "transitions": [
+            {
+              "kind": "chime",
+              "from": "story",
+              "to": "practice",
+              "start_ms": 50596,
+              "end_ms": 51216
+            },
+            {
+              "kind": "chime",
+              "from": "practice",
+              "to": "story",
+              "start_ms": 270838,
+              "end_ms": 271458
+            }
+          ],
+          "narration": {
+            "engine": "azure",
+            "voice": "pl-PL-Harper:MAI-Voice-2.1",
+            "style": "audiobook",
+            "rate": "-12%",
+            "locale": "pl-PL",
+            "capabilities": {
+              "voice": "pl-PL-Harper:MAI-Voice-2.1",
+              "locale": "pl-PL",
+              "advertised_styles": [
+                "agent",
+                "audiobook",
+                "customer_call_center",
+                "educational",
+                "narrator"
+              ]
+            },
+            "ssml": "<speak xmlns:mstts=\"http://www.w3.org/2001/mstts\" version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"pl-PL\"><voice name=\"pl-PL-Harper:MAI-Voice-2.1\"><mstts:express-as style=\"audiobook\"><p><prosody rate=\"-12%\" pitch=\"+1%\" volume=\"+0%\">Jest sobota. Maja ma dziewięć lat, a jej brat Tomek ma sześć lat. Razem idą na pchli targ.</prosody><break time=\"250ms\" /><prosody rate=\"-14%\" pitch=\"+2%\" volume=\"+0%\">W rogu stoi stary stół, a na stole – drewniane radio. Ma złote pokrętła i kolorowe przyciski.</prosody><break time=\"350ms\" /><prosody rate=\"-18%\" pitch=\"-2%\" volume=\"-12%\" contour=\"(0%,+0%) (65%,-2%) (100%,-4%)\">Gdy Maja podchodzi bliżej, radio nagle cicho szumi:</prosody><break time=\"550ms\" /><prosody rate=\"-8%\" pitch=\"+8%\" volume=\"+5%\">Dzyń!</prosody><break time=\"400ms\" /><prosody rate=\"-15%\" pitch=\"+1%\" volume=\"+0%\">Na radiu pojawia się złoty napis:</prosody><break time=\"250ms\" /><prosody rate=\"-17%\" pitch=\"+3%\" volume=\"-5%\">„Dla Mai i Tomka”.</prosody><break time=\"450ms\" /><prosody rate=\"-14%\" pitch=\"+2%\" volume=\"+0%\" contour=\"(0%,+0%) (55%,+3%) (100%,-3%)\">Dzieci otwierają szeroko oczy.</prosody></p></mstts:express-as></voice></speak>"
+          },
+          "packaged_audio": "swedish-polish/audio/stories/magical_radio/01_chapter_01_sv_pl_2026-10-28_15-07-18.mp3"
         }
       }
     },
@@ -28,14 +86,72 @@
       },
       "targets": {
         "pl": {
-          "audio_file": "02_chapter_02_sv_pl_2026-10-27_21-48-09.mp3",
-          "manifest_file": "02_chapter_02_sv_pl_2026-10-27_21-48-09.json",
-          "total_duration_ms": 212831,
+          "audio_file": "02_chapter_02_sv_pl_2026-10-28_15-07-18.mp3",
+          "manifest_file": "02_chapter_02_sv_pl_2026-10-28_15-07-18.json",
+          "total_duration_ms": 257960,
           "chapter_reading": {
             "text": "Dzieci niosą radio do domu. Tomek naciska niebieski przycisk. Z radia wylatuje mała chmurka, która pachnie cynamonem. – Cześć, odkrywcy! – mówi wesoły głos. – Nazywam się Radiofon. W waszym ogrodzie, pod starym drzewem, leży klucz. Weźcie latarkę i kawałek sera!",
-            "start_ms": 187849,
-            "end_ms": 212831
-          }
+            "start_ms": 229592,
+            "end_ms": 257960
+          },
+          "chapter_introduction": {
+            "text": "Głos z radia.",
+            "start_ms": 1000,
+            "end_ms": 3136
+          },
+          "chapter_readings": [
+            {
+              "text": "Dzieci niosą radio do domu. Tomek naciska niebieski przycisk. Z radia wylatuje mała chmurka, która pachnie cynamonem. – Cześć, odkrywcy! – mówi wesoły głos. – Nazywam się Radiofon. W waszym ogrodzie, pod starym drzewem, leży klucz. Weźcie latarkę i kawałek sera!",
+              "start_ms": 5636,
+              "end_ms": 34004
+            },
+            {
+              "text": "Dzieci niosą radio do domu. Tomek naciska niebieski przycisk. Z radia wylatuje mała chmurka, która pachnie cynamonem. – Cześć, odkrywcy! – mówi wesoły głos. – Nazywam się Radiofon. W waszym ogrodzie, pod starym drzewem, leży klucz. Weźcie latarkę i kawałek sera!",
+              "start_ms": 229592,
+              "end_ms": 257960
+            }
+          ],
+          "sequence": [
+            "story",
+            "practice",
+            "story"
+          ],
+          "transitions": [
+            {
+              "kind": "chime",
+              "from": "story",
+              "to": "practice",
+              "start_ms": 36504,
+              "end_ms": 37124
+            },
+            {
+              "kind": "chime",
+              "from": "practice",
+              "to": "story",
+              "start_ms": 226472,
+              "end_ms": 227092
+            }
+          ],
+          "narration": {
+            "engine": "azure",
+            "voice": "pl-PL-Harper:MAI-Voice-2.1",
+            "style": "audiobook",
+            "rate": "-12%",
+            "locale": "pl-PL",
+            "capabilities": {
+              "voice": "pl-PL-Harper:MAI-Voice-2.1",
+              "locale": "pl-PL",
+              "advertised_styles": [
+                "agent",
+                "audiobook",
+                "customer_call_center",
+                "educational",
+                "narrator"
+              ]
+            },
+            "ssml": "<speak xmlns:mstts=\"http://www.w3.org/2001/mstts\" version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"pl-PL\"><voice name=\"pl-PL-Harper:MAI-Voice-2.1\"><mstts:express-as style=\"audiobook\"><prosody rate=\"-12%\"><p>Dzieci niosą radio do domu. Tomek naciska niebieski przycisk. Z radia wylatuje mała chmurka, która pachnie cynamonem. – Cześć, odkrywcy! – mówi wesoły głos. – Nazywam się Radiofon. W waszym ogrodzie, pod starym drzewem, leży klucz. Weźcie latarkę i kawałek sera!</p></prosody></mstts:express-as></voice></speak>"
+          },
+          "packaged_audio": "swedish-polish/audio/stories/magical_radio/02_chapter_02_sv_pl_2026-10-28_15-07-18.mp3"
         }
       }
     },
@@ -47,14 +163,72 @@
       },
       "targets": {
         "pl": {
-          "audio_file": "03_chapter_03_sv_pl_2026-10-27_21-48-09.mp3",
-          "manifest_file": "03_chapter_03_sv_pl_2026-10-27_21-48-09.json",
-          "total_duration_ms": 253080,
+          "audio_file": "03_chapter_03_sv_pl_2026-10-28_15-07-18.mp3",
+          "manifest_file": "03_chapter_03_sv_pl_2026-10-28_15-07-18.json",
+          "total_duration_ms": 293318,
           "chapter_reading": {
             "text": "Maja bierze latarkę, a Tomek żółty ser. Idą pod wielkie drzewo w ogrodzie. Tomek świeci latarką pod korzenie. Z dziury wychodzi mała mysz z książką w łapkach. – Mamy ser. Masz klucz? – pyta Tomek. Mysz daje im srebrny klucz, zabiera ser i znika. Pod liśćmi dzieci znajdują stare drzwi w ziemi.",
-            "start_ms": 225078,
-            "end_ms": 253080
-          }
+            "start_ms": 265670,
+            "end_ms": 293318
+          },
+          "chapter_introduction": {
+            "text": "Mysz pod drzewem.",
+            "start_ms": 1000,
+            "end_ms": 2704
+          },
+          "chapter_readings": [
+            {
+              "text": "Maja bierze latarkę, a Tomek żółty ser. Idą pod wielkie drzewo w ogrodzie. Tomek świeci latarką pod korzenie. Z dziury wychodzi mała mysz z książką w łapkach. – Mamy ser. Masz klucz? – pyta Tomek. Mysz daje im srebrny klucz, zabiera ser i znika. Pod liśćmi dzieci znajdują stare drzwi w ziemi.",
+              "start_ms": 5204,
+              "end_ms": 32852
+            },
+            {
+              "text": "Maja bierze latarkę, a Tomek żółty ser. Idą pod wielkie drzewo w ogrodzie. Tomek świeci latarką pod korzenie. Z dziury wychodzi mała mysz z książką w łapkach. – Mamy ser. Masz klucz? – pyta Tomek. Mysz daje im srebrny klucz, zabiera ser i znika. Pod liśćmi dzieci znajdują stare drzwi w ziemi.",
+              "start_ms": 265670,
+              "end_ms": 293318
+            }
+          ],
+          "sequence": [
+            "story",
+            "practice",
+            "story"
+          ],
+          "transitions": [
+            {
+              "kind": "chime",
+              "from": "story",
+              "to": "practice",
+              "start_ms": 35352,
+              "end_ms": 35972
+            },
+            {
+              "kind": "chime",
+              "from": "practice",
+              "to": "story",
+              "start_ms": 262550,
+              "end_ms": 263170
+            }
+          ],
+          "narration": {
+            "engine": "azure",
+            "voice": "pl-PL-Harper:MAI-Voice-2.1",
+            "style": "audiobook",
+            "rate": "-12%",
+            "locale": "pl-PL",
+            "capabilities": {
+              "voice": "pl-PL-Harper:MAI-Voice-2.1",
+              "locale": "pl-PL",
+              "advertised_styles": [
+                "agent",
+                "audiobook",
+                "customer_call_center",
+                "educational",
+                "narrator"
+              ]
+            },
+            "ssml": "<speak xmlns:mstts=\"http://www.w3.org/2001/mstts\" version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"pl-PL\"><voice name=\"pl-PL-Harper:MAI-Voice-2.1\"><mstts:express-as style=\"audiobook\"><prosody rate=\"-12%\"><p>Maja bierze latarkę, a Tomek żółty ser. Idą pod wielkie drzewo w ogrodzie. Tomek świeci latarką pod korzenie. Z dziury wychodzi mała mysz z książką w łapkach. – Mamy ser. Masz klucz? – pyta Tomek. Mysz daje im srebrny klucz, zabiera ser i znika. Pod liśćmi dzieci znajdują stare drzwi w ziemi.</p></prosody></mstts:express-as></voice></speak>"
+          },
+          "packaged_audio": "swedish-polish/audio/stories/magical_radio/03_chapter_03_sv_pl_2026-10-28_15-07-18.mp3"
         }
       }
     },
@@ -66,14 +240,72 @@
       },
       "targets": {
         "pl": {
-          "audio_file": "04_chapter_04_sv_pl_2026-10-27_21-48-09.mp3",
-          "manifest_file": "04_chapter_04_sv_pl_2026-10-27_21-48-09.json",
-          "total_duration_ms": 234618,
+          "audio_file": "04_chapter_04_sv_pl_2026-10-28_15-07-18.mp3",
+          "manifest_file": "04_chapter_04_sv_pl_2026-10-28_15-07-18.json",
+          "total_duration_ms": 270223,
           "chapter_reading": {
             "text": "Maja przekręca klucz. Klik! Drzwi się otwierają. W dół prowadzą kamienne schody. Na ścianach rosną świecące na niebiesko kwiaty. Dzieci schodzą do wielkiego pokoju. Wszędzie stoją książki – niektóre latają pod sufitem! Na środku stoi drugie radio.",
-            "start_ms": 210935,
-            "end_ms": 234618
-          }
+            "start_ms": 247135,
+            "end_ms": 270223
+          },
+          "chapter_introduction": {
+            "text": "Schody w dół.",
+            "start_ms": 1000,
+            "end_ms": 2872
+          },
+          "chapter_readings": [
+            {
+              "text": "Maja przekręca klucz. Klik! Drzwi się otwierają. W dół prowadzą kamienne schody. Na ścianach rosną świecące na niebiesko kwiaty. Dzieci schodzą do wielkiego pokoju. Wszędzie stoją książki – niektóre latają pod sufitem! Na środku stoi drugie radio.",
+              "start_ms": 5372,
+              "end_ms": 28460
+            },
+            {
+              "text": "Maja przekręca klucz. Klik! Drzwi się otwierają. W dół prowadzą kamienne schody. Na ścianach rosną świecące na niebiesko kwiaty. Dzieci schodzą do wielkiego pokoju. Wszędzie stoją książki – niektóre latają pod sufitem! Na środku stoi drugie radio.",
+              "start_ms": 247135,
+              "end_ms": 270223
+            }
+          ],
+          "sequence": [
+            "story",
+            "practice",
+            "story"
+          ],
+          "transitions": [
+            {
+              "kind": "chime",
+              "from": "story",
+              "to": "practice",
+              "start_ms": 30960,
+              "end_ms": 31580
+            },
+            {
+              "kind": "chime",
+              "from": "practice",
+              "to": "story",
+              "start_ms": 244015,
+              "end_ms": 244635
+            }
+          ],
+          "narration": {
+            "engine": "azure",
+            "voice": "pl-PL-Harper:MAI-Voice-2.1",
+            "style": "audiobook",
+            "rate": "-12%",
+            "locale": "pl-PL",
+            "capabilities": {
+              "voice": "pl-PL-Harper:MAI-Voice-2.1",
+              "locale": "pl-PL",
+              "advertised_styles": [
+                "agent",
+                "audiobook",
+                "customer_call_center",
+                "educational",
+                "narrator"
+              ]
+            },
+            "ssml": "<speak xmlns:mstts=\"http://www.w3.org/2001/mstts\" version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"pl-PL\"><voice name=\"pl-PL-Harper:MAI-Voice-2.1\"><mstts:express-as style=\"audiobook\"><prosody rate=\"-12%\"><p>Maja przekręca klucz. Klik! Drzwi się otwierają. W dół prowadzą kamienne schody. Na ścianach rosną świecące na niebiesko kwiaty. Dzieci schodzą do wielkiego pokoju. Wszędzie stoją książki – niektóre latają pod sufitem! Na środku stoi drugie radio.</p></prosody></mstts:express-as></voice></speak>"
+          },
+          "packaged_audio": "swedish-polish/audio/stories/magical_radio/04_chapter_04_sv_pl_2026-10-28_15-07-18.mp3"
         }
       }
     },
@@ -85,14 +317,72 @@
       },
       "targets": {
         "pl": {
-          "audio_file": "05_chapter_05_sv_pl_2026-10-27_21-48-09.mp3",
-          "manifest_file": "05_chapter_05_sv_pl_2026-10-27_21-48-09.json",
-          "total_duration_ms": 197798,
+          "audio_file": "05_chapter_05_sv_pl_2026-10-28_15-07-18.mp3",
+          "manifest_file": "05_chapter_05_sv_pl_2026-10-28_15-07-18.json",
+          "total_duration_ms": 232628,
           "chapter_reading": {
             "text": "Złota książka macha stronami i ląduje na ramieniu Mai. Drugie radio odzywa się natychmiast: – Ta książka uczy ważnego zaklęcia. Słowo to: Reparo! Naprawia każdą zepsutą rzecz. Tomek wyciąga z kieszeni stary, zepsuty kompas.",
-            "start_ms": 177612,
-            "end_ms": 197798
-          }
+            "start_ms": 211676,
+            "end_ms": 232628
+          },
+          "chapter_introduction": {
+            "text": "Latająca książka.",
+            "start_ms": 1000,
+            "end_ms": 2872
+          },
+          "chapter_readings": [
+            {
+              "text": "Złota książka macha stronami i ląduje na ramieniu Mai. Drugie radio odzywa się natychmiast: – Ta książka uczy ważnego zaklęcia. Słowo to: Reparo! Naprawia każdą zepsutą rzecz. Tomek wyciąga z kieszeni stary, zepsuty kompas.",
+              "start_ms": 5372,
+              "end_ms": 26324
+            },
+            {
+              "text": "Złota książka macha stronami i ląduje na ramieniu Mai. Drugie radio odzywa się natychmiast: – Ta książka uczy ważnego zaklęcia. Słowo to: Reparo! Naprawia każdą zepsutą rzecz. Tomek wyciąga z kieszeni stary, zepsuty kompas.",
+              "start_ms": 211676,
+              "end_ms": 232628
+            }
+          ],
+          "sequence": [
+            "story",
+            "practice",
+            "story"
+          ],
+          "transitions": [
+            {
+              "kind": "chime",
+              "from": "story",
+              "to": "practice",
+              "start_ms": 28824,
+              "end_ms": 29444
+            },
+            {
+              "kind": "chime",
+              "from": "practice",
+              "to": "story",
+              "start_ms": 208556,
+              "end_ms": 209176
+            }
+          ],
+          "narration": {
+            "engine": "azure",
+            "voice": "pl-PL-Harper:MAI-Voice-2.1",
+            "style": "audiobook",
+            "rate": "-12%",
+            "locale": "pl-PL",
+            "capabilities": {
+              "voice": "pl-PL-Harper:MAI-Voice-2.1",
+              "locale": "pl-PL",
+              "advertised_styles": [
+                "agent",
+                "audiobook",
+                "customer_call_center",
+                "educational",
+                "narrator"
+              ]
+            },
+            "ssml": "<speak xmlns:mstts=\"http://www.w3.org/2001/mstts\" version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"pl-PL\"><voice name=\"pl-PL-Harper:MAI-Voice-2.1\"><mstts:express-as style=\"audiobook\"><prosody rate=\"-12%\"><p>Złota książka macha stronami i ląduje na ramieniu Mai. Drugie radio odzywa się natychmiast: – Ta książka uczy ważnego zaklęcia. Słowo to: Reparo! Naprawia każdą zepsutą rzecz. Tomek wyciąga z kieszeni stary, zepsuty kompas.</p></prosody></mstts:express-as></voice></speak>"
+          },
+          "packaged_audio": "swedish-polish/audio/stories/magical_radio/05_chapter_05_sv_pl_2026-10-28_15-07-18.mp3"
         }
       }
     },
@@ -104,14 +394,72 @@
       },
       "targets": {
         "pl": {
-          "audio_file": "06_chapter_06_sv_pl_2026-10-27_21-48-09.mp3",
-          "manifest_file": "06_chapter_06_sv_pl_2026-10-27_21-48-09.json",
-          "total_duration_ms": 173978,
+          "audio_file": "06_chapter_06_sv_pl_2026-10-28_15-07-18.mp3",
+          "manifest_file": "06_chapter_06_sv_pl_2026-10-28_15-07-18.json",
+          "total_duration_ms": 215214,
           "chapter_reading": {
             "text": "Tomek trzyma kompas. Dzieci mówią razem: – Reparo! Błyska złota iskra. Kompas znów jest cały! Igła kręci się i pokazuje zielone drzwi. – Działa! – krzyczy Tomek. Radio mówi: – Za drzwiami ktoś czeka na waszą pomoc.",
-            "start_ms": 151510,
-            "end_ms": 173978
-          }
+            "start_ms": 189918,
+            "end_ms": 215214
+          },
+          "chapter_introduction": {
+            "text": "Pierwsze zaklęcie.",
+            "start_ms": 1000,
+            "end_ms": 2872
+          },
+          "chapter_readings": [
+            {
+              "text": "Tomek trzyma kompas. Dzieci mówią razem: – Reparo! Błyska złota iskra. Kompas znów jest cały! Igła kręci się i pokazuje zielone drzwi. – Działa! – krzyczy Tomek. Radio mówi: – Za drzwiami ktoś czeka na waszą pomoc.",
+              "start_ms": 5372,
+              "end_ms": 30668
+            },
+            {
+              "text": "Tomek trzyma kompas. Dzieci mówią razem: – Reparo! Błyska złota iskra. Kompas znów jest cały! Igła kręci się i pokazuje zielone drzwi. – Działa! – krzyczy Tomek. Radio mówi: – Za drzwiami ktoś czeka na waszą pomoc.",
+              "start_ms": 189918,
+              "end_ms": 215214
+            }
+          ],
+          "sequence": [
+            "story",
+            "practice",
+            "story"
+          ],
+          "transitions": [
+            {
+              "kind": "chime",
+              "from": "story",
+              "to": "practice",
+              "start_ms": 33168,
+              "end_ms": 33788
+            },
+            {
+              "kind": "chime",
+              "from": "practice",
+              "to": "story",
+              "start_ms": 186798,
+              "end_ms": 187418
+            }
+          ],
+          "narration": {
+            "engine": "azure",
+            "voice": "pl-PL-Harper:MAI-Voice-2.1",
+            "style": "audiobook",
+            "rate": "-12%",
+            "locale": "pl-PL",
+            "capabilities": {
+              "voice": "pl-PL-Harper:MAI-Voice-2.1",
+              "locale": "pl-PL",
+              "advertised_styles": [
+                "agent",
+                "audiobook",
+                "customer_call_center",
+                "educational",
+                "narrator"
+              ]
+            },
+            "ssml": "<speak xmlns:mstts=\"http://www.w3.org/2001/mstts\" version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"pl-PL\"><voice name=\"pl-PL-Harper:MAI-Voice-2.1\"><mstts:express-as style=\"audiobook\"><prosody rate=\"-12%\"><p>Tomek trzyma kompas. Dzieci mówią razem: – Reparo! Błyska złota iskra. Kompas znów jest cały! Igła kręci się i pokazuje zielone drzwi. – Działa! – krzyczy Tomek. Radio mówi: – Za drzwiami ktoś czeka na waszą pomoc.</p></prosody></mstts:express-as></voice></speak>"
+          },
+          "packaged_audio": "swedish-polish/audio/stories/magical_radio/06_chapter_06_sv_pl_2026-10-28_15-07-18.mp3"
         }
       }
     },
@@ -123,14 +471,72 @@
       },
       "targets": {
         "pl": {
-          "audio_file": "07_chapter_07_sv_pl_2026-10-27_21-48-09.mp3",
-          "manifest_file": "07_chapter_07_sv_pl_2026-10-27_21-48-09.json",
-          "total_duration_ms": 197135,
+          "audio_file": "07_chapter_07_sv_pl_2026-10-28_15-07-18.mp3",
+          "manifest_file": "07_chapter_07_sv_pl_2026-10-28_15-07-18.json",
+          "total_duration_ms": 237659,
           "chapter_reading": {
             "text": "Dzieci otwierają zielone drzwi i wchodzą do ogrodu. Na gałęzi siedzi złoty ptak. Nie śpiewa, tylko tyka jak zegar: Tik-tak, tik-tak. Na jego skrzydle brakuje małego kamyka. – Tomek, nasze radio w pokoju ma niebieski kamień! – woła Maja. – Szybko!",
-            "start_ms": 174483,
-            "end_ms": 197135
-          }
+            "start_ms": 212627,
+            "end_ms": 237659
+          },
+          "chapter_introduction": {
+            "text": "Złoty ptak.",
+            "start_ms": 1000,
+            "end_ms": 2872
+          },
+          "chapter_readings": [
+            {
+              "text": "Dzieci otwierają zielone drzwi i wchodzą do ogrodu. Na gałęzi siedzi złoty ptak. Nie śpiewa, tylko tyka jak zegar: Tik-tak, tik-tak. Na jego skrzydle brakuje małego kamyka. – Tomek, nasze radio w pokoju ma niebieski kamień! – woła Maja. – Szybko!",
+              "start_ms": 5372,
+              "end_ms": 30404
+            },
+            {
+              "text": "Dzieci otwierają zielone drzwi i wchodzą do ogrodu. Na gałęzi siedzi złoty ptak. Nie śpiewa, tylko tyka jak zegar: Tik-tak, tik-tak. Na jego skrzydle brakuje małego kamyka. – Tomek, nasze radio w pokoju ma niebieski kamień! – woła Maja. – Szybko!",
+              "start_ms": 212627,
+              "end_ms": 237659
+            }
+          ],
+          "sequence": [
+            "story",
+            "practice",
+            "story"
+          ],
+          "transitions": [
+            {
+              "kind": "chime",
+              "from": "story",
+              "to": "practice",
+              "start_ms": 32904,
+              "end_ms": 33524
+            },
+            {
+              "kind": "chime",
+              "from": "practice",
+              "to": "story",
+              "start_ms": 209507,
+              "end_ms": 210127
+            }
+          ],
+          "narration": {
+            "engine": "azure",
+            "voice": "pl-PL-Harper:MAI-Voice-2.1",
+            "style": "audiobook",
+            "rate": "-12%",
+            "locale": "pl-PL",
+            "capabilities": {
+              "voice": "pl-PL-Harper:MAI-Voice-2.1",
+              "locale": "pl-PL",
+              "advertised_styles": [
+                "agent",
+                "audiobook",
+                "customer_call_center",
+                "educational",
+                "narrator"
+              ]
+            },
+            "ssml": "<speak xmlns:mstts=\"http://www.w3.org/2001/mstts\" version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"pl-PL\"><voice name=\"pl-PL-Harper:MAI-Voice-2.1\"><mstts:express-as style=\"audiobook\"><prosody rate=\"-12%\"><p>Dzieci otwierają zielone drzwi i wchodzą do ogrodu. Na gałęzi siedzi złoty ptak. Nie śpiewa, tylko tyka jak zegar: Tik-tak, tik-tak. Na jego skrzydle brakuje małego kamyka. – Tomek, nasze radio w pokoju ma niebieski kamień! – woła Maja. – Szybko!</p></prosody></mstts:express-as></voice></speak>"
+          },
+          "packaged_audio": "swedish-polish/audio/stories/magical_radio/07_chapter_07_sv_pl_2026-10-28_15-07-18.mp3"
         }
       }
     },
@@ -142,14 +548,72 @@
       },
       "targets": {
         "pl": {
-          "audio_file": "08_chapter_08_sv_pl_2026-10-27_21-48-09.mp3",
-          "manifest_file": "08_chapter_08_sv_pl_2026-10-27_21-48-09.json",
-          "total_duration_ms": 200866,
+          "audio_file": "08_chapter_08_sv_pl_2026-10-28_15-07-18.mp3",
+          "manifest_file": "08_chapter_08_sv_pl_2026-10-28_15-07-18.json",
+          "total_duration_ms": 238846,
           "chapter_reading": {
             "text": "Dzieci przynoszą radio. Z małej skrytki wypada niebieski kamyk. Tomek wkłada go w skrzydło ptaka. Dzieci wołają: – Reparo! Złoty ptak macha skrzydłami i zaczyna wesoło śpiewać. W powietrzu tańczą motyle. – Dobra robota! – mówi Radiofon. – Zostaję z wami na zawsze!",
-            "start_ms": 174566,
-            "end_ms": 200866
-          }
+            "start_ms": 213262,
+            "end_ms": 238846
+          },
+          "chapter_introduction": {
+            "text": "Wielki koncert.",
+            "start_ms": 1000,
+            "end_ms": 2872
+          },
+          "chapter_readings": [
+            {
+              "text": "Dzieci przynoszą radio. Z małej skrytki wypada niebieski kamyk. Tomek wkłada go w skrzydło ptaka. Dzieci wołają: – Reparo! Złoty ptak macha skrzydłami i zaczyna wesoło śpiewać. W powietrzu tańczą motyle. – Dobra robota! – mówi Radiofon. – Zostaję z wami na zawsze!",
+              "start_ms": 5372,
+              "end_ms": 30956
+            },
+            {
+              "text": "Dzieci przynoszą radio. Z małej skrytki wypada niebieski kamyk. Tomek wkłada go w skrzydło ptaka. Dzieci wołają: – Reparo! Złoty ptak macha skrzydłami i zaczyna wesoło śpiewać. W powietrzu tańczą motyle. – Dobra robota! – mówi Radiofon. – Zostaję z wami na zawsze!",
+              "start_ms": 213262,
+              "end_ms": 238846
+            }
+          ],
+          "sequence": [
+            "story",
+            "practice",
+            "story"
+          ],
+          "transitions": [
+            {
+              "kind": "chime",
+              "from": "story",
+              "to": "practice",
+              "start_ms": 33456,
+              "end_ms": 34076
+            },
+            {
+              "kind": "chime",
+              "from": "practice",
+              "to": "story",
+              "start_ms": 210142,
+              "end_ms": 210762
+            }
+          ],
+          "narration": {
+            "engine": "azure",
+            "voice": "pl-PL-Harper:MAI-Voice-2.1",
+            "style": "audiobook",
+            "rate": "-12%",
+            "locale": "pl-PL",
+            "capabilities": {
+              "voice": "pl-PL-Harper:MAI-Voice-2.1",
+              "locale": "pl-PL",
+              "advertised_styles": [
+                "agent",
+                "audiobook",
+                "customer_call_center",
+                "educational",
+                "narrator"
+              ]
+            },
+            "ssml": "<speak xmlns:mstts=\"http://www.w3.org/2001/mstts\" version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"pl-PL\"><voice name=\"pl-PL-Harper:MAI-Voice-2.1\"><mstts:express-as style=\"audiobook\"><prosody rate=\"-12%\"><p>Dzieci przynoszą radio. Z małej skrytki wypada niebieski kamyk. Tomek wkłada go w skrzydło ptaka. Dzieci wołają: – Reparo! Złoty ptak macha skrzydłami i zaczyna wesoło śpiewać. W powietrzu tańczą motyle. – Dobra robota! – mówi Radiofon. – Zostaję z wami na zawsze!</p></prosody></mstts:express-as></voice></speak>"
+          },
+          "packaged_audio": "swedish-polish/audio/stories/magical_radio/08_chapter_08_sv_pl_2026-10-28_15-07-18.mp3"
         }
       }
     }
@@ -187,6 +651,32 @@
     "thinking_ms": 2000,
     "repetition_ms": 2500,
     "practice_order": "deterministically_shuffled",
-    "timestamp": "2026-10-27_21-48-09"
+    "sequence": [
+      "story",
+      "practice",
+      "story"
+    ],
+    "timestamp": "2026-10-28_15-07-18",
+    "narration": {
+      "pl": {
+        "engine": "azure",
+        "voice": "pl-PL-Harper:MAI-Voice-2.1",
+        "style": "audiobook",
+        "rate": "-12%",
+        "locale": "pl-PL",
+        "capabilities": {
+          "voice": "pl-PL-Harper:MAI-Voice-2.1",
+          "locale": "pl-PL",
+          "advertised_styles": [
+            "agent",
+            "audiobook",
+            "customer_call_center",
+            "educational",
+            "narrator"
+          ]
+        }
+      }
+    },
+    "narration_engine": "azure"
   }
 }
