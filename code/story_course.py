@@ -610,11 +610,6 @@ def package_podcasts(
         raise ValueError("--podcast-course must be a lowercase URL-safe course slug.")
     source_language = args.source_language
     story_root = args.transcript.parent.parent
-    cover = args.cover or story_root / "cover.jpg"
-    if not args.podcast_course and not cover.is_file():
-        raise FileNotFoundError(
-            f"Podcast packaging requires the story cover image; not found: {cover}"
-        )
     if not args.podcast_course and not args.email:
         raise ValueError("Podcast packaging requires --email for the public RSS owner contact.")
     podcast_root = args.podcast_root
@@ -627,6 +622,17 @@ def package_podcasts(
     builder = _podcast_builder()
     feed_catalogs: dict[str, dict[str, Any]] = {}
     for target in build["settings"]["target_languages"]:
+        cover_source_language = "se" if source_language == "sv" else source_language
+        direction_cover = story_root / f"cover_{cover_source_language}_{target}.jpeg"
+        cover = args.cover or (
+            direction_cover if direction_cover.is_file() else story_root / "cover.jpg"
+        )
+        if not cover.is_file():
+            raise FileNotFoundError(
+                f"Podcast packaging requires the story cover image; not found: {cover}"
+            )
+        if cover.stat().st_size == 0:
+            raise ValueError(f"Empty story cover image: {cover}")
         slug = args.podcast_course or f'{transcript["story_id"]}-{source_language}-{target}'
         course = podcast_root / slug
         audio_dir = course / "audio"
@@ -679,6 +685,18 @@ def package_podcasts(
                 "episodes": [],
             }
 
+        relative_cover_name = f'images/stories/{transcript["story_id"]}/cover.jpeg'
+        packaged_story_cover = course / relative_cover_name
+        if (
+            packaged_story_cover.exists()
+            and packaged_story_cover.read_bytes() != cover.read_bytes()
+        ):
+            raise FileExistsError(
+                f"Refusing to overwrite a different story cover: {packaged_story_cover}"
+            )
+        packaged_story_cover.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copyfile(cover, packaged_story_cover)
+
         episodes = catalog["episodes"]
         previous_by_id = {episode["id"]: episode for episode in episodes}
         story_id_prefix = f'{transcript["story_id"]}:{source_language}:{target}:chapter-'
@@ -720,6 +738,7 @@ def package_podcasts(
                     f'{chapter["titles"][target]}'
                 ),
                 "file": relative_audio_name,
+                "image": relative_cover_name,
                 "duration_ms": data["total_duration_ms"],
                 "published": previous.get(
                     "published", datetime.now(timezone.utc).isoformat(timespec="seconds")

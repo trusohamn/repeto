@@ -14,6 +14,62 @@ SPEC.loader.exec_module(podcast)
 
 
 class PodcastTests(unittest.TestCase):
+    def test_episode_artwork_is_optional_validated_and_url_encoded(self):
+        source = Path(__file__).resolve().parents[1] / "podcast/swedish-polish/course.json"
+        config = json.loads(source.read_text())
+        config["episodes"] = config["episodes"][:2]
+        with tempfile.TemporaryDirectory() as directory:
+            course = Path(directory) / "swedish-polish"
+            (course / "audio").mkdir(parents=True)
+            (course / "cover.jpeg").write_bytes(b"show cover")
+            for episode in config["episodes"]:
+                audio = course / "audio" / episode["file"]
+                audio.parent.mkdir(parents=True, exist_ok=True)
+                audio.write_bytes(b"audio")
+            image_path = "images/stories/test story/cover.jpeg"
+            image = course / image_path
+            image.parent.mkdir(parents=True)
+            image.write_bytes(b"story cover")
+            config["episodes"][0]["image"] = image_path
+            catalog = course / "course.json"
+            catalog.write_text(json.dumps(config))
+            podcast.build_feed(course, "https://example.com/repeto")
+            root = ET.parse(course / "feed.xml")
+            items = root.findall("./channel/item")
+            artwork = items[0].find(f"{{{podcast.ITUNES}}}image")
+            self.assertIsNotNone(artwork)
+            assert artwork is not None
+            self.assertEqual(
+                artwork.get("href"),
+                "https://example.com/repeto/swedish-polish/"
+                "images/stories/test%20story/cover.jpeg",
+            )
+            self.assertIsNone(items[1].find(f"{{{podcast.ITUNES}}}image"))
+            show_artwork = root.find(f"./channel/{{{podcast.ITUNES}}}image")
+            assert show_artwork is not None
+            self.assertEqual(
+                show_artwork.get("href"),
+                "https://example.com/repeto/swedish-polish/cover.jpeg",
+            )
+            for invalid in (
+                "../escape.jpeg", "/absolute.jpeg", "nested\\escape.jpeg",
+                "nested/../escape.jpeg", "https://example.com/cover.jpeg",
+                "", None, 42, "notes.txt",
+            ):
+                config["episodes"][0]["image"] = invalid
+                catalog.write_text(json.dumps(config))
+                with self.subTest(image=invalid):
+                    with self.assertRaisesRegex(ValueError, "Invalid episode image"):
+                        podcast.build_feed(course, "https://example.com/repeto")
+            config["episodes"][0]["image"] = image_path
+            catalog.write_text(json.dumps(config))
+            image.write_bytes(b"")
+            with self.assertRaisesRegex(ValueError, "Missing or empty episode image"):
+                podcast.build_feed(course, "https://example.com/repeto")
+            image.unlink()
+            with self.assertRaisesRegex(ValueError, "Missing or empty episode image"):
+                podcast.build_feed(course, "https://example.com/repeto")
+
     def test_feed_and_stable_ids(self):
         source = Path(__file__).resolve().parents[1] / "podcast/swedish-polish/course.json"
         config = json.loads(source.read_text())

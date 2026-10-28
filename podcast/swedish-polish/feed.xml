@@ -387,6 +387,7 @@
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>249</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://trusohamn.github.io/repeto/swedish-polish/images/stories/magical_radio/cover.jpeg" />
       <enclosure url="https://trusohamn.github.io/repeto/swedish-polish/audio/stories/magical_radio/01_chapter_01_sv_pl_2026-10-27_21-48-09.mp3" length="5989189" type="audio/mpeg" />
     </item>
     <item>
@@ -399,6 +400,7 @@
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>213</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://trusohamn.github.io/repeto/swedish-polish/images/stories/magical_radio/cover.jpeg" />
       <enclosure url="https://trusohamn.github.io/repeto/swedish-polish/audio/stories/magical_radio/02_chapter_02_sv_pl_2026-10-27_21-48-09.mp3" length="5109594" type="audio/mpeg" />
     </item>
     <item>
@@ -411,6 +413,7 @@
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>253</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://trusohamn.github.io/repeto/swedish-polish/images/stories/magical_radio/cover.jpeg" />
       <enclosure url="https://trusohamn.github.io/repeto/swedish-polish/audio/stories/magical_radio/03_chapter_03_sv_pl_2026-10-27_21-48-09.mp3" length="6075706" type="audio/mpeg" />
     </item>
     <item>
@@ -423,6 +426,7 @@
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>235</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://trusohamn.github.io/repeto/swedish-polish/images/stories/magical_radio/cover.jpeg" />
       <enclosure url="https://trusohamn.github.io/repeto/swedish-polish/audio/stories/magical_radio/04_chapter_04_sv_pl_2026-10-27_21-48-09.mp3" length="5632461" type="audio/mpeg" />
     </item>
     <item>
@@ -435,6 +439,7 @@
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>198</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://trusohamn.github.io/repeto/swedish-polish/images/stories/magical_radio/cover.jpeg" />
       <enclosure url="https://trusohamn.github.io/repeto/swedish-polish/audio/stories/magical_radio/05_chapter_05_sv_pl_2026-10-27_21-48-09.mp3" length="4748477" type="audio/mpeg" />
     </item>
     <item>
@@ -447,6 +452,7 @@
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>174</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://trusohamn.github.io/repeto/swedish-polish/images/stories/magical_radio/cover.jpeg" />
       <enclosure url="https://trusohamn.github.io/repeto/swedish-polish/audio/stories/magical_radio/06_chapter_06_sv_pl_2026-10-27_21-48-09.mp3" length="4177336" type="audio/mpeg" />
     </item>
     <item>
@@ -459,6 +465,7 @@
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>197</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://trusohamn.github.io/repeto/swedish-polish/images/stories/magical_radio/cover.jpeg" />
       <enclosure url="https://trusohamn.github.io/repeto/swedish-polish/audio/stories/magical_radio/07_chapter_07_sv_pl_2026-10-27_21-48-09.mp3" length="4732803" type="audio/mpeg" />
     </item>
     <item>
@@ -471,6 +478,7 @@
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>201</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://trusohamn.github.io/repeto/swedish-polish/images/stories/magical_radio/cover.jpeg" />
       <enclosure url="https://trusohamn.github.io/repeto/swedish-polish/audio/stories/magical_radio/08_chapter_08_sv_pl_2026-10-27_21-48-09.mp3" length="4822456" type="audio/mpeg" />
     </item>
   </channel>

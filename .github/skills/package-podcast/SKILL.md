@@ -49,6 +49,7 @@ podcast/<slug>/
   audio/
     practice/<original-render-filename>.mp3
     stories/<story-id>/<original-render-filename>.mp3
+  images/stories/<story-id>/cover.jpeg
   feed.xml
   index.html
 ```
@@ -57,6 +58,9 @@ podcast/<slug>/
 - Store vocabulary-topic recordings under `audio/practice/`; store story
   chapters under `audio/stories/<story-id>/`. `course.json` episode `file`
   values are paths relative to `audio/`, not necessarily basenames.
+- Copy the story cover to `images/stories/<story-id>/cover.jpeg` and set each
+  chapter's `image` to that path, relative to the podcast folder. The RSS
+  builder emits an episode-level `itunes:image`. Preserve the show cover.
 - Create the catalog using the existing schema. Use the source audience's
   language for the show description; explain pauses, double playback, and
   AI-generated voices accurately.
@@ -93,6 +97,8 @@ Parse the new RSS and verify:
 
 - Exactly one item per expected topic, unique GUIDs and season/episode pairs.
 - Correct bilingual numbered titles, source language, owner, and cover URL.
+- Every story chapter has its story-specific `itunes:image`, and the URL maps
+  to the copied artwork. The channel-level image must remain the show cover.
 - Every enclosure maps to its packaged MP3, with actual byte length and
   `audio/mpeg` type; confirm copied bytes match the validated render.
 - Duration and publication metadata match the catalog.

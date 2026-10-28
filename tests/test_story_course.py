@@ -4,6 +4,7 @@ import importlib.util
 import json
 import tempfile
 import unittest
+import xml.etree.ElementTree as ET
 from pathlib import Path
 from unittest.mock import AsyncMock, patch
 
@@ -257,6 +258,9 @@ class StoryCourseTests(unittest.TestCase):
             audio_source_dir.mkdir()
             audio_name = "01_chapter_01_sv_pl_2026-10-27_22-00-00.mp3"
             (audio_source_dir / audio_name).write_bytes(b"story audio")
+            story_root = root / "story"
+            story_root.mkdir()
+            (story_root / "cover_se_pl.jpeg").write_bytes(b"story cover")
             args = argparse.Namespace(
                 podcast_course="swedish-polish",
                 source_language="sv",
@@ -295,6 +299,19 @@ class StoryCourseTests(unittest.TestCase):
             self.assertEqual(added["id"], "test_story:sv:pl:chapter-01")
             self.assertEqual((added["season"], added["episode"]), (2, 1))
             self.assertEqual(added["file"], f"stories/test_story/{audio_name}")
+            self.assertEqual(added["image"], "images/stories/test_story/cover.jpeg")
+            self.assertEqual((course / added["image"]).read_bytes(), b"story cover")
+            self.assertEqual((course / "cover.jpeg").read_bytes(), b"existing cover")
+            feed = ET.parse(course / "feed.xml")
+            artwork = feed.findall("./channel/item")[2].find(
+                "{http://www.itunes.com/dtds/podcast-1.0.dtd}image"
+            )
+            assert artwork is not None
+            self.assertEqual(
+                artwork.get("href"),
+                "https://example.com/repeto/swedish-polish/"
+                "images/stories/test_story/cover.jpeg",
+            )
             self.assertEqual(
                 (audio_dir / added["file"]).read_bytes(), b"story audio"
             )
@@ -302,6 +319,13 @@ class StoryCourseTests(unittest.TestCase):
             rerun = json.loads(catalog_path.read_text(encoding="utf-8"))
             self.assertEqual(len(rerun["episodes"]), 3)
             self.assertEqual(rerun["episodes"][2]["published"], added["published"])
+            self.assertEqual(rerun["episodes"][2]["image"], added["image"])
+            (story_root / "cover_se_pl.jpeg").write_bytes(b"different cover")
+            with self.assertRaisesRegex(FileExistsError, "different story cover"):
+                story_course.package_podcasts(args, transcript, build)
+            (story_root / "cover_se_pl.jpeg").unlink()
+            with self.assertRaisesRegex(FileNotFoundError, "story cover image"):
+                story_course.package_podcasts(args, transcript, build)
 
     def test_duration_limit_rejects_complete_chapter_without_files(self):
         with tempfile.TemporaryDirectory() as directory:

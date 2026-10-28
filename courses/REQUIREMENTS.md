@@ -181,6 +181,12 @@ separat show kräver omslagsbild och kontaktadress för RSS. Ljudfiler och flöd
 publiceras inte automatiskt till Spotify. Publicering sker först efter separat
 commit/push och en lyckad GitHub Pages-deploy.
 
+Berättelsens omslag ska kopieras till `images/stories/<story-id>/cover.jpeg`
+i podcastmappen och länkas från varje kapitel med `itunes:image`. Showens
+befintliga omslag ska vara oförändrat. Välj berättelseomslag med `--cover`;
+annars används riktningsfilen, till exempel `cover_se_pl.jpeg`, eller äldre
+`cover.jpg`. Saknat omslag ska avbryta paketeringen med ett tydligt fel.
+
 ### Varför detta är bättre för din pipeline
 
 - **Sammanhängande berättelse:** Ljudskriptet läser ett helt kapitel från `chapter.chapter_text[target_lang]`; berättelsen segmenteras inte till meningar för översättningsövning.

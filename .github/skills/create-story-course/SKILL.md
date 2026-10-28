@@ -88,6 +88,11 @@ description: Turn a chaptered children's story into a faithful multilingual tran
 - For this story, append to the existing Swedish-to-Polish show as a new
   season. The existing show artwork and owner metadata are retained, and
   chapter MP3s are stored under `podcast/swedish-polish/audio/stories/<id>/`.
+- Use `--cover` to select story artwork explicitly; otherwise packaging looks
+  for `cover_se_pl.jpeg` for Swedish-to-Polish (or the matching direction),
+  then legacy `cover.jpg`. A story cover is required even for an existing show.
+  Packaging copies it to `images/stories/<id>/cover.jpeg` and assigns it to
+  every chapter via episode-level `itunes:image`, without replacing show art.
 - When creating a separate feed instead, verify artwork and public owner
   metadata; owner email is exposed in RSS. Preserve existing episode GUIDs
   and publication dates when updating.

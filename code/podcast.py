@@ -94,6 +94,29 @@ def build_feed(course: Path, base_url: str) -> None:
         field(item, f"{{{ITUNES}}}episodeType", "full")
         field(item, f"{{{ITUNES}}}duration", str(round(episode["duration_ms"] / 1000)))
         field(item, f"{{{ITUNES}}}explicit", "false")
+        if "image" in episode:
+            image_name = episode["image"]
+            if not isinstance(image_name, str) or not image_name:
+                raise ValueError(f"Invalid episode image: {image_name!r}")
+            relative_image_path = PurePosixPath(image_name)
+            if (
+                "\\" in image_name
+                or ":" in image_name
+                or relative_image_path.is_absolute()
+                or str(relative_image_path) != image_name
+                or any(part in {"", ".", ".."} for part in relative_image_path.parts)
+                or relative_image_path.suffix.lower() not in {".jpg", ".jpeg", ".png"}
+            ):
+                raise ValueError(f"Invalid episode image: {image_name!r}")
+            image = course / Path(*relative_image_path.parts)
+            if not image.is_file() or image.stat().st_size == 0:
+                raise ValueError(f"Missing or empty episode image: {image}")
+            ET.SubElement(
+                item, f"{{{ITUNES}}}image",
+                href=url + "/" + "/".join(
+                    quote(part) for part in relative_image_path.parts
+                ),
+            )
         ET.SubElement(
             item, "enclosure",
             url=url + "/audio/" + "/".join(
