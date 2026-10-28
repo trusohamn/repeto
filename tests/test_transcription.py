@@ -404,7 +404,57 @@ class RendererTests(unittest.TestCase):
         assert call is not None
         self.assertEqual(call.kwargs, {
             "source": "en", "targets": ("pl",), "double_output": False,
+            "engine": "azure",
         })
+
+    def test_cli_can_select_edge_engine(self):
+        with patch.object(sys, "argv", [
+            "transcription.py", "--target", "pl", "--tts-engine", "edge",
+        ]), patch.object(renderer, "build_audio_tracks", new_callable=AsyncMock) as build:
+            renderer.main()
+        call = build.await_args
+        assert call is not None
+        self.assertEqual(call.kwargs["engine"], "edge")
+
+    def test_azure_clip_uses_licensed_service_and_separate_cache_key(self):
+        with tempfile.TemporaryDirectory() as directory:
+            cache = Path(directory)
+            edge_path = renderer.clip_path("Cześć!", "pl", cache)
+            azure_path = renderer.clip_path("Cześć!", "pl", cache, engine="azure")
+            self.assertNotEqual(edge_path, azure_path)
+            self.assertTrue(azure_path.name.startswith("pl_azure_"))
+            azure = renderer.azure_speech()
+            with patch.object(renderer, "azure_credentials", return_value=("k", "r")), \
+                 patch.object(azure, "synthesize", return_value=b"mp3") as synth, \
+                 patch.object(renderer.edge_tts, "Communicate") as edge:
+                asyncio.run(renderer.generate_clip("Cześć!", "pl", azure_path, engine="azure"))
+                asyncio.run(renderer.generate_clip("Cześć!", "pl", azure_path, engine="azure"))
+            edge.assert_not_called()
+            synth.assert_called_once()
+            ssml = synth.call_args.args[0]
+            self.assertIn('name="pl-PL-ZofiaNeural"', ssml)
+            self.assertIn('rate="-15%"', ssml)
+            self.assertIn("Cześć!", ssml)
+            self.assertEqual(azure_path.read_bytes(), b"mp3")
+
+    def test_azure_clip_retries_only_retryable_errors(self):
+        azure = renderer.azure_speech()
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "clip.mp3"
+            responses = [azure.AzureSpeechError("HTTP 429", retryable=True), b"mp3"]
+            with patch.object(renderer, "azure_credentials", return_value=("k", "r")), \
+                 patch.object(azure, "synthesize", side_effect=responses), \
+                 patch.object(renderer.asyncio, "sleep", new_callable=AsyncMock):
+                asyncio.run(renderer.generate_clip("Hej!", "se", path, engine="azure"))
+            self.assertEqual(path.read_bytes(), b"mp3")
+            path.unlink()
+            with patch.object(renderer, "azure_credentials", return_value=("k", "r")), \
+                 patch.object(azure, "synthesize",
+                              side_effect=azure.AzureSpeechError("HTTP 401")) as synth:
+                with self.assertRaisesRegex(RuntimeError, "Azure Speech failed"):
+                    asyncio.run(renderer.generate_clip("Hej!", "se", path, engine="azure"))
+            synth.assert_called_once()
+            self.assertFalse(path.exists())
 
     def test_cli_double_output(self):
         with patch.object(sys, "argv", [
@@ -478,7 +528,7 @@ class RendererTests(unittest.TestCase):
             existing = output / "previous.mp3"
             existing.write_bytes(b"previous successful topic")
 
-            async def synthesize(text, lang, path):
+            async def synthesize(text, lang, path, engine="edge"):
                 if text == "Goodbye!" and lang == "en":
                     raise RuntimeError("Last phrase failed")
 
@@ -504,7 +554,7 @@ class RendererTests(unittest.TestCase):
                 dict(entry(identifier="phrase_000002"), se="Hejdå!")
             ]), encoding="utf-8")
 
-            async def synthesize(text, lang, path):
+            async def synthesize(text, lang, path, engine="edge"):
                 with path.open("w+b") as audio_file:
                     tone(500).export(audio_file, format="mp3")
 

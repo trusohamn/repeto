@@ -145,6 +145,36 @@ def build_ssml(
     return ET.tostring(speak, encoding="unicode")
 
 
+class AzureSpeechError(RuntimeError):
+    def __init__(self, message: str, retryable: bool = False) -> None:
+        super().__init__(message)
+        self.retryable = retryable
+
+
+def build_clip_ssml(text: str, voice_name: str, rate: str, pitch: str = "+0Hz") -> str:
+    """SSML for one short practice phrase, matching Edge TTS voice/rate/pitch settings."""
+    if not text.strip():
+        raise ValueError("Clip text is empty.")
+    locale = "-".join(voice_name.split("-")[:2])
+    speak = ET.Element(
+        "speak",
+        {"version": "1.0", "xmlns": SSML,
+         "{http://www.w3.org/XML/1998/namespace}lang": locale},
+    )
+    voice = ET.SubElement(speak, "voice", name=voice_name)
+    prosody = ET.SubElement(voice, "prosody", rate=rate, pitch=pitch)
+    prosody.text = text
+    return ET.tostring(speak, encoding="unicode")
+
+
+def load_credentials() -> tuple[str, str]:
+    load_dotenv(ROOT / ".env", override=False)
+    key = os.environ.get("AZURE_SPEECH_KEY", "")
+    region = os.environ.get("AZURE_SPEECH_REGION", "")
+    validate_credentials(key, region)
+    return key, region
+
+
 def synthesize(ssml: str, key: str, region: str) -> bytes:
     validate_credentials(key, region)
     request = Request(
@@ -160,7 +190,7 @@ def synthesize(ssml: str, key: str, region: str) -> bytes:
     )
     audio = request_bytes(request)
     if not audio:
-        raise RuntimeError("Azure Speech returned no audio.")
+        raise AzureSpeechError("Azure Speech returned no audio.", retryable=True)
     return audio
 
 
@@ -182,12 +212,15 @@ def request_bytes(request: Request) -> bytes:
             403: "Check resource access and the free-tier quota.",
             429: "Quota or request-rate limit reached; retry later.",
         }
-        raise RuntimeError(
+        raise AzureSpeechError(
             f"Azure Speech HTTP {error.code}. "
-            + explanations.get(error.code, "Check Azure resource status.")
+            + explanations.get(error.code, "Check Azure resource status."),
+            retryable=error.code == 429 or error.code >= 500,
         ) from None
-    except (URLError, TimeoutError):
-        raise RuntimeError("Could not reach Azure Speech; check connectivity and region.") from None
+    except (URLError, TimeoutError, ConnectionError):
+        raise AzureSpeechError(
+            "Could not reach Azure Speech; check connectivity and region.", retryable=True,
+        ) from None
 
 
 def check_voice(

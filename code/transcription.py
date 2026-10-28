@@ -1,6 +1,7 @@
 import argparse
 import asyncio
 import hashlib
+import importlib.util
 import json
 import logging
 import math
@@ -9,6 +10,7 @@ import shutil
 import tempfile
 from datetime import datetime
 from pathlib import Path
+from types import ModuleType
 from typing import Literal, TypedDict
 
 import edge_tts
@@ -19,6 +21,8 @@ from pydub.silence import detect_nonsilent
 
 ROOT = Path(__file__).resolve().parent.parent
 Language = Literal["se", "en", "pl", "ru"]
+Engine = Literal["azure", "edge"]
+ENGINES: tuple[Engine, ...] = ("azure", "edge")
 LANGUAGES: tuple[Language, ...] = ("se", "pl", "en", "ru")
 TARGETS: tuple[Language, ...] = ("pl", "en", "ru")
 VOICES = {
@@ -34,6 +38,7 @@ THINKING_MS = 2000
 REPETITION_MS = 2500
 VOICE_DBFS = -20.0
 TTS_ATTEMPTS = 3
+AZURE_ATTEMPTS = 6
 LOGGER = logging.getLogger(__name__)
 
 
@@ -71,6 +76,8 @@ class Manifest(TypedDict):
     source_language: Language
     target_language: Language
     audio_file: str
+    tts_engine: Engine
+    voices: dict[Language, str]
     total_duration_ms: int
     entries: list[TimedEntry]
 
@@ -123,14 +130,72 @@ def clip_path(
     voice: str | None = None,
     rate: str | None = None,
     pitch: str = "+0Hz",
+    engine: Engine = "edge",
 ) -> Path:
     settings = [
         speech_text(text), lang, voice or VOICES[lang], rate or RATES[lang], pitch
     ]
+    # Edge keys stay unchanged so existing cached Edge clips remain valid.
+    if engine != "edge":
+        settings.append(engine)
     digest = hashlib.sha256(
         json.dumps(settings, ensure_ascii=False).encode("utf-8")
     ).hexdigest()
-    return cache / f"{lang}_{digest}.mp3"
+    prefix = f"{lang}_" if engine == "edge" else f"{lang}_{engine}_"
+    return cache / f"{prefix}{digest}.mp3"
+
+
+_AZURE: ModuleType | None = None
+_AZURE_CREDENTIALS: tuple[str, str] | None = None
+
+
+def azure_speech() -> ModuleType:
+    global _AZURE
+    if _AZURE is None:
+        path = ROOT / "code" / "azure_speech.py"
+        spec = importlib.util.spec_from_file_location("azure_speech", path)
+        if spec is None or spec.loader is None:
+            raise RuntimeError(f"Cannot load Azure helpers from {path}")
+        module = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(module)
+        _AZURE = module
+    return _AZURE
+
+
+def azure_credentials() -> tuple[str, str]:
+    global _AZURE_CREDENTIALS
+    if _AZURE_CREDENTIALS is None:
+        key, region = azure_speech().load_credentials()
+        _AZURE_CREDENTIALS = (key, region)
+    return _AZURE_CREDENTIALS
+
+
+async def generate_azure_clip(
+    text: str, voice: str, rate: str, pitch: str, out_path: Path,
+) -> None:
+    azure = azure_speech()
+    key, region = azure_credentials()
+    ssml = azure.build_clip_ssml(speech_text(text), voice, rate, pitch)
+    for attempt in range(1, AZURE_ATTEMPTS + 1):
+        try:
+            audio = await asyncio.to_thread(azure.synthesize, ssml, key, region)
+            break
+        except azure.AzureSpeechError as error:
+            if not error.retryable or attempt == AZURE_ATTEMPTS:
+                raise RuntimeError(
+                    f"Azure Speech failed for voice={voice}, text={text!r}: {error} "
+                    "Rerun the command to reuse completed cached clips."
+                ) from error
+            delay = min(2 ** attempt, 60)
+            LOGGER.warning(
+                "Azure Speech retry %s/%s for %r in %ss: %s",
+                attempt, AZURE_ATTEMPTS, text, delay, error,
+            )
+            await asyncio.sleep(delay)
+    with tempfile.TemporaryDirectory(dir=out_path.parent) as directory:
+        pending = Path(directory) / "clip.mp3"
+        pending.write_bytes(audio)
+        pending.replace(out_path)
 
 
 async def generate_clip(
@@ -140,10 +205,18 @@ async def generate_clip(
     voice: str | None = None,
     rate: str | None = None,
     pitch: str = "+0Hz",
+    engine: Engine = "edge",
 ) -> None:
     if out_path.is_file() and out_path.stat().st_size > 0:
         return
     out_path.parent.mkdir(parents=True, exist_ok=True)
+    if engine == "azure":
+        await generate_azure_clip(
+            text, voice or VOICES[lang], rate or RATES[lang], pitch, out_path
+        )
+        return
+    if engine != "edge":
+        raise ValueError(f"Unsupported TTS engine: {engine!r}")
     for attempt in range(1, TTS_ATTEMPTS + 1):
         try:
             with tempfile.TemporaryDirectory(dir=out_path.parent) as directory:
@@ -287,7 +360,10 @@ async def build_audio_tracks(
     source: Language = "se",
     targets: tuple[Language, ...] | None = None,
     double_output: bool = False,
+    engine: Engine = "azure",
 ) -> None:
+    if engine not in ENGINES:
+        raise ValueError(f"Unsupported TTS engine: {engine!r}")
     if source not in LANGUAGES:
         raise ValueError(f"Unsupported source language: {source!r}")
     if targets is None:
@@ -330,6 +406,8 @@ async def build_audio_tracks(
                 audio_file=topic_filename(
                     title, section_number, target, source, recorded_at, double_output
                 ),
+                tts_engine=engine,
+                voices={source: VOICES[source], target: VOICES[target]},
                 total_duration_ms=LEAD_IN_MS,
                 entries=[],
             )
@@ -340,8 +418,8 @@ async def build_audio_tracks(
             clips: dict[Language, AudioSegment] = {}
             for lang in selected_languages:
                 text = item[lang]
-                path = clip_path(text, lang, cache)
-                await generate_clip(text, lang, path)
+                path = clip_path(text, lang, cache, engine=engine)
+                await generate_clip(text, lang, path, engine=engine)
                 audio = AudioSegment.from_file(str(path), format="mp3")
                 clips[lang] = prepare_clip(audio, str(path))
             candidates: dict[Language, tuple[AudioSegment, TimedEntry]] = {
@@ -403,6 +481,11 @@ def main() -> None:
         help="Preview cap per track, including pauses. Keeps the same complete entries "
              "in all selected versions; does not pad or truncate speech.",
     )
+    parser.add_argument(
+        "--tts-engine", choices=ENGINES, default="azure",
+        help="Speech service: licensed Azure Speech (default; needs AZURE_SPEECH_KEY and "
+             "AZURE_SPEECH_REGION in .env) or the unofficial Edge Read Aloud endpoint.",
+    )
     parser.add_argument("--list-topics", action="store_true", help="List topics without using TTS.")
     args = parser.parse_args()
     if args.list_topics:
@@ -412,7 +495,7 @@ def main() -> None:
     asyncio.run(build_audio_tracks(
         args.transcript, args.output, args.cache, args.topic, args.max_duration,
         source=args.source, targets=tuple(args.target) if args.target is not None else None,
-        double_output=args.double_output,
+        double_output=args.double_output, engine=args.tts_engine,
     ))
 
 

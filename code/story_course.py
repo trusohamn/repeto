@@ -273,14 +273,20 @@ def _segment(text: str, start: int, end: int) -> dict[str, Any]:
     return {"text": text, "start_ms": start, "end_ms": end}
 
 
-def _speech_key(text: str, language: str, voice: str, rate: str, pitch: str) -> str:
+def _speech_key(
+    text: str, language: str, voice: str, rate: str, pitch: str, engine: str = "edge",
+) -> str:
     renderer = _renderer()
     synthesis_text = renderer.speech_text(text)
     data = [synthesis_text, language, voice, rate, pitch]
+    # Edge keys stay unchanged so existing cached Edge clips remain valid.
+    if engine != "edge":
+        data.append(engine)
     digest = hashlib.sha256(
         json.dumps(data, ensure_ascii=False).encode("utf-8")
     ).hexdigest()
-    return f"{language}_{digest}.mp3"
+    prefix = f"{language}_" if engine == "edge" else f"{language}_{engine}_"
+    return f"{prefix}{digest}.mp3"
 
 
 async def _clip(
@@ -290,18 +296,19 @@ async def _clip(
     voice: str,
     rate: str,
     pitch: str,
+    engine: str = "azure",
 ) -> AudioSegment:
     renderer = _renderer()
     engine_language = _language_key(language)
     renderer.VOICES[engine_language] = voice
     renderer.RATES[engine_language] = rate
-    cache_path = cache / _speech_key(text, language, voice, rate, pitch)
+    cache_path = cache / _speech_key(text, language, voice, rate, pitch, engine)
     if not cache_path.is_file():
         for attempt in range(1, 9):
             try:
                 await renderer.generate_clip(
                     text, engine_language, cache_path,
-                    voice=voice, rate=rate, pitch=pitch,
+                    voice=voice, rate=rate, pitch=pitch, engine=engine,
                 )
                 break
             except RuntimeError as error:
@@ -691,6 +698,7 @@ async def render_story(args: argparse.Namespace) -> dict[str, Any]:
         "timestamp": timestamp,
         "narration": narration,
         "narration_engine": args.narration_engine,
+        "tts_engine": args.tts_engine,
         "output": _relative_to_root(args.output),
     }
     # One manifest serves every direction: keep other targets' renders intact.
@@ -723,6 +731,7 @@ async def render_story(args: argparse.Namespace) -> dict[str, Any]:
                 clip_cache[(item["id"], language)] = await _clip(
                     item["text"][language], language, args.cache,
                     voices[language], rates[language], pitch[language],
+                    args.tts_engine,
                 )
 
         tracks: dict[str, AudioSegment] = {}
@@ -747,11 +756,11 @@ async def render_story(args: argparse.Namespace) -> dict[str, Any]:
             else:
                 chapter_clip = await _clip(
                     chapter_text, target, args.cache,
-                    voices[target], rates[target], pitch[target],
+                    voices[target], rates[target], pitch[target], "edge",
                 )
                 chapter_intro_clip = await _clip(
                     f'{chapter["titles"][target]}.', target, args.cache,
-                    voices[target], rates[target], pitch[target],
+                    voices[target], rates[target], pitch[target], "edge",
                 )
             book_intro_clip = None
             if story_title:
@@ -765,7 +774,7 @@ async def render_story(args: argparse.Namespace) -> dict[str, Any]:
                 else:
                     book_intro_clip = await _clip(
                         f"{story_title}.", target, args.cache,
-                        voices[target], rates[target], pitch[target],
+                        voices[target], rates[target], pitch[target], "edge",
                     )
             practice_clips = {
                 item["id"]: (
@@ -1034,6 +1043,10 @@ def package_podcasts(
 def create_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--narration-engine", choices=("azure", "edge"), default="azure")
+    parser.add_argument(
+        "--tts-engine", choices=("azure", "edge"), default="azure",
+        help="Speech service for practice prompts and vocabulary clips (default: azure).",
+    )
     parser.add_argument("--narration-voice", action="append", default=[], metavar="LANG=VOICE")
     parser.add_argument("--narration-rate", action="append", default=[], metavar="LANG=RATE")
     parser.add_argument("--narration-style", action="append", default=[], metavar="LANG=STYLE")

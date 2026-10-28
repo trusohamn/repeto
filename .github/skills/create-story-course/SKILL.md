@@ -62,12 +62,14 @@ description: Turn a chaptered children's story into a faithful multilingual tran
   MAI-Voice-2.1 with `audiobook` style in Polish, Swedish, and English. Russian
   uses Azure `ru-RU-SvetlanaNeural` without a style (Russian Harper produced
   audible background artifacts).
-  Prompts and vocabulary repetitions remain on Edge TTS. Narration uses the
+  Prompts and vocabulary repetitions use the same Neural voices through
+  licensed Azure Speech (`--tts-engine azure`, the default); use
+  `--tts-engine edge` only when explicitly requested. Narration uses the
   language being read, not the native prompt language. Do not silently fall
   back if Azure credentials, language, or style are unavailable.
 - Keep credentials in ignored `.env`; never inspect, print, or commit them.
   Use `--narration-voice`, `--narration-rate`, and `--narration-style` for
-  Azure, independently from Edge `--voice`, `--rate`, and `--pitch`.
+  Azure, independently from the vocabulary `--voice`, `--rate`, and `--pitch`.
 - Author passage directions per chapter for suspense, dialogue, and reveals,
   preserving every original word and punctuation. Register approved directions
   in `generated/narration.json`: language -> chapter number -> passage array
@@ -96,7 +98,7 @@ description: Turn a chaptered children's story into a faithful multilingual tran
   sentences in their original order. Story sentences are not individually
   translated or practiced. Every vocabulary target is played twice with the
   configured pauses.
-- The default Swedish and Polish Edge practice rates are both `-15%`; preserve these
+- The default Swedish and Polish practice rates are both `-15%`; preserve these
   child-friendly rates unless the user requests a change.
 - Speak the book title once at the beginning of chapter 1, before the first
   reading. Record it as a separate `book_introduction` manifest segment and
@@ -109,7 +111,8 @@ description: Turn a chaptered children's story into a faithful multilingual tran
   settings as CLI arguments when requested; check `--help` for current options.
 - Use a duration cap only for an intentional validation preview. A cap rejects
   a chapter that would exceed it; it never publishes partial chapters.
-- Check TTS availability and FFmpeg prerequisites. TTS sends text to Edge TTS.
+- Check TTS availability and FFmpeg prerequisites. TTS sends text to Azure Speech
+  (credentials in `.env`).
   Do not hide failures or claim a render succeeded unless every chapter and
   selected language passed decode and timing validation.
 - Rerenders produce new timestamped files. Preserve prior audio and manifests

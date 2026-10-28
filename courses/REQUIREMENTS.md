@@ -151,7 +151,10 @@ Hela kapitel och boktiteln använder som standard Azure Speech, Harper
 MAI-Voice-2.1 med stilen `audiobook` och hastigheten `-12%` för svenska,
 polska och engelska. Ryska använder Azure `ru-RU-SvetlanaNeural` utan stil,
 eftersom rysk Harper gav hörbara störljud i bakgrunden. Uppläsningsspråket styr röstvalet,
-oberoende av barnets modersmål. Ordövningar använder fortsatt Edge TTS.
+oberoende av barnets modersmål. Ordövningar och övningsavsnitt använder samma Neural-röster
+via licensierad Azure Speech (`--tts-engine azure`, standard), eftersom Azures
+villkor tillåter publicering av ljudet. `--tts-engine edge` (den inofficiella
+Edge-uppläsningen) får bara väljas uttryckligen. Manifestet anger `tts_engine`.
 Azure-inställningar anges separat med `--narration-voice`,
 `--narration-rate` och `--narration-style`. Fel får inte ge tyst återgång till
 Edge; äldre beteende väljs uttryckligen med `--narration-engine edge`.
@@ -214,7 +217,7 @@ Generera som standard hela kapitlet på polska, ordövning med långsamma svensk
 
 Använd `--help` för alla alternativ. Källspråk, mål, röster (`--voice LANG=VOICE`), hastigheter (`--rate LANG=RATE`), tonhöjd (`--pitch LANG=PITCH`), pauser, ljudformat, varaktighetsgräns, transkript, cache och utdatasökvägar är konfigurerbara. En varaktighetsgräns avvisar ett helt kapitel som överskrider gränsen; den skapar aldrig ett ofullständigt slutspår.
 
-Standardhastigheten för polska och svenska i Edge-ordövningar är `-15%`;
+Standardhastigheten för polska och svenska i ordövningar är `-15%`;
 svenska är avsiktligt långsammare för tydligare uttal. Azure-uppläsning
 använder separat hastighet och eventuella kapitelanvisningar.
 

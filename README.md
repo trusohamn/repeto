@@ -123,8 +123,9 @@ Story narration and the opening book title now default to Azure Harper
 MAI-Voice-2.1, using the `audiobook` style and a `-12%` rate. Polish uses
 `pl-PL-Harper:MAI-Voice-2.1`, Swedish `sv-SE-Harper:MAI-Voice-2.1`, English
 `en-US-Harper:MAI-Voice-2.1`, and Russian `ru-RU-SvetlanaNeural` (Azure Neural, no style; Russian Harper had audible artifacts). The narration voice follows the language being
-read, independently of the prompt/native language. Vocabulary practice stays
-on Edge TTS, including both target repetitions.
+read, independently of the prompt/native language. Vocabulary prompts and both
+target repetitions use the same Neural voices (Sofie, Zofia, Sonia, Svetlana)
+through licensed Azure Speech by default (`--tts-engine azure`).
 
 Each episode plays the complete target-language chapter before vocabulary
 practice and repeats the identical narration clip afterward, without a second
@@ -146,7 +147,9 @@ Configure `.env` as described above. Override narration independently with
 `--narration-voice LANG=VOICE`, `--narration-rate LANG=RATE`, or
 `--narration-style LANG=STYLE`. Use `--narration-engine edge` explicitly for
 the previous all-Edge behavior; Azure failures never silently fall back.
-Existing `--voice`, `--rate`, and `--pitch` settings control Edge speech.
+Existing `--voice`, `--rate`, and `--pitch` settings control the vocabulary
+voices on either engine; `--tts-engine edge` selects the unofficial Edge Read
+Aloud endpoint for them.
 
 The renderer automatically reads `narration.json` beside the transcript when
 present. Its shape is `{"pl": {"1": [{...passage settings...}]}}`;
@@ -180,7 +183,7 @@ original) and `en-US-Harper:MAI-Voice-2.1` narration:
 ```
 
 Russian works the same way for the Swedish-to-Russian feed, with
-Azure `ru-RU-SvetlanaNeural` narration and Edge `ru-RU-SvetlanaNeural` practice:
+Azure `ru-RU-SvetlanaNeural` for both narration and practice:
 
 ```sh
 .venv/bin/python code/story_course.py --source-language sv --target ru --package-podcast --podcast-course swedish-russian
@@ -238,7 +241,13 @@ With `--double-output`, the answer and repetition pause play once more.
 Both playbacks have timestamps in `target_playbacks` in the manifest.
 The duration cap includes both. Timestamped filenames keep separate renders
 apart; avoid starting renders in the same output folder within the same second.
-Uncached speech requires internet access and sends the text to Edge TTS.
+Uncached speech requires internet access and sends the text to Azure Speech
+(`AZURE_SPEECH_KEY` and `AZURE_SPEECH_REGION` in `.env`). Azure is the default
+because its terms allow publishing the generated audio; `--tts-engine edge`
+uses the unofficial Edge Read Aloud endpoint with the same voices, which has no
+publishing licence and can be blocked without notice. Each render manifest
+records `tts_engine` and `voices`. Azure clips are cached as
+`.audio_cache/<lang>_azure_<sha>.mp3`, separately from Edge clips.
 Unpunctuated words receive a final full stop for TTS reliability; transcript
 and manifest text stay unchanged. Cache keys use this speech text, so older
 unpunctuated clips may need regenerating once.

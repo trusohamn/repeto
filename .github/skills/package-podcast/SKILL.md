@@ -34,9 +34,10 @@ does not synthesize audio or submit shows to Spotify.
    the configured opening/think/repetition pauses. Reject preview-length,
    missing, corrupt, stale, or incomplete topics; report the exact failure.
    For new story renders, check narration provenance (Azure voice, style,
-   locale, and SSML) separately from Edge vocabulary practice. Preserve the
+   locale, and SSML) separately from vocabulary practice (`tts_engine`). Preserve the
    exact configured chapter text and use the new render's timing; never reuse
-   old Edge chapter timestamps for Azure narration.
+   old Edge chapter timestamps for Azure narration. Prefer renders whose
+   manifests record `tts_engine: azure`; Edge audio has no publishing licence.
 6. For a new podcast show, require a cover and inspect its actual
    format/dimensions. Spotify artwork should be square JPEG, 1400-3000 pixels
    per side. When adding to an existing show, keep its existing cover and
