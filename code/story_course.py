@@ -18,6 +18,7 @@ import sys
 import tempfile
 from datetime import datetime, timezone
 from pathlib import Path
+from collections.abc import Sequence
 from typing import Any
 from urllib.parse import quote
 
@@ -35,6 +36,7 @@ DEFAULT_VOICES = {
 }
 DEFAULT_RATES = {"pl": "-15%", "sv": "-15%", "en": "-5%"}
 DEFAULT_TARGETS = ("pl",)
+SWEDISH_LANGUAGE_NAMES = {"pl": "polska", "en": "engelska"}
 SAMPLE_RATE = 44100
 BITRATE = "192k"
 LOGGER = logging.getLogger(__name__)
@@ -521,6 +523,18 @@ def _export_chapter(
     return {language: result["data"] for language, result in staged_results.items()}
 
 
+def default_output(transcript_path: Path, source_language: str, targets: Sequence[str]) -> Path:
+    return transcript_path.parent / "audio" / "_".join([source_language, *targets])
+
+
+def _relative_to_root(path: Path) -> str:
+    resolved = path.resolve()
+    return (
+        resolved.relative_to(ROOT).as_posix()
+        if resolved.is_relative_to(ROOT) else resolved.as_posix()
+    )
+
+
 def _load_existing_build(path: Path, story_id: str) -> dict[str, Any]:
     if not path.exists():
         return {"story_id": story_id, "chapters": {}, "podcasts": {}}
@@ -645,11 +659,19 @@ async def render_story(args: argparse.Namespace) -> dict[str, Any]:
                     passages=azure.validate_passages(passages, text) if passages is not None else None,
                 )
 
+    if args.output is None:
+        args.output = default_output(args.transcript, args.source_language, targets)
     args.cache.mkdir(parents=True, exist_ok=True)
     args.output.mkdir(parents=True, exist_ok=True)
     timestamp = datetime.now().astimezone().strftime("%Y-%m-%d_%H-%M-%S")
     build_path = args.build_manifest
     build = _load_existing_build(build_path, transcript["story_id"])
+    previous_settings = build.get("settings")
+    if isinstance(previous_settings, dict) and "target_languages" in previous_settings:
+        build.setdefault("renders", {}).setdefault(
+            "_".join([previous_settings["source_language"], *previous_settings["target_languages"]]),
+            previous_settings,
+        )
     build["settings"] = {
         "source_language": args.source_language,
         "target_languages": targets,
@@ -666,8 +688,24 @@ async def render_story(args: argparse.Namespace) -> dict[str, Any]:
         "timestamp": timestamp,
         "narration": narration,
         "narration_engine": args.narration_engine,
+        "output": _relative_to_root(args.output),
     }
+    # One manifest serves every direction: keep other targets' renders intact.
+    direction = "_".join([args.source_language, *targets])
+    build.setdefault("renders", {})[direction] = build["settings"]
+    previous_chapters = build.get("chapters", {})
     build["chapters"] = {}
+    for chapter in transcript["chapters"]:
+        previous_targets = previous_chapters.get(str(chapter["chapter_number"]), {}).get(
+            "targets", {}
+        )
+        build["chapters"][str(chapter["chapter_number"])] = {
+            "titles": chapter["titles"],
+            "targets": {
+                language: data for language, data in previous_targets.items()
+                if language not in targets
+            },
+        }
     for chapter in transcript["chapters"]:
         chapter_number = chapter["chapter_number"]
         print(
@@ -757,10 +795,9 @@ async def render_story(args: argparse.Namespace) -> dict[str, Any]:
         files = _export_chapter(
             args.output, tracks, manifests, args.file_format, args.bitrate, timestamp
         )
-        build["chapters"][str(chapter_number)] = {
-            "titles": chapter["titles"],
-            "targets": {
+        build["chapters"][str(chapter_number)]["targets"].update({
                 language: {
+                    "source_language": args.source_language,
                     "audio_file": data["audio_file"],
                     "manifest_file": Path(data["audio_file"]).with_suffix(".json").name,
                     "total_duration_ms": data["total_duration_ms"],
@@ -772,8 +809,7 @@ async def render_story(args: argparse.Namespace) -> dict[str, Any]:
                     "narration": data["narration"],
                 }
                 for language, data in files.items()
-            },
-        }
+        })
         _write_json(build_path, build)
         for language, data in files.items():
             print(
@@ -805,12 +841,22 @@ def package_podcasts(
         raise ValueError("Podcast hosting requires an HTTPS base URL.")
 
     builder = _podcast_builder()
+    if args.output is None:
+        args.output = default_output(
+            args.transcript, source_language, build["settings"]["target_languages"]
+        )
     feed_catalogs: dict[str, dict[str, Any]] = {}
     for target in build["settings"]["target_languages"]:
         cover_source_language = "se" if source_language == "sv" else source_language
         direction_cover = story_root / f"cover_{cover_source_language}_{target}.jpeg"
-        cover = args.cover or (
-            direction_cover if direction_cover.is_file() else story_root / "cover.jpg"
+        cover = args.cover or next(
+            (
+                candidate for candidate in (
+                    direction_cover, story_root / "cover.jpeg", story_root / "cover.jpg"
+                )
+                if candidate.is_file()
+            ),
+            story_root / "cover.jpeg",
         )
         if not cover.is_file():
             raise FileNotFoundError(
@@ -941,9 +987,10 @@ def package_podcasts(
                     "published", datetime.now(timezone.utc).isoformat(timespec="seconds")
                 ),
                 "description": (
-                    f'Lyssna på ett kapitel ur berättelsen {story_titles["pl"]} på polska, '
-                    "öva orden med svenska ledtrådar och lyssna sedan på kapitlet igen."
-                    if source_language == "sv" and target == "pl"
+                    f"Lyssna på ett kapitel ur berättelsen {story_titles[target]} "
+                    f"på {SWEDISH_LANGUAGE_NAMES[target]}, öva orden med svenska ledtrådar "
+                    "och lyssna sedan på kapitlet igen."
+                    if source_language == "sv" and target in SWEDISH_LANGUAGE_NAMES
                     else "Listen to the complete chapter in the target language, "
                     "practice vocabulary with native-language prompts, then listen "
                     "to the same chapter again."
@@ -976,7 +1023,7 @@ def package_podcasts(
         cwd=ROOT,
         check=True,
     )
-    build["podcasts"] = feed_catalogs
+    build["podcasts"] = {**build.get("podcasts", {}), **feed_catalogs}
 
 
 def create_parser() -> argparse.ArgumentParser:
@@ -990,7 +1037,8 @@ def create_parser() -> argparse.ArgumentParser:
     parser.add_argument("--transcript", type=Path, default=default_story / "generated/transcript.json")
     parser.add_argument("--source-text", type=Path, default=default_story / "complete/pl.txt")
     parser.add_argument(
-        "--output", type=Path, default=default_story / "generated/audio/sv_pl"
+        "--output", type=Path,
+        help="Render folder; defaults to generated/audio/<source>_<targets> beside the transcript.",
     )
     parser.add_argument("--cache", type=Path, default=ROOT / ".audio_cache")
     parser.add_argument(

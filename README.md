@@ -148,6 +148,21 @@ existing catalog and RSS without creating a separate show. Packaging moves
 each chapter MP3 into the podcast folder instead of copying it, so the audio
 exists once; timing JSON stays under `generated/audio/`.
 
+The same story also ships in English for the Swedish-to-English feed, using
+the English `chapter_text` (a child-friendly translation of the Polish
+original) and `en-US-Harper:MAI-Voice-2.1` narration:
+
+```sh
+.venv/bin/python code/story_course.py --source-language sv --target en --package-podcast --podcast-course swedish-english
+```
+
+Renders go to `generated/audio/<source>_<targets>/` (for example `sv_pl` or
+`sv_en`) unless `--output` is given. The shared build manifest keeps every
+direction: rendering one target leaves other targets' chapter entries intact,
+`renders` records each direction's settings, and `settings` is the latest
+render. Story artwork defaults to `cover_<source>_<target>.jpeg` (Swedish is
+`se`), then the shared `cover.jpeg`.
+
 Course sources live under `courses/`: reusable vocabulary shared across
 language directions is stored once in `practice/`, while direction-specific
 stories and their generated assets live under the corresponding course folder.

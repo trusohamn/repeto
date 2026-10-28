@@ -304,6 +304,94 @@
       "description": "Öva engelska med svenska ledtrådar. Ämne: Repetition. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje engelsk fras spelas två gånger med pauser för att härma uttalet.",
       "season": 1,
       "episode": 30
+    },
+    {
+      "id": "magical_radio:sv:en:chapter-01",
+      "title": "Den magiska radion: Det gamla bordet — The Old Table",
+      "file": "stories/magical_radio/01_chapter_01_sv_en_2026-10-28_15-59-24.mp3",
+      "image": "images/stories/magical_radio/cover.jpeg",
+      "duration_ms": 308378,
+      "published": "2026-10-28T14:58:21+00:00",
+      "description": "Lyssna på ett kapitel ur berättelsen The Magical Radio på engelska, öva orden med svenska ledtrådar och lyssna sedan på kapitlet igen.",
+      "season": 2,
+      "episode": 1
+    },
+    {
+      "id": "magical_radio:sv:en:chapter-02",
+      "title": "Den magiska radion: En röst ur radion — A Voice from the Radio",
+      "file": "stories/magical_radio/02_chapter_02_sv_en_2026-10-28_15-59-24.mp3",
+      "image": "images/stories/magical_radio/cover.jpeg",
+      "duration_ms": 242426,
+      "published": "2026-10-28T14:58:21+00:00",
+      "description": "Lyssna på ett kapitel ur berättelsen The Magical Radio på engelska, öva orden med svenska ledtrådar och lyssna sedan på kapitlet igen.",
+      "season": 2,
+      "episode": 2
+    },
+    {
+      "id": "magical_radio:sv:en:chapter-03",
+      "title": "Den magiska radion: En mus under trädet — A Mouse under the Tree",
+      "file": "stories/magical_radio/03_chapter_03_sv_en_2026-10-28_15-59-24.mp3",
+      "image": "images/stories/magical_radio/cover.jpeg",
+      "duration_ms": 299824,
+      "published": "2026-10-28T14:58:21+00:00",
+      "description": "Lyssna på ett kapitel ur berättelsen The Magical Radio på engelska, öva orden med svenska ledtrådar och lyssna sedan på kapitlet igen.",
+      "season": 2,
+      "episode": 3
+    },
+    {
+      "id": "magical_radio:sv:en:chapter-04",
+      "title": "Den magiska radion: Trappan ner — The Stairs Going Down",
+      "file": "stories/magical_radio/04_chapter_04_sv_en_2026-10-28_15-59-24.mp3",
+      "image": "images/stories/magical_radio/cover.jpeg",
+      "duration_ms": 273381,
+      "published": "2026-10-28T14:58:21+00:00",
+      "description": "Lyssna på ett kapitel ur berättelsen The Magical Radio på engelska, öva orden med svenska ledtrådar och lyssna sedan på kapitlet igen.",
+      "season": 2,
+      "episode": 4
+    },
+    {
+      "id": "magical_radio:sv:en:chapter-05",
+      "title": "Den magiska radion: Den flygande boken — The Flying Book",
+      "file": "stories/magical_radio/05_chapter_05_sv_en_2026-10-28_15-59-24.mp3",
+      "image": "images/stories/magical_radio/cover.jpeg",
+      "duration_ms": 227606,
+      "published": "2026-10-28T14:58:21+00:00",
+      "description": "Lyssna på ett kapitel ur berättelsen The Magical Radio på engelska, öva orden med svenska ledtrådar och lyssna sedan på kapitlet igen.",
+      "season": 2,
+      "episode": 5
+    },
+    {
+      "id": "magical_radio:sv:en:chapter-06",
+      "title": "Den magiska radion: Den första trollformeln — The First Spell",
+      "file": "stories/magical_radio/06_chapter_06_sv_en_2026-10-28_15-59-24.mp3",
+      "image": "images/stories/magical_radio/cover.jpeg",
+      "duration_ms": 209550,
+      "published": "2026-10-28T14:58:21+00:00",
+      "description": "Lyssna på ett kapitel ur berättelsen The Magical Radio på engelska, öva orden med svenska ledtrådar och lyssna sedan på kapitlet igen.",
+      "season": 2,
+      "episode": 6
+    },
+    {
+      "id": "magical_radio:sv:en:chapter-07",
+      "title": "Den magiska radion: Den gyllene fågeln — The Golden Bird",
+      "file": "stories/magical_radio/07_chapter_07_sv_en_2026-10-28_15-59-24.mp3",
+      "image": "images/stories/magical_radio/cover.jpeg",
+      "duration_ms": 237257,
+      "published": "2026-10-28T14:58:21+00:00",
+      "description": "Lyssna på ett kapitel ur berättelsen The Magical Radio på engelska, öva orden med svenska ledtrådar och lyssna sedan på kapitlet igen.",
+      "season": 2,
+      "episode": 7
+    },
+    {
+      "id": "magical_radio:sv:en:chapter-08",
+      "title": "Den magiska radion: Den stora konserten — The Grand Concert",
+      "file": "stories/magical_radio/08_chapter_08_sv_en_2026-10-28_15-59-24.mp3",
+      "image": "images/stories/magical_radio/cover.jpeg",
+      "duration_ms": 233422,
+      "published": "2026-10-28T14:58:21+00:00",
+      "description": "Lyssna på ett kapitel ur berättelsen The Magical Radio på engelska, öva orden med svenska ledtrådar och lyssna sedan på kapitlet igen.",
+      "season": 2,
+      "episode": 8
     }
   ],
   "source_language": "sv",

@@ -21,9 +21,16 @@ description: Turn a chaptered children's story into a faithful multilingual tran
 ## Transcript authoring
 
 - Translate chapter titles and selected useful vocabulary into requested
-  languages. Make translations natural for children; preserve names, events,
-  tone, and meaning. Do not translate the story sentence-by-sentence or alter
-  names and the magic word `Reparo`.
+  languages. Make translations natural for children; preserve events, tone,
+  and meaning. Do not translate the story sentence-by-sentence.
+- Character names: preserve them within a course (one language version),
+  across all chapters, titles, vocabulary, and episodes; never rename a
+  character mid-course. When translating to a new target language, localize
+  names to familiar equivalents in that language (Magiczne Radio in English:
+  Maja → Maya, Tomek → Tom, Radiofon → Radiophone). Name choices belong to
+  one story; other stories choose their own. Never change the Polish
+  original, and keep invented magic words such as `Reparo` identical in all
+  languages.
 - Store the whole target-language story as one chapter-level `chapter_text`
   string per available target. Preserve the Polish original exactly. Only add
   full-chapter translations if requested; never create aligned sentence
@@ -119,7 +126,13 @@ description: Turn a chaptered children's story into a faithful multilingual tran
   so each episode exists once; timing JSON stays in `generated/audio/`.
 - Use `--cover` to select story artwork explicitly; otherwise packaging looks
   for `cover_se_pl.jpeg` for Swedish-to-Polish (or the matching direction),
-  then legacy `cover.jpg`. A story cover is required even for an existing show.
+  then the shared `cover.jpeg`, then legacy `cover.jpg`. A story cover is
+  required even for an existing show.
+- For another target (for example Swedish-to-English), add a full-chapter
+  `chapter_text` translation for that language, then render with
+  `--target en --package-podcast --podcast-course swedish-english`. Renders
+  default to `generated/audio/<source>_<targets>/`; the shared build manifest
+  keeps other targets' entries and records per-direction `renders`.
   Packaging copies it to `images/stories/<id>/cover.jpeg` and assigns it to
   every chapter via episode-level `itunes:image`, without replacing show art.
 - When creating a separate feed instead, verify artwork and public owner

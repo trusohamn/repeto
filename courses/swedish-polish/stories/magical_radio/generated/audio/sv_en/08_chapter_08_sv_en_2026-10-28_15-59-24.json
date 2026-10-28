@@ -1,0 +1,476 @@
+{
+  "chapter_number": 8,
+  "title": {
+    "pl": "Wielki koncert",
+    "sv": "Den stora konserten",
+    "en": "The Grand Concert"
+  },
+  "source_language": "sv",
+  "target_language": "en",
+  "practice_order": "deterministically_shuffled",
+  "sequence": [
+    "story",
+    "practice",
+    "story"
+  ],
+  "total_duration_ms": 233422,
+  "practice": [
+    {
+      "id": 99,
+      "kind": "vocabulary",
+      "start_ms": 35496,
+      "end_ms": 46569,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "flaxa med vingarna",
+        "start_ms": 35496,
+        "end_ms": 37061
+      },
+      "target_playbacks": [
+        {
+          "text": "flap its wings",
+          "start_ms": 39061,
+          "end_ms": 40315
+        },
+        {
+          "text": "flap its wings",
+          "start_ms": 42815,
+          "end_ms": 44069
+        }
+      ]
+    },
+    {
+      "id": 187,
+      "kind": "vocabulary",
+      "start_ms": 46569,
+      "end_ms": 59433,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "falla ut ur det lilla facket",
+        "start_ms": 46569,
+        "end_ms": 48807
+      },
+      "target_playbacks": [
+        {
+          "text": "fall out of the compartment",
+          "start_ms": 50807,
+          "end_ms": 52620
+        },
+        {
+          "text": "fall out of the compartment",
+          "start_ms": 55120,
+          "end_ms": 56933
+        }
+      ]
+    },
+    {
+      "id": 190,
+      "kind": "vocabulary",
+      "start_ms": 59433,
+      "end_ms": 68802,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "ropa",
+        "start_ms": 59433,
+        "end_ms": 60248
+      },
+      "target_playbacks": [
+        {
+          "text": "call out",
+          "start_ms": 62248,
+          "end_ms": 63025
+        },
+        {
+          "text": "call out",
+          "start_ms": 65525,
+          "end_ms": 66302
+        }
+      ]
+    },
+    {
+      "id": 192,
+      "kind": "vocabulary",
+      "start_ms": 68802,
+      "end_ms": 77900,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "glatt",
+        "start_ms": 68802,
+        "end_ms": 69472
+      },
+      "target_playbacks": [
+        {
+          "text": "happily",
+          "start_ms": 71472,
+          "end_ms": 72186
+        },
+        {
+          "text": "happily",
+          "start_ms": 74686,
+          "end_ms": 75400
+        }
+      ]
+    },
+    {
+      "id": 194,
+      "kind": "vocabulary",
+      "start_ms": 77900,
+      "end_ms": 87526,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "i luften",
+        "start_ms": 77900,
+        "end_ms": 78838
+      },
+      "target_playbacks": [
+        {
+          "text": "in the air",
+          "start_ms": 80838,
+          "end_ms": 81682
+        },
+        {
+          "text": "in the air",
+          "start_ms": 84182,
+          "end_ms": 85026
+        }
+      ]
+    },
+    {
+      "id": 189,
+      "kind": "vocabulary",
+      "start_ms": 87526,
+      "end_ms": 100224,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "sätta in stenen i vingen",
+        "start_ms": 87526,
+        "end_ms": 89750
+      },
+      "target_playbacks": [
+        {
+          "text": "put the stone into the wing",
+          "start_ms": 91750,
+          "end_ms": 93487
+        },
+        {
+          "text": "put the stone into the wing",
+          "start_ms": 95987,
+          "end_ms": 97724
+        }
+      ]
+    },
+    {
+      "id": 191,
+      "kind": "vocabulary",
+      "start_ms": 100224,
+      "end_ms": 110593,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "börja sjunga",
+        "start_ms": 100224,
+        "end_ms": 101483
+      },
+      "target_playbacks": [
+        {
+          "text": "begin to sing",
+          "start_ms": 103483,
+          "end_ms": 104538
+        },
+        {
+          "text": "begin to sing",
+          "start_ms": 107038,
+          "end_ms": 108093
+        }
+      ]
+    },
+    {
+      "id": 195,
+      "kind": "vocabulary",
+      "start_ms": 110593,
+      "end_ms": 119680,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "dansa",
+        "start_ms": 110593,
+        "end_ms": 111356
+      },
+      "target_playbacks": [
+        {
+          "text": "dance",
+          "start_ms": 113356,
+          "end_ms": 114018
+        },
+        {
+          "text": "dance",
+          "start_ms": 116518,
+          "end_ms": 117180
+        }
+      ]
+    },
+    {
+      "id": 196,
+      "kind": "vocabulary",
+      "start_ms": 119680,
+      "end_ms": 130627,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "stanna för alltid",
+        "start_ms": 119680,
+        "end_ms": 121315
+      },
+      "target_playbacks": [
+        {
+          "text": "stay forever",
+          "start_ms": 123315,
+          "end_ms": 124471
+        },
+        {
+          "text": "stay forever",
+          "start_ms": 126971,
+          "end_ms": 128127
+        }
+      ]
+    },
+    {
+      "id": 101,
+      "kind": "vocabulary",
+      "start_ms": 130627,
+      "end_ms": 140356,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "bra jobbat",
+        "start_ms": 130627,
+        "end_ms": 131826
+      },
+      "target_playbacks": [
+        {
+          "text": "good job",
+          "start_ms": 133826,
+          "end_ms": 134591
+        },
+        {
+          "text": "good job",
+          "start_ms": 137091,
+          "end_ms": 137856
+        }
+      ]
+    },
+    {
+      "id": 193,
+      "kind": "vocabulary",
+      "start_ms": 140356,
+      "end_ms": 150423,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "fjärilar",
+        "start_ms": 140356,
+        "end_ms": 141417
+      },
+      "target_playbacks": [
+        {
+          "text": "butterflies",
+          "start_ms": 143417,
+          "end_ms": 144420
+        },
+        {
+          "text": "butterflies",
+          "start_ms": 146920,
+          "end_ms": 147923
+        }
+      ]
+    },
+    {
+      "id": 96,
+      "kind": "vocabulary",
+      "start_ms": 150423,
+      "end_ms": 160986,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "hämta radion",
+        "start_ms": 150423,
+        "end_ms": 151766
+      },
+      "target_playbacks": [
+        {
+          "text": "bring the radio",
+          "start_ms": 153766,
+          "end_ms": 154876
+        },
+        {
+          "text": "bring the radio",
+          "start_ms": 157376,
+          "end_ms": 158486
+        }
+      ]
+    },
+    {
+      "id": 98,
+      "kind": "vocabulary",
+      "start_ms": 160986,
+      "end_ms": 172195,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "stoppa in stenen",
+        "start_ms": 160986,
+        "end_ms": 162781
+      },
+      "target_playbacks": [
+        {
+          "text": "put the stone in",
+          "start_ms": 164781,
+          "end_ms": 165988
+        },
+        {
+          "text": "put the stone in",
+          "start_ms": 168488,
+          "end_ms": 169695
+        }
+      ]
+    },
+    {
+      "id": 188,
+      "kind": "vocabulary",
+      "start_ms": 172195,
+      "end_ms": 183831,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "en liten blå sten",
+        "start_ms": 172195,
+        "end_ms": 173954
+      },
+      "target_playbacks": [
+        {
+          "text": "a little blue stone",
+          "start_ms": 175954,
+          "end_ms": 177392
+        },
+        {
+          "text": "a little blue stone",
+          "start_ms": 179892,
+          "end_ms": 181331
+        }
+      ]
+    },
+    {
+      "id": 97,
+      "kind": "vocabulary",
+      "start_ms": 183831,
+      "end_ms": 195364,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "litet gömställe",
+        "start_ms": 183831,
+        "end_ms": 185480
+      },
+      "target_playbacks": [
+        {
+          "text": "little compartment",
+          "start_ms": 187480,
+          "end_ms": 188922
+        },
+        {
+          "text": "little compartment",
+          "start_ms": 191422,
+          "end_ms": 192864
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "kind": "vocabulary",
+      "start_ms": 195364,
+      "end_ms": 205798,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "sjunga glatt",
+        "start_ms": 195364,
+        "end_ms": 196558
+      },
+      "target_playbacks": [
+        {
+          "text": "sing happily",
+          "start_ms": 198558,
+          "end_ms": 199678
+        },
+        {
+          "text": "sing happily",
+          "start_ms": 202178,
+          "end_ms": 203298
+        }
+      ]
+    }
+  ],
+  "book_introduction": null,
+  "chapter_introduction": {
+    "text": "The Grand Concert.",
+    "start_ms": 1000,
+    "end_ms": 2872
+  },
+  "transitions": [
+    {
+      "kind": "chime",
+      "from": "story",
+      "to": "practice",
+      "start_ms": 32376,
+      "end_ms": 32996
+    },
+    {
+      "kind": "chime",
+      "from": "practice",
+      "to": "story",
+      "start_ms": 205798,
+      "end_ms": 206418
+    }
+  ],
+  "chapter_readings": [
+    {
+      "text": "The children bring the radio. A little blue stone falls out of a small hidden compartment. Tom puts it into the bird’s wing. The children call out: “Reparo!” The golden bird flaps its wings and begins to sing happily. Butterflies dance in the air. “Good job!” says Radiophone. “I’m staying with you forever!”",
+      "start_ms": 5372,
+      "end_ms": 29876
+    },
+    {
+      "text": "The children bring the radio. A little blue stone falls out of a small hidden compartment. Tom puts it into the bird’s wing. The children call out: “Reparo!” The golden bird flaps its wings and begins to sing happily. Butterflies dance in the air. “Good job!” says Radiophone. “I’m staying with you forever!”",
+      "start_ms": 208918,
+      "end_ms": 233422
+    }
+  ],
+  "chapter_reading": {
+    "text": "The children bring the radio. A little blue stone falls out of a small hidden compartment. Tom puts it into the bird’s wing. The children call out: “Reparo!” The golden bird flaps its wings and begins to sing happily. Butterflies dance in the air. “Good job!” says Radiophone. “I’m staying with you forever!”",
+    "start_ms": 208918,
+    "end_ms": 233422
+  },
+  "narration": {
+    "engine": "azure",
+    "voice": "en-US-Harper:MAI-Voice-2.1",
+    "style": "audiobook",
+    "rate": "-12%",
+    "locale": "en-US",
+    "capabilities": {
+      "voice": "en-US-Harper:MAI-Voice-2.1",
+      "locale": "en-US",
+      "advertised_styles": [
+        "agent",
+        "angry",
+        "audiobook",
+        "confused",
+        "customer_call_center",
+        "determined",
+        "educational",
+        "embarrassed",
+        "excited",
+        "happy",
+        "hopeful",
+        "joyful",
+        "narrator",
+        "regretful",
+        "relieved",
+        "sad",
+        "shouting",
+        "softvoice",
+        "whispering"
+      ]
+    },
+    "ssml": "<speak xmlns:mstts=\"http://www.w3.org/2001/mstts\" version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"en-US\"><voice name=\"en-US-Harper:MAI-Voice-2.1\"><mstts:express-as style=\"audiobook\"><prosody rate=\"-12%\"><p>The children bring the radio. A little blue stone falls out of a small hidden compartment. Tom puts it into the bird’s wing. The children call out: “Reparo!” The golden bird flaps its wings and begins to sing happily. Butterflies dance in the air. “Good job!” says Radiophone. “I’m staying with you forever!”</p></prosody></mstts:express-as></voice></speak>"
+  },
+  "audio_file": "08_chapter_08_sv_en_2026-10-28_15-59-24.mp3"
+}

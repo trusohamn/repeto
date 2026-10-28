@@ -15,13 +15,14 @@ polish_course/
 │   └── swedish-polish/
 │       └── stories/
 │           └── magical_radio/
-│               ├── cover_se_pl.jpeg
+│               ├── cover.jpeg         <-- Gemensamt berättelseomslag
 │               ├── complete/
 │               │   └── pl.txt         <-- Oförändrad polsk originaltext
 │               └── generated/
-│                   ├── transcript.json
-│                   ├── manifest.json
-│                   └── audio/sv_pl/   <-- Renderade filer och tidsstämplar
+│                   ├── transcript.json <-- `chapter_text` på polska och engelska
+│                   ├── manifest.json  <-- Gemensamt för alla riktningar
+│                   ├── audio/sv_pl/   <-- Tidsstämplar, svenska till polska
+│                   └── audio/sv_en/   <-- Tidsstämplar, svenska till engelska
 └── code/
     ├── transcription.py               <-- Renderer för delad vokabulärpraktik
     └── story_course.py                <-- Storyrenderer och podcastpaketerare
@@ -47,6 +48,13 @@ Dzieci biegną do ogrodu. Szukają starego dębu z mapy. Pod korzeniami leży ma
 ### Filformat: `generated/transcript.json` (Kursens output)
 
 Varje vokabulärord eller -uttryck får ett positivt heltal som ID. ID:n är unika för hela berättelsen, även mellan kapitel, och återanvänds aldrig. Berättelsen lagras som en enda sammanhängande `chapter_text` per tillgängligt uppläsningsspråk; meningar i berättelsen får inga separata översättningar eller övnings-ID:n. Språken i `text` är ISO 639-1-koder.
+
+**Namn på figurer:**
+
+- **Inom en kurs bevaras namnen.** I en och samma språkversion (en kurs, till exempel svenska–engelska) heter figurerna likadant i alla kapitel, rubriker, ordövningar och avsnitt. Ett namn får aldrig bytas mitt i en kurs.
+- **Vid byte av målspråk anpassas namnen.** När en berättelse översätts till ett nytt målspråk får figurerna välbekanta namn på det språket, så att berättelsen känns naturlig för barnen. Exempel för *Magiczne Radio* på engelska: Maja → Maya, Tomek → Tom, Radiofon → Radiophone.
+- **Varje berättelse har egna namn.** Namnvalen gäller bara den berättelsen; en annan berättelse väljer sina egna namn.
+- Det polska originalet ändras aldrig. Påhittade magiska ord, som trollordet `Reparo`, är desamma på alla språk.
 
 ```json
 {
@@ -221,8 +229,17 @@ commit/push och en lyckad GitHub Pages-deploy.
 Berättelsens omslag ska kopieras till `images/stories/<story-id>/cover.jpeg`
 i podcastmappen och länkas från varje kapitel med `itunes:image`. Showens
 befintliga omslag ska vara oförändrat. Välj berättelseomslag med `--cover`;
-annars används riktningsfilen, till exempel `cover_se_pl.jpeg`, eller äldre
-`cover.jpg`. Saknat omslag ska avbryta paketeringen med ett tydligt fel.
+annars används riktningsfilen, till exempel `cover_se_pl.jpeg`, sedan det
+gemensamma `cover.jpeg` och sist äldre `cover.jpg`. Saknat omslag ska avbryta
+paketeringen med ett tydligt fel.
+
+Renderingar hamnar som standard i `generated/audio/<källspråk>_<målspråk>/`.
+Byggmanifestet delas av alla riktningar: att rendera ett målspråk får inte ta
+bort andra målspråks kapitelposter, och `renders` sparar inställningarna per
+riktning. Svenska–engelska avsnitt läggs som en egen säsong i
+`swedish-english` med svensk beskrivning: ”Lyssna på ett kapitel ur
+berättelsen The Magical Radio på engelska, öva orden med svenska ledtrådar och
+lyssna sedan på kapitlet igen.”
 
 ### Varför detta är bättre för din pipeline
 

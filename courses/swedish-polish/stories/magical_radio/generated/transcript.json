@@ -64,127 +64,128 @@
         },
         {
           "id": 111,
-        "text": {
-          "pl": "sobota",
-          "sv": "lördag",
-          "en": "Saturday"
+          "text": {
+            "pl": "sobota",
+            "sv": "lördag",
+            "en": "Saturday"
+          }
+        },
+        {
+          "id": 112,
+          "text": {
+            "pl": "ma dziewięć lat",
+            "sv": "är nio år",
+            "en": "is nine years old"
+          }
+        },
+        {
+          "id": 113,
+          "text": {
+            "pl": "jej brat",
+            "sv": "hennes bror",
+            "en": "her brother"
+          }
+        },
+        {
+          "id": 114,
+          "text": {
+            "pl": "ma sześć lat",
+            "sv": "är sex år",
+            "en": "is six years old"
+          }
+        },
+        {
+          "id": 115,
+          "text": {
+            "pl": "razem",
+            "sv": "tillsammans",
+            "en": "together"
+          }
+        },
+        {
+          "id": 116,
+          "text": {
+            "pl": "w rogu",
+            "sv": "i hörnet",
+            "en": "in the corner"
+          }
+        },
+        {
+          "id": 117,
+          "text": {
+            "pl": "stary stół",
+            "sv": "ett gammalt bord",
+            "en": "an old table"
+          }
+        },
+        {
+          "id": 118,
+          "text": {
+            "pl": "drewniane radio",
+            "sv": "en radio av trä",
+            "en": "a wooden radio"
+          }
+        },
+        {
+          "id": 119,
+          "text": {
+            "pl": "na stole",
+            "sv": "på bordet",
+            "en": "on the table"
+          }
+        },
+        {
+          "id": 120,
+          "text": {
+            "pl": "podchodzić bliżej",
+            "sv": "komma närmare",
+            "en": "come closer"
+          }
+        },
+        {
+          "id": 121,
+          "text": {
+            "pl": "nagle",
+            "sv": "plötsligt",
+            "en": "suddenly"
+          }
+        },
+        {
+          "id": 122,
+          "text": {
+            "pl": "pojawić się",
+            "sv": "dyka upp",
+            "en": "appear"
+          }
+        },
+        {
+          "id": 200,
+          "text": {
+            "pl": "gdy",
+            "sv": "när",
+            "en": "when"
+          }
+        },
+        {
+          "id": 210,
+          "text": {
+            "pl": "stać",
+            "sv": "stå",
+            "en": "stand"
+          }
+        },
+        {
+          "id": 211,
+          "text": {
+            "pl": "iść na pchli targ",
+            "sv": "gå på loppmarknad",
+            "en": "go to a flea market"
+          }
         }
-      },
-      {
-        "id": 112,
-        "text": {
-          "pl": "ma dziewięć lat",
-          "sv": "är nio år",
-          "en": "is nine years old"
-        }
-      },
-      {
-        "id": 113,
-        "text": {
-          "pl": "jej brat",
-          "sv": "hennes bror",
-          "en": "her brother"
-        }
-      },
-      {
-        "id": 114,
-        "text": {
-          "pl": "ma sześć lat",
-          "sv": "är sex år",
-          "en": "is six years old"
-        }
-      },
-      {
-        "id": 115,
-        "text": {
-          "pl": "razem",
-          "sv": "tillsammans",
-          "en": "together"
-        }
-      },
-      {
-        "id": 116,
-        "text": {
-          "pl": "w rogu",
-          "sv": "i hörnet",
-          "en": "in the corner"
-        }
-      },
-      {
-        "id": 117,
-        "text": {
-          "pl": "stary stół",
-          "sv": "ett gammalt bord",
-          "en": "an old table"
-        }
-      },
-      {
-        "id": 118,
-        "text": {
-          "pl": "drewniane radio",
-          "sv": "en radio av trä",
-          "en": "a wooden radio"
-        }
-      },
-      {
-        "id": 119,
-        "text": {
-          "pl": "na stole",
-          "sv": "på bordet",
-          "en": "on the table"
-        }
-      },
-      {
-        "id": 120,
-        "text": {
-          "pl": "podchodzić bliżej",
-          "sv": "komma närmare",
-          "en": "come closer"
-        }
-      },
-      {
-        "id": 121,
-        "text": {
-          "pl": "nagle",
-          "sv": "plötsligt",
-          "en": "suddenly"
-        }
-      },
-      {
-        "id": 122,
-        "text": {
-          "pl": "pojawić się",
-          "sv": "dyka upp",
-          "en": "appear"
-        }
-      },
-      {
-        "id": 200,
-        "text": {
-          "pl": "gdy",
-          "sv": "när",
-          "en": "when"
-        }
-      },
-      {
-        "id": 210,
-        "text": {
-          "pl": "stać",
-          "sv": "stå",
-          "en": "stand"
-        }
-      },
-      {
-        "id": 211,
-        "text": {
-          "pl": "iść na pchli targ",
-          "sv": "gå på loppmarknad",
-          "en": "go to a flea market"
-        }
-      }
       ],
       "chapter_text": {
-        "pl": "Jest sobota. Maja ma dziewięć lat, a jej brat Tomek ma sześć lat. Razem idą na pchli targ. W rogu stoi stary stół, a na stole – drewniane radio. Ma złote pokrętła i kolorowe przyciski. Gdy Maja podchodzi bliżej, radio nagle cicho szumi: Dzyń! Na radiu pojawia się złoty napis: „Dla Mai i Tomka”. Dzieci otwierają szeroko oczy."
+        "pl": "Jest sobota. Maja ma dziewięć lat, a jej brat Tomek ma sześć lat. Razem idą na pchli targ. W rogu stoi stary stół, a na stole – drewniane radio. Ma złote pokrętła i kolorowe przyciski. Gdy Maja podchodzi bliżej, radio nagle cicho szumi: Dzyń! Na radiu pojawia się złoty napis: „Dla Mai i Tomka”. Dzieci otwierają szeroko oczy.",
+        "en": "It is Saturday. Maya is nine years old, and her brother Tom is six years old. Together they go to a flea market. In the corner stands an old table, and on the table there is a wooden radio. It has gold knobs and colourful buttons. When Maya comes closer, the radio suddenly hums quietly: Ding! A golden inscription appears on the radio: “For Maya and Tom.” The children open their eyes wide."
       }
     },
     {
@@ -341,7 +342,8 @@
         }
       ],
       "chapter_text": {
-        "pl": "Dzieci niosą radio do domu. Tomek naciska niebieski przycisk. Z radia wylatuje mała chmurka, która pachnie cynamonem. – Cześć, odkrywcy! – mówi wesoły głos. – Nazywam się Radiofon. W waszym ogrodzie, pod starym drzewem, leży klucz. Weźcie latarkę i kawałek sera!"
+        "pl": "Dzieci niosą radio do domu. Tomek naciska niebieski przycisk. Z radia wylatuje mała chmurka, która pachnie cynamonem. – Cześć, odkrywcy! – mówi wesoły głos. – Nazywam się Radiofon. W waszym ogrodzie, pod starym drzewem, leży klucz. Weźcie latarkę i kawałek sera!",
+        "en": "The children carry the radio home. Tom presses the blue button. A little cloud flies out of the radio, and it smells of cinnamon. “Hi, explorers!” says a cheerful voice. “My name is Radiophone. In your garden, under the old tree, there is a key. Bring a flashlight and a piece of cheese!”"
       }
     },
     {
@@ -530,7 +532,8 @@
         }
       ],
       "chapter_text": {
-        "pl": "Maja bierze latarkę, a Tomek żółty ser. Idą pod wielkie drzewo w ogrodzie. Tomek świeci latarką pod korzenie. Z dziury wychodzi mała mysz z książką w łapkach. – Mamy ser. Masz klucz? – pyta Tomek. Mysz daje im srebrny klucz, zabiera ser i znika. Pod liśćmi dzieci znajdują stare drzwi w ziemi."
+        "pl": "Maja bierze latarkę, a Tomek żółty ser. Idą pod wielkie drzewo w ogrodzie. Tomek świeci latarką pod korzenie. Z dziury wychodzi mała mysz z książką w łapkach. – Mamy ser. Masz klucz? – pyta Tomek. Mysz daje im srebrny klucz, zabiera ser i znika. Pod liśćmi dzieci znajdują stare drzwi w ziemi.",
+        "en": "Maya takes a flashlight, and Tom takes some yellow cheese. They go to the big tree in the garden. Tom shines the flashlight under the roots. A little mouse comes out of a hole with a book in its little paws. “We have cheese. Do you have a key?” asks Tom. The mouse gives them a silver key, takes the cheese and disappears. Under the leaves, the children find an old door in the ground."
       }
     },
     {
@@ -711,7 +714,8 @@
         }
       ],
       "chapter_text": {
-        "pl": "Maja przekręca klucz. Klik! Drzwi się otwierają. W dół prowadzą kamienne schody. Na ścianach rosną świecące na niebiesko kwiaty. Dzieci schodzą do wielkiego pokoju. Wszędzie stoją książki – niektóre latają pod sufitem! Na środku stoi drugie radio."
+        "pl": "Maja przekręca klucz. Klik! Drzwi się otwierają. W dół prowadzą kamienne schody. Na ścianach rosną świecące na niebiesko kwiaty. Dzieci schodzą do wielkiego pokoju. Wszędzie stoją książki – niektóre latają pod sufitem! Na środku stoi drugie radio.",
+        "en": "Maya turns the key. Click! The door opens. Stone stairs lead down. Flowers that glow blue grow on the walls. The children go down into a big room. There are books everywhere, and some of them fly under the ceiling! In the middle stands a second radio."
       }
     },
     {
@@ -860,7 +864,8 @@
         }
       ],
       "chapter_text": {
-        "pl": "Złota książka macha stronami i ląduje na ramieniu Mai. Drugie radio odzywa się natychmiast: – Ta książka uczy ważnego zaklęcia. Słowo to: Reparo! Naprawia każdą zepsutą rzecz. Tomek wyciąga z kieszeni stary, zepsuty kompas."
+        "pl": "Złota książka macha stronami i ląduje na ramieniu Mai. Drugie radio odzywa się natychmiast: – Ta książka uczy ważnego zaklęcia. Słowo to: Reparo! Naprawia każdą zepsutą rzecz. Tomek wyciąga z kieszeni stary, zepsuty kompas.",
+        "en": "A golden book flaps its pages and lands on Maya’s shoulder. The second radio speaks up immediately: “This book teaches an important spell. The word is: Reparo! It repairs every broken thing.” Tom takes an old, broken compass out of his pocket."
       }
     },
     {
@@ -993,7 +998,8 @@
         }
       ],
       "chapter_text": {
-        "pl": "Tomek trzyma kompas. Dzieci mówią razem: – Reparo! Błyska złota iskra. Kompas znów jest cały! Igła kręci się i pokazuje zielone drzwi. – Działa! – krzyczy Tomek. Radio mówi: – Za drzwiami ktoś czeka na waszą pomoc."
+        "pl": "Tomek trzyma kompas. Dzieci mówią razem: – Reparo! Błyska złota iskra. Kompas znów jest cały! Igła kręci się i pokazuje zielone drzwi. – Działa! – krzyczy Tomek. Radio mówi: – Za drzwiami ktoś czeka na waszą pomoc.",
+        "en": "Tom holds the compass. The children say together: “Reparo!” A golden spark flashes. The compass is whole again! The needle spins and points to a green door. “It works!” shouts Tom. The radio says: “Behind the door, someone is waiting for your help.”"
       }
     },
     {
@@ -1142,7 +1148,8 @@
         }
       ],
       "chapter_text": {
-        "pl": "Dzieci otwierają zielone drzwi i wchodzą do ogrodu. Na gałęzi siedzi złoty ptak. Nie śpiewa, tylko tyka jak zegar: Tik-tak, tik-tak. Na jego skrzydle brakuje małego kamyka. – Tomek, nasze radio w pokoju ma niebieski kamień! – woła Maja. – Szybko!"
+        "pl": "Dzieci otwierają zielone drzwi i wchodzą do ogrodu. Na gałęzi siedzi złoty ptak. Nie śpiewa, tylko tyka jak zegar: Tik-tak, tik-tak. Na jego skrzydle brakuje małego kamyka. – Tomek, nasze radio w pokoju ma niebieski kamień! – woła Maja. – Szybko!",
+        "en": "The children open the green door and go into a garden. A golden bird sits on a branch. It does not sing. It only ticks like a clock: Tick-tock, tick-tock. A little stone is missing from its wing. “Tom, our radio in the room has a blue stone!” calls Maya. “Quick!”"
       }
     },
     {
@@ -1283,7 +1290,8 @@
         }
       ],
       "chapter_text": {
-        "pl": "Dzieci przynoszą radio. Z małej skrytki wypada niebieski kamyk. Tomek wkłada go w skrzydło ptaka. Dzieci wołają: – Reparo! Złoty ptak macha skrzydłami i zaczyna wesoło śpiewać. W powietrzu tańczą motyle. – Dobra robota! – mówi Radiofon. – Zostaję z wami na zawsze!"
+        "pl": "Dzieci przynoszą radio. Z małej skrytki wypada niebieski kamyk. Tomek wkłada go w skrzydło ptaka. Dzieci wołają: – Reparo! Złoty ptak macha skrzydłami i zaczyna wesoło śpiewać. W powietrzu tańczą motyle. – Dobra robota! – mówi Radiofon. – Zostaję z wami na zawsze!",
+        "en": "The children bring the radio. A little blue stone falls out of a small hidden compartment. Tom puts it into the bird’s wing. The children call out: “Reparo!” The golden bird flaps its wings and begins to sing happily. Butterflies dance in the air. “Good job!” says Radiophone. “I’m staying with you forever!”"
       }
     }
   ]
