@@ -1,0 +1,485 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Repeto – Svenska till ryska</title>
+    <link>https://trusohamn.github.io/repeto/swedish-russian/</link>
+    <description>Lär dig ryska med svenska ledtrådar. En språkkurs för barn med tydligt uttal, tankepauser och varje rysk fras två gånger. Rösterna är AI-genererade.</description>
+    <language>sv</language>
+    <itunes:author>Repeto</itunes:author>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:type>serial</itunes:type>
+    <itunes:owner>
+      <itunes:name>Repeto</itunes:name>
+      <itunes:email>repeto.lingo@gmail.com</itunes:email>
+    </itunes:owner>
+    <itunes:image href="https://trusohamn.github.io/repeto/swedish-russian/cover.jpeg" />
+    <itunes:category text="Education">
+      <itunes:category text="Language Learning" />
+    </itunes:category>
+    <atom:link href="https://trusohamn.github.io/repeto/swedish-russian/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>01 Hälsningar — Приветствия</title>
+      <description>Öva ryska med svenska ledtrådar. Ämne: Hälsningar. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje rysk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-russian:topic-01</guid>
+      <pubDate>Wed, 28 Oct 2026 17:34:21 +0000</pubDate>
+      <itunes:episode>1</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>387</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-russian/audio/practice/01_greetings_se_ru_double_2026-10-28_18-08-24.mp3" length="9295037" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>02 Tal — Числа</title>
+      <description>Öva ryska med svenska ledtrådar. Ämne: Tal. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje rysk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-russian:topic-02</guid>
+      <pubDate>Wed, 28 Oct 2026 17:34:21 +0000</pubDate>
+      <itunes:episode>2</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>361</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-russian/audio/practice/02_numbers_se_ru_double_2026-10-28_18-08-24.mp3" length="8655559" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>03 Färger — Цвета</title>
+      <description>Öva ryska med svenska ledtrådar. Ämne: Färger. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje rysk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-russian:topic-03</guid>
+      <pubDate>Wed, 28 Oct 2026 17:34:21 +0000</pubDate>
+      <itunes:episode>3</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>322</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-russian/audio/practice/03_colors_se_ru_double_2026-10-28_18-08-24.mp3" length="7718286" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>04 Djur — Животные</title>
+      <description>Öva ryska med svenska ledtrådar. Ämne: Djur. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje rysk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-russian:topic-04</guid>
+      <pubDate>Wed, 28 Oct 2026 17:34:21 +0000</pubDate>
+      <itunes:episode>4</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>438</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-russian/audio/practice/04_animals_se_ru_double_2026-10-28_18-08-24.mp3" length="10509417" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>05 Familj — Семья</title>
+      <description>Öva ryska med svenska ledtrådar. Ämne: Familj. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje rysk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-russian:topic-05</guid>
+      <pubDate>Wed, 28 Oct 2026 17:34:21 +0000</pubDate>
+      <itunes:episode>5</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>307</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-russian/audio/practice/05_family_se_ru_double_2026-10-28_18-08-24.mp3" length="7364692" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>06 Mat — Еда</title>
+      <description>Öva ryska med svenska ledtrådar. Ämne: Mat. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje rysk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-russian:topic-06</guid>
+      <pubDate>Wed, 28 Oct 2026 17:34:21 +0000</pubDate>
+      <itunes:episode>6</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>514</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-russian/audio/practice/06_food_se_ru_double_2026-10-28_18-08-24.mp3" length="12333182" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>07 Kroppen — Тело</title>
+      <description>Öva ryska med svenska ledtrådar. Ämne: Kroppen. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje rysk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-russian:topic-07</guid>
+      <pubDate>Wed, 28 Oct 2026 17:34:21 +0000</pubDate>
+      <itunes:episode>7</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>385</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-russian/audio/practice/07_body_se_ru_double_2026-10-28_18-08-24.mp3" length="9246763" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>08 Kläder — Одежда</title>
+      <description>Öva ryska med svenska ledtrådar. Ämne: Kläder. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje rysk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-russian:topic-08</guid>
+      <pubDate>Wed, 28 Oct 2026 17:34:21 +0000</pubDate>
+      <itunes:episode>8</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>319</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-russian/audio/practice/08_clothing_se_ru_double_2026-10-28_18-08-24.mp3" length="7668131" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>09 Hemma — Дома</title>
+      <description>Öva ryska med svenska ledtrådar. Ämne: Hemma. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje rysk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-russian:topic-09</guid>
+      <pubDate>Wed, 28 Oct 2026 17:34:21 +0000</pubDate>
+      <itunes:episode>9</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>403</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-russian/audio/practice/09_home_se_ru_double_2026-10-28_18-08-24.mp3" length="9666185" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>10 Skolan — Школа</title>
+      <description>Öva ryska med svenska ledtrådar. Ämne: Skolan. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje rysk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-russian:topic-10</guid>
+      <pubDate>Wed, 28 Oct 2026 17:34:21 +0000</pubDate>
+      <itunes:episode>10</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>453</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-russian/audio/practice/10_school_se_ru_double_2026-10-28_18-08-24.mp3" length="10876176" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>11 Väder — Погода</title>
+      <description>Öva ryska med svenska ledtrådar. Ämne: Väder. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje rysk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-russian:topic-11</guid>
+      <pubDate>Wed, 28 Oct 2026 17:34:21 +0000</pubDate>
+      <itunes:episode>11</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>266</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-russian/audio/practice/11_weather_se_ru_double_2026-10-28_18-08-24.mp3" length="6392310" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>12 Årstider — Времена года</title>
+      <description>Öva ryska med svenska ledtrådar. Ämne: Årstider. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje rysk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-russian:topic-12</guid>
+      <pubDate>Wed, 28 Oct 2026 17:34:21 +0000</pubDate>
+      <itunes:episode>12</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>214</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-russian/audio/practice/12_seasons_se_ru_double_2026-10-28_18-08-24.mp3" length="5137179" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>13 Dagar och tid — Дни и время</title>
+      <description>Öva ryska med svenska ledtrådar. Ämne: Dagar och tid. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje rysk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-russian:topic-13</guid>
+      <pubDate>Wed, 28 Oct 2026 17:34:21 +0000</pubDate>
+      <itunes:episode>13</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>321</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-russian/audio/practice/13_days_and_time_se_ru_double_2026-10-28_18-08-24.mp3" length="7717032" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>14 Leksaker och lek — Игрушки и игры</title>
+      <description>Öva ryska med svenska ledtrådar. Ämne: Leksaker och lek. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje rysk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-russian:topic-14</guid>
+      <pubDate>Wed, 28 Oct 2026 17:34:21 +0000</pubDate>
+      <itunes:episode>14</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>388</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-russian/audio/practice/14_toys_and_play_se_ru_double_2026-10-28_18-08-24.mp3" length="9302560" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>15 Sport och aktiviteter — Спорт и занятия</title>
+      <description>Öva ryska med svenska ledtrådar. Ämne: Sport och aktiviteter. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje rysk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-russian:topic-15</guid>
+      <pubDate>Wed, 28 Oct 2026 17:34:21 +0000</pubDate>
+      <itunes:episode>15</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>294</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-russian/audio/practice/15_sports_and_activities_se_ru_double_2026-10-28_18-08-24.mp3" length="7065643" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>16 Jag vill ha och jag behöver — Я хочу и мне нужно</title>
+      <description>Öva ryska med svenska ledtrådar. Ämne: Jag vill ha och jag behöver. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje rysk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-russian:topic-16</guid>
+      <pubDate>Wed, 28 Oct 2026 17:34:21 +0000</pubDate>
+      <itunes:episode>16</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>338</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-russian/audio/practice/16_i_want_i_need_se_ru_double_2026-10-28_18-08-24.mp3" length="8102599" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>17 Var är? — Где это?</title>
+      <description>Öva ryska med svenska ledtrådar. Ämne: Var är?. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje rysk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-russian:topic-17</guid>
+      <pubDate>Wed, 28 Oct 2026 17:34:21 +0000</pubDate>
+      <itunes:episode>17</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>320</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-russian/audio/practice/17_where_is_se_ru_double_2026-10-28_18-08-24.mp3" length="7673773" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>18 Känslor — Чувства и эмоции</title>
+      <description>Öva ryska med svenska ledtrådar. Ämne: Känslor. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje rysk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-russian:topic-18</guid>
+      <pubDate>Wed, 28 Oct 2026 17:34:21 +0000</pubDate>
+      <itunes:episode>18</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>311</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-russian/audio/practice/18_feelings_and_emotions_se_ru_double_2026-10-28_18-08-24.mp3" length="7475661" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>19 Färdmedel — Транспорт</title>
+      <description>Öva ryska med svenska ledtrådar. Ämne: Färdmedel. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje rysk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-russian:topic-19</guid>
+      <pubDate>Wed, 28 Oct 2026 17:34:21 +0000</pubDate>
+      <itunes:episode>19</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>281</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-russian/audio/practice/19_transport_se_ru_double_2026-10-28_18-08-24.mp3" length="6744023" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>20 Naturen — Природа</title>
+      <description>Öva ryska med svenska ledtrådar. Ämne: Naturen. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje rysk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-russian:topic-20</guid>
+      <pubDate>Wed, 28 Oct 2026 17:34:21 +0000</pubDate>
+      <itunes:episode>20</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>282</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-russian/audio/practice/20_nature_se_ru_double_2026-10-28_18-08-24.mp3" length="6769728" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>21 Högtider och firande — Праздники</title>
+      <description>Öva ryska med svenska ledtrådar. Ämne: Högtider och firande. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje rysk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-russian:topic-21</guid>
+      <pubDate>Wed, 28 Oct 2026 17:34:21 +0000</pubDate>
+      <itunes:episode>21</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>267</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-russian/audio/practice/21_holidays_and_celebrations_se_ru_double_2026-10-28_18-08-24.mp3" length="6404222" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>22 Vardagsrutiner — Распорядок дня</title>
+      <description>Öva ryska med svenska ledtrådar. Ämne: Vardagsrutiner. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje rysk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-russian:topic-22</guid>
+      <pubDate>Wed, 28 Oct 2026 17:34:21 +0000</pubDate>
+      <itunes:episode>22</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>326</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-russian/audio/practice/22_daily_routine_se_ru_double_2026-10-28_18-08-24.mp3" length="7822358" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>23 Fråga och be om hjälp — Вопросы и просьбы</title>
+      <description>Öva ryska med svenska ledtrådar. Ämne: Fråga och be om hjälp. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje rysk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-russian:topic-23</guid>
+      <pubDate>Wed, 28 Oct 2026 17:34:21 +0000</pubDate>
+      <itunes:episode>23</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>290</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-russian/audio/practice/23_asking_and_requests_se_ru_double_2026-10-28_18-08-24.mp3" length="6962825" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>24 Motsatser — Противоположности</title>
+      <description>Öva ryska med svenska ledtrådar. Ämne: Motsatser. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje rysk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-russian:topic-24</guid>
+      <pubDate>Wed, 28 Oct 2026 17:34:21 +0000</pubDate>
+      <itunes:episode>24</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>299</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-russian/audio/practice/24_opposites_se_ru_double_2026-10-28_18-08-24.mp3" length="7181626" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>25 Handlingar och verb — Действия и глаголы</title>
+      <description>Öva ryska med svenska ledtrådar. Ämne: Handlingar och verb. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje rysk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-russian:topic-25</guid>
+      <pubDate>Wed, 28 Oct 2026 17:34:21 +0000</pubDate>
+      <itunes:episode>25</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>440</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-russian/audio/practice/25_actions_and_verbs_se_ru_double_2026-10-28_18-08-24.mp3" length="10553930" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>26 Platser i staden — Места в городе</title>
+      <description>Öva ryska med svenska ledtrådar. Ämne: Platser i staden. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje rysk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-russian:topic-26</guid>
+      <pubDate>Wed, 28 Oct 2026 17:34:21 +0000</pubDate>
+      <itunes:episode>26</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>262</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-russian/audio/practice/26_places_in_town_se_ru_double_2026-10-28_18-08-24.mp3" length="6292627" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>27 Teknik — Техника</title>
+      <description>Öva ryska med svenska ledtrådar. Ämne: Teknik. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje rysk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-russian:topic-27</guid>
+      <pubDate>Wed, 28 Oct 2026 17:34:21 +0000</pubDate>
+      <itunes:episode>27</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>256</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-russian/audio/practice/27_technology_se_ru_double_2026-10-28_18-08-24.mp3" length="6145296" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>28 Musik och konst — Музыка и искусство</title>
+      <description>Öva ryska med svenska ledtrådar. Ämne: Musik och konst. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje rysk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-russian:topic-28</guid>
+      <pubDate>Wed, 28 Oct 2026 17:34:21 +0000</pubDate>
+      <itunes:episode>28</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>258</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-russian/audio/practice/28_music_and_art_se_ru_double_2026-10-28_18-08-24.mp3" length="6183540" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>29 Artiga fraser — Вежливые слова</title>
+      <description>Öva ryska med svenska ledtrådar. Ämne: Artiga fraser. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje rysk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-russian:topic-29</guid>
+      <pubDate>Wed, 28 Oct 2026 17:34:21 +0000</pubDate>
+      <itunes:episode>29</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>185</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-russian/audio/practice/29_polite_phrases_se_ru_double_2026-10-28_18-08-24.mp3" length="4435008" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>30 Repetition — Повторение</title>
+      <description>Öva ryska med svenska ledtrådar. Ämne: Repetition. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje rysk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <guid isPermaLink="false">repeto:swedish-russian:topic-30</guid>
+      <pubDate>Wed, 28 Oct 2026 17:34:21 +0000</pubDate>
+      <itunes:episode>30</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>134</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-russian/audio/practice/30_review_and_recap_se_ru_double_2026-10-28_18-08-24.mp3" length="3222508" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>01 Den magiska radion: Det gamla bordet — Старый стол</title>
+      <description>Lyssna på ett kapitel ur berättelsen Волшебное радио på ryska, öva orden med svenska ledtrådar och lyssna sedan på kapitlet igen.</description>
+      <guid isPermaLink="false">magical_radio:sv:ru:chapter-01</guid>
+      <pubDate>Wed, 28 Oct 2026 17:35:10 +0000</pubDate>
+      <itunes:episode>1</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>315</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://trusohamn.github.io/repeto/swedish-russian/images/stories/magical_radio/cover.jpeg" />
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-russian/audio/stories/magical_radio/01_chapter_01_sv_ru_2026-10-28_18-34-29.mp3" length="7562805" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>02 Den magiska radion: En röst ur radion — Голос из радио</title>
+      <description>Lyssna på ett kapitel ur berättelsen Волшебное радио på ryska, öva orden med svenska ledtrådar och lyssna sedan på kapitlet igen.</description>
+      <guid isPermaLink="false">magical_radio:sv:ru:chapter-02</guid>
+      <pubDate>Wed, 28 Oct 2026 17:35:10 +0000</pubDate>
+      <itunes:episode>2</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>267</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://trusohamn.github.io/repeto/swedish-russian/images/stories/magical_radio/cover.jpeg" />
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-russian/audio/stories/magical_radio/02_chapter_02_sv_ru_2026-10-28_18-34-29.mp3" length="6413626" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>03 Den magiska radion: En mus under trädet — Мышка под деревом</title>
+      <description>Lyssna på ett kapitel ur berättelsen Волшебное радио på ryska, öva orden med svenska ledtrådar och lyssna sedan på kapitlet igen.</description>
+      <guid isPermaLink="false">magical_radio:sv:ru:chapter-03</guid>
+      <pubDate>Wed, 28 Oct 2026 17:35:10 +0000</pubDate>
+      <itunes:episode>3</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>317</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://trusohamn.github.io/repeto/swedish-russian/images/stories/magical_radio/cover.jpeg" />
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-russian/audio/stories/magical_radio/03_chapter_03_sv_ru_2026-10-28_18-34-29.mp3" length="7610452" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>04 Den magiska radion: Trappan ner — Лестница вниз</title>
+      <description>Lyssna på ett kapitel ur berättelsen Волшебное радио på ryska, öva orden med svenska ledtrådar och lyssna sedan på kapitlet igen.</description>
+      <guid isPermaLink="false">magical_radio:sv:ru:chapter-04</guid>
+      <pubDate>Wed, 28 Oct 2026 17:35:10 +0000</pubDate>
+      <itunes:episode>4</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>288</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://trusohamn.github.io/repeto/swedish-russian/images/stories/magical_radio/cover.jpeg" />
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-russian/audio/stories/magical_radio/04_chapter_04_sv_ru_2026-10-28_18-34-29.mp3" length="6922074" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>05 Den magiska radion: Den flygande boken — Летающая книга</title>
+      <description>Lyssna på ett kapitel ur berättelsen Волшебное радио på ryska, öva orden med svenska ledtrådar och lyssna sedan på kapitlet igen.</description>
+      <guid isPermaLink="false">magical_radio:sv:ru:chapter-05</guid>
+      <pubDate>Wed, 28 Oct 2026 17:35:10 +0000</pubDate>
+      <itunes:episode>5</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>241</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://trusohamn.github.io/repeto/swedish-russian/images/stories/magical_radio/cover.jpeg" />
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-russian/audio/stories/magical_radio/05_chapter_05_sv_ru_2026-10-28_18-34-29.mp3" length="5787314" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>06 Den magiska radion: Den första trollformeln — Первое заклинание</title>
+      <description>Lyssna på ett kapitel ur berättelsen Волшебное радио på ryska, öva orden med svenska ledtrådar och lyssna sedan på kapitlet igen.</description>
+      <guid isPermaLink="false">magical_radio:sv:ru:chapter-06</guid>
+      <pubDate>Wed, 28 Oct 2026 17:35:10 +0000</pubDate>
+      <itunes:episode>6</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>223</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://trusohamn.github.io/repeto/swedish-russian/images/stories/magical_radio/cover.jpeg" />
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-russian/audio/stories/magical_radio/06_chapter_06_sv_ru_2026-10-28_18-34-29.mp3" length="5347203" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>07 Den magiska radion: Den gyllene fågeln — Золотая птица</title>
+      <description>Lyssna på ett kapitel ur berättelsen Волшебное радио på ryska, öva orden med svenska ledtrådar och lyssna sedan på kapitlet igen.</description>
+      <guid isPermaLink="false">magical_radio:sv:ru:chapter-07</guid>
+      <pubDate>Wed, 28 Oct 2026 17:35:10 +0000</pubDate>
+      <itunes:episode>7</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>248</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://trusohamn.github.io/repeto/swedish-russian/images/stories/magical_radio/cover.jpeg" />
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-russian/audio/stories/magical_radio/07_chapter_07_sv_ru_2026-10-28_18-34-29.mp3" length="5949065" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>08 Den magiska radion: Den stora konserten — Большой концерт</title>
+      <description>Lyssna på ett kapitel ur berättelsen Волшебное радио på ryska, öva orden med svenska ledtrådar och lyssna sedan på kapitlet igen.</description>
+      <guid isPermaLink="false">magical_radio:sv:ru:chapter-08</guid>
+      <pubDate>Wed, 28 Oct 2026 17:35:10 +0000</pubDate>
+      <itunes:episode>8</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>255</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://trusohamn.github.io/repeto/swedish-russian/images/stories/magical_radio/cover.jpeg" />
+      <enclosure url="https://trusohamn.github.io/repeto/swedish-russian/audio/stories/magical_radio/08_chapter_08_sv_ru_2026-10-28_18-34-29.mp3" length="6132131" type="audio/mpeg" />
+    </item>
+  </channel>
+</rss>

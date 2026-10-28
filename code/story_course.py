@@ -33,10 +33,11 @@ DEFAULT_VOICES = {
     "pl": "pl-PL-ZofiaNeural",
     "sv": "sv-SE-SofieNeural",
     "en": "en-GB-SoniaNeural",
+    "ru": "ru-RU-SvetlanaNeural",
 }
-DEFAULT_RATES = {"pl": "-15%", "sv": "-15%", "en": "-5%"}
+DEFAULT_RATES = {"pl": "-15%", "sv": "-15%", "en": "-5%", "ru": "-15%"}
 DEFAULT_TARGETS = ("pl",)
-SWEDISH_LANGUAGE_NAMES = {"pl": "polska", "en": "engelska"}
+SWEDISH_LANGUAGE_NAMES = {"pl": "polska", "en": "engelska", "ru": "ryska"}
 SAMPLE_RATE = 44100
 BITRATE = "192k"
 LOGGER = logging.getLogger(__name__)
@@ -600,7 +601,9 @@ async def render_story(args: argparse.Namespace) -> dict[str, Any]:
         lang: "-12%" for lang in targets
     }
     narration_rates.update(_parse_language_settings(args.narration_rate, "--narration-rate"))
-    narration_styles = {lang: "audiobook" for lang in targets}
+    narration_styles: dict[str, str | None] = {
+        lang: azure.NARRATION_STYLES.get(lang, "audiobook") for lang in targets
+    }
     narration_styles.update(_parse_language_settings(args.narration_style, "--narration-style"))
     azure.load_dotenv(ROOT / ".env", override=False)
     key = azure.os.environ.get("AZURE_SPEECH_KEY", "")

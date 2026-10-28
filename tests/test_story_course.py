@@ -154,6 +154,17 @@ class StoryCourseTests(unittest.TestCase):
             chapter["chapter_text"]["pl"] for chapter in story["chapters"]
         ))
 
+    def test_russian_story_uses_localized_character_names(self):
+        story = story_course.load_transcript(
+            ROOT / "courses/swedish-polish/stories/magical_radio/generated/transcript.json",
+            ROOT / "courses/swedish-polish/stories/magical_radio/complete/pl.txt",
+        )
+        russian = " ".join(chapter["chapter_text"]["ru"] for chapter in story["chapters"])
+        for foreign_name in ("Томек", "Майя", "Tom", "Maja", "Reparo"):
+            self.assertNotIn(foreign_name, russian)
+        for russian_name in ("Маша", "Миша", "Радиофон", "Репаро"):
+            self.assertIn(russian_name, russian)
+
     def test_each_chapter_has_beginner_vocabulary_coverage(self):
         story = story_course.load_transcript(
             ROOT / "courses/swedish-polish/stories/magical_radio/generated/transcript.json",

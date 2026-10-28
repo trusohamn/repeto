@@ -28,7 +28,7 @@ def tone(duration=200):
 
 
 def entry(topic="Greetings", identifier="phrase_000001"):
-    return {"id": identifier, "topic": topic, "se": "Hej!", "en": "Hi!", "pl": "Cześć!"}
+    return {"id": identifier, "topic": topic, "se": "Hej!", "en": "Hi!", "pl": "Cześć!", "ru": "Привет!"}
 
 
 class RendererTests(unittest.TestCase):
@@ -305,7 +305,7 @@ class RendererTests(unittest.TestCase):
             transcript.write_text(json.dumps([
                 entry(identifier=f"phrase_{i:06d}") for i in range(1, 101)
             ]), encoding="utf-8")
-            clips = {"se": tone(200), "pl": tone(600), "en": tone(300)}
+            clips = {"se": tone(200), "pl": tone(600), "en": tone(300), "ru": tone(400)}
 
             def decode(path, **kwargs):
                 return clips[Path(path).name.split("_")[0]]
@@ -513,7 +513,7 @@ class RendererTests(unittest.TestCase):
                 asyncio.run(renderer.build_audio_tracks(
                     transcript, output, root / "cache", topic="Greetings"
                 ))
-            self.assertEqual(len(list(output.iterdir())), 4)
+            self.assertEqual(len(list(output.iterdir())), 2 * len(renderer.TARGETS))
             manifests = {}
             for target in renderer.TARGETS:
                 audio_path = next(output.glob(f"02_greetings_se_{target}_*.mp3"))
@@ -563,7 +563,7 @@ class RendererTests(unittest.TestCase):
                 target: AudioSegment.from_file(output / manifests[target]["audio_file"])
                 for target in renderer.TARGETS
             }, manifests)
-            self.assertEqual(len(list(recreated.iterdir())), 4)
+            self.assertEqual(len(list(recreated.iterdir())), 2 * len(renderer.TARGETS))
             encode = AudioSegment.export
             calls = 0
 

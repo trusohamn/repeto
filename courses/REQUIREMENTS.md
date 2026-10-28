@@ -19,10 +19,11 @@ polish_course/
 │               ├── complete/
 │               │   └── pl.txt         <-- Oförändrad polsk originaltext
 │               └── generated/
-│                   ├── transcript.json <-- `chapter_text` på polska och engelska
+│                   ├── transcript.json <-- `chapter_text` på polska, engelska och ryska
 │                   ├── manifest.json  <-- Gemensamt för alla riktningar
 │                   ├── audio/sv_pl/   <-- Tidsstämplar, svenska till polska
-│                   └── audio/sv_en/   <-- Tidsstämplar, svenska till engelska
+│                   ├── audio/sv_en/   <-- Tidsstämplar, svenska till engelska
+│                   └── audio/sv_ru/   <-- Tidsstämplar, svenska till ryska
 └── code/
     ├── transcription.py               <-- Renderer för delad vokabulärpraktik
     └── story_course.py                <-- Storyrenderer och podcastpaketerare
@@ -52,9 +53,9 @@ Varje vokabulärord eller -uttryck får ett positivt heltal som ID. ID:n är uni
 **Namn på figurer:**
 
 - **Inom en kurs bevaras namnen.** I en och samma språkversion (en kurs, till exempel svenska–engelska) heter figurerna likadant i alla kapitel, rubriker, ordövningar och avsnitt. Ett namn får aldrig bytas mitt i en kurs.
-- **Vid byte av målspråk anpassas namnen.** När en berättelse översätts till ett nytt målspråk får figurerna välbekanta namn på det språket, så att berättelsen känns naturlig för barnen. Exempel för *Magiczne Radio* på engelska: Maja → Maya, Tomek → Tom, Radiofon → Radiophone.
+- **Vid byte av målspråk anpassas namnen.** När en berättelse översätts till ett nytt målspråk får figurerna välbekanta namn på det språket, så att berättelsen känns naturlig för barnen. Exempel för *Magiczne Radio* på engelska: Maja → Maya, Tomek → Tom, Radiofon → Radiophone. På ryska: Maja → Маша, Tomek → Миша, Radiofon → Радиофон.
 - **Varje berättelse har egna namn.** Namnvalen gäller bara den berättelsen; en annan berättelse väljer sina egna namn.
-- Det polska originalet ändras aldrig. Påhittade magiska ord, som trollordet `Reparo`, är desamma på alla språk.
+- Det polska originalet ändras aldrig. Påhittade magiska ord, som trollordet `Reparo`, uttalas likadant på alla språk. På språk med annat alfabet skrivs de med det alfabetet så att talsyntesen uttalar dem rätt, till exempel `Репаро` på ryska.
 
 ```json
 {
@@ -147,8 +148,9 @@ inget fast antal: välj täckning efter kapitlets innehåll och svårighetsgrad.
 ### Ljudgenerering och konfiguration
 
 Hela kapitel och boktiteln använder som standard Azure Speech, Harper
-MAI-Voice-2.1 med stilen `audiobook` och hastigheten `-12%`. Svenska, polska
-och engelska har egna röstmodeller. Uppläsningsspråket styr röstvalet,
+MAI-Voice-2.1 med stilen `audiobook` och hastigheten `-12%` för svenska,
+polska och engelska. Ryska använder Azure `ru-RU-SvetlanaNeural` utan stil,
+eftersom rysk Harper gav hörbara störljud i bakgrunden. Uppläsningsspråket styr röstvalet,
 oberoende av barnets modersmål. Ordövningar använder fortsatt Edge TTS.
 Azure-inställningar anges separat med `--narration-voice`,
 `--narration-rate` och `--narration-style`. Fel får inte ge tyst återgång till

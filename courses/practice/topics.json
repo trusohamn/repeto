@@ -1,0 +1,182 @@
+{
+  "Greetings": {
+    "se": "Hälsningar",
+    "pl": "Powitania",
+    "en": "Greetings",
+    "ru": "Приветствия"
+  },
+  "Numbers": {
+    "se": "Tal",
+    "pl": "Liczby",
+    "en": "Numbers",
+    "ru": "Числа"
+  },
+  "Colors": {
+    "se": "Färger",
+    "pl": "Kolory",
+    "en": "Colors",
+    "ru": "Цвета"
+  },
+  "Animals": {
+    "se": "Djur",
+    "pl": "Zwierzęta",
+    "en": "Animals",
+    "ru": "Животные"
+  },
+  "Family": {
+    "se": "Familj",
+    "pl": "Rodzina",
+    "en": "Family",
+    "ru": "Семья"
+  },
+  "Food": {
+    "se": "Mat",
+    "pl": "Jedzenie",
+    "en": "Food",
+    "ru": "Еда"
+  },
+  "Body": {
+    "se": "Kroppen",
+    "pl": "Ciało",
+    "en": "Body",
+    "ru": "Тело"
+  },
+  "Clothing": {
+    "se": "Kläder",
+    "pl": "Ubrania",
+    "en": "Clothing",
+    "ru": "Одежда"
+  },
+  "Home": {
+    "se": "Hemma",
+    "pl": "W domu",
+    "en": "Home",
+    "ru": "Дома"
+  },
+  "School": {
+    "se": "Skolan",
+    "pl": "Szkoła",
+    "en": "School",
+    "ru": "Школа"
+  },
+  "Weather": {
+    "se": "Väder",
+    "pl": "Pogoda",
+    "en": "Weather",
+    "ru": "Погода"
+  },
+  "Seasons": {
+    "se": "Årstider",
+    "pl": "Pory roku",
+    "en": "Seasons",
+    "ru": "Времена года"
+  },
+  "Days and Time": {
+    "se": "Dagar och tid",
+    "pl": "Dni i czas",
+    "en": "Days and Time",
+    "ru": "Дни и время"
+  },
+  "Toys and Play": {
+    "se": "Leksaker och lek",
+    "pl": "Zabawki i zabawa",
+    "en": "Toys and Play",
+    "ru": "Игрушки и игры"
+  },
+  "Sports and Activities": {
+    "se": "Sport och aktiviteter",
+    "pl": "Sport i zajęcia",
+    "en": "Sports and Activities",
+    "ru": "Спорт и занятия"
+  },
+  "I want / I need": {
+    "se": "Jag vill ha och jag behöver",
+    "pl": "Chcę i potrzebuję",
+    "en": "I want and I need",
+    "ru": "Я хочу и мне нужно"
+  },
+  "Where is?": {
+    "se": "Var är?",
+    "pl": "Gdzie jest?",
+    "en": "Where is it?",
+    "ru": "Где это?"
+  },
+  "Feelings and Emotions": {
+    "se": "Känslor",
+    "pl": "Uczucia i emocje",
+    "en": "Feelings and Emotions",
+    "ru": "Чувства и эмоции"
+  },
+  "Transport": {
+    "se": "Färdmedel",
+    "pl": "Środki transportu",
+    "en": "Transport",
+    "ru": "Транспорт"
+  },
+  "Nature": {
+    "se": "Naturen",
+    "pl": "Przyroda",
+    "en": "Nature",
+    "ru": "Природа"
+  },
+  "Holidays and Celebrations": {
+    "se": "Högtider och firande",
+    "pl": "Święta i uroczystości",
+    "en": "Holidays and Celebrations",
+    "ru": "Праздники"
+  },
+  "Daily Routine": {
+    "se": "Vardagsrutiner",
+    "pl": "Codzienne czynności",
+    "en": "Daily Routine",
+    "ru": "Распорядок дня"
+  },
+  "Asking and Requests": {
+    "se": "Fråga och be om hjälp",
+    "pl": "Pytania i prośby",
+    "en": "Asking and Requests",
+    "ru": "Вопросы и просьбы"
+  },
+  "Opposites": {
+    "se": "Motsatser",
+    "pl": "Przeciwieństwa",
+    "en": "Opposites",
+    "ru": "Противоположности"
+  },
+  "Actions and Verbs": {
+    "se": "Handlingar och verb",
+    "pl": "Czynności i czasowniki",
+    "en": "Actions and Verbs",
+    "ru": "Действия и глаголы"
+  },
+  "Places in Town": {
+    "se": "Platser i staden",
+    "pl": "Miejsca w mieście",
+    "en": "Places in Town",
+    "ru": "Места в городе"
+  },
+  "Technology": {
+    "se": "Teknik",
+    "pl": "Technologia",
+    "en": "Technology",
+    "ru": "Техника"
+  },
+  "Music and Art": {
+    "se": "Musik och konst",
+    "pl": "Muzyka i sztuka",
+    "en": "Music and Art",
+    "ru": "Музыка и искусство"
+  },
+  "Polite Phrases": {
+    "se": "Artiga fraser",
+    "pl": "Zwroty grzecznościowe",
+    "en": "Polite Phrases",
+    "ru": "Вежливые слова"
+  },
+  "Review and Recap": {
+    "se": "Repetition",
+    "pl": "Powtórka",
+    "en": "Review and Recap",
+    "ru": "Повторение"
+  }
+}

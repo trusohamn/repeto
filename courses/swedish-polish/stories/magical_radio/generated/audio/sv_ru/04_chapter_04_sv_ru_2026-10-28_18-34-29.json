@@ -1,0 +1,577 @@
+{
+  "chapter_number": 4,
+  "title": {
+    "pl": "Schody w dół",
+    "sv": "Trappan ner",
+    "en": "The Stairs Going Down",
+    "ru": "Лестница вниз"
+  },
+  "source_language": "sv",
+  "target_language": "ru",
+  "practice_order": "deterministically_shuffled",
+  "sequence": [
+    "story",
+    "practice",
+    "story"
+  ],
+  "total_duration_ms": 288361,
+  "practice": [
+    {
+      "id": 151,
+      "kind": "vocabulary",
+      "start_ms": 39504,
+      "end_ms": 50887,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "ett stort rum",
+        "start_ms": 39504,
+        "end_ms": 40721
+      },
+      "target_playbacks": [
+        {
+          "text": "большая комната",
+          "start_ms": 42721,
+          "end_ms": 44304
+        },
+        {
+          "text": "большая комната",
+          "start_ms": 46804,
+          "end_ms": 48387
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "kind": "vocabulary",
+      "start_ms": 50887,
+      "end_ms": 61174,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "öppnas",
+        "start_ms": 50887,
+        "end_ms": 51762
+      },
+      "target_playbacks": [
+        {
+          "text": "открываться",
+          "start_ms": 53762,
+          "end_ms": 54968
+        },
+        {
+          "text": "открываться",
+          "start_ms": 57468,
+          "end_ms": 58674
+        }
+      ]
+    },
+    {
+      "id": 146,
+      "kind": "vocabulary",
+      "start_ms": 61174,
+      "end_ms": 70425,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "klick!",
+        "start_ms": 61174,
+        "end_ms": 61835
+      },
+      "target_playbacks": [
+        {
+          "text": "щёлк!",
+          "start_ms": 63835,
+          "end_ms": 64630
+        },
+        {
+          "text": "щёлк!",
+          "start_ms": 67130,
+          "end_ms": 67925
+        }
+      ]
+    },
+    {
+      "id": 204,
+      "kind": "vocabulary",
+      "start_ms": 70425,
+      "end_ms": 81848,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "lysa blått",
+        "start_ms": 70425,
+        "end_ms": 71614
+      },
+      "target_playbacks": [
+        {
+          "text": "светиться голубым",
+          "start_ms": 73614,
+          "end_ms": 75231
+        },
+        {
+          "text": "светиться голубым",
+          "start_ms": 77731,
+          "end_ms": 79348
+        }
+      ]
+    },
+    {
+      "id": 203,
+      "kind": "vocabulary",
+      "start_ms": 81848,
+      "end_ms": 92013,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "på väggarna",
+        "start_ms": 81848,
+        "end_ms": 82851
+      },
+      "target_playbacks": [
+        {
+          "text": "на стенах",
+          "start_ms": 84851,
+          "end_ms": 85932
+        },
+        {
+          "text": "на стенах",
+          "start_ms": 88432,
+          "end_ms": 89513
+        }
+      ]
+    },
+    {
+      "id": 152,
+      "kind": "vocabulary",
+      "start_ms": 92013,
+      "end_ms": 101811,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "överallt",
+        "start_ms": 92013,
+        "end_ms": 93049
+      },
+      "target_playbacks": [
+        {
+          "text": "повсюду",
+          "start_ms": 95049,
+          "end_ms": 95930
+        },
+        {
+          "text": "повсюду",
+          "start_ms": 98430,
+          "end_ms": 99311
+        }
+      ]
+    },
+    {
+      "id": 149,
+      "kind": "vocabulary",
+      "start_ms": 101811,
+      "end_ms": 111218,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "växa",
+        "start_ms": 101811,
+        "end_ms": 102570
+      },
+      "target_playbacks": [
+        {
+          "text": "расти",
+          "start_ms": 104570,
+          "end_ms": 105394
+        },
+        {
+          "text": "расти",
+          "start_ms": 107894,
+          "end_ms": 108718
+        }
+      ]
+    },
+    {
+      "id": 157,
+      "kind": "vocabulary",
+      "start_ms": 111218,
+      "end_ms": 122505,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "en radio till",
+        "start_ms": 111218,
+        "end_ms": 112571
+      },
+      "target_playbacks": [
+        {
+          "text": "второе радио",
+          "start_ms": 114571,
+          "end_ms": 116038
+        },
+        {
+          "text": "второе радио",
+          "start_ms": 118538,
+          "end_ms": 120005
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "kind": "vocabulary",
+      "start_ms": 122505,
+      "end_ms": 134187,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "stentrappa",
+        "start_ms": 122505,
+        "end_ms": 123701
+      },
+      "target_playbacks": [
+        {
+          "text": "каменная лестница",
+          "start_ms": 125701,
+          "end_ms": 127444
+        },
+        {
+          "text": "каменная лестница",
+          "start_ms": 129944,
+          "end_ms": 131687
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "kind": "vocabulary",
+      "start_ms": 134187,
+      "end_ms": 145687,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "vrida om nyckeln",
+        "start_ms": 134187,
+        "end_ms": 135905
+      },
+      "target_playbacks": [
+        {
+          "text": "повернуть ключ",
+          "start_ms": 137905,
+          "end_ms": 139296
+        },
+        {
+          "text": "повернуть ключ",
+          "start_ms": 141796,
+          "end_ms": 143187
+        }
+      ]
+    },
+    {
+      "id": 148,
+      "kind": "vocabulary",
+      "start_ms": 145687,
+      "end_ms": 155207,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "en vägg",
+        "start_ms": 145687,
+        "end_ms": 146585
+      },
+      "target_playbacks": [
+        {
+          "text": "стена",
+          "start_ms": 148585,
+          "end_ms": 149396
+        },
+        {
+          "text": "стена",
+          "start_ms": 151896,
+          "end_ms": 152707
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "kind": "vocabulary",
+      "start_ms": 155207,
+      "end_ms": 167562,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "lysande blommor",
+        "start_ms": 155207,
+        "end_ms": 156768
+      },
+      "target_playbacks": [
+        {
+          "text": "светящиеся цветы",
+          "start_ms": 158768,
+          "end_ms": 160665
+        },
+        {
+          "text": "светящиеся цветы",
+          "start_ms": 163165,
+          "end_ms": 165062
+        }
+      ]
+    },
+    {
+      "id": 147,
+      "kind": "vocabulary",
+      "start_ms": 167562,
+      "end_ms": 178398,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "leda neråt",
+        "start_ms": 167562,
+        "end_ms": 168894
+      },
+      "target_playbacks": [
+        {
+          "text": "вести вниз",
+          "start_ms": 170894,
+          "end_ms": 172146
+        },
+        {
+          "text": "вести вниз",
+          "start_ms": 174646,
+          "end_ms": 175898
+        }
+      ]
+    },
+    {
+      "id": 202,
+      "kind": "vocabulary",
+      "start_ms": 178398,
+      "end_ms": 187960,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "stå",
+        "start_ms": 178398,
+        "end_ms": 179118
+      },
+      "target_playbacks": [
+        {
+          "text": "стоять",
+          "start_ms": 181118,
+          "end_ms": 182039
+        },
+        {
+          "text": "стоять",
+          "start_ms": 184539,
+          "end_ms": 185460
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "kind": "vocabulary",
+      "start_ms": 187960,
+      "end_ms": 197406,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "tak",
+        "start_ms": 187960,
+        "end_ms": 188614
+      },
+      "target_playbacks": [
+        {
+          "text": "потолок",
+          "start_ms": 190614,
+          "end_ms": 191510
+        },
+        {
+          "text": "потолок",
+          "start_ms": 194010,
+          "end_ms": 194906
+        }
+      ]
+    },
+    {
+      "id": 155,
+      "kind": "vocabulary",
+      "start_ms": 197406,
+      "end_ms": 206937,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "flyga",
+        "start_ms": 197406,
+        "end_ms": 198295
+      },
+      "target_playbacks": [
+        {
+          "text": "летать",
+          "start_ms": 200295,
+          "end_ms": 201116
+        },
+        {
+          "text": "летать",
+          "start_ms": 203616,
+          "end_ms": 204437
+        }
+      ]
+    },
+    {
+      "id": 156,
+      "kind": "vocabulary",
+      "start_ms": 206937,
+      "end_ms": 217513,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "under taket",
+        "start_ms": 206937,
+        "end_ms": 208180
+      },
+      "target_playbacks": [
+        {
+          "text": "под потолком",
+          "start_ms": 210180,
+          "end_ms": 211346
+        },
+        {
+          "text": "под потолком",
+          "start_ms": 213846,
+          "end_ms": 215013
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "kind": "vocabulary",
+      "start_ms": 217513,
+      "end_ms": 227555,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "i mitten",
+        "start_ms": 217513,
+        "end_ms": 218445
+      },
+      "target_playbacks": [
+        {
+          "text": "посередине",
+          "start_ms": 220445,
+          "end_ms": 221500
+        },
+        {
+          "text": "посередине",
+          "start_ms": 224000,
+          "end_ms": 225055
+        }
+      ]
+    },
+    {
+      "id": 150,
+      "kind": "vocabulary",
+      "start_ms": 227555,
+      "end_ms": 237836,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "gå ner",
+        "start_ms": 227555,
+        "end_ms": 228500
+      },
+      "target_playbacks": [
+        {
+          "text": "спускаться",
+          "start_ms": 230500,
+          "end_ms": 231668
+        },
+        {
+          "text": "спускаться",
+          "start_ms": 234168,
+          "end_ms": 235336
+        }
+      ]
+    },
+    {
+      "id": 153,
+      "kind": "vocabulary",
+      "start_ms": 237836,
+      "end_ms": 247139,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "böcker",
+        "start_ms": 237836,
+        "end_ms": 238539
+      },
+      "target_playbacks": [
+        {
+          "text": "книги",
+          "start_ms": 240539,
+          "end_ms": 241339
+        },
+        {
+          "text": "книги",
+          "start_ms": 243839,
+          "end_ms": 244639
+        }
+      ]
+    },
+    {
+      "id": 154,
+      "kind": "vocabulary",
+      "start_ms": 247139,
+      "end_ms": 257329,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "några",
+        "start_ms": 247139,
+        "end_ms": 247993
+      },
+      "target_playbacks": [
+        {
+          "text": "некоторые",
+          "start_ms": 249993,
+          "end_ms": 251161
+        },
+        {
+          "text": "некоторые",
+          "start_ms": 253661,
+          "end_ms": 254829
+        }
+      ]
+    }
+  ],
+  "book_introduction": null,
+  "chapter_introduction": {
+    "text": "Лестница вниз.",
+    "start_ms": 1000,
+    "end_ms": 3472
+  },
+  "transitions": [
+    {
+      "kind": "chime",
+      "from": "story",
+      "to": "practice",
+      "start_ms": 36384,
+      "end_ms": 37004
+    },
+    {
+      "kind": "chime",
+      "from": "practice",
+      "to": "story",
+      "start_ms": 257329,
+      "end_ms": 257949
+    }
+  ],
+  "chapter_readings": [
+    {
+      "text": "Маша поворачивает ключ. Щёлк! Дверь открывается. Вниз ведёт каменная лестница. На стенах растут цветы, которые светятся голубым. Дети спускаются в большую комнату. Повсюду стоят книги, а некоторые летают под потолком! Посередине стоит второе радио.",
+      "start_ms": 5972,
+      "end_ms": 33884
+    },
+    {
+      "text": "Маша поворачивает ключ. Щёлк! Дверь открывается. Вниз ведёт каменная лестница. На стенах растут цветы, которые светятся голубым. Дети спускаются в большую комнату. Повсюду стоят книги, а некоторые летают под потолком! Посередине стоит второе радио.",
+      "start_ms": 260449,
+      "end_ms": 288361
+    }
+  ],
+  "chapter_reading": {
+    "text": "Маша поворачивает ключ. Щёлк! Дверь открывается. Вниз ведёт каменная лестница. На стенах растут цветы, которые светятся голубым. Дети спускаются в большую комнату. Повсюду стоят книги, а некоторые летают под потолком! Посередине стоит второе радио.",
+    "start_ms": 260449,
+    "end_ms": 288361
+  },
+  "narration": {
+    "engine": "azure",
+    "voice": "ru-RU-SvetlanaNeural",
+    "style": null,
+    "rate": "-12%",
+    "locale": "ru-RU",
+    "capabilities": {
+      "voice": "ru-RU-SvetlanaNeural",
+      "locale": "ru-RU",
+      "advertised_styles": []
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"ru-RU\"><voice name=\"ru-RU-SvetlanaNeural\"><prosody rate=\"-12%\"><p>Маша поворачивает ключ. Щёлк! Дверь открывается. Вниз ведёт каменная лестница. На стенах растут цветы, которые светятся голубым. Дети спускаются в большую комнату. Повсюду стоят книги, а некоторые летают под потолком! Посередине стоит второе радио.</p></prosody></voice></speak>"
+  },
+  "audio_file": "04_chapter_04_sv_ru_2026-10-28_18-34-29.mp3"
+}

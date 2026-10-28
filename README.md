@@ -3,7 +3,7 @@
 Generate children's language-learning MP3s and timestamp JSON files from the
 shared practice corpus in
 [courses/practice/transcript.json](courses/practice/transcript.json). Supports
-Swedish (`se`), English (`en`), and Polish (`pl`) in any direction.
+Swedish (`se`), English (`en`), Polish (`pl`), and Russian (`ru`) in any direction.
 
 ## Podcast / Spotify
 
@@ -12,9 +12,24 @@ Swedish to Polish: https://trusohamn.github.io/repeto/swedish-polish/feed.xml
 Swedish to English
 https://trusohamn.github.io/repeto/swedish-english/feed.xml
 
+Swedish to Russian
+https://trusohamn.github.io/repeto/swedish-russian/feed.xml
+
 To package another completed course, ask the agent to use the repository's
 [package-podcast skill](.github/skills/package-podcast/SKILL.md).
 Packaging does not commit, push, or publish anything by itself.
+
+Vocabulary practice renders can be packaged as season 1 with
+`code/package_practice.py`. It validates every topic against the current
+transcript, moves the MP3s into `podcast/<course>/audio/practice/` (the timing
+JSON stays in the render folder), creates or updates `course.json`, and
+rebuilds all feeds. Episode titles come from
+[courses/practice/topics.json](courses/practice/topics.json):
+
+```sh
+.venv/bin/python code/transcription.py --source se --target ru --double-output --output output/swedish_russian_double
+.venv/bin/python code/package_practice.py --target ru --course swedish-russian --renders output/swedish_russian_double
+```
 
 Each podcast lives in `podcast/<course>/` with `cover.jpeg`, `course.json`,
 categorized audio, and generated RSS files. Vocabulary-topic MP3s live in
@@ -98,8 +113,8 @@ Run commands from this project directory after setup below.
 
 Story narration and the opening book title now default to Azure Harper
 MAI-Voice-2.1, using the `audiobook` style and a `-12%` rate. Polish uses
-`pl-PL-Harper:MAI-Voice-2.1`, Swedish `sv-SE-Harper:MAI-Voice-2.1`, and English
-`en-US-Harper:MAI-Voice-2.1`. The narration voice follows the language being
+`pl-PL-Harper:MAI-Voice-2.1`, Swedish `sv-SE-Harper:MAI-Voice-2.1`, English
+`en-US-Harper:MAI-Voice-2.1`, and Russian `ru-RU-SvetlanaNeural` (Azure Neural, no style; Russian Harper had audible artifacts). The narration voice follows the language being
 read, independently of the prompt/native language. Vocabulary practice stays
 on Edge TTS, including both target repetitions.
 
@@ -154,6 +169,13 @@ original) and `en-US-Harper:MAI-Voice-2.1` narration:
 
 ```sh
 .venv/bin/python code/story_course.py --source-language sv --target en --package-podcast --podcast-course swedish-english
+```
+
+Russian works the same way for the Swedish-to-Russian feed, with
+Azure `ru-RU-SvetlanaNeural` narration and Edge `ru-RU-SvetlanaNeural` practice:
+
+```sh
+.venv/bin/python code/story_course.py --source-language sv --target ru --package-podcast --podcast-course swedish-russian
 ```
 
 Renders go to `generated/audio/<source>_<targets>/` (for example `sv_pl` or

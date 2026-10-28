@@ -5,7 +5,8 @@
       "titles": {
         "pl": "Stary stół",
         "sv": "Det gamla bordet",
-        "en": "The Old Table"
+        "en": "The Old Table",
+        "ru": "Старый стол"
       },
       "targets": {
         "pl": {
@@ -158,6 +159,69 @@
             "ssml": "<speak xmlns:mstts=\"http://www.w3.org/2001/mstts\" version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"en-US\"><voice name=\"en-US-Harper:MAI-Voice-2.1\"><mstts:express-as style=\"audiobook\"><prosody rate=\"-12%\"><p>It is Saturday. Maya is nine years old, and her brother Tom is six years old. Together they go to a flea market. In the corner stands an old table, and on the table there is a wooden radio. It has gold knobs and colourful buttons. When Maya comes closer, the radio suddenly hums quietly: Ding! A golden inscription appears on the radio: “For Maya and Tom.” The children open their eyes wide.</p></prosody></mstts:express-as></voice></speak>"
           },
           "packaged_audio": "swedish-english/audio/stories/magical_radio/01_chapter_01_sv_en_2026-10-28_15-59-24.mp3"
+        },
+        "ru": {
+          "source_language": "sv",
+          "audio_file": "01_chapter_01_sv_ru_2026-10-28_18-34-29.mp3",
+          "manifest_file": "01_chapter_01_sv_ru_2026-10-28_18-34-29.json",
+          "total_duration_ms": 315044,
+          "chapter_reading": {
+            "text": "Сегодня суббота. Маше девять лет, а её брату Мише шесть лет. Вместе они идут на блошиный рынок. В углу стоит старый стол, а на столе — деревянное радио. У него золотые ручки и разноцветные кнопки. Когда Маша подходит ближе, радио вдруг тихо шумит: Дзинь! На радио появляется золотая надпись: «Для Маши и Миши». Дети широко открывают глаза.",
+            "start_ms": 280988,
+            "end_ms": 315044
+          },
+          "chapter_introduction": {
+            "text": "Старый стол.",
+            "start_ms": 6212,
+            "end_ms": 8444
+          },
+          "chapter_readings": [
+            {
+              "text": "Сегодня суббота. Маше девять лет, а её брату Мише шесть лет. Вместе они идут на блошиный рынок. В углу стоит старый стол, а на столе — деревянное радио. У него золотые ручки и разноцветные кнопки. Когда Маша подходит ближе, радио вдруг тихо шумит: Дзинь! На радио появляется золотая надпись: «Для Маши и Миши». Дети широко открывают глаза.",
+              "start_ms": 10944,
+              "end_ms": 45000
+            },
+            {
+              "text": "Сегодня суббота. Маше девять лет, а её брату Мише шесть лет. Вместе они идут на блошиный рынок. В углу стоит старый стол, а на столе — деревянное радио. У него золотые ручки и разноцветные кнопки. Когда Маша подходит ближе, радио вдруг тихо шумит: Дзинь! На радио появляется золотая надпись: «Для Маши и Миши». Дети широко открывают глаза.",
+              "start_ms": 280988,
+              "end_ms": 315044
+            }
+          ],
+          "sequence": [
+            "story",
+            "practice",
+            "story"
+          ],
+          "transitions": [
+            {
+              "kind": "chime",
+              "from": "story",
+              "to": "practice",
+              "start_ms": 47500,
+              "end_ms": 48120
+            },
+            {
+              "kind": "chime",
+              "from": "practice",
+              "to": "story",
+              "start_ms": 277868,
+              "end_ms": 278488
+            }
+          ],
+          "narration": {
+            "engine": "azure",
+            "voice": "ru-RU-SvetlanaNeural",
+            "style": null,
+            "rate": "-12%",
+            "locale": "ru-RU",
+            "capabilities": {
+              "voice": "ru-RU-SvetlanaNeural",
+              "locale": "ru-RU",
+              "advertised_styles": []
+            },
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"ru-RU\"><voice name=\"ru-RU-SvetlanaNeural\"><prosody rate=\"-12%\"><p>Сегодня суббота. Маше девять лет, а её брату Мише шесть лет. Вместе они идут на блошиный рынок. В углу стоит старый стол, а на столе — деревянное радио. У него золотые ручки и разноцветные кнопки. Когда Маша подходит ближе, радио вдруг тихо шумит: Дзинь! На радио появляется золотая надпись: «Для Маши и Миши». Дети широко открывают глаза.</p></prosody></voice></speak>"
+          },
+          "packaged_audio": "swedish-russian/audio/stories/magical_radio/01_chapter_01_sv_ru_2026-10-28_18-34-29.mp3"
         }
       }
     },
@@ -165,7 +229,8 @@
       "titles": {
         "pl": "Głos z radia",
         "sv": "En röst ur radion",
-        "en": "A Voice from the Radio"
+        "en": "A Voice from the Radio",
+        "ru": "Голос из радио"
       },
       "targets": {
         "pl": {
@@ -318,6 +383,69 @@
             "ssml": "<speak xmlns:mstts=\"http://www.w3.org/2001/mstts\" version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"en-US\"><voice name=\"en-US-Harper:MAI-Voice-2.1\"><mstts:express-as style=\"audiobook\"><prosody rate=\"-12%\"><p>The children carry the radio home. Tom presses the blue button. A little cloud flies out of the radio, and it smells of cinnamon. “Hi, explorers!” says a cheerful voice. “My name is Radiophone. In your garden, under the old tree, there is a key. Bring a flashlight and a piece of cheese!”</p></prosody></mstts:express-as></voice></speak>"
           },
           "packaged_audio": "swedish-english/audio/stories/magical_radio/02_chapter_02_sv_en_2026-10-28_15-59-24.mp3"
+        },
+        "ru": {
+          "source_language": "sv",
+          "audio_file": "02_chapter_02_sv_ru_2026-10-28_18-34-29.mp3",
+          "manifest_file": "02_chapter_02_sv_ru_2026-10-28_18-34-29.json",
+          "total_duration_ms": 267154,
+          "chapter_reading": {
+            "text": "Дети несут радио домой. Миша нажимает синюю кнопку. Из радио вылетает маленькое облачко, которое пахнет корицей. — Привет, исследователи! — говорит весёлый голос. — Меня зовут Радиофон. В вашем саду, под старым деревом, лежит ключ. Возьмите фонарик и кусочек сыра!",
+            "start_ms": 237922,
+            "end_ms": 267154
+          },
+          "chapter_introduction": {
+            "text": "Голос из радио.",
+            "start_ms": 1000,
+            "end_ms": 3712
+          },
+          "chapter_readings": [
+            {
+              "text": "Дети несут радио домой. Миша нажимает синюю кнопку. Из радио вылетает маленькое облачко, которое пахнет корицей. — Привет, исследователи! — говорит весёлый голос. — Меня зовут Радиофон. В вашем саду, под старым деревом, лежит ключ. Возьмите фонарик и кусочек сыра!",
+              "start_ms": 6212,
+              "end_ms": 35444
+            },
+            {
+              "text": "Дети несут радио домой. Миша нажимает синюю кнопку. Из радио вылетает маленькое облачко, которое пахнет корицей. — Привет, исследователи! — говорит весёлый голос. — Меня зовут Радиофон. В вашем саду, под старым деревом, лежит ключ. Возьмите фонарик и кусочек сыра!",
+              "start_ms": 237922,
+              "end_ms": 267154
+            }
+          ],
+          "sequence": [
+            "story",
+            "practice",
+            "story"
+          ],
+          "transitions": [
+            {
+              "kind": "chime",
+              "from": "story",
+              "to": "practice",
+              "start_ms": 37944,
+              "end_ms": 38564
+            },
+            {
+              "kind": "chime",
+              "from": "practice",
+              "to": "story",
+              "start_ms": 234802,
+              "end_ms": 235422
+            }
+          ],
+          "narration": {
+            "engine": "azure",
+            "voice": "ru-RU-SvetlanaNeural",
+            "style": null,
+            "rate": "-12%",
+            "locale": "ru-RU",
+            "capabilities": {
+              "voice": "ru-RU-SvetlanaNeural",
+              "locale": "ru-RU",
+              "advertised_styles": []
+            },
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"ru-RU\"><voice name=\"ru-RU-SvetlanaNeural\"><prosody rate=\"-12%\"><p>Дети несут радио домой. Миша нажимает синюю кнопку. Из радио вылетает маленькое облачко, которое пахнет корицей. — Привет, исследователи! — говорит весёлый голос. — Меня зовут Радиофон. В вашем саду, под старым деревом, лежит ключ. Возьмите фонарик и кусочек сыра!</p></prosody></voice></speak>"
+          },
+          "packaged_audio": "swedish-russian/audio/stories/magical_radio/02_chapter_02_sv_ru_2026-10-28_18-34-29.mp3"
         }
       }
     },
@@ -325,7 +453,8 @@
       "titles": {
         "pl": "Mysz pod drzewem",
         "sv": "En mus under trädet",
-        "en": "A Mouse under the Tree"
+        "en": "A Mouse under the Tree",
+        "ru": "Мышка под деревом"
       },
       "targets": {
         "pl": {
@@ -478,6 +607,69 @@
             "ssml": "<speak xmlns:mstts=\"http://www.w3.org/2001/mstts\" version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"en-US\"><voice name=\"en-US-Harper:MAI-Voice-2.1\"><mstts:express-as style=\"audiobook\"><prosody rate=\"-12%\"><p>Maya takes a flashlight, and Tom takes some yellow cheese. They go to the big tree in the garden. Tom shines the flashlight under the roots. A little mouse comes out of a hole with a book in its little paws. “We have cheese. Do you have a key?” asks Tom. The mouse gives them a silver key, takes the cheese and disappears. Under the leaves, the children find an old door in the ground.</p></prosody></mstts:express-as></voice></speak>"
           },
           "packaged_audio": "swedish-english/audio/stories/magical_radio/03_chapter_03_sv_en_2026-10-28_15-59-24.mp3"
+        },
+        "ru": {
+          "source_language": "sv",
+          "audio_file": "03_chapter_03_sv_ru_2026-10-28_18-34-29.mp3",
+          "manifest_file": "03_chapter_03_sv_ru_2026-10-28_18-34-29.json",
+          "total_duration_ms": 317026,
+          "chapter_reading": {
+            "text": "Маша берёт фонарик, а Миша — жёлтый сыр. Они идут к большому дереву в саду. Миша светит фонариком под корни. Из норки выходит маленькая мышка с книжкой в лапках. — У нас есть сыр. А у тебя есть ключ? — спрашивает Миша. Мышка даёт им серебряный ключ, забирает сыр и исчезает. Под листьями дети находят старую дверь в земле.",
+            "start_ms": 283762,
+            "end_ms": 317026
+          },
+          "chapter_introduction": {
+            "text": "Мышка под деревом.",
+            "start_ms": 1000,
+            "end_ms": 3616
+          },
+          "chapter_readings": [
+            {
+              "text": "Маша берёт фонарик, а Миша — жёлтый сыр. Они идут к большому дереву в саду. Миша светит фонариком под корни. Из норки выходит маленькая мышка с книжкой в лапках. — У нас есть сыр. А у тебя есть ключ? — спрашивает Миша. Мышка даёт им серебряный ключ, забирает сыр и исчезает. Под листьями дети находят старую дверь в земле.",
+              "start_ms": 6116,
+              "end_ms": 39380
+            },
+            {
+              "text": "Маша берёт фонарик, а Миша — жёлтый сыр. Они идут к большому дереву в саду. Миша светит фонариком под корни. Из норки выходит маленькая мышка с книжкой в лапках. — У нас есть сыр. А у тебя есть ключ? — спрашивает Миша. Мышка даёт им серебряный ключ, забирает сыр и исчезает. Под листьями дети находят старую дверь в земле.",
+              "start_ms": 283762,
+              "end_ms": 317026
+            }
+          ],
+          "sequence": [
+            "story",
+            "practice",
+            "story"
+          ],
+          "transitions": [
+            {
+              "kind": "chime",
+              "from": "story",
+              "to": "practice",
+              "start_ms": 41880,
+              "end_ms": 42500
+            },
+            {
+              "kind": "chime",
+              "from": "practice",
+              "to": "story",
+              "start_ms": 280642,
+              "end_ms": 281262
+            }
+          ],
+          "narration": {
+            "engine": "azure",
+            "voice": "ru-RU-SvetlanaNeural",
+            "style": null,
+            "rate": "-12%",
+            "locale": "ru-RU",
+            "capabilities": {
+              "voice": "ru-RU-SvetlanaNeural",
+              "locale": "ru-RU",
+              "advertised_styles": []
+            },
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"ru-RU\"><voice name=\"ru-RU-SvetlanaNeural\"><prosody rate=\"-12%\"><p>Маша берёт фонарик, а Миша — жёлтый сыр. Они идут к большому дереву в саду. Миша светит фонариком под корни. Из норки выходит маленькая мышка с книжкой в лапках. — У нас есть сыр. А у тебя есть ключ? — спрашивает Миша. Мышка даёт им серебряный ключ, забирает сыр и исчезает. Под листьями дети находят старую дверь в земле.</p></prosody></voice></speak>"
+          },
+          "packaged_audio": "swedish-russian/audio/stories/magical_radio/03_chapter_03_sv_ru_2026-10-28_18-34-29.mp3"
         }
       }
     },
@@ -485,7 +677,8 @@
       "titles": {
         "pl": "Schody w dół",
         "sv": "Trappan ner",
-        "en": "The Stairs Going Down"
+        "en": "The Stairs Going Down",
+        "ru": "Лестница вниз"
       },
       "targets": {
         "pl": {
@@ -638,6 +831,69 @@
             "ssml": "<speak xmlns:mstts=\"http://www.w3.org/2001/mstts\" version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"en-US\"><voice name=\"en-US-Harper:MAI-Voice-2.1\"><mstts:express-as style=\"audiobook\"><prosody rate=\"-12%\"><p>Maya turns the key. Click! The door opens. Stone stairs lead down. Flowers that glow blue grow on the walls. The children go down into a big room. There are books everywhere, and some of them fly under the ceiling! In the middle stands a second radio.</p></prosody></mstts:express-as></voice></speak>"
           },
           "packaged_audio": "swedish-english/audio/stories/magical_radio/04_chapter_04_sv_en_2026-10-28_15-59-24.mp3"
+        },
+        "ru": {
+          "source_language": "sv",
+          "audio_file": "04_chapter_04_sv_ru_2026-10-28_18-34-29.mp3",
+          "manifest_file": "04_chapter_04_sv_ru_2026-10-28_18-34-29.json",
+          "total_duration_ms": 288361,
+          "chapter_reading": {
+            "text": "Маша поворачивает ключ. Щёлк! Дверь открывается. Вниз ведёт каменная лестница. На стенах растут цветы, которые светятся голубым. Дети спускаются в большую комнату. Повсюду стоят книги, а некоторые летают под потолком! Посередине стоит второе радио.",
+            "start_ms": 260449,
+            "end_ms": 288361
+          },
+          "chapter_introduction": {
+            "text": "Лестница вниз.",
+            "start_ms": 1000,
+            "end_ms": 3472
+          },
+          "chapter_readings": [
+            {
+              "text": "Маша поворачивает ключ. Щёлк! Дверь открывается. Вниз ведёт каменная лестница. На стенах растут цветы, которые светятся голубым. Дети спускаются в большую комнату. Повсюду стоят книги, а некоторые летают под потолком! Посередине стоит второе радио.",
+              "start_ms": 5972,
+              "end_ms": 33884
+            },
+            {
+              "text": "Маша поворачивает ключ. Щёлк! Дверь открывается. Вниз ведёт каменная лестница. На стенах растут цветы, которые светятся голубым. Дети спускаются в большую комнату. Повсюду стоят книги, а некоторые летают под потолком! Посередине стоит второе радио.",
+              "start_ms": 260449,
+              "end_ms": 288361
+            }
+          ],
+          "sequence": [
+            "story",
+            "practice",
+            "story"
+          ],
+          "transitions": [
+            {
+              "kind": "chime",
+              "from": "story",
+              "to": "practice",
+              "start_ms": 36384,
+              "end_ms": 37004
+            },
+            {
+              "kind": "chime",
+              "from": "practice",
+              "to": "story",
+              "start_ms": 257329,
+              "end_ms": 257949
+            }
+          ],
+          "narration": {
+            "engine": "azure",
+            "voice": "ru-RU-SvetlanaNeural",
+            "style": null,
+            "rate": "-12%",
+            "locale": "ru-RU",
+            "capabilities": {
+              "voice": "ru-RU-SvetlanaNeural",
+              "locale": "ru-RU",
+              "advertised_styles": []
+            },
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"ru-RU\"><voice name=\"ru-RU-SvetlanaNeural\"><prosody rate=\"-12%\"><p>Маша поворачивает ключ. Щёлк! Дверь открывается. Вниз ведёт каменная лестница. На стенах растут цветы, которые светятся голубым. Дети спускаются в большую комнату. Повсюду стоят книги, а некоторые летают под потолком! Посередине стоит второе радио.</p></prosody></voice></speak>"
+          },
+          "packaged_audio": "swedish-russian/audio/stories/magical_radio/04_chapter_04_sv_ru_2026-10-28_18-34-29.mp3"
         }
       }
     },
@@ -645,7 +901,8 @@
       "titles": {
         "pl": "Latająca książka",
         "sv": "Den flygande boken",
-        "en": "The Flying Book"
+        "en": "The Flying Book",
+        "ru": "Летающая книга"
       },
       "targets": {
         "pl": {
@@ -798,6 +1055,69 @@
             "ssml": "<speak xmlns:mstts=\"http://www.w3.org/2001/mstts\" version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"en-US\"><voice name=\"en-US-Harper:MAI-Voice-2.1\"><mstts:express-as style=\"audiobook\"><prosody rate=\"-12%\"><p>A golden book flaps its pages and lands on Maya’s shoulder. The second radio speaks up immediately: “This book teaches an important spell. The word is: Reparo! It repairs every broken thing.” Tom takes an old, broken compass out of his pocket.</p></prosody></mstts:express-as></voice></speak>"
           },
           "packaged_audio": "swedish-english/audio/stories/magical_radio/05_chapter_05_sv_en_2026-10-28_15-59-24.mp3"
+        },
+        "ru": {
+          "source_language": "sv",
+          "audio_file": "05_chapter_05_sv_ru_2026-10-28_18-34-29.mp3",
+          "manifest_file": "05_chapter_05_sv_ru_2026-10-28_18-34-29.json",
+          "total_duration_ms": 241074,
+          "chapter_reading": {
+            "text": "Золотая книга машет страницами и приземляется Маше на плечо. Второе радио сразу говорит: — Эта книга учит важному заклинанию. Вот это слово: Репаро! Оно чинит любую сломанную вещь. Миша достаёт из кармана старый сломанный компас.",
+            "start_ms": 219042,
+            "end_ms": 241074
+          },
+          "chapter_introduction": {
+            "text": "Летающая книга.",
+            "start_ms": 1000,
+            "end_ms": 3784
+          },
+          "chapter_readings": [
+            {
+              "text": "Золотая книга машет страницами и приземляется Маше на плечо. Второе радио сразу говорит: — Эта книга учит важному заклинанию. Вот это слово: Репаро! Оно чинит любую сломанную вещь. Миша достаёт из кармана старый сломанный компас.",
+              "start_ms": 6284,
+              "end_ms": 28316
+            },
+            {
+              "text": "Золотая книга машет страницами и приземляется Маше на плечо. Второе радио сразу говорит: — Эта книга учит важному заклинанию. Вот это слово: Репаро! Оно чинит любую сломанную вещь. Миша достаёт из кармана старый сломанный компас.",
+              "start_ms": 219042,
+              "end_ms": 241074
+            }
+          ],
+          "sequence": [
+            "story",
+            "practice",
+            "story"
+          ],
+          "transitions": [
+            {
+              "kind": "chime",
+              "from": "story",
+              "to": "practice",
+              "start_ms": 30816,
+              "end_ms": 31436
+            },
+            {
+              "kind": "chime",
+              "from": "practice",
+              "to": "story",
+              "start_ms": 215922,
+              "end_ms": 216542
+            }
+          ],
+          "narration": {
+            "engine": "azure",
+            "voice": "ru-RU-SvetlanaNeural",
+            "style": null,
+            "rate": "-12%",
+            "locale": "ru-RU",
+            "capabilities": {
+              "voice": "ru-RU-SvetlanaNeural",
+              "locale": "ru-RU",
+              "advertised_styles": []
+            },
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"ru-RU\"><voice name=\"ru-RU-SvetlanaNeural\"><prosody rate=\"-12%\"><p>Золотая книга машет страницами и приземляется Маше на плечо. Второе радио сразу говорит: — Эта книга учит важному заклинанию. Вот это слово: Репаро! Оно чинит любую сломанную вещь. Миша достаёт из кармана старый сломанный компас.</p></prosody></voice></speak>"
+          },
+          "packaged_audio": "swedish-russian/audio/stories/magical_radio/05_chapter_05_sv_ru_2026-10-28_18-34-29.mp3"
         }
       }
     },
@@ -805,7 +1125,8 @@
       "titles": {
         "pl": "Pierwsze zaklęcie",
         "sv": "Den första trollformeln",
-        "en": "The First Spell"
+        "en": "The First Spell",
+        "ru": "Первое заклинание"
       },
       "targets": {
         "pl": {
@@ -958,6 +1279,69 @@
             "ssml": "<speak xmlns:mstts=\"http://www.w3.org/2001/mstts\" version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"en-US\"><voice name=\"en-US-Harper:MAI-Voice-2.1\"><mstts:express-as style=\"audiobook\"><prosody rate=\"-12%\"><p>Tom holds the compass. The children say together: “Reparo!” A golden spark flashes. The compass is whole again! The needle spins and points to a green door. “It works!” shouts Tom. The radio says: “Behind the door, someone is waiting for your help.”</p></prosody></mstts:express-as></voice></speak>"
           },
           "packaged_audio": "swedish-english/audio/stories/magical_radio/06_chapter_06_sv_en_2026-10-28_15-59-24.mp3"
+        },
+        "ru": {
+          "source_language": "sv",
+          "audio_file": "06_chapter_06_sv_ru_2026-10-28_18-34-29.mp3",
+          "manifest_file": "06_chapter_06_sv_ru_2026-10-28_18-34-29.json",
+          "total_duration_ms": 222727,
+          "chapter_reading": {
+            "text": "Миша держит компас. Дети вместе говорят: — Репаро! Вспыхивает золотая искра. Компас снова целый! Стрелка крутится и показывает на зелёную дверь. — Работает! — кричит Миша. Радио говорит: — За дверью кто-то ждёт вашей помощи.",
+            "start_ms": 197071,
+            "end_ms": 222727
+          },
+          "chapter_introduction": {
+            "text": "Первое заклинание.",
+            "start_ms": 1000,
+            "end_ms": 3640
+          },
+          "chapter_readings": [
+            {
+              "text": "Миша держит компас. Дети вместе говорят: — Репаро! Вспыхивает золотая искра. Компас снова целый! Стрелка крутится и показывает на зелёную дверь. — Работает! — кричит Миша. Радио говорит: — За дверью кто-то ждёт вашей помощи.",
+              "start_ms": 6140,
+              "end_ms": 31796
+            },
+            {
+              "text": "Миша держит компас. Дети вместе говорят: — Репаро! Вспыхивает золотая искра. Компас снова целый! Стрелка крутится и показывает на зелёную дверь. — Работает! — кричит Миша. Радио говорит: — За дверью кто-то ждёт вашей помощи.",
+              "start_ms": 197071,
+              "end_ms": 222727
+            }
+          ],
+          "sequence": [
+            "story",
+            "practice",
+            "story"
+          ],
+          "transitions": [
+            {
+              "kind": "chime",
+              "from": "story",
+              "to": "practice",
+              "start_ms": 34296,
+              "end_ms": 34916
+            },
+            {
+              "kind": "chime",
+              "from": "practice",
+              "to": "story",
+              "start_ms": 193951,
+              "end_ms": 194571
+            }
+          ],
+          "narration": {
+            "engine": "azure",
+            "voice": "ru-RU-SvetlanaNeural",
+            "style": null,
+            "rate": "-12%",
+            "locale": "ru-RU",
+            "capabilities": {
+              "voice": "ru-RU-SvetlanaNeural",
+              "locale": "ru-RU",
+              "advertised_styles": []
+            },
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"ru-RU\"><voice name=\"ru-RU-SvetlanaNeural\"><prosody rate=\"-12%\"><p>Миша держит компас. Дети вместе говорят: — Репаро! Вспыхивает золотая искра. Компас снова целый! Стрелка крутится и показывает на зелёную дверь. — Работает! — кричит Миша. Радио говорит: — За дверью кто-то ждёт вашей помощи.</p></prosody></voice></speak>"
+          },
+          "packaged_audio": "swedish-russian/audio/stories/magical_radio/06_chapter_06_sv_ru_2026-10-28_18-34-29.mp3"
         }
       }
     },
@@ -965,7 +1349,8 @@
       "titles": {
         "pl": "Złoty ptak",
         "sv": "Den gyllene fågeln",
-        "en": "The Golden Bird"
+        "en": "The Golden Bird",
+        "ru": "Золотая птица"
       },
       "targets": {
         "pl": {
@@ -1118,6 +1503,69 @@
             "ssml": "<speak xmlns:mstts=\"http://www.w3.org/2001/mstts\" version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"en-US\"><voice name=\"en-US-Harper:MAI-Voice-2.1\"><mstts:express-as style=\"audiobook\"><prosody rate=\"-12%\"><p>The children open the green door and go into a garden. A golden bird sits on a branch. It does not sing. It only ticks like a clock: Tick-tock, tick-tock. A little stone is missing from its wing. “Tom, our radio in the room has a blue stone!” calls Maya. “Quick!”</p></prosody></mstts:express-as></voice></speak>"
           },
           "packaged_audio": "swedish-english/audio/stories/magical_radio/07_chapter_07_sv_en_2026-10-28_15-59-24.mp3"
+        },
+        "ru": {
+          "source_language": "sv",
+          "audio_file": "07_chapter_07_sv_ru_2026-10-28_18-34-29.mp3",
+          "manifest_file": "07_chapter_07_sv_ru_2026-10-28_18-34-29.json",
+          "total_duration_ms": 247817,
+          "chapter_reading": {
+            "text": "Дети открывают зелёную дверь и входят в сад. На ветке сидит золотая птица. Она не поёт, а только тикает, как часы: Тик-так, тик-так. На её крыле не хватает маленького камешка. — Миша, у нашего радио в комнате есть синий камень! — зовёт Маша. — Скорее!",
+            "start_ms": 220985,
+            "end_ms": 247817
+          },
+          "chapter_introduction": {
+            "text": "Золотая птица.",
+            "start_ms": 1000,
+            "end_ms": 3760
+          },
+          "chapter_readings": [
+            {
+              "text": "Дети открывают зелёную дверь и входят в сад. На ветке сидит золотая птица. Она не поёт, а только тикает, как часы: Тик-так, тик-так. На её крыле не хватает маленького камешка. — Миша, у нашего радио в комнате есть синий камень! — зовёт Маша. — Скорее!",
+              "start_ms": 6260,
+              "end_ms": 33092
+            },
+            {
+              "text": "Дети открывают зелёную дверь и входят в сад. На ветке сидит золотая птица. Она не поёт, а только тикает, как часы: Тик-так, тик-так. На её крыле не хватает маленького камешка. — Миша, у нашего радио в комнате есть синий камень! — зовёт Маша. — Скорее!",
+              "start_ms": 220985,
+              "end_ms": 247817
+            }
+          ],
+          "sequence": [
+            "story",
+            "practice",
+            "story"
+          ],
+          "transitions": [
+            {
+              "kind": "chime",
+              "from": "story",
+              "to": "practice",
+              "start_ms": 35592,
+              "end_ms": 36212
+            },
+            {
+              "kind": "chime",
+              "from": "practice",
+              "to": "story",
+              "start_ms": 217865,
+              "end_ms": 218485
+            }
+          ],
+          "narration": {
+            "engine": "azure",
+            "voice": "ru-RU-SvetlanaNeural",
+            "style": null,
+            "rate": "-12%",
+            "locale": "ru-RU",
+            "capabilities": {
+              "voice": "ru-RU-SvetlanaNeural",
+              "locale": "ru-RU",
+              "advertised_styles": []
+            },
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"ru-RU\"><voice name=\"ru-RU-SvetlanaNeural\"><prosody rate=\"-12%\"><p>Дети открывают зелёную дверь и входят в сад. На ветке сидит золотая птица. Она не поёт, а только тикает, как часы: Тик-так, тик-так. На её крыле не хватает маленького камешка. — Миша, у нашего радио в комнате есть синий камень! — зовёт Маша. — Скорее!</p></prosody></voice></speak>"
+          },
+          "packaged_audio": "swedish-russian/audio/stories/magical_radio/07_chapter_07_sv_ru_2026-10-28_18-34-29.mp3"
         }
       }
     },
@@ -1125,7 +1573,8 @@
       "titles": {
         "pl": "Wielki koncert",
         "sv": "Den stora konserten",
-        "en": "The Grand Concert"
+        "en": "The Grand Concert",
+        "ru": "Большой концерт"
       },
       "targets": {
         "pl": {
@@ -1278,6 +1727,69 @@
             "ssml": "<speak xmlns:mstts=\"http://www.w3.org/2001/mstts\" version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"en-US\"><voice name=\"en-US-Harper:MAI-Voice-2.1\"><mstts:express-as style=\"audiobook\"><prosody rate=\"-12%\"><p>The children bring the radio. A little blue stone falls out of a small hidden compartment. Tom puts it into the bird’s wing. The children call out: “Reparo!” The golden bird flaps its wings and begins to sing happily. Butterflies dance in the air. “Good job!” says Radiophone. “I’m staying with you forever!”</p></prosody></mstts:express-as></voice></speak>"
           },
           "packaged_audio": "swedish-english/audio/stories/magical_radio/08_chapter_08_sv_en_2026-10-28_15-59-24.mp3"
+        },
+        "ru": {
+          "source_language": "sv",
+          "audio_file": "08_chapter_08_sv_ru_2026-10-28_18-34-29.mp3",
+          "manifest_file": "08_chapter_08_sv_ru_2026-10-28_18-34-29.json",
+          "total_duration_ms": 255450,
+          "chapter_reading": {
+            "text": "Дети приносят радио. Из маленького тайника выпадает синий камешек. Миша вставляет его в крыло птицы. Дети кричат: — Репаро! Золотая птица машет крыльями и начинает весело петь. В воздухе танцуют бабочки. — Отличная работа! — говорит Радиофон. — Я остаюсь с вами навсегда!",
+            "start_ms": 224826,
+            "end_ms": 255450
+          },
+          "chapter_introduction": {
+            "text": "Большой концерт.",
+            "start_ms": 1000,
+            "end_ms": 3592
+          },
+          "chapter_readings": [
+            {
+              "text": "Дети приносят радио. Из маленького тайника выпадает синий камешек. Миша вставляет его в крыло птицы. Дети кричат: — Репаро! Золотая птица машет крыльями и начинает весело петь. В воздухе танцуют бабочки. — Отличная работа! — говорит Радиофон. — Я остаюсь с вами навсегда!",
+              "start_ms": 6092,
+              "end_ms": 36716
+            },
+            {
+              "text": "Дети приносят радио. Из маленького тайника выпадает синий камешек. Миша вставляет его в крыло птицы. Дети кричат: — Репаро! Золотая птица машет крыльями и начинает весело петь. В воздухе танцуют бабочки. — Отличная работа! — говорит Радиофон. — Я остаюсь с вами навсегда!",
+              "start_ms": 224826,
+              "end_ms": 255450
+            }
+          ],
+          "sequence": [
+            "story",
+            "practice",
+            "story"
+          ],
+          "transitions": [
+            {
+              "kind": "chime",
+              "from": "story",
+              "to": "practice",
+              "start_ms": 39216,
+              "end_ms": 39836
+            },
+            {
+              "kind": "chime",
+              "from": "practice",
+              "to": "story",
+              "start_ms": 221706,
+              "end_ms": 222326
+            }
+          ],
+          "narration": {
+            "engine": "azure",
+            "voice": "ru-RU-SvetlanaNeural",
+            "style": null,
+            "rate": "-12%",
+            "locale": "ru-RU",
+            "capabilities": {
+              "voice": "ru-RU-SvetlanaNeural",
+              "locale": "ru-RU",
+              "advertised_styles": []
+            },
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"ru-RU\"><voice name=\"ru-RU-SvetlanaNeural\"><prosody rate=\"-12%\"><p>Дети приносят радио. Из маленького тайника выпадает синий камешек. Миша вставляет его в крыло птицы. Дети кричат: — Репаро! Золотая птица машет крыльями и начинает весело петь. В воздухе танцуют бабочки. — Отличная работа! — говорит Радиофон. — Я остаюсь с вами навсегда!</p></prosody></voice></speak>"
+          },
+          "packaged_audio": "swedish-russian/audio/stories/magical_radio/08_chapter_08_sv_ru_2026-10-28_18-34-29.mp3"
         }
       }
     }
@@ -1298,24 +1810,32 @@
       "title": "Repeto – Svenska till engelska",
       "author": "Repeto",
       "owner_email": "repeto.lingo@gmail.com"
+    },
+    "ru": {
+      "slug": "swedish-russian",
+      "feed_url": "https://trusohamn.github.io/repeto/swedish-russian/feed.xml",
+      "episodes": 38,
+      "title": "Repeto – Svenska till ryska",
+      "author": "Repeto",
+      "owner_email": "repeto.lingo@gmail.com"
     }
   },
   "settings": {
     "source_language": "sv",
     "target_languages": [
-      "en"
+      "ru"
     ],
     "voices": {
       "sv": "sv-SE-SofieNeural",
-      "en": "en-GB-SoniaNeural"
+      "ru": "ru-RU-SvetlanaNeural"
     },
     "rates": {
       "sv": "-15%",
-      "en": "-5%"
+      "ru": "-15%"
     },
     "pitches": {
       "sv": "+0Hz",
-      "en": "+0Hz"
+      "ru": "+0Hz"
     },
     "format": "mp3",
     "bitrate": "192k",
@@ -1328,43 +1848,23 @@
       "practice",
       "story"
     ],
-    "timestamp": "2026-10-28_15-59-24",
+    "timestamp": "2026-10-28_18-34-29",
     "narration": {
-      "en": {
+      "ru": {
         "engine": "azure",
-        "voice": "en-US-Harper:MAI-Voice-2.1",
-        "style": "audiobook",
+        "voice": "ru-RU-SvetlanaNeural",
+        "style": null,
         "rate": "-12%",
-        "locale": "en-US",
+        "locale": "ru-RU",
         "capabilities": {
-          "voice": "en-US-Harper:MAI-Voice-2.1",
-          "locale": "en-US",
-          "advertised_styles": [
-            "agent",
-            "angry",
-            "audiobook",
-            "confused",
-            "customer_call_center",
-            "determined",
-            "educational",
-            "embarrassed",
-            "excited",
-            "happy",
-            "hopeful",
-            "joyful",
-            "narrator",
-            "regretful",
-            "relieved",
-            "sad",
-            "shouting",
-            "softvoice",
-            "whispering"
-          ]
+          "voice": "ru-RU-SvetlanaNeural",
+          "locale": "ru-RU",
+          "advertised_styles": []
         }
       }
     },
     "narration_engine": "azure",
-    "output": "courses/swedish-polish/stories/magical_radio/generated/audio/sv_en"
+    "output": "courses/swedish-polish/stories/magical_radio/generated/audio/sv_ru"
   },
   "renders": {
     "sv_pl": {
@@ -1483,6 +1983,52 @@
       },
       "narration_engine": "azure",
       "output": "courses/swedish-polish/stories/magical_radio/generated/audio/sv_en"
+    },
+    "sv_ru": {
+      "source_language": "sv",
+      "target_languages": [
+        "ru"
+      ],
+      "voices": {
+        "sv": "sv-SE-SofieNeural",
+        "ru": "ru-RU-SvetlanaNeural"
+      },
+      "rates": {
+        "sv": "-15%",
+        "ru": "-15%"
+      },
+      "pitches": {
+        "sv": "+0Hz",
+        "ru": "+0Hz"
+      },
+      "format": "mp3",
+      "bitrate": "192k",
+      "lead_in_ms": 1000,
+      "thinking_ms": 2000,
+      "repetition_ms": 2500,
+      "practice_order": "deterministically_shuffled",
+      "sequence": [
+        "story",
+        "practice",
+        "story"
+      ],
+      "timestamp": "2026-10-28_18-34-29",
+      "narration": {
+        "ru": {
+          "engine": "azure",
+          "voice": "ru-RU-SvetlanaNeural",
+          "style": null,
+          "rate": "-12%",
+          "locale": "ru-RU",
+          "capabilities": {
+            "voice": "ru-RU-SvetlanaNeural",
+            "locale": "ru-RU",
+            "advertised_styles": []
+          }
+        }
+      },
+      "narration_engine": "azure",
+      "output": "courses/swedish-polish/stories/magical_radio/generated/audio/sv_ru"
     }
   }
 }

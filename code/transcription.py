@@ -18,15 +18,16 @@ from pydub.effects import compress_dynamic_range
 from pydub.silence import detect_nonsilent
 
 ROOT = Path(__file__).resolve().parent.parent
-Language = Literal["se", "en", "pl"]
-LANGUAGES: tuple[Language, ...] = ("se", "pl", "en")
-TARGETS: tuple[Language, ...] = ("pl", "en")
+Language = Literal["se", "en", "pl", "ru"]
+LANGUAGES: tuple[Language, ...] = ("se", "pl", "en", "ru")
+TARGETS: tuple[Language, ...] = ("pl", "en", "ru")
 VOICES = {
     "se": "sv-SE-SofieNeural",
     "en": "en-GB-SoniaNeural",
     "pl": "pl-PL-ZofiaNeural",
+    "ru": "ru-RU-SvetlanaNeural",
 }
-RATES = {"se": "-5%", "en": "-5%", "pl": "-15%"}
+RATES = {"se": "-5%", "en": "-5%", "pl": "-15%", "ru": "-15%"}
 SAMPLE_RATE = 44100
 LEAD_IN_MS = 1000
 THINKING_MS = 2000
@@ -42,6 +43,7 @@ class Entry(TypedDict):
     se: str
     en: str
     pl: str
+    ru: str
 
 
 class Segment(TypedDict):
@@ -61,6 +63,7 @@ class TimedEntry(EntryTiming, total=False):
     se: Segment
     pl: Segment
     en: Segment
+    ru: Segment
 
 
 class Manifest(TypedDict):
@@ -81,7 +84,7 @@ def load_topics(path: Path) -> dict[str, list[Entry]]:
     for index, entry in enumerate(data):
         if not isinstance(entry, dict):
             raise ValueError(f"Entry {index + 1} must be an object.")
-        for key in ("id", "topic", "se", "en", "pl"):
+        for key in ("id", "topic", *LANGUAGES):
             value = entry.get(key)
             if not isinstance(value, str) or not value.strip() or value != value.strip():
                 raise ValueError(f"Entry {index + 1}: {key} must be nonempty, trimmed text.")
@@ -92,7 +95,7 @@ def load_topics(path: Path) -> dict[str, list[Entry]]:
         seen_ids.add(entry["id"])
         validated = Entry(
             id=entry["id"], topic=entry["topic"],
-            se=entry["se"], en=entry["en"], pl=entry["pl"]
+            se=entry["se"], en=entry["en"], pl=entry["pl"], ru=entry["ru"],
         )
         topics.setdefault(validated["topic"], []).append(validated)
     return topics
@@ -290,7 +293,7 @@ async def build_audio_tracks(
     if targets is None:
         targets = tuple(lang for lang in LANGUAGES if lang != source)
     if not targets or any(lang not in LANGUAGES for lang in targets):
-        raise ValueError("Select at least one supported target language: se, en, pl.")
+        raise ValueError("Select at least one supported target language: se, en, pl, ru.")
     if source in targets or len(set(targets)) != len(targets):
         raise ValueError("Targets must be unique and different from the source language.")
     selected_languages = (source, *targets)
@@ -373,7 +376,7 @@ async def build_audio_tracks(
 
 def main() -> None:
     parser = argparse.ArgumentParser(
-        description="Build course audio for any pair of transcript languages: se, en, pl."
+        description="Build course audio for any pair of transcript languages: se, en, pl, ru."
     )
     parser.add_argument(
         "--transcript",

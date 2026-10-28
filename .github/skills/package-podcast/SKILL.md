@@ -58,7 +58,10 @@ podcast/<slug>/
   index.html
 ```
 
-- Copy validated MP3s without transcoding or renaming them.
+- For vocabulary practice, prefer `code/package_practice.py`; it performs
+  these validations, uses `courses/practice/topics.json` for bilingual
+  titles, and moves the MP3s.
+- Move validated MP3s without transcoding or renaming them, so each exists once.
 - Store vocabulary-topic recordings under `audio/practice/`; store story
   chapters under `audio/stories/<story-id>/`. `course.json` episode `file`
   values are paths relative to `audio/`, not necessarily basenames.

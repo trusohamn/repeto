@@ -27,10 +27,12 @@ description: Turn a chaptered children's story into a faithful multilingual tran
   across all chapters, titles, vocabulary, and episodes; never rename a
   character mid-course. When translating to a new target language, localize
   names to familiar equivalents in that language (Magiczne Radio in English:
-  Maja → Maya, Tomek → Tom, Radiofon → Radiophone). Name choices belong to
+  Maja → Maya, Tomek → Tom, Radiofon → Radiophone; in Russian: Маша, Миша,
+  Радиофон). Name choices belong to
   one story; other stories choose their own. Never change the Polish
-  original, and keep invented magic words such as `Reparo` identical in all
-  languages.
+  original, and keep invented magic words such as `Reparo` pronounced identically
+  in all languages, written in the target script when it differs (Russian
+  `Репаро`) so TTS pronounces them correctly.
 - Store the whole target-language story as one chapter-level `chapter_text`
   string per available target. Preserve the Polish original exactly. Only add
   full-chapter translations if requested; never create aligned sentence
@@ -57,7 +59,9 @@ description: Turn a chaptered children's story into a faithful multilingual tran
 ## Audio rendering
 
 - Full story readings and the opening book title default to Azure Harper
-  MAI-Voice-2.1 with `audiobook` style in Polish, Swedish, and English.
+  MAI-Voice-2.1 with `audiobook` style in Polish, Swedish, and English. Russian
+  uses Azure `ru-RU-SvetlanaNeural` without a style (Russian Harper produced
+  audible background artifacts).
   Prompts and vocabulary repetitions remain on Edge TTS. Narration uses the
   language being read, not the native prompt language. Do not silently fall
   back if Azure credentials, language, or style are unavailable.
