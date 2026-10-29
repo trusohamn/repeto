@@ -298,7 +298,7 @@
             "pl": "nazywać się",
             "sv": "heta",
             "en": "be called",
-            "ru": "меня зовут"
+            "ru": "называться"
           }
         },
         {
@@ -496,9 +496,9 @@
           "id": 133,
           "text": {
             "pl": "iść pod drzewo",
-            "sv": "gå under det stora trädet",
-            "en": "go under the big tree",
-            "ru": "идти к большому дереву"
+            "sv": "gå till trädet",
+            "en": "go to the tree",
+            "ru": "идти к дереву"
           }
         },
         {
@@ -815,7 +815,7 @@
             "pl": "świecić na niebiesko",
             "sv": "lysa blått",
             "en": "glow blue",
-            "ru": "светиться голубым"
+            "ru": "светиться голубым светом"
           }
         },
         {
@@ -841,15 +841,15 @@
           "text": {
             "pl": "świecić na złoto",
             "sv": "lysa guldgult",
-            "en": "glow gold",
-            "ru": "светиться золотым"
+            "en": "glow with a golden light",
+            "ru": "светиться золотым светом"
           }
         }
       ],
       "chapter_text": {
         "pl": "Maja przekręca klucz. Klik! Drzwi się otwierają. W dół prowadzą kamienne schody. Na ścianach rosną świecące na niebiesko kwiaty. Dzieci schodzą do wielkiej biblioteki. Wszędzie stoją książki – niektóre latają pod sufitem! Jedna z nich świeci na złoto.",
-        "en": "Maya turns the key. Click! The door opens. Stone stairs lead down. Flowers that glow blue grow on the walls. The children go down into a big library. There are books everywhere, and some of them fly under the ceiling! One of them glows gold.",
-        "ru": "Маша поворачивает ключ. Щёлк! Дверь открывается. Вниз ведёт каменная лестница. На стенах растут цветы, которые светятся голубым. Дети спускаются в большую библиотеку. Повсюду стоят книги, а некоторые летают под потолком! Одна из них светится золотым."
+        "en": "Maya turns the key. Click! The door opens. Stone stairs lead down. Blue, glowing flowers grow on the walls. The children go down into a big library. There are books everywhere, and some of them are flying just below the ceiling! One of them is glowing with a golden light.",
+        "ru": "Маша поворачивает ключ. Щёлк! Дверь открывается. Вниз ведёт каменная лестница. На стенах растут цветы, которые светятся голубым светом. Дети спускаются в большую библиотеку. Повсюду стоят книги, а некоторые летают под потолком! Одна из них светится золотым светом."
       }
     },
     {
@@ -933,7 +933,7 @@
           "text": {
             "pl": "odezwać się",
             "sv": "börja tala",
-            "en": "speak up",
+            "en": "begin to speak",
             "ru": "заговорить"
           }
         },

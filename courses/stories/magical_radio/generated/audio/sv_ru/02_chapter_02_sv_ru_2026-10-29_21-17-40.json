@@ -1,0 +1,529 @@
+{
+  "chapter_number": 2,
+  "title": {
+    "pl": "Głos z radia",
+    "sv": "En röst ur radion",
+    "en": "A Voice from the Radio",
+    "ru": "Голос из радио"
+  },
+  "source_language": "sv",
+  "target_language": "ru",
+  "practice_order": "deterministically_shuffled",
+  "sequence": [
+    "story",
+    "practice",
+    "story"
+  ],
+  "total_duration_ms": 289498,
+  "practice": [
+    {
+      "id": 131,
+      "kind": "vocabulary",
+      "start_ms": 48120,
+      "end_ms": 59665,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "ta med mig",
+        "start_ms": 48120,
+        "end_ms": 49057
+      },
+      "target_playbacks": [
+        {
+          "text": "возьмите меня с собой",
+          "start_ms": 51057,
+          "end_ms": 52861
+        },
+        {
+          "text": "возьмите меня с собой",
+          "start_ms": 55361,
+          "end_ms": 57165
+        }
+      ]
+    },
+    {
+      "id": 213,
+      "kind": "vocabulary",
+      "start_ms": 59665,
+      "end_ms": 68536,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "bo",
+        "start_ms": 59665,
+        "end_ms": 60124
+      },
+      "target_playbacks": [
+        {
+          "text": "жить",
+          "start_ms": 62124,
+          "end_ms": 62830
+        },
+        {
+          "text": "жить",
+          "start_ms": 65330,
+          "end_ms": 66036
+        }
+      ]
+    },
+    {
+      "id": 130,
+      "kind": "vocabulary",
+      "start_ms": 68536,
+      "end_ms": 78069,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "en nyckel",
+        "start_ms": 68536,
+        "end_ms": 69675
+      },
+      "target_playbacks": [
+        {
+          "text": "ключ",
+          "start_ms": 71675,
+          "end_ms": 72372
+        },
+        {
+          "text": "ключ",
+          "start_ms": 74872,
+          "end_ms": 75569
+        }
+      ]
+    },
+    {
+      "id": 212,
+      "kind": "vocabulary",
+      "start_ms": 78069,
+      "end_ms": 89313,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "köpa radion",
+        "start_ms": 78069,
+        "end_ms": 79501
+      },
+      "target_playbacks": [
+        {
+          "text": "покупать радио",
+          "start_ms": 81501,
+          "end_ms": 82907
+        },
+        {
+          "text": "покупать радио",
+          "start_ms": 85407,
+          "end_ms": 86813
+        }
+      ]
+    },
+    {
+      "id": 126,
+      "kind": "vocabulary",
+      "start_ms": 89313,
+      "end_ms": 99243,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "heta",
+        "start_ms": 89313,
+        "end_ms": 90091
+      },
+      "target_playbacks": [
+        {
+          "text": "называться",
+          "start_ms": 92091,
+          "end_ms": 93167
+        },
+        {
+          "text": "называться",
+          "start_ms": 95667,
+          "end_ms": 96743
+        }
+      ]
+    },
+    {
+      "id": 124,
+      "kind": "vocabulary",
+      "start_ms": 99243,
+      "end_ms": 110928,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "trycka på en knapp",
+        "start_ms": 99243,
+        "end_ms": 100926
+      },
+      "target_playbacks": [
+        {
+          "text": "нажимать кнопку",
+          "start_ms": 102926,
+          "end_ms": 104427
+        },
+        {
+          "text": "нажимать кнопку",
+          "start_ms": 106927,
+          "end_ms": 108428
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "kind": "vocabulary",
+      "start_ms": 110928,
+      "end_ms": 122537,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "dofta av kanel",
+        "start_ms": 110928,
+        "end_ms": 112597
+      },
+      "target_playbacks": [
+        {
+          "text": "пахнуть корицей",
+          "start_ms": 114597,
+          "end_ms": 116067
+        },
+        {
+          "text": "пахнуть корицей",
+          "start_ms": 118567,
+          "end_ms": 120037
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "kind": "vocabulary",
+      "start_ms": 122537,
+      "end_ms": 133683,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "glad röst",
+        "start_ms": 122537,
+        "end_ms": 123735
+      },
+      "target_playbacks": [
+        {
+          "text": "весёлый голос",
+          "start_ms": 125735,
+          "end_ms": 127209
+        },
+        {
+          "text": "весёлый голос",
+          "start_ms": 129709,
+          "end_ms": 131183
+        }
+      ]
+    },
+    {
+      "id": 208,
+      "kind": "vocabulary",
+      "start_ms": 133683,
+      "end_ms": 143242,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "säga",
+        "start_ms": 133683,
+        "end_ms": 134430
+      },
+      "target_playbacks": [
+        {
+          "text": "говорить",
+          "start_ms": 136430,
+          "end_ms": 137336
+        },
+        {
+          "text": "говорить",
+          "start_ms": 139836,
+          "end_ms": 140742
+        }
+      ]
+    },
+    {
+      "id": 123,
+      "kind": "vocabulary",
+      "start_ms": 143242,
+      "end_ms": 153826,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "bära hem",
+        "start_ms": 143242,
+        "end_ms": 144284
+      },
+      "target_playbacks": [
+        {
+          "text": "нести домой",
+          "start_ms": 146284,
+          "end_ms": 147555
+        },
+        {
+          "text": "нести домой",
+          "start_ms": 150055,
+          "end_ms": 151326
+        }
+      ]
+    },
+    {
+      "id": 125,
+      "kind": "vocabulary",
+      "start_ms": 153826,
+      "end_ms": 166246,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "flyga ut ur radion",
+        "start_ms": 153826,
+        "end_ms": 155778
+      },
+      "target_playbacks": [
+        {
+          "text": "вылетать из радио",
+          "start_ms": 157778,
+          "end_ms": 159512
+        },
+        {
+          "text": "вылетать из радио",
+          "start_ms": 162012,
+          "end_ms": 163746
+        }
+      ]
+    },
+    {
+      "id": 214,
+      "kind": "vocabulary",
+      "start_ms": 166246,
+      "end_ms": 177167,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "en viktig nyckel",
+        "start_ms": 166246,
+        "end_ms": 167701
+      },
+      "target_playbacks": [
+        {
+          "text": "важный ключ",
+          "start_ms": 169701,
+          "end_ms": 170934
+        },
+        {
+          "text": "важный ключ",
+          "start_ms": 173434,
+          "end_ms": 174667
+        }
+      ]
+    },
+    {
+      "id": 215,
+      "kind": "vocabulary",
+      "start_ms": 177167,
+      "end_ms": 189106,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "verkligen gilla ost",
+        "start_ms": 177167,
+        "end_ms": 179046
+      },
+      "target_playbacks": [
+        {
+          "text": "очень любить сыр",
+          "start_ms": 181046,
+          "end_ms": 182576
+        },
+        {
+          "text": "очень любить сыр",
+          "start_ms": 185076,
+          "end_ms": 186606
+        }
+      ]
+    },
+    {
+      "id": 128,
+      "kind": "vocabulary",
+      "start_ms": 189106,
+      "end_ms": 200718,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "under det gamla trädet",
+        "start_ms": 189106,
+        "end_ms": 190801
+      },
+      "target_playbacks": [
+        {
+          "text": "под старым деревом",
+          "start_ms": 192801,
+          "end_ms": 194260
+        },
+        {
+          "text": "под старым деревом",
+          "start_ms": 196760,
+          "end_ms": 198218
+        }
+      ]
+    },
+    {
+      "id": 201,
+      "kind": "vocabulary",
+      "start_ms": 200718,
+      "end_ms": 209855,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "hej",
+        "start_ms": 200718,
+        "end_ms": 201257
+      },
+      "target_playbacks": [
+        {
+          "text": "привет",
+          "start_ms": 203257,
+          "end_ms": 204056
+        },
+        {
+          "text": "привет",
+          "start_ms": 206556,
+          "end_ms": 207355
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "kind": "vocabulary",
+      "start_ms": 209855,
+      "end_ms": 220931,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "blå knapp",
+        "start_ms": 209855,
+        "end_ms": 210949
+      },
+      "target_playbacks": [
+        {
+          "text": "синяя кнопка",
+          "start_ms": 212949,
+          "end_ms": 214440
+        },
+        {
+          "text": "синяя кнопка",
+          "start_ms": 216940,
+          "end_ms": 218431
+        }
+      ]
+    },
+    {
+      "id": 127,
+      "kind": "vocabulary",
+      "start_ms": 220931,
+      "end_ms": 231401,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "er trädgård",
+        "start_ms": 220931,
+        "end_ms": 222197
+      },
+      "target_playbacks": [
+        {
+          "text": "ваш сад",
+          "start_ms": 224197,
+          "end_ms": 225299
+        },
+        {
+          "text": "ваш сад",
+          "start_ms": 227799,
+          "end_ms": 228901
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "kind": "vocabulary",
+      "start_ms": 231401,
+      "end_ms": 243459,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "litet moln",
+        "start_ms": 231401,
+        "end_ms": 232669
+      },
+      "target_playbacks": [
+        {
+          "text": "маленькое облачко",
+          "start_ms": 234669,
+          "end_ms": 236564
+        },
+        {
+          "text": "маленькое облачко",
+          "start_ms": 239064,
+          "end_ms": 240959
+        }
+      ]
+    },
+    {
+      "id": 216,
+      "kind": "vocabulary",
+      "start_ms": 243459,
+      "end_ms": 252730,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "barn",
+        "start_ms": 243459,
+        "end_ms": 244132
+      },
+      "target_playbacks": [
+        {
+          "text": "дети",
+          "start_ms": 246132,
+          "end_ms": 246931
+        },
+        {
+          "text": "дети",
+          "start_ms": 249431,
+          "end_ms": 250230
+        }
+      ]
+    }
+  ],
+  "book_introduction": null,
+  "chapter_introduction": {
+    "text": "Глава вторая. Голос из радио.",
+    "start_ms": 1000,
+    "end_ms": 6352
+  },
+  "transitions": [
+    {
+      "kind": "chime",
+      "from": "story",
+      "to": "practice",
+      "start_ms": 45000,
+      "end_ms": 45620
+    },
+    {
+      "kind": "chime",
+      "from": "practice",
+      "to": "story",
+      "start_ms": 252730,
+      "end_ms": 253350
+    }
+  ],
+  "chapter_readings": [
+    {
+      "text": "Дети покупают радио и несут его домой. Миша нажимает синюю кнопку. Из радио вылетает маленькое облачко, которое пахнет корицей. — Привет, дети! — говорит весёлый голос. — Меня зовут Радиофон. В вашем саду, под старым деревом, живёт мышка. У неё есть важный ключ, и она очень любит сыр. Возьмите меня с собой!",
+      "start_ms": 8852,
+      "end_ms": 42500
+    },
+    {
+      "text": "Дети покупают радио и несут его домой. Миша нажимает синюю кнопку. Из радио вылетает маленькое облачко, которое пахнет корицей. — Привет, дети! — говорит весёлый голос. — Меня зовут Радиофон. В вашем саду, под старым деревом, живёт мышка. У неё есть важный ключ, и она очень любит сыр. Возьмите меня с собой!",
+      "start_ms": 255850,
+      "end_ms": 289498
+    }
+  ],
+  "chapter_reading": {
+    "text": "Дети покупают радио и несут его домой. Миша нажимает синюю кнопку. Из радио вылетает маленькое облачко, которое пахнет корицей. — Привет, дети! — говорит весёлый голос. — Меня зовут Радиофон. В вашем саду, под старым деревом, живёт мышка. У неё есть важный ключ, и она очень любит сыр. Возьмите меня с собой!",
+    "start_ms": 255850,
+    "end_ms": 289498
+  },
+  "narration": {
+    "engine": "azure",
+    "voice": "ru-RU-SvetlanaNeural",
+    "style": null,
+    "rate": "-12%",
+    "locale": "ru-RU",
+    "capabilities": {
+      "voice": "ru-RU-SvetlanaNeural",
+      "locale": "ru-RU",
+      "advertised_styles": []
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"ru-RU\"><voice name=\"ru-RU-SvetlanaNeural\"><prosody rate=\"-12%\"><p>Дети покупают радио и несут его домой. Миша нажимает синюю кнопку. Из радио вылетает маленькое облачко, которое пахнет корицей. — Привет, дети! — говорит весёлый голос. — Меня зовут Радиофон. В вашем саду, под старым деревом, живёт мышка. У неё есть важный ключ, и она очень любит сыр. Возьмите меня с собой!</p></prosody></voice></speak>"
+  },
+  "audio_file": "02_chapter_02_sv_ru_2026-10-29_21-17-40.mp3"
+}

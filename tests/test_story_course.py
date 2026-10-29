@@ -160,6 +160,24 @@ class StoryCourseTests(unittest.TestCase):
             chapter["chapter_text"]["pl"] for chapter in story["chapters"]
         ))
 
+    def test_story_language_review_corrections(self):
+        story = story_course.load_transcript(
+            ROOT / "courses/stories/magical_radio/generated/transcript.json",
+            ROOT / "courses/stories/magical_radio/complete/pl.txt",
+        )
+        chapter = story["chapters"][3]
+        self.assertEqual(chapter["titles"]["en"], "Down the Stairs")
+        self.assertIn("some of them are flying just below the ceiling", chapter["chapter_text"]["en"])
+        self.assertIn("is glowing with a golden light", chapter["chapter_text"]["en"])
+        self.assertIn("светится золотым светом", chapter["chapter_text"]["ru"])
+        vocabulary = {
+            item["id"]: item["text"]
+            for entry in story["chapters"] for item in entry["vocabulary"]
+        }
+        self.assertEqual(vocabulary[133]["en"], "go to the tree")
+        self.assertEqual(vocabulary[160]["en"], "begin to speak")
+        self.assertEqual(vocabulary[227]["en"], "glow with a golden light")
+
     def test_russian_story_uses_localized_character_names(self):
         story = story_course.load_transcript(
             ROOT / "courses/stories/magical_radio/generated/transcript.json",

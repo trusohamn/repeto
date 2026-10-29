@@ -305,13 +305,13 @@
         },
         "ru": {
           "source_language": "sv",
-          "audio_file": "02_chapter_02_sv_ru_2026-10-29_13-41-06.mp3",
-          "manifest_file": "02_chapter_02_sv_ru_2026-10-29_13-41-06.json",
-          "total_duration_ms": 289814,
+          "audio_file": "02_chapter_02_sv_ru_2026-10-29_21-17-40.mp3",
+          "manifest_file": "02_chapter_02_sv_ru_2026-10-29_21-17-40.json",
+          "total_duration_ms": 289498,
           "chapter_reading": {
             "text": "Дети покупают радио и несут его домой. Миша нажимает синюю кнопку. Из радио вылетает маленькое облачко, которое пахнет корицей. — Привет, дети! — говорит весёлый голос. — Меня зовут Радиофон. В вашем саду, под старым деревом, живёт мышка. У неё есть важный ключ, и она очень любит сыр. Возьмите меня с собой!",
-            "start_ms": 256166,
-            "end_ms": 289814
+            "start_ms": 255850,
+            "end_ms": 289498
           },
           "chapter_introduction": {
             "text": "Глава вторая. Голос из радио.",
@@ -326,8 +326,8 @@
             },
             {
               "text": "Дети покупают радио и несут его домой. Миша нажимает синюю кнопку. Из радио вылетает маленькое облачко, которое пахнет корицей. — Привет, дети! — говорит весёлый голос. — Меня зовут Радиофон. В вашем саду, под старым деревом, живёт мышка. У неё есть важный ключ, и она очень любит сыр. Возьмите меня с собой!",
-              "start_ms": 256166,
-              "end_ms": 289814
+              "start_ms": 255850,
+              "end_ms": 289498
             }
           ],
           "sequence": [
@@ -347,8 +347,8 @@
               "kind": "chime",
               "from": "practice",
               "to": "story",
-              "start_ms": 253046,
-              "end_ms": 253666
+              "start_ms": 252730,
+              "end_ms": 253350
             }
           ],
           "narration": {
@@ -364,7 +364,7 @@
             },
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"ru-RU\"><voice name=\"ru-RU-SvetlanaNeural\"><prosody rate=\"-12%\"><p>Дети покупают радио и несут его домой. Миша нажимает синюю кнопку. Из радио вылетает маленькое облачко, которое пахнет корицей. — Привет, дети! — говорит весёлый голос. — Меня зовут Радиофон. В вашем саду, под старым деревом, живёт мышка. У неё есть важный ключ, и она очень любит сыр. Возьмите меня с собой!</p></prosody></voice></speak>"
           },
-          "packaged_audio": "swedish-russian/audio/stories/magical_radio/02_chapter_02_sv_ru_2026-10-29_13-41-06.mp3"
+          "packaged_audio": "swedish-russian/audio/stories/magical_radio/02_chapter_02_sv_ru_2026-10-29_21-17-40.mp3"
         },
         "en": {
           "source_language": "pl",
@@ -461,13 +461,13 @@
       "targets": {
         "pl": {
           "source_language": "sv",
-          "audio_file": "03_chapter_03_sv_pl_2026-10-29_13-36-32.mp3",
-          "manifest_file": "03_chapter_03_sv_pl_2026-10-29_13-36-32.json",
-          "total_duration_ms": 342329,
+          "audio_file": "03_chapter_03_sv_pl_2026-10-29_21-17-15.mp3",
+          "manifest_file": "03_chapter_03_sv_pl_2026-10-29_21-17-15.json",
+          "total_duration_ms": 341758,
           "chapter_reading": {
             "text": "Pod drzewem jest ciemno, więc Tomek bierze latarkę. Maja bierze radio i żółty ser. Idą pod wielkie drzewo w ogrodzie. Tomek świeci latarką pod korzeniami. Z dziury wychodzi mała mysz. – Dzień dobry, myszko! – mówi Maja. – Mamy dla ciebie ser. Czy dasz nam klucz? Mysz daje im srebrny klucz, zabiera ser i pokazuje łapką kupkę liści. Dzieci odgarniają liście – pomiędzy korzeniami drzewa są małe, stare drzwi!",
-            "start_ms": 305009,
-            "end_ms": 342329
+            "start_ms": 304438,
+            "end_ms": 341758
           },
           "chapter_introduction": {
             "text": "Rozdział trzeci. Mysz pod drzewem.",
@@ -482,8 +482,8 @@
             },
             {
               "text": "Pod drzewem jest ciemno, więc Tomek bierze latarkę. Maja bierze radio i żółty ser. Idą pod wielkie drzewo w ogrodzie. Tomek świeci latarką pod korzeniami. Z dziury wychodzi mała mysz. – Dzień dobry, myszko! – mówi Maja. – Mamy dla ciebie ser. Czy dasz nam klucz? Mysz daje im srebrny klucz, zabiera ser i pokazuje łapką kupkę liści. Dzieci odgarniają liście – pomiędzy korzeniami drzewa są małe, stare drzwi!",
-              "start_ms": 305009,
-              "end_ms": 342329
+              "start_ms": 304438,
+              "end_ms": 341758
             }
           ],
           "sequence": [
@@ -503,8 +503,8 @@
               "kind": "chime",
               "from": "practice",
               "to": "story",
-              "start_ms": 301889,
-              "end_ms": 302509
+              "start_ms": 301318,
+              "end_ms": 301938
             }
           ],
           "narration": {
@@ -526,17 +526,17 @@
             },
             "ssml": "<speak xmlns:mstts=\"http://www.w3.org/2001/mstts\" version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"pl-PL\"><voice name=\"pl-PL-Harper:MAI-Voice-2.1\"><mstts:express-as style=\"audiobook\"><prosody rate=\"-12%\"><p>Pod drzewem jest ciemno, więc Tomek bierze latarkę. Maja bierze radio i żółty ser. Idą pod wielkie drzewo w ogrodzie. Tomek świeci latarką pod korzeniami. Z dziury wychodzi mała mysz. – Dzień dobry, myszko! – mówi Maja. – Mamy dla ciebie ser. Czy dasz nam klucz? Mysz daje im srebrny klucz, zabiera ser i pokazuje łapką kupkę liści. Dzieci odgarniają liście – pomiędzy korzeniami drzewa są małe, stare drzwi!</p></prosody></mstts:express-as></voice></speak>"
           },
-          "packaged_audio": "swedish-polish/audio/stories/magical_radio/03_chapter_03_sv_pl_2026-10-29_13-36-32.mp3"
+          "packaged_audio": "swedish-polish/audio/stories/magical_radio/03_chapter_03_sv_pl_2026-10-29_21-17-15.mp3"
         },
         "ru": {
           "source_language": "sv",
-          "audio_file": "03_chapter_03_sv_ru_2026-10-29_13-41-06.mp3",
-          "manifest_file": "03_chapter_03_sv_ru_2026-10-29_13-41-06.json",
-          "total_duration_ms": 363455,
+          "audio_file": "03_chapter_03_sv_ru_2026-10-29_21-17-47.mp3",
+          "manifest_file": "03_chapter_03_sv_ru_2026-10-29_21-17-47.json",
+          "total_duration_ms": 361810,
           "chapter_reading": {
             "text": "Под деревом темно, поэтому Миша берёт фонарик. Маша берёт радио и жёлтый сыр. Они идут к большому дереву в саду. Миша светит фонариком под корни. Из норки выходит маленькая мышка. — Здравствуй, мышка! — говорит Маша. — У нас есть для тебя сыр. Ты дашь нам ключ? Мышка даёт им серебряный ключ, забирает сыр и показывает лапкой на кучку листьев. Дети разгребают листья — между корнями дерева маленькая старая дверь!",
-            "start_ms": 322295,
-            "end_ms": 363455
+            "start_ms": 320650,
+            "end_ms": 361810
           },
           "chapter_introduction": {
             "text": "Глава третья. Мышка под деревом.",
@@ -551,8 +551,8 @@
             },
             {
               "text": "Под деревом темно, поэтому Миша берёт фонарик. Маша берёт радио и жёлтый сыр. Они идут к большому дереву в саду. Миша светит фонариком под корни. Из норки выходит маленькая мышка. — Здравствуй, мышка! — говорит Маша. — У нас есть для тебя сыр. Ты дашь нам ключ? Мышка даёт им серебряный ключ, забирает сыр и показывает лапкой на кучку листьев. Дети разгребают листья — между корнями дерева маленькая старая дверь!",
-              "start_ms": 322295,
-              "end_ms": 363455
+              "start_ms": 320650,
+              "end_ms": 361810
             }
           ],
           "sequence": [
@@ -572,8 +572,8 @@
               "kind": "chime",
               "from": "practice",
               "to": "story",
-              "start_ms": 319175,
-              "end_ms": 319795
+              "start_ms": 317530,
+              "end_ms": 318150
             }
           ],
           "narration": {
@@ -589,17 +589,17 @@
             },
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"ru-RU\"><voice name=\"ru-RU-SvetlanaNeural\"><prosody rate=\"-12%\"><p>Под деревом темно, поэтому Миша берёт фонарик. Маша берёт радио и жёлтый сыр. Они идут к большому дереву в саду. Миша светит фонариком под корни. Из норки выходит маленькая мышка. — Здравствуй, мышка! — говорит Маша. — У нас есть для тебя сыр. Ты дашь нам ключ? Мышка даёт им серебряный ключ, забирает сыр и показывает лапкой на кучку листьев. Дети разгребают листья — между корнями дерева маленькая старая дверь!</p></prosody></voice></speak>"
           },
-          "packaged_audio": "swedish-russian/audio/stories/magical_radio/03_chapter_03_sv_ru_2026-10-29_13-41-06.mp3"
+          "packaged_audio": "swedish-russian/audio/stories/magical_radio/03_chapter_03_sv_ru_2026-10-29_21-17-47.mp3"
         },
         "en": {
           "source_language": "pl",
-          "audio_file": "03_chapter_03_pl_en_2026-10-29_20-56-15.mp3",
-          "manifest_file": "03_chapter_03_pl_en_2026-10-29_20-56-15.json",
-          "total_duration_ms": 340734,
+          "audio_file": "03_chapter_03_pl_en_2026-10-29_21-18-02.mp3",
+          "manifest_file": "03_chapter_03_pl_en_2026-10-29_21-18-02.json",
+          "total_duration_ms": 340126,
           "chapter_reading": {
             "text": "It is dark under the tree, so Tom takes a flashlight. Maya takes the radio and some yellow cheese. They go to the big tree in the garden. Tom shines the flashlight under the roots. A little mouse comes out of a hole. “Hello, little mouse!” says Maya. “We have some cheese for you. Will you give us the key?” The mouse gives them a silver key, takes the cheese and points its paw at a pile of leaves. The children brush the leaves aside – between the roots of the tree there is a small, old door!",
-            "start_ms": 301254,
-            "end_ms": 340734
+            "start_ms": 300646,
+            "end_ms": 340126
           },
           "chapter_introduction": {
             "text": "Chapter three. A Mouse under the Tree.",
@@ -614,8 +614,8 @@
             },
             {
               "text": "It is dark under the tree, so Tom takes a flashlight. Maya takes the radio and some yellow cheese. They go to the big tree in the garden. Tom shines the flashlight under the roots. A little mouse comes out of a hole. “Hello, little mouse!” says Maya. “We have some cheese for you. Will you give us the key?” The mouse gives them a silver key, takes the cheese and points its paw at a pile of leaves. The children brush the leaves aside – between the roots of the tree there is a small, old door!",
-              "start_ms": 301254,
-              "end_ms": 340734
+              "start_ms": 300646,
+              "end_ms": 340126
             }
           ],
           "sequence": [
@@ -635,8 +635,8 @@
               "kind": "chime",
               "from": "practice",
               "to": "story",
-              "start_ms": 298134,
-              "end_ms": 298754
+              "start_ms": 297526,
+              "end_ms": 298146
             }
           ],
           "narration": {
@@ -672,7 +672,7 @@
             },
             "ssml": "<speak xmlns:mstts=\"http://www.w3.org/2001/mstts\" version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"en-US\"><voice name=\"en-US-Harper:MAI-Voice-2.1\"><mstts:express-as style=\"audiobook\"><prosody rate=\"-12%\"><p>It is dark under the tree, so Tom takes a flashlight. Maya takes the radio and some yellow cheese. They go to the big tree in the garden. Tom shines the flashlight under the roots. A little mouse comes out of a hole. “Hello, little mouse!” says Maya. “We have some cheese for you. Will you give us the key?” The mouse gives them a silver key, takes the cheese and points its paw at a pile of leaves. The children brush the leaves aside – between the roots of the tree there is a small, old door!</p></prosody></mstts:express-as></voice></speak>"
           },
-          "packaged_audio": "polish-english/audio/stories/magical_radio/03_chapter_03_pl_en_2026-10-29_20-56-15.mp3"
+          "packaged_audio": "polish-english/audio/stories/magical_radio/03_chapter_03_pl_en_2026-10-29_21-18-02.mp3"
         }
       }
     },
@@ -755,13 +755,13 @@
         },
         "ru": {
           "source_language": "sv",
-          "audio_file": "04_chapter_04_sv_ru_2026-10-29_13-41-06.mp3",
-          "manifest_file": "04_chapter_04_sv_ru_2026-10-29_13-41-06.json",
-          "total_duration_ms": 294172,
+          "audio_file": "04_chapter_04_sv_ru_2026-10-29_21-17-55.mp3",
+          "manifest_file": "04_chapter_04_sv_ru_2026-10-29_21-17-55.json",
+          "total_duration_ms": 298192,
           "chapter_reading": {
-            "text": "Маша поворачивает ключ. Щёлк! Дверь открывается. Вниз ведёт каменная лестница. На стенах растут цветы, которые светятся голубым. Дети спускаются в большую библиотеку. Повсюду стоят книги, а некоторые летают под потолком! Одна из них светится золотым.",
-            "start_ms": 266044,
-            "end_ms": 294172
+            "text": "Маша поворачивает ключ. Щёлк! Дверь открывается. Вниз ведёт каменная лестница. На стенах растут цветы, которые светятся голубым светом. Дети спускаются в большую библиотеку. Повсюду стоят книги, а некоторые летают под потолком! Одна из них светится золотым светом.",
+            "start_ms": 269080,
+            "end_ms": 298192
           },
           "chapter_introduction": {
             "text": "Глава четвёртая. Лестница вниз.",
@@ -770,14 +770,14 @@
           },
           "chapter_readings": [
             {
-              "text": "Маша поворачивает ключ. Щёлк! Дверь открывается. Вниз ведёт каменная лестница. На стенах растут цветы, которые светятся голубым. Дети спускаются в большую библиотеку. Повсюду стоят книги, а некоторые летают под потолком! Одна из них светится золотым.",
+              "text": "Маша поворачивает ключ. Щёлк! Дверь открывается. Вниз ведёт каменная лестница. На стенах растут цветы, которые светятся голубым светом. Дети спускаются в большую библиотеку. Повсюду стоят книги, а некоторые летают под потолком! Одна из них светится золотым светом.",
               "start_ms": 8780,
-              "end_ms": 36908
+              "end_ms": 37892
             },
             {
-              "text": "Маша поворачивает ключ. Щёлк! Дверь открывается. Вниз ведёт каменная лестница. На стенах растут цветы, которые светятся голубым. Дети спускаются в большую библиотеку. Повсюду стоят книги, а некоторые летают под потолком! Одна из них светится золотым.",
-              "start_ms": 266044,
-              "end_ms": 294172
+              "text": "Маша поворачивает ключ. Щёлк! Дверь открывается. Вниз ведёт каменная лестница. На стенах растут цветы, которые светятся голубым светом. Дети спускаются в большую библиотеку. Повсюду стоят книги, а некоторые летают под потолком! Одна из них светится золотым светом.",
+              "start_ms": 269080,
+              "end_ms": 298192
             }
           ],
           "sequence": [
@@ -790,15 +790,15 @@
               "kind": "chime",
               "from": "story",
               "to": "practice",
-              "start_ms": 39408,
-              "end_ms": 40028
+              "start_ms": 40392,
+              "end_ms": 41012
             },
             {
               "kind": "chime",
               "from": "practice",
               "to": "story",
-              "start_ms": 262924,
-              "end_ms": 263544
+              "start_ms": 265960,
+              "end_ms": 266580
             }
           ],
           "narration": {
@@ -812,9 +812,9 @@
               "locale": "ru-RU",
               "advertised_styles": []
             },
-            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"ru-RU\"><voice name=\"ru-RU-SvetlanaNeural\"><prosody rate=\"-12%\"><p>Маша поворачивает ключ. Щёлк! Дверь открывается. Вниз ведёт каменная лестница. На стенах растут цветы, которые светятся голубым. Дети спускаются в большую библиотеку. Повсюду стоят книги, а некоторые летают под потолком! Одна из них светится золотым.</p></prosody></voice></speak>"
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"ru-RU\"><voice name=\"ru-RU-SvetlanaNeural\"><prosody rate=\"-12%\"><p>Маша поворачивает ключ. Щёлк! Дверь открывается. Вниз ведёт каменная лестница. На стенах растут цветы, которые светятся голубым светом. Дети спускаются в большую библиотеку. Повсюду стоят книги, а некоторые летают под потолком! Одна из них светится золотым светом.</p></prosody></voice></speak>"
           },
-          "packaged_audio": "swedish-russian/audio/stories/magical_radio/04_chapter_04_sv_ru_2026-10-29_13-41-06.mp3"
+          "packaged_audio": "swedish-russian/audio/stories/magical_radio/04_chapter_04_sv_ru_2026-10-29_21-17-55.mp3"
         },
         "en": {
           "chapter_number": 4,
@@ -832,509 +832,509 @@
             "practice",
             "story"
           ],
-          "total_duration_ms": 261160,
+          "total_duration_ms": 268566,
           "practice": [
             {
               "id": 153,
               "kind": "vocabulary",
-              "start_ms": 33496,
-              "end_ms": 42545,
+              "start_ms": 36456,
+              "end_ms": 45505,
               "prompt_language": "pl",
               "prompt": {
                 "text": "książki",
-                "start_ms": 33496,
-                "end_ms": 34331
+                "start_ms": 36456,
+                "end_ms": 37291
               },
               "target_playbacks": [
                 {
                   "text": "books",
-                  "start_ms": 36331,
-                  "end_ms": 36938
+                  "start_ms": 39291,
+                  "end_ms": 39898
                 },
                 {
                   "text": "books",
-                  "start_ms": 39438,
-                  "end_ms": 40045
+                  "start_ms": 42398,
+                  "end_ms": 43005
                 }
               ]
             },
             {
               "id": 45,
               "kind": "vocabulary",
-              "start_ms": 42545,
-              "end_ms": 51737,
+              "start_ms": 45505,
+              "end_ms": 54697,
               "prompt_language": "pl",
               "prompt": {
                 "text": "otwierać się",
-                "start_ms": 42545,
-                "end_ms": 43565
+                "start_ms": 45505,
+                "end_ms": 46525
               },
               "target_playbacks": [
                 {
                   "text": "open",
-                  "start_ms": 45565,
-                  "end_ms": 46151
+                  "start_ms": 48525,
+                  "end_ms": 49111
                 },
                 {
                   "text": "open",
-                  "start_ms": 48651,
-                  "end_ms": 49237
+                  "start_ms": 51611,
+                  "end_ms": 52197
                 }
               ]
             },
             {
               "id": 147,
               "kind": "vocabulary",
-              "start_ms": 51737,
-              "end_ms": 61649,
+              "start_ms": 54697,
+              "end_ms": 64609,
               "prompt_language": "pl",
               "prompt": {
                 "text": "prowadzić w dół",
-                "start_ms": 51737,
-                "end_ms": 52943
+                "start_ms": 54697,
+                "end_ms": 55903
               },
               "target_playbacks": [
                 {
                   "text": "lead down",
-                  "start_ms": 54943,
-                  "end_ms": 55796
+                  "start_ms": 57903,
+                  "end_ms": 58756
                 },
                 {
                   "text": "lead down",
-                  "start_ms": 58296,
-                  "end_ms": 59149
+                  "start_ms": 61256,
+                  "end_ms": 62109
                 }
               ]
             },
             {
               "id": 227,
               "kind": "vocabulary",
-              "start_ms": 61649,
-              "end_ms": 71937,
+              "start_ms": 64609,
+              "end_ms": 76383,
               "prompt_language": "pl",
               "prompt": {
                 "text": "świecić na złoto",
-                "start_ms": 61649,
-                "end_ms": 63065
+                "start_ms": 64609,
+                "end_ms": 66025
               },
               "target_playbacks": [
                 {
-                  "text": "glow gold",
-                  "start_ms": 65065,
-                  "end_ms": 66001
+                  "text": "glow with a golden light",
+                  "start_ms": 68025,
+                  "end_ms": 69704
                 },
                 {
-                  "text": "glow gold",
-                  "start_ms": 68501,
-                  "end_ms": 69437
+                  "text": "glow with a golden light",
+                  "start_ms": 72204,
+                  "end_ms": 73883
                 }
               ]
             },
             {
               "id": 226,
               "kind": "vocabulary",
-              "start_ms": 71937,
-              "end_ms": 81751,
+              "start_ms": 76383,
+              "end_ms": 86197,
               "prompt_language": "pl",
               "prompt": {
                 "text": "jedna z nich",
-                "start_ms": 71937,
-                "end_ms": 72965
+                "start_ms": 76383,
+                "end_ms": 77411
               },
               "target_playbacks": [
                 {
                   "text": "one of them",
-                  "start_ms": 74965,
-                  "end_ms": 75858
+                  "start_ms": 79411,
+                  "end_ms": 80304
                 },
                 {
                   "text": "one of them",
-                  "start_ms": 78358,
-                  "end_ms": 79251
+                  "start_ms": 82804,
+                  "end_ms": 83697
                 }
               ]
             },
             {
               "id": 154,
               "kind": "vocabulary",
-              "start_ms": 81751,
-              "end_ms": 90604,
+              "start_ms": 86197,
+              "end_ms": 95050,
               "prompt_language": "pl",
               "prompt": {
                 "text": "niektóre",
-                "start_ms": 81751,
-                "end_ms": 82530
+                "start_ms": 86197,
+                "end_ms": 86976
               },
               "target_playbacks": [
                 {
                   "text": "some",
-                  "start_ms": 84530,
-                  "end_ms": 85067
+                  "start_ms": 88976,
+                  "end_ms": 89513
                 },
                 {
                   "text": "some",
-                  "start_ms": 87567,
-                  "end_ms": 88104
+                  "start_ms": 92013,
+                  "end_ms": 92550
                 }
               ]
             },
             {
               "id": 150,
               "kind": "vocabulary",
-              "start_ms": 90604,
-              "end_ms": 99907,
+              "start_ms": 95050,
+              "end_ms": 104353,
               "prompt_language": "pl",
               "prompt": {
                 "text": "schodzić",
-                "start_ms": 90604,
-                "end_ms": 91439
+                "start_ms": 95050,
+                "end_ms": 95885
               },
               "target_playbacks": [
                 {
                   "text": "go down",
-                  "start_ms": 93439,
-                  "end_ms": 94173
+                  "start_ms": 97885,
+                  "end_ms": 98619
                 },
                 {
                   "text": "go down",
-                  "start_ms": 96673,
-                  "end_ms": 97407
+                  "start_ms": 101119,
+                  "end_ms": 101853
                 }
               ]
             },
             {
               "id": 204,
               "kind": "vocabulary",
-              "start_ms": 99907,
-              "end_ms": 110192,
+              "start_ms": 104353,
+              "end_ms": 114638,
               "prompt_language": "pl",
               "prompt": {
                 "text": "świecić na niebiesko",
-                "start_ms": 99907,
-                "end_ms": 101552
+                "start_ms": 104353,
+                "end_ms": 105998
               },
               "target_playbacks": [
                 {
                   "text": "glow blue",
-                  "start_ms": 103552,
-                  "end_ms": 104372
+                  "start_ms": 107998,
+                  "end_ms": 108818
                 },
                 {
                   "text": "glow blue",
-                  "start_ms": 106872,
-                  "end_ms": 107692
+                  "start_ms": 111318,
+                  "end_ms": 112138
                 }
               ]
             },
             {
               "id": 46,
               "kind": "vocabulary",
-              "start_ms": 110192,
-              "end_ms": 120894,
+              "start_ms": 114638,
+              "end_ms": 125340,
               "prompt_language": "pl",
               "prompt": {
                 "text": "kamienne schody",
-                "start_ms": 110192,
-                "end_ms": 111452
+                "start_ms": 114638,
+                "end_ms": 115898
               },
               "target_playbacks": [
                 {
                   "text": "stone stairs",
-                  "start_ms": 113452,
-                  "end_ms": 114673
+                  "start_ms": 117898,
+                  "end_ms": 119119
                 },
                 {
                   "text": "stone stairs",
-                  "start_ms": 117173,
-                  "end_ms": 118394
+                  "start_ms": 121619,
+                  "end_ms": 122840
                 }
               ]
             },
             {
               "id": 44,
               "kind": "vocabulary",
-              "start_ms": 120894,
-              "end_ms": 131111,
+              "start_ms": 125340,
+              "end_ms": 135557,
               "prompt_language": "pl",
               "prompt": {
                 "text": "przekręcić klucz",
-                "start_ms": 120894,
-                "end_ms": 122231
+                "start_ms": 125340,
+                "end_ms": 126677
               },
               "target_playbacks": [
                 {
                   "text": "turn the key",
-                  "start_ms": 124231,
-                  "end_ms": 125171
+                  "start_ms": 128677,
+                  "end_ms": 129617
                 },
                 {
                   "text": "turn the key",
-                  "start_ms": 127671,
-                  "end_ms": 128611
+                  "start_ms": 132117,
+                  "end_ms": 133057
                 }
               ]
             },
             {
               "id": 149,
               "kind": "vocabulary",
-              "start_ms": 131111,
-              "end_ms": 139984,
+              "start_ms": 135557,
+              "end_ms": 144430,
               "prompt_language": "pl",
               "prompt": {
                 "text": "rosnąć",
-                "start_ms": 131111,
-                "end_ms": 131960
+                "start_ms": 135557,
+                "end_ms": 136406
               },
               "target_playbacks": [
                 {
                   "text": "grow",
-                  "start_ms": 133960,
-                  "end_ms": 134472
+                  "start_ms": 138406,
+                  "end_ms": 138918
                 },
                 {
                   "text": "grow",
-                  "start_ms": 136972,
-                  "end_ms": 137484
+                  "start_ms": 141418,
+                  "end_ms": 141930
                 }
               ]
             },
             {
               "id": 47,
               "kind": "vocabulary",
-              "start_ms": 139984,
-              "end_ms": 150855,
+              "start_ms": 144430,
+              "end_ms": 155301,
               "prompt_language": "pl",
               "prompt": {
                 "text": "świecące kwiaty",
-                "start_ms": 139984,
-                "end_ms": 141387
+                "start_ms": 144430,
+                "end_ms": 145833
               },
               "target_playbacks": [
                 {
                   "text": "glowing flowers",
-                  "start_ms": 143387,
-                  "end_ms": 144621
+                  "start_ms": 147833,
+                  "end_ms": 149067
                 },
                 {
                   "text": "glowing flowers",
-                  "start_ms": 147121,
-                  "end_ms": 148355
+                  "start_ms": 151567,
+                  "end_ms": 152801
                 }
               ]
             },
             {
               "id": 148,
               "kind": "vocabulary",
-              "start_ms": 150855,
-              "end_ms": 159948,
+              "start_ms": 155301,
+              "end_ms": 164394,
               "prompt_language": "pl",
               "prompt": {
                 "text": "ściana",
-                "start_ms": 150855,
-                "end_ms": 151594
+                "start_ms": 155301,
+                "end_ms": 156040
               },
               "target_playbacks": [
                 {
                   "text": "a wall",
-                  "start_ms": 153594,
-                  "end_ms": 154271
+                  "start_ms": 158040,
+                  "end_ms": 158717
                 },
                 {
                   "text": "a wall",
-                  "start_ms": 156771,
-                  "end_ms": 157448
+                  "start_ms": 161217,
+                  "end_ms": 161894
                 }
               ]
             },
             {
               "id": 225,
               "kind": "vocabulary",
-              "start_ms": 159948,
-              "end_ms": 170743,
+              "start_ms": 164394,
+              "end_ms": 175189,
               "prompt_language": "pl",
               "prompt": {
                 "text": "wielka biblioteka",
-                "start_ms": 159948,
-                "end_ms": 161457
+                "start_ms": 164394,
+                "end_ms": 165903
               },
               "target_playbacks": [
                 {
                   "text": "a big library",
-                  "start_ms": 163457,
-                  "end_ms": 164600
+                  "start_ms": 167903,
+                  "end_ms": 169046
                 },
                 {
                   "text": "a big library",
-                  "start_ms": 167100,
-                  "end_ms": 168243
+                  "start_ms": 171546,
+                  "end_ms": 172689
                 }
               ]
             },
             {
               "id": 48,
               "kind": "vocabulary",
-              "start_ms": 170743,
-              "end_ms": 179777,
+              "start_ms": 175189,
+              "end_ms": 184223,
               "prompt_language": "pl",
               "prompt": {
                 "text": "sufit",
-                "start_ms": 170743,
-                "end_ms": 171450
+                "start_ms": 175189,
+                "end_ms": 175895
               },
               "target_playbacks": [
                 {
                   "text": "ceiling",
-                  "start_ms": 173450,
-                  "end_ms": 174113
+                  "start_ms": 177895,
+                  "end_ms": 178559
                 },
                 {
                   "text": "ceiling",
-                  "start_ms": 176613,
-                  "end_ms": 177277
+                  "start_ms": 181059,
+                  "end_ms": 181723
                 }
               ]
             },
             {
               "id": 202,
               "kind": "vocabulary",
-              "start_ms": 179777,
-              "end_ms": 188862,
+              "start_ms": 184223,
+              "end_ms": 193308,
               "prompt_language": "pl",
               "prompt": {
                 "text": "stać",
-                "start_ms": 179777,
-                "end_ms": 180410
+                "start_ms": 184223,
+                "end_ms": 184856
               },
               "target_playbacks": [
                 {
                   "text": "stand",
-                  "start_ms": 182410,
-                  "end_ms": 183136
+                  "start_ms": 186856,
+                  "end_ms": 187582
                 },
                 {
                   "text": "stand",
-                  "start_ms": 185636,
-                  "end_ms": 186362
+                  "start_ms": 190082,
+                  "end_ms": 190808
                 }
               ]
             },
             {
               "id": 203,
               "kind": "vocabulary",
-              "start_ms": 188862,
-              "end_ms": 198893,
+              "start_ms": 193308,
+              "end_ms": 203339,
               "prompt_language": "pl",
               "prompt": {
                 "text": "na ścianach",
-                "start_ms": 188862,
-                "end_ms": 189923
+                "start_ms": 193308,
+                "end_ms": 194369
               },
               "target_playbacks": [
                 {
                   "text": "on the walls",
-                  "start_ms": 191923,
-                  "end_ms": 192908
+                  "start_ms": 196369,
+                  "end_ms": 197354
                 },
                 {
                   "text": "on the walls",
-                  "start_ms": 195408,
-                  "end_ms": 196393
+                  "start_ms": 199854,
+                  "end_ms": 200839
                 }
               ]
             },
             {
               "id": 146,
               "kind": "vocabulary",
-              "start_ms": 198893,
-              "end_ms": 207470,
+              "start_ms": 203339,
+              "end_ms": 211916,
               "prompt_language": "pl",
               "prompt": {
                 "text": "klik!",
-                "start_ms": 198893,
-                "end_ms": 199470
+                "start_ms": 203339,
+                "end_ms": 203916
               },
               "target_playbacks": [
                 {
                   "text": "click!",
-                  "start_ms": 201470,
-                  "end_ms": 201970
+                  "start_ms": 205916,
+                  "end_ms": 206416
                 },
                 {
                   "text": "click!",
-                  "start_ms": 204470,
-                  "end_ms": 204970
+                  "start_ms": 208916,
+                  "end_ms": 209416
                 }
               ]
             },
             {
               "id": 152,
               "kind": "vocabulary",
-              "start_ms": 207470,
-              "end_ms": 216904,
+              "start_ms": 211916,
+              "end_ms": 221350,
               "prompt_language": "pl",
               "prompt": {
                 "text": "wszędzie",
-                "start_ms": 207470,
-                "end_ms": 208178
+                "start_ms": 211916,
+                "end_ms": 212624
               },
               "target_playbacks": [
                 {
                   "text": "everywhere",
-                  "start_ms": 210178,
-                  "end_ms": 211041
+                  "start_ms": 214624,
+                  "end_ms": 215487
                 },
                 {
                   "text": "everywhere",
-                  "start_ms": 213541,
-                  "end_ms": 214404
+                  "start_ms": 217987,
+                  "end_ms": 218850
                 }
               ]
             },
             {
               "id": 155,
               "kind": "vocabulary",
-              "start_ms": 216904,
-              "end_ms": 225766,
+              "start_ms": 221350,
+              "end_ms": 230212,
               "prompt_language": "pl",
               "prompt": {
                 "text": "latać",
-                "start_ms": 216904,
-                "end_ms": 217620
+                "start_ms": 221350,
+                "end_ms": 222066
               },
               "target_playbacks": [
                 {
                   "text": "fly",
-                  "start_ms": 219620,
-                  "end_ms": 220193
+                  "start_ms": 224066,
+                  "end_ms": 224639
                 },
                 {
                   "text": "fly",
-                  "start_ms": 222693,
-                  "end_ms": 223266
+                  "start_ms": 227139,
+                  "end_ms": 227712
                 }
               ]
             },
             {
               "id": 156,
               "kind": "vocabulary",
-              "start_ms": 225766,
-              "end_ms": 236040,
+              "start_ms": 230212,
+              "end_ms": 240486,
               "prompt_language": "pl",
               "prompt": {
                 "text": "pod sufitem",
-                "start_ms": 225766,
-                "end_ms": 226826
+                "start_ms": 230212,
+                "end_ms": 231272
               },
               "target_playbacks": [
                 {
                   "text": "under the ceiling",
-                  "start_ms": 228826,
-                  "end_ms": 229933
+                  "start_ms": 233272,
+                  "end_ms": 234379
                 },
                 {
                   "text": "under the ceiling",
-                  "start_ms": 232433,
-                  "end_ms": 233540
+                  "start_ms": 236879,
+                  "end_ms": 237986
                 }
               ]
             }
@@ -1350,33 +1350,33 @@
               "kind": "chime",
               "from": "story",
               "to": "practice",
-              "start_ms": 30376,
-              "end_ms": 30996
+              "start_ms": 33336,
+              "end_ms": 33956
             },
             {
               "kind": "chime",
               "from": "practice",
               "to": "story",
-              "start_ms": 236040,
-              "end_ms": 236660
+              "start_ms": 240486,
+              "end_ms": 241106
             }
           ],
           "chapter_readings": [
             {
-              "text": "Maya turns the key. Click! The door opens. Stone stairs lead down. Flowers that glow blue grow on the walls. The children go down into a big library. There are books everywhere, and some of them fly under the ceiling! One of them glows gold.",
+              "text": "Maya turns the key. Click! The door opens. Stone stairs lead down. Blue, glowing flowers grow on the walls. The children go down into a big library. There are books everywhere, and some of them are flying just below the ceiling! One of them is glowing with a golden light.",
               "start_ms": 5876,
-              "end_ms": 27876
+              "end_ms": 30836
             },
             {
-              "text": "Maya turns the key. Click! The door opens. Stone stairs lead down. Flowers that glow blue grow on the walls. The children go down into a big library. There are books everywhere, and some of them fly under the ceiling! One of them glows gold.",
-              "start_ms": 239160,
-              "end_ms": 261160
+              "text": "Maya turns the key. Click! The door opens. Stone stairs lead down. Blue, glowing flowers grow on the walls. The children go down into a big library. There are books everywhere, and some of them are flying just below the ceiling! One of them is glowing with a golden light.",
+              "start_ms": 243606,
+              "end_ms": 268566
             }
           ],
           "chapter_reading": {
-            "text": "Maya turns the key. Click! The door opens. Stone stairs lead down. Flowers that glow blue grow on the walls. The children go down into a big library. There are books everywhere, and some of them fly under the ceiling! One of them glows gold.",
-            "start_ms": 239160,
-            "end_ms": 261160
+            "text": "Maya turns the key. Click! The door opens. Stone stairs lead down. Blue, glowing flowers grow on the walls. The children go down into a big library. There are books everywhere, and some of them are flying just below the ceiling! One of them is glowing with a golden light.",
+            "start_ms": 243606,
+            "end_ms": 268566
           },
           "narration": {
             "engine": "azure",
@@ -1409,15 +1409,10 @@
                 "whispering"
               ]
             },
-            "ssml": "<speak xmlns:mstts=\"http://www.w3.org/2001/mstts\" version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"en-US\"><voice name=\"en-US-Harper:MAI-Voice-2.1\"><mstts:express-as style=\"audiobook\"><prosody rate=\"-12%\"><p>Maya turns the key. Click! The door opens. Stone stairs lead down. Flowers that glow blue grow on the walls. The children go down into a big library. There are books everywhere, and some of them fly under the ceiling! One of them glows gold.</p></prosody></mstts:express-as></voice></speak>",
-            "audio_edit": {
-              "kind": "trim_unscripted_tail",
-              "original_duration_ms": 22896,
-              "retained_duration_ms": 22000
-            }
+            "ssml": "<speak xmlns:mstts=\"http://www.w3.org/2001/mstts\" version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"en-US\"><voice name=\"en-US-Harper:MAI-Voice-2.1\"><mstts:express-as style=\"audiobook\"><prosody rate=\"-12%\"><p>Maya turns the key. Click! The door opens. Stone stairs lead down. Blue, glowing flowers grow on the walls. The children go down into a big library. There are books everywhere, and some of them are flying just below the ceiling! One of them is glowing with a golden light.</p></prosody></mstts:express-as></voice></speak>"
           },
-          "audio_file": "04_chapter_04_pl_en_2026-10-29_21-10-20.mp3",
-          "packaged_audio": "polish-english/audio/stories/magical_radio/04_chapter_04_pl_en_2026-10-29_21-10-20.mp3"
+          "audio_file": "04_chapter_04_pl_en_2026-10-29_21-18-08.mp3",
+          "packaged_audio": "polish-english/audio/stories/magical_radio/04_chapter_04_pl_en_2026-10-29_21-18-08.mp3"
         }
       }
     },
@@ -1563,13 +1558,13 @@
         },
         "en": {
           "source_language": "pl",
-          "audio_file": "05_chapter_05_pl_en_2026-10-29_20-56-15.mp3",
-          "manifest_file": "05_chapter_05_pl_en_2026-10-29_20-56-15.json",
-          "total_duration_ms": 261934,
+          "audio_file": "05_chapter_05_pl_en_2026-10-29_21-18-13.mp3",
+          "manifest_file": "05_chapter_05_pl_en_2026-10-29_21-18-13.json",
+          "total_duration_ms": 262358,
           "chapter_reading": {
             "text": "The golden book flaps its pages and lands on Maya’s shoulder. Radiophone speaks up immediately: “This book teaches an important spell. The word is: Reparo! It repairs every broken thing.” Tom takes his old, broken compass out of his pocket. He always has it with him.",
-            "start_ms": 238270,
-            "end_ms": 261934
+            "start_ms": 238694,
+            "end_ms": 262358
           },
           "chapter_introduction": {
             "text": "Chapter five. The Flying Book.",
@@ -1584,8 +1579,8 @@
             },
             {
               "text": "The golden book flaps its pages and lands on Maya’s shoulder. Radiophone speaks up immediately: “This book teaches an important spell. The word is: Reparo! It repairs every broken thing.” Tom takes his old, broken compass out of his pocket. He always has it with him.",
-              "start_ms": 238270,
-              "end_ms": 261934
+              "start_ms": 238694,
+              "end_ms": 262358
             }
           ],
           "sequence": [
@@ -1605,8 +1600,8 @@
               "kind": "chime",
               "from": "practice",
               "to": "story",
-              "start_ms": 235150,
-              "end_ms": 235770
+              "start_ms": 235574,
+              "end_ms": 236194
             }
           ],
           "narration": {
@@ -1642,7 +1637,7 @@
             },
             "ssml": "<speak xmlns:mstts=\"http://www.w3.org/2001/mstts\" version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"en-US\"><voice name=\"en-US-Harper:MAI-Voice-2.1\"><mstts:express-as style=\"audiobook\"><prosody rate=\"-12%\"><p>The golden book flaps its pages and lands on Maya’s shoulder. Radiophone speaks up immediately: “This book teaches an important spell. The word is: Reparo! It repairs every broken thing.” Tom takes his old, broken compass out of his pocket. He always has it with him.</p></prosody></mstts:express-as></voice></speak>"
           },
-          "packaged_audio": "polish-english/audio/stories/magical_radio/05_chapter_05_pl_en_2026-10-29_20-56-15.mp3"
+          "packaged_audio": "polish-english/audio/stories/magical_radio/05_chapter_05_pl_en_2026-10-29_21-18-13.mp3"
         }
       }
     },

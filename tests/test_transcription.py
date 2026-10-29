@@ -45,6 +45,19 @@ class RendererTests(unittest.TestCase):
         self.assertEqual(recap["en"], "You are learning a new language!")
         self.assertEqual(recap["se"], "Du lär dig ett nytt språk!")
         self.assertEqual(recap["ru"], "Ты учишь новый язык!")
+        entries = {item["id"]: item for items in topics.values() for item in items}
+        self.assertEqual(entries["phrase_000687"]["en"], "Learning languages is fun!")
+        self.assertEqual(entries["phrase_000687"]["pl"], "Nauka języków jest fajna!")
+        self.assertEqual(entries["phrase_000687"]["se"], "Det är roligt att lära sig språk!")
+        self.assertEqual(entries["phrase_000687"]["ru"], "Учить языки весело!")
+        self.assertEqual(entries["phrase_000503"]["pl"], "Wesołych Świąt!")
+        self.assertEqual(entries["phrase_000870"]["se"], "Hon målar med pensel.")
+        self.assertEqual(entries["phrase_000192"]["ru"], "Рука")
+        self.assertEqual(entries["phrase_000752"]["pl"], "On zapomniał pracy domowej.")
+        self.assertEqual(
+            entries["phrase_000841"]["en"],
+            "He runs fast while she runs slowly.",
+        )
 
     def test_safe_numbered_filenames(self):
         self.assertEqual(

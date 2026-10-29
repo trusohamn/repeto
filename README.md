@@ -76,6 +76,11 @@ categorized audio, and generated RSS files. Vocabulary-topic MP3s live in
 `audio/practice/`; story chapters live in `audio/stories/<story-id>/`. The
 catalog's `file` path is relative to `audio/`. It stores permanent episode IDs
 and publication dates; keep these unchanged when replacing recordings.
+Language corrections in shared transcripts affect every course using the changed
+language. Rebuild the affected episodes from cached clips, synthesize changed
+text, and refresh their timing files and feeds together; changing timing labels
+alone does not correct the spoken audio. Keep everyday phrases natural rather
+than expanding them into formal textbook wording.
 Story artwork lives under `images/stories/<story-id>/cover.jpeg`. Each chapter
 sets an optional catalog `image` path relative to the podcast folder, emitted
 as an episode-level `itunes:image`; the main show cover remains unchanged.

@@ -1525,7 +1525,7 @@
     "se": "Hand",
     "pl": "Ręka",
     "en": "Hand",
-    "ru": "Ладонь"
+    "ru": "Рука"
   },
   {
     "id": "phrase_000193",
@@ -3573,7 +3573,7 @@
     "se": "Nervös",
     "pl": "Zdenerwowany",
     "en": "Nervous",
-    "ru": "Взволнованный"
+    "ru": "Нервный"
   },
   {
     "id": "phrase_000449",
@@ -5482,10 +5482,10 @@
   {
     "id": "phrase_000687",
     "topic": "Review and Recap",
-    "se": "Polska är roligt!",
-    "pl": "Polski jest fajny!",
-    "en": "Polish is fun!",
-    "ru": "Польский — это здорово!"
+    "se": "Det är roligt att lära sig språk!",
+    "pl": "Nauka języków jest fajna!",
+    "en": "Learning languages is fun!",
+    "ru": "Учить языки весело!"
   },
   {
     "id": "phrase_000688",
@@ -6003,7 +6003,7 @@
     "id": "phrase_000752",
     "topic": "School",
     "se": "Han glömde sin läxa.",
-    "pl": "On zapomniał zadanie domowe.",
+    "pl": "On zapomniał pracy domowej.",
     "en": "He forgot his homework.",
     "ru": "Он забыл домашнее задание."
   },
@@ -6714,9 +6714,9 @@
   {
     "id": "phrase_000841",
     "topic": "Opposites",
-    "se": "Han springer snabbt, hon springer långsamt.",
-    "pl": "On biega szybko, ona biega wolno.",
-    "en": "He runs fast, she runs slowly.",
+    "se": "Han springer snabbt medan hon springer långsamt.",
+    "pl": "On biega szybko, a ona biega wolno.",
+    "en": "He runs fast while she runs slowly.",
     "ru": "Он быстро бегает, а она медленно."
   },
   {

@@ -1,0 +1,649 @@
+{
+  "chapter_number": 3,
+  "title": {
+    "pl": "Mysz pod drzewem",
+    "sv": "En mus under trädet",
+    "en": "A Mouse under the Tree",
+    "ru": "Мышка под деревом"
+  },
+  "source_language": "sv",
+  "target_language": "ru",
+  "practice_order": "deterministically_shuffled",
+  "sequence": [
+    "story",
+    "practice",
+    "story"
+  ],
+  "total_duration_ms": 361810,
+  "practice": [
+    {
+      "id": 137,
+      "kind": "vocabulary",
+      "start_ms": 55440,
+      "end_ms": 67077,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "en liten mus",
+        "start_ms": 55440,
+        "end_ms": 56913
+      },
+      "target_playbacks": [
+        {
+          "text": "маленькая мышка",
+          "start_ms": 58913,
+          "end_ms": 60495
+        },
+        {
+          "text": "маленькая мышка",
+          "start_ms": 62995,
+          "end_ms": 64577
+        }
+      ]
+    },
+    {
+      "id": 224,
+      "kind": "vocabulary",
+      "start_ms": 67077,
+      "end_ms": 79988,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "en liten, gammal dörr",
+        "start_ms": 67077,
+        "end_ms": 69270
+      },
+      "target_playbacks": [
+        {
+          "text": "маленькая старая дверь",
+          "start_ms": 71270,
+          "end_ms": 73129
+        },
+        {
+          "text": "маленькая старая дверь",
+          "start_ms": 75629,
+          "end_ms": 77488
+        }
+      ]
+    },
+    {
+      "id": 132,
+      "kind": "vocabulary",
+      "start_ms": 79988,
+      "end_ms": 88884,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "ta",
+        "start_ms": 79988,
+        "end_ms": 80444
+      },
+      "target_playbacks": [
+        {
+          "text": "брать",
+          "start_ms": 82444,
+          "end_ms": 83164
+        },
+        {
+          "text": "брать",
+          "start_ms": 85664,
+          "end_ms": 86384
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "kind": "vocabulary",
+      "start_ms": 88884,
+      "end_ms": 100633,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "silvernyckel",
+        "start_ms": 88884,
+        "end_ms": 90207
+      },
+      "target_playbacks": [
+        {
+          "text": "серебряный ключ",
+          "start_ms": 92207,
+          "end_ms": 93920
+        },
+        {
+          "text": "серебряный ключ",
+          "start_ms": 96420,
+          "end_ms": 98133
+        }
+      ]
+    },
+    {
+      "id": 142,
+      "kind": "vocabulary",
+      "start_ms": 100633,
+      "end_ms": 109874,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "ge",
+        "start_ms": 100633,
+        "end_ms": 101186
+      },
+      "target_playbacks": [
+        {
+          "text": "давать",
+          "start_ms": 103186,
+          "end_ms": 104030
+        },
+        {
+          "text": "давать",
+          "start_ms": 106530,
+          "end_ms": 107374
+        }
+      ]
+    },
+    {
+      "id": 217,
+      "kind": "vocabulary",
+      "start_ms": 109874,
+      "end_ms": 119710,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "det är mörkt",
+        "start_ms": 109874,
+        "end_ms": 111142
+      },
+      "target_playbacks": [
+        {
+          "text": "темно",
+          "start_ms": 113142,
+          "end_ms": 113926
+        },
+        {
+          "text": "темно",
+          "start_ms": 116426,
+          "end_ms": 117210
+        }
+      ]
+    },
+    {
+      "id": 219,
+      "kind": "vocabulary",
+      "start_ms": 119710,
+      "end_ms": 132411,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "hej, lilla mus!",
+        "start_ms": 119710,
+        "end_ms": 121755
+      },
+      "target_playbacks": [
+        {
+          "text": "здравствуй, мышка!",
+          "start_ms": 123755,
+          "end_ms": 125583
+        },
+        {
+          "text": "здравствуй, мышка!",
+          "start_ms": 128083,
+          "end_ms": 129911
+        }
+      ]
+    },
+    {
+      "id": 221,
+      "kind": "vocabulary",
+      "start_ms": 132411,
+      "end_ms": 143511,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "en lövhög",
+        "start_ms": 132411,
+        "end_ms": 133663
+      },
+      "target_playbacks": [
+        {
+          "text": "кучка листьев",
+          "start_ms": 135663,
+          "end_ms": 137087
+        },
+        {
+          "text": "кучка листьев",
+          "start_ms": 139587,
+          "end_ms": 141011
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "kind": "vocabulary",
+      "start_ms": 143511,
+      "end_ms": 154019,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "gul ost",
+        "start_ms": 143511,
+        "end_ms": 144709
+      },
+      "target_playbacks": [
+        {
+          "text": "жёлтый сыр",
+          "start_ms": 146709,
+          "end_ms": 147864
+        },
+        {
+          "text": "жёлтый сыр",
+          "start_ms": 150364,
+          "end_ms": 151519
+        }
+      ]
+    },
+    {
+      "id": 218,
+      "kind": "vocabulary",
+      "start_ms": 154019,
+      "end_ms": 163493,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "så",
+        "start_ms": 154019,
+        "end_ms": 154609
+      },
+      "target_playbacks": [
+        {
+          "text": "поэтому",
+          "start_ms": 156609,
+          "end_ms": 157551
+        },
+        {
+          "text": "поэтому",
+          "start_ms": 160051,
+          "end_ms": 160993
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "kind": "vocabulary",
+      "start_ms": 163493,
+      "end_ms": 172700,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "tass",
+        "start_ms": 163493,
+        "end_ms": 164094
+      },
+      "target_playbacks": [
+        {
+          "text": "лапка",
+          "start_ms": 166094,
+          "end_ms": 166897
+        },
+        {
+          "text": "лапка",
+          "start_ms": 169397,
+          "end_ms": 170200
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "kind": "vocabulary",
+      "start_ms": 172700,
+      "end_ms": 182764,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "ficklampa",
+        "start_ms": 172700,
+        "end_ms": 173754
+      },
+      "target_playbacks": [
+        {
+          "text": "фонарик",
+          "start_ms": 175754,
+          "end_ms": 176759
+        },
+        {
+          "text": "фонарик",
+          "start_ms": 179259,
+          "end_ms": 180264
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "kind": "vocabulary",
+      "start_ms": 182764,
+      "end_ms": 192035,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "hål",
+        "start_ms": 182764,
+        "end_ms": 183401
+      },
+      "target_playbacks": [
+        {
+          "text": "норка",
+          "start_ms": 185401,
+          "end_ms": 186218
+        },
+        {
+          "text": "норка",
+          "start_ms": 188718,
+          "end_ms": 189535
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "kind": "vocabulary",
+      "start_ms": 192035,
+      "end_ms": 201394,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "rötter",
+        "start_ms": 192035,
+        "end_ms": 192894
+      },
+      "target_playbacks": [
+        {
+          "text": "корни",
+          "start_ms": 194894,
+          "end_ms": 195644
+        },
+        {
+          "text": "корни",
+          "start_ms": 198144,
+          "end_ms": 198894
+        }
+      ]
+    },
+    {
+      "id": 134,
+      "kind": "vocabulary",
+      "start_ms": 201394,
+      "end_ms": 211214,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "i trädgården",
+        "start_ms": 201394,
+        "end_ms": 202788
+      },
+      "target_playbacks": [
+        {
+          "text": "в саду",
+          "start_ms": 204788,
+          "end_ms": 205501
+        },
+        {
+          "text": "в саду",
+          "start_ms": 208001,
+          "end_ms": 208714
+        }
+      ]
+    },
+    {
+      "id": 143,
+      "kind": "vocabulary",
+      "start_ms": 211214,
+      "end_ms": 222253,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "ta med sig osten",
+        "start_ms": 211214,
+        "end_ms": 212745
+      },
+      "target_playbacks": [
+        {
+          "text": "забирать сыр",
+          "start_ms": 214745,
+          "end_ms": 215999
+        },
+        {
+          "text": "забирать сыр",
+          "start_ms": 218499,
+          "end_ms": 219753
+        }
+      ]
+    },
+    {
+      "id": 133,
+      "kind": "vocabulary",
+      "start_ms": 222253,
+      "end_ms": 233415,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "gå till trädet",
+        "start_ms": 222253,
+        "end_ms": 223755
+      },
+      "target_playbacks": [
+        {
+          "text": "идти к дереву",
+          "start_ms": 225755,
+          "end_ms": 227085
+        },
+        {
+          "text": "идти к дереву",
+          "start_ms": 229585,
+          "end_ms": 230915
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "kind": "vocabulary",
+      "start_ms": 233415,
+      "end_ms": 245527,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "lysa med ficklampan",
+        "start_ms": 233415,
+        "end_ms": 235198
+      },
+      "target_playbacks": [
+        {
+          "text": "светить фонариком",
+          "start_ms": 237198,
+          "end_ms": 238862
+        },
+        {
+          "text": "светить фонариком",
+          "start_ms": 241362,
+          "end_ms": 243027
+        }
+      ]
+    },
+    {
+      "id": 220,
+      "kind": "vocabulary",
+      "start_ms": 245527,
+      "end_ms": 257469,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "ger du oss nyckeln?",
+        "start_ms": 245527,
+        "end_ms": 247171
+      },
+      "target_playbacks": [
+        {
+          "text": "ты дашь нам ключ?",
+          "start_ms": 249171,
+          "end_ms": 250820
+        },
+        {
+          "text": "ты дашь нам ключ?",
+          "start_ms": 253320,
+          "end_ms": 254969
+        }
+      ]
+    },
+    {
+      "id": 223,
+      "kind": "vocabulary",
+      "start_ms": 257469,
+      "end_ms": 268703,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "mellan rötterna",
+        "start_ms": 257469,
+        "end_ms": 258851
+      },
+      "target_playbacks": [
+        {
+          "text": "между корнями",
+          "start_ms": 260851,
+          "end_ms": 262277
+        },
+        {
+          "text": "между корнями",
+          "start_ms": 264777,
+          "end_ms": 266203
+        }
+      ]
+    },
+    {
+      "id": 139,
+      "kind": "vocabulary",
+      "start_ms": 268703,
+      "end_ms": 281557,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "vi har ost till dig",
+        "start_ms": 268703,
+        "end_ms": 270319
+      },
+      "target_playbacks": [
+        {
+          "text": "у нас есть для тебя сыр",
+          "start_ms": 272319,
+          "end_ms": 274438
+        },
+        {
+          "text": "у нас есть для тебя сыр",
+          "start_ms": 276938,
+          "end_ms": 279057
+        }
+      ]
+    },
+    {
+      "id": 136,
+      "kind": "vocabulary",
+      "start_ms": 281557,
+      "end_ms": 293902,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "komma ut ur ett hål",
+        "start_ms": 281557,
+        "end_ms": 283306
+      },
+      "target_playbacks": [
+        {
+          "text": "выходить из норки",
+          "start_ms": 285306,
+          "end_ms": 287104
+        },
+        {
+          "text": "выходить из норки",
+          "start_ms": 289604,
+          "end_ms": 291402
+        }
+      ]
+    },
+    {
+      "id": 135,
+      "kind": "vocabulary",
+      "start_ms": 293902,
+      "end_ms": 305174,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "ett stort träd",
+        "start_ms": 293902,
+        "end_ms": 295272
+      },
+      "target_playbacks": [
+        {
+          "text": "большое дерево",
+          "start_ms": 297272,
+          "end_ms": 298723
+        },
+        {
+          "text": "большое дерево",
+          "start_ms": 301223,
+          "end_ms": 302674
+        }
+      ]
+    },
+    {
+      "id": 222,
+      "kind": "vocabulary",
+      "start_ms": 305174,
+      "end_ms": 317530,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "sopa undan löven",
+        "start_ms": 305174,
+        "end_ms": 306894
+      },
+      "target_playbacks": [
+        {
+          "text": "разгребать листья",
+          "start_ms": 308894,
+          "end_ms": 310712
+        },
+        {
+          "text": "разгребать листья",
+          "start_ms": 313212,
+          "end_ms": 315030
+        }
+      ]
+    }
+  ],
+  "book_introduction": null,
+  "chapter_introduction": {
+    "text": "Глава третья. Мышка под деревом.",
+    "start_ms": 1000,
+    "end_ms": 6160
+  },
+  "transitions": [
+    {
+      "kind": "chime",
+      "from": "story",
+      "to": "practice",
+      "start_ms": 52320,
+      "end_ms": 52940
+    },
+    {
+      "kind": "chime",
+      "from": "practice",
+      "to": "story",
+      "start_ms": 317530,
+      "end_ms": 318150
+    }
+  ],
+  "chapter_readings": [
+    {
+      "text": "Под деревом темно, поэтому Миша берёт фонарик. Маша берёт радио и жёлтый сыр. Они идут к большому дереву в саду. Миша светит фонариком под корни. Из норки выходит маленькая мышка. — Здравствуй, мышка! — говорит Маша. — У нас есть для тебя сыр. Ты дашь нам ключ? Мышка даёт им серебряный ключ, забирает сыр и показывает лапкой на кучку листьев. Дети разгребают листья — между корнями дерева маленькая старая дверь!",
+      "start_ms": 8660,
+      "end_ms": 49820
+    },
+    {
+      "text": "Под деревом темно, поэтому Миша берёт фонарик. Маша берёт радио и жёлтый сыр. Они идут к большому дереву в саду. Миша светит фонариком под корни. Из норки выходит маленькая мышка. — Здравствуй, мышка! — говорит Маша. — У нас есть для тебя сыр. Ты дашь нам ключ? Мышка даёт им серебряный ключ, забирает сыр и показывает лапкой на кучку листьев. Дети разгребают листья — между корнями дерева маленькая старая дверь!",
+      "start_ms": 320650,
+      "end_ms": 361810
+    }
+  ],
+  "chapter_reading": {
+    "text": "Под деревом темно, поэтому Миша берёт фонарик. Маша берёт радио и жёлтый сыр. Они идут к большому дереву в саду. Миша светит фонариком под корни. Из норки выходит маленькая мышка. — Здравствуй, мышка! — говорит Маша. — У нас есть для тебя сыр. Ты дашь нам ключ? Мышка даёт им серебряный ключ, забирает сыр и показывает лапкой на кучку листьев. Дети разгребают листья — между корнями дерева маленькая старая дверь!",
+    "start_ms": 320650,
+    "end_ms": 361810
+  },
+  "narration": {
+    "engine": "azure",
+    "voice": "ru-RU-SvetlanaNeural",
+    "style": null,
+    "rate": "-12%",
+    "locale": "ru-RU",
+    "capabilities": {
+      "voice": "ru-RU-SvetlanaNeural",
+      "locale": "ru-RU",
+      "advertised_styles": []
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"ru-RU\"><voice name=\"ru-RU-SvetlanaNeural\"><prosody rate=\"-12%\"><p>Под деревом темно, поэтому Миша берёт фонарик. Маша берёт радио и жёлтый сыр. Они идут к большому дереву в саду. Миша светит фонариком под корни. Из норки выходит маленькая мышка. — Здравствуй, мышка! — говорит Маша. — У нас есть для тебя сыр. Ты дашь нам ключ? Мышка даёт им серебряный ключ, забирает сыр и показывает лапкой на кучку листьев. Дети разгребают листья — между корнями дерева маленькая старая дверь!</p></prosody></voice></speak>"
+  },
+  "audio_file": "03_chapter_03_sv_ru_2026-10-29_21-17-47.mp3"
+}

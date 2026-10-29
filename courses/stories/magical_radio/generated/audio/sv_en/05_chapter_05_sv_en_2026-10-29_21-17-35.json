@@ -1,0 +1,573 @@
+{
+  "chapter_number": 5,
+  "title": {
+    "pl": "Latająca książka",
+    "sv": "Den flygande boken",
+    "en": "The Flying Book",
+    "ru": "Летающая книга"
+  },
+  "source_language": "sv",
+  "target_language": "en",
+  "practice_order": "deterministically_shuffled",
+  "sequence": [
+    "story",
+    "practice",
+    "story"
+  ],
+  "total_duration_ms": 264543,
+  "practice": [
+    {
+      "id": 160,
+      "kind": "vocabulary",
+      "start_ms": 35016,
+      "end_ms": 45499,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "börja tala",
+        "start_ms": 35016,
+        "end_ms": 36261
+      },
+      "target_playbacks": [
+        {
+          "text": "begin to speak",
+          "start_ms": 38261,
+          "end_ms": 39380
+        },
+        {
+          "text": "begin to speak",
+          "start_ms": 41880,
+          "end_ms": 42999
+        }
+      ]
+    },
+    {
+      "id": 167,
+      "kind": "vocabulary",
+      "start_ms": 45499,
+      "end_ms": 54395,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "gammal",
+        "start_ms": 45499,
+        "end_ms": 46325
+      },
+      "target_playbacks": [
+        {
+          "text": "old",
+          "start_ms": 48325,
+          "end_ms": 48860
+        },
+        {
+          "text": "old",
+          "start_ms": 51360,
+          "end_ms": 51895
+        }
+      ]
+    },
+    {
+      "id": 229,
+      "kind": "vocabulary",
+      "start_ms": 54395,
+      "end_ms": 63712,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "alltid",
+        "start_ms": 54395,
+        "end_ms": 55170
+      },
+      "target_playbacks": [
+        {
+          "text": "always",
+          "start_ms": 57170,
+          "end_ms": 57941
+        },
+        {
+          "text": "always",
+          "start_ms": 60441,
+          "end_ms": 61212
+        }
+      ]
+    },
+    {
+      "id": 162,
+      "kind": "vocabulary",
+      "start_ms": 63712,
+      "end_ms": 73493,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "viktig",
+        "start_ms": 63712,
+        "end_ms": 64545
+      },
+      "target_playbacks": [
+        {
+          "text": "important",
+          "start_ms": 66545,
+          "end_ms": 67519
+        },
+        {
+          "text": "important",
+          "start_ms": 70019,
+          "end_ms": 70993
+        }
+      ]
+    },
+    {
+      "id": 228,
+      "kind": "vocabulary",
+      "start_ms": 73493,
+      "end_ms": 83769,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "sin kompass",
+        "start_ms": 73493,
+        "end_ms": 74771
+      },
+      "target_playbacks": [
+        {
+          "text": "his compass",
+          "start_ms": 76771,
+          "end_ms": 77770
+        },
+        {
+          "text": "his compass",
+          "start_ms": 80270,
+          "end_ms": 81269
+        }
+      ]
+    },
+    {
+      "id": 164,
+      "kind": "vocabulary",
+      "start_ms": 83769,
+      "end_ms": 93037,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "laga",
+        "start_ms": 83769,
+        "end_ms": 84545
+      },
+      "target_playbacks": [
+        {
+          "text": "repair",
+          "start_ms": 86545,
+          "end_ms": 87291
+        },
+        {
+          "text": "repair",
+          "start_ms": 89791,
+          "end_ms": 90537
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "kind": "vocabulary",
+      "start_ms": 93037,
+      "end_ms": 104442,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "en trasig kompass",
+        "start_ms": 93037,
+        "end_ms": 94668
+      },
+      "target_playbacks": [
+        {
+          "text": "a broken compass",
+          "start_ms": 96668,
+          "end_ms": 98055
+        },
+        {
+          "text": "a broken compass",
+          "start_ms": 100555,
+          "end_ms": 101942
+        }
+      ]
+    },
+    {
+      "id": 165,
+      "kind": "vocabulary",
+      "start_ms": 104442,
+      "end_ms": 115166,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "en trasig sak",
+        "start_ms": 104442,
+        "end_ms": 105958
+      },
+      "target_playbacks": [
+        {
+          "text": "a broken thing",
+          "start_ms": 107958,
+          "end_ms": 109062
+        },
+        {
+          "text": "a broken thing",
+          "start_ms": 111562,
+          "end_ms": 112666
+        }
+      ]
+    },
+    {
+      "id": 158,
+      "kind": "vocabulary",
+      "start_ms": 115166,
+      "end_ms": 126478,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "landa på axeln",
+        "start_ms": 115166,
+        "end_ms": 116630
+      },
+      "target_playbacks": [
+        {
+          "text": "land on a shoulder",
+          "start_ms": 118630,
+          "end_ms": 120054
+        },
+        {
+          "text": "land on a shoulder",
+          "start_ms": 122554,
+          "end_ms": 123978
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "kind": "vocabulary",
+      "start_ms": 126478,
+      "end_ms": 135888,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "trollformel",
+        "start_ms": 126478,
+        "end_ms": 127628
+      },
+      "target_playbacks": [
+        {
+          "text": "spell",
+          "start_ms": 129628,
+          "end_ms": 130258
+        },
+        {
+          "text": "spell",
+          "start_ms": 132758,
+          "end_ms": 133388
+        }
+      ]
+    },
+    {
+      "id": 161,
+      "kind": "vocabulary",
+      "start_ms": 135888,
+      "end_ms": 145278,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "lära ut",
+        "start_ms": 135888,
+        "end_ms": 137090
+      },
+      "target_playbacks": [
+        {
+          "text": "teach",
+          "start_ms": 139090,
+          "end_ms": 139684
+        },
+        {
+          "text": "teach",
+          "start_ms": 142184,
+          "end_ms": 142778
+        }
+      ]
+    },
+    {
+      "id": 159,
+      "kind": "vocabulary",
+      "start_ms": 145278,
+      "end_ms": 155377,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "genast",
+        "start_ms": 145278,
+        "end_ms": 146337
+      },
+      "target_playbacks": [
+        {
+          "text": "immediately",
+          "start_ms": 148337,
+          "end_ms": 149357
+        },
+        {
+          "text": "immediately",
+          "start_ms": 151857,
+          "end_ms": 152877
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "kind": "vocabulary",
+      "start_ms": 155377,
+      "end_ms": 166606,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "flaxa med sidorna",
+        "start_ms": 155377,
+        "end_ms": 156934
+      },
+      "target_playbacks": [
+        {
+          "text": "flap its pages",
+          "start_ms": 158934,
+          "end_ms": 160270
+        },
+        {
+          "text": "flap its pages",
+          "start_ms": 162770,
+          "end_ms": 164106
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "kind": "vocabulary",
+      "start_ms": 166606,
+      "end_ms": 175747,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "axel",
+        "start_ms": 166606,
+        "end_ms": 167312
+      },
+      "target_playbacks": [
+        {
+          "text": "shoulder",
+          "start_ms": 169312,
+          "end_ms": 170030
+        },
+        {
+          "text": "shoulder",
+          "start_ms": 172530,
+          "end_ms": 173247
+        }
+      ]
+    },
+    {
+      "id": 199,
+      "kind": "vocabulary",
+      "start_ms": 175747,
+      "end_ms": 185133,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "Reparo!",
+        "start_ms": 175747,
+        "end_ms": 176707
+      },
+      "target_playbacks": [
+        {
+          "text": "Reparo!",
+          "start_ms": 178707,
+          "end_ms": 179420
+        },
+        {
+          "text": "Reparo!",
+          "start_ms": 181920,
+          "end_ms": 182633
+        }
+      ]
+    },
+    {
+      "id": 198,
+      "kind": "vocabulary",
+      "start_ms": 185133,
+      "end_ms": 196734,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "varje trasig sak",
+        "start_ms": 185133,
+        "end_ms": 186956
+      },
+      "target_playbacks": [
+        {
+          "text": "every broken thing",
+          "start_ms": 188956,
+          "end_ms": 190345
+        },
+        {
+          "text": "every broken thing",
+          "start_ms": 192845,
+          "end_ms": 194234
+        }
+      ]
+    },
+    {
+      "id": 163,
+      "kind": "vocabulary",
+      "start_ms": 196734,
+      "end_ms": 206024,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "ett ord",
+        "start_ms": 196734,
+        "end_ms": 197618
+      },
+      "target_playbacks": [
+        {
+          "text": "a word",
+          "start_ms": 199618,
+          "end_ms": 200321
+        },
+        {
+          "text": "a word",
+          "start_ms": 202821,
+          "end_ms": 203524
+        }
+      ]
+    },
+    {
+      "id": 166,
+      "kind": "vocabulary",
+      "start_ms": 206024,
+      "end_ms": 217501,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "ta upp ur fickan",
+        "start_ms": 206024,
+        "end_ms": 207763
+      },
+      "target_playbacks": [
+        {
+          "text": "take out of a pocket",
+          "start_ms": 209763,
+          "end_ms": 211132
+        },
+        {
+          "text": "take out of a pocket",
+          "start_ms": 213632,
+          "end_ms": 215001
+        }
+      ]
+    },
+    {
+      "id": 230,
+      "kind": "vocabulary",
+      "start_ms": 217501,
+      "end_ms": 227509,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "ha med sig",
+        "start_ms": 217501,
+        "end_ms": 218565
+      },
+      "target_playbacks": [
+        {
+          "text": "have with you",
+          "start_ms": 220565,
+          "end_ms": 221537
+        },
+        {
+          "text": "have with you",
+          "start_ms": 224037,
+          "end_ms": 225009
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "kind": "vocabulary",
+      "start_ms": 227509,
+      "end_ms": 237759,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "gyllene bok",
+        "start_ms": 227509,
+        "end_ms": 228741
+      },
+      "target_playbacks": [
+        {
+          "text": "golden book",
+          "start_ms": 230741,
+          "end_ms": 231750
+        },
+        {
+          "text": "golden book",
+          "start_ms": 234250,
+          "end_ms": 235259
+        }
+      ]
+    }
+  ],
+  "book_introduction": null,
+  "chapter_introduction": {
+    "text": "Chapter five. The Flying Book.",
+    "start_ms": 1000,
+    "end_ms": 3232
+  },
+  "transitions": [
+    {
+      "kind": "chime",
+      "from": "story",
+      "to": "practice",
+      "start_ms": 31896,
+      "end_ms": 32516
+    },
+    {
+      "kind": "chime",
+      "from": "practice",
+      "to": "story",
+      "start_ms": 237759,
+      "end_ms": 238379
+    }
+  ],
+  "chapter_readings": [
+    {
+      "text": "The golden book flaps its pages and lands on Maya’s shoulder. Radiophone speaks up immediately: “This book teaches an important spell. The word is: Reparo! It repairs every broken thing.” Tom takes his old, broken compass out of his pocket. He always has it with him.",
+      "start_ms": 5732,
+      "end_ms": 29396
+    },
+    {
+      "text": "The golden book flaps its pages and lands on Maya’s shoulder. Radiophone speaks up immediately: “This book teaches an important spell. The word is: Reparo! It repairs every broken thing.” Tom takes his old, broken compass out of his pocket. He always has it with him.",
+      "start_ms": 240879,
+      "end_ms": 264543
+    }
+  ],
+  "chapter_reading": {
+    "text": "The golden book flaps its pages and lands on Maya’s shoulder. Radiophone speaks up immediately: “This book teaches an important spell. The word is: Reparo! It repairs every broken thing.” Tom takes his old, broken compass out of his pocket. He always has it with him.",
+    "start_ms": 240879,
+    "end_ms": 264543
+  },
+  "narration": {
+    "engine": "azure",
+    "voice": "en-US-Harper:MAI-Voice-2.1",
+    "style": "audiobook",
+    "rate": "-12%",
+    "locale": "en-US",
+    "capabilities": {
+      "voice": "en-US-Harper:MAI-Voice-2.1",
+      "locale": "en-US",
+      "advertised_styles": [
+        "agent",
+        "angry",
+        "audiobook",
+        "confused",
+        "customer_call_center",
+        "determined",
+        "educational",
+        "embarrassed",
+        "excited",
+        "happy",
+        "hopeful",
+        "joyful",
+        "narrator",
+        "regretful",
+        "relieved",
+        "sad",
+        "shouting",
+        "softvoice",
+        "whispering"
+      ]
+    },
+    "ssml": "<speak xmlns:mstts=\"http://www.w3.org/2001/mstts\" version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"en-US\"><voice name=\"en-US-Harper:MAI-Voice-2.1\"><mstts:express-as style=\"audiobook\"><prosody rate=\"-12%\"><p>The golden book flaps its pages and lands on Maya’s shoulder. Radiophone speaks up immediately: “This book teaches an important spell. The word is: Reparo! It repairs every broken thing.” Tom takes his old, broken compass out of his pocket. He always has it with him.</p></prosody></mstts:express-as></voice></speak>"
+  },
+  "audio_file": "05_chapter_05_sv_en_2026-10-29_21-17-35.mp3"
+}

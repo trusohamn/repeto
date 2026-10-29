@@ -1,0 +1,597 @@
+{
+  "chapter_number": 4,
+  "title": {
+    "pl": "Schody w dół",
+    "sv": "Trappan ner",
+    "en": "Down the Stairs",
+    "ru": "Лестница вниз"
+  },
+  "source_language": "sv",
+  "target_language": "en",
+  "practice_order": "deterministically_shuffled",
+  "sequence": [
+    "story",
+    "practice",
+    "story"
+  ],
+  "total_duration_ms": 270082,
+  "practice": [
+    {
+      "id": 153,
+      "kind": "vocabulary",
+      "start_ms": 36456,
+      "end_ms": 45374,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "böcker",
+        "start_ms": 36456,
+        "end_ms": 37160
+      },
+      "target_playbacks": [
+        {
+          "text": "books",
+          "start_ms": 39160,
+          "end_ms": 39767
+        },
+        {
+          "text": "books",
+          "start_ms": 42267,
+          "end_ms": 42874
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "kind": "vocabulary",
+      "start_ms": 45374,
+      "end_ms": 54418,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "öppnas",
+        "start_ms": 45374,
+        "end_ms": 46246
+      },
+      "target_playbacks": [
+        {
+          "text": "open",
+          "start_ms": 48246,
+          "end_ms": 48832
+        },
+        {
+          "text": "open",
+          "start_ms": 51332,
+          "end_ms": 51918
+        }
+      ]
+    },
+    {
+      "id": 147,
+      "kind": "vocabulary",
+      "start_ms": 54418,
+      "end_ms": 64454,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "leda neråt",
+        "start_ms": 54418,
+        "end_ms": 55748
+      },
+      "target_playbacks": [
+        {
+          "text": "lead down",
+          "start_ms": 57748,
+          "end_ms": 58601
+        },
+        {
+          "text": "lead down",
+          "start_ms": 61101,
+          "end_ms": 61954
+        }
+      ]
+    },
+    {
+      "id": 227,
+      "kind": "vocabulary",
+      "start_ms": 64454,
+      "end_ms": 76448,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "lysa guldgult",
+        "start_ms": 64454,
+        "end_ms": 66090
+      },
+      "target_playbacks": [
+        {
+          "text": "glow with a golden light",
+          "start_ms": 68090,
+          "end_ms": 69769
+        },
+        {
+          "text": "glow with a golden light",
+          "start_ms": 72269,
+          "end_ms": 73948
+        }
+      ]
+    },
+    {
+      "id": 226,
+      "kind": "vocabulary",
+      "start_ms": 76448,
+      "end_ms": 86469,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "en av dem",
+        "start_ms": 76448,
+        "end_ms": 77683
+      },
+      "target_playbacks": [
+        {
+          "text": "one of them",
+          "start_ms": 79683,
+          "end_ms": 80576
+        },
+        {
+          "text": "one of them",
+          "start_ms": 83076,
+          "end_ms": 83969
+        }
+      ]
+    },
+    {
+      "id": 154,
+      "kind": "vocabulary",
+      "start_ms": 86469,
+      "end_ms": 95396,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "några",
+        "start_ms": 86469,
+        "end_ms": 87322
+      },
+      "target_playbacks": [
+        {
+          "text": "some",
+          "start_ms": 89322,
+          "end_ms": 89859
+        },
+        {
+          "text": "some",
+          "start_ms": 92359,
+          "end_ms": 92896
+        }
+      ]
+    },
+    {
+      "id": 150,
+      "kind": "vocabulary",
+      "start_ms": 95396,
+      "end_ms": 104809,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "gå ner",
+        "start_ms": 95396,
+        "end_ms": 96341
+      },
+      "target_playbacks": [
+        {
+          "text": "go down",
+          "start_ms": 98341,
+          "end_ms": 99075
+        },
+        {
+          "text": "go down",
+          "start_ms": 101575,
+          "end_ms": 102309
+        }
+      ]
+    },
+    {
+      "id": 204,
+      "kind": "vocabulary",
+      "start_ms": 104809,
+      "end_ms": 114635,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "lysa blått",
+        "start_ms": 104809,
+        "end_ms": 105995
+      },
+      "target_playbacks": [
+        {
+          "text": "glow blue",
+          "start_ms": 107995,
+          "end_ms": 108815
+        },
+        {
+          "text": "glow blue",
+          "start_ms": 111315,
+          "end_ms": 112135
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "kind": "vocabulary",
+      "start_ms": 114635,
+      "end_ms": 125272,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "stentrappa",
+        "start_ms": 114635,
+        "end_ms": 115830
+      },
+      "target_playbacks": [
+        {
+          "text": "stone stairs",
+          "start_ms": 117830,
+          "end_ms": 119051
+        },
+        {
+          "text": "stone stairs",
+          "start_ms": 121551,
+          "end_ms": 122772
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "kind": "vocabulary",
+      "start_ms": 125272,
+      "end_ms": 135870,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "vrida om nyckeln",
+        "start_ms": 125272,
+        "end_ms": 126990
+      },
+      "target_playbacks": [
+        {
+          "text": "turn the key",
+          "start_ms": 128990,
+          "end_ms": 129930
+        },
+        {
+          "text": "turn the key",
+          "start_ms": 132430,
+          "end_ms": 133370
+        }
+      ]
+    },
+    {
+      "id": 149,
+      "kind": "vocabulary",
+      "start_ms": 135870,
+      "end_ms": 144654,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "växa",
+        "start_ms": 135870,
+        "end_ms": 136630
+      },
+      "target_playbacks": [
+        {
+          "text": "grow",
+          "start_ms": 138630,
+          "end_ms": 139142
+        },
+        {
+          "text": "grow",
+          "start_ms": 141642,
+          "end_ms": 142154
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "kind": "vocabulary",
+      "start_ms": 144654,
+      "end_ms": 155682,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "lysande blommor",
+        "start_ms": 144654,
+        "end_ms": 146214
+      },
+      "target_playbacks": [
+        {
+          "text": "glowing flowers",
+          "start_ms": 148214,
+          "end_ms": 149448
+        },
+        {
+          "text": "glowing flowers",
+          "start_ms": 151948,
+          "end_ms": 153182
+        }
+      ]
+    },
+    {
+      "id": 148,
+      "kind": "vocabulary",
+      "start_ms": 155682,
+      "end_ms": 164932,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "en vägg",
+        "start_ms": 155682,
+        "end_ms": 156578
+      },
+      "target_playbacks": [
+        {
+          "text": "a wall",
+          "start_ms": 158578,
+          "end_ms": 159255
+        },
+        {
+          "text": "a wall",
+          "start_ms": 161755,
+          "end_ms": 162432
+        }
+      ]
+    },
+    {
+      "id": 225,
+      "kind": "vocabulary",
+      "start_ms": 164932,
+      "end_ms": 175970,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "ett stort bibliotek",
+        "start_ms": 164932,
+        "end_ms": 166684
+      },
+      "target_playbacks": [
+        {
+          "text": "a big library",
+          "start_ms": 168684,
+          "end_ms": 169827
+        },
+        {
+          "text": "a big library",
+          "start_ms": 172327,
+          "end_ms": 173470
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "kind": "vocabulary",
+      "start_ms": 175970,
+      "end_ms": 184951,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "tak",
+        "start_ms": 175970,
+        "end_ms": 176623
+      },
+      "target_playbacks": [
+        {
+          "text": "ceiling",
+          "start_ms": 178623,
+          "end_ms": 179287
+        },
+        {
+          "text": "ceiling",
+          "start_ms": 181787,
+          "end_ms": 182451
+        }
+      ]
+    },
+    {
+      "id": 202,
+      "kind": "vocabulary",
+      "start_ms": 184951,
+      "end_ms": 194121,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "stå",
+        "start_ms": 184951,
+        "end_ms": 185670
+      },
+      "target_playbacks": [
+        {
+          "text": "stand",
+          "start_ms": 187670,
+          "end_ms": 188396
+        },
+        {
+          "text": "stand",
+          "start_ms": 190896,
+          "end_ms": 191621
+        }
+      ]
+    },
+    {
+      "id": 203,
+      "kind": "vocabulary",
+      "start_ms": 194121,
+      "end_ms": 204093,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "på väggarna",
+        "start_ms": 194121,
+        "end_ms": 195123
+      },
+      "target_playbacks": [
+        {
+          "text": "on the walls",
+          "start_ms": 197123,
+          "end_ms": 198108
+        },
+        {
+          "text": "on the walls",
+          "start_ms": 200608,
+          "end_ms": 201593
+        }
+      ]
+    },
+    {
+      "id": 146,
+      "kind": "vocabulary",
+      "start_ms": 204093,
+      "end_ms": 212753,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "klick!",
+        "start_ms": 204093,
+        "end_ms": 204753
+      },
+      "target_playbacks": [
+        {
+          "text": "click!",
+          "start_ms": 206753,
+          "end_ms": 207253
+        },
+        {
+          "text": "click!",
+          "start_ms": 209753,
+          "end_ms": 210253
+        }
+      ]
+    },
+    {
+      "id": 152,
+      "kind": "vocabulary",
+      "start_ms": 212753,
+      "end_ms": 222513,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "överallt",
+        "start_ms": 212753,
+        "end_ms": 213787
+      },
+      "target_playbacks": [
+        {
+          "text": "everywhere",
+          "start_ms": 215787,
+          "end_ms": 216650
+        },
+        {
+          "text": "everywhere",
+          "start_ms": 219150,
+          "end_ms": 220013
+        }
+      ]
+    },
+    {
+      "id": 155,
+      "kind": "vocabulary",
+      "start_ms": 222513,
+      "end_ms": 231547,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "flyga",
+        "start_ms": 222513,
+        "end_ms": 223401
+      },
+      "target_playbacks": [
+        {
+          "text": "fly",
+          "start_ms": 225401,
+          "end_ms": 225974
+        },
+        {
+          "text": "fly",
+          "start_ms": 228474,
+          "end_ms": 229047
+        }
+      ]
+    },
+    {
+      "id": 156,
+      "kind": "vocabulary",
+      "start_ms": 231547,
+      "end_ms": 242002,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "under taket",
+        "start_ms": 231547,
+        "end_ms": 232788
+      },
+      "target_playbacks": [
+        {
+          "text": "under the ceiling",
+          "start_ms": 234788,
+          "end_ms": 235895
+        },
+        {
+          "text": "under the ceiling",
+          "start_ms": 238395,
+          "end_ms": 239502
+        }
+      ]
+    }
+  ],
+  "book_introduction": null,
+  "chapter_introduction": {
+    "text": "Chapter four. Down the Stairs.",
+    "start_ms": 1000,
+    "end_ms": 3376
+  },
+  "transitions": [
+    {
+      "kind": "chime",
+      "from": "story",
+      "to": "practice",
+      "start_ms": 33336,
+      "end_ms": 33956
+    },
+    {
+      "kind": "chime",
+      "from": "practice",
+      "to": "story",
+      "start_ms": 242002,
+      "end_ms": 242622
+    }
+  ],
+  "chapter_readings": [
+    {
+      "text": "Maya turns the key. Click! The door opens. Stone stairs lead down. Blue, glowing flowers grow on the walls. The children go down into a big library. There are books everywhere, and some of them are flying just below the ceiling! One of them is glowing with a golden light.",
+      "start_ms": 5876,
+      "end_ms": 30836
+    },
+    {
+      "text": "Maya turns the key. Click! The door opens. Stone stairs lead down. Blue, glowing flowers grow on the walls. The children go down into a big library. There are books everywhere, and some of them are flying just below the ceiling! One of them is glowing with a golden light.",
+      "start_ms": 245122,
+      "end_ms": 270082
+    }
+  ],
+  "chapter_reading": {
+    "text": "Maya turns the key. Click! The door opens. Stone stairs lead down. Blue, glowing flowers grow on the walls. The children go down into a big library. There are books everywhere, and some of them are flying just below the ceiling! One of them is glowing with a golden light.",
+    "start_ms": 245122,
+    "end_ms": 270082
+  },
+  "narration": {
+    "engine": "azure",
+    "voice": "en-US-Harper:MAI-Voice-2.1",
+    "style": "audiobook",
+    "rate": "-12%",
+    "locale": "en-US",
+    "capabilities": {
+      "voice": "en-US-Harper:MAI-Voice-2.1",
+      "locale": "en-US",
+      "advertised_styles": [
+        "agent",
+        "angry",
+        "audiobook",
+        "confused",
+        "customer_call_center",
+        "determined",
+        "educational",
+        "embarrassed",
+        "excited",
+        "happy",
+        "hopeful",
+        "joyful",
+        "narrator",
+        "regretful",
+        "relieved",
+        "sad",
+        "shouting",
+        "softvoice",
+        "whispering"
+      ]
+    },
+    "ssml": "<speak xmlns:mstts=\"http://www.w3.org/2001/mstts\" version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"en-US\"><voice name=\"en-US-Harper:MAI-Voice-2.1\"><mstts:express-as style=\"audiobook\"><prosody rate=\"-12%\"><p>Maya turns the key. Click! The door opens. Stone stairs lead down. Blue, glowing flowers grow on the walls. The children go down into a big library. There are books everywhere, and some of them are flying just below the ceiling! One of them is glowing with a golden light.</p></prosody></mstts:express-as></voice></speak>"
+  },
+  "audio_file": "04_chapter_04_sv_en_2026-10-29_21-17-29.mp3"
+}
