@@ -1,9 +1,28 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
   <channel>
-    <title>Repeto – Svenska till engelska</title>
+    <title>Repeto – Engelska för svensktalande</title>
     <link>https://trusohamn.github.io/repeto/swedish-english/</link>
-    <description>Lär dig engelska med svenska ledtrådar. En språkkurs för barn med tydligt uttal, tankepauser och varje engelsk fras två gånger. Rösterna är AI-genererade.</description>
+    <description>Lär dig engelska genom att lyssna och prata – med svenska som stöd. Repeto är en lyssningskurs för nybörjare i alla åldrar: barn, föräldrar, mor- och farföräldrar och alla som vill komma igång med engelska. Ingen förkunskap och ingen bok behövs.
+
+Så fungerar det: du hör ett ord eller en mening på svenska och får en paus att säga det på engelska. Sedan kommer svaret – två gånger, med pauser så att du hinner härma uttalet.
+
+Det här ingår:
+• Säsong 1 – Övningar: 30 korta ämnen, från hälsningar och siffror till mat, känslor och vardag.
+• Säsong 2 – Berättelsen ”Den magiska radion” (The Magical Radio): ett kapitel per avsnitt. Du hör kapitlet på engelska, övar orden och hör kapitlet igen.
+• Fler berättelser är på väg – vi lägger till nya löpande. Följ podden så missar du inget.
+
+Så använder du kursen:
+• Börja med säsong 1, avsnitt 1, och lyssna i ordning.
+• Säg svaret högt i pausen – det är där du lär dig.
+• Lyssna på avsnittet igen tills du hinner svara före rösten.
+• Även att lyssna i bakgrunden hjälper – du vänjer dig vid ljuden och språkets melodi.
+
+Gillar du upplägget? Repeto finns även på andra språk – samma format, så du känner igen dig direkt. Sök på ”Repeto” där du lyssnar på poddar.
+
+Hör gärna av dig! Önskemål om nya språk, rättelser och idéer till nya berättelser är varmt välkomna: repeto.lingo@gmail.com
+
+Rösterna är AI-genererade (Microsoft Azure).</description>
     <language>sv</language>
     <itunes:author>Repeto</itunes:author>
     <itunes:explicit>false</itunes:explicit>
@@ -19,7 +38,17 @@
     <atom:link href="https://trusohamn.github.io/repeto/swedish-english/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>01 Hälsningar — Greetings</title>
-      <description>Öva engelska med svenska ledtrådar. Ämne: Hälsningar. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje engelsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 1 av 30: Hälsningar (Greetings) – 36 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Hej! → Hi!
+• God morgon! → Good morning!
+• God eftermiddag! → Good afternoon!
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 1 av 30: Hälsningar (Greetings) – 36 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Hej! → Hi!&lt;/li&gt;&lt;li&gt;God morgon! → Good morning!&lt;/li&gt;&lt;li&gt;God eftermiddag! → Good afternoon!&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-english:topic-01</guid>
       <pubDate>Tue, 27 Oct 2026 18:52:57 +0000</pubDate>
       <itunes:episode>1</itunes:episode>
@@ -31,7 +60,17 @@
     </item>
     <item>
       <title>02 Tal — Numbers</title>
-      <description>Öva engelska med svenska ledtrådar. Ämne: Tal. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje engelsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 2 av 30: Tal (Numbers) – 35 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Ett → One
+• Två → Two
+• Tre → Three
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 2 av 30: Tal (Numbers) – 35 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Ett → One&lt;/li&gt;&lt;li&gt;Två → Two&lt;/li&gt;&lt;li&gt;Tre → Three&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-english:topic-02</guid>
       <pubDate>Tue, 27 Oct 2026 18:52:57 +0000</pubDate>
       <itunes:episode>2</itunes:episode>
@@ -43,7 +82,17 @@
     </item>
     <item>
       <title>03 Färger — Colors</title>
-      <description>Öva engelska med svenska ledtrådar. Ämne: Färger. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje engelsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 3 av 30: Färger (Colors) – 29 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Röd → Red
+• Blå → Blue
+• Gul → Yellow
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 3 av 30: Färger (Colors) – 29 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Röd → Red&lt;/li&gt;&lt;li&gt;Blå → Blue&lt;/li&gt;&lt;li&gt;Gul → Yellow&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-english:topic-03</guid>
       <pubDate>Tue, 27 Oct 2026 18:52:57 +0000</pubDate>
       <itunes:episode>3</itunes:episode>
@@ -55,7 +104,17 @@
     </item>
     <item>
       <title>04 Djur — Animals</title>
-      <description>Öva engelska med svenska ledtrådar. Ämne: Djur. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje engelsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 4 av 30: Djur (Animals) – 42 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Hund → Dog
+• Katt → Cat
+• Fågel → Bird
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 4 av 30: Djur (Animals) – 42 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Hund → Dog&lt;/li&gt;&lt;li&gt;Katt → Cat&lt;/li&gt;&lt;li&gt;Fågel → Bird&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-english:topic-04</guid>
       <pubDate>Tue, 27 Oct 2026 18:52:57 +0000</pubDate>
       <itunes:episode>4</itunes:episode>
@@ -67,7 +126,17 @@
     </item>
     <item>
       <title>05 Familj — Family</title>
-      <description>Öva engelska med svenska ledtrådar. Ämne: Familj. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje engelsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 5 av 30: Familj (Family) – 26 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Mamma → Mum
+• Pappa → Dad
+• Syster → Sister
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 5 av 30: Familj (Family) – 26 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Mamma → Mum&lt;/li&gt;&lt;li&gt;Pappa → Dad&lt;/li&gt;&lt;li&gt;Syster → Sister&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-english:topic-05</guid>
       <pubDate>Tue, 27 Oct 2026 18:52:57 +0000</pubDate>
       <itunes:episode>5</itunes:episode>
@@ -79,7 +148,17 @@
     </item>
     <item>
       <title>06 Mat — Food</title>
-      <description>Öva engelska med svenska ledtrådar. Ämne: Mat. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje engelsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 6 av 30: Mat (Food) – 49 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Bröd → Bread
+• Mjölk → Milk
+• Ägg → Egg
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 6 av 30: Mat (Food) – 49 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Bröd → Bread&lt;/li&gt;&lt;li&gt;Mjölk → Milk&lt;/li&gt;&lt;li&gt;Ägg → Egg&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-english:topic-06</guid>
       <pubDate>Tue, 27 Oct 2026 18:52:57 +0000</pubDate>
       <itunes:episode>6</itunes:episode>
@@ -91,7 +170,17 @@
     </item>
     <item>
       <title>07 Kroppen — Body</title>
-      <description>Öva engelska med svenska ledtrådar. Ämne: Kroppen. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje engelsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 7 av 30: Kroppen (Body) – 37 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Huvud → Head
+• Hår → Hair
+• Öga → Eye
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 7 av 30: Kroppen (Body) – 37 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Huvud → Head&lt;/li&gt;&lt;li&gt;Hår → Hair&lt;/li&gt;&lt;li&gt;Öga → Eye&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-english:topic-07</guid>
       <pubDate>Tue, 27 Oct 2026 18:52:57 +0000</pubDate>
       <itunes:episode>7</itunes:episode>
@@ -103,7 +192,17 @@
     </item>
     <item>
       <title>08 Kläder — Clothing</title>
-      <description>Öva engelska med svenska ledtrådar. Ämne: Kläder. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje engelsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 8 av 30: Kläder (Clothing) – 29 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Tröja → Jumper
+• T-shirt → T-shirt
+• Skjorta → Shirt
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 8 av 30: Kläder (Clothing) – 29 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Tröja → Jumper&lt;/li&gt;&lt;li&gt;T-shirt → T-shirt&lt;/li&gt;&lt;li&gt;Skjorta → Shirt&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-english:topic-08</guid>
       <pubDate>Tue, 27 Oct 2026 18:52:57 +0000</pubDate>
       <itunes:episode>8</itunes:episode>
@@ -115,7 +214,17 @@
     </item>
     <item>
       <title>09 Hemma — Home</title>
-      <description>Öva engelska med svenska ledtrådar. Ämne: Hemma. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje engelsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 9 av 30: Hemma (Home) – 38 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Hus → House
+• Lägenhet → Flat
+• Rum → Room
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 9 av 30: Hemma (Home) – 38 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Hus → House&lt;/li&gt;&lt;li&gt;Lägenhet → Flat&lt;/li&gt;&lt;li&gt;Rum → Room&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-english:topic-09</guid>
       <pubDate>Tue, 27 Oct 2026 18:52:57 +0000</pubDate>
       <itunes:episode>9</itunes:episode>
@@ -127,7 +236,17 @@
     </item>
     <item>
       <title>10 Skolan — School</title>
-      <description>Öva engelska med svenska ledtrådar. Ämne: Skolan. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje engelsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 10 av 30: Skolan (School) – 41 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Skola → School
+• Klassrum → Classroom
+• Lärare → Teacher
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 10 av 30: Skolan (School) – 41 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Skola → School&lt;/li&gt;&lt;li&gt;Klassrum → Classroom&lt;/li&gt;&lt;li&gt;Lärare → Teacher&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-english:topic-10</guid>
       <pubDate>Tue, 27 Oct 2026 18:52:57 +0000</pubDate>
       <itunes:episode>10</itunes:episode>
@@ -139,7 +258,17 @@
     </item>
     <item>
       <title>11 Väder — Weather</title>
-      <description>Öva engelska med svenska ledtrådar. Ämne: Väder. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje engelsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 11 av 30: Väder (Weather) – 25 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Väder → Weather
+• Sol → Sun
+• Regn → Rain
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 11 av 30: Väder (Weather) – 25 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Väder → Weather&lt;/li&gt;&lt;li&gt;Sol → Sun&lt;/li&gt;&lt;li&gt;Regn → Rain&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-english:topic-11</guid>
       <pubDate>Tue, 27 Oct 2026 18:52:57 +0000</pubDate>
       <itunes:episode>11</itunes:episode>
@@ -151,7 +280,17 @@
     </item>
     <item>
       <title>12 Årstider — Seasons</title>
-      <description>Öva engelska med svenska ledtrådar. Ämne: Årstider. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje engelsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 12 av 30: Årstider (Seasons) – 18 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Vår → Spring
+• Sommar → Summer
+• Höst → Autumn
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 12 av 30: Årstider (Seasons) – 18 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Vår → Spring&lt;/li&gt;&lt;li&gt;Sommar → Summer&lt;/li&gt;&lt;li&gt;Höst → Autumn&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-english:topic-12</guid>
       <pubDate>Tue, 27 Oct 2026 18:52:57 +0000</pubDate>
       <itunes:episode>12</itunes:episode>
@@ -163,7 +302,17 @@
     </item>
     <item>
       <title>13 Dagar och tid — Days and Time</title>
-      <description>Öva engelska med svenska ledtrådar. Ämne: Dagar och tid. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje engelsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 13 av 30: Dagar och tid (Days and Time) – 29 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Måndag → Monday
+• Tisdag → Tuesday
+• Onsdag → Wednesday
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 13 av 30: Dagar och tid (Days and Time) – 29 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Måndag → Monday&lt;/li&gt;&lt;li&gt;Tisdag → Tuesday&lt;/li&gt;&lt;li&gt;Onsdag → Wednesday&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-english:topic-13</guid>
       <pubDate>Tue, 27 Oct 2026 18:52:57 +0000</pubDate>
       <itunes:episode>13</itunes:episode>
@@ -175,7 +324,17 @@
     </item>
     <item>
       <title>14 Leksaker och lek — Toys and Play</title>
-      <description>Öva engelska med svenska ledtrådar. Ämne: Leksaker och lek. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje engelsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 14 av 30: Leksaker och lek (Toys and Play) – 34 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Leksak → Toy
+• Boll → Ball
+• Docka → Doll
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 14 av 30: Leksaker och lek (Toys and Play) – 34 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Leksak → Toy&lt;/li&gt;&lt;li&gt;Boll → Ball&lt;/li&gt;&lt;li&gt;Docka → Doll&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-english:topic-14</guid>
       <pubDate>Tue, 27 Oct 2026 18:52:57 +0000</pubDate>
       <itunes:episode>14</itunes:episode>
@@ -187,7 +346,17 @@
     </item>
     <item>
       <title>15 Sport och aktiviteter — Sports and Activities</title>
-      <description>Öva engelska med svenska ledtrådar. Ämne: Sport och aktiviteter. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje engelsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 15 av 30: Sport och aktiviteter (Sports and Activities) – 25 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Fotboll → Football
+• Simning → Swimming
+• Cykling → Cycling
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 15 av 30: Sport och aktiviteter (Sports and Activities) – 25 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Fotboll → Football&lt;/li&gt;&lt;li&gt;Simning → Swimming&lt;/li&gt;&lt;li&gt;Cykling → Cycling&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-english:topic-15</guid>
       <pubDate>Tue, 27 Oct 2026 18:52:57 +0000</pubDate>
       <itunes:episode>15</itunes:episode>
@@ -199,7 +368,17 @@
     </item>
     <item>
       <title>16 Jag vill ha och jag behöver — I want and I need</title>
-      <description>Öva engelska med svenska ledtrådar. Ämne: Jag vill ha och jag behöver. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje engelsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 16 av 30: Jag vill ha och jag behöver (I want and I need) – 28 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Jag vill gå ut. → I want to go outside.
+• Jag vill ha en boll. → I want a ball.
+• Jag vill äta. → I want to eat.
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 16 av 30: Jag vill ha och jag behöver (I want and I need) – 28 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Jag vill gå ut. → I want to go outside.&lt;/li&gt;&lt;li&gt;Jag vill ha en boll. → I want a ball.&lt;/li&gt;&lt;li&gt;Jag vill äta. → I want to eat.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-english:topic-16</guid>
       <pubDate>Tue, 27 Oct 2026 18:52:57 +0000</pubDate>
       <itunes:episode>16</itunes:episode>
@@ -211,7 +390,17 @@
     </item>
     <item>
       <title>17 Var är? — Where is it?</title>
-      <description>Öva engelska med svenska ledtrådar. Ämne: Var är?. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje engelsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 17 av 30: Var är? (Where is it?) – 28 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Var är nallen? → Where is the teddy bear?
+• Var är min mobil? → Where is my phone?
+• Var är min väska? → Where is my bag?
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 17 av 30: Var är? (Where is it?) – 28 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Var är nallen? → Where is the teddy bear?&lt;/li&gt;&lt;li&gt;Var är min mobil? → Where is my phone?&lt;/li&gt;&lt;li&gt;Var är min väska? → Where is my bag?&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-english:topic-17</guid>
       <pubDate>Tue, 27 Oct 2026 18:52:57 +0000</pubDate>
       <itunes:episode>17</itunes:episode>
@@ -223,7 +412,17 @@
     </item>
     <item>
       <title>18 Känslor — Feelings and Emotions</title>
-      <description>Öva engelska med svenska ledtrådar. Ämne: Känslor. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje engelsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 18 av 30: Känslor (Feelings and Emotions) – 28 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Glad → Happy
+• Ledsen → Sad
+• Arg → Angry
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 18 av 30: Känslor (Feelings and Emotions) – 28 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Glad → Happy&lt;/li&gt;&lt;li&gt;Ledsen → Sad&lt;/li&gt;&lt;li&gt;Arg → Angry&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-english:topic-18</guid>
       <pubDate>Tue, 27 Oct 2026 18:52:57 +0000</pubDate>
       <itunes:episode>18</itunes:episode>
@@ -235,7 +434,17 @@
     </item>
     <item>
       <title>19 Färdmedel — Transport</title>
-      <description>Öva engelska med svenska ledtrådar. Ämne: Färdmedel. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje engelsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 19 av 30: Färdmedel (Transport) – 25 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Bil → Car
+• Buss → Bus
+• Tåg → Train
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 19 av 30: Färdmedel (Transport) – 25 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Bil → Car&lt;/li&gt;&lt;li&gt;Buss → Bus&lt;/li&gt;&lt;li&gt;Tåg → Train&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-english:topic-19</guid>
       <pubDate>Tue, 27 Oct 2026 18:52:57 +0000</pubDate>
       <itunes:episode>19</itunes:episode>
@@ -247,7 +456,17 @@
     </item>
     <item>
       <title>20 Naturen — Nature</title>
-      <description>Öva engelska med svenska ledtrådar. Ämne: Naturen. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje engelsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 20 av 30: Naturen (Nature) – 27 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Skog → Forest
+• Hav → Sea
+• Sjö → Lake
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 20 av 30: Naturen (Nature) – 27 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Skog → Forest&lt;/li&gt;&lt;li&gt;Hav → Sea&lt;/li&gt;&lt;li&gt;Sjö → Lake&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-english:topic-20</guid>
       <pubDate>Tue, 27 Oct 2026 18:52:57 +0000</pubDate>
       <itunes:episode>20</itunes:episode>
@@ -259,7 +478,17 @@
     </item>
     <item>
       <title>21 Högtider och firande — Holidays and Celebrations</title>
-      <description>Öva engelska med svenska ledtrådar. Ämne: Högtider och firande. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje engelsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 21 av 30: Högtider och firande (Holidays and Celebrations) – 23 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Födelsedag → Birthday
+• Grattis på födelsedagen! → Happy birthday!
+• Jul → Christmas
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 21 av 30: Högtider och firande (Holidays and Celebrations) – 23 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Födelsedag → Birthday&lt;/li&gt;&lt;li&gt;Grattis på födelsedagen! → Happy birthday!&lt;/li&gt;&lt;li&gt;Jul → Christmas&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-english:topic-21</guid>
       <pubDate>Tue, 27 Oct 2026 18:52:57 +0000</pubDate>
       <itunes:episode>21</itunes:episode>
@@ -271,7 +500,17 @@
     </item>
     <item>
       <title>22 Vardagsrutiner — Daily Routine</title>
-      <description>Öva engelska med svenska ledtrådar. Ämne: Vardagsrutiner. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje engelsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 22 av 30: Vardagsrutiner (Daily Routine) – 28 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Vakna → Wake up
+• Stiga upp → Get up
+• Borsta tänderna → Brush your teeth
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 22 av 30: Vardagsrutiner (Daily Routine) – 28 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Vakna → Wake up&lt;/li&gt;&lt;li&gt;Stiga upp → Get up&lt;/li&gt;&lt;li&gt;Borsta tänderna → Brush your teeth&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-english:topic-22</guid>
       <pubDate>Tue, 27 Oct 2026 18:52:57 +0000</pubDate>
       <itunes:episode>22</itunes:episode>
@@ -283,7 +522,17 @@
     </item>
     <item>
       <title>23 Fråga och be om hjälp — Asking and Requests</title>
-      <description>Öva engelska med svenska ledtrådar. Ämne: Fråga och be om hjälp. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje engelsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 23 av 30: Fråga och be om hjälp (Asking and Requests) – 26 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Kan du hjälpa mig? → Can you help me?
+• Hjälp! → Help!
+• Snälla! → Please!
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 23 av 30: Fråga och be om hjälp (Asking and Requests) – 26 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Kan du hjälpa mig? → Can you help me?&lt;/li&gt;&lt;li&gt;Hjälp! → Help!&lt;/li&gt;&lt;li&gt;Snälla! → Please!&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-english:topic-23</guid>
       <pubDate>Tue, 27 Oct 2026 18:52:57 +0000</pubDate>
       <itunes:episode>23</itunes:episode>
@@ -295,7 +544,17 @@
     </item>
     <item>
       <title>24 Motsatser — Opposites</title>
-      <description>Öva engelska med svenska ledtrådar. Ämne: Motsatser. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje engelsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 24 av 30: Motsatser (Opposites) – 28 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Stor → Big
+• Liten → Small
+• Lång → Long
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 24 av 30: Motsatser (Opposites) – 28 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Stor → Big&lt;/li&gt;&lt;li&gt;Liten → Small&lt;/li&gt;&lt;li&gt;Lång → Long&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-english:topic-24</guid>
       <pubDate>Tue, 27 Oct 2026 18:52:57 +0000</pubDate>
       <itunes:episode>24</itunes:episode>
@@ -307,7 +566,17 @@
     </item>
     <item>
       <title>25 Handlingar och verb — Actions and Verbs</title>
-      <description>Öva engelska med svenska ledtrådar. Ämne: Handlingar och verb. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje engelsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 25 av 30: Handlingar och verb (Actions and Verbs) – 41 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Gå → Walk
+• Springa → Run
+• Hoppa → Jump
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 25 av 30: Handlingar och verb (Actions and Verbs) – 41 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Gå → Walk&lt;/li&gt;&lt;li&gt;Springa → Run&lt;/li&gt;&lt;li&gt;Hoppa → Jump&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-english:topic-25</guid>
       <pubDate>Tue, 27 Oct 2026 18:52:57 +0000</pubDate>
       <itunes:episode>25</itunes:episode>
@@ -319,7 +588,17 @@
     </item>
     <item>
       <title>26 Platser i staden — Places in Town</title>
-      <description>Öva engelska med svenska ledtrådar. Ämne: Platser i staden. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje engelsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 26 av 30: Platser i staden (Places in Town) – 23 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Park → Park
+• Lekplats → Playground
+• Affär → Shop
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 26 av 30: Platser i staden (Places in Town) – 23 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Park → Park&lt;/li&gt;&lt;li&gt;Lekplats → Playground&lt;/li&gt;&lt;li&gt;Affär → Shop&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-english:topic-26</guid>
       <pubDate>Tue, 27 Oct 2026 18:52:57 +0000</pubDate>
       <itunes:episode>26</itunes:episode>
@@ -331,7 +610,17 @@
     </item>
     <item>
       <title>27 Teknik — Technology</title>
-      <description>Öva engelska med svenska ledtrådar. Ämne: Teknik. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje engelsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 27 av 30: Teknik (Technology) – 22 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Telefon → Phone
+• Mobiltelefon → Mobile phone
+• Dator → Computer
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 27 av 30: Teknik (Technology) – 22 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Telefon → Phone&lt;/li&gt;&lt;li&gt;Mobiltelefon → Mobile phone&lt;/li&gt;&lt;li&gt;Dator → Computer&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-english:topic-27</guid>
       <pubDate>Tue, 27 Oct 2026 18:52:57 +0000</pubDate>
       <itunes:episode>27</itunes:episode>
@@ -343,7 +632,17 @@
     </item>
     <item>
       <title>28 Musik och konst — Music and Art</title>
-      <description>Öva engelska med svenska ledtrådar. Ämne: Musik och konst. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje engelsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 28 av 30: Musik och konst (Music and Art) – 23 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Musik → Music
+• Sång → Song
+• Dans → Dancing
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 28 av 30: Musik och konst (Music and Art) – 23 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Musik → Music&lt;/li&gt;&lt;li&gt;Sång → Song&lt;/li&gt;&lt;li&gt;Dans → Dancing&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-english:topic-28</guid>
       <pubDate>Tue, 27 Oct 2026 18:52:57 +0000</pubDate>
       <itunes:episode>28</itunes:episode>
@@ -355,7 +654,17 @@
     </item>
     <item>
       <title>29 Artiga fraser — Polite Phrases</title>
-      <description>Öva engelska med svenska ledtrådar. Ämne: Artiga fraser. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje engelsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 29 av 30: Artiga fraser (Polite Phrases) – 17 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Snälla. → Please.
+• Tack! → Thank you!
+• Tack så mycket! → Thank you very much!
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 29 av 30: Artiga fraser (Polite Phrases) – 17 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Snälla. → Please.&lt;/li&gt;&lt;li&gt;Tack! → Thank you!&lt;/li&gt;&lt;li&gt;Tack så mycket! → Thank you very much!&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-english:topic-29</guid>
       <pubDate>Tue, 27 Oct 2026 18:52:57 +0000</pubDate>
       <itunes:episode>29</itunes:episode>
@@ -367,7 +676,17 @@
     </item>
     <item>
       <title>30 Repetition — Review and Recap</title>
-      <description>Öva engelska med svenska ledtrådar. Ämne: Repetition. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje engelsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 30 av 30: Repetition (Review and Recap) – 11 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Bra gjort! → Well done!
+• Du lär dig polska! → You are learning Polish!
+• Nu övar vi! → Let's practise!
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 30 av 30: Repetition (Review and Recap) – 11 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Bra gjort! → Well done!&lt;/li&gt;&lt;li&gt;Du lär dig polska! → You are learning Polish!&lt;/li&gt;&lt;li&gt;Nu övar vi! → Let&amp;#x27;s practise!&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-english:topic-30</guid>
       <pubDate>Tue, 27 Oct 2026 18:52:57 +0000</pubDate>
       <itunes:episode>30</itunes:episode>
@@ -379,7 +698,15 @@
     </item>
     <item>
       <title>01 Den magiska radion: Det gamla bordet — The Old Table</title>
-      <description>Lyssna på ett kapitel ur berättelsen The Magical Radio på engelska, öva orden med svenska ledtrådar och lyssna sedan på kapitlet igen.</description>
+      <description>Kapitel 1 av 8 i berättelsen ”Den magiska radion” (The Magical Radio). Två syskon hittar en gammal träradio på en loppmarknad. Plötsligt surrar den – och en gyllene text visar att radion är till just dem.
+
+Så går avsnittet till:
+1. Lyssna på hela kapitlet på engelska – du behöver inte förstå allt.
+2. Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på engelska.
+3. Lyssna på kapitlet igen – nu förstår du mycket mer.
+
+En ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.</description>
+      <content:encoded>&lt;p&gt;Kapitel 1 av 8 i berättelsen ”Den magiska radion” (The Magical Radio). Två syskon hittar en gammal träradio på en loppmarknad. Plötsligt surrar den – och en gyllene text visar att radion är till just dem.&lt;/p&gt;&lt;p&gt;Så går avsnittet till:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Lyssna på hela kapitlet på engelska – du behöver inte förstå allt.&lt;/li&gt;&lt;li&gt;Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på engelska.&lt;/li&gt;&lt;li&gt;Lyssna på kapitlet igen – nu förstår du mycket mer.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;En ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">magical_radio:sv:en:chapter-01</guid>
       <pubDate>Wed, 28 Oct 2026 14:58:21 +0000</pubDate>
       <itunes:episode>1</itunes:episode>
@@ -392,7 +719,15 @@
     </item>
     <item>
       <title>02 Den magiska radion: En röst ur radion — A Voice from the Radio</title>
-      <description>Lyssna på ett kapitel ur berättelsen The Magical Radio på engelska, öva orden med svenska ledtrådar och lyssna sedan på kapitlet igen.</description>
+      <description>Kapitel 2 av 8 i berättelsen ”Den magiska radion” (The Magical Radio). Hemma trycker de på den blå knappen. Ur radion kommer ett moln som doftar kanel – och en glad röst ger dem ett uppdrag.
+
+Så går avsnittet till:
+1. Lyssna på hela kapitlet på engelska – du behöver inte förstå allt.
+2. Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på engelska.
+3. Lyssna på kapitlet igen – nu förstår du mycket mer.
+
+En ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.</description>
+      <content:encoded>&lt;p&gt;Kapitel 2 av 8 i berättelsen ”Den magiska radion” (The Magical Radio). Hemma trycker de på den blå knappen. Ur radion kommer ett moln som doftar kanel – och en glad röst ger dem ett uppdrag.&lt;/p&gt;&lt;p&gt;Så går avsnittet till:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Lyssna på hela kapitlet på engelska – du behöver inte förstå allt.&lt;/li&gt;&lt;li&gt;Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på engelska.&lt;/li&gt;&lt;li&gt;Lyssna på kapitlet igen – nu förstår du mycket mer.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;En ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">magical_radio:sv:en:chapter-02</guid>
       <pubDate>Wed, 28 Oct 2026 14:58:21 +0000</pubDate>
       <itunes:episode>2</itunes:episode>
@@ -405,7 +740,15 @@
     </item>
     <item>
       <title>03 Den magiska radion: En mus under trädet — A Mouse under the Tree</title>
-      <description>Lyssna på ett kapitel ur berättelsen The Magical Radio på engelska, öva orden med svenska ledtrådar och lyssna sedan på kapitlet igen.</description>
+      <description>Kapitel 3 av 8 i berättelsen ”Den magiska radion” (The Magical Radio). Med ficklampa och ost letar syskonen under det gamla trädet. En liten mus vill byta, och under löven väntar en dörr i marken.
+
+Så går avsnittet till:
+1. Lyssna på hela kapitlet på engelska – du behöver inte förstå allt.
+2. Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på engelska.
+3. Lyssna på kapitlet igen – nu förstår du mycket mer.
+
+En ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.</description>
+      <content:encoded>&lt;p&gt;Kapitel 3 av 8 i berättelsen ”Den magiska radion” (The Magical Radio). Med ficklampa och ost letar syskonen under det gamla trädet. En liten mus vill byta, och under löven väntar en dörr i marken.&lt;/p&gt;&lt;p&gt;Så går avsnittet till:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Lyssna på hela kapitlet på engelska – du behöver inte förstå allt.&lt;/li&gt;&lt;li&gt;Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på engelska.&lt;/li&gt;&lt;li&gt;Lyssna på kapitlet igen – nu förstår du mycket mer.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;En ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">magical_radio:sv:en:chapter-03</guid>
       <pubDate>Wed, 28 Oct 2026 14:58:21 +0000</pubDate>
       <itunes:episode>3</itunes:episode>
@@ -418,7 +761,15 @@
     </item>
     <item>
       <title>04 Den magiska radion: Trappan ner — The Stairs Going Down</title>
-      <description>Lyssna på ett kapitel ur berättelsen The Magical Radio på engelska, öva orden med svenska ledtrådar och lyssna sedan på kapitlet igen.</description>
+      <description>Kapitel 4 av 8 i berättelsen ”Den magiska radion” (The Magical Radio). Silvernyckeln öppnar dörren. En stentrappa leder ner till ett rum fullt av flygande böcker och blå, lysande blommor.
+
+Så går avsnittet till:
+1. Lyssna på hela kapitlet på engelska – du behöver inte förstå allt.
+2. Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på engelska.
+3. Lyssna på kapitlet igen – nu förstår du mycket mer.
+
+En ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.</description>
+      <content:encoded>&lt;p&gt;Kapitel 4 av 8 i berättelsen ”Den magiska radion” (The Magical Radio). Silvernyckeln öppnar dörren. En stentrappa leder ner till ett rum fullt av flygande böcker och blå, lysande blommor.&lt;/p&gt;&lt;p&gt;Så går avsnittet till:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Lyssna på hela kapitlet på engelska – du behöver inte förstå allt.&lt;/li&gt;&lt;li&gt;Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på engelska.&lt;/li&gt;&lt;li&gt;Lyssna på kapitlet igen – nu förstår du mycket mer.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;En ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">magical_radio:sv:en:chapter-04</guid>
       <pubDate>Wed, 28 Oct 2026 14:58:21 +0000</pubDate>
       <itunes:episode>4</itunes:episode>
@@ -431,7 +782,15 @@
     </item>
     <item>
       <title>05 Den magiska radion: Den flygande boken — The Flying Book</title>
-      <description>Lyssna på ett kapitel ur berättelsen The Magical Radio på engelska, öva orden med svenska ledtrådar och lyssna sedan på kapitlet igen.</description>
+      <description>Kapitel 5 av 8 i berättelsen ”Den magiska radion” (The Magical Radio). En gyllene bok landar på en axel, och den andra radion lär ut en trollformel som lagar allt som är trasigt.
+
+Så går avsnittet till:
+1. Lyssna på hela kapitlet på engelska – du behöver inte förstå allt.
+2. Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på engelska.
+3. Lyssna på kapitlet igen – nu förstår du mycket mer.
+
+En ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.</description>
+      <content:encoded>&lt;p&gt;Kapitel 5 av 8 i berättelsen ”Den magiska radion” (The Magical Radio). En gyllene bok landar på en axel, och den andra radion lär ut en trollformel som lagar allt som är trasigt.&lt;/p&gt;&lt;p&gt;Så går avsnittet till:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Lyssna på hela kapitlet på engelska – du behöver inte förstå allt.&lt;/li&gt;&lt;li&gt;Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på engelska.&lt;/li&gt;&lt;li&gt;Lyssna på kapitlet igen – nu förstår du mycket mer.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;En ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">magical_radio:sv:en:chapter-05</guid>
       <pubDate>Wed, 28 Oct 2026 14:58:21 +0000</pubDate>
       <itunes:episode>5</itunes:episode>
@@ -444,7 +803,15 @@
     </item>
     <item>
       <title>06 Den magiska radion: Den första trollformeln — The First Spell</title>
-      <description>Lyssna på ett kapitel ur berättelsen The Magical Radio på engelska, öva orden med svenska ledtrådar och lyssna sedan på kapitlet igen.</description>
+      <description>Kapitel 6 av 8 i berättelsen ”Den magiska radion” (The Magical Radio). Dags att prova trollformeln på en trasig kompass. Fungerar den? Och vem väntar bakom den gröna dörren?
+
+Så går avsnittet till:
+1. Lyssna på hela kapitlet på engelska – du behöver inte förstå allt.
+2. Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på engelska.
+3. Lyssna på kapitlet igen – nu förstår du mycket mer.
+
+En ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.</description>
+      <content:encoded>&lt;p&gt;Kapitel 6 av 8 i berättelsen ”Den magiska radion” (The Magical Radio). Dags att prova trollformeln på en trasig kompass. Fungerar den? Och vem väntar bakom den gröna dörren?&lt;/p&gt;&lt;p&gt;Så går avsnittet till:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Lyssna på hela kapitlet på engelska – du behöver inte förstå allt.&lt;/li&gt;&lt;li&gt;Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på engelska.&lt;/li&gt;&lt;li&gt;Lyssna på kapitlet igen – nu förstår du mycket mer.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;En ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">magical_radio:sv:en:chapter-06</guid>
       <pubDate>Wed, 28 Oct 2026 14:58:21 +0000</pubDate>
       <itunes:episode>6</itunes:episode>
@@ -457,7 +824,15 @@
     </item>
     <item>
       <title>07 Den magiska radion: Den gyllene fågeln — The Golden Bird</title>
-      <description>Lyssna på ett kapitel ur berättelsen The Magical Radio på engelska, öva orden med svenska ledtrådar och lyssna sedan på kapitlet igen.</description>
+      <description>Kapitel 7 av 8 i berättelsen ”Den magiska radion” (The Magical Radio). Bakom dörren finns en trädgård med en gyllene fågel som inte kan sjunga – den tickar bara som en klocka. Något saknas i vingen.
+
+Så går avsnittet till:
+1. Lyssna på hela kapitlet på engelska – du behöver inte förstå allt.
+2. Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på engelska.
+3. Lyssna på kapitlet igen – nu förstår du mycket mer.
+
+En ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.</description>
+      <content:encoded>&lt;p&gt;Kapitel 7 av 8 i berättelsen ”Den magiska radion” (The Magical Radio). Bakom dörren finns en trädgård med en gyllene fågel som inte kan sjunga – den tickar bara som en klocka. Något saknas i vingen.&lt;/p&gt;&lt;p&gt;Så går avsnittet till:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Lyssna på hela kapitlet på engelska – du behöver inte förstå allt.&lt;/li&gt;&lt;li&gt;Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på engelska.&lt;/li&gt;&lt;li&gt;Lyssna på kapitlet igen – nu förstår du mycket mer.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;En ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">magical_radio:sv:en:chapter-07</guid>
       <pubDate>Wed, 28 Oct 2026 14:58:21 +0000</pubDate>
       <itunes:episode>7</itunes:episode>
@@ -470,7 +845,15 @@
     </item>
     <item>
       <title>08 Den magiska radion: Den stora konserten — The Grand Concert</title>
-      <description>Lyssna på ett kapitel ur berättelsen The Magical Radio på engelska, öva orden med svenska ledtrådar och lyssna sedan på kapitlet igen.</description>
+      <description>Kapitel 8 av 8 i berättelsen ”Den magiska radion” (The Magical Radio). Finalen! Kan syskonen laga den gyllene fågeln? Berättelsen slutar med sång, dansande fjärilar och en vän som stannar för alltid.
+
+Så går avsnittet till:
+1. Lyssna på hela kapitlet på engelska – du behöver inte förstå allt.
+2. Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på engelska.
+3. Lyssna på kapitlet igen – nu förstår du mycket mer.
+
+En ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.</description>
+      <content:encoded>&lt;p&gt;Kapitel 8 av 8 i berättelsen ”Den magiska radion” (The Magical Radio). Finalen! Kan syskonen laga den gyllene fågeln? Berättelsen slutar med sång, dansande fjärilar och en vän som stannar för alltid.&lt;/p&gt;&lt;p&gt;Så går avsnittet till:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Lyssna på hela kapitlet på engelska – du behöver inte förstå allt.&lt;/li&gt;&lt;li&gt;Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på engelska.&lt;/li&gt;&lt;li&gt;Lyssna på kapitlet igen – nu förstår du mycket mer.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;En ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">magical_radio:sv:en:chapter-08</guid>
       <pubDate>Wed, 28 Oct 2026 14:58:21 +0000</pubDate>
       <itunes:episode>8</itunes:episode>

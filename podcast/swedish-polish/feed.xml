@@ -1,9 +1,28 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
   <channel>
-    <title>Repeto – Svenska till polska</title>
+    <title>Repeto – Polska för svensktalande</title>
     <link>https://trusohamn.github.io/repeto/swedish-polish/</link>
-    <description>Lär dig polska med svenska ledtrådar. En språkkurs för barn med tydligt uttal, tankepauser och varje polsk fras två gånger. Rösterna är AI-genererade.</description>
+    <description>Lär dig polska genom att lyssna och prata – med svenska som stöd. Repeto är en lyssningskurs för nybörjare i alla åldrar: barn, föräldrar, mor- och farföräldrar och alla som vill komma igång med polska. Ingen förkunskap och ingen bok behövs.
+
+Så fungerar det: du hör ett ord eller en mening på svenska och får en paus att säga det på polska. Sedan kommer svaret – två gånger, med pauser så att du hinner härma uttalet.
+
+Det här ingår:
+• Säsong 1 – Övningar: 30 korta ämnen, från hälsningar och siffror till mat, känslor och vardag.
+• Säsong 2 – Berättelsen ”Den magiska radion” (Magiczne Radio): ett kapitel per avsnitt. Du hör kapitlet på polska, övar orden och hör kapitlet igen.
+• Fler berättelser är på väg – vi lägger till nya löpande. Följ podden så missar du inget.
+
+Så använder du kursen:
+• Börja med säsong 1, avsnitt 1, och lyssna i ordning.
+• Säg svaret högt i pausen – det är där du lär dig.
+• Lyssna på avsnittet igen tills du hinner svara före rösten.
+• Även att lyssna i bakgrunden hjälper – du vänjer dig vid ljuden och språkets melodi.
+
+Gillar du upplägget? Repeto finns även på andra språk – samma format, så du känner igen dig direkt. Sök på ”Repeto” där du lyssnar på poddar.
+
+Hör gärna av dig! Önskemål om nya språk, rättelser och idéer till nya berättelser är varmt välkomna: repeto.lingo@gmail.com
+
+Rösterna är AI-genererade (Microsoft Azure).</description>
     <language>sv</language>
     <itunes:author>Repeto</itunes:author>
     <itunes:explicit>false</itunes:explicit>
@@ -19,7 +38,17 @@
     <atom:link href="https://trusohamn.github.io/repeto/swedish-polish/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>01 Hälsningar — Powitania</title>
-      <description>Öva polska med svenska ledtrådar. Ämne: Hälsningar. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 1 av 30: Hälsningar (Powitania) – 36 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Hej! → Cześć!
+• God morgon! → Dzień dobry!
+• God eftermiddag! → Dzień dobry!
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 1 av 30: Hälsningar (Powitania) – 36 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Hej! → Cześć!&lt;/li&gt;&lt;li&gt;God morgon! → Dzień dobry!&lt;/li&gt;&lt;li&gt;God eftermiddag! → Dzień dobry!&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-polish:topic-01</guid>
       <pubDate>Tue, 27 Oct 2026 14:00:00 +0000</pubDate>
       <itunes:episode>1</itunes:episode>
@@ -31,7 +60,17 @@
     </item>
     <item>
       <title>02 Tal — Liczby</title>
-      <description>Öva polska med svenska ledtrådar. Ämne: Tal. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 2 av 30: Tal (Liczby) – 35 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Ett → Jeden
+• Två → Dwa
+• Tre → Trzy
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 2 av 30: Tal (Liczby) – 35 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Ett → Jeden&lt;/li&gt;&lt;li&gt;Två → Dwa&lt;/li&gt;&lt;li&gt;Tre → Trzy&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-polish:topic-02</guid>
       <pubDate>Tue, 27 Oct 2026 14:00:00 +0000</pubDate>
       <itunes:episode>2</itunes:episode>
@@ -43,7 +82,17 @@
     </item>
     <item>
       <title>03 Färger — Kolory</title>
-      <description>Öva polska med svenska ledtrådar. Ämne: Färger. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 3 av 30: Färger (Kolory) – 29 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Röd → Czerwony
+• Blå → Niebieski
+• Gul → Żółty
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 3 av 30: Färger (Kolory) – 29 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Röd → Czerwony&lt;/li&gt;&lt;li&gt;Blå → Niebieski&lt;/li&gt;&lt;li&gt;Gul → Żółty&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-polish:topic-03</guid>
       <pubDate>Tue, 27 Oct 2026 14:00:00 +0000</pubDate>
       <itunes:episode>3</itunes:episode>
@@ -55,7 +104,17 @@
     </item>
     <item>
       <title>04 Djur — Zwierzęta</title>
-      <description>Öva polska med svenska ledtrådar. Ämne: Djur. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 4 av 30: Djur (Zwierzęta) – 42 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Hund → Pies
+• Katt → Kot
+• Fågel → Ptak
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 4 av 30: Djur (Zwierzęta) – 42 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Hund → Pies&lt;/li&gt;&lt;li&gt;Katt → Kot&lt;/li&gt;&lt;li&gt;Fågel → Ptak&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-polish:topic-04</guid>
       <pubDate>Tue, 27 Oct 2026 14:00:00 +0000</pubDate>
       <itunes:episode>4</itunes:episode>
@@ -67,7 +126,17 @@
     </item>
     <item>
       <title>05 Familj — Rodzina</title>
-      <description>Öva polska med svenska ledtrådar. Ämne: Familj. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 5 av 30: Familj (Rodzina) – 26 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Mamma → Mama
+• Pappa → Tata
+• Syster → Siostra
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 5 av 30: Familj (Rodzina) – 26 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Mamma → Mama&lt;/li&gt;&lt;li&gt;Pappa → Tata&lt;/li&gt;&lt;li&gt;Syster → Siostra&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-polish:topic-05</guid>
       <pubDate>Tue, 27 Oct 2026 14:00:00 +0000</pubDate>
       <itunes:episode>5</itunes:episode>
@@ -79,7 +148,17 @@
     </item>
     <item>
       <title>06 Mat — Jedzenie</title>
-      <description>Öva polska med svenska ledtrådar. Ämne: Mat. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 6 av 30: Mat (Jedzenie) – 49 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Bröd → Chleb
+• Mjölk → Mleko
+• Ägg → Jajko
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 6 av 30: Mat (Jedzenie) – 49 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Bröd → Chleb&lt;/li&gt;&lt;li&gt;Mjölk → Mleko&lt;/li&gt;&lt;li&gt;Ägg → Jajko&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-polish:topic-06</guid>
       <pubDate>Tue, 27 Oct 2026 14:00:00 +0000</pubDate>
       <itunes:episode>6</itunes:episode>
@@ -91,7 +170,17 @@
     </item>
     <item>
       <title>07 Kroppen — Ciało</title>
-      <description>Öva polska med svenska ledtrådar. Ämne: Kroppen. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 7 av 30: Kroppen (Ciało) – 37 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Huvud → Głowa
+• Hår → Włosy
+• Öga → Oko
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 7 av 30: Kroppen (Ciało) – 37 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Huvud → Głowa&lt;/li&gt;&lt;li&gt;Hår → Włosy&lt;/li&gt;&lt;li&gt;Öga → Oko&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-polish:topic-07</guid>
       <pubDate>Tue, 27 Oct 2026 14:00:00 +0000</pubDate>
       <itunes:episode>7</itunes:episode>
@@ -103,7 +192,17 @@
     </item>
     <item>
       <title>08 Kläder — Ubrania</title>
-      <description>Öva polska med svenska ledtrådar. Ämne: Kläder. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 8 av 30: Kläder (Ubrania) – 29 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Tröja → Sweter
+• T-shirt → Koszulka
+• Skjorta → Koszula
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 8 av 30: Kläder (Ubrania) – 29 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Tröja → Sweter&lt;/li&gt;&lt;li&gt;T-shirt → Koszulka&lt;/li&gt;&lt;li&gt;Skjorta → Koszula&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-polish:topic-08</guid>
       <pubDate>Tue, 27 Oct 2026 14:00:00 +0000</pubDate>
       <itunes:episode>8</itunes:episode>
@@ -115,7 +214,17 @@
     </item>
     <item>
       <title>09 Hemma — W domu</title>
-      <description>Öva polska med svenska ledtrådar. Ämne: Hemma. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 9 av 30: Hemma (W domu) – 38 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Hus → Dom
+• Lägenhet → Mieszkanie
+• Rum → Pokój
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 9 av 30: Hemma (W domu) – 38 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Hus → Dom&lt;/li&gt;&lt;li&gt;Lägenhet → Mieszkanie&lt;/li&gt;&lt;li&gt;Rum → Pokój&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-polish:topic-09</guid>
       <pubDate>Tue, 27 Oct 2026 14:00:00 +0000</pubDate>
       <itunes:episode>9</itunes:episode>
@@ -127,7 +236,17 @@
     </item>
     <item>
       <title>10 Skolan — Szkoła</title>
-      <description>Öva polska med svenska ledtrådar. Ämne: Skolan. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 10 av 30: Skolan (Szkoła) – 41 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Skola → Szkoła
+• Klassrum → Klasa
+• Lärare → Nauczyciel
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 10 av 30: Skolan (Szkoła) – 41 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Skola → Szkoła&lt;/li&gt;&lt;li&gt;Klassrum → Klasa&lt;/li&gt;&lt;li&gt;Lärare → Nauczyciel&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-polish:topic-10</guid>
       <pubDate>Tue, 27 Oct 2026 14:00:00 +0000</pubDate>
       <itunes:episode>10</itunes:episode>
@@ -139,7 +258,17 @@
     </item>
     <item>
       <title>11 Väder — Pogoda</title>
-      <description>Öva polska med svenska ledtrådar. Ämne: Väder. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 11 av 30: Väder (Pogoda) – 25 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Väder → Pogoda
+• Sol → Słońce
+• Regn → Deszcz
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 11 av 30: Väder (Pogoda) – 25 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Väder → Pogoda&lt;/li&gt;&lt;li&gt;Sol → Słońce&lt;/li&gt;&lt;li&gt;Regn → Deszcz&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-polish:topic-11</guid>
       <pubDate>Tue, 27 Oct 2026 14:00:00 +0000</pubDate>
       <itunes:episode>11</itunes:episode>
@@ -151,7 +280,17 @@
     </item>
     <item>
       <title>12 Årstider — Pory roku</title>
-      <description>Öva polska med svenska ledtrådar. Ämne: Årstider. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 12 av 30: Årstider (Pory roku) – 18 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Vår → Wiosna
+• Sommar → Lato
+• Höst → Jesień
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 12 av 30: Årstider (Pory roku) – 18 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Vår → Wiosna&lt;/li&gt;&lt;li&gt;Sommar → Lato&lt;/li&gt;&lt;li&gt;Höst → Jesień&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-polish:topic-12</guid>
       <pubDate>Tue, 27 Oct 2026 14:00:00 +0000</pubDate>
       <itunes:episode>12</itunes:episode>
@@ -163,7 +302,17 @@
     </item>
     <item>
       <title>13 Dagar och tid — Dni i czas</title>
-      <description>Öva polska med svenska ledtrådar. Ämne: Dagar och tid. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 13 av 30: Dagar och tid (Dni i czas) – 29 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Måndag → Poniedziałek
+• Tisdag → Wtorek
+• Onsdag → Środa
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 13 av 30: Dagar och tid (Dni i czas) – 29 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Måndag → Poniedziałek&lt;/li&gt;&lt;li&gt;Tisdag → Wtorek&lt;/li&gt;&lt;li&gt;Onsdag → Środa&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-polish:topic-13</guid>
       <pubDate>Tue, 27 Oct 2026 14:00:00 +0000</pubDate>
       <itunes:episode>13</itunes:episode>
@@ -175,7 +324,17 @@
     </item>
     <item>
       <title>14 Leksaker och lek — Zabawki i zabawa</title>
-      <description>Öva polska med svenska ledtrådar. Ämne: Leksaker och lek. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 14 av 30: Leksaker och lek (Zabawki i zabawa) – 34 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Leksak → Zabawka
+• Boll → Piłka
+• Docka → Lalka
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 14 av 30: Leksaker och lek (Zabawki i zabawa) – 34 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Leksak → Zabawka&lt;/li&gt;&lt;li&gt;Boll → Piłka&lt;/li&gt;&lt;li&gt;Docka → Lalka&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-polish:topic-14</guid>
       <pubDate>Tue, 27 Oct 2026 14:00:00 +0000</pubDate>
       <itunes:episode>14</itunes:episode>
@@ -187,7 +346,17 @@
     </item>
     <item>
       <title>15 Sport och aktiviteter — Sport i zajęcia</title>
-      <description>Öva polska med svenska ledtrådar. Ämne: Sport och aktiviteter. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 15 av 30: Sport och aktiviteter (Sport i zajęcia) – 25 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Fotboll → Piłka nożna
+• Simning → Pływanie
+• Cykling → Jazda na rowerze
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 15 av 30: Sport och aktiviteter (Sport i zajęcia) – 25 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Fotboll → Piłka nożna&lt;/li&gt;&lt;li&gt;Simning → Pływanie&lt;/li&gt;&lt;li&gt;Cykling → Jazda na rowerze&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-polish:topic-15</guid>
       <pubDate>Tue, 27 Oct 2026 14:00:00 +0000</pubDate>
       <itunes:episode>15</itunes:episode>
@@ -199,7 +368,17 @@
     </item>
     <item>
       <title>16 Jag vill ha och jag behöver — Chcę i potrzebuję</title>
-      <description>Öva polska med svenska ledtrådar. Ämne: Jag vill ha och jag behöver. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 16 av 30: Jag vill ha och jag behöver (Chcę i potrzebuję) – 28 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Jag vill gå ut. → Chcę wyjść na dwór.
+• Jag vill ha en boll. → Chcę piłkę.
+• Jag vill äta. → Chcę jeść.
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 16 av 30: Jag vill ha och jag behöver (Chcę i potrzebuję) – 28 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Jag vill gå ut. → Chcę wyjść na dwór.&lt;/li&gt;&lt;li&gt;Jag vill ha en boll. → Chcę piłkę.&lt;/li&gt;&lt;li&gt;Jag vill äta. → Chcę jeść.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-polish:topic-16</guid>
       <pubDate>Tue, 27 Oct 2026 14:00:00 +0000</pubDate>
       <itunes:episode>16</itunes:episode>
@@ -211,7 +390,17 @@
     </item>
     <item>
       <title>17 Var är? — Gdzie jest?</title>
-      <description>Öva polska med svenska ledtrådar. Ämne: Var är?. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 17 av 30: Var är? (Gdzie jest?) – 28 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Var är nallen? → Gdzie jest miś?
+• Var är min mobil? → Gdzie jest mój telefon?
+• Var är min väska? → Gdzie jest moja torba?
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 17 av 30: Var är? (Gdzie jest?) – 28 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Var är nallen? → Gdzie jest miś?&lt;/li&gt;&lt;li&gt;Var är min mobil? → Gdzie jest mój telefon?&lt;/li&gt;&lt;li&gt;Var är min väska? → Gdzie jest moja torba?&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-polish:topic-17</guid>
       <pubDate>Tue, 27 Oct 2026 14:00:00 +0000</pubDate>
       <itunes:episode>17</itunes:episode>
@@ -223,7 +412,17 @@
     </item>
     <item>
       <title>18 Känslor — Uczucia i emocje</title>
-      <description>Öva polska med svenska ledtrådar. Ämne: Känslor. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 18 av 30: Känslor (Uczucia i emocje) – 28 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Glad → Wesoły
+• Ledsen → Smutny
+• Arg → Zły
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 18 av 30: Känslor (Uczucia i emocje) – 28 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Glad → Wesoły&lt;/li&gt;&lt;li&gt;Ledsen → Smutny&lt;/li&gt;&lt;li&gt;Arg → Zły&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-polish:topic-18</guid>
       <pubDate>Tue, 27 Oct 2026 14:00:00 +0000</pubDate>
       <itunes:episode>18</itunes:episode>
@@ -235,7 +434,17 @@
     </item>
     <item>
       <title>19 Färdmedel — Środki transportu</title>
-      <description>Öva polska med svenska ledtrådar. Ämne: Färdmedel. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 19 av 30: Färdmedel (Środki transportu) – 25 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Bil → Samochód
+• Buss → Autobus
+• Tåg → Pociąg
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 19 av 30: Färdmedel (Środki transportu) – 25 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Bil → Samochód&lt;/li&gt;&lt;li&gt;Buss → Autobus&lt;/li&gt;&lt;li&gt;Tåg → Pociąg&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-polish:topic-19</guid>
       <pubDate>Tue, 27 Oct 2026 14:00:00 +0000</pubDate>
       <itunes:episode>19</itunes:episode>
@@ -247,7 +456,17 @@
     </item>
     <item>
       <title>20 Naturen — Przyroda</title>
-      <description>Öva polska med svenska ledtrådar. Ämne: Naturen. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 20 av 30: Naturen (Przyroda) – 27 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Skog → Las
+• Hav → Morze
+• Sjö → Jezioro
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 20 av 30: Naturen (Przyroda) – 27 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Skog → Las&lt;/li&gt;&lt;li&gt;Hav → Morze&lt;/li&gt;&lt;li&gt;Sjö → Jezioro&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-polish:topic-20</guid>
       <pubDate>Tue, 27 Oct 2026 14:00:00 +0000</pubDate>
       <itunes:episode>20</itunes:episode>
@@ -259,7 +478,17 @@
     </item>
     <item>
       <title>21 Högtider och firande — Święta i uroczystości</title>
-      <description>Öva polska med svenska ledtrådar. Ämne: Högtider och firande. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 21 av 30: Högtider och firande (Święta i uroczystości) – 23 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Födelsedag → Urodziny
+• Grattis på födelsedagen! → Wszystkiego najlepszego z okazji urodzin!
+• Jul → Boże Narodzenie
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 21 av 30: Högtider och firande (Święta i uroczystości) – 23 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Födelsedag → Urodziny&lt;/li&gt;&lt;li&gt;Grattis på födelsedagen! → Wszystkiego najlepszego z okazji urodzin!&lt;/li&gt;&lt;li&gt;Jul → Boże Narodzenie&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-polish:topic-21</guid>
       <pubDate>Tue, 27 Oct 2026 14:00:00 +0000</pubDate>
       <itunes:episode>21</itunes:episode>
@@ -271,7 +500,17 @@
     </item>
     <item>
       <title>22 Vardagsrutiner — Codzienne czynności</title>
-      <description>Öva polska med svenska ledtrådar. Ämne: Vardagsrutiner. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 22 av 30: Vardagsrutiner (Codzienne czynności) – 28 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Vakna → Budzić się
+• Stiga upp → Wstawać
+• Borsta tänderna → Myć zęby
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 22 av 30: Vardagsrutiner (Codzienne czynności) – 28 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Vakna → Budzić się&lt;/li&gt;&lt;li&gt;Stiga upp → Wstawać&lt;/li&gt;&lt;li&gt;Borsta tänderna → Myć zęby&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-polish:topic-22</guid>
       <pubDate>Tue, 27 Oct 2026 14:00:00 +0000</pubDate>
       <itunes:episode>22</itunes:episode>
@@ -283,7 +522,17 @@
     </item>
     <item>
       <title>23 Fråga och be om hjälp — Pytania i prośby</title>
-      <description>Öva polska med svenska ledtrådar. Ämne: Fråga och be om hjälp. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 23 av 30: Fråga och be om hjälp (Pytania i prośby) – 26 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Kan du hjälpa mig? → Czy możesz mi pomóc?
+• Hjälp! → Pomocy!
+• Snälla! → Proszę!
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 23 av 30: Fråga och be om hjälp (Pytania i prośby) – 26 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Kan du hjälpa mig? → Czy możesz mi pomóc?&lt;/li&gt;&lt;li&gt;Hjälp! → Pomocy!&lt;/li&gt;&lt;li&gt;Snälla! → Proszę!&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-polish:topic-23</guid>
       <pubDate>Tue, 27 Oct 2026 14:00:00 +0000</pubDate>
       <itunes:episode>23</itunes:episode>
@@ -295,7 +544,17 @@
     </item>
     <item>
       <title>24 Motsatser — Przeciwieństwa</title>
-      <description>Öva polska med svenska ledtrådar. Ämne: Motsatser. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 24 av 30: Motsatser (Przeciwieństwa) – 28 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Stor → Duży
+• Liten → Mały
+• Lång → Długi
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 24 av 30: Motsatser (Przeciwieństwa) – 28 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Stor → Duży&lt;/li&gt;&lt;li&gt;Liten → Mały&lt;/li&gt;&lt;li&gt;Lång → Długi&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-polish:topic-24</guid>
       <pubDate>Tue, 27 Oct 2026 14:00:00 +0000</pubDate>
       <itunes:episode>24</itunes:episode>
@@ -307,7 +566,17 @@
     </item>
     <item>
       <title>25 Handlingar och verb — Czynności i czasowniki</title>
-      <description>Öva polska med svenska ledtrådar. Ämne: Handlingar och verb. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 25 av 30: Handlingar och verb (Czynności i czasowniki) – 41 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Gå → Iść
+• Springa → Biegać
+• Hoppa → Skakać
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 25 av 30: Handlingar och verb (Czynności i czasowniki) – 41 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Gå → Iść&lt;/li&gt;&lt;li&gt;Springa → Biegać&lt;/li&gt;&lt;li&gt;Hoppa → Skakać&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-polish:topic-25</guid>
       <pubDate>Tue, 27 Oct 2026 14:00:00 +0000</pubDate>
       <itunes:episode>25</itunes:episode>
@@ -319,7 +588,17 @@
     </item>
     <item>
       <title>26 Platser i staden — Miejsca w mieście</title>
-      <description>Öva polska med svenska ledtrådar. Ämne: Platser i staden. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 26 av 30: Platser i staden (Miejsca w mieście) – 23 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Park → Park
+• Lekplats → Plac zabaw
+• Affär → Sklep
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 26 av 30: Platser i staden (Miejsca w mieście) – 23 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Park → Park&lt;/li&gt;&lt;li&gt;Lekplats → Plac zabaw&lt;/li&gt;&lt;li&gt;Affär → Sklep&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-polish:topic-26</guid>
       <pubDate>Tue, 27 Oct 2026 14:00:00 +0000</pubDate>
       <itunes:episode>26</itunes:episode>
@@ -331,7 +610,17 @@
     </item>
     <item>
       <title>27 Teknik — Technologia</title>
-      <description>Öva polska med svenska ledtrådar. Ämne: Teknik. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 27 av 30: Teknik (Technologia) – 22 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Telefon → Telefon
+• Mobiltelefon → Telefon komórkowy
+• Dator → Komputer
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 27 av 30: Teknik (Technologia) – 22 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Telefon → Telefon&lt;/li&gt;&lt;li&gt;Mobiltelefon → Telefon komórkowy&lt;/li&gt;&lt;li&gt;Dator → Komputer&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-polish:topic-27</guid>
       <pubDate>Tue, 27 Oct 2026 14:00:00 +0000</pubDate>
       <itunes:episode>27</itunes:episode>
@@ -343,7 +632,17 @@
     </item>
     <item>
       <title>28 Musik och konst — Muzyka i sztuka</title>
-      <description>Öva polska med svenska ledtrådar. Ämne: Musik och konst. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 28 av 30: Musik och konst (Muzyka i sztuka) – 23 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Musik → Muzyka
+• Sång → Piosenka
+• Dans → Taniec
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 28 av 30: Musik och konst (Muzyka i sztuka) – 23 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Musik → Muzyka&lt;/li&gt;&lt;li&gt;Sång → Piosenka&lt;/li&gt;&lt;li&gt;Dans → Taniec&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-polish:topic-28</guid>
       <pubDate>Tue, 27 Oct 2026 14:00:00 +0000</pubDate>
       <itunes:episode>28</itunes:episode>
@@ -355,7 +654,17 @@
     </item>
     <item>
       <title>29 Artiga fraser — Zwroty grzecznościowe</title>
-      <description>Öva polska med svenska ledtrådar. Ämne: Artiga fraser. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 29 av 30: Artiga fraser (Zwroty grzecznościowe) – 17 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Snälla. → Proszę.
+• Tack! → Dziękuję!
+• Tack så mycket! → Bardzo dziękuję!
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 29 av 30: Artiga fraser (Zwroty grzecznościowe) – 17 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Snälla. → Proszę.&lt;/li&gt;&lt;li&gt;Tack! → Dziękuję!&lt;/li&gt;&lt;li&gt;Tack så mycket! → Bardzo dziękuję!&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-polish:topic-29</guid>
       <pubDate>Tue, 27 Oct 2026 14:00:00 +0000</pubDate>
       <itunes:episode>29</itunes:episode>
@@ -367,7 +676,17 @@
     </item>
     <item>
       <title>30 Repetition — Powtórka</title>
-      <description>Öva polska med svenska ledtrådar. Ämne: Repetition. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 30 av 30: Repetition (Powtórka) – 11 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Bra gjort! → Dobra robota!
+• Du lär dig polska! → Uczysz się polskiego!
+• Nu övar vi! → Ćwiczmy!
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 30 av 30: Repetition (Powtórka) – 11 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Bra gjort! → Dobra robota!&lt;/li&gt;&lt;li&gt;Du lär dig polska! → Uczysz się polskiego!&lt;/li&gt;&lt;li&gt;Nu övar vi! → Ćwiczmy!&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-polish:topic-30</guid>
       <pubDate>Tue, 27 Oct 2026 14:00:00 +0000</pubDate>
       <itunes:episode>30</itunes:episode>
@@ -379,7 +698,15 @@
     </item>
     <item>
       <title>01 Den magiska radion: Det gamla bordet — Stary stół</title>
-      <description>Lyssna på ett kapitel ur berättelsen Magiczne Radio på polska, öva orden med svenska ledtrådar och lyssna sedan på kapitlet igen.</description>
+      <description>Kapitel 1 av 8 i berättelsen ”Den magiska radion” (Magiczne Radio). Två syskon hittar en gammal träradio på en loppmarknad. Plötsligt surrar den – och en gyllene text visar att radion är till just dem.
+
+Så går avsnittet till:
+1. Lyssna på hela kapitlet på polska – du behöver inte förstå allt.
+2. Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på polska.
+3. Lyssna på kapitlet igen – nu förstår du mycket mer.
+
+En ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.</description>
+      <content:encoded>&lt;p&gt;Kapitel 1 av 8 i berättelsen ”Den magiska radion” (Magiczne Radio). Två syskon hittar en gammal träradio på en loppmarknad. Plötsligt surrar den – och en gyllene text visar att radion är till just dem.&lt;/p&gt;&lt;p&gt;Så går avsnittet till:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Lyssna på hela kapitlet på polska – du behöver inte förstå allt.&lt;/li&gt;&lt;li&gt;Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på polska.&lt;/li&gt;&lt;li&gt;Lyssna på kapitlet igen – nu förstår du mycket mer.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;En ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">magical_radio:sv:pl:chapter-01</guid>
       <pubDate>Tue, 27 Oct 2026 21:09:04 +0000</pubDate>
       <itunes:episode>1</itunes:episode>
@@ -392,7 +719,15 @@
     </item>
     <item>
       <title>02 Den magiska radion: En röst ur radion — Głos z radia</title>
-      <description>Lyssna på ett kapitel ur berättelsen Magiczne Radio på polska, öva orden med svenska ledtrådar och lyssna sedan på kapitlet igen.</description>
+      <description>Kapitel 2 av 8 i berättelsen ”Den magiska radion” (Magiczne Radio). Hemma trycker de på den blå knappen. Ur radion kommer ett moln som doftar kanel – och en glad röst ger dem ett uppdrag.
+
+Så går avsnittet till:
+1. Lyssna på hela kapitlet på polska – du behöver inte förstå allt.
+2. Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på polska.
+3. Lyssna på kapitlet igen – nu förstår du mycket mer.
+
+En ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.</description>
+      <content:encoded>&lt;p&gt;Kapitel 2 av 8 i berättelsen ”Den magiska radion” (Magiczne Radio). Hemma trycker de på den blå knappen. Ur radion kommer ett moln som doftar kanel – och en glad röst ger dem ett uppdrag.&lt;/p&gt;&lt;p&gt;Så går avsnittet till:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Lyssna på hela kapitlet på polska – du behöver inte förstå allt.&lt;/li&gt;&lt;li&gt;Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på polska.&lt;/li&gt;&lt;li&gt;Lyssna på kapitlet igen – nu förstår du mycket mer.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;En ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">magical_radio:sv:pl:chapter-02</guid>
       <pubDate>Tue, 27 Oct 2026 21:09:04 +0000</pubDate>
       <itunes:episode>2</itunes:episode>
@@ -405,7 +740,15 @@
     </item>
     <item>
       <title>03 Den magiska radion: En mus under trädet — Mysz pod drzewem</title>
-      <description>Lyssna på ett kapitel ur berättelsen Magiczne Radio på polska, öva orden med svenska ledtrådar och lyssna sedan på kapitlet igen.</description>
+      <description>Kapitel 3 av 8 i berättelsen ”Den magiska radion” (Magiczne Radio). Med ficklampa och ost letar syskonen under det gamla trädet. En liten mus vill byta, och under löven väntar en dörr i marken.
+
+Så går avsnittet till:
+1. Lyssna på hela kapitlet på polska – du behöver inte förstå allt.
+2. Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på polska.
+3. Lyssna på kapitlet igen – nu förstår du mycket mer.
+
+En ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.</description>
+      <content:encoded>&lt;p&gt;Kapitel 3 av 8 i berättelsen ”Den magiska radion” (Magiczne Radio). Med ficklampa och ost letar syskonen under det gamla trädet. En liten mus vill byta, och under löven väntar en dörr i marken.&lt;/p&gt;&lt;p&gt;Så går avsnittet till:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Lyssna på hela kapitlet på polska – du behöver inte förstå allt.&lt;/li&gt;&lt;li&gt;Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på polska.&lt;/li&gt;&lt;li&gt;Lyssna på kapitlet igen – nu förstår du mycket mer.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;En ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">magical_radio:sv:pl:chapter-03</guid>
       <pubDate>Tue, 27 Oct 2026 21:09:04 +0000</pubDate>
       <itunes:episode>3</itunes:episode>
@@ -418,7 +761,15 @@
     </item>
     <item>
       <title>04 Den magiska radion: Trappan ner — Schody w dół</title>
-      <description>Lyssna på ett kapitel ur berättelsen Magiczne Radio på polska, öva orden med svenska ledtrådar och lyssna sedan på kapitlet igen.</description>
+      <description>Kapitel 4 av 8 i berättelsen ”Den magiska radion” (Magiczne Radio). Silvernyckeln öppnar dörren. En stentrappa leder ner till ett rum fullt av flygande böcker och blå, lysande blommor.
+
+Så går avsnittet till:
+1. Lyssna på hela kapitlet på polska – du behöver inte förstå allt.
+2. Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på polska.
+3. Lyssna på kapitlet igen – nu förstår du mycket mer.
+
+En ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.</description>
+      <content:encoded>&lt;p&gt;Kapitel 4 av 8 i berättelsen ”Den magiska radion” (Magiczne Radio). Silvernyckeln öppnar dörren. En stentrappa leder ner till ett rum fullt av flygande böcker och blå, lysande blommor.&lt;/p&gt;&lt;p&gt;Så går avsnittet till:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Lyssna på hela kapitlet på polska – du behöver inte förstå allt.&lt;/li&gt;&lt;li&gt;Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på polska.&lt;/li&gt;&lt;li&gt;Lyssna på kapitlet igen – nu förstår du mycket mer.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;En ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">magical_radio:sv:pl:chapter-04</guid>
       <pubDate>Tue, 27 Oct 2026 21:09:04 +0000</pubDate>
       <itunes:episode>4</itunes:episode>
@@ -431,7 +782,15 @@
     </item>
     <item>
       <title>05 Den magiska radion: Den flygande boken — Latająca książka</title>
-      <description>Lyssna på ett kapitel ur berättelsen Magiczne Radio på polska, öva orden med svenska ledtrådar och lyssna sedan på kapitlet igen.</description>
+      <description>Kapitel 5 av 8 i berättelsen ”Den magiska radion” (Magiczne Radio). En gyllene bok landar på en axel, och den andra radion lär ut en trollformel som lagar allt som är trasigt.
+
+Så går avsnittet till:
+1. Lyssna på hela kapitlet på polska – du behöver inte förstå allt.
+2. Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på polska.
+3. Lyssna på kapitlet igen – nu förstår du mycket mer.
+
+En ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.</description>
+      <content:encoded>&lt;p&gt;Kapitel 5 av 8 i berättelsen ”Den magiska radion” (Magiczne Radio). En gyllene bok landar på en axel, och den andra radion lär ut en trollformel som lagar allt som är trasigt.&lt;/p&gt;&lt;p&gt;Så går avsnittet till:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Lyssna på hela kapitlet på polska – du behöver inte förstå allt.&lt;/li&gt;&lt;li&gt;Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på polska.&lt;/li&gt;&lt;li&gt;Lyssna på kapitlet igen – nu förstår du mycket mer.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;En ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">magical_radio:sv:pl:chapter-05</guid>
       <pubDate>Tue, 27 Oct 2026 21:09:04 +0000</pubDate>
       <itunes:episode>5</itunes:episode>
@@ -444,7 +803,15 @@
     </item>
     <item>
       <title>06 Den magiska radion: Den första trollformeln — Pierwsze zaklęcie</title>
-      <description>Lyssna på ett kapitel ur berättelsen Magiczne Radio på polska, öva orden med svenska ledtrådar och lyssna sedan på kapitlet igen.</description>
+      <description>Kapitel 6 av 8 i berättelsen ”Den magiska radion” (Magiczne Radio). Dags att prova trollformeln på en trasig kompass. Fungerar den? Och vem väntar bakom den gröna dörren?
+
+Så går avsnittet till:
+1. Lyssna på hela kapitlet på polska – du behöver inte förstå allt.
+2. Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på polska.
+3. Lyssna på kapitlet igen – nu förstår du mycket mer.
+
+En ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.</description>
+      <content:encoded>&lt;p&gt;Kapitel 6 av 8 i berättelsen ”Den magiska radion” (Magiczne Radio). Dags att prova trollformeln på en trasig kompass. Fungerar den? Och vem väntar bakom den gröna dörren?&lt;/p&gt;&lt;p&gt;Så går avsnittet till:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Lyssna på hela kapitlet på polska – du behöver inte förstå allt.&lt;/li&gt;&lt;li&gt;Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på polska.&lt;/li&gt;&lt;li&gt;Lyssna på kapitlet igen – nu förstår du mycket mer.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;En ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">magical_radio:sv:pl:chapter-06</guid>
       <pubDate>Tue, 27 Oct 2026 21:09:04 +0000</pubDate>
       <itunes:episode>6</itunes:episode>
@@ -457,7 +824,15 @@
     </item>
     <item>
       <title>07 Den magiska radion: Den gyllene fågeln — Złoty ptak</title>
-      <description>Lyssna på ett kapitel ur berättelsen Magiczne Radio på polska, öva orden med svenska ledtrådar och lyssna sedan på kapitlet igen.</description>
+      <description>Kapitel 7 av 8 i berättelsen ”Den magiska radion” (Magiczne Radio). Bakom dörren finns en trädgård med en gyllene fågel som inte kan sjunga – den tickar bara som en klocka. Något saknas i vingen.
+
+Så går avsnittet till:
+1. Lyssna på hela kapitlet på polska – du behöver inte förstå allt.
+2. Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på polska.
+3. Lyssna på kapitlet igen – nu förstår du mycket mer.
+
+En ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.</description>
+      <content:encoded>&lt;p&gt;Kapitel 7 av 8 i berättelsen ”Den magiska radion” (Magiczne Radio). Bakom dörren finns en trädgård med en gyllene fågel som inte kan sjunga – den tickar bara som en klocka. Något saknas i vingen.&lt;/p&gt;&lt;p&gt;Så går avsnittet till:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Lyssna på hela kapitlet på polska – du behöver inte förstå allt.&lt;/li&gt;&lt;li&gt;Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på polska.&lt;/li&gt;&lt;li&gt;Lyssna på kapitlet igen – nu förstår du mycket mer.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;En ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">magical_radio:sv:pl:chapter-07</guid>
       <pubDate>Tue, 27 Oct 2026 21:09:04 +0000</pubDate>
       <itunes:episode>7</itunes:episode>
@@ -470,7 +845,15 @@
     </item>
     <item>
       <title>08 Den magiska radion: Den stora konserten — Wielki koncert</title>
-      <description>Lyssna på ett kapitel ur berättelsen Magiczne Radio på polska, öva orden med svenska ledtrådar och lyssna sedan på kapitlet igen.</description>
+      <description>Kapitel 8 av 8 i berättelsen ”Den magiska radion” (Magiczne Radio). Finalen! Kan syskonen laga den gyllene fågeln? Berättelsen slutar med sång, dansande fjärilar och en vän som stannar för alltid.
+
+Så går avsnittet till:
+1. Lyssna på hela kapitlet på polska – du behöver inte förstå allt.
+2. Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på polska.
+3. Lyssna på kapitlet igen – nu förstår du mycket mer.
+
+En ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.</description>
+      <content:encoded>&lt;p&gt;Kapitel 8 av 8 i berättelsen ”Den magiska radion” (Magiczne Radio). Finalen! Kan syskonen laga den gyllene fågeln? Berättelsen slutar med sång, dansande fjärilar och en vän som stannar för alltid.&lt;/p&gt;&lt;p&gt;Så går avsnittet till:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Lyssna på hela kapitlet på polska – du behöver inte förstå allt.&lt;/li&gt;&lt;li&gt;Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på polska.&lt;/li&gt;&lt;li&gt;Lyssna på kapitlet igen – nu förstår du mycket mer.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;En ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">magical_radio:sv:pl:chapter-08</guid>
       <pubDate>Tue, 27 Oct 2026 21:09:04 +0000</pubDate>
       <itunes:episode>8</itunes:episode>

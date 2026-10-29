@@ -52,7 +52,7 @@ Varje vokabulärord eller -uttryck får ett positivt heltal som ID. ID:n är uni
 **Namn på figurer:**
 
 - **Inom en kurs bevaras namnen.** I en och samma språkversion (en kurs, till exempel svenska–engelska) heter figurerna likadant i alla kapitel, rubriker, ordövningar och avsnitt. Ett namn får aldrig bytas mitt i en kurs.
-- **Vid byte av målspråk anpassas namnen.** När en berättelse översätts till ett nytt målspråk får figurerna välbekanta namn på det språket, så att berättelsen känns naturlig för barnen. Exempel för *Magiczne Radio* på engelska: Maja → Maya, Tomek → Tom, Radiofon → Radiophone. På ryska: Maja → Маша, Tomek → Миша, Radiofon → Радиофон.
+- **Vid byte av målspråk anpassas namnen.** När en berättelse översätts till ett nytt målspråk får figurerna välbekanta namn på det språket, så att berättelsen känns naturlig för lyssnarna. Exempel för *Magiczne Radio* på engelska: Maja → Maya, Tomek → Tom, Radiofon → Radiophone. På ryska: Maja → Маша, Tomek → Миша, Radiofon → Радиофон.
 - **Varje berättelse har egna namn.** Namnvalen gäller bara den berättelsen; en annan berättelse väljer sina egna namn.
 - Det polska originalet ändras aldrig. Påhittade magiska ord, som trollordet `Reparo`, uttalas likadant på alla språk. På språk med annat alfabet skrivs de med det alfabetet så att talsyntesen uttalar dem rätt, till exempel `Репаро` på ryska.
 
@@ -134,12 +134,12 @@ Varje vokabulärord eller -uttryck får ett positivt heltal som ID. ID:n är uni
 
 ### Vokabulärens täckning
 
-Varje kapitel ska ha tillräckligt med ord och korta uttryck för att ett barn med
+Varje kapitel ska ha tillräckligt med ord och korta uttryck för att en nybörjare med
 begränsade förkunskaper ska kunna följa kapitlets personer, plats, handling och
 viktiga händelser när hela texten läses. Gå igenom hela kapitlet och ta med
 berättelsekritiska substantiv, verb/handlingar, beskrivningar och uttryck samt
 småord eller sambandsord när de behövs för att förstå betydelsen. Vokabulären
-ska förbereda barnet för just det kapitlet; anta inte att ett viktigt ord redan
+ska förbereda lyssnaren för just det kapitlet; anta inte att ett viktigt ord redan
 har lärts i ett senare kapitel. Använd naturliga ord eller korta fraser, inte
 hela meningar som ersätter översättning eller övning av berättelsen. Det finns
 inget fast antal: välj täckning efter kapitlets innehåll och svårighetsgrad.
@@ -175,7 +175,7 @@ med text och tidsstämplar i `chapter_introduction` i båda manifesten.
 1. **Boktitel:** i kapitel 1 sägs bokens titel en gång i början, före
    första uppläsningen. Titeln ska inte läsas upp igen i kapiteltexten.
 2. **Första lyssningen:** spela hela kapitlet sammanhängande på målspråket,
-   så att barnet hör orden i sitt sammanhang före övningen.
+   så att lyssnaren hör orden i sitt sammanhang före övningen.
 3. **Ordövning:** öva bara ord och uttryck i kapitlets `vocabulary`, i en
    deterministiskt slumpad ordning som skiljer sig från berättelsens kronologi.
    Ordningen blandas separat per kapitel och är densamma vid omrendering, så

@@ -501,8 +501,12 @@ class StoryCourseTests(unittest.TestCase):
             self.assertEqual(added["image"], "images/stories/test_story/cover.jpeg")
             self.assertEqual(
                 added["description"],
-                "Lyssna på ett kapitel ur berättelsen Testowa historia på polska, "
-                "öva orden med svenska ledtrådar och lyssna sedan på kapitlet igen.",
+                "Kapitel 1 av 1 i berättelsen ”Testberättelsen” (Testowa historia).\n\n"
+                "Så går avsnittet till:\n"
+                "1. Lyssna på hela kapitlet på polska – du behöver inte förstå allt.\n"
+                "2. Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på polska.\n"
+                "3. Lyssna på kapitlet igen – nu förstår du mycket mer.\n\n"
+                "En ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.",
             )
             story_cover = course / f"images/stories/test_story/cover-{STORY_COVER_HASH}.jpeg"
             self.assertEqual(story_cover.read_bytes(), b"story cover")
@@ -603,8 +607,12 @@ class StoryCourseTests(unittest.TestCase):
             self.assertEqual(episode["season"], 1)
             self.assertEqual(
                 episode["description"],
-                "Lyssna på ett kapitel ur berättelsen Test Story på engelska, "
-                "öva orden med svenska ledtrådar och lyssna sedan på kapitlet igen.",
+                "Kapitel 1 av 1 i berättelsen ”Testberättelsen” (Test Story).\n\n"
+                "Så går avsnittet till:\n"
+                "1. Lyssna på hela kapitlet på engelska – du behöver inte förstå allt.\n"
+                "2. Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på engelska.\n"
+                "3. Lyssna på kapitlet igen – nu förstår du mycket mer.\n\n"
+                "En ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.",
             )
             self.assertEqual(set(build["podcasts"]), {"pl", "en"})
             self.assertFalse((output / audio_name).exists())

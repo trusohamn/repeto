@@ -1,9 +1,28 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
   <channel>
-    <title>Repeto – Svenska till ryska</title>
+    <title>Repeto – Ryska för svensktalande</title>
     <link>https://trusohamn.github.io/repeto/swedish-russian/</link>
-    <description>Lär dig ryska med svenska ledtrådar. En språkkurs för barn med tydligt uttal, tankepauser och varje rysk fras två gånger. Rösterna är AI-genererade.</description>
+    <description>Lär dig ryska genom att lyssna och prata – med svenska som stöd. Repeto är en lyssningskurs för nybörjare i alla åldrar: barn, föräldrar, mor- och farföräldrar och alla som vill komma igång med ryska. Ingen förkunskap och ingen bok behövs.
+
+Så fungerar det: du hör ett ord eller en mening på svenska och får en paus att säga det på ryska. Sedan kommer svaret – två gånger, med pauser så att du hinner härma uttalet.
+
+Det här ingår:
+• Säsong 1 – Övningar: 30 korta ämnen, från hälsningar och siffror till mat, känslor och vardag.
+• Säsong 2 – Berättelsen ”Den magiska radion” (Волшебное радио): ett kapitel per avsnitt. Du hör kapitlet på ryska, övar orden och hör kapitlet igen.
+• Fler berättelser är på väg – vi lägger till nya löpande. Följ podden så missar du inget.
+
+Så använder du kursen:
+• Börja med säsong 1, avsnitt 1, och lyssna i ordning.
+• Säg svaret högt i pausen – det är där du lär dig.
+• Lyssna på avsnittet igen tills du hinner svara före rösten.
+• Även att lyssna i bakgrunden hjälper – du vänjer dig vid ljuden och språkets melodi.
+
+Gillar du upplägget? Repeto finns även på andra språk – samma format, så du känner igen dig direkt. Sök på ”Repeto” där du lyssnar på poddar.
+
+Hör gärna av dig! Önskemål om nya språk, rättelser och idéer till nya berättelser är varmt välkomna: repeto.lingo@gmail.com
+
+Rösterna är AI-genererade (Microsoft Azure).</description>
     <language>sv</language>
     <itunes:author>Repeto</itunes:author>
     <itunes:explicit>false</itunes:explicit>
@@ -19,7 +38,17 @@
     <atom:link href="https://trusohamn.github.io/repeto/swedish-russian/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>01 Hälsningar — Приветствия</title>
-      <description>Öva ryska med svenska ledtrådar. Ämne: Hälsningar. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje rysk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 1 av 30: Hälsningar (Приветствия) – 36 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Hej! → Привет!
+• God morgon! → Доброе утро!
+• God eftermiddag! → Добрый день!
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 1 av 30: Hälsningar (Приветствия) – 36 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Hej! → Привет!&lt;/li&gt;&lt;li&gt;God morgon! → Доброе утро!&lt;/li&gt;&lt;li&gt;God eftermiddag! → Добрый день!&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-russian:topic-01</guid>
       <pubDate>Wed, 28 Oct 2026 17:34:21 +0000</pubDate>
       <itunes:episode>1</itunes:episode>
@@ -31,7 +60,17 @@
     </item>
     <item>
       <title>02 Tal — Числа</title>
-      <description>Öva ryska med svenska ledtrådar. Ämne: Tal. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje rysk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 2 av 30: Tal (Числа) – 35 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Ett → Один
+• Två → Два
+• Tre → Три
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 2 av 30: Tal (Числа) – 35 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Ett → Один&lt;/li&gt;&lt;li&gt;Två → Два&lt;/li&gt;&lt;li&gt;Tre → Три&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-russian:topic-02</guid>
       <pubDate>Wed, 28 Oct 2026 17:34:21 +0000</pubDate>
       <itunes:episode>2</itunes:episode>
@@ -43,7 +82,17 @@
     </item>
     <item>
       <title>03 Färger — Цвета</title>
-      <description>Öva ryska med svenska ledtrådar. Ämne: Färger. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje rysk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 3 av 30: Färger (Цвета) – 29 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Röd → Красный
+• Blå → Синий
+• Gul → Жёлтый
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 3 av 30: Färger (Цвета) – 29 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Röd → Красный&lt;/li&gt;&lt;li&gt;Blå → Синий&lt;/li&gt;&lt;li&gt;Gul → Жёлтый&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-russian:topic-03</guid>
       <pubDate>Wed, 28 Oct 2026 17:34:21 +0000</pubDate>
       <itunes:episode>3</itunes:episode>
@@ -55,7 +104,17 @@
     </item>
     <item>
       <title>04 Djur — Животные</title>
-      <description>Öva ryska med svenska ledtrådar. Ämne: Djur. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje rysk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 4 av 30: Djur (Животные) – 42 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Hund → Собака
+• Katt → Кошка
+• Fågel → Птица
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 4 av 30: Djur (Животные) – 42 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Hund → Собака&lt;/li&gt;&lt;li&gt;Katt → Кошка&lt;/li&gt;&lt;li&gt;Fågel → Птица&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-russian:topic-04</guid>
       <pubDate>Wed, 28 Oct 2026 17:34:21 +0000</pubDate>
       <itunes:episode>4</itunes:episode>
@@ -67,7 +126,17 @@
     </item>
     <item>
       <title>05 Familj — Семья</title>
-      <description>Öva ryska med svenska ledtrådar. Ämne: Familj. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje rysk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 5 av 30: Familj (Семья) – 26 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Mamma → Мама
+• Pappa → Папа
+• Syster → Сестра
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 5 av 30: Familj (Семья) – 26 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Mamma → Мама&lt;/li&gt;&lt;li&gt;Pappa → Папа&lt;/li&gt;&lt;li&gt;Syster → Сестра&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-russian:topic-05</guid>
       <pubDate>Wed, 28 Oct 2026 17:34:21 +0000</pubDate>
       <itunes:episode>5</itunes:episode>
@@ -79,7 +148,17 @@
     </item>
     <item>
       <title>06 Mat — Еда</title>
-      <description>Öva ryska med svenska ledtrådar. Ämne: Mat. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje rysk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 6 av 30: Mat (Еда) – 49 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Bröd → Хлеб
+• Mjölk → Молоко
+• Ägg → Яйцо
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 6 av 30: Mat (Еда) – 49 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Bröd → Хлеб&lt;/li&gt;&lt;li&gt;Mjölk → Молоко&lt;/li&gt;&lt;li&gt;Ägg → Яйцо&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-russian:topic-06</guid>
       <pubDate>Wed, 28 Oct 2026 17:34:21 +0000</pubDate>
       <itunes:episode>6</itunes:episode>
@@ -91,7 +170,17 @@
     </item>
     <item>
       <title>07 Kroppen — Тело</title>
-      <description>Öva ryska med svenska ledtrådar. Ämne: Kroppen. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje rysk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 7 av 30: Kroppen (Тело) – 37 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Huvud → Голова
+• Hår → Волосы
+• Öga → Глаз
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 7 av 30: Kroppen (Тело) – 37 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Huvud → Голова&lt;/li&gt;&lt;li&gt;Hår → Волосы&lt;/li&gt;&lt;li&gt;Öga → Глаз&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-russian:topic-07</guid>
       <pubDate>Wed, 28 Oct 2026 17:34:21 +0000</pubDate>
       <itunes:episode>7</itunes:episode>
@@ -103,7 +192,17 @@
     </item>
     <item>
       <title>08 Kläder — Одежда</title>
-      <description>Öva ryska med svenska ledtrådar. Ämne: Kläder. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje rysk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 8 av 30: Kläder (Одежда) – 29 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Tröja → Свитер
+• T-shirt → Футболка
+• Skjorta → Рубашка
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 8 av 30: Kläder (Одежда) – 29 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Tröja → Свитер&lt;/li&gt;&lt;li&gt;T-shirt → Футболка&lt;/li&gt;&lt;li&gt;Skjorta → Рубашка&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-russian:topic-08</guid>
       <pubDate>Wed, 28 Oct 2026 17:34:21 +0000</pubDate>
       <itunes:episode>8</itunes:episode>
@@ -115,7 +214,17 @@
     </item>
     <item>
       <title>09 Hemma — Дома</title>
-      <description>Öva ryska med svenska ledtrådar. Ämne: Hemma. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje rysk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 9 av 30: Hemma (Дома) – 38 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Hus → Дом
+• Lägenhet → Квартира
+• Rum → Комната
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 9 av 30: Hemma (Дома) – 38 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Hus → Дом&lt;/li&gt;&lt;li&gt;Lägenhet → Квартира&lt;/li&gt;&lt;li&gt;Rum → Комната&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-russian:topic-09</guid>
       <pubDate>Wed, 28 Oct 2026 17:34:21 +0000</pubDate>
       <itunes:episode>9</itunes:episode>
@@ -127,7 +236,17 @@
     </item>
     <item>
       <title>10 Skolan — Школа</title>
-      <description>Öva ryska med svenska ledtrådar. Ämne: Skolan. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje rysk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 10 av 30: Skolan (Школа) – 41 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Skola → Школа
+• Klassrum → Класс
+• Lärare → Учитель
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 10 av 30: Skolan (Школа) – 41 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Skola → Школа&lt;/li&gt;&lt;li&gt;Klassrum → Класс&lt;/li&gt;&lt;li&gt;Lärare → Учитель&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-russian:topic-10</guid>
       <pubDate>Wed, 28 Oct 2026 17:34:21 +0000</pubDate>
       <itunes:episode>10</itunes:episode>
@@ -139,7 +258,17 @@
     </item>
     <item>
       <title>11 Väder — Погода</title>
-      <description>Öva ryska med svenska ledtrådar. Ämne: Väder. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje rysk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 11 av 30: Väder (Погода) – 25 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Väder → Погода
+• Sol → Солнце
+• Regn → Дождь
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 11 av 30: Väder (Погода) – 25 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Väder → Погода&lt;/li&gt;&lt;li&gt;Sol → Солнце&lt;/li&gt;&lt;li&gt;Regn → Дождь&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-russian:topic-11</guid>
       <pubDate>Wed, 28 Oct 2026 17:34:21 +0000</pubDate>
       <itunes:episode>11</itunes:episode>
@@ -151,7 +280,17 @@
     </item>
     <item>
       <title>12 Årstider — Времена года</title>
-      <description>Öva ryska med svenska ledtrådar. Ämne: Årstider. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje rysk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 12 av 30: Årstider (Времена года) – 18 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Vår → Весна
+• Sommar → Лето
+• Höst → Осень
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 12 av 30: Årstider (Времена года) – 18 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Vår → Весна&lt;/li&gt;&lt;li&gt;Sommar → Лето&lt;/li&gt;&lt;li&gt;Höst → Осень&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-russian:topic-12</guid>
       <pubDate>Wed, 28 Oct 2026 17:34:21 +0000</pubDate>
       <itunes:episode>12</itunes:episode>
@@ -163,7 +302,17 @@
     </item>
     <item>
       <title>13 Dagar och tid — Дни и время</title>
-      <description>Öva ryska med svenska ledtrådar. Ämne: Dagar och tid. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje rysk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 13 av 30: Dagar och tid (Дни и время) – 29 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Måndag → Понедельник
+• Tisdag → Вторник
+• Onsdag → Среда
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 13 av 30: Dagar och tid (Дни и время) – 29 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Måndag → Понедельник&lt;/li&gt;&lt;li&gt;Tisdag → Вторник&lt;/li&gt;&lt;li&gt;Onsdag → Среда&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-russian:topic-13</guid>
       <pubDate>Wed, 28 Oct 2026 17:34:21 +0000</pubDate>
       <itunes:episode>13</itunes:episode>
@@ -175,7 +324,17 @@
     </item>
     <item>
       <title>14 Leksaker och lek — Игрушки и игры</title>
-      <description>Öva ryska med svenska ledtrådar. Ämne: Leksaker och lek. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje rysk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 14 av 30: Leksaker och lek (Игрушки и игры) – 34 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Leksak → Игрушка
+• Boll → Мяч
+• Docka → Кукла
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 14 av 30: Leksaker och lek (Игрушки и игры) – 34 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Leksak → Игрушка&lt;/li&gt;&lt;li&gt;Boll → Мяч&lt;/li&gt;&lt;li&gt;Docka → Кукла&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-russian:topic-14</guid>
       <pubDate>Wed, 28 Oct 2026 17:34:21 +0000</pubDate>
       <itunes:episode>14</itunes:episode>
@@ -187,7 +346,17 @@
     </item>
     <item>
       <title>15 Sport och aktiviteter — Спорт и занятия</title>
-      <description>Öva ryska med svenska ledtrådar. Ämne: Sport och aktiviteter. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje rysk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 15 av 30: Sport och aktiviteter (Спорт и занятия) – 25 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Fotboll → Футбол
+• Simning → Плавание
+• Cykling → Езда на велосипеде
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 15 av 30: Sport och aktiviteter (Спорт и занятия) – 25 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Fotboll → Футбол&lt;/li&gt;&lt;li&gt;Simning → Плавание&lt;/li&gt;&lt;li&gt;Cykling → Езда на велосипеде&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-russian:topic-15</guid>
       <pubDate>Wed, 28 Oct 2026 17:34:21 +0000</pubDate>
       <itunes:episode>15</itunes:episode>
@@ -199,7 +368,17 @@
     </item>
     <item>
       <title>16 Jag vill ha och jag behöver — Я хочу и мне нужно</title>
-      <description>Öva ryska med svenska ledtrådar. Ämne: Jag vill ha och jag behöver. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje rysk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 16 av 30: Jag vill ha och jag behöver (Я хочу и мне нужно) – 28 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Jag vill gå ut. → Я хочу выйти на улицу.
+• Jag vill ha en boll. → Я хочу мяч.
+• Jag vill äta. → Я хочу есть.
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 16 av 30: Jag vill ha och jag behöver (Я хочу и мне нужно) – 28 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Jag vill gå ut. → Я хочу выйти на улицу.&lt;/li&gt;&lt;li&gt;Jag vill ha en boll. → Я хочу мяч.&lt;/li&gt;&lt;li&gt;Jag vill äta. → Я хочу есть.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-russian:topic-16</guid>
       <pubDate>Wed, 28 Oct 2026 17:34:21 +0000</pubDate>
       <itunes:episode>16</itunes:episode>
@@ -211,7 +390,17 @@
     </item>
     <item>
       <title>17 Var är? — Где это?</title>
-      <description>Öva ryska med svenska ledtrådar. Ämne: Var är?. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje rysk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 17 av 30: Var är? (Где это?) – 28 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Var är nallen? → Где мишка?
+• Var är min mobil? → Где мой телефон?
+• Var är min väska? → Где моя сумка?
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 17 av 30: Var är? (Где это?) – 28 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Var är nallen? → Где мишка?&lt;/li&gt;&lt;li&gt;Var är min mobil? → Где мой телефон?&lt;/li&gt;&lt;li&gt;Var är min väska? → Где моя сумка?&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-russian:topic-17</guid>
       <pubDate>Wed, 28 Oct 2026 17:34:21 +0000</pubDate>
       <itunes:episode>17</itunes:episode>
@@ -223,7 +412,17 @@
     </item>
     <item>
       <title>18 Känslor — Чувства и эмоции</title>
-      <description>Öva ryska med svenska ledtrådar. Ämne: Känslor. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje rysk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 18 av 30: Känslor (Чувства и эмоции) – 28 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Glad → Весёлый
+• Ledsen → Грустный
+• Arg → Сердитый
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 18 av 30: Känslor (Чувства и эмоции) – 28 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Glad → Весёлый&lt;/li&gt;&lt;li&gt;Ledsen → Грустный&lt;/li&gt;&lt;li&gt;Arg → Сердитый&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-russian:topic-18</guid>
       <pubDate>Wed, 28 Oct 2026 17:34:21 +0000</pubDate>
       <itunes:episode>18</itunes:episode>
@@ -235,7 +434,17 @@
     </item>
     <item>
       <title>19 Färdmedel — Транспорт</title>
-      <description>Öva ryska med svenska ledtrådar. Ämne: Färdmedel. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje rysk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 19 av 30: Färdmedel (Транспорт) – 25 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Bil → Машина
+• Buss → Автобус
+• Tåg → Поезд
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 19 av 30: Färdmedel (Транспорт) – 25 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Bil → Машина&lt;/li&gt;&lt;li&gt;Buss → Автобус&lt;/li&gt;&lt;li&gt;Tåg → Поезд&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-russian:topic-19</guid>
       <pubDate>Wed, 28 Oct 2026 17:34:21 +0000</pubDate>
       <itunes:episode>19</itunes:episode>
@@ -247,7 +456,17 @@
     </item>
     <item>
       <title>20 Naturen — Природа</title>
-      <description>Öva ryska med svenska ledtrådar. Ämne: Naturen. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje rysk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 20 av 30: Naturen (Природа) – 27 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Skog → Лес
+• Hav → Море
+• Sjö → Озеро
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 20 av 30: Naturen (Природа) – 27 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Skog → Лес&lt;/li&gt;&lt;li&gt;Hav → Море&lt;/li&gt;&lt;li&gt;Sjö → Озеро&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-russian:topic-20</guid>
       <pubDate>Wed, 28 Oct 2026 17:34:21 +0000</pubDate>
       <itunes:episode>20</itunes:episode>
@@ -259,7 +478,17 @@
     </item>
     <item>
       <title>21 Högtider och firande — Праздники</title>
-      <description>Öva ryska med svenska ledtrådar. Ämne: Högtider och firande. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje rysk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 21 av 30: Högtider och firande (Праздники) – 23 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Födelsedag → День рождения
+• Grattis på födelsedagen! → С днём рождения!
+• Jul → Рождество
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 21 av 30: Högtider och firande (Праздники) – 23 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Födelsedag → День рождения&lt;/li&gt;&lt;li&gt;Grattis på födelsedagen! → С днём рождения!&lt;/li&gt;&lt;li&gt;Jul → Рождество&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-russian:topic-21</guid>
       <pubDate>Wed, 28 Oct 2026 17:34:21 +0000</pubDate>
       <itunes:episode>21</itunes:episode>
@@ -271,7 +500,17 @@
     </item>
     <item>
       <title>22 Vardagsrutiner — Распорядок дня</title>
-      <description>Öva ryska med svenska ledtrådar. Ämne: Vardagsrutiner. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje rysk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 22 av 30: Vardagsrutiner (Распорядок дня) – 28 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Vakna → Просыпаться
+• Stiga upp → Вставать
+• Borsta tänderna → Чистить зубы
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 22 av 30: Vardagsrutiner (Распорядок дня) – 28 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Vakna → Просыпаться&lt;/li&gt;&lt;li&gt;Stiga upp → Вставать&lt;/li&gt;&lt;li&gt;Borsta tänderna → Чистить зубы&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-russian:topic-22</guid>
       <pubDate>Wed, 28 Oct 2026 17:34:21 +0000</pubDate>
       <itunes:episode>22</itunes:episode>
@@ -283,7 +522,17 @@
     </item>
     <item>
       <title>23 Fråga och be om hjälp — Вопросы и просьбы</title>
-      <description>Öva ryska med svenska ledtrådar. Ämne: Fråga och be om hjälp. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje rysk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 23 av 30: Fråga och be om hjälp (Вопросы и просьбы) – 26 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Kan du hjälpa mig? → Ты можешь мне помочь?
+• Hjälp! → Помогите!
+• Snälla! → Пожалуйста!
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 23 av 30: Fråga och be om hjälp (Вопросы и просьбы) – 26 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Kan du hjälpa mig? → Ты можешь мне помочь?&lt;/li&gt;&lt;li&gt;Hjälp! → Помогите!&lt;/li&gt;&lt;li&gt;Snälla! → Пожалуйста!&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-russian:topic-23</guid>
       <pubDate>Wed, 28 Oct 2026 17:34:21 +0000</pubDate>
       <itunes:episode>23</itunes:episode>
@@ -295,7 +544,17 @@
     </item>
     <item>
       <title>24 Motsatser — Противоположности</title>
-      <description>Öva ryska med svenska ledtrådar. Ämne: Motsatser. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje rysk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 24 av 30: Motsatser (Противоположности) – 28 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Stor → Большой
+• Liten → Маленький
+• Lång → Длинный
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 24 av 30: Motsatser (Противоположности) – 28 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Stor → Большой&lt;/li&gt;&lt;li&gt;Liten → Маленький&lt;/li&gt;&lt;li&gt;Lång → Длинный&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-russian:topic-24</guid>
       <pubDate>Wed, 28 Oct 2026 17:34:21 +0000</pubDate>
       <itunes:episode>24</itunes:episode>
@@ -307,7 +566,17 @@
     </item>
     <item>
       <title>25 Handlingar och verb — Действия и глаголы</title>
-      <description>Öva ryska med svenska ledtrådar. Ämne: Handlingar och verb. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje rysk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 25 av 30: Handlingar och verb (Действия и глаголы) – 41 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Gå → Идти
+• Springa → Бегать
+• Hoppa → Прыгать
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 25 av 30: Handlingar och verb (Действия и глаголы) – 41 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Gå → Идти&lt;/li&gt;&lt;li&gt;Springa → Бегать&lt;/li&gt;&lt;li&gt;Hoppa → Прыгать&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-russian:topic-25</guid>
       <pubDate>Wed, 28 Oct 2026 17:34:21 +0000</pubDate>
       <itunes:episode>25</itunes:episode>
@@ -319,7 +588,17 @@
     </item>
     <item>
       <title>26 Platser i staden — Места в городе</title>
-      <description>Öva ryska med svenska ledtrådar. Ämne: Platser i staden. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje rysk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 26 av 30: Platser i staden (Места в городе) – 23 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Park → Парк
+• Lekplats → Детская площадка
+• Affär → Магазин
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 26 av 30: Platser i staden (Места в городе) – 23 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Park → Парк&lt;/li&gt;&lt;li&gt;Lekplats → Детская площадка&lt;/li&gt;&lt;li&gt;Affär → Магазин&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-russian:topic-26</guid>
       <pubDate>Wed, 28 Oct 2026 17:34:21 +0000</pubDate>
       <itunes:episode>26</itunes:episode>
@@ -331,7 +610,17 @@
     </item>
     <item>
       <title>27 Teknik — Техника</title>
-      <description>Öva ryska med svenska ledtrådar. Ämne: Teknik. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje rysk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 27 av 30: Teknik (Техника) – 22 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Telefon → Телефон
+• Mobiltelefon → Мобильный телефон
+• Dator → Компьютер
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 27 av 30: Teknik (Техника) – 22 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Telefon → Телефон&lt;/li&gt;&lt;li&gt;Mobiltelefon → Мобильный телефон&lt;/li&gt;&lt;li&gt;Dator → Компьютер&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-russian:topic-27</guid>
       <pubDate>Wed, 28 Oct 2026 17:34:21 +0000</pubDate>
       <itunes:episode>27</itunes:episode>
@@ -343,7 +632,17 @@
     </item>
     <item>
       <title>28 Musik och konst — Музыка и искусство</title>
-      <description>Öva ryska med svenska ledtrådar. Ämne: Musik och konst. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje rysk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 28 av 30: Musik och konst (Музыка и искусство) – 23 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Musik → Музыка
+• Sång → Песня
+• Dans → Танцы
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 28 av 30: Musik och konst (Музыка и искусство) – 23 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Musik → Музыка&lt;/li&gt;&lt;li&gt;Sång → Песня&lt;/li&gt;&lt;li&gt;Dans → Танцы&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-russian:topic-28</guid>
       <pubDate>Wed, 28 Oct 2026 17:34:21 +0000</pubDate>
       <itunes:episode>28</itunes:episode>
@@ -355,7 +654,17 @@
     </item>
     <item>
       <title>29 Artiga fraser — Вежливые слова</title>
-      <description>Öva ryska med svenska ledtrådar. Ämne: Artiga fraser. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje rysk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 29 av 30: Artiga fraser (Вежливые слова) – 17 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Snälla. → Пожалуйста.
+• Tack! → Спасибо!
+• Tack så mycket! → Большое спасибо!
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 29 av 30: Artiga fraser (Вежливые слова) – 17 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Snälla. → Пожалуйста.&lt;/li&gt;&lt;li&gt;Tack! → Спасибо!&lt;/li&gt;&lt;li&gt;Tack så mycket! → Большое спасибо!&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-russian:topic-29</guid>
       <pubDate>Wed, 28 Oct 2026 17:34:21 +0000</pubDate>
       <itunes:episode>29</itunes:episode>
@@ -367,7 +676,17 @@
     </item>
     <item>
       <title>30 Repetition — Повторение</title>
-      <description>Öva ryska med svenska ledtrådar. Ämne: Repetition. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje rysk fras spelas två gånger med pauser för att härma uttalet.</description>
+      <description>Ämne 30 av 30: Repetition (Повторение) – 11 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Bra gjort! → Молодец!
+• Du lär dig polska! → Ты учишь польский!
+• Nu övar vi! → Давай потренируемся!
+
+Tips: lyssna igen tills du hinner svara före rösten.</description>
+      <content:encoded>&lt;p&gt;Ämne 30 av 30: Repetition (Повторение) – 11 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Bra gjort! → Молодец!&lt;/li&gt;&lt;li&gt;Du lär dig polska! → Ты учишь польский!&lt;/li&gt;&lt;li&gt;Nu övar vi! → Давай потренируемся!&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:swedish-russian:topic-30</guid>
       <pubDate>Wed, 28 Oct 2026 17:34:21 +0000</pubDate>
       <itunes:episode>30</itunes:episode>
@@ -379,7 +698,15 @@
     </item>
     <item>
       <title>01 Den magiska radion: Det gamla bordet — Старый стол</title>
-      <description>Lyssna på ett kapitel ur berättelsen Волшебное радио på ryska, öva orden med svenska ledtrådar och lyssna sedan på kapitlet igen.</description>
+      <description>Kapitel 1 av 8 i berättelsen ”Den magiska radion” (Волшебное радио). Två syskon hittar en gammal träradio på en loppmarknad. Plötsligt surrar den – och en gyllene text visar att radion är till just dem.
+
+Så går avsnittet till:
+1. Lyssna på hela kapitlet på ryska – du behöver inte förstå allt.
+2. Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på ryska.
+3. Lyssna på kapitlet igen – nu förstår du mycket mer.
+
+En ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.</description>
+      <content:encoded>&lt;p&gt;Kapitel 1 av 8 i berättelsen ”Den magiska radion” (Волшебное радио). Två syskon hittar en gammal träradio på en loppmarknad. Plötsligt surrar den – och en gyllene text visar att radion är till just dem.&lt;/p&gt;&lt;p&gt;Så går avsnittet till:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Lyssna på hela kapitlet på ryska – du behöver inte förstå allt.&lt;/li&gt;&lt;li&gt;Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på ryska.&lt;/li&gt;&lt;li&gt;Lyssna på kapitlet igen – nu förstår du mycket mer.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;En ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">magical_radio:sv:ru:chapter-01</guid>
       <pubDate>Wed, 28 Oct 2026 17:35:10 +0000</pubDate>
       <itunes:episode>1</itunes:episode>
@@ -392,7 +719,15 @@
     </item>
     <item>
       <title>02 Den magiska radion: En röst ur radion — Голос из радио</title>
-      <description>Lyssna på ett kapitel ur berättelsen Волшебное радио på ryska, öva orden med svenska ledtrådar och lyssna sedan på kapitlet igen.</description>
+      <description>Kapitel 2 av 8 i berättelsen ”Den magiska radion” (Волшебное радио). Hemma trycker de på den blå knappen. Ur radion kommer ett moln som doftar kanel – och en glad röst ger dem ett uppdrag.
+
+Så går avsnittet till:
+1. Lyssna på hela kapitlet på ryska – du behöver inte förstå allt.
+2. Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på ryska.
+3. Lyssna på kapitlet igen – nu förstår du mycket mer.
+
+En ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.</description>
+      <content:encoded>&lt;p&gt;Kapitel 2 av 8 i berättelsen ”Den magiska radion” (Волшебное радио). Hemma trycker de på den blå knappen. Ur radion kommer ett moln som doftar kanel – och en glad röst ger dem ett uppdrag.&lt;/p&gt;&lt;p&gt;Så går avsnittet till:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Lyssna på hela kapitlet på ryska – du behöver inte förstå allt.&lt;/li&gt;&lt;li&gt;Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på ryska.&lt;/li&gt;&lt;li&gt;Lyssna på kapitlet igen – nu förstår du mycket mer.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;En ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">magical_radio:sv:ru:chapter-02</guid>
       <pubDate>Wed, 28 Oct 2026 17:35:10 +0000</pubDate>
       <itunes:episode>2</itunes:episode>
@@ -405,7 +740,15 @@
     </item>
     <item>
       <title>03 Den magiska radion: En mus under trädet — Мышка под деревом</title>
-      <description>Lyssna på ett kapitel ur berättelsen Волшебное радио på ryska, öva orden med svenska ledtrådar och lyssna sedan på kapitlet igen.</description>
+      <description>Kapitel 3 av 8 i berättelsen ”Den magiska radion” (Волшебное радио). Med ficklampa och ost letar syskonen under det gamla trädet. En liten mus vill byta, och under löven väntar en dörr i marken.
+
+Så går avsnittet till:
+1. Lyssna på hela kapitlet på ryska – du behöver inte förstå allt.
+2. Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på ryska.
+3. Lyssna på kapitlet igen – nu förstår du mycket mer.
+
+En ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.</description>
+      <content:encoded>&lt;p&gt;Kapitel 3 av 8 i berättelsen ”Den magiska radion” (Волшебное радио). Med ficklampa och ost letar syskonen under det gamla trädet. En liten mus vill byta, och under löven väntar en dörr i marken.&lt;/p&gt;&lt;p&gt;Så går avsnittet till:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Lyssna på hela kapitlet på ryska – du behöver inte förstå allt.&lt;/li&gt;&lt;li&gt;Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på ryska.&lt;/li&gt;&lt;li&gt;Lyssna på kapitlet igen – nu förstår du mycket mer.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;En ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">magical_radio:sv:ru:chapter-03</guid>
       <pubDate>Wed, 28 Oct 2026 17:35:10 +0000</pubDate>
       <itunes:episode>3</itunes:episode>
@@ -418,7 +761,15 @@
     </item>
     <item>
       <title>04 Den magiska radion: Trappan ner — Лестница вниз</title>
-      <description>Lyssna på ett kapitel ur berättelsen Волшебное радио på ryska, öva orden med svenska ledtrådar och lyssna sedan på kapitlet igen.</description>
+      <description>Kapitel 4 av 8 i berättelsen ”Den magiska radion” (Волшебное радио). Silvernyckeln öppnar dörren. En stentrappa leder ner till ett rum fullt av flygande böcker och blå, lysande blommor.
+
+Så går avsnittet till:
+1. Lyssna på hela kapitlet på ryska – du behöver inte förstå allt.
+2. Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på ryska.
+3. Lyssna på kapitlet igen – nu förstår du mycket mer.
+
+En ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.</description>
+      <content:encoded>&lt;p&gt;Kapitel 4 av 8 i berättelsen ”Den magiska radion” (Волшебное радио). Silvernyckeln öppnar dörren. En stentrappa leder ner till ett rum fullt av flygande böcker och blå, lysande blommor.&lt;/p&gt;&lt;p&gt;Så går avsnittet till:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Lyssna på hela kapitlet på ryska – du behöver inte förstå allt.&lt;/li&gt;&lt;li&gt;Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på ryska.&lt;/li&gt;&lt;li&gt;Lyssna på kapitlet igen – nu förstår du mycket mer.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;En ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">magical_radio:sv:ru:chapter-04</guid>
       <pubDate>Wed, 28 Oct 2026 17:35:10 +0000</pubDate>
       <itunes:episode>4</itunes:episode>
@@ -431,7 +782,15 @@
     </item>
     <item>
       <title>05 Den magiska radion: Den flygande boken — Летающая книга</title>
-      <description>Lyssna på ett kapitel ur berättelsen Волшебное радио på ryska, öva orden med svenska ledtrådar och lyssna sedan på kapitlet igen.</description>
+      <description>Kapitel 5 av 8 i berättelsen ”Den magiska radion” (Волшебное радио). En gyllene bok landar på en axel, och den andra radion lär ut en trollformel som lagar allt som är trasigt.
+
+Så går avsnittet till:
+1. Lyssna på hela kapitlet på ryska – du behöver inte förstå allt.
+2. Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på ryska.
+3. Lyssna på kapitlet igen – nu förstår du mycket mer.
+
+En ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.</description>
+      <content:encoded>&lt;p&gt;Kapitel 5 av 8 i berättelsen ”Den magiska radion” (Волшебное радио). En gyllene bok landar på en axel, och den andra radion lär ut en trollformel som lagar allt som är trasigt.&lt;/p&gt;&lt;p&gt;Så går avsnittet till:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Lyssna på hela kapitlet på ryska – du behöver inte förstå allt.&lt;/li&gt;&lt;li&gt;Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på ryska.&lt;/li&gt;&lt;li&gt;Lyssna på kapitlet igen – nu förstår du mycket mer.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;En ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">magical_radio:sv:ru:chapter-05</guid>
       <pubDate>Wed, 28 Oct 2026 17:35:10 +0000</pubDate>
       <itunes:episode>5</itunes:episode>
@@ -444,7 +803,15 @@
     </item>
     <item>
       <title>06 Den magiska radion: Den första trollformeln — Первое заклинание</title>
-      <description>Lyssna på ett kapitel ur berättelsen Волшебное радио på ryska, öva orden med svenska ledtrådar och lyssna sedan på kapitlet igen.</description>
+      <description>Kapitel 6 av 8 i berättelsen ”Den magiska radion” (Волшебное радио). Dags att prova trollformeln på en trasig kompass. Fungerar den? Och vem väntar bakom den gröna dörren?
+
+Så går avsnittet till:
+1. Lyssna på hela kapitlet på ryska – du behöver inte förstå allt.
+2. Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på ryska.
+3. Lyssna på kapitlet igen – nu förstår du mycket mer.
+
+En ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.</description>
+      <content:encoded>&lt;p&gt;Kapitel 6 av 8 i berättelsen ”Den magiska radion” (Волшебное радио). Dags att prova trollformeln på en trasig kompass. Fungerar den? Och vem väntar bakom den gröna dörren?&lt;/p&gt;&lt;p&gt;Så går avsnittet till:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Lyssna på hela kapitlet på ryska – du behöver inte förstå allt.&lt;/li&gt;&lt;li&gt;Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på ryska.&lt;/li&gt;&lt;li&gt;Lyssna på kapitlet igen – nu förstår du mycket mer.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;En ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">magical_radio:sv:ru:chapter-06</guid>
       <pubDate>Wed, 28 Oct 2026 17:35:10 +0000</pubDate>
       <itunes:episode>6</itunes:episode>
@@ -457,7 +824,15 @@
     </item>
     <item>
       <title>07 Den magiska radion: Den gyllene fågeln — Золотая птица</title>
-      <description>Lyssna på ett kapitel ur berättelsen Волшебное радио på ryska, öva orden med svenska ledtrådar och lyssna sedan på kapitlet igen.</description>
+      <description>Kapitel 7 av 8 i berättelsen ”Den magiska radion” (Волшебное радио). Bakom dörren finns en trädgård med en gyllene fågel som inte kan sjunga – den tickar bara som en klocka. Något saknas i vingen.
+
+Så går avsnittet till:
+1. Lyssna på hela kapitlet på ryska – du behöver inte förstå allt.
+2. Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på ryska.
+3. Lyssna på kapitlet igen – nu förstår du mycket mer.
+
+En ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.</description>
+      <content:encoded>&lt;p&gt;Kapitel 7 av 8 i berättelsen ”Den magiska radion” (Волшебное радио). Bakom dörren finns en trädgård med en gyllene fågel som inte kan sjunga – den tickar bara som en klocka. Något saknas i vingen.&lt;/p&gt;&lt;p&gt;Så går avsnittet till:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Lyssna på hela kapitlet på ryska – du behöver inte förstå allt.&lt;/li&gt;&lt;li&gt;Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på ryska.&lt;/li&gt;&lt;li&gt;Lyssna på kapitlet igen – nu förstår du mycket mer.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;En ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">magical_radio:sv:ru:chapter-07</guid>
       <pubDate>Wed, 28 Oct 2026 17:35:10 +0000</pubDate>
       <itunes:episode>7</itunes:episode>
@@ -470,7 +845,15 @@
     </item>
     <item>
       <title>08 Den magiska radion: Den stora konserten — Большой концерт</title>
-      <description>Lyssna på ett kapitel ur berättelsen Волшебное радио på ryska, öva orden med svenska ledtrådar och lyssna sedan på kapitlet igen.</description>
+      <description>Kapitel 8 av 8 i berättelsen ”Den magiska radion” (Волшебное радио). Finalen! Kan syskonen laga den gyllene fågeln? Berättelsen slutar med sång, dansande fjärilar och en vän som stannar för alltid.
+
+Så går avsnittet till:
+1. Lyssna på hela kapitlet på ryska – du behöver inte förstå allt.
+2. Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på ryska.
+3. Lyssna på kapitlet igen – nu förstår du mycket mer.
+
+En ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.</description>
+      <content:encoded>&lt;p&gt;Kapitel 8 av 8 i berättelsen ”Den magiska radion” (Волшебное радио). Finalen! Kan syskonen laga den gyllene fågeln? Berättelsen slutar med sång, dansande fjärilar och en vän som stannar för alltid.&lt;/p&gt;&lt;p&gt;Så går avsnittet till:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Lyssna på hela kapitlet på ryska – du behöver inte förstå allt.&lt;/li&gt;&lt;li&gt;Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på ryska.&lt;/li&gt;&lt;li&gt;Lyssna på kapitlet igen – nu förstår du mycket mer.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;En ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">magical_radio:sv:ru:chapter-08</guid>
       <pubDate>Wed, 28 Oct 2026 17:35:10 +0000</pubDate>
       <itunes:episode>8</itunes:episode>

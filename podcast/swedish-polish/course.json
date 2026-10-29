@@ -1,6 +1,6 @@
 {
-  "title": "Repeto – Svenska till polska",
-  "description": "Lär dig polska med svenska ledtrådar. En språkkurs för barn med tydligt uttal, tankepauser och varje polsk fras två gånger. Rösterna är AI-genererade.",
+  "title": "Repeto – Polska för svensktalande",
+  "description": "Lär dig polska genom att lyssna och prata – med svenska som stöd. Repeto är en lyssningskurs för nybörjare i alla åldrar: barn, föräldrar, mor- och farföräldrar och alla som vill komma igång med polska. Ingen förkunskap och ingen bok behövs.\n\nSå fungerar det: du hör ett ord eller en mening på svenska och får en paus att säga det på polska. Sedan kommer svaret – två gånger, med pauser så att du hinner härma uttalet.\n\nDet här ingår:\n• Säsong 1 – Övningar: 30 korta ämnen, från hälsningar och siffror till mat, känslor och vardag.\n• Säsong 2 – Berättelsen ”Den magiska radion” (Magiczne Radio): ett kapitel per avsnitt. Du hör kapitlet på polska, övar orden och hör kapitlet igen.\n• Fler berättelser är på väg – vi lägger till nya löpande. Följ podden så missar du inget.\n\nSå använder du kursen:\n• Börja med säsong 1, avsnitt 1, och lyssna i ordning.\n• Säg svaret högt i pausen – det är där du lär dig.\n• Lyssna på avsnittet igen tills du hinner svara före rösten.\n• Även att lyssna i bakgrunden hjälper – du vänjer dig vid ljuden och språkets melodi.\n\nGillar du upplägget? Repeto finns även på andra språk – samma format, så du känner igen dig direkt. Sök på ”Repeto” där du lyssnar på poddar.\n\nHör gärna av dig! Önskemål om nya språk, rättelser och idéer till nya berättelser är varmt välkomna: repeto.lingo@gmail.com\n\nRösterna är AI-genererade (Microsoft Azure).",
   "language": "sv",
   "author": "Repeto",
   "email": "repeto.lingo@gmail.com",
@@ -11,7 +11,7 @@
       "file": "practice/01_greetings_se_pl_double_2026-10-29_09-07-38.mp3",
       "duration_ms": 371315,
       "published": "2026-10-27T14:00:00+00:00",
-      "description": "Öva polska med svenska ledtrådar. Ämne: Hälsningar. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.",
+      "description": "Ämne 1 av 30: Hälsningar (Powitania) – 36 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Hej! → Cześć!\n• God morgon! → Dzień dobry!\n• God eftermiddag! → Dzień dobry!\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
       "episode": 1
     },
@@ -21,7 +21,7 @@
       "file": "practice/02_numbers_se_pl_double_2026-10-29_09-07-38.mp3",
       "duration_ms": 350314,
       "published": "2026-10-27T14:00:00+00:00",
-      "description": "Öva polska med svenska ledtrådar. Ämne: Tal. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.",
+      "description": "Ämne 2 av 30: Tal (Liczby) – 35 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Ett → Jeden\n• Två → Dwa\n• Tre → Trzy\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
       "episode": 2
     },
@@ -31,7 +31,7 @@
       "file": "practice/03_colors_se_pl_double_2026-10-29_09-07-38.mp3",
       "duration_ms": 315758,
       "published": "2026-10-27T14:00:00+00:00",
-      "description": "Öva polska med svenska ledtrådar. Ämne: Färger. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.",
+      "description": "Ämne 3 av 30: Färger (Kolory) – 29 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Röd → Czerwony\n• Blå → Niebieski\n• Gul → Żółty\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
       "episode": 3
     },
@@ -41,7 +41,7 @@
       "file": "practice/04_animals_se_pl_double_2026-10-29_09-07-38.mp3",
       "duration_ms": 412836,
       "published": "2026-10-27T14:00:00+00:00",
-      "description": "Öva polska med svenska ledtrådar. Ämne: Djur. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.",
+      "description": "Ämne 4 av 30: Djur (Zwierzęta) – 42 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Hund → Pies\n• Katt → Kot\n• Fågel → Ptak\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
       "episode": 4
     },
@@ -51,7 +51,7 @@
       "file": "practice/05_family_se_pl_double_2026-10-29_09-07-38.mp3",
       "duration_ms": 293239,
       "published": "2026-10-27T14:00:00+00:00",
-      "description": "Öva polska med svenska ledtrådar. Ämne: Familj. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.",
+      "description": "Ämne 5 av 30: Familj (Rodzina) – 26 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Mamma → Mama\n• Pappa → Tata\n• Syster → Siostra\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
       "episode": 5
     },
@@ -61,7 +61,7 @@
       "file": "practice/06_food_se_pl_double_2026-10-29_09-07-38.mp3",
       "duration_ms": 498711,
       "published": "2026-10-27T14:00:00+00:00",
-      "description": "Öva polska med svenska ledtrådar. Ämne: Mat. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.",
+      "description": "Ämne 6 av 30: Mat (Jedzenie) – 49 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Bröd → Chleb\n• Mjölk → Mleko\n• Ägg → Jajko\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
       "episode": 6
     },
@@ -71,7 +71,7 @@
       "file": "practice/07_body_se_pl_double_2026-10-29_09-07-38.mp3",
       "duration_ms": 371539,
       "published": "2026-10-27T14:00:00+00:00",
-      "description": "Öva polska med svenska ledtrådar. Ämne: Kroppen. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.",
+      "description": "Ämne 7 av 30: Kroppen (Ciało) – 37 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Huvud → Głowa\n• Hår → Włosy\n• Öga → Oko\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
       "episode": 7
     },
@@ -81,7 +81,7 @@
       "file": "practice/08_clothing_se_pl_double_2026-10-29_09-07-38.mp3",
       "duration_ms": 313449,
       "published": "2026-10-27T14:00:00+00:00",
-      "description": "Öva polska med svenska ledtrådar. Ämne: Kläder. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.",
+      "description": "Ämne 8 av 30: Kläder (Ubrania) – 29 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Tröja → Sweter\n• T-shirt → Koszulka\n• Skjorta → Koszula\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
       "episode": 8
     },
@@ -91,7 +91,7 @@
       "file": "practice/09_home_se_pl_double_2026-10-29_09-07-38.mp3",
       "duration_ms": 391123,
       "published": "2026-10-27T14:00:00+00:00",
-      "description": "Öva polska med svenska ledtrådar. Ämne: Hemma. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.",
+      "description": "Ämne 9 av 30: Hemma (W domu) – 38 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Hus → Dom\n• Lägenhet → Mieszkanie\n• Rum → Pokój\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
       "episode": 9
     },
@@ -101,7 +101,7 @@
       "file": "practice/10_school_se_pl_double_2026-10-29_09-07-38.mp3",
       "duration_ms": 436632,
       "published": "2026-10-27T14:00:00+00:00",
-      "description": "Öva polska med svenska ledtrådar. Ämne: Skolan. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.",
+      "description": "Ämne 10 av 30: Skolan (Szkoła) – 41 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Skola → Szkoła\n• Klassrum → Klasa\n• Lärare → Nauczyciel\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
       "episode": 10
     },
@@ -111,7 +111,7 @@
       "file": "practice/11_weather_se_pl_double_2026-10-29_09-07-38.mp3",
       "duration_ms": 258528,
       "published": "2026-10-27T14:00:00+00:00",
-      "description": "Öva polska med svenska ledtrådar. Ämne: Väder. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.",
+      "description": "Ämne 11 av 30: Väder (Pogoda) – 25 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Väder → Pogoda\n• Sol → Słońce\n• Regn → Deszcz\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
       "episode": 11
     },
@@ -121,7 +121,7 @@
       "file": "practice/12_seasons_se_pl_double_2026-10-29_09-07-38.mp3",
       "duration_ms": 205547,
       "published": "2026-10-27T14:00:00+00:00",
-      "description": "Öva polska med svenska ledtrådar. Ämne: Årstider. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.",
+      "description": "Ämne 12 av 30: Årstider (Pory roku) – 18 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Vår → Wiosna\n• Sommar → Lato\n• Höst → Jesień\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
       "episode": 12
     },
@@ -131,7 +131,7 @@
       "file": "practice/13_days_and_time_se_pl_double_2026-10-29_09-07-38.mp3",
       "duration_ms": 309431,
       "published": "2026-10-27T14:00:00+00:00",
-      "description": "Öva polska med svenska ledtrådar. Ämne: Dagar och tid. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.",
+      "description": "Ämne 13 av 30: Dagar och tid (Dni i czas) – 29 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Måndag → Poniedziałek\n• Tisdag → Wtorek\n• Onsdag → Środa\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
       "episode": 13
     },
@@ -141,7 +141,7 @@
       "file": "practice/14_toys_and_play_se_pl_double_2026-10-29_09-07-38.mp3",
       "duration_ms": 368371,
       "published": "2026-10-27T14:00:00+00:00",
-      "description": "Öva polska med svenska ledtrådar. Ämne: Leksaker och lek. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.",
+      "description": "Ämne 14 av 30: Leksaker och lek (Zabawki i zabawa) – 34 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Leksak → Zabawka\n• Boll → Piłka\n• Docka → Lalka\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
       "episode": 14
     },
@@ -151,7 +151,7 @@
       "file": "practice/15_sports_and_activities_se_pl_double_2026-10-29_09-07-38.mp3",
       "duration_ms": 279425,
       "published": "2026-10-27T14:00:00+00:00",
-      "description": "Öva polska med svenska ledtrådar. Ämne: Sport och aktiviteter. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.",
+      "description": "Ämne 15 av 30: Sport och aktiviteter (Sport i zajęcia) – 25 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Fotboll → Piłka nożna\n• Simning → Pływanie\n• Cykling → Jazda na rowerze\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
       "episode": 15
     },
@@ -161,7 +161,7 @@
       "file": "practice/16_i_want_i_need_se_pl_double_2026-10-29_09-07-38.mp3",
       "duration_ms": 320258,
       "published": "2026-10-27T14:00:00+00:00",
-      "description": "Öva polska med svenska ledtrådar. Ämne: Jag vill ha och jag behöver. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.",
+      "description": "Ämne 16 av 30: Jag vill ha och jag behöver (Chcę i potrzebuję) – 28 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Jag vill gå ut. → Chcę wyjść na dwór.\n• Jag vill ha en boll. → Chcę piłkę.\n• Jag vill äta. → Chcę jeść.\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
       "episode": 16
     },
@@ -171,7 +171,7 @@
       "file": "practice/17_where_is_se_pl_double_2026-10-29_09-07-38.mp3",
       "duration_ms": 317128,
       "published": "2026-10-27T14:00:00+00:00",
-      "description": "Öva polska med svenska ledtrådar. Ämne: Var är?. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.",
+      "description": "Ämne 17 av 30: Var är? (Gdzie jest?) – 28 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Var är nallen? → Gdzie jest miś?\n• Var är min mobil? → Gdzie jest mój telefon?\n• Var är min väska? → Gdzie jest moja torba?\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
       "episode": 17
     },
@@ -181,7 +181,7 @@
       "file": "practice/18_feelings_and_emotions_se_pl_double_2026-10-29_09-07-38.mp3",
       "duration_ms": 307894,
       "published": "2026-10-27T14:00:00+00:00",
-      "description": "Öva polska med svenska ledtrådar. Ämne: Känslor. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.",
+      "description": "Ämne 18 av 30: Känslor (Uczucia i emocje) – 28 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Glad → Wesoły\n• Ledsen → Smutny\n• Arg → Zły\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
       "episode": 18
     },
@@ -191,7 +191,7 @@
       "file": "practice/19_transport_se_pl_double_2026-10-29_09-07-38.mp3",
       "duration_ms": 271106,
       "published": "2026-10-27T14:00:00+00:00",
-      "description": "Öva polska med svenska ledtrådar. Ämne: Färdmedel. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.",
+      "description": "Ämne 19 av 30: Färdmedel (Środki transportu) – 25 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Bil → Samochód\n• Buss → Autobus\n• Tåg → Pociąg\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
       "episode": 19
     },
@@ -201,7 +201,7 @@
       "file": "practice/20_nature_se_pl_double_2026-10-29_09-07-38.mp3",
       "duration_ms": 277225,
       "published": "2026-10-27T14:00:00+00:00",
-      "description": "Öva polska med svenska ledtrådar. Ämne: Naturen. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.",
+      "description": "Ämne 20 av 30: Naturen (Przyroda) – 27 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Skog → Las\n• Hav → Morze\n• Sjö → Jezioro\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
       "episode": 20
     },
@@ -211,7 +211,7 @@
       "file": "practice/21_holidays_and_celebrations_se_pl_double_2026-10-29_09-07-38.mp3",
       "duration_ms": 264331,
       "published": "2026-10-27T14:00:00+00:00",
-      "description": "Öva polska med svenska ledtrådar. Ämne: Högtider och firande. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.",
+      "description": "Ämne 21 av 30: Högtider och firande (Święta i uroczystości) – 23 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Födelsedag → Urodziny\n• Grattis på födelsedagen! → Wszystkiego najlepszego z okazji urodzin!\n• Jul → Boże Narodzenie\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
       "episode": 21
     },
@@ -221,7 +221,7 @@
       "file": "practice/22_daily_routine_se_pl_double_2026-10-29_09-07-38.mp3",
       "duration_ms": 316831,
       "published": "2026-10-27T14:00:00+00:00",
-      "description": "Öva polska med svenska ledtrådar. Ämne: Vardagsrutiner. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.",
+      "description": "Ämne 22 av 30: Vardagsrutiner (Codzienne czynności) – 28 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Vakna → Budzić się\n• Stiga upp → Wstawać\n• Borsta tänderna → Myć zęby\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
       "episode": 22
     },
@@ -231,7 +231,7 @@
       "file": "practice/23_asking_and_requests_se_pl_double_2026-10-29_09-07-38.mp3",
       "duration_ms": 274798,
       "published": "2026-10-27T14:00:00+00:00",
-      "description": "Öva polska med svenska ledtrådar. Ämne: Fråga och be om hjälp. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.",
+      "description": "Ämne 23 av 30: Fråga och be om hjälp (Pytania i prośby) – 26 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Kan du hjälpa mig? → Czy możesz mi pomóc?\n• Hjälp! → Pomocy!\n• Snälla! → Proszę!\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
       "episode": 23
     },
@@ -241,7 +241,7 @@
       "file": "practice/24_opposites_se_pl_double_2026-10-29_09-07-38.mp3",
       "duration_ms": 288144,
       "published": "2026-10-27T14:00:00+00:00",
-      "description": "Öva polska med svenska ledtrådar. Ämne: Motsatser. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.",
+      "description": "Ämne 24 av 30: Motsatser (Przeciwieństwa) – 28 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Stor → Duży\n• Liten → Mały\n• Lång → Długi\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
       "episode": 24
     },
@@ -251,7 +251,7 @@
       "file": "practice/25_actions_and_verbs_se_pl_double_2026-10-29_09-07-38.mp3",
       "duration_ms": 423992,
       "published": "2026-10-27T14:00:00+00:00",
-      "description": "Öva polska med svenska ledtrådar. Ämne: Handlingar och verb. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.",
+      "description": "Ämne 25 av 30: Handlingar och verb (Czynności i czasowniki) – 41 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Gå → Iść\n• Springa → Biegać\n• Hoppa → Skakać\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
       "episode": 25
     },
@@ -261,7 +261,7 @@
       "file": "practice/26_places_in_town_se_pl_double_2026-10-29_09-07-38.mp3",
       "duration_ms": 254160,
       "published": "2026-10-27T14:00:00+00:00",
-      "description": "Öva polska med svenska ledtrådar. Ämne: Platser i staden. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.",
+      "description": "Ämne 26 av 30: Platser i staden (Miejsca w mieście) – 23 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Park → Park\n• Lekplats → Plac zabaw\n• Affär → Sklep\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
       "episode": 26
     },
@@ -271,7 +271,7 @@
       "file": "practice/27_technology_se_pl_double_2026-10-29_09-07-38.mp3",
       "duration_ms": 247357,
       "published": "2026-10-27T14:00:00+00:00",
-      "description": "Öva polska med svenska ledtrådar. Ämne: Teknik. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.",
+      "description": "Ämne 27 av 30: Teknik (Technologia) – 22 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Telefon → Telefon\n• Mobiltelefon → Telefon komórkowy\n• Dator → Komputer\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
       "episode": 27
     },
@@ -281,7 +281,7 @@
       "file": "practice/28_music_and_art_se_pl_double_2026-10-29_09-07-38.mp3",
       "duration_ms": 245967,
       "published": "2026-10-27T14:00:00+00:00",
-      "description": "Öva polska med svenska ledtrådar. Ämne: Musik och konst. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.",
+      "description": "Ämne 28 av 30: Musik och konst (Muzyka i sztuka) – 23 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Musik → Muzyka\n• Sång → Piosenka\n• Dans → Taniec\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
       "episode": 28
     },
@@ -291,7 +291,7 @@
       "file": "practice/29_polite_phrases_se_pl_double_2026-10-29_09-07-38.mp3",
       "duration_ms": 176045,
       "published": "2026-10-27T14:00:00+00:00",
-      "description": "Öva polska med svenska ledtrådar. Ämne: Artiga fraser. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.",
+      "description": "Ämne 29 av 30: Artiga fraser (Zwroty grzecznościowe) – 17 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Snälla. → Proszę.\n• Tack! → Dziękuję!\n• Tack så mycket! → Bardzo dziękuję!\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
       "episode": 29
     },
@@ -301,7 +301,7 @@
       "file": "practice/30_review_and_recap_se_pl_double_2026-10-29_09-07-38.mp3",
       "duration_ms": 125038,
       "published": "2026-10-27T14:00:00+00:00",
-      "description": "Öva polska med svenska ledtrådar. Ämne: Repetition. Lyssna på svenska, tänk i två sekunder och säg svaret. Varje polsk fras spelas två gånger med pauser för att härma uttalet.",
+      "description": "Ämne 30 av 30: Repetition (Powtórka) – 11 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Bra gjort! → Dobra robota!\n• Du lär dig polska! → Uczysz się polskiego!\n• Nu övar vi! → Ćwiczmy!\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
       "episode": 30
     },
@@ -312,7 +312,7 @@
       "image": "images/stories/magical_radio/cover.jpeg",
       "duration_ms": 304476,
       "published": "2026-10-27T21:09:04+00:00",
-      "description": "Lyssna på ett kapitel ur berättelsen Magiczne Radio på polska, öva orden med svenska ledtrådar och lyssna sedan på kapitlet igen.",
+      "description": "Kapitel 1 av 8 i berättelsen ”Den magiska radion” (Magiczne Radio). Två syskon hittar en gammal träradio på en loppmarknad. Plötsligt surrar den – och en gyllene text visar att radion är till just dem.\n\nSå går avsnittet till:\n1. Lyssna på hela kapitlet på polska – du behöver inte förstå allt.\n2. Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på polska.\n3. Lyssna på kapitlet igen – nu förstår du mycket mer.\n\nEn ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.",
       "season": 2,
       "episode": 1
     },
@@ -323,7 +323,7 @@
       "image": "images/stories/magical_radio/cover.jpeg",
       "duration_ms": 258867,
       "published": "2026-10-27T21:09:04+00:00",
-      "description": "Lyssna på ett kapitel ur berättelsen Magiczne Radio på polska, öva orden med svenska ledtrådar och lyssna sedan på kapitlet igen.",
+      "description": "Kapitel 2 av 8 i berättelsen ”Den magiska radion” (Magiczne Radio). Hemma trycker de på den blå knappen. Ur radion kommer ett moln som doftar kanel – och en glad röst ger dem ett uppdrag.\n\nSå går avsnittet till:\n1. Lyssna på hela kapitlet på polska – du behöver inte förstå allt.\n2. Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på polska.\n3. Lyssna på kapitlet igen – nu förstår du mycket mer.\n\nEn ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.",
       "season": 2,
       "episode": 2
     },
@@ -334,7 +334,7 @@
       "image": "images/stories/magical_radio/cover.jpeg",
       "duration_ms": 294879,
       "published": "2026-10-27T21:09:04+00:00",
-      "description": "Lyssna på ett kapitel ur berättelsen Magiczne Radio på polska, öva orden med svenska ledtrådar och lyssna sedan på kapitlet igen.",
+      "description": "Kapitel 3 av 8 i berättelsen ”Den magiska radion” (Magiczne Radio). Med ficklampa och ost letar syskonen under det gamla trädet. En liten mus vill byta, och under löven väntar en dörr i marken.\n\nSå går avsnittet till:\n1. Lyssna på hela kapitlet på polska – du behöver inte förstå allt.\n2. Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på polska.\n3. Lyssna på kapitlet igen – nu förstår du mycket mer.\n\nEn ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.",
       "season": 2,
       "episode": 3
     },
@@ -345,7 +345,7 @@
       "image": "images/stories/magical_radio/cover.jpeg",
       "duration_ms": 271404,
       "published": "2026-10-27T21:09:04+00:00",
-      "description": "Lyssna på ett kapitel ur berättelsen Magiczne Radio på polska, öva orden med svenska ledtrådar och lyssna sedan på kapitlet igen.",
+      "description": "Kapitel 4 av 8 i berättelsen ”Den magiska radion” (Magiczne Radio). Silvernyckeln öppnar dörren. En stentrappa leder ner till ett rum fullt av flygande böcker och blå, lysande blommor.\n\nSå går avsnittet till:\n1. Lyssna på hela kapitlet på polska – du behöver inte förstå allt.\n2. Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på polska.\n3. Lyssna på kapitlet igen – nu förstår du mycket mer.\n\nEn ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.",
       "season": 2,
       "episode": 4
     },
@@ -356,7 +356,7 @@
       "image": "images/stories/magical_radio/cover.jpeg",
       "duration_ms": 233862,
       "published": "2026-10-27T21:09:04+00:00",
-      "description": "Lyssna på ett kapitel ur berättelsen Magiczne Radio på polska, öva orden med svenska ledtrådar och lyssna sedan på kapitlet igen.",
+      "description": "Kapitel 5 av 8 i berättelsen ”Den magiska radion” (Magiczne Radio). En gyllene bok landar på en axel, och den andra radion lär ut en trollformel som lagar allt som är trasigt.\n\nSå går avsnittet till:\n1. Lyssna på hela kapitlet på polska – du behöver inte förstå allt.\n2. Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på polska.\n3. Lyssna på kapitlet igen – nu förstår du mycket mer.\n\nEn ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.",
       "season": 2,
       "episode": 5
     },
@@ -367,7 +367,7 @@
       "image": "images/stories/magical_radio/cover.jpeg",
       "duration_ms": 217297,
       "published": "2026-10-27T21:09:04+00:00",
-      "description": "Lyssna på ett kapitel ur berättelsen Magiczne Radio på polska, öva orden med svenska ledtrådar och lyssna sedan på kapitlet igen.",
+      "description": "Kapitel 6 av 8 i berättelsen ”Den magiska radion” (Magiczne Radio). Dags att prova trollformeln på en trasig kompass. Fungerar den? Och vem väntar bakom den gröna dörren?\n\nSå går avsnittet till:\n1. Lyssna på hela kapitlet på polska – du behöver inte förstå allt.\n2. Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på polska.\n3. Lyssna på kapitlet igen – nu förstår du mycket mer.\n\nEn ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.",
       "season": 2,
       "episode": 6
     },
@@ -378,7 +378,7 @@
       "image": "images/stories/magical_radio/cover.jpeg",
       "duration_ms": 238826,
       "published": "2026-10-27T21:09:04+00:00",
-      "description": "Lyssna på ett kapitel ur berättelsen Magiczne Radio på polska, öva orden med svenska ledtrådar och lyssna sedan på kapitlet igen.",
+      "description": "Kapitel 7 av 8 i berättelsen ”Den magiska radion” (Magiczne Radio). Bakom dörren finns en trädgård med en gyllene fågel som inte kan sjunga – den tickar bara som en klocka. Något saknas i vingen.\n\nSå går avsnittet till:\n1. Lyssna på hela kapitlet på polska – du behöver inte förstå allt.\n2. Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på polska.\n3. Lyssna på kapitlet igen – nu förstår du mycket mer.\n\nEn ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.",
       "season": 2,
       "episode": 7
     },
@@ -389,11 +389,15 @@
       "image": "images/stories/magical_radio/cover.jpeg",
       "duration_ms": 240142,
       "published": "2026-10-27T21:09:04+00:00",
-      "description": "Lyssna på ett kapitel ur berättelsen Magiczne Radio på polska, öva orden med svenska ledtrådar och lyssna sedan på kapitlet igen.",
+      "description": "Kapitel 8 av 8 i berättelsen ”Den magiska radion” (Magiczne Radio). Finalen! Kan syskonen laga den gyllene fågeln? Berättelsen slutar med sång, dansande fjärilar och en vän som stannar för alltid.\n\nSå går avsnittet till:\n1. Lyssna på hela kapitlet på polska – du behöver inte förstå allt.\n2. Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på polska.\n3. Lyssna på kapitlet igen – nu förstår du mycket mer.\n\nEn ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.",
       "season": 2,
       "episode": 8
     }
   ],
   "source_language": "sv",
-  "target_language": "pl"
+  "target_language": "pl",
+  "seasons": {
+    "1": "Övningar",
+    "2": "Den magiska radion"
+  }
 }

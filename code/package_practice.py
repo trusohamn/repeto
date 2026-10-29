@@ -15,21 +15,20 @@ from pydub import AudioSegment
 import transcription as renderer
 
 ROOT = Path(__file__).resolve().parent.parent
-LANGUAGE_NAMES = {
-    "pl": ("polska", "polsk"),
-    "en": ("engelska", "engelsk"),
-    "ru": ("ryska", "rysk"),
-}
 
 
-def _podcast_builder() -> Any:
-    path = ROOT / "code" / "podcast.py"
-    spec = importlib.util.spec_from_file_location("podcast_builder", path)
+def _load(name: str) -> Any:
+    path = ROOT / "code" / f"{name}.py"
+    spec = importlib.util.spec_from_file_location(f"repeto_{name}", path)
     if spec is None or spec.loader is None:
-        raise RuntimeError(f"Cannot load podcast builder from {path}")
+        raise RuntimeError(f"Cannot load {path}")
     module = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(module)
     return module
+
+
+def _podcast_builder() -> Any:
+    return _load("podcast")
 
 
 def load_topic_titles(path: Path, topics: list[str], languages: tuple[str, ...]) -> dict:
@@ -119,7 +118,7 @@ def move_audio(source: Path, destination: Path) -> None:
 def package(args: argparse.Namespace) -> dict[str, Any]:
     """Validate renders, move them into the course, and rebuild every feed."""
     source, target = args.source, args.target
-    if target not in LANGUAGE_NAMES:
+    if target not in _load("descriptions").LANGUAGES:
         raise ValueError(f"No Swedish language name configured for {target!r}.")
     if source != "se":
         raise ValueError("Catalog wording is Swedish; only --source se is supported.")
@@ -130,7 +129,7 @@ def package(args: argparse.Namespace) -> dict[str, Any]:
     if _podcast_builder().find_image(course / "cover.jpeg") is None:
         raise FileNotFoundError(f"Podcast cover not found: {course / 'cover.jpeg'}")
     catalog_path = course / "course.json"
-    language_name, adjective = LANGUAGE_NAMES[target]
+    copy = _load("descriptions")
     if catalog_path.is_file():
         catalog = json.loads(catalog_path.read_text(encoding="utf-8"))
         if (
@@ -139,12 +138,8 @@ def package(args: argparse.Namespace) -> dict[str, Any]:
             raise ValueError(f"Podcast course {args.course!r} has another direction.")
     else:
         catalog = {
-            "title": f"Repeto – Svenska till {language_name}",
-            "description": (
-                f"Lär dig {language_name} med svenska ledtrådar. En språkkurs för barn "
-                f"med tydligt uttal, tankepauser och varje {adjective} fras två gånger. "
-                "Rösterna är AI-genererade."
-            ),
+            "title": copy.show_title(target),
+            "description": copy.show_description(target, len(topics), [], args.email),
             "language": "sv",
             "author": args.author,
             "email": args.email,
@@ -173,10 +168,8 @@ def package(args: argparse.Namespace) -> dict[str, Any]:
             "file": f"practice/{filename}",
             "duration_ms": manifest["total_duration_ms"],
             "published": old.get("published", published),
-            "description": (
-                f"Öva {language_name} med svenska ledtrådar. Ämne: {source_title}. "
-                "Lyssna på svenska, tänk i två sekunder och säg svaret. "
-                f"Varje {adjective} fras spelas två gånger med pauser för att härma uttalet."
+            "description": copy.practice_description(
+                target, number, len(topics), titles[topic], items, source,
             ),
             "season": old.get("season", 1),
             "episode": old.get("episode", number),
@@ -191,6 +184,7 @@ def package(args: argparse.Namespace) -> dict[str, Any]:
     catalog_path.write_text(
         json.dumps(catalog, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
     )
+    catalog = copy.refresh_course(course, practice=(topics, titles))
     superseded = [
         previous[episode["id"]]["file"] for _, _, episode in practice_episodes
         if episode["id"] in previous

@@ -1,19 +1,43 @@
-# Language audio course
+# Repeto – listen-and-speak language courses
 
-Generate children's language-learning MP3s and timestamp JSON files from the
+Repeto is a free podcast course for Swedish speakers who are starting a new
+language. It suits beginners of all ages: children, parents, grandparents and
+any adult who wants to get going without a textbook. Every episode follows the
+same loop: a Swedish word or sentence, a pause to say it yourself in the target
+language, then the answer twice so you can copy the pronunciation.
+
+Each course has two seasons:
+
+- **Season 1 – Practice:** 30 short everyday topics (greetings, numbers, food,
+  feelings, …). Start with episode 1.
+- **Season 2 – Story:** the eight-chapter story *Den magiska radion*. Each
+  episode plays the chapter, practises its words, then plays the chapter again.
+  Listen in order. New stories are added over time.
+
+Tips for listeners: say the answer out loud in the pause, repeat an episode
+until you answer before the voice.
+Background listening helps you get used to the sounds and melody of the
+language, but active answering is where most of the learning happens. Once
+you know the format, try another language: every course works the same way.
+
+| Course | Web page | RSS feed |
+| --- | --- | --- |
+| Polska för svensktalande | [page](https://trusohamn.github.io/repeto/swedish-polish/) | [feed](https://trusohamn.github.io/repeto/swedish-polish/feed.xml) |
+| Engelska för svensktalande | [page](https://trusohamn.github.io/repeto/swedish-english/) | [feed](https://trusohamn.github.io/repeto/swedish-english/feed.xml) |
+| Ryska för svensktalande | [page](https://trusohamn.github.io/repeto/swedish-russian/) | [feed](https://trusohamn.github.io/repeto/swedish-russian/feed.xml) |
+
+Voices are AI-generated with Microsoft Azure; feeds and pages say so.
+
+## About this repository
+
+The code generates the language-learning MP3s and timestamp JSON files from the
 shared practice corpus in
-[courses/practice/transcript.json](courses/practice/transcript.json). Supports
-Swedish (`se`), English (`en`), Polish (`pl`), and Russian (`ru`) in any direction.
+[courses/practice/transcript.json](courses/practice/transcript.json) and the
+stories in [courses/stories/](courses/stories/), then packages them as podcast
+feeds. Supports Swedish (`se`), English (`en`), Polish (`pl`), and Russian
+(`ru`) in any direction.
 
-## Podcast / Spotify
-
-Swedish to Polish: https://trusohamn.github.io/repeto/swedish-polish/feed.xml
-
-Swedish to English
-https://trusohamn.github.io/repeto/swedish-english/feed.xml
-
-Swedish to Russian
-https://trusohamn.github.io/repeto/swedish-russian/feed.xml
+## Podcast packaging
 
 To package another completed course, ask the agent to use the repository's
 [package-podcast skill](.github/skills/package-podcast/SKILL.md).
@@ -55,6 +79,26 @@ number uses `episode`, not its position in the JSON list.
 ```sh
 .venv/bin/python code/podcast.py
 ```
+
+Listener-facing copy for Swedish-source courses lives in
+[code/descriptions.py](code/descriptions.py): the show title and description,
+the "how to use" steps, practice episode descriptions (topic, phrase count and
+three example phrases) and story episode descriptions (chapter number, the
+chapter's Swedish `summary.sv` teaser from the story transcript, and the three
+listening steps). Both packagers apply it automatically. To refresh the copy of
+already packaged courses without re-rendering audio, run:
+
+```sh
+.venv/bin/python code/descriptions.py podcast/swedish-polish podcast/swedish-english podcast/swedish-russian
+```
+
+Descriptions use blank lines for paragraphs and `•` or `1.` lines for lists.
+The feed keeps them as plain text in `description` and adds an HTML version in
+`content:encoded`; the web pages render the same HTML with season headings
+(from the optional `seasons` map) and an audio player per episode. An optional
+`links` object in `course.json` (for example
+`{"Spotify": "https://open.spotify.com/show/…"}`) adds listening links to the
+course page.
 
 Push changes to `main` to publish through GitHub Actions. One-time GitHub setup:
 **Settings → Pages → Build and deployment → Source: GitHub Actions**.

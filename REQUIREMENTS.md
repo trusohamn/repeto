@@ -1,7 +1,7 @@
 Course Recording & Timestamp Specification
 
 1. Core Purpose
-   Deliver a structured audio learning resource for children using any source/target pair available in the transcript: Swedish (se), English (en), and Polish (pl). Default to Swedish prompts with separate Polish and English target tracks.
+   Deliver a structured audio learning resource for beginners of all ages (children and adults) using any source/target pair available in the transcript: Swedish (se), English (en), and Polish (pl). Default to Swedish prompts with separate Polish and English target tracks.
 
 Use a drill-and-reveal interactive structure: prompt first, thinking pause, target confirmation, repetition pause.
 
@@ -47,13 +47,13 @@ reruns reuse completed cached speech.
 
 Source Audio: Native prompt in the selected source language (Swedish by default).
 
-Thinking Gap: 2000 ms (2 seconds) silence for the child to retrieve the target phrase.
+Thinking Gap: 2000 ms (2 seconds) silence for the listener to retrieve the target phrase.
 
 Target Audio: Answer in the selected target language.
 
 Polish is articulated slightly slower and clearly for language learners. English uses its configured natural pace.
 
-Repetition Gap: 2500 ms silence to allow the child to repeat the target phrase out loud before the next entry begins.
+Repetition Gap: 2500 ms silence to allow the listener to repeat the target phrase out loud before the next entry begins.
 
 Optional --double-output: after the first repetition gap, play the same target
 clip again, then add another 2500 ms repetition gap. The source prompt plays
@@ -123,7 +123,7 @@ Language Isolation: The web player must be able to play only the source prompt u
 
 Reveal Audio: The web player must be able to jump directly to and play only the target answer using the segment key identified by target_language.
 
-Full Drill Playback: The player can run the full sequence (entry_start_ms to entry_end_ms) to let the child hear the entire prompt-and-response loop.
+Full Drill Playback: The player can run the full sequence (entry_start_ms to entry_end_ms) to let the listener hear the entire prompt-and-response loop.
 
 7. Preview Recording
    Support an optional duration cap, such as 300 seconds, per track. Select the longest shared prefix of complete entries that fits in all selected versions, including opening silence and repetition pauses. Do not truncate phrases or add padding to reach an exact duration. Versions can have different durations. If a section has fewer entries, record only those entries. Reject a cap too short for the first complete entry.

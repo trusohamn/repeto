@@ -14,9 +14,46 @@ from urllib.parse import quote
 
 ITUNES = "http://www.itunes.com/dtds/podcast-1.0.dtd"
 ATOM = "http://www.w3.org/2005/Atom"
+CONTENT = "http://purl.org/rss/1.0/modules/content/"
 ET.register_namespace("itunes", ITUNES)
 ET.register_namespace("atom", ATOM)
+ET.register_namespace("content", CONTENT)
 FINGERPRINT = re.compile(r"-[0-9a-f]{8}")
+LIST_ITEM = re.compile(r"(?:•|\d+\.)\s+")
+STYLE = (
+    "body{font-family:system-ui,sans-serif;max-width:42rem;margin:auto;padding:1rem;"
+    "line-height:1.5;color:#222}img{max-width:100%;height:auto;border-radius:.5rem}"
+    "audio{width:100%}details{margin:.75rem 0;border-bottom:1px solid #ddd;"
+    "padding-bottom:.75rem}summary{cursor:pointer;font-weight:600}"
+    ".card{display:flex;gap:1rem;margin:1.5rem 0}.card img{width:8rem;flex:none}"
+)
+
+
+def text_to_html(text: str) -> str:
+    """Render plain description text: blank lines split paragraphs, • or N. lines form lists."""
+    blocks = []
+    for paragraph in text.strip().split("\n\n"):
+        lines = paragraph.splitlines()
+        heading = [line for line in lines if not LIST_ITEM.match(line)]
+        items = [LIST_ITEM.sub("", line, count=1) for line in lines if LIST_ITEM.match(line)]
+        if heading and not items:
+            blocks.append("<p>" + "<br>".join(html.escape(line) for line in lines) + "</p>")
+            continue
+        if heading:
+            blocks.append("<p>" + "<br>".join(html.escape(line) for line in heading) + "</p>")
+        tag = "ol" if LIST_ITEM.match(lines[-1]) and lines[-1][0].isdigit() else "ul"
+        blocks.append(
+            f"<{tag}>" + "".join(f"<li>{html.escape(item)}</li>" for item in items) + f"</{tag}>"
+        )
+    return "".join(blocks)
+
+
+def _page(title: str, body: str) -> str:
+    return (
+        '<!doctype html><html lang="sv"><meta charset="utf-8">'
+        '<meta name="viewport" content="width=device-width,initial-scale=1">'
+        f"<title>{html.escape(title)}</title><style>{STYLE}</style>{body}</html>\n"
+    )
 
 
 def _fingerprinted_versions(path: Path) -> list[Path]:
@@ -140,6 +177,7 @@ def build_feed(course: Path, base_url: str) -> None:
         title = f"{number:02d} {episode['title']}"
         field(item, "title", title)
         field(item, "description", episode["description"])
+        field(item, f"{{{CONTENT}}}encoded", text_to_html(episode["description"]))
         guid = field(item, "guid", episode["id"])
         guid.set("isPermaLink", "false")
         field(item, "pubDate", format_datetime(datetime.fromisoformat(episode["published"])))
@@ -181,16 +219,34 @@ def build_feed(course: Path, base_url: str) -> None:
         )
     ET.indent(rss)
     ET.ElementTree(rss).write(course / "feed.xml", encoding="utf-8", xml_declaration=True)
-    title = html.escape(config["title"])
-    (course / "index.html").write_text(
-        f'<!doctype html><html lang="sv"><meta charset="utf-8">'
-        f'<meta name="viewport" content="width=device-width">'
-        f"<title>{title}</title><h1>{title}</h1>"
-        f'<img src="{html.escape(quote(cover.name))}" alt="Podcast cover" width="300">'
-        f'<p>{html.escape(config["description"])}</p>'
-        f'<p><a href="feed.xml">Podcast RSS feed</a></p></html>\n',
-        encoding="utf-8",
-    )
+    links = [
+        f'<a href="{html.escape(link_url)}">{html.escape(name)}</a>'
+        for name, link_url in config.get("links", {}).items()
+    ] + ['<a href="feed.xml">RSS-flöde</a>']
+    seasons: dict[int, list[str]] = {}
+    season_names: dict[str, str] = config.get("seasons", {})
+    for episode in sorted(episodes, key=lambda e: (e["season"], e["episode"])):
+        audio_url = "audio/" + "/".join(
+            quote(part) for part in PurePosixPath(episode["file"]).parts
+        )
+        seasons.setdefault(episode["season"], []).append(
+            f'<details><summary>{episode["episode"]:02d} '
+            f'{html.escape(episode["title"])}</summary>'
+            f'{text_to_html(episode["description"])}'
+            f'<audio controls preload="none" src="{html.escape(audio_url)}"></audio></details>'
+        )
+    (course / "index.html").write_text(_page(config["title"], (
+        f'<h1>{html.escape(config["title"])}</h1>'
+        f'<img src="{html.escape(quote(cover.name))}" alt="Omslag" width="300">'
+        f'{text_to_html(config["description"])}'
+        f'<p><strong>Lyssna:</strong> {" · ".join(links)}</p>'
+        + "".join(
+            f"<h2>Säsong {season}"
+            + (f" – {html.escape(name)}" if (name := season_names.get(str(season))) else "")
+            + f"</h2>{''.join(items)}"
+            for season, items in seasons.items()
+        )
+    )), encoding="utf-8")
 
 
 def main() -> None:
@@ -203,15 +259,23 @@ def main() -> None:
         raise ValueError("No course catalogs found.")
     for course in courses:
         build_feed(course, args.base_url)
-    links = "".join(
-        f'<li><a href="{quote(course.name)}/">{html.escape(course.name)}</a></li>'
-        for course in courses
-    )
-    (args.root / "index.html").write_text(
-        f'<!doctype html><html lang="en"><meta charset="utf-8">'
-        f"<title>Repeto</title><h1>Repeto language courses</h1><ul>{links}</ul></html>\n",
-        encoding="utf-8",
-    )
+    cards = []
+    for course in courses:
+        config = json.loads((course / "course.json").read_text(encoding="utf-8"))
+        cover = find_image(course / "cover.jpeg")
+        assert cover is not None
+        href = quote(course.name) + "/"
+        intro = config["description"].strip().split("\n\n")[0]
+        cards.append(
+            f'<div class="card"><a href="{href}"><img src="{href}{quote(cover.name)}" '
+            f'alt="Omslag"></a><div><h2><a href="{href}">{html.escape(config["title"])}</a>'
+            f'</h2><p>{html.escape(intro)}</p></div></div>'
+        )
+    (args.root / "index.html").write_text(_page("Repeto – språkkurser att lyssna på", (
+        "<h1>Repeto</h1><p>Språkkurser som podcast för svensktalande nybörjare i alla "
+        "åldrar. Hör ett ord eller en mening på svenska, säg det själv på det nya "
+        "språket och lyssna sedan på svaret.</p>" + "".join(cards)
+    )), encoding="utf-8")
     (args.root / ".nojekyll").touch()
 
 

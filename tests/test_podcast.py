@@ -14,6 +14,13 @@ SPEC.loader.exec_module(podcast)
 
 
 class PodcastTests(unittest.TestCase):
+    def test_text_to_html_renders_paragraphs_and_lists(self):
+        self.assertEqual(
+            podcast.text_to_html("Hej <du>!\nRad två\n\nSteg:\n1. Lyssna\n2. Prata\n\n• a\n• b"),
+            "<p>Hej &lt;du&gt;!<br>Rad två</p><p>Steg:</p><ol><li>Lyssna</li>"
+            "<li>Prata</li></ol><ul><li>a</li><li>b</li></ul>",
+        )
+
     def test_remove_superseded_audio_keeps_referenced_files(self):
         with tempfile.TemporaryDirectory() as directory:
             course = Path(directory)

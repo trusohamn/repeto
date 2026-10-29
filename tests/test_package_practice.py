@@ -83,12 +83,15 @@ class PackagePracticeTests(unittest.TestCase):
 
             catalog = package_practice.package(args)
 
-            self.assertEqual(catalog["title"], "Repeto – Svenska till ryska")
+            self.assertEqual(catalog["title"], "Repeto – Ryska för svensktalande")
+            self.assertIn("nybörjare i alla åldrar", catalog["description"])
+            self.assertIn("Säsong 1 – Övningar: 1 kort ämne", catalog["description"])
             self.assertEqual(catalog["target_language"], "ru")
             episode = catalog["episodes"][0]
             self.assertEqual(episode["id"], "repeto:swedish-russian:topic-01")
             self.assertEqual(episode["title"], "Hälsningar — Приветствия")
-            self.assertIn("Varje rysk fras", episode["description"])
+            self.assertIn("Ämne 1 av 1: Hälsningar (Приветствия)", episode["description"])
+            self.assertIn("• Hej! → Привет!", episode["description"])
             self.assertFalse((renders / filename).exists())
             self.assertTrue((course / "audio/practice" / filename).is_file())
             self.assertTrue((renders / filename.replace(".mp3", ".json")).is_file())

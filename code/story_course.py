@@ -1,4 +1,4 @@
-"""Validate, render, and package multilingual children's story courses."""
+"""Validate, render, and package multilingual story courses."""
 
 from __future__ import annotations
 
@@ -37,7 +37,6 @@ DEFAULT_VOICES = {
 }
 DEFAULT_RATES = {"pl": "-15%", "sv": "-15%", "en": "-5%", "ru": "-15%"}
 DEFAULT_TARGETS = ("pl",)
-SWEDISH_LANGUAGE_NAMES = {"pl": "polska", "en": "engelska", "ru": "ryska"}
 # Spoken before each chapter title; short bare titles let expressive narrators
 # drift into character voices (e.g. "Głos z radia." read as a deep radio voice).
 CHAPTER_HEADINGS = {
@@ -99,14 +98,18 @@ def _renderer() -> Any:
     return module
 
 
-def _podcast_builder() -> Any:
-    path = ROOT / "code" / "podcast.py"
-    spec = importlib.util.spec_from_file_location("podcast_builder", path)
+def _load_module(name: str) -> Any:
+    path = ROOT / "code" / f"{name}.py"
+    spec = importlib.util.spec_from_file_location(f"repeto_{name}", path)
     if spec is None or spec.loader is None:
-        raise RuntimeError(f"Cannot load podcast builder from {path}")
+        raise RuntimeError(f"Cannot load {path}")
     module = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(module)
     return module
+
+
+def _podcast_builder() -> Any:
+    return _load_module("podcast")
 
 
 def parse_source(path: Path) -> dict[str, Any]:
@@ -210,6 +213,15 @@ def validate_transcript(data: Any) -> dict[str, Any]:
                 or text != text.strip()
             ):
                 raise ValueError(f"Chapter {chapter_index}: invalid chapter_text for {language}.")
+        summary = chapter.get("summary", {})
+        if not isinstance(summary, dict) or any(
+            language not in expected_languages
+            or not isinstance(text, str) or not text.strip() or text != text.strip()
+            for language, text in summary.items()
+        ):
+            raise ValueError(
+                f"Chapter {chapter_index}: summary must map known languages to trimmed text."
+            )
         for collection_name in ("vocabulary",):
             collection = chapter.get(collection_name)
             if not isinstance(collection, list) or not collection:
@@ -877,6 +889,7 @@ def package_podcasts(
         raise ValueError("Podcast hosting requires an HTTPS base URL.")
 
     builder = _podcast_builder()
+    copy = _load_module("descriptions")
     if args.output is None:
         args.output = default_output(
             args.transcript, source_language, build["settings"]["target_languages"]
@@ -941,7 +954,7 @@ def package_podcasts(
             catalog = {
                 "title": f'{story_titles["pl"]} — {source_title} to {target_title}',
                 "description": (
-                    f'A children’s story course: hear each chapter in {target_title}, '
+                    f'A story course for beginners of all ages: hear each chapter in {target_title}, '
                     f'practice vocabulary with {source_title} prompts, then hear '
                     "the same chapter again. "
                     "Voices are AI-generated."
@@ -1028,10 +1041,10 @@ def package_podcasts(
                     "published", datetime.now(timezone.utc).isoformat(timespec="seconds")
                 ),
                 "description": (
-                    f"Lyssna på ett kapitel ur berättelsen {story_titles[target]} "
-                    f"på {SWEDISH_LANGUAGE_NAMES[target]}, öva orden med svenska ledtrådar "
-                    "och lyssna sedan på kapitlet igen."
-                    if source_language == "sv" and target in SWEDISH_LANGUAGE_NAMES
+                    copy.story_description(
+                        target, story_titles, chapter, len(transcript["chapters"]),
+                    )
+                    if source_language == "sv" and target in copy.LANGUAGES
                     else "Listen to the complete chapter in the target language, "
                     "practice vocabulary with native-language prompts, then listen "
                     "to the same chapter again."
@@ -1049,6 +1062,8 @@ def package_podcasts(
                 episodes.append(episode)
                 previous_by_id[episode_id] = episode
         _write_json(existing_catalog, catalog)
+        if source_language == "sv" and target in copy.LANGUAGES:
+            catalog = copy.refresh_course(course, {transcript["story_id"]: transcript})
         for path in builder.remove_superseded_audio(course, superseded):
             print(f"Removed superseded audio: {path.relative_to(course)}", flush=True)
             stale_timing = args.output / f"{path.stem}.json"

@@ -1,6 +1,6 @@
 ---
 name: create-story-course
-description: Turn a chaptered children's story into a faithful multilingual transcript, validate its permanent IDs, render language-practice and full-chapter audio, and optionally package podcast feeds. Use for new or extended course stories.
+description: Turn a chaptered, child-friendly story into a faithful multilingual transcript, validate its permanent IDs, render language-practice and full-chapter audio, and optionally package podcast feeds. Use for new or extended course stories.
 ---
 
 # Create or extend a Repeto story course
@@ -21,8 +21,8 @@ description: Turn a chaptered children's story into a faithful multilingual tran
 ## Transcript authoring
 
 - Translate chapter titles and selected useful vocabulary into requested
-  languages. Make translations natural for children; preserve events, tone,
-  and meaning. Do not translate the story sentence-by-sentence.
+  languages. Make translations natural and child-friendly (the courses serve
+  beginners of all ages); preserve events, tone, and meaning. Do not translate the story sentence-by-sentence.
 - Character names: preserve them within a course (one language version),
   across all chapters, titles, vocabulary, and episodes; never rename a
   character mid-course. When translating to a new target language, localize
@@ -39,13 +39,17 @@ description: Turn a chaptered children's story into a faithful multilingual tran
   translations for practice.
 - Use `courses/stories/magical_radio/generated/transcript.json`
   as the schema example.
+- Give every chapter an optional `summary` map with a one- or two-sentence
+  Swedish teaser (`"summary": {"sv": "…"}`) for podcast episode descriptions.
+  Keep it faithful to the chapter text and avoid character names, because
+  names are localized per target language.
 - IDs are positive integers unique across all vocabulary items in the story.
   Treat IDs as permanent: preserve existing IDs and allocate new unused IDs
   only for new items. Never renumber to close gaps.
 - Keep each chapter's vocabulary in learning order. Ensure title and
   vocabulary text maps contain the supported ISO 639-1 languages.
 - Audit the whole chapter text and include enough words and short phrases for
-  a child with little prior target-language knowledge to follow its characters,
+  a beginner with little prior target-language knowledge to follow its characters,
   setting, actions, and plot-critical details. Cover important nouns, verbs,
   descriptions, and connectors where needed; do not rely on a word being taught
   in a later chapter. Prefer natural words and short chunks, never sentence-by-
@@ -99,7 +103,7 @@ description: Turn a chaptered children's story into a faithful multilingual tran
   translated or practiced. Every vocabulary target is played twice with the
   configured pauses.
 - The default Swedish and Polish practice rates are both `-15%`; preserve these
-  child-friendly rates unless the user requests a change.
+  beginner-friendly rates unless the user requests a change.
 - Speak the book title once at the beginning of chapter 1, before the first
   reading. Record it as a separate `book_introduction` manifest segment and
   do not repeat it in the full chapter reading.
