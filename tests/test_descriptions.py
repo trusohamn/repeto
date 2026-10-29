@@ -40,7 +40,13 @@ class DescriptionTests(unittest.TestCase):
         self.assertIn("Repeto finns även på andra språk", text)
         self.assertNotIn("http", text)
         self.assertIn("Fler berättelser är på väg", text)
-        self.assertIn("Även att lyssna i bakgrunden hjälper", text)
+        self.assertIn("Säg svaret högt i pausen – öva på att själv komma på orden.", text)
+        self.assertIn(
+            "Bakgrundslyssning kan hjälpa dig att bli bekant med språkets ljud och melodi.",
+            text,
+        )
+        self.assertIn("Öva också aktivt genom att härma och svara i pauserna.", text)
+        self.assertNotIn("det är där du lär dig", text)
         self.assertIn("AI-genererade", text)
         self.assertIn("rättelser och idéer till nya berättelser är varmt välkomna: a@b.se", text)
 

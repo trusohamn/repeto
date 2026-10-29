@@ -75,10 +75,10 @@ def show_description(
     parts.append("Det här ingår:\n" + "\n".join(contents))
     parts.append("Så använder du kursen:\n" + "\n".join([
         "• Börja med säsong 1, avsnitt 1, och lyssna i ordning.",
-        "• Säg svaret högt i pausen – det är där du lär dig.",
+        "• Säg svaret högt i pausen – öva på att själv komma på orden.",
         "• Lyssna på avsnittet igen tills du hinner svara före rösten.",
-        "• Även att lyssna i bakgrunden hjälper – du vänjer dig vid ljuden och "
-        "språkets melodi.",
+        "• Bakgrundslyssning kan hjälpa dig att bli bekant med språkets ljud och "
+        "melodi. Öva också aktivt genom att härma och svara i pauserna.",
     ]))
     parts.append(
         "Gillar du upplägget? Repeto finns även på andra språk – samma format, så du "
