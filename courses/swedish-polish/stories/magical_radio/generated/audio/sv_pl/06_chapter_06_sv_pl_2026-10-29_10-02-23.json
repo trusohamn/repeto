@@ -1,0 +1,439 @@
+{
+  "chapter_number": 6,
+  "title": {
+    "pl": "Pierwsze zaklęcie",
+    "sv": "Den första trollformeln",
+    "en": "The First Spell",
+    "ru": "Первое заклинание"
+  },
+  "source_language": "sv",
+  "target_language": "pl",
+  "practice_order": "deterministically_shuffled",
+  "sequence": [
+    "story",
+    "practice",
+    "story"
+  ],
+  "total_duration_ms": 217297,
+  "practice": [
+    {
+      "id": 170,
+      "kind": "vocabulary",
+      "start_ms": 38424,
+      "end_ms": 48193,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "snurra",
+        "start_ms": 38424,
+        "end_ms": 39315
+      },
+      "target_playbacks": [
+        {
+          "text": "kręcić się",
+          "start_ms": 41315,
+          "end_ms": 42254
+        },
+        {
+          "text": "kręcić się",
+          "start_ms": 44754,
+          "end_ms": 45693
+        }
+      ]
+    },
+    {
+      "id": 175,
+      "kind": "vocabulary",
+      "start_ms": 48193,
+      "end_ms": 57230,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "någon",
+        "start_ms": 48193,
+        "end_ms": 49152
+      },
+      "target_playbacks": [
+        {
+          "text": "ktoś",
+          "start_ms": 51152,
+          "end_ms": 51691
+        },
+        {
+          "text": "ktoś",
+          "start_ms": 54191,
+          "end_ms": 54730
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "kind": "vocabulary",
+      "start_ms": 57230,
+      "end_ms": 68277,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "vänta på hjälp",
+        "start_ms": 57230,
+        "end_ms": 58635
+      },
+      "target_playbacks": [
+        {
+          "text": "czekać na pomoc",
+          "start_ms": 60635,
+          "end_ms": 61956
+        },
+        {
+          "text": "czekać na pomoc",
+          "start_ms": 64456,
+          "end_ms": 65777
+        }
+      ]
+    },
+    {
+      "id": 174,
+      "kind": "vocabulary",
+      "start_ms": 68277,
+      "end_ms": 78816,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "bakom dörren",
+        "start_ms": 68277,
+        "end_ms": 69566
+      },
+      "target_playbacks": [
+        {
+          "text": "za drzwiami",
+          "start_ms": 71566,
+          "end_ms": 72691
+        },
+        {
+          "text": "za drzwiami",
+          "start_ms": 75191,
+          "end_ms": 76316
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "kind": "vocabulary",
+      "start_ms": 78816,
+      "end_ms": 89314,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "grön dörr",
+        "start_ms": 78816,
+        "end_ms": 79966
+      },
+      "target_playbacks": [
+        {
+          "text": "zielone drzwi",
+          "start_ms": 81966,
+          "end_ms": 83140
+        },
+        {
+          "text": "zielone drzwi",
+          "start_ms": 85640,
+          "end_ms": 86814
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "kind": "vocabulary",
+      "start_ms": 89314,
+      "end_ms": 98192,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "nål",
+        "start_ms": 89314,
+        "end_ms": 89978
+      },
+      "target_playbacks": [
+        {
+          "text": "igła",
+          "start_ms": 91978,
+          "end_ms": 92585
+        },
+        {
+          "text": "igła",
+          "start_ms": 95085,
+          "end_ms": 95692
+        }
+      ]
+    },
+    {
+      "id": 168,
+      "kind": "vocabulary",
+      "start_ms": 98192,
+      "end_ms": 107144,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "igen",
+        "start_ms": 98192,
+        "end_ms": 98988
+      },
+      "target_playbacks": [
+        {
+          "text": "znów",
+          "start_ms": 100988,
+          "end_ms": 101566
+        },
+        {
+          "text": "znów",
+          "start_ms": 104066,
+          "end_ms": 104644
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "kind": "vocabulary",
+      "start_ms": 107144,
+      "end_ms": 117999,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "gyllene gnista",
+        "start_ms": 107144,
+        "end_ms": 108545
+      },
+      "target_playbacks": [
+        {
+          "text": "złota iskra",
+          "start_ms": 110545,
+          "end_ms": 111772
+        },
+        {
+          "text": "złota iskra",
+          "start_ms": 114272,
+          "end_ms": 115499
+        }
+      ]
+    },
+    {
+      "id": 172,
+      "kind": "vocabulary",
+      "start_ms": 117999,
+      "end_ms": 127523,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "fungera",
+        "start_ms": 117999,
+        "end_ms": 118921
+      },
+      "target_playbacks": [
+        {
+          "text": "działać",
+          "start_ms": 120921,
+          "end_ms": 121722
+        },
+        {
+          "text": "działać",
+          "start_ms": 124222,
+          "end_ms": 125023
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "kind": "vocabulary",
+      "start_ms": 127523,
+      "end_ms": 138322,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "säga tillsammans",
+        "start_ms": 127523,
+        "end_ms": 129122
+      },
+      "target_playbacks": [
+        {
+          "text": "mówić razem",
+          "start_ms": 131122,
+          "end_ms": 132222
+        },
+        {
+          "text": "mówić razem",
+          "start_ms": 134722,
+          "end_ms": 135822
+        }
+      ]
+    },
+    {
+      "id": 171,
+      "kind": "vocabulary",
+      "start_ms": 138322,
+      "end_ms": 148067,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "peka",
+        "start_ms": 138322,
+        "end_ms": 139073
+      },
+      "target_playbacks": [
+        {
+          "text": "wskazywać",
+          "start_ms": 141073,
+          "end_ms": 142070
+        },
+        {
+          "text": "wskazywać",
+          "start_ms": 144570,
+          "end_ms": 145567
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "kind": "vocabulary",
+      "start_ms": 148067,
+      "end_ms": 159278,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "hålla i kompassen",
+        "start_ms": 148067,
+        "end_ms": 149642
+      },
+      "target_playbacks": [
+        {
+          "text": "trzymać kompas",
+          "start_ms": 151642,
+          "end_ms": 152960
+        },
+        {
+          "text": "trzymać kompas",
+          "start_ms": 155460,
+          "end_ms": 156778
+        }
+      ]
+    },
+    {
+      "id": 169,
+      "kind": "vocabulary",
+      "start_ms": 159278,
+      "end_ms": 169370,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "vara hel",
+        "start_ms": 159278,
+        "end_ms": 160419
+      },
+      "target_playbacks": [
+        {
+          "text": "być całym",
+          "start_ms": 162419,
+          "end_ms": 163394
+        },
+        {
+          "text": "być całym",
+          "start_ms": 165894,
+          "end_ms": 166870
+        }
+      ]
+    },
+    {
+      "id": 176,
+      "kind": "vocabulary",
+      "start_ms": 169370,
+      "end_ms": 179575,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "er hjälp",
+        "start_ms": 169370,
+        "end_ms": 170351
+      },
+      "target_playbacks": [
+        {
+          "text": "wasza pomoc",
+          "start_ms": 172351,
+          "end_ms": 173463
+        },
+        {
+          "text": "wasza pomoc",
+          "start_ms": 175963,
+          "end_ms": 177075
+        }
+      ]
+    },
+    {
+      "id": 173,
+      "kind": "vocabulary",
+      "start_ms": 179575,
+      "end_ms": 188881,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "ropa",
+        "start_ms": 179575,
+        "end_ms": 180391
+      },
+      "target_playbacks": [
+        {
+          "text": "krzyczeć",
+          "start_ms": 182391,
+          "end_ms": 183136
+        },
+        {
+          "text": "krzyczeć",
+          "start_ms": 185636,
+          "end_ms": 186381
+        }
+      ]
+    }
+  ],
+  "book_introduction": null,
+  "chapter_introduction": {
+    "text": "Rozdział szósty. Pierwsze zaklęcie.",
+    "start_ms": 1000,
+    "end_ms": 5008
+  },
+  "transitions": [
+    {
+      "kind": "chime",
+      "from": "story",
+      "to": "practice",
+      "start_ms": 35304,
+      "end_ms": 35924
+    },
+    {
+      "kind": "chime",
+      "from": "practice",
+      "to": "story",
+      "start_ms": 188881,
+      "end_ms": 189501
+    }
+  ],
+  "chapter_readings": [
+    {
+      "text": "Tomek trzyma kompas. Dzieci mówią razem: – Reparo! Błyska złota iskra. Kompas znów jest cały! Igła kręci się i pokazuje zielone drzwi. – Działa! – krzyczy Tomek. Radio mówi: – Za drzwiami ktoś czeka na waszą pomoc.",
+      "start_ms": 7508,
+      "end_ms": 32804
+    },
+    {
+      "text": "Tomek trzyma kompas. Dzieci mówią razem: – Reparo! Błyska złota iskra. Kompas znów jest cały! Igła kręci się i pokazuje zielone drzwi. – Działa! – krzyczy Tomek. Radio mówi: – Za drzwiami ktoś czeka na waszą pomoc.",
+      "start_ms": 192001,
+      "end_ms": 217297
+    }
+  ],
+  "chapter_reading": {
+    "text": "Tomek trzyma kompas. Dzieci mówią razem: – Reparo! Błyska złota iskra. Kompas znów jest cały! Igła kręci się i pokazuje zielone drzwi. – Działa! – krzyczy Tomek. Radio mówi: – Za drzwiami ktoś czeka na waszą pomoc.",
+    "start_ms": 192001,
+    "end_ms": 217297
+  },
+  "narration": {
+    "engine": "azure",
+    "voice": "pl-PL-Harper:MAI-Voice-2.1",
+    "style": "audiobook",
+    "rate": "-12%",
+    "locale": "pl-PL",
+    "capabilities": {
+      "voice": "pl-PL-Harper:MAI-Voice-2.1",
+      "locale": "pl-PL",
+      "advertised_styles": [
+        "agent",
+        "audiobook",
+        "customer_call_center",
+        "educational",
+        "narrator"
+      ]
+    },
+    "ssml": "<speak xmlns:mstts=\"http://www.w3.org/2001/mstts\" version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"pl-PL\"><voice name=\"pl-PL-Harper:MAI-Voice-2.1\"><mstts:express-as style=\"audiobook\"><prosody rate=\"-12%\"><p>Tomek trzyma kompas. Dzieci mówią razem: – Reparo! Błyska złota iskra. Kompas znów jest cały! Igła kręci się i pokazuje zielone drzwi. – Działa! – krzyczy Tomek. Radio mówi: – Za drzwiami ktoś czeka na waszą pomoc.</p></prosody></mstts:express-as></voice></speak>"
+  },
+  "audio_file": "06_chapter_06_sv_pl_2026-10-29_10-02-23.mp3"
+}

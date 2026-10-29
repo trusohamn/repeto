@@ -1,0 +1,487 @@
+{
+  "chapter_number": 7,
+  "title": {
+    "pl": "Złoty ptak",
+    "sv": "Den gyllene fågeln",
+    "en": "The Golden Bird",
+    "ru": "Золотая птица"
+  },
+  "source_language": "sv",
+  "target_language": "pl",
+  "practice_order": "deterministically_shuffled",
+  "sequence": [
+    "story",
+    "practice",
+    "story"
+  ],
+  "total_duration_ms": 238826,
+  "practice": [
+    {
+      "id": 86,
+      "kind": "vocabulary",
+      "start_ms": 37224,
+      "end_ms": 48437,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "ticka som en klocka",
+        "start_ms": 37224,
+        "end_ms": 38891
+      },
+      "target_playbacks": [
+        {
+          "text": "tykać jak zegar",
+          "start_ms": 40891,
+          "end_ms": 42164
+        },
+        {
+          "text": "tykać jak zegar",
+          "start_ms": 44664,
+          "end_ms": 45937
+        }
+      ]
+    },
+    {
+      "id": 178,
+      "kind": "vocabulary",
+      "start_ms": 48437,
+      "end_ms": 60250,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "sitta på en gren",
+        "start_ms": 48437,
+        "end_ms": 50172
+      },
+      "target_playbacks": [
+        {
+          "text": "siedzieć na gałęzi",
+          "start_ms": 52172,
+          "end_ms": 53711
+        },
+        {
+          "text": "siedzieć na gałęzi",
+          "start_ms": 56211,
+          "end_ms": 57750
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "kind": "vocabulary",
+      "start_ms": 60250,
+      "end_ms": 69668,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "vinge",
+        "start_ms": 60250,
+        "end_ms": 61040
+      },
+      "target_playbacks": [
+        {
+          "text": "skrzydło",
+          "start_ms": 63040,
+          "end_ms": 63854
+        },
+        {
+          "text": "skrzydło",
+          "start_ms": 66354,
+          "end_ms": 67168
+        }
+      ]
+    },
+    {
+      "id": 186,
+      "kind": "vocabulary",
+      "start_ms": 69668,
+      "end_ms": 80540,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "en blå sten",
+        "start_ms": 69668,
+        "end_ms": 70952
+      },
+      "target_playbacks": [
+        {
+          "text": "niebieski kamień",
+          "start_ms": 72952,
+          "end_ms": 74246
+        },
+        {
+          "text": "niebieski kamień",
+          "start_ms": 76746,
+          "end_ms": 78040
+        }
+      ]
+    },
+    {
+      "id": 182,
+      "kind": "vocabulary",
+      "start_ms": 80540,
+      "end_ms": 90479,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "saknas",
+        "start_ms": 80540,
+        "end_ms": 81633
+      },
+      "target_playbacks": [
+        {
+          "text": "brakować",
+          "start_ms": 83633,
+          "end_ms": 84556
+        },
+        {
+          "text": "brakować",
+          "start_ms": 87056,
+          "end_ms": 87979
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "kind": "vocabulary",
+      "start_ms": 90479,
+      "end_ms": 101094,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "öppna dörren",
+        "start_ms": 90479,
+        "end_ms": 91656
+      },
+      "target_playbacks": [
+        {
+          "text": "otworzyć drzwi",
+          "start_ms": 93656,
+          "end_ms": 94875
+        },
+        {
+          "text": "otworzyć drzwi",
+          "start_ms": 97375,
+          "end_ms": 98594
+        }
+      ]
+    },
+    {
+      "id": 207,
+      "kind": "vocabulary",
+      "start_ms": 101094,
+      "end_ms": 110378,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "ropa",
+        "start_ms": 101094,
+        "end_ms": 101910
+      },
+      "target_playbacks": [
+        {
+          "text": "wołać",
+          "start_ms": 103910,
+          "end_ms": 104644
+        },
+        {
+          "text": "wołać",
+          "start_ms": 107144,
+          "end_ms": 107878
+        }
+      ]
+    },
+    {
+      "id": 183,
+      "kind": "vocabulary",
+      "start_ms": 110378,
+      "end_ms": 121378,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "på dess ena vinge",
+        "start_ms": 110378,
+        "end_ms": 111942
+      },
+      "target_playbacks": [
+        {
+          "text": "na jego skrzydle",
+          "start_ms": 113942,
+          "end_ms": 115160
+        },
+        {
+          "text": "na jego skrzydle",
+          "start_ms": 117660,
+          "end_ms": 118878
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "kind": "vocabulary",
+      "start_ms": 121378,
+      "end_ms": 130397,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "fort",
+        "start_ms": 121378,
+        "end_ms": 122065
+      },
+      "target_playbacks": [
+        {
+          "text": "szybko",
+          "start_ms": 124065,
+          "end_ms": 124731
+        },
+        {
+          "text": "szybko",
+          "start_ms": 127231,
+          "end_ms": 127897
+        }
+      ]
+    },
+    {
+      "id": 184,
+      "kind": "vocabulary",
+      "start_ms": 130397,
+      "end_ms": 140737,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "vår radio",
+        "start_ms": 130397,
+        "end_ms": 131651
+      },
+      "target_playbacks": [
+        {
+          "text": "nasze radio",
+          "start_ms": 133651,
+          "end_ms": 134694
+        },
+        {
+          "text": "nasze radio",
+          "start_ms": 137194,
+          "end_ms": 138237
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "kind": "vocabulary",
+      "start_ms": 140737,
+      "end_ms": 150714,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "liten sten",
+        "start_ms": 140737,
+        "end_ms": 142058
+      },
+      "target_playbacks": [
+        {
+          "text": "kamyczek",
+          "start_ms": 144058,
+          "end_ms": 144886
+        },
+        {
+          "text": "kamyczek",
+          "start_ms": 147386,
+          "end_ms": 148214
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "kind": "vocabulary",
+      "start_ms": 150714,
+      "end_ms": 159942,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "gren",
+        "start_ms": 150714,
+        "end_ms": 151400
+      },
+      "target_playbacks": [
+        {
+          "text": "gałąź",
+          "start_ms": 153400,
+          "end_ms": 154171
+        },
+        {
+          "text": "gałąź",
+          "start_ms": 156671,
+          "end_ms": 157442
+        }
+      ]
+    },
+    {
+      "id": 179,
+      "kind": "vocabulary",
+      "start_ms": 159942,
+      "end_ms": 170634,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "en gyllene fågel",
+        "start_ms": 159942,
+        "end_ms": 161479
+      },
+      "target_playbacks": [
+        {
+          "text": "złoty ptak",
+          "start_ms": 163479,
+          "end_ms": 164557
+        },
+        {
+          "text": "złoty ptak",
+          "start_ms": 167057,
+          "end_ms": 168134
+        }
+      ]
+    },
+    {
+      "id": 185,
+      "kind": "vocabulary",
+      "start_ms": 170634,
+      "end_ms": 180262,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "i rummet",
+        "start_ms": 170634,
+        "end_ms": 171572
+      },
+      "target_playbacks": [
+        {
+          "text": "w pokoju",
+          "start_ms": 173572,
+          "end_ms": 174417
+        },
+        {
+          "text": "w pokoju",
+          "start_ms": 176917,
+          "end_ms": 177762
+        }
+      ]
+    },
+    {
+      "id": 181,
+      "kind": "vocabulary",
+      "start_ms": 180262,
+      "end_ms": 189176,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "bara",
+        "start_ms": 180262,
+        "end_ms": 180944
+      },
+      "target_playbacks": [
+        {
+          "text": "tylko",
+          "start_ms": 182944,
+          "end_ms": 183560
+        },
+        {
+          "text": "tylko",
+          "start_ms": 186060,
+          "end_ms": 186676
+        }
+      ]
+    },
+    {
+      "id": 180,
+      "kind": "vocabulary",
+      "start_ms": 189176,
+      "end_ms": 199233,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "inte sjunga",
+        "start_ms": 189176,
+        "end_ms": 190257
+      },
+      "target_playbacks": [
+        {
+          "text": "nie śpiewać",
+          "start_ms": 192257,
+          "end_ms": 193245
+        },
+        {
+          "text": "nie śpiewać",
+          "start_ms": 195745,
+          "end_ms": 196733
+        }
+      ]
+    },
+    {
+      "id": 177,
+      "kind": "vocabulary",
+      "start_ms": 199233,
+      "end_ms": 210674,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "gå in i trädgården",
+        "start_ms": 199233,
+        "end_ms": 201028
+      },
+      "target_playbacks": [
+        {
+          "text": "wejść do ogrodu",
+          "start_ms": 203028,
+          "end_ms": 204351
+        },
+        {
+          "text": "wejść do ogrodu",
+          "start_ms": 206851,
+          "end_ms": 208174
+        }
+      ]
+    }
+  ],
+  "book_introduction": null,
+  "chapter_introduction": {
+    "text": "Rozdział siódmy. Złoty ptak.",
+    "start_ms": 1000,
+    "end_ms": 4072
+  },
+  "transitions": [
+    {
+      "kind": "chime",
+      "from": "story",
+      "to": "practice",
+      "start_ms": 34104,
+      "end_ms": 34724
+    },
+    {
+      "kind": "chime",
+      "from": "practice",
+      "to": "story",
+      "start_ms": 210674,
+      "end_ms": 211294
+    }
+  ],
+  "chapter_readings": [
+    {
+      "text": "Dzieci otwierają zielone drzwi i wchodzą do ogrodu. Na gałęzi siedzi złoty ptak. Nie śpiewa, tylko tyka jak zegar: Tik-tak, tik-tak. Na jego skrzydle brakuje małego kamyka. – Tomek, nasze radio w pokoju ma niebieski kamień! – woła Maja. – Szybko!",
+      "start_ms": 6572,
+      "end_ms": 31604
+    },
+    {
+      "text": "Dzieci otwierają zielone drzwi i wchodzą do ogrodu. Na gałęzi siedzi złoty ptak. Nie śpiewa, tylko tyka jak zegar: Tik-tak, tik-tak. Na jego skrzydle brakuje małego kamyka. – Tomek, nasze radio w pokoju ma niebieski kamień! – woła Maja. – Szybko!",
+      "start_ms": 213794,
+      "end_ms": 238826
+    }
+  ],
+  "chapter_reading": {
+    "text": "Dzieci otwierają zielone drzwi i wchodzą do ogrodu. Na gałęzi siedzi złoty ptak. Nie śpiewa, tylko tyka jak zegar: Tik-tak, tik-tak. Na jego skrzydle brakuje małego kamyka. – Tomek, nasze radio w pokoju ma niebieski kamień! – woła Maja. – Szybko!",
+    "start_ms": 213794,
+    "end_ms": 238826
+  },
+  "narration": {
+    "engine": "azure",
+    "voice": "pl-PL-Harper:MAI-Voice-2.1",
+    "style": "audiobook",
+    "rate": "-12%",
+    "locale": "pl-PL",
+    "capabilities": {
+      "voice": "pl-PL-Harper:MAI-Voice-2.1",
+      "locale": "pl-PL",
+      "advertised_styles": [
+        "agent",
+        "audiobook",
+        "customer_call_center",
+        "educational",
+        "narrator"
+      ]
+    },
+    "ssml": "<speak xmlns:mstts=\"http://www.w3.org/2001/mstts\" version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"pl-PL\"><voice name=\"pl-PL-Harper:MAI-Voice-2.1\"><mstts:express-as style=\"audiobook\"><prosody rate=\"-12%\"><p>Dzieci otwierają zielone drzwi i wchodzą do ogrodu. Na gałęzi siedzi złoty ptak. Nie śpiewa, tylko tyka jak zegar: Tik-tak, tik-tak. Na jego skrzydle brakuje małego kamyka. – Tomek, nasze radio w pokoju ma niebieski kamień! – woła Maja. – Szybko!</p></prosody></mstts:express-as></voice></speak>"
+  },
+  "audio_file": "07_chapter_07_sv_pl_2026-10-29_10-02-23.mp3"
+}

@@ -131,7 +131,8 @@ Each episode plays the complete target-language chapter before vocabulary
 practice and repeats the identical narration clip afterward, without a second
 synthesis request. Practice still uses Swedish prompts and two Polish answers.
 The book title is spoken once before the first reading in chapter 1.
-Every episode also announces its chapter title once in the target language,
+Every episode also announces its chapter number and title once in the target
+language (e.g. "Rozdział drugi. Głos z radia."; see `CHAPTER_HEADINGS`),
 using the narration voice, before the first reading (after the book title in
 chapter 1). A repetition pause separates the title from the story. Its text
 and timestamps are recorded in `chapter_introduction`.

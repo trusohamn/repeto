@@ -1,0 +1,607 @@
+{
+  "chapter_number": 3,
+  "title": {
+    "pl": "Mysz pod drzewem",
+    "sv": "En mus under trädet",
+    "en": "A Mouse under the Tree",
+    "ru": "Мышка под деревом"
+  },
+  "source_language": "sv",
+  "target_language": "pl",
+  "practice_order": "deterministically_shuffled",
+  "sequence": [
+    "story",
+    "practice",
+    "story"
+  ],
+  "total_duration_ms": 294879,
+  "practice": [
+    {
+      "id": 140,
+      "kind": "vocabulary",
+      "start_ms": 40080,
+      "end_ms": 50259,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "har du en nyckel?",
+        "start_ms": 40080,
+        "end_ms": 41517
+      },
+      "target_playbacks": [
+        {
+          "text": "masz klucz?",
+          "start_ms": 43517,
+          "end_ms": 44388
+        },
+        {
+          "text": "masz klucz?",
+          "start_ms": 46888,
+          "end_ms": 47759
+        }
+      ]
+    },
+    {
+      "id": 137,
+      "kind": "vocabulary",
+      "start_ms": 50259,
+      "end_ms": 60562,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "en liten mus",
+        "start_ms": 50259,
+        "end_ms": 51732
+      },
+      "target_playbacks": [
+        {
+          "text": "mała mysz",
+          "start_ms": 53732,
+          "end_ms": 54647
+        },
+        {
+          "text": "mała mysz",
+          "start_ms": 57147,
+          "end_ms": 58062
+        }
+      ]
+    },
+    {
+      "id": 139,
+      "kind": "vocabulary",
+      "start_ms": 60562,
+      "end_ms": 70625,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "vi har ost",
+        "start_ms": 60562,
+        "end_ms": 61909
+      },
+      "target_playbacks": [
+        {
+          "text": "mamy ser",
+          "start_ms": 63909,
+          "end_ms": 64767
+        },
+        {
+          "text": "mamy ser",
+          "start_ms": 67267,
+          "end_ms": 68125
+        }
+      ]
+    },
+    {
+      "id": 144,
+      "kind": "vocabulary",
+      "start_ms": 70625,
+      "end_ms": 80304,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "försvinna",
+        "start_ms": 70625,
+        "end_ms": 71624
+      },
+      "target_playbacks": [
+        {
+          "text": "znikać",
+          "start_ms": 73624,
+          "end_ms": 74464
+        },
+        {
+          "text": "znikać",
+          "start_ms": 76964,
+          "end_ms": 77804
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "kind": "vocabulary",
+      "start_ms": 80304,
+      "end_ms": 90515,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "under löven",
+        "start_ms": 80304,
+        "end_ms": 81567
+      },
+      "target_playbacks": [
+        {
+          "text": "pod liśćmi",
+          "start_ms": 83567,
+          "end_ms": 84541
+        },
+        {
+          "text": "pod liśćmi",
+          "start_ms": 87041,
+          "end_ms": 88015
+        }
+      ]
+    },
+    {
+      "id": 133,
+      "kind": "vocabulary",
+      "start_ms": 90515,
+      "end_ms": 102014,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "gå under det stora trädet",
+        "start_ms": 90515,
+        "end_ms": 92588
+      },
+      "target_playbacks": [
+        {
+          "text": "iść pod drzewo",
+          "start_ms": 94588,
+          "end_ms": 95801
+        },
+        {
+          "text": "iść pod drzewo",
+          "start_ms": 98301,
+          "end_ms": 99514
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "kind": "vocabulary",
+      "start_ms": 102014,
+      "end_ms": 113817,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "lysa med ficklampan",
+        "start_ms": 102014,
+        "end_ms": 103797
+      },
+      "target_playbacks": [
+        {
+          "text": "świecić latarką",
+          "start_ms": 105797,
+          "end_ms": 107307
+        },
+        {
+          "text": "świecić latarką",
+          "start_ms": 109807,
+          "end_ms": 111317
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "kind": "vocabulary",
+      "start_ms": 113817,
+      "end_ms": 124568,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "silvernyckel",
+        "start_ms": 113817,
+        "end_ms": 115140
+      },
+      "target_playbacks": [
+        {
+          "text": "srebrny klucz",
+          "start_ms": 117140,
+          "end_ms": 118354
+        },
+        {
+          "text": "srebrny klucz",
+          "start_ms": 120854,
+          "end_ms": 122068
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "kind": "vocabulary",
+      "start_ms": 124568,
+      "end_ms": 134678,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "gul ost",
+        "start_ms": 124568,
+        "end_ms": 125766
+      },
+      "target_playbacks": [
+        {
+          "text": "żółty ser",
+          "start_ms": 127766,
+          "end_ms": 128722
+        },
+        {
+          "text": "żółty ser",
+          "start_ms": 131222,
+          "end_ms": 132178
+        }
+      ]
+    },
+    {
+      "id": 143,
+      "kind": "vocabulary",
+      "start_ms": 134678,
+      "end_ms": 145665,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "ta med sig osten",
+        "start_ms": 134678,
+        "end_ms": 136209
+      },
+      "target_playbacks": [
+        {
+          "text": "zabierać ser",
+          "start_ms": 138209,
+          "end_ms": 139437
+        },
+        {
+          "text": "zabierać ser",
+          "start_ms": 141937,
+          "end_ms": 143165
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "kind": "vocabulary",
+      "start_ms": 145665,
+      "end_ms": 154524,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "hål",
+        "start_ms": 145665,
+        "end_ms": 146302
+      },
+      "target_playbacks": [
+        {
+          "text": "dziura",
+          "start_ms": 148302,
+          "end_ms": 148913
+        },
+        {
+          "text": "dziura",
+          "start_ms": 151413,
+          "end_ms": 152024
+        }
+      ]
+    },
+    {
+      "id": 134,
+      "kind": "vocabulary",
+      "start_ms": 154524,
+      "end_ms": 164668,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "i trädgården",
+        "start_ms": 154524,
+        "end_ms": 155918
+      },
+      "target_playbacks": [
+        {
+          "text": "w ogrodzie",
+          "start_ms": 157918,
+          "end_ms": 158793
+        },
+        {
+          "text": "w ogrodzie",
+          "start_ms": 161293,
+          "end_ms": 162168
+        }
+      ]
+    },
+    {
+      "id": 132,
+      "kind": "vocabulary",
+      "start_ms": 164668,
+      "end_ms": 173342,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "ta",
+        "start_ms": 164668,
+        "end_ms": 165124
+      },
+      "target_playbacks": [
+        {
+          "text": "brać",
+          "start_ms": 167124,
+          "end_ms": 167733
+        },
+        {
+          "text": "brać",
+          "start_ms": 170233,
+          "end_ms": 170842
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "kind": "vocabulary",
+      "start_ms": 173342,
+      "end_ms": 183119,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "små tassar",
+        "start_ms": 173342,
+        "end_ms": 174617
+      },
+      "target_playbacks": [
+        {
+          "text": "łapki",
+          "start_ms": 176617,
+          "end_ms": 177368
+        },
+        {
+          "text": "łapki",
+          "start_ms": 179868,
+          "end_ms": 180619
+        }
+      ]
+    },
+    {
+      "id": 141,
+      "kind": "vocabulary",
+      "start_ms": 183119,
+      "end_ms": 192279,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "fråga",
+        "start_ms": 183119,
+        "end_ms": 183951
+      },
+      "target_playbacks": [
+        {
+          "text": "pytać",
+          "start_ms": 185951,
+          "end_ms": 186615
+        },
+        {
+          "text": "pytać",
+          "start_ms": 189115,
+          "end_ms": 189779
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "kind": "vocabulary",
+      "start_ms": 192279,
+      "end_ms": 201603,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "rötter",
+        "start_ms": 192279,
+        "end_ms": 193137
+      },
+      "target_playbacks": [
+        {
+          "text": "korzenie",
+          "start_ms": 195137,
+          "end_ms": 195870
+        },
+        {
+          "text": "korzenie",
+          "start_ms": 198370,
+          "end_ms": 199103
+        }
+      ]
+    },
+    {
+      "id": 142,
+      "kind": "vocabulary",
+      "start_ms": 201603,
+      "end_ms": 210656,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "ge",
+        "start_ms": 201603,
+        "end_ms": 202156
+      },
+      "target_playbacks": [
+        {
+          "text": "dawać",
+          "start_ms": 204156,
+          "end_ms": 204906
+        },
+        {
+          "text": "dawać",
+          "start_ms": 207406,
+          "end_ms": 208156
+        }
+      ]
+    },
+    {
+      "id": 145,
+      "kind": "vocabulary",
+      "start_ms": 210656,
+      "end_ms": 220404,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "hitta",
+        "start_ms": 210656,
+        "end_ms": 211390
+      },
+      "target_playbacks": [
+        {
+          "text": "znajdować",
+          "start_ms": 213390,
+          "end_ms": 214397
+        },
+        {
+          "text": "znajdować",
+          "start_ms": 216897,
+          "end_ms": 217904
+        }
+      ]
+    },
+    {
+      "id": 138,
+      "kind": "vocabulary",
+      "start_ms": 220404,
+      "end_ms": 230034,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "en bok",
+        "start_ms": 220404,
+        "end_ms": 221406
+      },
+      "target_playbacks": [
+        {
+          "text": "książka",
+          "start_ms": 223406,
+          "end_ms": 224220
+        },
+        {
+          "text": "książka",
+          "start_ms": 226720,
+          "end_ms": 227534
+        }
+      ]
+    },
+    {
+      "id": 136,
+      "kind": "vocabulary",
+      "start_ms": 230034,
+      "end_ms": 241479,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "komma ut ur ett hål",
+        "start_ms": 230034,
+        "end_ms": 231783
+      },
+      "target_playbacks": [
+        {
+          "text": "wychodzić z dziury",
+          "start_ms": 233783,
+          "end_ms": 235131
+        },
+        {
+          "text": "wychodzić z dziury",
+          "start_ms": 237631,
+          "end_ms": 238979
+        }
+      ]
+    },
+    {
+      "id": 135,
+      "kind": "vocabulary",
+      "start_ms": 241479,
+      "end_ms": 252153,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "ett stort träd",
+        "start_ms": 241479,
+        "end_ms": 242849
+      },
+      "target_playbacks": [
+        {
+          "text": "wielkie drzewo",
+          "start_ms": 244849,
+          "end_ms": 246001
+        },
+        {
+          "text": "wielkie drzewo",
+          "start_ms": 248501,
+          "end_ms": 249653
+        }
+      ]
+    },
+    {
+      "id": 197,
+      "kind": "vocabulary",
+      "start_ms": 252153,
+      "end_ms": 264111,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "en gammal dörr i marken",
+        "start_ms": 252153,
+        "end_ms": 254123
+      },
+      "target_playbacks": [
+        {
+          "text": "stare drzwi w ziemi",
+          "start_ms": 256123,
+          "end_ms": 257617
+        },
+        {
+          "text": "stare drzwi w ziemi",
+          "start_ms": 260117,
+          "end_ms": 261611
+        }
+      ]
+    }
+  ],
+  "book_introduction": null,
+  "chapter_introduction": {
+    "text": "Rozdział trzeci. Mysz pod drzewem.",
+    "start_ms": 1000,
+    "end_ms": 4312
+  },
+  "transitions": [
+    {
+      "kind": "chime",
+      "from": "story",
+      "to": "practice",
+      "start_ms": 36960,
+      "end_ms": 37580
+    },
+    {
+      "kind": "chime",
+      "from": "practice",
+      "to": "story",
+      "start_ms": 264111,
+      "end_ms": 264731
+    }
+  ],
+  "chapter_readings": [
+    {
+      "text": "Maja bierze latarkę, a Tomek żółty ser. Idą pod wielkie drzewo w ogrodzie. Tomek świeci latarką pod korzenie. Z dziury wychodzi mała mysz z książką w łapkach. – Mamy ser. Masz klucz? – pyta Tomek. Mysz daje im srebrny klucz, zabiera ser i znika. Pod liśćmi dzieci znajdują stare drzwi w ziemi.",
+      "start_ms": 6812,
+      "end_ms": 34460
+    },
+    {
+      "text": "Maja bierze latarkę, a Tomek żółty ser. Idą pod wielkie drzewo w ogrodzie. Tomek świeci latarką pod korzenie. Z dziury wychodzi mała mysz z książką w łapkach. – Mamy ser. Masz klucz? – pyta Tomek. Mysz daje im srebrny klucz, zabiera ser i znika. Pod liśćmi dzieci znajdują stare drzwi w ziemi.",
+      "start_ms": 267231,
+      "end_ms": 294879
+    }
+  ],
+  "chapter_reading": {
+    "text": "Maja bierze latarkę, a Tomek żółty ser. Idą pod wielkie drzewo w ogrodzie. Tomek świeci latarką pod korzenie. Z dziury wychodzi mała mysz z książką w łapkach. – Mamy ser. Masz klucz? – pyta Tomek. Mysz daje im srebrny klucz, zabiera ser i znika. Pod liśćmi dzieci znajdują stare drzwi w ziemi.",
+    "start_ms": 267231,
+    "end_ms": 294879
+  },
+  "narration": {
+    "engine": "azure",
+    "voice": "pl-PL-Harper:MAI-Voice-2.1",
+    "style": "audiobook",
+    "rate": "-12%",
+    "locale": "pl-PL",
+    "capabilities": {
+      "voice": "pl-PL-Harper:MAI-Voice-2.1",
+      "locale": "pl-PL",
+      "advertised_styles": [
+        "agent",
+        "audiobook",
+        "customer_call_center",
+        "educational",
+        "narrator"
+      ]
+    },
+    "ssml": "<speak xmlns:mstts=\"http://www.w3.org/2001/mstts\" version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"pl-PL\"><voice name=\"pl-PL-Harper:MAI-Voice-2.1\"><mstts:express-as style=\"audiobook\"><prosody rate=\"-12%\"><p>Maja bierze latarkę, a Tomek żółty ser. Idą pod wielkie drzewo w ogrodzie. Tomek świeci latarką pod korzenie. Z dziury wychodzi mała mysz z książką w łapkach. – Mamy ser. Masz klucz? – pyta Tomek. Mysz daje im srebrny klucz, zabiera ser i znika. Pod liśćmi dzieci znajdują stare drzwi w ziemi.</p></prosody></mstts:express-as></voice></speak>"
+  },
+  "audio_file": "03_chapter_03_sv_pl_2026-10-29_10-02-23.mp3"
+}

@@ -129,6 +129,10 @@ episode GUIDs, and publication dates, and stores the MP3s under
 than copying it, so only one copy exists; the timing JSON stays in the story's
 `generated/audio/` folder and the build manifest records `packaged_audio`.
 Reruns accept already-moved audio and refuse to overwrite different audio.
+When a re-render replaces an episode (new timestamped filename, same GUID and
+publication date), both `story_course.py` and `package_practice.py` delete the
+superseded MP3 once the catalog no longer references it
+(`podcast.remove_superseded_audio`), so each episode exists only once.
 Use a separate feed only when explicitly requested.
 
 ## Publish only when authorized

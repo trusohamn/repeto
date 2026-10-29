@@ -87,7 +87,10 @@ class StoryCourseTests(unittest.TestCase):
                 data = result["chapters"]["1"]["targets"][target]
                 settings = data["narration"]
                 title = data["chapter_introduction"]
-                self.assertEqual(title["text"], f'{mini_story()["chapters"][0]["titles"][target]}.')
+                self.assertEqual(
+                    title["text"],
+                    story_course.chapter_heading(mini_story()["chapters"][0], target),
+                )
                 self.assertLess(title["end_ms"], data["chapter_readings"][0]["start_ms"])
                 self.assertIn(title["text"], narration.await_args_list[1].args[0])
                 self.assertEqual(len(data["chapter_readings"]), 2)
@@ -325,6 +328,27 @@ class StoryCourseTests(unittest.TestCase):
         self.assertEqual(first_order, [entry["id"] for entry in second_manifest["practice"]])
         self.assertEqual(first_manifest["practice_order"], "deterministically_shuffled")
 
+    def test_chapter_heading_announces_localized_ordinal(self):
+        chapter = {"chapter_number": 2, "titles": {
+            "pl": "Głos z radia", "en": "A Voice from the Radio",
+            "ru": "Голос из радио", "sv": "En röst från radion",
+        }}
+        self.assertEqual(
+            story_course.chapter_heading(chapter, "pl"), "Rozdział drugi. Głos z radia."
+        )
+        self.assertEqual(
+            story_course.chapter_heading(chapter, "en"),
+            "Chapter two. A Voice from the Radio.",
+        )
+        self.assertEqual(
+            story_course.chapter_heading(chapter, "ru"), "Глава вторая. Голос из радио."
+        )
+        self.assertEqual(
+            story_course.chapter_heading(chapter, "sv"), "Kapitel två. En röst från radion."
+        )
+        with self.assertRaises(ValueError):
+            story_course.chapter_heading({**chapter, "chapter_number": 11}, "pl")
+
     def test_book_title_is_introduced_before_first_reading_in_first_chapter_only(self):
         chapter = mini_story()["chapters"][0]
         _, first = story_course._compose_track(
@@ -339,7 +363,7 @@ class StoryCourseTests(unittest.TestCase):
             first["chapter_introduction"]["start_ms"],
             first["book_introduction"]["end_ms"] + 30,
         )
-        self.assertEqual(first["chapter_introduction"]["text"], "Kot.")
+        self.assertEqual(first["chapter_introduction"]["text"], "Rozdział pierwszy. Kot.")
         self.assertEqual(
             first["chapter_readings"][0]["start_ms"],
             first["chapter_introduction"]["end_ms"] + 30,
@@ -395,7 +419,7 @@ class StoryCourseTests(unittest.TestCase):
                 self.assertEqual(data["chapter_introduction"], manifest["chapter_introduction"])
                 self.assertEqual(
                     manifest["chapter_introduction"]["text"],
-                    f'{mini_story()["chapters"][0]["titles"][target]}.',
+                    story_course.chapter_heading(mini_story()["chapters"][0], target),
                 )
 
     def test_missing_chapter_title_clip_is_rejected(self):

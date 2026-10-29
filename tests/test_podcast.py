@@ -14,6 +14,25 @@ SPEC.loader.exec_module(podcast)
 
 
 class PodcastTests(unittest.TestCase):
+    def test_remove_superseded_audio_keeps_referenced_files(self):
+        with tempfile.TemporaryDirectory() as directory:
+            course = Path(directory)
+            practice = course / "audio" / "practice"
+            practice.mkdir(parents=True)
+            for name in ("old.mp3", "new.mp3", "shared.mp3"):
+                (practice / name).write_bytes(b"x")
+            (course / "course.json").write_text(json.dumps({"episodes": [
+                {"id": "a", "file": "practice/new.mp3"},
+                {"id": "b", "file": "practice/shared.mp3"},
+            ]}), encoding="utf-8")
+            removed = podcast.remove_superseded_audio(
+                course, ["practice/old.mp3", "practice/shared.mp3", "../course.json"]
+            )
+            self.assertEqual([path.name for path in removed], ["old.mp3"])
+            self.assertEqual(
+                sorted(path.name for path in practice.iterdir()), ["new.mp3", "shared.mp3"]
+            )
+            self.assertTrue((course / "course.json").is_file())
     def test_episode_artwork_is_optional_validated_and_url_encoded(self):
         source = Path(__file__).resolve().parents[1] / "podcast/swedish-polish/course.json"
         config = json.loads(source.read_text())

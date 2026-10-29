@@ -167,7 +167,8 @@ Manifestet ska innehålla uppläsningsmotor, röst, stil, språk och exakt SSML.
 
 Ljudet för varje kapitel ska spelas i denna ordning:
 
-Varje inspelning inleds med kapitlets titel på målspråket, med samma röst
+Varje inspelning inleds med kapitlets nummer och titel på målspråket
+(t.ex. "Rozdział drugi. Głos z radia."), med samma röst
 som berättelsen och repetitionspausen före första uppläsningen. I kapitel 1
 kommer boktiteln först. Kapitelrubriken sägs bara en gång och registreras
 med text och tidsstämplar i `chapter_introduction` i båda manifesten.

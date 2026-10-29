@@ -103,9 +103,11 @@ description: Turn a chaptered children's story into a faithful multilingual tran
 - Speak the book title once at the beginning of chapter 1, before the first
   reading. Record it as a separate `book_introduction` manifest segment and
   do not repeat it in the full chapter reading.
-- Announce each chapter's target-language title with the narration voice
-  before its first reading, after the book title in chapter 1. Follow it
-  with the configured repetition pause. Record `chapter_introduction` in
+- Announce each chapter's target-language number and title ("Rozdział
+  drugi. Głos z radia.", `CHAPTER_HEADINGS`) with the narration voice; bare
+  short titles can make expressive narrators switch into character voices.
+  Announce it before its first reading, after the book title in chapter 1.
+  Follow it with the configured repetition pause. Record `chapter_introduction` in
   both the audio manifest and build manifest; do not repeat the title later.
 - Pass voice, rate, pitch, pauses, format, duration cap, paths, and podcast
   settings as CLI arguments when requested; check `--help` for current options.

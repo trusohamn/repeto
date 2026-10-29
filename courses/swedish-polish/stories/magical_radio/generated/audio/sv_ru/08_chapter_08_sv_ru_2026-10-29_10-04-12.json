@@ -1,0 +1,457 @@
+{
+  "chapter_number": 8,
+  "title": {
+    "pl": "Wielki koncert",
+    "sv": "Den stora konserten",
+    "en": "The Grand Concert",
+    "ru": "Большой концерт"
+  },
+  "source_language": "sv",
+  "target_language": "ru",
+  "practice_order": "deterministically_shuffled",
+  "sequence": [
+    "story",
+    "practice",
+    "story"
+  ],
+  "total_duration_ms": 258122,
+  "practice": [
+    {
+      "id": 99,
+      "kind": "vocabulary",
+      "start_ms": 45024,
+      "end_ms": 56703,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "flaxa med vingarna",
+        "start_ms": 45024,
+        "end_ms": 46587
+      },
+      "target_playbacks": [
+        {
+          "text": "махать крыльями",
+          "start_ms": 48587,
+          "end_ms": 50145
+        },
+        {
+          "text": "махать крыльями",
+          "start_ms": 52645,
+          "end_ms": 54203
+        }
+      ]
+    },
+    {
+      "id": 187,
+      "kind": "vocabulary",
+      "start_ms": 56703,
+      "end_ms": 69805,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "falla ut ur det lilla facket",
+        "start_ms": 56703,
+        "end_ms": 58937
+      },
+      "target_playbacks": [
+        {
+          "text": "выпадать из тайника",
+          "start_ms": 60937,
+          "end_ms": 62871
+        },
+        {
+          "text": "выпадать из тайника",
+          "start_ms": 65371,
+          "end_ms": 67305
+        }
+      ]
+    },
+    {
+      "id": 190,
+      "kind": "vocabulary",
+      "start_ms": 69805,
+      "end_ms": 79545,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "ropa",
+        "start_ms": 69805,
+        "end_ms": 70621
+      },
+      "target_playbacks": [
+        {
+          "text": "кричать",
+          "start_ms": 72621,
+          "end_ms": 73583
+        },
+        {
+          "text": "кричать",
+          "start_ms": 76083,
+          "end_ms": 77045
+        }
+      ]
+    },
+    {
+      "id": 192,
+      "kind": "vocabulary",
+      "start_ms": 79545,
+      "end_ms": 88940,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "glatt",
+        "start_ms": 79545,
+        "end_ms": 80210
+      },
+      "target_playbacks": [
+        {
+          "text": "весело",
+          "start_ms": 82210,
+          "end_ms": 83075
+        },
+        {
+          "text": "весело",
+          "start_ms": 85575,
+          "end_ms": 86440
+        }
+      ]
+    },
+    {
+      "id": 194,
+      "kind": "vocabulary",
+      "start_ms": 88940,
+      "end_ms": 99103,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "i luften",
+        "start_ms": 88940,
+        "end_ms": 89877
+      },
+      "target_playbacks": [
+        {
+          "text": "в воздухе",
+          "start_ms": 91877,
+          "end_ms": 92990
+        },
+        {
+          "text": "в воздухе",
+          "start_ms": 95490,
+          "end_ms": 96603
+        }
+      ]
+    },
+    {
+      "id": 189,
+      "kind": "vocabulary",
+      "start_ms": 99103,
+      "end_ms": 112396,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "sätta in stenen i vingen",
+        "start_ms": 99103,
+        "end_ms": 101334
+      },
+      "target_playbacks": [
+        {
+          "text": "вставлять камешек в крыло",
+          "start_ms": 103334,
+          "end_ms": 105365
+        },
+        {
+          "text": "вставлять камешек в крыло",
+          "start_ms": 107865,
+          "end_ms": 109896
+        }
+      ]
+    },
+    {
+      "id": 191,
+      "kind": "vocabulary",
+      "start_ms": 112396,
+      "end_ms": 123573,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "börja sjunga",
+        "start_ms": 112396,
+        "end_ms": 113655
+      },
+      "target_playbacks": [
+        {
+          "text": "начинать петь",
+          "start_ms": 115655,
+          "end_ms": 117114
+        },
+        {
+          "text": "начинать петь",
+          "start_ms": 119614,
+          "end_ms": 121073
+        }
+      ]
+    },
+    {
+      "id": 195,
+      "kind": "vocabulary",
+      "start_ms": 123573,
+      "end_ms": 133323,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "dansa",
+        "start_ms": 123573,
+        "end_ms": 124335
+      },
+      "target_playbacks": [
+        {
+          "text": "танцевать",
+          "start_ms": 126335,
+          "end_ms": 127329
+        },
+        {
+          "text": "танцевать",
+          "start_ms": 129829,
+          "end_ms": 130823
+        }
+      ]
+    },
+    {
+      "id": 196,
+      "kind": "vocabulary",
+      "start_ms": 133323,
+      "end_ms": 145011,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "stanna för alltid",
+        "start_ms": 133323,
+        "end_ms": 134957
+      },
+      "target_playbacks": [
+        {
+          "text": "остаться навсегда",
+          "start_ms": 136957,
+          "end_ms": 138484
+        },
+        {
+          "text": "остаться навсегда",
+          "start_ms": 140984,
+          "end_ms": 142511
+        }
+      ]
+    },
+    {
+      "id": 101,
+      "kind": "vocabulary",
+      "start_ms": 145011,
+      "end_ms": 156510,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "bra jobbat",
+        "start_ms": 145011,
+        "end_ms": 146208
+      },
+      "target_playbacks": [
+        {
+          "text": "отличная работа",
+          "start_ms": 148208,
+          "end_ms": 149859
+        },
+        {
+          "text": "отличная работа",
+          "start_ms": 152359,
+          "end_ms": 154010
+        }
+      ]
+    },
+    {
+      "id": 193,
+      "kind": "vocabulary",
+      "start_ms": 156510,
+      "end_ms": 166561,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "fjärilar",
+        "start_ms": 156510,
+        "end_ms": 157571
+      },
+      "target_playbacks": [
+        {
+          "text": "бабочки",
+          "start_ms": 159571,
+          "end_ms": 160566
+        },
+        {
+          "text": "бабочки",
+          "start_ms": 163066,
+          "end_ms": 164061
+        }
+      ]
+    },
+    {
+      "id": 96,
+      "kind": "vocabulary",
+      "start_ms": 166561,
+      "end_ms": 177670,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "hämta radion",
+        "start_ms": 166561,
+        "end_ms": 167904
+      },
+      "target_playbacks": [
+        {
+          "text": "принести радио",
+          "start_ms": 169904,
+          "end_ms": 171287
+        },
+        {
+          "text": "принести радио",
+          "start_ms": 173787,
+          "end_ms": 175170
+        }
+      ]
+    },
+    {
+      "id": 98,
+      "kind": "vocabulary",
+      "start_ms": 177670,
+      "end_ms": 189797,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "stoppa in stenen",
+        "start_ms": 177670,
+        "end_ms": 179463
+      },
+      "target_playbacks": [
+        {
+          "text": "вставить камешек",
+          "start_ms": 181463,
+          "end_ms": 183130
+        },
+        {
+          "text": "вставить камешек",
+          "start_ms": 185630,
+          "end_ms": 187297
+        }
+      ]
+    },
+    {
+      "id": 188,
+      "kind": "vocabulary",
+      "start_ms": 189797,
+      "end_ms": 201836,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "en liten blå sten",
+        "start_ms": 189797,
+        "end_ms": 191554
+      },
+      "target_playbacks": [
+        {
+          "text": "синий камешек",
+          "start_ms": 193554,
+          "end_ms": 195195
+        },
+        {
+          "text": "синий камешек",
+          "start_ms": 197695,
+          "end_ms": 199336
+        }
+      ]
+    },
+    {
+      "id": 97,
+      "kind": "vocabulary",
+      "start_ms": 201836,
+      "end_ms": 213607,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "litet gömställe",
+        "start_ms": 201836,
+        "end_ms": 203485
+      },
+      "target_playbacks": [
+        {
+          "text": "маленький тайник",
+          "start_ms": 205485,
+          "end_ms": 207046
+        },
+        {
+          "text": "маленький тайник",
+          "start_ms": 209546,
+          "end_ms": 211107
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "kind": "vocabulary",
+      "start_ms": 213607,
+      "end_ms": 224379,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "sjunga glatt",
+        "start_ms": 213607,
+        "end_ms": 214799
+      },
+      "target_playbacks": [
+        {
+          "text": "весело петь",
+          "start_ms": 216799,
+          "end_ms": 218089
+        },
+        {
+          "text": "весело петь",
+          "start_ms": 220589,
+          "end_ms": 221879
+        }
+      ]
+    }
+  ],
+  "book_introduction": null,
+  "chapter_introduction": {
+    "text": "Глава восьмая. Большой концерт.",
+    "start_ms": 1000,
+    "end_ms": 6280
+  },
+  "transitions": [
+    {
+      "kind": "chime",
+      "from": "story",
+      "to": "practice",
+      "start_ms": 41904,
+      "end_ms": 42524
+    },
+    {
+      "kind": "chime",
+      "from": "practice",
+      "to": "story",
+      "start_ms": 224379,
+      "end_ms": 224999
+    }
+  ],
+  "chapter_readings": [
+    {
+      "text": "Дети приносят радио. Из маленького тайника выпадает синий камешек. Миша вставляет его в крыло птицы. Дети кричат: — Репаро! Золотая птица машет крыльями и начинает весело петь. В воздухе танцуют бабочки. — Отличная работа! — говорит Радиофон. — Я остаюсь с вами навсегда!",
+      "start_ms": 8780,
+      "end_ms": 39404
+    },
+    {
+      "text": "Дети приносят радио. Из маленького тайника выпадает синий камешек. Миша вставляет его в крыло птицы. Дети кричат: — Репаро! Золотая птица машет крыльями и начинает весело петь. В воздухе танцуют бабочки. — Отличная работа! — говорит Радиофон. — Я остаюсь с вами навсегда!",
+      "start_ms": 227499,
+      "end_ms": 258122
+    }
+  ],
+  "chapter_reading": {
+    "text": "Дети приносят радио. Из маленького тайника выпадает синий камешек. Миша вставляет его в крыло птицы. Дети кричат: — Репаро! Золотая птица машет крыльями и начинает весело петь. В воздухе танцуют бабочки. — Отличная работа! — говорит Радиофон. — Я остаюсь с вами навсегда!",
+    "start_ms": 227499,
+    "end_ms": 258122
+  },
+  "narration": {
+    "engine": "azure",
+    "voice": "ru-RU-SvetlanaNeural",
+    "style": null,
+    "rate": "-12%",
+    "locale": "ru-RU",
+    "capabilities": {
+      "voice": "ru-RU-SvetlanaNeural",
+      "locale": "ru-RU",
+      "advertised_styles": []
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"ru-RU\"><voice name=\"ru-RU-SvetlanaNeural\"><prosody rate=\"-12%\"><p>Дети приносят радио. Из маленького тайника выпадает синий камешек. Миша вставляет его в крыло птицы. Дети кричат: — Репаро! Золотая птица машет крыльями и начинает весело петь. В воздухе танцуют бабочки. — Отличная работа! — говорит Радиофон. — Я остаюсь с вами навсегда!</p></prosody></voice></speak>"
+  },
+  "audio_file": "08_chapter_08_sv_ru_2026-10-29_10-04-12.mp3"
+}

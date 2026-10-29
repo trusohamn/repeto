@@ -1,0 +1,481 @@
+{
+  "chapter_number": 7,
+  "title": {
+    "pl": "Złoty ptak",
+    "sv": "Den gyllene fågeln",
+    "en": "The Golden Bird",
+    "ru": "Золотая птица"
+  },
+  "source_language": "sv",
+  "target_language": "ru",
+  "practice_order": "deterministically_shuffled",
+  "sequence": [
+    "story",
+    "practice",
+    "story"
+  ],
+  "total_duration_ms": 250416,
+  "practice": [
+    {
+      "id": 86,
+      "kind": "vocabulary",
+      "start_ms": 41328,
+      "end_ms": 53947,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "ticka som en klocka",
+        "start_ms": 41328,
+        "end_ms": 42995
+      },
+      "target_playbacks": [
+        {
+          "text": "тикать, как часы",
+          "start_ms": 44995,
+          "end_ms": 46971
+        },
+        {
+          "text": "тикать, как часы",
+          "start_ms": 49471,
+          "end_ms": 51447
+        }
+      ]
+    },
+    {
+      "id": 178,
+      "kind": "vocabulary",
+      "start_ms": 53947,
+      "end_ms": 66066,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "sitta på en gren",
+        "start_ms": 53947,
+        "end_ms": 55682
+      },
+      "target_playbacks": [
+        {
+          "text": "сидеть на ветке",
+          "start_ms": 57682,
+          "end_ms": 59374
+        },
+        {
+          "text": "сидеть на ветке",
+          "start_ms": 61874,
+          "end_ms": 63566
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "kind": "vocabulary",
+      "start_ms": 66066,
+      "end_ms": 75182,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "vinge",
+        "start_ms": 66066,
+        "end_ms": 66856
+      },
+      "target_playbacks": [
+        {
+          "text": "крыло",
+          "start_ms": 68856,
+          "end_ms": 69519
+        },
+        {
+          "text": "крыло",
+          "start_ms": 72019,
+          "end_ms": 72682
+        }
+      ]
+    },
+    {
+      "id": 186,
+      "kind": "vocabulary",
+      "start_ms": 75182,
+      "end_ms": 86092,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "en blå sten",
+        "start_ms": 75182,
+        "end_ms": 76466
+      },
+      "target_playbacks": [
+        {
+          "text": "синий камень",
+          "start_ms": 78466,
+          "end_ms": 79779
+        },
+        {
+          "text": "синий камень",
+          "start_ms": 82279,
+          "end_ms": 83592
+        }
+      ]
+    },
+    {
+      "id": 182,
+      "kind": "vocabulary",
+      "start_ms": 86092,
+      "end_ms": 96347,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "saknas",
+        "start_ms": 86092,
+        "end_ms": 87185
+      },
+      "target_playbacks": [
+        {
+          "text": "не хватать",
+          "start_ms": 89185,
+          "end_ms": 90266
+        },
+        {
+          "text": "не хватать",
+          "start_ms": 92766,
+          "end_ms": 93847
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "kind": "vocabulary",
+      "start_ms": 96347,
+      "end_ms": 107016,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "öppna dörren",
+        "start_ms": 96347,
+        "end_ms": 97524
+      },
+      "target_playbacks": [
+        {
+          "text": "открыть дверь",
+          "start_ms": 99524,
+          "end_ms": 100770
+        },
+        {
+          "text": "открыть дверь",
+          "start_ms": 103270,
+          "end_ms": 104516
+        }
+      ]
+    },
+    {
+      "id": 207,
+      "kind": "vocabulary",
+      "start_ms": 107016,
+      "end_ms": 116444,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "ropa",
+        "start_ms": 107016,
+        "end_ms": 107832
+      },
+      "target_playbacks": [
+        {
+          "text": "звать",
+          "start_ms": 109832,
+          "end_ms": 110638
+        },
+        {
+          "text": "звать",
+          "start_ms": 113138,
+          "end_ms": 113944
+        }
+      ]
+    },
+    {
+      "id": 183,
+      "kind": "vocabulary",
+      "start_ms": 116444,
+      "end_ms": 127694,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "på dess ena vinge",
+        "start_ms": 116444,
+        "end_ms": 118008
+      },
+      "target_playbacks": [
+        {
+          "text": "на её крыле",
+          "start_ms": 120008,
+          "end_ms": 121351
+        },
+        {
+          "text": "на её крыле",
+          "start_ms": 123851,
+          "end_ms": 125194
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "kind": "vocabulary",
+      "start_ms": 127694,
+      "end_ms": 137629,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "fort",
+        "start_ms": 127694,
+        "end_ms": 128381
+      },
+      "target_playbacks": [
+        {
+          "text": "скорее",
+          "start_ms": 130381,
+          "end_ms": 131505
+        },
+        {
+          "text": "скорее",
+          "start_ms": 134005,
+          "end_ms": 135129
+        }
+      ]
+    },
+    {
+      "id": 184,
+      "kind": "vocabulary",
+      "start_ms": 137629,
+      "end_ms": 148301,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "vår radio",
+        "start_ms": 137629,
+        "end_ms": 138883
+      },
+      "target_playbacks": [
+        {
+          "text": "наше радио",
+          "start_ms": 140883,
+          "end_ms": 142092
+        },
+        {
+          "text": "наше радио",
+          "start_ms": 144592,
+          "end_ms": 145801
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "kind": "vocabulary",
+      "start_ms": 148301,
+      "end_ms": 158602,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "liten sten",
+        "start_ms": 148301,
+        "end_ms": 149622
+      },
+      "target_playbacks": [
+        {
+          "text": "камешек",
+          "start_ms": 151622,
+          "end_ms": 152612
+        },
+        {
+          "text": "камешек",
+          "start_ms": 155112,
+          "end_ms": 156102
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "kind": "vocabulary",
+      "start_ms": 158602,
+      "end_ms": 167946,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "gren",
+        "start_ms": 158602,
+        "end_ms": 159288
+      },
+      "target_playbacks": [
+        {
+          "text": "ветка",
+          "start_ms": 161288,
+          "end_ms": 162117
+        },
+        {
+          "text": "ветка",
+          "start_ms": 164617,
+          "end_ms": 165446
+        }
+      ]
+    },
+    {
+      "id": 179,
+      "kind": "vocabulary",
+      "start_ms": 167946,
+      "end_ms": 179817,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "en gyllene fågel",
+        "start_ms": 167946,
+        "end_ms": 169483
+      },
+      "target_playbacks": [
+        {
+          "text": "золотая птица",
+          "start_ms": 171483,
+          "end_ms": 173150
+        },
+        {
+          "text": "золотая птица",
+          "start_ms": 175650,
+          "end_ms": 177317
+        }
+      ]
+    },
+    {
+      "id": 185,
+      "kind": "vocabulary",
+      "start_ms": 179817,
+      "end_ms": 189944,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "i rummet",
+        "start_ms": 179817,
+        "end_ms": 180755
+      },
+      "target_playbacks": [
+        {
+          "text": "в комнате",
+          "start_ms": 182755,
+          "end_ms": 183850
+        },
+        {
+          "text": "в комнате",
+          "start_ms": 186350,
+          "end_ms": 187444
+        }
+      ]
+    },
+    {
+      "id": 181,
+      "kind": "vocabulary",
+      "start_ms": 189944,
+      "end_ms": 199172,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "bara",
+        "start_ms": 189944,
+        "end_ms": 190626
+      },
+      "target_playbacks": [
+        {
+          "text": "только",
+          "start_ms": 192626,
+          "end_ms": 193399
+        },
+        {
+          "text": "только",
+          "start_ms": 195899,
+          "end_ms": 196672
+        }
+      ]
+    },
+    {
+      "id": 180,
+      "kind": "vocabulary",
+      "start_ms": 199172,
+      "end_ms": 209003,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "inte sjunga",
+        "start_ms": 199172,
+        "end_ms": 200253
+      },
+      "target_playbacks": [
+        {
+          "text": "не петь",
+          "start_ms": 202253,
+          "end_ms": 203128
+        },
+        {
+          "text": "не петь",
+          "start_ms": 205628,
+          "end_ms": 206503
+        }
+      ]
+    },
+    {
+      "id": 177,
+      "kind": "vocabulary",
+      "start_ms": 209003,
+      "end_ms": 220464,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "gå in i trädgården",
+        "start_ms": 209003,
+        "end_ms": 210798
+      },
+      "target_playbacks": [
+        {
+          "text": "войти в сад",
+          "start_ms": 212798,
+          "end_ms": 214131
+        },
+        {
+          "text": "войти в сад",
+          "start_ms": 216631,
+          "end_ms": 217964
+        }
+      ]
+    }
+  ],
+  "book_introduction": null,
+  "chapter_introduction": {
+    "text": "Глава седьмая. Золотая птица.",
+    "start_ms": 1000,
+    "end_ms": 6376
+  },
+  "transitions": [
+    {
+      "kind": "chime",
+      "from": "story",
+      "to": "practice",
+      "start_ms": 38208,
+      "end_ms": 38828
+    },
+    {
+      "kind": "chime",
+      "from": "practice",
+      "to": "story",
+      "start_ms": 220464,
+      "end_ms": 221084
+    }
+  ],
+  "chapter_readings": [
+    {
+      "text": "Дети открывают зелёную дверь и входят в сад. На ветке сидит золотая птица. Она не поёт, а только тикает, как часы: Тик-так, тик-так. На её крыле не хватает маленького камешка. — Миша, у нашего радио в комнате есть синий камень! — зовёт Маша. — Скорее!",
+      "start_ms": 8876,
+      "end_ms": 35708
+    },
+    {
+      "text": "Дети открывают зелёную дверь и входят в сад. На ветке сидит золотая птица. Она не поёт, а только тикает, как часы: Тик-так, тик-так. На её крыле не хватает маленького камешка. — Миша, у нашего радио в комнате есть синий камень! — зовёт Маша. — Скорее!",
+      "start_ms": 223584,
+      "end_ms": 250416
+    }
+  ],
+  "chapter_reading": {
+    "text": "Дети открывают зелёную дверь и входят в сад. На ветке сидит золотая птица. Она не поёт, а только тикает, как часы: Тик-так, тик-так. На её крыле не хватает маленького камешка. — Миша, у нашего радио в комнате есть синий камень! — зовёт Маша. — Скорее!",
+    "start_ms": 223584,
+    "end_ms": 250416
+  },
+  "narration": {
+    "engine": "azure",
+    "voice": "ru-RU-SvetlanaNeural",
+    "style": null,
+    "rate": "-12%",
+    "locale": "ru-RU",
+    "capabilities": {
+      "voice": "ru-RU-SvetlanaNeural",
+      "locale": "ru-RU",
+      "advertised_styles": []
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"ru-RU\"><voice name=\"ru-RU-SvetlanaNeural\"><prosody rate=\"-12%\"><p>Дети открывают зелёную дверь и входят в сад. На ветке сидит золотая птица. Она не поёт, а только тикает, как часы: Тик-так, тик-так. На её крыле не хватает маленького камешка. — Миша, у нашего радио в комнате есть синий камень! — зовёт Маша. — Скорее!</p></prosody></voice></speak>"
+  },
+  "audio_file": "07_chapter_07_sv_ru_2026-10-29_10-04-12.mp3"
+}

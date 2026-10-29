@@ -1,0 +1,621 @@
+{
+  "chapter_number": 3,
+  "title": {
+    "pl": "Mysz pod drzewem",
+    "sv": "En mus under trädet",
+    "en": "A Mouse under the Tree",
+    "ru": "Мышка под деревом"
+  },
+  "source_language": "sv",
+  "target_language": "en",
+  "practice_order": "deterministically_shuffled",
+  "sequence": [
+    "story",
+    "practice",
+    "story"
+  ],
+  "total_duration_ms": 300941,
+  "practice": [
+    {
+      "id": 140,
+      "kind": "vocabulary",
+      "start_ms": 43440,
+      "end_ms": 54159,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "har du en nyckel?",
+        "start_ms": 43440,
+        "end_ms": 44877
+      },
+      "target_playbacks": [
+        {
+          "text": "do you have a key?",
+          "start_ms": 46877,
+          "end_ms": 48018
+        },
+        {
+          "text": "do you have a key?",
+          "start_ms": 50518,
+          "end_ms": 51659
+        }
+      ]
+    },
+    {
+      "id": 137,
+      "kind": "vocabulary",
+      "start_ms": 54159,
+      "end_ms": 64870,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "en liten mus",
+        "start_ms": 54159,
+        "end_ms": 55632
+      },
+      "target_playbacks": [
+        {
+          "text": "a little mouse",
+          "start_ms": 57632,
+          "end_ms": 58751
+        },
+        {
+          "text": "a little mouse",
+          "start_ms": 61251,
+          "end_ms": 62370
+        }
+      ]
+    },
+    {
+      "id": 139,
+      "kind": "vocabulary",
+      "start_ms": 64870,
+      "end_ms": 75413,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "vi har ost",
+        "start_ms": 64870,
+        "end_ms": 66217
+      },
+      "target_playbacks": [
+        {
+          "text": "we have cheese",
+          "start_ms": 68217,
+          "end_ms": 69315
+        },
+        {
+          "text": "we have cheese",
+          "start_ms": 71815,
+          "end_ms": 72913
+        }
+      ]
+    },
+    {
+      "id": 144,
+      "kind": "vocabulary",
+      "start_ms": 75413,
+      "end_ms": 85162,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "försvinna",
+        "start_ms": 75413,
+        "end_ms": 76412
+      },
+      "target_playbacks": [
+        {
+          "text": "disappear",
+          "start_ms": 78412,
+          "end_ms": 79287
+        },
+        {
+          "text": "disappear",
+          "start_ms": 81787,
+          "end_ms": 82662
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "kind": "vocabulary",
+      "start_ms": 85162,
+      "end_ms": 95657,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "under löven",
+        "start_ms": 85162,
+        "end_ms": 86425
+      },
+      "target_playbacks": [
+        {
+          "text": "under the leaves",
+          "start_ms": 88425,
+          "end_ms": 89541
+        },
+        {
+          "text": "under the leaves",
+          "start_ms": 92041,
+          "end_ms": 93157
+        }
+      ]
+    },
+    {
+      "id": 133,
+      "kind": "vocabulary",
+      "start_ms": 95657,
+      "end_ms": 107502,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "gå under det stora trädet",
+        "start_ms": 95657,
+        "end_ms": 97730
+      },
+      "target_playbacks": [
+        {
+          "text": "go under the big tree",
+          "start_ms": 99730,
+          "end_ms": 101116
+        },
+        {
+          "text": "go under the big tree",
+          "start_ms": 103616,
+          "end_ms": 105002
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "kind": "vocabulary",
+      "start_ms": 107502,
+      "end_ms": 119141,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "lysa med ficklampan",
+        "start_ms": 107502,
+        "end_ms": 109285
+      },
+      "target_playbacks": [
+        {
+          "text": "shine a flashlight",
+          "start_ms": 111285,
+          "end_ms": 112713
+        },
+        {
+          "text": "shine a flashlight",
+          "start_ms": 115213,
+          "end_ms": 116641
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "kind": "vocabulary",
+      "start_ms": 119141,
+      "end_ms": 129478,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "silvernyckel",
+        "start_ms": 119141,
+        "end_ms": 120464
+      },
+      "target_playbacks": [
+        {
+          "text": "silver key",
+          "start_ms": 122464,
+          "end_ms": 123471
+        },
+        {
+          "text": "silver key",
+          "start_ms": 125971,
+          "end_ms": 126978
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "kind": "vocabulary",
+      "start_ms": 129478,
+      "end_ms": 139840,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "gul ost",
+        "start_ms": 129478,
+        "end_ms": 130676
+      },
+      "target_playbacks": [
+        {
+          "text": "yellow cheese",
+          "start_ms": 132676,
+          "end_ms": 133758
+        },
+        {
+          "text": "yellow cheese",
+          "start_ms": 136258,
+          "end_ms": 137340
+        }
+      ]
+    },
+    {
+      "id": 143,
+      "kind": "vocabulary",
+      "start_ms": 139840,
+      "end_ms": 150891,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "ta med sig osten",
+        "start_ms": 139840,
+        "end_ms": 141371
+      },
+      "target_playbacks": [
+        {
+          "text": "take the cheese away",
+          "start_ms": 143371,
+          "end_ms": 144631
+        },
+        {
+          "text": "take the cheese away",
+          "start_ms": 147131,
+          "end_ms": 148391
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "kind": "vocabulary",
+      "start_ms": 150891,
+      "end_ms": 159494,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "hål",
+        "start_ms": 150891,
+        "end_ms": 151528
+      },
+      "target_playbacks": [
+        {
+          "text": "hole",
+          "start_ms": 153528,
+          "end_ms": 154011
+        },
+        {
+          "text": "hole",
+          "start_ms": 156511,
+          "end_ms": 156994
+        }
+      ]
+    },
+    {
+      "id": 134,
+      "kind": "vocabulary",
+      "start_ms": 159494,
+      "end_ms": 169764,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "i trädgården",
+        "start_ms": 159494,
+        "end_ms": 160888
+      },
+      "target_playbacks": [
+        {
+          "text": "in the garden",
+          "start_ms": 162888,
+          "end_ms": 163826
+        },
+        {
+          "text": "in the garden",
+          "start_ms": 166326,
+          "end_ms": 167264
+        }
+      ]
+    },
+    {
+      "id": 132,
+      "kind": "vocabulary",
+      "start_ms": 169764,
+      "end_ms": 178313,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "ta",
+        "start_ms": 169764,
+        "end_ms": 170220
+      },
+      "target_playbacks": [
+        {
+          "text": "take",
+          "start_ms": 172220,
+          "end_ms": 172766
+        },
+        {
+          "text": "take",
+          "start_ms": 175266,
+          "end_ms": 175813
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "kind": "vocabulary",
+      "start_ms": 178313,
+      "end_ms": 188802,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "små tassar",
+        "start_ms": 178313,
+        "end_ms": 179588
+      },
+      "target_playbacks": [
+        {
+          "text": "little paws",
+          "start_ms": 181588,
+          "end_ms": 182695
+        },
+        {
+          "text": "little paws",
+          "start_ms": 185195,
+          "end_ms": 186302
+        }
+      ]
+    },
+    {
+      "id": 141,
+      "kind": "vocabulary",
+      "start_ms": 188802,
+      "end_ms": 197890,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "fråga",
+        "start_ms": 188802,
+        "end_ms": 189634
+      },
+      "target_playbacks": [
+        {
+          "text": "ask",
+          "start_ms": 191634,
+          "end_ms": 192262
+        },
+        {
+          "text": "ask",
+          "start_ms": 194762,
+          "end_ms": 195390
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "kind": "vocabulary",
+      "start_ms": 197890,
+      "end_ms": 207067,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "rötter",
+        "start_ms": 197890,
+        "end_ms": 198749
+      },
+      "target_playbacks": [
+        {
+          "text": "roots",
+          "start_ms": 200749,
+          "end_ms": 201408
+        },
+        {
+          "text": "roots",
+          "start_ms": 203908,
+          "end_ms": 204567
+        }
+      ]
+    },
+    {
+      "id": 142,
+      "kind": "vocabulary",
+      "start_ms": 207067,
+      "end_ms": 215614,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "ge",
+        "start_ms": 207067,
+        "end_ms": 207620
+      },
+      "target_playbacks": [
+        {
+          "text": "give",
+          "start_ms": 209620,
+          "end_ms": 210117
+        },
+        {
+          "text": "give",
+          "start_ms": 212617,
+          "end_ms": 213114
+        }
+      ]
+    },
+    {
+      "id": 145,
+      "kind": "vocabulary",
+      "start_ms": 215614,
+      "end_ms": 224684,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "hitta",
+        "start_ms": 215614,
+        "end_ms": 216348
+      },
+      "target_playbacks": [
+        {
+          "text": "find",
+          "start_ms": 218348,
+          "end_ms": 219016
+        },
+        {
+          "text": "find",
+          "start_ms": 221516,
+          "end_ms": 222184
+        }
+      ]
+    },
+    {
+      "id": 138,
+      "kind": "vocabulary",
+      "start_ms": 224684,
+      "end_ms": 233980,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "en bok",
+        "start_ms": 224684,
+        "end_ms": 225686
+      },
+      "target_playbacks": [
+        {
+          "text": "a book",
+          "start_ms": 227686,
+          "end_ms": 228333
+        },
+        {
+          "text": "a book",
+          "start_ms": 230833,
+          "end_ms": 231480
+        }
+      ]
+    },
+    {
+      "id": 136,
+      "kind": "vocabulary",
+      "start_ms": 233980,
+      "end_ms": 245117,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "komma ut ur ett hål",
+        "start_ms": 233980,
+        "end_ms": 235729
+      },
+      "target_playbacks": [
+        {
+          "text": "come out of a hole",
+          "start_ms": 237729,
+          "end_ms": 238923
+        },
+        {
+          "text": "come out of a hole",
+          "start_ms": 241423,
+          "end_ms": 242617
+        }
+      ]
+    },
+    {
+      "id": 135,
+      "kind": "vocabulary",
+      "start_ms": 245117,
+      "end_ms": 255349,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "ett stort träd",
+        "start_ms": 245117,
+        "end_ms": 246487
+      },
+      "target_playbacks": [
+        {
+          "text": "a big tree",
+          "start_ms": 248487,
+          "end_ms": 249418
+        },
+        {
+          "text": "a big tree",
+          "start_ms": 251918,
+          "end_ms": 252849
+        }
+      ]
+    },
+    {
+      "id": 197,
+      "kind": "vocabulary",
+      "start_ms": 255349,
+      "end_ms": 267653,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "en gammal dörr i marken",
+        "start_ms": 255349,
+        "end_ms": 257319
+      },
+      "target_playbacks": [
+        {
+          "text": "an old door in the ground",
+          "start_ms": 259319,
+          "end_ms": 260986
+        },
+        {
+          "text": "an old door in the ground",
+          "start_ms": 263486,
+          "end_ms": 265153
+        }
+      ]
+    }
+  ],
+  "book_introduction": null,
+  "chapter_introduction": {
+    "text": "Chapter three. A Mouse under the Tree.",
+    "start_ms": 1000,
+    "end_ms": 5152
+  },
+  "transitions": [
+    {
+      "kind": "chime",
+      "from": "story",
+      "to": "practice",
+      "start_ms": 40320,
+      "end_ms": 40940
+    },
+    {
+      "kind": "chime",
+      "from": "practice",
+      "to": "story",
+      "start_ms": 267653,
+      "end_ms": 268273
+    }
+  ],
+  "chapter_readings": [
+    {
+      "text": "Maya takes a flashlight, and Tom takes some yellow cheese. They go to the big tree in the garden. Tom shines the flashlight under the roots. A little mouse comes out of a hole with a book in its little paws. “We have cheese. Do you have a key?” asks Tom. The mouse gives them a silver key, takes the cheese and disappears. Under the leaves, the children find an old door in the ground.",
+      "start_ms": 7652,
+      "end_ms": 37820
+    },
+    {
+      "text": "Maya takes a flashlight, and Tom takes some yellow cheese. They go to the big tree in the garden. Tom shines the flashlight under the roots. A little mouse comes out of a hole with a book in its little paws. “We have cheese. Do you have a key?” asks Tom. The mouse gives them a silver key, takes the cheese and disappears. Under the leaves, the children find an old door in the ground.",
+      "start_ms": 270773,
+      "end_ms": 300941
+    }
+  ],
+  "chapter_reading": {
+    "text": "Maya takes a flashlight, and Tom takes some yellow cheese. They go to the big tree in the garden. Tom shines the flashlight under the roots. A little mouse comes out of a hole with a book in its little paws. “We have cheese. Do you have a key?” asks Tom. The mouse gives them a silver key, takes the cheese and disappears. Under the leaves, the children find an old door in the ground.",
+    "start_ms": 270773,
+    "end_ms": 300941
+  },
+  "narration": {
+    "engine": "azure",
+    "voice": "en-US-Harper:MAI-Voice-2.1",
+    "style": "audiobook",
+    "rate": "-12%",
+    "locale": "en-US",
+    "capabilities": {
+      "voice": "en-US-Harper:MAI-Voice-2.1",
+      "locale": "en-US",
+      "advertised_styles": [
+        "agent",
+        "angry",
+        "audiobook",
+        "confused",
+        "customer_call_center",
+        "determined",
+        "educational",
+        "embarrassed",
+        "excited",
+        "happy",
+        "hopeful",
+        "joyful",
+        "narrator",
+        "regretful",
+        "relieved",
+        "sad",
+        "shouting",
+        "softvoice",
+        "whispering"
+      ]
+    },
+    "ssml": "<speak xmlns:mstts=\"http://www.w3.org/2001/mstts\" version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"en-US\"><voice name=\"en-US-Harper:MAI-Voice-2.1\"><mstts:express-as style=\"audiobook\"><prosody rate=\"-12%\"><p>Maya takes a flashlight, and Tom takes some yellow cheese. They go to the big tree in the garden. Tom shines the flashlight under the roots. A little mouse comes out of a hole with a book in its little paws. “We have cheese. Do you have a key?” asks Tom. The mouse gives them a silver key, takes the cheese and disappears. Under the leaves, the children find an old door in the ground.</p></prosody></mstts:express-as></voice></speak>"
+  },
+  "audio_file": "03_chapter_03_sv_en_2026-10-29_10-03-18.mp3"
+}

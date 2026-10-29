@@ -55,6 +55,20 @@ def fingerprint_image(path: Path) -> Path:
     return published
 
 
+def remove_superseded_audio(course: Path, old_files: list[str]) -> list[Path]:
+    """Delete episode MP3s that a re-render replaced and the catalog no longer uses."""
+    catalog = json.loads((course / "course.json").read_text(encoding="utf-8"))
+    referenced = {episode["file"] for episode in catalog["episodes"]}
+    audio_root = (course / "audio").resolve()
+    removed = []
+    for old_file in sorted(set(old_files) - referenced):
+        path = (audio_root / Path(*PurePosixPath(old_file).parts)).resolve()
+        if path.parent.is_relative_to(audio_root) and path.is_file():
+            path.unlink()
+            removed.append(path)
+    return removed
+
+
 def build_feed(course: Path, base_url: str) -> None:
     config = json.loads((course / "course.json").read_text(encoding="utf-8"))
     url = f"{base_url.rstrip('/')}/{quote(course.name)}"

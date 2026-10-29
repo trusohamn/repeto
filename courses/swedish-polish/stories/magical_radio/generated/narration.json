@@ -2,7 +2,7 @@
   "pl": {
     "1": [
       {
-        "text": "Jest sobota. Maja ma dziewięć lat, a jej brat Tomek ma sześć lat. Razem idą na pchli targ.",
+        "text": "Jest sobota. Maja ma dziewięć lat, a jej brat Tomek – sześć. Razem idą na pchli targ.",
         "intent": "Warm, continuous introduction; let punctuation guide natural phrasing",
         "rate": "-12%",
         "pitch": "+1%",

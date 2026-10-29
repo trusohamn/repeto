@@ -38,6 +38,18 @@ DEFAULT_VOICES = {
 DEFAULT_RATES = {"pl": "-15%", "sv": "-15%", "en": "-5%", "ru": "-15%"}
 DEFAULT_TARGETS = ("pl",)
 SWEDISH_LANGUAGE_NAMES = {"pl": "polska", "en": "engelska", "ru": "ryska"}
+# Spoken before each chapter title; short bare titles let expressive narrators
+# drift into character voices (e.g. "Głos z radia." read as a deep radio voice).
+CHAPTER_HEADINGS = {
+    "pl": ("Rozdział", ["pierwszy", "drugi", "trzeci", "czwarty", "piąty", "szósty",
+                        "siódmy", "ósmy", "dziewiąty", "dziesiąty"]),
+    "sv": ("Kapitel", ["ett", "två", "tre", "fyra", "fem", "sex", "sju", "åtta",
+                       "nio", "tio"]),
+    "en": ("Chapter", ["one", "two", "three", "four", "five", "six", "seven", "eight",
+                       "nine", "ten"]),
+    "ru": ("Глава", ["первая", "вторая", "третья", "четвёртая", "пятая", "шестая",
+                     "седьмая", "восьмая", "девятая", "десятая"]),
+}
 SAMPLE_RATE = 44100
 BITRATE = "192k"
 LOGGER = logging.getLogger(__name__)
@@ -345,6 +357,18 @@ def _read_chapter_text(chapter: dict[str, Any], language: str) -> str:
         ) from error
 
 
+def chapter_heading(chapter: dict[str, Any], language: str) -> str:
+    """Return the spoken chapter announcement, e.g. "Rozdział drugi. Głos z radia."."""
+    title = f'{chapter["titles"][language]}.'
+    if language not in CHAPTER_HEADINGS:
+        raise ValueError(f"No spoken chapter heading configured for {language!r}.")
+    word, ordinals = CHAPTER_HEADINGS[language]
+    number = chapter["chapter_number"]
+    if not 1 <= number <= len(ordinals):
+        raise ValueError(f"No spoken ordinal for chapter {number} in {language!r}.")
+    return f"{word} {ordinals[number - 1]}. {title}"
+
+
 def _transition_cue() -> AudioSegment:
     first = Sine(523.25, sample_rate=SAMPLE_RATE).to_audio_segment(
         duration=220, volume=-24,
@@ -383,7 +407,7 @@ def _compose_track(
     title_start = len(track)
     track += chapter_intro_clip
     chapter_introduction = _segment(
-        f'{chapter["titles"][language]}.', title_start, len(track),
+        chapter_heading(chapter, language), title_start, len(track),
     )
     track += renderer.silence(repetition_ms)
     chapter_text = _read_chapter_text(chapter, language)
@@ -746,7 +770,7 @@ async def render_story(args: argparse.Namespace) -> dict[str, Any]:
                 chapter_ssml = ssml_by_chapter[(chapter_number, target)]
                 chapter_clip = await _narration_clip(chapter_ssml, args.cache, key, region)
                 title_ssml = azure.build_ssml(
-                    f'{chapter["titles"][target]}.', narration_rates[target], 0,
+                    chapter_heading(chapter, target), narration_rates[target], 0,
                     voice_name=narration_voices[target], style=narration_styles[target],
                     locale=azure.LOCALES[target],
                 )
@@ -759,7 +783,7 @@ async def render_story(args: argparse.Namespace) -> dict[str, Any]:
                     voices[target], rates[target], pitch[target], "edge",
                 )
                 chapter_intro_clip = await _clip(
-                    f'{chapter["titles"][target]}.', target, args.cache,
+                    chapter_heading(chapter, target), target, args.cache,
                     voices[target], rates[target], pitch[target], "edge",
                 )
             book_intro_clip = None
@@ -962,6 +986,7 @@ def package_podcasts(
             ]
             story_season = max(existing_seasons, default=0) + 1 if args.podcast_course else 1
 
+        superseded: list[str] = []
         for chapter in transcript["chapters"]:
             number = chapter["chapter_number"]
             data = build["chapters"][str(number)]["targets"][target]
@@ -988,6 +1013,8 @@ def package_podcasts(
             )
             episode_id = f'{transcript["story_id"]}:{source_language}:{target}:chapter-{number:02d}'
             previous = previous_by_id.get(episode_id, {})
+            if "file" in previous:
+                superseded.append(previous["file"])
             episode = {
                 "id": episode_id,
                 "title": (
@@ -1022,6 +1049,11 @@ def package_podcasts(
                 episodes.append(episode)
                 previous_by_id[episode_id] = episode
         _write_json(existing_catalog, catalog)
+        for path in builder.remove_superseded_audio(course, superseded):
+            print(f"Removed superseded audio: {path.relative_to(course)}", flush=True)
+            stale_timing = args.output / f"{path.stem}.json"
+            if stale_timing.is_file():
+                stale_timing.unlink()
         builder.build_feed(course, base_url)
         feed_catalogs[target] = {
             "slug": slug,

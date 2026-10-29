@@ -191,6 +191,12 @@ def package(args: argparse.Namespace) -> dict[str, Any]:
     catalog_path.write_text(
         json.dumps(catalog, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
     )
+    superseded = [
+        previous[episode["id"]]["file"] for _, _, episode in practice_episodes
+        if episode["id"] in previous
+    ]
+    for path in _podcast_builder().remove_superseded_audio(course, superseded):
+        print(f"Removed superseded audio: {path.relative_to(course)}", flush=True)
     subprocess.run(
         [sys.executable, str(ROOT / "code" / "podcast.py"),
          "--root", str(args.podcast_root.resolve()), "--base-url", args.podcast_base_url],
