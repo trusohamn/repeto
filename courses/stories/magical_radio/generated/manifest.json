@@ -1873,7 +1873,7 @@
     },
     "narration_engine": "azure",
     "tts_engine": "azure",
-    "output": "courses/swedish-polish/stories/magical_radio/generated/audio/sv_ru"
+    "output": "courses/stories/magical_radio/generated/audio/sv_ru"
   },
   "renders": {
     "sv_pl": {
@@ -1927,7 +1927,7 @@
       },
       "narration_engine": "azure",
       "tts_engine": "azure",
-      "output": "courses/swedish-polish/stories/magical_radio/generated/audio/sv_pl"
+      "output": "courses/stories/magical_radio/generated/audio/sv_pl"
     },
     "sv_en": {
       "source_language": "sv",
@@ -1994,7 +1994,7 @@
       },
       "narration_engine": "azure",
       "tts_engine": "azure",
-      "output": "courses/swedish-polish/stories/magical_radio/generated/audio/sv_en"
+      "output": "courses/stories/magical_radio/generated/audio/sv_en"
     },
     "sv_ru": {
       "source_language": "sv",
@@ -2041,7 +2041,7 @@
       },
       "narration_engine": "azure",
       "tts_engine": "azure",
-      "output": "courses/swedish-polish/stories/magical_radio/generated/audio/sv_ru"
+      "output": "courses/stories/magical_radio/generated/audio/sv_ru"
     }
   }
 }

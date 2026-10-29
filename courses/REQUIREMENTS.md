@@ -12,18 +12,17 @@ polish_course/
 │   ├── practice/
 │   │   └── transcript.json            <-- Delad vokabulärkälla för språkpraktik
 │   ├── REQUIREMENTS.md
-│   └── swedish-polish/
-│       └── stories/
-│           └── magical_radio/
-│               ├── cover.jpeg         <-- Gemensamt berättelseomslag
-│               ├── complete/
-│               │   └── pl.txt         <-- Oförändrad polsk originaltext
-│               └── generated/
-│                   ├── transcript.json <-- `chapter_text` på polska, engelska och ryska
-│                   ├── manifest.json  <-- Gemensamt för alla riktningar
-│                   ├── audio/sv_pl/   <-- Tidsstämplar, svenska till polska
-│                   ├── audio/sv_en/   <-- Tidsstämplar, svenska till engelska
-│                   └── audio/sv_ru/   <-- Tidsstämplar, svenska till ryska
+│   └── stories/                       <-- Berättelser delade av alla språkriktningar
+│       └── magical_radio/
+│           ├── cover.jpeg             <-- Gemensamt berättelseomslag
+│           ├── complete/
+│           │   └── pl.txt             <-- Oförändrad polsk originaltext
+│           └── generated/
+│               ├── transcript.json    <-- `chapter_text` på polska, engelska och ryska
+│               ├── manifest.json      <-- Gemensamt för alla riktningar
+│               ├── audio/sv_pl/       <-- Tidsstämplar, svenska till polska
+│               ├── audio/sv_en/       <-- Tidsstämplar, svenska till engelska
+│               └── audio/sv_ru/       <-- Tidsstämplar, svenska till ryska
 └── code/
     ├── transcription.py               <-- Renderer för delad vokabulärpraktik
     └── story_course.py                <-- Storyrenderer och podcastpaketerare
@@ -31,7 +30,7 @@ polish_course/
 
 ---
 
-### Filformat: `courses/swedish-polish/stories/magical_radio/complete/pl.txt` (Din input)
+### Filformat: `courses/stories/magical_radio/complete/pl.txt` (Din input)
 
 Bara ren, läsbar polska uppdelad per kapitel:
 

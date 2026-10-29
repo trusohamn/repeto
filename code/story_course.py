@@ -1083,7 +1083,7 @@ def create_parser() -> argparse.ArgumentParser:
     parser.add_argument("--narration-rate", action="append", default=[], metavar="LANG=RATE")
     parser.add_argument("--narration-style", action="append", default=[], metavar="LANG=STYLE")
     parser.add_argument("--narration-directions", type=Path)
-    default_story = ROOT / "courses" / "swedish-polish" / "stories" / "magical_radio"
+    default_story = ROOT / "courses" / "stories" / "magical_radio"
     parser.add_argument("--transcript", type=Path, default=default_story / "generated/transcript.json")
     parser.add_argument("--source-text", type=Path, default=default_story / "complete/pl.txt")
     parser.add_argument(

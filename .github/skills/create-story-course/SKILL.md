@@ -37,7 +37,7 @@ description: Turn a chaptered children's story into a faithful multilingual tran
   string per available target. Preserve the Polish original exactly. Only add
   full-chapter translations if requested; never create aligned sentence
   translations for practice.
-- Use `courses/swedish-polish/stories/magical_radio/generated/transcript.json`
+- Use `courses/stories/magical_radio/generated/transcript.json`
   as the schema example.
 - IDs are positive integers unique across all vocabulary items in the story.
   Treat IDs as permanent: preserve existing IDs and allocate new unused IDs

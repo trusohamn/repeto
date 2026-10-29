@@ -133,8 +133,8 @@ class StoryCourseTests(unittest.TestCase):
 
     def test_real_story_validates_and_reconstructs_source(self):
         story = story_course.load_transcript(
-            ROOT / "courses/swedish-polish/stories/magical_radio/generated/transcript.json",
-            ROOT / "courses/swedish-polish/stories/magical_radio/complete/pl.txt",
+            ROOT / "courses/stories/magical_radio/generated/transcript.json",
+            ROOT / "courses/stories/magical_radio/complete/pl.txt",
         )
         self.assertEqual(story["story_id"], "magical_radio")
         self.assertEqual(len(story["chapters"]), 8)
@@ -148,8 +148,8 @@ class StoryCourseTests(unittest.TestCase):
 
     def test_english_story_uses_localized_character_names(self):
         story = story_course.load_transcript(
-            ROOT / "courses/swedish-polish/stories/magical_radio/generated/transcript.json",
-            ROOT / "courses/swedish-polish/stories/magical_radio/complete/pl.txt",
+            ROOT / "courses/stories/magical_radio/generated/transcript.json",
+            ROOT / "courses/stories/magical_radio/complete/pl.txt",
         )
         english = " ".join(chapter["chapter_text"]["en"] for chapter in story["chapters"])
         for polish_name in ("Maja", "Mai ", "Tomek", "Tomka", "Radiofon "):
@@ -162,8 +162,8 @@ class StoryCourseTests(unittest.TestCase):
 
     def test_russian_story_uses_localized_character_names(self):
         story = story_course.load_transcript(
-            ROOT / "courses/swedish-polish/stories/magical_radio/generated/transcript.json",
-            ROOT / "courses/swedish-polish/stories/magical_radio/complete/pl.txt",
+            ROOT / "courses/stories/magical_radio/generated/transcript.json",
+            ROOT / "courses/stories/magical_radio/complete/pl.txt",
         )
         russian = " ".join(chapter["chapter_text"]["ru"] for chapter in story["chapters"])
         for foreign_name in ("Томек", "Майя", "Tom", "Maja", "Reparo"):
@@ -173,8 +173,8 @@ class StoryCourseTests(unittest.TestCase):
 
     def test_each_chapter_has_beginner_vocabulary_coverage(self):
         story = story_course.load_transcript(
-            ROOT / "courses/swedish-polish/stories/magical_radio/generated/transcript.json",
-            ROOT / "courses/swedish-polish/stories/magical_radio/complete/pl.txt",
+            ROOT / "courses/stories/magical_radio/generated/transcript.json",
+            ROOT / "courses/stories/magical_radio/complete/pl.txt",
         )
         for chapter in story["chapters"]:
             with self.subTest(chapter=chapter["chapter_number"]):

@@ -17,7 +17,7 @@ from dotenv import load_dotenv
 from pydub import AudioSegment
 
 ROOT = Path(__file__).resolve().parents[1]
-STORY = ROOT / "courses/swedish-polish/stories/magical_radio"
+STORY = ROOT / "courses/stories/magical_radio"
 SSML = "http://www.w3.org/2001/10/synthesis"
 VOICE = "pl-PL-ZofiaNeural"
 NARRATION_VOICES = {
