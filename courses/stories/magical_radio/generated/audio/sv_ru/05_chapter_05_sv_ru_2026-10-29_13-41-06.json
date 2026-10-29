@@ -1,0 +1,553 @@
+{
+  "chapter_number": 5,
+  "title": {
+    "pl": "Latająca książka",
+    "sv": "Den flygande boken",
+    "en": "The Flying Book",
+    "ru": "Летающая книга"
+  },
+  "source_language": "sv",
+  "target_language": "ru",
+  "practice_order": "deterministically_shuffled",
+  "sequence": [
+    "story",
+    "practice",
+    "story"
+  ],
+  "total_duration_ms": 281259,
+  "practice": [
+    {
+      "id": 160,
+      "kind": "vocabulary",
+      "start_ms": 39552,
+      "end_ms": 49859,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "börja tala",
+        "start_ms": 39552,
+        "end_ms": 40797
+      },
+      "target_playbacks": [
+        {
+          "text": "заговорить",
+          "start_ms": 42797,
+          "end_ms": 43828
+        },
+        {
+          "text": "заговорить",
+          "start_ms": 46328,
+          "end_ms": 47359
+        }
+      ]
+    },
+    {
+      "id": 167,
+      "kind": "vocabulary",
+      "start_ms": 49859,
+      "end_ms": 59269,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "gammal",
+        "start_ms": 49859,
+        "end_ms": 50685
+      },
+      "target_playbacks": [
+        {
+          "text": "старый",
+          "start_ms": 52685,
+          "end_ms": 53477
+        },
+        {
+          "text": "старый",
+          "start_ms": 55977,
+          "end_ms": 56769
+        }
+      ]
+    },
+    {
+      "id": 229,
+      "kind": "vocabulary",
+      "start_ms": 59269,
+      "end_ms": 68742,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "alltid",
+        "start_ms": 59269,
+        "end_ms": 60044
+      },
+      "target_playbacks": [
+        {
+          "text": "всегда",
+          "start_ms": 62044,
+          "end_ms": 62893
+        },
+        {
+          "text": "всегда",
+          "start_ms": 65393,
+          "end_ms": 66242
+        }
+      ]
+    },
+    {
+      "id": 162,
+      "kind": "vocabulary",
+      "start_ms": 68742,
+      "end_ms": 78301,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "viktig",
+        "start_ms": 68742,
+        "end_ms": 69575
+      },
+      "target_playbacks": [
+        {
+          "text": "важный",
+          "start_ms": 71575,
+          "end_ms": 72438
+        },
+        {
+          "text": "важный",
+          "start_ms": 74938,
+          "end_ms": 75801
+        }
+      ]
+    },
+    {
+      "id": 228,
+      "kind": "vocabulary",
+      "start_ms": 78301,
+      "end_ms": 89411,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "sin kompass",
+        "start_ms": 78301,
+        "end_ms": 79579
+      },
+      "target_playbacks": [
+        {
+          "text": "свой компас",
+          "start_ms": 81579,
+          "end_ms": 82995
+        },
+        {
+          "text": "свой компас",
+          "start_ms": 85495,
+          "end_ms": 86911
+        }
+      ]
+    },
+    {
+      "id": 164,
+      "kind": "vocabulary",
+      "start_ms": 89411,
+      "end_ms": 98993,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "laga",
+        "start_ms": 89411,
+        "end_ms": 90187
+      },
+      "target_playbacks": [
+        {
+          "text": "чинить",
+          "start_ms": 92187,
+          "end_ms": 93090
+        },
+        {
+          "text": "чинить",
+          "start_ms": 95590,
+          "end_ms": 96493
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "kind": "vocabulary",
+      "start_ms": 98993,
+      "end_ms": 111376,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "en trasig kompass",
+        "start_ms": 98993,
+        "end_ms": 100624
+      },
+      "target_playbacks": [
+        {
+          "text": "сломанный компас",
+          "start_ms": 102624,
+          "end_ms": 104500
+        },
+        {
+          "text": "сломанный компас",
+          "start_ms": 107000,
+          "end_ms": 108876
+        }
+      ]
+    },
+    {
+      "id": 165,
+      "kind": "vocabulary",
+      "start_ms": 111376,
+      "end_ms": 123174,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "en trasig sak",
+        "start_ms": 111376,
+        "end_ms": 112892
+      },
+      "target_playbacks": [
+        {
+          "text": "сломанная вещь",
+          "start_ms": 114892,
+          "end_ms": 116533
+        },
+        {
+          "text": "сломанная вещь",
+          "start_ms": 119033,
+          "end_ms": 120674
+        }
+      ]
+    },
+    {
+      "id": 158,
+      "kind": "vocabulary",
+      "start_ms": 123174,
+      "end_ms": 134780,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "landa på axeln",
+        "start_ms": 123174,
+        "end_ms": 124638
+      },
+      "target_playbacks": [
+        {
+          "text": "приземлиться на плечо",
+          "start_ms": 126638,
+          "end_ms": 128209
+        },
+        {
+          "text": "приземлиться на плечо",
+          "start_ms": 130709,
+          "end_ms": 132280
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "kind": "vocabulary",
+      "start_ms": 134780,
+      "end_ms": 145340,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "trollformel",
+        "start_ms": 134780,
+        "end_ms": 135930
+      },
+      "target_playbacks": [
+        {
+          "text": "заклинание",
+          "start_ms": 137930,
+          "end_ms": 139135
+        },
+        {
+          "text": "заклинание",
+          "start_ms": 141635,
+          "end_ms": 142840
+        }
+      ]
+    },
+    {
+      "id": 161,
+      "kind": "vocabulary",
+      "start_ms": 145340,
+      "end_ms": 155206,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "lära ut",
+        "start_ms": 145340,
+        "end_ms": 146542
+      },
+      "target_playbacks": [
+        {
+          "text": "учить",
+          "start_ms": 148542,
+          "end_ms": 149374
+        },
+        {
+          "text": "учить",
+          "start_ms": 151874,
+          "end_ms": 152706
+        }
+      ]
+    },
+    {
+      "id": 159,
+      "kind": "vocabulary",
+      "start_ms": 155206,
+      "end_ms": 164793,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "genast",
+        "start_ms": 155206,
+        "end_ms": 156265
+      },
+      "target_playbacks": [
+        {
+          "text": "сразу",
+          "start_ms": 158265,
+          "end_ms": 159029
+        },
+        {
+          "text": "сразу",
+          "start_ms": 161529,
+          "end_ms": 162293
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "kind": "vocabulary",
+      "start_ms": 164793,
+      "end_ms": 176992,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "flaxa med sidorna",
+        "start_ms": 164793,
+        "end_ms": 166350
+      },
+      "target_playbacks": [
+        {
+          "text": "махать страницами",
+          "start_ms": 168350,
+          "end_ms": 170171
+        },
+        {
+          "text": "махать страницами",
+          "start_ms": 172671,
+          "end_ms": 174492
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "kind": "vocabulary",
+      "start_ms": 176992,
+      "end_ms": 186130,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "axel",
+        "start_ms": 176992,
+        "end_ms": 177698
+      },
+      "target_playbacks": [
+        {
+          "text": "плечо",
+          "start_ms": 179698,
+          "end_ms": 180414
+        },
+        {
+          "text": "плечо",
+          "start_ms": 182914,
+          "end_ms": 183630
+        }
+      ]
+    },
+    {
+      "id": 199,
+      "kind": "vocabulary",
+      "start_ms": 186130,
+      "end_ms": 195816,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "Reparo!",
+        "start_ms": 186130,
+        "end_ms": 187090
+      },
+      "target_playbacks": [
+        {
+          "text": "Репаро!",
+          "start_ms": 189090,
+          "end_ms": 189953
+        },
+        {
+          "text": "Репаро!",
+          "start_ms": 192453,
+          "end_ms": 193316
+        }
+      ]
+    },
+    {
+      "id": 198,
+      "kind": "vocabulary",
+      "start_ms": 195816,
+      "end_ms": 208881,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "varje trasig sak",
+        "start_ms": 195816,
+        "end_ms": 197639
+      },
+      "target_playbacks": [
+        {
+          "text": "любая сломанная вещь",
+          "start_ms": 199639,
+          "end_ms": 201760
+        },
+        {
+          "text": "любая сломанная вещь",
+          "start_ms": 204260,
+          "end_ms": 206381
+        }
+      ]
+    },
+    {
+      "id": 163,
+      "kind": "vocabulary",
+      "start_ms": 208881,
+      "end_ms": 218520,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "ett ord",
+        "start_ms": 208881,
+        "end_ms": 209765
+      },
+      "target_playbacks": [
+        {
+          "text": "слово",
+          "start_ms": 211765,
+          "end_ms": 212642
+        },
+        {
+          "text": "слово",
+          "start_ms": 215142,
+          "end_ms": 216020
+        }
+      ]
+    },
+    {
+      "id": 166,
+      "kind": "vocabulary",
+      "start_ms": 218520,
+      "end_ms": 230965,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "ta upp ur fickan",
+        "start_ms": 218520,
+        "end_ms": 220259
+      },
+      "target_playbacks": [
+        {
+          "text": "доставать из кармана",
+          "start_ms": 222259,
+          "end_ms": 224112
+        },
+        {
+          "text": "доставать из кармана",
+          "start_ms": 226612,
+          "end_ms": 228465
+        }
+      ]
+    },
+    {
+      "id": 230,
+      "kind": "vocabulary",
+      "start_ms": 230965,
+      "end_ms": 241907,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "ha med sig",
+        "start_ms": 230965,
+        "end_ms": 232029
+      },
+      "target_playbacks": [
+        {
+          "text": "носить с собой",
+          "start_ms": 234029,
+          "end_ms": 235468
+        },
+        {
+          "text": "носить с собой",
+          "start_ms": 237968,
+          "end_ms": 239407
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "kind": "vocabulary",
+      "start_ms": 241907,
+      "end_ms": 253035,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "gyllene bok",
+        "start_ms": 241907,
+        "end_ms": 243139
+      },
+      "target_playbacks": [
+        {
+          "text": "золотая книга",
+          "start_ms": 245139,
+          "end_ms": 246587
+        },
+        {
+          "text": "золотая книга",
+          "start_ms": 249087,
+          "end_ms": 250535
+        }
+      ]
+    }
+  ],
+  "book_introduction": null,
+  "chapter_introduction": {
+    "text": "Глава пятая. Летающая книга.",
+    "start_ms": 1000,
+    "end_ms": 6328
+  },
+  "transitions": [
+    {
+      "kind": "chime",
+      "from": "story",
+      "to": "practice",
+      "start_ms": 36432,
+      "end_ms": 37052
+    },
+    {
+      "kind": "chime",
+      "from": "practice",
+      "to": "story",
+      "start_ms": 253035,
+      "end_ms": 253655
+    }
+  ],
+  "chapter_readings": [
+    {
+      "text": "Золотая книга машет страницами и приземляется Маше на плечо. Радиофон сразу говорит: — Эта книга учит важному заклинанию. Вот это слово: Репаро! Оно чинит любую сломанную вещь. Миша достаёт из кармана свой старый сломанный компас. Он всегда носит его с собой.",
+      "start_ms": 8828,
+      "end_ms": 33932
+    },
+    {
+      "text": "Золотая книга машет страницами и приземляется Маше на плечо. Радиофон сразу говорит: — Эта книга учит важному заклинанию. Вот это слово: Репаро! Оно чинит любую сломанную вещь. Миша достаёт из кармана свой старый сломанный компас. Он всегда носит его с собой.",
+      "start_ms": 256155,
+      "end_ms": 281259
+    }
+  ],
+  "chapter_reading": {
+    "text": "Золотая книга машет страницами и приземляется Маше на плечо. Радиофон сразу говорит: — Эта книга учит важному заклинанию. Вот это слово: Репаро! Оно чинит любую сломанную вещь. Миша достаёт из кармана свой старый сломанный компас. Он всегда носит его с собой.",
+    "start_ms": 256155,
+    "end_ms": 281259
+  },
+  "narration": {
+    "engine": "azure",
+    "voice": "ru-RU-SvetlanaNeural",
+    "style": null,
+    "rate": "-12%",
+    "locale": "ru-RU",
+    "capabilities": {
+      "voice": "ru-RU-SvetlanaNeural",
+      "locale": "ru-RU",
+      "advertised_styles": []
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"ru-RU\"><voice name=\"ru-RU-SvetlanaNeural\"><prosody rate=\"-12%\"><p>Золотая книга машет страницами и приземляется Маше на плечо. Радиофон сразу говорит: — Эта книга учит важному заклинанию. Вот это слово: Репаро! Оно чинит любую сломанную вещь. Миша достаёт из кармана свой старый сломанный компас. Он всегда носит его с собой.</p></prosody></voice></speak>"
+  },
+  "audio_file": "05_chapter_05_sv_ru_2026-10-29_13-41-06.mp3"
+}

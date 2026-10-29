@@ -1,0 +1,535 @@
+{
+  "chapter_number": 2,
+  "title": {
+    "pl": "Głos z radia",
+    "sv": "En röst ur radion",
+    "en": "A Voice from the Radio",
+    "ru": "Голос из радио"
+  },
+  "source_language": "sv",
+  "target_language": "pl",
+  "practice_order": "deterministically_shuffled",
+  "sequence": [
+    "story",
+    "practice",
+    "story"
+  ],
+  "total_duration_ms": 270732,
+  "practice": [
+    {
+      "id": 131,
+      "kind": "vocabulary",
+      "start_ms": 40488,
+      "end_ms": 51567,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "ta med mig",
+        "start_ms": 40488,
+        "end_ms": 41425
+      },
+      "target_playbacks": [
+        {
+          "text": "weźcie mnie ze sobą",
+          "start_ms": 43425,
+          "end_ms": 44996
+        },
+        {
+          "text": "weźcie mnie ze sobą",
+          "start_ms": 47496,
+          "end_ms": 49067
+        }
+      ]
+    },
+    {
+      "id": 213,
+      "kind": "vocabulary",
+      "start_ms": 51567,
+      "end_ms": 60648,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "bo",
+        "start_ms": 51567,
+        "end_ms": 52026
+      },
+      "target_playbacks": [
+        {
+          "text": "mieszkać",
+          "start_ms": 54026,
+          "end_ms": 54837
+        },
+        {
+          "text": "mieszkać",
+          "start_ms": 57337,
+          "end_ms": 58148
+        }
+      ]
+    },
+    {
+      "id": 130,
+      "kind": "vocabulary",
+      "start_ms": 60648,
+      "end_ms": 69851,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "en nyckel",
+        "start_ms": 60648,
+        "end_ms": 61787
+      },
+      "target_playbacks": [
+        {
+          "text": "klucz",
+          "start_ms": 63787,
+          "end_ms": 64319
+        },
+        {
+          "text": "klucz",
+          "start_ms": 66819,
+          "end_ms": 67351
+        }
+      ]
+    },
+    {
+      "id": 212,
+      "kind": "vocabulary",
+      "start_ms": 69851,
+      "end_ms": 80769,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "köpa radion",
+        "start_ms": 69851,
+        "end_ms": 71283
+      },
+      "target_playbacks": [
+        {
+          "text": "kupować radio",
+          "start_ms": 73283,
+          "end_ms": 74526
+        },
+        {
+          "text": "kupować radio",
+          "start_ms": 77026,
+          "end_ms": 78269
+        }
+      ]
+    },
+    {
+      "id": 126,
+      "kind": "vocabulary",
+      "start_ms": 80769,
+      "end_ms": 90553,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "heta",
+        "start_ms": 80769,
+        "end_ms": 81547
+      },
+      "target_playbacks": [
+        {
+          "text": "nazywać się",
+          "start_ms": 83547,
+          "end_ms": 84550
+        },
+        {
+          "text": "nazywać się",
+          "start_ms": 87050,
+          "end_ms": 88053
+        }
+      ]
+    },
+    {
+      "id": 124,
+      "kind": "vocabulary",
+      "start_ms": 90553,
+      "end_ms": 102398,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "trycka på en knapp",
+        "start_ms": 90553,
+        "end_ms": 92236
+      },
+      "target_playbacks": [
+        {
+          "text": "naciskać przycisk",
+          "start_ms": 94236,
+          "end_ms": 95817
+        },
+        {
+          "text": "naciskać przycisk",
+          "start_ms": 98317,
+          "end_ms": 99898
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "kind": "vocabulary",
+      "start_ms": 102398,
+      "end_ms": 114121,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "dofta av kanel",
+        "start_ms": 102398,
+        "end_ms": 104067
+      },
+      "target_playbacks": [
+        {
+          "text": "pachnieć cynamonem",
+          "start_ms": 106067,
+          "end_ms": 107594
+        },
+        {
+          "text": "pachnieć cynamonem",
+          "start_ms": 110094,
+          "end_ms": 111621
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "kind": "vocabulary",
+      "start_ms": 114121,
+      "end_ms": 124631,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "glad röst",
+        "start_ms": 114121,
+        "end_ms": 115319
+      },
+      "target_playbacks": [
+        {
+          "text": "wesoły głos",
+          "start_ms": 117319,
+          "end_ms": 118475
+        },
+        {
+          "text": "wesoły głos",
+          "start_ms": 120975,
+          "end_ms": 122131
+        }
+      ]
+    },
+    {
+      "id": 208,
+      "kind": "vocabulary",
+      "start_ms": 124631,
+      "end_ms": 133710,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "säga",
+        "start_ms": 124631,
+        "end_ms": 125378
+      },
+      "target_playbacks": [
+        {
+          "text": "mówić",
+          "start_ms": 127378,
+          "end_ms": 128044
+        },
+        {
+          "text": "mówić",
+          "start_ms": 130544,
+          "end_ms": 131210
+        }
+      ]
+    },
+    {
+      "id": 123,
+      "kind": "vocabulary",
+      "start_ms": 133710,
+      "end_ms": 144092,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "bära hem",
+        "start_ms": 133710,
+        "end_ms": 134752
+      },
+      "target_playbacks": [
+        {
+          "text": "nieść do domu",
+          "start_ms": 136752,
+          "end_ms": 137922
+        },
+        {
+          "text": "nieść do domu",
+          "start_ms": 140422,
+          "end_ms": 141592
+        }
+      ]
+    },
+    {
+      "id": 125,
+      "kind": "vocabulary",
+      "start_ms": 144092,
+      "end_ms": 156044,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "flyga ut ur radion",
+        "start_ms": 144092,
+        "end_ms": 146044
+      },
+      "target_playbacks": [
+        {
+          "text": "wylatywać z radia",
+          "start_ms": 148044,
+          "end_ms": 149544
+        },
+        {
+          "text": "wylatywać z radia",
+          "start_ms": 152044,
+          "end_ms": 153544
+        }
+      ]
+    },
+    {
+      "id": 214,
+      "kind": "vocabulary",
+      "start_ms": 156044,
+      "end_ms": 166601,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "en viktig nyckel",
+        "start_ms": 156044,
+        "end_ms": 157499
+      },
+      "target_playbacks": [
+        {
+          "text": "ważny klucz",
+          "start_ms": 159499,
+          "end_ms": 160550
+        },
+        {
+          "text": "ważny klucz",
+          "start_ms": 163050,
+          "end_ms": 164101
+        }
+      ]
+    },
+    {
+      "id": 215,
+      "kind": "vocabulary",
+      "start_ms": 166601,
+      "end_ms": 178272,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "verkligen gilla ost",
+        "start_ms": 166601,
+        "end_ms": 168480
+      },
+      "target_playbacks": [
+        {
+          "text": "bardzo lubić ser",
+          "start_ms": 170480,
+          "end_ms": 171876
+        },
+        {
+          "text": "bardzo lubić ser",
+          "start_ms": 174376,
+          "end_ms": 175772
+        }
+      ]
+    },
+    {
+      "id": 128,
+      "kind": "vocabulary",
+      "start_ms": 178272,
+      "end_ms": 189735,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "under det gamla trädet",
+        "start_ms": 178272,
+        "end_ms": 179967
+      },
+      "target_playbacks": [
+        {
+          "text": "pod starym drzewem",
+          "start_ms": 181967,
+          "end_ms": 183351
+        },
+        {
+          "text": "pod starym drzewem",
+          "start_ms": 185851,
+          "end_ms": 187235
+        }
+      ]
+    },
+    {
+      "id": 201,
+      "kind": "vocabulary",
+      "start_ms": 189735,
+      "end_ms": 198508,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "hej",
+        "start_ms": 189735,
+        "end_ms": 190274
+      },
+      "target_playbacks": [
+        {
+          "text": "cześć",
+          "start_ms": 192274,
+          "end_ms": 192891
+        },
+        {
+          "text": "cześć",
+          "start_ms": 195391,
+          "end_ms": 196008
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "kind": "vocabulary",
+      "start_ms": 198508,
+      "end_ms": 209527,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "blå knapp",
+        "start_ms": 198508,
+        "end_ms": 199601
+      },
+      "target_playbacks": [
+        {
+          "text": "niebieski przycisk",
+          "start_ms": 201601,
+          "end_ms": 203064
+        },
+        {
+          "text": "niebieski przycisk",
+          "start_ms": 205564,
+          "end_ms": 207027
+        }
+      ]
+    },
+    {
+      "id": 127,
+      "kind": "vocabulary",
+      "start_ms": 209527,
+      "end_ms": 219831,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "er trädgård",
+        "start_ms": 209527,
+        "end_ms": 210793
+      },
+      "target_playbacks": [
+        {
+          "text": "wasz ogród",
+          "start_ms": 212793,
+          "end_ms": 213812
+        },
+        {
+          "text": "wasz ogród",
+          "start_ms": 216312,
+          "end_ms": 217331
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "kind": "vocabulary",
+      "start_ms": 219831,
+      "end_ms": 230247,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "litet moln",
+        "start_ms": 219831,
+        "end_ms": 221099
+      },
+      "target_playbacks": [
+        {
+          "text": "mała chmurka",
+          "start_ms": 223099,
+          "end_ms": 224173
+        },
+        {
+          "text": "mała chmurka",
+          "start_ms": 226673,
+          "end_ms": 227747
+        }
+      ]
+    },
+    {
+      "id": 216,
+      "kind": "vocabulary",
+      "start_ms": 230247,
+      "end_ms": 239316,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "barn",
+        "start_ms": 230247,
+        "end_ms": 230920
+      },
+      "target_playbacks": [
+        {
+          "text": "dzieci",
+          "start_ms": 232920,
+          "end_ms": 233618
+        },
+        {
+          "text": "dzieci",
+          "start_ms": 236118,
+          "end_ms": 236816
+        }
+      ]
+    }
+  ],
+  "book_introduction": null,
+  "chapter_introduction": {
+    "text": "Rozdział drugi. Głos z radia.",
+    "start_ms": 1000,
+    "end_ms": 4072
+  },
+  "transitions": [
+    {
+      "kind": "chime",
+      "from": "story",
+      "to": "practice",
+      "start_ms": 37368,
+      "end_ms": 37988
+    },
+    {
+      "kind": "chime",
+      "from": "practice",
+      "to": "story",
+      "start_ms": 239316,
+      "end_ms": 239936
+    }
+  ],
+  "chapter_readings": [
+    {
+      "text": "Dzieci kupują radio i niosą je do domu. Tomek naciska niebieski przycisk. Z radia wylatuje mała chmurka, która pachnie cynamonem. – Cześć, dzieci! – mówi wesoły głos. – Nazywam się Radiofon. W waszym ogrodzie, pod starym drzewem, mieszka mysz. Ma ważny klucz i bardzo lubi ser. Weźcie mnie ze sobą!",
+      "start_ms": 6572,
+      "end_ms": 34868
+    },
+    {
+      "text": "Dzieci kupują radio i niosą je do domu. Tomek naciska niebieski przycisk. Z radia wylatuje mała chmurka, która pachnie cynamonem. – Cześć, dzieci! – mówi wesoły głos. – Nazywam się Radiofon. W waszym ogrodzie, pod starym drzewem, mieszka mysz. Ma ważny klucz i bardzo lubi ser. Weźcie mnie ze sobą!",
+      "start_ms": 242436,
+      "end_ms": 270732
+    }
+  ],
+  "chapter_reading": {
+    "text": "Dzieci kupują radio i niosą je do domu. Tomek naciska niebieski przycisk. Z radia wylatuje mała chmurka, która pachnie cynamonem. – Cześć, dzieci! – mówi wesoły głos. – Nazywam się Radiofon. W waszym ogrodzie, pod starym drzewem, mieszka mysz. Ma ważny klucz i bardzo lubi ser. Weźcie mnie ze sobą!",
+    "start_ms": 242436,
+    "end_ms": 270732
+  },
+  "narration": {
+    "engine": "azure",
+    "voice": "pl-PL-Harper:MAI-Voice-2.1",
+    "style": "audiobook",
+    "rate": "-12%",
+    "locale": "pl-PL",
+    "capabilities": {
+      "voice": "pl-PL-Harper:MAI-Voice-2.1",
+      "locale": "pl-PL",
+      "advertised_styles": [
+        "agent",
+        "audiobook",
+        "customer_call_center",
+        "educational",
+        "narrator"
+      ]
+    },
+    "ssml": "<speak xmlns:mstts=\"http://www.w3.org/2001/mstts\" version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"pl-PL\"><voice name=\"pl-PL-Harper:MAI-Voice-2.1\"><mstts:express-as style=\"audiobook\"><prosody rate=\"-12%\"><p>Dzieci kupują radio i niosą je do domu. Tomek naciska niebieski przycisk. Z radia wylatuje mała chmurka, która pachnie cynamonem. – Cześć, dzieci! – mówi wesoły głos. – Nazywam się Radiofon. W waszym ogrodzie, pod starym drzewem, mieszka mysz. Ma ważny klucz i bardzo lubi ser. Weźcie mnie ze sobą!</p></prosody></mstts:express-as></voice></speak>"
+  },
+  "audio_file": "02_chapter_02_sv_pl_2026-10-29_13-36-32.mp3"
+}

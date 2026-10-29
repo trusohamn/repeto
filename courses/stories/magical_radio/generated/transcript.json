@@ -210,9 +210,9 @@
         }
       ],
       "chapter_text": {
-        "pl": "Jest sobota. Maja ma dziewięć lat, a jej brat Tomek – sześć. Razem idą na pchli targ. W rogu stoi stary stół, a na stole – drewniane radio. Ma złote pokrętła i kolorowe przyciski. Gdy Maja podchodzi bliżej, radio nagle cicho szumi: Dzyń! Na radiu pojawia się złoty napis: „Dla Mai i Tomka”. Dzieci otwierają szeroko oczy.",
-        "en": "It is Saturday. Maya is nine years old, and her brother Tom is six. Together they go to a flea market. In the corner stands an old table, and on the table there is a wooden radio. It has gold knobs and colourful buttons. When Maya comes closer, the radio suddenly hums quietly: Ding! A golden inscription appears on the radio: “For Maya and Tom.” The children open their eyes wide.",
-        "ru": "Сегодня суббота. Маше девять лет, а её брату Мише — шесть. Вместе они идут на блошиный рынок. В углу стоит старый стол, а на столе — деревянное радио. У него золотые ручки и разноцветные кнопки. Когда Маша подходит ближе, радио вдруг тихо шумит: Дзинь! На радио появляется золотая надпись: «Для Маши и Миши». Дети широко открывают глаза."
+        "pl": "Jest sobota. Maja ma dziewięć lat, a jej brat Tomek – sześć. Razem idą na pchli targ. W rogu stoi stary stół, a na stole – drewniane radio. Ma złote pokrętła i kolorowe przyciski. Gdy Maja podchodzi bliżej, radio nagle cicho szumi. Na radiu pojawia się złoty napis: „Dla Mai i Tomka”. Dzieci otwierają szeroko oczy.",
+        "en": "It is Saturday. Maya is nine years old, and her brother Tom is six. Together they go to a flea market. In the corner stands an old table, and on the table there is a wooden radio. It has gold knobs and colourful buttons. When Maya comes closer, the radio suddenly hums quietly. A golden inscription appears on the radio: “For Maya and Tom.” The children open their eyes wide.",
+        "ru": "Сегодня суббота. Маше девять лет, а её брату Мише — шесть. Вместе они идут на блошиный рынок. В углу стоит старый стол, а на столе — деревянное радио. У него золотые ручки и разноцветные кнопки. Когда Маша подходит ближе, радио вдруг тихо шумит. На радио появляется золотая надпись: «Для Маши и Миши». Дети широко открывают глаза."
       }
     },
     {
@@ -224,7 +224,7 @@
         "ru": "Голос из радио"
       },
       "summary": {
-        "sv": "Hemma trycker de på den blå knappen. Ur radion kommer ett moln som doftar kanel – och en glad röst ger dem ett uppdrag."
+        "sv": "Hemma trycker de på den blå knappen. Ur radion kommer ett moln som doftar kanel – och en glad röst berättar om en mus med en viktig nyckel."
       },
       "vocabulary": [
         {
@@ -264,39 +264,12 @@
           }
         },
         {
-          "id": 19,
-          "text": {
-            "pl": "odkrywcy",
-            "sv": "upptäckare",
-            "en": "explorers",
-            "ru": "исследователи"
-          }
-        },
-        {
-          "id": 20,
-          "text": {
-            "pl": "latarka",
-            "sv": "ficklampa",
-            "en": "flashlight",
-            "ru": "фонарик"
-          }
-        },
-        {
-          "id": 21,
-          "text": {
-            "pl": "kawałek sera",
-            "sv": "en bit ost",
-            "en": "a piece of cheese",
-            "ru": "кусочек сыра"
-          }
-        },
-        {
           "id": 123,
           "text": {
-            "pl": "nieść radio do domu",
-            "sv": "bära hem radion",
-            "en": "carry the radio home",
-            "ru": "нести радио домой"
+            "pl": "nieść do domu",
+            "sv": "bära hem",
+            "en": "carry home",
+            "ru": "нести домой"
           }
         },
         {
@@ -345,15 +318,6 @@
           }
         },
         {
-          "id": 129,
-          "text": {
-            "pl": "leżeć",
-            "sv": "ligga",
-            "en": "lie",
-            "ru": "лежать"
-          }
-        },
-        {
           "id": 130,
           "text": {
             "pl": "klucz",
@@ -365,10 +329,10 @@
         {
           "id": 131,
           "text": {
-            "pl": "weźcie",
-            "sv": "ta med er",
-            "en": "bring",
-            "ru": "возьмите"
+            "pl": "weźcie mnie ze sobą",
+            "sv": "ta med mig",
+            "en": "take me with you",
+            "ru": "возьмите меня с собой"
           }
         },
         {
@@ -388,12 +352,57 @@
             "en": "say",
             "ru": "говорить"
           }
+        },
+        {
+          "id": 212,
+          "text": {
+            "pl": "kupować radio",
+            "sv": "köpa radion",
+            "en": "buy the radio",
+            "ru": "покупать радио"
+          }
+        },
+        {
+          "id": 213,
+          "text": {
+            "pl": "mieszkać",
+            "sv": "bo",
+            "en": "live",
+            "ru": "жить"
+          }
+        },
+        {
+          "id": 214,
+          "text": {
+            "pl": "ważny klucz",
+            "sv": "en viktig nyckel",
+            "en": "an important key",
+            "ru": "важный ключ"
+          }
+        },
+        {
+          "id": 215,
+          "text": {
+            "pl": "bardzo lubić ser",
+            "sv": "verkligen gilla ost",
+            "en": "really love cheese",
+            "ru": "очень любить сыр"
+          }
+        },
+        {
+          "id": 216,
+          "text": {
+            "pl": "dzieci",
+            "sv": "barn",
+            "en": "kids",
+            "ru": "дети"
+          }
         }
       ],
       "chapter_text": {
-        "pl": "Dzieci niosą radio do domu. Tomek naciska niebieski przycisk. Z radia wylatuje mała chmurka, która pachnie cynamonem. – Cześć, odkrywcy! – mówi wesoły głos. – Nazywam się Radiofon. W waszym ogrodzie, pod starym drzewem, leży klucz. Weźcie latarkę i kawałek sera!",
-        "en": "The children carry the radio home. Tom presses the blue button. A little cloud flies out of the radio, and it smells of cinnamon. “Hi, explorers!” says a cheerful voice. “My name is Radiophone. In your garden, under the old tree, there is a key. Bring a flashlight and a piece of cheese!”",
-        "ru": "Дети несут радио домой. Миша нажимает синюю кнопку. Из радио вылетает маленькое облачко, которое пахнет корицей. — Привет, исследователи! — говорит весёлый голос. — Меня зовут Радиофон. В вашем саду, под старым деревом, лежит ключ. Возьмите фонарик и кусочек сыра!"
+        "pl": "Dzieci kupują radio i niosą je do domu. Tomek naciska niebieski przycisk. Z radia wylatuje mała chmurka, która pachnie cynamonem. – Cześć, dzieci! – mówi wesoły głos. – Nazywam się Radiofon. W waszym ogrodzie, pod starym drzewem, mieszka mysz. Ma ważny klucz i bardzo lubi ser. Weźcie mnie ze sobą!",
+        "en": "The children buy the radio and carry it home. Tom presses the blue button. A little cloud flies out of the radio, and it smells of cinnamon. “Hi, kids!” says a cheerful voice. “My name is Radiophone. In your garden, under the old tree, lives a mouse. It has an important key, and it really loves cheese. Take me with you!”",
+        "ru": "Дети покупают радио и несут его домой. Миша нажимает синюю кнопку. Из радио вылетает маленькое облачко, которое пахнет корицей. — Привет, дети! — говорит весёлый голос. — Меня зовут Радиофон. В вашем саду, под старым деревом, живёт мышка. У неё есть важный ключ, и она очень любит сыр. Возьмите меня с собой!"
       }
     },
     {
@@ -405,9 +414,18 @@
         "ru": "Мышка под деревом"
       },
       "summary": {
-        "sv": "Med ficklampa och ost letar syskonen under det gamla trädet. En liten mus vill byta, och under löven väntar en dörr i marken."
+        "sv": "Med ficklampa, ost och radion går syskonen till det gamla trädet. En liten mus vill byta – och mellan rötterna gömmer sig en liten dörr."
       },
       "vocabulary": [
+        {
+          "id": 20,
+          "text": {
+            "pl": "latarka",
+            "sv": "ficklampa",
+            "en": "flashlight",
+            "ru": "фонарик"
+          }
+        },
         {
           "id": 29,
           "text": {
@@ -447,10 +465,10 @@
         {
           "id": 33,
           "text": {
-            "pl": "łapki",
-            "sv": "små tassar",
-            "en": "little paws",
-            "ru": "лапки"
+            "pl": "łapka",
+            "sv": "tass",
+            "en": "paw",
+            "ru": "лапка"
           }
         },
         {
@@ -460,15 +478,6 @@
             "sv": "silvernyckel",
             "en": "silver key",
             "ru": "серебряный ключ"
-          }
-        },
-        {
-          "id": 35,
-          "text": {
-            "pl": "pod liśćmi",
-            "sv": "under löven",
-            "en": "under the leaves",
-            "ru": "под листьями"
           }
         },
         {
@@ -526,39 +535,12 @@
           }
         },
         {
-          "id": 138,
-          "text": {
-            "pl": "książka",
-            "sv": "en bok",
-            "en": "a book",
-            "ru": "книжка"
-          }
-        },
-        {
           "id": 139,
           "text": {
-            "pl": "mamy ser",
-            "sv": "vi har ost",
-            "en": "we have cheese",
-            "ru": "у нас есть сыр"
-          }
-        },
-        {
-          "id": 140,
-          "text": {
-            "pl": "masz klucz?",
-            "sv": "har du en nyckel?",
-            "en": "do you have a key?",
-            "ru": "у тебя есть ключ?"
-          }
-        },
-        {
-          "id": 141,
-          "text": {
-            "pl": "pytać",
-            "sv": "fråga",
-            "en": "ask",
-            "ru": "спрашивать"
+            "pl": "mamy dla ciebie ser",
+            "sv": "vi har ost till dig",
+            "en": "we have cheese for you",
+            "ru": "у нас есть для тебя сыр"
           }
         },
         {
@@ -580,37 +562,82 @@
           }
         },
         {
-          "id": 144,
+          "id": 217,
           "text": {
-            "pl": "znikać",
-            "sv": "försvinna",
-            "en": "disappear",
-            "ru": "исчезать"
+            "pl": "jest ciemno",
+            "sv": "det är mörkt",
+            "en": "it is dark",
+            "ru": "темно"
           }
         },
         {
-          "id": 145,
+          "id": 218,
           "text": {
-            "pl": "znajdować",
-            "sv": "hitta",
-            "en": "find",
-            "ru": "находить"
+            "pl": "więc",
+            "sv": "så",
+            "en": "so",
+            "ru": "поэтому"
           }
         },
         {
-          "id": 197,
+          "id": 219,
           "text": {
-            "pl": "stare drzwi w ziemi",
-            "sv": "en gammal dörr i marken",
-            "en": "an old door in the ground",
-            "ru": "старая дверь в земле"
+            "pl": "dzień dobry, myszko!",
+            "sv": "hej, lilla mus!",
+            "en": "hello, little mouse!",
+            "ru": "здравствуй, мышка!"
+          }
+        },
+        {
+          "id": 220,
+          "text": {
+            "pl": "czy dasz nam klucz?",
+            "sv": "ger du oss nyckeln?",
+            "en": "will you give us the key?",
+            "ru": "ты дашь нам ключ?"
+          }
+        },
+        {
+          "id": 221,
+          "text": {
+            "pl": "kupka liści",
+            "sv": "en lövhög",
+            "en": "a pile of leaves",
+            "ru": "кучка листьев"
+          }
+        },
+        {
+          "id": 222,
+          "text": {
+            "pl": "odgarniać liście",
+            "sv": "sopa undan löven",
+            "en": "brush the leaves aside",
+            "ru": "разгребать листья"
+          }
+        },
+        {
+          "id": 223,
+          "text": {
+            "pl": "pomiędzy korzeniami",
+            "sv": "mellan rötterna",
+            "en": "between the roots",
+            "ru": "между корнями"
+          }
+        },
+        {
+          "id": 224,
+          "text": {
+            "pl": "małe, stare drzwi",
+            "sv": "en liten, gammal dörr",
+            "en": "a small, old door",
+            "ru": "маленькая старая дверь"
           }
         }
       ],
       "chapter_text": {
-        "pl": "Maja bierze latarkę, a Tomek żółty ser. Idą pod wielkie drzewo w ogrodzie. Tomek świeci latarką pod korzenie. Z dziury wychodzi mała mysz z książką w łapkach. – Mamy ser. Masz klucz? – pyta Tomek. Mysz daje im srebrny klucz, zabiera ser i znika. Pod liśćmi dzieci znajdują stare drzwi w ziemi.",
-        "en": "Maya takes a flashlight, and Tom takes some yellow cheese. They go to the big tree in the garden. Tom shines the flashlight under the roots. A little mouse comes out of a hole with a book in its little paws. “We have cheese. Do you have a key?” asks Tom. The mouse gives them a silver key, takes the cheese and disappears. Under the leaves, the children find an old door in the ground.",
-        "ru": "Маша берёт фонарик, а Миша — жёлтый сыр. Они идут к большому дереву в саду. Миша светит фонариком под корни. Из норки выходит маленькая мышка с книжкой в лапках. — У нас есть сыр. А у тебя есть ключ? — спрашивает Миша. Мышка даёт им серебряный ключ, забирает сыр и исчезает. Под листьями дети находят старую дверь в земле."
+        "pl": "Pod drzewem jest ciemno, więc Tomek bierze latarkę. Maja bierze radio i żółty ser. Idą pod wielkie drzewo w ogrodzie. Tomek świeci latarką pod korzeniami. Z dziury wychodzi mała mysz. – Dzień dobry, myszko! – mówi Maja. – Mamy dla ciebie ser. Czy dasz nam klucz? Mysz daje im srebrny klucz, zabiera ser i pokazuje łapką kupkę liści. Dzieci odgarniają liście – pomiędzy korzeniami drzewa są małe, stare drzwi!",
+        "en": "It is dark under the tree, so Tom takes a flashlight. Maya takes the radio and some yellow cheese. They go to the big tree in the garden. Tom shines the flashlight under the roots. A little mouse comes out of a hole. “Hello, little mouse!” says Maya. “We have some cheese for you. Will you give us the key?” The mouse gives them a silver key, takes the cheese and points its paw at a pile of leaves. The children brush the leaves aside – between the roots of the tree there is a small, old door!",
+        "ru": "Под деревом темно, поэтому Миша берёт фонарик. Маша берёт радио и жёлтый сыр. Они идут к большому дереву в саду. Миша светит фонариком под корни. Из норки выходит маленькая мышка. — Здравствуй, мышка! — говорит Маша. — У нас есть для тебя сыр. Ты дашь нам ключ? Мышка даёт им серебряный ключ, забирает сыр и показывает лапкой на кучку листьев. Дети разгребают листья — между корнями дерева маленькая старая дверь!"
       }
     },
     {
@@ -622,7 +649,7 @@
         "ru": "Лестница вниз"
       },
       "summary": {
-        "sv": "Silvernyckeln öppnar dörren. En stentrappa leder ner till ett rum fullt av flygande böcker och blå, lysande blommor."
+        "sv": "Silvernyckeln öppnar dörren. En stentrappa leder ner till ett bibliotek med flygande böcker och blå, lysande blommor."
       },
       "vocabulary": [
         {
@@ -671,15 +698,6 @@
           }
         },
         {
-          "id": 49,
-          "text": {
-            "pl": "na środku",
-            "sv": "i mitten",
-            "en": "in the middle",
-            "ru": "посередине"
-          }
-        },
-        {
           "id": 146,
           "text": {
             "pl": "klik!",
@@ -722,15 +740,6 @@
             "sv": "gå ner",
             "en": "go down",
             "ru": "спускаться"
-          }
-        },
-        {
-          "id": 151,
-          "text": {
-            "pl": "wielki pokój",
-            "sv": "ett stort rum",
-            "en": "a big room",
-            "ru": "большая комната"
           }
         },
         {
@@ -779,15 +788,6 @@
           }
         },
         {
-          "id": 157,
-          "text": {
-            "pl": "drugie radio",
-            "sv": "en radio till",
-            "en": "a second radio",
-            "ru": "второе радио"
-          }
-        },
-        {
           "id": 202,
           "text": {
             "pl": "stać",
@@ -813,12 +813,39 @@
             "en": "glow blue",
             "ru": "светиться голубым"
           }
+        },
+        {
+          "id": 225,
+          "text": {
+            "pl": "wielka biblioteka",
+            "sv": "ett stort bibliotek",
+            "en": "a big library",
+            "ru": "большая библиотека"
+          }
+        },
+        {
+          "id": 226,
+          "text": {
+            "pl": "jedna z nich",
+            "sv": "en av dem",
+            "en": "one of them",
+            "ru": "одна из них"
+          }
+        },
+        {
+          "id": 227,
+          "text": {
+            "pl": "świecić na złoto",
+            "sv": "lysa guldgult",
+            "en": "glow gold",
+            "ru": "светиться золотым"
+          }
         }
       ],
       "chapter_text": {
-        "pl": "Maja przekręca klucz. Klik! Drzwi się otwierają. W dół prowadzą kamienne schody. Na ścianach rosną świecące na niebiesko kwiaty. Dzieci schodzą do wielkiego pokoju. Wszędzie stoją książki – niektóre latają pod sufitem! Na środku stoi drugie radio.",
-        "en": "Maya turns the key. Click! The door opens. Stone stairs lead down. Flowers that glow blue grow on the walls. The children go down into a big room. There are books everywhere, and some of them fly under the ceiling! In the middle stands a second radio.",
-        "ru": "Маша поворачивает ключ. Щёлк! Дверь открывается. Вниз ведёт каменная лестница. На стенах растут цветы, которые светятся голубым. Дети спускаются в большую комнату. Повсюду стоят книги, а некоторые летают под потолком! Посередине стоит второе радио."
+        "pl": "Maja przekręca klucz. Klik! Drzwi się otwierają. W dół prowadzą kamienne schody. Na ścianach rosną świecące na niebiesko kwiaty. Dzieci schodzą do wielkiej biblioteki. Wszędzie stoją książki – niektóre latają pod sufitem! Jedna z nich świeci na złoto.",
+        "en": "Maya turns the key. Click! The door opens. Stone stairs lead down. Flowers that glow blue grow on the walls. The children go down into a big library. There are books everywhere, and some of them fly under the ceiling! One of them glows gold.",
+        "ru": "Маша поворачивает ключ. Щёлк! Дверь открывается. Вниз ведёт каменная лестница. На стенах растут цветы, которые светятся голубым. Дети спускаются в большую библиотеку. Повсюду стоят книги, а некоторые летают под потолком! Одна из них светится золотым."
       }
     },
     {
@@ -830,7 +857,7 @@
         "ru": "Летающая книга"
       },
       "summary": {
-        "sv": "En gyllene bok landar på en axel, och den andra radion lär ut en trollformel som lagar allt som är trasigt."
+        "sv": "En gyllene bok landar på en axel, och radion lär ut en trollformel som lagar allt som är trasigt."
       },
       "vocabulary": [
         {
@@ -985,12 +1012,39 @@
             "en": "Reparo!",
             "ru": "Репаро!"
           }
+        },
+        {
+          "id": 228,
+          "text": {
+            "pl": "swój kompas",
+            "sv": "sin kompass",
+            "en": "his compass",
+            "ru": "свой компас"
+          }
+        },
+        {
+          "id": 229,
+          "text": {
+            "pl": "zawsze",
+            "sv": "alltid",
+            "en": "always",
+            "ru": "всегда"
+          }
+        },
+        {
+          "id": 230,
+          "text": {
+            "pl": "mieć przy sobie",
+            "sv": "ha med sig",
+            "en": "have with you",
+            "ru": "носить с собой"
+          }
         }
       ],
       "chapter_text": {
-        "pl": "Złota książka macha stronami i ląduje na ramieniu Mai. Drugie radio odzywa się natychmiast: – Ta książka uczy ważnego zaklęcia. Słowo to: Reparo! Naprawia każdą zepsutą rzecz. Tomek wyciąga z kieszeni stary, zepsuty kompas.",
-        "en": "A golden book flaps its pages and lands on Maya’s shoulder. The second radio speaks up immediately: “This book teaches an important spell. The word is: Reparo! It repairs every broken thing.” Tom takes an old, broken compass out of his pocket.",
-        "ru": "Золотая книга машет страницами и приземляется Маше на плечо. Второе радио сразу говорит: — Эта книга учит важному заклинанию. Вот это слово: Репаро! Оно чинит любую сломанную вещь. Миша достаёт из кармана старый сломанный компас."
+        "pl": "Złota książka macha stronami i ląduje na ramieniu Mai. Radiofon odzywa się natychmiast: – Ta książka uczy ważnego zaklęcia. Słowo to: Reparo! Naprawia każdą zepsutą rzecz. Tomek wyciąga z kieszeni swój stary, zepsuty kompas. Zawsze ma go przy sobie.",
+        "en": "The golden book flaps its pages and lands on Maya’s shoulder. Radiophone speaks up immediately: “This book teaches an important spell. The word is: Reparo! It repairs every broken thing.” Tom takes his old, broken compass out of his pocket. He always has it with him.",
+        "ru": "Золотая книга машет страницами и приземляется Маше на плечо. Радиофон сразу говорит: — Эта книга учит важному заклинанию. Вот это слово: Репаро! Оно чинит любую сломанную вещь. Миша достаёт из кармана свой старый сломанный компас. Он всегда носит его с собой."
       }
     },
     {
@@ -1035,10 +1089,10 @@
         {
           "id": 72,
           "text": {
-            "pl": "igła",
-            "sv": "nål",
-            "en": "needle",
-            "ru": "стрелка"
+            "pl": "igła kompasu",
+            "sv": "kompassnål",
+            "en": "compass needle",
+            "ru": "стрелка компаса"
           }
         },
         {
@@ -1089,7 +1143,7 @@
         {
           "id": 171,
           "text": {
-            "pl": "wskazywać",
+            "pl": "pokazywać",
             "sv": "peka",
             "en": "point",
             "ru": "показывать"
@@ -1142,9 +1196,9 @@
         }
       ],
       "chapter_text": {
-        "pl": "Tomek trzyma kompas. Dzieci mówią razem: – Reparo! Błyska złota iskra. Kompas znów jest cały! Igła kręci się i pokazuje zielone drzwi. – Działa! – krzyczy Tomek. Radio mówi: – Za drzwiami ktoś czeka na waszą pomoc.",
-        "en": "Tom holds the compass. The children say together: “Reparo!” A golden spark flashes. The compass is whole again! The needle spins and points to a green door. “It works!” shouts Tom. The radio says: “Behind the door, someone is waiting for your help.”",
-        "ru": "Миша держит компас. Дети вместе говорят: — Репаро! Вспыхивает золотая искра. Компас снова целый! Стрелка крутится и показывает на зелёную дверь. — Работает! — кричит Миша. Радио говорит: — За дверью кто-то ждёт вашей помощи."
+        "pl": "Tomek trzyma kompas. Dzieci mówią razem: – Reparo! Błyska złota iskra. Kompas znów jest cały! Igła kompasu kręci się i pokazuje zielone drzwi. – Działa! – krzyczy Tomek. Radiofon mówi: – Za drzwiami ktoś czeka na waszą pomoc.",
+        "en": "Tom holds the compass. The children say together: “Reparo!” A golden spark flashes. The compass is whole again! The compass needle spins and points to a green door. “It works!” shouts Tom. Radiophone says: “Behind the door, someone is waiting for your help.”",
+        "ru": "Миша держит компас. Дети вместе говорят: — Репаро! Вспыхивает золотая искра. Компас снова целый! Стрелка компаса крутится и показывает на зелёную дверь. — Работает! — кричит Миша. Радиофон говорит: — За дверью кто-то ждёт вашей помощи."
       }
     },
     {
@@ -1156,9 +1210,18 @@
         "ru": "Золотая птица"
       },
       "summary": {
-        "sv": "Bakom dörren finns en trädgård med en gyllene fågel som inte kan sjunga – den tickar bara som en klocka. Något saknas i vingen."
+        "sv": "Bakom dörren finns en underjordisk trädgård med en gyllene fågel som inte kan sjunga – den tickar bara som en klocka. En sten saknas i vingen, och radion bär på en hemlighet."
       },
       "vocabulary": [
+        {
+          "id": 141,
+          "text": {
+            "pl": "pytać",
+            "sv": "fråga",
+            "en": "ask",
+            "ru": "спрашивать"
+          }
+        },
         {
           "id": 84,
           "text": {
@@ -1193,24 +1256,6 @@
             "sv": "vinge",
             "en": "wing",
             "ru": "крыло"
-          }
-        },
-        {
-          "id": 88,
-          "text": {
-            "pl": "kamyczek",
-            "sv": "liten sten",
-            "en": "little stone",
-            "ru": "камешек"
-          }
-        },
-        {
-          "id": 89,
-          "text": {
-            "pl": "szybko",
-            "sv": "fort",
-            "en": "quickly",
-            "ru": "скорее"
           }
         },
         {
@@ -1259,64 +1304,118 @@
           }
         },
         {
-          "id": 182,
+          "id": 231,
           "text": {
-            "pl": "brakować",
-            "sv": "saknas",
-            "en": "be missing",
-            "ru": "не хватать"
+            "pl": "podziemny ogród",
+            "sv": "en underjordisk trädgård",
+            "en": "an underground garden",
+            "ru": "подземный сад"
           }
         },
         {
-          "id": 183,
+          "id": 232,
           "text": {
-            "pl": "na jego skrzydle",
-            "sv": "på dess ena vinge",
-            "en": "on its wing",
-            "ru": "на её крыле"
+            "pl": "na jednym skrzydle",
+            "sv": "på ena vingen",
+            "en": "on one wing",
+            "ru": "на одном крыле"
           }
         },
         {
-          "id": 184,
+          "id": 233,
           "text": {
-            "pl": "nasze radio",
-            "sv": "vår radio",
-            "en": "our radio",
-            "ru": "наше радио"
+            "pl": "błyszczący niebieski kamyk",
+            "sv": "en glänsande blå sten",
+            "en": "a shiny blue stone",
+            "ru": "блестящий синий камешек"
           }
         },
         {
-          "id": 185,
+          "id": 234,
           "text": {
-            "pl": "w pokoju",
-            "sv": "i rummet",
-            "en": "in the room",
-            "ru": "в комнате"
+            "pl": "na drugim skrzydle",
+            "sv": "på andra vingen",
+            "en": "on the other wing",
+            "ru": "на другом крыле"
           }
         },
         {
-          "id": 186,
+          "id": 235,
           "text": {
-            "pl": "niebieski kamień",
-            "sv": "en blå sten",
-            "en": "a blue stone",
-            "ru": "синий камень"
+            "pl": "puste miejsce",
+            "sv": "en tom plats",
+            "en": "an empty spot",
+            "ru": "пустое место"
           }
         },
         {
-          "id": 207,
+          "id": 236,
           "text": {
-            "pl": "wołać",
-            "sv": "ropa",
-            "en": "call out",
-            "ru": "звать"
+            "pl": "patrzeć na radio",
+            "sv": "titta på radion",
+            "en": "look at the radio",
+            "ru": "смотреть на радио"
+          }
+        },
+        {
+          "id": 237,
+          "text": {
+            "pl": "wyglądać dokładnie jak",
+            "sv": "se ut precis som",
+            "en": "look exactly like",
+            "ru": "выглядеть точно как"
+          }
+        },
+        {
+          "id": 238,
+          "text": {
+            "pl": "skąd masz ten przycisk?",
+            "sv": "var har du fått knappen ifrån?",
+            "en": "where did you get this button?",
+            "ru": "откуда у тебя эта кнопка?"
+          }
+        },
+        {
+          "id": 239,
+          "text": {
+            "pl": "dawno temu",
+            "sv": "för länge sedan",
+            "en": "long ago",
+            "ru": "давным-давно"
+          }
+        },
+        {
+          "id": 240,
+          "text": {
+            "pl": "wypaść ze skrzydła",
+            "sv": "falla ut ur vingen",
+            "en": "fall out of the wing",
+            "ru": "выпасть из крыла"
+          }
+        },
+        {
+          "id": 241,
+          "text": {
+            "pl": "czekałem na was",
+            "sv": "jag väntade på er",
+            "en": "I was waiting for you",
+            "ru": "я ждал вас"
+          }
+        },
+        {
+          "id": 242,
+          "text": {
+            "pl": "oddać",
+            "sv": "ge tillbaka",
+            "en": "give back",
+            "ru": "вернуть"
           }
         }
       ],
       "chapter_text": {
-        "pl": "Dzieci otwierają zielone drzwi i wchodzą do ogrodu. Na gałęzi siedzi złoty ptak. Nie śpiewa, tylko tyka jak zegar: Tik-tak, tik-tak. Na jego skrzydle brakuje małego kamyka. – Tomek, nasze radio w pokoju ma niebieski kamień! – woła Maja. – Szybko!",
-        "en": "The children open the green door and go into a garden. A golden bird sits on a branch. It does not sing. It only ticks like a clock: Tick-tock, tick-tock. A little stone is missing from its wing. “Tom, our radio in the room has a blue stone!” calls Maya. “Quick!”",
-        "ru": "Дети открывают зелёную дверь и входят в сад. На ветке сидит золотая птица. Она не поёт, а только тикает, как часы: Тик-так, тик-так. На её крыле не хватает маленького камешка. — Миша, у нашего радио в комнате есть синий камень! — зовёт Маша. — Скорее!"
+        "pl": "Dzieci otwierają zielone drzwi i wchodzą do podziemnego ogrodu. Na gałęzi siedzi złoty ptak. Nie śpiewa, tylko tyka jak zegar: Tik-tak, tik-tak. Na jednym skrzydle ma błyszczący niebieski kamyk. Na drugim skrzydle jest puste miejsce. Maja patrzy na radio. Niebieski przycisk radia wygląda dokładnie jak kamyk ptaka! – Radiofonie, skąd masz ten przycisk? – pyta Maja. – To kamyk ptaka – mówi Radiofon. – Dawno temu wypadł ptakowi ze skrzydła. Ktoś zrobił z niego mój przycisk. Czekałem na was, żeby go oddać!",
+        "en": "The children open the green door and go into an underground garden. A golden bird sits on a branch. It does not sing. It only ticks like a clock: Tick-tock, tick-tock. On one wing it has a shiny blue stone. On the other wing there is an empty spot. Maya looks at the radio. The radio’s blue button looks exactly like the bird’s stone! “Radiophone, where did you get this button?” asks Maya. “It is the bird’s stone,” says Radiophone. “Long ago, it fell out of the bird’s wing. Someone made it into my button. I was waiting for you, so I could give it back!”",
+        "ru": "Дети открывают зелёную дверь и входят в подземный сад. На ветке сидит золотая птица. Она не поёт, а только тикает, как часы: Тик-так, тик-так. На одном крыле у неё блестящий синий камешек. На другом крыле — пустое место. Маша смотрит на радио. Синяя кнопка радио выглядит точно как камешек птицы! — Радиофон, откуда у тебя эта кнопка? — спрашивает Маша. — Это камешек птицы, — говорит Радиофон. — Давным-давно он выпал у птицы из крыла. Кто-то сделал из него мою кнопку. Я ждал вас, чтобы его вернуть!"
       }
     },
     {
@@ -1328,34 +1427,16 @@
         "ru": "Большой концерт"
       },
       "summary": {
-        "sv": "Finalen! Kan syskonen laga den gyllene fågeln? Berättelsen slutar med sång, dansande fjärilar och en vän som stannar för alltid."
+        "sv": "Finalen! Kan syskonen laga den gyllene fågeln? Berättelsen slutar med sång, dansande fjärilar och löftet om ett nytt äventyr."
       },
       "vocabulary": [
         {
-          "id": 96,
+          "id": 19,
           "text": {
-            "pl": "przynieść radio",
-            "sv": "hämta radion",
-            "en": "bring the radio",
-            "ru": "принести радио"
-          }
-        },
-        {
-          "id": 97,
-          "text": {
-            "pl": "mała skrytka",
-            "sv": "litet gömställe",
-            "en": "little compartment",
-            "ru": "маленький тайник"
-          }
-        },
-        {
-          "id": 98,
-          "text": {
-            "pl": "włożyć kamyk",
-            "sv": "stoppa in stenen",
-            "en": "put the stone in",
-            "ru": "вставить камешек"
+            "pl": "prawdziwi odkrywcy",
+            "sv": "riktiga upptäckare",
+            "en": "real explorers",
+            "ru": "настоящие исследователи"
           }
         },
         {
@@ -1386,30 +1467,12 @@
           }
         },
         {
-          "id": 187,
-          "text": {
-            "pl": "wypadać ze skrytki",
-            "sv": "falla ut ur det lilla facket",
-            "en": "fall out of the compartment",
-            "ru": "выпадать из тайника"
-          }
-        },
-        {
-          "id": 188,
-          "text": {
-            "pl": "niebieski kamyk",
-            "sv": "en liten blå sten",
-            "en": "a little blue stone",
-            "ru": "синий камешек"
-          }
-        },
-        {
           "id": 189,
           "text": {
-            "pl": "wkładać kamyk w skrzydło",
-            "sv": "sätta in stenen i vingen",
-            "en": "put the stone into the wing",
-            "ru": "вставлять камешек в крыло"
+            "pl": "wkładać w skrzydło",
+            "sv": "sätta in i vingen",
+            "en": "put into the wing",
+            "ru": "вставлять в крыло"
           }
         },
         {
@@ -1467,19 +1530,46 @@
           }
         },
         {
-          "id": 196,
+          "id": 243,
           "text": {
-            "pl": "zostawać na zawsze",
-            "sv": "stanna för alltid",
-            "en": "stay forever",
-            "ru": "остаться навсегда"
+            "pl": "ostrożnie",
+            "sv": "försiktigt",
+            "en": "carefully",
+            "ru": "осторожно"
+          }
+        },
+        {
+          "id": 244,
+          "text": {
+            "pl": "wyjmować przycisk z radia",
+            "sv": "ta ut knappen ur radion",
+            "en": "take the button out of the radio",
+            "ru": "вынимать кнопку из радио"
+          }
+        },
+        {
+          "id": 245,
+          "text": {
+            "pl": "jutro",
+            "sv": "i morgon",
+            "en": "tomorrow",
+            "ru": "завтра"
+          }
+        },
+        {
+          "id": 246,
+          "text": {
+            "pl": "nowa przygoda",
+            "sv": "ett nytt äventyr",
+            "en": "a new adventure",
+            "ru": "новое приключение"
           }
         }
       ],
       "chapter_text": {
-        "pl": "Dzieci przynoszą radio. Z małej skrytki wypada niebieski kamyk. Tomek wkłada go w skrzydło ptaka. Dzieci wołają: – Reparo! Złoty ptak macha skrzydłami i zaczyna wesoło śpiewać. W powietrzu tańczą motyle. – Dobra robota! – mówi Radiofon. – Zostaję z wami na zawsze!",
-        "en": "The children bring the radio. A little blue stone falls out of a small hidden compartment. Tom puts it into the bird’s wing. The children call out: “Reparo!” The golden bird flaps its wings and begins to sing happily. Butterflies dance in the air. “Good job!” says Radiophone. “I’m staying with you forever!”",
-        "ru": "Дети приносят радио. Из маленького тайника выпадает синий камешек. Миша вставляет его в крыло птицы. Дети кричат: — Репаро! Золотая птица машет крыльями и начинает весело петь. В воздухе танцуют бабочки. — Отличная работа! — говорит Радиофон. — Я остаюсь с вами навсегда!"
+        "pl": "Maja ostrożnie wyjmuje niebieski przycisk z radia. Tomek wkłada go w skrzydło ptaka. Dzieci wołają: – Reparo! Złoty ptak macha skrzydłami i zaczyna wesoło śpiewać. W powietrzu tańczą motyle. – Dobra robota! – mówi Radiofon. – Jesteście prawdziwymi odkrywcami. Jutro czeka nas nowa przygoda!",
+        "en": "Maya carefully takes the blue button out of the radio. Tom puts it into the bird’s wing. The children call out: “Reparo!” The golden bird flaps its wings and begins to sing happily. Butterflies dance in the air. “Good job!” says Radiophone. “You are real explorers. Tomorrow a new adventure is waiting for us!”",
+        "ru": "Маша осторожно вынимает синюю кнопку из радио. Миша вставляет её в крыло птицы. Дети кричат: — Репаро! Золотая птица машет крыльями и начинает весело петь. В воздухе танцуют бабочки. — Отличная работа! — говорит Радиофон. — Вы настоящие исследователи. Завтра нас ждёт новое приключение!"
       }
     }
   ]

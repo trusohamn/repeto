@@ -1,0 +1,439 @@
+{
+  "chapter_number": 8,
+  "title": {
+    "pl": "Wielki koncert",
+    "sv": "Den stora konserten",
+    "en": "The Grand Concert",
+    "ru": "Большой концерт"
+  },
+  "source_language": "sv",
+  "target_language": "pl",
+  "practice_order": "deterministically_shuffled",
+  "sequence": [
+    "story",
+    "practice",
+    "story"
+  ],
+  "total_duration_ms": 229797,
+  "practice": [
+    {
+      "id": 244,
+      "kind": "vocabulary",
+      "start_ms": 40488,
+      "end_ms": 53585,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "ta ut knappen ur radion",
+        "start_ms": 40488,
+        "end_ms": 42595
+      },
+      "target_playbacks": [
+        {
+          "text": "wyjmować przycisk z radia",
+          "start_ms": 44595,
+          "end_ms": 46590
+        },
+        {
+          "text": "wyjmować przycisk z radia",
+          "start_ms": 49090,
+          "end_ms": 51085
+        }
+      ]
+    },
+    {
+      "id": 189,
+      "kind": "vocabulary",
+      "start_ms": 53585,
+      "end_ms": 65224,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "sätta in i vingen",
+        "start_ms": 53585,
+        "end_ms": 55354
+      },
+      "target_playbacks": [
+        {
+          "text": "wkładać w skrzydło",
+          "start_ms": 57354,
+          "end_ms": 58789
+        },
+        {
+          "text": "wkładać w skrzydło",
+          "start_ms": 61289,
+          "end_ms": 62724
+        }
+      ]
+    },
+    {
+      "id": 101,
+      "kind": "vocabulary",
+      "start_ms": 65224,
+      "end_ms": 75811,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "bra jobbat",
+        "start_ms": 65224,
+        "end_ms": 66421
+      },
+      "target_playbacks": [
+        {
+          "text": "dobra robota",
+          "start_ms": 68421,
+          "end_ms": 69616
+        },
+        {
+          "text": "dobra robota",
+          "start_ms": 72116,
+          "end_ms": 73311
+        }
+      ]
+    },
+    {
+      "id": 243,
+      "kind": "vocabulary",
+      "start_ms": 75811,
+      "end_ms": 85690,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "försiktigt",
+        "start_ms": 75811,
+        "end_ms": 76824
+      },
+      "target_playbacks": [
+        {
+          "text": "ostrożnie",
+          "start_ms": 78824,
+          "end_ms": 79757
+        },
+        {
+          "text": "ostrożnie",
+          "start_ms": 82257,
+          "end_ms": 83190
+        }
+      ]
+    },
+    {
+      "id": 194,
+      "kind": "vocabulary",
+      "start_ms": 85690,
+      "end_ms": 95481,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "i luften",
+        "start_ms": 85690,
+        "end_ms": 86627
+      },
+      "target_playbacks": [
+        {
+          "text": "w powietrzu",
+          "start_ms": 88627,
+          "end_ms": 89554
+        },
+        {
+          "text": "w powietrzu",
+          "start_ms": 92054,
+          "end_ms": 92981
+        }
+      ]
+    },
+    {
+      "id": 193,
+      "kind": "vocabulary",
+      "start_ms": 95481,
+      "end_ms": 105066,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "fjärilar",
+        "start_ms": 95481,
+        "end_ms": 96542
+      },
+      "target_playbacks": [
+        {
+          "text": "motyle",
+          "start_ms": 98542,
+          "end_ms": 99304
+        },
+        {
+          "text": "motyle",
+          "start_ms": 101804,
+          "end_ms": 102566
+        }
+      ]
+    },
+    {
+      "id": 191,
+      "kind": "vocabulary",
+      "start_ms": 105066,
+      "end_ms": 116321,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "börja sjunga",
+        "start_ms": 105066,
+        "end_ms": 106325
+      },
+      "target_playbacks": [
+        {
+          "text": "zaczynać śpiewać",
+          "start_ms": 108325,
+          "end_ms": 109823
+        },
+        {
+          "text": "zaczynać śpiewać",
+          "start_ms": 112323,
+          "end_ms": 113821
+        }
+      ]
+    },
+    {
+      "id": 190,
+      "kind": "vocabulary",
+      "start_ms": 116321,
+      "end_ms": 125605,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "ropa",
+        "start_ms": 116321,
+        "end_ms": 117137
+      },
+      "target_playbacks": [
+        {
+          "text": "wołać",
+          "start_ms": 119137,
+          "end_ms": 119871
+        },
+        {
+          "text": "wołać",
+          "start_ms": 122371,
+          "end_ms": 123105
+        }
+      ]
+    },
+    {
+      "id": 195,
+      "kind": "vocabulary",
+      "start_ms": 125605,
+      "end_ms": 134967,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "dansa",
+        "start_ms": 125605,
+        "end_ms": 126367
+      },
+      "target_playbacks": [
+        {
+          "text": "tańczyć",
+          "start_ms": 128367,
+          "end_ms": 129167
+        },
+        {
+          "text": "tańczyć",
+          "start_ms": 131667,
+          "end_ms": 132467
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "kind": "vocabulary",
+      "start_ms": 134967,
+      "end_ms": 146541,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "riktiga upptäckare",
+        "start_ms": 134967,
+        "end_ms": 136543
+      },
+      "target_playbacks": [
+        {
+          "text": "prawdziwi odkrywcy",
+          "start_ms": 138543,
+          "end_ms": 140042
+        },
+        {
+          "text": "prawdziwi odkrywcy",
+          "start_ms": 142542,
+          "end_ms": 144041
+        }
+      ]
+    },
+    {
+      "id": 246,
+      "kind": "vocabulary",
+      "start_ms": 146541,
+      "end_ms": 157594,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "ett nytt äventyr",
+        "start_ms": 146541,
+        "end_ms": 148226
+      },
+      "target_playbacks": [
+        {
+          "text": "nowa przygoda",
+          "start_ms": 150226,
+          "end_ms": 151410
+        },
+        {
+          "text": "nowa przygoda",
+          "start_ms": 153910,
+          "end_ms": 155094
+        }
+      ]
+    },
+    {
+      "id": 192,
+      "kind": "vocabulary",
+      "start_ms": 157594,
+      "end_ms": 166765,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "glatt",
+        "start_ms": 157594,
+        "end_ms": 158259
+      },
+      "target_playbacks": [
+        {
+          "text": "wesoło",
+          "start_ms": 160259,
+          "end_ms": 161012
+        },
+        {
+          "text": "wesoło",
+          "start_ms": 163512,
+          "end_ms": 164265
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "kind": "vocabulary",
+      "start_ms": 166765,
+      "end_ms": 178465,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "flaxa med vingarna",
+        "start_ms": 166765,
+        "end_ms": 168328
+      },
+      "target_playbacks": [
+        {
+          "text": "machać skrzydłami",
+          "start_ms": 170328,
+          "end_ms": 171897
+        },
+        {
+          "text": "machać skrzydłami",
+          "start_ms": 174397,
+          "end_ms": 175965
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "kind": "vocabulary",
+      "start_ms": 178465,
+      "end_ms": 189279,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "sjunga glatt",
+        "start_ms": 178465,
+        "end_ms": 179657
+      },
+      "target_playbacks": [
+        {
+          "text": "wesoło śpiewać",
+          "start_ms": 181657,
+          "end_ms": 182968
+        },
+        {
+          "text": "wesoło śpiewać",
+          "start_ms": 185468,
+          "end_ms": 186779
+        }
+      ]
+    },
+    {
+      "id": 245,
+      "kind": "vocabulary",
+      "start_ms": 189279,
+      "end_ms": 198525,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "i morgon",
+        "start_ms": 189279,
+        "end_ms": 190283
+      },
+      "target_playbacks": [
+        {
+          "text": "jutro",
+          "start_ms": 192283,
+          "end_ms": 192904
+        },
+        {
+          "text": "jutro",
+          "start_ms": 195404,
+          "end_ms": 196025
+        }
+      ]
+    }
+  ],
+  "book_introduction": null,
+  "chapter_introduction": {
+    "text": "Rozdział ósmy. Wielki koncert.",
+    "start_ms": 1000,
+    "end_ms": 4216
+  },
+  "transitions": [
+    {
+      "kind": "chime",
+      "from": "story",
+      "to": "practice",
+      "start_ms": 37368,
+      "end_ms": 37988
+    },
+    {
+      "kind": "chime",
+      "from": "practice",
+      "to": "story",
+      "start_ms": 198525,
+      "end_ms": 199145
+    }
+  ],
+  "chapter_readings": [
+    {
+      "text": "Maja ostrożnie wyjmuje niebieski przycisk z radia. Tomek wkłada go w skrzydło ptaka. Dzieci wołają: – Reparo! Złoty ptak macha skrzydłami i zaczyna wesoło śpiewać. W powietrzu tańczą motyle. – Dobra robota! – mówi Radiofon. – Jesteście prawdziwymi odkrywcami. Jutro czeka nas nowa przygoda!",
+      "start_ms": 6716,
+      "end_ms": 34868
+    },
+    {
+      "text": "Maja ostrożnie wyjmuje niebieski przycisk z radia. Tomek wkłada go w skrzydło ptaka. Dzieci wołają: – Reparo! Złoty ptak macha skrzydłami i zaczyna wesoło śpiewać. W powietrzu tańczą motyle. – Dobra robota! – mówi Radiofon. – Jesteście prawdziwymi odkrywcami. Jutro czeka nas nowa przygoda!",
+      "start_ms": 201645,
+      "end_ms": 229797
+    }
+  ],
+  "chapter_reading": {
+    "text": "Maja ostrożnie wyjmuje niebieski przycisk z radia. Tomek wkłada go w skrzydło ptaka. Dzieci wołają: – Reparo! Złoty ptak macha skrzydłami i zaczyna wesoło śpiewać. W powietrzu tańczą motyle. – Dobra robota! – mówi Radiofon. – Jesteście prawdziwymi odkrywcami. Jutro czeka nas nowa przygoda!",
+    "start_ms": 201645,
+    "end_ms": 229797
+  },
+  "narration": {
+    "engine": "azure",
+    "voice": "pl-PL-Harper:MAI-Voice-2.1",
+    "style": "audiobook",
+    "rate": "-12%",
+    "locale": "pl-PL",
+    "capabilities": {
+      "voice": "pl-PL-Harper:MAI-Voice-2.1",
+      "locale": "pl-PL",
+      "advertised_styles": [
+        "agent",
+        "audiobook",
+        "customer_call_center",
+        "educational",
+        "narrator"
+      ]
+    },
+    "ssml": "<speak xmlns:mstts=\"http://www.w3.org/2001/mstts\" version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"pl-PL\"><voice name=\"pl-PL-Harper:MAI-Voice-2.1\"><mstts:express-as style=\"audiobook\"><prosody rate=\"-12%\"><p>Maja ostrożnie wyjmuje niebieski przycisk z radia. Tomek wkłada go w skrzydło ptaka. Dzieci wołają: – Reparo! Złoty ptak macha skrzydłami i zaczyna wesoło śpiewać. W powietrzu tańczą motyle. – Dobra robota! – mówi Radiofon. – Jesteście prawdziwymi odkrywcami. Jutro czeka nas nowa przygoda!</p></prosody></mstts:express-as></voice></speak>"
+  },
+  "audio_file": "08_chapter_08_sv_pl_2026-10-29_13-36-32.mp3"
+}

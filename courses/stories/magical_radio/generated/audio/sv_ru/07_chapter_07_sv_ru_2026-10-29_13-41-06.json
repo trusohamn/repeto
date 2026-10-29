@@ -1,0 +1,601 @@
+{
+  "chapter_number": 7,
+  "title": {
+    "pl": "Złoty ptak",
+    "sv": "Den gyllene fågeln",
+    "en": "The Golden Bird",
+    "ru": "Золотая птица"
+  },
+  "source_language": "sv",
+  "target_language": "ru",
+  "practice_order": "deterministically_shuffled",
+  "sequence": [
+    "story",
+    "practice",
+    "story"
+  ],
+  "total_duration_ms": 368658,
+  "practice": [
+    {
+      "id": 234,
+      "kind": "vocabulary",
+      "start_ms": 66264,
+      "end_ms": 77325,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "på andra vingen",
+        "start_ms": 66264,
+        "end_ms": 67649
+      },
+      "target_playbacks": [
+        {
+          "text": "на другом крыле",
+          "start_ms": 69649,
+          "end_ms": 70987
+        },
+        {
+          "text": "на другом крыле",
+          "start_ms": 73487,
+          "end_ms": 74825
+        }
+      ]
+    },
+    {
+      "id": 233,
+      "kind": "vocabulary",
+      "start_ms": 77325,
+      "end_ms": 91121,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "en glänsande blå sten",
+        "start_ms": 77325,
+        "end_ms": 79239
+      },
+      "target_playbacks": [
+        {
+          "text": "блестящий синий камешек",
+          "start_ms": 81239,
+          "end_ms": 83680
+        },
+        {
+          "text": "блестящий синий камешек",
+          "start_ms": 86180,
+          "end_ms": 88621
+        }
+      ]
+    },
+    {
+      "id": 242,
+      "kind": "vocabulary",
+      "start_ms": 91121,
+      "end_ms": 101273,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "ge tillbaka",
+        "start_ms": 91121,
+        "end_ms": 92431
+      },
+      "target_playbacks": [
+        {
+          "text": "вернуть",
+          "start_ms": 94431,
+          "end_ms": 95352
+        },
+        {
+          "text": "вернуть",
+          "start_ms": 97852,
+          "end_ms": 98773
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "kind": "vocabulary",
+      "start_ms": 101273,
+      "end_ms": 111942,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "öppna dörren",
+        "start_ms": 101273,
+        "end_ms": 102450
+      },
+      "target_playbacks": [
+        {
+          "text": "открыть дверь",
+          "start_ms": 104450,
+          "end_ms": 105696
+        },
+        {
+          "text": "открыть дверь",
+          "start_ms": 108196,
+          "end_ms": 109442
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "kind": "vocabulary",
+      "start_ms": 111942,
+      "end_ms": 121058,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "vinge",
+        "start_ms": 111942,
+        "end_ms": 112732
+      },
+      "target_playbacks": [
+        {
+          "text": "крыло",
+          "start_ms": 114732,
+          "end_ms": 115395
+        },
+        {
+          "text": "крыло",
+          "start_ms": 117895,
+          "end_ms": 118558
+        }
+      ]
+    },
+    {
+      "id": 231,
+      "kind": "vocabulary",
+      "start_ms": 121058,
+      "end_ms": 133085,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "en underjordisk trädgård",
+        "start_ms": 121058,
+        "end_ms": 123143
+      },
+      "target_playbacks": [
+        {
+          "text": "подземный сад",
+          "start_ms": 125143,
+          "end_ms": 126614
+        },
+        {
+          "text": "подземный сад",
+          "start_ms": 129114,
+          "end_ms": 130585
+        }
+      ]
+    },
+    {
+      "id": 239,
+      "kind": "vocabulary",
+      "start_ms": 133085,
+      "end_ms": 143953,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "för länge sedan",
+        "start_ms": 133085,
+        "end_ms": 134519
+      },
+      "target_playbacks": [
+        {
+          "text": "давным-давно",
+          "start_ms": 136519,
+          "end_ms": 137736
+        },
+        {
+          "text": "давным-давно",
+          "start_ms": 140236,
+          "end_ms": 141453
+        }
+      ]
+    },
+    {
+      "id": 236,
+      "kind": "vocabulary",
+      "start_ms": 143953,
+      "end_ms": 155971,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "titta på radion",
+        "start_ms": 143953,
+        "end_ms": 145485
+      },
+      "target_playbacks": [
+        {
+          "text": "смотреть на радио",
+          "start_ms": 147485,
+          "end_ms": 149228
+        },
+        {
+          "text": "смотреть на радио",
+          "start_ms": 151728,
+          "end_ms": 153471
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "kind": "vocabulary",
+      "start_ms": 155971,
+      "end_ms": 165315,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "gren",
+        "start_ms": 155971,
+        "end_ms": 156657
+      },
+      "target_playbacks": [
+        {
+          "text": "ветка",
+          "start_ms": 158657,
+          "end_ms": 159486
+        },
+        {
+          "text": "ветка",
+          "start_ms": 161986,
+          "end_ms": 162815
+        }
+      ]
+    },
+    {
+      "id": 179,
+      "kind": "vocabulary",
+      "start_ms": 165315,
+      "end_ms": 177186,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "en gyllene fågel",
+        "start_ms": 165315,
+        "end_ms": 166852
+      },
+      "target_playbacks": [
+        {
+          "text": "золотая птица",
+          "start_ms": 168852,
+          "end_ms": 170519
+        },
+        {
+          "text": "золотая птица",
+          "start_ms": 173019,
+          "end_ms": 174686
+        }
+      ]
+    },
+    {
+      "id": 232,
+      "kind": "vocabulary",
+      "start_ms": 177186,
+      "end_ms": 188347,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "på ena vingen",
+        "start_ms": 177186,
+        "end_ms": 178589
+      },
+      "target_playbacks": [
+        {
+          "text": "на одном крыле",
+          "start_ms": 180589,
+          "end_ms": 181968
+        },
+        {
+          "text": "на одном крыле",
+          "start_ms": 184468,
+          "end_ms": 185847
+        }
+      ]
+    },
+    {
+      "id": 241,
+      "kind": "vocabulary",
+      "start_ms": 188347,
+      "end_ms": 199392,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "jag väntade på er",
+        "start_ms": 188347,
+        "end_ms": 189880
+      },
+      "target_playbacks": [
+        {
+          "text": "я ждал вас",
+          "start_ms": 191880,
+          "end_ms": 193136
+        },
+        {
+          "text": "я ждал вас",
+          "start_ms": 195636,
+          "end_ms": 196892
+        }
+      ]
+    },
+    {
+      "id": 141,
+      "kind": "vocabulary",
+      "start_ms": 199392,
+      "end_ms": 209496,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "fråga",
+        "start_ms": 199392,
+        "end_ms": 200224
+      },
+      "target_playbacks": [
+        {
+          "text": "спрашивать",
+          "start_ms": 202224,
+          "end_ms": 203360
+        },
+        {
+          "text": "спрашивать",
+          "start_ms": 205860,
+          "end_ms": 206996
+        }
+      ]
+    },
+    {
+      "id": 235,
+      "kind": "vocabulary",
+      "start_ms": 209496,
+      "end_ms": 220535,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "en tom plats",
+        "start_ms": 209496,
+        "end_ms": 210873
+      },
+      "target_playbacks": [
+        {
+          "text": "пустое место",
+          "start_ms": 212873,
+          "end_ms": 214204
+        },
+        {
+          "text": "пустое место",
+          "start_ms": 216704,
+          "end_ms": 218035
+        }
+      ]
+    },
+    {
+      "id": 177,
+      "kind": "vocabulary",
+      "start_ms": 220535,
+      "end_ms": 231996,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "gå in i trädgården",
+        "start_ms": 220535,
+        "end_ms": 222330
+      },
+      "target_playbacks": [
+        {
+          "text": "войти в сад",
+          "start_ms": 224330,
+          "end_ms": 225663
+        },
+        {
+          "text": "войти в сад",
+          "start_ms": 228163,
+          "end_ms": 229496
+        }
+      ]
+    },
+    {
+      "id": 180,
+      "kind": "vocabulary",
+      "start_ms": 231996,
+      "end_ms": 241827,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "inte sjunga",
+        "start_ms": 231996,
+        "end_ms": 233077
+      },
+      "target_playbacks": [
+        {
+          "text": "не петь",
+          "start_ms": 235077,
+          "end_ms": 235952
+        },
+        {
+          "text": "не петь",
+          "start_ms": 238452,
+          "end_ms": 239327
+        }
+      ]
+    },
+    {
+      "id": 240,
+      "kind": "vocabulary",
+      "start_ms": 241827,
+      "end_ms": 253610,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "falla ut ur vingen",
+        "start_ms": 241827,
+        "end_ms": 243652
+      },
+      "target_playbacks": [
+        {
+          "text": "выпасть из крыла",
+          "start_ms": 245652,
+          "end_ms": 247131
+        },
+        {
+          "text": "выпасть из крыла",
+          "start_ms": 249631,
+          "end_ms": 251110
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "kind": "vocabulary",
+      "start_ms": 253610,
+      "end_ms": 266229,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "ticka som en klocka",
+        "start_ms": 253610,
+        "end_ms": 255277
+      },
+      "target_playbacks": [
+        {
+          "text": "тикать, как часы",
+          "start_ms": 257277,
+          "end_ms": 259253
+        },
+        {
+          "text": "тикать, как часы",
+          "start_ms": 261753,
+          "end_ms": 263729
+        }
+      ]
+    },
+    {
+      "id": 237,
+      "kind": "vocabulary",
+      "start_ms": 266229,
+      "end_ms": 278963,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "se ut precis som",
+        "start_ms": 266229,
+        "end_ms": 268103
+      },
+      "target_playbacks": [
+        {
+          "text": "выглядеть точно как",
+          "start_ms": 270103,
+          "end_ms": 272033
+        },
+        {
+          "text": "выглядеть точно как",
+          "start_ms": 274533,
+          "end_ms": 276463
+        }
+      ]
+    },
+    {
+      "id": 181,
+      "kind": "vocabulary",
+      "start_ms": 278963,
+      "end_ms": 288191,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "bara",
+        "start_ms": 278963,
+        "end_ms": 279645
+      },
+      "target_playbacks": [
+        {
+          "text": "только",
+          "start_ms": 281645,
+          "end_ms": 282418
+        },
+        {
+          "text": "только",
+          "start_ms": 284918,
+          "end_ms": 285691
+        }
+      ]
+    },
+    {
+      "id": 238,
+      "kind": "vocabulary",
+      "start_ms": 288191,
+      "end_ms": 301651,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "var har du fått knappen ifrån?",
+        "start_ms": 288191,
+        "end_ms": 290397
+      },
+      "target_playbacks": [
+        {
+          "text": "откуда у тебя эта кнопка?",
+          "start_ms": 292397,
+          "end_ms": 294524
+        },
+        {
+          "text": "откуда у тебя эта кнопка?",
+          "start_ms": 297024,
+          "end_ms": 299151
+        }
+      ]
+    },
+    {
+      "id": 178,
+      "kind": "vocabulary",
+      "start_ms": 301651,
+      "end_ms": 313770,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "sitta på en gren",
+        "start_ms": 301651,
+        "end_ms": 303386
+      },
+      "target_playbacks": [
+        {
+          "text": "сидеть на ветке",
+          "start_ms": 305386,
+          "end_ms": 307078
+        },
+        {
+          "text": "сидеть на ветке",
+          "start_ms": 309578,
+          "end_ms": 311270
+        }
+      ]
+    }
+  ],
+  "book_introduction": null,
+  "chapter_introduction": {
+    "text": "Глава седьмая. Золотая птица.",
+    "start_ms": 1000,
+    "end_ms": 6376
+  },
+  "transitions": [
+    {
+      "kind": "chime",
+      "from": "story",
+      "to": "practice",
+      "start_ms": 63144,
+      "end_ms": 63764
+    },
+    {
+      "kind": "chime",
+      "from": "practice",
+      "to": "story",
+      "start_ms": 313770,
+      "end_ms": 314390
+    }
+  ],
+  "chapter_readings": [
+    {
+      "text": "Дети открывают зелёную дверь и входят в подземный сад. На ветке сидит золотая птица. Она не поёт, а только тикает, как часы: Тик-так, тик-так. На одном крыле у неё блестящий синий камешек. На другом крыле — пустое место. Маша смотрит на радио. Синяя кнопка радио выглядит точно как камешек птицы! — Радиофон, откуда у тебя эта кнопка? — спрашивает Маша. — Это камешек птицы, — говорит Радиофон. — Давным-давно он выпал у птицы из крыла. Кто-то сделал из него мою кнопку. Я ждал вас, чтобы его вернуть!",
+      "start_ms": 8876,
+      "end_ms": 60644
+    },
+    {
+      "text": "Дети открывают зелёную дверь и входят в подземный сад. На ветке сидит золотая птица. Она не поёт, а только тикает, как часы: Тик-так, тик-так. На одном крыле у неё блестящий синий камешек. На другом крыле — пустое место. Маша смотрит на радио. Синяя кнопка радио выглядит точно как камешек птицы! — Радиофон, откуда у тебя эта кнопка? — спрашивает Маша. — Это камешек птицы, — говорит Радиофон. — Давным-давно он выпал у птицы из крыла. Кто-то сделал из него мою кнопку. Я ждал вас, чтобы его вернуть!",
+      "start_ms": 316890,
+      "end_ms": 368658
+    }
+  ],
+  "chapter_reading": {
+    "text": "Дети открывают зелёную дверь и входят в подземный сад. На ветке сидит золотая птица. Она не поёт, а только тикает, как часы: Тик-так, тик-так. На одном крыле у неё блестящий синий камешек. На другом крыле — пустое место. Маша смотрит на радио. Синяя кнопка радио выглядит точно как камешек птицы! — Радиофон, откуда у тебя эта кнопка? — спрашивает Маша. — Это камешек птицы, — говорит Радиофон. — Давным-давно он выпал у птицы из крыла. Кто-то сделал из него мою кнопку. Я ждал вас, чтобы его вернуть!",
+    "start_ms": 316890,
+    "end_ms": 368658
+  },
+  "narration": {
+    "engine": "azure",
+    "voice": "ru-RU-SvetlanaNeural",
+    "style": null,
+    "rate": "-12%",
+    "locale": "ru-RU",
+    "capabilities": {
+      "voice": "ru-RU-SvetlanaNeural",
+      "locale": "ru-RU",
+      "advertised_styles": []
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"ru-RU\"><voice name=\"ru-RU-SvetlanaNeural\"><prosody rate=\"-12%\"><p>Дети открывают зелёную дверь и входят в подземный сад. На ветке сидит золотая птица. Она не поёт, а только тикает, как часы: Тик-так, тик-так. На одном крыле у неё блестящий синий камешек. На другом крыле — пустое место. Маша смотрит на радио. Синяя кнопка радио выглядит точно как камешек птицы! — Радиофон, откуда у тебя эта кнопка? — спрашивает Маша. — Это камешек птицы, — говорит Радиофон. — Давным-давно он выпал у птицы из крыла. Кто-то сделал из него мою кнопку. Я ждал вас, чтобы его вернуть!</p></prosody></voice></speak>"
+  },
+  "audio_file": "07_chapter_07_sv_ru_2026-10-29_13-41-06.mp3"
+}

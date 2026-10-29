@@ -1,0 +1,433 @@
+{
+  "chapter_number": 6,
+  "title": {
+    "pl": "Pierwsze zaklęcie",
+    "sv": "Den första trollformeln",
+    "en": "The First Spell",
+    "ru": "Первое заклинание"
+  },
+  "source_language": "sv",
+  "target_language": "ru",
+  "practice_order": "deterministically_shuffled",
+  "sequence": [
+    "story",
+    "practice",
+    "story"
+  ],
+  "total_duration_ms": 228418,
+  "practice": [
+    {
+      "id": 170,
+      "kind": "vocabulary",
+      "start_ms": 40704,
+      "end_ms": 50723,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "snurra",
+        "start_ms": 40704,
+        "end_ms": 41595
+      },
+      "target_playbacks": [
+        {
+          "text": "крутиться",
+          "start_ms": 43595,
+          "end_ms": 44659
+        },
+        {
+          "text": "крутиться",
+          "start_ms": 47159,
+          "end_ms": 48223
+        }
+      ]
+    },
+    {
+      "id": 175,
+      "kind": "vocabulary",
+      "start_ms": 50723,
+      "end_ms": 60312,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "någon",
+        "start_ms": 50723,
+        "end_ms": 51682
+      },
+      "target_playbacks": [
+        {
+          "text": "кто-то",
+          "start_ms": 53682,
+          "end_ms": 54497
+        },
+        {
+          "text": "кто-то",
+          "start_ms": 56997,
+          "end_ms": 57812
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "kind": "vocabulary",
+      "start_ms": 60312,
+      "end_ms": 71523,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "vänta på hjälp",
+        "start_ms": 60312,
+        "end_ms": 61717
+      },
+      "target_playbacks": [
+        {
+          "text": "ждать помощи",
+          "start_ms": 63717,
+          "end_ms": 65120
+        },
+        {
+          "text": "ждать помощи",
+          "start_ms": 67620,
+          "end_ms": 69023
+        }
+      ]
+    },
+    {
+      "id": 174,
+      "kind": "vocabulary",
+      "start_ms": 71523,
+      "end_ms": 81766,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "bakom dörren",
+        "start_ms": 71523,
+        "end_ms": 72812
+      },
+      "target_playbacks": [
+        {
+          "text": "за дверью",
+          "start_ms": 74812,
+          "end_ms": 75789
+        },
+        {
+          "text": "за дверью",
+          "start_ms": 78289,
+          "end_ms": 79266
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "kind": "vocabulary",
+      "start_ms": 81766,
+      "end_ms": 92660,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "grön dörr",
+        "start_ms": 81766,
+        "end_ms": 82916
+      },
+      "target_playbacks": [
+        {
+          "text": "зелёная дверь",
+          "start_ms": 84916,
+          "end_ms": 86288
+        },
+        {
+          "text": "зелёная дверь",
+          "start_ms": 88788,
+          "end_ms": 90160
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "kind": "vocabulary",
+      "start_ms": 92660,
+      "end_ms": 103986,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "kompassnål",
+        "start_ms": 92660,
+        "end_ms": 93754
+      },
+      "target_playbacks": [
+        {
+          "text": "стрелка компаса",
+          "start_ms": 95754,
+          "end_ms": 97370
+        },
+        {
+          "text": "стрелка компаса",
+          "start_ms": 99870,
+          "end_ms": 101486
+        }
+      ]
+    },
+    {
+      "id": 168,
+      "kind": "vocabulary",
+      "start_ms": 103986,
+      "end_ms": 113506,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "igen",
+        "start_ms": 103986,
+        "end_ms": 104782
+      },
+      "target_playbacks": [
+        {
+          "text": "снова",
+          "start_ms": 106782,
+          "end_ms": 107644
+        },
+        {
+          "text": "снова",
+          "start_ms": 110144,
+          "end_ms": 111006
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "kind": "vocabulary",
+      "start_ms": 113506,
+      "end_ms": 125345,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "gyllene gnista",
+        "start_ms": 113506,
+        "end_ms": 114907
+      },
+      "target_playbacks": [
+        {
+          "text": "золотая искра",
+          "start_ms": 116907,
+          "end_ms": 118626
+        },
+        {
+          "text": "золотая искра",
+          "start_ms": 121126,
+          "end_ms": 122845
+        }
+      ]
+    },
+    {
+      "id": 172,
+      "kind": "vocabulary",
+      "start_ms": 125345,
+      "end_ms": 135331,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "fungera",
+        "start_ms": 125345,
+        "end_ms": 126267
+      },
+      "target_playbacks": [
+        {
+          "text": "работать",
+          "start_ms": 128267,
+          "end_ms": 129299
+        },
+        {
+          "text": "работать",
+          "start_ms": 131799,
+          "end_ms": 132831
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "kind": "vocabulary",
+      "start_ms": 135331,
+      "end_ms": 146972,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "säga tillsammans",
+        "start_ms": 135331,
+        "end_ms": 136930
+      },
+      "target_playbacks": [
+        {
+          "text": "говорить вместе",
+          "start_ms": 138930,
+          "end_ms": 140451
+        },
+        {
+          "text": "говорить вместе",
+          "start_ms": 142951,
+          "end_ms": 144472
+        }
+      ]
+    },
+    {
+      "id": 171,
+      "kind": "vocabulary",
+      "start_ms": 146972,
+      "end_ms": 156767,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "peka",
+        "start_ms": 146972,
+        "end_ms": 147723
+      },
+      "target_playbacks": [
+        {
+          "text": "показывать",
+          "start_ms": 149723,
+          "end_ms": 150745
+        },
+        {
+          "text": "показывать",
+          "start_ms": 153245,
+          "end_ms": 154267
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "kind": "vocabulary",
+      "start_ms": 156767,
+      "end_ms": 168466,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "hålla i kompassen",
+        "start_ms": 156767,
+        "end_ms": 158342
+      },
+      "target_playbacks": [
+        {
+          "text": "держать компас",
+          "start_ms": 160342,
+          "end_ms": 161904
+        },
+        {
+          "text": "держать компас",
+          "start_ms": 164404,
+          "end_ms": 165966
+        }
+      ]
+    },
+    {
+      "id": 169,
+      "kind": "vocabulary",
+      "start_ms": 168466,
+      "end_ms": 178829,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "vara hel",
+        "start_ms": 168466,
+        "end_ms": 169607
+      },
+      "target_playbacks": [
+        {
+          "text": "быть целым",
+          "start_ms": 171607,
+          "end_ms": 172718
+        },
+        {
+          "text": "быть целым",
+          "start_ms": 175218,
+          "end_ms": 176329
+        }
+      ]
+    },
+    {
+      "id": 176,
+      "kind": "vocabulary",
+      "start_ms": 178829,
+      "end_ms": 189230,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "er hjälp",
+        "start_ms": 178829,
+        "end_ms": 179810
+      },
+      "target_playbacks": [
+        {
+          "text": "ваша помощь",
+          "start_ms": 181810,
+          "end_ms": 183020
+        },
+        {
+          "text": "ваша помощь",
+          "start_ms": 185520,
+          "end_ms": 186730
+        }
+      ]
+    },
+    {
+      "id": 173,
+      "kind": "vocabulary",
+      "start_ms": 189230,
+      "end_ms": 198970,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "ropa",
+        "start_ms": 189230,
+        "end_ms": 190046
+      },
+      "target_playbacks": [
+        {
+          "text": "кричать",
+          "start_ms": 192046,
+          "end_ms": 193008
+        },
+        {
+          "text": "кричать",
+          "start_ms": 195508,
+          "end_ms": 196470
+        }
+      ]
+    }
+  ],
+  "book_introduction": null,
+  "chapter_introduction": {
+    "text": "Глава шестая. Первое заклинание.",
+    "start_ms": 1000,
+    "end_ms": 6256
+  },
+  "transitions": [
+    {
+      "kind": "chime",
+      "from": "story",
+      "to": "practice",
+      "start_ms": 37584,
+      "end_ms": 38204
+    },
+    {
+      "kind": "chime",
+      "from": "practice",
+      "to": "story",
+      "start_ms": 198970,
+      "end_ms": 199590
+    }
+  ],
+  "chapter_readings": [
+    {
+      "text": "Миша держит компас. Дети вместе говорят: — Репаро! Вспыхивает золотая искра. Компас снова целый! Стрелка компаса крутится и показывает на зелёную дверь. — Работает! — кричит Миша. Радиофон говорит: — За дверью кто-то ждёт вашей помощи.",
+      "start_ms": 8756,
+      "end_ms": 35084
+    },
+    {
+      "text": "Миша держит компас. Дети вместе говорят: — Репаро! Вспыхивает золотая искра. Компас снова целый! Стрелка компаса крутится и показывает на зелёную дверь. — Работает! — кричит Миша. Радиофон говорит: — За дверью кто-то ждёт вашей помощи.",
+      "start_ms": 202090,
+      "end_ms": 228418
+    }
+  ],
+  "chapter_reading": {
+    "text": "Миша держит компас. Дети вместе говорят: — Репаро! Вспыхивает золотая искра. Компас снова целый! Стрелка компаса крутится и показывает на зелёную дверь. — Работает! — кричит Миша. Радиофон говорит: — За дверью кто-то ждёт вашей помощи.",
+    "start_ms": 202090,
+    "end_ms": 228418
+  },
+  "narration": {
+    "engine": "azure",
+    "voice": "ru-RU-SvetlanaNeural",
+    "style": null,
+    "rate": "-12%",
+    "locale": "ru-RU",
+    "capabilities": {
+      "voice": "ru-RU-SvetlanaNeural",
+      "locale": "ru-RU",
+      "advertised_styles": []
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"ru-RU\"><voice name=\"ru-RU-SvetlanaNeural\"><prosody rate=\"-12%\"><p>Миша держит компас. Дети вместе говорят: — Репаро! Вспыхивает золотая искра. Компас снова целый! Стрелка компаса крутится и показывает на зелёную дверь. — Работает! — кричит Миша. Радиофон говорит: — За дверью кто-то ждёт вашей помощи.</p></prosody></voice></speak>"
+  },
+  "audio_file": "06_chapter_06_sv_ru_2026-10-29_13-41-06.mp3"
+}

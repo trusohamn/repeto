@@ -45,7 +45,7 @@ class AzurePreviewTests(unittest.TestCase):
         root = ET.fromstring(preview.build_ssml(text, "-8%", 350, passages=passages))
         prosodies = root.findall(f".//{{{preview.SSML}}}prosody")
         self.assertEqual(" ".join("".join(p.itertext()) for p in prosodies), text)
-        self.assertEqual(len(prosodies), 7)
+        self.assertEqual(len(prosodies), len(passages))
         self.assertEqual(prosodies[2].get("volume"), "-12%")
         self.assertEqual(prosodies[2].get("contour"), passages[2]["contour"])
         self.assertFalse(root.findall(f".//{{{preview.SSML}}}s"))

@@ -1,0 +1,433 @@
+{
+  "chapter_number": 8,
+  "title": {
+    "pl": "Wielki koncert",
+    "sv": "Den stora konserten",
+    "en": "The Grand Concert",
+    "ru": "Большой концерт"
+  },
+  "source_language": "sv",
+  "target_language": "ru",
+  "practice_order": "deterministically_shuffled",
+  "sequence": [
+    "story",
+    "practice",
+    "story"
+  ],
+  "total_duration_ms": 247715,
+  "practice": [
+    {
+      "id": 244,
+      "kind": "vocabulary",
+      "start_ms": 46704,
+      "end_ms": 60527,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "ta ut knappen ur radion",
+        "start_ms": 46704,
+        "end_ms": 48811
+      },
+      "target_playbacks": [
+        {
+          "text": "вынимать кнопку из радио",
+          "start_ms": 50811,
+          "end_ms": 53169
+        },
+        {
+          "text": "вынимать кнопку из радио",
+          "start_ms": 55669,
+          "end_ms": 58027
+        }
+      ]
+    },
+    {
+      "id": 189,
+      "kind": "vocabulary",
+      "start_ms": 60527,
+      "end_ms": 72140,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "sätta in i vingen",
+        "start_ms": 60527,
+        "end_ms": 62296
+      },
+      "target_playbacks": [
+        {
+          "text": "вставлять в крыло",
+          "start_ms": 64296,
+          "end_ms": 65718
+        },
+        {
+          "text": "вставлять в крыло",
+          "start_ms": 68218,
+          "end_ms": 69640
+        }
+      ]
+    },
+    {
+      "id": 101,
+      "kind": "vocabulary",
+      "start_ms": 72140,
+      "end_ms": 83639,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "bra jobbat",
+        "start_ms": 72140,
+        "end_ms": 73337
+      },
+      "target_playbacks": [
+        {
+          "text": "отличная работа",
+          "start_ms": 75337,
+          "end_ms": 76988
+        },
+        {
+          "text": "отличная работа",
+          "start_ms": 79488,
+          "end_ms": 81139
+        }
+      ]
+    },
+    {
+      "id": 243,
+      "kind": "vocabulary",
+      "start_ms": 83639,
+      "end_ms": 93756,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "försiktigt",
+        "start_ms": 83639,
+        "end_ms": 84652
+      },
+      "target_playbacks": [
+        {
+          "text": "осторожно",
+          "start_ms": 86652,
+          "end_ms": 87704
+        },
+        {
+          "text": "осторожно",
+          "start_ms": 90204,
+          "end_ms": 91256
+        }
+      ]
+    },
+    {
+      "id": 194,
+      "kind": "vocabulary",
+      "start_ms": 93756,
+      "end_ms": 103919,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "i luften",
+        "start_ms": 93756,
+        "end_ms": 94693
+      },
+      "target_playbacks": [
+        {
+          "text": "в воздухе",
+          "start_ms": 96693,
+          "end_ms": 97806
+        },
+        {
+          "text": "в воздухе",
+          "start_ms": 100306,
+          "end_ms": 101419
+        }
+      ]
+    },
+    {
+      "id": 193,
+      "kind": "vocabulary",
+      "start_ms": 103919,
+      "end_ms": 113970,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "fjärilar",
+        "start_ms": 103919,
+        "end_ms": 104980
+      },
+      "target_playbacks": [
+        {
+          "text": "бабочки",
+          "start_ms": 106980,
+          "end_ms": 107975
+        },
+        {
+          "text": "бабочки",
+          "start_ms": 110475,
+          "end_ms": 111470
+        }
+      ]
+    },
+    {
+      "id": 191,
+      "kind": "vocabulary",
+      "start_ms": 113970,
+      "end_ms": 125147,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "börja sjunga",
+        "start_ms": 113970,
+        "end_ms": 115229
+      },
+      "target_playbacks": [
+        {
+          "text": "начинать петь",
+          "start_ms": 117229,
+          "end_ms": 118688
+        },
+        {
+          "text": "начинать петь",
+          "start_ms": 121188,
+          "end_ms": 122647
+        }
+      ]
+    },
+    {
+      "id": 190,
+      "kind": "vocabulary",
+      "start_ms": 125147,
+      "end_ms": 134887,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "ropa",
+        "start_ms": 125147,
+        "end_ms": 125963
+      },
+      "target_playbacks": [
+        {
+          "text": "кричать",
+          "start_ms": 127963,
+          "end_ms": 128925
+        },
+        {
+          "text": "кричать",
+          "start_ms": 131425,
+          "end_ms": 132387
+        }
+      ]
+    },
+    {
+      "id": 195,
+      "kind": "vocabulary",
+      "start_ms": 134887,
+      "end_ms": 144637,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "dansa",
+        "start_ms": 134887,
+        "end_ms": 135649
+      },
+      "target_playbacks": [
+        {
+          "text": "танцевать",
+          "start_ms": 137649,
+          "end_ms": 138643
+        },
+        {
+          "text": "танцевать",
+          "start_ms": 141143,
+          "end_ms": 142137
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "kind": "vocabulary",
+      "start_ms": 144637,
+      "end_ms": 158291,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "riktiga upptäckare",
+        "start_ms": 144637,
+        "end_ms": 146213
+      },
+      "target_playbacks": [
+        {
+          "text": "настоящие исследователи",
+          "start_ms": 148213,
+          "end_ms": 150752
+        },
+        {
+          "text": "настоящие исследователи",
+          "start_ms": 153252,
+          "end_ms": 155791
+        }
+      ]
+    },
+    {
+      "id": 246,
+      "kind": "vocabulary",
+      "start_ms": 158291,
+      "end_ms": 170668,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "ett nytt äventyr",
+        "start_ms": 158291,
+        "end_ms": 159976
+      },
+      "target_playbacks": [
+        {
+          "text": "новое приключение",
+          "start_ms": 161976,
+          "end_ms": 163822
+        },
+        {
+          "text": "новое приключение",
+          "start_ms": 166322,
+          "end_ms": 168168
+        }
+      ]
+    },
+    {
+      "id": 192,
+      "kind": "vocabulary",
+      "start_ms": 170668,
+      "end_ms": 180063,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "glatt",
+        "start_ms": 170668,
+        "end_ms": 171333
+      },
+      "target_playbacks": [
+        {
+          "text": "весело",
+          "start_ms": 173333,
+          "end_ms": 174198
+        },
+        {
+          "text": "весело",
+          "start_ms": 176698,
+          "end_ms": 177563
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "kind": "vocabulary",
+      "start_ms": 180063,
+      "end_ms": 191741,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "flaxa med vingarna",
+        "start_ms": 180063,
+        "end_ms": 181626
+      },
+      "target_playbacks": [
+        {
+          "text": "махать крыльями",
+          "start_ms": 183626,
+          "end_ms": 185184
+        },
+        {
+          "text": "махать крыльями",
+          "start_ms": 187684,
+          "end_ms": 189241
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "kind": "vocabulary",
+      "start_ms": 191741,
+      "end_ms": 202513,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "sjunga glatt",
+        "start_ms": 191741,
+        "end_ms": 192933
+      },
+      "target_playbacks": [
+        {
+          "text": "весело петь",
+          "start_ms": 194933,
+          "end_ms": 196223
+        },
+        {
+          "text": "весело петь",
+          "start_ms": 198723,
+          "end_ms": 200013
+        }
+      ]
+    },
+    {
+      "id": 245,
+      "kind": "vocabulary",
+      "start_ms": 202513,
+      "end_ms": 212291,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "i morgon",
+        "start_ms": 202513,
+        "end_ms": 203517
+      },
+      "target_playbacks": [
+        {
+          "text": "завтра",
+          "start_ms": 205517,
+          "end_ms": 206404
+        },
+        {
+          "text": "завтра",
+          "start_ms": 208904,
+          "end_ms": 209791
+        }
+      ]
+    }
+  ],
+  "book_introduction": null,
+  "chapter_introduction": {
+    "text": "Глава восьмая. Большой концерт.",
+    "start_ms": 1000,
+    "end_ms": 6280
+  },
+  "transitions": [
+    {
+      "kind": "chime",
+      "from": "story",
+      "to": "practice",
+      "start_ms": 43584,
+      "end_ms": 44204
+    },
+    {
+      "kind": "chime",
+      "from": "practice",
+      "to": "story",
+      "start_ms": 212291,
+      "end_ms": 212911
+    }
+  ],
+  "chapter_readings": [
+    {
+      "text": "Маша осторожно вынимает синюю кнопку из радио. Миша вставляет её в крыло птицы. Дети кричат: — Репаро! Золотая птица машет крыльями и начинает весело петь. В воздухе танцуют бабочки. — Отличная работа! — говорит Радиофон. — Вы настоящие исследователи. Завтра нас ждёт новое приключение!",
+      "start_ms": 8780,
+      "end_ms": 41084
+    },
+    {
+      "text": "Маша осторожно вынимает синюю кнопку из радио. Миша вставляет её в крыло птицы. Дети кричат: — Репаро! Золотая птица машет крыльями и начинает весело петь. В воздухе танцуют бабочки. — Отличная работа! — говорит Радиофон. — Вы настоящие исследователи. Завтра нас ждёт новое приключение!",
+      "start_ms": 215411,
+      "end_ms": 247715
+    }
+  ],
+  "chapter_reading": {
+    "text": "Маша осторожно вынимает синюю кнопку из радио. Миша вставляет её в крыло птицы. Дети кричат: — Репаро! Золотая птица машет крыльями и начинает весело петь. В воздухе танцуют бабочки. — Отличная работа! — говорит Радиофон. — Вы настоящие исследователи. Завтра нас ждёт новое приключение!",
+    "start_ms": 215411,
+    "end_ms": 247715
+  },
+  "narration": {
+    "engine": "azure",
+    "voice": "ru-RU-SvetlanaNeural",
+    "style": null,
+    "rate": "-12%",
+    "locale": "ru-RU",
+    "capabilities": {
+      "voice": "ru-RU-SvetlanaNeural",
+      "locale": "ru-RU",
+      "advertised_styles": []
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"ru-RU\"><voice name=\"ru-RU-SvetlanaNeural\"><prosody rate=\"-12%\"><p>Маша осторожно вынимает синюю кнопку из радио. Миша вставляет её в крыло птицы. Дети кричат: — Репаро! Золотая птица машет крыльями и начинает весело петь. В воздухе танцуют бабочки. — Отличная работа! — говорит Радиофон. — Вы настоящие исследователи. Завтра нас ждёт новое приключение!</p></prosody></voice></speak>"
+  },
+  "audio_file": "08_chapter_08_sv_ru_2026-10-29_13-41-06.mp3"
+}

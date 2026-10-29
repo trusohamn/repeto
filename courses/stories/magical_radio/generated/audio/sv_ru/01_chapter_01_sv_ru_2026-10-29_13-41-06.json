@@ -1,0 +1,581 @@
+{
+  "chapter_number": 1,
+  "title": {
+    "pl": "Stary stół",
+    "sv": "Det gamla bordet",
+    "en": "The Old Table",
+    "ru": "Старый стол"
+  },
+  "source_language": "sv",
+  "target_language": "ru",
+  "practice_order": "deterministically_shuffled",
+  "sequence": [
+    "story",
+    "practice",
+    "story"
+  ],
+  "total_duration_ms": 316378,
+  "practice": [
+    {
+      "id": 210,
+      "kind": "vocabulary",
+      "start_ms": 52588,
+      "end_ms": 62149,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "stå",
+        "start_ms": 52588,
+        "end_ms": 53307
+      },
+      "target_playbacks": [
+        {
+          "text": "стоять",
+          "start_ms": 55307,
+          "end_ms": 56228
+        },
+        {
+          "text": "стоять",
+          "start_ms": 58728,
+          "end_ms": 59649
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "kind": "vocabulary",
+      "start_ms": 62149,
+      "end_ms": 74699,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "spärra upp ögonen",
+        "start_ms": 62149,
+        "end_ms": 63959
+      },
+      "target_playbacks": [
+        {
+          "text": "широко открыть глаза",
+          "start_ms": 65959,
+          "end_ms": 67829
+        },
+        {
+          "text": "широко открыть глаза",
+          "start_ms": 70329,
+          "end_ms": 72199
+        }
+      ]
+    },
+    {
+      "id": 114,
+      "kind": "vocabulary",
+      "start_ms": 74699,
+      "end_ms": 86295,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "är sex år",
+        "start_ms": 74699,
+        "end_ms": 75943
+      },
+      "target_playbacks": [
+        {
+          "text": "ему шесть лет",
+          "start_ms": 77943,
+          "end_ms": 79619
+        },
+        {
+          "text": "ему шесть лет",
+          "start_ms": 82119,
+          "end_ms": 83795
+        }
+      ]
+    },
+    {
+      "id": 115,
+      "kind": "vocabulary",
+      "start_ms": 86295,
+      "end_ms": 96452,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "tillsammans",
+        "start_ms": 86295,
+        "end_ms": 87566
+      },
+      "target_playbacks": [
+        {
+          "text": "вместе",
+          "start_ms": 89566,
+          "end_ms": 90509
+        },
+        {
+          "text": "вместе",
+          "start_ms": 93009,
+          "end_ms": 93952
+        }
+      ]
+    },
+    {
+      "id": 122,
+      "kind": "vocabulary",
+      "start_ms": 96452,
+      "end_ms": 106709,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "dyka upp",
+        "start_ms": 96452,
+        "end_ms": 97511
+      },
+      "target_playbacks": [
+        {
+          "text": "появиться",
+          "start_ms": 99511,
+          "end_ms": 100610
+        },
+        {
+          "text": "появиться",
+          "start_ms": 103110,
+          "end_ms": 104209
+        }
+      ]
+    },
+    {
+      "id": 111,
+      "kind": "vocabulary",
+      "start_ms": 106709,
+      "end_ms": 116436,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "lördag",
+        "start_ms": 106709,
+        "end_ms": 107520
+      },
+      "target_playbacks": [
+        {
+          "text": "суббота",
+          "start_ms": 109520,
+          "end_ms": 110478
+        },
+        {
+          "text": "суббота",
+          "start_ms": 112978,
+          "end_ms": 113936
+        }
+      ]
+    },
+    {
+      "id": 211,
+      "kind": "vocabulary",
+      "start_ms": 116436,
+      "end_ms": 128921,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "gå på loppmarknad",
+        "start_ms": 116436,
+        "end_ms": 118041
+      },
+      "target_playbacks": [
+        {
+          "text": "идти на блошиный рынок",
+          "start_ms": 120041,
+          "end_ms": 121981
+        },
+        {
+          "text": "идти на блошиный рынок",
+          "start_ms": 124481,
+          "end_ms": 126421
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "kind": "vocabulary",
+      "start_ms": 128921,
+      "end_ms": 140191,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "loppmarknad",
+        "start_ms": 128921,
+        "end_ms": 130105
+      },
+      "target_playbacks": [
+        {
+          "text": "блошиный рынок",
+          "start_ms": 132105,
+          "end_ms": 133648
+        },
+        {
+          "text": "блошиный рынок",
+          "start_ms": 136148,
+          "end_ms": 137691
+        }
+      ]
+    },
+    {
+      "id": 200,
+      "kind": "vocabulary",
+      "start_ms": 140191,
+      "end_ms": 149255,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "när",
+        "start_ms": 140191,
+        "end_ms": 140835
+      },
+      "target_playbacks": [
+        {
+          "text": "когда",
+          "start_ms": 142835,
+          "end_ms": 143545
+        },
+        {
+          "text": "когда",
+          "start_ms": 146045,
+          "end_ms": 146755
+        }
+      ]
+    },
+    {
+      "id": 117,
+      "kind": "vocabulary",
+      "start_ms": 149255,
+      "end_ms": 159841,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "ett gammalt bord",
+        "start_ms": 149255,
+        "end_ms": 150635
+      },
+      "target_playbacks": [
+        {
+          "text": "старый стол",
+          "start_ms": 152635,
+          "end_ms": 153738
+        },
+        {
+          "text": "старый стол",
+          "start_ms": 156238,
+          "end_ms": 157341
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "kind": "vocabulary",
+      "start_ms": 159841,
+      "end_ms": 171780,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "gyllene inskription",
+        "start_ms": 159841,
+        "end_ms": 161574
+      },
+      "target_playbacks": [
+        {
+          "text": "золотая надпись",
+          "start_ms": 163574,
+          "end_ms": 165177
+        },
+        {
+          "text": "золотая надпись",
+          "start_ms": 167677,
+          "end_ms": 169280
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "kind": "vocabulary",
+      "start_ms": 171780,
+      "end_ms": 182571,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "susa tyst",
+        "start_ms": 171780,
+        "end_ms": 173027
+      },
+      "target_playbacks": [
+        {
+          "text": "тихо шуметь",
+          "start_ms": 175027,
+          "end_ms": 176299
+        },
+        {
+          "text": "тихо шуметь",
+          "start_ms": 178799,
+          "end_ms": 180071
+        }
+      ]
+    },
+    {
+      "id": 119,
+      "kind": "vocabulary",
+      "start_ms": 182571,
+      "end_ms": 192349,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "på bordet",
+        "start_ms": 182571,
+        "end_ms": 183575
+      },
+      "target_playbacks": [
+        {
+          "text": "на столе",
+          "start_ms": 185575,
+          "end_ms": 186462
+        },
+        {
+          "text": "на столе",
+          "start_ms": 188962,
+          "end_ms": 189849
+        }
+      ]
+    },
+    {
+      "id": 120,
+      "kind": "vocabulary",
+      "start_ms": 192349,
+      "end_ms": 203331,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "komma närmare",
+        "start_ms": 192349,
+        "end_ms": 193589
+      },
+      "target_playbacks": [
+        {
+          "text": "подходить ближе",
+          "start_ms": 195589,
+          "end_ms": 196960
+        },
+        {
+          "text": "подходить ближе",
+          "start_ms": 199460,
+          "end_ms": 200831
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "kind": "vocabulary",
+      "start_ms": 203331,
+      "end_ms": 214731,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "gyllene rattar",
+        "start_ms": 203331,
+        "end_ms": 204665
+      },
+      "target_playbacks": [
+        {
+          "text": "золотые ручки",
+          "start_ms": 206665,
+          "end_ms": 208198
+        },
+        {
+          "text": "золотые ручки",
+          "start_ms": 210698,
+          "end_ms": 212231
+        }
+      ]
+    },
+    {
+      "id": 112,
+      "kind": "vocabulary",
+      "start_ms": 214731,
+      "end_ms": 226077,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "är nio år",
+        "start_ms": 214731,
+        "end_ms": 216113
+      },
+      "target_playbacks": [
+        {
+          "text": "ей девять лет",
+          "start_ms": 218113,
+          "end_ms": 219595
+        },
+        {
+          "text": "ей девять лет",
+          "start_ms": 222095,
+          "end_ms": 223577
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "kind": "vocabulary",
+      "start_ms": 226077,
+      "end_ms": 238341,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "färgade knappar",
+        "start_ms": 226077,
+        "end_ms": 227529
+      },
+      "target_playbacks": [
+        {
+          "text": "разноцветные кнопки",
+          "start_ms": 229529,
+          "end_ms": 231435
+        },
+        {
+          "text": "разноцветные кнопки",
+          "start_ms": 233935,
+          "end_ms": 235841
+        }
+      ]
+    },
+    {
+      "id": 113,
+      "kind": "vocabulary",
+      "start_ms": 238341,
+      "end_ms": 248696,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "hennes bror",
+        "start_ms": 238341,
+        "end_ms": 239474
+      },
+      "target_playbacks": [
+        {
+          "text": "её брат",
+          "start_ms": 241474,
+          "end_ms": 242585
+        },
+        {
+          "text": "её брат",
+          "start_ms": 245085,
+          "end_ms": 246196
+        }
+      ]
+    },
+    {
+      "id": 118,
+      "kind": "vocabulary",
+      "start_ms": 248696,
+      "end_ms": 260740,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "en radio av trä",
+        "start_ms": 248696,
+        "end_ms": 250332
+      },
+      "target_playbacks": [
+        {
+          "text": "деревянное радио",
+          "start_ms": 252332,
+          "end_ms": 254036
+        },
+        {
+          "text": "деревянное радио",
+          "start_ms": 256536,
+          "end_ms": 258240
+        }
+      ]
+    },
+    {
+      "id": 121,
+      "kind": "vocabulary",
+      "start_ms": 260740,
+      "end_ms": 270355,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "plötsligt",
+        "start_ms": 260740,
+        "end_ms": 261703
+      },
+      "target_playbacks": [
+        {
+          "text": "вдруг",
+          "start_ms": 263703,
+          "end_ms": 264529
+        },
+        {
+          "text": "вдруг",
+          "start_ms": 267029,
+          "end_ms": 267855
+        }
+      ]
+    },
+    {
+      "id": 116,
+      "kind": "vocabulary",
+      "start_ms": 270355,
+      "end_ms": 279802,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "i hörnet",
+        "start_ms": 270355,
+        "end_ms": 271380
+      },
+      "target_playbacks": [
+        {
+          "text": "в углу",
+          "start_ms": 273380,
+          "end_ms": 274091
+        },
+        {
+          "text": "в углу",
+          "start_ms": 276591,
+          "end_ms": 277302
+        }
+      ]
+    }
+  ],
+  "book_introduction": {
+    "text": "Волшебное радио.",
+    "start_ms": 1000,
+    "end_ms": 3712
+  },
+  "chapter_introduction": {
+    "text": "Глава первая. Старый стол.",
+    "start_ms": 6212,
+    "end_ms": 11012
+  },
+  "transitions": [
+    {
+      "kind": "chime",
+      "from": "story",
+      "to": "practice",
+      "start_ms": 49468,
+      "end_ms": 50088
+    },
+    {
+      "kind": "chime",
+      "from": "practice",
+      "to": "story",
+      "start_ms": 279802,
+      "end_ms": 280422
+    }
+  ],
+  "chapter_readings": [
+    {
+      "text": "Сегодня суббота. Маше девять лет, а её брату Мише — шесть. Вместе они идут на блошиный рынок. В углу стоит старый стол, а на столе — деревянное радио. У него золотые ручки и разноцветные кнопки. Когда Маша подходит ближе, радио вдруг тихо шумит. На радио появляется золотая надпись: «Для Маши и Миши». Дети широко открывают глаза.",
+      "start_ms": 13512,
+      "end_ms": 46968
+    },
+    {
+      "text": "Сегодня суббота. Маше девять лет, а её брату Мише — шесть. Вместе они идут на блошиный рынок. В углу стоит старый стол, а на столе — деревянное радио. У него золотые ручки и разноцветные кнопки. Когда Маша подходит ближе, радио вдруг тихо шумит. На радио появляется золотая надпись: «Для Маши и Миши». Дети широко открывают глаза.",
+      "start_ms": 282922,
+      "end_ms": 316378
+    }
+  ],
+  "chapter_reading": {
+    "text": "Сегодня суббота. Маше девять лет, а её брату Мише — шесть. Вместе они идут на блошиный рынок. В углу стоит старый стол, а на столе — деревянное радио. У него золотые ручки и разноцветные кнопки. Когда Маша подходит ближе, радио вдруг тихо шумит. На радио появляется золотая надпись: «Для Маши и Миши». Дети широко открывают глаза.",
+    "start_ms": 282922,
+    "end_ms": 316378
+  },
+  "narration": {
+    "engine": "azure",
+    "voice": "ru-RU-SvetlanaNeural",
+    "style": null,
+    "rate": "-12%",
+    "locale": "ru-RU",
+    "capabilities": {
+      "voice": "ru-RU-SvetlanaNeural",
+      "locale": "ru-RU",
+      "advertised_styles": []
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"ru-RU\"><voice name=\"ru-RU-SvetlanaNeural\"><prosody rate=\"-12%\"><p>Сегодня суббота. Маше девять лет, а её брату Мише — шесть. Вместе они идут на блошиный рынок. В углу стоит старый стол, а на столе — деревянное радио. У него золотые ручки и разноцветные кнопки. Когда Маша подходит ближе, радио вдруг тихо шумит. На радио появляется золотая надпись: «Для Маши и Миши». Дети широко открывают глаза.</p></prosody></voice></speak>"
+  },
+  "audio_file": "01_chapter_01_sv_ru_2026-10-29_13-41-06.mp3"
+}

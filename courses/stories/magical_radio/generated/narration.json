@@ -18,21 +18,13 @@
         "pause_after_ms": 350
       },
       {
-        "text": "Gdy Maja podchodzi bliżej, radio nagle cicho szumi:",
+        "text": "Gdy Maja podchodzi bliżej, radio nagle cicho szumi.",
         "intent": "Quieter, slower suspense; gently lower the pitch toward the reveal",
         "rate": "-18%",
         "pitch": "-2%",
         "volume": "-12%",
         "contour": "(0%,+0%) (65%,-2%) (100%,-4%)",
-        "pause_after_ms": 550
-      },
-      {
-        "text": "Dzyń!",
-        "intent": "Brief bright surprise, not a shout",
-        "rate": "-8%",
-        "pitch": "+8%",
-        "volume": "+5%",
-        "pause_after_ms": 400
+        "pause_after_ms": 600
       },
       {
         "text": "Na radiu pojawia się złoty napis:",

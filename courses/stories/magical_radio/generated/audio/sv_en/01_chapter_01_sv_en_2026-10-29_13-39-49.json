@@ -1,0 +1,601 @@
+{
+  "chapter_number": 1,
+  "title": {
+    "pl": "Stary stół",
+    "sv": "Det gamla bordet",
+    "en": "The Old Table",
+    "ru": "Старый стол"
+  },
+  "source_language": "sv",
+  "target_language": "en",
+  "practice_order": "deterministically_shuffled",
+  "sequence": [
+    "story",
+    "practice",
+    "story"
+  ],
+  "total_duration_ms": 298654,
+  "practice": [
+    {
+      "id": 210,
+      "kind": "vocabulary",
+      "start_ms": 47188,
+      "end_ms": 56359,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "stå",
+        "start_ms": 47188,
+        "end_ms": 47907
+      },
+      "target_playbacks": [
+        {
+          "text": "stand",
+          "start_ms": 49907,
+          "end_ms": 50633
+        },
+        {
+          "text": "stand",
+          "start_ms": 53133,
+          "end_ms": 53859
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "kind": "vocabulary",
+      "start_ms": 56359,
+      "end_ms": 68417,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "spärra upp ögonen",
+        "start_ms": 56359,
+        "end_ms": 58169
+      },
+      "target_playbacks": [
+        {
+          "text": "open one's eyes wide",
+          "start_ms": 60169,
+          "end_ms": 61793
+        },
+        {
+          "text": "open one's eyes wide",
+          "start_ms": 64293,
+          "end_ms": 65917
+        }
+      ]
+    },
+    {
+      "id": 114,
+      "kind": "vocabulary",
+      "start_ms": 68417,
+      "end_ms": 79361,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "är sex år",
+        "start_ms": 68417,
+        "end_ms": 69661
+      },
+      "target_playbacks": [
+        {
+          "text": "is six years old",
+          "start_ms": 71661,
+          "end_ms": 73011
+        },
+        {
+          "text": "is six years old",
+          "start_ms": 75511,
+          "end_ms": 76861
+        }
+      ]
+    },
+    {
+      "id": 115,
+      "kind": "vocabulary",
+      "start_ms": 79361,
+      "end_ms": 89024,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "tillsammans",
+        "start_ms": 79361,
+        "end_ms": 80632
+      },
+      "target_playbacks": [
+        {
+          "text": "together",
+          "start_ms": 82632,
+          "end_ms": 83328
+        },
+        {
+          "text": "together",
+          "start_ms": 85828,
+          "end_ms": 86524
+        }
+      ]
+    },
+    {
+      "id": 122,
+      "kind": "vocabulary",
+      "start_ms": 89024,
+      "end_ms": 98407,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "dyka upp",
+        "start_ms": 89024,
+        "end_ms": 90083
+      },
+      "target_playbacks": [
+        {
+          "text": "appear",
+          "start_ms": 92083,
+          "end_ms": 92745
+        },
+        {
+          "text": "appear",
+          "start_ms": 95245,
+          "end_ms": 95907
+        }
+      ]
+    },
+    {
+      "id": 111,
+      "kind": "vocabulary",
+      "start_ms": 98407,
+      "end_ms": 107926,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "lördag",
+        "start_ms": 98407,
+        "end_ms": 99218
+      },
+      "target_playbacks": [
+        {
+          "text": "Saturday",
+          "start_ms": 101218,
+          "end_ms": 102072
+        },
+        {
+          "text": "Saturday",
+          "start_ms": 104572,
+          "end_ms": 105426
+        }
+      ]
+    },
+    {
+      "id": 211,
+      "kind": "vocabulary",
+      "start_ms": 107926,
+      "end_ms": 119535,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "gå på loppmarknad",
+        "start_ms": 107926,
+        "end_ms": 109531
+      },
+      "target_playbacks": [
+        {
+          "text": "go to a flea market",
+          "start_ms": 111531,
+          "end_ms": 113033
+        },
+        {
+          "text": "go to a flea market",
+          "start_ms": 115533,
+          "end_ms": 117035
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "kind": "vocabulary",
+      "start_ms": 119535,
+      "end_ms": 129913,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "loppmarknad",
+        "start_ms": 119535,
+        "end_ms": 120719
+      },
+      "target_playbacks": [
+        {
+          "text": "flea market",
+          "start_ms": 122719,
+          "end_ms": 123816
+        },
+        {
+          "text": "flea market",
+          "start_ms": 126316,
+          "end_ms": 127413
+        }
+      ]
+    },
+    {
+      "id": 200,
+      "kind": "vocabulary",
+      "start_ms": 129913,
+      "end_ms": 138535,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "när",
+        "start_ms": 129913,
+        "end_ms": 130557
+      },
+      "target_playbacks": [
+        {
+          "text": "when",
+          "start_ms": 132557,
+          "end_ms": 133046
+        },
+        {
+          "text": "when",
+          "start_ms": 135546,
+          "end_ms": 136035
+        }
+      ]
+    },
+    {
+      "id": 117,
+      "kind": "vocabulary",
+      "start_ms": 138535,
+      "end_ms": 149067,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "ett gammalt bord",
+        "start_ms": 138535,
+        "end_ms": 139915
+      },
+      "target_playbacks": [
+        {
+          "text": "an old table",
+          "start_ms": 141915,
+          "end_ms": 142991
+        },
+        {
+          "text": "an old table",
+          "start_ms": 145491,
+          "end_ms": 146567
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "kind": "vocabulary",
+      "start_ms": 149067,
+      "end_ms": 160748,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "gyllene inskription",
+        "start_ms": 149067,
+        "end_ms": 150800
+      },
+      "target_playbacks": [
+        {
+          "text": "golden inscription",
+          "start_ms": 152800,
+          "end_ms": 154274
+        },
+        {
+          "text": "golden inscription",
+          "start_ms": 156774,
+          "end_ms": 158248
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "kind": "vocabulary",
+      "start_ms": 160748,
+      "end_ms": 171285,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "susa tyst",
+        "start_ms": 160748,
+        "end_ms": 161995
+      },
+      "target_playbacks": [
+        {
+          "text": "hum quietly",
+          "start_ms": 163995,
+          "end_ms": 165140
+        },
+        {
+          "text": "hum quietly",
+          "start_ms": 167640,
+          "end_ms": 168785
+        }
+      ]
+    },
+    {
+      "id": 119,
+      "kind": "vocabulary",
+      "start_ms": 171285,
+      "end_ms": 181151,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "på bordet",
+        "start_ms": 171285,
+        "end_ms": 172289
+      },
+      "target_playbacks": [
+        {
+          "text": "on the table",
+          "start_ms": 174289,
+          "end_ms": 175220
+        },
+        {
+          "text": "on the table",
+          "start_ms": 177720,
+          "end_ms": 178651
+        }
+      ]
+    },
+    {
+      "id": 120,
+      "kind": "vocabulary",
+      "start_ms": 181151,
+      "end_ms": 191357,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "komma närmare",
+        "start_ms": 181151,
+        "end_ms": 182391
+      },
+      "target_playbacks": [
+        {
+          "text": "come closer",
+          "start_ms": 184391,
+          "end_ms": 185374
+        },
+        {
+          "text": "come closer",
+          "start_ms": 187874,
+          "end_ms": 188857
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "kind": "vocabulary",
+      "start_ms": 191357,
+      "end_ms": 201734,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "gyllene rattar",
+        "start_ms": 191357,
+        "end_ms": 192690
+      },
+      "target_playbacks": [
+        {
+          "text": "gold knobs",
+          "start_ms": 194690,
+          "end_ms": 195712
+        },
+        {
+          "text": "gold knobs",
+          "start_ms": 198212,
+          "end_ms": 199234
+        }
+      ]
+    },
+    {
+      "id": 112,
+      "kind": "vocabulary",
+      "start_ms": 201734,
+      "end_ms": 212774,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "är nio år",
+        "start_ms": 201734,
+        "end_ms": 203116
+      },
+      "target_playbacks": [
+        {
+          "text": "is nine years old",
+          "start_ms": 205116,
+          "end_ms": 206445
+        },
+        {
+          "text": "is nine years old",
+          "start_ms": 208945,
+          "end_ms": 210274
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "kind": "vocabulary",
+      "start_ms": 212774,
+      "end_ms": 223766,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "färgade knappar",
+        "start_ms": 212774,
+        "end_ms": 214226
+      },
+      "target_playbacks": [
+        {
+          "text": "colourful buttons",
+          "start_ms": 216226,
+          "end_ms": 217496
+        },
+        {
+          "text": "colourful buttons",
+          "start_ms": 219996,
+          "end_ms": 221266
+        }
+      ]
+    },
+    {
+      "id": 113,
+      "kind": "vocabulary",
+      "start_ms": 223766,
+      "end_ms": 233557,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "hennes bror",
+        "start_ms": 223766,
+        "end_ms": 224899
+      },
+      "target_playbacks": [
+        {
+          "text": "her brother",
+          "start_ms": 226899,
+          "end_ms": 227728
+        },
+        {
+          "text": "her brother",
+          "start_ms": 230228,
+          "end_ms": 231057
+        }
+      ]
+    },
+    {
+      "id": 118,
+      "kind": "vocabulary",
+      "start_ms": 233557,
+      "end_ms": 244636,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "en radio av trä",
+        "start_ms": 233557,
+        "end_ms": 235194
+      },
+      "target_playbacks": [
+        {
+          "text": "a wooden radio",
+          "start_ms": 237194,
+          "end_ms": 238415
+        },
+        {
+          "text": "a wooden radio",
+          "start_ms": 240915,
+          "end_ms": 242136
+        }
+      ]
+    },
+    {
+      "id": 121,
+      "kind": "vocabulary",
+      "start_ms": 244636,
+      "end_ms": 254209,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "plötsligt",
+        "start_ms": 244636,
+        "end_ms": 245599
+      },
+      "target_playbacks": [
+        {
+          "text": "suddenly",
+          "start_ms": 247599,
+          "end_ms": 248404
+        },
+        {
+          "text": "suddenly",
+          "start_ms": 250904,
+          "end_ms": 251709
+        }
+      ]
+    },
+    {
+      "id": 116,
+      "kind": "vocabulary",
+      "start_ms": 254209,
+      "end_ms": 263998,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "i hörnet",
+        "start_ms": 254209,
+        "end_ms": 255234
+      },
+      "target_playbacks": [
+        {
+          "text": "in the corner",
+          "start_ms": 257234,
+          "end_ms": 258116
+        },
+        {
+          "text": "in the corner",
+          "start_ms": 260616,
+          "end_ms": 261498
+        }
+      ]
+    }
+  ],
+  "book_introduction": {
+    "text": "The Magical Radio.",
+    "start_ms": 1000,
+    "end_ms": 2896
+  },
+  "chapter_introduction": {
+    "text": "Chapter one. The Old Table.",
+    "start_ms": 5396,
+    "end_ms": 7532
+  },
+  "transitions": [
+    {
+      "kind": "chime",
+      "from": "story",
+      "to": "practice",
+      "start_ms": 44068,
+      "end_ms": 44688
+    },
+    {
+      "kind": "chime",
+      "from": "practice",
+      "to": "story",
+      "start_ms": 263998,
+      "end_ms": 264618
+    }
+  ],
+  "chapter_readings": [
+    {
+      "text": "It is Saturday. Maya is nine years old, and her brother Tom is six. Together they go to a flea market. In the corner stands an old table, and on the table there is a wooden radio. It has gold knobs and colourful buttons. When Maya comes closer, the radio suddenly hums quietly. A golden inscription appears on the radio: “For Maya and Tom.” The children open their eyes wide.",
+      "start_ms": 10032,
+      "end_ms": 41568
+    },
+    {
+      "text": "It is Saturday. Maya is nine years old, and her brother Tom is six. Together they go to a flea market. In the corner stands an old table, and on the table there is a wooden radio. It has gold knobs and colourful buttons. When Maya comes closer, the radio suddenly hums quietly. A golden inscription appears on the radio: “For Maya and Tom.” The children open their eyes wide.",
+      "start_ms": 267118,
+      "end_ms": 298654
+    }
+  ],
+  "chapter_reading": {
+    "text": "It is Saturday. Maya is nine years old, and her brother Tom is six. Together they go to a flea market. In the corner stands an old table, and on the table there is a wooden radio. It has gold knobs and colourful buttons. When Maya comes closer, the radio suddenly hums quietly. A golden inscription appears on the radio: “For Maya and Tom.” The children open their eyes wide.",
+    "start_ms": 267118,
+    "end_ms": 298654
+  },
+  "narration": {
+    "engine": "azure",
+    "voice": "en-US-Harper:MAI-Voice-2.1",
+    "style": "audiobook",
+    "rate": "-12%",
+    "locale": "en-US",
+    "capabilities": {
+      "voice": "en-US-Harper:MAI-Voice-2.1",
+      "locale": "en-US",
+      "advertised_styles": [
+        "agent",
+        "angry",
+        "audiobook",
+        "confused",
+        "customer_call_center",
+        "determined",
+        "educational",
+        "embarrassed",
+        "excited",
+        "happy",
+        "hopeful",
+        "joyful",
+        "narrator",
+        "regretful",
+        "relieved",
+        "sad",
+        "shouting",
+        "softvoice",
+        "whispering"
+      ]
+    },
+    "ssml": "<speak xmlns:mstts=\"http://www.w3.org/2001/mstts\" version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"en-US\"><voice name=\"en-US-Harper:MAI-Voice-2.1\"><mstts:express-as style=\"audiobook\"><prosody rate=\"-12%\"><p>It is Saturday. Maya is nine years old, and her brother Tom is six. Together they go to a flea market. In the corner stands an old table, and on the table there is a wooden radio. It has gold knobs and colourful buttons. When Maya comes closer, the radio suddenly hums quietly. A golden inscription appears on the radio: “For Maya and Tom.” The children open their eyes wide.</p></prosody></mstts:express-as></voice></speak>"
+  },
+  "audio_file": "01_chapter_01_sv_en_2026-10-29_13-39-49.mp3"
+}

@@ -1,0 +1,453 @@
+{
+  "chapter_number": 6,
+  "title": {
+    "pl": "Pierwsze zaklęcie",
+    "sv": "Den första trollformeln",
+    "en": "The First Spell",
+    "ru": "Первое заклинание"
+  },
+  "source_language": "sv",
+  "target_language": "en",
+  "practice_order": "deterministically_shuffled",
+  "sequence": [
+    "story",
+    "practice",
+    "story"
+  ],
+  "total_duration_ms": 209151,
+  "practice": [
+    {
+      "id": 170,
+      "kind": "vocabulary",
+      "start_ms": 34920,
+      "end_ms": 44063,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "snurra",
+        "start_ms": 34920,
+        "end_ms": 35811
+      },
+      "target_playbacks": [
+        {
+          "text": "spin",
+          "start_ms": 37811,
+          "end_ms": 38437
+        },
+        {
+          "text": "spin",
+          "start_ms": 40937,
+          "end_ms": 41563
+        }
+      ]
+    },
+    {
+      "id": 175,
+      "kind": "vocabulary",
+      "start_ms": 44063,
+      "end_ms": 53492,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "någon",
+        "start_ms": 44063,
+        "end_ms": 45022
+      },
+      "target_playbacks": [
+        {
+          "text": "someone",
+          "start_ms": 47022,
+          "end_ms": 47757
+        },
+        {
+          "text": "someone",
+          "start_ms": 50257,
+          "end_ms": 50992
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "kind": "vocabulary",
+      "start_ms": 53492,
+      "end_ms": 64071,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "vänta på hjälp",
+        "start_ms": 53492,
+        "end_ms": 54897
+      },
+      "target_playbacks": [
+        {
+          "text": "wait for help",
+          "start_ms": 56897,
+          "end_ms": 57984
+        },
+        {
+          "text": "wait for help",
+          "start_ms": 60484,
+          "end_ms": 61571
+        }
+      ]
+    },
+    {
+      "id": 174,
+      "kind": "vocabulary",
+      "start_ms": 64071,
+      "end_ms": 74564,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "bakom dörren",
+        "start_ms": 64071,
+        "end_ms": 65360
+      },
+      "target_playbacks": [
+        {
+          "text": "behind the door",
+          "start_ms": 67360,
+          "end_ms": 68462
+        },
+        {
+          "text": "behind the door",
+          "start_ms": 70962,
+          "end_ms": 72064
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "kind": "vocabulary",
+      "start_ms": 74564,
+      "end_ms": 84428,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "grön dörr",
+        "start_ms": 74564,
+        "end_ms": 75714
+      },
+      "target_playbacks": [
+        {
+          "text": "green door",
+          "start_ms": 77714,
+          "end_ms": 78571
+        },
+        {
+          "text": "green door",
+          "start_ms": 81071,
+          "end_ms": 81928
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "kind": "vocabulary",
+      "start_ms": 84428,
+      "end_ms": 94642,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "kompassnål",
+        "start_ms": 84428,
+        "end_ms": 85522
+      },
+      "target_playbacks": [
+        {
+          "text": "compass needle",
+          "start_ms": 87522,
+          "end_ms": 88582
+        },
+        {
+          "text": "compass needle",
+          "start_ms": 91082,
+          "end_ms": 92142
+        }
+      ]
+    },
+    {
+      "id": 168,
+      "kind": "vocabulary",
+      "start_ms": 94642,
+      "end_ms": 103680,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "igen",
+        "start_ms": 94642,
+        "end_ms": 95438
+      },
+      "target_playbacks": [
+        {
+          "text": "again",
+          "start_ms": 97438,
+          "end_ms": 98059
+        },
+        {
+          "text": "again",
+          "start_ms": 100559,
+          "end_ms": 101180
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "kind": "vocabulary",
+      "start_ms": 103680,
+      "end_ms": 114419,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "gyllene gnista",
+        "start_ms": 103680,
+        "end_ms": 105081
+      },
+      "target_playbacks": [
+        {
+          "text": "golden spark",
+          "start_ms": 107081,
+          "end_ms": 108250
+        },
+        {
+          "text": "golden spark",
+          "start_ms": 110750,
+          "end_ms": 111919
+        }
+      ]
+    },
+    {
+      "id": 172,
+      "kind": "vocabulary",
+      "start_ms": 114419,
+      "end_ms": 123585,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "fungera",
+        "start_ms": 114419,
+        "end_ms": 115341
+      },
+      "target_playbacks": [
+        {
+          "text": "work",
+          "start_ms": 117341,
+          "end_ms": 117963
+        },
+        {
+          "text": "work",
+          "start_ms": 120463,
+          "end_ms": 121085
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "kind": "vocabulary",
+      "start_ms": 123585,
+      "end_ms": 134218,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "säga tillsammans",
+        "start_ms": 123585,
+        "end_ms": 125184
+      },
+      "target_playbacks": [
+        {
+          "text": "say together",
+          "start_ms": 127184,
+          "end_ms": 128201
+        },
+        {
+          "text": "say together",
+          "start_ms": 130701,
+          "end_ms": 131718
+        }
+      ]
+    },
+    {
+      "id": 171,
+      "kind": "vocabulary",
+      "start_ms": 134218,
+      "end_ms": 143173,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "peka",
+        "start_ms": 134218,
+        "end_ms": 134969
+      },
+      "target_playbacks": [
+        {
+          "text": "point",
+          "start_ms": 136969,
+          "end_ms": 137571
+        },
+        {
+          "text": "point",
+          "start_ms": 140071,
+          "end_ms": 140673
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "kind": "vocabulary",
+      "start_ms": 143173,
+      "end_ms": 154150,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "hålla i kompassen",
+        "start_ms": 143173,
+        "end_ms": 144748
+      },
+      "target_playbacks": [
+        {
+          "text": "hold the compass",
+          "start_ms": 146748,
+          "end_ms": 147949
+        },
+        {
+          "text": "hold the compass",
+          "start_ms": 150449,
+          "end_ms": 151650
+        }
+      ]
+    },
+    {
+      "id": 169,
+      "kind": "vocabulary",
+      "start_ms": 154150,
+      "end_ms": 163689,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "vara hel",
+        "start_ms": 154150,
+        "end_ms": 155291
+      },
+      "target_playbacks": [
+        {
+          "text": "be whole",
+          "start_ms": 157291,
+          "end_ms": 157990
+        },
+        {
+          "text": "be whole",
+          "start_ms": 160490,
+          "end_ms": 161189
+        }
+      ]
+    },
+    {
+      "id": 176,
+      "kind": "vocabulary",
+      "start_ms": 163689,
+      "end_ms": 173316,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "er hjälp",
+        "start_ms": 163689,
+        "end_ms": 164670
+      },
+      "target_playbacks": [
+        {
+          "text": "your help",
+          "start_ms": 166670,
+          "end_ms": 167493
+        },
+        {
+          "text": "your help",
+          "start_ms": 169993,
+          "end_ms": 170816
+        }
+      ]
+    },
+    {
+      "id": 173,
+      "kind": "vocabulary",
+      "start_ms": 173316,
+      "end_ms": 182416,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "ropa",
+        "start_ms": 173316,
+        "end_ms": 174132
+      },
+      "target_playbacks": [
+        {
+          "text": "shout",
+          "start_ms": 176132,
+          "end_ms": 176774
+        },
+        {
+          "text": "shout",
+          "start_ms": 179274,
+          "end_ms": 179916
+        }
+      ]
+    }
+  ],
+  "book_introduction": null,
+  "chapter_introduction": {
+    "text": "Chapter six. The First Spell.",
+    "start_ms": 1000,
+    "end_ms": 3184
+  },
+  "transitions": [
+    {
+      "kind": "chime",
+      "from": "story",
+      "to": "practice",
+      "start_ms": 31800,
+      "end_ms": 32420
+    },
+    {
+      "kind": "chime",
+      "from": "practice",
+      "to": "story",
+      "start_ms": 182416,
+      "end_ms": 183036
+    }
+  ],
+  "chapter_readings": [
+    {
+      "text": "Tom holds the compass. The children say together: “Reparo!” A golden spark flashes. The compass is whole again! The compass needle spins and points to a green door. “It works!” shouts Tom. Radiophone says: “Behind the door, someone is waiting for your help.”",
+      "start_ms": 5684,
+      "end_ms": 29300
+    },
+    {
+      "text": "Tom holds the compass. The children say together: “Reparo!” A golden spark flashes. The compass is whole again! The compass needle spins and points to a green door. “It works!” shouts Tom. Radiophone says: “Behind the door, someone is waiting for your help.”",
+      "start_ms": 185536,
+      "end_ms": 209151
+    }
+  ],
+  "chapter_reading": {
+    "text": "Tom holds the compass. The children say together: “Reparo!” A golden spark flashes. The compass is whole again! The compass needle spins and points to a green door. “It works!” shouts Tom. Radiophone says: “Behind the door, someone is waiting for your help.”",
+    "start_ms": 185536,
+    "end_ms": 209151
+  },
+  "narration": {
+    "engine": "azure",
+    "voice": "en-US-Harper:MAI-Voice-2.1",
+    "style": "audiobook",
+    "rate": "-12%",
+    "locale": "en-US",
+    "capabilities": {
+      "voice": "en-US-Harper:MAI-Voice-2.1",
+      "locale": "en-US",
+      "advertised_styles": [
+        "agent",
+        "angry",
+        "audiobook",
+        "confused",
+        "customer_call_center",
+        "determined",
+        "educational",
+        "embarrassed",
+        "excited",
+        "happy",
+        "hopeful",
+        "joyful",
+        "narrator",
+        "regretful",
+        "relieved",
+        "sad",
+        "shouting",
+        "softvoice",
+        "whispering"
+      ]
+    },
+    "ssml": "<speak xmlns:mstts=\"http://www.w3.org/2001/mstts\" version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"en-US\"><voice name=\"en-US-Harper:MAI-Voice-2.1\"><mstts:express-as style=\"audiobook\"><prosody rate=\"-12%\"><p>Tom holds the compass. The children say together: “Reparo!” A golden spark flashes. The compass is whole again! The compass needle spins and points to a green door. “It works!” shouts Tom. Radiophone says: “Behind the door, someone is waiting for your help.”</p></prosody></mstts:express-as></voice></speak>"
+  },
+  "audio_file": "06_chapter_06_sv_en_2026-10-29_13-39-49.mp3"
+}
