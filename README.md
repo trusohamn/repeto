@@ -22,10 +22,10 @@ you know the format, try another language: every course works the same way.
 
 | Course | Web page | RSS feed |
 | --- | --- | --- |
-| Polska för svensktalande | [page](https://trusohamn.github.io/repeto/swedish-polish/) | [feed](https://trusohamn.github.io/repeto/swedish-polish/feed.xml) |
-| Engelska för svensktalande | [page](https://trusohamn.github.io/repeto/swedish-english/) | [feed](https://trusohamn.github.io/repeto/swedish-english/feed.xml) |
-| Ryska för svensktalande | [page](https://trusohamn.github.io/repeto/swedish-russian/) | [feed](https://trusohamn.github.io/repeto/swedish-russian/feed.xml) |
-| Angielski dla polskojęzycznych | [page](https://trusohamn.github.io/repeto/polish-english/) | [feed](https://trusohamn.github.io/repeto/polish-english/feed.xml) |
+| Repeto – Lär dig polska | [page](https://trusohamn.github.io/repeto/swedish-polish/) | [feed](https://trusohamn.github.io/repeto/swedish-polish/feed.xml) |
+| Repeto – Lär dig engelska | [page](https://trusohamn.github.io/repeto/swedish-english/) | [feed](https://trusohamn.github.io/repeto/swedish-english/feed.xml) |
+| Repeto – Lär dig ryska | [page](https://trusohamn.github.io/repeto/swedish-russian/) | [feed](https://trusohamn.github.io/repeto/swedish-russian/feed.xml) |
+| Repeto – Ucz się angielskiego | [page](https://trusohamn.github.io/repeto/polish-english/) | [feed](https://trusohamn.github.io/repeto/polish-english/feed.xml) |
 
 New or updated packages become available at these URLs only after publishing
 to GitHub Pages.

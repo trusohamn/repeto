@@ -36,7 +36,10 @@ STORY = {
 
 class DescriptionTests(unittest.TestCase):
     def test_show_copy_explains_audience_and_usage(self):
-        self.assertEqual(descriptions.show_title("pl"), "Repeto – Polska för svensktalande")
+        self.assertEqual(descriptions.show_title("pl"), "Repeto – Lär dig polska")
+        self.assertEqual(descriptions.show_title("en"), "Repeto – Lär dig engelska")
+        self.assertEqual(descriptions.show_title("ru"), "Repeto – Lär dig ryska")
+        self.assertEqual(descriptions.show_title("ru", source="pl"), "Repeto – Ucz się rosyjskiego")
         text = descriptions.show_description(
             "pl", 30, [descriptions.story_name({"sv": "Den magiska radion", "pl": "Magiczne Radio"}, "pl")],
             "a@b.se",
@@ -60,7 +63,7 @@ class DescriptionTests(unittest.TestCase):
     def test_polish_source_copy(self):
         self.assertEqual(
             descriptions.show_title("en", source="pl"),
-            "Repeto – Angielski dla polskojęzycznych",
+            "Repeto – Ucz się angielskiego",
         )
         text = descriptions.show_description(
             "en", 30,
@@ -146,7 +149,7 @@ class DescriptionTests(unittest.TestCase):
                 course, {"test_story": STORY}, ({"Greetings": ITEMS}, TITLES),
             )
 
-            self.assertEqual(catalog["title"], "Repeto – Polska för svensktalande")
+            self.assertEqual(catalog["title"], "Repeto – Lär dig polska")
             self.assertEqual(catalog["seasons"], {"1": "Övningar", "2": "Testberättelsen"})
             self.assertIn("1 kort ämne", catalog["description"])
             self.assertIn("”Testberättelsen” (Testowa historia)", catalog["description"])
@@ -181,7 +184,7 @@ class DescriptionTests(unittest.TestCase):
                 source="pl",
             )
 
-            self.assertEqual(catalog["title"], "Repeto – Angielski dla polskojęzycznych")
+            self.assertEqual(catalog["title"], "Repeto – Ucz się angielskiego")
             self.assertEqual(
                 catalog["seasons"], {"1": "Ćwiczenia", "2": "Magiczne radio"},
             )

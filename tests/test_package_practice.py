@@ -124,7 +124,7 @@ class PackagePracticeTests(unittest.TestCase):
 
             catalog = package_practice.package(args)
 
-            self.assertEqual(catalog["title"], "Repeto – Ryska för svensktalande")
+            self.assertEqual(catalog["title"], "Repeto – Lär dig ryska")
             self.assertIn("nybörjare i alla åldrar", catalog["description"])
             self.assertIn("Säsong 1 – Övningar: 1 kort ämne", catalog["description"])
             self.assertEqual(catalog["target_language"], "ru")
