@@ -38,6 +38,13 @@ class RendererTests(unittest.TestCase):
         )
         self.assertEqual(len(topics), 30)
         self.assertGreater(sum(map(len, topics.values())), 0)
+        recap = next(
+            item for item in topics["Review and Recap"] if item["id"] == "phrase_000681"
+        )
+        self.assertEqual(recap["pl"], "Uczysz się nowego języka!")
+        self.assertEqual(recap["en"], "You are learning a new language!")
+        self.assertEqual(recap["se"], "Du lär dig ett nytt språk!")
+        self.assertEqual(recap["ru"], "Ты учишь новый язык!")
 
     def test_safe_numbered_filenames(self):
         self.assertEqual(

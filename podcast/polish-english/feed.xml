@@ -1,0 +1,868 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Repeto – Angielski dla polskojęzycznych</title>
+    <link>https://trusohamn.github.io/repeto/polish-english/</link>
+    <description>Ucz się angielskiego, słuchając i mówiąc – z polskim jako wsparciem. Repeto to kurs audio dla początkujących w każdym wieku: dzieci, rodziców, dziadków i wszystkich, którzy chcą zacząć naukę angielskiego. Nie potrzebujesz wcześniejszej wiedzy ani podręcznika.
+
+Jak to działa: słyszysz słowo lub zdanie po polsku, a potem masz chwilę, by powiedzieć je po angielsku. Następnie usłyszysz odpowiedź dwa razy i będziesz mieć czas, by powtórzyć wymowę.
+
+W kursie znajdziesz:
+• Sezon 1 – Ćwiczenia: 30 krótkich tematów, od powitań i liczb po jedzenie, emocje i codzienne sytuacje.
+• Sezon 2 – Opowieść „Magiczne Radio” (The Magical Radio): jeden rozdział w każdym odcinku. Najpierw słuchasz rozdziału po angielsku, ćwiczysz słownictwo, a potem słuchasz go ponownie.
+• Kolejne opowieści są w przygotowaniu – nowe odcinki będą dodawane regularnie. Obserwuj podcast, żeby ich nie przegapić.
+
+Jak korzystać z kursu:
+• Zacznij od sezonu 1, odcinka 1 i słuchaj po kolei.
+• Odpowiadaj na głos w przerwie – spróbuj samodzielnie przypomnieć sobie słowa.
+• Odtwórz odcinek ponownie, aż zdążysz odpowiedzieć przed głosem lektora.
+• Słuchanie w tle może pomóc oswoić się z brzmieniem i melodią języka. Ćwicz też aktywnie, powtarzając i odpowiadając w przerwach.
+
+Podoba Ci się ten format? Repeto jest dostępne także w innych językach – ten sam układ pozwoli Ci od razu poczuć się swobodnie. Wyszukaj „Repeto” w swojej aplikacji do podcastów.
+
+Napisz do nas! Sugestie dotyczące nowych języków, poprawki i pomysły na opowieści są mile widziane: repeto.lingo@gmail.com
+
+Głosy zostały wygenerowane przez AI (Microsoft Azure).</description>
+    <language>pl</language>
+    <itunes:author>Repeto</itunes:author>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:type>serial</itunes:type>
+    <itunes:owner>
+      <itunes:name>Repeto</itunes:name>
+      <itunes:email>repeto.lingo@gmail.com</itunes:email>
+    </itunes:owner>
+    <itunes:image href="https://trusohamn.github.io/repeto/polish-english/cover-c6a7269f.jpeg" />
+    <itunes:category text="Education">
+      <itunes:category text="Language Learning" />
+    </itunes:category>
+    <atom:link href="https://trusohamn.github.io/repeto/polish-english/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>01 Powitania — Greetings</title>
+      <description>Temat 1 z 30: Powitania (Greetings) – 36 zwrotów.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Cześć! → Hi!
+• Dzień dobry! → Good morning!
+• Dzień dobry! → Good afternoon!
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 1 z 30: Powitania (Greetings) – 36 zwrotów.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Cześć! → Hi!&lt;/li&gt;&lt;li&gt;Dzień dobry! → Good morning!&lt;/li&gt;&lt;li&gt;Dzień dobry! → Good afternoon!&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-english:topic-01</guid>
+      <pubDate>Thu, 29 Oct 2026 19:56:06 +0000</pubDate>
+      <itunes:episode>1</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>366</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-english/audio/practice/01_greetings_pl_en_double_2026-10-29_20-52-27.mp3" length="8780320" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>02 Liczby — Numbers</title>
+      <description>Temat 2 z 30: Liczby (Numbers) – 35 zwrotów.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Jeden → One
+• Dwa → Two
+• Trzy → Three
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 2 z 30: Liczby (Numbers) – 35 zwrotów.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Jeden → One&lt;/li&gt;&lt;li&gt;Dwa → Two&lt;/li&gt;&lt;li&gt;Trzy → Three&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-english:topic-02</guid>
+      <pubDate>Thu, 29 Oct 2026 19:56:06 +0000</pubDate>
+      <itunes:episode>2</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>342</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-english/audio/practice/02_numbers_pl_en_double_2026-10-29_20-52-27.mp3" length="8221091" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>03 Kolory — Colors</title>
+      <description>Temat 3 z 30: Kolory (Colors) – 29 zwrotów.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Czerwony → Red
+• Niebieski → Blue
+• Żółty → Yellow
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 3 z 30: Kolory (Colors) – 29 zwrotów.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Czerwony → Red&lt;/li&gt;&lt;li&gt;Niebieski → Blue&lt;/li&gt;&lt;li&gt;Żółty → Yellow&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-english:topic-03</guid>
+      <pubDate>Thu, 29 Oct 2026 19:56:06 +0000</pubDate>
+      <itunes:episode>3</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>304</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-english/audio/practice/03_colors_pl_en_double_2026-10-29_20-52-27.mp3" length="7309522" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>04 Zwierzęta — Animals</title>
+      <description>Temat 4 z 30: Zwierzęta (Animals) – 42 zwroty.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Pies → Dog
+• Kot → Cat
+• Ptak → Bird
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 4 z 30: Zwierzęta (Animals) – 42 zwroty.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Pies → Dog&lt;/li&gt;&lt;li&gt;Kot → Cat&lt;/li&gt;&lt;li&gt;Ptak → Bird&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-english:topic-04</guid>
+      <pubDate>Thu, 29 Oct 2026 19:56:06 +0000</pubDate>
+      <itunes:episode>4</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>412</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-english/audio/practice/04_animals_pl_en_double_2026-10-29_20-52-27.mp3" length="9878717" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>05 Rodzina — Family</title>
+      <description>Temat 5 z 30: Rodzina (Family) – 26 zwrotów.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Mama → Mum
+• Tata → Dad
+• Siostra → Sister
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 5 z 30: Rodzina (Family) – 26 zwrotów.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Mama → Mum&lt;/li&gt;&lt;li&gt;Tata → Dad&lt;/li&gt;&lt;li&gt;Siostra → Sister&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-english:topic-05</guid>
+      <pubDate>Thu, 29 Oct 2026 19:56:06 +0000</pubDate>
+      <itunes:episode>5</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>283</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-english/audio/practice/05_family_pl_en_double_2026-10-29_20-52-27.mp3" length="6799821" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>06 Jedzenie — Food</title>
+      <description>Temat 6 z 30: Jedzenie (Food) – 49 zwrotów.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Chleb → Bread
+• Mleko → Milk
+• Jajko → Egg
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 6 z 30: Jedzenie (Food) – 49 zwrotów.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Chleb → Bread&lt;/li&gt;&lt;li&gt;Mleko → Milk&lt;/li&gt;&lt;li&gt;Jajko → Egg&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-english:topic-06</guid>
+      <pubDate>Thu, 29 Oct 2026 19:56:06 +0000</pubDate>
+      <itunes:episode>6</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>490</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-english/audio/practice/06_food_pl_en_double_2026-10-29_20-52-27.mp3" length="11763922" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>07 Ciało — Body</title>
+      <description>Temat 7 z 30: Ciało (Body) – 37 zwrotów.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Głowa → Head
+• Włosy → Hair
+• Oko → Eye
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 7 z 30: Ciało (Body) – 37 zwrotów.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Głowa → Head&lt;/li&gt;&lt;li&gt;Włosy → Hair&lt;/li&gt;&lt;li&gt;Oko → Eye&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-english:topic-07</guid>
+      <pubDate>Thu, 29 Oct 2026 19:56:06 +0000</pubDate>
+      <itunes:episode>7</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>365</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-english/audio/practice/07_body_pl_en_double_2026-10-29_20-52-27.mp3" length="8753362" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>08 Ubrania — Clothing</title>
+      <description>Temat 8 z 30: Ubrania (Clothing) – 29 zwrotów.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Sweter → Jumper
+• Koszulka → T-shirt
+• Koszula → Shirt
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 8 z 30: Ubrania (Clothing) – 29 zwrotów.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Sweter → Jumper&lt;/li&gt;&lt;li&gt;Koszulka → T-shirt&lt;/li&gt;&lt;li&gt;Koszula → Shirt&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-english:topic-08</guid>
+      <pubDate>Thu, 29 Oct 2026 19:56:06 +0000</pubDate>
+      <itunes:episode>8</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>307</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-english/audio/practice/08_clothing_pl_en_double_2026-10-29_20-52-27.mp3" length="7364692" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>09 W domu — Home</title>
+      <description>Temat 9 z 30: W domu (Home) – 38 zwrotów.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Dom → House
+• Mieszkanie → Flat
+• Pokój → Room
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 9 z 30: W domu (Home) – 38 zwrotów.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Dom → House&lt;/li&gt;&lt;li&gt;Mieszkanie → Flat&lt;/li&gt;&lt;li&gt;Pokój → Room&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-english:topic-09</guid>
+      <pubDate>Thu, 29 Oct 2026 19:56:06 +0000</pubDate>
+      <itunes:episode>9</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>381</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-english/audio/practice/09_home_pl_en_double_2026-10-29_20-52-27.mp3" length="9147079" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>10 Szkoła — School</title>
+      <description>Temat 10 z 30: Szkoła (School) – 41 zwrotów.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Szkoła → School
+• Klasa → Classroom
+• Nauczyciel → Teacher
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 10 z 30: Szkoła (School) – 41 zwrotów.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Szkoła → School&lt;/li&gt;&lt;li&gt;Klasa → Classroom&lt;/li&gt;&lt;li&gt;Nauczyciel → Teacher&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-english:topic-10</guid>
+      <pubDate>Thu, 29 Oct 2026 19:56:06 +0000</pubDate>
+      <itunes:episode>10</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>429</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-english/audio/practice/10_school_pl_en_double_2026-10-29_20-52-27.mp3" length="10301274" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>11 Pogoda — Weather</title>
+      <description>Temat 11 z 30: Pogoda (Weather) – 25 zwrotów.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Pogoda → Weather
+• Słońce → Sun
+• Deszcz → Rain
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 11 z 30: Pogoda (Weather) – 25 zwrotów.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Pogoda → Weather&lt;/li&gt;&lt;li&gt;Słońce → Sun&lt;/li&gt;&lt;li&gt;Deszcz → Rain&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-english:topic-11</guid>
+      <pubDate>Thu, 29 Oct 2026 19:56:06 +0000</pubDate>
+      <itunes:episode>11</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>253</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-english/audio/practice/11_weather_pl_en_double_2026-10-29_20-52-27.mp3" length="6081349" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>12 Pory roku — Seasons</title>
+      <description>Temat 12 z 30: Pory roku (Seasons) – 18 zwrotów.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Wiosna → Spring
+• Lato → Summer
+• Jesień → Autumn
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 12 z 30: Pory roku (Seasons) – 18 zwrotów.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Wiosna → Spring&lt;/li&gt;&lt;li&gt;Lato → Summer&lt;/li&gt;&lt;li&gt;Jesień → Autumn&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-english:topic-12</guid>
+      <pubDate>Thu, 29 Oct 2026 19:56:06 +0000</pubDate>
+      <itunes:episode>12</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>201</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-english/audio/practice/12_seasons_pl_en_double_2026-10-29_20-52-27.mp3" length="4816813" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>13 Dni i czas — Days and Time</title>
+      <description>Temat 13 z 30: Dni i czas (Days and Time) – 29 zwrotów.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Poniedziałek → Monday
+• Wtorek → Tuesday
+• Środa → Wednesday
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 13 z 30: Dni i czas (Days and Time) – 29 zwrotów.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Poniedziałek → Monday&lt;/li&gt;&lt;li&gt;Wtorek → Tuesday&lt;/li&gt;&lt;li&gt;Środa → Wednesday&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-english:topic-13</guid>
+      <pubDate>Thu, 29 Oct 2026 19:56:06 +0000</pubDate>
+      <itunes:episode>13</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>306</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-english/audio/practice/13_days_and_time_pl_en_double_2026-10-29_20-52-27.mp3" length="7354661" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>14 Zabawki i zabawa — Toys and Play</title>
+      <description>Temat 14 z 30: Zabawki i zabawa (Toys and Play) – 34 zwroty.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Zabawka → Toy
+• Piłka → Ball
+• Lalka → Doll
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 14 z 30: Zabawki i zabawa (Toys and Play) – 34 zwroty.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Zabawka → Toy&lt;/li&gt;&lt;li&gt;Piłka → Ball&lt;/li&gt;&lt;li&gt;Lalka → Doll&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-english:topic-14</guid>
+      <pubDate>Thu, 29 Oct 2026 19:56:06 +0000</pubDate>
+      <itunes:episode>14</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>357</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-english/audio/practice/14_toys_and_play_pl_en_double_2026-10-29_20-52-27.mp3" length="8565280" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>15 Sport i zajęcia — Sports and Activities</title>
+      <description>Temat 15 z 30: Sport i zajęcia (Sports and Activities) – 25 zwrotów.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Piłka nożna → Football
+• Pływanie → Swimming
+• Jazda na rowerze → Cycling
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 15 z 30: Sport i zajęcia (Sports and Activities) – 25 zwrotów.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Piłka nożna → Football&lt;/li&gt;&lt;li&gt;Pływanie → Swimming&lt;/li&gt;&lt;li&gt;Jazda na rowerze → Cycling&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-english:topic-15</guid>
+      <pubDate>Thu, 29 Oct 2026 19:56:06 +0000</pubDate>
+      <itunes:episode>15</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>270</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-english/audio/practice/15_sports_and_activities_pl_en_double_2026-10-29_20-52-27.mp3" length="6486351" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>16 Chcę i potrzebuję — I want and I need</title>
+      <description>Temat 16 z 30: Chcę i potrzebuję (I want and I need) – 28 zwrotów.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Chcę wyjść na dwór. → I want to go outside.
+• Chcę piłkę. → I want a ball.
+• Chcę jeść. → I want to eat.
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 16 z 30: Chcę i potrzebuję (I want and I need) – 28 zwrotów.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Chcę wyjść na dwór. → I want to go outside.&lt;/li&gt;&lt;li&gt;Chcę piłkę. → I want a ball.&lt;/li&gt;&lt;li&gt;Chcę jeść. → I want to eat.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-english:topic-16</guid>
+      <pubDate>Thu, 29 Oct 2026 19:56:06 +0000</pubDate>
+      <itunes:episode>16</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>316</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-english/audio/practice/16_i_want_i_need_pl_en_double_2026-10-29_20-52-27.mp3" length="7584121" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>17 Gdzie jest? — Where is it?</title>
+      <description>Temat 17 z 30: Gdzie jest? (Where is it?) – 28 zwrotów.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Gdzie jest miś? → Where is the teddy bear?
+• Gdzie jest mój telefon? → Where is my phone?
+• Gdzie jest moja torba? → Where is my bag?
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 17 z 30: Gdzie jest? (Where is it?) – 28 zwrotów.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Gdzie jest miś? → Where is the teddy bear?&lt;/li&gt;&lt;li&gt;Gdzie jest mój telefon? → Where is my phone?&lt;/li&gt;&lt;li&gt;Gdzie jest moja torba? → Where is my bag?&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-english:topic-17</guid>
+      <pubDate>Thu, 29 Oct 2026 19:56:06 +0000</pubDate>
+      <itunes:episode>17</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>311</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-english/audio/practice/17_where_is_pl_en_double_2026-10-29_20-52-27.mp3" length="7469391" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>18 Uczucia i emocje — Feelings and Emotions</title>
+      <description>Temat 18 z 30: Uczucia i emocje (Feelings and Emotions) – 28 zwrotów.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Wesoły → Happy
+• Smutny → Sad
+• Zły → Angry
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 18 z 30: Uczucia i emocje (Feelings and Emotions) – 28 zwrotów.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Wesoły → Happy&lt;/li&gt;&lt;li&gt;Smutny → Sad&lt;/li&gt;&lt;li&gt;Zły → Angry&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-english:topic-18</guid>
+      <pubDate>Thu, 29 Oct 2026 19:56:06 +0000</pubDate>
+      <itunes:episode>18</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>298</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-english/audio/practice/18_feelings_and_emotions_pl_en_double_2026-10-29_20-52-27.mp3" length="7159056" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>19 Środki transportu — Transport</title>
+      <description>Temat 19 z 30: Środki transportu (Transport) – 25 zwrotów.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Samochód → Car
+• Autobus → Bus
+• Pociąg → Train
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 19 z 30: Środki transportu (Transport) – 25 zwrotów.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Samochód → Car&lt;/li&gt;&lt;li&gt;Autobus → Bus&lt;/li&gt;&lt;li&gt;Pociąg → Train&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-english:topic-19</guid>
+      <pubDate>Thu, 29 Oct 2026 19:56:06 +0000</pubDate>
+      <itunes:episode>19</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>267</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-english/audio/practice/19_transport_pl_en_double_2026-10-29_20-52-27.mp3" length="6397953" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>20 Przyroda — Nature</title>
+      <description>Temat 20 z 30: Przyroda (Nature) – 27 zwrotów.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Las → Forest
+• Morze → Sea
+• Jezioro → Lake
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 20 z 30: Przyroda (Nature) – 27 zwrotów.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Las → Forest&lt;/li&gt;&lt;li&gt;Morze → Sea&lt;/li&gt;&lt;li&gt;Jezioro → Lake&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-english:topic-20</guid>
+      <pubDate>Thu, 29 Oct 2026 19:56:06 +0000</pubDate>
+      <itunes:episode>20</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>273</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-english/audio/practice/20_nature_pl_en_double_2026-10-29_20-52-27.mp3" length="6557822" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>21 Święta i uroczystości — Holidays and Celebrations</title>
+      <description>Temat 21 z 30: Święta i uroczystości (Holidays and Celebrations) – 23 zwroty.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Urodziny → Birthday
+• Wszystkiego najlepszego z okazji urodzin! → Happy birthday!
+• Boże Narodzenie → Christmas
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 21 z 30: Święta i uroczystości (Holidays and Celebrations) – 23 zwroty.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Urodziny → Birthday&lt;/li&gt;&lt;li&gt;Wszystkiego najlepszego z okazji urodzin! → Happy birthday!&lt;/li&gt;&lt;li&gt;Boże Narodzenie → Christmas&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-english:topic-21</guid>
+      <pubDate>Thu, 29 Oct 2026 19:56:06 +0000</pubDate>
+      <itunes:episode>21</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>255</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-english/audio/practice/21_holidays_and_celebrations_pl_en_double_2026-10-29_20-52-27.mp3" length="6131504" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>22 Codzienne czynności — Daily Routine</title>
+      <description>Temat 22 z 30: Codzienne czynności (Daily Routine) – 28 zwrotów.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Budzić się → Wake up
+• Wstawać → Get up
+• Myć zęby → Brush your teeth
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 22 z 30: Codzienne czynności (Daily Routine) – 28 zwrotów.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Budzić się → Wake up&lt;/li&gt;&lt;li&gt;Wstawać → Get up&lt;/li&gt;&lt;li&gt;Myć zęby → Brush your teeth&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-english:topic-22</guid>
+      <pubDate>Thu, 29 Oct 2026 19:56:06 +0000</pubDate>
+      <itunes:episode>22</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>315</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-english/audio/practice/22_daily_routine_pl_en_double_2026-10-29_20-52-27.mp3" length="7557790" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>23 Pytania i prośby — Asking and Requests</title>
+      <description>Temat 23 z 30: Pytania i prośby (Asking and Requests) – 26 zwrotów.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Czy możesz mi pomóc? → Can you help me?
+• Pomocy! → Help!
+• Proszę! → Please!
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 23 z 30: Pytania i prośby (Asking and Requests) – 26 zwrotów.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Czy możesz mi pomóc? → Can you help me?&lt;/li&gt;&lt;li&gt;Pomocy! → Help!&lt;/li&gt;&lt;li&gt;Proszę! → Please!&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-english:topic-23</guid>
+      <pubDate>Thu, 29 Oct 2026 19:56:06 +0000</pubDate>
+      <itunes:episode>23</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>268</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-english/audio/practice/23_asking_and_requests_pl_en_double_2026-10-29_20-52-27.mp3" length="6424284" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>24 Przeciwieństwa — Opposites</title>
+      <description>Temat 24 z 30: Przeciwieństwa (Opposites) – 28 zwrotów.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Duży → Big
+• Mały → Small
+• Długi → Long
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 24 z 30: Przeciwieństwa (Opposites) – 28 zwrotów.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Duży → Big&lt;/li&gt;&lt;li&gt;Mały → Small&lt;/li&gt;&lt;li&gt;Długi → Long&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-english:topic-24</guid>
+      <pubDate>Thu, 29 Oct 2026 19:56:06 +0000</pubDate>
+      <itunes:episode>24</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>279</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-english/audio/practice/24_opposites_pl_en_double_2026-10-29_20-52-27.mp3" length="6699510" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>25 Czynności i czasowniki — Actions and Verbs</title>
+      <description>Temat 25 z 30: Czynności i czasowniki (Actions and Verbs) – 41 zwrotów.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Iść → Walk
+• Biegać → Run
+• Skakać → Jump
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 25 z 30: Czynności i czasowniki (Actions and Verbs) – 41 zwrotów.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Iść → Walk&lt;/li&gt;&lt;li&gt;Biegać → Run&lt;/li&gt;&lt;li&gt;Skakać → Jump&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-english:topic-25</guid>
+      <pubDate>Thu, 29 Oct 2026 19:56:06 +0000</pubDate>
+      <itunes:episode>25</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>408</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-english/audio/practice/25_actions_and_verbs_pl_en_double_2026-10-29_20-52-27.mp3" length="9792826" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>26 Miejsca w mieście — Places in Town</title>
+      <description>Temat 26 z 30: Miejsca w mieście (Places in Town) – 23 zwroty.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Park → Park
+• Plac zabaw → Playground
+• Sklep → Shop
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 26 z 30: Miejsca w mieście (Places in Town) – 23 zwroty.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Park → Park&lt;/li&gt;&lt;li&gt;Plac zabaw → Playground&lt;/li&gt;&lt;li&gt;Sklep → Shop&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-english:topic-26</guid>
+      <pubDate>Thu, 29 Oct 2026 19:56:06 +0000</pubDate>
+      <itunes:episode>26</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>250</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-english/audio/practice/26_places_in_town_pl_en_double_2026-10-29_20-52-27.mp3" length="6013012" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>27 Technologia — Technology</title>
+      <description>Temat 27 z 30: Technologia (Technology) – 22 zwroty.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Telefon → Phone
+• Telefon komórkowy → Mobile phone
+• Komputer → Computer
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 27 z 30: Technologia (Technology) – 22 zwroty.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Telefon → Phone&lt;/li&gt;&lt;li&gt;Telefon komórkowy → Mobile phone&lt;/li&gt;&lt;li&gt;Komputer → Computer&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-english:topic-27</guid>
+      <pubDate>Thu, 29 Oct 2026 19:56:06 +0000</pubDate>
+      <itunes:episode>27</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>240</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-english/audio/practice/27_technology_pl_en_double_2026-10-29_20-52-27.mp3" length="5760356" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>28 Muzyka i sztuka — Music and Art</title>
+      <description>Temat 28 z 30: Muzyka i sztuka (Music and Art) – 23 zwroty.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Muzyka → Music
+• Piosenka → Song
+• Taniec → Dancing
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 28 z 30: Muzyka i sztuka (Music and Art) – 23 zwroty.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Muzyka → Music&lt;/li&gt;&lt;li&gt;Piosenka → Song&lt;/li&gt;&lt;li&gt;Taniec → Dancing&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-english:topic-28</guid>
+      <pubDate>Thu, 29 Oct 2026 19:56:06 +0000</pubDate>
+      <itunes:episode>28</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>242</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-english/audio/practice/28_music_and_art_pl_en_double_2026-10-29_20-52-27.mp3" length="5815527" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>29 Zwroty grzecznościowe — Polite Phrases</title>
+      <description>Temat 29 z 30: Zwroty grzecznościowe (Polite Phrases) – 17 zwrotów.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Proszę. → Please.
+• Dziękuję! → Thank you!
+• Bardzo dziękuję! → Thank you very much!
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 29 z 30: Zwroty grzecznościowe (Polite Phrases) – 17 zwrotów.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Proszę. → Please.&lt;/li&gt;&lt;li&gt;Dziękuję! → Thank you!&lt;/li&gt;&lt;li&gt;Bardzo dziękuję! → Thank you very much!&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-english:topic-29</guid>
+      <pubDate>Thu, 29 Oct 2026 19:56:06 +0000</pubDate>
+      <itunes:episode>29</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>173</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-english/audio/practice/29_polite_phrases_pl_en_double_2026-10-29_20-52-27.mp3" length="4164797" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>30 Powtórka — Review and Recap</title>
+      <description>Temat 30 z 30: Powtórka (Review and Recap) – 11 zwrotów.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Dobra robota! → Well done!
+• Uczysz się nowego języka! → You are learning a new language!
+• Ćwiczmy! → Let's practise!
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 30 z 30: Powtórka (Review and Recap) – 11 zwrotów.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Dobra robota! → Well done!&lt;/li&gt;&lt;li&gt;Uczysz się nowego języka! → You are learning a new language!&lt;/li&gt;&lt;li&gt;Ćwiczmy! → Let&amp;#x27;s practise!&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-english:topic-30</guid>
+      <pubDate>Thu, 29 Oct 2026 19:56:06 +0000</pubDate>
+      <itunes:episode>30</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>123</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-english/audio/practice/30_review_and_recap_pl_en_double_2026-10-29_21-04-45.mp3" length="2959821" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>01 Magiczne Radio: Stary stół — The Old Table</title>
+      <description>Rozdział 1 z 8 opowieści „Magiczne Radio” (The Magical Radio). Rodzeństwo znajduje stare drewniane radio na pchlim targu. Radio nagle szumi, a złoty napis zdradza, że czekało właśnie na nich.
+
+Jak wygląda odcinek:
+1. Posłuchaj całego rozdziału po angielsku – nie musisz rozumieć wszystkiego.
+2. Poćwicz słowa i wyrażenia z rozdziału: podpowiedź po polsku, przerwa, odpowiedź po angielsku.
+3. Posłuchaj rozdziału ponownie i sprawdź, ile udało Ci się zrozumieć.
+
+Między częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynając od rozdziału 1.</description>
+      <content:encoded>&lt;p&gt;Rozdział 1 z 8 opowieści „Magiczne Radio” (The Magical Radio). Rodzeństwo znajduje stare drewniane radio na pchlim targu. Radio nagle szumi, a złoty napis zdradza, że czekało właśnie na nich.&lt;/p&gt;&lt;p&gt;Jak wygląda odcinek:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Posłuchaj całego rozdziału po angielsku – nie musisz rozumieć wszystkiego.&lt;/li&gt;&lt;li&gt;Poćwicz słowa i wyrażenia z rozdziału: podpowiedź po polsku, przerwa, odpowiedź po angielsku.&lt;/li&gt;&lt;li&gt;Posłuchaj rozdziału ponownie i sprawdź, ile udało Ci się zrozumieć.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;Między częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynając od rozdziału 1.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">magical_radio:pl:en:chapter-01</guid>
+      <pubDate>Thu, 29 Oct 2026 19:56:56 +0000</pubDate>
+      <itunes:episode>1</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>295</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://trusohamn.github.io/repeto/polish-english/images/stories/magical_radio/cover-447076a6.jpeg" />
+      <enclosure url="https://trusohamn.github.io/repeto/polish-english/audio/stories/magical_radio/01_chapter_01_pl_en_2026-10-29_20-56-15.mp3" length="7078808" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>02 Magiczne Radio: Głos z radia — A Voice from the Radio</title>
+      <description>Rozdział 2 z 8 opowieści „Magiczne Radio” (The Magical Radio). W domu dzieci naciskają niebieski przycisk. Z radia wylatuje chmurka pachnąca cynamonem, a wesoły głos opowiada o myszy z ważnym kluczem.
+
+Jak wygląda odcinek:
+1. Posłuchaj całego rozdziału po angielsku – nie musisz rozumieć wszystkiego.
+2. Poćwicz słowa i wyrażenia z rozdziału: podpowiedź po polsku, przerwa, odpowiedź po angielsku.
+3. Posłuchaj rozdziału ponownie i sprawdź, ile udało Ci się zrozumieć.
+
+Między częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynając od rozdziału 1.</description>
+      <content:encoded>&lt;p&gt;Rozdział 2 z 8 opowieści „Magiczne Radio” (The Magical Radio). W domu dzieci naciskają niebieski przycisk. Z radia wylatuje chmurka pachnąca cynamonem, a wesoły głos opowiada o myszy z ważnym kluczem.&lt;/p&gt;&lt;p&gt;Jak wygląda odcinek:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Posłuchaj całego rozdziału po angielsku – nie musisz rozumieć wszystkiego.&lt;/li&gt;&lt;li&gt;Poćwicz słowa i wyrażenia z rozdziału: podpowiedź po polsku, przerwa, odpowiedź po angielsku.&lt;/li&gt;&lt;li&gt;Posłuchaj rozdziału ponownie i sprawdź, ile udało Ci się zrozumieć.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;Między częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynając od rozdziału 1.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">magical_radio:pl:en:chapter-02</guid>
+      <pubDate>Thu, 29 Oct 2026 19:56:56 +0000</pubDate>
+      <itunes:episode>2</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>265</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://trusohamn.github.io/repeto/polish-english/images/stories/magical_radio/cover-447076a6.jpeg" />
+      <enclosure url="https://trusohamn.github.io/repeto/polish-english/audio/stories/magical_radio/02_chapter_02_pl_en_2026-10-29_20-56-15.mp3" length="6368487" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>03 Magiczne Radio: Mysz pod drzewem — A Mouse under the Tree</title>
+      <description>Rozdział 3 z 8 opowieści „Magiczne Radio” (The Magical Radio). Z latarką, serem i radiem rodzeństwo rusza pod stare drzewo. Mała mysz zgadza się na wymianę, a między korzeniami kryją się tajemnicze drzwi.
+
+Jak wygląda odcinek:
+1. Posłuchaj całego rozdziału po angielsku – nie musisz rozumieć wszystkiego.
+2. Poćwicz słowa i wyrażenia z rozdziału: podpowiedź po polsku, przerwa, odpowiedź po angielsku.
+3. Posłuchaj rozdziału ponownie i sprawdź, ile udało Ci się zrozumieć.
+
+Między częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynając od rozdziału 1.</description>
+      <content:encoded>&lt;p&gt;Rozdział 3 z 8 opowieści „Magiczne Radio” (The Magical Radio). Z latarką, serem i radiem rodzeństwo rusza pod stare drzewo. Mała mysz zgadza się na wymianę, a między korzeniami kryją się tajemnicze drzwi.&lt;/p&gt;&lt;p&gt;Jak wygląda odcinek:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Posłuchaj całego rozdziału po angielsku – nie musisz rozumieć wszystkiego.&lt;/li&gt;&lt;li&gt;Poćwicz słowa i wyrażenia z rozdziału: podpowiedź po polsku, przerwa, odpowiedź po angielsku.&lt;/li&gt;&lt;li&gt;Posłuchaj rozdziału ponownie i sprawdź, ile udało Ci się zrozumieć.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;Między częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynając od rozdziału 1.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">magical_radio:pl:en:chapter-03</guid>
+      <pubDate>Thu, 29 Oct 2026 19:56:56 +0000</pubDate>
+      <itunes:episode>3</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>341</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://trusohamn.github.io/repeto/polish-english/images/stories/magical_radio/cover-447076a6.jpeg" />
+      <enclosure url="https://trusohamn.github.io/repeto/polish-english/audio/stories/magical_radio/03_chapter_03_pl_en_2026-10-29_20-56-15.mp3" length="8179086" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>04 Magiczne Radio: Schody w dół — Down the Stairs</title>
+      <description>Rozdział 4 z 8 opowieści „Magiczne Radio” (The Magical Radio). Srebrny klucz otwiera drzwi. Kamienne schody prowadzą do biblioteki pełnej latających książek, a na ścianach rosną świecące kwiaty.
+
+Jak wygląda odcinek:
+1. Posłuchaj całego rozdziału po angielsku – nie musisz rozumieć wszystkiego.
+2. Poćwicz słowa i wyrażenia z rozdziału: podpowiedź po polsku, przerwa, odpowiedź po angielsku.
+3. Posłuchaj rozdziału ponownie i sprawdź, ile udało Ci się zrozumieć.
+
+Między częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynając od rozdziału 1.</description>
+      <content:encoded>&lt;p&gt;Rozdział 4 z 8 opowieści „Magiczne Radio” (The Magical Radio). Srebrny klucz otwiera drzwi. Kamienne schody prowadzą do biblioteki pełnej latających książek, a na ścianach rosną świecące kwiaty.&lt;/p&gt;&lt;p&gt;Jak wygląda odcinek:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Posłuchaj całego rozdziału po angielsku – nie musisz rozumieć wszystkiego.&lt;/li&gt;&lt;li&gt;Poćwicz słowa i wyrażenia z rozdziału: podpowiedź po polsku, przerwa, odpowiedź po angielsku.&lt;/li&gt;&lt;li&gt;Posłuchaj rozdziału ponownie i sprawdź, ile udało Ci się zrozumieć.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;Między częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynając od rozdziału 1.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">magical_radio:pl:en:chapter-04</guid>
+      <pubDate>Thu, 29 Oct 2026 19:56:56 +0000</pubDate>
+      <itunes:episode>4</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>261</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://trusohamn.github.io/repeto/polish-english/images/stories/magical_radio/cover-447076a6.jpeg" />
+      <enclosure url="https://trusohamn.github.io/repeto/polish-english/audio/stories/magical_radio/04_chapter_04_pl_en_2026-10-29_21-10-20.mp3" length="6269430" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>05 Magiczne Radio: Latająca książka — The Flying Book</title>
+      <description>Rozdział 5 z 8 opowieści „Magiczne Radio” (The Magical Radio). Złota książka ląduje na ramieniu, a radio zdradza zaklęcie, które naprawia zepsute rzeczy.
+
+Jak wygląda odcinek:
+1. Posłuchaj całego rozdziału po angielsku – nie musisz rozumieć wszystkiego.
+2. Poćwicz słowa i wyrażenia z rozdziału: podpowiedź po polsku, przerwa, odpowiedź po angielsku.
+3. Posłuchaj rozdziału ponownie i sprawdź, ile udało Ci się zrozumieć.
+
+Między częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynając od rozdziału 1.</description>
+      <content:encoded>&lt;p&gt;Rozdział 5 z 8 opowieści „Magiczne Radio” (The Magical Radio). Złota książka ląduje na ramieniu, a radio zdradza zaklęcie, które naprawia zepsute rzeczy.&lt;/p&gt;&lt;p&gt;Jak wygląda odcinek:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Posłuchaj całego rozdziału po angielsku – nie musisz rozumieć wszystkiego.&lt;/li&gt;&lt;li&gt;Poćwicz słowa i wyrażenia z rozdziału: podpowiedź po polsku, przerwa, odpowiedź po angielsku.&lt;/li&gt;&lt;li&gt;Posłuchaj rozdziału ponownie i sprawdź, ile udało Ci się zrozumieć.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;Między częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynając od rozdziału 1.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">magical_radio:pl:en:chapter-05</guid>
+      <pubDate>Thu, 29 Oct 2026 19:56:56 +0000</pubDate>
+      <itunes:episode>5</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>262</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://trusohamn.github.io/repeto/polish-english/images/stories/magical_radio/cover-447076a6.jpeg" />
+      <enclosure url="https://trusohamn.github.io/repeto/polish-english/audio/stories/magical_radio/05_chapter_05_pl_en_2026-10-29_20-56-15.mp3" length="6288239" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>06 Magiczne Radio: Pierwsze zaklęcie — The First Spell</title>
+      <description>Rozdział 6 z 8 opowieści „Magiczne Radio” (The Magical Radio). Czas wypróbować zaklęcie na zepsutym kompasie. Czy zadziała? I kto czeka za zielonymi drzwiami?
+
+Jak wygląda odcinek:
+1. Posłuchaj całego rozdziału po angielsku – nie musisz rozumieć wszystkiego.
+2. Poćwicz słowa i wyrażenia z rozdziału: podpowiedź po polsku, przerwa, odpowiedź po angielsku.
+3. Posłuchaj rozdziału ponownie i sprawdź, ile udało Ci się zrozumieć.
+
+Między częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynając od rozdziału 1.</description>
+      <content:encoded>&lt;p&gt;Rozdział 6 z 8 opowieści „Magiczne Radio” (The Magical Radio). Czas wypróbować zaklęcie na zepsutym kompasie. Czy zadziała? I kto czeka za zielonymi drzwiami?&lt;/p&gt;&lt;p&gt;Jak wygląda odcinek:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Posłuchaj całego rozdziału po angielsku – nie musisz rozumieć wszystkiego.&lt;/li&gt;&lt;li&gt;Poćwicz słowa i wyrażenia z rozdziału: podpowiedź po polsku, przerwa, odpowiedź po angielsku.&lt;/li&gt;&lt;li&gt;Posłuchaj rozdziału ponownie i sprawdź, ile udało Ci się zrozumieć.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;Między częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynając od rozdziału 1.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">magical_radio:pl:en:chapter-06</guid>
+      <pubDate>Thu, 29 Oct 2026 19:56:56 +0000</pubDate>
+      <itunes:episode>6</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>208</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://trusohamn.github.io/repeto/polish-english/images/stories/magical_radio/cover-447076a6.jpeg" />
+      <enclosure url="https://trusohamn.github.io/repeto/polish-english/audio/stories/magical_radio/06_chapter_06_pl_en_2026-10-29_20-56-15.mp3" length="4984206" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>07 Magiczne Radio: Złoty ptak — The Golden Bird</title>
+      <description>Rozdział 7 z 8 opowieści „Magiczne Radio” (The Magical Radio). Za drzwiami jest podziemny ogród. Złoty ptak zamiast śpiewać tyka jak zegar. W jego skrzydle brakuje kamyka, a radio skrywa tajemnicę.
+
+Jak wygląda odcinek:
+1. Posłuchaj całego rozdziału po angielsku – nie musisz rozumieć wszystkiego.
+2. Poćwicz słowa i wyrażenia z rozdziału: podpowiedź po polsku, przerwa, odpowiedź po angielsku.
+3. Posłuchaj rozdziału ponownie i sprawdź, ile udało Ci się zrozumieć.
+
+Między częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynając od rozdziału 1.</description>
+      <content:encoded>&lt;p&gt;Rozdział 7 z 8 opowieści „Magiczne Radio” (The Magical Radio). Za drzwiami jest podziemny ogród. Złoty ptak zamiast śpiewać tyka jak zegar. W jego skrzydle brakuje kamyka, a radio skrywa tajemnicę.&lt;/p&gt;&lt;p&gt;Jak wygląda odcinek:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Posłuchaj całego rozdziału po angielsku – nie musisz rozumieć wszystkiego.&lt;/li&gt;&lt;li&gt;Poćwicz słowa i wyrażenia z rozdziału: podpowiedź po polsku, przerwa, odpowiedź po angielsku.&lt;/li&gt;&lt;li&gt;Posłuchaj rozdziału ponownie i sprawdź, ile udało Ci się zrozumieć.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;Między częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynając od rozdziału 1.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">magical_radio:pl:en:chapter-07</guid>
+      <pubDate>Thu, 29 Oct 2026 19:56:56 +0000</pubDate>
+      <itunes:episode>7</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>333</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://trusohamn.github.io/repeto/polish-english/images/stories/magical_radio/cover-447076a6.jpeg" />
+      <enclosure url="https://trusohamn.github.io/repeto/polish-english/audio/stories/magical_radio/07_chapter_07_pl_en_2026-10-29_20-56-15.mp3" length="7992885" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>08 Magiczne Radio: Wielki koncert — The Grand Concert</title>
+      <description>Rozdział 8 z 8 opowieści „Magiczne Radio” (The Magical Radio). Finał! Czy rodzeństwu uda się naprawić złotego ptaka? Opowieść kończy się śpiewem, tańczącymi motylami i zapowiedzią nowej przygody.
+
+Jak wygląda odcinek:
+1. Posłuchaj całego rozdziału po angielsku – nie musisz rozumieć wszystkiego.
+2. Poćwicz słowa i wyrażenia z rozdziału: podpowiedź po polsku, przerwa, odpowiedź po angielsku.
+3. Posłuchaj rozdziału ponownie i sprawdź, ile udało Ci się zrozumieć.
+
+Między częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynając od rozdziału 1.</description>
+      <content:encoded>&lt;p&gt;Rozdział 8 z 8 opowieści „Magiczne Radio” (The Magical Radio). Finał! Czy rodzeństwu uda się naprawić złotego ptaka? Opowieść kończy się śpiewem, tańczącymi motylami i zapowiedzią nowej przygody.&lt;/p&gt;&lt;p&gt;Jak wygląda odcinek:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Posłuchaj całego rozdziału po angielsku – nie musisz rozumieć wszystkiego.&lt;/li&gt;&lt;li&gt;Poćwicz słowa i wyrażenia z rozdziału: podpowiedź po polsku, przerwa, odpowiedź po angielsku.&lt;/li&gt;&lt;li&gt;Posłuchaj rozdziału ponownie i sprawdź, ile udało Ci się zrozumieć.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;Między częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynając od rozdziału 1.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">magical_radio:pl:en:chapter-08</guid>
+      <pubDate>Thu, 29 Oct 2026 19:56:56 +0000</pubDate>
+      <itunes:episode>8</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>218</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://trusohamn.github.io/repeto/polish-english/images/stories/magical_radio/cover-447076a6.jpeg" />
+      <enclosure url="https://trusohamn.github.io/repeto/polish-english/audio/stories/magical_radio/08_chapter_08_pl_en_2026-10-29_20-56-15.mp3" length="5238743" type="audio/mpeg" />
+    </item>
+  </channel>
+</rss>

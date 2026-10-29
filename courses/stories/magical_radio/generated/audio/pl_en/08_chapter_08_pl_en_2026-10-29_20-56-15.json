@@ -1,0 +1,453 @@
+{
+  "chapter_number": 8,
+  "title": {
+    "pl": "Wielki koncert",
+    "sv": "Den stora konserten",
+    "en": "The Grand Concert",
+    "ru": "Большой концерт"
+  },
+  "source_language": "pl",
+  "target_language": "en",
+  "practice_order": "deterministically_shuffled",
+  "sequence": [
+    "story",
+    "practice",
+    "story"
+  ],
+  "total_duration_ms": 218217,
+  "practice": [
+    {
+      "id": 244,
+      "kind": "vocabulary",
+      "start_ms": 36984,
+      "end_ms": 49963,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "wyjmować przycisk z radia",
+        "start_ms": 36984,
+        "end_ms": 38979
+      },
+      "target_playbacks": [
+        {
+          "text": "take the button out of the radio",
+          "start_ms": 40979,
+          "end_ms": 42971
+        },
+        {
+          "text": "take the button out of the radio",
+          "start_ms": 45471,
+          "end_ms": 47463
+        }
+      ]
+    },
+    {
+      "id": 189,
+      "kind": "vocabulary",
+      "start_ms": 49963,
+      "end_ms": 60788,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "wkładać w skrzydło",
+        "start_ms": 49963,
+        "end_ms": 51398
+      },
+      "target_playbacks": [
+        {
+          "text": "put into the wing",
+          "start_ms": 53398,
+          "end_ms": 54593
+        },
+        {
+          "text": "put into the wing",
+          "start_ms": 57093,
+          "end_ms": 58288
+        }
+      ]
+    },
+    {
+      "id": 101,
+      "kind": "vocabulary",
+      "start_ms": 60788,
+      "end_ms": 70511,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "dobra robota",
+        "start_ms": 60788,
+        "end_ms": 61983
+      },
+      "target_playbacks": [
+        {
+          "text": "good job",
+          "start_ms": 63983,
+          "end_ms": 64747
+        },
+        {
+          "text": "good job",
+          "start_ms": 67247,
+          "end_ms": 68011
+        }
+      ]
+    },
+    {
+      "id": 243,
+      "kind": "vocabulary",
+      "start_ms": 70511,
+      "end_ms": 79936,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "ostrożnie",
+        "start_ms": 70511,
+        "end_ms": 71444
+      },
+      "target_playbacks": [
+        {
+          "text": "carefully",
+          "start_ms": 73444,
+          "end_ms": 74190
+        },
+        {
+          "text": "carefully",
+          "start_ms": 76690,
+          "end_ms": 77436
+        }
+      ]
+    },
+    {
+      "id": 194,
+      "kind": "vocabulary",
+      "start_ms": 79936,
+      "end_ms": 89543,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "w powietrzu",
+        "start_ms": 79936,
+        "end_ms": 80863
+      },
+      "target_playbacks": [
+        {
+          "text": "in the air",
+          "start_ms": 82863,
+          "end_ms": 83703
+        },
+        {
+          "text": "in the air",
+          "start_ms": 86203,
+          "end_ms": 87043
+        }
+      ]
+    },
+    {
+      "id": 193,
+      "kind": "vocabulary",
+      "start_ms": 89543,
+      "end_ms": 99305,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "motyle",
+        "start_ms": 89543,
+        "end_ms": 90305
+      },
+      "target_playbacks": [
+        {
+          "text": "butterflies",
+          "start_ms": 92305,
+          "end_ms": 93305
+        },
+        {
+          "text": "butterflies",
+          "start_ms": 95805,
+          "end_ms": 96805
+        }
+      ]
+    },
+    {
+      "id": 191,
+      "kind": "vocabulary",
+      "start_ms": 99305,
+      "end_ms": 109913,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "zaczynać śpiewać",
+        "start_ms": 99305,
+        "end_ms": 100803
+      },
+      "target_playbacks": [
+        {
+          "text": "begin to sing",
+          "start_ms": 102803,
+          "end_ms": 103858
+        },
+        {
+          "text": "begin to sing",
+          "start_ms": 106358,
+          "end_ms": 107413
+        }
+      ]
+    },
+    {
+      "id": 190,
+      "kind": "vocabulary",
+      "start_ms": 109913,
+      "end_ms": 119199,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "wołać",
+        "start_ms": 109913,
+        "end_ms": 110647
+      },
+      "target_playbacks": [
+        {
+          "text": "call out",
+          "start_ms": 112647,
+          "end_ms": 113423
+        },
+        {
+          "text": "call out",
+          "start_ms": 115923,
+          "end_ms": 116699
+        }
+      ]
+    },
+    {
+      "id": 195,
+      "kind": "vocabulary",
+      "start_ms": 119199,
+      "end_ms": 128317,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "tańczyć",
+        "start_ms": 119199,
+        "end_ms": 119999
+      },
+      "target_playbacks": [
+        {
+          "text": "dance",
+          "start_ms": 121999,
+          "end_ms": 122658
+        },
+        {
+          "text": "dance",
+          "start_ms": 125158,
+          "end_ms": 125817
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "kind": "vocabulary",
+      "start_ms": 128317,
+      "end_ms": 139562,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "prawdziwi odkrywcy",
+        "start_ms": 128317,
+        "end_ms": 129816
+      },
+      "target_playbacks": [
+        {
+          "text": "real explorers",
+          "start_ms": 131816,
+          "end_ms": 133189
+        },
+        {
+          "text": "real explorers",
+          "start_ms": 135689,
+          "end_ms": 137062
+        }
+      ]
+    },
+    {
+      "id": 246,
+      "kind": "vocabulary",
+      "start_ms": 139562,
+      "end_ms": 150144,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "nowa przygoda",
+        "start_ms": 139562,
+        "end_ms": 140746
+      },
+      "target_playbacks": [
+        {
+          "text": "a new adventure",
+          "start_ms": 142746,
+          "end_ms": 143945
+        },
+        {
+          "text": "a new adventure",
+          "start_ms": 146445,
+          "end_ms": 147644
+        }
+      ]
+    },
+    {
+      "id": 192,
+      "kind": "vocabulary",
+      "start_ms": 150144,
+      "end_ms": 159323,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "wesoło",
+        "start_ms": 150144,
+        "end_ms": 150897
+      },
+      "target_playbacks": [
+        {
+          "text": "happily",
+          "start_ms": 152897,
+          "end_ms": 153610
+        },
+        {
+          "text": "happily",
+          "start_ms": 156110,
+          "end_ms": 156823
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "kind": "vocabulary",
+      "start_ms": 159323,
+      "end_ms": 170394,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "machać skrzydłami",
+        "start_ms": 159323,
+        "end_ms": 160892
+      },
+      "target_playbacks": [
+        {
+          "text": "flap its wings",
+          "start_ms": 162892,
+          "end_ms": 164143
+        },
+        {
+          "text": "flap its wings",
+          "start_ms": 166643,
+          "end_ms": 167894
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "kind": "vocabulary",
+      "start_ms": 170394,
+      "end_ms": 180939,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "wesoło śpiewać",
+        "start_ms": 170394,
+        "end_ms": 171705
+      },
+      "target_playbacks": [
+        {
+          "text": "sing happily",
+          "start_ms": 173705,
+          "end_ms": 174822
+        },
+        {
+          "text": "sing happily",
+          "start_ms": 177322,
+          "end_ms": 178439
+        }
+      ]
+    },
+    {
+      "id": 245,
+      "kind": "vocabulary",
+      "start_ms": 180939,
+      "end_ms": 190017,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "jutro",
+        "start_ms": 180939,
+        "end_ms": 181560
+      },
+      "target_playbacks": [
+        {
+          "text": "tomorrow",
+          "start_ms": 183560,
+          "end_ms": 184289
+        },
+        {
+          "text": "tomorrow",
+          "start_ms": 186789,
+          "end_ms": 187517
+        }
+      ]
+    }
+  ],
+  "book_introduction": null,
+  "chapter_introduction": {
+    "text": "Chapter eight. The Grand Concert.",
+    "start_ms": 1000,
+    "end_ms": 3784
+  },
+  "transitions": [
+    {
+      "kind": "chime",
+      "from": "story",
+      "to": "practice",
+      "start_ms": 33864,
+      "end_ms": 34484
+    },
+    {
+      "kind": "chime",
+      "from": "practice",
+      "to": "story",
+      "start_ms": 190017,
+      "end_ms": 190637
+    }
+  ],
+  "chapter_readings": [
+    {
+      "text": "Maya carefully takes the blue button out of the radio. Tom puts it into the bird’s wing. The children call out: “Reparo!” The golden bird flaps its wings and begins to sing happily. Butterflies dance in the air. “Good job!” says Radiophone. “You are real explorers. Tomorrow a new adventure is waiting for us!”",
+      "start_ms": 6284,
+      "end_ms": 31364
+    },
+    {
+      "text": "Maya carefully takes the blue button out of the radio. Tom puts it into the bird’s wing. The children call out: “Reparo!” The golden bird flaps its wings and begins to sing happily. Butterflies dance in the air. “Good job!” says Radiophone. “You are real explorers. Tomorrow a new adventure is waiting for us!”",
+      "start_ms": 193137,
+      "end_ms": 218217
+    }
+  ],
+  "chapter_reading": {
+    "text": "Maya carefully takes the blue button out of the radio. Tom puts it into the bird’s wing. The children call out: “Reparo!” The golden bird flaps its wings and begins to sing happily. Butterflies dance in the air. “Good job!” says Radiophone. “You are real explorers. Tomorrow a new adventure is waiting for us!”",
+    "start_ms": 193137,
+    "end_ms": 218217
+  },
+  "narration": {
+    "engine": "azure",
+    "voice": "en-US-Harper:MAI-Voice-2.1",
+    "style": "audiobook",
+    "rate": "-12%",
+    "locale": "en-US",
+    "capabilities": {
+      "voice": "en-US-Harper:MAI-Voice-2.1",
+      "locale": "en-US",
+      "advertised_styles": [
+        "agent",
+        "angry",
+        "audiobook",
+        "confused",
+        "customer_call_center",
+        "determined",
+        "educational",
+        "embarrassed",
+        "excited",
+        "happy",
+        "hopeful",
+        "joyful",
+        "narrator",
+        "regretful",
+        "relieved",
+        "sad",
+        "shouting",
+        "softvoice",
+        "whispering"
+      ]
+    },
+    "ssml": "<speak xmlns:mstts=\"http://www.w3.org/2001/mstts\" version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"en-US\"><voice name=\"en-US-Harper:MAI-Voice-2.1\"><mstts:express-as style=\"audiobook\"><prosody rate=\"-12%\"><p>Maya carefully takes the blue button out of the radio. Tom puts it into the bird’s wing. The children call out: “Reparo!” The golden bird flaps its wings and begins to sing happily. Butterflies dance in the air. “Good job!” says Radiophone. “You are real explorers. Tomorrow a new adventure is waiting for us!”</p></prosody></mstts:express-as></voice></speak>"
+  },
+  "audio_file": "08_chapter_08_pl_en_2026-10-29_20-56-15.mp3"
+}

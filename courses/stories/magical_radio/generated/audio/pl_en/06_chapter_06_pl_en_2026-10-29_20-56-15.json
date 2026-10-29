@@ -1,0 +1,453 @@
+{
+  "chapter_number": 6,
+  "title": {
+    "pl": "Pierwsze zaklęcie",
+    "sv": "Den första trollformeln",
+    "en": "The First Spell",
+    "ru": "Первое заклинание"
+  },
+  "source_language": "pl",
+  "target_language": "en",
+  "practice_order": "deterministically_shuffled",
+  "sequence": [
+    "story",
+    "practice",
+    "story"
+  ],
+  "total_duration_ms": 207599,
+  "practice": [
+    {
+      "id": 170,
+      "kind": "vocabulary",
+      "start_ms": 34920,
+      "end_ms": 44111,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "kręcić się",
+        "start_ms": 34920,
+        "end_ms": 35859
+      },
+      "target_playbacks": [
+        {
+          "text": "spin",
+          "start_ms": 37859,
+          "end_ms": 38485
+        },
+        {
+          "text": "spin",
+          "start_ms": 40985,
+          "end_ms": 41611
+        }
+      ]
+    },
+    {
+      "id": 175,
+      "kind": "vocabulary",
+      "start_ms": 44111,
+      "end_ms": 53120,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "ktoś",
+        "start_ms": 44111,
+        "end_ms": 44650
+      },
+      "target_playbacks": [
+        {
+          "text": "someone",
+          "start_ms": 46650,
+          "end_ms": 47385
+        },
+        {
+          "text": "someone",
+          "start_ms": 49885,
+          "end_ms": 50620
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "kind": "vocabulary",
+      "start_ms": 53120,
+      "end_ms": 63615,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "czekać na pomoc",
+        "start_ms": 53120,
+        "end_ms": 54441
+      },
+      "target_playbacks": [
+        {
+          "text": "wait for help",
+          "start_ms": 56441,
+          "end_ms": 57528
+        },
+        {
+          "text": "wait for help",
+          "start_ms": 60028,
+          "end_ms": 61115
+        }
+      ]
+    },
+    {
+      "id": 174,
+      "kind": "vocabulary",
+      "start_ms": 63615,
+      "end_ms": 73944,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "za drzwiami",
+        "start_ms": 63615,
+        "end_ms": 64740
+      },
+      "target_playbacks": [
+        {
+          "text": "behind the door",
+          "start_ms": 66740,
+          "end_ms": 67842
+        },
+        {
+          "text": "behind the door",
+          "start_ms": 70342,
+          "end_ms": 71444
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "kind": "vocabulary",
+      "start_ms": 73944,
+      "end_ms": 83832,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "zielone drzwi",
+        "start_ms": 73944,
+        "end_ms": 75118
+      },
+      "target_playbacks": [
+        {
+          "text": "green door",
+          "start_ms": 77118,
+          "end_ms": 77975
+        },
+        {
+          "text": "green door",
+          "start_ms": 80475,
+          "end_ms": 81332
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "kind": "vocabulary",
+      "start_ms": 83832,
+      "end_ms": 94200,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "igła kompasu",
+        "start_ms": 83832,
+        "end_ms": 85080
+      },
+      "target_playbacks": [
+        {
+          "text": "compass needle",
+          "start_ms": 87080,
+          "end_ms": 88140
+        },
+        {
+          "text": "compass needle",
+          "start_ms": 90640,
+          "end_ms": 91700
+        }
+      ]
+    },
+    {
+      "id": 168,
+      "kind": "vocabulary",
+      "start_ms": 94200,
+      "end_ms": 103020,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "znów",
+        "start_ms": 94200,
+        "end_ms": 94778
+      },
+      "target_playbacks": [
+        {
+          "text": "again",
+          "start_ms": 96778,
+          "end_ms": 97399
+        },
+        {
+          "text": "again",
+          "start_ms": 99899,
+          "end_ms": 100520
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "kind": "vocabulary",
+      "start_ms": 103020,
+      "end_ms": 113585,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "złota iskra",
+        "start_ms": 103020,
+        "end_ms": 104247
+      },
+      "target_playbacks": [
+        {
+          "text": "golden spark",
+          "start_ms": 106247,
+          "end_ms": 107416
+        },
+        {
+          "text": "golden spark",
+          "start_ms": 109916,
+          "end_ms": 111085
+        }
+      ]
+    },
+    {
+      "id": 172,
+      "kind": "vocabulary",
+      "start_ms": 113585,
+      "end_ms": 122630,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "działać",
+        "start_ms": 113585,
+        "end_ms": 114386
+      },
+      "target_playbacks": [
+        {
+          "text": "work",
+          "start_ms": 116386,
+          "end_ms": 117008
+        },
+        {
+          "text": "work",
+          "start_ms": 119508,
+          "end_ms": 120130
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "kind": "vocabulary",
+      "start_ms": 122630,
+      "end_ms": 132764,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "mówić razem",
+        "start_ms": 122630,
+        "end_ms": 123730
+      },
+      "target_playbacks": [
+        {
+          "text": "say together",
+          "start_ms": 125730,
+          "end_ms": 126747
+        },
+        {
+          "text": "say together",
+          "start_ms": 129247,
+          "end_ms": 130264
+        }
+      ]
+    },
+    {
+      "id": 171,
+      "kind": "vocabulary",
+      "start_ms": 132764,
+      "end_ms": 141983,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "pokazywać",
+        "start_ms": 132764,
+        "end_ms": 133779
+      },
+      "target_playbacks": [
+        {
+          "text": "point",
+          "start_ms": 135779,
+          "end_ms": 136381
+        },
+        {
+          "text": "point",
+          "start_ms": 138881,
+          "end_ms": 139483
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "kind": "vocabulary",
+      "start_ms": 141983,
+      "end_ms": 152703,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "trzymać kompas",
+        "start_ms": 141983,
+        "end_ms": 143301
+      },
+      "target_playbacks": [
+        {
+          "text": "hold the compass",
+          "start_ms": 145301,
+          "end_ms": 146502
+        },
+        {
+          "text": "hold the compass",
+          "start_ms": 149002,
+          "end_ms": 150203
+        }
+      ]
+    },
+    {
+      "id": 169,
+      "kind": "vocabulary",
+      "start_ms": 152703,
+      "end_ms": 162077,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "być całym",
+        "start_ms": 152703,
+        "end_ms": 153679
+      },
+      "target_playbacks": [
+        {
+          "text": "be whole",
+          "start_ms": 155679,
+          "end_ms": 156378
+        },
+        {
+          "text": "be whole",
+          "start_ms": 158878,
+          "end_ms": 159577
+        }
+      ]
+    },
+    {
+      "id": 176,
+      "kind": "vocabulary",
+      "start_ms": 162077,
+      "end_ms": 171834,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "wasza pomoc",
+        "start_ms": 162077,
+        "end_ms": 163189
+      },
+      "target_playbacks": [
+        {
+          "text": "your help",
+          "start_ms": 165189,
+          "end_ms": 166011
+        },
+        {
+          "text": "your help",
+          "start_ms": 168511,
+          "end_ms": 169334
+        }
+      ]
+    },
+    {
+      "id": 173,
+      "kind": "vocabulary",
+      "start_ms": 171834,
+      "end_ms": 180863,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "krzyczeć",
+        "start_ms": 171834,
+        "end_ms": 172579
+      },
+      "target_playbacks": [
+        {
+          "text": "shout",
+          "start_ms": 174579,
+          "end_ms": 175221
+        },
+        {
+          "text": "shout",
+          "start_ms": 177721,
+          "end_ms": 178363
+        }
+      ]
+    }
+  ],
+  "book_introduction": null,
+  "chapter_introduction": {
+    "text": "Chapter six. The First Spell.",
+    "start_ms": 1000,
+    "end_ms": 3184
+  },
+  "transitions": [
+    {
+      "kind": "chime",
+      "from": "story",
+      "to": "practice",
+      "start_ms": 31800,
+      "end_ms": 32420
+    },
+    {
+      "kind": "chime",
+      "from": "practice",
+      "to": "story",
+      "start_ms": 180863,
+      "end_ms": 181483
+    }
+  ],
+  "chapter_readings": [
+    {
+      "text": "Tom holds the compass. The children say together: “Reparo!” A golden spark flashes. The compass is whole again! The compass needle spins and points to a green door. “It works!” shouts Tom. Radiophone says: “Behind the door, someone is waiting for your help.”",
+      "start_ms": 5684,
+      "end_ms": 29300
+    },
+    {
+      "text": "Tom holds the compass. The children say together: “Reparo!” A golden spark flashes. The compass is whole again! The compass needle spins and points to a green door. “It works!” shouts Tom. Radiophone says: “Behind the door, someone is waiting for your help.”",
+      "start_ms": 183983,
+      "end_ms": 207599
+    }
+  ],
+  "chapter_reading": {
+    "text": "Tom holds the compass. The children say together: “Reparo!” A golden spark flashes. The compass is whole again! The compass needle spins and points to a green door. “It works!” shouts Tom. Radiophone says: “Behind the door, someone is waiting for your help.”",
+    "start_ms": 183983,
+    "end_ms": 207599
+  },
+  "narration": {
+    "engine": "azure",
+    "voice": "en-US-Harper:MAI-Voice-2.1",
+    "style": "audiobook",
+    "rate": "-12%",
+    "locale": "en-US",
+    "capabilities": {
+      "voice": "en-US-Harper:MAI-Voice-2.1",
+      "locale": "en-US",
+      "advertised_styles": [
+        "agent",
+        "angry",
+        "audiobook",
+        "confused",
+        "customer_call_center",
+        "determined",
+        "educational",
+        "embarrassed",
+        "excited",
+        "happy",
+        "hopeful",
+        "joyful",
+        "narrator",
+        "regretful",
+        "relieved",
+        "sad",
+        "shouting",
+        "softvoice",
+        "whispering"
+      ]
+    },
+    "ssml": "<speak xmlns:mstts=\"http://www.w3.org/2001/mstts\" version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"en-US\"><voice name=\"en-US-Harper:MAI-Voice-2.1\"><mstts:express-as style=\"audiobook\"><prosody rate=\"-12%\"><p>Tom holds the compass. The children say together: “Reparo!” A golden spark flashes. The compass is whole again! The compass needle spins and points to a green door. “It works!” shouts Tom. Radiophone says: “Behind the door, someone is waiting for your help.”</p></prosody></mstts:express-as></voice></speak>"
+  },
+  "audio_file": "06_chapter_06_pl_en_2026-10-29_20-56-15.mp3"
+}

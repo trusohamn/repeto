@@ -24,32 +24,36 @@ def tone(duration: int = 300) -> AudioSegment:
     return Sine(440, sample_rate=44100).to_audio_segment(duration=duration)
 
 
-def write_render(renders: Path, number: int, topic: str, entries: list[dict]) -> str:
+def write_render(
+    renders: Path, number: int, topic: str, entries: list[dict],
+    source_language: str = "se", target_language: str = "ru",
+) -> str:
     audio = AudioSegment.silent(renderer.LEAD_IN_MS, frame_rate=44100)
     timed = []
     for item in entries:
         start = len(audio)
         audio += tone()
-        source = {"text": item["se"], "start_ms": start, "end_ms": len(audio)}
+        source = {"text": item[source_language], "start_ms": start, "end_ms": len(audio)}
         audio += AudioSegment.silent(renderer.THINKING_MS, frame_rate=44100)
         playbacks = []
         for _ in range(2):
             begin = len(audio)
             audio += tone()
-            playbacks.append({"text": item["ru"], "start_ms": begin, "end_ms": len(audio)})
+            playbacks.append({"text": item[target_language], "start_ms": begin, "end_ms": len(audio)})
             audio += AudioSegment.silent(renderer.REPETITION_MS, frame_rate=44100)
         timed.append({
             "id": item["id"], "entry_start_ms": start, "entry_end_ms": len(audio),
-            "se": source, "ru": dict(playbacks[0]), "target_playbacks": playbacks,
+            source_language: source, target_language: dict(playbacks[0]),
+            "target_playbacks": playbacks,
         })
-    name = f"{number:02d}_topic_se_ru_double_2026-01-01_00-00-00"
+    name = f"{number:02d}_topic_{source_language}_{target_language}_double_2026-01-01_00-00-00"
     audio.export(
         renders / f"{name}.mp3", format="mp3",
         parameters=["-ar", "44100", "-write_xing", "1"],
     )
     duration = len(audio)
     manifest = {
-        "section": topic, "source_language": "se", "target_language": "ru",
+        "section": topic, "source_language": source_language, "target_language": target_language,
         "audio_file": f"{name}.mp3", "total_duration_ms": duration, "entries": timed,
     }
     (renders / f"{name}.json").write_text(json.dumps(manifest), encoding="utf-8")
@@ -57,6 +61,43 @@ def write_render(renders: Path, number: int, topic: str, entries: list[dict]) ->
 
 
 class PackagePracticeTests(unittest.TestCase):
+    def test_packages_polish_source_with_polish_page_and_prompts(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            item = {"id": "phrase_000001", "topic": "Greetings", "se": "Hej!",
+                    "pl": "Cześć!", "en": "Hi!", "ru": "Привет!"}
+            transcript = root / "transcript.json"
+            transcript.write_text(json.dumps([item]), encoding="utf-8")
+            titles = root / "topics.json"
+            titles.write_text(json.dumps(
+                {"Greetings": {"pl": "Powitania", "en": "Greetings"}}
+            ), encoding="utf-8")
+            renders = root / "renders"
+            renders.mkdir()
+            filename = write_render(renders, 1, "Greetings", [item], "pl", "en")
+            podcast_root = root / "podcast"
+            course = podcast_root / "polish-english"
+            course.mkdir(parents=True)
+            (course / "cover.jpeg").write_bytes(b"jpeg")
+            args = package_practice.create_parser().parse_args([
+                "--source", "pl", "--target", "en", "--course", "polish-english",
+                "--renders", str(renders), "--transcript", str(transcript),
+                "--topic-titles", str(titles), "--podcast-root", str(podcast_root),
+            ])
+            catalog = package_practice.package(args)
+            self.assertEqual(catalog["language"], "pl")
+            self.assertEqual(catalog["source_language"], "pl")
+            self.assertEqual(catalog["episodes"][0]["title"], "Powitania — Greetings")
+            self.assertIn("Cześć! → Hi!", catalog["episodes"][0]["description"])
+            self.assertTrue((course / "audio/practice" / filename).is_file())
+            page = (course / "index.html").read_text(encoding="utf-8")
+            self.assertIn('lang="pl"', page)
+            self.assertIn("Sezon 1", page)
+            self.assertIn("Słuchaj", page)
+            self.assertNotIn("Lyssna", page)
+            again = package_practice.package(args)
+            self.assertEqual(catalog["episodes"], again["episodes"])
+
     def test_packages_new_course_by_moving_validated_renders(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)

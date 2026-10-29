@@ -16,7 +16,14 @@ ITEMS = [
         [("Hej!", "Cześć!"), ("Tack!", "Dziękuję!"), ("Hejdå!", "Pa!"), ("Ja.", "Tak.")]
     )
 ]
+ENGLISH_ITEMS = [
+    {"id": f"phrase_{n}", "topic": "Greetings", "pl": pl, "en": en}
+    for n, (pl, en) in enumerate(
+        [("Cześć!", "Hello!"), ("Dziękuję!", "Thank you!"), ("Pa!", "Bye!"), ("Tak.", "Yes.")]
+    )
+]
 TITLES = {"Greetings": {"se": "Hälsningar", "pl": "Powitania"}}
+ENGLISH_TITLES = {"Greetings": {"pl": "Powitania", "en": "Greetings"}}
 STORY = {
     "story_id": "test_story",
     "titles": {"sv": "Testberättelsen", "pl": "Testowa historia"},
@@ -49,6 +56,57 @@ class DescriptionTests(unittest.TestCase):
         self.assertNotIn("det är där du lär dig", text)
         self.assertIn("AI-genererade", text)
         self.assertIn("rättelser och idéer till nya berättelser är varmt välkomna: a@b.se", text)
+
+    def test_polish_source_copy(self):
+        self.assertEqual(
+            descriptions.show_title("en", source="pl"),
+            "Repeto – Angielski dla polskojęzycznych",
+        )
+        text = descriptions.show_description(
+            "en", 30,
+            [descriptions.story_name(
+                {"pl": "Magiczne radio", "en": "The Magic Radio"}, "en", source="pl",
+            )],
+            "a@b.se",
+            source="pl",
+        )
+        self.assertIn("Ucz się angielskiego", text)
+        self.assertIn("Sezon 1 – Ćwiczenia: 30 krótkich tematów", text)
+        self.assertIn("„Magiczne radio” (The Magic Radio)", text)
+        self.assertIn("słuchasz rozdziału po angielsku", text)
+        self.assertNotIn("po angielskiego", text)
+        self.assertIn("Odpowiadaj na głos w przerwie", text)
+        self.assertIn("Słuchanie w tle może pomóc oswoić się", text)
+        self.assertIn("Głosy zostały wygenerowane przez AI", text)
+        self.assertNotIn("nauczysz się", text.lower())
+
+    def test_practice_description_accepts_polish_source(self):
+        text = descriptions.practice_description(
+            "en", 2, 30, ENGLISH_TITLES["Greetings"], ENGLISH_ITEMS, source="pl",
+        )
+        self.assertTrue(text.startswith("Temat 2 z 30: Powitania (Greetings) – 4 zwroty."))
+        self.assertIn("• Cześć! → Hello!\n• Dziękuję! → Thank you!\n• Pa! → Bye!", text)
+        self.assertIn("słowo lub zdanie po polsku", text)
+        self.assertIn("Każdy angielski zwrot", text)
+
+    def test_polish_story_description_uses_polish_summary(self):
+        chapter = {
+            "chapter_number": 1,
+            "summary": {"pl": "Tajemnicza przesyłka trafia do domu."},
+        }
+        text = descriptions.story_description(
+            "en",
+            {"pl": "Magiczne radio", "en": "The Magic Radio"},
+            chapter,
+            2,
+            source="pl",
+        )
+        self.assertTrue(text.startswith(
+            "Rozdział 1 z 2 opowieści „Magiczne radio” (The Magic Radio). "
+            "Tajemnicza przesyłka trafia do domu."
+        ))
+        self.assertIn("podpowiedź po polsku, przerwa, odpowiedź po angielsku", text)
+        self.assertIn("sprawdź, ile udało Ci się zrozumieć", text)
 
     def test_unknown_language_is_rejected(self):
         with self.assertRaises(ValueError):
@@ -98,6 +156,40 @@ class DescriptionTests(unittest.TestCase):
             self.assertEqual(other["description"], "kept")
             saved = json.loads((course / "course.json").read_text(encoding="utf-8"))
             self.assertEqual(saved, catalog)
+
+    def test_refresh_course_supports_polish_source(self):
+        story = {
+            "story_id": "test_story",
+            "titles": {"pl": "Magiczne radio", "en": "The Magic Radio"},
+            "chapters": [
+                {"chapter_number": 1, "summary": {"pl": "Pojawia się zagadka."}},
+            ],
+        }
+        with tempfile.TemporaryDirectory() as directory:
+            course = Path(directory)
+            (course / "course.json").write_text(json.dumps({
+                "title": "Old", "description": "Old", "email": "a@b.se",
+                "source_language": "pl", "target_language": "en",
+                "episodes": [
+                    {"id": "repeto:polish-english:topic-01", "description": "old", "season": 1},
+                    {"id": "test_story:pl:en:chapter-01", "description": "old", "season": 2},
+                ],
+            }), encoding="utf-8")
+
+            catalog = descriptions.refresh_course(
+                course, {"test_story": story}, ({"Greetings": ENGLISH_ITEMS}, ENGLISH_TITLES),
+                source="pl",
+            )
+
+            self.assertEqual(catalog["title"], "Repeto – Angielski dla polskojęzycznych")
+            self.assertEqual(
+                catalog["seasons"], {"1": "Ćwiczenia", "2": "Magiczne radio"},
+            )
+            practice, chapter = catalog["episodes"]
+            self.assertIn("Temat 1 z 1", practice["description"])
+            self.assertIn("Rozdział 1 z 1", chapter["description"])
+            self.assertIn("Pojawia się zagadka.", chapter["description"])
+            self.assertIn("„Magiczne radio” (The Magic Radio)", catalog["description"])
 
 
 if __name__ == "__main__":

@@ -1,0 +1,403 @@
+{
+  "title": "Repeto – Angielski dla polskojęzycznych",
+  "description": "Ucz się angielskiego, słuchając i mówiąc – z polskim jako wsparciem. Repeto to kurs audio dla początkujących w każdym wieku: dzieci, rodziców, dziadków i wszystkich, którzy chcą zacząć naukę angielskiego. Nie potrzebujesz wcześniejszej wiedzy ani podręcznika.\n\nJak to działa: słyszysz słowo lub zdanie po polsku, a potem masz chwilę, by powiedzieć je po angielsku. Następnie usłyszysz odpowiedź dwa razy i będziesz mieć czas, by powtórzyć wymowę.\n\nW kursie znajdziesz:\n• Sezon 1 – Ćwiczenia: 30 krótkich tematów, od powitań i liczb po jedzenie, emocje i codzienne sytuacje.\n• Sezon 2 – Opowieść „Magiczne Radio” (The Magical Radio): jeden rozdział w każdym odcinku. Najpierw słuchasz rozdziału po angielsku, ćwiczysz słownictwo, a potem słuchasz go ponownie.\n• Kolejne opowieści są w przygotowaniu – nowe odcinki będą dodawane regularnie. Obserwuj podcast, żeby ich nie przegapić.\n\nJak korzystać z kursu:\n• Zacznij od sezonu 1, odcinka 1 i słuchaj po kolei.\n• Odpowiadaj na głos w przerwie – spróbuj samodzielnie przypomnieć sobie słowa.\n• Odtwórz odcinek ponownie, aż zdążysz odpowiedzieć przed głosem lektora.\n• Słuchanie w tle może pomóc oswoić się z brzmieniem i melodią języka. Ćwicz też aktywnie, powtarzając i odpowiadając w przerwach.\n\nPodoba Ci się ten format? Repeto jest dostępne także w innych językach – ten sam układ pozwoli Ci od razu poczuć się swobodnie. Wyszukaj „Repeto” w swojej aplikacji do podcastów.\n\nNapisz do nas! Sugestie dotyczące nowych języków, poprawki i pomysły na opowieści są mile widziane: repeto.lingo@gmail.com\n\nGłosy zostały wygenerowane przez AI (Microsoft Azure).",
+  "language": "pl",
+  "author": "Repeto",
+  "email": "repeto.lingo@gmail.com",
+  "source_language": "pl",
+  "target_language": "en",
+  "episodes": [
+    {
+      "id": "repeto:polish-english:topic-01",
+      "title": "Powitania — Greetings",
+      "file": "practice/01_greetings_pl_en_double_2026-10-29_20-52-27.mp3",
+      "duration_ms": 365783,
+      "published": "2026-10-29T19:56:06+00:00",
+      "description": "Temat 1 z 30: Powitania (Greetings) – 36 zwrotów.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Cześć! → Hi!\n• Dzień dobry! → Good morning!\n• Dzień dobry! → Good afternoon!\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
+      "season": 1,
+      "episode": 1
+    },
+    {
+      "id": "repeto:polish-english:topic-02",
+      "title": "Liczby — Numbers",
+      "file": "practice/02_numbers_pl_en_double_2026-10-29_20-52-27.mp3",
+      "duration_ms": 342479,
+      "published": "2026-10-29T19:56:06+00:00",
+      "description": "Temat 2 z 30: Liczby (Numbers) – 35 zwrotów.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Jeden → One\n• Dwa → Two\n• Trzy → Three\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
+      "season": 1,
+      "episode": 2
+    },
+    {
+      "id": "repeto:polish-english:topic-03",
+      "title": "Kolory — Colors",
+      "file": "practice/03_colors_pl_en_double_2026-10-29_20-52-27.mp3",
+      "duration_ms": 304484,
+      "published": "2026-10-29T19:56:06+00:00",
+      "description": "Temat 3 z 30: Kolory (Colors) – 29 zwrotów.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Czerwony → Red\n• Niebieski → Blue\n• Żółty → Yellow\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
+      "season": 1,
+      "episode": 3
+    },
+    {
+      "id": "repeto:polish-english:topic-04",
+      "title": "Zwierzęta — Animals",
+      "file": "practice/04_animals_pl_en_double_2026-10-29_20-52-27.mp3",
+      "duration_ms": 411557,
+      "published": "2026-10-29T19:56:06+00:00",
+      "description": "Temat 4 z 30: Zwierzęta (Animals) – 42 zwroty.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Pies → Dog\n• Kot → Cat\n• Ptak → Bird\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
+      "season": 1,
+      "episode": 4
+    },
+    {
+      "id": "repeto:polish-english:topic-05",
+      "title": "Rodzina — Family",
+      "file": "practice/05_family_pl_en_double_2026-10-29_20-52-27.mp3",
+      "duration_ms": 283267,
+      "published": "2026-10-29T19:56:06+00:00",
+      "description": "Temat 5 z 30: Rodzina (Family) – 26 zwrotów.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Mama → Mum\n• Tata → Dad\n• Siostra → Sister\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
+      "season": 1,
+      "episode": 5
+    },
+    {
+      "id": "repeto:polish-english:topic-06",
+      "title": "Jedzenie — Food",
+      "file": "practice/06_food_pl_en_double_2026-10-29_20-52-27.mp3",
+      "duration_ms": 490107,
+      "published": "2026-10-29T19:56:06+00:00",
+      "description": "Temat 6 z 30: Jedzenie (Food) – 49 zwrotów.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Chleb → Bread\n• Mleko → Milk\n• Jajko → Egg\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
+      "season": 1,
+      "episode": 6
+    },
+    {
+      "id": "repeto:polish-english:topic-07",
+      "title": "Ciało — Body",
+      "file": "practice/07_body_pl_en_double_2026-10-29_20-52-27.mp3",
+      "duration_ms": 364647,
+      "published": "2026-10-29T19:56:06+00:00",
+      "description": "Temat 7 z 30: Ciało (Body) – 37 zwrotów.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Głowa → Head\n• Włosy → Hair\n• Oko → Eye\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
+      "season": 1,
+      "episode": 7
+    },
+    {
+      "id": "repeto:polish-english:topic-08",
+      "title": "Ubrania — Clothing",
+      "file": "practice/08_clothing_pl_en_double_2026-10-29_20-52-27.mp3",
+      "duration_ms": 306795,
+      "published": "2026-10-29T19:56:06+00:00",
+      "description": "Temat 8 z 30: Ubrania (Clothing) – 29 zwrotów.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Sweter → Jumper\n• Koszulka → T-shirt\n• Koszula → Shirt\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
+      "season": 1,
+      "episode": 8
+    },
+    {
+      "id": "repeto:polish-english:topic-09",
+      "title": "W domu — Home",
+      "file": "practice/09_home_pl_en_double_2026-10-29_20-52-27.mp3",
+      "duration_ms": 381069,
+      "published": "2026-10-29T19:56:06+00:00",
+      "description": "Temat 9 z 30: W domu (Home) – 38 zwrotów.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Dom → House\n• Mieszkanie → Flat\n• Pokój → Room\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
+      "season": 1,
+      "episode": 9
+    },
+    {
+      "id": "repeto:polish-english:topic-10",
+      "title": "Szkoła — School",
+      "file": "practice/10_school_pl_en_double_2026-10-29_20-52-27.mp3",
+      "duration_ms": 429163,
+      "published": "2026-10-29T19:56:06+00:00",
+      "description": "Temat 10 z 30: Szkoła (School) – 41 zwrotów.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Szkoła → School\n• Klasa → Classroom\n• Nauczyciel → Teacher\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
+      "season": 1,
+      "episode": 10
+    },
+    {
+      "id": "repeto:polish-english:topic-11",
+      "title": "Pogoda — Weather",
+      "file": "practice/11_weather_pl_en_double_2026-10-29_20-52-27.mp3",
+      "duration_ms": 253311,
+      "published": "2026-10-29T19:56:06+00:00",
+      "description": "Temat 11 z 30: Pogoda (Weather) – 25 zwrotów.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Pogoda → Weather\n• Słońce → Sun\n• Deszcz → Rain\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
+      "season": 1,
+      "episode": 11
+    },
+    {
+      "id": "repeto:polish-english:topic-12",
+      "title": "Pory roku — Seasons",
+      "file": "practice/12_seasons_pl_en_double_2026-10-29_20-52-27.mp3",
+      "duration_ms": 200634,
+      "published": "2026-10-29T19:56:06+00:00",
+      "description": "Temat 12 z 30: Pory roku (Seasons) – 18 zwrotów.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Wiosna → Spring\n• Lato → Summer\n• Jesień → Autumn\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
+      "season": 1,
+      "episode": 12
+    },
+    {
+      "id": "repeto:polish-english:topic-13",
+      "title": "Dni i czas — Days and Time",
+      "file": "practice/13_days_and_time_pl_en_double_2026-10-29_20-52-27.mp3",
+      "duration_ms": 306379,
+      "published": "2026-10-29T19:56:06+00:00",
+      "description": "Temat 13 z 30: Dni i czas (Days and Time) – 29 zwrotów.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Poniedziałek → Monday\n• Wtorek → Tuesday\n• Środa → Wednesday\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
+      "season": 1,
+      "episode": 13
+    },
+    {
+      "id": "repeto:polish-english:topic-14",
+      "title": "Zabawki i zabawa — Toys and Play",
+      "file": "practice/14_toys_and_play_pl_en_double_2026-10-29_20-52-27.mp3",
+      "duration_ms": 356827,
+      "published": "2026-10-29T19:56:06+00:00",
+      "description": "Temat 14 z 30: Zabawki i zabawa (Toys and Play) – 34 zwroty.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Zabawka → Toy\n• Piłka → Ball\n• Lalka → Doll\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
+      "season": 1,
+      "episode": 14
+    },
+    {
+      "id": "repeto:polish-english:topic-15",
+      "title": "Sport i zajęcia — Sports and Activities",
+      "file": "practice/15_sports_and_activities_pl_en_double_2026-10-29_20-52-27.mp3",
+      "duration_ms": 270191,
+      "published": "2026-10-29T19:56:06+00:00",
+      "description": "Temat 15 z 30: Sport i zajęcia (Sports and Activities) – 25 zwrotów.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Piłka nożna → Football\n• Pływanie → Swimming\n• Jazda na rowerze → Cycling\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
+      "season": 1,
+      "episode": 15
+    },
+    {
+      "id": "repeto:polish-english:topic-16",
+      "title": "Chcę i potrzebuję — I want and I need",
+      "file": "practice/16_i_want_i_need_pl_en_double_2026-10-29_20-52-27.mp3",
+      "duration_ms": 315944,
+      "published": "2026-10-29T19:56:06+00:00",
+      "description": "Temat 16 z 30: Chcę i potrzebuję (I want and I need) – 28 zwrotów.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Chcę wyjść na dwór. → I want to go outside.\n• Chcę piłkę. → I want a ball.\n• Chcę jeść. → I want to eat.\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
+      "season": 1,
+      "episode": 16
+    },
+    {
+      "id": "repeto:polish-english:topic-17",
+      "title": "Gdzie jest? — Where is it?",
+      "file": "practice/17_where_is_pl_en_double_2026-10-29_20-52-27.mp3",
+      "duration_ms": 311166,
+      "published": "2026-10-29T19:56:06+00:00",
+      "description": "Temat 17 z 30: Gdzie jest? (Where is it?) – 28 zwrotów.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Gdzie jest miś? → Where is the teddy bear?\n• Gdzie jest mój telefon? → Where is my phone?\n• Gdzie jest moja torba? → Where is my bag?\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
+      "season": 1,
+      "episode": 17
+    },
+    {
+      "id": "repeto:polish-english:topic-18",
+      "title": "Uczucia i emocje — Feelings and Emotions",
+      "file": "practice/18_feelings_and_emotions_pl_en_double_2026-10-29_20-52-27.mp3",
+      "duration_ms": 298228,
+      "published": "2026-10-29T19:56:06+00:00",
+      "description": "Temat 18 z 30: Uczucia i emocje (Feelings and Emotions) – 28 zwrotów.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Wesoły → Happy\n• Smutny → Sad\n• Zły → Angry\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
+      "season": 1,
+      "episode": 18
+    },
+    {
+      "id": "repeto:polish-english:topic-19",
+      "title": "Środki transportu — Transport",
+      "file": "practice/19_transport_pl_en_double_2026-10-29_20-52-27.mp3",
+      "duration_ms": 266502,
+      "published": "2026-10-29T19:56:06+00:00",
+      "description": "Temat 19 z 30: Środki transportu (Transport) – 25 zwrotów.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Samochód → Car\n• Autobus → Bus\n• Pociąg → Train\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
+      "season": 1,
+      "episode": 19
+    },
+    {
+      "id": "repeto:polish-english:topic-20",
+      "title": "Przyroda — Nature",
+      "file": "practice/20_nature_pl_en_double_2026-10-29_20-52-27.mp3",
+      "duration_ms": 273170,
+      "published": "2026-10-29T19:56:06+00:00",
+      "description": "Temat 20 z 30: Przyroda (Nature) – 27 zwrotów.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Las → Forest\n• Morze → Sea\n• Jezioro → Lake\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
+      "season": 1,
+      "episode": 20
+    },
+    {
+      "id": "repeto:polish-english:topic-21",
+      "title": "Święta i uroczystości — Holidays and Celebrations",
+      "file": "practice/21_holidays_and_celebrations_pl_en_double_2026-10-29_20-52-27.mp3",
+      "duration_ms": 255412,
+      "published": "2026-10-29T19:56:06+00:00",
+      "description": "Temat 21 z 30: Święta i uroczystości (Holidays and Celebrations) – 23 zwroty.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Urodziny → Birthday\n• Wszystkiego najlepszego z okazji urodzin! → Happy birthday!\n• Boże Narodzenie → Christmas\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
+      "season": 1,
+      "episode": 21
+    },
+    {
+      "id": "repeto:polish-english:topic-22",
+      "title": "Codzienne czynności — Daily Routine",
+      "file": "practice/22_daily_routine_pl_en_double_2026-10-29_20-52-27.mp3",
+      "duration_ms": 314832,
+      "published": "2026-10-29T19:56:06+00:00",
+      "description": "Temat 22 z 30: Codzienne czynności (Daily Routine) – 28 zwrotów.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Budzić się → Wake up\n• Wstawać → Get up\n• Myć zęby → Brush your teeth\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
+      "season": 1,
+      "episode": 22
+    },
+    {
+      "id": "repeto:polish-english:topic-23",
+      "title": "Pytania i prośby — Asking and Requests",
+      "file": "practice/23_asking_and_requests_pl_en_double_2026-10-29_20-52-27.mp3",
+      "duration_ms": 267615,
+      "published": "2026-10-29T19:56:06+00:00",
+      "description": "Temat 23 z 30: Pytania i prośby (Asking and Requests) – 26 zwrotów.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Czy możesz mi pomóc? → Can you help me?\n• Pomocy! → Help!\n• Proszę! → Please!\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
+      "season": 1,
+      "episode": 23
+    },
+    {
+      "id": "repeto:polish-english:topic-24",
+      "title": "Przeciwieństwa — Opposites",
+      "file": "practice/24_opposites_pl_en_double_2026-10-29_20-52-27.mp3",
+      "duration_ms": 279076,
+      "published": "2026-10-29T19:56:06+00:00",
+      "description": "Temat 24 z 30: Przeciwieństwa (Opposites) – 28 zwrotów.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Duży → Big\n• Mały → Small\n• Długi → Long\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
+      "season": 1,
+      "episode": 24
+    },
+    {
+      "id": "repeto:polish-english:topic-25",
+      "title": "Czynności i czasowniki — Actions and Verbs",
+      "file": "practice/25_actions_and_verbs_pl_en_double_2026-10-29_20-52-27.mp3",
+      "duration_ms": 407959,
+      "published": "2026-10-29T19:56:06+00:00",
+      "description": "Temat 25 z 30: Czynności i czasowniki (Actions and Verbs) – 41 zwrotów.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Iść → Walk\n• Biegać → Run\n• Skakać → Jump\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
+      "season": 1,
+      "episode": 25
+    },
+    {
+      "id": "repeto:polish-english:topic-26",
+      "title": "Miejsca w mieście — Places in Town",
+      "file": "practice/26_places_in_town_pl_en_double_2026-10-29_20-52-27.mp3",
+      "duration_ms": 250471,
+      "published": "2026-10-29T19:56:06+00:00",
+      "description": "Temat 26 z 30: Miejsca w mieście (Places in Town) – 23 zwroty.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Park → Park\n• Plac zabaw → Playground\n• Sklep → Shop\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
+      "season": 1,
+      "episode": 26
+    },
+    {
+      "id": "repeto:polish-english:topic-27",
+      "title": "Technologia — Technology",
+      "file": "practice/27_technology_pl_en_double_2026-10-29_20-52-27.mp3",
+      "duration_ms": 239950,
+      "published": "2026-10-29T19:56:06+00:00",
+      "description": "Temat 27 z 30: Technologia (Technology) – 22 zwroty.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Telefon → Phone\n• Telefon komórkowy → Mobile phone\n• Komputer → Computer\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
+      "season": 1,
+      "episode": 27
+    },
+    {
+      "id": "repeto:polish-english:topic-28",
+      "title": "Muzyka i sztuka — Music and Art",
+      "file": "practice/28_music_and_art_pl_en_double_2026-10-29_20-52-27.mp3",
+      "duration_ms": 242256,
+      "published": "2026-10-29T19:56:06+00:00",
+      "description": "Temat 28 z 30: Muzyka i sztuka (Music and Art) – 23 zwroty.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Muzyka → Music\n• Piosenka → Song\n• Taniec → Dancing\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
+      "season": 1,
+      "episode": 28
+    },
+    {
+      "id": "repeto:polish-english:topic-29",
+      "title": "Zwroty grzecznościowe — Polite Phrases",
+      "file": "practice/29_polite_phrases_pl_en_double_2026-10-29_20-52-27.mp3",
+      "duration_ms": 173473,
+      "published": "2026-10-29T19:56:06+00:00",
+      "description": "Temat 29 z 30: Zwroty grzecznościowe (Polite Phrases) – 17 zwrotów.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Proszę. → Please.\n• Dziękuję! → Thank you!\n• Bardzo dziękuję! → Thank you very much!\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
+      "season": 1,
+      "episode": 29
+    },
+    {
+      "id": "repeto:polish-english:topic-30",
+      "title": "Powtórka — Review and Recap",
+      "file": "practice/30_review_and_recap_pl_en_double_2026-10-29_21-04-45.mp3",
+      "duration_ms": 123270,
+      "published": "2026-10-29T19:56:06+00:00",
+      "description": "Temat 30 z 30: Powtórka (Review and Recap) – 11 zwrotów.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Dobra robota! → Well done!\n• Uczysz się nowego języka! → You are learning a new language!\n• Ćwiczmy! → Let's practise!\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
+      "season": 1,
+      "episode": 30
+    },
+    {
+      "id": "magical_radio:pl:en:chapter-01",
+      "title": "Magiczne Radio: Stary stół — The Old Table",
+      "file": "stories/magical_radio/01_chapter_01_pl_en_2026-10-29_20-56-15.mp3",
+      "image": "images/stories/magical_radio/cover.jpeg",
+      "duration_ms": 294871,
+      "published": "2026-10-29T19:56:56+00:00",
+      "description": "Rozdział 1 z 8 opowieści „Magiczne Radio” (The Magical Radio). Rodzeństwo znajduje stare drewniane radio na pchlim targu. Radio nagle szumi, a złoty napis zdradza, że czekało właśnie na nich.\n\nJak wygląda odcinek:\n1. Posłuchaj całego rozdziału po angielsku – nie musisz rozumieć wszystkiego.\n2. Poćwicz słowa i wyrażenia z rozdziału: podpowiedź po polsku, przerwa, odpowiedź po angielsku.\n3. Posłuchaj rozdziału ponownie i sprawdź, ile udało Ci się zrozumieć.\n\nMiędzy częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynając od rozdziału 1.",
+      "season": 2,
+      "episode": 1
+    },
+    {
+      "id": "magical_radio:pl:en:chapter-02",
+      "title": "Magiczne Radio: Głos z radia — A Voice from the Radio",
+      "file": "stories/magical_radio/02_chapter_02_pl_en_2026-10-29_20-56-15.mp3",
+      "image": "images/stories/magical_radio/cover.jpeg",
+      "duration_ms": 265275,
+      "published": "2026-10-29T19:56:56+00:00",
+      "description": "Rozdział 2 z 8 opowieści „Magiczne Radio” (The Magical Radio). W domu dzieci naciskają niebieski przycisk. Z radia wylatuje chmurka pachnąca cynamonem, a wesoły głos opowiada o myszy z ważnym kluczem.\n\nJak wygląda odcinek:\n1. Posłuchaj całego rozdziału po angielsku – nie musisz rozumieć wszystkiego.\n2. Poćwicz słowa i wyrażenia z rozdziału: podpowiedź po polsku, przerwa, odpowiedź po angielsku.\n3. Posłuchaj rozdziału ponownie i sprawdź, ile udało Ci się zrozumieć.\n\nMiędzy częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynając od rozdziału 1.",
+      "season": 2,
+      "episode": 2
+    },
+    {
+      "id": "magical_radio:pl:en:chapter-03",
+      "title": "Magiczne Radio: Mysz pod drzewem — A Mouse under the Tree",
+      "file": "stories/magical_radio/03_chapter_03_pl_en_2026-10-29_20-56-15.mp3",
+      "image": "images/stories/magical_radio/cover.jpeg",
+      "duration_ms": 340734,
+      "published": "2026-10-29T19:56:56+00:00",
+      "description": "Rozdział 3 z 8 opowieści „Magiczne Radio” (The Magical Radio). Z latarką, serem i radiem rodzeństwo rusza pod stare drzewo. Mała mysz zgadza się na wymianę, a między korzeniami kryją się tajemnicze drzwi.\n\nJak wygląda odcinek:\n1. Posłuchaj całego rozdziału po angielsku – nie musisz rozumieć wszystkiego.\n2. Poćwicz słowa i wyrażenia z rozdziału: podpowiedź po polsku, przerwa, odpowiedź po angielsku.\n3. Posłuchaj rozdziału ponownie i sprawdź, ile udało Ci się zrozumieć.\n\nMiędzy częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynając od rozdziału 1.",
+      "season": 2,
+      "episode": 3
+    },
+    {
+      "id": "magical_radio:pl:en:chapter-04",
+      "title": "Magiczne Radio: Schody w dół — Down the Stairs",
+      "file": "stories/magical_radio/04_chapter_04_pl_en_2026-10-29_21-10-20.mp3",
+      "image": "images/stories/magical_radio/cover.jpeg",
+      "duration_ms": 261160,
+      "published": "2026-10-29T19:56:56+00:00",
+      "description": "Rozdział 4 z 8 opowieści „Magiczne Radio” (The Magical Radio). Srebrny klucz otwiera drzwi. Kamienne schody prowadzą do biblioteki pełnej latających książek, a na ścianach rosną świecące kwiaty.\n\nJak wygląda odcinek:\n1. Posłuchaj całego rozdziału po angielsku – nie musisz rozumieć wszystkiego.\n2. Poćwicz słowa i wyrażenia z rozdziału: podpowiedź po polsku, przerwa, odpowiedź po angielsku.\n3. Posłuchaj rozdziału ponownie i sprawdź, ile udało Ci się zrozumieć.\n\nMiędzy częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynając od rozdziału 1.",
+      "season": 2,
+      "episode": 4
+    },
+    {
+      "id": "magical_radio:pl:en:chapter-05",
+      "title": "Magiczne Radio: Latająca książka — The Flying Book",
+      "file": "stories/magical_radio/05_chapter_05_pl_en_2026-10-29_20-56-15.mp3",
+      "image": "images/stories/magical_radio/cover.jpeg",
+      "duration_ms": 261934,
+      "published": "2026-10-29T19:56:56+00:00",
+      "description": "Rozdział 5 z 8 opowieści „Magiczne Radio” (The Magical Radio). Złota książka ląduje na ramieniu, a radio zdradza zaklęcie, które naprawia zepsute rzeczy.\n\nJak wygląda odcinek:\n1. Posłuchaj całego rozdziału po angielsku – nie musisz rozumieć wszystkiego.\n2. Poćwicz słowa i wyrażenia z rozdziału: podpowiedź po polsku, przerwa, odpowiedź po angielsku.\n3. Posłuchaj rozdziału ponownie i sprawdź, ile udało Ci się zrozumieć.\n\nMiędzy częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynając od rozdziału 1.",
+      "season": 2,
+      "episode": 5
+    },
+    {
+      "id": "magical_radio:pl:en:chapter-06",
+      "title": "Magiczne Radio: Pierwsze zaklęcie — The First Spell",
+      "file": "stories/magical_radio/06_chapter_06_pl_en_2026-10-29_20-56-15.mp3",
+      "image": "images/stories/magical_radio/cover.jpeg",
+      "duration_ms": 207599,
+      "published": "2026-10-29T19:56:56+00:00",
+      "description": "Rozdział 6 z 8 opowieści „Magiczne Radio” (The Magical Radio). Czas wypróbować zaklęcie na zepsutym kompasie. Czy zadziała? I kto czeka za zielonymi drzwiami?\n\nJak wygląda odcinek:\n1. Posłuchaj całego rozdziału po angielsku – nie musisz rozumieć wszystkiego.\n2. Poćwicz słowa i wyrażenia z rozdziału: podpowiedź po polsku, przerwa, odpowiedź po angielsku.\n3. Posłuchaj rozdziału ponownie i sprawdź, ile udało Ci się zrozumieć.\n\nMiędzy częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynając od rozdziału 1.",
+      "season": 2,
+      "episode": 6
+    },
+    {
+      "id": "magical_radio:pl:en:chapter-07",
+      "title": "Magiczne Radio: Złoty ptak — The Golden Bird",
+      "file": "stories/magical_radio/07_chapter_07_pl_en_2026-10-29_20-56-15.mp3",
+      "image": "images/stories/magical_radio/cover.jpeg",
+      "duration_ms": 332969,
+      "published": "2026-10-29T19:56:56+00:00",
+      "description": "Rozdział 7 z 8 opowieści „Magiczne Radio” (The Magical Radio). Za drzwiami jest podziemny ogród. Złoty ptak zamiast śpiewać tyka jak zegar. W jego skrzydle brakuje kamyka, a radio skrywa tajemnicę.\n\nJak wygląda odcinek:\n1. Posłuchaj całego rozdziału po angielsku – nie musisz rozumieć wszystkiego.\n2. Poćwicz słowa i wyrażenia z rozdziału: podpowiedź po polsku, przerwa, odpowiedź po angielsku.\n3. Posłuchaj rozdziału ponownie i sprawdź, ile udało Ci się zrozumieć.\n\nMiędzy częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynając od rozdziału 1.",
+      "season": 2,
+      "episode": 7
+    },
+    {
+      "id": "magical_radio:pl:en:chapter-08",
+      "title": "Magiczne Radio: Wielki koncert — The Grand Concert",
+      "file": "stories/magical_radio/08_chapter_08_pl_en_2026-10-29_20-56-15.mp3",
+      "image": "images/stories/magical_radio/cover.jpeg",
+      "duration_ms": 218217,
+      "published": "2026-10-29T19:56:56+00:00",
+      "description": "Rozdział 8 z 8 opowieści „Magiczne Radio” (The Magical Radio). Finał! Czy rodzeństwu uda się naprawić złotego ptaka? Opowieść kończy się śpiewem, tańczącymi motylami i zapowiedzią nowej przygody.\n\nJak wygląda odcinek:\n1. Posłuchaj całego rozdziału po angielsku – nie musisz rozumieć wszystkiego.\n2. Poćwicz słowa i wyrażenia z rozdziału: podpowiedź po polsku, przerwa, odpowiedź po angielsku.\n3. Posłuchaj rozdziału ponownie i sprawdź, ile udało Ci się zrozumieć.\n\nMiędzy częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynając od rozdziału 1.",
+      "season": 2,
+      "episode": 8
+    }
+  ],
+  "seasons": {
+    "1": "Ćwiczenia",
+    "2": "Magiczne Radio"
+  }
+}

@@ -48,9 +48,9 @@ def text_to_html(text: str) -> str:
     return "".join(blocks)
 
 
-def _page(title: str, body: str) -> str:
+def _page(title: str, body: str, language: str = "sv") -> str:
     return (
-        '<!doctype html><html lang="sv"><meta charset="utf-8">'
+        f'<!doctype html><html lang="{html.escape(language, quote=True)}"><meta charset="utf-8">'
         '<meta name="viewport" content="width=device-width,initial-scale=1">'
         f"<title>{html.escape(title)}</title><style>{STYLE}</style>{body}</html>\n"
     )
@@ -219,10 +219,15 @@ def build_feed(course: Path, base_url: str) -> None:
         )
     ET.indent(rss)
     ET.ElementTree(rss).write(course / "feed.xml", encoding="utf-8", xml_declaration=True)
+    polish = config["language"] == "pl"
+    cover_label = "Okładka" if polish else "Omslag"
+    listen_label = "Słuchaj" if polish else "Lyssna"
+    season_label = "Sezon" if polish else "Säsong"
+    rss_label = "Kanał RSS" if polish else "RSS-flöde"
     links = [
         f'<a href="{html.escape(link_url)}">{html.escape(name)}</a>'
         for name, link_url in config.get("links", {}).items()
-    ] + ['<a href="feed.xml">RSS-flöde</a>']
+    ] + [f'<a href="feed.xml">{rss_label}</a>']
     seasons: dict[int, list[str]] = {}
     season_names: dict[str, str] = config.get("seasons", {})
     for episode in sorted(episodes, key=lambda e: (e["season"], e["episode"])):
@@ -237,16 +242,16 @@ def build_feed(course: Path, base_url: str) -> None:
         )
     (course / "index.html").write_text(_page(config["title"], (
         f'<h1>{html.escape(config["title"])}</h1>'
-        f'<img src="{html.escape(quote(cover.name))}" alt="Omslag" width="300">'
+        f'<img src="{html.escape(quote(cover.name))}" alt="{cover_label}" width="300">'
         f'{text_to_html(config["description"])}'
-        f'<p><strong>Lyssna:</strong> {" · ".join(links)}</p>'
+        f'<p><strong>{listen_label}:</strong> {" · ".join(links)}</p>'
         + "".join(
-            f"<h2>Säsong {season}"
+            f"<h2>{season_label} {season}"
             + (f" – {html.escape(name)}" if (name := season_names.get(str(season))) else "")
             + f"</h2>{''.join(items)}"
             for season, items in seasons.items()
         )
-    )), encoding="utf-8")
+    ), language=config["language"]), encoding="utf-8")
 
 
 def main() -> None:
@@ -272,9 +277,11 @@ def main() -> None:
             f'</h2><p>{html.escape(intro)}</p></div></div>'
         )
     (args.root / "index.html").write_text(_page("Repeto – språkkurser att lyssna på", (
-        "<h1>Repeto</h1><p>Språkkurser som podcast för svensktalande nybörjare i alla "
+        "<h1>Repeto</h1><p>Språkkurser som podcast för nybörjare i alla "
         "åldrar. Hör ett ord eller en mening på svenska, säg det själv på det nya "
-        "språket och lyssna sedan på svaret.</p>" + "".join(cards)
+        "språket och lyssna sedan på svaret.</p>"
+        '<p lang="pl">Kursy językowe dla początkujących: słuchaj wskazówek po polsku, '
+        "odpowiadaj w przerwach i powtarzaj za nagraniem.</p>" + "".join(cards)
     )), encoding="utf-8")
     (args.root / ".nojekyll").touch()
 

@@ -16,7 +16,8 @@
         "ru": "Старый стол"
       },
       "summary": {
-        "sv": "Två syskon hittar en gammal träradio på en loppmarknad. Plötsligt surrar den – och en gyllene text visar att radion är till just dem."
+        "sv": "Två syskon hittar en gammal träradio på en loppmarknad. Plötsligt surrar den – och en gyllene text visar att radion är till just dem.",
+        "pl": "Rodzeństwo znajduje stare drewniane radio na pchlim targu. Radio nagle szumi, a złoty napis zdradza, że czekało właśnie na nich."
       },
       "vocabulary": [
         {
@@ -224,7 +225,8 @@
         "ru": "Голос из радио"
       },
       "summary": {
-        "sv": "Hemma trycker de på den blå knappen. Ur radion kommer ett moln som doftar kanel – och en glad röst berättar om en mus med en viktig nyckel."
+        "sv": "Hemma trycker de på den blå knappen. Ur radion kommer ett moln som doftar kanel – och en glad röst berättar om en mus med en viktig nyckel.",
+        "pl": "W domu dzieci naciskają niebieski przycisk. Z radia wylatuje chmurka pachnąca cynamonem, a wesoły głos opowiada o myszy z ważnym kluczem."
       },
       "vocabulary": [
         {
@@ -414,7 +416,8 @@
         "ru": "Мышка под деревом"
       },
       "summary": {
-        "sv": "Med ficklampa, ost och radion går syskonen till det gamla trädet. En liten mus vill byta – och mellan rötterna gömmer sig en liten dörr."
+        "sv": "Med ficklampa, ost och radion går syskonen till det gamla trädet. En liten mus vill byta – och mellan rötterna gömmer sig en liten dörr.",
+        "pl": "Z latarką, serem i radiem rodzeństwo rusza pod stare drzewo. Mała mysz zgadza się na wymianę, a między korzeniami kryją się tajemnicze drzwi."
       },
       "vocabulary": [
         {
@@ -645,11 +648,12 @@
       "titles": {
         "pl": "Schody w dół",
         "sv": "Trappan ner",
-        "en": "The Stairs Going Down",
+        "en": "Down the Stairs",
         "ru": "Лестница вниз"
       },
       "summary": {
-        "sv": "Silvernyckeln öppnar dörren. En stentrappa leder ner till ett bibliotek med flygande böcker och blå, lysande blommor."
+        "sv": "Silvernyckeln öppnar dörren. En stentrappa leder ner till ett bibliotek med flygande böcker och blå, lysande blommor.",
+        "pl": "Srebrny klucz otwiera drzwi. Kamienne schody prowadzą do biblioteki pełnej latających książek, a na ścianach rosną świecące kwiaty."
       },
       "vocabulary": [
         {
@@ -857,7 +861,8 @@
         "ru": "Летающая книга"
       },
       "summary": {
-        "sv": "En gyllene bok landar på en axel, och radion lär ut en trollformel som lagar allt som är trasigt."
+        "sv": "En gyllene bok landar på en axel, och radion lär ut en trollformel som lagar allt som är trasigt.",
+        "pl": "Złota książka ląduje na ramieniu, a radio zdradza zaklęcie, które naprawia zepsute rzeczy."
       },
       "vocabulary": [
         {
@@ -1056,7 +1061,8 @@
         "ru": "Первое заклинание"
       },
       "summary": {
-        "sv": "Dags att prova trollformeln på en trasig kompass. Fungerar den? Och vem väntar bakom den gröna dörren?"
+        "sv": "Dags att prova trollformeln på en trasig kompass. Fungerar den? Och vem väntar bakom den gröna dörren?",
+        "pl": "Czas wypróbować zaklęcie na zepsutym kompasie. Czy zadziała? I kto czeka za zielonymi drzwiami?"
       },
       "vocabulary": [
         {
@@ -1210,7 +1216,8 @@
         "ru": "Золотая птица"
       },
       "summary": {
-        "sv": "Bakom dörren finns en underjordisk trädgård med en gyllene fågel som inte kan sjunga – den tickar bara som en klocka. En sten saknas i vingen, och radion bär på en hemlighet."
+        "sv": "Bakom dörren finns en underjordisk trädgård med en gyllene fågel som inte kan sjunga – den tickar bara som en klocka. En sten saknas i vingen, och radion bär på en hemlighet.",
+        "pl": "Za drzwiami jest podziemny ogród. Złoty ptak zamiast śpiewać tyka jak zegar. W jego skrzydle brakuje kamyka, a radio skrywa tajemnicę."
       },
       "vocabulary": [
         {
@@ -1427,7 +1434,8 @@
         "ru": "Большой концерт"
       },
       "summary": {
-        "sv": "Finalen! Kan syskonen laga den gyllene fågeln? Berättelsen slutar med sång, dansande fjärilar och löftet om ett nytt äventyr."
+        "sv": "Finalen! Kan syskonen laga den gyllene fågeln? Berättelsen slutar med sång, dansande fjärilar och löftet om ett nytt äventyr.",
+        "pl": "Finał! Czy rodzeństwu uda się naprawić złotego ptaka? Opowieść kończy się śpiewem, tańczącymi motylami i zapowiedzią nowej przygody."
       },
       "vocabulary": [
         {

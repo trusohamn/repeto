@@ -78,89 +78,6 @@
           },
           "packaged_audio": "swedish-polish/audio/stories/magical_radio/01_chapter_01_sv_pl_2026-10-29_13-36-32.mp3"
         },
-        "en": {
-          "source_language": "sv",
-          "audio_file": "01_chapter_01_sv_en_2026-10-29_13-39-49.mp3",
-          "manifest_file": "01_chapter_01_sv_en_2026-10-29_13-39-49.json",
-          "total_duration_ms": 298654,
-          "chapter_reading": {
-            "text": "It is Saturday. Maya is nine years old, and her brother Tom is six. Together they go to a flea market. In the corner stands an old table, and on the table there is a wooden radio. It has gold knobs and colourful buttons. When Maya comes closer, the radio suddenly hums quietly. A golden inscription appears on the radio: “For Maya and Tom.” The children open their eyes wide.",
-            "start_ms": 267118,
-            "end_ms": 298654
-          },
-          "chapter_introduction": {
-            "text": "Chapter one. The Old Table.",
-            "start_ms": 5396,
-            "end_ms": 7532
-          },
-          "chapter_readings": [
-            {
-              "text": "It is Saturday. Maya is nine years old, and her brother Tom is six. Together they go to a flea market. In the corner stands an old table, and on the table there is a wooden radio. It has gold knobs and colourful buttons. When Maya comes closer, the radio suddenly hums quietly. A golden inscription appears on the radio: “For Maya and Tom.” The children open their eyes wide.",
-              "start_ms": 10032,
-              "end_ms": 41568
-            },
-            {
-              "text": "It is Saturday. Maya is nine years old, and her brother Tom is six. Together they go to a flea market. In the corner stands an old table, and on the table there is a wooden radio. It has gold knobs and colourful buttons. When Maya comes closer, the radio suddenly hums quietly. A golden inscription appears on the radio: “For Maya and Tom.” The children open their eyes wide.",
-              "start_ms": 267118,
-              "end_ms": 298654
-            }
-          ],
-          "sequence": [
-            "story",
-            "practice",
-            "story"
-          ],
-          "transitions": [
-            {
-              "kind": "chime",
-              "from": "story",
-              "to": "practice",
-              "start_ms": 44068,
-              "end_ms": 44688
-            },
-            {
-              "kind": "chime",
-              "from": "practice",
-              "to": "story",
-              "start_ms": 263998,
-              "end_ms": 264618
-            }
-          ],
-          "narration": {
-            "engine": "azure",
-            "voice": "en-US-Harper:MAI-Voice-2.1",
-            "style": "audiobook",
-            "rate": "-12%",
-            "locale": "en-US",
-            "capabilities": {
-              "voice": "en-US-Harper:MAI-Voice-2.1",
-              "locale": "en-US",
-              "advertised_styles": [
-                "agent",
-                "angry",
-                "audiobook",
-                "confused",
-                "customer_call_center",
-                "determined",
-                "educational",
-                "embarrassed",
-                "excited",
-                "happy",
-                "hopeful",
-                "joyful",
-                "narrator",
-                "regretful",
-                "relieved",
-                "sad",
-                "shouting",
-                "softvoice",
-                "whispering"
-              ]
-            },
-            "ssml": "<speak xmlns:mstts=\"http://www.w3.org/2001/mstts\" version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"en-US\"><voice name=\"en-US-Harper:MAI-Voice-2.1\"><mstts:express-as style=\"audiobook\"><prosody rate=\"-12%\"><p>It is Saturday. Maya is nine years old, and her brother Tom is six. Together they go to a flea market. In the corner stands an old table, and on the table there is a wooden radio. It has gold knobs and colourful buttons. When Maya comes closer, the radio suddenly hums quietly. A golden inscription appears on the radio: “For Maya and Tom.” The children open their eyes wide.</p></prosody></mstts:express-as></voice></speak>"
-          },
-          "packaged_audio": "swedish-english/audio/stories/magical_radio/01_chapter_01_sv_en_2026-10-29_13-39-49.mp3"
-        },
         "ru": {
           "source_language": "sv",
           "audio_file": "01_chapter_01_sv_ru_2026-10-29_13-41-06.mp3",
@@ -223,6 +140,89 @@
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"ru-RU\"><voice name=\"ru-RU-SvetlanaNeural\"><prosody rate=\"-12%\"><p>Сегодня суббота. Маше девять лет, а её брату Мише — шесть. Вместе они идут на блошиный рынок. В углу стоит старый стол, а на столе — деревянное радио. У него золотые ручки и разноцветные кнопки. Когда Маша подходит ближе, радио вдруг тихо шумит. На радио появляется золотая надпись: «Для Маши и Миши». Дети широко открывают глаза.</p></prosody></voice></speak>"
           },
           "packaged_audio": "swedish-russian/audio/stories/magical_radio/01_chapter_01_sv_ru_2026-10-29_13-41-06.mp3"
+        },
+        "en": {
+          "source_language": "pl",
+          "audio_file": "01_chapter_01_pl_en_2026-10-29_20-56-15.mp3",
+          "manifest_file": "01_chapter_01_pl_en_2026-10-29_20-56-15.json",
+          "total_duration_ms": 294871,
+          "chapter_reading": {
+            "text": "It is Saturday. Maya is nine years old, and her brother Tom is six. Together they go to a flea market. In the corner stands an old table, and on the table there is a wooden radio. It has gold knobs and colourful buttons. When Maya comes closer, the radio suddenly hums quietly. A golden inscription appears on the radio: “For Maya and Tom.” The children open their eyes wide.",
+            "start_ms": 263335,
+            "end_ms": 294871
+          },
+          "chapter_introduction": {
+            "text": "Chapter one. The Old Table.",
+            "start_ms": 5396,
+            "end_ms": 7532
+          },
+          "chapter_readings": [
+            {
+              "text": "It is Saturday. Maya is nine years old, and her brother Tom is six. Together they go to a flea market. In the corner stands an old table, and on the table there is a wooden radio. It has gold knobs and colourful buttons. When Maya comes closer, the radio suddenly hums quietly. A golden inscription appears on the radio: “For Maya and Tom.” The children open their eyes wide.",
+              "start_ms": 10032,
+              "end_ms": 41568
+            },
+            {
+              "text": "It is Saturday. Maya is nine years old, and her brother Tom is six. Together they go to a flea market. In the corner stands an old table, and on the table there is a wooden radio. It has gold knobs and colourful buttons. When Maya comes closer, the radio suddenly hums quietly. A golden inscription appears on the radio: “For Maya and Tom.” The children open their eyes wide.",
+              "start_ms": 263335,
+              "end_ms": 294871
+            }
+          ],
+          "sequence": [
+            "story",
+            "practice",
+            "story"
+          ],
+          "transitions": [
+            {
+              "kind": "chime",
+              "from": "story",
+              "to": "practice",
+              "start_ms": 44068,
+              "end_ms": 44688
+            },
+            {
+              "kind": "chime",
+              "from": "practice",
+              "to": "story",
+              "start_ms": 260215,
+              "end_ms": 260835
+            }
+          ],
+          "narration": {
+            "engine": "azure",
+            "voice": "en-US-Harper:MAI-Voice-2.1",
+            "style": "audiobook",
+            "rate": "-12%",
+            "locale": "en-US",
+            "capabilities": {
+              "voice": "en-US-Harper:MAI-Voice-2.1",
+              "locale": "en-US",
+              "advertised_styles": [
+                "agent",
+                "angry",
+                "audiobook",
+                "confused",
+                "customer_call_center",
+                "determined",
+                "educational",
+                "embarrassed",
+                "excited",
+                "happy",
+                "hopeful",
+                "joyful",
+                "narrator",
+                "regretful",
+                "relieved",
+                "sad",
+                "shouting",
+                "softvoice",
+                "whispering"
+              ]
+            },
+            "ssml": "<speak xmlns:mstts=\"http://www.w3.org/2001/mstts\" version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"en-US\"><voice name=\"en-US-Harper:MAI-Voice-2.1\"><mstts:express-as style=\"audiobook\"><prosody rate=\"-12%\"><p>It is Saturday. Maya is nine years old, and her brother Tom is six. Together they go to a flea market. In the corner stands an old table, and on the table there is a wooden radio. It has gold knobs and colourful buttons. When Maya comes closer, the radio suddenly hums quietly. A golden inscription appears on the radio: “For Maya and Tom.” The children open their eyes wide.</p></prosody></mstts:express-as></voice></speak>"
+          },
+          "packaged_audio": "polish-english/audio/stories/magical_radio/01_chapter_01_pl_en_2026-10-29_20-56-15.mp3"
         }
       }
     },
@@ -303,89 +303,6 @@
           },
           "packaged_audio": "swedish-polish/audio/stories/magical_radio/02_chapter_02_sv_pl_2026-10-29_13-36-32.mp3"
         },
-        "en": {
-          "source_language": "sv",
-          "audio_file": "02_chapter_02_sv_en_2026-10-29_13-39-49.mp3",
-          "manifest_file": "02_chapter_02_sv_en_2026-10-29_13-39-49.json",
-          "total_duration_ms": 266718,
-          "chapter_reading": {
-            "text": "The children buy the radio and carry it home. Tom presses the blue button. A little cloud flies out of the radio, and it smells of cinnamon. “Hi, kids!” says a cheerful voice. “My name is Radiophone. In your garden, under the old tree, lives a mouse. It has an important key, and it really loves cheese. Take me with you!”",
-            "start_ms": 238302,
-            "end_ms": 266718
-          },
-          "chapter_introduction": {
-            "text": "Chapter two. A Voice from the Radio.",
-            "start_ms": 1000,
-            "end_ms": 5128
-          },
-          "chapter_readings": [
-            {
-              "text": "The children buy the radio and carry it home. Tom presses the blue button. A little cloud flies out of the radio, and it smells of cinnamon. “Hi, kids!” says a cheerful voice. “My name is Radiophone. In your garden, under the old tree, lives a mouse. It has an important key, and it really loves cheese. Take me with you!”",
-              "start_ms": 7628,
-              "end_ms": 36044
-            },
-            {
-              "text": "The children buy the radio and carry it home. Tom presses the blue button. A little cloud flies out of the radio, and it smells of cinnamon. “Hi, kids!” says a cheerful voice. “My name is Radiophone. In your garden, under the old tree, lives a mouse. It has an important key, and it really loves cheese. Take me with you!”",
-              "start_ms": 238302,
-              "end_ms": 266718
-            }
-          ],
-          "sequence": [
-            "story",
-            "practice",
-            "story"
-          ],
-          "transitions": [
-            {
-              "kind": "chime",
-              "from": "story",
-              "to": "practice",
-              "start_ms": 38544,
-              "end_ms": 39164
-            },
-            {
-              "kind": "chime",
-              "from": "practice",
-              "to": "story",
-              "start_ms": 235182,
-              "end_ms": 235802
-            }
-          ],
-          "narration": {
-            "engine": "azure",
-            "voice": "en-US-Harper:MAI-Voice-2.1",
-            "style": "audiobook",
-            "rate": "-12%",
-            "locale": "en-US",
-            "capabilities": {
-              "voice": "en-US-Harper:MAI-Voice-2.1",
-              "locale": "en-US",
-              "advertised_styles": [
-                "agent",
-                "angry",
-                "audiobook",
-                "confused",
-                "customer_call_center",
-                "determined",
-                "educational",
-                "embarrassed",
-                "excited",
-                "happy",
-                "hopeful",
-                "joyful",
-                "narrator",
-                "regretful",
-                "relieved",
-                "sad",
-                "shouting",
-                "softvoice",
-                "whispering"
-              ]
-            },
-            "ssml": "<speak xmlns:mstts=\"http://www.w3.org/2001/mstts\" version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"en-US\"><voice name=\"en-US-Harper:MAI-Voice-2.1\"><mstts:express-as style=\"audiobook\"><prosody rate=\"-12%\"><p>The children buy the radio and carry it home. Tom presses the blue button. A little cloud flies out of the radio, and it smells of cinnamon. “Hi, kids!” says a cheerful voice. “My name is Radiophone. In your garden, under the old tree, lives a mouse. It has an important key, and it really loves cheese. Take me with you!”</p></prosody></mstts:express-as></voice></speak>"
-          },
-          "packaged_audio": "swedish-english/audio/stories/magical_radio/02_chapter_02_sv_en_2026-10-29_13-39-49.mp3"
-        },
         "ru": {
           "source_language": "sv",
           "audio_file": "02_chapter_02_sv_ru_2026-10-29_13-41-06.mp3",
@@ -448,6 +365,89 @@
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"ru-RU\"><voice name=\"ru-RU-SvetlanaNeural\"><prosody rate=\"-12%\"><p>Дети покупают радио и несут его домой. Миша нажимает синюю кнопку. Из радио вылетает маленькое облачко, которое пахнет корицей. — Привет, дети! — говорит весёлый голос. — Меня зовут Радиофон. В вашем саду, под старым деревом, живёт мышка. У неё есть важный ключ, и она очень любит сыр. Возьмите меня с собой!</p></prosody></voice></speak>"
           },
           "packaged_audio": "swedish-russian/audio/stories/magical_radio/02_chapter_02_sv_ru_2026-10-29_13-41-06.mp3"
+        },
+        "en": {
+          "source_language": "pl",
+          "audio_file": "02_chapter_02_pl_en_2026-10-29_20-56-15.mp3",
+          "manifest_file": "02_chapter_02_pl_en_2026-10-29_20-56-15.json",
+          "total_duration_ms": 265275,
+          "chapter_reading": {
+            "text": "The children buy the radio and carry it home. Tom presses the blue button. A little cloud flies out of the radio, and it smells of cinnamon. “Hi, kids!” says a cheerful voice. “My name is Radiophone. In your garden, under the old tree, lives a mouse. It has an important key, and it really loves cheese. Take me with you!”",
+            "start_ms": 236859,
+            "end_ms": 265275
+          },
+          "chapter_introduction": {
+            "text": "Chapter two. A Voice from the Radio.",
+            "start_ms": 1000,
+            "end_ms": 5128
+          },
+          "chapter_readings": [
+            {
+              "text": "The children buy the radio and carry it home. Tom presses the blue button. A little cloud flies out of the radio, and it smells of cinnamon. “Hi, kids!” says a cheerful voice. “My name is Radiophone. In your garden, under the old tree, lives a mouse. It has an important key, and it really loves cheese. Take me with you!”",
+              "start_ms": 7628,
+              "end_ms": 36044
+            },
+            {
+              "text": "The children buy the radio and carry it home. Tom presses the blue button. A little cloud flies out of the radio, and it smells of cinnamon. “Hi, kids!” says a cheerful voice. “My name is Radiophone. In your garden, under the old tree, lives a mouse. It has an important key, and it really loves cheese. Take me with you!”",
+              "start_ms": 236859,
+              "end_ms": 265275
+            }
+          ],
+          "sequence": [
+            "story",
+            "practice",
+            "story"
+          ],
+          "transitions": [
+            {
+              "kind": "chime",
+              "from": "story",
+              "to": "practice",
+              "start_ms": 38544,
+              "end_ms": 39164
+            },
+            {
+              "kind": "chime",
+              "from": "practice",
+              "to": "story",
+              "start_ms": 233739,
+              "end_ms": 234359
+            }
+          ],
+          "narration": {
+            "engine": "azure",
+            "voice": "en-US-Harper:MAI-Voice-2.1",
+            "style": "audiobook",
+            "rate": "-12%",
+            "locale": "en-US",
+            "capabilities": {
+              "voice": "en-US-Harper:MAI-Voice-2.1",
+              "locale": "en-US",
+              "advertised_styles": [
+                "agent",
+                "angry",
+                "audiobook",
+                "confused",
+                "customer_call_center",
+                "determined",
+                "educational",
+                "embarrassed",
+                "excited",
+                "happy",
+                "hopeful",
+                "joyful",
+                "narrator",
+                "regretful",
+                "relieved",
+                "sad",
+                "shouting",
+                "softvoice",
+                "whispering"
+              ]
+            },
+            "ssml": "<speak xmlns:mstts=\"http://www.w3.org/2001/mstts\" version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"en-US\"><voice name=\"en-US-Harper:MAI-Voice-2.1\"><mstts:express-as style=\"audiobook\"><prosody rate=\"-12%\"><p>The children buy the radio and carry it home. Tom presses the blue button. A little cloud flies out of the radio, and it smells of cinnamon. “Hi, kids!” says a cheerful voice. “My name is Radiophone. In your garden, under the old tree, lives a mouse. It has an important key, and it really loves cheese. Take me with you!”</p></prosody></mstts:express-as></voice></speak>"
+          },
+          "packaged_audio": "polish-english/audio/stories/magical_radio/02_chapter_02_pl_en_2026-10-29_20-56-15.mp3"
         }
       }
     },
@@ -528,89 +528,6 @@
           },
           "packaged_audio": "swedish-polish/audio/stories/magical_radio/03_chapter_03_sv_pl_2026-10-29_13-36-32.mp3"
         },
-        "en": {
-          "source_language": "sv",
-          "audio_file": "03_chapter_03_sv_en_2026-10-29_13-39-49.mp3",
-          "manifest_file": "03_chapter_03_sv_en_2026-10-29_13-39-49.json",
-          "total_duration_ms": 346311,
-          "chapter_reading": {
-            "text": "It is dark under the tree, so Tom takes a flashlight. Maya takes the radio and some yellow cheese. They go to the big tree in the garden. Tom shines the flashlight under the roots. A little mouse comes out of a hole. “Hello, little mouse!” says Maya. “We have some cheese for you. Will you give us the key?” The mouse gives them a silver key, takes the cheese and points its paw at a pile of leaves. The children brush the leaves aside – between the roots of the tree there is a small, old door!",
-            "start_ms": 306831,
-            "end_ms": 346311
-          },
-          "chapter_introduction": {
-            "text": "Chapter three. A Mouse under the Tree.",
-            "start_ms": 1000,
-            "end_ms": 5152
-          },
-          "chapter_readings": [
-            {
-              "text": "It is dark under the tree, so Tom takes a flashlight. Maya takes the radio and some yellow cheese. They go to the big tree in the garden. Tom shines the flashlight under the roots. A little mouse comes out of a hole. “Hello, little mouse!” says Maya. “We have some cheese for you. Will you give us the key?” The mouse gives them a silver key, takes the cheese and points its paw at a pile of leaves. The children brush the leaves aside – between the roots of the tree there is a small, old door!",
-              "start_ms": 7652,
-              "end_ms": 47132
-            },
-            {
-              "text": "It is dark under the tree, so Tom takes a flashlight. Maya takes the radio and some yellow cheese. They go to the big tree in the garden. Tom shines the flashlight under the roots. A little mouse comes out of a hole. “Hello, little mouse!” says Maya. “We have some cheese for you. Will you give us the key?” The mouse gives them a silver key, takes the cheese and points its paw at a pile of leaves. The children brush the leaves aside – between the roots of the tree there is a small, old door!",
-              "start_ms": 306831,
-              "end_ms": 346311
-            }
-          ],
-          "sequence": [
-            "story",
-            "practice",
-            "story"
-          ],
-          "transitions": [
-            {
-              "kind": "chime",
-              "from": "story",
-              "to": "practice",
-              "start_ms": 49632,
-              "end_ms": 50252
-            },
-            {
-              "kind": "chime",
-              "from": "practice",
-              "to": "story",
-              "start_ms": 303711,
-              "end_ms": 304331
-            }
-          ],
-          "narration": {
-            "engine": "azure",
-            "voice": "en-US-Harper:MAI-Voice-2.1",
-            "style": "audiobook",
-            "rate": "-12%",
-            "locale": "en-US",
-            "capabilities": {
-              "voice": "en-US-Harper:MAI-Voice-2.1",
-              "locale": "en-US",
-              "advertised_styles": [
-                "agent",
-                "angry",
-                "audiobook",
-                "confused",
-                "customer_call_center",
-                "determined",
-                "educational",
-                "embarrassed",
-                "excited",
-                "happy",
-                "hopeful",
-                "joyful",
-                "narrator",
-                "regretful",
-                "relieved",
-                "sad",
-                "shouting",
-                "softvoice",
-                "whispering"
-              ]
-            },
-            "ssml": "<speak xmlns:mstts=\"http://www.w3.org/2001/mstts\" version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"en-US\"><voice name=\"en-US-Harper:MAI-Voice-2.1\"><mstts:express-as style=\"audiobook\"><prosody rate=\"-12%\"><p>It is dark under the tree, so Tom takes a flashlight. Maya takes the radio and some yellow cheese. They go to the big tree in the garden. Tom shines the flashlight under the roots. A little mouse comes out of a hole. “Hello, little mouse!” says Maya. “We have some cheese for you. Will you give us the key?” The mouse gives them a silver key, takes the cheese and points its paw at a pile of leaves. The children brush the leaves aside – between the roots of the tree there is a small, old door!</p></prosody></mstts:express-as></voice></speak>"
-          },
-          "packaged_audio": "swedish-english/audio/stories/magical_radio/03_chapter_03_sv_en_2026-10-29_13-39-49.mp3"
-        },
         "ru": {
           "source_language": "sv",
           "audio_file": "03_chapter_03_sv_ru_2026-10-29_13-41-06.mp3",
@@ -673,6 +590,89 @@
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"ru-RU\"><voice name=\"ru-RU-SvetlanaNeural\"><prosody rate=\"-12%\"><p>Под деревом темно, поэтому Миша берёт фонарик. Маша берёт радио и жёлтый сыр. Они идут к большому дереву в саду. Миша светит фонариком под корни. Из норки выходит маленькая мышка. — Здравствуй, мышка! — говорит Маша. — У нас есть для тебя сыр. Ты дашь нам ключ? Мышка даёт им серебряный ключ, забирает сыр и показывает лапкой на кучку листьев. Дети разгребают листья — между корнями дерева маленькая старая дверь!</p></prosody></voice></speak>"
           },
           "packaged_audio": "swedish-russian/audio/stories/magical_radio/03_chapter_03_sv_ru_2026-10-29_13-41-06.mp3"
+        },
+        "en": {
+          "source_language": "pl",
+          "audio_file": "03_chapter_03_pl_en_2026-10-29_20-56-15.mp3",
+          "manifest_file": "03_chapter_03_pl_en_2026-10-29_20-56-15.json",
+          "total_duration_ms": 340734,
+          "chapter_reading": {
+            "text": "It is dark under the tree, so Tom takes a flashlight. Maya takes the radio and some yellow cheese. They go to the big tree in the garden. Tom shines the flashlight under the roots. A little mouse comes out of a hole. “Hello, little mouse!” says Maya. “We have some cheese for you. Will you give us the key?” The mouse gives them a silver key, takes the cheese and points its paw at a pile of leaves. The children brush the leaves aside – between the roots of the tree there is a small, old door!",
+            "start_ms": 301254,
+            "end_ms": 340734
+          },
+          "chapter_introduction": {
+            "text": "Chapter three. A Mouse under the Tree.",
+            "start_ms": 1000,
+            "end_ms": 5152
+          },
+          "chapter_readings": [
+            {
+              "text": "It is dark under the tree, so Tom takes a flashlight. Maya takes the radio and some yellow cheese. They go to the big tree in the garden. Tom shines the flashlight under the roots. A little mouse comes out of a hole. “Hello, little mouse!” says Maya. “We have some cheese for you. Will you give us the key?” The mouse gives them a silver key, takes the cheese and points its paw at a pile of leaves. The children brush the leaves aside – between the roots of the tree there is a small, old door!",
+              "start_ms": 7652,
+              "end_ms": 47132
+            },
+            {
+              "text": "It is dark under the tree, so Tom takes a flashlight. Maya takes the radio and some yellow cheese. They go to the big tree in the garden. Tom shines the flashlight under the roots. A little mouse comes out of a hole. “Hello, little mouse!” says Maya. “We have some cheese for you. Will you give us the key?” The mouse gives them a silver key, takes the cheese and points its paw at a pile of leaves. The children brush the leaves aside – between the roots of the tree there is a small, old door!",
+              "start_ms": 301254,
+              "end_ms": 340734
+            }
+          ],
+          "sequence": [
+            "story",
+            "practice",
+            "story"
+          ],
+          "transitions": [
+            {
+              "kind": "chime",
+              "from": "story",
+              "to": "practice",
+              "start_ms": 49632,
+              "end_ms": 50252
+            },
+            {
+              "kind": "chime",
+              "from": "practice",
+              "to": "story",
+              "start_ms": 298134,
+              "end_ms": 298754
+            }
+          ],
+          "narration": {
+            "engine": "azure",
+            "voice": "en-US-Harper:MAI-Voice-2.1",
+            "style": "audiobook",
+            "rate": "-12%",
+            "locale": "en-US",
+            "capabilities": {
+              "voice": "en-US-Harper:MAI-Voice-2.1",
+              "locale": "en-US",
+              "advertised_styles": [
+                "agent",
+                "angry",
+                "audiobook",
+                "confused",
+                "customer_call_center",
+                "determined",
+                "educational",
+                "embarrassed",
+                "excited",
+                "happy",
+                "hopeful",
+                "joyful",
+                "narrator",
+                "regretful",
+                "relieved",
+                "sad",
+                "shouting",
+                "softvoice",
+                "whispering"
+              ]
+            },
+            "ssml": "<speak xmlns:mstts=\"http://www.w3.org/2001/mstts\" version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"en-US\"><voice name=\"en-US-Harper:MAI-Voice-2.1\"><mstts:express-as style=\"audiobook\"><prosody rate=\"-12%\"><p>It is dark under the tree, so Tom takes a flashlight. Maya takes the radio and some yellow cheese. They go to the big tree in the garden. Tom shines the flashlight under the roots. A little mouse comes out of a hole. “Hello, little mouse!” says Maya. “We have some cheese for you. Will you give us the key?” The mouse gives them a silver key, takes the cheese and points its paw at a pile of leaves. The children brush the leaves aside – between the roots of the tree there is a small, old door!</p></prosody></mstts:express-as></voice></speak>"
+          },
+          "packaged_audio": "polish-english/audio/stories/magical_radio/03_chapter_03_pl_en_2026-10-29_20-56-15.mp3"
         }
       }
     },
@@ -680,7 +680,7 @@
       "titles": {
         "pl": "Schody w dół",
         "sv": "Trappan ner",
-        "en": "The Stairs Going Down",
+        "en": "Down the Stairs",
         "ru": "Лестница вниз"
       },
       "targets": {
@@ -753,89 +753,6 @@
           },
           "packaged_audio": "swedish-polish/audio/stories/magical_radio/04_chapter_04_sv_pl_2026-10-29_13-36-32.mp3"
         },
-        "en": {
-          "source_language": "sv",
-          "audio_file": "04_chapter_04_sv_en_2026-10-29_13-39-49.mp3",
-          "manifest_file": "04_chapter_04_sv_en_2026-10-29_13-39-49.json",
-          "total_duration_ms": 265140,
-          "chapter_reading": {
-            "text": "Maya turns the key. Click! The door opens. Stone stairs lead down. Flowers that glow blue grow on the walls. The children go down into a big library. There are books everywhere, and some of them fly under the ceiling! One of them glows gold.",
-            "start_ms": 242244,
-            "end_ms": 265140
-          },
-          "chapter_introduction": {
-            "text": "Chapter four. The Stairs Going Down.",
-            "start_ms": 1000,
-            "end_ms": 4048
-          },
-          "chapter_readings": [
-            {
-              "text": "Maya turns the key. Click! The door opens. Stone stairs lead down. Flowers that glow blue grow on the walls. The children go down into a big library. There are books everywhere, and some of them fly under the ceiling! One of them glows gold.",
-              "start_ms": 6548,
-              "end_ms": 29444
-            },
-            {
-              "text": "Maya turns the key. Click! The door opens. Stone stairs lead down. Flowers that glow blue grow on the walls. The children go down into a big library. There are books everywhere, and some of them fly under the ceiling! One of them glows gold.",
-              "start_ms": 242244,
-              "end_ms": 265140
-            }
-          ],
-          "sequence": [
-            "story",
-            "practice",
-            "story"
-          ],
-          "transitions": [
-            {
-              "kind": "chime",
-              "from": "story",
-              "to": "practice",
-              "start_ms": 31944,
-              "end_ms": 32564
-            },
-            {
-              "kind": "chime",
-              "from": "practice",
-              "to": "story",
-              "start_ms": 239124,
-              "end_ms": 239744
-            }
-          ],
-          "narration": {
-            "engine": "azure",
-            "voice": "en-US-Harper:MAI-Voice-2.1",
-            "style": "audiobook",
-            "rate": "-12%",
-            "locale": "en-US",
-            "capabilities": {
-              "voice": "en-US-Harper:MAI-Voice-2.1",
-              "locale": "en-US",
-              "advertised_styles": [
-                "agent",
-                "angry",
-                "audiobook",
-                "confused",
-                "customer_call_center",
-                "determined",
-                "educational",
-                "embarrassed",
-                "excited",
-                "happy",
-                "hopeful",
-                "joyful",
-                "narrator",
-                "regretful",
-                "relieved",
-                "sad",
-                "shouting",
-                "softvoice",
-                "whispering"
-              ]
-            },
-            "ssml": "<speak xmlns:mstts=\"http://www.w3.org/2001/mstts\" version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"en-US\"><voice name=\"en-US-Harper:MAI-Voice-2.1\"><mstts:express-as style=\"audiobook\"><prosody rate=\"-12%\"><p>Maya turns the key. Click! The door opens. Stone stairs lead down. Flowers that glow blue grow on the walls. The children go down into a big library. There are books everywhere, and some of them fly under the ceiling! One of them glows gold.</p></prosody></mstts:express-as></voice></speak>"
-          },
-          "packaged_audio": "swedish-english/audio/stories/magical_radio/04_chapter_04_sv_en_2026-10-29_13-39-49.mp3"
-        },
         "ru": {
           "source_language": "sv",
           "audio_file": "04_chapter_04_sv_ru_2026-10-29_13-41-06.mp3",
@@ -898,6 +815,609 @@
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"ru-RU\"><voice name=\"ru-RU-SvetlanaNeural\"><prosody rate=\"-12%\"><p>Маша поворачивает ключ. Щёлк! Дверь открывается. Вниз ведёт каменная лестница. На стенах растут цветы, которые светятся голубым. Дети спускаются в большую библиотеку. Повсюду стоят книги, а некоторые летают под потолком! Одна из них светится золотым.</p></prosody></voice></speak>"
           },
           "packaged_audio": "swedish-russian/audio/stories/magical_radio/04_chapter_04_sv_ru_2026-10-29_13-41-06.mp3"
+        },
+        "en": {
+          "chapter_number": 4,
+          "title": {
+            "pl": "Schody w dół",
+            "sv": "Trappan ner",
+            "en": "Down the Stairs",
+            "ru": "Лестница вниз"
+          },
+          "source_language": "pl",
+          "target_language": "en",
+          "practice_order": "deterministically_shuffled",
+          "sequence": [
+            "story",
+            "practice",
+            "story"
+          ],
+          "total_duration_ms": 261160,
+          "practice": [
+            {
+              "id": 153,
+              "kind": "vocabulary",
+              "start_ms": 33496,
+              "end_ms": 42545,
+              "prompt_language": "pl",
+              "prompt": {
+                "text": "książki",
+                "start_ms": 33496,
+                "end_ms": 34331
+              },
+              "target_playbacks": [
+                {
+                  "text": "books",
+                  "start_ms": 36331,
+                  "end_ms": 36938
+                },
+                {
+                  "text": "books",
+                  "start_ms": 39438,
+                  "end_ms": 40045
+                }
+              ]
+            },
+            {
+              "id": 45,
+              "kind": "vocabulary",
+              "start_ms": 42545,
+              "end_ms": 51737,
+              "prompt_language": "pl",
+              "prompt": {
+                "text": "otwierać się",
+                "start_ms": 42545,
+                "end_ms": 43565
+              },
+              "target_playbacks": [
+                {
+                  "text": "open",
+                  "start_ms": 45565,
+                  "end_ms": 46151
+                },
+                {
+                  "text": "open",
+                  "start_ms": 48651,
+                  "end_ms": 49237
+                }
+              ]
+            },
+            {
+              "id": 147,
+              "kind": "vocabulary",
+              "start_ms": 51737,
+              "end_ms": 61649,
+              "prompt_language": "pl",
+              "prompt": {
+                "text": "prowadzić w dół",
+                "start_ms": 51737,
+                "end_ms": 52943
+              },
+              "target_playbacks": [
+                {
+                  "text": "lead down",
+                  "start_ms": 54943,
+                  "end_ms": 55796
+                },
+                {
+                  "text": "lead down",
+                  "start_ms": 58296,
+                  "end_ms": 59149
+                }
+              ]
+            },
+            {
+              "id": 227,
+              "kind": "vocabulary",
+              "start_ms": 61649,
+              "end_ms": 71937,
+              "prompt_language": "pl",
+              "prompt": {
+                "text": "świecić na złoto",
+                "start_ms": 61649,
+                "end_ms": 63065
+              },
+              "target_playbacks": [
+                {
+                  "text": "glow gold",
+                  "start_ms": 65065,
+                  "end_ms": 66001
+                },
+                {
+                  "text": "glow gold",
+                  "start_ms": 68501,
+                  "end_ms": 69437
+                }
+              ]
+            },
+            {
+              "id": 226,
+              "kind": "vocabulary",
+              "start_ms": 71937,
+              "end_ms": 81751,
+              "prompt_language": "pl",
+              "prompt": {
+                "text": "jedna z nich",
+                "start_ms": 71937,
+                "end_ms": 72965
+              },
+              "target_playbacks": [
+                {
+                  "text": "one of them",
+                  "start_ms": 74965,
+                  "end_ms": 75858
+                },
+                {
+                  "text": "one of them",
+                  "start_ms": 78358,
+                  "end_ms": 79251
+                }
+              ]
+            },
+            {
+              "id": 154,
+              "kind": "vocabulary",
+              "start_ms": 81751,
+              "end_ms": 90604,
+              "prompt_language": "pl",
+              "prompt": {
+                "text": "niektóre",
+                "start_ms": 81751,
+                "end_ms": 82530
+              },
+              "target_playbacks": [
+                {
+                  "text": "some",
+                  "start_ms": 84530,
+                  "end_ms": 85067
+                },
+                {
+                  "text": "some",
+                  "start_ms": 87567,
+                  "end_ms": 88104
+                }
+              ]
+            },
+            {
+              "id": 150,
+              "kind": "vocabulary",
+              "start_ms": 90604,
+              "end_ms": 99907,
+              "prompt_language": "pl",
+              "prompt": {
+                "text": "schodzić",
+                "start_ms": 90604,
+                "end_ms": 91439
+              },
+              "target_playbacks": [
+                {
+                  "text": "go down",
+                  "start_ms": 93439,
+                  "end_ms": 94173
+                },
+                {
+                  "text": "go down",
+                  "start_ms": 96673,
+                  "end_ms": 97407
+                }
+              ]
+            },
+            {
+              "id": 204,
+              "kind": "vocabulary",
+              "start_ms": 99907,
+              "end_ms": 110192,
+              "prompt_language": "pl",
+              "prompt": {
+                "text": "świecić na niebiesko",
+                "start_ms": 99907,
+                "end_ms": 101552
+              },
+              "target_playbacks": [
+                {
+                  "text": "glow blue",
+                  "start_ms": 103552,
+                  "end_ms": 104372
+                },
+                {
+                  "text": "glow blue",
+                  "start_ms": 106872,
+                  "end_ms": 107692
+                }
+              ]
+            },
+            {
+              "id": 46,
+              "kind": "vocabulary",
+              "start_ms": 110192,
+              "end_ms": 120894,
+              "prompt_language": "pl",
+              "prompt": {
+                "text": "kamienne schody",
+                "start_ms": 110192,
+                "end_ms": 111452
+              },
+              "target_playbacks": [
+                {
+                  "text": "stone stairs",
+                  "start_ms": 113452,
+                  "end_ms": 114673
+                },
+                {
+                  "text": "stone stairs",
+                  "start_ms": 117173,
+                  "end_ms": 118394
+                }
+              ]
+            },
+            {
+              "id": 44,
+              "kind": "vocabulary",
+              "start_ms": 120894,
+              "end_ms": 131111,
+              "prompt_language": "pl",
+              "prompt": {
+                "text": "przekręcić klucz",
+                "start_ms": 120894,
+                "end_ms": 122231
+              },
+              "target_playbacks": [
+                {
+                  "text": "turn the key",
+                  "start_ms": 124231,
+                  "end_ms": 125171
+                },
+                {
+                  "text": "turn the key",
+                  "start_ms": 127671,
+                  "end_ms": 128611
+                }
+              ]
+            },
+            {
+              "id": 149,
+              "kind": "vocabulary",
+              "start_ms": 131111,
+              "end_ms": 139984,
+              "prompt_language": "pl",
+              "prompt": {
+                "text": "rosnąć",
+                "start_ms": 131111,
+                "end_ms": 131960
+              },
+              "target_playbacks": [
+                {
+                  "text": "grow",
+                  "start_ms": 133960,
+                  "end_ms": 134472
+                },
+                {
+                  "text": "grow",
+                  "start_ms": 136972,
+                  "end_ms": 137484
+                }
+              ]
+            },
+            {
+              "id": 47,
+              "kind": "vocabulary",
+              "start_ms": 139984,
+              "end_ms": 150855,
+              "prompt_language": "pl",
+              "prompt": {
+                "text": "świecące kwiaty",
+                "start_ms": 139984,
+                "end_ms": 141387
+              },
+              "target_playbacks": [
+                {
+                  "text": "glowing flowers",
+                  "start_ms": 143387,
+                  "end_ms": 144621
+                },
+                {
+                  "text": "glowing flowers",
+                  "start_ms": 147121,
+                  "end_ms": 148355
+                }
+              ]
+            },
+            {
+              "id": 148,
+              "kind": "vocabulary",
+              "start_ms": 150855,
+              "end_ms": 159948,
+              "prompt_language": "pl",
+              "prompt": {
+                "text": "ściana",
+                "start_ms": 150855,
+                "end_ms": 151594
+              },
+              "target_playbacks": [
+                {
+                  "text": "a wall",
+                  "start_ms": 153594,
+                  "end_ms": 154271
+                },
+                {
+                  "text": "a wall",
+                  "start_ms": 156771,
+                  "end_ms": 157448
+                }
+              ]
+            },
+            {
+              "id": 225,
+              "kind": "vocabulary",
+              "start_ms": 159948,
+              "end_ms": 170743,
+              "prompt_language": "pl",
+              "prompt": {
+                "text": "wielka biblioteka",
+                "start_ms": 159948,
+                "end_ms": 161457
+              },
+              "target_playbacks": [
+                {
+                  "text": "a big library",
+                  "start_ms": 163457,
+                  "end_ms": 164600
+                },
+                {
+                  "text": "a big library",
+                  "start_ms": 167100,
+                  "end_ms": 168243
+                }
+              ]
+            },
+            {
+              "id": 48,
+              "kind": "vocabulary",
+              "start_ms": 170743,
+              "end_ms": 179777,
+              "prompt_language": "pl",
+              "prompt": {
+                "text": "sufit",
+                "start_ms": 170743,
+                "end_ms": 171450
+              },
+              "target_playbacks": [
+                {
+                  "text": "ceiling",
+                  "start_ms": 173450,
+                  "end_ms": 174113
+                },
+                {
+                  "text": "ceiling",
+                  "start_ms": 176613,
+                  "end_ms": 177277
+                }
+              ]
+            },
+            {
+              "id": 202,
+              "kind": "vocabulary",
+              "start_ms": 179777,
+              "end_ms": 188862,
+              "prompt_language": "pl",
+              "prompt": {
+                "text": "stać",
+                "start_ms": 179777,
+                "end_ms": 180410
+              },
+              "target_playbacks": [
+                {
+                  "text": "stand",
+                  "start_ms": 182410,
+                  "end_ms": 183136
+                },
+                {
+                  "text": "stand",
+                  "start_ms": 185636,
+                  "end_ms": 186362
+                }
+              ]
+            },
+            {
+              "id": 203,
+              "kind": "vocabulary",
+              "start_ms": 188862,
+              "end_ms": 198893,
+              "prompt_language": "pl",
+              "prompt": {
+                "text": "na ścianach",
+                "start_ms": 188862,
+                "end_ms": 189923
+              },
+              "target_playbacks": [
+                {
+                  "text": "on the walls",
+                  "start_ms": 191923,
+                  "end_ms": 192908
+                },
+                {
+                  "text": "on the walls",
+                  "start_ms": 195408,
+                  "end_ms": 196393
+                }
+              ]
+            },
+            {
+              "id": 146,
+              "kind": "vocabulary",
+              "start_ms": 198893,
+              "end_ms": 207470,
+              "prompt_language": "pl",
+              "prompt": {
+                "text": "klik!",
+                "start_ms": 198893,
+                "end_ms": 199470
+              },
+              "target_playbacks": [
+                {
+                  "text": "click!",
+                  "start_ms": 201470,
+                  "end_ms": 201970
+                },
+                {
+                  "text": "click!",
+                  "start_ms": 204470,
+                  "end_ms": 204970
+                }
+              ]
+            },
+            {
+              "id": 152,
+              "kind": "vocabulary",
+              "start_ms": 207470,
+              "end_ms": 216904,
+              "prompt_language": "pl",
+              "prompt": {
+                "text": "wszędzie",
+                "start_ms": 207470,
+                "end_ms": 208178
+              },
+              "target_playbacks": [
+                {
+                  "text": "everywhere",
+                  "start_ms": 210178,
+                  "end_ms": 211041
+                },
+                {
+                  "text": "everywhere",
+                  "start_ms": 213541,
+                  "end_ms": 214404
+                }
+              ]
+            },
+            {
+              "id": 155,
+              "kind": "vocabulary",
+              "start_ms": 216904,
+              "end_ms": 225766,
+              "prompt_language": "pl",
+              "prompt": {
+                "text": "latać",
+                "start_ms": 216904,
+                "end_ms": 217620
+              },
+              "target_playbacks": [
+                {
+                  "text": "fly",
+                  "start_ms": 219620,
+                  "end_ms": 220193
+                },
+                {
+                  "text": "fly",
+                  "start_ms": 222693,
+                  "end_ms": 223266
+                }
+              ]
+            },
+            {
+              "id": 156,
+              "kind": "vocabulary",
+              "start_ms": 225766,
+              "end_ms": 236040,
+              "prompt_language": "pl",
+              "prompt": {
+                "text": "pod sufitem",
+                "start_ms": 225766,
+                "end_ms": 226826
+              },
+              "target_playbacks": [
+                {
+                  "text": "under the ceiling",
+                  "start_ms": 228826,
+                  "end_ms": 229933
+                },
+                {
+                  "text": "under the ceiling",
+                  "start_ms": 232433,
+                  "end_ms": 233540
+                }
+              ]
+            }
+          ],
+          "book_introduction": null,
+          "chapter_introduction": {
+            "text": "Chapter four. Down the Stairs.",
+            "start_ms": 1000,
+            "end_ms": 3376
+          },
+          "transitions": [
+            {
+              "kind": "chime",
+              "from": "story",
+              "to": "practice",
+              "start_ms": 30376,
+              "end_ms": 30996
+            },
+            {
+              "kind": "chime",
+              "from": "practice",
+              "to": "story",
+              "start_ms": 236040,
+              "end_ms": 236660
+            }
+          ],
+          "chapter_readings": [
+            {
+              "text": "Maya turns the key. Click! The door opens. Stone stairs lead down. Flowers that glow blue grow on the walls. The children go down into a big library. There are books everywhere, and some of them fly under the ceiling! One of them glows gold.",
+              "start_ms": 5876,
+              "end_ms": 27876
+            },
+            {
+              "text": "Maya turns the key. Click! The door opens. Stone stairs lead down. Flowers that glow blue grow on the walls. The children go down into a big library. There are books everywhere, and some of them fly under the ceiling! One of them glows gold.",
+              "start_ms": 239160,
+              "end_ms": 261160
+            }
+          ],
+          "chapter_reading": {
+            "text": "Maya turns the key. Click! The door opens. Stone stairs lead down. Flowers that glow blue grow on the walls. The children go down into a big library. There are books everywhere, and some of them fly under the ceiling! One of them glows gold.",
+            "start_ms": 239160,
+            "end_ms": 261160
+          },
+          "narration": {
+            "engine": "azure",
+            "voice": "en-US-Harper:MAI-Voice-2.1",
+            "style": "audiobook",
+            "rate": "-12%",
+            "locale": "en-US",
+            "capabilities": {
+              "voice": "en-US-Harper:MAI-Voice-2.1",
+              "locale": "en-US",
+              "advertised_styles": [
+                "agent",
+                "angry",
+                "audiobook",
+                "confused",
+                "customer_call_center",
+                "determined",
+                "educational",
+                "embarrassed",
+                "excited",
+                "happy",
+                "hopeful",
+                "joyful",
+                "narrator",
+                "regretful",
+                "relieved",
+                "sad",
+                "shouting",
+                "softvoice",
+                "whispering"
+              ]
+            },
+            "ssml": "<speak xmlns:mstts=\"http://www.w3.org/2001/mstts\" version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"en-US\"><voice name=\"en-US-Harper:MAI-Voice-2.1\"><mstts:express-as style=\"audiobook\"><prosody rate=\"-12%\"><p>Maya turns the key. Click! The door opens. Stone stairs lead down. Flowers that glow blue grow on the walls. The children go down into a big library. There are books everywhere, and some of them fly under the ceiling! One of them glows gold.</p></prosody></mstts:express-as></voice></speak>",
+            "audio_edit": {
+              "kind": "trim_unscripted_tail",
+              "original_duration_ms": 22896,
+              "retained_duration_ms": 22000
+            }
+          },
+          "audio_file": "04_chapter_04_pl_en_2026-10-29_21-10-20.mp3",
+          "packaged_audio": "polish-english/audio/stories/magical_radio/04_chapter_04_pl_en_2026-10-29_21-10-20.mp3"
         }
       }
     },
@@ -978,89 +1498,6 @@
           },
           "packaged_audio": "swedish-polish/audio/stories/magical_radio/05_chapter_05_sv_pl_2026-10-29_13-36-32.mp3"
         },
-        "en": {
-          "source_language": "sv",
-          "audio_file": "05_chapter_05_sv_en_2026-10-29_13-39-49.mp3",
-          "manifest_file": "05_chapter_05_sv_en_2026-10-29_13-39-49.json",
-          "total_duration_ms": 264119,
-          "chapter_reading": {
-            "text": "The golden book flaps its pages and lands on Maya’s shoulder. Radiophone speaks up immediately: “This book teaches an important spell. The word is: Reparo! It repairs every broken thing.” Tom takes his old, broken compass out of his pocket. He always has it with him.",
-            "start_ms": 240455,
-            "end_ms": 264119
-          },
-          "chapter_introduction": {
-            "text": "Chapter five. The Flying Book.",
-            "start_ms": 1000,
-            "end_ms": 3232
-          },
-          "chapter_readings": [
-            {
-              "text": "The golden book flaps its pages and lands on Maya’s shoulder. Radiophone speaks up immediately: “This book teaches an important spell. The word is: Reparo! It repairs every broken thing.” Tom takes his old, broken compass out of his pocket. He always has it with him.",
-              "start_ms": 5732,
-              "end_ms": 29396
-            },
-            {
-              "text": "The golden book flaps its pages and lands on Maya’s shoulder. Radiophone speaks up immediately: “This book teaches an important spell. The word is: Reparo! It repairs every broken thing.” Tom takes his old, broken compass out of his pocket. He always has it with him.",
-              "start_ms": 240455,
-              "end_ms": 264119
-            }
-          ],
-          "sequence": [
-            "story",
-            "practice",
-            "story"
-          ],
-          "transitions": [
-            {
-              "kind": "chime",
-              "from": "story",
-              "to": "practice",
-              "start_ms": 31896,
-              "end_ms": 32516
-            },
-            {
-              "kind": "chime",
-              "from": "practice",
-              "to": "story",
-              "start_ms": 237335,
-              "end_ms": 237955
-            }
-          ],
-          "narration": {
-            "engine": "azure",
-            "voice": "en-US-Harper:MAI-Voice-2.1",
-            "style": "audiobook",
-            "rate": "-12%",
-            "locale": "en-US",
-            "capabilities": {
-              "voice": "en-US-Harper:MAI-Voice-2.1",
-              "locale": "en-US",
-              "advertised_styles": [
-                "agent",
-                "angry",
-                "audiobook",
-                "confused",
-                "customer_call_center",
-                "determined",
-                "educational",
-                "embarrassed",
-                "excited",
-                "happy",
-                "hopeful",
-                "joyful",
-                "narrator",
-                "regretful",
-                "relieved",
-                "sad",
-                "shouting",
-                "softvoice",
-                "whispering"
-              ]
-            },
-            "ssml": "<speak xmlns:mstts=\"http://www.w3.org/2001/mstts\" version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"en-US\"><voice name=\"en-US-Harper:MAI-Voice-2.1\"><mstts:express-as style=\"audiobook\"><prosody rate=\"-12%\"><p>The golden book flaps its pages and lands on Maya’s shoulder. Radiophone speaks up immediately: “This book teaches an important spell. The word is: Reparo! It repairs every broken thing.” Tom takes his old, broken compass out of his pocket. He always has it with him.</p></prosody></mstts:express-as></voice></speak>"
-          },
-          "packaged_audio": "swedish-english/audio/stories/magical_radio/05_chapter_05_sv_en_2026-10-29_13-39-49.mp3"
-        },
         "ru": {
           "source_language": "sv",
           "audio_file": "05_chapter_05_sv_ru_2026-10-29_13-41-06.mp3",
@@ -1123,6 +1560,89 @@
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"ru-RU\"><voice name=\"ru-RU-SvetlanaNeural\"><prosody rate=\"-12%\"><p>Золотая книга машет страницами и приземляется Маше на плечо. Радиофон сразу говорит: — Эта книга учит важному заклинанию. Вот это слово: Репаро! Оно чинит любую сломанную вещь. Миша достаёт из кармана свой старый сломанный компас. Он всегда носит его с собой.</p></prosody></voice></speak>"
           },
           "packaged_audio": "swedish-russian/audio/stories/magical_radio/05_chapter_05_sv_ru_2026-10-29_13-41-06.mp3"
+        },
+        "en": {
+          "source_language": "pl",
+          "audio_file": "05_chapter_05_pl_en_2026-10-29_20-56-15.mp3",
+          "manifest_file": "05_chapter_05_pl_en_2026-10-29_20-56-15.json",
+          "total_duration_ms": 261934,
+          "chapter_reading": {
+            "text": "The golden book flaps its pages and lands on Maya’s shoulder. Radiophone speaks up immediately: “This book teaches an important spell. The word is: Reparo! It repairs every broken thing.” Tom takes his old, broken compass out of his pocket. He always has it with him.",
+            "start_ms": 238270,
+            "end_ms": 261934
+          },
+          "chapter_introduction": {
+            "text": "Chapter five. The Flying Book.",
+            "start_ms": 1000,
+            "end_ms": 3232
+          },
+          "chapter_readings": [
+            {
+              "text": "The golden book flaps its pages and lands on Maya’s shoulder. Radiophone speaks up immediately: “This book teaches an important spell. The word is: Reparo! It repairs every broken thing.” Tom takes his old, broken compass out of his pocket. He always has it with him.",
+              "start_ms": 5732,
+              "end_ms": 29396
+            },
+            {
+              "text": "The golden book flaps its pages and lands on Maya’s shoulder. Radiophone speaks up immediately: “This book teaches an important spell. The word is: Reparo! It repairs every broken thing.” Tom takes his old, broken compass out of his pocket. He always has it with him.",
+              "start_ms": 238270,
+              "end_ms": 261934
+            }
+          ],
+          "sequence": [
+            "story",
+            "practice",
+            "story"
+          ],
+          "transitions": [
+            {
+              "kind": "chime",
+              "from": "story",
+              "to": "practice",
+              "start_ms": 31896,
+              "end_ms": 32516
+            },
+            {
+              "kind": "chime",
+              "from": "practice",
+              "to": "story",
+              "start_ms": 235150,
+              "end_ms": 235770
+            }
+          ],
+          "narration": {
+            "engine": "azure",
+            "voice": "en-US-Harper:MAI-Voice-2.1",
+            "style": "audiobook",
+            "rate": "-12%",
+            "locale": "en-US",
+            "capabilities": {
+              "voice": "en-US-Harper:MAI-Voice-2.1",
+              "locale": "en-US",
+              "advertised_styles": [
+                "agent",
+                "angry",
+                "audiobook",
+                "confused",
+                "customer_call_center",
+                "determined",
+                "educational",
+                "embarrassed",
+                "excited",
+                "happy",
+                "hopeful",
+                "joyful",
+                "narrator",
+                "regretful",
+                "relieved",
+                "sad",
+                "shouting",
+                "softvoice",
+                "whispering"
+              ]
+            },
+            "ssml": "<speak xmlns:mstts=\"http://www.w3.org/2001/mstts\" version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"en-US\"><voice name=\"en-US-Harper:MAI-Voice-2.1\"><mstts:express-as style=\"audiobook\"><prosody rate=\"-12%\"><p>The golden book flaps its pages and lands on Maya’s shoulder. Radiophone speaks up immediately: “This book teaches an important spell. The word is: Reparo! It repairs every broken thing.” Tom takes his old, broken compass out of his pocket. He always has it with him.</p></prosody></mstts:express-as></voice></speak>"
+          },
+          "packaged_audio": "polish-english/audio/stories/magical_radio/05_chapter_05_pl_en_2026-10-29_20-56-15.mp3"
         }
       }
     },
@@ -1203,89 +1723,6 @@
           },
           "packaged_audio": "swedish-polish/audio/stories/magical_radio/06_chapter_06_sv_pl_2026-10-29_13-36-32.mp3"
         },
-        "en": {
-          "source_language": "sv",
-          "audio_file": "06_chapter_06_sv_en_2026-10-29_13-39-49.mp3",
-          "manifest_file": "06_chapter_06_sv_en_2026-10-29_13-39-49.json",
-          "total_duration_ms": 209151,
-          "chapter_reading": {
-            "text": "Tom holds the compass. The children say together: “Reparo!” A golden spark flashes. The compass is whole again! The compass needle spins and points to a green door. “It works!” shouts Tom. Radiophone says: “Behind the door, someone is waiting for your help.”",
-            "start_ms": 185536,
-            "end_ms": 209151
-          },
-          "chapter_introduction": {
-            "text": "Chapter six. The First Spell.",
-            "start_ms": 1000,
-            "end_ms": 3184
-          },
-          "chapter_readings": [
-            {
-              "text": "Tom holds the compass. The children say together: “Reparo!” A golden spark flashes. The compass is whole again! The compass needle spins and points to a green door. “It works!” shouts Tom. Radiophone says: “Behind the door, someone is waiting for your help.”",
-              "start_ms": 5684,
-              "end_ms": 29300
-            },
-            {
-              "text": "Tom holds the compass. The children say together: “Reparo!” A golden spark flashes. The compass is whole again! The compass needle spins and points to a green door. “It works!” shouts Tom. Radiophone says: “Behind the door, someone is waiting for your help.”",
-              "start_ms": 185536,
-              "end_ms": 209151
-            }
-          ],
-          "sequence": [
-            "story",
-            "practice",
-            "story"
-          ],
-          "transitions": [
-            {
-              "kind": "chime",
-              "from": "story",
-              "to": "practice",
-              "start_ms": 31800,
-              "end_ms": 32420
-            },
-            {
-              "kind": "chime",
-              "from": "practice",
-              "to": "story",
-              "start_ms": 182416,
-              "end_ms": 183036
-            }
-          ],
-          "narration": {
-            "engine": "azure",
-            "voice": "en-US-Harper:MAI-Voice-2.1",
-            "style": "audiobook",
-            "rate": "-12%",
-            "locale": "en-US",
-            "capabilities": {
-              "voice": "en-US-Harper:MAI-Voice-2.1",
-              "locale": "en-US",
-              "advertised_styles": [
-                "agent",
-                "angry",
-                "audiobook",
-                "confused",
-                "customer_call_center",
-                "determined",
-                "educational",
-                "embarrassed",
-                "excited",
-                "happy",
-                "hopeful",
-                "joyful",
-                "narrator",
-                "regretful",
-                "relieved",
-                "sad",
-                "shouting",
-                "softvoice",
-                "whispering"
-              ]
-            },
-            "ssml": "<speak xmlns:mstts=\"http://www.w3.org/2001/mstts\" version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"en-US\"><voice name=\"en-US-Harper:MAI-Voice-2.1\"><mstts:express-as style=\"audiobook\"><prosody rate=\"-12%\"><p>Tom holds the compass. The children say together: “Reparo!” A golden spark flashes. The compass is whole again! The compass needle spins and points to a green door. “It works!” shouts Tom. Radiophone says: “Behind the door, someone is waiting for your help.”</p></prosody></mstts:express-as></voice></speak>"
-          },
-          "packaged_audio": "swedish-english/audio/stories/magical_radio/06_chapter_06_sv_en_2026-10-29_13-39-49.mp3"
-        },
         "ru": {
           "source_language": "sv",
           "audio_file": "06_chapter_06_sv_ru_2026-10-29_13-41-06.mp3",
@@ -1348,6 +1785,89 @@
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"ru-RU\"><voice name=\"ru-RU-SvetlanaNeural\"><prosody rate=\"-12%\"><p>Миша держит компас. Дети вместе говорят: — Репаро! Вспыхивает золотая искра. Компас снова целый! Стрелка компаса крутится и показывает на зелёную дверь. — Работает! — кричит Миша. Радиофон говорит: — За дверью кто-то ждёт вашей помощи.</p></prosody></voice></speak>"
           },
           "packaged_audio": "swedish-russian/audio/stories/magical_radio/06_chapter_06_sv_ru_2026-10-29_13-41-06.mp3"
+        },
+        "en": {
+          "source_language": "pl",
+          "audio_file": "06_chapter_06_pl_en_2026-10-29_20-56-15.mp3",
+          "manifest_file": "06_chapter_06_pl_en_2026-10-29_20-56-15.json",
+          "total_duration_ms": 207599,
+          "chapter_reading": {
+            "text": "Tom holds the compass. The children say together: “Reparo!” A golden spark flashes. The compass is whole again! The compass needle spins and points to a green door. “It works!” shouts Tom. Radiophone says: “Behind the door, someone is waiting for your help.”",
+            "start_ms": 183983,
+            "end_ms": 207599
+          },
+          "chapter_introduction": {
+            "text": "Chapter six. The First Spell.",
+            "start_ms": 1000,
+            "end_ms": 3184
+          },
+          "chapter_readings": [
+            {
+              "text": "Tom holds the compass. The children say together: “Reparo!” A golden spark flashes. The compass is whole again! The compass needle spins and points to a green door. “It works!” shouts Tom. Radiophone says: “Behind the door, someone is waiting for your help.”",
+              "start_ms": 5684,
+              "end_ms": 29300
+            },
+            {
+              "text": "Tom holds the compass. The children say together: “Reparo!” A golden spark flashes. The compass is whole again! The compass needle spins and points to a green door. “It works!” shouts Tom. Radiophone says: “Behind the door, someone is waiting for your help.”",
+              "start_ms": 183983,
+              "end_ms": 207599
+            }
+          ],
+          "sequence": [
+            "story",
+            "practice",
+            "story"
+          ],
+          "transitions": [
+            {
+              "kind": "chime",
+              "from": "story",
+              "to": "practice",
+              "start_ms": 31800,
+              "end_ms": 32420
+            },
+            {
+              "kind": "chime",
+              "from": "practice",
+              "to": "story",
+              "start_ms": 180863,
+              "end_ms": 181483
+            }
+          ],
+          "narration": {
+            "engine": "azure",
+            "voice": "en-US-Harper:MAI-Voice-2.1",
+            "style": "audiobook",
+            "rate": "-12%",
+            "locale": "en-US",
+            "capabilities": {
+              "voice": "en-US-Harper:MAI-Voice-2.1",
+              "locale": "en-US",
+              "advertised_styles": [
+                "agent",
+                "angry",
+                "audiobook",
+                "confused",
+                "customer_call_center",
+                "determined",
+                "educational",
+                "embarrassed",
+                "excited",
+                "happy",
+                "hopeful",
+                "joyful",
+                "narrator",
+                "regretful",
+                "relieved",
+                "sad",
+                "shouting",
+                "softvoice",
+                "whispering"
+              ]
+            },
+            "ssml": "<speak xmlns:mstts=\"http://www.w3.org/2001/mstts\" version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"en-US\"><voice name=\"en-US-Harper:MAI-Voice-2.1\"><mstts:express-as style=\"audiobook\"><prosody rate=\"-12%\"><p>Tom holds the compass. The children say together: “Reparo!” A golden spark flashes. The compass is whole again! The compass needle spins and points to a green door. “It works!” shouts Tom. Radiophone says: “Behind the door, someone is waiting for your help.”</p></prosody></mstts:express-as></voice></speak>"
+          },
+          "packaged_audio": "polish-english/audio/stories/magical_radio/06_chapter_06_pl_en_2026-10-29_20-56-15.mp3"
         }
       }
     },
@@ -1428,89 +1948,6 @@
           },
           "packaged_audio": "swedish-polish/audio/stories/magical_radio/07_chapter_07_sv_pl_2026-10-29_13-36-32.mp3"
         },
-        "en": {
-          "source_language": "sv",
-          "audio_file": "07_chapter_07_sv_en_2026-10-29_13-39-49.mp3",
-          "manifest_file": "07_chapter_07_sv_en_2026-10-29_13-39-49.json",
-          "total_duration_ms": 337580,
-          "chapter_reading": {
-            "text": "The children open the green door and go into an underground garden. A golden bird sits on a branch. It does not sing. It only ticks like a clock: Tick-tock, tick-tock. On one wing it has a shiny blue stone. On the other wing there is an empty spot. Maya looks at the radio. The radio’s blue button looks exactly like the bird’s stone! “Radiophone, where did you get this button?” asks Maya. “It is the bird’s stone,” says Radiophone. “Long ago, it fell out of the bird’s wing. Someone made it into my button. I was waiting for you, so I could give it back!”",
-            "start_ms": 293204,
-            "end_ms": 337580
-          },
-          "chapter_introduction": {
-            "text": "Chapter seven. The Golden Bird.",
-            "start_ms": 1000,
-            "end_ms": 3496
-          },
-          "chapter_readings": [
-            {
-              "text": "The children open the green door and go into an underground garden. A golden bird sits on a branch. It does not sing. It only ticks like a clock: Tick-tock, tick-tock. On one wing it has a shiny blue stone. On the other wing there is an empty spot. Maya looks at the radio. The radio’s blue button looks exactly like the bird’s stone! “Radiophone, where did you get this button?” asks Maya. “It is the bird’s stone,” says Radiophone. “Long ago, it fell out of the bird’s wing. Someone made it into my button. I was waiting for you, so I could give it back!”",
-              "start_ms": 5996,
-              "end_ms": 50372
-            },
-            {
-              "text": "The children open the green door and go into an underground garden. A golden bird sits on a branch. It does not sing. It only ticks like a clock: Tick-tock, tick-tock. On one wing it has a shiny blue stone. On the other wing there is an empty spot. Maya looks at the radio. The radio’s blue button looks exactly like the bird’s stone! “Radiophone, where did you get this button?” asks Maya. “It is the bird’s stone,” says Radiophone. “Long ago, it fell out of the bird’s wing. Someone made it into my button. I was waiting for you, so I could give it back!”",
-              "start_ms": 293204,
-              "end_ms": 337580
-            }
-          ],
-          "sequence": [
-            "story",
-            "practice",
-            "story"
-          ],
-          "transitions": [
-            {
-              "kind": "chime",
-              "from": "story",
-              "to": "practice",
-              "start_ms": 52872,
-              "end_ms": 53492
-            },
-            {
-              "kind": "chime",
-              "from": "practice",
-              "to": "story",
-              "start_ms": 290084,
-              "end_ms": 290704
-            }
-          ],
-          "narration": {
-            "engine": "azure",
-            "voice": "en-US-Harper:MAI-Voice-2.1",
-            "style": "audiobook",
-            "rate": "-12%",
-            "locale": "en-US",
-            "capabilities": {
-              "voice": "en-US-Harper:MAI-Voice-2.1",
-              "locale": "en-US",
-              "advertised_styles": [
-                "agent",
-                "angry",
-                "audiobook",
-                "confused",
-                "customer_call_center",
-                "determined",
-                "educational",
-                "embarrassed",
-                "excited",
-                "happy",
-                "hopeful",
-                "joyful",
-                "narrator",
-                "regretful",
-                "relieved",
-                "sad",
-                "shouting",
-                "softvoice",
-                "whispering"
-              ]
-            },
-            "ssml": "<speak xmlns:mstts=\"http://www.w3.org/2001/mstts\" version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"en-US\"><voice name=\"en-US-Harper:MAI-Voice-2.1\"><mstts:express-as style=\"audiobook\"><prosody rate=\"-12%\"><p>The children open the green door and go into an underground garden. A golden bird sits on a branch. It does not sing. It only ticks like a clock: Tick-tock, tick-tock. On one wing it has a shiny blue stone. On the other wing there is an empty spot. Maya looks at the radio. The radio’s blue button looks exactly like the bird’s stone! “Radiophone, where did you get this button?” asks Maya. “It is the bird’s stone,” says Radiophone. “Long ago, it fell out of the bird’s wing. Someone made it into my button. I was waiting for you, so I could give it back!”</p></prosody></mstts:express-as></voice></speak>"
-          },
-          "packaged_audio": "swedish-english/audio/stories/magical_radio/07_chapter_07_sv_en_2026-10-29_13-39-49.mp3"
-        },
         "ru": {
           "source_language": "sv",
           "audio_file": "07_chapter_07_sv_ru_2026-10-29_13-41-06.mp3",
@@ -1573,6 +2010,89 @@
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"ru-RU\"><voice name=\"ru-RU-SvetlanaNeural\"><prosody rate=\"-12%\"><p>Дети открывают зелёную дверь и входят в подземный сад. На ветке сидит золотая птица. Она не поёт, а только тикает, как часы: Тик-так, тик-так. На одном крыле у неё блестящий синий камешек. На другом крыле — пустое место. Маша смотрит на радио. Синяя кнопка радио выглядит точно как камешек птицы! — Радиофон, откуда у тебя эта кнопка? — спрашивает Маша. — Это камешек птицы, — говорит Радиофон. — Давным-давно он выпал у птицы из крыла. Кто-то сделал из него мою кнопку. Я ждал вас, чтобы его вернуть!</p></prosody></voice></speak>"
           },
           "packaged_audio": "swedish-russian/audio/stories/magical_radio/07_chapter_07_sv_ru_2026-10-29_13-41-06.mp3"
+        },
+        "en": {
+          "source_language": "pl",
+          "audio_file": "07_chapter_07_pl_en_2026-10-29_20-56-15.mp3",
+          "manifest_file": "07_chapter_07_pl_en_2026-10-29_20-56-15.json",
+          "total_duration_ms": 332969,
+          "chapter_reading": {
+            "text": "The children open the green door and go into an underground garden. A golden bird sits on a branch. It does not sing. It only ticks like a clock: Tick-tock, tick-tock. On one wing it has a shiny blue stone. On the other wing there is an empty spot. Maya looks at the radio. The radio’s blue button looks exactly like the bird’s stone! “Radiophone, where did you get this button?” asks Maya. “It is the bird’s stone,” says Radiophone. “Long ago, it fell out of the bird’s wing. Someone made it into my button. I was waiting for you, so I could give it back!”",
+            "start_ms": 288593,
+            "end_ms": 332969
+          },
+          "chapter_introduction": {
+            "text": "Chapter seven. The Golden Bird.",
+            "start_ms": 1000,
+            "end_ms": 3496
+          },
+          "chapter_readings": [
+            {
+              "text": "The children open the green door and go into an underground garden. A golden bird sits on a branch. It does not sing. It only ticks like a clock: Tick-tock, tick-tock. On one wing it has a shiny blue stone. On the other wing there is an empty spot. Maya looks at the radio. The radio’s blue button looks exactly like the bird’s stone! “Radiophone, where did you get this button?” asks Maya. “It is the bird’s stone,” says Radiophone. “Long ago, it fell out of the bird’s wing. Someone made it into my button. I was waiting for you, so I could give it back!”",
+              "start_ms": 5996,
+              "end_ms": 50372
+            },
+            {
+              "text": "The children open the green door and go into an underground garden. A golden bird sits on a branch. It does not sing. It only ticks like a clock: Tick-tock, tick-tock. On one wing it has a shiny blue stone. On the other wing there is an empty spot. Maya looks at the radio. The radio’s blue button looks exactly like the bird’s stone! “Radiophone, where did you get this button?” asks Maya. “It is the bird’s stone,” says Radiophone. “Long ago, it fell out of the bird’s wing. Someone made it into my button. I was waiting for you, so I could give it back!”",
+              "start_ms": 288593,
+              "end_ms": 332969
+            }
+          ],
+          "sequence": [
+            "story",
+            "practice",
+            "story"
+          ],
+          "transitions": [
+            {
+              "kind": "chime",
+              "from": "story",
+              "to": "practice",
+              "start_ms": 52872,
+              "end_ms": 53492
+            },
+            {
+              "kind": "chime",
+              "from": "practice",
+              "to": "story",
+              "start_ms": 285473,
+              "end_ms": 286093
+            }
+          ],
+          "narration": {
+            "engine": "azure",
+            "voice": "en-US-Harper:MAI-Voice-2.1",
+            "style": "audiobook",
+            "rate": "-12%",
+            "locale": "en-US",
+            "capabilities": {
+              "voice": "en-US-Harper:MAI-Voice-2.1",
+              "locale": "en-US",
+              "advertised_styles": [
+                "agent",
+                "angry",
+                "audiobook",
+                "confused",
+                "customer_call_center",
+                "determined",
+                "educational",
+                "embarrassed",
+                "excited",
+                "happy",
+                "hopeful",
+                "joyful",
+                "narrator",
+                "regretful",
+                "relieved",
+                "sad",
+                "shouting",
+                "softvoice",
+                "whispering"
+              ]
+            },
+            "ssml": "<speak xmlns:mstts=\"http://www.w3.org/2001/mstts\" version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"en-US\"><voice name=\"en-US-Harper:MAI-Voice-2.1\"><mstts:express-as style=\"audiobook\"><prosody rate=\"-12%\"><p>The children open the green door and go into an underground garden. A golden bird sits on a branch. It does not sing. It only ticks like a clock: Tick-tock, tick-tock. On one wing it has a shiny blue stone. On the other wing there is an empty spot. Maya looks at the radio. The radio’s blue button looks exactly like the bird’s stone! “Radiophone, where did you get this button?” asks Maya. “It is the bird’s stone,” says Radiophone. “Long ago, it fell out of the bird’s wing. Someone made it into my button. I was waiting for you, so I could give it back!”</p></prosody></mstts:express-as></voice></speak>"
+          },
+          "packaged_audio": "polish-english/audio/stories/magical_radio/07_chapter_07_pl_en_2026-10-29_20-56-15.mp3"
         }
       }
     },
@@ -1653,89 +2173,6 @@
           },
           "packaged_audio": "swedish-polish/audio/stories/magical_radio/08_chapter_08_sv_pl_2026-10-29_13-36-32.mp3"
         },
-        "en": {
-          "source_language": "sv",
-          "audio_file": "08_chapter_08_sv_en_2026-10-29_13-39-49.mp3",
-          "manifest_file": "08_chapter_08_sv_en_2026-10-29_13-39-49.json",
-          "total_duration_ms": 219607,
-          "chapter_reading": {
-            "text": "Maya carefully takes the blue button out of the radio. Tom puts it into the bird’s wing. The children call out: “Reparo!” The golden bird flaps its wings and begins to sing happily. Butterflies dance in the air. “Good job!” says Radiophone. “You are real explorers. Tomorrow a new adventure is waiting for us!”",
-            "start_ms": 194527,
-            "end_ms": 219607
-          },
-          "chapter_introduction": {
-            "text": "Chapter eight. The Grand Concert.",
-            "start_ms": 1000,
-            "end_ms": 3784
-          },
-          "chapter_readings": [
-            {
-              "text": "Maya carefully takes the blue button out of the radio. Tom puts it into the bird’s wing. The children call out: “Reparo!” The golden bird flaps its wings and begins to sing happily. Butterflies dance in the air. “Good job!” says Radiophone. “You are real explorers. Tomorrow a new adventure is waiting for us!”",
-              "start_ms": 6284,
-              "end_ms": 31364
-            },
-            {
-              "text": "Maya carefully takes the blue button out of the radio. Tom puts it into the bird’s wing. The children call out: “Reparo!” The golden bird flaps its wings and begins to sing happily. Butterflies dance in the air. “Good job!” says Radiophone. “You are real explorers. Tomorrow a new adventure is waiting for us!”",
-              "start_ms": 194527,
-              "end_ms": 219607
-            }
-          ],
-          "sequence": [
-            "story",
-            "practice",
-            "story"
-          ],
-          "transitions": [
-            {
-              "kind": "chime",
-              "from": "story",
-              "to": "practice",
-              "start_ms": 33864,
-              "end_ms": 34484
-            },
-            {
-              "kind": "chime",
-              "from": "practice",
-              "to": "story",
-              "start_ms": 191407,
-              "end_ms": 192027
-            }
-          ],
-          "narration": {
-            "engine": "azure",
-            "voice": "en-US-Harper:MAI-Voice-2.1",
-            "style": "audiobook",
-            "rate": "-12%",
-            "locale": "en-US",
-            "capabilities": {
-              "voice": "en-US-Harper:MAI-Voice-2.1",
-              "locale": "en-US",
-              "advertised_styles": [
-                "agent",
-                "angry",
-                "audiobook",
-                "confused",
-                "customer_call_center",
-                "determined",
-                "educational",
-                "embarrassed",
-                "excited",
-                "happy",
-                "hopeful",
-                "joyful",
-                "narrator",
-                "regretful",
-                "relieved",
-                "sad",
-                "shouting",
-                "softvoice",
-                "whispering"
-              ]
-            },
-            "ssml": "<speak xmlns:mstts=\"http://www.w3.org/2001/mstts\" version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"en-US\"><voice name=\"en-US-Harper:MAI-Voice-2.1\"><mstts:express-as style=\"audiobook\"><prosody rate=\"-12%\"><p>Maya carefully takes the blue button out of the radio. Tom puts it into the bird’s wing. The children call out: “Reparo!” The golden bird flaps its wings and begins to sing happily. Butterflies dance in the air. “Good job!” says Radiophone. “You are real explorers. Tomorrow a new adventure is waiting for us!”</p></prosody></mstts:express-as></voice></speak>"
-          },
-          "packaged_audio": "swedish-english/audio/stories/magical_radio/08_chapter_08_sv_en_2026-10-29_13-39-49.mp3"
-        },
         "ru": {
           "source_language": "sv",
           "audio_file": "08_chapter_08_sv_ru_2026-10-29_13-41-06.mp3",
@@ -1798,6 +2235,89 @@
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"ru-RU\"><voice name=\"ru-RU-SvetlanaNeural\"><prosody rate=\"-12%\"><p>Маша осторожно вынимает синюю кнопку из радио. Миша вставляет её в крыло птицы. Дети кричат: — Репаро! Золотая птица машет крыльями и начинает весело петь. В воздухе танцуют бабочки. — Отличная работа! — говорит Радиофон. — Вы настоящие исследователи. Завтра нас ждёт новое приключение!</p></prosody></voice></speak>"
           },
           "packaged_audio": "swedish-russian/audio/stories/magical_radio/08_chapter_08_sv_ru_2026-10-29_13-41-06.mp3"
+        },
+        "en": {
+          "source_language": "pl",
+          "audio_file": "08_chapter_08_pl_en_2026-10-29_20-56-15.mp3",
+          "manifest_file": "08_chapter_08_pl_en_2026-10-29_20-56-15.json",
+          "total_duration_ms": 218217,
+          "chapter_reading": {
+            "text": "Maya carefully takes the blue button out of the radio. Tom puts it into the bird’s wing. The children call out: “Reparo!” The golden bird flaps its wings and begins to sing happily. Butterflies dance in the air. “Good job!” says Radiophone. “You are real explorers. Tomorrow a new adventure is waiting for us!”",
+            "start_ms": 193137,
+            "end_ms": 218217
+          },
+          "chapter_introduction": {
+            "text": "Chapter eight. The Grand Concert.",
+            "start_ms": 1000,
+            "end_ms": 3784
+          },
+          "chapter_readings": [
+            {
+              "text": "Maya carefully takes the blue button out of the radio. Tom puts it into the bird’s wing. The children call out: “Reparo!” The golden bird flaps its wings and begins to sing happily. Butterflies dance in the air. “Good job!” says Radiophone. “You are real explorers. Tomorrow a new adventure is waiting for us!”",
+              "start_ms": 6284,
+              "end_ms": 31364
+            },
+            {
+              "text": "Maya carefully takes the blue button out of the radio. Tom puts it into the bird’s wing. The children call out: “Reparo!” The golden bird flaps its wings and begins to sing happily. Butterflies dance in the air. “Good job!” says Radiophone. “You are real explorers. Tomorrow a new adventure is waiting for us!”",
+              "start_ms": 193137,
+              "end_ms": 218217
+            }
+          ],
+          "sequence": [
+            "story",
+            "practice",
+            "story"
+          ],
+          "transitions": [
+            {
+              "kind": "chime",
+              "from": "story",
+              "to": "practice",
+              "start_ms": 33864,
+              "end_ms": 34484
+            },
+            {
+              "kind": "chime",
+              "from": "practice",
+              "to": "story",
+              "start_ms": 190017,
+              "end_ms": 190637
+            }
+          ],
+          "narration": {
+            "engine": "azure",
+            "voice": "en-US-Harper:MAI-Voice-2.1",
+            "style": "audiobook",
+            "rate": "-12%",
+            "locale": "en-US",
+            "capabilities": {
+              "voice": "en-US-Harper:MAI-Voice-2.1",
+              "locale": "en-US",
+              "advertised_styles": [
+                "agent",
+                "angry",
+                "audiobook",
+                "confused",
+                "customer_call_center",
+                "determined",
+                "educational",
+                "embarrassed",
+                "excited",
+                "happy",
+                "hopeful",
+                "joyful",
+                "narrator",
+                "regretful",
+                "relieved",
+                "sad",
+                "shouting",
+                "softvoice",
+                "whispering"
+              ]
+            },
+            "ssml": "<speak xmlns:mstts=\"http://www.w3.org/2001/mstts\" version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"en-US\"><voice name=\"en-US-Harper:MAI-Voice-2.1\"><mstts:express-as style=\"audiobook\"><prosody rate=\"-12%\"><p>Maya carefully takes the blue button out of the radio. Tom puts it into the bird’s wing. The children call out: “Reparo!” The golden bird flaps its wings and begins to sing happily. Butterflies dance in the air. “Good job!” says Radiophone. “You are real explorers. Tomorrow a new adventure is waiting for us!”</p></prosody></mstts:express-as></voice></speak>"
+          },
+          "packaged_audio": "polish-english/audio/stories/magical_radio/08_chapter_08_pl_en_2026-10-29_20-56-15.mp3"
         }
       }
     }
@@ -1812,10 +2332,10 @@
       "owner_email": "repeto.lingo@gmail.com"
     },
     "en": {
-      "slug": "swedish-english",
-      "feed_url": "https://trusohamn.github.io/repeto/swedish-english/feed.xml",
+      "slug": "polish-english",
+      "feed_url": "https://trusohamn.github.io/repeto/polish-english/feed.xml",
       "episodes": 38,
-      "title": "Repeto – Engelska för svensktalande",
+      "title": "Repeto – Angielski dla polskojęzycznych",
       "author": "Repeto",
       "owner_email": "repeto.lingo@gmail.com"
     },
@@ -1829,21 +2349,21 @@
     }
   },
   "settings": {
-    "source_language": "sv",
+    "source_language": "pl",
     "target_languages": [
-      "ru"
+      "en"
     ],
     "voices": {
-      "sv": "sv-SE-SofieNeural",
-      "ru": "ru-RU-SvetlanaNeural"
+      "pl": "pl-PL-ZofiaNeural",
+      "en": "en-GB-SoniaNeural"
     },
     "rates": {
-      "sv": "-15%",
-      "ru": "-15%"
+      "pl": "-15%",
+      "en": "-5%"
     },
     "pitches": {
-      "sv": "+0Hz",
-      "ru": "+0Hz"
+      "pl": "+0Hz",
+      "en": "+0Hz"
     },
     "format": "mp3",
     "bitrate": "192k",
@@ -1856,24 +2376,44 @@
       "practice",
       "story"
     ],
-    "timestamp": "2026-10-29_13-41-06",
+    "timestamp": "2026-10-29_20-56-15",
     "narration": {
-      "ru": {
+      "en": {
         "engine": "azure",
-        "voice": "ru-RU-SvetlanaNeural",
-        "style": null,
+        "voice": "en-US-Harper:MAI-Voice-2.1",
+        "style": "audiobook",
         "rate": "-12%",
-        "locale": "ru-RU",
+        "locale": "en-US",
         "capabilities": {
-          "voice": "ru-RU-SvetlanaNeural",
-          "locale": "ru-RU",
-          "advertised_styles": []
+          "voice": "en-US-Harper:MAI-Voice-2.1",
+          "locale": "en-US",
+          "advertised_styles": [
+            "agent",
+            "angry",
+            "audiobook",
+            "confused",
+            "customer_call_center",
+            "determined",
+            "educational",
+            "embarrassed",
+            "excited",
+            "happy",
+            "hopeful",
+            "joyful",
+            "narrator",
+            "regretful",
+            "relieved",
+            "sad",
+            "shouting",
+            "softvoice",
+            "whispering"
+          ]
         }
       }
     },
     "narration_engine": "azure",
     "tts_engine": "azure",
-    "output": "courses/stories/magical_radio/generated/audio/sv_ru"
+    "output": "courses/stories/magical_radio/generated/audio/pl_en"
   },
   "renders": {
     "sv_pl": {
@@ -2042,6 +2582,73 @@
       "narration_engine": "azure",
       "tts_engine": "azure",
       "output": "courses/stories/magical_radio/generated/audio/sv_ru"
+    },
+    "pl_en": {
+      "source_language": "pl",
+      "target_languages": [
+        "en"
+      ],
+      "voices": {
+        "pl": "pl-PL-ZofiaNeural",
+        "en": "en-GB-SoniaNeural"
+      },
+      "rates": {
+        "pl": "-15%",
+        "en": "-5%"
+      },
+      "pitches": {
+        "pl": "+0Hz",
+        "en": "+0Hz"
+      },
+      "format": "mp3",
+      "bitrate": "192k",
+      "lead_in_ms": 1000,
+      "thinking_ms": 2000,
+      "repetition_ms": 2500,
+      "practice_order": "deterministically_shuffled",
+      "sequence": [
+        "story",
+        "practice",
+        "story"
+      ],
+      "timestamp": "2026-10-29_20-56-15",
+      "narration": {
+        "en": {
+          "engine": "azure",
+          "voice": "en-US-Harper:MAI-Voice-2.1",
+          "style": "audiobook",
+          "rate": "-12%",
+          "locale": "en-US",
+          "capabilities": {
+            "voice": "en-US-Harper:MAI-Voice-2.1",
+            "locale": "en-US",
+            "advertised_styles": [
+              "agent",
+              "angry",
+              "audiobook",
+              "confused",
+              "customer_call_center",
+              "determined",
+              "educational",
+              "embarrassed",
+              "excited",
+              "happy",
+              "hopeful",
+              "joyful",
+              "narrator",
+              "regretful",
+              "relieved",
+              "sad",
+              "shouting",
+              "softvoice",
+              "whispering"
+            ]
+          }
+        }
+      },
+      "narration_engine": "azure",
+      "tts_engine": "azure",
+      "output": "courses/stories/magical_radio/generated/audio/pl_en"
     }
   }
 }

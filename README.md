@@ -1,9 +1,9 @@
 # Repeto – listen-and-speak language courses
 
-Repeto is a free podcast course for Swedish speakers who are starting a new
+Repeto is a free podcast course for Swedish and Polish speakers who are starting a new
 language. It suits beginners of all ages: children, parents, grandparents and
 any adult who wants to get going without a textbook. Every episode follows the
-same loop: a Swedish word or sentence, a pause to say it yourself in the target
+same loop: a word or sentence in your source language, a pause to say it yourself in the target
 language, then the answer twice so you can copy the pronunciation.
 
 Each course has two seasons:
@@ -25,6 +25,10 @@ you know the format, try another language: every course works the same way.
 | Polska för svensktalande | [page](https://trusohamn.github.io/repeto/swedish-polish/) | [feed](https://trusohamn.github.io/repeto/swedish-polish/feed.xml) |
 | Engelska för svensktalande | [page](https://trusohamn.github.io/repeto/swedish-english/) | [feed](https://trusohamn.github.io/repeto/swedish-english/feed.xml) |
 | Ryska för svensktalande | [page](https://trusohamn.github.io/repeto/swedish-russian/) | [feed](https://trusohamn.github.io/repeto/swedish-russian/feed.xml) |
+| Angielski dla polskojęzycznych | [page](https://trusohamn.github.io/repeto/polish-english/) | [feed](https://trusohamn.github.io/repeto/polish-english/feed.xml) |
+
+New or updated packages become available at these URLs only after publishing
+to GitHub Pages.
 
 Voices are AI-generated with Microsoft Azure; feeds and pages say so.
 
@@ -55,6 +59,18 @@ rebuilds all feeds. Episode titles come from
 .venv/bin/python code/package_practice.py --target ru --course swedish-russian --renders output/swedish_russian_double
 ```
 
+For Polish prompts and English answers, including the story as season 2:
+
+```sh
+.venv/bin/python code/transcription.py --source pl --target en --double-output --output output/polish_english_double
+.venv/bin/python code/package_practice.py --source pl --target en --course polish-english --renders output/polish_english_double
+.venv/bin/python code/story_course.py --source-language pl --target en --package-podcast --podcast-course polish-english
+```
+
+This direction uses Polish show/episode descriptions and page labels, Polish
+vocabulary prompts, and English narration with two English vocabulary answers.
+Both renderers default to licensed Azure Speech.
+
 Each podcast lives in `podcast/<course>/` with `cover.jpeg`, `course.json`,
 categorized audio, and generated RSS files. Vocabulary-topic MP3s live in
 `audio/practice/`; story chapters live in `audio/stories/<story-id>/`. The
@@ -80,11 +96,11 @@ number uses `episode`, not its position in the JSON list.
 .venv/bin/python code/podcast.py
 ```
 
-Listener-facing copy for Swedish-source courses lives in
+Listener-facing copy for Swedish- and Polish-source courses lives in
 [code/descriptions.py](code/descriptions.py): the show title and description,
 the "how to use" steps, practice episode descriptions (topic, phrase count and
 three example phrases) and story episode descriptions (chapter number, the
-chapter's Swedish `summary.sv` teaser from the story transcript, and the three
+chapter's source-language `summary.sv` or `summary.pl` teaser from the story transcript, and the three
 listening steps). Both packagers apply it automatically. To refresh the copy of
 already packaged courses without re-rendering audio, run:
 

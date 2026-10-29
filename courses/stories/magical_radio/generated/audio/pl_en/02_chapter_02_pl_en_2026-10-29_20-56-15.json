@@ -1,0 +1,549 @@
+{
+  "chapter_number": 2,
+  "title": {
+    "pl": "Głos z radia",
+    "sv": "En röst ur radion",
+    "en": "A Voice from the Radio",
+    "ru": "Голос из радио"
+  },
+  "source_language": "pl",
+  "target_language": "en",
+  "practice_order": "deterministically_shuffled",
+  "sequence": [
+    "story",
+    "practice",
+    "story"
+  ],
+  "total_duration_ms": 265275,
+  "practice": [
+    {
+      "id": 131,
+      "kind": "vocabulary",
+      "start_ms": 41664,
+      "end_ms": 52109,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "weźcie mnie ze sobą",
+        "start_ms": 41664,
+        "end_ms": 43235
+      },
+      "target_playbacks": [
+        {
+          "text": "take me with you",
+          "start_ms": 45235,
+          "end_ms": 46172
+        },
+        {
+          "text": "take me with you",
+          "start_ms": 48672,
+          "end_ms": 49609
+        }
+      ]
+    },
+    {
+      "id": 213,
+      "kind": "vocabulary",
+      "start_ms": 52109,
+      "end_ms": 61154,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "mieszkać",
+        "start_ms": 52109,
+        "end_ms": 52920
+      },
+      "target_playbacks": [
+        {
+          "text": "live",
+          "start_ms": 54920,
+          "end_ms": 55537
+        },
+        {
+          "text": "live",
+          "start_ms": 58037,
+          "end_ms": 58654
+        }
+      ]
+    },
+    {
+      "id": 130,
+      "kind": "vocabulary",
+      "start_ms": 61154,
+      "end_ms": 69908,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "klucz",
+        "start_ms": 61154,
+        "end_ms": 61686
+      },
+      "target_playbacks": [
+        {
+          "text": "a key",
+          "start_ms": 63686,
+          "end_ms": 64297
+        },
+        {
+          "text": "a key",
+          "start_ms": 66797,
+          "end_ms": 67408
+        }
+      ]
+    },
+    {
+      "id": 212,
+      "kind": "vocabulary",
+      "start_ms": 69908,
+      "end_ms": 80321,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "kupować radio",
+        "start_ms": 69908,
+        "end_ms": 71151
+      },
+      "target_playbacks": [
+        {
+          "text": "buy the radio",
+          "start_ms": 73151,
+          "end_ms": 74236
+        },
+        {
+          "text": "buy the radio",
+          "start_ms": 76736,
+          "end_ms": 77821
+        }
+      ]
+    },
+    {
+      "id": 126,
+      "kind": "vocabulary",
+      "start_ms": 80321,
+      "end_ms": 89922,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "nazywać się",
+        "start_ms": 80321,
+        "end_ms": 81324
+      },
+      "target_playbacks": [
+        {
+          "text": "be called",
+          "start_ms": 83324,
+          "end_ms": 84123
+        },
+        {
+          "text": "be called",
+          "start_ms": 86623,
+          "end_ms": 87422
+        }
+      ]
+    },
+    {
+      "id": 124,
+      "kind": "vocabulary",
+      "start_ms": 89922,
+      "end_ms": 100487,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "naciskać przycisk",
+        "start_ms": 89922,
+        "end_ms": 91503
+      },
+      "target_playbacks": [
+        {
+          "text": "press a button",
+          "start_ms": 93503,
+          "end_ms": 94495
+        },
+        {
+          "text": "press a button",
+          "start_ms": 96995,
+          "end_ms": 97987
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "kind": "vocabulary",
+      "start_ms": 100487,
+      "end_ms": 111462,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "pachnieć cynamonem",
+        "start_ms": 100487,
+        "end_ms": 102014
+      },
+      "target_playbacks": [
+        {
+          "text": "smell of cinnamon",
+          "start_ms": 104014,
+          "end_ms": 105238
+        },
+        {
+          "text": "smell of cinnamon",
+          "start_ms": 107738,
+          "end_ms": 108962
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "kind": "vocabulary",
+      "start_ms": 111462,
+      "end_ms": 122068,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "wesoły głos",
+        "start_ms": 111462,
+        "end_ms": 112618
+      },
+      "target_playbacks": [
+        {
+          "text": "cheerful voice",
+          "start_ms": 114618,
+          "end_ms": 115843
+        },
+        {
+          "text": "cheerful voice",
+          "start_ms": 118343,
+          "end_ms": 119568
+        }
+      ]
+    },
+    {
+      "id": 208,
+      "kind": "vocabulary",
+      "start_ms": 122068,
+      "end_ms": 130868,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "mówić",
+        "start_ms": 122068,
+        "end_ms": 122734
+      },
+      "target_playbacks": [
+        {
+          "text": "say",
+          "start_ms": 124734,
+          "end_ms": 125301
+        },
+        {
+          "text": "say",
+          "start_ms": 127801,
+          "end_ms": 128368
+        }
+      ]
+    },
+    {
+      "id": 123,
+      "kind": "vocabulary",
+      "start_ms": 130868,
+      "end_ms": 140968,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "nieść do domu",
+        "start_ms": 130868,
+        "end_ms": 132038
+      },
+      "target_playbacks": [
+        {
+          "text": "carry home",
+          "start_ms": 134038,
+          "end_ms": 135003
+        },
+        {
+          "text": "carry home",
+          "start_ms": 137503,
+          "end_ms": 138468
+        }
+      ]
+    },
+    {
+      "id": 125,
+      "kind": "vocabulary",
+      "start_ms": 140968,
+      "end_ms": 152726,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "wylatywać z radia",
+        "start_ms": 140968,
+        "end_ms": 142468
+      },
+      "target_playbacks": [
+        {
+          "text": "fly out of the radio",
+          "start_ms": 144468,
+          "end_ms": 146097
+        },
+        {
+          "text": "fly out of the radio",
+          "start_ms": 148597,
+          "end_ms": 150226
+        }
+      ]
+    },
+    {
+      "id": 214,
+      "kind": "vocabulary",
+      "start_ms": 152726,
+      "end_ms": 163803,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "ważny klucz",
+        "start_ms": 152726,
+        "end_ms": 153777
+      },
+      "target_playbacks": [
+        {
+          "text": "an important key",
+          "start_ms": 155777,
+          "end_ms": 157290
+        },
+        {
+          "text": "an important key",
+          "start_ms": 159790,
+          "end_ms": 161303
+        }
+      ]
+    },
+    {
+      "id": 215,
+      "kind": "vocabulary",
+      "start_ms": 163803,
+      "end_ms": 174931,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "bardzo lubić ser",
+        "start_ms": 163803,
+        "end_ms": 165199
+      },
+      "target_playbacks": [
+        {
+          "text": "really love cheese",
+          "start_ms": 167199,
+          "end_ms": 168565
+        },
+        {
+          "text": "really love cheese",
+          "start_ms": 171065,
+          "end_ms": 172431
+        }
+      ]
+    },
+    {
+      "id": 128,
+      "kind": "vocabulary",
+      "start_ms": 174931,
+      "end_ms": 185872,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "pod starym drzewem",
+        "start_ms": 174931,
+        "end_ms": 176315
+      },
+      "target_playbacks": [
+        {
+          "text": "under the old tree",
+          "start_ms": 178315,
+          "end_ms": 179593
+        },
+        {
+          "text": "under the old tree",
+          "start_ms": 182093,
+          "end_ms": 183372
+        }
+      ]
+    },
+    {
+      "id": 201,
+      "kind": "vocabulary",
+      "start_ms": 185872,
+      "end_ms": 194555,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "cześć",
+        "start_ms": 185872,
+        "end_ms": 186489
+      },
+      "target_playbacks": [
+        {
+          "text": "hi",
+          "start_ms": 188489,
+          "end_ms": 189022
+        },
+        {
+          "text": "hi",
+          "start_ms": 191522,
+          "end_ms": 192055
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "kind": "vocabulary",
+      "start_ms": 194555,
+      "end_ms": 204840,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "niebieski przycisk",
+        "start_ms": 194555,
+        "end_ms": 196018
+      },
+      "target_playbacks": [
+        {
+          "text": "blue button",
+          "start_ms": 198018,
+          "end_ms": 198929
+        },
+        {
+          "text": "blue button",
+          "start_ms": 201429,
+          "end_ms": 202340
+        }
+      ]
+    },
+    {
+      "id": 127,
+      "kind": "vocabulary",
+      "start_ms": 204840,
+      "end_ms": 214639,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "wasz ogród",
+        "start_ms": 204840,
+        "end_ms": 205859
+      },
+      "target_playbacks": [
+        {
+          "text": "your garden",
+          "start_ms": 207859,
+          "end_ms": 208749
+        },
+        {
+          "text": "your garden",
+          "start_ms": 211249,
+          "end_ms": 212139
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "kind": "vocabulary",
+      "start_ms": 214639,
+      "end_ms": 224869,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "mała chmurka",
+        "start_ms": 214639,
+        "end_ms": 215713
+      },
+      "target_playbacks": [
+        {
+          "text": "little cloud",
+          "start_ms": 217713,
+          "end_ms": 218791
+        },
+        {
+          "text": "little cloud",
+          "start_ms": 221291,
+          "end_ms": 222369
+        }
+      ]
+    },
+    {
+      "id": 216,
+      "kind": "vocabulary",
+      "start_ms": 224869,
+      "end_ms": 233739,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "dzieci",
+        "start_ms": 224869,
+        "end_ms": 225567
+      },
+      "target_playbacks": [
+        {
+          "text": "kids",
+          "start_ms": 227567,
+          "end_ms": 228153
+        },
+        {
+          "text": "kids",
+          "start_ms": 230653,
+          "end_ms": 231239
+        }
+      ]
+    }
+  ],
+  "book_introduction": null,
+  "chapter_introduction": {
+    "text": "Chapter two. A Voice from the Radio.",
+    "start_ms": 1000,
+    "end_ms": 5128
+  },
+  "transitions": [
+    {
+      "kind": "chime",
+      "from": "story",
+      "to": "practice",
+      "start_ms": 38544,
+      "end_ms": 39164
+    },
+    {
+      "kind": "chime",
+      "from": "practice",
+      "to": "story",
+      "start_ms": 233739,
+      "end_ms": 234359
+    }
+  ],
+  "chapter_readings": [
+    {
+      "text": "The children buy the radio and carry it home. Tom presses the blue button. A little cloud flies out of the radio, and it smells of cinnamon. “Hi, kids!” says a cheerful voice. “My name is Radiophone. In your garden, under the old tree, lives a mouse. It has an important key, and it really loves cheese. Take me with you!”",
+      "start_ms": 7628,
+      "end_ms": 36044
+    },
+    {
+      "text": "The children buy the radio and carry it home. Tom presses the blue button. A little cloud flies out of the radio, and it smells of cinnamon. “Hi, kids!” says a cheerful voice. “My name is Radiophone. In your garden, under the old tree, lives a mouse. It has an important key, and it really loves cheese. Take me with you!”",
+      "start_ms": 236859,
+      "end_ms": 265275
+    }
+  ],
+  "chapter_reading": {
+    "text": "The children buy the radio and carry it home. Tom presses the blue button. A little cloud flies out of the radio, and it smells of cinnamon. “Hi, kids!” says a cheerful voice. “My name is Radiophone. In your garden, under the old tree, lives a mouse. It has an important key, and it really loves cheese. Take me with you!”",
+    "start_ms": 236859,
+    "end_ms": 265275
+  },
+  "narration": {
+    "engine": "azure",
+    "voice": "en-US-Harper:MAI-Voice-2.1",
+    "style": "audiobook",
+    "rate": "-12%",
+    "locale": "en-US",
+    "capabilities": {
+      "voice": "en-US-Harper:MAI-Voice-2.1",
+      "locale": "en-US",
+      "advertised_styles": [
+        "agent",
+        "angry",
+        "audiobook",
+        "confused",
+        "customer_call_center",
+        "determined",
+        "educational",
+        "embarrassed",
+        "excited",
+        "happy",
+        "hopeful",
+        "joyful",
+        "narrator",
+        "regretful",
+        "relieved",
+        "sad",
+        "shouting",
+        "softvoice",
+        "whispering"
+      ]
+    },
+    "ssml": "<speak xmlns:mstts=\"http://www.w3.org/2001/mstts\" version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"en-US\"><voice name=\"en-US-Harper:MAI-Voice-2.1\"><mstts:express-as style=\"audiobook\"><prosody rate=\"-12%\"><p>The children buy the radio and carry it home. Tom presses the blue button. A little cloud flies out of the radio, and it smells of cinnamon. “Hi, kids!” says a cheerful voice. “My name is Radiophone. In your garden, under the old tree, lives a mouse. It has an important key, and it really loves cheese. Take me with you!”</p></prosody></mstts:express-as></voice></speak>"
+  },
+  "audio_file": "02_chapter_02_pl_en_2026-10-29_20-56-15.mp3"
+}

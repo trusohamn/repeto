@@ -120,8 +120,9 @@ def package(args: argparse.Namespace) -> dict[str, Any]:
     source, target = args.source, args.target
     if target not in _load("descriptions").LANGUAGES:
         raise ValueError(f"No Swedish language name configured for {target!r}.")
-    if source != "se":
-        raise ValueError("Catalog wording is Swedish; only --source se is supported.")
+    if source not in ("se", "pl"):
+        raise ValueError("Podcast copy supports only --source se or --source pl.")
+    catalog_source = "sv" if source == "se" else source
     topics = renderer.load_topics(args.transcript)
     titles = load_topic_titles(args.topic_titles, list(topics), (source, target))
     manifests = select_manifests(args.renders, topics, source, target)
@@ -134,16 +135,18 @@ def package(args: argparse.Namespace) -> dict[str, Any]:
         catalog = json.loads(catalog_path.read_text(encoding="utf-8"))
         if (
             catalog.get("source_language", "sv"), catalog.get("target_language", target)
-        ) != ("sv", target):
+        ) != (catalog_source, target):
             raise ValueError(f"Podcast course {args.course!r} has another direction.")
     else:
         catalog = {
-            "title": copy.show_title(target),
-            "description": copy.show_description(target, len(topics), [], args.email),
-            "language": "sv",
+            "title": copy.show_title(target, source=catalog_source),
+            "description": copy.show_description(
+                target, len(topics), [], args.email, source=catalog_source,
+            ),
+            "language": catalog_source,
             "author": args.author,
             "email": args.email,
-            "source_language": "sv",
+            "source_language": catalog_source,
             "target_language": target,
             "episodes": [],
         }

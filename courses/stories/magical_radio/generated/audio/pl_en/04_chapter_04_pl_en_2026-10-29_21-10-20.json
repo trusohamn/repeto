@@ -1,0 +1,602 @@
+{
+  "chapter_number": 4,
+  "title": {
+    "pl": "Schody w dół",
+    "sv": "Trappan ner",
+    "en": "Down the Stairs",
+    "ru": "Лестница вниз"
+  },
+  "source_language": "pl",
+  "target_language": "en",
+  "practice_order": "deterministically_shuffled",
+  "sequence": [
+    "story",
+    "practice",
+    "story"
+  ],
+  "total_duration_ms": 261160,
+  "practice": [
+    {
+      "id": 153,
+      "kind": "vocabulary",
+      "start_ms": 33496,
+      "end_ms": 42545,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "książki",
+        "start_ms": 33496,
+        "end_ms": 34331
+      },
+      "target_playbacks": [
+        {
+          "text": "books",
+          "start_ms": 36331,
+          "end_ms": 36938
+        },
+        {
+          "text": "books",
+          "start_ms": 39438,
+          "end_ms": 40045
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "kind": "vocabulary",
+      "start_ms": 42545,
+      "end_ms": 51737,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "otwierać się",
+        "start_ms": 42545,
+        "end_ms": 43565
+      },
+      "target_playbacks": [
+        {
+          "text": "open",
+          "start_ms": 45565,
+          "end_ms": 46151
+        },
+        {
+          "text": "open",
+          "start_ms": 48651,
+          "end_ms": 49237
+        }
+      ]
+    },
+    {
+      "id": 147,
+      "kind": "vocabulary",
+      "start_ms": 51737,
+      "end_ms": 61649,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "prowadzić w dół",
+        "start_ms": 51737,
+        "end_ms": 52943
+      },
+      "target_playbacks": [
+        {
+          "text": "lead down",
+          "start_ms": 54943,
+          "end_ms": 55796
+        },
+        {
+          "text": "lead down",
+          "start_ms": 58296,
+          "end_ms": 59149
+        }
+      ]
+    },
+    {
+      "id": 227,
+      "kind": "vocabulary",
+      "start_ms": 61649,
+      "end_ms": 71937,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "świecić na złoto",
+        "start_ms": 61649,
+        "end_ms": 63065
+      },
+      "target_playbacks": [
+        {
+          "text": "glow gold",
+          "start_ms": 65065,
+          "end_ms": 66001
+        },
+        {
+          "text": "glow gold",
+          "start_ms": 68501,
+          "end_ms": 69437
+        }
+      ]
+    },
+    {
+      "id": 226,
+      "kind": "vocabulary",
+      "start_ms": 71937,
+      "end_ms": 81751,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "jedna z nich",
+        "start_ms": 71937,
+        "end_ms": 72965
+      },
+      "target_playbacks": [
+        {
+          "text": "one of them",
+          "start_ms": 74965,
+          "end_ms": 75858
+        },
+        {
+          "text": "one of them",
+          "start_ms": 78358,
+          "end_ms": 79251
+        }
+      ]
+    },
+    {
+      "id": 154,
+      "kind": "vocabulary",
+      "start_ms": 81751,
+      "end_ms": 90604,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "niektóre",
+        "start_ms": 81751,
+        "end_ms": 82530
+      },
+      "target_playbacks": [
+        {
+          "text": "some",
+          "start_ms": 84530,
+          "end_ms": 85067
+        },
+        {
+          "text": "some",
+          "start_ms": 87567,
+          "end_ms": 88104
+        }
+      ]
+    },
+    {
+      "id": 150,
+      "kind": "vocabulary",
+      "start_ms": 90604,
+      "end_ms": 99907,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "schodzić",
+        "start_ms": 90604,
+        "end_ms": 91439
+      },
+      "target_playbacks": [
+        {
+          "text": "go down",
+          "start_ms": 93439,
+          "end_ms": 94173
+        },
+        {
+          "text": "go down",
+          "start_ms": 96673,
+          "end_ms": 97407
+        }
+      ]
+    },
+    {
+      "id": 204,
+      "kind": "vocabulary",
+      "start_ms": 99907,
+      "end_ms": 110192,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "świecić na niebiesko",
+        "start_ms": 99907,
+        "end_ms": 101552
+      },
+      "target_playbacks": [
+        {
+          "text": "glow blue",
+          "start_ms": 103552,
+          "end_ms": 104372
+        },
+        {
+          "text": "glow blue",
+          "start_ms": 106872,
+          "end_ms": 107692
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "kind": "vocabulary",
+      "start_ms": 110192,
+      "end_ms": 120894,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "kamienne schody",
+        "start_ms": 110192,
+        "end_ms": 111452
+      },
+      "target_playbacks": [
+        {
+          "text": "stone stairs",
+          "start_ms": 113452,
+          "end_ms": 114673
+        },
+        {
+          "text": "stone stairs",
+          "start_ms": 117173,
+          "end_ms": 118394
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "kind": "vocabulary",
+      "start_ms": 120894,
+      "end_ms": 131111,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "przekręcić klucz",
+        "start_ms": 120894,
+        "end_ms": 122231
+      },
+      "target_playbacks": [
+        {
+          "text": "turn the key",
+          "start_ms": 124231,
+          "end_ms": 125171
+        },
+        {
+          "text": "turn the key",
+          "start_ms": 127671,
+          "end_ms": 128611
+        }
+      ]
+    },
+    {
+      "id": 149,
+      "kind": "vocabulary",
+      "start_ms": 131111,
+      "end_ms": 139984,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "rosnąć",
+        "start_ms": 131111,
+        "end_ms": 131960
+      },
+      "target_playbacks": [
+        {
+          "text": "grow",
+          "start_ms": 133960,
+          "end_ms": 134472
+        },
+        {
+          "text": "grow",
+          "start_ms": 136972,
+          "end_ms": 137484
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "kind": "vocabulary",
+      "start_ms": 139984,
+      "end_ms": 150855,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "świecące kwiaty",
+        "start_ms": 139984,
+        "end_ms": 141387
+      },
+      "target_playbacks": [
+        {
+          "text": "glowing flowers",
+          "start_ms": 143387,
+          "end_ms": 144621
+        },
+        {
+          "text": "glowing flowers",
+          "start_ms": 147121,
+          "end_ms": 148355
+        }
+      ]
+    },
+    {
+      "id": 148,
+      "kind": "vocabulary",
+      "start_ms": 150855,
+      "end_ms": 159948,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "ściana",
+        "start_ms": 150855,
+        "end_ms": 151594
+      },
+      "target_playbacks": [
+        {
+          "text": "a wall",
+          "start_ms": 153594,
+          "end_ms": 154271
+        },
+        {
+          "text": "a wall",
+          "start_ms": 156771,
+          "end_ms": 157448
+        }
+      ]
+    },
+    {
+      "id": 225,
+      "kind": "vocabulary",
+      "start_ms": 159948,
+      "end_ms": 170743,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "wielka biblioteka",
+        "start_ms": 159948,
+        "end_ms": 161457
+      },
+      "target_playbacks": [
+        {
+          "text": "a big library",
+          "start_ms": 163457,
+          "end_ms": 164600
+        },
+        {
+          "text": "a big library",
+          "start_ms": 167100,
+          "end_ms": 168243
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "kind": "vocabulary",
+      "start_ms": 170743,
+      "end_ms": 179777,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "sufit",
+        "start_ms": 170743,
+        "end_ms": 171450
+      },
+      "target_playbacks": [
+        {
+          "text": "ceiling",
+          "start_ms": 173450,
+          "end_ms": 174113
+        },
+        {
+          "text": "ceiling",
+          "start_ms": 176613,
+          "end_ms": 177277
+        }
+      ]
+    },
+    {
+      "id": 202,
+      "kind": "vocabulary",
+      "start_ms": 179777,
+      "end_ms": 188862,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "stać",
+        "start_ms": 179777,
+        "end_ms": 180410
+      },
+      "target_playbacks": [
+        {
+          "text": "stand",
+          "start_ms": 182410,
+          "end_ms": 183136
+        },
+        {
+          "text": "stand",
+          "start_ms": 185636,
+          "end_ms": 186362
+        }
+      ]
+    },
+    {
+      "id": 203,
+      "kind": "vocabulary",
+      "start_ms": 188862,
+      "end_ms": 198893,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "na ścianach",
+        "start_ms": 188862,
+        "end_ms": 189923
+      },
+      "target_playbacks": [
+        {
+          "text": "on the walls",
+          "start_ms": 191923,
+          "end_ms": 192908
+        },
+        {
+          "text": "on the walls",
+          "start_ms": 195408,
+          "end_ms": 196393
+        }
+      ]
+    },
+    {
+      "id": 146,
+      "kind": "vocabulary",
+      "start_ms": 198893,
+      "end_ms": 207470,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "klik!",
+        "start_ms": 198893,
+        "end_ms": 199470
+      },
+      "target_playbacks": [
+        {
+          "text": "click!",
+          "start_ms": 201470,
+          "end_ms": 201970
+        },
+        {
+          "text": "click!",
+          "start_ms": 204470,
+          "end_ms": 204970
+        }
+      ]
+    },
+    {
+      "id": 152,
+      "kind": "vocabulary",
+      "start_ms": 207470,
+      "end_ms": 216904,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "wszędzie",
+        "start_ms": 207470,
+        "end_ms": 208178
+      },
+      "target_playbacks": [
+        {
+          "text": "everywhere",
+          "start_ms": 210178,
+          "end_ms": 211041
+        },
+        {
+          "text": "everywhere",
+          "start_ms": 213541,
+          "end_ms": 214404
+        }
+      ]
+    },
+    {
+      "id": 155,
+      "kind": "vocabulary",
+      "start_ms": 216904,
+      "end_ms": 225766,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "latać",
+        "start_ms": 216904,
+        "end_ms": 217620
+      },
+      "target_playbacks": [
+        {
+          "text": "fly",
+          "start_ms": 219620,
+          "end_ms": 220193
+        },
+        {
+          "text": "fly",
+          "start_ms": 222693,
+          "end_ms": 223266
+        }
+      ]
+    },
+    {
+      "id": 156,
+      "kind": "vocabulary",
+      "start_ms": 225766,
+      "end_ms": 236040,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "pod sufitem",
+        "start_ms": 225766,
+        "end_ms": 226826
+      },
+      "target_playbacks": [
+        {
+          "text": "under the ceiling",
+          "start_ms": 228826,
+          "end_ms": 229933
+        },
+        {
+          "text": "under the ceiling",
+          "start_ms": 232433,
+          "end_ms": 233540
+        }
+      ]
+    }
+  ],
+  "book_introduction": null,
+  "chapter_introduction": {
+    "text": "Chapter four. Down the Stairs.",
+    "start_ms": 1000,
+    "end_ms": 3376
+  },
+  "transitions": [
+    {
+      "kind": "chime",
+      "from": "story",
+      "to": "practice",
+      "start_ms": 30376,
+      "end_ms": 30996
+    },
+    {
+      "kind": "chime",
+      "from": "practice",
+      "to": "story",
+      "start_ms": 236040,
+      "end_ms": 236660
+    }
+  ],
+  "chapter_readings": [
+    {
+      "text": "Maya turns the key. Click! The door opens. Stone stairs lead down. Flowers that glow blue grow on the walls. The children go down into a big library. There are books everywhere, and some of them fly under the ceiling! One of them glows gold.",
+      "start_ms": 5876,
+      "end_ms": 27876
+    },
+    {
+      "text": "Maya turns the key. Click! The door opens. Stone stairs lead down. Flowers that glow blue grow on the walls. The children go down into a big library. There are books everywhere, and some of them fly under the ceiling! One of them glows gold.",
+      "start_ms": 239160,
+      "end_ms": 261160
+    }
+  ],
+  "chapter_reading": {
+    "text": "Maya turns the key. Click! The door opens. Stone stairs lead down. Flowers that glow blue grow on the walls. The children go down into a big library. There are books everywhere, and some of them fly under the ceiling! One of them glows gold.",
+    "start_ms": 239160,
+    "end_ms": 261160
+  },
+  "narration": {
+    "engine": "azure",
+    "voice": "en-US-Harper:MAI-Voice-2.1",
+    "style": "audiobook",
+    "rate": "-12%",
+    "locale": "en-US",
+    "capabilities": {
+      "voice": "en-US-Harper:MAI-Voice-2.1",
+      "locale": "en-US",
+      "advertised_styles": [
+        "agent",
+        "angry",
+        "audiobook",
+        "confused",
+        "customer_call_center",
+        "determined",
+        "educational",
+        "embarrassed",
+        "excited",
+        "happy",
+        "hopeful",
+        "joyful",
+        "narrator",
+        "regretful",
+        "relieved",
+        "sad",
+        "shouting",
+        "softvoice",
+        "whispering"
+      ]
+    },
+    "ssml": "<speak xmlns:mstts=\"http://www.w3.org/2001/mstts\" version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"en-US\"><voice name=\"en-US-Harper:MAI-Voice-2.1\"><mstts:express-as style=\"audiobook\"><prosody rate=\"-12%\"><p>Maya turns the key. Click! The door opens. Stone stairs lead down. Flowers that glow blue grow on the walls. The children go down into a big library. There are books everywhere, and some of them fly under the ceiling! One of them glows gold.</p></prosody></mstts:express-as></voice></speak>",
+    "audio_edit": {
+      "kind": "trim_unscripted_tail",
+      "original_duration_ms": 22896,
+      "retained_duration_ms": 22000
+    }
+  },
+  "audio_file": "04_chapter_04_pl_en_2026-10-29_21-10-20.mp3"
+}

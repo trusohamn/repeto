@@ -1043,8 +1043,9 @@ def package_podcasts(
                 "description": (
                     copy.story_description(
                         target, story_titles, chapter, len(transcript["chapters"]),
+                        source=source_language,
                     )
-                    if source_language == "sv" and target in copy.LANGUAGES
+                    if source_language in ("sv", "pl") and target in copy.LANGUAGES
                     else "Listen to the complete chapter in the target language, "
                     "practice vocabulary with native-language prompts, then listen "
                     "to the same chapter again."
@@ -1062,7 +1063,7 @@ def package_podcasts(
                 episodes.append(episode)
                 previous_by_id[episode_id] = episode
         _write_json(existing_catalog, catalog)
-        if source_language == "sv" and target in copy.LANGUAGES:
+        if source_language in ("sv", "pl") and target in copy.LANGUAGES:
             catalog = copy.refresh_course(course, {transcript["story_id"]: transcript})
         for path in builder.remove_superseded_audio(course, superseded):
             print(f"Removed superseded audio: {path.relative_to(course)}", flush=True)
