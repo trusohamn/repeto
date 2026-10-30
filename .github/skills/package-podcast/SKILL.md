@@ -79,7 +79,7 @@ podcast/<slug>/
   path; use `find_image` rather than checking for `cover.jpeg` directly.
 - Create the catalog using the existing schema. Use the source audience's
   language for the show description; explain pauses, double playback, and
-  AI-generated voices accurately. For Swedish- and Polish-source courses the copy comes
+  AI-generated voices accurately. For Swedish-, Polish- and English-source courses the copy comes
   from `code/descriptions.py` (audience: beginners of all ages, not only
   children); edit it there and refresh packaged courses with
   `.venv/bin/python code/descriptions.py podcast/<course>`. Polish practice
@@ -90,6 +90,10 @@ podcast/<slug>/
   the catalog consistently stores target `sv`. Spain Spanish uses `es` in
   both renderers and the catalog. Keep Polish genitive and adverb names in
   `descriptions.py` in sync when adding a target for Polish listeners.
+- English-source courses use practice `--source en` and story
+  `--source-language en`, with English descriptions, `summary.en` story teasers
+  and page labels. English-to-Swedish uses practice target `se`, story/catalog
+  target `sv`, and show title `Repeto – Learn Swedish`.
 - Use bilingual episode titles, source first, without a numeric prefix:
   `Hälsningar — Greetings`. `code/podcast.py` adds the number.
 - Use season 1 and episodes 1 through the current topic count for a new course.

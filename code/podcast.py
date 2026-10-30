@@ -219,11 +219,10 @@ def build_feed(course: Path, base_url: str) -> None:
         )
     ET.indent(rss)
     ET.ElementTree(rss).write(course / "feed.xml", encoding="utf-8", xml_declaration=True)
-    polish = config["language"] == "pl"
-    cover_label = "Okładka" if polish else "Omslag"
-    listen_label = "Słuchaj" if polish else "Lyssna"
-    season_label = "Sezon" if polish else "Säsong"
-    rss_label = "Kanał RSS" if polish else "RSS-flöde"
+    cover_label, listen_label, season_label, rss_label = {
+        "pl": ("Okładka", "Słuchaj", "Sezon", "Kanał RSS"),
+        "en": ("Cover", "Listen", "Season", "RSS feed"),
+    }.get(config["language"], ("Omslag", "Lyssna", "Säsong", "RSS-flöde"))
     links = [
         f'<a href="{html.escape(link_url)}">{html.escape(name)}</a>'
         for name, link_url in config.get("links", {}).items()
@@ -281,7 +280,9 @@ def main() -> None:
         "åldrar. Hör ett ord eller en mening på svenska, säg det själv på det nya "
         "språket och lyssna sedan på svaret.</p>"
         '<p lang="pl">Kursy językowe dla początkujących: słuchaj wskazówek po polsku, '
-        "odpowiadaj w przerwach i powtarzaj za nagraniem.</p>" + "".join(cards)
+        "odpowiadaj w przerwach i powtarzaj za nagraniem.</p>"
+        '<p lang="en">Audio courses for beginners: listen to English prompts, '
+        "answer in the pauses and repeat after the recording.</p>" + "".join(cards)
     )), encoding="utf-8")
     (args.root / ".nojekyll").touch()
 

@@ -52,7 +52,7 @@ class StoryCourseTests(unittest.TestCase):
     def test_azure_is_default_and_practice_stays_on_edge_for_all_languages(self):
         azure = story_course._azure()
         self.assertEqual(story_course.create_parser().parse_args([]).narration_engine, "azure")
-        for source_language, target in (("sv", "pl"), ("pl", "sv"), ("sv", "en")):
+        for source_language, target in (("sv", "pl"), ("pl", "sv"), ("sv", "en"), ("en", "sv")):
             with self.subTest(target=target), tempfile.TemporaryDirectory() as directory:
                 root = Path(directory)
                 transcript = root / "transcript.json"
@@ -191,6 +191,8 @@ class StoryCourseTests(unittest.TestCase):
             self.assertNotIn(polish_name, english)
         for english_name in ("Maya", "Tom", "Radiophone", "Reparo"):
             self.assertIn(english_name, english)
+        for chapter in story["chapters"]:
+            self.assertTrue(chapter["summary"]["en"])
         self.assertIn("Tomek", " ".join(
             chapter["chapter_text"]["pl"] for chapter in story["chapters"]
         ))
@@ -755,6 +757,61 @@ class StoryCourseTests(unittest.TestCase):
             self.assertNotIn("svensk", episode["description"])
             self.assertEqual(catalog["seasons"], {"1": "Testowa historia"})
             self.assertTrue((course / "audio" / episode["file"]).is_file())
+
+    def test_english_swedish_story_packaging_localizes_copy(self):
+        chapter = mini_story()["chapters"][0]
+        chapter["summary"] = {"en": "An adventure begins."}
+        transcript = {
+            "story_id": "test_story",
+            "titles": {"pl": "Testowa historia", "sv": "Testberättelsen", "en": "Test Story"},
+            "chapters": [chapter],
+        }
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            course = root / "podcast" / "english-swedish"
+            course.mkdir(parents=True)
+            (course / "cover.jpeg").write_bytes(b"existing cover")
+            catalog_path = course / "course.json"
+            catalog_path.write_text(json.dumps({
+                "title": "Repeto", "description": "Course", "language": "en",
+                "author": "Repeto", "email": "repeto.lingo@gmail.com",
+                "source_language": "en", "target_language": "sv", "episodes": [],
+            }), encoding="utf-8")
+            story_root = root / "story"
+            (story_root / "generated").mkdir(parents=True)
+            (story_root / "cover.jpeg").write_bytes(b"story cover")
+            transcript_path = story_root / "generated" / "transcript.json"
+            output = story_course.default_output(transcript_path, "en", ["sv"])
+            output.mkdir(parents=True)
+            audio_name = "01_chapter_01_en_sv_2026-10-30_13-00-00.mp3"
+            (output / audio_name).write_bytes(b"story audio")
+            args = argparse.Namespace(
+                podcast_course="english-swedish", source_language="en",
+                transcript=transcript_path, cover=None,
+                email="repeto.lingo@gmail.com", podcast_root=root / "podcast",
+                podcast_base_url="https://example.com/repeto", author="Repeto",
+                output=None,
+            )
+            build = {
+                "settings": {"target_languages": ["sv"]},
+                "chapters": {"1": {"targets": {"sv": {
+                    "audio_file": audio_name, "total_duration_ms": 8400,
+                }}}},
+            }
+            story_course.package_podcasts(args, transcript, build)
+            catalog = json.loads(catalog_path.read_text(encoding="utf-8"))
+            episode = catalog["episodes"][0]
+            self.assertEqual(episode["id"], "test_story:en:sv:chapter-01")
+            self.assertIn("An adventure begins.", episode["description"])
+            self.assertIn("an English prompt", episode["description"])
+            self.assertEqual(catalog["title"], "Repeto – Learn Swedish")
+            self.assertEqual(catalog["seasons"], {"1": "Test Story"})
+            self.assertTrue((course / "audio" / episode["file"]).is_file())
+            story_course.package_podcasts(args, transcript, build)
+            self.assertEqual(
+                catalog["episodes"],
+                json.loads(catalog_path.read_text(encoding="utf-8"))["episodes"],
+            )
 
     def test_rendering_one_target_keeps_other_targets_in_build_manifest(self):
         with tempfile.TemporaryDirectory() as directory:

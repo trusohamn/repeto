@@ -1,0 +1,440 @@
+{
+  "chapter_number": 8,
+  "title": {
+    "pl": "Wielki koncert",
+    "es": "El gran concierto",
+    "sv": "Den stora konserten",
+    "en": "The Grand Concert",
+    "ru": "Большой концерт"
+  },
+  "source_language": "en",
+  "target_language": "sv",
+  "practice_order": "deterministically_shuffled",
+  "sequence": [
+    "story",
+    "practice",
+    "story"
+  ],
+  "total_duration_ms": 225948,
+  "practice": [
+    {
+      "id": 244,
+      "kind": "vocabulary",
+      "start_ms": 38712,
+      "end_ms": 51918,
+      "prompt_language": "en",
+      "prompt": {
+        "text": "take the button out of the radio",
+        "start_ms": 38712,
+        "end_ms": 40704
+      },
+      "target_playbacks": [
+        {
+          "text": "ta ut knappen ur radion",
+          "start_ms": 42704,
+          "end_ms": 44811
+        },
+        {
+          "text": "ta ut knappen ur radion",
+          "start_ms": 47311,
+          "end_ms": 49418
+        }
+      ]
+    },
+    {
+      "id": 189,
+      "kind": "vocabulary",
+      "start_ms": 51918,
+      "end_ms": 63651,
+      "prompt_language": "en",
+      "prompt": {
+        "text": "put into the wing",
+        "start_ms": 51918,
+        "end_ms": 53113
+      },
+      "target_playbacks": [
+        {
+          "text": "sätta in i vingen",
+          "start_ms": 55113,
+          "end_ms": 56882
+        },
+        {
+          "text": "sätta in i vingen",
+          "start_ms": 59382,
+          "end_ms": 61151
+        }
+      ]
+    },
+    {
+      "id": 101,
+      "kind": "vocabulary",
+      "start_ms": 63651,
+      "end_ms": 73809,
+      "prompt_language": "en",
+      "prompt": {
+        "text": "good job",
+        "start_ms": 63651,
+        "end_ms": 64415
+      },
+      "target_playbacks": [
+        {
+          "text": "bra jobbat",
+          "start_ms": 66415,
+          "end_ms": 67612
+        },
+        {
+          "text": "bra jobbat",
+          "start_ms": 70112,
+          "end_ms": 71309
+        }
+      ]
+    },
+    {
+      "id": 243,
+      "kind": "vocabulary",
+      "start_ms": 73809,
+      "end_ms": 83581,
+      "prompt_language": "en",
+      "prompt": {
+        "text": "carefully",
+        "start_ms": 73809,
+        "end_ms": 74555
+      },
+      "target_playbacks": [
+        {
+          "text": "försiktigt",
+          "start_ms": 76555,
+          "end_ms": 77568
+        },
+        {
+          "text": "försiktigt",
+          "start_ms": 80068,
+          "end_ms": 81081
+        }
+      ]
+    },
+    {
+      "id": 194,
+      "kind": "vocabulary",
+      "start_ms": 83581,
+      "end_ms": 93295,
+      "prompt_language": "en",
+      "prompt": {
+        "text": "in the air",
+        "start_ms": 83581,
+        "end_ms": 84421
+      },
+      "target_playbacks": [
+        {
+          "text": "i luften",
+          "start_ms": 86421,
+          "end_ms": 87358
+        },
+        {
+          "text": "i luften",
+          "start_ms": 89858,
+          "end_ms": 90795
+        }
+      ]
+    },
+    {
+      "id": 193,
+      "kind": "vocabulary",
+      "start_ms": 93295,
+      "end_ms": 103417,
+      "prompt_language": "en",
+      "prompt": {
+        "text": "butterflies",
+        "start_ms": 93295,
+        "end_ms": 94295
+      },
+      "target_playbacks": [
+        {
+          "text": "fjärilar",
+          "start_ms": 96295,
+          "end_ms": 97356
+        },
+        {
+          "text": "fjärilar",
+          "start_ms": 99856,
+          "end_ms": 100917
+        }
+      ]
+    },
+    {
+      "id": 191,
+      "kind": "vocabulary",
+      "start_ms": 103417,
+      "end_ms": 113990,
+      "prompt_language": "en",
+      "prompt": {
+        "text": "begin to sing",
+        "start_ms": 103417,
+        "end_ms": 104472
+      },
+      "target_playbacks": [
+        {
+          "text": "börja sjunga",
+          "start_ms": 106472,
+          "end_ms": 107731
+        },
+        {
+          "text": "börja sjunga",
+          "start_ms": 110231,
+          "end_ms": 111490
+        }
+      ]
+    },
+    {
+      "id": 190,
+      "kind": "vocabulary",
+      "start_ms": 113990,
+      "end_ms": 123398,
+      "prompt_language": "en",
+      "prompt": {
+        "text": "call out",
+        "start_ms": 113990,
+        "end_ms": 114766
+      },
+      "target_playbacks": [
+        {
+          "text": "ropa",
+          "start_ms": 116766,
+          "end_ms": 117582
+        },
+        {
+          "text": "ropa",
+          "start_ms": 120082,
+          "end_ms": 120898
+        }
+      ]
+    },
+    {
+      "id": 195,
+      "kind": "vocabulary",
+      "start_ms": 123398,
+      "end_ms": 132581,
+      "prompt_language": "en",
+      "prompt": {
+        "text": "dance",
+        "start_ms": 123398,
+        "end_ms": 124057
+      },
+      "target_playbacks": [
+        {
+          "text": "dansa",
+          "start_ms": 126057,
+          "end_ms": 126819
+        },
+        {
+          "text": "dansa",
+          "start_ms": 129319,
+          "end_ms": 130081
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "kind": "vocabulary",
+      "start_ms": 132581,
+      "end_ms": 144106,
+      "prompt_language": "en",
+      "prompt": {
+        "text": "real explorers",
+        "start_ms": 132581,
+        "end_ms": 133954
+      },
+      "target_playbacks": [
+        {
+          "text": "riktiga upptäckare",
+          "start_ms": 135954,
+          "end_ms": 137530
+        },
+        {
+          "text": "riktiga upptäckare",
+          "start_ms": 140030,
+          "end_ms": 141606
+        }
+      ]
+    },
+    {
+      "id": 246,
+      "kind": "vocabulary",
+      "start_ms": 144106,
+      "end_ms": 155675,
+      "prompt_language": "en",
+      "prompt": {
+        "text": "a new adventure",
+        "start_ms": 144106,
+        "end_ms": 145305
+      },
+      "target_playbacks": [
+        {
+          "text": "ett nytt äventyr",
+          "start_ms": 147305,
+          "end_ms": 148990
+        },
+        {
+          "text": "ett nytt äventyr",
+          "start_ms": 151490,
+          "end_ms": 153175
+        }
+      ]
+    },
+    {
+      "id": 192,
+      "kind": "vocabulary",
+      "start_ms": 155675,
+      "end_ms": 164718,
+      "prompt_language": "en",
+      "prompt": {
+        "text": "happily",
+        "start_ms": 155675,
+        "end_ms": 156388
+      },
+      "target_playbacks": [
+        {
+          "text": "glatt",
+          "start_ms": 158388,
+          "end_ms": 159053
+        },
+        {
+          "text": "glatt",
+          "start_ms": 161553,
+          "end_ms": 162218
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "kind": "vocabulary",
+      "start_ms": 164718,
+      "end_ms": 176094,
+      "prompt_language": "en",
+      "prompt": {
+        "text": "flap its wings",
+        "start_ms": 164718,
+        "end_ms": 165969
+      },
+      "target_playbacks": [
+        {
+          "text": "flaxa med vingarna",
+          "start_ms": 167969,
+          "end_ms": 169531
+        },
+        {
+          "text": "flaxa med vingarna",
+          "start_ms": 172031,
+          "end_ms": 173594
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "kind": "vocabulary",
+      "start_ms": 176094,
+      "end_ms": 186595,
+      "prompt_language": "en",
+      "prompt": {
+        "text": "sing happily",
+        "start_ms": 176094,
+        "end_ms": 177211
+      },
+      "target_playbacks": [
+        {
+          "text": "sjunga glatt",
+          "start_ms": 179211,
+          "end_ms": 180403
+        },
+        {
+          "text": "sjunga glatt",
+          "start_ms": 182903,
+          "end_ms": 184095
+        }
+      ]
+    },
+    {
+      "id": 245,
+      "kind": "vocabulary",
+      "start_ms": 186595,
+      "end_ms": 196332,
+      "prompt_language": "en",
+      "prompt": {
+        "text": "tomorrow",
+        "start_ms": 186595,
+        "end_ms": 187324
+      },
+      "target_playbacks": [
+        {
+          "text": "i morgon",
+          "start_ms": 189324,
+          "end_ms": 190328
+        },
+        {
+          "text": "i morgon",
+          "start_ms": 192828,
+          "end_ms": 193832
+        }
+      ]
+    }
+  ],
+  "book_introduction": null,
+  "chapter_introduction": {
+    "text": "Kapitel åtta. Den stora konserten.",
+    "start_ms": 1000,
+    "end_ms": 4096
+  },
+  "transitions": [
+    {
+      "kind": "chime",
+      "from": "story",
+      "to": "practice",
+      "start_ms": 35592,
+      "end_ms": 36212
+    },
+    {
+      "kind": "chime",
+      "from": "practice",
+      "to": "story",
+      "start_ms": 196332,
+      "end_ms": 196952
+    }
+  ],
+  "chapter_readings": [
+    {
+      "text": "Maja tar försiktigt ut den blå knappen ur radion. Tom sätter in den i fågelns vinge. Barnen ropar: – Reparo! Den gyllene fågeln flaxar med vingarna och börjar sjunga glatt. Fjärilar dansar i luften. – Bra jobbat! säger Radiofon. Ni är riktiga upptäckare. I morgon väntar ett nytt äventyr på oss!",
+      "start_ms": 6596,
+      "end_ms": 33092
+    },
+    {
+      "text": "Maja tar försiktigt ut den blå knappen ur radion. Tom sätter in den i fågelns vinge. Barnen ropar: – Reparo! Den gyllene fågeln flaxar med vingarna och börjar sjunga glatt. Fjärilar dansar i luften. – Bra jobbat! säger Radiofon. Ni är riktiga upptäckare. I morgon väntar ett nytt äventyr på oss!",
+      "start_ms": 199452,
+      "end_ms": 225948
+    }
+  ],
+  "chapter_reading": {
+    "text": "Maja tar försiktigt ut den blå knappen ur radion. Tom sätter in den i fågelns vinge. Barnen ropar: – Reparo! Den gyllene fågeln flaxar med vingarna och börjar sjunga glatt. Fjärilar dansar i luften. – Bra jobbat! säger Radiofon. Ni är riktiga upptäckare. I morgon väntar ett nytt äventyr på oss!",
+    "start_ms": 199452,
+    "end_ms": 225948
+  },
+  "narration": {
+    "engine": "azure",
+    "voice": "sv-SE-Harper:MAI-Voice-2.1",
+    "style": "audiobook",
+    "rate": "-12%",
+    "locale": "sv-SE",
+    "capabilities": {
+      "voice": "sv-SE-Harper:MAI-Voice-2.1",
+      "locale": "sv-SE",
+      "advertised_styles": [
+        "agent",
+        "audiobook",
+        "customer_call_center",
+        "educational",
+        "narrator"
+      ]
+    },
+    "ssml": "<speak xmlns:mstts=\"http://www.w3.org/2001/mstts\" version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"sv-SE\"><voice name=\"sv-SE-Harper:MAI-Voice-2.1\"><mstts:express-as style=\"audiobook\"><prosody rate=\"-12%\"><p>Maja tar försiktigt ut den blå knappen ur radion. Tom sätter in den i fågelns vinge. Barnen ropar: – Reparo! Den gyllene fågeln flaxar med vingarna och börjar sjunga glatt. Fjärilar dansar i luften. – Bra jobbat! säger Radiofon. Ni är riktiga upptäckare. I morgon väntar ett nytt äventyr på oss!</p></prosody></mstts:express-as></voice></speak>"
+  },
+  "audio_file": "08_chapter_08_en_sv_2026-10-30_13-25-06.mp3"
+}

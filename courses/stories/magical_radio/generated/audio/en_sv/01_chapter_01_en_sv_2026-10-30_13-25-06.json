@@ -1,0 +1,588 @@
+{
+  "chapter_number": 1,
+  "title": {
+    "pl": "Stary stół",
+    "es": "La mesa vieja",
+    "sv": "Det gamla bordet",
+    "en": "The Old Table",
+    "ru": "Старый стол"
+  },
+  "source_language": "en",
+  "target_language": "sv",
+  "practice_order": "deterministically_shuffled",
+  "sequence": [
+    "story",
+    "practice",
+    "story"
+  ],
+  "total_duration_ms": 299180,
+  "practice": [
+    {
+      "id": 210,
+      "kind": "vocabulary",
+      "start_ms": 45964,
+      "end_ms": 55128,
+      "prompt_language": "en",
+      "prompt": {
+        "text": "stand",
+        "start_ms": 45964,
+        "end_ms": 46690
+      },
+      "target_playbacks": [
+        {
+          "text": "stå",
+          "start_ms": 48690,
+          "end_ms": 49409
+        },
+        {
+          "text": "stå",
+          "start_ms": 51909,
+          "end_ms": 52628
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "kind": "vocabulary",
+      "start_ms": 55128,
+      "end_ms": 67372,
+      "prompt_language": "en",
+      "prompt": {
+        "text": "open one's eyes wide",
+        "start_ms": 55128,
+        "end_ms": 56752
+      },
+      "target_playbacks": [
+        {
+          "text": "spärra upp ögonen",
+          "start_ms": 58752,
+          "end_ms": 60562
+        },
+        {
+          "text": "spärra upp ögonen",
+          "start_ms": 63062,
+          "end_ms": 64872
+        }
+      ]
+    },
+    {
+      "id": 114,
+      "kind": "vocabulary",
+      "start_ms": 67372,
+      "end_ms": 78210,
+      "prompt_language": "en",
+      "prompt": {
+        "text": "is six years old",
+        "start_ms": 67372,
+        "end_ms": 68722
+      },
+      "target_playbacks": [
+        {
+          "text": "är sex år",
+          "start_ms": 70722,
+          "end_ms": 71966
+        },
+        {
+          "text": "är sex år",
+          "start_ms": 74466,
+          "end_ms": 75710
+        }
+      ]
+    },
+    {
+      "id": 115,
+      "kind": "vocabulary",
+      "start_ms": 78210,
+      "end_ms": 88448,
+      "prompt_language": "en",
+      "prompt": {
+        "text": "together",
+        "start_ms": 78210,
+        "end_ms": 78906
+      },
+      "target_playbacks": [
+        {
+          "text": "tillsammans",
+          "start_ms": 80906,
+          "end_ms": 82177
+        },
+        {
+          "text": "tillsammans",
+          "start_ms": 84677,
+          "end_ms": 85948
+        }
+      ]
+    },
+    {
+      "id": 122,
+      "kind": "vocabulary",
+      "start_ms": 88448,
+      "end_ms": 98228,
+      "prompt_language": "en",
+      "prompt": {
+        "text": "appear",
+        "start_ms": 88448,
+        "end_ms": 89110
+      },
+      "target_playbacks": [
+        {
+          "text": "dyka upp",
+          "start_ms": 91110,
+          "end_ms": 92169
+        },
+        {
+          "text": "dyka upp",
+          "start_ms": 94669,
+          "end_ms": 95728
+        }
+      ]
+    },
+    {
+      "id": 111,
+      "kind": "vocabulary",
+      "start_ms": 98228,
+      "end_ms": 107704,
+      "prompt_language": "en",
+      "prompt": {
+        "text": "Saturday",
+        "start_ms": 98228,
+        "end_ms": 99082
+      },
+      "target_playbacks": [
+        {
+          "text": "lördag",
+          "start_ms": 101082,
+          "end_ms": 101893
+        },
+        {
+          "text": "lördag",
+          "start_ms": 104393,
+          "end_ms": 105204
+        }
+      ]
+    },
+    {
+      "id": 211,
+      "kind": "vocabulary",
+      "start_ms": 107704,
+      "end_ms": 119416,
+      "prompt_language": "en",
+      "prompt": {
+        "text": "go to a flea market",
+        "start_ms": 107704,
+        "end_ms": 109206
+      },
+      "target_playbacks": [
+        {
+          "text": "gå på loppmarknad",
+          "start_ms": 111206,
+          "end_ms": 112811
+        },
+        {
+          "text": "gå på loppmarknad",
+          "start_ms": 115311,
+          "end_ms": 116916
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "kind": "vocabulary",
+      "start_ms": 119416,
+      "end_ms": 129881,
+      "prompt_language": "en",
+      "prompt": {
+        "text": "flea market",
+        "start_ms": 119416,
+        "end_ms": 120513
+      },
+      "target_playbacks": [
+        {
+          "text": "loppmarknad",
+          "start_ms": 122513,
+          "end_ms": 123697
+        },
+        {
+          "text": "loppmarknad",
+          "start_ms": 126197,
+          "end_ms": 127381
+        }
+      ]
+    },
+    {
+      "id": 200,
+      "kind": "vocabulary",
+      "start_ms": 129881,
+      "end_ms": 138658,
+      "prompt_language": "en",
+      "prompt": {
+        "text": "when",
+        "start_ms": 129881,
+        "end_ms": 130370
+      },
+      "target_playbacks": [
+        {
+          "text": "när",
+          "start_ms": 132370,
+          "end_ms": 133014
+        },
+        {
+          "text": "när",
+          "start_ms": 135514,
+          "end_ms": 136158
+        }
+      ]
+    },
+    {
+      "id": 117,
+      "kind": "vocabulary",
+      "start_ms": 138658,
+      "end_ms": 149494,
+      "prompt_language": "en",
+      "prompt": {
+        "text": "an old table",
+        "start_ms": 138658,
+        "end_ms": 139734
+      },
+      "target_playbacks": [
+        {
+          "text": "ett gammalt bord",
+          "start_ms": 141734,
+          "end_ms": 143114
+        },
+        {
+          "text": "ett gammalt bord",
+          "start_ms": 145614,
+          "end_ms": 146994
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "kind": "vocabulary",
+      "start_ms": 149494,
+      "end_ms": 161434,
+      "prompt_language": "en",
+      "prompt": {
+        "text": "golden inscription",
+        "start_ms": 149494,
+        "end_ms": 150968
+      },
+      "target_playbacks": [
+        {
+          "text": "gyllene inskription",
+          "start_ms": 152968,
+          "end_ms": 154701
+        },
+        {
+          "text": "gyllene inskription",
+          "start_ms": 157201,
+          "end_ms": 158934
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "kind": "vocabulary",
+      "start_ms": 161434,
+      "end_ms": 172073,
+      "prompt_language": "en",
+      "prompt": {
+        "text": "hum quietly",
+        "start_ms": 161434,
+        "end_ms": 162579
+      },
+      "target_playbacks": [
+        {
+          "text": "susa tyst",
+          "start_ms": 164579,
+          "end_ms": 165826
+        },
+        {
+          "text": "susa tyst",
+          "start_ms": 168326,
+          "end_ms": 169573
+        }
+      ]
+    },
+    {
+      "id": 119,
+      "kind": "vocabulary",
+      "start_ms": 172073,
+      "end_ms": 182012,
+      "prompt_language": "en",
+      "prompt": {
+        "text": "on the table",
+        "start_ms": 172073,
+        "end_ms": 173004
+      },
+      "target_playbacks": [
+        {
+          "text": "på bordet",
+          "start_ms": 175004,
+          "end_ms": 176008
+        },
+        {
+          "text": "på bordet",
+          "start_ms": 178508,
+          "end_ms": 179512
+        }
+      ]
+    },
+    {
+      "id": 120,
+      "kind": "vocabulary",
+      "start_ms": 182012,
+      "end_ms": 192475,
+      "prompt_language": "en",
+      "prompt": {
+        "text": "come closer",
+        "start_ms": 182012,
+        "end_ms": 182995
+      },
+      "target_playbacks": [
+        {
+          "text": "komma närmare",
+          "start_ms": 184995,
+          "end_ms": 186235
+        },
+        {
+          "text": "komma närmare",
+          "start_ms": 188735,
+          "end_ms": 189975
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "kind": "vocabulary",
+      "start_ms": 192475,
+      "end_ms": 203165,
+      "prompt_language": "en",
+      "prompt": {
+        "text": "gold knobs",
+        "start_ms": 192475,
+        "end_ms": 193497
+      },
+      "target_playbacks": [
+        {
+          "text": "gyllene rattar",
+          "start_ms": 195497,
+          "end_ms": 196831
+        },
+        {
+          "text": "gyllene rattar",
+          "start_ms": 199331,
+          "end_ms": 200665
+        }
+      ]
+    },
+    {
+      "id": 112,
+      "kind": "vocabulary",
+      "start_ms": 203165,
+      "end_ms": 214257,
+      "prompt_language": "en",
+      "prompt": {
+        "text": "is nine years old",
+        "start_ms": 203165,
+        "end_ms": 204493
+      },
+      "target_playbacks": [
+        {
+          "text": "är nio år",
+          "start_ms": 206493,
+          "end_ms": 207875
+        },
+        {
+          "text": "är nio år",
+          "start_ms": 210375,
+          "end_ms": 211757
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "kind": "vocabulary",
+      "start_ms": 214257,
+      "end_ms": 225431,
+      "prompt_language": "en",
+      "prompt": {
+        "text": "colourful buttons",
+        "start_ms": 214257,
+        "end_ms": 215527
+      },
+      "target_playbacks": [
+        {
+          "text": "färgade knappar",
+          "start_ms": 217527,
+          "end_ms": 218979
+        },
+        {
+          "text": "färgade knappar",
+          "start_ms": 221479,
+          "end_ms": 222931
+        }
+      ]
+    },
+    {
+      "id": 113,
+      "kind": "vocabulary",
+      "start_ms": 225431,
+      "end_ms": 235526,
+      "prompt_language": "en",
+      "prompt": {
+        "text": "her brother",
+        "start_ms": 225431,
+        "end_ms": 226260
+      },
+      "target_playbacks": [
+        {
+          "text": "hennes bror",
+          "start_ms": 228260,
+          "end_ms": 229393
+        },
+        {
+          "text": "hennes bror",
+          "start_ms": 231893,
+          "end_ms": 233026
+        }
+      ]
+    },
+    {
+      "id": 118,
+      "kind": "vocabulary",
+      "start_ms": 235526,
+      "end_ms": 247021,
+      "prompt_language": "en",
+      "prompt": {
+        "text": "a wooden radio",
+        "start_ms": 235526,
+        "end_ms": 236747
+      },
+      "target_playbacks": [
+        {
+          "text": "en radio av trä",
+          "start_ms": 238747,
+          "end_ms": 240384
+        },
+        {
+          "text": "en radio av trä",
+          "start_ms": 242884,
+          "end_ms": 244521
+        }
+      ]
+    },
+    {
+      "id": 121,
+      "kind": "vocabulary",
+      "start_ms": 247021,
+      "end_ms": 256752,
+      "prompt_language": "en",
+      "prompt": {
+        "text": "suddenly",
+        "start_ms": 247021,
+        "end_ms": 247826
+      },
+      "target_playbacks": [
+        {
+          "text": "plötsligt",
+          "start_ms": 249826,
+          "end_ms": 250789
+        },
+        {
+          "text": "plötsligt",
+          "start_ms": 253289,
+          "end_ms": 254252
+        }
+      ]
+    },
+    {
+      "id": 116,
+      "kind": "vocabulary",
+      "start_ms": 256752,
+      "end_ms": 266684,
+      "prompt_language": "en",
+      "prompt": {
+        "text": "in the corner",
+        "start_ms": 256752,
+        "end_ms": 257634
+      },
+      "target_playbacks": [
+        {
+          "text": "i hörnet",
+          "start_ms": 259634,
+          "end_ms": 260659
+        },
+        {
+          "text": "i hörnet",
+          "start_ms": 263159,
+          "end_ms": 264184
+        }
+      ]
+    }
+  ],
+  "book_introduction": {
+    "text": "Den magiska radion.",
+    "start_ms": 1000,
+    "end_ms": 2872
+  },
+  "chapter_introduction": {
+    "text": "Kapitel ett. Det gamla bordet.",
+    "start_ms": 5372,
+    "end_ms": 8468
+  },
+  "transitions": [
+    {
+      "kind": "chime",
+      "from": "story",
+      "to": "practice",
+      "start_ms": 42844,
+      "end_ms": 43464
+    },
+    {
+      "kind": "chime",
+      "from": "practice",
+      "to": "story",
+      "start_ms": 266684,
+      "end_ms": 267304
+    }
+  ],
+  "chapter_readings": [
+    {
+      "text": "Det är lördag. Maja är nio år och hennes bror Tom är sex. Tillsammans går de på loppmarknad. I hörnet står ett gammalt bord och på bordet står en radio av trä. Den har gyllene rattar och färgade knappar. När Maja kommer närmare börjar radion plötsligt susa tyst. En gyllene text dyker upp på radion: ”Till Maja och Tom”. Barnen spärrar upp ögonen.",
+      "start_ms": 10968,
+      "end_ms": 40344
+    },
+    {
+      "text": "Det är lördag. Maja är nio år och hennes bror Tom är sex. Tillsammans går de på loppmarknad. I hörnet står ett gammalt bord och på bordet står en radio av trä. Den har gyllene rattar och färgade knappar. När Maja kommer närmare börjar radion plötsligt susa tyst. En gyllene text dyker upp på radion: ”Till Maja och Tom”. Barnen spärrar upp ögonen.",
+      "start_ms": 269804,
+      "end_ms": 299180
+    }
+  ],
+  "chapter_reading": {
+    "text": "Det är lördag. Maja är nio år och hennes bror Tom är sex. Tillsammans går de på loppmarknad. I hörnet står ett gammalt bord och på bordet står en radio av trä. Den har gyllene rattar och färgade knappar. När Maja kommer närmare börjar radion plötsligt susa tyst. En gyllene text dyker upp på radion: ”Till Maja och Tom”. Barnen spärrar upp ögonen.",
+    "start_ms": 269804,
+    "end_ms": 299180
+  },
+  "narration": {
+    "engine": "azure",
+    "voice": "sv-SE-Harper:MAI-Voice-2.1",
+    "style": "audiobook",
+    "rate": "-12%",
+    "locale": "sv-SE",
+    "capabilities": {
+      "voice": "sv-SE-Harper:MAI-Voice-2.1",
+      "locale": "sv-SE",
+      "advertised_styles": [
+        "agent",
+        "audiobook",
+        "customer_call_center",
+        "educational",
+        "narrator"
+      ]
+    },
+    "ssml": "<speak xmlns:mstts=\"http://www.w3.org/2001/mstts\" version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"sv-SE\"><voice name=\"sv-SE-Harper:MAI-Voice-2.1\"><mstts:express-as style=\"audiobook\"><prosody rate=\"-12%\"><p>Det är lördag. Maja är nio år och hennes bror Tom är sex. Tillsammans går de på loppmarknad. I hörnet står ett gammalt bord och på bordet står en radio av trä. Den har gyllene rattar och färgade knappar. När Maja kommer närmare börjar radion plötsligt susa tyst. En gyllene text dyker upp på radion: ”Till Maja och Tom”. Barnen spärrar upp ögonen.</p></prosody></mstts:express-as></voice></speak>"
+  },
+  "audio_file": "01_chapter_01_en_sv_2026-10-30_13-25-06.mp3"
+}

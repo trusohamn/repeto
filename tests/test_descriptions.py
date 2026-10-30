@@ -35,6 +35,62 @@ STORY = {
 
 
 class DescriptionTests(unittest.TestCase):
+    def test_english_audience_copy_and_swedish_alias(self):
+        self.assertEqual(descriptions.show_title("sv", source="en"), "Repeto – Learn Swedish")
+        self.assertEqual(descriptions.show_title("se", source="en"), "Repeto – Learn Swedish")
+        text = descriptions.show_description("sv", 30, [], "a@b.se", source="en")
+        self.assertIn("English prompts", text)
+        self.assertIn("Season 1 – Practice: 30 short topics", text)
+        self.assertIn("answer twice", text)
+        self.assertIn("AI-generated", text)
+        self.assertIn("corrections and story ideas are welcome: a@b.se", text)
+        items = [{"en": "Hello!", "se": "Hej!"}]
+        text = descriptions.practice_description(
+            "se", 1, 30, {"en": "Greetings", "se": "Hälsningar"}, items, source="en",
+        )
+        self.assertIn("Topic 1 of 30: Greetings (Hälsningar) – 1 phrase.", text)
+        self.assertIn("Hello! → Hej!", text)
+        self.assertIn("Each Swedish phrase is played twice", text)
+
+    def test_refresh_english_source_includes_story_summary_and_seasons(self):
+        story = {
+            "story_id": "test_story",
+            "titles": {"en": "The Magical Radio", "sv": "Den magiska radion"},
+            "chapters": [
+                {"chapter_number": 1, "summary": {"en": "An adventure begins."}},
+            ],
+        }
+        with tempfile.TemporaryDirectory() as directory:
+            course = Path(directory)
+            (course / "course.json").write_text(json.dumps({
+                "title": "Old", "description": "Old", "email": "a@b.se",
+                "source_language": "en", "target_language": "sv",
+                "episodes": [
+                    {"id": "repeto:english-swedish:topic-01", "description": "old", "season": 1},
+                    {"id": "test_story:en:sv:chapter-01", "description": "old", "season": 2},
+                ],
+            }), encoding="utf-8")
+            catalog = descriptions.refresh_course(
+                course, {"test_story": story},
+                ({"Greetings": [{"en": "Hello!", "se": "Hej!"}]},
+                 {"Greetings": {"en": "Greetings", "se": "Hälsningar"}}),
+                source="en",
+            )
+            self.assertEqual(catalog["title"], "Repeto – Learn Swedish")
+            self.assertEqual(catalog["seasons"], {"1": "Practice", "2": "The Magical Radio"})
+            self.assertIn('"The Magical Radio" (Den magiska radion)', catalog["description"])
+            practice, chapter = catalog["episodes"]
+            self.assertIn("Hello! → Hej!", practice["description"])
+            self.assertIn("Chapter 1 of 1", chapter["description"])
+            self.assertIn("An adventure begins.", chapter["description"])
+            self.assertIn("an English prompt, a pause, then the answer in Swedish", chapter["description"])
+            without_summary = descriptions.story_description(
+                "sv", story["titles"], {"chapter_number": 1}, 8, source="en",
+            )
+            self.assertTrue(without_summary.startswith(
+                'Chapter 1 of 8 in "The Magical Radio" (Den magiska radion).\n\n'
+            ))
+
     def test_swedish_and_spain_spanish_targets_for_polish_listeners(self):
         for target, genitive, adverb in (
             ("sv", "szwedzkiego", "szwedzku"),

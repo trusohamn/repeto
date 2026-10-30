@@ -1,0 +1,868 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Repeto – Learn Swedish</title>
+    <link>https://trusohamn.github.io/repeto/english-swedish/</link>
+    <description>Learn Swedish by listening and speaking, with English prompts to guide you. Repeto is an audio course for beginners of all ages: children, parents, grandparents and anyone who wants to start learning Swedish. No previous knowledge or textbook is needed.
+
+How it works: you hear a word or sentence in English, then have a pause to say it in Swedish. Next, you hear the answer twice, with time to repeat it and practise the pronunciation.
+
+What's included:
+• Season 1 – Practice: 30 short topics, from greetings and numbers to food, feelings and everyday situations.
+• Season 2 – Story: "The Magical Radio" (Den magiska radion), one chapter per episode. Listen to the chapter in Swedish, practise its vocabulary, then listen to the chapter again.
+• More stories are on the way. Follow the podcast to hear new episodes.
+
+How to use the course:
+• Start with season 1, episode 1 and listen in order.
+• Answer out loud during each pause. Try to recall the words yourself.
+• Replay an episode until you can answer before the recorded voice.
+• Listening in the background can help you get used to the sounds and rhythm of the language. Practise actively too, by repeating and answering during the pauses.
+
+Enjoy this format? Repeto is also available in other languages, with the same familiar structure. Search for Repeto in your podcast app.
+
+Get in touch! Suggestions for new languages, corrections and story ideas are welcome: repeto.lingo@gmail.com
+
+Voices are AI-generated (Microsoft Azure).</description>
+    <language>en</language>
+    <itunes:author>Repeto</itunes:author>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:type>serial</itunes:type>
+    <itunes:owner>
+      <itunes:name>Repeto</itunes:name>
+      <itunes:email>repeto.lingo@gmail.com</itunes:email>
+    </itunes:owner>
+    <itunes:image href="https://trusohamn.github.io/repeto/english-swedish/cover-9058d49d.jpeg" />
+    <itunes:category text="Education">
+      <itunes:category text="Language Learning" />
+    </itunes:category>
+    <atom:link href="https://trusohamn.github.io/repeto/english-swedish/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>01 Greetings — Hälsningar</title>
+      <description>Topic 1 of 30: Greetings (Hälsningar) – 36 phrases.
+
+You hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• Hi! → Hej!
+• Good morning! → God morgon!
+• Good afternoon! → God eftermiddag!
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 1 of 30: Greetings (Hälsningar) – 36 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Hi! → Hej!&lt;/li&gt;&lt;li&gt;Good morning! → God morgon!&lt;/li&gt;&lt;li&gt;Good afternoon! → God eftermiddag!&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-swedish:topic-01</guid>
+      <pubDate>Fri, 30 Oct 2026 12:25:55 +0000</pubDate>
+      <itunes:episode>1</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>368</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/english-swedish/audio/practice/01_greetings_en_se_double_2026-10-30_13-21-45.mp3" length="8837999" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>02 Numbers — Tal</title>
+      <description>Topic 2 of 30: Numbers (Tal) – 35 phrases.
+
+You hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• One → Ett
+• Two → Två
+• Three → Tre
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 2 of 30: Numbers (Tal) – 35 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;One → Ett&lt;/li&gt;&lt;li&gt;Two → Två&lt;/li&gt;&lt;li&gt;Three → Tre&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-swedish:topic-02</guid>
+      <pubDate>Fri, 30 Oct 2026 12:25:55 +0000</pubDate>
+      <itunes:episode>2</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>344</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/english-swedish/audio/practice/02_numbers_en_se_double_2026-10-30_13-21-45.mp3" length="8247422" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>03 Colors — Färger</title>
+      <description>Topic 3 of 30: Colors (Färger) – 29 phrases.
+
+You hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• Red → Röd
+• Blue → Blå
+• Yellow → Gul
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 3 of 30: Colors (Färger) – 29 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Red → Röd&lt;/li&gt;&lt;li&gt;Blue → Blå&lt;/li&gt;&lt;li&gt;Yellow → Gul&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-swedish:topic-03</guid>
+      <pubDate>Fri, 30 Oct 2026 12:25:55 +0000</pubDate>
+      <itunes:episode>3</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>303</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/english-swedish/audio/practice/03_colors_en_se_double_2026-10-30_13-21-45.mp3" length="7267517" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>04 Animals — Djur</title>
+      <description>Topic 4 of 30: Animals (Djur) – 42 phrases.
+
+You hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• Dog → Hund
+• Cat → Katt
+• Bird → Fågel
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 4 of 30: Animals (Djur) – 42 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Dog → Hund&lt;/li&gt;&lt;li&gt;Cat → Katt&lt;/li&gt;&lt;li&gt;Bird → Fågel&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-swedish:topic-04</guid>
+      <pubDate>Fri, 30 Oct 2026 12:25:55 +0000</pubDate>
+      <itunes:episode>4</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>419</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/english-swedish/audio/practice/04_animals_en_se_double_2026-10-30_13-21-45.mp3" length="10059275" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>05 Family — Familj</title>
+      <description>Topic 5 of 30: Family (Familj) – 26 phrases.
+
+You hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• Mum → Mamma
+• Dad → Pappa
+• Sister → Syster
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 5 of 30: Family (Familj) – 26 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Mum → Mamma&lt;/li&gt;&lt;li&gt;Dad → Pappa&lt;/li&gt;&lt;li&gt;Sister → Syster&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-swedish:topic-05</guid>
+      <pubDate>Fri, 30 Oct 2026 12:25:55 +0000</pubDate>
+      <itunes:episode>5</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>287</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/english-swedish/audio/practice/05_family_en_se_double_2026-10-30_13-21-45.mp3" length="6885711" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>06 Food — Mat</title>
+      <description>Topic 6 of 30: Food (Mat) – 49 phrases.
+
+You hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• Bread → Bröd
+• Milk → Mjölk
+• Egg → Ägg
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 6 of 30: Food (Mat) – 49 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Bread → Bröd&lt;/li&gt;&lt;li&gt;Milk → Mjölk&lt;/li&gt;&lt;li&gt;Egg → Ägg&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-swedish:topic-06</guid>
+      <pubDate>Fri, 30 Oct 2026 12:25:55 +0000</pubDate>
+      <itunes:episode>6</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>498</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/english-swedish/audio/practice/06_food_en_se_double_2026-10-30_13-21-45.mp3" length="11949496" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>07 Body — Kroppen</title>
+      <description>Topic 7 of 30: Body (Kroppen) – 37 phrases.
+
+You hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• Head → Huvud
+• Hair → Hår
+• Eye → Öga
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 7 of 30: Body (Kroppen) – 37 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Head → Huvud&lt;/li&gt;&lt;li&gt;Hair → Hår&lt;/li&gt;&lt;li&gt;Eye → Öga&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-swedish:topic-07</guid>
+      <pubDate>Fri, 30 Oct 2026 12:25:55 +0000</pubDate>
+      <itunes:episode>7</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>369</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/english-swedish/audio/practice/07_body_en_se_double_2026-10-30_13-21-45.mp3" length="8859314" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>08 Clothing — Kläder</title>
+      <description>Topic 8 of 30: Clothing (Kläder) – 29 phrases.
+
+You hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• Jumper → Tröja
+• T-shirt → T-shirt
+• Shirt → Skjorta
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 8 of 30: Clothing (Kläder) – 29 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Jumper → Tröja&lt;/li&gt;&lt;li&gt;T-shirt → T-shirt&lt;/li&gt;&lt;li&gt;Shirt → Skjorta&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-swedish:topic-08</guid>
+      <pubDate>Fri, 30 Oct 2026 12:25:55 +0000</pubDate>
+      <itunes:episode>8</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>307</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/english-swedish/audio/practice/08_clothing_en_se_double_2026-10-30_13-21-45.mp3" length="7358423" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>09 Home — Hemma</title>
+      <description>Topic 9 of 30: Home (Hemma) – 38 phrases.
+
+You hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• House → Hus
+• Flat → Lägenhet
+• Room → Rum
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 9 of 30: Home (Hemma) – 38 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;House → Hus&lt;/li&gt;&lt;li&gt;Flat → Lägenhet&lt;/li&gt;&lt;li&gt;Room → Rum&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-swedish:topic-09</guid>
+      <pubDate>Fri, 30 Oct 2026 12:25:55 +0000</pubDate>
+      <itunes:episode>9</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>388</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/english-swedish/audio/practice/09_home_en_se_double_2026-10-30_13-21-45.mp3" length="9312591" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>10 School — Skolan</title>
+      <description>Topic 10 of 30: School (Skolan) – 41 phrases.
+
+You hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• School → Skola
+• Classroom → Klassrum
+• Teacher → Lärare
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 10 of 30: School (Skolan) – 41 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;School → Skola&lt;/li&gt;&lt;li&gt;Classroom → Klassrum&lt;/li&gt;&lt;li&gt;Teacher → Lärare&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-swedish:topic-10</guid>
+      <pubDate>Fri, 30 Oct 2026 12:25:55 +0000</pubDate>
+      <itunes:episode>10</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>430</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/english-swedish/audio/practice/10_school_en_se_double_2026-10-30_13-21-45.mp3" length="10331994" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>11 Weather — Väder</title>
+      <description>Topic 11 of 30: Weather (Väder) – 25 phrases.
+
+You hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• Weather → Väder
+• Sun → Sol
+• Rain → Regn
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 11 of 30: Weather (Väder) – 25 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Weather → Väder&lt;/li&gt;&lt;li&gt;Sun → Sol&lt;/li&gt;&lt;li&gt;Rain → Regn&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-swedish:topic-11</guid>
+      <pubDate>Fri, 30 Oct 2026 12:25:55 +0000</pubDate>
+      <itunes:episode>11</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>255</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/english-swedish/audio/practice/11_weather_en_se_double_2026-10-30_13-21-45.mp3" length="6125234" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>12 Seasons — Årstider</title>
+      <description>Topic 12 of 30: Seasons (Årstider) – 18 phrases.
+
+You hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• Spring → Vår
+• Summer → Sommar
+• Autumn → Höst
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 12 of 30: Seasons (Årstider) – 18 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Spring → Vår&lt;/li&gt;&lt;li&gt;Summer → Sommar&lt;/li&gt;&lt;li&gt;Autumn → Höst&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-swedish:topic-12</guid>
+      <pubDate>Fri, 30 Oct 2026 12:25:55 +0000</pubDate>
+      <itunes:episode>12</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>203</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/english-swedish/audio/practice/12_seasons_en_se_double_2026-10-30_13-21-45.mp3" length="4877626" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>13 Days and Time — Dagar och tid</title>
+      <description>Topic 13 of 30: Days and Time (Dagar och tid) – 29 phrases.
+
+You hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• Monday → Måndag
+• Tuesday → Tisdag
+• Wednesday → Onsdag
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 13 of 30: Days and Time (Dagar och tid) – 29 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Monday → Måndag&lt;/li&gt;&lt;li&gt;Tuesday → Tisdag&lt;/li&gt;&lt;li&gt;Wednesday → Onsdag&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-swedish:topic-13</guid>
+      <pubDate>Fri, 30 Oct 2026 12:25:55 +0000</pubDate>
+      <itunes:episode>13</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>307</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/english-swedish/audio/practice/13_days_and_time_en_se_double_2026-10-30_13-21-45.mp3" length="7362812" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>14 Toys and Play — Leksaker och lek</title>
+      <description>Topic 14 of 30: Toys and Play (Leksaker och lek) – 34 phrases.
+
+You hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• Toy → Leksak
+• Ball → Boll
+• Doll → Docka
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 14 of 30: Toys and Play (Leksaker och lek) – 34 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Toy → Leksak&lt;/li&gt;&lt;li&gt;Ball → Boll&lt;/li&gt;&lt;li&gt;Doll → Docka&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-swedish:topic-14</guid>
+      <pubDate>Fri, 30 Oct 2026 12:25:55 +0000</pubDate>
+      <itunes:episode>14</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>359</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/english-swedish/audio/practice/14_toys_and_play_en_se_double_2026-10-30_13-21-45.mp3" length="8618570" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>15 Sports and Activities — Sport och aktiviteter</title>
+      <description>Topic 15 of 30: Sports and Activities (Sport och aktiviteter) – 25 phrases.
+
+You hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• Football → Fotboll
+• Swimming → Simning
+• Cycling → Cykling
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 15 of 30: Sports and Activities (Sport och aktiviteter) – 25 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Football → Fotboll&lt;/li&gt;&lt;li&gt;Swimming → Simning&lt;/li&gt;&lt;li&gt;Cycling → Cykling&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-swedish:topic-15</guid>
+      <pubDate>Fri, 30 Oct 2026 12:25:55 +0000</pubDate>
+      <itunes:episode>15</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>272</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/english-swedish/audio/practice/15_sports_and_activities_en_se_double_2026-10-30_13-21-45.mp3" length="6523968" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>16 I want and I need — Jag vill ha och jag behöver</title>
+      <description>Topic 16 of 30: I want and I need (Jag vill ha och jag behöver) – 28 phrases.
+
+You hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• I want to go outside. → Jag vill gå ut.
+• I want a ball. → Jag vill ha en boll.
+• I want to eat. → Jag vill äta.
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 16 of 30: I want and I need (Jag vill ha och jag behöver) – 28 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;I want to go outside. → Jag vill gå ut.&lt;/li&gt;&lt;li&gt;I want a ball. → Jag vill ha en boll.&lt;/li&gt;&lt;li&gt;I want to eat. → Jag vill äta.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-swedish:topic-16</guid>
+      <pubDate>Fri, 30 Oct 2026 12:25:55 +0000</pubDate>
+      <itunes:episode>16</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>316</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/english-swedish/audio/practice/16_i_want_i_need_en_se_double_2026-10-30_13-21-45.mp3" length="7573463" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>17 Where is it? — Var är?</title>
+      <description>Topic 17 of 30: Where is it? (Var är?) – 28 phrases.
+
+You hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• Where is the teddy bear? → Var är nallen?
+• Where is my phone? → Var är min mobil?
+• Where is my bag? → Var är min väska?
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 17 of 30: Where is it? (Var är?) – 28 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Where is the teddy bear? → Var är nallen?&lt;/li&gt;&lt;li&gt;Where is my phone? → Var är min mobil?&lt;/li&gt;&lt;li&gt;Where is my bag? → Var är min väska?&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-swedish:topic-17</guid>
+      <pubDate>Fri, 30 Oct 2026 12:25:55 +0000</pubDate>
+      <itunes:episode>17</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>312</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/english-swedish/audio/practice/17_where_is_en_se_double_2026-10-30_13-21-45.mp3" length="7485692" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>18 Feelings and Emotions — Känslor</title>
+      <description>Topic 18 of 30: Feelings and Emotions (Känslor) – 28 phrases.
+
+You hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• Happy → Glad
+• Sad → Ledsen
+• Angry → Arg
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 18 of 30: Feelings and Emotions (Känslor) – 28 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Happy → Glad&lt;/li&gt;&lt;li&gt;Sad → Ledsen&lt;/li&gt;&lt;li&gt;Angry → Arg&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-swedish:topic-18</guid>
+      <pubDate>Fri, 30 Oct 2026 12:25:55 +0000</pubDate>
+      <itunes:episode>18</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>298</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/english-swedish/audio/practice/18_feelings_and_emotions_en_se_double_2026-10-30_13-21-45.mp3" length="7148399" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>19 Transport — Färdmedel</title>
+      <description>Topic 19 of 30: Transport (Färdmedel) – 25 phrases.
+
+You hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• Car → Bil
+• Bus → Buss
+• Train → Tåg
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 19 of 30: Transport (Färdmedel) – 25 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Car → Bil&lt;/li&gt;&lt;li&gt;Bus → Buss&lt;/li&gt;&lt;li&gt;Train → Tåg&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-swedish:topic-19</guid>
+      <pubDate>Fri, 30 Oct 2026 12:25:55 +0000</pubDate>
+      <itunes:episode>19</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>267</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/english-swedish/audio/practice/19_transport_en_se_double_2026-10-30_13-21-45.mp3" length="6404849" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>20 Nature — Naturen</title>
+      <description>Topic 20 of 30: Nature (Naturen) – 27 phrases.
+
+You hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• Forest → Skog
+• Sea → Hav
+• Lake → Sjö
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 20 of 30: Nature (Naturen) – 27 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Forest → Skog&lt;/li&gt;&lt;li&gt;Sea → Hav&lt;/li&gt;&lt;li&gt;Lake → Sjö&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-swedish:topic-20</guid>
+      <pubDate>Fri, 30 Oct 2026 12:25:55 +0000</pubDate>
+      <itunes:episode>20</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>274</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/english-swedish/audio/practice/20_nature_en_se_double_2026-10-30_13-21-45.mp3" length="6587915" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>21 Holidays and Celebrations — Högtider och firande</title>
+      <description>Topic 21 of 30: Holidays and Celebrations (Högtider och firande) – 23 phrases.
+
+You hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• Birthday → Födelsedag
+• Happy birthday! → Grattis på födelsedagen!
+• Christmas → Jul
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 21 of 30: Holidays and Celebrations (Högtider och firande) – 23 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Birthday → Födelsedag&lt;/li&gt;&lt;li&gt;Happy birthday! → Grattis på födelsedagen!&lt;/li&gt;&lt;li&gt;Christmas → Jul&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-swedish:topic-21</guid>
+      <pubDate>Fri, 30 Oct 2026 12:25:55 +0000</pubDate>
+      <itunes:episode>21</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>252</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/english-swedish/audio/practice/21_holidays_and_celebrations_en_se_double_2026-10-30_13-21-45.mp3" length="6039971" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>22 Daily Routine — Vardagsrutiner</title>
+      <description>Topic 22 of 30: Daily Routine (Vardagsrutiner) – 28 phrases.
+
+You hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• Wake up → Vakna
+• Get up → Stiga upp
+• Brush your teeth → Borsta tänderna
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 22 of 30: Daily Routine (Vardagsrutiner) – 28 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Wake up → Vakna&lt;/li&gt;&lt;li&gt;Get up → Stiga upp&lt;/li&gt;&lt;li&gt;Brush your teeth → Borsta tänderna&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-swedish:topic-22</guid>
+      <pubDate>Fri, 30 Oct 2026 12:25:55 +0000</pubDate>
+      <itunes:episode>22</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>318</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/english-swedish/audio/practice/22_daily_routine_en_se_double_2026-10-30_13-21-45.mp3" length="7624245" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>23 Asking and Requests — Fråga och be om hjälp</title>
+      <description>Topic 23 of 30: Asking and Requests (Fråga och be om hjälp) – 26 phrases.
+
+You hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• Can you help me? → Kan du hjälpa mig?
+• Help! → Hjälp!
+• Please! → Snälla!
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 23 of 30: Asking and Requests (Fråga och be om hjälp) – 26 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Can you help me? → Kan du hjälpa mig?&lt;/li&gt;&lt;li&gt;Help! → Hjälp!&lt;/li&gt;&lt;li&gt;Please! → Snälla!&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-swedish:topic-23</guid>
+      <pubDate>Fri, 30 Oct 2026 12:25:55 +0000</pubDate>
+      <itunes:episode>23</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>270</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/english-swedish/audio/practice/23_asking_and_requests_en_se_double_2026-10-30_13-21-45.mp3" length="6480082" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>24 Opposites — Motsatser</title>
+      <description>Topic 24 of 30: Opposites (Motsatser) – 28 phrases.
+
+You hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• Big → Stor
+• Small → Liten
+• Long → Lång
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 24 of 30: Opposites (Motsatser) – 28 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Big → Stor&lt;/li&gt;&lt;li&gt;Small → Liten&lt;/li&gt;&lt;li&gt;Long → Lång&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-swedish:topic-24</guid>
+      <pubDate>Fri, 30 Oct 2026 12:25:55 +0000</pubDate>
+      <itunes:episode>24</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>283</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/english-swedish/audio/practice/24_opposites_en_se_double_2026-10-30_13-21-45.mp3" length="6782266" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>25 Actions and Verbs — Handlingar och verb</title>
+      <description>Topic 25 of 30: Actions and Verbs (Handlingar och verb) – 41 phrases.
+
+You hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• Walk → Gå
+• Run → Springa
+• Jump → Hoppa
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 25 of 30: Actions and Verbs (Handlingar och verb) – 41 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Walk → Gå&lt;/li&gt;&lt;li&gt;Run → Springa&lt;/li&gt;&lt;li&gt;Jump → Hoppa&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-swedish:topic-25</guid>
+      <pubDate>Fri, 30 Oct 2026 12:25:55 +0000</pubDate>
+      <itunes:episode>25</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>413</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/english-swedish/audio/practice/25_actions_and_verbs_en_se_double_2026-10-30_13-21-45.mp3" length="9905048" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>26 Places in Town — Platser i staden</title>
+      <description>Topic 26 of 30: Places in Town (Platser i staden) – 23 phrases.
+
+You hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• Park → Park
+• Playground → Lekplats
+• Shop → Affär
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 26 of 30: Places in Town (Platser i staden) – 23 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Park → Park&lt;/li&gt;&lt;li&gt;Playground → Lekplats&lt;/li&gt;&lt;li&gt;Shop → Affär&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-swedish:topic-26</guid>
+      <pubDate>Fri, 30 Oct 2026 12:25:55 +0000</pubDate>
+      <itunes:episode>26</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>249</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/english-swedish/audio/practice/26_places_in_town_en_se_double_2026-10-30_13-21-45.mp3" length="5982292" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>27 Technology — Teknik</title>
+      <description>Topic 27 of 30: Technology (Teknik) – 22 phrases.
+
+You hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• Phone → Telefon
+• Mobile phone → Mobiltelefon
+• Computer → Dator
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 27 of 30: Technology (Teknik) – 22 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Phone → Telefon&lt;/li&gt;&lt;li&gt;Mobile phone → Mobiltelefon&lt;/li&gt;&lt;li&gt;Computer → Dator&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-swedish:topic-27</guid>
+      <pubDate>Fri, 30 Oct 2026 12:25:55 +0000</pubDate>
+      <itunes:episode>27</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>240</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/english-swedish/audio/practice/27_technology_en_se_double_2026-10-30_13-21-45.mp3" length="5767252" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>28 Music and Art — Musik och konst</title>
+      <description>Topic 28 of 30: Music and Art (Musik och konst) – 23 phrases.
+
+You hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• Music → Musik
+• Song → Sång
+• Dancing → Dans
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 28 of 30: Music and Art (Musik och konst) – 23 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Music → Musik&lt;/li&gt;&lt;li&gt;Song → Sång&lt;/li&gt;&lt;li&gt;Dancing → Dans&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-swedish:topic-28</guid>
+      <pubDate>Fri, 30 Oct 2026 12:25:55 +0000</pubDate>
+      <itunes:episode>28</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>245</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/english-swedish/audio/practice/28_music_and_art_en_se_double_2026-10-30_13-21-45.mp3" length="5871951" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>29 Polite Phrases — Artiga fraser</title>
+      <description>Topic 29 of 30: Polite Phrases (Artiga fraser) – 17 phrases.
+
+You hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• Please. → Snälla.
+• Thank you! → Tack!
+• Thank you very much! → Tack så mycket!
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 29 of 30: Polite Phrases (Artiga fraser) – 17 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Please. → Snälla.&lt;/li&gt;&lt;li&gt;Thank you! → Tack!&lt;/li&gt;&lt;li&gt;Thank you very much! → Tack så mycket!&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-swedish:topic-29</guid>
+      <pubDate>Fri, 30 Oct 2026 12:25:55 +0000</pubDate>
+      <itunes:episode>29</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>176</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/english-swedish/audio/practice/29_polite_phrases_en_se_double_2026-10-30_13-21-45.mp3" length="4221221" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>30 Review and Recap — Repetition</title>
+      <description>Topic 30 of 30: Review and Recap (Repetition) – 11 phrases.
+
+You hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• Well done! → Bra gjort!
+• You are learning a new language! → Du lär dig ett nytt språk!
+• Let's practise! → Nu övar vi!
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 30 of 30: Review and Recap (Repetition) – 11 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Well done! → Bra gjort!&lt;/li&gt;&lt;li&gt;You are learning a new language! → Du lär dig ett nytt språk!&lt;/li&gt;&lt;li&gt;Let&amp;#x27;s practise! → Nu övar vi!&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-swedish:topic-30</guid>
+      <pubDate>Fri, 30 Oct 2026 12:25:55 +0000</pubDate>
+      <itunes:episode>30</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>127</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/english-swedish/audio/practice/30_review_and_recap_en_se_double_2026-10-30_13-21-45.mp3" length="3060758" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>01 The Magical Radio: The Old Table — Det gamla bordet</title>
+      <description>Chapter 1 of 8 in "The Magical Radio" (Den magiska radion). Two siblings find an old wooden radio at a flea market. Suddenly it starts to hum, and a golden inscription shows that the radio is meant for them.
+
+How the episode works:
+1. Listen to the whole chapter in Swedish. You don't need to understand everything.
+2. Practise words and expressions from the chapter: an English prompt, a pause, then the answer in Swedish.
+3. Listen to the chapter again and see how much you can understand.
+
+A chime separates the sections. Listen in order, starting with chapter 1.</description>
+      <content:encoded>&lt;p&gt;Chapter 1 of 8 in &amp;quot;The Magical Radio&amp;quot; (Den magiska radion). Two siblings find an old wooden radio at a flea market. Suddenly it starts to hum, and a golden inscription shows that the radio is meant for them.&lt;/p&gt;&lt;p&gt;How the episode works:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Listen to the whole chapter in Swedish. You don&amp;#x27;t need to understand everything.&lt;/li&gt;&lt;li&gt;Practise words and expressions from the chapter: an English prompt, a pause, then the answer in Swedish.&lt;/li&gt;&lt;li&gt;Listen to the chapter again and see how much you can understand.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;A chime separates the sections. Listen in order, starting with chapter 1.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">magical_radio:en:sv:chapter-01</guid>
+      <pubDate>Fri, 30 Oct 2026 12:26:02 +0000</pubDate>
+      <itunes:episode>1</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>299</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://trusohamn.github.io/repeto/english-swedish/images/stories/magical_radio/cover-447076a6.jpeg" />
+      <enclosure url="https://trusohamn.github.io/repeto/english-swedish/audio/stories/magical_radio/01_chapter_01_en_sv_2026-10-30_13-25-06.mp3" length="7181626" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>02 The Magical Radio: A Voice from the Radio — En röst ur radion</title>
+      <description>Chapter 2 of 8 in "The Magical Radio" (Den magiska radion). At home, the children press the blue button. A little cloud smelling of cinnamon floats out of the radio, and a cheerful voice tells them about a mouse with an important key.
+
+How the episode works:
+1. Listen to the whole chapter in Swedish. You don't need to understand everything.
+2. Practise words and expressions from the chapter: an English prompt, a pause, then the answer in Swedish.
+3. Listen to the chapter again and see how much you can understand.
+
+A chime separates the sections. Listen in order, starting with chapter 1.</description>
+      <content:encoded>&lt;p&gt;Chapter 2 of 8 in &amp;quot;The Magical Radio&amp;quot; (Den magiska radion). At home, the children press the blue button. A little cloud smelling of cinnamon floats out of the radio, and a cheerful voice tells them about a mouse with an important key.&lt;/p&gt;&lt;p&gt;How the episode works:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Listen to the whole chapter in Swedish. You don&amp;#x27;t need to understand everything.&lt;/li&gt;&lt;li&gt;Practise words and expressions from the chapter: an English prompt, a pause, then the answer in Swedish.&lt;/li&gt;&lt;li&gt;Listen to the chapter again and see how much you can understand.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;A chime separates the sections. Listen in order, starting with chapter 1.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">magical_radio:en:sv:chapter-02</guid>
+      <pubDate>Fri, 30 Oct 2026 12:26:02 +0000</pubDate>
+      <itunes:episode>2</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>264</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://trusohamn.github.io/repeto/english-swedish/images/stories/magical_radio/cover-447076a6.jpeg" />
+      <enclosure url="https://trusohamn.github.io/repeto/english-swedish/audio/stories/magical_radio/02_chapter_02_en_sv_2026-10-30_13-25-06.mp3" length="6327109" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>03 The Magical Radio: A Mouse under the Tree — En mus under trädet</title>
+      <description>Chapter 3 of 8 in "The Magical Radio" (Den magiska radion). With a torch, some cheese and the radio, the siblings head to the old tree. A little mouse agrees to a trade, and a small door is hidden between the roots.
+
+How the episode works:
+1. Listen to the whole chapter in Swedish. You don't need to understand everything.
+2. Practise words and expressions from the chapter: an English prompt, a pause, then the answer in Swedish.
+3. Listen to the chapter again and see how much you can understand.
+
+A chime separates the sections. Listen in order, starting with chapter 1.</description>
+      <content:encoded>&lt;p&gt;Chapter 3 of 8 in &amp;quot;The Magical Radio&amp;quot; (Den magiska radion). With a torch, some cheese and the radio, the siblings head to the old tree. A little mouse agrees to a trade, and a small door is hidden between the roots.&lt;/p&gt;&lt;p&gt;How the episode works:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Listen to the whole chapter in Swedish. You don&amp;#x27;t need to understand everything.&lt;/li&gt;&lt;li&gt;Practise words and expressions from the chapter: an English prompt, a pause, then the answer in Swedish.&lt;/li&gt;&lt;li&gt;Listen to the chapter again and see how much you can understand.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;A chime separates the sections. Listen in order, starting with chapter 1.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">magical_radio:en:sv:chapter-03</guid>
+      <pubDate>Fri, 30 Oct 2026 12:26:02 +0000</pubDate>
+      <itunes:episode>3</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>343</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://trusohamn.github.io/repeto/english-swedish/images/stories/magical_radio/cover-447076a6.jpeg" />
+      <enclosure url="https://trusohamn.github.io/repeto/english-swedish/audio/stories/magical_radio/03_chapter_03_en_sv_2026-10-30_13-25-06.mp3" length="8243661" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>04 The Magical Radio: Down the Stairs — Trappan ner</title>
+      <description>Chapter 4 of 8 in "The Magical Radio" (Den magiska radion). The silver key opens the door. Stone steps lead down to a library full of flying books, with glowing flowers growing on the walls.
+
+How the episode works:
+1. Listen to the whole chapter in Swedish. You don't need to understand everything.
+2. Practise words and expressions from the chapter: an English prompt, a pause, then the answer in Swedish.
+3. Listen to the chapter again and see how much you can understand.
+
+A chime separates the sections. Listen in order, starting with chapter 1.</description>
+      <content:encoded>&lt;p&gt;Chapter 4 of 8 in &amp;quot;The Magical Radio&amp;quot; (Den magiska radion). The silver key opens the door. Stone steps lead down to a library full of flying books, with glowing flowers growing on the walls.&lt;/p&gt;&lt;p&gt;How the episode works:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Listen to the whole chapter in Swedish. You don&amp;#x27;t need to understand everything.&lt;/li&gt;&lt;li&gt;Practise words and expressions from the chapter: an English prompt, a pause, then the answer in Swedish.&lt;/li&gt;&lt;li&gt;Listen to the chapter again and see how much you can understand.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;A chime separates the sections. Listen in order, starting with chapter 1.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">magical_radio:en:sv:chapter-04</guid>
+      <pubDate>Fri, 30 Oct 2026 12:26:02 +0000</pubDate>
+      <itunes:episode>4</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>272</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://trusohamn.github.io/repeto/english-swedish/images/stories/magical_radio/cover-447076a6.jpeg" />
+      <enclosure url="https://trusohamn.github.io/repeto/english-swedish/audio/stories/magical_radio/04_chapter_04_en_sv_2026-10-30_13-25-06.mp3" length="6522714" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>05 The Magical Radio: The Flying Book — Den flygande boken</title>
+      <description>Chapter 5 of 8 in "The Magical Radio" (Den magiska radion). A golden book lands on one of the children's shoulders, and the radio reveals a spell that can mend broken things.
+
+How the episode works:
+1. Listen to the whole chapter in Swedish. You don't need to understand everything.
+2. Practise words and expressions from the chapter: an English prompt, a pause, then the answer in Swedish.
+3. Listen to the chapter again and see how much you can understand.
+
+A chime separates the sections. Listen in order, starting with chapter 1.</description>
+      <content:encoded>&lt;p&gt;Chapter 5 of 8 in &amp;quot;The Magical Radio&amp;quot; (Den magiska radion). A golden book lands on one of the children&amp;#x27;s shoulders, and the radio reveals a spell that can mend broken things.&lt;/p&gt;&lt;p&gt;How the episode works:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Listen to the whole chapter in Swedish. You don&amp;#x27;t need to understand everything.&lt;/li&gt;&lt;li&gt;Practise words and expressions from the chapter: an English prompt, a pause, then the answer in Swedish.&lt;/li&gt;&lt;li&gt;Listen to the chapter again and see how much you can understand.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;A chime separates the sections. Listen in order, starting with chapter 1.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">magical_radio:en:sv:chapter-05</guid>
+      <pubDate>Fri, 30 Oct 2026 12:26:02 +0000</pubDate>
+      <itunes:episode>5</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>278</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://trusohamn.github.io/repeto/english-swedish/images/stories/magical_radio/cover-447076a6.jpeg" />
+      <enclosure url="https://trusohamn.github.io/repeto/english-swedish/audio/stories/magical_radio/05_chapter_05_en_sv_2026-10-30_13-25-06.mp3" length="6663148" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>06 The Magical Radio: The First Spell — Den första trollformeln</title>
+      <description>Chapter 6 of 8 in "The Magical Radio" (Den magiska radion). It's time to try the spell on a broken compass. Will it work? And who is waiting behind the green door?
+
+How the episode works:
+1. Listen to the whole chapter in Swedish. You don't need to understand everything.
+2. Practise words and expressions from the chapter: an English prompt, a pause, then the answer in Swedish.
+3. Listen to the chapter again and see how much you can understand.
+
+A chime separates the sections. Listen in order, starting with chapter 1.</description>
+      <content:encoded>&lt;p&gt;Chapter 6 of 8 in &amp;quot;The Magical Radio&amp;quot; (Den magiska radion). It&amp;#x27;s time to try the spell on a broken compass. Will it work? And who is waiting behind the green door?&lt;/p&gt;&lt;p&gt;How the episode works:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Listen to the whole chapter in Swedish. You don&amp;#x27;t need to understand everything.&lt;/li&gt;&lt;li&gt;Practise words and expressions from the chapter: an English prompt, a pause, then the answer in Swedish.&lt;/li&gt;&lt;li&gt;Listen to the chapter again and see how much you can understand.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;A chime separates the sections. Listen in order, starting with chapter 1.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">magical_radio:en:sv:chapter-06</guid>
+      <pubDate>Fri, 30 Oct 2026 12:26:02 +0000</pubDate>
+      <itunes:episode>6</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>218</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://trusohamn.github.io/repeto/english-swedish/images/stories/magical_radio/cover-447076a6.jpeg" />
+      <enclosure url="https://trusohamn.github.io/repeto/english-swedish/audio/stories/magical_radio/06_chapter_06_en_sv_2026-10-30_13-25-06.mp3" length="5236235" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>07 The Magical Radio: The Golden Bird — Den gyllene fågeln</title>
+      <description>Chapter 7 of 8 in "The Magical Radio" (Den magiska radion). Behind the door lies an underground garden. A golden bird ticks like a clock instead of singing. A stone is missing from its wing, and the radio has a secret.
+
+How the episode works:
+1. Listen to the whole chapter in Swedish. You don't need to understand everything.
+2. Practise words and expressions from the chapter: an English prompt, a pause, then the answer in Swedish.
+3. Listen to the chapter again and see how much you can understand.
+
+A chime separates the sections. Listen in order, starting with chapter 1.</description>
+      <content:encoded>&lt;p&gt;Chapter 7 of 8 in &amp;quot;The Magical Radio&amp;quot; (Den magiska radion). Behind the door lies an underground garden. A golden bird ticks like a clock instead of singing. A stone is missing from its wing, and the radio has a secret.&lt;/p&gt;&lt;p&gt;How the episode works:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Listen to the whole chapter in Swedish. You don&amp;#x27;t need to understand everything.&lt;/li&gt;&lt;li&gt;Practise words and expressions from the chapter: an English prompt, a pause, then the answer in Swedish.&lt;/li&gt;&lt;li&gt;Listen to the chapter again and see how much you can understand.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;A chime separates the sections. Listen in order, starting with chapter 1.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">magical_radio:en:sv:chapter-07</guid>
+      <pubDate>Fri, 30 Oct 2026 12:26:02 +0000</pubDate>
+      <itunes:episode>7</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>357</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://trusohamn.github.io/repeto/english-swedish/images/stories/magical_radio/cover-447076a6.jpeg" />
+      <enclosure url="https://trusohamn.github.io/repeto/english-swedish/audio/stories/magical_radio/07_chapter_07_en_sv_2026-10-30_13-25-06.mp3" length="8564026" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>08 The Magical Radio: The Grand Concert — Den stora konserten</title>
+      <description>Chapter 8 of 8 in "The Magical Radio" (Den magiska radion). The finale! Can the siblings mend the golden bird? The story ends with singing, dancing butterflies and the promise of another adventure.
+
+How the episode works:
+1. Listen to the whole chapter in Swedish. You don't need to understand everything.
+2. Practise words and expressions from the chapter: an English prompt, a pause, then the answer in Swedish.
+3. Listen to the chapter again and see how much you can understand.
+
+A chime separates the sections. Listen in order, starting with chapter 1.</description>
+      <content:encoded>&lt;p&gt;Chapter 8 of 8 in &amp;quot;The Magical Radio&amp;quot; (Den magiska radion). The finale! Can the siblings mend the golden bird? The story ends with singing, dancing butterflies and the promise of another adventure.&lt;/p&gt;&lt;p&gt;How the episode works:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Listen to the whole chapter in Swedish. You don&amp;#x27;t need to understand everything.&lt;/li&gt;&lt;li&gt;Practise words and expressions from the chapter: an English prompt, a pause, then the answer in Swedish.&lt;/li&gt;&lt;li&gt;Listen to the chapter again and see how much you can understand.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;A chime separates the sections. Listen in order, starting with chapter 1.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">magical_radio:en:sv:chapter-08</guid>
+      <pubDate>Fri, 30 Oct 2026 12:26:02 +0000</pubDate>
+      <itunes:episode>8</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>226</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://trusohamn.github.io/repeto/english-swedish/images/stories/magical_radio/cover-447076a6.jpeg" />
+      <enclosure url="https://trusohamn.github.io/repeto/english-swedish/audio/stories/magical_radio/08_chapter_08_en_sv_2026-10-30_13-25-06.mp3" length="5424317" type="audio/mpeg" />
+    </item>
+  </channel>
+</rss>

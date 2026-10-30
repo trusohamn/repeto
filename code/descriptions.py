@@ -27,7 +27,7 @@ LANGUAGES = {
 }
 EXAMPLES = 3
 PRACTICE_ID = re.compile(r"repeto:[a-z0-9-]+:topic-(\d+)")
-STORY_ID = re.compile(r"([a-z0-9_-]+):(sv|pl):([a-z]{2}):chapter-(\d+)")
+STORY_ID = re.compile(r"([a-z0-9_-]+):(sv|pl|en):([a-z]{2}):chapter-(\d+)")
 
 
 def _names(target: str) -> tuple[str, str]:
@@ -73,19 +73,34 @@ def _polish_count(number: int, singular: str, few: str, many: str) -> str:
     return f"{number} {word}"
 
 
+def _english_language(target: str) -> str:
+    target = "sv" if target == "se" else target
+    languages = {
+        "pl": "Polish", "en": "English", "ru": "Russian",
+        "sv": "Swedish", "es": "Spanish",
+    }
+    if target not in languages:
+        raise ValueError(f"No English language name configured for {target!r}.")
+    return languages[target]
+
+
 def show_title(target: str, source: str = "sv") -> str:
     if source == "sv":
         return f"Repeto – Lär dig {_names(target)[0]}"
     if source == "pl":
         genitive, _ = _polish_language(target)
         return f"Repeto – Ucz się {genitive}"
+    if source == "en":
+        return f"Repeto – Learn {_english_language(target)}"
     raise ValueError(f"Unsupported source language {source!r}.")
 
 
 def story_name(titles: dict[str, str], target: str, source: str = "sv") -> str:
     """Story title in the source language with the target title in parentheses."""
-    if source not in ("sv", "pl"):
+    if source not in ("sv", "pl", "en"):
         raise ValueError(f"Unsupported source language {source!r}.")
+    if source == "en":
+        return f'"{titles[source]}" ({titles[target]})'
     return f"„{titles[source]}” ({titles[target]})" if source == "pl" else (
         f"”{titles[source]}” ({titles[target]})"
     )
@@ -95,6 +110,52 @@ def show_description(
     target: str, practice_topics: int, story_titles: list[str], email: str,
     source: str = "sv",
 ) -> str:
+    if source == "en":
+        language = _english_language(target)
+        parts = [
+            f"Learn {language} by listening and speaking, with English prompts to guide you. "
+            "Repeto is an audio course for beginners of all ages: children, parents, "
+            f"grandparents and anyone who wants to start learning {language}. "
+            "No previous knowledge or textbook is needed.",
+            "How it works: you hear a word or sentence in English, then have a pause "
+            f"to say it in {language}. Next, you hear the answer twice, with time "
+            "to repeat it and practise the pronunciation.",
+        ]
+        contents = []
+        if practice_topics:
+            contents.append(
+                f"• Season 1 – Practice: {practice_topics} short "
+                f"{'topic' if practice_topics == 1 else 'topics'}, from greetings and "
+                "numbers to food, feelings and everyday situations."
+            )
+        for title in story_titles:
+            contents.append(
+                f"• Season 2 – Story: {title}, one chapter per episode. "
+                f"Listen to the chapter in {language}, practise its vocabulary, "
+                "then listen to the chapter again."
+            )
+        contents.append(
+            "• More stories are on the way. Follow the podcast to hear new episodes."
+        )
+        parts.append("What's included:\n" + "\n".join(contents))
+        parts.append("How to use the course:\n" + "\n".join([
+            "• Start with season 1, episode 1 and listen in order.",
+            "• Answer out loud during each pause. Try to recall the words yourself.",
+            "• Replay an episode until you can answer before the recorded voice.",
+            "• Listening in the background can help you get used to the sounds and "
+            "rhythm of the language. Practise actively too, by repeating and answering "
+            "during the pauses.",
+        ]))
+        parts.append(
+            "Enjoy this format? Repeto is also available in other languages, with "
+            "the same familiar structure. Search for Repeto in your podcast app."
+        )
+        parts.append(
+            "Get in touch! Suggestions for new languages, corrections and story ideas "
+            f"are welcome: {email}"
+        )
+        parts.append("Voices are AI-generated (Microsoft Azure).")
+        return "\n\n".join(parts)
     if source == "pl":
         language, _ = _polish_language(target)
         adverb = _polish_adverb(target)
@@ -195,6 +256,23 @@ def practice_description(
     target: str, number: int, total: int, titles: dict[str, str],
     items: list[dict[str, str]], source: str = "se",
 ) -> str:
+    if source == "en":
+        language = _english_language(target)
+        examples = "\n".join(
+            f"• {item[source]} → {item[target]}" for item in items[:EXAMPLES]
+        )
+        phrase_count = f"{len(items)} {'phrase' if len(items) == 1 else 'phrases'}"
+        return (
+            f"Topic {number} of {total}: {titles[source]} ({titles[target]}) – "
+            f"{phrase_count}.\n\n"
+            "You hear a word or sentence in English. "
+            f"Say it in {language} during the pause, before you hear the answer. "
+            f"Each {language} phrase is played twice: listen and repeat.\n\n"
+            f"Examples from this episode:\n{examples}\n\n"
+            "Tip: listen again until you can answer before the recorded voice."
+        )
+    if source not in ("se", "sv", "pl"):
+        raise ValueError(f"Unsupported source language {source!r}.")
     language, adjective = _names(target)
     if source == "pl":
         language, adjective = _polish_language(target)
@@ -227,6 +305,24 @@ def story_description(
     target: str, story_titles: dict[str, str], chapter: dict[str, Any], total: int,
     source: str = "sv",
 ) -> str:
+    if source == "en":
+        language = _english_language(target)
+        summary = chapter.get("summary", {}).get(source)
+        opening = (
+            f"Chapter {chapter['chapter_number']} of {total} in "
+            f'"{story_titles[source]}" ({story_titles[target]}).'
+        )
+        if summary:
+            opening += f" {summary}"
+        return (
+            f"{opening}\n\n"
+            "How the episode works:\n"
+            f"1. Listen to the whole chapter in {language}. You don't need to understand everything.\n"
+            "2. Practise words and expressions from the chapter: an English prompt, "
+            f"a pause, then the answer in {language}.\n"
+            "3. Listen to the chapter again and see how much you can understand.\n\n"
+            "A chime separates the sections. Listen in order, starting with chapter 1."
+        )
     if source == "pl":
         language, _ = _polish_language(target)
         adverb = _polish_adverb(target)
@@ -296,11 +392,11 @@ def refresh_course(
             f"course source {course_source!r}."
         )
     source = course_source
-    if source not in ("sv", "pl"):
+    if source not in ("sv", "pl", "en"):
         raise ValueError(f"{course.name}: unsupported source language {source!r}.")
     target = catalog["target_language"]
     practice_target = "se" if target == "sv" else target
-    practice_source = "se" if source == "sv" else "pl"
+    practice_source = "se" if source == "sv" else source
     topics: dict[str, list[dict[str, str]]] = {}
     topic_titles: dict[str, dict[str, str]] = {}
     if practice is not None:
@@ -342,7 +438,7 @@ def refresh_course(
     for episode in catalog["episodes"]:
         if PRACTICE_ID.fullmatch(episode["id"]):
             season_names[str(episode["season"])] = (
-                "Övningar" if source == "sv" else "Ćwiczenia"
+                {"sv": "Övningar", "pl": "Ćwiczenia", "en": "Practice"}[source]
             )
         elif match := STORY_ID.fullmatch(episode["id"]):
             season_names[str(episode["season"])] = (

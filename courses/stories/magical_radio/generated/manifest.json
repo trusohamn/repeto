@@ -225,75 +225,6 @@
           },
           "packaged_audio": "polish-english/audio/stories/magical_radio/01_chapter_01_pl_en_2026-10-29_20-56-15.mp3"
         },
-        "sv": {
-          "source_language": "pl",
-          "audio_file": "01_chapter_01_pl_sv_2026-10-30_12-21-23.mp3",
-          "manifest_file": "01_chapter_01_pl_sv_2026-10-30_12-21-23.json",
-          "total_duration_ms": 299307,
-          "chapter_reading": {
-            "text": "Det är lördag. Maja är nio år och hennes bror Tom är sex. Tillsammans går de på loppmarknad. I hörnet står ett gammalt bord och på bordet står en radio av trä. Den har gyllene rattar och färgade knappar. När Maja kommer närmare börjar radion plötsligt susa tyst. En gyllene text dyker upp på radion: ”Till Maja och Tom”. Barnen spärrar upp ögonen.",
-            "start_ms": 269931,
-            "end_ms": 299307
-          },
-          "chapter_introduction": {
-            "text": "Kapitel ett. Det gamla bordet.",
-            "start_ms": 5372,
-            "end_ms": 8468
-          },
-          "chapter_readings": [
-            {
-              "text": "Det är lördag. Maja är nio år och hennes bror Tom är sex. Tillsammans går de på loppmarknad. I hörnet står ett gammalt bord och på bordet står en radio av trä. Den har gyllene rattar och färgade knappar. När Maja kommer närmare börjar radion plötsligt susa tyst. En gyllene text dyker upp på radion: ”Till Maja och Tom”. Barnen spärrar upp ögonen.",
-              "start_ms": 10968,
-              "end_ms": 40344
-            },
-            {
-              "text": "Det är lördag. Maja är nio år och hennes bror Tom är sex. Tillsammans går de på loppmarknad. I hörnet står ett gammalt bord och på bordet står en radio av trä. Den har gyllene rattar och färgade knappar. När Maja kommer närmare börjar radion plötsligt susa tyst. En gyllene text dyker upp på radion: ”Till Maja och Tom”. Barnen spärrar upp ögonen.",
-              "start_ms": 269931,
-              "end_ms": 299307
-            }
-          ],
-          "sequence": [
-            "story",
-            "practice",
-            "story"
-          ],
-          "transitions": [
-            {
-              "kind": "chime",
-              "from": "story",
-              "to": "practice",
-              "start_ms": 42844,
-              "end_ms": 43464
-            },
-            {
-              "kind": "chime",
-              "from": "practice",
-              "to": "story",
-              "start_ms": 266811,
-              "end_ms": 267431
-            }
-          ],
-          "narration": {
-            "engine": "azure",
-            "voice": "sv-SE-Harper:MAI-Voice-2.1",
-            "style": "audiobook",
-            "rate": "-12%",
-            "locale": "sv-SE",
-            "capabilities": {
-              "voice": "sv-SE-Harper:MAI-Voice-2.1",
-              "locale": "sv-SE",
-              "advertised_styles": [
-                "agent",
-                "audiobook",
-                "customer_call_center",
-                "educational",
-                "narrator"
-              ]
-            },
-            "ssml": "<speak xmlns:mstts=\"http://www.w3.org/2001/mstts\" version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"sv-SE\"><voice name=\"sv-SE-Harper:MAI-Voice-2.1\"><mstts:express-as style=\"audiobook\"><prosody rate=\"-12%\"><p>Det är lördag. Maja är nio år och hennes bror Tom är sex. Tillsammans går de på loppmarknad. I hörnet står ett gammalt bord och på bordet står en radio av trä. Den har gyllene rattar och färgade knappar. När Maja kommer närmare börjar radion plötsligt susa tyst. En gyllene text dyker upp på radion: ”Till Maja och Tom”. Barnen spärrar upp ögonen.</p></prosody></mstts:express-as></voice></speak>"
-          },
-          "packaged_audio": "polish-swedish/audio/stories/magical_radio/01_chapter_01_pl_sv_2026-10-30_12-21-23.mp3"
-        },
         "es": {
           "source_language": "pl",
           "audio_file": "01_chapter_01_pl_es_2026-10-30_12-52-42.mp3",
@@ -356,6 +287,75 @@
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"es-ES\"><voice name=\"es-ES-ElviraNeural\"><prosody rate=\"-12%\"><p>Es sábado. Maya tiene nueve años y su hermano Tom tiene seis. Juntos van a un mercadillo de segunda mano. En un rincón hay una mesa vieja y, encima de la mesa, una radio de madera. Tiene mandos dorados y botones de colores. Cuando Maya se acerca, la radio empieza de repente a emitir un suave zumbido. En la radio aparece un mensaje dorado: «Para Maya y Tom». Los niños abren mucho los ojos.</p></prosody></voice></speak>"
           },
           "packaged_audio": "polish-spanish/audio/stories/magical_radio/01_chapter_01_pl_es_2026-10-30_12-52-42.mp3"
+        },
+        "sv": {
+          "source_language": "en",
+          "audio_file": "01_chapter_01_en_sv_2026-10-30_13-25-06.mp3",
+          "manifest_file": "01_chapter_01_en_sv_2026-10-30_13-25-06.json",
+          "total_duration_ms": 299180,
+          "chapter_reading": {
+            "text": "Det är lördag. Maja är nio år och hennes bror Tom är sex. Tillsammans går de på loppmarknad. I hörnet står ett gammalt bord och på bordet står en radio av trä. Den har gyllene rattar och färgade knappar. När Maja kommer närmare börjar radion plötsligt susa tyst. En gyllene text dyker upp på radion: ”Till Maja och Tom”. Barnen spärrar upp ögonen.",
+            "start_ms": 269804,
+            "end_ms": 299180
+          },
+          "chapter_introduction": {
+            "text": "Kapitel ett. Det gamla bordet.",
+            "start_ms": 5372,
+            "end_ms": 8468
+          },
+          "chapter_readings": [
+            {
+              "text": "Det är lördag. Maja är nio år och hennes bror Tom är sex. Tillsammans går de på loppmarknad. I hörnet står ett gammalt bord och på bordet står en radio av trä. Den har gyllene rattar och färgade knappar. När Maja kommer närmare börjar radion plötsligt susa tyst. En gyllene text dyker upp på radion: ”Till Maja och Tom”. Barnen spärrar upp ögonen.",
+              "start_ms": 10968,
+              "end_ms": 40344
+            },
+            {
+              "text": "Det är lördag. Maja är nio år och hennes bror Tom är sex. Tillsammans går de på loppmarknad. I hörnet står ett gammalt bord och på bordet står en radio av trä. Den har gyllene rattar och färgade knappar. När Maja kommer närmare börjar radion plötsligt susa tyst. En gyllene text dyker upp på radion: ”Till Maja och Tom”. Barnen spärrar upp ögonen.",
+              "start_ms": 269804,
+              "end_ms": 299180
+            }
+          ],
+          "sequence": [
+            "story",
+            "practice",
+            "story"
+          ],
+          "transitions": [
+            {
+              "kind": "chime",
+              "from": "story",
+              "to": "practice",
+              "start_ms": 42844,
+              "end_ms": 43464
+            },
+            {
+              "kind": "chime",
+              "from": "practice",
+              "to": "story",
+              "start_ms": 266684,
+              "end_ms": 267304
+            }
+          ],
+          "narration": {
+            "engine": "azure",
+            "voice": "sv-SE-Harper:MAI-Voice-2.1",
+            "style": "audiobook",
+            "rate": "-12%",
+            "locale": "sv-SE",
+            "capabilities": {
+              "voice": "sv-SE-Harper:MAI-Voice-2.1",
+              "locale": "sv-SE",
+              "advertised_styles": [
+                "agent",
+                "audiobook",
+                "customer_call_center",
+                "educational",
+                "narrator"
+              ]
+            },
+            "ssml": "<speak xmlns:mstts=\"http://www.w3.org/2001/mstts\" version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"sv-SE\"><voice name=\"sv-SE-Harper:MAI-Voice-2.1\"><mstts:express-as style=\"audiobook\"><prosody rate=\"-12%\"><p>Det är lördag. Maja är nio år och hennes bror Tom är sex. Tillsammans går de på loppmarknad. I hörnet står ett gammalt bord och på bordet står en radio av trä. Den har gyllene rattar och färgade knappar. När Maja kommer närmare börjar radion plötsligt susa tyst. En gyllene text dyker upp på radion: ”Till Maja och Tom”. Barnen spärrar upp ögonen.</p></prosody></mstts:express-as></voice></speak>"
+          },
+          "packaged_audio": "english-swedish/audio/stories/magical_radio/01_chapter_01_en_sv_2026-10-30_13-25-06.mp3"
         }
       }
     },
@@ -583,75 +583,6 @@
           },
           "packaged_audio": "polish-english/audio/stories/magical_radio/02_chapter_02_pl_en_2026-10-29_20-56-15.mp3"
         },
-        "sv": {
-          "source_language": "pl",
-          "audio_file": "02_chapter_02_pl_sv_2026-10-30_12-21-23.mp3",
-          "manifest_file": "02_chapter_02_pl_sv_2026-10-30_12-21-23.json",
-          "total_duration_ms": 266223,
-          "chapter_reading": {
-            "text": "Barnen köper radion och bär hem den. Tom trycker på den blå knappen. Ett litet moln som doftar kanel flyger ut ur radion. – Hej, barn! säger en glad röst. Jag heter Radiofon. I er trädgård, under det gamla trädet, bor en mus. Den har en viktig nyckel och gillar ost väldigt mycket. Ta med mig!",
-            "start_ms": 240951,
-            "end_ms": 266223
-          },
-          "chapter_introduction": {
-            "text": "Kapitel två. En röst ur radion.",
-            "start_ms": 1000,
-            "end_ms": 4168
-          },
-          "chapter_readings": [
-            {
-              "text": "Barnen köper radion och bär hem den. Tom trycker på den blå knappen. Ett litet moln som doftar kanel flyger ut ur radion. – Hej, barn! säger en glad röst. Jag heter Radiofon. I er trädgård, under det gamla trädet, bor en mus. Den har en viktig nyckel och gillar ost väldigt mycket. Ta med mig!",
-              "start_ms": 6668,
-              "end_ms": 31940
-            },
-            {
-              "text": "Barnen köper radion och bär hem den. Tom trycker på den blå knappen. Ett litet moln som doftar kanel flyger ut ur radion. – Hej, barn! säger en glad röst. Jag heter Radiofon. I er trädgård, under det gamla trädet, bor en mus. Den har en viktig nyckel och gillar ost väldigt mycket. Ta med mig!",
-              "start_ms": 240951,
-              "end_ms": 266223
-            }
-          ],
-          "sequence": [
-            "story",
-            "practice",
-            "story"
-          ],
-          "transitions": [
-            {
-              "kind": "chime",
-              "from": "story",
-              "to": "practice",
-              "start_ms": 34440,
-              "end_ms": 35060
-            },
-            {
-              "kind": "chime",
-              "from": "practice",
-              "to": "story",
-              "start_ms": 237831,
-              "end_ms": 238451
-            }
-          ],
-          "narration": {
-            "engine": "azure",
-            "voice": "sv-SE-Harper:MAI-Voice-2.1",
-            "style": "audiobook",
-            "rate": "-12%",
-            "locale": "sv-SE",
-            "capabilities": {
-              "voice": "sv-SE-Harper:MAI-Voice-2.1",
-              "locale": "sv-SE",
-              "advertised_styles": [
-                "agent",
-                "audiobook",
-                "customer_call_center",
-                "educational",
-                "narrator"
-              ]
-            },
-            "ssml": "<speak xmlns:mstts=\"http://www.w3.org/2001/mstts\" version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"sv-SE\"><voice name=\"sv-SE-Harper:MAI-Voice-2.1\"><mstts:express-as style=\"audiobook\"><prosody rate=\"-12%\"><p>Barnen köper radion och bär hem den. Tom trycker på den blå knappen. Ett litet moln som doftar kanel flyger ut ur radion. – Hej, barn! säger en glad röst. Jag heter Radiofon. I er trädgård, under det gamla trädet, bor en mus. Den har en viktig nyckel och gillar ost väldigt mycket. Ta med mig!</p></prosody></mstts:express-as></voice></speak>"
-          },
-          "packaged_audio": "polish-swedish/audio/stories/magical_radio/02_chapter_02_pl_sv_2026-10-30_12-21-23.mp3"
-        },
         "es": {
           "source_language": "pl",
           "audio_file": "02_chapter_02_pl_es_2026-10-30_12-52-42.mp3",
@@ -714,6 +645,75 @@
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"es-ES\"><voice name=\"es-ES-ElviraNeural\"><prosody rate=\"-12%\"><p>Los niños compran la radio y la llevan a casa. Tom pulsa el botón azul. De la radio sale volando una nubecita que huele a canela.\n—¡Hola, niños! —dice una voz alegre—. Me llamo Radiofón. En vuestro jardín, debajo del árbol viejo, vive un ratón. Tiene una llave importante y le encanta el queso. ¡Llevadme con vosotros!</p></prosody></voice></speak>"
           },
           "packaged_audio": "polish-spanish/audio/stories/magical_radio/02_chapter_02_pl_es_2026-10-30_12-52-42.mp3"
+        },
+        "sv": {
+          "source_language": "en",
+          "audio_file": "02_chapter_02_en_sv_2026-10-30_13-25-06.mp3",
+          "manifest_file": "02_chapter_02_en_sv_2026-10-30_13-25-06.json",
+          "total_duration_ms": 263568,
+          "chapter_reading": {
+            "text": "Barnen köper radion och bär hem den. Tom trycker på den blå knappen. Ett litet moln som doftar kanel flyger ut ur radion. – Hej, barn! säger en glad röst. Jag heter Radiofon. I er trädgård, under det gamla trädet, bor en mus. Den har en viktig nyckel och gillar ost väldigt mycket. Ta med mig!",
+            "start_ms": 238296,
+            "end_ms": 263568
+          },
+          "chapter_introduction": {
+            "text": "Kapitel två. En röst ur radion.",
+            "start_ms": 1000,
+            "end_ms": 4168
+          },
+          "chapter_readings": [
+            {
+              "text": "Barnen köper radion och bär hem den. Tom trycker på den blå knappen. Ett litet moln som doftar kanel flyger ut ur radion. – Hej, barn! säger en glad röst. Jag heter Radiofon. I er trädgård, under det gamla trädet, bor en mus. Den har en viktig nyckel och gillar ost väldigt mycket. Ta med mig!",
+              "start_ms": 6668,
+              "end_ms": 31940
+            },
+            {
+              "text": "Barnen köper radion och bär hem den. Tom trycker på den blå knappen. Ett litet moln som doftar kanel flyger ut ur radion. – Hej, barn! säger en glad röst. Jag heter Radiofon. I er trädgård, under det gamla trädet, bor en mus. Den har en viktig nyckel och gillar ost väldigt mycket. Ta med mig!",
+              "start_ms": 238296,
+              "end_ms": 263568
+            }
+          ],
+          "sequence": [
+            "story",
+            "practice",
+            "story"
+          ],
+          "transitions": [
+            {
+              "kind": "chime",
+              "from": "story",
+              "to": "practice",
+              "start_ms": 34440,
+              "end_ms": 35060
+            },
+            {
+              "kind": "chime",
+              "from": "practice",
+              "to": "story",
+              "start_ms": 235176,
+              "end_ms": 235796
+            }
+          ],
+          "narration": {
+            "engine": "azure",
+            "voice": "sv-SE-Harper:MAI-Voice-2.1",
+            "style": "audiobook",
+            "rate": "-12%",
+            "locale": "sv-SE",
+            "capabilities": {
+              "voice": "sv-SE-Harper:MAI-Voice-2.1",
+              "locale": "sv-SE",
+              "advertised_styles": [
+                "agent",
+                "audiobook",
+                "customer_call_center",
+                "educational",
+                "narrator"
+              ]
+            },
+            "ssml": "<speak xmlns:mstts=\"http://www.w3.org/2001/mstts\" version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"sv-SE\"><voice name=\"sv-SE-Harper:MAI-Voice-2.1\"><mstts:express-as style=\"audiobook\"><prosody rate=\"-12%\"><p>Barnen köper radion och bär hem den. Tom trycker på den blå knappen. Ett litet moln som doftar kanel flyger ut ur radion. – Hej, barn! säger en glad röst. Jag heter Radiofon. I er trädgård, under det gamla trädet, bor en mus. Den har en viktig nyckel och gillar ost väldigt mycket. Ta med mig!</p></prosody></mstts:express-as></voice></speak>"
+          },
+          "packaged_audio": "english-swedish/audio/stories/magical_radio/02_chapter_02_en_sv_2026-10-30_13-25-06.mp3"
         }
       }
     },
@@ -941,75 +941,6 @@
           },
           "packaged_audio": "polish-english/audio/stories/magical_radio/03_chapter_03_pl_en_2026-10-29_21-18-02.mp3"
         },
-        "sv": {
-          "source_language": "pl",
-          "audio_file": "03_chapter_03_pl_sv_2026-10-30_12-21-23.mp3",
-          "manifest_file": "03_chapter_03_pl_sv_2026-10-30_12-21-23.json",
-          "total_duration_ms": 344316,
-          "chapter_reading": {
-            "text": "Det är mörkt under trädet, så Tom tar en ficklampa. Maja tar radion och gul ost. De går till det stora trädet i trädgården. Tom lyser med ficklampan under rötterna. En liten mus kommer ut ur ett hål. – Hej, lilla mus! säger Maja. Vi har ost till dig. Ger du oss nyckeln? Musen ger dem en silvernyckel, tar med sig osten och pekar med tassen på en lövhög. Barnen sopar undan löven – mellan trädets rötter finns en liten, gammal dörr!",
-            "start_ms": 308148,
-            "end_ms": 344316
-          },
-          "chapter_introduction": {
-            "text": "Kapitel tre. En mus under trädet.",
-            "start_ms": 1000,
-            "end_ms": 4168
-          },
-          "chapter_readings": [
-            {
-              "text": "Det är mörkt under trädet, så Tom tar en ficklampa. Maja tar radion och gul ost. De går till det stora trädet i trädgården. Tom lyser med ficklampan under rötterna. En liten mus kommer ut ur ett hål. – Hej, lilla mus! säger Maja. Vi har ost till dig. Ger du oss nyckeln? Musen ger dem en silvernyckel, tar med sig osten och pekar med tassen på en lövhög. Barnen sopar undan löven – mellan trädets rötter finns en liten, gammal dörr!",
-              "start_ms": 6668,
-              "end_ms": 42836
-            },
-            {
-              "text": "Det är mörkt under trädet, så Tom tar en ficklampa. Maja tar radion och gul ost. De går till det stora trädet i trädgården. Tom lyser med ficklampan under rötterna. En liten mus kommer ut ur ett hål. – Hej, lilla mus! säger Maja. Vi har ost till dig. Ger du oss nyckeln? Musen ger dem en silvernyckel, tar med sig osten och pekar med tassen på en lövhög. Barnen sopar undan löven – mellan trädets rötter finns en liten, gammal dörr!",
-              "start_ms": 308148,
-              "end_ms": 344316
-            }
-          ],
-          "sequence": [
-            "story",
-            "practice",
-            "story"
-          ],
-          "transitions": [
-            {
-              "kind": "chime",
-              "from": "story",
-              "to": "practice",
-              "start_ms": 45336,
-              "end_ms": 45956
-            },
-            {
-              "kind": "chime",
-              "from": "practice",
-              "to": "story",
-              "start_ms": 305028,
-              "end_ms": 305648
-            }
-          ],
-          "narration": {
-            "engine": "azure",
-            "voice": "sv-SE-Harper:MAI-Voice-2.1",
-            "style": "audiobook",
-            "rate": "-12%",
-            "locale": "sv-SE",
-            "capabilities": {
-              "voice": "sv-SE-Harper:MAI-Voice-2.1",
-              "locale": "sv-SE",
-              "advertised_styles": [
-                "agent",
-                "audiobook",
-                "customer_call_center",
-                "educational",
-                "narrator"
-              ]
-            },
-            "ssml": "<speak xmlns:mstts=\"http://www.w3.org/2001/mstts\" version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"sv-SE\"><voice name=\"sv-SE-Harper:MAI-Voice-2.1\"><mstts:express-as style=\"audiobook\"><prosody rate=\"-12%\"><p>Det är mörkt under trädet, så Tom tar en ficklampa. Maja tar radion och gul ost. De går till det stora trädet i trädgården. Tom lyser med ficklampan under rötterna. En liten mus kommer ut ur ett hål. – Hej, lilla mus! säger Maja. Vi har ost till dig. Ger du oss nyckeln? Musen ger dem en silvernyckel, tar med sig osten och pekar med tassen på en lövhög. Barnen sopar undan löven – mellan trädets rötter finns en liten, gammal dörr!</p></prosody></mstts:express-as></voice></speak>"
-          },
-          "packaged_audio": "polish-swedish/audio/stories/magical_radio/03_chapter_03_pl_sv_2026-10-30_12-21-23.mp3"
-        },
         "es": {
           "source_language": "pl",
           "audio_file": "03_chapter_03_pl_es_2026-10-30_12-52-42.mp3",
@@ -1072,6 +1003,75 @@
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"es-ES\"><voice name=\"es-ES-ElviraNeural\"><prosody rate=\"-12%\"><p>Debajo del árbol está oscuro, así que Tom coge una linterna. Maya coge la radio y un poco de queso amarillo. Van hasta el gran árbol del jardín. Tom alumbra con la linterna debajo de las raíces. De un agujero sale un ratoncito.\n—¡Buenos días, ratoncito! —dice Maya—. Tenemos queso para ti. ¿Nos das la llave?\nEl ratón les da una llave plateada, se lleva el queso y señala con su patita un montón de hojas. Los niños apartan las hojas. ¡Entre las raíces del árbol hay una puerta pequeña y vieja!</p></prosody></voice></speak>"
           },
           "packaged_audio": "polish-spanish/audio/stories/magical_radio/03_chapter_03_pl_es_2026-10-30_12-52-42.mp3"
+        },
+        "sv": {
+          "source_language": "en",
+          "audio_file": "03_chapter_03_en_sv_2026-10-30_13-25-06.mp3",
+          "manifest_file": "03_chapter_03_en_sv_2026-10-30_13-25-06.json",
+          "total_duration_ms": 343423,
+          "chapter_reading": {
+            "text": "Det är mörkt under trädet, så Tom tar en ficklampa. Maja tar radion och gul ost. De går till det stora trädet i trädgården. Tom lyser med ficklampan under rötterna. En liten mus kommer ut ur ett hål. – Hej, lilla mus! säger Maja. Vi har ost till dig. Ger du oss nyckeln? Musen ger dem en silvernyckel, tar med sig osten och pekar med tassen på en lövhög. Barnen sopar undan löven – mellan trädets rötter finns en liten, gammal dörr!",
+            "start_ms": 307255,
+            "end_ms": 343423
+          },
+          "chapter_introduction": {
+            "text": "Kapitel tre. En mus under trädet.",
+            "start_ms": 1000,
+            "end_ms": 4168
+          },
+          "chapter_readings": [
+            {
+              "text": "Det är mörkt under trädet, så Tom tar en ficklampa. Maja tar radion och gul ost. De går till det stora trädet i trädgården. Tom lyser med ficklampan under rötterna. En liten mus kommer ut ur ett hål. – Hej, lilla mus! säger Maja. Vi har ost till dig. Ger du oss nyckeln? Musen ger dem en silvernyckel, tar med sig osten och pekar med tassen på en lövhög. Barnen sopar undan löven – mellan trädets rötter finns en liten, gammal dörr!",
+              "start_ms": 6668,
+              "end_ms": 42836
+            },
+            {
+              "text": "Det är mörkt under trädet, så Tom tar en ficklampa. Maja tar radion och gul ost. De går till det stora trädet i trädgården. Tom lyser med ficklampan under rötterna. En liten mus kommer ut ur ett hål. – Hej, lilla mus! säger Maja. Vi har ost till dig. Ger du oss nyckeln? Musen ger dem en silvernyckel, tar med sig osten och pekar med tassen på en lövhög. Barnen sopar undan löven – mellan trädets rötter finns en liten, gammal dörr!",
+              "start_ms": 307255,
+              "end_ms": 343423
+            }
+          ],
+          "sequence": [
+            "story",
+            "practice",
+            "story"
+          ],
+          "transitions": [
+            {
+              "kind": "chime",
+              "from": "story",
+              "to": "practice",
+              "start_ms": 45336,
+              "end_ms": 45956
+            },
+            {
+              "kind": "chime",
+              "from": "practice",
+              "to": "story",
+              "start_ms": 304135,
+              "end_ms": 304755
+            }
+          ],
+          "narration": {
+            "engine": "azure",
+            "voice": "sv-SE-Harper:MAI-Voice-2.1",
+            "style": "audiobook",
+            "rate": "-12%",
+            "locale": "sv-SE",
+            "capabilities": {
+              "voice": "sv-SE-Harper:MAI-Voice-2.1",
+              "locale": "sv-SE",
+              "advertised_styles": [
+                "agent",
+                "audiobook",
+                "customer_call_center",
+                "educational",
+                "narrator"
+              ]
+            },
+            "ssml": "<speak xmlns:mstts=\"http://www.w3.org/2001/mstts\" version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"sv-SE\"><voice name=\"sv-SE-Harper:MAI-Voice-2.1\"><mstts:express-as style=\"audiobook\"><prosody rate=\"-12%\"><p>Det är mörkt under trädet, så Tom tar en ficklampa. Maja tar radion och gul ost. De går till det stora trädet i trädgården. Tom lyser med ficklampan under rötterna. En liten mus kommer ut ur ett hål. – Hej, lilla mus! säger Maja. Vi har ost till dig. Ger du oss nyckeln? Musen ger dem en silvernyckel, tar med sig osten och pekar med tassen på en lövhög. Barnen sopar undan löven – mellan trädets rötter finns en liten, gammal dörr!</p></prosody></mstts:express-as></voice></speak>"
+          },
+          "packaged_audio": "english-swedish/audio/stories/magical_radio/03_chapter_03_en_sv_2026-10-30_13-25-06.mp3"
         }
       }
     },
@@ -1814,75 +1814,6 @@
           "audio_file": "04_chapter_04_pl_en_2026-10-29_21-18-08.mp3",
           "packaged_audio": "polish-english/audio/stories/magical_radio/04_chapter_04_pl_en_2026-10-29_21-18-08.mp3"
         },
-        "sv": {
-          "source_language": "pl",
-          "audio_file": "04_chapter_04_pl_sv_2026-10-30_12-21-23.mp3",
-          "manifest_file": "04_chapter_04_pl_sv_2026-10-30_12-21-23.json",
-          "total_duration_ms": 275176,
-          "chapter_reading": {
-            "text": "Maja vrider om nyckeln. Klick! Dörren öppnas. En stentrappa leder neråt. På väggarna växer blommor som lyser blått. Barnen går ner till ett stort bibliotek. Det finns böcker överallt – några av dem flyger uppe vid taket! En av dem lyser guldgult.",
-            "start_ms": 252112,
-            "end_ms": 275176
-          },
-          "chapter_introduction": {
-            "text": "Kapitel fyra. Trappan ner.",
-            "start_ms": 1000,
-            "end_ms": 3808
-          },
-          "chapter_readings": [
-            {
-              "text": "Maja vrider om nyckeln. Klick! Dörren öppnas. En stentrappa leder neråt. På väggarna växer blommor som lyser blått. Barnen går ner till ett stort bibliotek. Det finns böcker överallt – några av dem flyger uppe vid taket! En av dem lyser guldgult.",
-              "start_ms": 6308,
-              "end_ms": 29372
-            },
-            {
-              "text": "Maja vrider om nyckeln. Klick! Dörren öppnas. En stentrappa leder neråt. På väggarna växer blommor som lyser blått. Barnen går ner till ett stort bibliotek. Det finns böcker överallt – några av dem flyger uppe vid taket! En av dem lyser guldgult.",
-              "start_ms": 252112,
-              "end_ms": 275176
-            }
-          ],
-          "sequence": [
-            "story",
-            "practice",
-            "story"
-          ],
-          "transitions": [
-            {
-              "kind": "chime",
-              "from": "story",
-              "to": "practice",
-              "start_ms": 31872,
-              "end_ms": 32492
-            },
-            {
-              "kind": "chime",
-              "from": "practice",
-              "to": "story",
-              "start_ms": 248992,
-              "end_ms": 249612
-            }
-          ],
-          "narration": {
-            "engine": "azure",
-            "voice": "sv-SE-Harper:MAI-Voice-2.1",
-            "style": "audiobook",
-            "rate": "-12%",
-            "locale": "sv-SE",
-            "capabilities": {
-              "voice": "sv-SE-Harper:MAI-Voice-2.1",
-              "locale": "sv-SE",
-              "advertised_styles": [
-                "agent",
-                "audiobook",
-                "customer_call_center",
-                "educational",
-                "narrator"
-              ]
-            },
-            "ssml": "<speak xmlns:mstts=\"http://www.w3.org/2001/mstts\" version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"sv-SE\"><voice name=\"sv-SE-Harper:MAI-Voice-2.1\"><mstts:express-as style=\"audiobook\"><prosody rate=\"-12%\"><p>Maja vrider om nyckeln. Klick! Dörren öppnas. En stentrappa leder neråt. På väggarna växer blommor som lyser blått. Barnen går ner till ett stort bibliotek. Det finns böcker överallt – några av dem flyger uppe vid taket! En av dem lyser guldgult.</p></prosody></mstts:express-as></voice></speak>"
-          },
-          "packaged_audio": "polish-swedish/audio/stories/magical_radio/04_chapter_04_pl_sv_2026-10-30_12-21-23.mp3"
-        },
         "es": {
           "source_language": "pl",
           "audio_file": "04_chapter_04_pl_es_2026-10-30_13-10-12.mp3",
@@ -1945,6 +1876,75 @@
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"es-ES\"><voice name=\"es-ES-ElviraNeural\"><prosody rate=\"-12%\"><p>Maya gira la llave. ¡Clic! La puerta se abre. Unas escaleras de piedra conducen hacia abajo. En las paredes crecen flores que brillan con una luz azul. Los niños bajan a una gran biblioteca. Hay libros por todas partes. ¡Algunos están volando justo debajo del techo! Uno de ellos brilla con una luz dorada.</p></prosody></voice></speak>"
           },
           "packaged_audio": "polish-spanish/audio/stories/magical_radio/04_chapter_04_pl_es_2026-10-30_13-10-12.mp3"
+        },
+        "sv": {
+          "source_language": "en",
+          "audio_file": "04_chapter_04_en_sv_2026-10-30_13-25-06.mp3",
+          "manifest_file": "04_chapter_04_en_sv_2026-10-30_13-25-06.json",
+          "total_duration_ms": 271707,
+          "chapter_reading": {
+            "text": "Maja vrider om nyckeln. Klick! Dörren öppnas. En stentrappa leder neråt. På väggarna växer blommor som lyser blått. Barnen går ner till ett stort bibliotek. Det finns böcker överallt – några av dem flyger uppe vid taket! En av dem lyser guldgult.",
+            "start_ms": 248643,
+            "end_ms": 271707
+          },
+          "chapter_introduction": {
+            "text": "Kapitel fyra. Trappan ner.",
+            "start_ms": 1000,
+            "end_ms": 3808
+          },
+          "chapter_readings": [
+            {
+              "text": "Maja vrider om nyckeln. Klick! Dörren öppnas. En stentrappa leder neråt. På väggarna växer blommor som lyser blått. Barnen går ner till ett stort bibliotek. Det finns böcker överallt – några av dem flyger uppe vid taket! En av dem lyser guldgult.",
+              "start_ms": 6308,
+              "end_ms": 29372
+            },
+            {
+              "text": "Maja vrider om nyckeln. Klick! Dörren öppnas. En stentrappa leder neråt. På väggarna växer blommor som lyser blått. Barnen går ner till ett stort bibliotek. Det finns böcker överallt – några av dem flyger uppe vid taket! En av dem lyser guldgult.",
+              "start_ms": 248643,
+              "end_ms": 271707
+            }
+          ],
+          "sequence": [
+            "story",
+            "practice",
+            "story"
+          ],
+          "transitions": [
+            {
+              "kind": "chime",
+              "from": "story",
+              "to": "practice",
+              "start_ms": 31872,
+              "end_ms": 32492
+            },
+            {
+              "kind": "chime",
+              "from": "practice",
+              "to": "story",
+              "start_ms": 245523,
+              "end_ms": 246143
+            }
+          ],
+          "narration": {
+            "engine": "azure",
+            "voice": "sv-SE-Harper:MAI-Voice-2.1",
+            "style": "audiobook",
+            "rate": "-12%",
+            "locale": "sv-SE",
+            "capabilities": {
+              "voice": "sv-SE-Harper:MAI-Voice-2.1",
+              "locale": "sv-SE",
+              "advertised_styles": [
+                "agent",
+                "audiobook",
+                "customer_call_center",
+                "educational",
+                "narrator"
+              ]
+            },
+            "ssml": "<speak xmlns:mstts=\"http://www.w3.org/2001/mstts\" version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"sv-SE\"><voice name=\"sv-SE-Harper:MAI-Voice-2.1\"><mstts:express-as style=\"audiobook\"><prosody rate=\"-12%\"><p>Maja vrider om nyckeln. Klick! Dörren öppnas. En stentrappa leder neråt. På väggarna växer blommor som lyser blått. Barnen går ner till ett stort bibliotek. Det finns böcker överallt – några av dem flyger uppe vid taket! En av dem lyser guldgult.</p></prosody></mstts:express-as></voice></speak>"
+          },
+          "packaged_audio": "english-swedish/audio/stories/magical_radio/04_chapter_04_en_sv_2026-10-30_13-25-06.mp3"
         }
       }
     },
@@ -2172,75 +2172,6 @@
           },
           "packaged_audio": "polish-english/audio/stories/magical_radio/05_chapter_05_pl_en_2026-10-29_21-18-13.mp3"
         },
-        "sv": {
-          "source_language": "pl",
-          "audio_file": "05_chapter_05_pl_sv_2026-10-30_12-21-23.mp3",
-          "manifest_file": "05_chapter_05_pl_sv_2026-10-30_12-21-23.json",
-          "total_duration_ms": 279582,
-          "chapter_reading": {
-            "text": "Den gyllene boken flaxar med sidorna och landar på Majas axel. Radiofon börjar genast tala: – Den här boken lär ut en viktig trollformel. Ordet är: Reparo! Det lagar allt som är trasigt. Tom tar upp sin gamla, trasiga kompass ur fickan. Han har den alltid med sig.",
-            "start_ms": 252030,
-            "end_ms": 279582
-          },
-          "chapter_introduction": {
-            "text": "Kapitel fem. Den flygande boken.",
-            "start_ms": 1000,
-            "end_ms": 4264
-          },
-          "chapter_readings": [
-            {
-              "text": "Den gyllene boken flaxar med sidorna och landar på Majas axel. Radiofon börjar genast tala: – Den här boken lär ut en viktig trollformel. Ordet är: Reparo! Det lagar allt som är trasigt. Tom tar upp sin gamla, trasiga kompass ur fickan. Han har den alltid med sig.",
-              "start_ms": 6764,
-              "end_ms": 34316
-            },
-            {
-              "text": "Den gyllene boken flaxar med sidorna och landar på Majas axel. Radiofon börjar genast tala: – Den här boken lär ut en viktig trollformel. Ordet är: Reparo! Det lagar allt som är trasigt. Tom tar upp sin gamla, trasiga kompass ur fickan. Han har den alltid med sig.",
-              "start_ms": 252030,
-              "end_ms": 279582
-            }
-          ],
-          "sequence": [
-            "story",
-            "practice",
-            "story"
-          ],
-          "transitions": [
-            {
-              "kind": "chime",
-              "from": "story",
-              "to": "practice",
-              "start_ms": 36816,
-              "end_ms": 37436
-            },
-            {
-              "kind": "chime",
-              "from": "practice",
-              "to": "story",
-              "start_ms": 248910,
-              "end_ms": 249530
-            }
-          ],
-          "narration": {
-            "engine": "azure",
-            "voice": "sv-SE-Harper:MAI-Voice-2.1",
-            "style": "audiobook",
-            "rate": "-12%",
-            "locale": "sv-SE",
-            "capabilities": {
-              "voice": "sv-SE-Harper:MAI-Voice-2.1",
-              "locale": "sv-SE",
-              "advertised_styles": [
-                "agent",
-                "audiobook",
-                "customer_call_center",
-                "educational",
-                "narrator"
-              ]
-            },
-            "ssml": "<speak xmlns:mstts=\"http://www.w3.org/2001/mstts\" version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"sv-SE\"><voice name=\"sv-SE-Harper:MAI-Voice-2.1\"><mstts:express-as style=\"audiobook\"><prosody rate=\"-12%\"><p>Den gyllene boken flaxar med sidorna och landar på Majas axel. Radiofon börjar genast tala: – Den här boken lär ut en viktig trollformel. Ordet är: Reparo! Det lagar allt som är trasigt. Tom tar upp sin gamla, trasiga kompass ur fickan. Han har den alltid med sig.</p></prosody></mstts:express-as></voice></speak>"
-          },
-          "packaged_audio": "polish-swedish/audio/stories/magical_radio/05_chapter_05_pl_sv_2026-10-30_12-21-23.mp3"
-        },
         "es": {
           "source_language": "pl",
           "audio_file": "05_chapter_05_pl_es_2026-10-30_12-52-42.mp3",
@@ -2303,6 +2234,75 @@
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"es-ES\"><voice name=\"es-ES-ElviraNeural\"><prosody rate=\"-12%\"><p>El libro dorado agita las páginas y aterriza en el hombro de Maya. Radiofón habla enseguida:\n—Este libro enseña un hechizo importante. La palabra es: ¡Reparo! Arregla cualquier cosa rota.\nTom saca del bolsillo su vieja brújula rota. Siempre la lleva consigo.</p></prosody></voice></speak>"
           },
           "packaged_audio": "polish-spanish/audio/stories/magical_radio/05_chapter_05_pl_es_2026-10-30_12-52-42.mp3"
+        },
+        "sv": {
+          "source_language": "en",
+          "audio_file": "05_chapter_05_en_sv_2026-10-30_13-25-06.mp3",
+          "manifest_file": "05_chapter_05_en_sv_2026-10-30_13-25-06.json",
+          "total_duration_ms": 277559,
+          "chapter_reading": {
+            "text": "Den gyllene boken flaxar med sidorna och landar på Majas axel. Radiofon börjar genast tala: – Den här boken lär ut en viktig trollformel. Ordet är: Reparo! Det lagar allt som är trasigt. Tom tar upp sin gamla, trasiga kompass ur fickan. Han har den alltid med sig.",
+            "start_ms": 250007,
+            "end_ms": 277559
+          },
+          "chapter_introduction": {
+            "text": "Kapitel fem. Den flygande boken.",
+            "start_ms": 1000,
+            "end_ms": 4264
+          },
+          "chapter_readings": [
+            {
+              "text": "Den gyllene boken flaxar med sidorna och landar på Majas axel. Radiofon börjar genast tala: – Den här boken lär ut en viktig trollformel. Ordet är: Reparo! Det lagar allt som är trasigt. Tom tar upp sin gamla, trasiga kompass ur fickan. Han har den alltid med sig.",
+              "start_ms": 6764,
+              "end_ms": 34316
+            },
+            {
+              "text": "Den gyllene boken flaxar med sidorna och landar på Majas axel. Radiofon börjar genast tala: – Den här boken lär ut en viktig trollformel. Ordet är: Reparo! Det lagar allt som är trasigt. Tom tar upp sin gamla, trasiga kompass ur fickan. Han har den alltid med sig.",
+              "start_ms": 250007,
+              "end_ms": 277559
+            }
+          ],
+          "sequence": [
+            "story",
+            "practice",
+            "story"
+          ],
+          "transitions": [
+            {
+              "kind": "chime",
+              "from": "story",
+              "to": "practice",
+              "start_ms": 36816,
+              "end_ms": 37436
+            },
+            {
+              "kind": "chime",
+              "from": "practice",
+              "to": "story",
+              "start_ms": 246887,
+              "end_ms": 247507
+            }
+          ],
+          "narration": {
+            "engine": "azure",
+            "voice": "sv-SE-Harper:MAI-Voice-2.1",
+            "style": "audiobook",
+            "rate": "-12%",
+            "locale": "sv-SE",
+            "capabilities": {
+              "voice": "sv-SE-Harper:MAI-Voice-2.1",
+              "locale": "sv-SE",
+              "advertised_styles": [
+                "agent",
+                "audiobook",
+                "customer_call_center",
+                "educational",
+                "narrator"
+              ]
+            },
+            "ssml": "<speak xmlns:mstts=\"http://www.w3.org/2001/mstts\" version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"sv-SE\"><voice name=\"sv-SE-Harper:MAI-Voice-2.1\"><mstts:express-as style=\"audiobook\"><prosody rate=\"-12%\"><p>Den gyllene boken flaxar med sidorna och landar på Majas axel. Radiofon börjar genast tala: – Den här boken lär ut en viktig trollformel. Ordet är: Reparo! Det lagar allt som är trasigt. Tom tar upp sin gamla, trasiga kompass ur fickan. Han har den alltid med sig.</p></prosody></mstts:express-as></voice></speak>"
+          },
+          "packaged_audio": "english-swedish/audio/stories/magical_radio/05_chapter_05_en_sv_2026-10-30_13-25-06.mp3"
         }
       }
     },
@@ -2530,75 +2530,6 @@
           },
           "packaged_audio": "polish-english/audio/stories/magical_radio/06_chapter_06_pl_en_2026-10-29_20-56-15.mp3"
         },
-        "sv": {
-          "source_language": "pl",
-          "audio_file": "06_chapter_06_pl_sv_2026-10-30_12-21-23.mp3",
-          "manifest_file": "06_chapter_06_pl_sv_2026-10-30_12-21-23.json",
-          "total_duration_ms": 220453,
-          "chapter_reading": {
-            "text": "Tom håller i kompassen. Barnen säger tillsammans: – Reparo! En gyllene gnista blixtrar till. Kompassen är hel igen! Kompassnålen snurrar och pekar mot en grön dörr. – Det fungerar! ropar Tom. Radiofon säger: – Bakom dörren väntar någon på er hjälp.",
-            "start_ms": 194965,
-            "end_ms": 220453
-          },
-          "chapter_introduction": {
-            "text": "Kapitel sex. Den första trollformeln.",
-            "start_ms": 1000,
-            "end_ms": 4480
-          },
-          "chapter_readings": [
-            {
-              "text": "Tom håller i kompassen. Barnen säger tillsammans: – Reparo! En gyllene gnista blixtrar till. Kompassen är hel igen! Kompassnålen snurrar och pekar mot en grön dörr. – Det fungerar! ropar Tom. Radiofon säger: – Bakom dörren väntar någon på er hjälp.",
-              "start_ms": 6980,
-              "end_ms": 32468
-            },
-            {
-              "text": "Tom håller i kompassen. Barnen säger tillsammans: – Reparo! En gyllene gnista blixtrar till. Kompassen är hel igen! Kompassnålen snurrar och pekar mot en grön dörr. – Det fungerar! ropar Tom. Radiofon säger: – Bakom dörren väntar någon på er hjälp.",
-              "start_ms": 194965,
-              "end_ms": 220453
-            }
-          ],
-          "sequence": [
-            "story",
-            "practice",
-            "story"
-          ],
-          "transitions": [
-            {
-              "kind": "chime",
-              "from": "story",
-              "to": "practice",
-              "start_ms": 34968,
-              "end_ms": 35588
-            },
-            {
-              "kind": "chime",
-              "from": "practice",
-              "to": "story",
-              "start_ms": 191845,
-              "end_ms": 192465
-            }
-          ],
-          "narration": {
-            "engine": "azure",
-            "voice": "sv-SE-Harper:MAI-Voice-2.1",
-            "style": "audiobook",
-            "rate": "-12%",
-            "locale": "sv-SE",
-            "capabilities": {
-              "voice": "sv-SE-Harper:MAI-Voice-2.1",
-              "locale": "sv-SE",
-              "advertised_styles": [
-                "agent",
-                "audiobook",
-                "customer_call_center",
-                "educational",
-                "narrator"
-              ]
-            },
-            "ssml": "<speak xmlns:mstts=\"http://www.w3.org/2001/mstts\" version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"sv-SE\"><voice name=\"sv-SE-Harper:MAI-Voice-2.1\"><mstts:express-as style=\"audiobook\"><prosody rate=\"-12%\"><p>Tom håller i kompassen. Barnen säger tillsammans: – Reparo! En gyllene gnista blixtrar till. Kompassen är hel igen! Kompassnålen snurrar och pekar mot en grön dörr. – Det fungerar! ropar Tom. Radiofon säger: – Bakom dörren väntar någon på er hjälp.</p></prosody></mstts:express-as></voice></speak>"
-          },
-          "packaged_audio": "polish-swedish/audio/stories/magical_radio/06_chapter_06_pl_sv_2026-10-30_12-21-23.mp3"
-        },
         "es": {
           "source_language": "pl",
           "audio_file": "06_chapter_06_pl_es_2026-10-30_12-52-42.mp3",
@@ -2661,6 +2592,75 @@
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"es-ES\"><voice name=\"es-ES-ElviraNeural\"><prosody rate=\"-12%\"><p>Tom sostiene la brújula. Los niños dicen juntos:\n—¡Reparo!\nBrilla una chispa dorada. ¡La brújula vuelve a estar entera! La aguja de la brújula gira y señala una puerta verde.\n—¡Funciona! —grita Tom.\nRadiofón dice:\n—Detrás de la puerta, alguien espera vuestra ayuda.</p></prosody></voice></speak>"
           },
           "packaged_audio": "polish-spanish/audio/stories/magical_radio/06_chapter_06_pl_es_2026-10-30_12-52-42.mp3"
+        },
+        "sv": {
+          "source_language": "en",
+          "audio_file": "06_chapter_06_en_sv_2026-10-30_13-25-06.mp3",
+          "manifest_file": "06_chapter_06_en_sv_2026-10-30_13-25-06.json",
+          "total_duration_ms": 218098,
+          "chapter_reading": {
+            "text": "Tom håller i kompassen. Barnen säger tillsammans: – Reparo! En gyllene gnista blixtrar till. Kompassen är hel igen! Kompassnålen snurrar och pekar mot en grön dörr. – Det fungerar! ropar Tom. Radiofon säger: – Bakom dörren väntar någon på er hjälp.",
+            "start_ms": 192611,
+            "end_ms": 218098
+          },
+          "chapter_introduction": {
+            "text": "Kapitel sex. Den första trollformeln.",
+            "start_ms": 1000,
+            "end_ms": 4480
+          },
+          "chapter_readings": [
+            {
+              "text": "Tom håller i kompassen. Barnen säger tillsammans: – Reparo! En gyllene gnista blixtrar till. Kompassen är hel igen! Kompassnålen snurrar och pekar mot en grön dörr. – Det fungerar! ropar Tom. Radiofon säger: – Bakom dörren väntar någon på er hjälp.",
+              "start_ms": 6980,
+              "end_ms": 32468
+            },
+            {
+              "text": "Tom håller i kompassen. Barnen säger tillsammans: – Reparo! En gyllene gnista blixtrar till. Kompassen är hel igen! Kompassnålen snurrar och pekar mot en grön dörr. – Det fungerar! ropar Tom. Radiofon säger: – Bakom dörren väntar någon på er hjälp.",
+              "start_ms": 192611,
+              "end_ms": 218098
+            }
+          ],
+          "sequence": [
+            "story",
+            "practice",
+            "story"
+          ],
+          "transitions": [
+            {
+              "kind": "chime",
+              "from": "story",
+              "to": "practice",
+              "start_ms": 34968,
+              "end_ms": 35588
+            },
+            {
+              "kind": "chime",
+              "from": "practice",
+              "to": "story",
+              "start_ms": 189491,
+              "end_ms": 190111
+            }
+          ],
+          "narration": {
+            "engine": "azure",
+            "voice": "sv-SE-Harper:MAI-Voice-2.1",
+            "style": "audiobook",
+            "rate": "-12%",
+            "locale": "sv-SE",
+            "capabilities": {
+              "voice": "sv-SE-Harper:MAI-Voice-2.1",
+              "locale": "sv-SE",
+              "advertised_styles": [
+                "agent",
+                "audiobook",
+                "customer_call_center",
+                "educational",
+                "narrator"
+              ]
+            },
+            "ssml": "<speak xmlns:mstts=\"http://www.w3.org/2001/mstts\" version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"sv-SE\"><voice name=\"sv-SE-Harper:MAI-Voice-2.1\"><mstts:express-as style=\"audiobook\"><prosody rate=\"-12%\"><p>Tom håller i kompassen. Barnen säger tillsammans: – Reparo! En gyllene gnista blixtrar till. Kompassen är hel igen! Kompassnålen snurrar och pekar mot en grön dörr. – Det fungerar! ropar Tom. Radiofon säger: – Bakom dörren väntar någon på er hjälp.</p></prosody></mstts:express-as></voice></speak>"
+          },
+          "packaged_audio": "english-swedish/audio/stories/magical_radio/06_chapter_06_en_sv_2026-10-30_13-25-06.mp3"
         }
       }
     },
@@ -2888,75 +2888,6 @@
           },
           "packaged_audio": "polish-english/audio/stories/magical_radio/07_chapter_07_pl_en_2026-10-29_20-56-15.mp3"
         },
-        "sv": {
-          "source_language": "pl",
-          "manifest_file": "07_chapter_07_pl_sv_2026-10-30_13-10-06.json",
-          "audio_file": "07_chapter_07_pl_sv_2026-10-30_13-10-06.mp3",
-          "total_duration_ms": 359905,
-          "chapter_reading": {
-            "text": "Barnen öppnar den gröna dörren och går in i en underjordisk trädgård. På en gren sitter en gyllene fågel. Den sjunger inte, utan tickar bara som en klocka: Tick-tack, tick-tack. På ena vingen har den en glänsande blå sten. På den andra vingen finns en tom plats. Maja tittar på radion. Radions blå knapp ser ut precis som fågelns sten! – Radiofon, var har du fått knappen ifrån? frågar Maja. – Det är fågelns sten, säger Radiofon. För länge sedan föll den ur fågelns vinge. Någon gjorde den till min knapp. Jag väntade på er för att kunna ge tillbaka den!",
-            "start_ms": 310297,
-            "end_ms": 359905
-          },
-          "chapter_introduction": {
-            "text": "Kapitel sju. Den gyllene fågeln.",
-            "start_ms": 1000,
-            "end_ms": 4096
-          },
-          "chapter_readings": [
-            {
-              "text": "Barnen öppnar den gröna dörren och går in i en underjordisk trädgård. På en gren sitter en gyllene fågel. Den sjunger inte, utan tickar bara som en klocka: Tick-tack, tick-tack. På ena vingen har den en glänsande blå sten. På den andra vingen finns en tom plats. Maja tittar på radion. Radions blå knapp ser ut precis som fågelns sten! – Radiofon, var har du fått knappen ifrån? frågar Maja. – Det är fågelns sten, säger Radiofon. För länge sedan föll den ur fågelns vinge. Någon gjorde den till min knapp. Jag väntade på er för att kunna ge tillbaka den!",
-              "start_ms": 6596,
-              "end_ms": 56204
-            },
-            {
-              "text": "Barnen öppnar den gröna dörren och går in i en underjordisk trädgård. På en gren sitter en gyllene fågel. Den sjunger inte, utan tickar bara som en klocka: Tick-tack, tick-tack. På ena vingen har den en glänsande blå sten. På den andra vingen finns en tom plats. Maja tittar på radion. Radions blå knapp ser ut precis som fågelns sten! – Radiofon, var har du fått knappen ifrån? frågar Maja. – Det är fågelns sten, säger Radiofon. För länge sedan föll den ur fågelns vinge. Någon gjorde den till min knapp. Jag väntade på er för att kunna ge tillbaka den!",
-              "start_ms": 310297,
-              "end_ms": 359905
-            }
-          ],
-          "sequence": [
-            "story",
-            "practice",
-            "story"
-          ],
-          "transitions": [
-            {
-              "kind": "chime",
-              "from": "story",
-              "to": "practice",
-              "start_ms": 58704,
-              "end_ms": 59324
-            },
-            {
-              "kind": "chime",
-              "from": "practice",
-              "to": "story",
-              "start_ms": 307177,
-              "end_ms": 307797
-            }
-          ],
-          "narration": {
-            "engine": "azure",
-            "voice": "sv-SE-Harper:MAI-Voice-2.1",
-            "style": "audiobook",
-            "rate": "-12%",
-            "locale": "sv-SE",
-            "capabilities": {
-              "voice": "sv-SE-Harper:MAI-Voice-2.1",
-              "locale": "sv-SE",
-              "advertised_styles": [
-                "agent",
-                "audiobook",
-                "customer_call_center",
-                "educational",
-                "narrator"
-              ]
-            },
-            "ssml": "<speak xmlns:mstts=\"http://www.w3.org/2001/mstts\" version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"sv-SE\"><voice name=\"sv-SE-Harper:MAI-Voice-2.1\"><mstts:express-as style=\"audiobook\"><prosody rate=\"-12%\"><p>Barnen öppnar den gröna dörren och går in i en underjordisk trädgård. På en gren sitter en gyllene fågel. Den sjunger inte, utan tickar bara som en klocka: Tick-tack, tick-tack. På ena vingen har den en glänsande blå sten. På den andra vingen finns en tom plats. Maja tittar på radion. Radions blå knapp ser ut precis som fågelns sten! – Radiofon, var har du fått knappen ifrån? frågar Maja. – Det är fågelns sten, säger Radiofon. För länge sedan föll den ur fågelns vinge. Någon gjorde den till min knapp. Jag väntade på er för att kunna ge tillbaka den!</p></prosody></mstts:express-as></voice></speak>"
-          },
-          "packaged_audio": "polish-swedish/audio/stories/magical_radio/07_chapter_07_pl_sv_2026-10-30_13-10-06.mp3"
-        },
         "es": {
           "source_language": "pl",
           "audio_file": "07_chapter_07_pl_es_2026-10-30_12-52-42.mp3",
@@ -3019,6 +2950,75 @@
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"es-ES\"><voice name=\"es-ES-ElviraNeural\"><prosody rate=\"-12%\"><p>Los niños abren la puerta verde y entran en un jardín subterráneo. En una rama hay un pájaro dorado. No canta. Solo hace tictac como un reloj: tic-tac, tic-tac. En un ala tiene una piedrecita azul brillante. En la otra ala hay un hueco vacío. Maya mira la radio. ¡El botón azul de la radio es igual que la piedrecita del pájaro!\n—Radiofón, ¿de dónde has sacado este botón? —pregunta Maya.\n—Es la piedrecita del pájaro —dice Radiofón—. Hace mucho tiempo se le cayó del ala. Alguien la convirtió en mi botón. ¡Os estaba esperando para devolverla!</p></prosody></voice></speak>"
           },
           "packaged_audio": "polish-spanish/audio/stories/magical_radio/07_chapter_07_pl_es_2026-10-30_12-52-42.mp3"
+        },
+        "sv": {
+          "source_language": "en",
+          "audio_file": "07_chapter_07_en_sv_2026-10-30_13-25-06.mp3",
+          "manifest_file": "07_chapter_07_en_sv_2026-10-30_13-25-06.json",
+          "total_duration_ms": 356771,
+          "chapter_reading": {
+            "text": "Barnen öppnar den gröna dörren och går in i en underjordisk trädgård. På en gren sitter en gyllene fågel. Den sjunger inte, utan tickar bara som en klocka: Tick-tack, tick-tack. På ena vingen har den en glänsande blå sten. På den andra vingen finns en tom plats. Maja tittar på radion. Radions blå knapp ser ut precis som fågelns sten! – Radiofon, var har du fått knappen ifrån? frågar Maja. – Det är fågelns sten, säger Radiofon. För länge sedan föll den ur fågelns vinge. Någon gjorde den till min knapp. Jag väntade på er för att kunna ge tillbaka den!",
+            "start_ms": 307163,
+            "end_ms": 356771
+          },
+          "chapter_introduction": {
+            "text": "Kapitel sju. Den gyllene fågeln.",
+            "start_ms": 1000,
+            "end_ms": 4096
+          },
+          "chapter_readings": [
+            {
+              "text": "Barnen öppnar den gröna dörren och går in i en underjordisk trädgård. På en gren sitter en gyllene fågel. Den sjunger inte, utan tickar bara som en klocka: Tick-tack, tick-tack. På ena vingen har den en glänsande blå sten. På den andra vingen finns en tom plats. Maja tittar på radion. Radions blå knapp ser ut precis som fågelns sten! – Radiofon, var har du fått knappen ifrån? frågar Maja. – Det är fågelns sten, säger Radiofon. För länge sedan föll den ur fågelns vinge. Någon gjorde den till min knapp. Jag väntade på er för att kunna ge tillbaka den!",
+              "start_ms": 6596,
+              "end_ms": 56204
+            },
+            {
+              "text": "Barnen öppnar den gröna dörren och går in i en underjordisk trädgård. På en gren sitter en gyllene fågel. Den sjunger inte, utan tickar bara som en klocka: Tick-tack, tick-tack. På ena vingen har den en glänsande blå sten. På den andra vingen finns en tom plats. Maja tittar på radion. Radions blå knapp ser ut precis som fågelns sten! – Radiofon, var har du fått knappen ifrån? frågar Maja. – Det är fågelns sten, säger Radiofon. För länge sedan föll den ur fågelns vinge. Någon gjorde den till min knapp. Jag väntade på er för att kunna ge tillbaka den!",
+              "start_ms": 307163,
+              "end_ms": 356771
+            }
+          ],
+          "sequence": [
+            "story",
+            "practice",
+            "story"
+          ],
+          "transitions": [
+            {
+              "kind": "chime",
+              "from": "story",
+              "to": "practice",
+              "start_ms": 58704,
+              "end_ms": 59324
+            },
+            {
+              "kind": "chime",
+              "from": "practice",
+              "to": "story",
+              "start_ms": 304043,
+              "end_ms": 304663
+            }
+          ],
+          "narration": {
+            "engine": "azure",
+            "voice": "sv-SE-Harper:MAI-Voice-2.1",
+            "style": "audiobook",
+            "rate": "-12%",
+            "locale": "sv-SE",
+            "capabilities": {
+              "voice": "sv-SE-Harper:MAI-Voice-2.1",
+              "locale": "sv-SE",
+              "advertised_styles": [
+                "agent",
+                "audiobook",
+                "customer_call_center",
+                "educational",
+                "narrator"
+              ]
+            },
+            "ssml": "<speak xmlns:mstts=\"http://www.w3.org/2001/mstts\" version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"sv-SE\"><voice name=\"sv-SE-Harper:MAI-Voice-2.1\"><mstts:express-as style=\"audiobook\"><prosody rate=\"-12%\"><p>Barnen öppnar den gröna dörren och går in i en underjordisk trädgård. På en gren sitter en gyllene fågel. Den sjunger inte, utan tickar bara som en klocka: Tick-tack, tick-tack. På ena vingen har den en glänsande blå sten. På den andra vingen finns en tom plats. Maja tittar på radion. Radions blå knapp ser ut precis som fågelns sten! – Radiofon, var har du fått knappen ifrån? frågar Maja. – Det är fågelns sten, säger Radiofon. För länge sedan föll den ur fågelns vinge. Någon gjorde den till min knapp. Jag väntade på er för att kunna ge tillbaka den!</p></prosody></mstts:express-as></voice></speak>"
+          },
+          "packaged_audio": "english-swedish/audio/stories/magical_radio/07_chapter_07_en_sv_2026-10-30_13-25-06.mp3"
         }
       }
     },
@@ -3246,75 +3246,6 @@
           },
           "packaged_audio": "polish-english/audio/stories/magical_radio/08_chapter_08_pl_en_2026-10-29_20-56-15.mp3"
         },
-        "sv": {
-          "source_language": "pl",
-          "manifest_file": "08_chapter_08_pl_sv_2026-10-30_12-21-23.json",
-          "audio_file": "08_chapter_08_pl_sv_2026-10-30_12-21-23.mp3",
-          "total_duration_ms": 227755,
-          "chapter_reading": {
-            "text": "Maja tar försiktigt ut den blå knappen ur radion. Tom sätter in den i fågelns vinge. Barnen ropar: – Reparo! Den gyllene fågeln flaxar med vingarna och börjar sjunga glatt. Fjärilar dansar i luften. – Bra jobbat! säger Radiofon. Ni är riktiga upptäckare. I morgon väntar ett nytt äventyr på oss!",
-            "start_ms": 201259,
-            "end_ms": 227755
-          },
-          "chapter_introduction": {
-            "text": "Kapitel åtta. Den stora konserten.",
-            "start_ms": 1000,
-            "end_ms": 4096
-          },
-          "chapter_readings": [
-            {
-              "text": "Maja tar försiktigt ut den blå knappen ur radion. Tom sätter in den i fågelns vinge. Barnen ropar: – Reparo! Den gyllene fågeln flaxar med vingarna och börjar sjunga glatt. Fjärilar dansar i luften. – Bra jobbat! säger Radiofon. Ni är riktiga upptäckare. I morgon väntar ett nytt äventyr på oss!",
-              "start_ms": 6596,
-              "end_ms": 33092
-            },
-            {
-              "text": "Maja tar försiktigt ut den blå knappen ur radion. Tom sätter in den i fågelns vinge. Barnen ropar: – Reparo! Den gyllene fågeln flaxar med vingarna och börjar sjunga glatt. Fjärilar dansar i luften. – Bra jobbat! säger Radiofon. Ni är riktiga upptäckare. I morgon väntar ett nytt äventyr på oss!",
-              "start_ms": 201259,
-              "end_ms": 227755
-            }
-          ],
-          "sequence": [
-            "story",
-            "practice",
-            "story"
-          ],
-          "transitions": [
-            {
-              "kind": "chime",
-              "from": "story",
-              "to": "practice",
-              "start_ms": 35592,
-              "end_ms": 36212
-            },
-            {
-              "kind": "chime",
-              "from": "practice",
-              "to": "story",
-              "start_ms": 198139,
-              "end_ms": 198759
-            }
-          ],
-          "narration": {
-            "engine": "azure",
-            "voice": "sv-SE-Harper:MAI-Voice-2.1",
-            "style": "audiobook",
-            "rate": "-12%",
-            "locale": "sv-SE",
-            "capabilities": {
-              "voice": "sv-SE-Harper:MAI-Voice-2.1",
-              "locale": "sv-SE",
-              "advertised_styles": [
-                "agent",
-                "audiobook",
-                "customer_call_center",
-                "educational",
-                "narrator"
-              ]
-            },
-            "ssml": "<speak xmlns:mstts=\"http://www.w3.org/2001/mstts\" version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"sv-SE\"><voice name=\"sv-SE-Harper:MAI-Voice-2.1\"><mstts:express-as style=\"audiobook\"><prosody rate=\"-12%\"><p>Maja tar försiktigt ut den blå knappen ur radion. Tom sätter in den i fågelns vinge. Barnen ropar: – Reparo! Den gyllene fågeln flaxar med vingarna och börjar sjunga glatt. Fjärilar dansar i luften. – Bra jobbat! säger Radiofon. Ni är riktiga upptäckare. I morgon väntar ett nytt äventyr på oss!</p></prosody></mstts:express-as></voice></speak>"
-          },
-          "packaged_audio": "polish-swedish/audio/stories/magical_radio/08_chapter_08_pl_sv_2026-10-30_12-21-23.mp3"
-        },
         "es": {
           "source_language": "pl",
           "audio_file": "08_chapter_08_pl_es_2026-10-30_12-52-42.mp3",
@@ -3377,6 +3308,75 @@
             "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"es-ES\"><voice name=\"es-ES-ElviraNeural\"><prosody rate=\"-12%\"><p>Maya saca con cuidado el botón azul de la radio. Tom lo coloca en el ala del pájaro. Los niños gritan:\n—¡Reparo!\nEl pájaro dorado agita las alas y empieza a cantar alegremente. Las mariposas bailan en el aire.\n—¡Bien hecho! —dice Radiofón—. Sois unos auténticos exploradores. ¡Mañana nos espera una nueva aventura!</p></prosody></voice></speak>"
           },
           "packaged_audio": "polish-spanish/audio/stories/magical_radio/08_chapter_08_pl_es_2026-10-30_12-52-42.mp3"
+        },
+        "sv": {
+          "source_language": "en",
+          "audio_file": "08_chapter_08_en_sv_2026-10-30_13-25-06.mp3",
+          "manifest_file": "08_chapter_08_en_sv_2026-10-30_13-25-06.json",
+          "total_duration_ms": 225948,
+          "chapter_reading": {
+            "text": "Maja tar försiktigt ut den blå knappen ur radion. Tom sätter in den i fågelns vinge. Barnen ropar: – Reparo! Den gyllene fågeln flaxar med vingarna och börjar sjunga glatt. Fjärilar dansar i luften. – Bra jobbat! säger Radiofon. Ni är riktiga upptäckare. I morgon väntar ett nytt äventyr på oss!",
+            "start_ms": 199452,
+            "end_ms": 225948
+          },
+          "chapter_introduction": {
+            "text": "Kapitel åtta. Den stora konserten.",
+            "start_ms": 1000,
+            "end_ms": 4096
+          },
+          "chapter_readings": [
+            {
+              "text": "Maja tar försiktigt ut den blå knappen ur radion. Tom sätter in den i fågelns vinge. Barnen ropar: – Reparo! Den gyllene fågeln flaxar med vingarna och börjar sjunga glatt. Fjärilar dansar i luften. – Bra jobbat! säger Radiofon. Ni är riktiga upptäckare. I morgon väntar ett nytt äventyr på oss!",
+              "start_ms": 6596,
+              "end_ms": 33092
+            },
+            {
+              "text": "Maja tar försiktigt ut den blå knappen ur radion. Tom sätter in den i fågelns vinge. Barnen ropar: – Reparo! Den gyllene fågeln flaxar med vingarna och börjar sjunga glatt. Fjärilar dansar i luften. – Bra jobbat! säger Radiofon. Ni är riktiga upptäckare. I morgon väntar ett nytt äventyr på oss!",
+              "start_ms": 199452,
+              "end_ms": 225948
+            }
+          ],
+          "sequence": [
+            "story",
+            "practice",
+            "story"
+          ],
+          "transitions": [
+            {
+              "kind": "chime",
+              "from": "story",
+              "to": "practice",
+              "start_ms": 35592,
+              "end_ms": 36212
+            },
+            {
+              "kind": "chime",
+              "from": "practice",
+              "to": "story",
+              "start_ms": 196332,
+              "end_ms": 196952
+            }
+          ],
+          "narration": {
+            "engine": "azure",
+            "voice": "sv-SE-Harper:MAI-Voice-2.1",
+            "style": "audiobook",
+            "rate": "-12%",
+            "locale": "sv-SE",
+            "capabilities": {
+              "voice": "sv-SE-Harper:MAI-Voice-2.1",
+              "locale": "sv-SE",
+              "advertised_styles": [
+                "agent",
+                "audiobook",
+                "customer_call_center",
+                "educational",
+                "narrator"
+              ]
+            },
+            "ssml": "<speak xmlns:mstts=\"http://www.w3.org/2001/mstts\" version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"sv-SE\"><voice name=\"sv-SE-Harper:MAI-Voice-2.1\"><mstts:express-as style=\"audiobook\"><prosody rate=\"-12%\"><p>Maja tar försiktigt ut den blå knappen ur radion. Tom sätter in den i fågelns vinge. Barnen ropar: – Reparo! Den gyllene fågeln flaxar med vingarna och börjar sjunga glatt. Fjärilar dansar i luften. – Bra jobbat! säger Radiofon. Ni är riktiga upptäckare. I morgon väntar ett nytt äventyr på oss!</p></prosody></mstts:express-as></voice></speak>"
+          },
+          "packaged_audio": "english-swedish/audio/stories/magical_radio/08_chapter_08_en_sv_2026-10-30_13-25-06.mp3"
         }
       }
     }
@@ -3407,10 +3407,10 @@
       "owner_email": "repeto.lingo@gmail.com"
     },
     "sv": {
-      "slug": "polish-swedish",
-      "feed_url": "https://trusohamn.github.io/repeto/polish-swedish/feed.xml",
+      "slug": "english-swedish",
+      "feed_url": "https://trusohamn.github.io/repeto/english-swedish/feed.xml",
       "episodes": 38,
-      "title": "Repeto – Ucz się szwedzkiego",
+      "title": "Repeto – Learn Swedish",
       "author": "Repeto",
       "owner_email": "repeto.lingo@gmail.com"
     },
@@ -3424,21 +3424,21 @@
     }
   },
   "settings": {
-    "source_language": "pl",
+    "source_language": "en",
     "target_languages": [
-      "es"
+      "sv"
     ],
     "voices": {
-      "pl": "pl-PL-ZofiaNeural",
-      "es": "es-ES-ElviraNeural"
+      "sv": "sv-SE-SofieNeural",
+      "en": "en-GB-SoniaNeural"
     },
     "rates": {
-      "pl": "-15%",
-      "es": "-15%"
+      "sv": "-15%",
+      "en": "-5%"
     },
     "pitches": {
-      "pl": "+0Hz",
-      "es": "+0Hz"
+      "sv": "+0Hz",
+      "en": "+0Hz"
     },
     "format": "mp3",
     "bitrate": "192k",
@@ -3451,24 +3451,30 @@
       "practice",
       "story"
     ],
-    "timestamp": "2026-10-30_12-52-42",
+    "timestamp": "2026-10-30_13-25-06",
     "narration": {
-      "es": {
+      "sv": {
         "engine": "azure",
-        "voice": "es-ES-ElviraNeural",
-        "style": null,
+        "voice": "sv-SE-Harper:MAI-Voice-2.1",
+        "style": "audiobook",
         "rate": "-12%",
-        "locale": "es-ES",
+        "locale": "sv-SE",
         "capabilities": {
-          "voice": "es-ES-ElviraNeural",
-          "locale": "es-ES",
-          "advertised_styles": []
+          "voice": "sv-SE-Harper:MAI-Voice-2.1",
+          "locale": "sv-SE",
+          "advertised_styles": [
+            "agent",
+            "audiobook",
+            "customer_call_center",
+            "educational",
+            "narrator"
+          ]
         }
       }
     },
     "narration_engine": "azure",
     "tts_engine": "azure",
-    "output": "courses/stories/magical_radio/generated/audio/pl_es"
+    "output": "courses/stories/magical_radio/generated/audio/en_sv"
   },
   "renders": {
     "sv_pl": {
@@ -3804,6 +3810,59 @@
       "narration_engine": "azure",
       "tts_engine": "azure",
       "output": "courses/stories/magical_radio/generated/audio/pl_es"
+    },
+    "en_sv": {
+      "source_language": "en",
+      "target_languages": [
+        "sv"
+      ],
+      "voices": {
+        "sv": "sv-SE-SofieNeural",
+        "en": "en-GB-SoniaNeural"
+      },
+      "rates": {
+        "sv": "-15%",
+        "en": "-5%"
+      },
+      "pitches": {
+        "sv": "+0Hz",
+        "en": "+0Hz"
+      },
+      "format": "mp3",
+      "bitrate": "192k",
+      "lead_in_ms": 1000,
+      "thinking_ms": 2000,
+      "repetition_ms": 2500,
+      "practice_order": "deterministically_shuffled",
+      "sequence": [
+        "story",
+        "practice",
+        "story"
+      ],
+      "timestamp": "2026-10-30_13-25-06",
+      "narration": {
+        "sv": {
+          "engine": "azure",
+          "voice": "sv-SE-Harper:MAI-Voice-2.1",
+          "style": "audiobook",
+          "rate": "-12%",
+          "locale": "sv-SE",
+          "capabilities": {
+            "voice": "sv-SE-Harper:MAI-Voice-2.1",
+            "locale": "sv-SE",
+            "advertised_styles": [
+              "agent",
+              "audiobook",
+              "customer_call_center",
+              "educational",
+              "narrator"
+            ]
+          }
+        }
+      },
+      "narration_engine": "azure",
+      "tts_engine": "azure",
+      "output": "courses/stories/magical_radio/generated/audio/en_sv"
     }
   }
 }

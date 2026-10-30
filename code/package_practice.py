@@ -121,8 +121,8 @@ def package(args: argparse.Namespace) -> dict[str, Any]:
     catalog_target = "sv" if target == "se" else target
     if catalog_target not in _load("descriptions").LANGUAGES:
         raise ValueError(f"No Swedish language name configured for {target!r}.")
-    if source not in ("se", "pl"):
-        raise ValueError("Podcast copy supports only --source se or --source pl.")
+    if source not in ("se", "pl", "en"):
+        raise ValueError("Podcast copy supports only --source se, pl or en.")
     catalog_source = "sv" if source == "se" else source
     topics = renderer.load_topics(args.transcript)
     titles = load_topic_titles(args.topic_titles, list(topics), (source, target))

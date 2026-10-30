@@ -1,6 +1,6 @@
 # Repeto – listen-and-speak language courses
 
-Repeto is a free podcast course for Swedish and Polish speakers who are starting a new
+Repeto is a free podcast course for Swedish, Polish and English speakers who are starting a new
 language. It suits beginners of all ages: children, parents, grandparents and
 any adult who wants to get going without a textbook. Every episode follows the
 same loop: a word or sentence in your source language, a pause to say it yourself in the target
@@ -28,6 +28,7 @@ you know the format, try another language: every course works the same way.
 | Repeto – Ucz się angielskiego | [page](https://trusohamn.github.io/repeto/polish-english/) | [feed](https://trusohamn.github.io/repeto/polish-english/feed.xml) |
 | Repeto – Ucz się szwedzkiego | [page](https://trusohamn.github.io/repeto/polish-swedish/) | [feed](https://trusohamn.github.io/repeto/polish-swedish/feed.xml) |
 | Repeto – Ucz się hiszpańskiego | [page](https://trusohamn.github.io/repeto/polish-spanish/) | [feed](https://trusohamn.github.io/repeto/polish-spanish/feed.xml) |
+| Repeto – Learn Swedish | [page](https://trusohamn.github.io/repeto/english-swedish/) | [feed](https://trusohamn.github.io/repeto/english-swedish/feed.xml) |
 
 New or updated packages become available at these URLs only after publishing
 to GitHub Pages.
@@ -90,6 +91,14 @@ Swedish stories use Harper's audiobook voice; Spain Spanish uses
 (the configured Azure region does not advertise Spain Spanish Harper).
 Both courses retain Polish prompts, descriptions and page labels.
 
+For English prompts and Swedish answers, use practice source `en`, target `se`
+and `output/english_swedish_double`. Package with `--source en --target se
+--course english-swedish`; render its story with `--source-language en --target sv`.
+This course uses English show and episode descriptions, English story summaries
+and page labels, and Swedish narration. The existing Swedish Azure voices and
+cached recordings are reused; the story still follows reading, vocabulary
+practice and reading again.
+
 Each podcast lives in `podcast/<course>/` with `cover.jpeg`, `course.json`,
 categorized audio, and generated RSS files. Vocabulary-topic MP3s live in
 `audio/practice/`; story chapters live in `audio/stories/<story-id>/`. The
@@ -120,11 +129,11 @@ number uses `episode`, not its position in the JSON list.
 .venv/bin/python code/podcast.py
 ```
 
-Listener-facing copy for Swedish- and Polish-source courses lives in
+Listener-facing copy for Swedish-, Polish- and English-source courses lives in
 [code/descriptions.py](code/descriptions.py): the show title and description,
 the "how to use" steps, practice episode descriptions (topic, phrase count and
 three example phrases) and story episode descriptions (chapter number, the
-chapter's source-language `summary.sv` or `summary.pl` teaser from the story transcript, and the three
+chapter's source-language `summary.sv`, `summary.pl` or `summary.en` teaser from the story transcript, and the three
 listening steps). Both packagers apply it automatically. To refresh the copy of
 already packaged courses without re-rendering audio, run:
 
