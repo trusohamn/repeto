@@ -20,6 +20,10 @@ does not synthesize audio or submit shows to Spotify.
 
 ## Validate inputs before packaging
 
+Complete the linguistic checks in
+[review-language-course](../review-language-course/SKILL.md) before rendering
+new or corrected text. Audio decode and RSS checks do not replace that review.
+
 1. Read `code/transcription.py`, `code/podcast.py`, and an existing
    `podcast/*/course.json` for the current schemas and conventions.
 2. Load the current transcript with the renderer's `load_topics`. Do not
@@ -82,6 +86,10 @@ podcast/<slug>/
   packaging uses `--source pl`, and story packaging uses `--source-language pl`;
   catalogs use `pl` for language and source_language. Add a target
   language to its `LANGUAGES` map before packaging a new Swedish-source course.
+  Swedish answers use `--target se` in practice but `--target sv` in stories;
+  the catalog consistently stores target `sv`. Spain Spanish uses `es` in
+  both renderers and the catalog. Keep Polish genitive and adverb names in
+  `descriptions.py` in sync when adding a target for Polish listeners.
 - Use bilingual episode titles, source first, without a numeric prefix:
   `Hälsningar — Greetings`. `code/podcast.py` adds the number.
 - Use season 1 and episodes 1 through the current topic count for a new course.

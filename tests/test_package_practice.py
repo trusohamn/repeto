@@ -61,6 +61,37 @@ def write_render(
 
 
 class PackagePracticeTests(unittest.TestCase):
+    def test_swedish_target_uses_canonical_catalog_language_and_practice_alias(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            item = {"id": "phrase_000001", "topic": "Greetings", "se": "Hej!",
+                    "pl": "Cześć!", "en": "Hi!", "ru": "Привет!", "es": "¡Hola!"}
+            transcript = root / "transcript.json"
+            transcript.write_text(json.dumps([item]), encoding="utf-8")
+            titles = root / "topics.json"
+            titles.write_text(json.dumps(
+                {"Greetings": {"pl": "Powitania", "se": "Hälsningar"}}
+            ), encoding="utf-8")
+            renders = root / "renders"
+            renders.mkdir()
+            write_render(renders, 1, "Greetings", [item], "pl", "se")
+            podcast_root = root / "podcast"
+            course = podcast_root / "polish-swedish"
+            course.mkdir(parents=True)
+            (course / "cover.jpeg").write_bytes(b"jpeg")
+            args = package_practice.create_parser().parse_args([
+                "--source", "pl", "--target", "se", "--course", "polish-swedish",
+                "--renders", str(renders), "--transcript", str(transcript),
+                "--topic-titles", str(titles), "--podcast-root", str(podcast_root),
+            ])
+            catalog = package_practice.package(args)
+            self.assertEqual(catalog["target_language"], "sv")
+            self.assertEqual(catalog["title"], "Repeto – Ucz się szwedzkiego")
+            self.assertIn("Cześć! → Hej!", catalog["episodes"][0]["description"])
+            self.assertIn("po szwedzku", catalog["description"])
+            again = package_practice.package(args)
+            self.assertEqual(catalog["episodes"], again["episodes"])
+
     def test_packages_polish_source_with_polish_page_and_prompts(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)

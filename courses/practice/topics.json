@@ -1,179 +1,209 @@
 {
   "Greetings": {
+    "es": "Saludos",
     "se": "Hälsningar",
     "pl": "Powitania",
     "en": "Greetings",
     "ru": "Приветствия"
   },
   "Numbers": {
+    "es": "Números",
     "se": "Tal",
     "pl": "Liczby",
     "en": "Numbers",
     "ru": "Числа"
   },
   "Colors": {
+    "es": "Colores",
     "se": "Färger",
     "pl": "Kolory",
     "en": "Colors",
     "ru": "Цвета"
   },
   "Animals": {
+    "es": "Animales",
     "se": "Djur",
     "pl": "Zwierzęta",
     "en": "Animals",
     "ru": "Животные"
   },
   "Family": {
+    "es": "Familia",
     "se": "Familj",
     "pl": "Rodzina",
     "en": "Family",
     "ru": "Семья"
   },
   "Food": {
+    "es": "Comida",
     "se": "Mat",
     "pl": "Jedzenie",
     "en": "Food",
     "ru": "Еда"
   },
   "Body": {
+    "es": "Cuerpo",
     "se": "Kroppen",
     "pl": "Ciało",
     "en": "Body",
     "ru": "Тело"
   },
   "Clothing": {
+    "es": "Ropa",
     "se": "Kläder",
     "pl": "Ubrania",
     "en": "Clothing",
     "ru": "Одежда"
   },
   "Home": {
+    "es": "En casa",
     "se": "Hemma",
     "pl": "W domu",
     "en": "Home",
     "ru": "Дома"
   },
   "School": {
+    "es": "Colegio",
     "se": "Skolan",
     "pl": "Szkoła",
     "en": "School",
     "ru": "Школа"
   },
   "Weather": {
+    "es": "El tiempo",
     "se": "Väder",
     "pl": "Pogoda",
     "en": "Weather",
     "ru": "Погода"
   },
   "Seasons": {
+    "es": "Estaciones del año",
     "se": "Årstider",
     "pl": "Pory roku",
     "en": "Seasons",
     "ru": "Времена года"
   },
   "Days and Time": {
+    "es": "Días y horas",
     "se": "Dagar och tid",
     "pl": "Dni i czas",
     "en": "Days and Time",
     "ru": "Дни и время"
   },
   "Toys and Play": {
+    "es": "Juguetes y juegos",
     "se": "Leksaker och lek",
     "pl": "Zabawki i zabawa",
     "en": "Toys and Play",
     "ru": "Игрушки и игры"
   },
   "Sports and Activities": {
+    "es": "Deportes y actividades",
     "se": "Sport och aktiviteter",
     "pl": "Sport i zajęcia",
     "en": "Sports and Activities",
     "ru": "Спорт и занятия"
   },
   "I want / I need": {
+    "es": "Quiero y necesito",
     "se": "Jag vill ha och jag behöver",
     "pl": "Chcę i potrzebuję",
     "en": "I want and I need",
     "ru": "Я хочу и мне нужно"
   },
   "Where is?": {
+    "es": "¿Dónde está?",
     "se": "Var är?",
     "pl": "Gdzie jest?",
     "en": "Where is it?",
     "ru": "Где это?"
   },
   "Feelings and Emotions": {
+    "es": "Sentimientos y emociones",
     "se": "Känslor",
     "pl": "Uczucia i emocje",
     "en": "Feelings and Emotions",
     "ru": "Чувства и эмоции"
   },
   "Transport": {
+    "es": "Medios de transporte",
     "se": "Färdmedel",
     "pl": "Środki transportu",
     "en": "Transport",
     "ru": "Транспорт"
   },
   "Nature": {
+    "es": "Naturaleza",
     "se": "Naturen",
     "pl": "Przyroda",
     "en": "Nature",
     "ru": "Природа"
   },
   "Holidays and Celebrations": {
+    "es": "Fiestas y celebraciones",
     "se": "Högtider och firande",
     "pl": "Święta i uroczystości",
     "en": "Holidays and Celebrations",
     "ru": "Праздники"
   },
   "Daily Routine": {
+    "es": "Rutina diaria",
     "se": "Vardagsrutiner",
     "pl": "Codzienne czynności",
     "en": "Daily Routine",
     "ru": "Распорядок дня"
   },
   "Asking and Requests": {
+    "es": "Preguntas y peticiones",
     "se": "Fråga och be om hjälp",
     "pl": "Pytania i prośby",
     "en": "Asking and Requests",
     "ru": "Вопросы и просьбы"
   },
   "Opposites": {
+    "es": "Contrarios",
     "se": "Motsatser",
     "pl": "Przeciwieństwa",
     "en": "Opposites",
     "ru": "Противоположности"
   },
   "Actions and Verbs": {
+    "es": "Acciones y verbos",
     "se": "Handlingar och verb",
     "pl": "Czynności i czasowniki",
     "en": "Actions and Verbs",
     "ru": "Действия и глаголы"
   },
   "Places in Town": {
+    "es": "Lugares de la ciudad",
     "se": "Platser i staden",
     "pl": "Miejsca w mieście",
     "en": "Places in Town",
     "ru": "Места в городе"
   },
   "Technology": {
+    "es": "Tecnología",
     "se": "Teknik",
     "pl": "Technologia",
     "en": "Technology",
     "ru": "Техника"
   },
   "Music and Art": {
+    "es": "Música y arte",
     "se": "Musik och konst",
     "pl": "Muzyka i sztuka",
     "en": "Music and Art",
     "ru": "Музыка и искусство"
   },
   "Polite Phrases": {
+    "es": "Expresiones de cortesía",
     "se": "Artiga fraser",
     "pl": "Zwroty grzecznościowe",
     "en": "Polite Phrases",
     "ru": "Вежливые слова"
   },
   "Review and Recap": {
+    "es": "Repaso",
     "se": "Repetition",
     "pl": "Powtórka",
     "en": "Review and Recap",

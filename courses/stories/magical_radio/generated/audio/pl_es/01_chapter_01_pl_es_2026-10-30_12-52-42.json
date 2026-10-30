@@ -1,0 +1,582 @@
+{
+  "chapter_number": 1,
+  "title": {
+    "pl": "Stary stół",
+    "es": "La mesa vieja",
+    "sv": "Det gamla bordet",
+    "en": "The Old Table",
+    "ru": "Старый стол"
+  },
+  "source_language": "pl",
+  "target_language": "es",
+  "practice_order": "deterministically_shuffled",
+  "sequence": [
+    "story",
+    "practice",
+    "story"
+  ],
+  "total_duration_ms": 312955,
+  "practice": [
+    {
+      "id": 210,
+      "kind": "vocabulary",
+      "start_ms": 51772,
+      "end_ms": 60627,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "stać",
+        "start_ms": 51772,
+        "end_ms": 52405
+      },
+      "target_playbacks": [
+        {
+          "text": "estar",
+          "start_ms": 54405,
+          "end_ms": 55016
+        },
+        {
+          "text": "estar",
+          "start_ms": 57516,
+          "end_ms": 58127
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "kind": "vocabulary",
+      "start_ms": 60627,
+      "end_ms": 72763,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "otworzyć szeroko oczy",
+        "start_ms": 60627,
+        "end_ms": 62275
+      },
+      "target_playbacks": [
+        {
+          "text": "abrir mucho los ojos",
+          "start_ms": 64275,
+          "end_ms": 66019
+        },
+        {
+          "text": "abrir mucho los ojos",
+          "start_ms": 68519,
+          "end_ms": 70263
+        }
+      ]
+    },
+    {
+      "id": 114,
+      "kind": "vocabulary",
+      "start_ms": 72763,
+      "end_ms": 83997,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "ma sześć lat",
+        "start_ms": 72763,
+        "end_ms": 74023
+      },
+      "target_playbacks": [
+        {
+          "text": "tiene seis años",
+          "start_ms": 76023,
+          "end_ms": 77510
+        },
+        {
+          "text": "tiene seis años",
+          "start_ms": 80010,
+          "end_ms": 81497
+        }
+      ]
+    },
+    {
+      "id": 115,
+      "kind": "vocabulary",
+      "start_ms": 83997,
+      "end_ms": 93275,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "razem",
+        "start_ms": 83997,
+        "end_ms": 84649
+      },
+      "target_playbacks": [
+        {
+          "text": "juntos",
+          "start_ms": 86649,
+          "end_ms": 87462
+        },
+        {
+          "text": "juntos",
+          "start_ms": 89962,
+          "end_ms": 90775
+        }
+      ]
+    },
+    {
+      "id": 122,
+      "kind": "vocabulary",
+      "start_ms": 93275,
+      "end_ms": 102910,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "pojawić się",
+        "start_ms": 93275,
+        "end_ms": 94252
+      },
+      "target_playbacks": [
+        {
+          "text": "aparecer",
+          "start_ms": 96252,
+          "end_ms": 97081
+        },
+        {
+          "text": "aparecer",
+          "start_ms": 99581,
+          "end_ms": 100410
+        }
+      ]
+    },
+    {
+      "id": 111,
+      "kind": "vocabulary",
+      "start_ms": 102910,
+      "end_ms": 112413,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "sobota",
+        "start_ms": 102910,
+        "end_ms": 103751
+      },
+      "target_playbacks": [
+        {
+          "text": "sábado",
+          "start_ms": 105751,
+          "end_ms": 106582
+        },
+        {
+          "text": "sábado",
+          "start_ms": 109082,
+          "end_ms": 109913
+        }
+      ]
+    },
+    {
+      "id": 211,
+      "kind": "vocabulary",
+      "start_ms": 112413,
+      "end_ms": 125544,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "iść na pchli targ",
+        "start_ms": 112413,
+        "end_ms": 113886
+      },
+      "target_playbacks": [
+        {
+          "text": "ir a un mercadillo de segunda mano",
+          "start_ms": 115886,
+          "end_ms": 118215
+        },
+        {
+          "text": "ir a un mercadillo de segunda mano",
+          "start_ms": 120715,
+          "end_ms": 123044
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "kind": "vocabulary",
+      "start_ms": 125544,
+      "end_ms": 137469,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "pchli targ",
+        "start_ms": 125544,
+        "end_ms": 126463
+      },
+      "target_playbacks": [
+        {
+          "text": "mercadillo de segunda mano",
+          "start_ms": 128463,
+          "end_ms": 130466
+        },
+        {
+          "text": "mercadillo de segunda mano",
+          "start_ms": 132966,
+          "end_ms": 134969
+        }
+      ]
+    },
+    {
+      "id": 200,
+      "kind": "vocabulary",
+      "start_ms": 137469,
+      "end_ms": 146326,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "gdy",
+        "start_ms": 137469,
+        "end_ms": 137954
+      },
+      "target_playbacks": [
+        {
+          "text": "cuando",
+          "start_ms": 139954,
+          "end_ms": 140640
+        },
+        {
+          "text": "cuando",
+          "start_ms": 143140,
+          "end_ms": 143826
+        }
+      ]
+    },
+    {
+      "id": 117,
+      "kind": "vocabulary",
+      "start_ms": 146326,
+      "end_ms": 156761,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "stary stół",
+        "start_ms": 146326,
+        "end_ms": 147283
+      },
+      "target_playbacks": [
+        {
+          "text": "una mesa vieja",
+          "start_ms": 149283,
+          "end_ms": 150522
+        },
+        {
+          "text": "una mesa vieja",
+          "start_ms": 153022,
+          "end_ms": 154261
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "kind": "vocabulary",
+      "start_ms": 156761,
+      "end_ms": 167784,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "złoty napis",
+        "start_ms": 156761,
+        "end_ms": 157994
+      },
+      "target_playbacks": [
+        {
+          "text": "mensaje dorado",
+          "start_ms": 159994,
+          "end_ms": 161389
+        },
+        {
+          "text": "mensaje dorado",
+          "start_ms": 163889,
+          "end_ms": 165284
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "kind": "vocabulary",
+      "start_ms": 167784,
+      "end_ms": 179734,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "cicho szumieć",
+        "start_ms": 167784,
+        "end_ms": 168854
+      },
+      "target_playbacks": [
+        {
+          "text": "emitir un suave zumbido",
+          "start_ms": 170854,
+          "end_ms": 172794
+        },
+        {
+          "text": "emitir un suave zumbido",
+          "start_ms": 175294,
+          "end_ms": 177234
+        }
+      ]
+    },
+    {
+      "id": 119,
+      "kind": "vocabulary",
+      "start_ms": 179734,
+      "end_ms": 190395,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "na stole",
+        "start_ms": 179734,
+        "end_ms": 180587
+      },
+      "target_playbacks": [
+        {
+          "text": "encima de la mesa",
+          "start_ms": 182587,
+          "end_ms": 183991
+        },
+        {
+          "text": "encima de la mesa",
+          "start_ms": 186491,
+          "end_ms": 187895
+        }
+      ]
+    },
+    {
+      "id": 120,
+      "kind": "vocabulary",
+      "start_ms": 190395,
+      "end_ms": 200810,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "podchodzić bliżej",
+        "start_ms": 190395,
+        "end_ms": 191777
+      },
+      "target_playbacks": [
+        {
+          "text": "acercarse",
+          "start_ms": 193777,
+          "end_ms": 194793
+        },
+        {
+          "text": "acercarse",
+          "start_ms": 197293,
+          "end_ms": 198310
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "kind": "vocabulary",
+      "start_ms": 200810,
+      "end_ms": 212143,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "złote pokrętła",
+        "start_ms": 200810,
+        "end_ms": 202241
+      },
+      "target_playbacks": [
+        {
+          "text": "mandos dorados",
+          "start_ms": 204241,
+          "end_ms": 205692
+        },
+        {
+          "text": "mandos dorados",
+          "start_ms": 208192,
+          "end_ms": 209643
+        }
+      ]
+    },
+    {
+      "id": 112,
+      "kind": "vocabulary",
+      "start_ms": 212143,
+      "end_ms": 223523,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "ma dziewięć lat",
+        "start_ms": 212143,
+        "end_ms": 213439
+      },
+      "target_playbacks": [
+        {
+          "text": "tiene nueve años",
+          "start_ms": 215439,
+          "end_ms": 216981
+        },
+        {
+          "text": "tiene nueve años",
+          "start_ms": 219481,
+          "end_ms": 221023
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "kind": "vocabulary",
+      "start_ms": 223523,
+      "end_ms": 235169,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "kolorowe przyciski",
+        "start_ms": 223523,
+        "end_ms": 225033
+      },
+      "target_playbacks": [
+        {
+          "text": "botones de colores",
+          "start_ms": 227033,
+          "end_ms": 228601
+        },
+        {
+          "text": "botones de colores",
+          "start_ms": 231101,
+          "end_ms": 232669
+        }
+      ]
+    },
+    {
+      "id": 113,
+      "kind": "vocabulary",
+      "start_ms": 235169,
+      "end_ms": 244966,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "jej brat",
+        "start_ms": 235169,
+        "end_ms": 236014
+      },
+      "target_playbacks": [
+        {
+          "text": "su hermano",
+          "start_ms": 238014,
+          "end_ms": 238990
+        },
+        {
+          "text": "su hermano",
+          "start_ms": 241490,
+          "end_ms": 242466
+        }
+      ]
+    },
+    {
+      "id": 118,
+      "kind": "vocabulary",
+      "start_ms": 244966,
+      "end_ms": 256534,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "drewniane radio",
+        "start_ms": 244966,
+        "end_ms": 246278
+      },
+      "target_playbacks": [
+        {
+          "text": "una radio de madera",
+          "start_ms": 248278,
+          "end_ms": 249906
+        },
+        {
+          "text": "una radio de madera",
+          "start_ms": 252406,
+          "end_ms": 254034
+        }
+      ]
+    },
+    {
+      "id": 121,
+      "kind": "vocabulary",
+      "start_ms": 256534,
+      "end_ms": 266363,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "nagle",
+        "start_ms": 256534,
+        "end_ms": 257185
+      },
+      "target_playbacks": [
+        {
+          "text": "de repente",
+          "start_ms": 259185,
+          "end_ms": 260274
+        },
+        {
+          "text": "de repente",
+          "start_ms": 262774,
+          "end_ms": 263863
+        }
+      ]
+    },
+    {
+      "id": 116,
+      "kind": "vocabulary",
+      "start_ms": 266363,
+      "end_ms": 276379,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "w rogu",
+        "start_ms": 266363,
+        "end_ms": 267029
+      },
+      "target_playbacks": [
+        {
+          "text": "en un rincón",
+          "start_ms": 269029,
+          "end_ms": 270204
+        },
+        {
+          "text": "en un rincón",
+          "start_ms": 272704,
+          "end_ms": 273879
+        }
+      ]
+    }
+  ],
+  "book_introduction": {
+    "text": "La radio mágica.",
+    "start_ms": 1000,
+    "end_ms": 3424
+  },
+  "chapter_introduction": {
+    "text": "Capítulo uno. La mesa vieja.",
+    "start_ms": 5924,
+    "end_ms": 10196
+  },
+  "transitions": [
+    {
+      "kind": "chime",
+      "from": "story",
+      "to": "practice",
+      "start_ms": 48652,
+      "end_ms": 49272
+    },
+    {
+      "kind": "chime",
+      "from": "practice",
+      "to": "story",
+      "start_ms": 276379,
+      "end_ms": 276999
+    }
+  ],
+  "chapter_readings": [
+    {
+      "text": "Es sábado. Maya tiene nueve años y su hermano Tom tiene seis. Juntos van a un mercadillo de segunda mano. En un rincón hay una mesa vieja y, encima de la mesa, una radio de madera. Tiene mandos dorados y botones de colores. Cuando Maya se acerca, la radio empieza de repente a emitir un suave zumbido. En la radio aparece un mensaje dorado: «Para Maya y Tom». Los niños abren mucho los ojos.",
+      "start_ms": 12696,
+      "end_ms": 46152
+    },
+    {
+      "text": "Es sábado. Maya tiene nueve años y su hermano Tom tiene seis. Juntos van a un mercadillo de segunda mano. En un rincón hay una mesa vieja y, encima de la mesa, una radio de madera. Tiene mandos dorados y botones de colores. Cuando Maya se acerca, la radio empieza de repente a emitir un suave zumbido. En la radio aparece un mensaje dorado: «Para Maya y Tom». Los niños abren mucho los ojos.",
+      "start_ms": 279499,
+      "end_ms": 312955
+    }
+  ],
+  "chapter_reading": {
+    "text": "Es sábado. Maya tiene nueve años y su hermano Tom tiene seis. Juntos van a un mercadillo de segunda mano. En un rincón hay una mesa vieja y, encima de la mesa, una radio de madera. Tiene mandos dorados y botones de colores. Cuando Maya se acerca, la radio empieza de repente a emitir un suave zumbido. En la radio aparece un mensaje dorado: «Para Maya y Tom». Los niños abren mucho los ojos.",
+    "start_ms": 279499,
+    "end_ms": 312955
+  },
+  "narration": {
+    "engine": "azure",
+    "voice": "es-ES-ElviraNeural",
+    "style": null,
+    "rate": "-12%",
+    "locale": "es-ES",
+    "capabilities": {
+      "voice": "es-ES-ElviraNeural",
+      "locale": "es-ES",
+      "advertised_styles": []
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"es-ES\"><voice name=\"es-ES-ElviraNeural\"><prosody rate=\"-12%\"><p>Es sábado. Maya tiene nueve años y su hermano Tom tiene seis. Juntos van a un mercadillo de segunda mano. En un rincón hay una mesa vieja y, encima de la mesa, una radio de madera. Tiene mandos dorados y botones de colores. Cuando Maya se acerca, la radio empieza de repente a emitir un suave zumbido. En la radio aparece un mensaje dorado: «Para Maya y Tom». Los niños abren mucho los ojos.</p></prosody></voice></speak>"
+  },
+  "audio_file": "01_chapter_01_pl_es_2026-10-30_12-52-42.mp3"
+}

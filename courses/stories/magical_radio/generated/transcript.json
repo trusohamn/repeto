@@ -1,6 +1,7 @@
 {
   "story_id": "magical_radio",
   "titles": {
+    "es": "La radio mágica",
     "pl": "Magiczne Radio",
     "sv": "Den magiska radion",
     "en": "The Magical Radio",
@@ -11,6 +12,7 @@
       "chapter_number": 1,
       "titles": {
         "pl": "Stary stół",
+        "es": "La mesa vieja",
         "sv": "Det gamla bordet",
         "en": "The Old Table",
         "ru": "Старый стол"
@@ -23,6 +25,7 @@
         {
           "id": 1,
           "text": {
+            "es": "mercadillo de segunda mano",
             "pl": "pchli targ",
             "sv": "loppmarknad",
             "en": "flea market",
@@ -32,6 +35,7 @@
         {
           "id": 2,
           "text": {
+            "es": "mandos dorados",
             "pl": "złote pokrętła",
             "sv": "gyllene rattar",
             "en": "gold knobs",
@@ -41,6 +45,7 @@
         {
           "id": 3,
           "text": {
+            "es": "botones de colores",
             "pl": "kolorowe przyciski",
             "sv": "färgade knappar",
             "en": "colourful buttons",
@@ -50,6 +55,7 @@
         {
           "id": 4,
           "text": {
+            "es": "emitir un suave zumbido",
             "pl": "cicho szumieć",
             "sv": "susa tyst",
             "en": "hum quietly",
@@ -59,6 +65,7 @@
         {
           "id": 5,
           "text": {
+            "es": "mensaje dorado",
             "pl": "złoty napis",
             "sv": "gyllene inskription",
             "en": "golden inscription",
@@ -68,6 +75,7 @@
         {
           "id": 6,
           "text": {
+            "es": "abrir mucho los ojos",
             "pl": "otworzyć szeroko oczy",
             "sv": "spärra upp ögonen",
             "en": "open one's eyes wide",
@@ -77,6 +85,7 @@
         {
           "id": 111,
           "text": {
+            "es": "sábado",
             "pl": "sobota",
             "sv": "lördag",
             "en": "Saturday",
@@ -86,6 +95,7 @@
         {
           "id": 112,
           "text": {
+            "es": "tiene nueve años",
             "pl": "ma dziewięć lat",
             "sv": "är nio år",
             "en": "is nine years old",
@@ -95,6 +105,7 @@
         {
           "id": 113,
           "text": {
+            "es": "su hermano",
             "pl": "jej brat",
             "sv": "hennes bror",
             "en": "her brother",
@@ -104,6 +115,7 @@
         {
           "id": 114,
           "text": {
+            "es": "tiene seis años",
             "pl": "ma sześć lat",
             "sv": "är sex år",
             "en": "is six years old",
@@ -113,6 +125,7 @@
         {
           "id": 115,
           "text": {
+            "es": "juntos",
             "pl": "razem",
             "sv": "tillsammans",
             "en": "together",
@@ -122,6 +135,7 @@
         {
           "id": 116,
           "text": {
+            "es": "en un rincón",
             "pl": "w rogu",
             "sv": "i hörnet",
             "en": "in the corner",
@@ -131,6 +145,7 @@
         {
           "id": 117,
           "text": {
+            "es": "una mesa vieja",
             "pl": "stary stół",
             "sv": "ett gammalt bord",
             "en": "an old table",
@@ -140,6 +155,7 @@
         {
           "id": 118,
           "text": {
+            "es": "una radio de madera",
             "pl": "drewniane radio",
             "sv": "en radio av trä",
             "en": "a wooden radio",
@@ -149,6 +165,7 @@
         {
           "id": 119,
           "text": {
+            "es": "encima de la mesa",
             "pl": "na stole",
             "sv": "på bordet",
             "en": "on the table",
@@ -158,6 +175,7 @@
         {
           "id": 120,
           "text": {
+            "es": "acercarse",
             "pl": "podchodzić bliżej",
             "sv": "komma närmare",
             "en": "come closer",
@@ -167,6 +185,7 @@
         {
           "id": 121,
           "text": {
+            "es": "de repente",
             "pl": "nagle",
             "sv": "plötsligt",
             "en": "suddenly",
@@ -176,6 +195,7 @@
         {
           "id": 122,
           "text": {
+            "es": "aparecer",
             "pl": "pojawić się",
             "sv": "dyka upp",
             "en": "appear",
@@ -185,6 +205,7 @@
         {
           "id": 200,
           "text": {
+            "es": "cuando",
             "pl": "gdy",
             "sv": "när",
             "en": "when",
@@ -194,6 +215,7 @@
         {
           "id": 210,
           "text": {
+            "es": "estar",
             "pl": "stać",
             "sv": "stå",
             "en": "stand",
@@ -203,6 +225,7 @@
         {
           "id": 211,
           "text": {
+            "es": "ir a un mercadillo de segunda mano",
             "pl": "iść na pchli targ",
             "sv": "gå på loppmarknad",
             "en": "go to a flea market",
@@ -211,7 +234,9 @@
         }
       ],
       "chapter_text": {
+        "es": "Es sábado. Maya tiene nueve años y su hermano Tom tiene seis. Juntos van a un mercadillo de segunda mano. En un rincón hay una mesa vieja y, encima de la mesa, una radio de madera. Tiene mandos dorados y botones de colores. Cuando Maya se acerca, la radio empieza de repente a emitir un suave zumbido. En la radio aparece un mensaje dorado: «Para Maya y Tom». Los niños abren mucho los ojos.",
         "pl": "Jest sobota. Maja ma dziewięć lat, a jej brat Tomek – sześć. Razem idą na pchli targ. W rogu stoi stary stół, a na stole – drewniane radio. Ma złote pokrętła i kolorowe przyciski. Gdy Maja podchodzi bliżej, radio nagle cicho szumi. Na radiu pojawia się złoty napis: „Dla Mai i Tomka”. Dzieci otwierają szeroko oczy.",
+        "sv": "Det är lördag. Maja är nio år och hennes bror Tom är sex. Tillsammans går de på loppmarknad. I hörnet står ett gammalt bord och på bordet står en radio av trä. Den har gyllene rattar och färgade knappar. När Maja kommer närmare börjar radion plötsligt susa tyst. En gyllene text dyker upp på radion: ”Till Maja och Tom”. Barnen spärrar upp ögonen.",
         "en": "It is Saturday. Maya is nine years old, and her brother Tom is six. Together they go to a flea market. In the corner stands an old table, and on the table there is a wooden radio. It has gold knobs and colourful buttons. When Maya comes closer, the radio suddenly hums quietly. A golden inscription appears on the radio: “For Maya and Tom.” The children open their eyes wide.",
         "ru": "Сегодня суббота. Маше девять лет, а её брату Мише — шесть. Вместе они идут на блошиный рынок. В углу стоит старый стол, а на столе — деревянное радио. У него золотые ручки и разноцветные кнопки. Когда Маша подходит ближе, радио вдруг тихо шумит. На радио появляется золотая надпись: «Для Маши и Миши». Дети широко открывают глаза."
       }
@@ -220,6 +245,7 @@
       "chapter_number": 2,
       "titles": {
         "pl": "Głos z radia",
+        "es": "Una voz en la radio",
         "sv": "En röst ur radion",
         "en": "A Voice from the Radio",
         "ru": "Голос из радио"
@@ -232,6 +258,7 @@
         {
           "id": 15,
           "text": {
+            "es": "botón azul",
             "pl": "niebieski przycisk",
             "sv": "blå knapp",
             "en": "blue button",
@@ -241,6 +268,7 @@
         {
           "id": 16,
           "text": {
+            "es": "nubecita",
             "pl": "mała chmurka",
             "sv": "litet moln",
             "en": "little cloud",
@@ -250,6 +278,7 @@
         {
           "id": 17,
           "text": {
+            "es": "oler a canela",
             "pl": "pachnieć cynamonem",
             "sv": "dofta av kanel",
             "en": "smell of cinnamon",
@@ -259,6 +288,7 @@
         {
           "id": 18,
           "text": {
+            "es": "voz alegre",
             "pl": "wesoły głos",
             "sv": "glad röst",
             "en": "cheerful voice",
@@ -268,6 +298,7 @@
         {
           "id": 123,
           "text": {
+            "es": "llevar a casa",
             "pl": "nieść do domu",
             "sv": "bära hem",
             "en": "carry home",
@@ -277,6 +308,7 @@
         {
           "id": 124,
           "text": {
+            "es": "pulsar un botón",
             "pl": "naciskać przycisk",
             "sv": "trycka på en knapp",
             "en": "press a button",
@@ -286,6 +318,7 @@
         {
           "id": 125,
           "text": {
+            "es": "salir volando de la radio",
             "pl": "wylatywać z radia",
             "sv": "flyga ut ur radion",
             "en": "fly out of the radio",
@@ -295,6 +328,7 @@
         {
           "id": 126,
           "text": {
+            "es": "llamarse",
             "pl": "nazywać się",
             "sv": "heta",
             "en": "be called",
@@ -304,6 +338,7 @@
         {
           "id": 127,
           "text": {
+            "es": "vuestro jardín",
             "pl": "wasz ogród",
             "sv": "er trädgård",
             "en": "your garden",
@@ -313,6 +348,7 @@
         {
           "id": 128,
           "text": {
+            "es": "debajo del árbol viejo",
             "pl": "pod starym drzewem",
             "sv": "under det gamla trädet",
             "en": "under the old tree",
@@ -322,6 +358,7 @@
         {
           "id": 130,
           "text": {
+            "es": "una llave",
             "pl": "klucz",
             "sv": "en nyckel",
             "en": "a key",
@@ -331,6 +368,7 @@
         {
           "id": 131,
           "text": {
+            "es": "llevadme con vosotros",
             "pl": "weźcie mnie ze sobą",
             "sv": "ta med mig",
             "en": "take me with you",
@@ -340,6 +378,7 @@
         {
           "id": 201,
           "text": {
+            "es": "hola",
             "pl": "cześć",
             "sv": "hej",
             "en": "hi",
@@ -349,6 +388,7 @@
         {
           "id": 208,
           "text": {
+            "es": "decir",
             "pl": "mówić",
             "sv": "säga",
             "en": "say",
@@ -358,6 +398,7 @@
         {
           "id": 212,
           "text": {
+            "es": "comprar la radio",
             "pl": "kupować radio",
             "sv": "köpa radion",
             "en": "buy the radio",
@@ -367,6 +408,7 @@
         {
           "id": 213,
           "text": {
+            "es": "vivir",
             "pl": "mieszkać",
             "sv": "bo",
             "en": "live",
@@ -376,6 +418,7 @@
         {
           "id": 214,
           "text": {
+            "es": "una llave importante",
             "pl": "ważny klucz",
             "sv": "en viktig nyckel",
             "en": "an important key",
@@ -385,6 +428,7 @@
         {
           "id": 215,
           "text": {
+            "es": "encantarle el queso",
             "pl": "bardzo lubić ser",
             "sv": "verkligen gilla ost",
             "en": "really love cheese",
@@ -394,6 +438,7 @@
         {
           "id": 216,
           "text": {
+            "es": "niños",
             "pl": "dzieci",
             "sv": "barn",
             "en": "kids",
@@ -402,7 +447,9 @@
         }
       ],
       "chapter_text": {
+        "es": "Los niños compran la radio y la llevan a casa. Tom pulsa el botón azul. De la radio sale volando una nubecita que huele a canela.\n—¡Hola, niños! —dice una voz alegre—. Me llamo Radiofón. En vuestro jardín, debajo del árbol viejo, vive un ratón. Tiene una llave importante y le encanta el queso. ¡Llevadme con vosotros!",
         "pl": "Dzieci kupują radio i niosą je do domu. Tomek naciska niebieski przycisk. Z radia wylatuje mała chmurka, która pachnie cynamonem. – Cześć, dzieci! – mówi wesoły głos. – Nazywam się Radiofon. W waszym ogrodzie, pod starym drzewem, mieszka mysz. Ma ważny klucz i bardzo lubi ser. Weźcie mnie ze sobą!",
+        "sv": "Barnen köper radion och bär hem den. Tom trycker på den blå knappen. Ett litet moln som doftar kanel flyger ut ur radion. – Hej, barn! säger en glad röst. Jag heter Radiofon. I er trädgård, under det gamla trädet, bor en mus. Den har en viktig nyckel och gillar ost väldigt mycket. Ta med mig!",
         "en": "The children buy the radio and carry it home. Tom presses the blue button. A little cloud flies out of the radio, and it smells of cinnamon. “Hi, kids!” says a cheerful voice. “My name is Radiophone. In your garden, under the old tree, lives a mouse. It has an important key, and it really loves cheese. Take me with you!”",
         "ru": "Дети покупают радио и несут его домой. Миша нажимает синюю кнопку. Из радио вылетает маленькое облачко, которое пахнет корицей. — Привет, дети! — говорит весёлый голос. — Меня зовут Радиофон. В вашем саду, под старым деревом, живёт мышка. У неё есть важный ключ, и она очень любит сыр. Возьмите меня с собой!"
       }
@@ -411,6 +458,7 @@
       "chapter_number": 3,
       "titles": {
         "pl": "Mysz pod drzewem",
+        "es": "Un ratón debajo del árbol",
         "sv": "En mus under trädet",
         "en": "A Mouse under the Tree",
         "ru": "Мышка под деревом"
@@ -423,6 +471,7 @@
         {
           "id": 20,
           "text": {
+            "es": "linterna",
             "pl": "latarka",
             "sv": "ficklampa",
             "en": "flashlight",
@@ -432,6 +481,7 @@
         {
           "id": 29,
           "text": {
+            "es": "queso amarillo",
             "pl": "żółty ser",
             "sv": "gul ost",
             "en": "yellow cheese",
@@ -441,6 +491,7 @@
         {
           "id": 30,
           "text": {
+            "es": "alumbrar con la linterna",
             "pl": "świecić latarką",
             "sv": "lysa med ficklampan",
             "en": "shine a flashlight",
@@ -450,6 +501,7 @@
         {
           "id": 31,
           "text": {
+            "es": "raíces",
             "pl": "korzenie",
             "sv": "rötter",
             "en": "roots",
@@ -459,6 +511,7 @@
         {
           "id": 32,
           "text": {
+            "es": "agujero",
             "pl": "dziura",
             "sv": "hål",
             "en": "hole",
@@ -468,6 +521,7 @@
         {
           "id": 33,
           "text": {
+            "es": "patita",
             "pl": "łapka",
             "sv": "tass",
             "en": "paw",
@@ -477,6 +531,7 @@
         {
           "id": 34,
           "text": {
+            "es": "llave plateada",
             "pl": "srebrny klucz",
             "sv": "silvernyckel",
             "en": "silver key",
@@ -486,6 +541,7 @@
         {
           "id": 132,
           "text": {
+            "es": "coger",
             "pl": "brać",
             "sv": "ta",
             "en": "take",
@@ -495,6 +551,7 @@
         {
           "id": 133,
           "text": {
+            "es": "ir hasta el árbol",
             "pl": "iść pod drzewo",
             "sv": "gå till trädet",
             "en": "go to the tree",
@@ -504,6 +561,7 @@
         {
           "id": 134,
           "text": {
+            "es": "en el jardín",
             "pl": "w ogrodzie",
             "sv": "i trädgården",
             "en": "in the garden",
@@ -513,6 +571,7 @@
         {
           "id": 135,
           "text": {
+            "es": "un árbol grande",
             "pl": "wielkie drzewo",
             "sv": "ett stort träd",
             "en": "a big tree",
@@ -522,6 +581,7 @@
         {
           "id": 136,
           "text": {
+            "es": "salir de un agujero",
             "pl": "wychodzić z dziury",
             "sv": "komma ut ur ett hål",
             "en": "come out of a hole",
@@ -531,6 +591,7 @@
         {
           "id": 137,
           "text": {
+            "es": "un ratoncito",
             "pl": "mała mysz",
             "sv": "en liten mus",
             "en": "a little mouse",
@@ -540,6 +601,7 @@
         {
           "id": 139,
           "text": {
+            "es": "tenemos queso para ti",
             "pl": "mamy dla ciebie ser",
             "sv": "vi har ost till dig",
             "en": "we have cheese for you",
@@ -549,6 +611,7 @@
         {
           "id": 142,
           "text": {
+            "es": "dar",
             "pl": "dawać",
             "sv": "ge",
             "en": "give",
@@ -558,6 +621,7 @@
         {
           "id": 143,
           "text": {
+            "es": "llevarse el queso",
             "pl": "zabierać ser",
             "sv": "ta med sig osten",
             "en": "take the cheese away",
@@ -567,6 +631,7 @@
         {
           "id": 217,
           "text": {
+            "es": "está oscuro",
             "pl": "jest ciemno",
             "sv": "det är mörkt",
             "en": "it is dark",
@@ -576,6 +641,7 @@
         {
           "id": 218,
           "text": {
+            "es": "así que",
             "pl": "więc",
             "sv": "så",
             "en": "so",
@@ -585,6 +651,7 @@
         {
           "id": 219,
           "text": {
+            "es": "¡buenos días, ratoncito!",
             "pl": "dzień dobry, myszko!",
             "sv": "hej, lilla mus!",
             "en": "hello, little mouse!",
@@ -594,6 +661,7 @@
         {
           "id": 220,
           "text": {
+            "es": "¿nos das la llave?",
             "pl": "czy dasz nam klucz?",
             "sv": "ger du oss nyckeln?",
             "en": "will you give us the key?",
@@ -603,6 +671,7 @@
         {
           "id": 221,
           "text": {
+            "es": "un montón de hojas",
             "pl": "kupka liści",
             "sv": "en lövhög",
             "en": "a pile of leaves",
@@ -612,6 +681,7 @@
         {
           "id": 222,
           "text": {
+            "es": "apartar las hojas",
             "pl": "odgarniać liście",
             "sv": "sopa undan löven",
             "en": "brush the leaves aside",
@@ -621,6 +691,7 @@
         {
           "id": 223,
           "text": {
+            "es": "entre las raíces",
             "pl": "pomiędzy korzeniami",
             "sv": "mellan rötterna",
             "en": "between the roots",
@@ -630,6 +701,7 @@
         {
           "id": 224,
           "text": {
+            "es": "una puerta pequeña y vieja",
             "pl": "małe, stare drzwi",
             "sv": "en liten, gammal dörr",
             "en": "a small, old door",
@@ -638,7 +710,9 @@
         }
       ],
       "chapter_text": {
+        "es": "Debajo del árbol está oscuro, así que Tom coge una linterna. Maya coge la radio y un poco de queso amarillo. Van hasta el gran árbol del jardín. Tom alumbra con la linterna debajo de las raíces. De un agujero sale un ratoncito.\n—¡Buenos días, ratoncito! —dice Maya—. Tenemos queso para ti. ¿Nos das la llave?\nEl ratón les da una llave plateada, se lleva el queso y señala con su patita un montón de hojas. Los niños apartan las hojas. ¡Entre las raíces del árbol hay una puerta pequeña y vieja!",
         "pl": "Pod drzewem jest ciemno, więc Tomek bierze latarkę. Maja bierze radio i żółty ser. Idą pod wielkie drzewo w ogrodzie. Tomek świeci latarką pod korzeniami. Z dziury wychodzi mała mysz. – Dzień dobry, myszko! – mówi Maja. – Mamy dla ciebie ser. Czy dasz nam klucz? Mysz daje im srebrny klucz, zabiera ser i pokazuje łapką kupkę liści. Dzieci odgarniają liście – pomiędzy korzeniami drzewa są małe, stare drzwi!",
+        "sv": "Det är mörkt under trädet, så Tom tar en ficklampa. Maja tar radion och gul ost. De går till det stora trädet i trädgården. Tom lyser med ficklampan under rötterna. En liten mus kommer ut ur ett hål. – Hej, lilla mus! säger Maja. Vi har ost till dig. Ger du oss nyckeln? Musen ger dem en silvernyckel, tar med sig osten och pekar med tassen på en lövhög. Barnen sopar undan löven – mellan trädets rötter finns en liten, gammal dörr!",
         "en": "It is dark under the tree, so Tom takes a flashlight. Maya takes the radio and some yellow cheese. They go to the big tree in the garden. Tom shines the flashlight under the roots. A little mouse comes out of a hole. “Hello, little mouse!” says Maya. “We have some cheese for you. Will you give us the key?” The mouse gives them a silver key, takes the cheese and points its paw at a pile of leaves. The children brush the leaves aside – between the roots of the tree there is a small, old door!",
         "ru": "Под деревом темно, поэтому Миша берёт фонарик. Маша берёт радио и жёлтый сыр. Они идут к большому дереву в саду. Миша светит фонариком под корни. Из норки выходит маленькая мышка. — Здравствуй, мышка! — говорит Маша. — У нас есть для тебя сыр. Ты дашь нам ключ? Мышка даёт им серебряный ключ, забирает сыр и показывает лапкой на кучку листьев. Дети разгребают листья — между корнями дерева маленькая старая дверь!"
       }
@@ -647,6 +721,7 @@
       "chapter_number": 4,
       "titles": {
         "pl": "Schody w dół",
+        "es": "Escaleras abajo",
         "sv": "Trappan ner",
         "en": "Down the Stairs",
         "ru": "Лестница вниз"
@@ -659,6 +734,7 @@
         {
           "id": 44,
           "text": {
+            "es": "girar la llave",
             "pl": "przekręcić klucz",
             "sv": "vrida om nyckeln",
             "en": "turn the key",
@@ -668,6 +744,7 @@
         {
           "id": 45,
           "text": {
+            "es": "abrirse",
             "pl": "otwierać się",
             "sv": "öppnas",
             "en": "open",
@@ -677,6 +754,7 @@
         {
           "id": 46,
           "text": {
+            "es": "escaleras de piedra",
             "pl": "kamienne schody",
             "sv": "stentrappa",
             "en": "stone stairs",
@@ -686,6 +764,7 @@
         {
           "id": 47,
           "text": {
+            "es": "flores que brillan",
             "pl": "świecące kwiaty",
             "sv": "lysande blommor",
             "en": "glowing flowers",
@@ -695,6 +774,7 @@
         {
           "id": 48,
           "text": {
+            "es": "techo",
             "pl": "sufit",
             "sv": "tak",
             "en": "ceiling",
@@ -704,6 +784,7 @@
         {
           "id": 146,
           "text": {
+            "es": "¡clic!",
             "pl": "klik!",
             "sv": "klick!",
             "en": "click!",
@@ -713,6 +794,7 @@
         {
           "id": 147,
           "text": {
+            "es": "conducir hacia abajo",
             "pl": "prowadzić w dół",
             "sv": "leda neråt",
             "en": "lead down",
@@ -722,6 +804,7 @@
         {
           "id": 148,
           "text": {
+            "es": "una pared",
             "pl": "ściana",
             "sv": "en vägg",
             "en": "a wall",
@@ -731,6 +814,7 @@
         {
           "id": 149,
           "text": {
+            "es": "crecer",
             "pl": "rosnąć",
             "sv": "växa",
             "en": "grow",
@@ -740,6 +824,7 @@
         {
           "id": 150,
           "text": {
+            "es": "bajar",
             "pl": "schodzić",
             "sv": "gå ner",
             "en": "go down",
@@ -749,6 +834,7 @@
         {
           "id": 152,
           "text": {
+            "es": "por todas partes",
             "pl": "wszędzie",
             "sv": "överallt",
             "en": "everywhere",
@@ -758,6 +844,7 @@
         {
           "id": 153,
           "text": {
+            "es": "libros",
             "pl": "książki",
             "sv": "böcker",
             "en": "books",
@@ -767,6 +854,7 @@
         {
           "id": 154,
           "text": {
+            "es": "algunos",
             "pl": "niektóre",
             "sv": "några",
             "en": "some",
@@ -776,6 +864,7 @@
         {
           "id": 155,
           "text": {
+            "es": "volar",
             "pl": "latać",
             "sv": "flyga",
             "en": "fly",
@@ -785,6 +874,7 @@
         {
           "id": 156,
           "text": {
+            "es": "debajo del techo",
             "pl": "pod sufitem",
             "sv": "under taket",
             "en": "under the ceiling",
@@ -794,6 +884,7 @@
         {
           "id": 202,
           "text": {
+            "es": "estar",
             "pl": "stać",
             "sv": "stå",
             "en": "stand",
@@ -803,6 +894,7 @@
         {
           "id": 203,
           "text": {
+            "es": "en las paredes",
             "pl": "na ścianach",
             "sv": "på väggarna",
             "en": "on the walls",
@@ -812,6 +904,7 @@
         {
           "id": 204,
           "text": {
+            "es": "brillar con una luz azul",
             "pl": "świecić na niebiesko",
             "sv": "lysa blått",
             "en": "glow blue",
@@ -821,6 +914,7 @@
         {
           "id": 225,
           "text": {
+            "es": "una gran biblioteca",
             "pl": "wielka biblioteka",
             "sv": "ett stort bibliotek",
             "en": "a big library",
@@ -830,6 +924,7 @@
         {
           "id": 226,
           "text": {
+            "es": "uno de ellos",
             "pl": "jedna z nich",
             "sv": "en av dem",
             "en": "one of them",
@@ -839,6 +934,7 @@
         {
           "id": 227,
           "text": {
+            "es": "brillar con una luz dorada",
             "pl": "świecić na złoto",
             "sv": "lysa guldgult",
             "en": "glow with a golden light",
@@ -847,7 +943,9 @@
         }
       ],
       "chapter_text": {
+        "es": "Maya gira la llave. ¡Clic! La puerta se abre. Unas escaleras de piedra conducen hacia abajo. En las paredes crecen flores que brillan con una luz azul. Los niños bajan a una gran biblioteca. Hay libros por todas partes. ¡Algunos están volando justo debajo del techo! Uno de ellos brilla con una luz dorada.",
         "pl": "Maja przekręca klucz. Klik! Drzwi się otwierają. W dół prowadzą kamienne schody. Na ścianach rosną świecące na niebiesko kwiaty. Dzieci schodzą do wielkiej biblioteki. Wszędzie stoją książki – niektóre latają pod sufitem! Jedna z nich świeci na złoto.",
+        "sv": "Maja vrider om nyckeln. Klick! Dörren öppnas. En stentrappa leder neråt. På väggarna växer blommor som lyser blått. Barnen går ner till ett stort bibliotek. Det finns böcker överallt – några av dem flyger uppe vid taket! En av dem lyser guldgult.",
         "en": "Maya turns the key. Click! The door opens. Stone stairs lead down. Blue, glowing flowers grow on the walls. The children go down into a big library. There are books everywhere, and some of them are flying just below the ceiling! One of them is glowing with a golden light.",
         "ru": "Маша поворачивает ключ. Щёлк! Дверь открывается. Вниз ведёт каменная лестница. На стенах растут цветы, которые светятся голубым светом. Дети спускаются в большую библиотеку. Повсюду стоят книги, а некоторые летают под потолком! Одна из них светится золотым светом."
       }
@@ -856,6 +954,7 @@
       "chapter_number": 5,
       "titles": {
         "pl": "Latająca książka",
+        "es": "El libro volador",
         "sv": "Den flygande boken",
         "en": "The Flying Book",
         "ru": "Летающая книга"
@@ -868,6 +967,7 @@
         {
           "id": 58,
           "text": {
+            "es": "libro dorado",
             "pl": "złota książka",
             "sv": "gyllene bok",
             "en": "golden book",
@@ -877,6 +977,7 @@
         {
           "id": 59,
           "text": {
+            "es": "agitar las páginas",
             "pl": "machać stronami",
             "sv": "flaxa med sidorna",
             "en": "flap its pages",
@@ -886,6 +987,7 @@
         {
           "id": 60,
           "text": {
+            "es": "hombro",
             "pl": "ramię",
             "sv": "axel",
             "en": "shoulder",
@@ -895,6 +997,7 @@
         {
           "id": 61,
           "text": {
+            "es": "hechizo",
             "pl": "zaklęcie",
             "sv": "trollformel",
             "en": "spell",
@@ -904,6 +1007,7 @@
         {
           "id": 62,
           "text": {
+            "es": "una brújula rota",
             "pl": "zepsuty kompas",
             "sv": "en trasig kompass",
             "en": "a broken compass",
@@ -913,6 +1017,7 @@
         {
           "id": 158,
           "text": {
+            "es": "aterrizar en el hombro",
             "pl": "wylądować na ramieniu",
             "sv": "landa på axeln",
             "en": "land on a shoulder",
@@ -922,6 +1027,7 @@
         {
           "id": 159,
           "text": {
+            "es": "enseguida",
             "pl": "natychmiast",
             "sv": "genast",
             "en": "immediately",
@@ -931,6 +1037,7 @@
         {
           "id": 160,
           "text": {
+            "es": "empezar a hablar",
             "pl": "odezwać się",
             "sv": "börja tala",
             "en": "begin to speak",
@@ -940,6 +1047,7 @@
         {
           "id": 161,
           "text": {
+            "es": "enseñar",
             "pl": "uczyć",
             "sv": "lära ut",
             "en": "teach",
@@ -949,6 +1057,7 @@
         {
           "id": 162,
           "text": {
+            "es": "importante",
             "pl": "ważny",
             "sv": "viktig",
             "en": "important",
@@ -958,6 +1067,7 @@
         {
           "id": 163,
           "text": {
+            "es": "una palabra",
             "pl": "słowo",
             "sv": "ett ord",
             "en": "a word",
@@ -967,6 +1077,7 @@
         {
           "id": 164,
           "text": {
+            "es": "arreglar",
             "pl": "naprawiać",
             "sv": "laga",
             "en": "repair",
@@ -976,6 +1087,7 @@
         {
           "id": 165,
           "text": {
+            "es": "una cosa rota",
             "pl": "zepsuta rzecz",
             "sv": "en trasig sak",
             "en": "a broken thing",
@@ -985,6 +1097,7 @@
         {
           "id": 166,
           "text": {
+            "es": "sacar del bolsillo",
             "pl": "wyciągać z kieszeni",
             "sv": "ta upp ur fickan",
             "en": "take out of a pocket",
@@ -994,6 +1107,7 @@
         {
           "id": 167,
           "text": {
+            "es": "viejo",
             "pl": "stary",
             "sv": "gammal",
             "en": "old",
@@ -1003,6 +1117,7 @@
         {
           "id": 198,
           "text": {
+            "es": "cualquier cosa rota",
             "pl": "każda zepsuta rzecz",
             "sv": "varje trasig sak",
             "en": "every broken thing",
@@ -1012,6 +1127,7 @@
         {
           "id": 199,
           "text": {
+            "es": "¡Reparo!",
             "pl": "Reparo!",
             "sv": "Reparo!",
             "en": "Reparo!",
@@ -1021,6 +1137,7 @@
         {
           "id": 228,
           "text": {
+            "es": "su brújula",
             "pl": "swój kompas",
             "sv": "sin kompass",
             "en": "his compass",
@@ -1030,6 +1147,7 @@
         {
           "id": 229,
           "text": {
+            "es": "siempre",
             "pl": "zawsze",
             "sv": "alltid",
             "en": "always",
@@ -1039,6 +1157,7 @@
         {
           "id": 230,
           "text": {
+            "es": "llevar consigo",
             "pl": "mieć przy sobie",
             "sv": "ha med sig",
             "en": "have with you",
@@ -1047,7 +1166,9 @@
         }
       ],
       "chapter_text": {
+        "es": "El libro dorado agita las páginas y aterriza en el hombro de Maya. Radiofón habla enseguida:\n—Este libro enseña un hechizo importante. La palabra es: ¡Reparo! Arregla cualquier cosa rota.\nTom saca del bolsillo su vieja brújula rota. Siempre la lleva consigo.",
         "pl": "Złota książka macha stronami i ląduje na ramieniu Mai. Radiofon odzywa się natychmiast: – Ta książka uczy ważnego zaklęcia. Słowo to: Reparo! Naprawia każdą zepsutą rzecz. Tomek wyciąga z kieszeni swój stary, zepsuty kompas. Zawsze ma go przy sobie.",
+        "sv": "Den gyllene boken flaxar med sidorna och landar på Majas axel. Radiofon börjar genast tala: – Den här boken lär ut en viktig trollformel. Ordet är: Reparo! Det lagar allt som är trasigt. Tom tar upp sin gamla, trasiga kompass ur fickan. Han har den alltid med sig.",
         "en": "The golden book flaps its pages and lands on Maya’s shoulder. Radiophone speaks up immediately: “This book teaches an important spell. The word is: Reparo! It repairs every broken thing.” Tom takes his old, broken compass out of his pocket. He always has it with him.",
         "ru": "Золотая книга машет страницами и приземляется Маше на плечо. Радиофон сразу говорит: — Эта книга учит важному заклинанию. Вот это слово: Репаро! Оно чинит любую сломанную вещь. Миша достаёт из кармана свой старый сломанный компас. Он всегда носит его с собой."
       }
@@ -1056,6 +1177,7 @@
       "chapter_number": 6,
       "titles": {
         "pl": "Pierwsze zaklęcie",
+        "es": "El primer hechizo",
         "sv": "Den första trollformeln",
         "en": "The First Spell",
         "ru": "Первое заклинание"
@@ -1068,6 +1190,7 @@
         {
           "id": 69,
           "text": {
+            "es": "sostener la brújula",
             "pl": "trzymać kompas",
             "sv": "hålla i kompassen",
             "en": "hold the compass",
@@ -1077,6 +1200,7 @@
         {
           "id": 70,
           "text": {
+            "es": "decir juntos",
             "pl": "mówić razem",
             "sv": "säga tillsammans",
             "en": "say together",
@@ -1086,6 +1210,7 @@
         {
           "id": 71,
           "text": {
+            "es": "chispa dorada",
             "pl": "złota iskra",
             "sv": "gyllene gnista",
             "en": "golden spark",
@@ -1095,6 +1220,7 @@
         {
           "id": 72,
           "text": {
+            "es": "aguja de la brújula",
             "pl": "igła kompasu",
             "sv": "kompassnål",
             "en": "compass needle",
@@ -1104,6 +1230,7 @@
         {
           "id": 73,
           "text": {
+            "es": "puerta verde",
             "pl": "zielone drzwi",
             "sv": "grön dörr",
             "en": "green door",
@@ -1113,6 +1240,7 @@
         {
           "id": 74,
           "text": {
+            "es": "esperar ayuda",
             "pl": "czekać na pomoc",
             "sv": "vänta på hjälp",
             "en": "wait for help",
@@ -1122,6 +1250,7 @@
         {
           "id": 168,
           "text": {
+            "es": "otra vez",
             "pl": "znów",
             "sv": "igen",
             "en": "again",
@@ -1131,6 +1260,7 @@
         {
           "id": 169,
           "text": {
+            "es": "estar entero",
             "pl": "być całym",
             "sv": "vara hel",
             "en": "be whole",
@@ -1140,6 +1270,7 @@
         {
           "id": 170,
           "text": {
+            "es": "girar",
             "pl": "kręcić się",
             "sv": "snurra",
             "en": "spin",
@@ -1149,6 +1280,7 @@
         {
           "id": 171,
           "text": {
+            "es": "señalar",
             "pl": "pokazywać",
             "sv": "peka",
             "en": "point",
@@ -1158,6 +1290,7 @@
         {
           "id": 172,
           "text": {
+            "es": "funcionar",
             "pl": "działać",
             "sv": "fungera",
             "en": "work",
@@ -1167,6 +1300,7 @@
         {
           "id": 173,
           "text": {
+            "es": "gritar",
             "pl": "krzyczeć",
             "sv": "ropa",
             "en": "shout",
@@ -1176,6 +1310,7 @@
         {
           "id": 174,
           "text": {
+            "es": "detrás de la puerta",
             "pl": "za drzwiami",
             "sv": "bakom dörren",
             "en": "behind the door",
@@ -1185,6 +1320,7 @@
         {
           "id": 175,
           "text": {
+            "es": "alguien",
             "pl": "ktoś",
             "sv": "någon",
             "en": "someone",
@@ -1194,6 +1330,7 @@
         {
           "id": 176,
           "text": {
+            "es": "vuestra ayuda",
             "pl": "wasza pomoc",
             "sv": "er hjälp",
             "en": "your help",
@@ -1202,7 +1339,9 @@
         }
       ],
       "chapter_text": {
+        "es": "Tom sostiene la brújula. Los niños dicen juntos:\n—¡Reparo!\nBrilla una chispa dorada. ¡La brújula vuelve a estar entera! La aguja de la brújula gira y señala una puerta verde.\n—¡Funciona! —grita Tom.\nRadiofón dice:\n—Detrás de la puerta, alguien espera vuestra ayuda.",
         "pl": "Tomek trzyma kompas. Dzieci mówią razem: – Reparo! Błyska złota iskra. Kompas znów jest cały! Igła kompasu kręci się i pokazuje zielone drzwi. – Działa! – krzyczy Tomek. Radiofon mówi: – Za drzwiami ktoś czeka na waszą pomoc.",
+        "sv": "Tom håller i kompassen. Barnen säger tillsammans: – Reparo! En gyllene gnista blixtrar till. Kompassen är hel igen! Kompassnålen snurrar och pekar mot en grön dörr. – Det fungerar! ropar Tom. Radiofon säger: – Bakom dörren väntar någon på er hjälp.",
         "en": "Tom holds the compass. The children say together: “Reparo!” A golden spark flashes. The compass is whole again! The compass needle spins and points to a green door. “It works!” shouts Tom. Radiophone says: “Behind the door, someone is waiting for your help.”",
         "ru": "Миша держит компас. Дети вместе говорят: — Репаро! Вспыхивает золотая искра. Компас снова целый! Стрелка компаса крутится и показывает на зелёную дверь. — Работает! — кричит Миша. Радиофон говорит: — За дверью кто-то ждёт вашей помощи."
       }
@@ -1211,6 +1350,7 @@
       "chapter_number": 7,
       "titles": {
         "pl": "Złoty ptak",
+        "es": "El pájaro dorado",
         "sv": "Den gyllene fågeln",
         "en": "The Golden Bird",
         "ru": "Золотая птица"
@@ -1223,6 +1363,7 @@
         {
           "id": 141,
           "text": {
+            "es": "preguntar",
             "pl": "pytać",
             "sv": "fråga",
             "en": "ask",
@@ -1232,6 +1373,7 @@
         {
           "id": 84,
           "text": {
+            "es": "abrir la puerta",
             "pl": "otworzyć drzwi",
             "sv": "öppna dörren",
             "en": "open the door",
@@ -1241,6 +1383,7 @@
         {
           "id": 85,
           "text": {
+            "es": "rama",
             "pl": "gałąź",
             "sv": "gren",
             "en": "branch",
@@ -1250,6 +1393,7 @@
         {
           "id": 86,
           "text": {
+            "es": "hacer tictac como un reloj",
             "pl": "tykać jak zegar",
             "sv": "ticka som en klocka",
             "en": "tick like a clock",
@@ -1259,6 +1403,7 @@
         {
           "id": 87,
           "text": {
+            "es": "ala",
             "pl": "skrzydło",
             "sv": "vinge",
             "en": "wing",
@@ -1268,6 +1413,7 @@
         {
           "id": 177,
           "text": {
+            "es": "entrar en el jardín",
             "pl": "wejść do ogrodu",
             "sv": "gå in i trädgården",
             "en": "go into the garden",
@@ -1277,6 +1423,7 @@
         {
           "id": 178,
           "text": {
+            "es": "estar posado en una rama",
             "pl": "siedzieć na gałęzi",
             "sv": "sitta på en gren",
             "en": "sit on a branch",
@@ -1286,6 +1433,7 @@
         {
           "id": 179,
           "text": {
+            "es": "un pájaro dorado",
             "pl": "złoty ptak",
             "sv": "en gyllene fågel",
             "en": "a golden bird",
@@ -1295,6 +1443,7 @@
         {
           "id": 180,
           "text": {
+            "es": "no cantar",
             "pl": "nie śpiewać",
             "sv": "inte sjunga",
             "en": "not sing",
@@ -1304,6 +1453,7 @@
         {
           "id": 181,
           "text": {
+            "es": "solo",
             "pl": "tylko",
             "sv": "bara",
             "en": "only",
@@ -1313,6 +1463,7 @@
         {
           "id": 231,
           "text": {
+            "es": "un jardín subterráneo",
             "pl": "podziemny ogród",
             "sv": "en underjordisk trädgård",
             "en": "an underground garden",
@@ -1322,6 +1473,7 @@
         {
           "id": 232,
           "text": {
+            "es": "en un ala",
             "pl": "na jednym skrzydle",
             "sv": "på ena vingen",
             "en": "on one wing",
@@ -1331,6 +1483,7 @@
         {
           "id": 233,
           "text": {
+            "es": "una piedrecita azul brillante",
             "pl": "błyszczący niebieski kamyk",
             "sv": "en glänsande blå sten",
             "en": "a shiny blue stone",
@@ -1340,8 +1493,9 @@
         {
           "id": 234,
           "text": {
+            "es": "en la otra ala",
             "pl": "na drugim skrzydle",
-            "sv": "på andra vingen",
+            "sv": "på den andra vingen",
             "en": "on the other wing",
             "ru": "на другом крыле"
           }
@@ -1349,6 +1503,7 @@
         {
           "id": 235,
           "text": {
+            "es": "un hueco vacío",
             "pl": "puste miejsce",
             "sv": "en tom plats",
             "en": "an empty spot",
@@ -1358,6 +1513,7 @@
         {
           "id": 236,
           "text": {
+            "es": "mirar la radio",
             "pl": "patrzeć na radio",
             "sv": "titta på radion",
             "en": "look at the radio",
@@ -1367,6 +1523,7 @@
         {
           "id": 237,
           "text": {
+            "es": "ser igual que",
             "pl": "wyglądać dokładnie jak",
             "sv": "se ut precis som",
             "en": "look exactly like",
@@ -1376,6 +1533,7 @@
         {
           "id": 238,
           "text": {
+            "es": "¿de dónde has sacado este botón?",
             "pl": "skąd masz ten przycisk?",
             "sv": "var har du fått knappen ifrån?",
             "en": "where did you get this button?",
@@ -1385,6 +1543,7 @@
         {
           "id": 239,
           "text": {
+            "es": "hace mucho tiempo",
             "pl": "dawno temu",
             "sv": "för länge sedan",
             "en": "long ago",
@@ -1394,6 +1553,7 @@
         {
           "id": 240,
           "text": {
+            "es": "caerse del ala",
             "pl": "wypaść ze skrzydła",
             "sv": "falla ut ur vingen",
             "en": "fall out of the wing",
@@ -1403,6 +1563,7 @@
         {
           "id": 241,
           "text": {
+            "es": "os estaba esperando",
             "pl": "czekałem na was",
             "sv": "jag väntade på er",
             "en": "I was waiting for you",
@@ -1412,6 +1573,7 @@
         {
           "id": 242,
           "text": {
+            "es": "devolver",
             "pl": "oddać",
             "sv": "ge tillbaka",
             "en": "give back",
@@ -1420,7 +1582,9 @@
         }
       ],
       "chapter_text": {
+        "es": "Los niños abren la puerta verde y entran en un jardín subterráneo. En una rama hay un pájaro dorado. No canta. Solo hace tictac como un reloj: tic-tac, tic-tac. En un ala tiene una piedrecita azul brillante. En la otra ala hay un hueco vacío. Maya mira la radio. ¡El botón azul de la radio es igual que la piedrecita del pájaro!\n—Radiofón, ¿de dónde has sacado este botón? —pregunta Maya.\n—Es la piedrecita del pájaro —dice Radiofón—. Hace mucho tiempo se le cayó del ala. Alguien la convirtió en mi botón. ¡Os estaba esperando para devolverla!",
         "pl": "Dzieci otwierają zielone drzwi i wchodzą do podziemnego ogrodu. Na gałęzi siedzi złoty ptak. Nie śpiewa, tylko tyka jak zegar: Tik-tak, tik-tak. Na jednym skrzydle ma błyszczący niebieski kamyk. Na drugim skrzydle jest puste miejsce. Maja patrzy na radio. Niebieski przycisk radia wygląda dokładnie jak kamyk ptaka! – Radiofonie, skąd masz ten przycisk? – pyta Maja. – To kamyk ptaka – mówi Radiofon. – Dawno temu wypadł ptakowi ze skrzydła. Ktoś zrobił z niego mój przycisk. Czekałem na was, żeby go oddać!",
+        "sv": "Barnen öppnar den gröna dörren och går in i en underjordisk trädgård. På en gren sitter en gyllene fågel. Den sjunger inte, utan tickar bara som en klocka: Tick-tack, tick-tack. På ena vingen har den en glänsande blå sten. På den andra vingen finns en tom plats. Maja tittar på radion. Radions blå knapp ser ut precis som fågelns sten! – Radiofon, var har du fått knappen ifrån? frågar Maja. – Det är fågelns sten, säger Radiofon. För länge sedan föll den ur fågelns vinge. Någon gjorde den till min knapp. Jag väntade på er för att kunna ge tillbaka den!",
         "en": "The children open the green door and go into an underground garden. A golden bird sits on a branch. It does not sing. It only ticks like a clock: Tick-tock, tick-tock. On one wing it has a shiny blue stone. On the other wing there is an empty spot. Maya looks at the radio. The radio’s blue button looks exactly like the bird’s stone! “Radiophone, where did you get this button?” asks Maya. “It is the bird’s stone,” says Radiophone. “Long ago, it fell out of the bird’s wing. Someone made it into my button. I was waiting for you, so I could give it back!”",
         "ru": "Дети открывают зелёную дверь и входят в подземный сад. На ветке сидит золотая птица. Она не поёт, а только тикает, как часы: Тик-так, тик-так. На одном крыле у неё блестящий синий камешек. На другом крыле — пустое место. Маша смотрит на радио. Синяя кнопка радио выглядит точно как камешек птицы! — Радиофон, откуда у тебя эта кнопка? — спрашивает Маша. — Это камешек птицы, — говорит Радиофон. — Давным-давно он выпал у птицы из крыла. Кто-то сделал из него мою кнопку. Я ждал вас, чтобы его вернуть!"
       }
@@ -1429,6 +1593,7 @@
       "chapter_number": 8,
       "titles": {
         "pl": "Wielki koncert",
+        "es": "El gran concierto",
         "sv": "Den stora konserten",
         "en": "The Grand Concert",
         "ru": "Большой концерт"
@@ -1441,6 +1606,7 @@
         {
           "id": 19,
           "text": {
+            "es": "auténticos exploradores",
             "pl": "prawdziwi odkrywcy",
             "sv": "riktiga upptäckare",
             "en": "real explorers",
@@ -1450,6 +1616,7 @@
         {
           "id": 99,
           "text": {
+            "es": "agitar las alas",
             "pl": "machać skrzydłami",
             "sv": "flaxa med vingarna",
             "en": "flap its wings",
@@ -1459,6 +1626,7 @@
         {
           "id": 100,
           "text": {
+            "es": "cantar alegremente",
             "pl": "wesoło śpiewać",
             "sv": "sjunga glatt",
             "en": "sing happily",
@@ -1468,6 +1636,7 @@
         {
           "id": 101,
           "text": {
+            "es": "bien hecho",
             "pl": "dobra robota",
             "sv": "bra jobbat",
             "en": "good job",
@@ -1477,6 +1646,7 @@
         {
           "id": 189,
           "text": {
+            "es": "colocar en el ala",
             "pl": "wkładać w skrzydło",
             "sv": "sätta in i vingen",
             "en": "put into the wing",
@@ -1486,6 +1656,7 @@
         {
           "id": 190,
           "text": {
+            "es": "gritar",
             "pl": "wołać",
             "sv": "ropa",
             "en": "call out",
@@ -1495,6 +1666,7 @@
         {
           "id": 191,
           "text": {
+            "es": "empezar a cantar",
             "pl": "zaczynać śpiewać",
             "sv": "börja sjunga",
             "en": "begin to sing",
@@ -1504,6 +1676,7 @@
         {
           "id": 192,
           "text": {
+            "es": "alegremente",
             "pl": "wesoło",
             "sv": "glatt",
             "en": "happily",
@@ -1513,6 +1686,7 @@
         {
           "id": 193,
           "text": {
+            "es": "mariposas",
             "pl": "motyle",
             "sv": "fjärilar",
             "en": "butterflies",
@@ -1522,6 +1696,7 @@
         {
           "id": 194,
           "text": {
+            "es": "en el aire",
             "pl": "w powietrzu",
             "sv": "i luften",
             "en": "in the air",
@@ -1531,6 +1706,7 @@
         {
           "id": 195,
           "text": {
+            "es": "bailar",
             "pl": "tańczyć",
             "sv": "dansa",
             "en": "dance",
@@ -1540,6 +1716,7 @@
         {
           "id": 243,
           "text": {
+            "es": "con cuidado",
             "pl": "ostrożnie",
             "sv": "försiktigt",
             "en": "carefully",
@@ -1549,6 +1726,7 @@
         {
           "id": 244,
           "text": {
+            "es": "sacar el botón de la radio",
             "pl": "wyjmować przycisk z radia",
             "sv": "ta ut knappen ur radion",
             "en": "take the button out of the radio",
@@ -1558,6 +1736,7 @@
         {
           "id": 245,
           "text": {
+            "es": "mañana",
             "pl": "jutro",
             "sv": "i morgon",
             "en": "tomorrow",
@@ -1567,6 +1746,7 @@
         {
           "id": 246,
           "text": {
+            "es": "una nueva aventura",
             "pl": "nowa przygoda",
             "sv": "ett nytt äventyr",
             "en": "a new adventure",
@@ -1575,7 +1755,9 @@
         }
       ],
       "chapter_text": {
+        "es": "Maya saca con cuidado el botón azul de la radio. Tom lo coloca en el ala del pájaro. Los niños gritan:\n—¡Reparo!\nEl pájaro dorado agita las alas y empieza a cantar alegremente. Las mariposas bailan en el aire.\n—¡Bien hecho! —dice Radiofón—. Sois unos auténticos exploradores. ¡Mañana nos espera una nueva aventura!",
         "pl": "Maja ostrożnie wyjmuje niebieski przycisk z radia. Tomek wkłada go w skrzydło ptaka. Dzieci wołają: – Reparo! Złoty ptak macha skrzydłami i zaczyna wesoło śpiewać. W powietrzu tańczą motyle. – Dobra robota! – mówi Radiofon. – Jesteście prawdziwymi odkrywcami. Jutro czeka nas nowa przygoda!",
+        "sv": "Maja tar försiktigt ut den blå knappen ur radion. Tom sätter in den i fågelns vinge. Barnen ropar: – Reparo! Den gyllene fågeln flaxar med vingarna och börjar sjunga glatt. Fjärilar dansar i luften. – Bra jobbat! säger Radiofon. Ni är riktiga upptäckare. I morgon väntar ett nytt äventyr på oss!",
         "en": "Maya carefully takes the blue button out of the radio. Tom puts it into the bird’s wing. The children call out: “Reparo!” The golden bird flaps its wings and begins to sing happily. Butterflies dance in the air. “Good job!” says Radiophone. “You are real explorers. Tomorrow a new adventure is waiting for us!”",
         "ru": "Маша осторожно вынимает синюю кнопку из радио. Миша вставляет её в крыло птицы. Дети кричат: — Репаро! Золотая птица машет крыльями и начинает весело петь. В воздухе танцуют бабочки. — Отличная работа! — говорит Радиофон. — Вы настоящие исследователи. Завтра нас ждёт новое приключение!"
       }

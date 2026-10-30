@@ -20,6 +20,8 @@ description: Turn a chaptered, child-friendly story into a faithful multilingual
 
 ## Transcript authoring
 
+- Follow [review-language-course](../review-language-course/SKILL.md) before
+  rendering translations; structural validation does not establish language quality.
 - Translate chapter titles and selected useful vocabulary into requested
   languages. Make translations natural and child-friendly (the courses serve
   beginners of all ages); preserve events, tone, and meaning. Do not translate the story sentence-by-sentence.
@@ -66,6 +68,8 @@ description: Turn a chaptered, child-friendly story into a faithful multilingual
   MAI-Voice-2.1 with `audiobook` style in Polish, Swedish, and English. Russian
   uses Azure `ru-RU-SvetlanaNeural` without a style (Russian Harper produced
   audible background artifacts).
+  Spain Spanish uses `es-ES-ElviraNeural` without an expressive style; the
+  configured region does not advertise Spain Spanish Harper.
   Prompts and vocabulary repetitions use the same Neural voices through
   licensed Azure Speech (`--tts-engine azure`, the default); use
   `--tts-engine edge` only when explicitly requested. Narration uses the

@@ -1,0 +1,608 @@
+{
+  "chapter_number": 7,
+  "title": {
+    "pl": "Złoty ptak",
+    "es": "El pájaro dorado",
+    "sv": "Den gyllene fågeln",
+    "en": "The Golden Bird",
+    "ru": "Золотая птица"
+  },
+  "source_language": "sv",
+  "target_language": "pl",
+  "practice_order": "deterministically_shuffled",
+  "sequence": [
+    "story",
+    "practice",
+    "story"
+  ],
+  "total_duration_ms": 353159,
+  "practice": [
+    {
+      "id": 234,
+      "kind": "vocabulary",
+      "start_ms": 60840,
+      "end_ms": 72380,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "på den andra vingen",
+        "start_ms": 60840,
+        "end_ms": 62416
+      },
+      "target_playbacks": [
+        {
+          "text": "na drugim skrzydle",
+          "start_ms": 64416,
+          "end_ms": 65898
+        },
+        {
+          "text": "na drugim skrzydle",
+          "start_ms": 68398,
+          "end_ms": 69880
+        }
+      ]
+    },
+    {
+      "id": 233,
+      "kind": "vocabulary",
+      "start_ms": 72380,
+      "end_ms": 85298,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "en glänsande blå sten",
+        "start_ms": 72380,
+        "end_ms": 74294
+      },
+      "target_playbacks": [
+        {
+          "text": "błyszczący niebieski kamyk",
+          "start_ms": 76294,
+          "end_ms": 78296
+        },
+        {
+          "text": "błyszczący niebieski kamyk",
+          "start_ms": 80796,
+          "end_ms": 82798
+        }
+      ]
+    },
+    {
+      "id": 242,
+      "kind": "vocabulary",
+      "start_ms": 85298,
+      "end_ms": 95004,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "ge tillbaka",
+        "start_ms": 85298,
+        "end_ms": 86608
+      },
+      "target_playbacks": [
+        {
+          "text": "oddać",
+          "start_ms": 88608,
+          "end_ms": 89306
+        },
+        {
+          "text": "oddać",
+          "start_ms": 91806,
+          "end_ms": 92504
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "kind": "vocabulary",
+      "start_ms": 95004,
+      "end_ms": 105619,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "öppna dörren",
+        "start_ms": 95004,
+        "end_ms": 96181
+      },
+      "target_playbacks": [
+        {
+          "text": "otworzyć drzwi",
+          "start_ms": 98181,
+          "end_ms": 99400
+        },
+        {
+          "text": "otworzyć drzwi",
+          "start_ms": 101900,
+          "end_ms": 103119
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "kind": "vocabulary",
+      "start_ms": 105619,
+      "end_ms": 115037,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "vinge",
+        "start_ms": 105619,
+        "end_ms": 106409
+      },
+      "target_playbacks": [
+        {
+          "text": "skrzydło",
+          "start_ms": 108409,
+          "end_ms": 109223
+        },
+        {
+          "text": "skrzydło",
+          "start_ms": 111723,
+          "end_ms": 112537
+        }
+      ]
+    },
+    {
+      "id": 231,
+      "kind": "vocabulary",
+      "start_ms": 115037,
+      "end_ms": 126818,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "en underjordisk trädgård",
+        "start_ms": 115037,
+        "end_ms": 117122
+      },
+      "target_playbacks": [
+        {
+          "text": "podziemny ogród",
+          "start_ms": 119122,
+          "end_ms": 120470
+        },
+        {
+          "text": "podziemny ogród",
+          "start_ms": 122970,
+          "end_ms": 124318
+        }
+      ]
+    },
+    {
+      "id": 239,
+      "kind": "vocabulary",
+      "start_ms": 126818,
+      "end_ms": 137262,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "för länge sedan",
+        "start_ms": 126818,
+        "end_ms": 128252
+      },
+      "target_playbacks": [
+        {
+          "text": "dawno temu",
+          "start_ms": 130252,
+          "end_ms": 131257
+        },
+        {
+          "text": "dawno temu",
+          "start_ms": 133757,
+          "end_ms": 134762
+        }
+      ]
+    },
+    {
+      "id": 236,
+      "kind": "vocabulary",
+      "start_ms": 137262,
+      "end_ms": 148486,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "titta på radion",
+        "start_ms": 137262,
+        "end_ms": 138794
+      },
+      "target_playbacks": [
+        {
+          "text": "patrzeć na radio",
+          "start_ms": 140794,
+          "end_ms": 142140
+        },
+        {
+          "text": "patrzeć na radio",
+          "start_ms": 144640,
+          "end_ms": 145986
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "kind": "vocabulary",
+      "start_ms": 148486,
+      "end_ms": 157714,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "gren",
+        "start_ms": 148486,
+        "end_ms": 149172
+      },
+      "target_playbacks": [
+        {
+          "text": "gałąź",
+          "start_ms": 151172,
+          "end_ms": 151943
+        },
+        {
+          "text": "gałąź",
+          "start_ms": 154443,
+          "end_ms": 155214
+        }
+      ]
+    },
+    {
+      "id": 179,
+      "kind": "vocabulary",
+      "start_ms": 157714,
+      "end_ms": 168407,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "en gyllene fågel",
+        "start_ms": 157714,
+        "end_ms": 159251
+      },
+      "target_playbacks": [
+        {
+          "text": "złoty ptak",
+          "start_ms": 161251,
+          "end_ms": 162329
+        },
+        {
+          "text": "złoty ptak",
+          "start_ms": 164829,
+          "end_ms": 165907
+        }
+      ]
+    },
+    {
+      "id": 232,
+      "kind": "vocabulary",
+      "start_ms": 168407,
+      "end_ms": 179620,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "på ena vingen",
+        "start_ms": 168407,
+        "end_ms": 169810
+      },
+      "target_playbacks": [
+        {
+          "text": "na jednym skrzydle",
+          "start_ms": 171810,
+          "end_ms": 173215
+        },
+        {
+          "text": "na jednym skrzydle",
+          "start_ms": 175715,
+          "end_ms": 177120
+        }
+      ]
+    },
+    {
+      "id": 241,
+      "kind": "vocabulary",
+      "start_ms": 179620,
+      "end_ms": 190717,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "jag väntade på er",
+        "start_ms": 179620,
+        "end_ms": 181153
+      },
+      "target_playbacks": [
+        {
+          "text": "czekałem na was",
+          "start_ms": 183153,
+          "end_ms": 184435
+        },
+        {
+          "text": "czekałem na was",
+          "start_ms": 186935,
+          "end_ms": 188217
+        }
+      ]
+    },
+    {
+      "id": 141,
+      "kind": "vocabulary",
+      "start_ms": 190717,
+      "end_ms": 199877,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "fråga",
+        "start_ms": 190717,
+        "end_ms": 191549
+      },
+      "target_playbacks": [
+        {
+          "text": "pytać",
+          "start_ms": 193549,
+          "end_ms": 194213
+        },
+        {
+          "text": "pytać",
+          "start_ms": 196713,
+          "end_ms": 197377
+        }
+      ]
+    },
+    {
+      "id": 235,
+      "kind": "vocabulary",
+      "start_ms": 199877,
+      "end_ms": 210557,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "en tom plats",
+        "start_ms": 199877,
+        "end_ms": 201255
+      },
+      "target_playbacks": [
+        {
+          "text": "puste miejsce",
+          "start_ms": 203255,
+          "end_ms": 204406
+        },
+        {
+          "text": "puste miejsce",
+          "start_ms": 206906,
+          "end_ms": 208057
+        }
+      ]
+    },
+    {
+      "id": 177,
+      "kind": "vocabulary",
+      "start_ms": 210557,
+      "end_ms": 221997,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "gå in i trädgården",
+        "start_ms": 210557,
+        "end_ms": 212351
+      },
+      "target_playbacks": [
+        {
+          "text": "wejść do ogrodu",
+          "start_ms": 214351,
+          "end_ms": 215674
+        },
+        {
+          "text": "wejść do ogrodu",
+          "start_ms": 218174,
+          "end_ms": 219497
+        }
+      ]
+    },
+    {
+      "id": 180,
+      "kind": "vocabulary",
+      "start_ms": 221997,
+      "end_ms": 232054,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "inte sjunga",
+        "start_ms": 221997,
+        "end_ms": 223078
+      },
+      "target_playbacks": [
+        {
+          "text": "nie śpiewać",
+          "start_ms": 225078,
+          "end_ms": 226066
+        },
+        {
+          "text": "nie śpiewać",
+          "start_ms": 228566,
+          "end_ms": 229554
+        }
+      ]
+    },
+    {
+      "id": 240,
+      "kind": "vocabulary",
+      "start_ms": 232054,
+      "end_ms": 243987,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "falla ut ur vingen",
+        "start_ms": 232054,
+        "end_ms": 233879
+      },
+      "target_playbacks": [
+        {
+          "text": "wypaść ze skrzydła",
+          "start_ms": 235879,
+          "end_ms": 237433
+        },
+        {
+          "text": "wypaść ze skrzydła",
+          "start_ms": 239933,
+          "end_ms": 241487
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "kind": "vocabulary",
+      "start_ms": 243987,
+      "end_ms": 255200,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "ticka som en klocka",
+        "start_ms": 243987,
+        "end_ms": 245654
+      },
+      "target_playbacks": [
+        {
+          "text": "tykać jak zegar",
+          "start_ms": 247654,
+          "end_ms": 248927
+        },
+        {
+          "text": "tykać jak zegar",
+          "start_ms": 251427,
+          "end_ms": 252700
+        }
+      ]
+    },
+    {
+      "id": 237,
+      "kind": "vocabulary",
+      "start_ms": 255200,
+      "end_ms": 267738,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "se ut precis som",
+        "start_ms": 255200,
+        "end_ms": 257074
+      },
+      "target_playbacks": [
+        {
+          "text": "wyglądać dokładnie jak",
+          "start_ms": 259074,
+          "end_ms": 260906
+        },
+        {
+          "text": "wyglądać dokładnie jak",
+          "start_ms": 263406,
+          "end_ms": 265238
+        }
+      ]
+    },
+    {
+      "id": 181,
+      "kind": "vocabulary",
+      "start_ms": 267738,
+      "end_ms": 276652,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "bara",
+        "start_ms": 267738,
+        "end_ms": 268420
+      },
+      "target_playbacks": [
+        {
+          "text": "tylko",
+          "start_ms": 270420,
+          "end_ms": 271036
+        },
+        {
+          "text": "tylko",
+          "start_ms": 273536,
+          "end_ms": 274152
+        }
+      ]
+    },
+    {
+      "id": 238,
+      "kind": "vocabulary",
+      "start_ms": 276652,
+      "end_ms": 289578,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "var har du fått knappen ifrån?",
+        "start_ms": 276652,
+        "end_ms": 278858
+      },
+      "target_playbacks": [
+        {
+          "text": "skąd masz ten przycisk?",
+          "start_ms": 280858,
+          "end_ms": 282718
+        },
+        {
+          "text": "skąd masz ten przycisk?",
+          "start_ms": 285218,
+          "end_ms": 287078
+        }
+      ]
+    },
+    {
+      "id": 178,
+      "kind": "vocabulary",
+      "start_ms": 289578,
+      "end_ms": 301391,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "sitta på en gren",
+        "start_ms": 289578,
+        "end_ms": 291313
+      },
+      "target_playbacks": [
+        {
+          "text": "siedzieć na gałęzi",
+          "start_ms": 293313,
+          "end_ms": 294852
+        },
+        {
+          "text": "siedzieć na gałęzi",
+          "start_ms": 297352,
+          "end_ms": 298891
+        }
+      ]
+    }
+  ],
+  "book_introduction": null,
+  "chapter_introduction": {
+    "text": "Rozdział siódmy. Złoty ptak.",
+    "start_ms": 1000,
+    "end_ms": 4072
+  },
+  "transitions": [
+    {
+      "kind": "chime",
+      "from": "story",
+      "to": "practice",
+      "start_ms": 57720,
+      "end_ms": 58340
+    },
+    {
+      "kind": "chime",
+      "from": "practice",
+      "to": "story",
+      "start_ms": 301391,
+      "end_ms": 302011
+    }
+  ],
+  "chapter_readings": [
+    {
+      "text": "Dzieci otwierają zielone drzwi i wchodzą do podziemnego ogrodu. Na gałęzi siedzi złoty ptak. Nie śpiewa, tylko tyka jak zegar: Tik-tak, tik-tak. Na jednym skrzydle ma błyszczący niebieski kamyk. Na drugim skrzydle jest puste miejsce. Maja patrzy na radio. Niebieski przycisk radia wygląda dokładnie jak kamyk ptaka! – Radiofonie, skąd masz ten przycisk? – pyta Maja. – To kamyk ptaka – mówi Radiofon. – Dawno temu wypadł ptakowi ze skrzydła. Ktoś zrobił z niego mój przycisk. Czekałem na was, żeby go oddać!",
+      "start_ms": 6572,
+      "end_ms": 55220
+    },
+    {
+      "text": "Dzieci otwierają zielone drzwi i wchodzą do podziemnego ogrodu. Na gałęzi siedzi złoty ptak. Nie śpiewa, tylko tyka jak zegar: Tik-tak, tik-tak. Na jednym skrzydle ma błyszczący niebieski kamyk. Na drugim skrzydle jest puste miejsce. Maja patrzy na radio. Niebieski przycisk radia wygląda dokładnie jak kamyk ptaka! – Radiofonie, skąd masz ten przycisk? – pyta Maja. – To kamyk ptaka – mówi Radiofon. – Dawno temu wypadł ptakowi ze skrzydła. Ktoś zrobił z niego mój przycisk. Czekałem na was, żeby go oddać!",
+      "start_ms": 304511,
+      "end_ms": 353159
+    }
+  ],
+  "chapter_reading": {
+    "text": "Dzieci otwierają zielone drzwi i wchodzą do podziemnego ogrodu. Na gałęzi siedzi złoty ptak. Nie śpiewa, tylko tyka jak zegar: Tik-tak, tik-tak. Na jednym skrzydle ma błyszczący niebieski kamyk. Na drugim skrzydle jest puste miejsce. Maja patrzy na radio. Niebieski przycisk radia wygląda dokładnie jak kamyk ptaka! – Radiofonie, skąd masz ten przycisk? – pyta Maja. – To kamyk ptaka – mówi Radiofon. – Dawno temu wypadł ptakowi ze skrzydła. Ktoś zrobił z niego mój przycisk. Czekałem na was, żeby go oddać!",
+    "start_ms": 304511,
+    "end_ms": 353159
+  },
+  "narration": {
+    "engine": "azure",
+    "voice": "pl-PL-Harper:MAI-Voice-2.1",
+    "style": "audiobook",
+    "rate": "-12%",
+    "locale": "pl-PL",
+    "capabilities": {
+      "voice": "pl-PL-Harper:MAI-Voice-2.1",
+      "locale": "pl-PL",
+      "advertised_styles": [
+        "agent",
+        "audiobook",
+        "customer_call_center",
+        "educational",
+        "narrator"
+      ]
+    },
+    "ssml": "<speak xmlns:mstts=\"http://www.w3.org/2001/mstts\" version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"pl-PL\"><voice name=\"pl-PL-Harper:MAI-Voice-2.1\"><mstts:express-as style=\"audiobook\"><prosody rate=\"-12%\"><p>Dzieci otwierają zielone drzwi i wchodzą do podziemnego ogrodu. Na gałęzi siedzi złoty ptak. Nie śpiewa, tylko tyka jak zegar: Tik-tak, tik-tak. Na jednym skrzydle ma błyszczący niebieski kamyk. Na drugim skrzydle jest puste miejsce. Maja patrzy na radio. Niebieski przycisk radia wygląda dokładnie jak kamyk ptaka! – Radiofonie, skąd masz ten przycisk? – pyta Maja. – To kamyk ptaka – mówi Radiofon. – Dawno temu wypadł ptakowi ze skrzydła. Ktoś zrobił z niego mój przycisk. Czekałem na was, żeby go oddać!</p></prosody></mstts:express-as></voice></speak>"
+  },
+  "audio_file": "07_chapter_07_sv_pl_2026-10-30_13-09-47.mp3"
+}

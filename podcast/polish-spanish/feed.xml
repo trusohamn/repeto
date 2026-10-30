@@ -1,0 +1,868 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Repeto – Ucz się hiszpańskiego</title>
+    <link>https://trusohamn.github.io/repeto/polish-spanish/</link>
+    <description>Ucz się hiszpańskiego, słuchając i mówiąc – z polskim jako wsparciem. Repeto to kurs audio dla początkujących w każdym wieku: dzieci, rodziców, dziadków i wszystkich, którzy chcą zacząć naukę hiszpańskiego. Nie potrzebujesz wcześniejszej wiedzy ani podręcznika.
+
+Jak to działa: słyszysz słowo lub zdanie po polsku, a potem masz chwilę, by powiedzieć je po hiszpańsku. Następnie usłyszysz odpowiedź dwa razy i będziesz mieć czas, by powtórzyć wymowę.
+
+W kursie znajdziesz:
+• Sezon 1 – Ćwiczenia: 30 krótkich tematów, od powitań i liczb po jedzenie, emocje i codzienne sytuacje.
+• Sezon 2 – Opowieść „Magiczne Radio” (La radio mágica): jeden rozdział w każdym odcinku. Najpierw słuchasz rozdziału po hiszpańsku, ćwiczysz słownictwo, a potem słuchasz go ponownie.
+• Kolejne opowieści są w przygotowaniu – nowe odcinki będą dodawane regularnie. Obserwuj podcast, żeby ich nie przegapić.
+
+Jak korzystać z kursu:
+• Zacznij od sezonu 1, odcinka 1 i słuchaj po kolei.
+• Odpowiadaj na głos w przerwie – spróbuj samodzielnie przypomnieć sobie słowa.
+• Odtwórz odcinek ponownie, aż zdążysz odpowiedzieć przed głosem lektora.
+• Słuchanie w tle może pomóc oswoić się z brzmieniem i melodią języka. Ćwicz też aktywnie, powtarzając i odpowiadając w przerwach.
+
+Podoba Ci się ten format? Repeto jest dostępne także w innych językach – ten sam układ pozwoli Ci od razu poczuć się swobodnie. Wyszukaj „Repeto” w swojej aplikacji do podcastów.
+
+Napisz do nas! Sugestie dotyczące nowych języków, poprawki i pomysły na opowieści są mile widziane: repeto.lingo@gmail.com
+
+Głosy zostały wygenerowane przez AI (Microsoft Azure).</description>
+    <language>pl</language>
+    <itunes:author>Repeto</itunes:author>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:type>serial</itunes:type>
+    <itunes:owner>
+      <itunes:name>Repeto</itunes:name>
+      <itunes:email>repeto.lingo@gmail.com</itunes:email>
+    </itunes:owner>
+    <itunes:image href="https://trusohamn.github.io/repeto/polish-spanish/cover-f25fb303.jpeg" />
+    <itunes:category text="Education">
+      <itunes:category text="Language Learning" />
+    </itunes:category>
+    <atom:link href="https://trusohamn.github.io/repeto/polish-spanish/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>01 Powitania — Saludos</title>
+      <description>Temat 1 z 30: Powitania (Saludos) – 36 zwrotów.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Cześć! → ¡Hola!
+• Dzień dobry! → ¡Buenos días!
+• Dzień dobry! → ¡Buenas tardes!
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 1 z 30: Powitania (Saludos) – 36 zwrotów.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Cześć! → ¡Hola!&lt;/li&gt;&lt;li&gt;Dzień dobry! → ¡Buenos días!&lt;/li&gt;&lt;li&gt;Dzień dobry! → ¡Buenas tardes!&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-spanish:topic-01</guid>
+      <pubDate>Fri, 30 Oct 2026 11:56:09 +0000</pubDate>
+      <itunes:episode>1</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>381</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-spanish/audio/practice/01_greetings_pl_es_double_2026-10-30_13-09-16.mp3" length="9136421" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>02 Liczby — Números</title>
+      <description>Temat 2 z 30: Liczby (Números) – 35 zwrotów.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Jeden → Uno
+• Dwa → Dos
+• Trzy → Tres
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 2 z 30: Liczby (Números) – 35 zwrotów.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Jeden → Uno&lt;/li&gt;&lt;li&gt;Dwa → Dos&lt;/li&gt;&lt;li&gt;Trzy → Tres&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-spanish:topic-02</guid>
+      <pubDate>Fri, 30 Oct 2026 11:56:09 +0000</pubDate>
+      <itunes:episode>2</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>354</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-spanish/audio/practice/02_numbers_pl_es_double_2026-10-30_12-35-32.mp3" length="8507602" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>03 Kolory — Colores</title>
+      <description>Temat 3 z 30: Kolory (Colores) – 29 zwrotów.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Czerwony → Rojo
+• Niebieski → Azul
+• Żółty → Amarillo
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 3 z 30: Kolory (Colores) – 29 zwrotów.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Czerwony → Rojo&lt;/li&gt;&lt;li&gt;Niebieski → Azul&lt;/li&gt;&lt;li&gt;Żółty → Amarillo&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-spanish:topic-03</guid>
+      <pubDate>Fri, 30 Oct 2026 11:56:09 +0000</pubDate>
+      <itunes:episode>3</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>318</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-spanish/audio/practice/03_colors_pl_es_double_2026-10-30_12-35-32.mp3" length="7636157" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>04 Zwierzęta — Animales</title>
+      <description>Temat 4 z 30: Zwierzęta (Animales) – 42 zwroty.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Pies → Perro
+• Kot → Gato
+• Ptak → Pájaro
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 4 z 30: Zwierzęta (Animales) – 42 zwroty.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Pies → Perro&lt;/li&gt;&lt;li&gt;Kot → Gato&lt;/li&gt;&lt;li&gt;Ptak → Pájaro&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-spanish:topic-04</guid>
+      <pubDate>Fri, 30 Oct 2026 11:56:09 +0000</pubDate>
+      <itunes:episode>4</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>432</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-spanish/audio/practice/04_animals_pl_es_double_2026-10-30_12-35-32.mp3" length="10361460" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>05 Rodzina — Familia</title>
+      <description>Temat 5 z 30: Rodzina (Familia) – 26 zwrotów.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Mama → Mamá
+• Tata → Papá
+• Siostra → Hermana
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 5 z 30: Rodzina (Familia) – 26 zwrotów.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Mama → Mamá&lt;/li&gt;&lt;li&gt;Tata → Papá&lt;/li&gt;&lt;li&gt;Siostra → Hermana&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-spanish:topic-05</guid>
+      <pubDate>Fri, 30 Oct 2026 11:56:09 +0000</pubDate>
+      <itunes:episode>5</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>294</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-spanish/audio/practice/05_family_pl_es_double_2026-10-30_12-35-32.mp3" length="7063762" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>06 Jedzenie — Comida</title>
+      <description>Temat 6 z 30: Jedzenie (Comida) – 49 zwrotów.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Chleb → Pan
+• Mleko → Leche
+• Jajko → Huevo
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 6 z 30: Jedzenie (Comida) – 49 zwrotów.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Chleb → Pan&lt;/li&gt;&lt;li&gt;Mleko → Leche&lt;/li&gt;&lt;li&gt;Jajko → Huevo&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-spanish:topic-06</guid>
+      <pubDate>Fri, 30 Oct 2026 11:56:09 +0000</pubDate>
+      <itunes:episode>6</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>502</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-spanish/audio/practice/06_food_pl_es_double_2026-10-30_12-35-32.mp3" length="12046671" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>07 Ciało — Cuerpo</title>
+      <description>Temat 7 z 30: Ciało (Cuerpo) – 37 zwrotów.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Głowa → Cabeza
+• Włosy → Pelo
+• Oko → Ojo
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 7 z 30: Ciało (Cuerpo) – 37 zwrotów.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Głowa → Cabeza&lt;/li&gt;&lt;li&gt;Włosy → Pelo&lt;/li&gt;&lt;li&gt;Oko → Ojo&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-spanish:topic-07</guid>
+      <pubDate>Fri, 30 Oct 2026 11:56:09 +0000</pubDate>
+      <itunes:episode>7</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>388</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-spanish/audio/practice/07_body_pl_es_double_2026-10-30_12-35-32.mp3" length="9324503" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>08 Ubrania — Ropa</title>
+      <description>Temat 8 z 30: Ubrania (Ropa) – 29 zwrotów.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Sweter → Jersey
+• Koszulka → Camiseta
+• Koszula → Camisa
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 8 z 30: Ubrania (Ropa) – 29 zwrotów.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Sweter → Jersey&lt;/li&gt;&lt;li&gt;Koszulka → Camiseta&lt;/li&gt;&lt;li&gt;Koszula → Camisa&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-spanish:topic-08</guid>
+      <pubDate>Fri, 30 Oct 2026 11:56:09 +0000</pubDate>
+      <itunes:episode>8</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>327</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-spanish/audio/practice/08_clothing_pl_es_double_2026-10-30_12-35-32.mp3" length="7843047" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>09 W domu — En casa</title>
+      <description>Temat 9 z 30: W domu (En casa) – 38 zwrotów.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Dom → Casa
+• Mieszkanie → Piso
+• Pokój → Habitación
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 9 z 30: W domu (En casa) – 38 zwrotów.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Dom → Casa&lt;/li&gt;&lt;li&gt;Mieszkanie → Piso&lt;/li&gt;&lt;li&gt;Pokój → Habitación&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-spanish:topic-09</guid>
+      <pubDate>Fri, 30 Oct 2026 11:56:09 +0000</pubDate>
+      <itunes:episode>9</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>398</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-spanish/audio/practice/09_home_pl_es_double_2026-10-30_12-35-32.mp3" length="9564621" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>10 Szkoła — Colegio</title>
+      <description>Temat 10 z 30: Szkoła (Colegio) – 41 zwrotów.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Szkoła → Colegio
+• Klasa → Aula
+• Nauczyciel → Profesor
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 10 z 30: Szkoła (Colegio) – 41 zwrotów.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Szkoła → Colegio&lt;/li&gt;&lt;li&gt;Klasa → Aula&lt;/li&gt;&lt;li&gt;Nauczyciel → Profesor&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-spanish:topic-10</guid>
+      <pubDate>Fri, 30 Oct 2026 11:56:09 +0000</pubDate>
+      <itunes:episode>10</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>445</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-spanish/audio/practice/10_school_pl_es_double_2026-10-30_12-35-32.mp3" length="10683706" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>11 Pogoda — El tiempo</title>
+      <description>Temat 11 z 30: Pogoda (El tiempo) – 25 zwrotów.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Pogoda → Tiempo
+• Słońce → Sol
+• Deszcz → Lluvia
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 11 z 30: Pogoda (El tiempo) – 25 zwrotów.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Pogoda → Tiempo&lt;/li&gt;&lt;li&gt;Słońce → Sol&lt;/li&gt;&lt;li&gt;Deszcz → Lluvia&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-spanish:topic-11</guid>
+      <pubDate>Fri, 30 Oct 2026 11:56:09 +0000</pubDate>
+      <itunes:episode>11</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>262</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-spanish/audio/practice/11_weather_pl_es_double_2026-10-30_12-35-32.mp3" length="6293881" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>12 Pory roku — Estaciones del año</title>
+      <description>Temat 12 z 30: Pory roku (Estaciones del año) – 18 zwrotów.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Wiosna → Primavera
+• Lato → Verano
+• Jesień → Otoño
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 12 z 30: Pory roku (Estaciones del año) – 18 zwrotów.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Wiosna → Primavera&lt;/li&gt;&lt;li&gt;Lato → Verano&lt;/li&gt;&lt;li&gt;Jesień → Otoño&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-spanish:topic-12</guid>
+      <pubDate>Fri, 30 Oct 2026 11:56:09 +0000</pubDate>
+      <itunes:episode>12</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>213</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-spanish/audio/practice/12_seasons_pl_es_double_2026-10-30_12-35-32.mp3" length="5117117" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>13 Dni i czas — Días y horas</title>
+      <description>Temat 13 z 30: Dni i czas (Días y horas) – 29 zwrotów.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Poniedziałek → Lunes
+• Wtorek → Martes
+• Środa → Miércoles
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 13 z 30: Dni i czas (Días y horas) – 29 zwrotów.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Poniedziałek → Lunes&lt;/li&gt;&lt;li&gt;Wtorek → Martes&lt;/li&gt;&lt;li&gt;Środa → Miércoles&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-spanish:topic-13</guid>
+      <pubDate>Fri, 30 Oct 2026 11:56:09 +0000</pubDate>
+      <itunes:episode>13</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>314</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-spanish/audio/practice/13_days_and_time_pl_es_double_2026-10-30_12-35-32.mp3" length="7538354" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>14 Zabawki i zabawa — Juguetes y juegos</title>
+      <description>Temat 14 z 30: Zabawki i zabawa (Juguetes y juegos) – 34 zwroty.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Zabawka → Juguete
+• Piłka → Pelota
+• Lalka → Muñeca
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 14 z 30: Zabawki i zabawa (Juguetes y juegos) – 34 zwroty.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Zabawka → Juguete&lt;/li&gt;&lt;li&gt;Piłka → Pelota&lt;/li&gt;&lt;li&gt;Lalka → Muñeca&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-spanish:topic-14</guid>
+      <pubDate>Fri, 30 Oct 2026 11:56:09 +0000</pubDate>
+      <itunes:episode>14</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>375</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-spanish/audio/practice/14_toys_and_play_pl_es_double_2026-10-30_12-35-32.mp3" length="8992225" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>15 Sport i zajęcia — Deportes y actividades</title>
+      <description>Temat 15 z 30: Sport i zajęcia (Deportes y actividades) – 25 zwrotów.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Piłka nożna → Fútbol
+• Pływanie → Natación
+• Jazda na rowerze → Ciclismo
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 15 z 30: Sport i zajęcia (Deportes y actividades) – 25 zwrotów.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Piłka nożna → Fútbol&lt;/li&gt;&lt;li&gt;Pływanie → Natación&lt;/li&gt;&lt;li&gt;Jazda na rowerze → Ciclismo&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-spanish:topic-15</guid>
+      <pubDate>Fri, 30 Oct 2026 11:56:09 +0000</pubDate>
+      <itunes:episode>15</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>282</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-spanish/audio/practice/15_sports_and_activities_pl_es_double_2026-10-30_12-35-32.mp3" length="6769728" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>16 Chcę i potrzebuję — Quiero y necesito</title>
+      <description>Temat 16 z 30: Chcę i potrzebuję (Quiero y necesito) – 28 zwrotów.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Chcę wyjść na dwór. → Quiero salir a la calle.
+• Chcę piłkę. → Quiero una pelota.
+• Chcę jeść. → Quiero comer.
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 16 z 30: Chcę i potrzebuję (Quiero y necesito) – 28 zwrotów.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Chcę wyjść na dwór. → Quiero salir a la calle.&lt;/li&gt;&lt;li&gt;Chcę piłkę. → Quiero una pelota.&lt;/li&gt;&lt;li&gt;Chcę jeść. → Quiero comer.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-spanish:topic-16</guid>
+      <pubDate>Fri, 30 Oct 2026 11:56:09 +0000</pubDate>
+      <itunes:episode>16</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>322</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-spanish/audio/practice/16_i_want_i_need_pl_es_double_2026-10-30_12-35-32.mp3" length="7727063" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>17 Gdzie jest? — ¿Dónde está?</title>
+      <description>Temat 17 z 30: Gdzie jest? (¿Dónde está?) – 28 zwrotów.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Gdzie jest miś? → ¿Dónde está el osito de peluche?
+• Gdzie jest mój telefon? → ¿Dónde está mi móvil?
+• Gdzie jest moja torba? → ¿Dónde está mi bolsa?
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 17 z 30: Gdzie jest? (¿Dónde está?) – 28 zwrotów.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Gdzie jest miś? → ¿Dónde está el osito de peluche?&lt;/li&gt;&lt;li&gt;Gdzie jest mój telefon? → ¿Dónde está mi móvil?&lt;/li&gt;&lt;li&gt;Gdzie jest moja torba? → ¿Dónde está mi bolsa?&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-spanish:topic-17</guid>
+      <pubDate>Fri, 30 Oct 2026 11:56:09 +0000</pubDate>
+      <itunes:episode>17</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>329</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-spanish/audio/practice/17_where_is_pl_es_double_2026-10-30_12-35-32.mp3" length="7896336" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>18 Uczucia i emocje — Sentimientos y emociones</title>
+      <description>Temat 18 z 30: Uczucia i emocje (Sentimientos y emociones) – 28 zwrotów.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Wesoły → Contento
+• Smutny → Triste
+• Zły → Enfadado
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 18 z 30: Uczucia i emocje (Sentimientos y emociones) – 28 zwrotów.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Wesoły → Contento&lt;/li&gt;&lt;li&gt;Smutny → Triste&lt;/li&gt;&lt;li&gt;Zły → Enfadado&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-spanish:topic-18</guid>
+      <pubDate>Fri, 30 Oct 2026 11:56:09 +0000</pubDate>
+      <itunes:episode>18</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>317</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-spanish/audio/practice/18_feelings_and_emotions_pl_es_double_2026-10-30_12-35-32.mp3" length="7608572" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>19 Środki transportu — Medios de transporte</title>
+      <description>Temat 19 z 30: Środki transportu (Medios de transporte) – 25 zwrotów.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Samochód → Coche
+• Autobus → Autobús
+• Pociąg → Tren
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 19 z 30: Środki transportu (Medios de transporte) – 25 zwrotów.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Samochód → Coche&lt;/li&gt;&lt;li&gt;Autobus → Autobús&lt;/li&gt;&lt;li&gt;Pociąg → Tren&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-spanish:topic-19</guid>
+      <pubDate>Fri, 30 Oct 2026 11:56:09 +0000</pubDate>
+      <itunes:episode>19</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>277</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-spanish/audio/practice/19_transport_pl_es_double_2026-10-30_12-35-32.mp3" length="6646221" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>20 Przyroda — Naturaleza</title>
+      <description>Temat 20 z 30: Przyroda (Naturaleza) – 27 zwrotów.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Las → Bosque
+• Morze → Mar
+• Jezioro → Lago
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 20 z 30: Przyroda (Naturaleza) – 27 zwrotów.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Las → Bosque&lt;/li&gt;&lt;li&gt;Morze → Mar&lt;/li&gt;&lt;li&gt;Jezioro → Lago&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-spanish:topic-20</guid>
+      <pubDate>Fri, 30 Oct 2026 11:56:09 +0000</pubDate>
+      <itunes:episode>20</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>280</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-spanish/audio/practice/20_nature_pl_es_double_2026-10-30_12-35-32.mp3" length="6732111" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>21 Święta i uroczystości — Fiestas y celebraciones</title>
+      <description>Temat 21 z 30: Święta i uroczystości (Fiestas y celebraciones) – 23 zwroty.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Urodziny → Cumpleaños
+• Wszystkiego najlepszego z okazji urodzin! → ¡Feliz cumpleaños!
+• Boże Narodzenie → Navidad
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 21 z 30: Święta i uroczystości (Fiestas y celebraciones) – 23 zwroty.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Urodziny → Cumpleaños&lt;/li&gt;&lt;li&gt;Wszystkiego najlepszego z okazji urodzin! → ¡Feliz cumpleaños!&lt;/li&gt;&lt;li&gt;Boże Narodzenie → Navidad&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-spanish:topic-21</guid>
+      <pubDate>Fri, 30 Oct 2026 11:56:09 +0000</pubDate>
+      <itunes:episode>21</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>267</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-spanish/audio/practice/21_holidays_and_celebrations_pl_es_double_2026-10-30_12-35-32.mp3" length="6409238" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>22 Codzienne czynności — Rutina diaria</title>
+      <description>Temat 22 z 30: Codzienne czynności (Rutina diaria) – 28 zwrotów.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Budzić się → Despertarse
+• Wstawać → Levantarse
+• Myć zęby → Lavarse los dientes
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 22 z 30: Codzienne czynności (Rutina diaria) – 28 zwrotów.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Budzić się → Despertarse&lt;/li&gt;&lt;li&gt;Wstawać → Levantarse&lt;/li&gt;&lt;li&gt;Myć zęby → Lavarse los dientes&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-spanish:topic-22</guid>
+      <pubDate>Fri, 30 Oct 2026 11:56:09 +0000</pubDate>
+      <itunes:episode>22</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>326</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-spanish/audio/practice/22_daily_routine_pl_es_double_2026-10-30_12-35-32.mp3" length="7826746" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>23 Pytania i prośby — Preguntas y peticiones</title>
+      <description>Temat 23 z 30: Pytania i prośby (Preguntas y peticiones) – 26 zwrotów.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Czy możesz mi pomóc? → ¿Puedes ayudarme?
+• Pomocy! → ¡Socorro!
+• Proszę! → ¡Por favor!
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 23 z 30: Pytania i prośby (Preguntas y peticiones) – 26 zwrotów.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Czy możesz mi pomóc? → ¿Puedes ayudarme?&lt;/li&gt;&lt;li&gt;Pomocy! → ¡Socorro!&lt;/li&gt;&lt;li&gt;Proszę! → ¡Por favor!&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-spanish:topic-23</guid>
+      <pubDate>Fri, 30 Oct 2026 11:56:09 +0000</pubDate>
+      <itunes:episode>23</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>278</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-spanish/audio/practice/23_asking_and_requests_pl_es_double_2026-10-30_12-35-32.mp3" length="6663148" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>24 Przeciwieństwa — Contrarios</title>
+      <description>Temat 24 z 30: Przeciwieństwa (Contrarios) – 28 zwrotów.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Duży → Grande
+• Mały → Pequeño
+• Długi → Largo
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 24 z 30: Przeciwieństwa (Contrarios) – 28 zwrotów.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Duży → Grande&lt;/li&gt;&lt;li&gt;Mały → Pequeño&lt;/li&gt;&lt;li&gt;Długi → Largo&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-spanish:topic-24</guid>
+      <pubDate>Fri, 30 Oct 2026 11:56:09 +0000</pubDate>
+      <itunes:episode>24</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>294</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-spanish/audio/practice/24_opposites_pl_es_double_2026-10-30_12-35-32.mp3" length="7059373" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>25 Czynności i czasowniki — Acciones y verbos</title>
+      <description>Temat 25 z 30: Czynności i czasowniki (Acciones y verbos) – 41 zwrotów.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Iść → Andar
+• Biegać → Correr
+• Skakać → Saltar
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 25 z 30: Czynności i czasowniki (Acciones y verbos) – 41 zwrotów.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Iść → Andar&lt;/li&gt;&lt;li&gt;Biegać → Correr&lt;/li&gt;&lt;li&gt;Skakać → Saltar&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-spanish:topic-25</guid>
+      <pubDate>Fri, 30 Oct 2026 11:56:09 +0000</pubDate>
+      <itunes:episode>25</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>430</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-spanish/audio/practice/25_actions_and_verbs_pl_es_double_2026-10-30_12-35-32.mp3" length="10320082" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>26 Miejsca w mieście — Lugares de la ciudad</title>
+      <description>Temat 26 z 30: Miejsca w mieście (Lugares de la ciudad) – 23 zwroty.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Park → Parque
+• Plac zabaw → Parque infantil
+• Sklep → Tienda
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 26 z 30: Miejsca w mieście (Lugares de la ciudad) – 23 zwroty.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Park → Parque&lt;/li&gt;&lt;li&gt;Plac zabaw → Parque infantil&lt;/li&gt;&lt;li&gt;Sklep → Tienda&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-spanish:topic-26</guid>
+      <pubDate>Fri, 30 Oct 2026 11:56:09 +0000</pubDate>
+      <itunes:episode>26</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>257</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-spanish/audio/practice/26_places_in_town_pl_es_double_2026-10-30_12-35-32.mp3" length="6171001" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>27 Technologia — Tecnología</title>
+      <description>Temat 27 z 30: Technologia (Tecnología) – 22 zwroty.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Telefon → Teléfono
+• Telefon komórkowy → Teléfono móvil
+• Komputer → Ordenador
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 27 z 30: Technologia (Tecnología) – 22 zwroty.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Telefon → Teléfono&lt;/li&gt;&lt;li&gt;Telefon komórkowy → Teléfono móvil&lt;/li&gt;&lt;li&gt;Komputer → Ordenador&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-spanish:topic-27</guid>
+      <pubDate>Fri, 30 Oct 2026 11:56:09 +0000</pubDate>
+      <itunes:episode>27</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>247</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-spanish/audio/practice/27_technology_pl_es_double_2026-10-30_12-35-32.mp3" length="5918345" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>28 Muzyka i sztuka — Música y arte</title>
+      <description>Temat 28 z 30: Muzyka i sztuka (Música y arte) – 23 zwroty.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Muzyka → Música
+• Piosenka → Canción
+• Taniec → Baile
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 28 z 30: Muzyka i sztuka (Música y arte) – 23 zwroty.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Muzyka → Música&lt;/li&gt;&lt;li&gt;Piosenka → Canción&lt;/li&gt;&lt;li&gt;Taniec → Baile&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-spanish:topic-28</guid>
+      <pubDate>Fri, 30 Oct 2026 11:56:09 +0000</pubDate>
+      <itunes:episode>28</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>251</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-spanish/audio/practice/28_music_and_art_pl_es_double_2026-10-30_12-35-32.mp3" length="6014893" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>29 Zwroty grzecznościowe — Expresiones de cortesía</title>
+      <description>Temat 29 z 30: Zwroty grzecznościowe (Expresiones de cortesía) – 17 zwrotów.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Proszę. → Por favor.
+• Dziękuję! → ¡Gracias!
+• Bardzo dziękuję! → ¡Muchas gracias!
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 29 z 30: Zwroty grzecznościowe (Expresiones de cortesía) – 17 zwrotów.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Proszę. → Por favor.&lt;/li&gt;&lt;li&gt;Dziękuję! → ¡Gracias!&lt;/li&gt;&lt;li&gt;Bardzo dziękuję! → ¡Muchas gracias!&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-spanish:topic-29</guid>
+      <pubDate>Fri, 30 Oct 2026 11:56:09 +0000</pubDate>
+      <itunes:episode>29</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>178</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-spanish/audio/practice/29_polite_phrases_pl_es_double_2026-10-30_12-35-32.mp3" length="4266361" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>30 Powtórka — Repaso</title>
+      <description>Temat 30 z 30: Powtórka (Repaso) – 11 zwrotów.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Dobra robota! → ¡Bien hecho!
+• Uczysz się nowego języka! → ¡Estás aprendiendo un idioma nuevo!
+• Ćwiczmy! → ¡Vamos a practicar!
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 30 z 30: Powtórka (Repaso) – 11 zwrotów.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Dobra robota! → ¡Bien hecho!&lt;/li&gt;&lt;li&gt;Uczysz się nowego języka! → ¡Estás aprendiendo un idioma nuevo!&lt;/li&gt;&lt;li&gt;Ćwiczmy! → ¡Vamos a practicar!&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-spanish:topic-30</guid>
+      <pubDate>Fri, 30 Oct 2026 11:56:09 +0000</pubDate>
+      <itunes:episode>30</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>131</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-spanish/audio/practice/30_review_and_recap_pl_es_double_2026-10-30_13-09-26.mp3" length="3141633" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>01 Magiczne Radio: Stary stół — La mesa vieja</title>
+      <description>Rozdział 1 z 8 opowieści „Magiczne Radio” (La radio mágica). Rodzeństwo znajduje stare drewniane radio na pchlim targu. Radio nagle szumi, a złoty napis zdradza, że czekało właśnie na nich.
+
+Jak wygląda odcinek:
+1. Posłuchaj całego rozdziału po hiszpańsku – nie musisz rozumieć wszystkiego.
+2. Poćwicz słowa i wyrażenia z rozdziału: podpowiedź po polsku, przerwa, odpowiedź po hiszpańsku.
+3. Posłuchaj rozdziału ponownie i sprawdź, ile udało Ci się zrozumieć.
+
+Między częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynając od rozdziału 1.</description>
+      <content:encoded>&lt;p&gt;Rozdział 1 z 8 opowieści „Magiczne Radio” (La radio mágica). Rodzeństwo znajduje stare drewniane radio na pchlim targu. Radio nagle szumi, a złoty napis zdradza, że czekało właśnie na nich.&lt;/p&gt;&lt;p&gt;Jak wygląda odcinek:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Posłuchaj całego rozdziału po hiszpańsku – nie musisz rozumieć wszystkiego.&lt;/li&gt;&lt;li&gt;Poćwicz słowa i wyrażenia z rozdziału: podpowiedź po polsku, przerwa, odpowiedź po hiszpańsku.&lt;/li&gt;&lt;li&gt;Posłuchaj rozdziału ponownie i sprawdź, ile udało Ci się zrozumieć.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;Między częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynając od rozdziału 1.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">magical_radio:pl:es:chapter-01</guid>
+      <pubDate>Fri, 30 Oct 2026 11:56:17 +0000</pubDate>
+      <itunes:episode>1</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>313</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://trusohamn.github.io/repeto/polish-spanish/images/stories/magical_radio/cover-447076a6.jpeg" />
+      <enclosure url="https://trusohamn.github.io/repeto/polish-spanish/audio/stories/magical_radio/01_chapter_01_pl_es_2026-10-30_12-52-42.mp3" length="7512650" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>02 Magiczne Radio: Głos z radia — Una voz en la radio</title>
+      <description>Rozdział 2 z 8 opowieści „Magiczne Radio” (La radio mágica). W domu dzieci naciskają niebieski przycisk. Z radia wylatuje chmurka pachnąca cynamonem, a wesoły głos opowiada o myszy z ważnym kluczem.
+
+Jak wygląda odcinek:
+1. Posłuchaj całego rozdziału po hiszpańsku – nie musisz rozumieć wszystkiego.
+2. Poćwicz słowa i wyrażenia z rozdziału: podpowiedź po polsku, przerwa, odpowiedź po hiszpańsku.
+3. Posłuchaj rozdziału ponownie i sprawdź, ile udało Ci się zrozumieć.
+
+Między częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynając od rozdziału 1.</description>
+      <content:encoded>&lt;p&gt;Rozdział 2 z 8 opowieści „Magiczne Radio” (La radio mágica). W domu dzieci naciskają niebieski przycisk. Z radia wylatuje chmurka pachnąca cynamonem, a wesoły głos opowiada o myszy z ważnym kluczem.&lt;/p&gt;&lt;p&gt;Jak wygląda odcinek:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Posłuchaj całego rozdziału po hiszpańsku – nie musisz rozumieć wszystkiego.&lt;/li&gt;&lt;li&gt;Poćwicz słowa i wyrażenia z rozdziału: podpowiedź po polsku, przerwa, odpowiedź po hiszpańsku.&lt;/li&gt;&lt;li&gt;Posłuchaj rozdziału ponownie i sprawdź, ile udało Ci się zrozumieć.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;Między częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynając od rozdziału 1.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">magical_radio:pl:es:chapter-02</guid>
+      <pubDate>Fri, 30 Oct 2026 11:56:17 +0000</pubDate>
+      <itunes:episode>2</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>275</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://trusohamn.github.io/repeto/polish-spanish/images/stories/magical_radio/cover-447076a6.jpeg" />
+      <enclosure url="https://trusohamn.github.io/repeto/polish-spanish/audio/stories/magical_radio/02_chapter_02_pl_es_2026-10-30_12-52-42.mp3" length="6613620" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>03 Magiczne Radio: Mysz pod drzewem — Un ratón debajo del árbol</title>
+      <description>Rozdział 3 z 8 opowieści „Magiczne Radio” (La radio mágica). Z latarką, serem i radiem rodzeństwo rusza pod stare drzewo. Mała mysz zgadza się na wymianę, a między korzeniami kryją się tajemnicze drzwi.
+
+Jak wygląda odcinek:
+1. Posłuchaj całego rozdziału po hiszpańsku – nie musisz rozumieć wszystkiego.
+2. Poćwicz słowa i wyrażenia z rozdziału: podpowiedź po polsku, przerwa, odpowiedź po hiszpańsku.
+3. Posłuchaj rozdziału ponownie i sprawdź, ile udało Ci się zrozumieć.
+
+Między częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynając od rozdziału 1.</description>
+      <content:encoded>&lt;p&gt;Rozdział 3 z 8 opowieści „Magiczne Radio” (La radio mágica). Z latarką, serem i radiem rodzeństwo rusza pod stare drzewo. Mała mysz zgadza się na wymianę, a między korzeniami kryją się tajemnicze drzwi.&lt;/p&gt;&lt;p&gt;Jak wygląda odcinek:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Posłuchaj całego rozdziału po hiszpańsku – nie musisz rozumieć wszystkiego.&lt;/li&gt;&lt;li&gt;Poćwicz słowa i wyrażenia z rozdziału: podpowiedź po polsku, przerwa, odpowiedź po hiszpańsku.&lt;/li&gt;&lt;li&gt;Posłuchaj rozdziału ponownie i sprawdź, ile udało Ci się zrozumieć.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;Między częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynając od rozdziału 1.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">magical_radio:pl:es:chapter-03</guid>
+      <pubDate>Fri, 30 Oct 2026 11:56:17 +0000</pubDate>
+      <itunes:episode>3</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>360</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://trusohamn.github.io/repeto/polish-spanish/images/stories/magical_radio/cover-447076a6.jpeg" />
+      <enclosure url="https://trusohamn.github.io/repeto/polish-spanish/audio/stories/magical_radio/03_chapter_03_pl_es_2026-10-30_12-52-42.mp3" length="8636751" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>04 Magiczne Radio: Schody w dół — Escaleras abajo</title>
+      <description>Rozdział 4 z 8 opowieści „Magiczne Radio” (La radio mágica). Srebrny klucz otwiera drzwi. Kamienne schody prowadzą do biblioteki pełnej latających książek, a na ścianach rosną świecące kwiaty.
+
+Jak wygląda odcinek:
+1. Posłuchaj całego rozdziału po hiszpańsku – nie musisz rozumieć wszystkiego.
+2. Poćwicz słowa i wyrażenia z rozdziału: podpowiedź po polsku, przerwa, odpowiedź po hiszpańsku.
+3. Posłuchaj rozdziału ponownie i sprawdź, ile udało Ci się zrozumieć.
+
+Między częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynając od rozdziału 1.</description>
+      <content:encoded>&lt;p&gt;Rozdział 4 z 8 opowieści „Magiczne Radio” (La radio mágica). Srebrny klucz otwiera drzwi. Kamienne schody prowadzą do biblioteki pełnej latających książek, a na ścianach rosną świecące kwiaty.&lt;/p&gt;&lt;p&gt;Jak wygląda odcinek:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Posłuchaj całego rozdziału po hiszpańsku – nie musisz rozumieć wszystkiego.&lt;/li&gt;&lt;li&gt;Poćwicz słowa i wyrażenia z rozdziału: podpowiedź po polsku, przerwa, odpowiedź po hiszpańsku.&lt;/li&gt;&lt;li&gt;Posłuchaj rozdziału ponownie i sprawdź, ile udało Ci się zrozumieć.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;Między częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynając od rozdziału 1.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">magical_radio:pl:es:chapter-04</guid>
+      <pubDate>Fri, 30 Oct 2026 11:56:17 +0000</pubDate>
+      <itunes:episode>4</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>290</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://trusohamn.github.io/repeto/polish-spanish/images/stories/magical_radio/cover-447076a6.jpeg" />
+      <enclosure url="https://trusohamn.github.io/repeto/polish-spanish/audio/stories/magical_radio/04_chapter_04_pl_es_2026-10-30_13-10-12.mp3" length="6955301" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>05 Magiczne Radio: Latająca książka — El libro volador</title>
+      <description>Rozdział 5 z 8 opowieści „Magiczne Radio” (La radio mágica). Złota książka ląduje na ramieniu, a radio zdradza zaklęcie, które naprawia zepsute rzeczy.
+
+Jak wygląda odcinek:
+1. Posłuchaj całego rozdziału po hiszpańsku – nie musisz rozumieć wszystkiego.
+2. Poćwicz słowa i wyrażenia z rozdziału: podpowiedź po polsku, przerwa, odpowiedź po hiszpańsku.
+3. Posłuchaj rozdziału ponownie i sprawdź, ile udało Ci się zrozumieć.
+
+Między częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynając od rozdziału 1.</description>
+      <content:encoded>&lt;p&gt;Rozdział 5 z 8 opowieści „Magiczne Radio” (La radio mágica). Złota książka ląduje na ramieniu, a radio zdradza zaklęcie, które naprawia zepsute rzeczy.&lt;/p&gt;&lt;p&gt;Jak wygląda odcinek:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Posłuchaj całego rozdziału po hiszpańsku – nie musisz rozumieć wszystkiego.&lt;/li&gt;&lt;li&gt;Poćwicz słowa i wyrażenia z rozdziału: podpowiedź po polsku, przerwa, odpowiedź po hiszpańsku.&lt;/li&gt;&lt;li&gt;Posłuchaj rozdziału ponownie i sprawdź, ile udało Ci się zrozumieć.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;Między częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynając od rozdziału 1.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">magical_radio:pl:es:chapter-05</guid>
+      <pubDate>Fri, 30 Oct 2026 11:56:17 +0000</pubDate>
+      <itunes:episode>5</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>271</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://trusohamn.github.io/repeto/polish-spanish/images/stories/magical_radio/cover-447076a6.jpeg" />
+      <enclosure url="https://trusohamn.github.io/repeto/polish-spanish/audio/stories/magical_radio/05_chapter_05_pl_es_2026-10-30_12-52-42.mp3" length="6501398" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>06 Magiczne Radio: Pierwsze zaklęcie — El primer hechizo</title>
+      <description>Rozdział 6 z 8 opowieści „Magiczne Radio” (La radio mágica). Czas wypróbować zaklęcie na zepsutym kompasie. Czy zadziała? I kto czeka za zielonymi drzwiami?
+
+Jak wygląda odcinek:
+1. Posłuchaj całego rozdziału po hiszpańsku – nie musisz rozumieć wszystkiego.
+2. Poćwicz słowa i wyrażenia z rozdziału: podpowiedź po polsku, przerwa, odpowiedź po hiszpańsku.
+3. Posłuchaj rozdziału ponownie i sprawdź, ile udało Ci się zrozumieć.
+
+Między częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynając od rozdziału 1.</description>
+      <content:encoded>&lt;p&gt;Rozdział 6 z 8 opowieści „Magiczne Radio” (La radio mágica). Czas wypróbować zaklęcie na zepsutym kompasie. Czy zadziała? I kto czeka za zielonymi drzwiami?&lt;/p&gt;&lt;p&gt;Jak wygląda odcinek:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Posłuchaj całego rozdziału po hiszpańsku – nie musisz rozumieć wszystkiego.&lt;/li&gt;&lt;li&gt;Poćwicz słowa i wyrażenia z rozdziału: podpowiedź po polsku, przerwa, odpowiedź po hiszpańsku.&lt;/li&gt;&lt;li&gt;Posłuchaj rozdziału ponownie i sprawdź, ile udało Ci się zrozumieć.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;Między częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynając od rozdziału 1.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">magical_radio:pl:es:chapter-06</guid>
+      <pubDate>Fri, 30 Oct 2026 11:56:17 +0000</pubDate>
+      <itunes:episode>6</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>226</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://trusohamn.github.io/repeto/polish-spanish/images/stories/magical_radio/cover-447076a6.jpeg" />
+      <enclosure url="https://trusohamn.github.io/repeto/polish-spanish/audio/stories/magical_radio/06_chapter_06_pl_es_2026-10-30_12-52-42.mp3" length="5424317" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>07 Magiczne Radio: Złoty ptak — El pájaro dorado</title>
+      <description>Rozdział 7 z 8 opowieści „Magiczne Radio” (La radio mágica). Za drzwiami jest podziemny ogród. Złoty ptak zamiast śpiewać tyka jak zegar. W jego skrzydle brakuje kamyka, a radio skrywa tajemnicę.
+
+Jak wygląda odcinek:
+1. Posłuchaj całego rozdziału po hiszpańsku – nie musisz rozumieć wszystkiego.
+2. Poćwicz słowa i wyrażenia z rozdziału: podpowiedź po polsku, przerwa, odpowiedź po hiszpańsku.
+3. Posłuchaj rozdziału ponownie i sprawdź, ile udało Ci się zrozumieć.
+
+Między częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynając od rozdziału 1.</description>
+      <content:encoded>&lt;p&gt;Rozdział 7 z 8 opowieści „Magiczne Radio” (La radio mágica). Za drzwiami jest podziemny ogród. Złoty ptak zamiast śpiewać tyka jak zegar. W jego skrzydle brakuje kamyka, a radio skrywa tajemnicę.&lt;/p&gt;&lt;p&gt;Jak wygląda odcinek:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Posłuchaj całego rozdziału po hiszpańsku – nie musisz rozumieć wszystkiego.&lt;/li&gt;&lt;li&gt;Poćwicz słowa i wyrażenia z rozdziału: podpowiedź po polsku, przerwa, odpowiedź po hiszpańsku.&lt;/li&gt;&lt;li&gt;Posłuchaj rozdziału ponownie i sprawdź, ile udało Ci się zrozumieć.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;Między częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynając od rozdziału 1.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">magical_radio:pl:es:chapter-07</guid>
+      <pubDate>Fri, 30 Oct 2026 11:56:17 +0000</pubDate>
+      <itunes:episode>7</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>354</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://trusohamn.github.io/repeto/polish-spanish/images/stories/magical_radio/cover-447076a6.jpeg" />
+      <enclosure url="https://trusohamn.github.io/repeto/polish-spanish/audio/stories/magical_radio/07_chapter_07_pl_es_2026-10-30_12-52-42.mp3" length="8488794" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>08 Magiczne Radio: Wielki koncert — El gran concierto</title>
+      <description>Rozdział 8 z 8 opowieści „Magiczne Radio” (La radio mágica). Finał! Czy rodzeństwu uda się naprawić złotego ptaka? Opowieść kończy się śpiewem, tańczącymi motylami i zapowiedzią nowej przygody.
+
+Jak wygląda odcinek:
+1. Posłuchaj całego rozdziału po hiszpańsku – nie musisz rozumieć wszystkiego.
+2. Poćwicz słowa i wyrażenia z rozdziału: podpowiedź po polsku, przerwa, odpowiedź po hiszpańsku.
+3. Posłuchaj rozdziału ponownie i sprawdź, ile udało Ci się zrozumieć.
+
+Między częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynając od rozdziału 1.</description>
+      <content:encoded>&lt;p&gt;Rozdział 8 z 8 opowieści „Magiczne Radio” (La radio mágica). Finał! Czy rodzeństwu uda się naprawić złotego ptaka? Opowieść kończy się śpiewem, tańczącymi motylami i zapowiedzią nowej przygody.&lt;/p&gt;&lt;p&gt;Jak wygląda odcinek:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Posłuchaj całego rozdziału po hiszpańsku – nie musisz rozumieć wszystkiego.&lt;/li&gt;&lt;li&gt;Poćwicz słowa i wyrażenia z rozdziału: podpowiedź po polsku, przerwa, odpowiedź po hiszpańsku.&lt;/li&gt;&lt;li&gt;Posłuchaj rozdziału ponownie i sprawdź, ile udało Ci się zrozumieć.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;Między częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynając od rozdziału 1.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">magical_radio:pl:es:chapter-08</guid>
+      <pubDate>Fri, 30 Oct 2026 11:56:17 +0000</pubDate>
+      <itunes:episode>8</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>238</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://trusohamn.github.io/repeto/polish-spanish/images/stories/magical_radio/cover-447076a6.jpeg" />
+      <enclosure url="https://trusohamn.github.io/repeto/polish-spanish/audio/stories/magical_radio/08_chapter_08_pl_es_2026-10-30_12-52-42.mp3" length="5713963" type="audio/mpeg" />
+    </item>
+  </channel>
+</rss>

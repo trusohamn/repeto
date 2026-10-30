@@ -131,6 +131,41 @@ class StoryCourseTests(unittest.TestCase):
                 self.assertEqual(clip.frame_rate, 44100)
             self.assertEqual(synthesis.call_count, 2)
 
+    def test_azure_narration_retries_transient_errors_only(self):
+        import io
+        azure = story_course._azure()
+        buffer = io.BytesIO()
+        tone().export(buffer, format="mp3")
+        with tempfile.TemporaryDirectory() as directory:
+            cache = Path(directory)
+            with patch.object(story_course, "_azure", return_value=azure), patch.object(
+                azure, "synthesize", side_effect=[
+                    azure.AzureSpeechError("Temporary failure", retryable=True),
+                    buffer.getvalue(),
+                ],
+            ) as synthesis, patch.object(
+                story_course.asyncio, "sleep", new_callable=AsyncMock,
+            ) as sleep, self.assertLogs(story_course.LOGGER, level="WARNING"):
+                clip = asyncio.run(story_course._narration_clip(
+                    "retryable", cache, "fake", "swedencentral",
+                ))
+            self.assertGreater(len(clip), 0)
+            self.assertEqual(synthesis.call_count, 2)
+            sleep.assert_awaited_once_with(2)
+            files_before = set(cache.iterdir())
+            with patch.object(story_course, "_azure", return_value=azure), patch.object(
+                azure, "synthesize", side_effect=azure.AzureSpeechError("Invalid request"),
+            ) as synthesis, patch.object(
+                story_course.asyncio, "sleep", new_callable=AsyncMock,
+            ) as sleep:
+                with self.assertRaisesRegex(azure.AzureSpeechError, "Invalid request"):
+                    asyncio.run(story_course._narration_clip(
+                        "nonretryable", cache, "fake", "swedencentral",
+                    ))
+            synthesis.assert_called_once()
+            sleep.assert_not_awaited()
+            self.assertEqual(set(cache.iterdir()), files_before)
+
     def test_real_story_validates_and_reconstructs_source(self):
         story = story_course.load_transcript(
             ROOT / "courses/stories/magical_radio/generated/transcript.json",
@@ -177,6 +212,43 @@ class StoryCourseTests(unittest.TestCase):
         self.assertEqual(vocabulary[133]["en"], "go to the tree")
         self.assertEqual(vocabulary[160]["en"], "begin to speak")
         self.assertEqual(vocabulary[227]["en"], "glow with a golden light")
+        self.assertEqual(vocabulary[147]["es"], "conducir hacia abajo")
+        self.assertEqual(vocabulary[234]["sv"], "på den andra vingen")
+
+    def test_swedish_story_is_complete_and_has_localized_heading(self):
+        story = story_course.load_transcript(
+            ROOT / "courses/stories/magical_radio/generated/transcript.json",
+            ROOT / "courses/stories/magical_radio/complete/pl.txt",
+        )
+        swedish = " ".join(chapter["chapter_text"]["sv"] for chapter in story["chapters"])
+        for name in ("Maja", "Tom", "Radiofon", "Reparo"):
+            self.assertIn(name, swedish)
+        self.assertNotIn("Tomek", swedish)
+        self.assertIn("flyger uppe vid taket", story["chapters"][3]["chapter_text"]["sv"])
+        self.assertEqual(
+            story_course.chapter_heading(story["chapters"][3], "sv"),
+            "Kapitel fyra. Trappan ner.",
+        )
+
+    def test_spain_spanish_story_and_narration_defaults(self):
+        story = story_course.load_transcript(
+            ROOT / "courses/stories/magical_radio/generated/transcript.json",
+            ROOT / "courses/stories/magical_radio/complete/pl.txt",
+        )
+        self.assertEqual(story["titles"]["es"], "La radio mágica")
+        for chapter in story["chapters"]:
+            self.assertTrue(chapter["chapter_text"]["es"])
+            self.assertTrue(all(item["text"]["es"] for item in chapter["vocabulary"]))
+        self.assertIn("¡Llevadme con vosotros!", story["chapters"][1]["chapter_text"]["es"])
+        self.assertIn("están volando", story["chapters"][3]["chapter_text"]["es"])
+        self.assertEqual(
+            story_course.chapter_heading(story["chapters"][3], "es"),
+            "Capítulo cuatro. Escaleras abajo.",
+        )
+        azure = story_course._azure()
+        self.assertEqual(azure.LOCALES["es"], "es-ES")
+        self.assertEqual(azure.NARRATION_VOICES["es"], "es-ES-ElviraNeural")
+        self.assertIsNone(azure.NARRATION_STYLES["es"])
 
     def test_russian_story_uses_localized_character_names(self):
         story = story_course.load_transcript(

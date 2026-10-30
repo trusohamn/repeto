@@ -26,6 +26,8 @@ you know the format, try another language: every course works the same way.
 | Repeto – Lär dig engelska | [page](https://trusohamn.github.io/repeto/swedish-english/) | [feed](https://trusohamn.github.io/repeto/swedish-english/feed.xml) |
 | Repeto – Lär dig ryska | [page](https://trusohamn.github.io/repeto/swedish-russian/) | [feed](https://trusohamn.github.io/repeto/swedish-russian/feed.xml) |
 | Repeto – Ucz się angielskiego | [page](https://trusohamn.github.io/repeto/polish-english/) | [feed](https://trusohamn.github.io/repeto/polish-english/feed.xml) |
+| Repeto – Ucz się szwedzkiego | [page](https://trusohamn.github.io/repeto/polish-swedish/) | [feed](https://trusohamn.github.io/repeto/polish-swedish/feed.xml) |
+| Repeto – Ucz się hiszpańskiego | [page](https://trusohamn.github.io/repeto/polish-spanish/) | [feed](https://trusohamn.github.io/repeto/polish-spanish/feed.xml) |
 
 New or updated packages become available at these URLs only after publishing
 to GitHub Pages.
@@ -38,10 +40,15 @@ The code generates the language-learning MP3s and timestamp JSON files from the
 shared practice corpus in
 [courses/practice/transcript.json](courses/practice/transcript.json) and the
 stories in [courses/stories/](courses/stories/), then packages them as podcast
-feeds. Supports Swedish (`se`), English (`en`), Polish (`pl`), and Russian
-(`ru`) in any direction.
+feeds. Supports Swedish (`se` in practice data, `sv` in stories and catalogs),
+English (`en`), Polish (`pl`), Russian (`ru`), and Spain Spanish (`es`).
 
 ## Podcast packaging
+
+For new translations or language corrections, use the
+[language review skill](.github/skills/review-language-course/SKILL.md) before
+audio generation. It separates phrase-by-phrase linguistic review, automated
+validation and listening checks, and requires text and audio to stay synchronized.
 
 To package another completed course, ask the agent to use the repository's
 [package-podcast skill](.github/skills/package-podcast/SKILL.md).
@@ -70,6 +77,18 @@ For Polish prompts and English answers, including the story as season 2:
 This direction uses Polish show/episode descriptions and page labels, Polish
 vocabulary prompts, and English narration with two English vocabulary answers.
 Both renderers default to licensed Azure Speech.
+
+For the other Polish-source courses, use practice target `se` with course
+`polish-swedish`, or target `es` with course `polish-spanish`. The Swedish
+story target is `sv`; Spanish uses `es` in both renderers. Use separate render
+directories such as `output/polish_swedish_double` and
+`output/polish_spanish_double`. Select Spanish explicitly with `--target es`;
+the practice renderer's default target set remains `se`, `pl`, `en`, and `ru`
+(excluding the source) for compatibility with older transcripts.
+Swedish stories use Harper's audiobook voice; Spain Spanish uses
+`es-ES-ElviraNeural` for narration and practice, without an expressive style
+(the configured Azure region does not advertise Spain Spanish Harper).
+Both courses retain Polish prompts, descriptions and page labels.
 
 Each podcast lives in `podcast/<course>/` with `cover.jpeg`, `course.json`,
 categorized audio, and generated RSS files. Vocabulary-topic MP3s live in

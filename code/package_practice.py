@@ -118,7 +118,8 @@ def move_audio(source: Path, destination: Path) -> None:
 def package(args: argparse.Namespace) -> dict[str, Any]:
     """Validate renders, move them into the course, and rebuild every feed."""
     source, target = args.source, args.target
-    if target not in _load("descriptions").LANGUAGES:
+    catalog_target = "sv" if target == "se" else target
+    if catalog_target not in _load("descriptions").LANGUAGES:
         raise ValueError(f"No Swedish language name configured for {target!r}.")
     if source not in ("se", "pl"):
         raise ValueError("Podcast copy supports only --source se or --source pl.")
@@ -134,8 +135,8 @@ def package(args: argparse.Namespace) -> dict[str, Any]:
     if catalog_path.is_file():
         catalog = json.loads(catalog_path.read_text(encoding="utf-8"))
         if (
-            catalog.get("source_language", "sv"), catalog.get("target_language", target)
-        ) != (catalog_source, target):
+            catalog.get("source_language", "sv"), catalog.get("target_language", catalog_target)
+        ) != (catalog_source, catalog_target):
             raise ValueError(f"Podcast course {args.course!r} has another direction.")
     else:
         catalog = {
@@ -147,7 +148,7 @@ def package(args: argparse.Namespace) -> dict[str, Any]:
             "author": args.author,
             "email": args.email,
             "source_language": catalog_source,
-            "target_language": target,
+            "target_language": catalog_target,
             "episodes": [],
         }
     previous = {episode["id"]: episode for episode in catalog["episodes"]}

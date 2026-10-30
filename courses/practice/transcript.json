@@ -1,6 +1,7 @@
 [
   {
     "id": "phrase_000001",
+    "es": "¡Hola!",
     "topic": "Greetings",
     "se": "Hej!",
     "pl": "Cześć!",
@@ -9,6 +10,7 @@
   },
   {
     "id": "phrase_000003",
+    "es": "¡Buenos días!",
     "topic": "Greetings",
     "se": "God morgon!",
     "pl": "Dzień dobry!",
@@ -17,6 +19,7 @@
   },
   {
     "id": "phrase_000004",
+    "es": "¡Buenas tardes!",
     "topic": "Greetings",
     "se": "God eftermiddag!",
     "pl": "Dzień dobry!",
@@ -25,6 +28,7 @@
   },
   {
     "id": "phrase_000005",
+    "es": "¡Buenas noches!",
     "topic": "Greetings",
     "se": "God kväll!",
     "pl": "Dobry wieczór!",
@@ -33,6 +37,7 @@
   },
   {
     "id": "phrase_000006",
+    "es": "¡Buenas noches!",
     "topic": "Greetings",
     "se": "God natt!",
     "pl": "Dobranoc!",
@@ -41,6 +46,7 @@
   },
   {
     "id": "phrase_000007",
+    "es": "¡Adiós!",
     "topic": "Greetings",
     "se": "Hejdå!",
     "pl": "Do widzenia!",
@@ -49,6 +55,7 @@
   },
   {
     "id": "phrase_000008",
+    "es": "¡Hasta luego!",
     "topic": "Greetings",
     "se": "Vi ses!",
     "pl": "Na razie!",
@@ -57,6 +64,7 @@
   },
   {
     "id": "phrase_000009",
+    "es": "¡Hasta mañana!",
     "topic": "Greetings",
     "se": "Vi ses imorgon!",
     "pl": "Do jutra!",
@@ -65,6 +73,7 @@
   },
   {
     "id": "phrase_000010",
+    "es": "¡Gracias!",
     "topic": "Greetings",
     "se": "Tack!",
     "pl": "Dziękuję!",
@@ -73,6 +82,7 @@
   },
   {
     "id": "phrase_000011",
+    "es": "¡Muchas gracias!",
     "topic": "Greetings",
     "se": "Tack så mycket!",
     "pl": "Dziękuję bardzo!",
@@ -81,6 +91,7 @@
   },
   {
     "id": "phrase_000012",
+    "es": "¡De nada!",
     "topic": "Greetings",
     "se": "Varsågod!",
     "pl": "Proszę!",
@@ -89,6 +100,7 @@
   },
   {
     "id": "phrase_000013",
+    "es": "¡Lo siento!",
     "topic": "Greetings",
     "se": "Förlåt!",
     "pl": "Przepraszam!",
@@ -97,6 +109,7 @@
   },
   {
     "id": "phrase_000014",
+    "es": "¡Perdona!",
     "topic": "Greetings",
     "se": "Ursäkta!",
     "pl": "Przepraszam!",
@@ -105,6 +118,7 @@
   },
   {
     "id": "phrase_000015",
+    "es": "Sí.",
     "topic": "Greetings",
     "se": "Ja.",
     "pl": "Tak.",
@@ -113,6 +127,7 @@
   },
   {
     "id": "phrase_000016",
+    "es": "No.",
     "topic": "Greetings",
     "se": "Nej.",
     "pl": "Nie.",
@@ -121,6 +136,7 @@
   },
   {
     "id": "phrase_000017",
+    "es": "Quizá.",
     "topic": "Greetings",
     "se": "Kanske.",
     "pl": "Może.",
@@ -129,6 +145,7 @@
   },
   {
     "id": "phrase_000018",
+    "es": "¡Vale!",
     "topic": "Greetings",
     "se": "Okej!",
     "pl": "Dobra!",
@@ -137,6 +154,7 @@
   },
   {
     "id": "phrase_000019",
+    "es": "¡Bien!",
     "topic": "Greetings",
     "se": "Bra!",
     "pl": "Dobrze!",
@@ -145,6 +163,7 @@
   },
   {
     "id": "phrase_000020",
+    "es": "¿Cómo estás?",
     "topic": "Greetings",
     "se": "Hur mår du?",
     "pl": "Jak się masz?",
@@ -153,6 +172,7 @@
   },
   {
     "id": "phrase_000021",
+    "es": "Estoy bien.",
     "topic": "Greetings",
     "se": "Jag mår bra.",
     "pl": "Czuję się dobrze.",
@@ -161,6 +181,7 @@
   },
   {
     "id": "phrase_000022",
+    "es": "No me encuentro bien.",
     "topic": "Greetings",
     "se": "Jag mår inte bra.",
     "pl": "Źle się czuję.",
@@ -169,6 +190,7 @@
   },
   {
     "id": "phrase_000023",
+    "es": "¿Cómo te llamas?",
     "topic": "Greetings",
     "se": "Vad heter du?",
     "pl": "Jak masz na imię?",
@@ -177,6 +199,7 @@
   },
   {
     "id": "phrase_000024",
+    "es": "Me llamo Maya.",
     "topic": "Greetings",
     "se": "Jag heter Maja.",
     "pl": "Mam na imię Maja.",
@@ -185,6 +208,7 @@
   },
   {
     "id": "phrase_000025",
+    "es": "¿Cuántos años tienes?",
     "topic": "Greetings",
     "se": "Hur gammal är du?",
     "pl": "Ile masz lat?",
@@ -193,6 +217,7 @@
   },
   {
     "id": "phrase_000026",
+    "es": "Tengo siete años.",
     "topic": "Greetings",
     "se": "Jag är sju år.",
     "pl": "Mam siedem lat.",
@@ -201,6 +226,7 @@
   },
   {
     "id": "phrase_000027",
+    "es": "¿De dónde eres?",
     "topic": "Greetings",
     "se": "Varifrån kommer du?",
     "pl": "Skąd pochodzisz?",
@@ -209,6 +235,7 @@
   },
   {
     "id": "phrase_000028",
+    "es": "Soy de Suecia.",
     "topic": "Greetings",
     "se": "Jag kommer från Sverige.",
     "pl": "Pochodzę ze Szwecji.",
@@ -217,6 +244,7 @@
   },
   {
     "id": "phrase_000029",
+    "es": "¡Encantado de conocerte!",
     "topic": "Greetings",
     "se": "Vad kul att träffa dig!",
     "pl": "Miło cię poznać!",
@@ -225,6 +253,7 @@
   },
   {
     "id": "phrase_000030",
+    "es": "Uno",
     "topic": "Numbers",
     "se": "Ett",
     "pl": "Jeden",
@@ -233,6 +262,7 @@
   },
   {
     "id": "phrase_000031",
+    "es": "Dos",
     "topic": "Numbers",
     "se": "Två",
     "pl": "Dwa",
@@ -241,6 +271,7 @@
   },
   {
     "id": "phrase_000032",
+    "es": "Tres",
     "topic": "Numbers",
     "se": "Tre",
     "pl": "Trzy",
@@ -249,6 +280,7 @@
   },
   {
     "id": "phrase_000033",
+    "es": "Cuatro",
     "topic": "Numbers",
     "se": "Fyra",
     "pl": "Cztery",
@@ -257,6 +289,7 @@
   },
   {
     "id": "phrase_000034",
+    "es": "Cinco",
     "topic": "Numbers",
     "se": "Fem",
     "pl": "Pięć",
@@ -265,6 +298,7 @@
   },
   {
     "id": "phrase_000035",
+    "es": "Seis",
     "topic": "Numbers",
     "se": "Sex",
     "pl": "Sześć",
@@ -273,6 +307,7 @@
   },
   {
     "id": "phrase_000036",
+    "es": "Siete",
     "topic": "Numbers",
     "se": "Sju",
     "pl": "Siedem",
@@ -281,6 +316,7 @@
   },
   {
     "id": "phrase_000037",
+    "es": "Ocho",
     "topic": "Numbers",
     "se": "Åtta",
     "pl": "Osiem",
@@ -289,6 +325,7 @@
   },
   {
     "id": "phrase_000038",
+    "es": "Nueve",
     "topic": "Numbers",
     "se": "Nio",
     "pl": "Dziewięć",
@@ -297,6 +334,7 @@
   },
   {
     "id": "phrase_000039",
+    "es": "Diez",
     "topic": "Numbers",
     "se": "Tio",
     "pl": "Dziesięć",
@@ -305,6 +343,7 @@
   },
   {
     "id": "phrase_000040",
+    "es": "Once",
     "topic": "Numbers",
     "se": "Elva",
     "pl": "Jedenaście",
@@ -313,6 +352,7 @@
   },
   {
     "id": "phrase_000041",
+    "es": "Doce",
     "topic": "Numbers",
     "se": "Tolv",
     "pl": "Dwanaście",
@@ -321,6 +361,7 @@
   },
   {
     "id": "phrase_000042",
+    "es": "Trece",
     "topic": "Numbers",
     "se": "Tretton",
     "pl": "Trzynaście",
@@ -329,6 +370,7 @@
   },
   {
     "id": "phrase_000043",
+    "es": "Catorce",
     "topic": "Numbers",
     "se": "Fjorton",
     "pl": "Czternaście",
@@ -337,6 +379,7 @@
   },
   {
     "id": "phrase_000044",
+    "es": "Quince",
     "topic": "Numbers",
     "se": "Femton",
     "pl": "Piętnaście",
@@ -345,6 +388,7 @@
   },
   {
     "id": "phrase_000045",
+    "es": "Dieciséis",
     "topic": "Numbers",
     "se": "Sexton",
     "pl": "Szesnaście",
@@ -353,6 +397,7 @@
   },
   {
     "id": "phrase_000046",
+    "es": "Diecisiete",
     "topic": "Numbers",
     "se": "Sjutton",
     "pl": "Siedemnaście",
@@ -361,6 +406,7 @@
   },
   {
     "id": "phrase_000047",
+    "es": "Dieciocho",
     "topic": "Numbers",
     "se": "Arton",
     "pl": "Osiemnaście",
@@ -369,6 +415,7 @@
   },
   {
     "id": "phrase_000048",
+    "es": "Diecinueve",
     "topic": "Numbers",
     "se": "Nitton",
     "pl": "Dziewiętnaście",
@@ -377,6 +424,7 @@
   },
   {
     "id": "phrase_000049",
+    "es": "Veinte",
     "topic": "Numbers",
     "se": "Tjugo",
     "pl": "Dwadzieścia",
@@ -385,6 +433,7 @@
   },
   {
     "id": "phrase_000050",
+    "es": "Treinta",
     "topic": "Numbers",
     "se": "Trettio",
     "pl": "Trzydzieści",
@@ -393,6 +442,7 @@
   },
   {
     "id": "phrase_000051",
+    "es": "Cuarenta",
     "topic": "Numbers",
     "se": "Fyrtio",
     "pl": "Czterdzieści",
@@ -401,6 +451,7 @@
   },
   {
     "id": "phrase_000052",
+    "es": "Cincuenta",
     "topic": "Numbers",
     "se": "Femtio",
     "pl": "Pięćdziesiąt",
@@ -409,6 +460,7 @@
   },
   {
     "id": "phrase_000053",
+    "es": "Cien",
     "topic": "Numbers",
     "se": "Hundra",
     "pl": "Sto",
@@ -417,6 +469,7 @@
   },
   {
     "id": "phrase_000054",
+    "es": "Tengo dos gatos.",
     "topic": "Numbers",
     "se": "Jag har två katter.",
     "pl": "Mam dwa koty.",
@@ -425,6 +478,7 @@
   },
   {
     "id": "phrase_000055",
+    "es": "Tengo ocho años.",
     "topic": "Numbers",
     "se": "Jag är åtta år.",
     "pl": "Mam osiem lat.",
@@ -433,6 +487,7 @@
   },
   {
     "id": "phrase_000056",
+    "es": "Tengo tres hermanas.",
     "topic": "Numbers",
     "se": "Jag har tre systrar.",
     "pl": "Mam trzy siostry.",
@@ -441,6 +496,7 @@
   },
   {
     "id": "phrase_000057",
+    "es": "Hay cuatro manzanas.",
     "topic": "Numbers",
     "se": "Det finns fyra äpplen.",
     "pl": "Są cztery jabłka.",
@@ -449,6 +505,7 @@
   },
   {
     "id": "phrase_000058",
+    "es": "¿Cuántos hay?",
     "topic": "Numbers",
     "se": "Hur många?",
     "pl": "Ile?",
@@ -457,6 +514,7 @@
   },
   {
     "id": "phrase_000059",
+    "es": "¡Vamos a contar juntos!",
     "topic": "Numbers",
     "se": "Räkna med mig!",
     "pl": "Licz ze mną!",
@@ -465,6 +523,7 @@
   },
   {
     "id": "phrase_000060",
+    "es": "Rojo",
     "topic": "Colors",
     "se": "Röd",
     "pl": "Czerwony",
@@ -473,6 +532,7 @@
   },
   {
     "id": "phrase_000061",
+    "es": "Azul",
     "topic": "Colors",
     "se": "Blå",
     "pl": "Niebieski",
@@ -481,6 +541,7 @@
   },
   {
     "id": "phrase_000062",
+    "es": "Amarillo",
     "topic": "Colors",
     "se": "Gul",
     "pl": "Żółty",
@@ -489,6 +550,7 @@
   },
   {
     "id": "phrase_000063",
+    "es": "Verde",
     "topic": "Colors",
     "se": "Grön",
     "pl": "Zielony",
@@ -497,6 +559,7 @@
   },
   {
     "id": "phrase_000064",
+    "es": "Naranja",
     "topic": "Colors",
     "se": "Orange",
     "pl": "Pomarańczowy",
@@ -505,6 +568,7 @@
   },
   {
     "id": "phrase_000065",
+    "es": "Morado",
     "topic": "Colors",
     "se": "Lila",
     "pl": "Fioletowy",
@@ -513,6 +577,7 @@
   },
   {
     "id": "phrase_000066",
+    "es": "Rosa",
     "topic": "Colors",
     "se": "Rosa",
     "pl": "Różowy",
@@ -521,6 +586,7 @@
   },
   {
     "id": "phrase_000067",
+    "es": "Blanco",
     "topic": "Colors",
     "se": "Vit",
     "pl": "Biały",
@@ -529,6 +595,7 @@
   },
   {
     "id": "phrase_000068",
+    "es": "Negro",
     "topic": "Colors",
     "se": "Svart",
     "pl": "Czarny",
@@ -537,6 +604,7 @@
   },
   {
     "id": "phrase_000069",
+    "es": "Gris",
     "topic": "Colors",
     "se": "Grå",
     "pl": "Szary",
@@ -545,6 +613,7 @@
   },
   {
     "id": "phrase_000070",
+    "es": "Marrón",
     "topic": "Colors",
     "se": "Brun",
     "pl": "Brązowy",
@@ -553,6 +622,7 @@
   },
   {
     "id": "phrase_000071",
+    "es": "¿De qué color es?",
     "topic": "Colors",
     "se": "Vilken färg är det?",
     "pl": "Jakiego to koloru?",
@@ -561,6 +631,7 @@
   },
   {
     "id": "phrase_000072",
+    "es": "Es rojo.",
     "topic": "Colors",
     "se": "Det är rött.",
     "pl": "To jest czerwone.",
@@ -569,6 +640,7 @@
   },
   {
     "id": "phrase_000073",
+    "es": "Es azul.",
     "topic": "Colors",
     "se": "Det är blått.",
     "pl": "To jest niebieskie.",
@@ -577,6 +649,7 @@
   },
   {
     "id": "phrase_000074",
+    "es": "Es amarillo.",
     "topic": "Colors",
     "se": "Det är gult.",
     "pl": "To jest żółte.",
@@ -585,6 +658,7 @@
   },
   {
     "id": "phrase_000075",
+    "es": "Mi color favorito es el verde.",
     "topic": "Colors",
     "se": "Min favoritfärg är grön.",
     "pl": "Mój ulubiony kolor to zielony.",
@@ -593,6 +667,7 @@
   },
   {
     "id": "phrase_000076",
+    "es": "El cielo es azul.",
     "topic": "Colors",
     "se": "Himlen är blå.",
     "pl": "Niebo jest niebieskie.",
@@ -601,6 +676,7 @@
   },
   {
     "id": "phrase_000077",
+    "es": "La hierba es verde.",
     "topic": "Colors",
     "se": "Gräset är grönt.",
     "pl": "Trawa jest zielona.",
@@ -609,6 +685,7 @@
   },
   {
     "id": "phrase_000078",
+    "es": "El sol es amarillo.",
     "topic": "Colors",
     "se": "Solen är gul.",
     "pl": "Słońce jest żółte.",
@@ -617,6 +694,7 @@
   },
   {
     "id": "phrase_000079",
+    "es": "El tomate es rojo.",
     "topic": "Colors",
     "se": "Tomaten är röd.",
     "pl": "Pomidor jest czerwony.",
@@ -625,6 +703,7 @@
   },
   {
     "id": "phrase_000080",
+    "es": "La nieve es blanca.",
     "topic": "Colors",
     "se": "Snön är vit.",
     "pl": "Śnieg jest biały.",
@@ -633,6 +712,7 @@
   },
   {
     "id": "phrase_000081",
+    "es": "La noche es negra.",
     "topic": "Colors",
     "se": "Natten är svart.",
     "pl": "Noc jest czarna.",
@@ -641,6 +721,7 @@
   },
   {
     "id": "phrase_000082",
+    "es": "Mi jersey es rosa.",
     "topic": "Colors",
     "se": "Min tröja är rosa.",
     "pl": "Mój sweter jest różowy.",
@@ -649,6 +730,7 @@
   },
   {
     "id": "phrase_000083",
+    "es": "El oso es marrón.",
     "topic": "Colors",
     "se": "Björnen är brun.",
     "pl": "Niedźwiedź jest brązowy.",
@@ -657,6 +739,7 @@
   },
   {
     "id": "phrase_000084",
+    "es": "Perro",
     "topic": "Animals",
     "se": "Hund",
     "pl": "Pies",
@@ -665,6 +748,7 @@
   },
   {
     "id": "phrase_000085",
+    "es": "Gato",
     "topic": "Animals",
     "se": "Katt",
     "pl": "Kot",
@@ -673,6 +757,7 @@
   },
   {
     "id": "phrase_000086",
+    "es": "Pájaro",
     "topic": "Animals",
     "se": "Fågel",
     "pl": "Ptak",
@@ -681,6 +766,7 @@
   },
   {
     "id": "phrase_000087",
+    "es": "Pez",
     "topic": "Animals",
     "se": "Fisk",
     "pl": "Ryba",
@@ -689,6 +775,7 @@
   },
   {
     "id": "phrase_000088",
+    "es": "Caballo",
     "topic": "Animals",
     "se": "Häst",
     "pl": "Koń",
@@ -697,6 +784,7 @@
   },
   {
     "id": "phrase_000089",
+    "es": "Vaca",
     "topic": "Animals",
     "se": "Ko",
     "pl": "Krowa",
@@ -705,6 +793,7 @@
   },
   {
     "id": "phrase_000090",
+    "es": "Cerdo",
     "topic": "Animals",
     "se": "Gris",
     "pl": "Świnia",
@@ -713,6 +802,7 @@
   },
   {
     "id": "phrase_000091",
+    "es": "Oveja",
     "topic": "Animals",
     "se": "Får",
     "pl": "Owca",
@@ -721,6 +811,7 @@
   },
   {
     "id": "phrase_000092",
+    "es": "Conejo",
     "topic": "Animals",
     "se": "Kanin",
     "pl": "Królik",
@@ -729,6 +820,7 @@
   },
   {
     "id": "phrase_000093",
+    "es": "Oso",
     "topic": "Animals",
     "se": "Björn",
     "pl": "Niedźwiedź",
@@ -737,6 +829,7 @@
   },
   {
     "id": "phrase_000094",
+    "es": "León",
     "topic": "Animals",
     "se": "Lejon",
     "pl": "Lew",
@@ -745,6 +838,7 @@
   },
   {
     "id": "phrase_000095",
+    "es": "Tigre",
     "topic": "Animals",
     "se": "Tiger",
     "pl": "Tygrys",
@@ -753,6 +847,7 @@
   },
   {
     "id": "phrase_000096",
+    "es": "Elefante",
     "topic": "Animals",
     "se": "Elefant",
     "pl": "Słoń",
@@ -761,6 +856,7 @@
   },
   {
     "id": "phrase_000097",
+    "es": "Jirafa",
     "topic": "Animals",
     "se": "Giraff",
     "pl": "Żyrafa",
@@ -769,6 +865,7 @@
   },
   {
     "id": "phrase_000098",
+    "es": "Mono",
     "topic": "Animals",
     "se": "Apa",
     "pl": "Małpa",
@@ -777,6 +874,7 @@
   },
   {
     "id": "phrase_000099",
+    "es": "Serpiente",
     "topic": "Animals",
     "se": "Orm",
     "pl": "Wąż",
@@ -785,6 +883,7 @@
   },
   {
     "id": "phrase_000100",
+    "es": "Rana",
     "topic": "Animals",
     "se": "Groda",
     "pl": "Żaba",
@@ -793,6 +892,7 @@
   },
   {
     "id": "phrase_000101",
+    "es": "Pato",
     "topic": "Animals",
     "se": "Anka",
     "pl": "Kaczka",
@@ -801,6 +901,7 @@
   },
   {
     "id": "phrase_000102",
+    "es": "Gallina",
     "topic": "Animals",
     "se": "Höna",
     "pl": "Kura",
@@ -809,6 +910,7 @@
   },
   {
     "id": "phrase_000103",
+    "es": "Gallo",
     "topic": "Animals",
     "se": "Tupp",
     "pl": "Kogut",
@@ -817,6 +919,7 @@
   },
   {
     "id": "phrase_000104",
+    "es": "Ratón",
     "topic": "Animals",
     "se": "Mus",
     "pl": "Mysz",
@@ -825,6 +928,7 @@
   },
   {
     "id": "phrase_000105",
+    "es": "Rata",
     "topic": "Animals",
     "se": "Råtta",
     "pl": "Szczur",
@@ -833,6 +937,7 @@
   },
   {
     "id": "phrase_000106",
+    "es": "Araña",
     "topic": "Animals",
     "se": "Spindel",
     "pl": "Pająk",
@@ -841,6 +946,7 @@
   },
   {
     "id": "phrase_000107",
+    "es": "Mariposa",
     "topic": "Animals",
     "se": "Fjäril",
     "pl": "Motyl",
@@ -849,6 +955,7 @@
   },
   {
     "id": "phrase_000108",
+    "es": "Abeja",
     "topic": "Animals",
     "se": "Bi",
     "pl": "Pszczoła",
@@ -857,6 +964,7 @@
   },
   {
     "id": "phrase_000109",
+    "es": "Tengo un perro.",
     "topic": "Animals",
     "se": "Jag har en hund.",
     "pl": "Mam psa.",
@@ -865,6 +973,7 @@
   },
   {
     "id": "phrase_000110",
+    "es": "Tengo un gato.",
     "topic": "Animals",
     "se": "Jag har en katt.",
     "pl": "Mam kota.",
@@ -873,6 +982,7 @@
   },
   {
     "id": "phrase_000111",
+    "es": "Quiero un conejo.",
     "topic": "Animals",
     "se": "Jag vill ha en kanin.",
     "pl": "Chcę mieć królika.",
@@ -881,6 +991,7 @@
   },
   {
     "id": "phrase_000112",
+    "es": "El perro se llama Max.",
     "topic": "Animals",
     "se": "Hunden heter Max.",
     "pl": "Pies ma na imię Max.",
@@ -889,6 +1000,7 @@
   },
   {
     "id": "phrase_000113",
+    "es": "El gato está durmiendo.",
     "topic": "Animals",
     "se": "Katten sover.",
     "pl": "Kot śpi.",
@@ -897,6 +1009,7 @@
   },
   {
     "id": "phrase_000114",
+    "es": "El caballo está corriendo.",
     "topic": "Animals",
     "se": "Hästen springer.",
     "pl": "Koń biegnie.",
@@ -905,6 +1018,7 @@
   },
   {
     "id": "phrase_000115",
+    "es": "El pájaro está cantando.",
     "topic": "Animals",
     "se": "Fågeln sjunger.",
     "pl": "Ptak śpiewa.",
@@ -913,6 +1027,7 @@
   },
   {
     "id": "phrase_000116",
+    "es": "La vaca está comiendo hierba.",
     "topic": "Animals",
     "se": "Kon äter gräs.",
     "pl": "Krowa je trawę.",
@@ -921,6 +1036,7 @@
   },
   {
     "id": "phrase_000117",
+    "es": "El león es grande.",
     "topic": "Animals",
     "se": "Lejonet är stort.",
     "pl": "Lew jest duży.",
@@ -929,6 +1045,7 @@
   },
   {
     "id": "phrase_000118",
+    "es": "El ratón es pequeño.",
     "topic": "Animals",
     "se": "Musen är liten.",
     "pl": "Mysz jest mała.",
@@ -937,6 +1054,7 @@
   },
   {
     "id": "phrase_000119",
+    "es": "Mamá",
     "topic": "Family",
     "se": "Mamma",
     "pl": "Mama",
@@ -945,6 +1063,7 @@
   },
   {
     "id": "phrase_000120",
+    "es": "Papá",
     "topic": "Family",
     "se": "Pappa",
     "pl": "Tata",
@@ -953,6 +1072,7 @@
   },
   {
     "id": "phrase_000121",
+    "es": "Hermana",
     "topic": "Family",
     "se": "Syster",
     "pl": "Siostra",
@@ -961,6 +1081,7 @@
   },
   {
     "id": "phrase_000122",
+    "es": "Hermano",
     "topic": "Family",
     "se": "Bror",
     "pl": "Brat",
@@ -969,6 +1090,7 @@
   },
   {
     "id": "phrase_000123",
+    "es": "Abuela",
     "topic": "Family",
     "se": "Farmor",
     "pl": "Babcia",
@@ -977,6 +1099,7 @@
   },
   {
     "id": "phrase_000124",
+    "es": "Abuelo",
     "topic": "Family",
     "se": "Farfar",
     "pl": "Dziadek",
@@ -985,6 +1108,7 @@
   },
   {
     "id": "phrase_000125",
+    "es": "Tía",
     "topic": "Family",
     "se": "Moster",
     "pl": "Ciocia",
@@ -993,6 +1117,7 @@
   },
   {
     "id": "phrase_000126",
+    "es": "Tío",
     "topic": "Family",
     "se": "Farbror",
     "pl": "Wujek",
@@ -1001,6 +1126,7 @@
   },
   {
     "id": "phrase_000127",
+    "es": "Primo",
     "topic": "Family",
     "se": "Kusin",
     "pl": "Kuzyn",
@@ -1009,6 +1135,7 @@
   },
   {
     "id": "phrase_000128",
+    "es": "Bebé",
     "topic": "Family",
     "se": "Bebis",
     "pl": "Niemowlę",
@@ -1017,6 +1144,7 @@
   },
   {
     "id": "phrase_000129",
+    "es": "Mi madre se llama Anna.",
     "topic": "Family",
     "se": "Min mamma heter Anna.",
     "pl": "Moja mama ma na imię Anna.",
@@ -1025,6 +1153,7 @@
   },
   {
     "id": "phrase_000130",
+    "es": "Mi padre se llama Piotr.",
     "topic": "Family",
     "se": "Min pappa heter Piotr.",
     "pl": "Mój tata ma na imię Piotr.",
@@ -1033,6 +1162,7 @@
   },
   {
     "id": "phrase_000131",
+    "es": "Quiero a mi familia.",
     "topic": "Family",
     "se": "Jag älskar min familj.",
     "pl": "Kocham moją rodzinę.",
@@ -1041,6 +1171,7 @@
   },
   {
     "id": "phrase_000132",
+    "es": "Mi hermana es menor.",
     "topic": "Family",
     "se": "Min syster är yngre.",
     "pl": "Moja siostra jest młodsza.",
@@ -1049,6 +1180,7 @@
   },
   {
     "id": "phrase_000133",
+    "es": "Mi hermano es mayor.",
     "topic": "Family",
     "se": "Min bror är äldre.",
     "pl": "Mój brat jest starszy.",
@@ -1057,6 +1189,7 @@
   },
   {
     "id": "phrase_000134",
+    "es": "Vivimos juntos.",
     "topic": "Family",
     "se": "Vi bor tillsammans.",
     "pl": "Mieszkamy razem.",
@@ -1065,6 +1198,7 @@
   },
   {
     "id": "phrase_000135",
+    "es": "La abuela hace galletas.",
     "topic": "Family",
     "se": "Farmor bakar kakor.",
     "pl": "Babcia piecze ciasteczka.",
@@ -1073,6 +1207,7 @@
   },
   {
     "id": "phrase_000136",
+    "es": "El abuelo cuenta cuentos.",
     "topic": "Family",
     "se": "Farfar berättar sagor.",
     "pl": "Dziadek opowiada bajki.",
@@ -1081,6 +1216,7 @@
   },
   {
     "id": "phrase_000137",
+    "es": "Jugamos con nuestro primo.",
     "topic": "Family",
     "se": "Vi leker med kusinen.",
     "pl": "Bawimy się z kuzynem.",
@@ -1089,6 +1225,7 @@
   },
   {
     "id": "phrase_000138",
+    "es": "Somos una familia grande.",
     "topic": "Family",
     "se": "Vi är en stor familj.",
     "pl": "Jesteśmy dużą rodziną.",
@@ -1097,6 +1234,7 @@
   },
   {
     "id": "phrase_000139",
+    "es": "Pan",
     "topic": "Food",
     "se": "Bröd",
     "pl": "Chleb",
@@ -1105,6 +1243,7 @@
   },
   {
     "id": "phrase_000140",
+    "es": "Leche",
     "topic": "Food",
     "se": "Mjölk",
     "pl": "Mleko",
@@ -1113,6 +1252,7 @@
   },
   {
     "id": "phrase_000141",
+    "es": "Huevo",
     "topic": "Food",
     "se": "Ägg",
     "pl": "Jajko",
@@ -1121,6 +1261,7 @@
   },
   {
     "id": "phrase_000142",
+    "es": "Mantequilla",
     "topic": "Food",
     "se": "Smör",
     "pl": "Masło",
@@ -1129,6 +1270,7 @@
   },
   {
     "id": "phrase_000143",
+    "es": "Queso",
     "topic": "Food",
     "se": "Ost",
     "pl": "Ser",
@@ -1137,6 +1279,7 @@
   },
   {
     "id": "phrase_000144",
+    "es": "Manzana",
     "topic": "Food",
     "se": "Äpple",
     "pl": "Jabłko",
@@ -1145,6 +1288,7 @@
   },
   {
     "id": "phrase_000145",
+    "es": "Pera",
     "topic": "Food",
     "se": "Päron",
     "pl": "Gruszka",
@@ -1153,6 +1297,7 @@
   },
   {
     "id": "phrase_000146",
+    "es": "Plátano",
     "topic": "Food",
     "se": "Banan",
     "pl": "Banan",
@@ -1161,6 +1306,7 @@
   },
   {
     "id": "phrase_000147",
+    "es": "Fresa",
     "topic": "Food",
     "se": "Jordgubbe",
     "pl": "Truskawka",
@@ -1169,6 +1315,7 @@
   },
   {
     "id": "phrase_000148",
+    "es": "Sandía",
     "topic": "Food",
     "se": "Vattenmelon",
     "pl": "Arbuz",
@@ -1177,6 +1324,7 @@
   },
   {
     "id": "phrase_000149",
+    "es": "Naranja",
     "topic": "Food",
     "se": "Apelsin",
     "pl": "Pomarańcza",
@@ -1185,6 +1333,7 @@
   },
   {
     "id": "phrase_000150",
+    "es": "Limón",
     "topic": "Food",
     "se": "Citron",
     "pl": "Cytryna",
@@ -1193,6 +1342,7 @@
   },
   {
     "id": "phrase_000151",
+    "es": "Zanahoria",
     "topic": "Food",
     "se": "Morot",
     "pl": "Marchew",
@@ -1201,6 +1351,7 @@
   },
   {
     "id": "phrase_000152",
+    "es": "Tomate",
     "topic": "Food",
     "se": "Tomat",
     "pl": "Pomidor",
@@ -1209,6 +1360,7 @@
   },
   {
     "id": "phrase_000153",
+    "es": "Patata",
     "topic": "Food",
     "se": "Potatis",
     "pl": "Ziemniak",
@@ -1217,6 +1369,7 @@
   },
   {
     "id": "phrase_000154",
+    "es": "Pepino",
     "topic": "Food",
     "se": "Gurka",
     "pl": "Ogórek",
@@ -1225,6 +1378,7 @@
   },
   {
     "id": "phrase_000155",
+    "es": "Sopa",
     "topic": "Food",
     "se": "Soppa",
     "pl": "Zupa",
@@ -1233,6 +1387,7 @@
   },
   {
     "id": "phrase_000156",
+    "es": "Pasta",
     "topic": "Food",
     "se": "Pasta",
     "pl": "Makaron",
@@ -1241,6 +1396,7 @@
   },
   {
     "id": "phrase_000157",
+    "es": "Pizza",
     "topic": "Food",
     "se": "Pizza",
     "pl": "Pizza",
@@ -1249,6 +1405,7 @@
   },
   {
     "id": "phrase_000158",
+    "es": "Arroz",
     "topic": "Food",
     "se": "Ris",
     "pl": "Ryż",
@@ -1257,6 +1414,7 @@
   },
   {
     "id": "phrase_000159",
+    "es": "Pollo",
     "topic": "Food",
     "se": "Kyckling",
     "pl": "Kurczak",
@@ -1265,6 +1423,7 @@
   },
   {
     "id": "phrase_000160",
+    "es": "Carne",
     "topic": "Food",
     "se": "Kött",
     "pl": "Mięso",
@@ -1273,6 +1432,7 @@
   },
   {
     "id": "phrase_000161",
+    "es": "Pescado",
     "topic": "Food",
     "se": "Fisk",
     "pl": "Ryba",
@@ -1281,6 +1441,7 @@
   },
   {
     "id": "phrase_000162",
+    "es": "Helado",
     "topic": "Food",
     "se": "Glass",
     "pl": "Lody",
@@ -1289,6 +1450,7 @@
   },
   {
     "id": "phrase_000163",
+    "es": "Galleta",
     "topic": "Food",
     "se": "Kaka",
     "pl": "Ciastko",
@@ -1297,6 +1459,7 @@
   },
   {
     "id": "phrase_000164",
+    "es": "Chocolate",
     "topic": "Food",
     "se": "Choklad",
     "pl": "Czekolada",
@@ -1305,6 +1468,7 @@
   },
   {
     "id": "phrase_000165",
+    "es": "Agua",
     "topic": "Food",
     "se": "Vatten",
     "pl": "Woda",
@@ -1313,6 +1477,7 @@
   },
   {
     "id": "phrase_000166",
+    "es": "Zumo",
     "topic": "Food",
     "se": "Juice",
     "pl": "Sok",
@@ -1321,6 +1486,7 @@
   },
   {
     "id": "phrase_000167",
+    "es": "Té",
     "topic": "Food",
     "se": "Te",
     "pl": "Herbata",
@@ -1329,6 +1495,7 @@
   },
   {
     "id": "phrase_000168",
+    "es": "Tengo hambre.",
     "topic": "Food",
     "se": "Jag är hungrig.",
     "pl": "Jestem głodny.",
@@ -1337,6 +1504,7 @@
   },
   {
     "id": "phrase_000169",
+    "es": "Tengo sed.",
     "topic": "Food",
     "se": "Jag är törstig.",
     "pl": "Jestem spragniony.",
@@ -1345,6 +1513,7 @@
   },
   {
     "id": "phrase_000170",
+    "es": "Quiero comer.",
     "topic": "Food",
     "se": "Jag vill äta.",
     "pl": "Chcę jeść.",
@@ -1353,6 +1522,7 @@
   },
   {
     "id": "phrase_000171",
+    "es": "Quiero beber agua.",
     "topic": "Food",
     "se": "Jag vill dricka vatten.",
     "pl": "Chcę pić wodę.",
@@ -1361,6 +1531,7 @@
   },
   {
     "id": "phrase_000172",
+    "es": "Quiero un helado.",
     "topic": "Food",
     "se": "Jag vill ha glass.",
     "pl": "Chcę lody.",
@@ -1369,6 +1540,7 @@
   },
   {
     "id": "phrase_000173",
+    "es": "¿Me das una galleta?",
     "topic": "Food",
     "se": "Kan jag få en kaka?",
     "pl": "Czy mogę dostać ciastko?",
@@ -1377,6 +1549,7 @@
   },
   {
     "id": "phrase_000174",
+    "es": "¡Está rico!",
     "topic": "Food",
     "se": "Det smakar gott!",
     "pl": "To jest smaczne!",
@@ -1385,6 +1558,7 @@
   },
   {
     "id": "phrase_000175",
+    "es": "No está rico.",
     "topic": "Food",
     "se": "Det smakar inte gott.",
     "pl": "To nie jest smaczne.",
@@ -1393,6 +1567,7 @@
   },
   {
     "id": "phrase_000176",
+    "es": "Mi comida favorita es la pizza.",
     "topic": "Food",
     "se": "Min favoritmat är pizza.",
     "pl": "Moje ulubione jedzenie to pizza.",
@@ -1401,6 +1576,7 @@
   },
   {
     "id": "phrase_000177",
+    "es": "Me gustan las fresas.",
     "topic": "Food",
     "se": "Jag gillar jordgubbar.",
     "pl": "Lubię truskawki.",
@@ -1409,6 +1585,7 @@
   },
   {
     "id": "phrase_000178",
+    "es": "No me gusta el brócoli.",
     "topic": "Food",
     "se": "Jag gillar inte broccoli.",
     "pl": "Nie lubię brokułów.",
@@ -1417,6 +1594,7 @@
   },
   {
     "id": "phrase_000179",
+    "es": "¡Que aproveche!",
     "topic": "Food",
     "se": "Smaklig måltid!",
     "pl": "Smacznego!",
@@ -1425,6 +1603,7 @@
   },
   {
     "id": "phrase_000180",
+    "es": "Cabeza",
     "topic": "Body",
     "se": "Huvud",
     "pl": "Głowa",
@@ -1433,6 +1612,7 @@
   },
   {
     "id": "phrase_000181",
+    "es": "Pelo",
     "topic": "Body",
     "se": "Hår",
     "pl": "Włosy",
@@ -1441,6 +1621,7 @@
   },
   {
     "id": "phrase_000182",
+    "es": "Ojo",
     "topic": "Body",
     "se": "Öga",
     "pl": "Oko",
@@ -1449,6 +1630,7 @@
   },
   {
     "id": "phrase_000183",
+    "es": "Oreja",
     "topic": "Body",
     "se": "Öra",
     "pl": "Ucho",
@@ -1457,6 +1639,7 @@
   },
   {
     "id": "phrase_000184",
+    "es": "Nariz",
     "topic": "Body",
     "se": "Näsa",
     "pl": "Nos",
@@ -1465,6 +1648,7 @@
   },
   {
     "id": "phrase_000185",
+    "es": "Boca",
     "topic": "Body",
     "se": "Mun",
     "pl": "Usta",
@@ -1473,6 +1657,7 @@
   },
   {
     "id": "phrase_000186",
+    "es": "Diente",
     "topic": "Body",
     "se": "Tand",
     "pl": "Ząb",
@@ -1481,6 +1666,7 @@
   },
   {
     "id": "phrase_000187",
+    "es": "Lengua",
     "topic": "Body",
     "se": "Tunga",
     "pl": "Język",
@@ -1489,6 +1675,7 @@
   },
   {
     "id": "phrase_000188",
+    "es": "Garganta",
     "topic": "Body",
     "se": "Hals",
     "pl": "Gardło",
@@ -1497,6 +1684,7 @@
   },
   {
     "id": "phrase_000189",
+    "es": "Cuello",
     "topic": "Body",
     "se": "Hals",
     "pl": "Szyja",
@@ -1505,6 +1693,7 @@
   },
   {
     "id": "phrase_000190",
+    "es": "Hombro",
     "topic": "Body",
     "se": "Axel",
     "pl": "Bark",
@@ -1513,6 +1702,7 @@
   },
   {
     "id": "phrase_000191",
+    "es": "Brazo",
     "topic": "Body",
     "se": "Arm",
     "pl": "Ramię",
@@ -1521,6 +1711,7 @@
   },
   {
     "id": "phrase_000192",
+    "es": "Mano",
     "topic": "Body",
     "se": "Hand",
     "pl": "Ręka",
@@ -1529,6 +1720,7 @@
   },
   {
     "id": "phrase_000193",
+    "es": "Dedo",
     "topic": "Body",
     "se": "Finger",
     "pl": "Palec",
@@ -1537,6 +1729,7 @@
   },
   {
     "id": "phrase_000194",
+    "es": "Barriga",
     "topic": "Body",
     "se": "Mage",
     "pl": "Brzuch",
@@ -1545,6 +1738,7 @@
   },
   {
     "id": "phrase_000195",
+    "es": "Espalda",
     "topic": "Body",
     "se": "Rygg",
     "pl": "Plecy",
@@ -1553,6 +1747,7 @@
   },
   {
     "id": "phrase_000196",
+    "es": "Pierna",
     "topic": "Body",
     "se": "Ben",
     "pl": "Noga",
@@ -1561,6 +1756,7 @@
   },
   {
     "id": "phrase_000197",
+    "es": "Rodilla",
     "topic": "Body",
     "se": "Knä",
     "pl": "Kolano",
@@ -1569,6 +1765,7 @@
   },
   {
     "id": "phrase_000198",
+    "es": "Pie",
     "topic": "Body",
     "se": "Fot",
     "pl": "Stopa",
@@ -1577,6 +1774,7 @@
   },
   {
     "id": "phrase_000199",
+    "es": "Dedo del pie",
     "topic": "Body",
     "se": "Tå",
     "pl": "Palec u nogi",
@@ -1585,6 +1783,7 @@
   },
   {
     "id": "phrase_000200",
+    "es": "Me duele la cabeza.",
     "topic": "Body",
     "se": "Jag har ont i huvudet.",
     "pl": "Boli mnie głowa.",
@@ -1593,6 +1792,7 @@
   },
   {
     "id": "phrase_000201",
+    "es": "Me duele la barriga.",
     "topic": "Body",
     "se": "Jag har ont i magen.",
     "pl": "Boli mnie brzuch.",
@@ -1601,6 +1801,7 @@
   },
   {
     "id": "phrase_000202",
+    "es": "Sé mantenerme sobre una pierna.",
     "topic": "Body",
     "se": "Jag kan stå på ett ben.",
     "pl": "Umiem stać na jednej nodze.",
@@ -1609,6 +1810,7 @@
   },
   {
     "id": "phrase_000203",
+    "es": "Oigo con los oídos.",
     "topic": "Body",
     "se": "Jag hör med öronen.",
     "pl": "Słyszę uszami.",
@@ -1617,6 +1819,7 @@
   },
   {
     "id": "phrase_000204",
+    "es": "Doblo las rodillas.",
     "topic": "Body",
     "se": "Jag böjer på knäna.",
     "pl": "Zginam kolana.",
@@ -1625,6 +1828,7 @@
   },
   {
     "id": "phrase_000205",
+    "es": "Estoy enfermo.",
     "topic": "Body",
     "se": "Jag är sjuk.",
     "pl": "Jestem chory.",
@@ -1633,6 +1837,7 @@
   },
   {
     "id": "phrase_000206",
+    "es": "Me siento cansado.",
     "topic": "Body",
     "se": "Jag känner mig trött.",
     "pl": "Czuję się zmęczony.",
@@ -1641,6 +1846,7 @@
   },
   {
     "id": "phrase_000207",
+    "es": "Me siento contento.",
     "topic": "Body",
     "se": "Jag känner mig glad.",
     "pl": "Jestem wesoły.",
@@ -1649,6 +1855,7 @@
   },
   {
     "id": "phrase_000208",
+    "es": "¡Señala tu nariz!",
     "topic": "Body",
     "se": "Peka på näsan!",
     "pl": "Wskaż nos!",
@@ -1657,6 +1864,7 @@
   },
   {
     "id": "phrase_000209",
+    "es": "¡Señala tus ojos!",
     "topic": "Body",
     "se": "Peka på ögonen!",
     "pl": "Wskaż oczy!",
@@ -1665,6 +1873,7 @@
   },
   {
     "id": "phrase_000210",
+    "es": "Jersey",
     "topic": "Clothing",
     "se": "Tröja",
     "pl": "Sweter",
@@ -1673,6 +1882,7 @@
   },
   {
     "id": "phrase_000211",
+    "es": "Camiseta",
     "topic": "Clothing",
     "se": "T-shirt",
     "pl": "Koszulka",
@@ -1681,6 +1891,7 @@
   },
   {
     "id": "phrase_000212",
+    "es": "Camisa",
     "topic": "Clothing",
     "se": "Skjorta",
     "pl": "Koszula",
@@ -1689,6 +1900,7 @@
   },
   {
     "id": "phrase_000213",
+    "es": "Pantalones",
     "topic": "Clothing",
     "se": "Byxor",
     "pl": "Spodnie",
@@ -1697,6 +1909,7 @@
   },
   {
     "id": "phrase_000214",
+    "es": "Pantalones cortos",
     "topic": "Clothing",
     "se": "Shorts",
     "pl": "Szorty",
@@ -1705,6 +1918,7 @@
   },
   {
     "id": "phrase_000215",
+    "es": "Falda",
     "topic": "Clothing",
     "se": "Kjol",
     "pl": "Spódnica",
@@ -1713,6 +1927,7 @@
   },
   {
     "id": "phrase_000216",
+    "es": "Vestido",
     "topic": "Clothing",
     "se": "Klänning",
     "pl": "Sukienka",
@@ -1721,6 +1936,7 @@
   },
   {
     "id": "phrase_000217",
+    "es": "Chaqueta",
     "topic": "Clothing",
     "se": "Jacka",
     "pl": "Kurtka",
@@ -1729,6 +1945,7 @@
   },
   {
     "id": "phrase_000218",
+    "es": "Abrigo",
     "topic": "Clothing",
     "se": "Kappa",
     "pl": "Płaszcz",
@@ -1737,6 +1954,7 @@
   },
   {
     "id": "phrase_000219",
+    "es": "Gorro",
     "topic": "Clothing",
     "se": "Mössa",
     "pl": "Czapka",
@@ -1745,6 +1963,7 @@
   },
   {
     "id": "phrase_000220",
+    "es": "Bufanda",
     "topic": "Clothing",
     "se": "Halsduk",
     "pl": "Szalik",
@@ -1753,6 +1972,7 @@
   },
   {
     "id": "phrase_000221",
+    "es": "Manoplas",
     "topic": "Clothing",
     "se": "Vantar",
     "pl": "Rękawiczki",
@@ -1761,6 +1981,7 @@
   },
   {
     "id": "phrase_000222",
+    "es": "Zapatos",
     "topic": "Clothing",
     "se": "Skor",
     "pl": "Buty",
@@ -1769,6 +1990,7 @@
   },
   {
     "id": "phrase_000223",
+    "es": "Botas",
     "topic": "Clothing",
     "se": "Stövlar",
     "pl": "Kozaki",
@@ -1777,6 +1999,7 @@
   },
   {
     "id": "phrase_000224",
+    "es": "Calcetines",
     "topic": "Clothing",
     "se": "Strumpor",
     "pl": "Skarpetki",
@@ -1785,6 +2008,7 @@
   },
   {
     "id": "phrase_000225",
+    "es": "Pijama",
     "topic": "Clothing",
     "se": "Pyjamas",
     "pl": "Piżama",
@@ -1793,6 +2017,7 @@
   },
   {
     "id": "phrase_000226",
+    "es": "Me estoy poniendo el jersey.",
     "topic": "Clothing",
     "se": "Jag tar på mig tröjan.",
     "pl": "Zakładam sweter.",
@@ -1801,6 +2026,7 @@
   },
   {
     "id": "phrase_000227",
+    "es": "Me estoy quitando los zapatos.",
     "topic": "Clothing",
     "se": "Jag tar av mig skorna.",
     "pl": "Zdejmuję buty.",
@@ -1809,6 +2035,7 @@
   },
   {
     "id": "phrase_000228",
+    "es": "¿Dónde está mi gorro?",
     "topic": "Clothing",
     "se": "Var är min mössa?",
     "pl": "Gdzie jest moja czapka?",
@@ -1817,6 +2044,7 @@
   },
   {
     "id": "phrase_000229",
+    "es": "No encuentro mis calcetines.",
     "topic": "Clothing",
     "se": "Jag hittar inte mina strumpor.",
     "pl": "Nie mogę znaleźć skarpetek.",
@@ -1825,6 +2053,7 @@
   },
   {
     "id": "phrase_000230",
+    "es": "Hace frío. ¡Ponte la chaqueta!",
     "topic": "Clothing",
     "se": "Det är kallt — ta på dig jackan!",
     "pl": "Jest zimno — załóż kurtkę!",
@@ -1833,6 +2062,7 @@
   },
   {
     "id": "phrase_000231",
+    "es": "Mi vestido favorito es rosa.",
     "topic": "Clothing",
     "se": "Min favoritklänning är rosa.",
     "pl": "Moja ulubiona sukienka jest różowa.",
@@ -1841,6 +2071,7 @@
   },
   {
     "id": "phrase_000232",
+    "es": "Me gustan mis zapatos nuevos.",
     "topic": "Clothing",
     "se": "Jag gillar mina nya skor.",
     "pl": "Lubię moje nowe buty.",
@@ -1849,6 +2080,7 @@
   },
   {
     "id": "phrase_000233",
+    "es": "Casa",
     "topic": "Home",
     "se": "Hus",
     "pl": "Dom",
@@ -1857,6 +2089,7 @@
   },
   {
     "id": "phrase_000234",
+    "es": "Piso",
     "topic": "Home",
     "se": "Lägenhet",
     "pl": "Mieszkanie",
@@ -1865,6 +2098,7 @@
   },
   {
     "id": "phrase_000235",
+    "es": "Habitación",
     "topic": "Home",
     "se": "Rum",
     "pl": "Pokój",
@@ -1873,6 +2107,7 @@
   },
   {
     "id": "phrase_000236",
+    "es": "Cocina",
     "topic": "Home",
     "se": "Kök",
     "pl": "Kuchnia",
@@ -1881,6 +2116,7 @@
   },
   {
     "id": "phrase_000237",
+    "es": "Baño",
     "topic": "Home",
     "se": "Badrum",
     "pl": "Łazienka",
@@ -1889,6 +2125,7 @@
   },
   {
     "id": "phrase_000238",
+    "es": "Dormitorio",
     "topic": "Home",
     "se": "Sovrum",
     "pl": "Sypialnia",
@@ -1897,6 +2134,7 @@
   },
   {
     "id": "phrase_000239",
+    "es": "Salón",
     "topic": "Home",
     "se": "Vardagsrum",
     "pl": "Salon",
@@ -1905,6 +2143,7 @@
   },
   {
     "id": "phrase_000240",
+    "es": "Puerta",
     "topic": "Home",
     "se": "Dörr",
     "pl": "Drzwi",
@@ -1913,6 +2152,7 @@
   },
   {
     "id": "phrase_000241",
+    "es": "Ventana",
     "topic": "Home",
     "se": "Fönster",
     "pl": "Okno",
@@ -1921,6 +2161,7 @@
   },
   {
     "id": "phrase_000242",
+    "es": "Suelo",
     "topic": "Home",
     "se": "Golv",
     "pl": "Podłoga",
@@ -1929,6 +2170,7 @@
   },
   {
     "id": "phrase_000243",
+    "es": "Techo",
     "topic": "Home",
     "se": "Tak",
     "pl": "Sufit",
@@ -1937,6 +2179,7 @@
   },
   {
     "id": "phrase_000244",
+    "es": "Pared",
     "topic": "Home",
     "se": "Vägg",
     "pl": "Ściana",
@@ -1945,6 +2188,7 @@
   },
   {
     "id": "phrase_000245",
+    "es": "Escaleras",
     "topic": "Home",
     "se": "Trappa",
     "pl": "Schody",
@@ -1953,6 +2197,7 @@
   },
   {
     "id": "phrase_000246",
+    "es": "Cama",
     "topic": "Home",
     "se": "Säng",
     "pl": "Łóżko",
@@ -1961,6 +2206,7 @@
   },
   {
     "id": "phrase_000247",
+    "es": "Sofá",
     "topic": "Home",
     "se": "Soffa",
     "pl": "Sofa",
@@ -1969,6 +2215,7 @@
   },
   {
     "id": "phrase_000248",
+    "es": "Silla",
     "topic": "Home",
     "se": "Stol",
     "pl": "Krzesło",
@@ -1977,6 +2224,7 @@
   },
   {
     "id": "phrase_000249",
+    "es": "Mesa",
     "topic": "Home",
     "se": "Bord",
     "pl": "Stół",
@@ -1985,6 +2233,7 @@
   },
   {
     "id": "phrase_000250",
+    "es": "Estantería para libros",
     "topic": "Home",
     "se": "Bokhylla",
     "pl": "Półka na książki",
@@ -1993,6 +2242,7 @@
   },
   {
     "id": "phrase_000251",
+    "es": "Lámpara",
     "topic": "Home",
     "se": "Lampa",
     "pl": "Lampa",
@@ -2001,6 +2251,7 @@
   },
   {
     "id": "phrase_000252",
+    "es": "Nevera",
     "topic": "Home",
     "se": "Kylskåp",
     "pl": "Lodówka",
@@ -2009,6 +2260,7 @@
   },
   {
     "id": "phrase_000253",
+    "es": "Cocina",
     "topic": "Home",
     "se": "Spis",
     "pl": "Kuchenka",
@@ -2017,6 +2269,7 @@
   },
   {
     "id": "phrase_000254",
+    "es": "Estoy en casa.",
     "topic": "Home",
     "se": "Jag är hemma.",
     "pl": "Jestem w domu.",
@@ -2025,6 +2278,7 @@
   },
   {
     "id": "phrase_000255",
+    "es": "Voy a casa.",
     "topic": "Home",
     "se": "Jag går hem.",
     "pl": "Idę do domu.",
@@ -2033,6 +2287,7 @@
   },
   {
     "id": "phrase_000256",
+    "es": "¡Bienvenido a casa!",
     "topic": "Home",
     "se": "Välkommen hem!",
     "pl": "Witaj w domu!",
@@ -2041,6 +2296,7 @@
   },
   {
     "id": "phrase_000257",
+    "es": "¿Dónde está el baño?",
     "topic": "Home",
     "se": "Var är badrummet?",
     "pl": "Gdzie jest łazienka?",
@@ -2049,6 +2305,7 @@
   },
   {
     "id": "phrase_000258",
+    "es": "La cocina es grande.",
     "topic": "Home",
     "se": "Köket är stort.",
     "pl": "Kuchnia jest duża.",
@@ -2057,6 +2314,7 @@
   },
   {
     "id": "phrase_000259",
+    "es": "Mi habitación es pequeña.",
     "topic": "Home",
     "se": "Mitt rum är litet.",
     "pl": "Mój pokój jest mały.",
@@ -2065,6 +2323,7 @@
   },
   {
     "id": "phrase_000260",
+    "es": "La puerta está cerrada.",
     "topic": "Home",
     "se": "Dörren är stängd.",
     "pl": "Drzwi są zamknięte.",
@@ -2073,6 +2332,7 @@
   },
   {
     "id": "phrase_000261",
+    "es": "La ventana está abierta.",
     "topic": "Home",
     "se": "Fönstret är öppet.",
     "pl": "Okno jest otwarte.",
@@ -2081,6 +2341,7 @@
   },
   {
     "id": "phrase_000262",
+    "es": "Duermo en el dormitorio.",
     "topic": "Home",
     "se": "Jag sover i sovrummet.",
     "pl": "Śpię w sypialni.",
@@ -2089,6 +2350,7 @@
   },
   {
     "id": "phrase_000263",
+    "es": "Comemos en la cocina.",
     "topic": "Home",
     "se": "Vi äter i köket.",
     "pl": "Jemy w kuchni.",
@@ -2097,6 +2359,7 @@
   },
   {
     "id": "phrase_000264",
+    "es": "Colegio",
     "topic": "School",
     "se": "Skola",
     "pl": "Szkoła",
@@ -2105,6 +2368,7 @@
   },
   {
     "id": "phrase_000265",
+    "es": "Aula",
     "topic": "School",
     "se": "Klassrum",
     "pl": "Klasa",
@@ -2113,6 +2377,7 @@
   },
   {
     "id": "phrase_000266",
+    "es": "Profesor",
     "topic": "School",
     "se": "Lärare",
     "pl": "Nauczyciel",
@@ -2121,6 +2386,7 @@
   },
   {
     "id": "phrase_000267",
+    "es": "Alumno",
     "topic": "School",
     "se": "Elev",
     "pl": "Uczeń",
@@ -2129,6 +2395,7 @@
   },
   {
     "id": "phrase_000268",
+    "es": "Libro",
     "topic": "School",
     "se": "Bok",
     "pl": "Książka",
@@ -2137,6 +2404,7 @@
   },
   {
     "id": "phrase_000269",
+    "es": "Cuaderno",
     "topic": "School",
     "se": "Häfte",
     "pl": "Zeszyt",
@@ -2145,6 +2413,7 @@
   },
   {
     "id": "phrase_000270",
+    "es": "Lápiz",
     "topic": "School",
     "se": "Blyertspenna",
     "pl": "Ołówek",
@@ -2153,6 +2422,7 @@
   },
   {
     "id": "phrase_000271",
+    "es": "Bolígrafo",
     "topic": "School",
     "se": "Kulspetspenna",
     "pl": "Długopis",
@@ -2161,6 +2431,7 @@
   },
   {
     "id": "phrase_000272",
+    "es": "Goma de borrar",
     "topic": "School",
     "se": "Suddgummi",
     "pl": "Gumka",
@@ -2169,6 +2440,7 @@
   },
   {
     "id": "phrase_000273",
+    "es": "Regla",
     "topic": "School",
     "se": "Linjal",
     "pl": "Linijka",
@@ -2177,6 +2449,7 @@
   },
   {
     "id": "phrase_000274",
+    "es": "Mochila",
     "topic": "School",
     "se": "Ryggsäck",
     "pl": "Plecak",
@@ -2185,6 +2458,7 @@
   },
   {
     "id": "phrase_000275",
+    "es": "Pupitre",
     "topic": "School",
     "se": "Bänk",
     "pl": "Ławka",
@@ -2193,6 +2467,7 @@
   },
   {
     "id": "phrase_000276",
+    "es": "Pizarra",
     "topic": "School",
     "se": "Tavla",
     "pl": "Tablica",
@@ -2201,6 +2476,7 @@
   },
   {
     "id": "phrase_000277",
+    "es": "Tiza",
     "topic": "School",
     "se": "Krita",
     "pl": "Kreda",
@@ -2209,6 +2485,7 @@
   },
   {
     "id": "phrase_000278",
+    "es": "Deberes",
     "topic": "School",
     "se": "Läxa",
     "pl": "Zadanie domowe",
@@ -2217,6 +2494,7 @@
   },
   {
     "id": "phrase_000279",
+    "es": "Recreo",
     "topic": "School",
     "se": "Rast",
     "pl": "Przerwa",
@@ -2225,6 +2503,7 @@
   },
   {
     "id": "phrase_000280",
+    "es": "Son las ocho.",
     "topic": "School",
     "se": "Klockan är åtta.",
     "pl": "Jest godzina ósma.",
@@ -2233,6 +2512,7 @@
   },
   {
     "id": "phrase_000281",
+    "es": "Empiezan las clases.",
     "topic": "School",
     "se": "Skolan börjar.",
     "pl": "Zaczyna się szkoła.",
@@ -2241,6 +2521,7 @@
   },
   {
     "id": "phrase_000282",
+    "es": "Voy al colegio.",
     "topic": "School",
     "se": "Jag går till skolan.",
     "pl": "Idę do szkoły.",
@@ -2249,6 +2530,7 @@
   },
   {
     "id": "phrase_000283",
+    "es": "Me gusta el colegio.",
     "topic": "School",
     "se": "Jag gillar skolan.",
     "pl": "Lubię szkołę.",
@@ -2257,6 +2539,7 @@
   },
   {
     "id": "phrase_000284",
+    "es": "No me gustan los deberes.",
     "topic": "School",
     "se": "Jag gillar inte läxor.",
     "pl": "Nie lubię zadań domowych.",
@@ -2265,6 +2548,7 @@
   },
   {
     "id": "phrase_000285",
+    "es": "El profesor habla polaco.",
     "topic": "School",
     "se": "Läraren pratar polska.",
     "pl": "Nauczyciel mówi po polsku.",
@@ -2273,6 +2557,7 @@
   },
   {
     "id": "phrase_000286",
+    "es": "¡Abre el libro!",
     "topic": "School",
     "se": "Öppna boken!",
     "pl": "Otwórz książkę!",
@@ -2281,6 +2566,7 @@
   },
   {
     "id": "phrase_000287",
+    "es": "¡Cierra el libro!",
     "topic": "School",
     "se": "Stäng boken!",
     "pl": "Zamknij książkę!",
@@ -2289,6 +2575,7 @@
   },
   {
     "id": "phrase_000288",
+    "es": "¡Escucha con atención!",
     "topic": "School",
     "se": "Lyssna noga!",
     "pl": "Słuchaj uważnie!",
@@ -2297,6 +2584,7 @@
   },
   {
     "id": "phrase_000289",
+    "es": "¡Levanta la mano!",
     "topic": "School",
     "se": "Räck upp handen!",
     "pl": "Podnieś rękę!",
@@ -2305,6 +2593,7 @@
   },
   {
     "id": "phrase_000290",
+    "es": "¡Siéntate!",
     "topic": "School",
     "se": "Sitt ner!",
     "pl": "Usiądź!",
@@ -2313,14 +2602,16 @@
   },
   {
     "id": "phrase_000291",
+    "es": "¡Levántate!",
     "topic": "School",
-    "se": "Stå upp!",
+    "se": "Res dig!",
     "pl": "Wstań!",
     "en": "Stand up!",
     "ru": "Вставай!"
   },
   {
     "id": "phrase_000292",
+    "es": "¿Lo entiendes?",
     "topic": "School",
     "se": "Förstår du?",
     "pl": "Rozumiesz?",
@@ -2329,6 +2620,7 @@
   },
   {
     "id": "phrase_000293",
+    "es": "Lo entiendo.",
     "topic": "School",
     "se": "Jag förstår.",
     "pl": "Rozumiem.",
@@ -2337,6 +2629,7 @@
   },
   {
     "id": "phrase_000294",
+    "es": "No lo entiendo.",
     "topic": "School",
     "se": "Jag förstår inte.",
     "pl": "Nie rozumiem.",
@@ -2345,6 +2638,7 @@
   },
   {
     "id": "phrase_000295",
+    "es": "¿Puedes repetirlo?",
     "topic": "School",
     "se": "Kan du upprepa det?",
     "pl": "Czy możesz powtórzyć?",
@@ -2353,6 +2647,7 @@
   },
   {
     "id": "phrase_000296",
+    "es": "¿Cómo se dice eso en polaco?",
     "topic": "School",
     "se": "Hur säger man det på polska?",
     "pl": "Jak się to mówi po polsku?",
@@ -2361,6 +2656,7 @@
   },
   {
     "id": "phrase_000297",
+    "es": "Tiempo",
     "topic": "Weather",
     "se": "Väder",
     "pl": "Pogoda",
@@ -2369,6 +2665,7 @@
   },
   {
     "id": "phrase_000298",
+    "es": "Sol",
     "topic": "Weather",
     "se": "Sol",
     "pl": "Słońce",
@@ -2377,6 +2674,7 @@
   },
   {
     "id": "phrase_000299",
+    "es": "Lluvia",
     "topic": "Weather",
     "se": "Regn",
     "pl": "Deszcz",
@@ -2385,6 +2683,7 @@
   },
   {
     "id": "phrase_000300",
+    "es": "Nieve",
     "topic": "Weather",
     "se": "Snö",
     "pl": "Śnieg",
@@ -2393,6 +2692,7 @@
   },
   {
     "id": "phrase_000301",
+    "es": "Viento",
     "topic": "Weather",
     "se": "Vind",
     "pl": "Wiatr",
@@ -2401,6 +2701,7 @@
   },
   {
     "id": "phrase_000302",
+    "es": "Nube",
     "topic": "Weather",
     "se": "Moln",
     "pl": "Chmura",
@@ -2409,6 +2710,7 @@
   },
   {
     "id": "phrase_000303",
+    "es": "Tormenta",
     "topic": "Weather",
     "se": "Åska",
     "pl": "Burza",
@@ -2417,6 +2719,7 @@
   },
   {
     "id": "phrase_000304",
+    "es": "Relámpago",
     "topic": "Weather",
     "se": "Blixt",
     "pl": "Błyskawica",
@@ -2425,6 +2728,7 @@
   },
   {
     "id": "phrase_000305",
+    "es": "Niebla",
     "topic": "Weather",
     "se": "Dimma",
     "pl": "Mgła",
@@ -2433,6 +2737,7 @@
   },
   {
     "id": "phrase_000306",
+    "es": "Hielo",
     "topic": "Weather",
     "se": "Is",
     "pl": "Lód",
@@ -2441,6 +2746,7 @@
   },
   {
     "id": "phrase_000307",
+    "es": "¿Qué tiempo hace?",
     "topic": "Weather",
     "se": "Vad är det för väder?",
     "pl": "Jaka jest pogoda?",
@@ -2449,6 +2755,7 @@
   },
   {
     "id": "phrase_000308",
+    "es": "Hace sol.",
     "topic": "Weather",
     "se": "Det är soligt.",
     "pl": "Jest słonecznie.",
@@ -2457,6 +2764,7 @@
   },
   {
     "id": "phrase_000309",
+    "es": "Está lloviendo.",
     "topic": "Weather",
     "se": "Det regnar.",
     "pl": "Pada deszcz.",
@@ -2465,6 +2773,7 @@
   },
   {
     "id": "phrase_000310",
+    "es": "¡Está nevando!",
     "topic": "Weather",
     "se": "Det snöar!",
     "pl": "Pada śnieg!",
@@ -2473,6 +2782,7 @@
   },
   {
     "id": "phrase_000311",
+    "es": "Hace viento.",
     "topic": "Weather",
     "se": "Det är blåsigt.",
     "pl": "Jest wietrznie.",
@@ -2481,6 +2791,7 @@
   },
   {
     "id": "phrase_000312",
+    "es": "Hace frío.",
     "topic": "Weather",
     "se": "Det är kallt.",
     "pl": "Jest zimno.",
@@ -2489,6 +2800,7 @@
   },
   {
     "id": "phrase_000313",
+    "es": "Hace calor.",
     "topic": "Weather",
     "se": "Det är varmt.",
     "pl": "Jest ciepło.",
@@ -2497,6 +2809,7 @@
   },
   {
     "id": "phrase_000314",
+    "es": "Está nublado.",
     "topic": "Weather",
     "se": "Det är mulet.",
     "pl": "Jest pochmurno.",
@@ -2505,6 +2818,7 @@
   },
   {
     "id": "phrase_000315",
+    "es": "Hoy hace buen tiempo.",
     "topic": "Weather",
     "se": "Idag är det fint väder.",
     "pl": "Dzisiaj jest ładna pogoda.",
@@ -2513,6 +2827,7 @@
   },
   {
     "id": "phrase_000316",
+    "es": "¡Llévate un paraguas!",
     "topic": "Weather",
     "se": "Ta med ett paraply!",
     "pl": "Weź parasol!",
@@ -2521,6 +2836,7 @@
   },
   {
     "id": "phrase_000317",
+    "es": "Primavera",
     "topic": "Seasons",
     "se": "Vår",
     "pl": "Wiosna",
@@ -2529,6 +2845,7 @@
   },
   {
     "id": "phrase_000318",
+    "es": "Verano",
     "topic": "Seasons",
     "se": "Sommar",
     "pl": "Lato",
@@ -2537,6 +2854,7 @@
   },
   {
     "id": "phrase_000319",
+    "es": "Otoño",
     "topic": "Seasons",
     "se": "Höst",
     "pl": "Jesień",
@@ -2545,6 +2863,7 @@
   },
   {
     "id": "phrase_000320",
+    "es": "Invierno",
     "topic": "Seasons",
     "se": "Vinter",
     "pl": "Zima",
@@ -2553,6 +2872,7 @@
   },
   {
     "id": "phrase_000321",
+    "es": "¿En qué estación estamos?",
     "topic": "Seasons",
     "se": "Vilken årstid är det?",
     "pl": "Jaka jest pora roku?",
@@ -2561,6 +2881,7 @@
   },
   {
     "id": "phrase_000322",
+    "es": "Es verano.",
     "topic": "Seasons",
     "se": "Det är sommar.",
     "pl": "Jest lato.",
@@ -2569,6 +2890,7 @@
   },
   {
     "id": "phrase_000323",
+    "es": "Es invierno.",
     "topic": "Seasons",
     "se": "Det är vinter.",
     "pl": "Jest zima.",
@@ -2577,6 +2899,7 @@
   },
   {
     "id": "phrase_000324",
+    "es": "En verano hace calor.",
     "topic": "Seasons",
     "se": "På sommaren är det varmt.",
     "pl": "Latem jest ciepło.",
@@ -2585,6 +2908,7 @@
   },
   {
     "id": "phrase_000325",
+    "es": "En invierno hace frío.",
     "topic": "Seasons",
     "se": "På vintern är det kallt.",
     "pl": "Zimą jest zimno.",
@@ -2593,6 +2917,7 @@
   },
   {
     "id": "phrase_000326",
+    "es": "¡Me encanta el verano!",
     "topic": "Seasons",
     "se": "Jag älskar sommaren!",
     "pl": "Uwielbiam lato!",
@@ -2601,6 +2926,7 @@
   },
   {
     "id": "phrase_000327",
+    "es": "Me gusta el invierno porque nieva.",
     "topic": "Seasons",
     "se": "Jag gillar vintern för att det snöar.",
     "pl": "Lubię zimę, bo pada śnieg.",
@@ -2609,6 +2935,7 @@
   },
   {
     "id": "phrase_000328",
+    "es": "En otoño se caen las hojas.",
     "topic": "Seasons",
     "se": "På hösten faller löven.",
     "pl": "Jesienią opadają liście.",
@@ -2617,6 +2944,7 @@
   },
   {
     "id": "phrase_000329",
+    "es": "En primavera florecen las flores.",
     "topic": "Seasons",
     "se": "På våren blommar blommorna.",
     "pl": "Wiosną kwitną kwiaty.",
@@ -2625,6 +2953,7 @@
   },
   {
     "id": "phrase_000330",
+    "es": "Lunes",
     "topic": "Days and Time",
     "se": "Måndag",
     "pl": "Poniedziałek",
@@ -2633,6 +2962,7 @@
   },
   {
     "id": "phrase_000331",
+    "es": "Martes",
     "topic": "Days and Time",
     "se": "Tisdag",
     "pl": "Wtorek",
@@ -2641,6 +2971,7 @@
   },
   {
     "id": "phrase_000332",
+    "es": "Miércoles",
     "topic": "Days and Time",
     "se": "Onsdag",
     "pl": "Środa",
@@ -2649,6 +2980,7 @@
   },
   {
     "id": "phrase_000333",
+    "es": "Jueves",
     "topic": "Days and Time",
     "se": "Torsdag",
     "pl": "Czwartek",
@@ -2657,6 +2989,7 @@
   },
   {
     "id": "phrase_000334",
+    "es": "Viernes",
     "topic": "Days and Time",
     "se": "Fredag",
     "pl": "Piątek",
@@ -2665,6 +2998,7 @@
   },
   {
     "id": "phrase_000335",
+    "es": "Sábado",
     "topic": "Days and Time",
     "se": "Lördag",
     "pl": "Sobota",
@@ -2673,6 +3007,7 @@
   },
   {
     "id": "phrase_000336",
+    "es": "Domingo",
     "topic": "Days and Time",
     "se": "Söndag",
     "pl": "Niedziela",
@@ -2681,6 +3016,7 @@
   },
   {
     "id": "phrase_000337",
+    "es": "Hoy",
     "topic": "Days and Time",
     "se": "Idag",
     "pl": "Dzisiaj",
@@ -2689,6 +3025,7 @@
   },
   {
     "id": "phrase_000338",
+    "es": "Ayer",
     "topic": "Days and Time",
     "se": "Igår",
     "pl": "Wczoraj",
@@ -2697,6 +3034,7 @@
   },
   {
     "id": "phrase_000339",
+    "es": "Mañana",
     "topic": "Days and Time",
     "se": "Imorgon",
     "pl": "Jutro",
@@ -2705,6 +3043,7 @@
   },
   {
     "id": "phrase_000340",
+    "es": "Ahora",
     "topic": "Days and Time",
     "se": "Nu",
     "pl": "Teraz",
@@ -2713,6 +3052,7 @@
   },
   {
     "id": "phrase_000341",
+    "es": "Pronto",
     "topic": "Days and Time",
     "se": "Snart",
     "pl": "Wkrótce",
@@ -2721,6 +3061,7 @@
   },
   {
     "id": "phrase_000342",
+    "es": "¿Qué hora es?",
     "topic": "Days and Time",
     "se": "Hur mycket är klockan?",
     "pl": "Która godzina?",
@@ -2729,6 +3070,7 @@
   },
   {
     "id": "phrase_000343",
+    "es": "Mañana",
     "topic": "Days and Time",
     "se": "Morgon",
     "pl": "Poranek",
@@ -2737,6 +3079,7 @@
   },
   {
     "id": "phrase_000344",
+    "es": "Mediodía",
     "topic": "Days and Time",
     "se": "Mitt på dagen",
     "pl": "Południe",
@@ -2745,6 +3088,7 @@
   },
   {
     "id": "phrase_000345",
+    "es": "Tarde",
     "topic": "Days and Time",
     "se": "Kväll",
     "pl": "Wieczór",
@@ -2753,6 +3097,7 @@
   },
   {
     "id": "phrase_000346",
+    "es": "Noche",
     "topic": "Days and Time",
     "se": "Natt",
     "pl": "Noc",
@@ -2761,6 +3106,7 @@
   },
   {
     "id": "phrase_000347",
+    "es": "¿Qué día es hoy?",
     "topic": "Days and Time",
     "se": "Vilken dag är det idag?",
     "pl": "Jaki dzisiaj jest dzień?",
@@ -2769,6 +3115,7 @@
   },
   {
     "id": "phrase_000348",
+    "es": "Hoy es lunes.",
     "topic": "Days and Time",
     "se": "Idag är det måndag.",
     "pl": "Dzisiaj jest poniedziałek.",
@@ -2777,6 +3124,7 @@
   },
   {
     "id": "phrase_000349",
+    "es": "¿Qué hora es?",
     "topic": "Days and Time",
     "se": "Vad är klockan?",
     "pl": "Która jest godzina?",
@@ -2785,6 +3133,7 @@
   },
   {
     "id": "phrase_000350",
+    "es": "Son las tres.",
     "topic": "Days and Time",
     "se": "Klockan är tre.",
     "pl": "Jest godzina trzecia.",
@@ -2793,6 +3142,7 @@
   },
   {
     "id": "phrase_000351",
+    "es": "Son las tres y media.",
     "topic": "Days and Time",
     "se": "Klockan är halv fyra.",
     "pl": "Jest wpół do czwartej.",
@@ -2801,6 +3151,7 @@
   },
   {
     "id": "phrase_000352",
+    "es": "El viernes no tenemos colegio.",
     "topic": "Days and Time",
     "se": "På fredag har vi ingen skola.",
     "pl": "W piątek nie mamy szkoły.",
@@ -2809,6 +3160,7 @@
   },
   {
     "id": "phrase_000353",
+    "es": "Mañana vamos a casa de la abuela.",
     "topic": "Days and Time",
     "se": "Imorgon åker vi till farmor.",
     "pl": "Jutro jedziemy do babci.",
@@ -2817,6 +3169,7 @@
   },
   {
     "id": "phrase_000354",
+    "es": "Juguete",
     "topic": "Toys and Play",
     "se": "Leksak",
     "pl": "Zabawka",
@@ -2825,6 +3178,7 @@
   },
   {
     "id": "phrase_000355",
+    "es": "Pelota",
     "topic": "Toys and Play",
     "se": "Boll",
     "pl": "Piłka",
@@ -2833,6 +3187,7 @@
   },
   {
     "id": "phrase_000356",
+    "es": "Muñeca",
     "topic": "Toys and Play",
     "se": "Docka",
     "pl": "Lalka",
@@ -2841,6 +3196,7 @@
   },
   {
     "id": "phrase_000357",
+    "es": "Coche de juguete",
     "topic": "Toys and Play",
     "se": "Leksaksbil",
     "pl": "Samochodzik",
@@ -2849,6 +3205,7 @@
   },
   {
     "id": "phrase_000358",
+    "es": "Puzle",
     "topic": "Toys and Play",
     "se": "Pussel",
     "pl": "Puzzle",
@@ -2857,6 +3214,7 @@
   },
   {
     "id": "phrase_000359",
+    "es": "Bloques de construcción",
     "topic": "Toys and Play",
     "se": "Byggklossar",
     "pl": "Klocki",
@@ -2865,6 +3223,7 @@
   },
   {
     "id": "phrase_000360",
+    "es": "Cartas",
     "topic": "Toys and Play",
     "se": "Spelkort",
     "pl": "Karty",
@@ -2873,6 +3232,7 @@
   },
   {
     "id": "phrase_000361",
+    "es": "Juego de mesa",
     "topic": "Toys and Play",
     "se": "Brädspel",
     "pl": "Gra planszowa",
@@ -2881,6 +3241,7 @@
   },
   {
     "id": "phrase_000362",
+    "es": "Videojuego",
     "topic": "Toys and Play",
     "se": "Datorspel",
     "pl": "Gra komputerowa",
@@ -2889,6 +3250,7 @@
   },
   {
     "id": "phrase_000363",
+    "es": "Bicicleta",
     "topic": "Toys and Play",
     "se": "Cykel",
     "pl": "Rower",
@@ -2897,6 +3259,7 @@
   },
   {
     "id": "phrase_000364",
+    "es": "Patinete",
     "topic": "Toys and Play",
     "se": "Sparkcykel",
     "pl": "Hulajnoga",
@@ -2905,6 +3268,7 @@
   },
   {
     "id": "phrase_000365",
+    "es": "Columpio",
     "topic": "Toys and Play",
     "se": "Gunga",
     "pl": "Huśtawka",
@@ -2913,6 +3277,7 @@
   },
   {
     "id": "phrase_000366",
+    "es": "Tobogán",
     "topic": "Toys and Play",
     "se": "Rutschkana",
     "pl": "Zjeżdżalnia",
@@ -2921,6 +3286,7 @@
   },
   {
     "id": "phrase_000367",
+    "es": "Arenero",
     "topic": "Toys and Play",
     "se": "Sandlåda",
     "pl": "Piaskownica",
@@ -2929,6 +3295,7 @@
   },
   {
     "id": "phrase_000368",
+    "es": "¡Quiero jugar!",
     "topic": "Toys and Play",
     "se": "Jag vill leka!",
     "pl": "Chcę się bawić!",
@@ -2937,6 +3304,7 @@
   },
   {
     "id": "phrase_000369",
+    "es": "Quiero jugar.",
     "topic": "Toys and Play",
     "se": "Jag vill spela.",
     "pl": "Chcę grać.",
@@ -2945,6 +3313,7 @@
   },
   {
     "id": "phrase_000370",
+    "es": "Quiero jugar al fútbol.",
     "topic": "Toys and Play",
     "se": "Jag vill spela fotboll.",
     "pl": "Chcę grać w piłkę nożną.",
@@ -2953,6 +3322,7 @@
   },
   {
     "id": "phrase_000371",
+    "es": "Quiero jugar a juegos de mesa.",
     "topic": "Toys and Play",
     "se": "Jag vill spela brädspel.",
     "pl": "Chcę grać w gry planszowe.",
@@ -2961,6 +3331,7 @@
   },
   {
     "id": "phrase_000372",
+    "es": "¿Podemos jugar juntos?",
     "topic": "Toys and Play",
     "se": "Kan vi leka tillsammans?",
     "pl": "Czy możemy razem się bawić?",
@@ -2969,6 +3340,7 @@
   },
   {
     "id": "phrase_000373",
+    "es": "Me toca.",
     "topic": "Toys and Play",
     "se": "Det är min tur.",
     "pl": "Moja kolej.",
@@ -2977,6 +3349,7 @@
   },
   {
     "id": "phrase_000374",
+    "es": "Te toca.",
     "topic": "Toys and Play",
     "se": "Det är din tur.",
     "pl": "Twoja kolej.",
@@ -2985,6 +3358,7 @@
   },
   {
     "id": "phrase_000375",
+    "es": "¡He ganado!",
     "topic": "Toys and Play",
     "se": "Jag vann!",
     "pl": "Wygrałem!",
@@ -2993,6 +3367,7 @@
   },
   {
     "id": "phrase_000376",
+    "es": "¡Has ganado!",
     "topic": "Toys and Play",
     "se": "Du vann!",
     "pl": "Wygrałeś!",
@@ -3001,6 +3376,7 @@
   },
   {
     "id": "phrase_000377",
+    "es": "¡Vamos a jugar otra vez!",
     "topic": "Toys and Play",
     "se": "Nu spelar vi igen!",
     "pl": "Zagrajmy jeszcze raz!",
@@ -3009,6 +3385,7 @@
   },
   {
     "id": "phrase_000378",
+    "es": "¿Dónde está mi pelota?",
     "topic": "Toys and Play",
     "se": "Var är min boll?",
     "pl": "Gdzie jest moja piłka?",
@@ -3017,6 +3394,7 @@
   },
   {
     "id": "phrase_000379",
+    "es": "¿Me prestas tu muñeca?",
     "topic": "Toys and Play",
     "se": "Kan jag låna din docka?",
     "pl": "Czy mogę pożyczyć twoją lalkę?",
@@ -3025,6 +3403,7 @@
   },
   {
     "id": "phrase_000380",
+    "es": "Fútbol",
     "topic": "Sports and Activities",
     "se": "Fotboll",
     "pl": "Piłka nożna",
@@ -3033,6 +3412,7 @@
   },
   {
     "id": "phrase_000381",
+    "es": "Natación",
     "topic": "Sports and Activities",
     "se": "Simning",
     "pl": "Pływanie",
@@ -3041,6 +3421,7 @@
   },
   {
     "id": "phrase_000382",
+    "es": "Ciclismo",
     "topic": "Sports and Activities",
     "se": "Cykling",
     "pl": "Jazda na rowerze",
@@ -3049,6 +3430,7 @@
   },
   {
     "id": "phrase_000383",
+    "es": "Correr",
     "topic": "Sports and Activities",
     "se": "Löpning",
     "pl": "Bieganie",
@@ -3057,6 +3439,7 @@
   },
   {
     "id": "phrase_000384",
+    "es": "Baile",
     "topic": "Sports and Activities",
     "se": "Dans",
     "pl": "Taniec",
@@ -3065,6 +3448,7 @@
   },
   {
     "id": "phrase_000385",
+    "es": "Gimnasia",
     "topic": "Sports and Activities",
     "se": "Gymnastik",
     "pl": "Gimnastyka",
@@ -3073,6 +3457,7 @@
   },
   {
     "id": "phrase_000386",
+    "es": "Tenis",
     "topic": "Sports and Activities",
     "se": "Tennis",
     "pl": "Tenis",
@@ -3081,6 +3466,7 @@
   },
   {
     "id": "phrase_000387",
+    "es": "Baloncesto",
     "topic": "Sports and Activities",
     "se": "Basket",
     "pl": "Koszykówka",
@@ -3089,6 +3475,7 @@
   },
   {
     "id": "phrase_000388",
+    "es": "Patinaje sobre hielo",
     "topic": "Sports and Activities",
     "se": "Skridskoåkning",
     "pl": "Łyżwiarstwo",
@@ -3097,6 +3484,7 @@
   },
   {
     "id": "phrase_000389",
+    "es": "Esquí",
     "topic": "Sports and Activities",
     "se": "Skidåkning",
     "pl": "Narciarstwo",
@@ -3105,6 +3493,7 @@
   },
   {
     "id": "phrase_000390",
+    "es": "Juego al fútbol.",
     "topic": "Sports and Activities",
     "se": "Jag spelar fotboll.",
     "pl": "Gram w piłkę nożną.",
@@ -3113,6 +3502,7 @@
   },
   {
     "id": "phrase_000391",
+    "es": "Nado.",
     "topic": "Sports and Activities",
     "se": "Jag simmar.",
     "pl": "Pływam.",
@@ -3121,6 +3511,7 @@
   },
   {
     "id": "phrase_000392",
+    "es": "Bailo.",
     "topic": "Sports and Activities",
     "se": "Jag dansar.",
     "pl": "Tańczę.",
@@ -3129,6 +3520,7 @@
   },
   {
     "id": "phrase_000393",
+    "es": "Monto en bicicleta todos los días.",
     "topic": "Sports and Activities",
     "se": "Jag cyklar varje dag.",
     "pl": "Codziennie jeżdżę na rowerze.",
@@ -3137,6 +3529,7 @@
   },
   {
     "id": "phrase_000394",
+    "es": "Quiero aprender a nadar.",
     "topic": "Sports and Activities",
     "se": "Jag vill lära mig simma.",
     "pl": "Chcę nauczyć się pływać.",
@@ -3145,6 +3538,7 @@
   },
   {
     "id": "phrase_000395",
+    "es": "¡El deporte es divertido!",
     "topic": "Sports and Activities",
     "se": "Sport är roligt!",
     "pl": "Sport jest fajny!",
@@ -3153,6 +3547,7 @@
   },
   {
     "id": "phrase_000396",
+    "es": "Me gusta correr.",
     "topic": "Sports and Activities",
     "se": "Jag gillar att springa.",
     "pl": "Lubię biegać.",
@@ -3161,6 +3556,7 @@
   },
   {
     "id": "phrase_000397",
+    "es": "¡Mi equipo favorito está ganando!",
     "topic": "Sports and Activities",
     "se": "Mitt favoritlag vinner!",
     "pl": "Moja ulubiona drużyna wygrywa!",
@@ -3169,6 +3565,7 @@
   },
   {
     "id": "phrase_000398",
+    "es": "Quiero salir a la calle.",
     "topic": "I want / I need",
     "se": "Jag vill gå ut.",
     "pl": "Chcę wyjść na dwór.",
@@ -3177,6 +3574,7 @@
   },
   {
     "id": "phrase_000399",
+    "es": "Quiero una pelota.",
     "topic": "I want / I need",
     "se": "Jag vill ha en boll.",
     "pl": "Chcę piłkę.",
@@ -3185,6 +3583,7 @@
   },
   {
     "id": "phrase_000400",
+    "es": "Quiero comer.",
     "topic": "I want / I need",
     "se": "Jag vill äta.",
     "pl": "Chcę jeść.",
@@ -3193,6 +3592,7 @@
   },
   {
     "id": "phrase_000401",
+    "es": "Quiero dormir.",
     "topic": "I want / I need",
     "se": "Jag vill sova.",
     "pl": "Chcę spać.",
@@ -3201,6 +3601,7 @@
   },
   {
     "id": "phrase_000402",
+    "es": "Quiero jugar.",
     "topic": "I want / I need",
     "se": "Jag vill leka.",
     "pl": "Chcę się bawić.",
@@ -3209,6 +3610,7 @@
   },
   {
     "id": "phrase_000403",
+    "es": "Quiero ver la tele.",
     "topic": "I want / I need",
     "se": "Jag vill titta på TV.",
     "pl": "Chcę oglądać telewizję.",
@@ -3217,6 +3619,7 @@
   },
   {
     "id": "phrase_000404",
+    "es": "Quiero leer un libro.",
     "topic": "I want / I need",
     "se": "Jag vill läsa en bok.",
     "pl": "Chcę czytać książkę.",
@@ -3225,6 +3628,7 @@
   },
   {
     "id": "phrase_000405",
+    "es": "Quiero dibujar.",
     "topic": "I want / I need",
     "se": "Jag vill rita.",
     "pl": "Chcę rysować.",
@@ -3233,6 +3637,7 @@
   },
   {
     "id": "phrase_000406",
+    "es": "Quiero cantar.",
     "topic": "I want / I need",
     "se": "Jag vill sjunga.",
     "pl": "Chcę śpiewać.",
@@ -3241,6 +3646,7 @@
   },
   {
     "id": "phrase_000407",
+    "es": "Quiero bailar.",
     "topic": "I want / I need",
     "se": "Jag vill dansa.",
     "pl": "Chcę tańczyć.",
@@ -3249,6 +3655,7 @@
   },
   {
     "id": "phrase_000408",
+    "es": "Quiero ir a Polonia.",
     "topic": "I want / I need",
     "se": "Jag vill åka till Polen.",
     "pl": "Chcę pojechać do Polski.",
@@ -3257,6 +3664,7 @@
   },
   {
     "id": "phrase_000409",
+    "es": "Quiero un perro.",
     "topic": "I want / I need",
     "se": "Jag vill ha en hund.",
     "pl": "Chcę mieć psa.",
@@ -3265,6 +3673,7 @@
   },
   {
     "id": "phrase_000410",
+    "es": "Quiero caramelos.",
     "topic": "I want / I need",
     "se": "Jag vill ha godis.",
     "pl": "Chcę cukierki.",
@@ -3273,6 +3682,7 @@
   },
   {
     "id": "phrase_000411",
+    "es": "Necesito ayuda.",
     "topic": "I want / I need",
     "se": "Jag behöver hjälp.",
     "pl": "Potrzebuję pomocy.",
@@ -3281,6 +3691,7 @@
   },
   {
     "id": "phrase_000412",
+    "es": "Necesito ir al baño.",
     "topic": "I want / I need",
     "se": "Jag behöver gå på toaletten.",
     "pl": "Muszę iść do toalety.",
@@ -3289,6 +3700,7 @@
   },
   {
     "id": "phrase_000413",
+    "es": "Necesito un vaso de agua.",
     "topic": "I want / I need",
     "se": "Jag behöver ett glas vatten.",
     "pl": "Potrzebuję szklanki wody.",
@@ -3297,6 +3709,7 @@
   },
   {
     "id": "phrase_000414",
+    "es": "No quiero.",
     "topic": "I want / I need",
     "se": "Jag vill inte.",
     "pl": "Nie chcę.",
@@ -3305,6 +3718,7 @@
   },
   {
     "id": "phrase_000415",
+    "es": "Tengo que ir a casa.",
     "topic": "I want / I need",
     "se": "Jag måste gå hem.",
     "pl": "Muszę iść do domu.",
@@ -3313,6 +3727,7 @@
   },
   {
     "id": "phrase_000416",
+    "es": "Tengo que irme ya.",
     "topic": "I want / I need",
     "se": "Jag måste gå nu.",
     "pl": "Muszę już iść.",
@@ -3321,6 +3736,7 @@
   },
   {
     "id": "phrase_000417",
+    "es": "No me dejan.",
     "topic": "I want / I need",
     "se": "Jag får inte.",
     "pl": "Nie wolno mi.",
@@ -3329,6 +3745,7 @@
   },
   {
     "id": "phrase_000418",
+    "es": "¿Dónde está el osito de peluche?",
     "topic": "Where is?",
     "se": "Var är nallen?",
     "pl": "Gdzie jest miś?",
@@ -3337,6 +3754,7 @@
   },
   {
     "id": "phrase_000419",
+    "es": "¿Dónde está mi móvil?",
     "topic": "Where is?",
     "se": "Var är min mobil?",
     "pl": "Gdzie jest mój telefon?",
@@ -3345,6 +3763,7 @@
   },
   {
     "id": "phrase_000420",
+    "es": "¿Dónde está mi bolsa?",
     "topic": "Where is?",
     "se": "Var är min väska?",
     "pl": "Gdzie jest moja torba?",
@@ -3353,6 +3772,7 @@
   },
   {
     "id": "phrase_000421",
+    "es": "¿Dónde están mis zapatos?",
     "topic": "Where is?",
     "se": "Var är mina skor?",
     "pl": "Gdzie są moje buty?",
@@ -3361,6 +3781,7 @@
   },
   {
     "id": "phrase_000422",
+    "es": "¿Dónde está mamá?",
     "topic": "Where is?",
     "se": "Var är mamma?",
     "pl": "Gdzie jest mama?",
@@ -3369,6 +3790,7 @@
   },
   {
     "id": "phrase_000423",
+    "es": "¿Dónde está papá?",
     "topic": "Where is?",
     "se": "Var är pappa?",
     "pl": "Gdzie jest tata?",
@@ -3377,6 +3799,7 @@
   },
   {
     "id": "phrase_000424",
+    "es": "¿Dónde está el perro?",
     "topic": "Where is?",
     "se": "Var är hunden?",
     "pl": "Gdzie jest pies?",
@@ -3385,6 +3808,7 @@
   },
   {
     "id": "phrase_000425",
+    "es": "¿Dónde está el baño?",
     "topic": "Where is?",
     "se": "Var är badrummet?",
     "pl": "Gdzie jest łazienka?",
@@ -3393,6 +3817,7 @@
   },
   {
     "id": "phrase_000426",
+    "es": "¿Dónde está el aseo?",
     "topic": "Where is?",
     "se": "Var är toaletten?",
     "pl": "Gdzie jest toaleta?",
@@ -3401,6 +3826,7 @@
   },
   {
     "id": "phrase_000427",
+    "es": "¿Dónde está el libro?",
     "topic": "Where is?",
     "se": "Var är boken?",
     "pl": "Gdzie jest książka?",
@@ -3409,6 +3835,7 @@
   },
   {
     "id": "phrase_000428",
+    "es": "¿Dónde está el mando a distancia?",
     "topic": "Where is?",
     "se": "Var är fjärrkontrollen?",
     "pl": "Gdzie jest pilot?",
@@ -3417,6 +3844,7 @@
   },
   {
     "id": "phrase_000429",
+    "es": "¿Dónde está mi jersey?",
     "topic": "Where is?",
     "se": "Var är min tröja?",
     "pl": "Gdzie jest mój sweter?",
@@ -3425,6 +3853,7 @@
   },
   {
     "id": "phrase_000430",
+    "es": "¿Dónde está mi bicicleta?",
     "topic": "Where is?",
     "se": "Var är min cykel?",
     "pl": "Gdzie jest mój rower?",
@@ -3433,6 +3862,7 @@
   },
   {
     "id": "phrase_000431",
+    "es": "¿Dónde está el colegio?",
     "topic": "Where is?",
     "se": "Var är skolan?",
     "pl": "Gdzie jest szkoła?",
@@ -3441,6 +3871,7 @@
   },
   {
     "id": "phrase_000432",
+    "es": "¿Dónde está el parque?",
     "topic": "Where is?",
     "se": "Var är parken?",
     "pl": "Gdzie jest park?",
@@ -3449,6 +3880,7 @@
   },
   {
     "id": "phrase_000433",
+    "es": "¡Aquí!",
     "topic": "Where is?",
     "se": "Här!",
     "pl": "Tutaj!",
@@ -3457,6 +3889,7 @@
   },
   {
     "id": "phrase_000434",
+    "es": "¡Allí!",
     "topic": "Where is?",
     "se": "Där!",
     "pl": "Tam!",
@@ -3465,6 +3898,7 @@
   },
   {
     "id": "phrase_000435",
+    "es": "No sé dónde está.",
     "topic": "Where is?",
     "se": "Jag vet inte var det är.",
     "pl": "Nie wiem, gdzie to jest.",
@@ -3473,6 +3907,7 @@
   },
   {
     "id": "phrase_000436",
+    "es": "Está en la mesa.",
     "topic": "Where is?",
     "se": "Det är på bordet.",
     "pl": "To jest na stole.",
@@ -3481,6 +3916,7 @@
   },
   {
     "id": "phrase_000437",
+    "es": "Está debajo del sofá.",
     "topic": "Where is?",
     "se": "Det är under soffan.",
     "pl": "To jest pod sofą.",
@@ -3489,6 +3925,7 @@
   },
   {
     "id": "phrase_000438",
+    "es": "Está en la mochila.",
     "topic": "Where is?",
     "se": "Det är i ryggsäcken.",
     "pl": "To jest w plecaku.",
@@ -3497,6 +3934,7 @@
   },
   {
     "id": "phrase_000439",
+    "es": "Está detrás de la puerta.",
     "topic": "Where is?",
     "se": "Det är bakom dörren.",
     "pl": "To jest za drzwiami.",
@@ -3505,6 +3943,7 @@
   },
   {
     "id": "phrase_000440",
+    "es": "Contento",
     "topic": "Feelings and Emotions",
     "se": "Glad",
     "pl": "Wesoły",
@@ -3513,6 +3952,7 @@
   },
   {
     "id": "phrase_000441",
+    "es": "Triste",
     "topic": "Feelings and Emotions",
     "se": "Ledsen",
     "pl": "Smutny",
@@ -3521,6 +3961,7 @@
   },
   {
     "id": "phrase_000442",
+    "es": "Enfadado",
     "topic": "Feelings and Emotions",
     "se": "Arg",
     "pl": "Zły",
@@ -3529,6 +3970,7 @@
   },
   {
     "id": "phrase_000443",
+    "es": "Asustado",
     "topic": "Feelings and Emotions",
     "se": "Rädd",
     "pl": "Przestraszony",
@@ -3537,6 +3979,7 @@
   },
   {
     "id": "phrase_000444",
+    "es": "Cansado",
     "topic": "Feelings and Emotions",
     "se": "Trött",
     "pl": "Zmęczony",
@@ -3545,6 +3988,7 @@
   },
   {
     "id": "phrase_000445",
+    "es": "Hambriento",
     "topic": "Feelings and Emotions",
     "se": "Hungrig",
     "pl": "Głodny",
@@ -3553,6 +3997,7 @@
   },
   {
     "id": "phrase_000446",
+    "es": "Sediento",
     "topic": "Feelings and Emotions",
     "se": "Törstig",
     "pl": "Spragniony",
@@ -3561,6 +4006,7 @@
   },
   {
     "id": "phrase_000447",
+    "es": "Sorprendido",
     "topic": "Feelings and Emotions",
     "se": "Förvånad",
     "pl": "Zaskoczony",
@@ -3569,6 +4015,7 @@
   },
   {
     "id": "phrase_000448",
+    "es": "Nervioso",
     "topic": "Feelings and Emotions",
     "se": "Nervös",
     "pl": "Zdenerwowany",
@@ -3577,6 +4024,7 @@
   },
   {
     "id": "phrase_000449",
+    "es": "Enfermo",
     "topic": "Feelings and Emotions",
     "se": "Sjuk",
     "pl": "Chory",
@@ -3585,6 +4033,7 @@
   },
   {
     "id": "phrase_000450",
+    "es": "¡Estoy contento!",
     "topic": "Feelings and Emotions",
     "se": "Jag är glad!",
     "pl": "Jestem wesoły!",
@@ -3593,6 +4042,7 @@
   },
   {
     "id": "phrase_000451",
+    "es": "Estoy triste.",
     "topic": "Feelings and Emotions",
     "se": "Jag är ledsen.",
     "pl": "Jestem smutny.",
@@ -3601,6 +4051,7 @@
   },
   {
     "id": "phrase_000452",
+    "es": "Estoy enfadado.",
     "topic": "Feelings and Emotions",
     "se": "Jag är arg.",
     "pl": "Jestem zły.",
@@ -3609,6 +4060,7 @@
   },
   {
     "id": "phrase_000453",
+    "es": "Tengo miedo.",
     "topic": "Feelings and Emotions",
     "se": "Jag är rädd.",
     "pl": "Boję się.",
@@ -3617,6 +4069,7 @@
   },
   {
     "id": "phrase_000454",
+    "es": "Estoy cansado.",
     "topic": "Feelings and Emotions",
     "se": "Jag är trött.",
     "pl": "Jestem zmęczony.",
@@ -3625,6 +4078,7 @@
   },
   {
     "id": "phrase_000455",
+    "es": "¡No tengo miedo!",
     "topic": "Feelings and Emotions",
     "se": "Jag är inte rädd!",
     "pl": "Nie boję się!",
@@ -3633,6 +4087,7 @@
   },
   {
     "id": "phrase_000456",
+    "es": "¿Por qué lloras?",
     "topic": "Feelings and Emotions",
     "se": "Varför gråter du?",
     "pl": "Dlaczego płaczesz?",
@@ -3641,6 +4096,7 @@
   },
   {
     "id": "phrase_000457",
+    "es": "¡Soy feliz!",
     "topic": "Feelings and Emotions",
     "se": "Jag är lycklig!",
     "pl": "Jestem szczęśliwy!",
@@ -3649,6 +4105,7 @@
   },
   {
     "id": "phrase_000458",
+    "es": "Duele.",
     "topic": "Feelings and Emotions",
     "se": "Det gör ont.",
     "pl": "To boli.",
@@ -3657,6 +4114,7 @@
   },
   {
     "id": "phrase_000459",
+    "es": "Ahora me encuentro mejor.",
     "topic": "Feelings and Emotions",
     "se": "Jag mår bättre nu.",
     "pl": "Teraz czuję się lepiej.",
@@ -3665,6 +4123,7 @@
   },
   {
     "id": "phrase_000460",
+    "es": "Coche",
     "topic": "Transport",
     "se": "Bil",
     "pl": "Samochód",
@@ -3673,6 +4132,7 @@
   },
   {
     "id": "phrase_000461",
+    "es": "Autobús",
     "topic": "Transport",
     "se": "Buss",
     "pl": "Autobus",
@@ -3681,6 +4141,7 @@
   },
   {
     "id": "phrase_000462",
+    "es": "Tren",
     "topic": "Transport",
     "se": "Tåg",
     "pl": "Pociąg",
@@ -3689,6 +4150,7 @@
   },
   {
     "id": "phrase_000463",
+    "es": "Avión",
     "topic": "Transport",
     "se": "Flygplan",
     "pl": "Samolot",
@@ -3697,6 +4159,7 @@
   },
   {
     "id": "phrase_000464",
+    "es": "Bicicleta",
     "topic": "Transport",
     "se": "Cykel",
     "pl": "Rower",
@@ -3705,6 +4168,7 @@
   },
   {
     "id": "phrase_000465",
+    "es": "Moto",
     "topic": "Transport",
     "se": "Motorcykel",
     "pl": "Motocykl",
@@ -3713,6 +4177,7 @@
   },
   {
     "id": "phrase_000466",
+    "es": "Barca",
     "topic": "Transport",
     "se": "Båt",
     "pl": "Łódka",
@@ -3721,6 +4186,7 @@
   },
   {
     "id": "phrase_000467",
+    "es": "Barco",
     "topic": "Transport",
     "se": "Fartyg",
     "pl": "Statek",
@@ -3729,6 +4195,7 @@
   },
   {
     "id": "phrase_000468",
+    "es": "Tranvía",
     "topic": "Transport",
     "se": "Spårvagn",
     "pl": "Tramwaj",
@@ -3737,6 +4204,7 @@
   },
   {
     "id": "phrase_000469",
+    "es": "Metro",
     "topic": "Transport",
     "se": "Tunnelbana",
     "pl": "Metro",
@@ -3745,6 +4213,7 @@
   },
   {
     "id": "phrase_000470",
+    "es": "Ambulancia",
     "topic": "Transport",
     "se": "Ambulans",
     "pl": "Karetka",
@@ -3753,6 +4222,7 @@
   },
   {
     "id": "phrase_000471",
+    "es": "Camión de bomberos",
     "topic": "Transport",
     "se": "Brandbil",
     "pl": "Wóz strażacki",
@@ -3761,6 +4231,7 @@
   },
   {
     "id": "phrase_000472",
+    "es": "Vamos en coche.",
     "topic": "Transport",
     "se": "Vi åker bil.",
     "pl": "Jedziemy samochodem.",
@@ -3769,6 +4240,7 @@
   },
   {
     "id": "phrase_000473",
+    "es": "Vamos en tren.",
     "topic": "Transport",
     "se": "Vi åker tåg.",
     "pl": "Jedziemy pociągiem.",
@@ -3777,6 +4249,7 @@
   },
   {
     "id": "phrase_000474",
+    "es": "¡Vamos a Polonia en avión!",
     "topic": "Transport",
     "se": "Vi flyger till Polen!",
     "pl": "Lecimy do Polski!",
@@ -3785,6 +4258,7 @@
   },
   {
     "id": "phrase_000475",
+    "es": "Voy al colegio en autobús.",
     "topic": "Transport",
     "se": "Jag åker buss till skolan.",
     "pl": "Jeżdżę autobusem do szkoły.",
@@ -3793,6 +4267,7 @@
   },
   {
     "id": "phrase_000476",
+    "es": "¿Cuánto se tarda?",
     "topic": "Transport",
     "se": "Hur lång tid tar det?",
     "pl": "Jak długo to trwa?",
@@ -3801,6 +4276,7 @@
   },
   {
     "id": "phrase_000477",
+    "es": "¿Falta mucho para llegar?",
     "topic": "Transport",
     "se": "Är vi framme snart?",
     "pl": "Daleko jeszcze?",
@@ -3809,6 +4285,7 @@
   },
   {
     "id": "phrase_000478",
+    "es": "¡Ya hemos llegado!",
     "topic": "Transport",
     "se": "Vi är framme!",
     "pl": "Już jesteśmy!",
@@ -3817,6 +4294,7 @@
   },
   {
     "id": "phrase_000479",
+    "es": "Bosque",
     "topic": "Nature",
     "se": "Skog",
     "pl": "Las",
@@ -3825,6 +4303,7 @@
   },
   {
     "id": "phrase_000480",
+    "es": "Mar",
     "topic": "Nature",
     "se": "Hav",
     "pl": "Morze",
@@ -3833,6 +4312,7 @@
   },
   {
     "id": "phrase_000481",
+    "es": "Lago",
     "topic": "Nature",
     "se": "Sjö",
     "pl": "Jezioro",
@@ -3841,6 +4321,7 @@
   },
   {
     "id": "phrase_000482",
+    "es": "Río",
     "topic": "Nature",
     "se": "Flod",
     "pl": "Rzeka",
@@ -3849,6 +4330,7 @@
   },
   {
     "id": "phrase_000483",
+    "es": "Montaña",
     "topic": "Nature",
     "se": "Berg",
     "pl": "Góra",
@@ -3857,6 +4339,7 @@
   },
   {
     "id": "phrase_000484",
+    "es": "Valle",
     "topic": "Nature",
     "se": "Dal",
     "pl": "Dolina",
@@ -3865,6 +4348,7 @@
   },
   {
     "id": "phrase_000485",
+    "es": "Playa",
     "topic": "Nature",
     "se": "Strand",
     "pl": "Plaża",
@@ -3873,6 +4357,7 @@
   },
   {
     "id": "phrase_000486",
+    "es": "Flor",
     "topic": "Nature",
     "se": "Blomma",
     "pl": "Kwiat",
@@ -3881,6 +4366,7 @@
   },
   {
     "id": "phrase_000487",
+    "es": "Árbol",
     "topic": "Nature",
     "se": "Träd",
     "pl": "Drzewo",
@@ -3889,6 +4375,7 @@
   },
   {
     "id": "phrase_000488",
+    "es": "Hierba",
     "topic": "Nature",
     "se": "Gräs",
     "pl": "Trawa",
@@ -3897,6 +4384,7 @@
   },
   {
     "id": "phrase_000489",
+    "es": "Piedra",
     "topic": "Nature",
     "se": "Sten",
     "pl": "Kamień",
@@ -3905,6 +4393,7 @@
   },
   {
     "id": "phrase_000490",
+    "es": "Tierra",
     "topic": "Nature",
     "se": "Jord",
     "pl": "Ziemia",
@@ -3913,6 +4402,7 @@
   },
   {
     "id": "phrase_000491",
+    "es": "Cielo",
     "topic": "Nature",
     "se": "Himmel",
     "pl": "Niebo",
@@ -3921,6 +4411,7 @@
   },
   {
     "id": "phrase_000492",
+    "es": "Estrella",
     "topic": "Nature",
     "se": "Stjärna",
     "pl": "Gwiazda",
@@ -3929,6 +4420,7 @@
   },
   {
     "id": "phrase_000493",
+    "es": "Luna",
     "topic": "Nature",
     "se": "Måne",
     "pl": "Księżyc",
@@ -3937,6 +4429,7 @@
   },
   {
     "id": "phrase_000494",
+    "es": "Me gusta el bosque.",
     "topic": "Nature",
     "se": "Jag gillar skogen.",
     "pl": "Lubię las.",
@@ -3945,6 +4438,7 @@
   },
   {
     "id": "phrase_000495",
+    "es": "El mar es grande y azul.",
     "topic": "Nature",
     "se": "Havet är stort och blått.",
     "pl": "Morze jest duże i niebieskie.",
@@ -3953,6 +4447,7 @@
   },
   {
     "id": "phrase_000496",
+    "es": "Las flores son bonitas.",
     "topic": "Nature",
     "se": "Blommorna är vackra.",
     "pl": "Kwiaty są piękne.",
@@ -3961,6 +4456,7 @@
   },
   {
     "id": "phrase_000497",
+    "es": "¡Vamos a la playa!",
     "topic": "Nature",
     "se": "Vi går till stranden!",
     "pl": "Idziemy na plażę!",
@@ -3969,6 +4465,7 @@
   },
   {
     "id": "phrase_000498",
+    "es": "¡Mira las estrellas!",
     "topic": "Nature",
     "se": "Titta på stjärnorna!",
     "pl": "Popatrz na gwiazdy!",
@@ -3977,6 +4474,7 @@
   },
   {
     "id": "phrase_000499",
+    "es": "La luna brilla.",
     "topic": "Nature",
     "se": "Månen lyser.",
     "pl": "Księżyc świeci.",
@@ -3985,6 +4483,7 @@
   },
   {
     "id": "phrase_000500",
+    "es": "Cumpleaños",
     "topic": "Holidays and Celebrations",
     "se": "Födelsedag",
     "pl": "Urodziny",
@@ -3993,6 +4492,7 @@
   },
   {
     "id": "phrase_000501",
+    "es": "¡Feliz cumpleaños!",
     "topic": "Holidays and Celebrations",
     "se": "Grattis på födelsedagen!",
     "pl": "Wszystkiego najlepszego z okazji urodzin!",
@@ -4001,6 +4501,7 @@
   },
   {
     "id": "phrase_000502",
+    "es": "Navidad",
     "topic": "Holidays and Celebrations",
     "se": "Jul",
     "pl": "Boże Narodzenie",
@@ -4009,6 +4510,7 @@
   },
   {
     "id": "phrase_000503",
+    "es": "¡Feliz Navidad!",
     "topic": "Holidays and Celebrations",
     "se": "God jul!",
     "pl": "Wesołych Świąt!",
@@ -4017,6 +4519,7 @@
   },
   {
     "id": "phrase_000504",
+    "es": "Año Nuevo",
     "topic": "Holidays and Celebrations",
     "se": "Nyår",
     "pl": "Nowy Rok",
@@ -4025,6 +4528,7 @@
   },
   {
     "id": "phrase_000505",
+    "es": "¡Feliz año nuevo!",
     "topic": "Holidays and Celebrations",
     "se": "Gott nytt år!",
     "pl": "Szczęśliwego Nowego Roku!",
@@ -4033,6 +4537,7 @@
   },
   {
     "id": "phrase_000506",
+    "es": "Pascua",
     "topic": "Holidays and Celebrations",
     "se": "Påsk",
     "pl": "Wielkanoc",
@@ -4041,6 +4546,7 @@
   },
   {
     "id": "phrase_000507",
+    "es": "¡Feliz Pascua!",
     "topic": "Holidays and Celebrations",
     "se": "Glad påsk!",
     "pl": "Wesołych Świąt Wielkanocnych!",
@@ -4049,6 +4555,7 @@
   },
   {
     "id": "phrase_000508",
+    "es": "Regalo",
     "topic": "Holidays and Celebrations",
     "se": "Present",
     "pl": "Prezent",
@@ -4057,6 +4564,7 @@
   },
   {
     "id": "phrase_000509",
+    "es": "Tarta",
     "topic": "Holidays and Celebrations",
     "se": "Tårta",
     "pl": "Tort",
@@ -4065,6 +4573,7 @@
   },
   {
     "id": "phrase_000510",
+    "es": "Globos",
     "topic": "Holidays and Celebrations",
     "se": "Ballonger",
     "pl": "Balony",
@@ -4073,6 +4582,7 @@
   },
   {
     "id": "phrase_000511",
+    "es": "Vela",
     "topic": "Holidays and Celebrations",
     "se": "Ljus",
     "pl": "Świeczka",
@@ -4081,6 +4591,7 @@
   },
   {
     "id": "phrase_000512",
+    "es": "¡Hoy es mi cumpleaños!",
     "topic": "Holidays and Celebrations",
     "se": "Idag fyller jag år!",
     "pl": "Dzisiaj mam urodziny!",
@@ -4089,6 +4600,7 @@
   },
   {
     "id": "phrase_000513",
+    "es": "Cumplo diez años.",
     "topic": "Holidays and Celebrations",
     "se": "Jag fyller tio år.",
     "pl": "Kończę dziesięć lat.",
@@ -4097,6 +4609,7 @@
   },
   {
     "id": "phrase_000514",
+    "es": "¡Sopla las velas!",
     "topic": "Holidays and Celebrations",
     "se": "Blås ut ljusen!",
     "pl": "Zdmuchnij świeczki!",
@@ -4105,6 +4618,7 @@
   },
   {
     "id": "phrase_000515",
+    "es": "¿Puedo abrir el regalo?",
     "topic": "Holidays and Celebrations",
     "se": "Kan jag öppna presenten?",
     "pl": "Czy mogę otworzyć prezent?",
@@ -4113,6 +4627,7 @@
   },
   {
     "id": "phrase_000516",
+    "es": "Lo celebramos el fin de semana.",
     "topic": "Holidays and Celebrations",
     "se": "Vi firar i helgen.",
     "pl": "Świętujemy w weekend.",
@@ -4121,6 +4636,7 @@
   },
   {
     "id": "phrase_000517",
+    "es": "Despertarse",
     "topic": "Daily Routine",
     "se": "Vakna",
     "pl": "Budzić się",
@@ -4129,6 +4645,7 @@
   },
   {
     "id": "phrase_000518",
+    "es": "Levantarse",
     "topic": "Daily Routine",
     "se": "Stiga upp",
     "pl": "Wstawać",
@@ -4137,6 +4654,7 @@
   },
   {
     "id": "phrase_000519",
+    "es": "Lavarse los dientes",
     "topic": "Daily Routine",
     "se": "Borsta tänderna",
     "pl": "Myć zęby",
@@ -4145,6 +4663,7 @@
   },
   {
     "id": "phrase_000520",
+    "es": "Lavarse",
     "topic": "Daily Routine",
     "se": "Tvätta sig",
     "pl": "Myć się",
@@ -4153,6 +4672,7 @@
   },
   {
     "id": "phrase_000521",
+    "es": "Ducharse",
     "topic": "Daily Routine",
     "se": "Duscha",
     "pl": "Brać prysznic",
@@ -4161,6 +4681,7 @@
   },
   {
     "id": "phrase_000522",
+    "es": "Vestirse",
     "topic": "Daily Routine",
     "se": "Klä på sig",
     "pl": "Ubierać się",
@@ -4169,6 +4690,7 @@
   },
   {
     "id": "phrase_000523",
+    "es": "Desayunar",
     "topic": "Daily Routine",
     "se": "Äta frukost",
     "pl": "Jeść śniadanie",
@@ -4177,6 +4699,7 @@
   },
   {
     "id": "phrase_000524",
+    "es": "Ir al colegio",
     "topic": "Daily Routine",
     "se": "Gå till skolan",
     "pl": "Iść do szkoły",
@@ -4185,6 +4708,7 @@
   },
   {
     "id": "phrase_000525",
+    "es": "Comer al mediodía",
     "topic": "Daily Routine",
     "se": "Äta lunch",
     "pl": "Jeść obiad",
@@ -4193,6 +4717,7 @@
   },
   {
     "id": "phrase_000526",
+    "es": "Hacer los deberes",
     "topic": "Daily Routine",
     "se": "Göra läxor",
     "pl": "Odrabiać lekcje",
@@ -4201,6 +4726,7 @@
   },
   {
     "id": "phrase_000527",
+    "es": "Jugar al aire libre",
     "topic": "Daily Routine",
     "se": "Leka utomhus",
     "pl": "Bawić się na dworze",
@@ -4209,6 +4735,7 @@
   },
   {
     "id": "phrase_000528",
+    "es": "Cenar",
     "topic": "Daily Routine",
     "se": "Äta middag",
     "pl": "Jeść kolację",
@@ -4217,6 +4744,7 @@
   },
   {
     "id": "phrase_000529",
+    "es": "Acostarse",
     "topic": "Daily Routine",
     "se": "Lägga sig",
     "pl": "Kłaść się spać",
@@ -4225,6 +4753,7 @@
   },
   {
     "id": "phrase_000530",
+    "es": "Dormir",
     "topic": "Daily Routine",
     "se": "Sova",
     "pl": "Spać",
@@ -4233,6 +4762,7 @@
   },
   {
     "id": "phrase_000531",
+    "es": "Me despierto a las siete.",
     "topic": "Daily Routine",
     "se": "Jag vaknar klockan sju.",
     "pl": "Budzę się o siódmej.",
@@ -4241,6 +4771,7 @@
   },
   {
     "id": "phrase_000532",
+    "es": "Me lavo los dientes todas las mañanas.",
     "topic": "Daily Routine",
     "se": "Jag borstar tänderna varje morgon.",
     "pl": "Co rano myję zęby.",
@@ -4249,6 +4780,7 @@
   },
   {
     "id": "phrase_000533",
+    "es": "Desayunamos juntos.",
     "topic": "Daily Routine",
     "se": "Vi äter frukost tillsammans.",
     "pl": "Razem jemy śniadanie.",
@@ -4257,6 +4789,7 @@
   },
   {
     "id": "phrase_000534",
+    "es": "Hago los deberes después del colegio.",
     "topic": "Daily Routine",
     "se": "Jag gör läxorna efter skolan.",
     "pl": "Odrabiam lekcje po szkole.",
@@ -4265,6 +4798,7 @@
   },
   {
     "id": "phrase_000535",
+    "es": "Me acuesto a las ocho.",
     "topic": "Daily Routine",
     "se": "Jag går och lägger mig klockan åtta.",
     "pl": "O ósmej kładę się spać.",
@@ -4273,6 +4807,7 @@
   },
   {
     "id": "phrase_000536",
+    "es": "¡Que duermas bien!",
     "topic": "Daily Routine",
     "se": "Sov gott!",
     "pl": "Śpij dobrze!",
@@ -4281,6 +4816,7 @@
   },
   {
     "id": "phrase_000537",
+    "es": "Es hora de dormir.",
     "topic": "Daily Routine",
     "se": "Dags att sova nu.",
     "pl": "Czas spać.",
@@ -4289,6 +4825,7 @@
   },
   {
     "id": "phrase_000538",
+    "es": "¿Puedes ayudarme?",
     "topic": "Asking and Requests",
     "se": "Kan du hjälpa mig?",
     "pl": "Czy możesz mi pomóc?",
@@ -4297,6 +4834,7 @@
   },
   {
     "id": "phrase_000539",
+    "es": "¡Socorro!",
     "topic": "Asking and Requests",
     "se": "Hjälp!",
     "pl": "Pomocy!",
@@ -4305,6 +4843,7 @@
   },
   {
     "id": "phrase_000540",
+    "es": "¡Por favor!",
     "topic": "Asking and Requests",
     "se": "Snälla!",
     "pl": "Proszę!",
@@ -4313,6 +4852,7 @@
   },
   {
     "id": "phrase_000541",
+    "es": "¡Espera!",
     "topic": "Asking and Requests",
     "se": "Vänta!",
     "pl": "Poczekaj!",
@@ -4321,6 +4861,7 @@
   },
   {
     "id": "phrase_000542",
+    "es": "¡Ven aquí!",
     "topic": "Asking and Requests",
     "se": "Kom hit!",
     "pl": "Chodź tutaj!",
@@ -4329,6 +4870,7 @@
   },
   {
     "id": "phrase_000543",
+    "es": "¡Ve allí!",
     "topic": "Asking and Requests",
     "se": "Gå dit!",
     "pl": "Idź tam!",
@@ -4337,6 +4879,7 @@
   },
   {
     "id": "phrase_000544",
+    "es": "¡Dame eso!",
     "topic": "Asking and Requests",
     "se": "Ge mig det!",
     "pl": "Daj mi to!",
@@ -4345,6 +4888,7 @@
   },
   {
     "id": "phrase_000545",
+    "es": "¡Mira!",
     "topic": "Asking and Requests",
     "se": "Titta!",
     "pl": "Patrz!",
@@ -4353,6 +4897,7 @@
   },
   {
     "id": "phrase_000546",
+    "es": "¡Escucha!",
     "topic": "Asking and Requests",
     "se": "Lyssna!",
     "pl": "Słuchaj!",
@@ -4361,6 +4906,7 @@
   },
   {
     "id": "phrase_000547",
+    "es": "¡Para!",
     "topic": "Asking and Requests",
     "se": "Stanna!",
     "pl": "Stój!",
@@ -4369,6 +4915,7 @@
   },
   {
     "id": "phrase_000548",
+    "es": "¡Espera un momento!",
     "topic": "Asking and Requests",
     "se": "Vänta lite!",
     "pl": "Poczekaj!",
@@ -4377,6 +4924,7 @@
   },
   {
     "id": "phrase_000549",
+    "es": "¡Abre!",
     "topic": "Asking and Requests",
     "se": "Öppna!",
     "pl": "Otwórz!",
@@ -4385,6 +4933,7 @@
   },
   {
     "id": "phrase_000550",
+    "es": "¡Cierra!",
     "topic": "Asking and Requests",
     "se": "Stäng!",
     "pl": "Zamknij!",
@@ -4393,6 +4942,7 @@
   },
   {
     "id": "phrase_000551",
+    "es": "¿Puedes decirlo otra vez?",
     "topic": "Asking and Requests",
     "se": "Kan du säga det igen?",
     "pl": "Czy możesz powtórzyć?",
@@ -4401,6 +4951,7 @@
   },
   {
     "id": "phrase_000552",
+    "es": "¿Puedes hablar más despacio?",
     "topic": "Asking and Requests",
     "se": "Kan du prata långsammare?",
     "pl": "Czy możesz mówić wolniej?",
@@ -4409,6 +4960,7 @@
   },
   {
     "id": "phrase_000553",
+    "es": "¿Qué significa eso?",
     "topic": "Asking and Requests",
     "se": "Vad betyder det?",
     "pl": "Co to znaczy?",
@@ -4417,6 +4969,7 @@
   },
   {
     "id": "phrase_000554",
+    "es": "¿Cómo se dice eso?",
     "topic": "Asking and Requests",
     "se": "Hur säger man det?",
     "pl": "Jak się to mówi?",
@@ -4425,6 +4978,7 @@
   },
   {
     "id": "phrase_000555",
+    "es": "¿Podemos jugar?",
     "topic": "Asking and Requests",
     "se": "Kan vi leka?",
     "pl": "Czy możemy się bawić?",
@@ -4433,6 +4987,7 @@
   },
   {
     "id": "phrase_000556",
+    "es": "¿Podemos comer ya?",
     "topic": "Asking and Requests",
     "se": "Kan vi äta nu?",
     "pl": "Czy możemy teraz jeść?",
@@ -4441,6 +4996,7 @@
   },
   {
     "id": "phrase_000557",
+    "es": "¿Puedo ir al baño?",
     "topic": "Asking and Requests",
     "se": "Får jag gå på toaletten?",
     "pl": "Czy mogę iść do toalety?",
@@ -4449,6 +5005,7 @@
   },
   {
     "id": "phrase_000558",
+    "es": "¿Falta mucho para llegar?",
     "topic": "Asking and Requests",
     "se": "Är vi framme snart?",
     "pl": "Daleko jeszcze?",
@@ -4457,6 +5014,7 @@
   },
   {
     "id": "phrase_000559",
+    "es": "Grande",
     "topic": "Opposites",
     "se": "Stor",
     "pl": "Duży",
@@ -4465,6 +5023,7 @@
   },
   {
     "id": "phrase_000560",
+    "es": "Pequeño",
     "topic": "Opposites",
     "se": "Liten",
     "pl": "Mały",
@@ -4473,6 +5032,7 @@
   },
   {
     "id": "phrase_000561",
+    "es": "Largo",
     "topic": "Opposites",
     "se": "Lång",
     "pl": "Długi",
@@ -4481,6 +5041,7 @@
   },
   {
     "id": "phrase_000562",
+    "es": "Corto",
     "topic": "Opposites",
     "se": "Kort",
     "pl": "Krótki",
@@ -4489,6 +5050,7 @@
   },
   {
     "id": "phrase_000563",
+    "es": "Rápido",
     "topic": "Opposites",
     "se": "Snabb",
     "pl": "Szybki",
@@ -4497,6 +5059,7 @@
   },
   {
     "id": "phrase_000564",
+    "es": "Lento",
     "topic": "Opposites",
     "se": "Långsam",
     "pl": "Wolny",
@@ -4505,6 +5068,7 @@
   },
   {
     "id": "phrase_000565",
+    "es": "Caliente",
     "topic": "Opposites",
     "se": "Varm",
     "pl": "Ciepły",
@@ -4513,6 +5077,7 @@
   },
   {
     "id": "phrase_000566",
+    "es": "Frío",
     "topic": "Opposites",
     "se": "Kall",
     "pl": "Zimny",
@@ -4521,6 +5086,7 @@
   },
   {
     "id": "phrase_000567",
+    "es": "Nuevo",
     "topic": "Opposites",
     "se": "Ny",
     "pl": "Nowy",
@@ -4529,6 +5095,7 @@
   },
   {
     "id": "phrase_000568",
+    "es": "Viejo",
     "topic": "Opposites",
     "se": "Gammal",
     "pl": "Stary",
@@ -4537,6 +5104,7 @@
   },
   {
     "id": "phrase_000569",
+    "es": "Limpio",
     "topic": "Opposites",
     "se": "Ren",
     "pl": "Czysty",
@@ -4545,6 +5113,7 @@
   },
   {
     "id": "phrase_000570",
+    "es": "Sucio",
     "topic": "Opposites",
     "se": "Smutsig",
     "pl": "Brudny",
@@ -4553,6 +5122,7 @@
   },
   {
     "id": "phrase_000571",
+    "es": "Pesado",
     "topic": "Opposites",
     "se": "Tung",
     "pl": "Ciężki",
@@ -4561,6 +5131,7 @@
   },
   {
     "id": "phrase_000572",
+    "es": "Ligero",
     "topic": "Opposites",
     "se": "Lätt",
     "pl": "Lekki",
@@ -4569,6 +5140,7 @@
   },
   {
     "id": "phrase_000573",
+    "es": "Duro",
     "topic": "Opposites",
     "se": "Hård",
     "pl": "Twardy",
@@ -4577,6 +5149,7 @@
   },
   {
     "id": "phrase_000574",
+    "es": "Suave",
     "topic": "Opposites",
     "se": "Mjuk",
     "pl": "Miękki",
@@ -4585,6 +5158,7 @@
   },
   {
     "id": "phrase_000575",
+    "es": "Abierto",
     "topic": "Opposites",
     "se": "Öppen",
     "pl": "Otwarty",
@@ -4593,6 +5167,7 @@
   },
   {
     "id": "phrase_000576",
+    "es": "Cerrado",
     "topic": "Opposites",
     "se": "Stängd",
     "pl": "Zamknięty",
@@ -4601,6 +5176,7 @@
   },
   {
     "id": "phrase_000577",
+    "es": "El elefante es grande.",
     "topic": "Opposites",
     "se": "Elefanten är stor.",
     "pl": "Słoń jest duży.",
@@ -4609,6 +5185,7 @@
   },
   {
     "id": "phrase_000578",
+    "es": "El ratón es pequeño.",
     "topic": "Opposites",
     "se": "Musen är liten.",
     "pl": "Mysz jest mała.",
@@ -4617,6 +5194,7 @@
   },
   {
     "id": "phrase_000579",
+    "es": "¡Esto es fácil!",
     "topic": "Opposites",
     "se": "Det här är lätt!",
     "pl": "To jest łatwe!",
@@ -4625,6 +5203,7 @@
   },
   {
     "id": "phrase_000580",
+    "es": "Esto es difícil.",
     "topic": "Opposites",
     "se": "Det här är svårt.",
     "pl": "To jest trudne.",
@@ -4633,6 +5212,7 @@
   },
   {
     "id": "phrase_000581",
+    "es": "Andar",
     "topic": "Actions and Verbs",
     "se": "Gå",
     "pl": "Iść",
@@ -4641,6 +5221,7 @@
   },
   {
     "id": "phrase_000582",
+    "es": "Correr",
     "topic": "Actions and Verbs",
     "se": "Springa",
     "pl": "Biegać",
@@ -4649,6 +5230,7 @@
   },
   {
     "id": "phrase_000583",
+    "es": "Saltar",
     "topic": "Actions and Verbs",
     "se": "Hoppa",
     "pl": "Skakać",
@@ -4657,6 +5239,7 @@
   },
   {
     "id": "phrase_000584",
+    "es": "Estar sentado",
     "topic": "Actions and Verbs",
     "se": "Sitta",
     "pl": "Siedzieć",
@@ -4665,6 +5248,7 @@
   },
   {
     "id": "phrase_000585",
+    "es": "Estar de pie",
     "topic": "Actions and Verbs",
     "se": "Stå",
     "pl": "Stać",
@@ -4673,6 +5257,7 @@
   },
   {
     "id": "phrase_000586",
+    "es": "Estar tumbado",
     "topic": "Actions and Verbs",
     "se": "Ligga",
     "pl": "Leżeć",
@@ -4681,6 +5266,7 @@
   },
   {
     "id": "phrase_000587",
+    "es": "Dormir",
     "topic": "Actions and Verbs",
     "se": "Sova",
     "pl": "Spać",
@@ -4689,6 +5275,7 @@
   },
   {
     "id": "phrase_000588",
+    "es": "Comer",
     "topic": "Actions and Verbs",
     "se": "Äta",
     "pl": "Jeść",
@@ -4697,6 +5284,7 @@
   },
   {
     "id": "phrase_000589",
+    "es": "Beber",
     "topic": "Actions and Verbs",
     "se": "Dricka",
     "pl": "Pić",
@@ -4705,6 +5293,7 @@
   },
   {
     "id": "phrase_000590",
+    "es": "Leer",
     "topic": "Actions and Verbs",
     "se": "Läsa",
     "pl": "Czytać",
@@ -4713,6 +5302,7 @@
   },
   {
     "id": "phrase_000591",
+    "es": "Escribir",
     "topic": "Actions and Verbs",
     "se": "Skriva",
     "pl": "Pisać",
@@ -4721,6 +5311,7 @@
   },
   {
     "id": "phrase_000592",
+    "es": "Dibujar",
     "topic": "Actions and Verbs",
     "se": "Rita",
     "pl": "Rysować",
@@ -4729,6 +5320,7 @@
   },
   {
     "id": "phrase_000593",
+    "es": "Cantar",
     "topic": "Actions and Verbs",
     "se": "Sjunga",
     "pl": "Śpiewać",
@@ -4737,6 +5329,7 @@
   },
   {
     "id": "phrase_000594",
+    "es": "Bailar",
     "topic": "Actions and Verbs",
     "se": "Dansa",
     "pl": "Tańczyć",
@@ -4745,6 +5338,7 @@
   },
   {
     "id": "phrase_000595",
+    "es": "Jugar",
     "topic": "Actions and Verbs",
     "se": "Leka",
     "pl": "Bawić się",
@@ -4753,6 +5347,7 @@
   },
   {
     "id": "phrase_000596",
+    "es": "Nadar",
     "topic": "Actions and Verbs",
     "se": "Simma",
     "pl": "Pływać",
@@ -4761,6 +5356,7 @@
   },
   {
     "id": "phrase_000597",
+    "es": "Montar en bicicleta",
     "topic": "Actions and Verbs",
     "se": "Cykla",
     "pl": "Jeździć na rowerze",
@@ -4769,6 +5365,7 @@
   },
   {
     "id": "phrase_000598",
+    "es": "Mirar",
     "topic": "Actions and Verbs",
     "se": "Titta",
     "pl": "Patrzeć",
@@ -4777,6 +5374,7 @@
   },
   {
     "id": "phrase_000599",
+    "es": "Escuchar",
     "topic": "Actions and Verbs",
     "se": "Lyssna",
     "pl": "Słuchać",
@@ -4785,6 +5383,7 @@
   },
   {
     "id": "phrase_000600",
+    "es": "Hablar",
     "topic": "Actions and Verbs",
     "se": "Prata",
     "pl": "Mówić",
@@ -4793,6 +5392,7 @@
   },
   {
     "id": "phrase_000601",
+    "es": "Reír",
     "topic": "Actions and Verbs",
     "se": "Skratta",
     "pl": "Śmiać się",
@@ -4801,6 +5401,7 @@
   },
   {
     "id": "phrase_000602",
+    "es": "Llorar",
     "topic": "Actions and Verbs",
     "se": "Gråta",
     "pl": "Płakać",
@@ -4809,6 +5410,7 @@
   },
   {
     "id": "phrase_000603",
+    "es": "Abrazarse",
     "topic": "Actions and Verbs",
     "se": "Kramas",
     "pl": "Przytulać się",
@@ -4817,6 +5419,7 @@
   },
   {
     "id": "phrase_000604",
+    "es": "Besar",
     "topic": "Actions and Verbs",
     "se": "Kyssa",
     "pl": "Całować",
@@ -4825,6 +5428,7 @@
   },
   {
     "id": "phrase_000605",
+    "es": "Corro rápido.",
     "topic": "Actions and Verbs",
     "se": "Jag springer snabbt.",
     "pl": "Biegnę szybko.",
@@ -4833,6 +5437,7 @@
   },
   {
     "id": "phrase_000606",
+    "es": "Él canta muy bien.",
     "topic": "Actions and Verbs",
     "se": "Han sjunger vackert.",
     "pl": "On śpiewa pięknie.",
@@ -4841,6 +5446,7 @@
   },
   {
     "id": "phrase_000607",
+    "es": "Ella baila bien.",
     "topic": "Actions and Verbs",
     "se": "Hon dansar bra.",
     "pl": "Ona dobrze tańczy.",
@@ -4849,6 +5455,7 @@
   },
   {
     "id": "phrase_000608",
+    "es": "Jugamos en el parque.",
     "topic": "Actions and Verbs",
     "se": "Vi leker i parken.",
     "pl": "Bawimy się w parku.",
@@ -4857,6 +5464,7 @@
   },
   {
     "id": "phrase_000609",
+    "es": "He dibujado una flor.",
     "topic": "Actions and Verbs",
     "se": "Jag ritade en blomma.",
     "pl": "Narysowałem kwiatek.",
@@ -4865,6 +5473,7 @@
   },
   {
     "id": "phrase_000610",
+    "es": "¿Sabes saltar?",
     "topic": "Actions and Verbs",
     "se": "Kan du hoppa?",
     "pl": "Czy umiesz skakać?",
@@ -4873,6 +5482,7 @@
   },
   {
     "id": "phrase_000611",
+    "es": "Parque",
     "topic": "Places in Town",
     "se": "Park",
     "pl": "Park",
@@ -4881,6 +5491,7 @@
   },
   {
     "id": "phrase_000612",
+    "es": "Parque infantil",
     "topic": "Places in Town",
     "se": "Lekplats",
     "pl": "Plac zabaw",
@@ -4889,6 +5500,7 @@
   },
   {
     "id": "phrase_000613",
+    "es": "Tienda",
     "topic": "Places in Town",
     "se": "Affär",
     "pl": "Sklep",
@@ -4897,6 +5509,7 @@
   },
   {
     "id": "phrase_000614",
+    "es": "Biblioteca",
     "topic": "Places in Town",
     "se": "Bibliotek",
     "pl": "Biblioteka",
@@ -4905,6 +5518,7 @@
   },
   {
     "id": "phrase_000615",
+    "es": "Hospital",
     "topic": "Places in Town",
     "se": "Sjukhus",
     "pl": "Szpital",
@@ -4913,6 +5527,7 @@
   },
   {
     "id": "phrase_000616",
+    "es": "Farmacia",
     "topic": "Places in Town",
     "se": "Apotek",
     "pl": "Apteka",
@@ -4921,6 +5536,7 @@
   },
   {
     "id": "phrase_000617",
+    "es": "Restaurante",
     "topic": "Places in Town",
     "se": "Restaurang",
     "pl": "Restauracja",
@@ -4929,6 +5545,7 @@
   },
   {
     "id": "phrase_000618",
+    "es": "Cafetería",
     "topic": "Places in Town",
     "se": "Café",
     "pl": "Kawiarnia",
@@ -4937,6 +5554,7 @@
   },
   {
     "id": "phrase_000619",
+    "es": "Zoo",
     "topic": "Places in Town",
     "se": "Zoo",
     "pl": "Zoo",
@@ -4945,6 +5563,7 @@
   },
   {
     "id": "phrase_000620",
+    "es": "Museo",
     "topic": "Places in Town",
     "se": "Museum",
     "pl": "Muzeum",
@@ -4953,6 +5572,7 @@
   },
   {
     "id": "phrase_000621",
+    "es": "Cine",
     "topic": "Places in Town",
     "se": "Biograf",
     "pl": "Kino",
@@ -4961,6 +5581,7 @@
   },
   {
     "id": "phrase_000622",
+    "es": "Iglesia",
     "topic": "Places in Town",
     "se": "Kyrka",
     "pl": "Kościół",
@@ -4969,6 +5590,7 @@
   },
   {
     "id": "phrase_000623",
+    "es": "Quiero ir al parque infantil.",
     "topic": "Places in Town",
     "se": "Jag vill gå till lekplatsen.",
     "pl": "Chcę iść na plac zabaw.",
@@ -4977,6 +5599,7 @@
   },
   {
     "id": "phrase_000624",
+    "es": "Vamos al parque.",
     "topic": "Places in Town",
     "se": "Vi går till parken.",
     "pl": "Idziemy do parku.",
@@ -4985,6 +5608,7 @@
   },
   {
     "id": "phrase_000625",
+    "es": "¿Podemos ir al zoo?",
     "topic": "Places in Town",
     "se": "Kan vi gå till zoo?",
     "pl": "Czy możemy iść do zoo?",
@@ -4993,6 +5617,7 @@
   },
   {
     "id": "phrase_000626",
+    "es": "La tienda está cerrada.",
     "topic": "Places in Town",
     "se": "Affären är stängd.",
     "pl": "Sklep jest zamknięty.",
@@ -5001,6 +5626,7 @@
   },
   {
     "id": "phrase_000627",
+    "es": "La biblioteca está abierta.",
     "topic": "Places in Town",
     "se": "Biblioteket är öppet.",
     "pl": "Biblioteka jest otwarta.",
@@ -5009,6 +5635,7 @@
   },
   {
     "id": "phrase_000628",
+    "es": "¿A qué distancia está el parque?",
     "topic": "Places in Town",
     "se": "Hur långt är det till parken?",
     "pl": "Jak daleko jest do parku?",
@@ -5017,6 +5644,7 @@
   },
   {
     "id": "phrase_000629",
+    "es": "Teléfono",
     "topic": "Technology",
     "se": "Telefon",
     "pl": "Telefon",
@@ -5025,6 +5653,7 @@
   },
   {
     "id": "phrase_000630",
+    "es": "Teléfono móvil",
     "topic": "Technology",
     "se": "Mobiltelefon",
     "pl": "Telefon komórkowy",
@@ -5033,6 +5662,7 @@
   },
   {
     "id": "phrase_000631",
+    "es": "Ordenador",
     "topic": "Technology",
     "se": "Dator",
     "pl": "Komputer",
@@ -5041,6 +5671,7 @@
   },
   {
     "id": "phrase_000632",
+    "es": "Tableta",
     "topic": "Technology",
     "se": "Surfplatta",
     "pl": "Tablet",
@@ -5049,6 +5680,7 @@
   },
   {
     "id": "phrase_000633",
+    "es": "Televisor",
     "topic": "Technology",
     "se": "TV",
     "pl": "Telewizor",
@@ -5057,6 +5689,7 @@
   },
   {
     "id": "phrase_000634",
+    "es": "Radio",
     "topic": "Technology",
     "se": "Radio",
     "pl": "Radio",
@@ -5065,6 +5698,7 @@
   },
   {
     "id": "phrase_000635",
+    "es": "Internet",
     "topic": "Technology",
     "se": "Internet",
     "pl": "Internet",
@@ -5073,6 +5707,7 @@
   },
   {
     "id": "phrase_000636",
+    "es": "Juego",
     "topic": "Technology",
     "se": "Spel",
     "pl": "Gra",
@@ -5081,6 +5716,7 @@
   },
   {
     "id": "phrase_000637",
+    "es": "Cámara",
     "topic": "Technology",
     "se": "Kamera",
     "pl": "Aparat",
@@ -5089,6 +5725,7 @@
   },
   {
     "id": "phrase_000638",
+    "es": "Auriculares",
     "topic": "Technology",
     "se": "Hörlurar",
     "pl": "Słuchawki",
@@ -5097,6 +5734,7 @@
   },
   {
     "id": "phrase_000639",
+    "es": "¿Dónde está mi móvil?",
     "topic": "Technology",
     "se": "Var är min mobil?",
     "pl": "Gdzie jest mój telefon?",
@@ -5105,6 +5743,7 @@
   },
   {
     "id": "phrase_000640",
+    "es": "¿Puedo usar el ordenador?",
     "topic": "Technology",
     "se": "Kan jag använda datorn?",
     "pl": "Czy mogę używać komputera?",
@@ -5113,6 +5752,7 @@
   },
   {
     "id": "phrase_000641",
+    "es": "Quiero ver YouTube.",
     "topic": "Technology",
     "se": "Jag vill titta på YouTube.",
     "pl": "Chcę oglądać YouTube.",
@@ -5121,6 +5761,7 @@
   },
   {
     "id": "phrase_000642",
+    "es": "Se ha acabado la batería.",
     "topic": "Technology",
     "se": "Batteriet är slut.",
     "pl": "Bateria się rozładowała.",
@@ -5129,6 +5770,7 @@
   },
   {
     "id": "phrase_000643",
+    "es": "¿Puedes cargar mi móvil?",
     "topic": "Technology",
     "se": "Kan du ladda min telefon?",
     "pl": "Czy możesz naładować mój telefon?",
@@ -5137,6 +5779,7 @@
   },
   {
     "id": "phrase_000644",
+    "es": "Juego a videojuegos.",
     "topic": "Technology",
     "se": "Jag spelar datorspel.",
     "pl": "Gram w gry komputerowe.",
@@ -5145,6 +5788,7 @@
   },
   {
     "id": "phrase_000645",
+    "es": "¡Apaga la tele!",
     "topic": "Technology",
     "se": "Stäng av TV:n!",
     "pl": "Wyłącz telewizor!",
@@ -5153,6 +5797,7 @@
   },
   {
     "id": "phrase_000646",
+    "es": "Música",
     "topic": "Music and Art",
     "se": "Musik",
     "pl": "Muzyka",
@@ -5161,6 +5806,7 @@
   },
   {
     "id": "phrase_000647",
+    "es": "Canción",
     "topic": "Music and Art",
     "se": "Sång",
     "pl": "Piosenka",
@@ -5169,6 +5815,7 @@
   },
   {
     "id": "phrase_000648",
+    "es": "Baile",
     "topic": "Music and Art",
     "se": "Dans",
     "pl": "Taniec",
@@ -5177,6 +5824,7 @@
   },
   {
     "id": "phrase_000649",
+    "es": "Piano",
     "topic": "Music and Art",
     "se": "Piano",
     "pl": "Pianino",
@@ -5185,6 +5833,7 @@
   },
   {
     "id": "phrase_000650",
+    "es": "Guitarra",
     "topic": "Music and Art",
     "se": "Gitarr",
     "pl": "Gitara",
@@ -5193,6 +5842,7 @@
   },
   {
     "id": "phrase_000651",
+    "es": "Batería",
     "topic": "Music and Art",
     "se": "Trummor",
     "pl": "Perkusja",
@@ -5201,6 +5851,7 @@
   },
   {
     "id": "phrase_000652",
+    "es": "Violín",
     "topic": "Music and Art",
     "se": "Violin",
     "pl": "Skrzypce",
@@ -5209,6 +5860,7 @@
   },
   {
     "id": "phrase_000653",
+    "es": "Dibujo",
     "topic": "Music and Art",
     "se": "Teckning",
     "pl": "Rysunek",
@@ -5217,6 +5869,7 @@
   },
   {
     "id": "phrase_000654",
+    "es": "Cuadro",
     "topic": "Music and Art",
     "se": "Målning",
     "pl": "Obraz",
@@ -5225,6 +5878,7 @@
   },
   {
     "id": "phrase_000655",
+    "es": "Lápices de colores",
     "topic": "Music and Art",
     "se": "Färgpennor",
     "pl": "Kredki",
@@ -5233,6 +5887,7 @@
   },
   {
     "id": "phrase_000656",
+    "es": "Pincel",
     "topic": "Music and Art",
     "se": "Pensel",
     "pl": "Pędzel",
@@ -5241,6 +5896,7 @@
   },
   {
     "id": "phrase_000657",
+    "es": "Canto una canción.",
     "topic": "Music and Art",
     "se": "Jag sjunger en sång.",
     "pl": "Śpiewam piosenkę.",
@@ -5249,6 +5905,7 @@
   },
   {
     "id": "phrase_000658",
+    "es": "Toco el piano.",
     "topic": "Music and Art",
     "se": "Jag spelar piano.",
     "pl": "Gram na pianinie.",
@@ -5257,6 +5914,7 @@
   },
   {
     "id": "phrase_000659",
+    "es": "¡Me encanta la música!",
     "topic": "Music and Art",
     "se": "Jag älskar musik!",
     "pl": "Uwielbiam muzykę!",
@@ -5265,6 +5923,7 @@
   },
   {
     "id": "phrase_000660",
+    "es": "Dibujo con lápices de colores.",
     "topic": "Music and Art",
     "se": "Jag ritar med färgpennor.",
     "pl": "Rysuję kredkami.",
@@ -5273,6 +5932,7 @@
   },
   {
     "id": "phrase_000661",
+    "es": "¡El arte es divertido!",
     "topic": "Music and Art",
     "se": "Konst är roligt!",
     "pl": "Sztuka jest fajna!",
@@ -5281,6 +5941,7 @@
   },
   {
     "id": "phrase_000662",
+    "es": "¡Canta conmigo!",
     "topic": "Music and Art",
     "se": "Sjung med mig!",
     "pl": "Śpiewaj ze mną!",
@@ -5289,6 +5950,7 @@
   },
   {
     "id": "phrase_000663",
+    "es": "Por favor.",
     "topic": "Polite Phrases",
     "se": "Snälla.",
     "pl": "Proszę.",
@@ -5297,6 +5959,7 @@
   },
   {
     "id": "phrase_000664",
+    "es": "¡Gracias!",
     "topic": "Polite Phrases",
     "se": "Tack!",
     "pl": "Dziękuję!",
@@ -5305,6 +5968,7 @@
   },
   {
     "id": "phrase_000665",
+    "es": "¡Muchas gracias!",
     "topic": "Polite Phrases",
     "se": "Tack så mycket!",
     "pl": "Bardzo dziękuję!",
@@ -5313,6 +5977,7 @@
   },
   {
     "id": "phrase_000666",
+    "es": "No hay de qué.",
     "topic": "Polite Phrases",
     "se": "Ingen orsak.",
     "pl": "Nie ma za co.",
@@ -5321,6 +5986,7 @@
   },
   {
     "id": "phrase_000667",
+    "es": "¡De nada!",
     "topic": "Polite Phrases",
     "se": "Varsågod!",
     "pl": "Proszę!",
@@ -5329,6 +5995,7 @@
   },
   {
     "id": "phrase_000668",
+    "es": "Lo siento.",
     "topic": "Polite Phrases",
     "se": "Förlåt.",
     "pl": "Przepraszam.",
@@ -5337,6 +6004,7 @@
   },
   {
     "id": "phrase_000669",
+    "es": "No pasa nada.",
     "topic": "Polite Phrases",
     "se": "Det gör ingenting.",
     "pl": "Nic się nie stało.",
@@ -5345,6 +6013,7 @@
   },
   {
     "id": "phrase_000670",
+    "es": "¡Bienvenido!",
     "topic": "Polite Phrases",
     "se": "Välkommen!",
     "pl": "Witaj!",
@@ -5353,6 +6022,7 @@
   },
   {
     "id": "phrase_000671",
+    "es": "¡Buena suerte!",
     "topic": "Polite Phrases",
     "se": "Lycka till!",
     "pl": "Powodzenia!",
@@ -5361,6 +6031,7 @@
   },
   {
     "id": "phrase_000672",
+    "es": "¡Enhorabuena!",
     "topic": "Polite Phrases",
     "se": "Grattis!",
     "pl": "Gratulacje!",
@@ -5369,6 +6040,7 @@
   },
   {
     "id": "phrase_000673",
+    "es": "¡Bien hecho!",
     "topic": "Polite Phrases",
     "se": "Bra jobbat!",
     "pl": "Dobra robota!",
@@ -5377,6 +6049,7 @@
   },
   {
     "id": "phrase_000674",
+    "es": "¡Genial!",
     "topic": "Polite Phrases",
     "se": "Jättebra!",
     "pl": "Świetnie!",
@@ -5385,6 +6058,7 @@
   },
   {
     "id": "phrase_000675",
+    "es": "¡Hala, qué bien lo has hecho!",
     "topic": "Polite Phrases",
     "se": "Wow, det där gjorde du bra!",
     "pl": "Super, świetnie ci poszło!",
@@ -5393,6 +6067,7 @@
   },
   {
     "id": "phrase_000676",
+    "es": "¿Puedes ayudarme, por favor?",
     "topic": "Polite Phrases",
     "se": "Kan du hjälpa mig, snälla?",
     "pl": "Pomożesz mi, proszę?",
@@ -5401,6 +6076,7 @@
   },
   {
     "id": "phrase_000677",
+    "es": "¿Puedo interrumpirte?",
     "topic": "Polite Phrases",
     "se": "Får jag störa?",
     "pl": "Czy mogę przeszkodzić?",
@@ -5409,6 +6085,7 @@
   },
   {
     "id": "phrase_000678",
+    "es": "¡Que tengas un buen día!",
     "topic": "Polite Phrases",
     "se": "Ha en bra dag!",
     "pl": "Miłego dnia!",
@@ -5417,6 +6094,7 @@
   },
   {
     "id": "phrase_000679",
+    "es": "¡Cuídate!",
     "topic": "Polite Phrases",
     "se": "Ta hand om dig!",
     "pl": "Dbaj o siebie!",
@@ -5425,6 +6103,7 @@
   },
   {
     "id": "phrase_000680",
+    "es": "¡Bien hecho!",
     "topic": "Review and Recap",
     "se": "Bra gjort!",
     "pl": "Dobra robota!",
@@ -5433,6 +6112,7 @@
   },
   {
     "id": "phrase_000681",
+    "es": "¡Estás aprendiendo un idioma nuevo!",
     "topic": "Review and Recap",
     "se": "Du lär dig ett nytt språk!",
     "pl": "Uczysz się nowego języka!",
@@ -5441,6 +6121,7 @@
   },
   {
     "id": "phrase_000682",
+    "es": "¡Vamos a practicar!",
     "topic": "Review and Recap",
     "se": "Nu övar vi!",
     "pl": "Ćwiczmy!",
@@ -5449,6 +6130,7 @@
   },
   {
     "id": "phrase_000683",
+    "es": "Repite conmigo.",
     "topic": "Review and Recap",
     "se": "Upprepa efter mig.",
     "pl": "Powtarzaj za mną.",
@@ -5457,30 +6139,34 @@
   },
   {
     "id": "phrase_000684",
+    "es": "Dilo otra vez.",
     "topic": "Review and Recap",
-    "se": "Säg det på polska.",
-    "pl": "Powiedz to po polsku.",
-    "en": "Say it in Polish.",
-    "ru": "Скажи это по-польски."
+    "se": "Säg det en gång till.",
+    "pl": "Powiedz to jeszcze raz.",
+    "en": "Say it again.",
+    "ru": "Скажи это ещё раз."
   },
   {
     "id": "phrase_000685",
+    "es": "¿Cómo se dice eso?",
     "topic": "Review and Recap",
-    "se": "Vad heter det på polska?",
-    "pl": "Jak to się mówi po polsku?",
-    "en": "What is it called in Polish?",
-    "ru": "Как это будет по-польски?"
+    "se": "Hur säger man det?",
+    "pl": "Jak to się mówi?",
+    "en": "How do you say that?",
+    "ru": "Как это сказать?"
   },
   {
     "id": "phrase_000686",
+    "es": "¡Ya sé decir algunas cosas!",
     "topic": "Review and Recap",
-    "se": "Jag kan polska!",
-    "pl": "Znam polski!",
-    "en": "I know Polish!",
-    "ru": "Я знаю польский!"
+    "se": "Jag kan redan säga några saker!",
+    "pl": "Potrafię już powiedzieć kilka rzeczy!",
+    "en": "I can already say a few things!",
+    "ru": "Я уже могу кое-что сказать!"
   },
   {
     "id": "phrase_000687",
+    "es": "¡Aprender idiomas es divertido!",
     "topic": "Review and Recap",
     "se": "Det är roligt att lära sig språk!",
     "pl": "Nauka języków jest fajna!",
@@ -5489,6 +6175,7 @@
   },
   {
     "id": "phrase_000688",
+    "es": "¡Sigue practicando!",
     "topic": "Review and Recap",
     "se": "Fortsätt träna!",
     "pl": "Ćwicz dalej!",
@@ -5497,6 +6184,7 @@
   },
   {
     "id": "phrase_000689",
+    "es": "Cada día lo haces mejor.",
     "topic": "Review and Recap",
     "se": "Varje dag blir du bättre.",
     "pl": "Z każdym dniem idzie ci coraz lepiej.",
@@ -5505,6 +6193,7 @@
   },
   {
     "id": "phrase_000690",
+    "es": "¡Adiós, hasta luego!",
     "topic": "Review and Recap",
     "se": "Hejdå, vi ses!",
     "pl": "Cześć, do zobaczenia!",
@@ -5513,6 +6202,7 @@
   },
   {
     "id": "phrase_000691",
+    "es": "Él se llama Tomek.",
     "topic": "Greetings",
     "se": "Han heter Tomek.",
     "pl": "On ma na imię Tomek.",
@@ -5521,6 +6211,7 @@
   },
   {
     "id": "phrase_000692",
+    "es": "Ella se llama Zosia.",
     "topic": "Greetings",
     "se": "Hon heter Zosia.",
     "pl": "Ona ma na imię Zosia.",
@@ -5529,6 +6220,7 @@
   },
   {
     "id": "phrase_000693",
+    "es": "Él tiene nueve años.",
     "topic": "Greetings",
     "se": "Han är nio år.",
     "pl": "On ma dziewięć lat.",
@@ -5537,6 +6229,7 @@
   },
   {
     "id": "phrase_000694",
+    "es": "Ella tiene siete años.",
     "topic": "Greetings",
     "se": "Hon är sju år.",
     "pl": "Ona ma siedem lat.",
@@ -5545,6 +6238,7 @@
   },
   {
     "id": "phrase_000695",
+    "es": "Él se encuentra bien.",
     "topic": "Greetings",
     "se": "Han mår bra.",
     "pl": "On czuje się dobrze.",
@@ -5553,6 +6247,7 @@
   },
   {
     "id": "phrase_000696",
+    "es": "Ella no se encuentra bien hoy.",
     "topic": "Greetings",
     "se": "Hon mår inte bra idag.",
     "pl": "Ona źle się dzisiaj czuje.",
@@ -5561,6 +6256,7 @@
   },
   {
     "id": "phrase_000697",
+    "es": "Ellos dicen hola.",
     "topic": "Greetings",
     "se": "De säger hej.",
     "pl": "Oni mówią cześć.",
@@ -5569,6 +6265,7 @@
   },
   {
     "id": "phrase_000698",
+    "es": "Estamos de visita en casa de la abuela.",
     "topic": "Greetings",
     "se": "Vi hälsar på farmor.",
     "pl": "Odwiedzamy babcię.",
@@ -5577,6 +6274,7 @@
   },
   {
     "id": "phrase_000699",
+    "es": "Él tiene tres gatos.",
     "topic": "Numbers",
     "se": "Han har tre katter.",
     "pl": "On ma trzy koty.",
@@ -5585,6 +6283,7 @@
   },
   {
     "id": "phrase_000700",
+    "es": "Ella tiene dos hermanos.",
     "topic": "Numbers",
     "se": "Hon har två bröder.",
     "pl": "Ona ma dwóch braci.",
@@ -5593,6 +6292,7 @@
   },
   {
     "id": "phrase_000701",
+    "es": "Ellos tienen cuatro perros.",
     "topic": "Numbers",
     "se": "De har fyra hundar.",
     "pl": "Oni mają cztery psy.",
@@ -5601,6 +6301,7 @@
   },
   {
     "id": "phrase_000702",
+    "es": "Él tiene diez años.",
     "topic": "Numbers",
     "se": "Han är tio år.",
     "pl": "On ma dziesięć lat.",
@@ -5609,6 +6310,7 @@
   },
   {
     "id": "phrase_000703",
+    "es": "Ella cumple ocho años.",
     "topic": "Numbers",
     "se": "Hon fyller åtta år.",
     "pl": "Ona kończy osiem lat.",
@@ -5617,6 +6319,7 @@
   },
   {
     "id": "phrase_000704",
+    "es": "Él tiene una bicicleta roja.",
     "topic": "Colors",
     "se": "Han har en röd cykel.",
     "pl": "On ma czerwony rower.",
@@ -5625,6 +6328,7 @@
   },
   {
     "id": "phrase_000705",
+    "es": "Ella lleva un vestido azul.",
     "topic": "Colors",
     "se": "Hon har på sig en blå klänning.",
     "pl": "Ona ma na sobie niebieską sukienkę.",
@@ -5633,6 +6337,7 @@
   },
   {
     "id": "phrase_000706",
+    "es": "Él pinta con pintura amarilla.",
     "topic": "Colors",
     "se": "Han målar med gul färg.",
     "pl": "On maluje żółtą farbą.",
@@ -5641,6 +6346,7 @@
   },
   {
     "id": "phrase_000707",
+    "es": "A ellos les gustan las manzanas verdes.",
     "topic": "Colors",
     "se": "De gillar gröna äpplen.",
     "pl": "Oni lubią zielone jabłka.",
@@ -5649,6 +6355,7 @@
   },
   {
     "id": "phrase_000708",
+    "es": "Ella quiere una bolsa rosa.",
     "topic": "Colors",
     "se": "Hon vill ha en rosa väska.",
     "pl": "Ona chce różową torbę.",
@@ -5657,6 +6364,7 @@
   },
   {
     "id": "phrase_000709",
+    "es": "Él quiere un perro.",
     "topic": "Animals",
     "se": "Han vill ha en hund.",
     "pl": "On chce mieć psa.",
@@ -5665,6 +6373,7 @@
   },
   {
     "id": "phrase_000710",
+    "es": "Ella tiene un gato pequeño.",
     "topic": "Animals",
     "se": "Hon har en liten katt.",
     "pl": "Ona ma małego kota.",
@@ -5673,6 +6382,7 @@
   },
   {
     "id": "phrase_000711",
+    "es": "Él está dando de comer a los peces.",
     "topic": "Animals",
     "se": "Han matar fiskarna.",
     "pl": "On karmi ryby.",
@@ -5681,6 +6391,7 @@
   },
   {
     "id": "phrase_000712",
+    "es": "Ella está montando a caballo.",
     "topic": "Animals",
     "se": "Hon rider på hästen.",
     "pl": "Ona jedzie konno.",
@@ -5689,6 +6400,7 @@
   },
   {
     "id": "phrase_000713",
+    "es": "Ellos están mirando los elefantes del zoo.",
     "topic": "Animals",
     "se": "De tittar på elefanterna på zoo.",
     "pl": "Oni patrzą na słonie w zoo.",
@@ -5697,6 +6409,7 @@
   },
   {
     "id": "phrase_000714",
+    "es": "Él tiene miedo de las arañas.",
     "topic": "Animals",
     "se": "Han är rädd för spindlar.",
     "pl": "On boi się pająków.",
@@ -5705,6 +6418,7 @@
   },
   {
     "id": "phrase_000715",
+    "es": "A ella le encantan las mariposas.",
     "topic": "Animals",
     "se": "Hon älskar fjärilar.",
     "pl": "Ona kocha motyle.",
@@ -5713,6 +6427,7 @@
   },
   {
     "id": "phrase_000716",
+    "es": "Él tiene una hermana pequeña.",
     "topic": "Family",
     "se": "Han har en lillasyster.",
     "pl": "On ma młodszą siostrę.",
@@ -5721,6 +6436,7 @@
   },
   {
     "id": "phrase_000717",
+    "es": "Ella tiene un hermano mayor.",
     "topic": "Family",
     "se": "Hon har en storebror.",
     "pl": "Ona ma starszego brata.",
@@ -5729,6 +6445,7 @@
   },
   {
     "id": "phrase_000718",
+    "es": "Él visita al abuelo todos los domingos.",
     "topic": "Family",
     "se": "Han besöker farfar varje söndag.",
     "pl": "On odwiedza dziadka w każdą niedzielę.",
@@ -5737,6 +6454,7 @@
   },
   {
     "id": "phrase_000719",
+    "es": "Ella ayuda a mamá en la cocina.",
     "topic": "Family",
     "se": "Hon hjälper mamma i köket.",
     "pl": "Ona pomaga mamie w kuchni.",
@@ -5745,6 +6463,7 @@
   },
   {
     "id": "phrase_000720",
+    "es": "Ellos juegan con su primo.",
     "topic": "Family",
     "se": "De leker med sin kusin.",
     "pl": "Oni bawią się z kuzynem.",
@@ -5753,6 +6472,7 @@
   },
   {
     "id": "phrase_000721",
+    "es": "Cenamos con toda la familia.",
     "topic": "Family",
     "se": "Vi äter middag med hela familjen.",
     "pl": "Jemy kolację z całą rodziną.",
@@ -5761,6 +6481,7 @@
   },
   {
     "id": "phrase_000722",
+    "es": "Él quiere comer pizza.",
     "topic": "Food",
     "se": "Han vill äta pizza.",
     "pl": "On chce jeść pizzę.",
@@ -5769,6 +6490,7 @@
   },
   {
     "id": "phrase_000723",
+    "es": "Ella bebe leche todas las mañanas.",
     "topic": "Food",
     "se": "Hon dricker mjölk varje morgon.",
     "pl": "Ona co rano pije mleko.",
@@ -5777,6 +6499,7 @@
   },
   {
     "id": "phrase_000724",
+    "es": "A él no le gustan los tomates.",
     "topic": "Food",
     "se": "Han gillar inte tomater.",
     "pl": "On nie lubi pomidorów.",
@@ -5785,6 +6508,7 @@
   },
   {
     "id": "phrase_000725",
+    "es": "A ella le encanta el chocolate.",
     "topic": "Food",
     "se": "Hon älskar choklad.",
     "pl": "Ona uwielbia czekoladę.",
@@ -5793,6 +6517,7 @@
   },
   {
     "id": "phrase_000726",
+    "es": "Ellos desayunan juntos.",
     "topic": "Food",
     "se": "De äter frukost tillsammans.",
     "pl": "Oni razem jedzą śniadanie.",
@@ -5801,6 +6526,7 @@
   },
   {
     "id": "phrase_000727",
+    "es": "Él tiene hambre después del colegio.",
     "topic": "Food",
     "se": "Han är hungrig efter skolan.",
     "pl": "On jest głodny po szkole.",
@@ -5809,6 +6535,7 @@
   },
   {
     "id": "phrase_000728",
+    "es": "Ella pide un helado.",
     "topic": "Food",
     "se": "Hon ber om en glass.",
     "pl": "Ona prosi o lody.",
@@ -5817,6 +6544,7 @@
   },
   {
     "id": "phrase_000729",
+    "es": "Cocinamos juntos.",
     "topic": "Food",
     "se": "Vi lagar mat tillsammans.",
     "pl": "Gotujemy razem.",
@@ -5825,6 +6553,7 @@
   },
   {
     "id": "phrase_000730",
+    "es": "A él le duele la cabeza.",
     "topic": "Body",
     "se": "Han har ont i huvudet.",
     "pl": "Boli go głowa.",
@@ -5833,6 +6562,7 @@
   },
   {
     "id": "phrase_000731",
+    "es": "A ella le duele la barriga.",
     "topic": "Body",
     "se": "Hon har ont i magen.",
     "pl": "Boli ją brzuch.",
@@ -5841,6 +6571,7 @@
   },
   {
     "id": "phrase_000732",
+    "es": "A él le duele la garganta.",
     "topic": "Body",
     "se": "Han har ont i halsen.",
     "pl": "Boli go gardło.",
@@ -5849,6 +6580,7 @@
   },
   {
     "id": "phrase_000733",
+    "es": "Ella se ha dado un golpe en la rodilla.",
     "topic": "Body",
     "se": "Hon slog i knät.",
     "pl": "Uderzyła się w kolano.",
@@ -5857,6 +6589,7 @@
   },
   {
     "id": "phrase_000734",
+    "es": "Él está enfermo y tumbado en la cama.",
     "topic": "Body",
     "se": "Han är sjuk och ligger i sängen.",
     "pl": "On jest chory i leży w łóżku.",
@@ -5865,6 +6598,7 @@
   },
   {
     "id": "phrase_000735",
+    "es": "Ella se está lavando las manos.",
     "topic": "Body",
     "se": "Hon tvättar händerna.",
     "pl": "Ona myje ręce.",
@@ -5873,6 +6607,7 @@
   },
   {
     "id": "phrase_000736",
+    "es": "Ellos se están lavando los dientes.",
     "topic": "Body",
     "se": "De borstar tänderna.",
     "pl": "Oni myją zęby.",
@@ -5881,6 +6616,7 @@
   },
   {
     "id": "phrase_000737",
+    "es": "Él se está poniendo la chaqueta.",
     "topic": "Clothing",
     "se": "Han tar på sig jackan.",
     "pl": "On zakłada kurtkę.",
@@ -5889,6 +6625,7 @@
   },
   {
     "id": "phrase_000738",
+    "es": "Ella está buscando sus calcetines.",
     "topic": "Clothing",
     "se": "Hon letar efter sina strumpor.",
     "pl": "Ona szuka skarpetek.",
@@ -5897,6 +6634,7 @@
   },
   {
     "id": "phrase_000739",
+    "es": "A él le gusta su jersey nuevo.",
     "topic": "Clothing",
     "se": "Han gillar sin nya tröja.",
     "pl": "On lubi swój nowy sweter.",
@@ -5905,6 +6643,7 @@
   },
   {
     "id": "phrase_000740",
+    "es": "Ella quiere un vestido nuevo.",
     "topic": "Clothing",
     "se": "Hon vill ha en ny klänning.",
     "pl": "Ona chce nową sukienkę.",
@@ -5913,6 +6652,7 @@
   },
   {
     "id": "phrase_000741",
+    "es": "Ellos se visten deprisa.",
     "topic": "Clothing",
     "se": "De klär på sig snabbt.",
     "pl": "Oni szybko się ubierają.",
@@ -5921,6 +6661,7 @@
   },
   {
     "id": "phrase_000742",
+    "es": "Él se ha dejado el gorro en casa.",
     "topic": "Clothing",
     "se": "Han glömde sin mössa hemma.",
     "pl": "On zostawił czapkę w domu.",
@@ -5929,6 +6670,7 @@
   },
   {
     "id": "phrase_000743",
+    "es": "Él duerme en su habitación.",
     "topic": "Home",
     "se": "Han sover i sitt rum.",
     "pl": "On śpi w swoim pokoju.",
@@ -5937,6 +6679,7 @@
   },
   {
     "id": "phrase_000744",
+    "es": "Ella ayuda a limpiar.",
     "topic": "Home",
     "se": "Hon hjälper till att städa.",
     "pl": "Ona pomaga sprzątać.",
@@ -5945,6 +6688,7 @@
   },
   {
     "id": "phrase_000745",
+    "es": "Él mira por la ventana.",
     "topic": "Home",
     "se": "Han tittar ut genom fönstret.",
     "pl": "On patrzy przez okno.",
@@ -5953,6 +6697,7 @@
   },
   {
     "id": "phrase_000746",
+    "es": "Ella prepara la comida en la cocina.",
     "topic": "Home",
     "se": "Hon lagar mat i köket.",
     "pl": "Ona gotuje w kuchni.",
@@ -5961,6 +6706,7 @@
   },
   {
     "id": "phrase_000747",
+    "es": "Ellos juegan en el salón.",
     "topic": "Home",
     "se": "De leker i vardagsrummet.",
     "pl": "Oni bawią się w salonie.",
@@ -5969,6 +6715,7 @@
   },
   {
     "id": "phrase_000748",
+    "es": "Él abre la puerta.",
     "topic": "Home",
     "se": "Han öppnar dörren.",
     "pl": "On otwiera drzwi.",
@@ -5977,6 +6724,7 @@
   },
   {
     "id": "phrase_000749",
+    "es": "Ella cierra la ventana.",
     "topic": "Home",
     "se": "Hon stänger fönstret.",
     "pl": "Ona zamyka okno.",
@@ -5985,6 +6733,7 @@
   },
   {
     "id": "phrase_000750",
+    "es": "A él le gustan las matemáticas.",
     "topic": "School",
     "se": "Han gillar matematik.",
     "pl": "On lubi matematykę.",
@@ -5993,6 +6742,7 @@
   },
   {
     "id": "phrase_000751",
+    "es": "Ella es la mejor de la clase.",
     "topic": "School",
     "se": "Hon är bäst i klassen.",
     "pl": "Ona jest najlepsza w klasie.",
@@ -6001,6 +6751,7 @@
   },
   {
     "id": "phrase_000752",
+    "es": "Él se ha olvidado de los deberes.",
     "topic": "School",
     "se": "Han glömde sin läxa.",
     "pl": "On zapomniał pracy domowej.",
@@ -6009,6 +6760,7 @@
   },
   {
     "id": "phrase_000753",
+    "es": "Ella levanta la mano.",
     "topic": "School",
     "se": "Hon räcker upp handen.",
     "pl": "Ona podnosi rękę.",
@@ -6017,6 +6769,7 @@
   },
   {
     "id": "phrase_000754",
+    "es": "Ellos se sientan en el mismo pupitre.",
     "topic": "School",
     "se": "De sitter vid samma bänk.",
     "pl": "Oni siedzą przy tej samej ławce.",
@@ -6025,6 +6778,7 @@
   },
   {
     "id": "phrase_000755",
+    "es": "Él habla con el profesor.",
     "topic": "School",
     "se": "Han pratar med läraren.",
     "pl": "On rozmawia z nauczycielem.",
@@ -6033,6 +6787,7 @@
   },
   {
     "id": "phrase_000756",
+    "es": "Ella lee un libro en el recreo.",
     "topic": "School",
     "se": "Hon läser en bok på rasten.",
     "pl": "Ona czyta książkę podczas przerwy.",
@@ -6041,6 +6796,7 @@
   },
   {
     "id": "phrase_000757",
+    "es": "Estamos aprendiendo polaco en el colegio.",
     "topic": "School",
     "se": "Vi lär oss polska i skolan.",
     "pl": "Uczymy się polskiego w szkole.",
@@ -6049,6 +6805,7 @@
   },
   {
     "id": "phrase_000758",
+    "es": "A él le gusta la lluvia.",
     "topic": "Weather",
     "se": "Han gillar regn.",
     "pl": "On lubi deszcz.",
@@ -6057,6 +6814,7 @@
   },
   {
     "id": "phrase_000759",
+    "es": "Ella tiene miedo de las tormentas.",
     "topic": "Weather",
     "se": "Hon är rädd för åska.",
     "pl": "Ona boi się burzy.",
@@ -6065,6 +6823,7 @@
   },
   {
     "id": "phrase_000760",
+    "es": "Él juega en la nieve.",
     "topic": "Weather",
     "se": "Han leker i snön.",
     "pl": "On bawi się w śniegu.",
@@ -6073,6 +6832,7 @@
   },
   {
     "id": "phrase_000761",
+    "es": "Ella se lleva el paraguas.",
     "topic": "Weather",
     "se": "Hon tar med sig paraplyet.",
     "pl": "Ona bierze parasol.",
@@ -6081,6 +6841,7 @@
   },
   {
     "id": "phrase_000762",
+    "es": "Ellos montan en bicicleta cuando hace sol.",
     "topic": "Weather",
     "se": "De cyklar när solen skiner.",
     "pl": "Oni jeżdżą na rowerach, gdy świeci słońce.",
@@ -6089,6 +6850,7 @@
   },
   {
     "id": "phrase_000763",
+    "es": "A él le encanta el invierno.",
     "topic": "Seasons",
     "se": "Han älskar vintern.",
     "pl": "On uwielbia zimę.",
@@ -6097,6 +6859,7 @@
   },
   {
     "id": "phrase_000764",
+    "es": "Ella tiene muchas ganas de que llegue el verano.",
     "topic": "Seasons",
     "se": "Hon längtar efter sommaren.",
     "pl": "Ona nie może się doczekać lata.",
@@ -6105,6 +6868,7 @@
   },
   {
     "id": "phrase_000765",
+    "es": "Él recoge hojas en otoño.",
     "topic": "Seasons",
     "se": "Han samlar löv på hösten.",
     "pl": "On zbiera liście jesienią.",
@@ -6113,6 +6877,7 @@
   },
   {
     "id": "phrase_000766",
+    "es": "Ella recoge flores en primavera.",
     "topic": "Seasons",
     "se": "Hon plockar blommor på våren.",
     "pl": "Ona zbiera kwiaty wiosną.",
@@ -6121,6 +6886,7 @@
   },
   {
     "id": "phrase_000767",
+    "es": "Ellos esquían en invierno.",
     "topic": "Seasons",
     "se": "De åker skidor på vintern.",
     "pl": "Oni jeżdżą na nartach zimą.",
@@ -6129,6 +6895,7 @@
   },
   {
     "id": "phrase_000768",
+    "es": "Él siempre se despierta temprano.",
     "topic": "Days and Time",
     "se": "Han vaknar alltid tidigt.",
     "pl": "On zawsze budzi się wcześnie.",
@@ -6137,6 +6904,7 @@
   },
   {
     "id": "phrase_000769",
+    "es": "Ella se duerme tarde los viernes.",
     "topic": "Days and Time",
     "se": "Hon somnar sent på fredagar.",
     "pl": "Ona zasypia późno w piątki.",
@@ -6145,6 +6913,7 @@
   },
   {
     "id": "phrase_000770",
+    "es": "Él tiene entrenamiento de fútbol los miércoles.",
     "topic": "Days and Time",
     "se": "Han har fotbollsträning på onsdagar.",
     "pl": "On ma trening piłki nożnej w środy.",
@@ -6153,6 +6922,7 @@
   },
   {
     "id": "phrase_000771",
+    "es": "Ella baila los martes.",
     "topic": "Days and Time",
     "se": "Hon dansar på tisdagar.",
     "pl": "Ona tańczy we wtorki.",
@@ -6161,6 +6931,7 @@
   },
   {
     "id": "phrase_000772",
+    "es": "Ellos van a casa de la abuela los domingos.",
     "topic": "Days and Time",
     "se": "De åker till farmor på söndagar.",
     "pl": "Oni jeżdżą do babci w niedziele.",
@@ -6169,6 +6940,7 @@
   },
   {
     "id": "phrase_000773",
+    "es": "Él quiere jugar al fútbol.",
     "topic": "Toys and Play",
     "se": "Han vill spela fotboll.",
     "pl": "On chce grać w piłkę nożną.",
@@ -6177,6 +6949,7 @@
   },
   {
     "id": "phrase_000774",
+    "es": "Ella quiere jugar a juegos de mesa.",
     "topic": "Toys and Play",
     "se": "Hon vill spela brädspel.",
     "pl": "Ona chce grać w gry planszowe.",
@@ -6185,6 +6958,7 @@
   },
   {
     "id": "phrase_000775",
+    "es": "Él está construyendo con bloques.",
     "topic": "Toys and Play",
     "se": "Han bygger med klossar.",
     "pl": "On buduje z klocków.",
@@ -6193,6 +6967,7 @@
   },
   {
     "id": "phrase_000776",
+    "es": "Ella está jugando con su muñeca.",
     "topic": "Toys and Play",
     "se": "Hon leker med sin docka.",
     "pl": "Ona bawi się lalką.",
@@ -6201,6 +6976,7 @@
   },
   {
     "id": "phrase_000777",
+    "es": "Ellos están jugando en el arenero.",
     "topic": "Toys and Play",
     "se": "De leker i sandlådan.",
     "pl": "Oni bawią się w piaskownicy.",
@@ -6209,6 +6985,7 @@
   },
   {
     "id": "phrase_000778",
+    "es": "¡Él siempre gana!",
     "topic": "Toys and Play",
     "se": "Han vinner alltid!",
     "pl": "On zawsze wygrywa!",
@@ -6217,6 +6994,7 @@
   },
   {
     "id": "phrase_000779",
+    "es": "A ella le gusta columpiarse.",
     "topic": "Toys and Play",
     "se": "Hon gillar att gunga.",
     "pl": "Ona lubi się huśtać.",
@@ -6225,14 +7003,16 @@
   },
   {
     "id": "phrase_000780",
+    "es": "Ellos comparten los juguetes.",
     "topic": "Toys and Play",
-    "se": "De delar leksakerna.",
+    "se": "De delar med sig av leksakerna.",
     "pl": "Oni dzielą się zabawkami.",
     "en": "They share the toys.",
     "ru": "Они делятся игрушками."
   },
   {
     "id": "phrase_000781",
+    "es": "Él juega al fútbol todos los días.",
     "topic": "Sports and Activities",
     "se": "Han spelar fotboll varje dag.",
     "pl": "On codziennie gra w piłkę nożną.",
@@ -6241,6 +7021,7 @@
   },
   {
     "id": "phrase_000782",
+    "es": "Ella nada muy bien.",
     "topic": "Sports and Activities",
     "se": "Hon simmar jättebra.",
     "pl": "Ona świetnie pływa.",
@@ -6249,6 +7030,7 @@
   },
   {
     "id": "phrase_000783",
+    "es": "Él va al colegio en bicicleta.",
     "topic": "Sports and Activities",
     "se": "Han cyklar till skolan.",
     "pl": "On jeździ na rowerze do szkoły.",
@@ -6257,6 +7039,7 @@
   },
   {
     "id": "phrase_000784",
+    "es": "Ella baila ballet.",
     "topic": "Sports and Activities",
     "se": "Hon dansar balett.",
     "pl": "Ona tańczy balet.",
@@ -6265,6 +7048,7 @@
   },
   {
     "id": "phrase_000785",
+    "es": "Ellos corren en el parque.",
     "topic": "Sports and Activities",
     "se": "De springer i parken.",
     "pl": "Oni biegają w parku.",
@@ -6273,6 +7057,7 @@
   },
   {
     "id": "phrase_000786",
+    "es": "Él quiere aprender a patinar sobre hielo.",
     "topic": "Sports and Activities",
     "se": "Han vill lära sig åka skridskor.",
     "pl": "On chce nauczyć się jeździć na łyżwach.",
@@ -6281,6 +7066,7 @@
   },
   {
     "id": "phrase_000787",
+    "es": "Ella entrena tres veces a la semana.",
     "topic": "Sports and Activities",
     "se": "Hon tränar tre gånger i veckan.",
     "pl": "Ona trenuje trzy razy w tygodniu.",
@@ -6289,6 +7075,7 @@
   },
   {
     "id": "phrase_000788",
+    "es": "Él quiere comer helado.",
     "topic": "I want / I need",
     "se": "Han vill äta glass.",
     "pl": "On chce jeść lody.",
@@ -6297,6 +7084,7 @@
   },
   {
     "id": "phrase_000789",
+    "es": "Ella no quiere acostarse.",
     "topic": "I want / I need",
     "se": "Hon vill inte gå och lägga sig.",
     "pl": "Ona nie chce iść spać.",
@@ -6305,6 +7093,7 @@
   },
   {
     "id": "phrase_000790",
+    "es": "Él necesita ayuda con los deberes.",
     "topic": "I want / I need",
     "se": "Han behöver hjälp med läxan.",
     "pl": "On potrzebuje pomocy w odrabianiu lekcji.",
@@ -6313,6 +7102,7 @@
   },
   {
     "id": "phrase_000791",
+    "es": "Ella quiere una mascota.",
     "topic": "I want / I need",
     "se": "Hon vill ha ett husdjur.",
     "pl": "Ona chce mieć zwierzątko.",
@@ -6321,6 +7111,7 @@
   },
   {
     "id": "phrase_000792",
+    "es": "Él tiene que lavarse los dientes.",
     "topic": "I want / I need",
     "se": "Han måste borsta tänderna.",
     "pl": "On musi umyć zęby.",
@@ -6329,6 +7120,7 @@
   },
   {
     "id": "phrase_000793",
+    "es": "Ella quiere ir al parque infantil.",
     "topic": "I want / I need",
     "se": "Hon vill gå till lekplatsen.",
     "pl": "Ona chce iść na plac zabaw.",
@@ -6337,6 +7129,7 @@
   },
   {
     "id": "phrase_000794",
+    "es": "Ellos quieren helado después de comer.",
     "topic": "I want / I need",
     "se": "De vill ha glass efter maten.",
     "pl": "Oni chcą lody po jedzeniu.",
@@ -6345,6 +7138,7 @@
   },
   {
     "id": "phrase_000795",
+    "es": "Queremos jugar a un juego.",
     "topic": "I want / I need",
     "se": "Vi vill spela ett spel.",
     "pl": "Chcemy zagrać w grę.",
@@ -6353,6 +7147,7 @@
   },
   {
     "id": "phrase_000796",
+    "es": "Él sabe dónde está la pelota.",
     "topic": "Where is?",
     "se": "Han vet var bollen är.",
     "pl": "On wie, gdzie jest piłka.",
@@ -6361,6 +7156,7 @@
   },
   {
     "id": "phrase_000797",
+    "es": "Ella no encuentra su móvil.",
     "topic": "Where is?",
     "se": "Hon hittar inte sin mobil.",
     "pl": "Ona nie może znaleźć telefonu.",
@@ -6369,6 +7165,7 @@
   },
   {
     "id": "phrase_000798",
+    "es": "Él está buscando su chaqueta.",
     "topic": "Where is?",
     "se": "Han letar efter sin jacka.",
     "pl": "On szuka kurtki.",
@@ -6377,6 +7174,7 @@
   },
   {
     "id": "phrase_000799",
+    "es": "Ella pregunta dónde está el aseo.",
     "topic": "Where is?",
     "se": "Hon frågar var toaletten är.",
     "pl": "Ona pyta, gdzie jest toaleta.",
@@ -6385,6 +7183,7 @@
   },
   {
     "id": "phrase_000800",
+    "es": "Ellos no saben dónde están.",
     "topic": "Where is?",
     "se": "De vet inte var de är.",
     "pl": "Oni nie wiedzą, gdzie są.",
@@ -6393,6 +7192,7 @@
   },
   {
     "id": "phrase_000801",
+    "es": "Él encuentra la llave debajo de la almohada.",
     "topic": "Where is?",
     "se": "Han hittar nyckeln under kudden.",
     "pl": "On znajduje klucz pod poduszką.",
@@ -6401,6 +7201,7 @@
   },
   {
     "id": "phrase_000802",
+    "es": "Él está contento hoy.",
     "topic": "Feelings and Emotions",
     "se": "Han är glad idag.",
     "pl": "On jest dzisiaj szczęśliwy.",
@@ -6409,6 +7210,7 @@
   },
   {
     "id": "phrase_000803",
+    "es": "Ella está triste porque el perro está enfermo.",
     "topic": "Feelings and Emotions",
     "se": "Hon är ledsen för att hunden är sjuk.",
     "pl": "Ona jest smutna, bo pies jest chory.",
@@ -6417,6 +7219,7 @@
   },
   {
     "id": "phrase_000804",
+    "es": "Él está enfadado con su hermano.",
     "topic": "Feelings and Emotions",
     "se": "Han är arg på sin bror.",
     "pl": "On jest zły na swojego brata.",
@@ -6425,6 +7228,7 @@
   },
   {
     "id": "phrase_000805",
+    "es": "Ella tiene miedo de la oscuridad.",
     "topic": "Feelings and Emotions",
     "se": "Hon är rädd för mörkret.",
     "pl": "Ona boi się ciemności.",
@@ -6433,6 +7237,7 @@
   },
   {
     "id": "phrase_000806",
+    "es": "Él está cansado después del colegio.",
     "topic": "Feelings and Emotions",
     "se": "Han är trött efter skolan.",
     "pl": "On jest zmęczony po szkole.",
@@ -6441,6 +7246,7 @@
   },
   {
     "id": "phrase_000807",
+    "es": "Ella está sorprendida por el regalo.",
     "topic": "Feelings and Emotions",
     "se": "Hon är förvånad över presenten.",
     "pl": "Ona jest zaskoczona prezentem.",
@@ -6449,6 +7255,7 @@
   },
   {
     "id": "phrase_000808",
+    "es": "Ellos están contentos porque han ganado.",
     "topic": "Feelings and Emotions",
     "se": "De är glada för att de vann.",
     "pl": "Oni są szczęśliwi, bo wygrali.",
@@ -6457,6 +7264,7 @@
   },
   {
     "id": "phrase_000809",
+    "es": "Nos ponemos tristes cuando se acaba el verano.",
     "topic": "Feelings and Emotions",
     "se": "Vi är ledsna när sommaren tar slut.",
     "pl": "Jesteśmy smutni, gdy kończy się lato.",
@@ -6465,6 +7273,7 @@
   },
   {
     "id": "phrase_000810",
+    "es": "Él va al colegio en autobús.",
     "topic": "Transport",
     "se": "Han åker buss till skolan.",
     "pl": "On jeździ autobusem do szkoły.",
@@ -6473,6 +7282,7 @@
   },
   {
     "id": "phrase_000811",
+    "es": "Ella está viajando en avión por primera vez.",
     "topic": "Transport",
     "se": "Hon flyger för första gången.",
     "pl": "Ona leci po raz pierwszy.",
@@ -6481,6 +7291,7 @@
   },
   {
     "id": "phrase_000812",
+    "es": "Él va a casa en bicicleta.",
     "topic": "Transport",
     "se": "Han cyklar hem.",
     "pl": "On jedzie rowerem do domu.",
@@ -6489,6 +7300,7 @@
   },
   {
     "id": "phrase_000813",
+    "es": "Ella tiene miedo del metro.",
     "topic": "Transport",
     "se": "Hon är rädd för tunnelbanan.",
     "pl": "Ona boi się metra.",
@@ -6497,6 +7309,7 @@
   },
   {
     "id": "phrase_000814",
+    "es": "Ellos van en tren a casa de la abuela.",
     "topic": "Transport",
     "se": "De åker tåg till farmor.",
     "pl": "Oni jadą pociągiem do babci.",
@@ -6505,6 +7318,7 @@
   },
   {
     "id": "phrase_000815",
+    "es": "Él mira por la ventanilla del coche.",
     "topic": "Transport",
     "se": "Han tittar ut genom bilfönstret.",
     "pl": "On patrzy przez okno samochodu.",
@@ -6513,6 +7327,7 @@
   },
   {
     "id": "phrase_000816",
+    "es": "Él trepa al árbol.",
     "topic": "Nature",
     "se": "Han klättrar upp i trädet.",
     "pl": "On wspina się na drzewo.",
@@ -6521,6 +7336,7 @@
   },
   {
     "id": "phrase_000817",
+    "es": "Ella recoge flores.",
     "topic": "Nature",
     "se": "Hon plockar blommor.",
     "pl": "Ona zbiera kwiaty.",
@@ -6529,6 +7345,7 @@
   },
   {
     "id": "phrase_000818",
+    "es": "Él tira piedras al lago.",
     "topic": "Nature",
     "se": "Han kastar stenar i sjön.",
     "pl": "On rzuca kamienie do jeziora.",
@@ -6537,6 +7354,7 @@
   },
   {
     "id": "phrase_000819",
+    "es": "Ella mira las estrellas.",
     "topic": "Nature",
     "se": "Hon tittar på stjärnorna.",
     "pl": "Ona patrzy na gwiazdy.",
@@ -6545,6 +7363,7 @@
   },
   {
     "id": "phrase_000820",
+    "es": "Ellos juegan en el bosque.",
     "topic": "Nature",
     "se": "De leker i skogen.",
     "pl": "Oni bawią się w lesie.",
@@ -6553,6 +7372,7 @@
   },
   {
     "id": "phrase_000821",
+    "es": "A él le gusta bañarse en el mar.",
     "topic": "Nature",
     "se": "Han gillar att bada i havet.",
     "pl": "On lubi kąpać się w morzu.",
@@ -6561,6 +7381,7 @@
   },
   {
     "id": "phrase_000822",
+    "es": "Él cumple años el sábado.",
     "topic": "Holidays and Celebrations",
     "se": "Han fyller år på lördag.",
     "pl": "On ma urodziny w sobotę.",
@@ -6569,6 +7390,7 @@
   },
   {
     "id": "phrase_000823",
+    "es": "Ella hace una tarta para su hermano.",
     "topic": "Holidays and Celebrations",
     "se": "Hon bakar en tårta till sin bror.",
     "pl": "Ona piecze tort dla swojego brata.",
@@ -6577,6 +7399,7 @@
   },
   {
     "id": "phrase_000824",
+    "es": "Él ha recibido un regalo enorme.",
     "topic": "Holidays and Celebrations",
     "se": "Han fick en jättestor present.",
     "pl": "On dostał ogromny prezent.",
@@ -6585,6 +7408,7 @@
   },
   {
     "id": "phrase_000825",
+    "es": "¡Ella ha apagado todas las velas de un soplido!",
     "topic": "Holidays and Celebrations",
     "se": "Hon blåste ut alla ljus!",
     "pl": "Ona zdmuchnęła wszystkie świeczki!",
@@ -6593,6 +7417,7 @@
   },
   {
     "id": "phrase_000826",
+    "es": "Ellos cantan la canción de cumpleaños.",
     "topic": "Holidays and Celebrations",
     "se": "De sjunger grattissången.",
     "pl": "Oni śpiewają piosenkę urodzinową.",
@@ -6601,6 +7426,7 @@
   },
   {
     "id": "phrase_000827",
+    "es": "Él abre el regalo.",
     "topic": "Holidays and Celebrations",
     "se": "Han öppnar presenten.",
     "pl": "On otwiera prezent.",
@@ -6609,6 +7435,7 @@
   },
   {
     "id": "phrase_000828",
+    "es": "Él se despierta a las siete.",
     "topic": "Daily Routine",
     "se": "Han vaknar klockan sju.",
     "pl": "On budzi się o siódmej.",
@@ -6617,6 +7444,7 @@
   },
   {
     "id": "phrase_000829",
+    "es": "Ella se ducha todas las mañanas.",
     "topic": "Daily Routine",
     "se": "Hon duschar varje morgon.",
     "pl": "Ona co rano bierze prysznic.",
@@ -6625,6 +7453,7 @@
   },
   {
     "id": "phrase_000830",
+    "es": "Él desayuna deprisa.",
     "topic": "Daily Routine",
     "se": "Han äter frukost snabbt.",
     "pl": "On szybko je śniadanie.",
@@ -6633,6 +7462,7 @@
   },
   {
     "id": "phrase_000831",
+    "es": "Ella siempre hace los deberes enseguida.",
     "topic": "Daily Routine",
     "se": "Hon gör alltid läxorna direkt.",
     "pl": "Ona zawsze od razu odrabia lekcje.",
@@ -6641,6 +7471,7 @@
   },
   {
     "id": "phrase_000832",
+    "es": "Él juega al aire libre después del colegio.",
     "topic": "Daily Routine",
     "se": "Han leker utomhus efter skolan.",
     "pl": "On bawi się na dworze po szkole.",
@@ -6649,6 +7480,7 @@
   },
   {
     "id": "phrase_000833",
+    "es": "Ella se duerme a las ocho.",
     "topic": "Daily Routine",
     "se": "Hon somnar klockan åtta.",
     "pl": "Ona zasypia o ósmej.",
@@ -6657,6 +7489,7 @@
   },
   {
     "id": "phrase_000834",
+    "es": "Ellos se lavan los dientes juntos.",
     "topic": "Daily Routine",
     "se": "De borstar tänderna tillsammans.",
     "pl": "Oni razem myją zęby.",
@@ -6665,6 +7498,7 @@
   },
   {
     "id": "phrase_000835",
+    "es": "Él pide ayuda.",
     "topic": "Asking and Requests",
     "se": "Han ber om hjälp.",
     "pl": "On prosi o pomoc.",
@@ -6673,6 +7507,7 @@
   },
   {
     "id": "phrase_000836",
+    "es": "Ella pregunta si puede coger una galleta.",
     "topic": "Asking and Requests",
     "se": "Hon frågar om hon får ta en kaka.",
     "pl": "Ona pyta, czy może wziąć ciastko.",
@@ -6681,6 +7516,7 @@
   },
   {
     "id": "phrase_000837",
+    "es": "Él espera su turno.",
     "topic": "Asking and Requests",
     "se": "Han väntar på sin tur.",
     "pl": "On czeka na swoją kolej.",
@@ -6689,6 +7525,7 @@
   },
   {
     "id": "phrase_000838",
+    "es": "Ella pide perdón.",
     "topic": "Asking and Requests",
     "se": "Hon säger förlåt.",
     "pl": "Ona mówi przepraszam.",
@@ -6697,6 +7534,7 @@
   },
   {
     "id": "phrase_000839",
+    "es": "Ellos escuchan al profesor.",
     "topic": "Asking and Requests",
     "se": "De lyssnar på läraren.",
     "pl": "Oni słuchają nauczyciela.",
@@ -6705,6 +7543,7 @@
   },
   {
     "id": "phrase_000840",
+    "es": "Él es grande, pero ella es pequeña.",
     "topic": "Opposites",
     "se": "Han är stor men hon är liten.",
     "pl": "On jest duży, ale ona jest mała.",
@@ -6713,6 +7552,7 @@
   },
   {
     "id": "phrase_000841",
+    "es": "Él corre rápido y ella corre despacio.",
     "topic": "Opposites",
     "se": "Han springer snabbt medan hon springer långsamt.",
     "pl": "On biega szybko, a ona biega wolno.",
@@ -6721,6 +7561,7 @@
   },
   {
     "id": "phrase_000842",
+    "es": "La bolsa de él pesa mucho.",
     "topic": "Opposites",
     "se": "Hans väska är tung.",
     "pl": "Jego torba jest ciężka.",
@@ -6729,6 +7570,7 @@
   },
   {
     "id": "phrase_000843",
+    "es": "La mochila de ella pesa poco.",
     "topic": "Opposites",
     "se": "Hennes ryggsäck är lätt.",
     "pl": "Jej plecak jest lekki.",
@@ -6737,6 +7579,7 @@
   },
   {
     "id": "phrase_000844",
+    "es": "A él le gusta que haga calor.",
     "topic": "Opposites",
     "se": "Han gillar varmt väder.",
     "pl": "On lubi ciepłą pogodę.",
@@ -6745,6 +7588,7 @@
   },
   {
     "id": "phrase_000845",
+    "es": "Ella prefiere que haga frío.",
     "topic": "Opposites",
     "se": "Hon föredrar kallt väder.",
     "pl": "Ona woli zimną pogodę.",
@@ -6753,6 +7597,7 @@
   },
   {
     "id": "phrase_000846",
+    "es": "Él va corriendo al colegio.",
     "topic": "Actions and Verbs",
     "se": "Han springer till skolan.",
     "pl": "On biegnie do szkoły.",
@@ -6761,6 +7606,7 @@
   },
   {
     "id": "phrase_000847",
+    "es": "Ella canta una canción.",
     "topic": "Actions and Verbs",
     "se": "Hon sjunger en sång.",
     "pl": "Ona śpiewa piosenkę.",
@@ -6769,6 +7615,7 @@
   },
   {
     "id": "phrase_000848",
+    "es": "Él salta en la cama elástica.",
     "topic": "Actions and Verbs",
     "se": "Han hoppar på studsmattan.",
     "pl": "On skacze na trampolinie.",
@@ -6777,6 +7624,7 @@
   },
   {
     "id": "phrase_000849",
+    "es": "Ella dibuja un gato.",
     "topic": "Actions and Verbs",
     "se": "Hon ritar en katt.",
     "pl": "Ona rysuje kota.",
@@ -6785,6 +7633,7 @@
   },
   {
     "id": "phrase_000850",
+    "es": "Él lee un libro.",
     "topic": "Actions and Verbs",
     "se": "Han läser en bok.",
     "pl": "On czyta książkę.",
@@ -6793,6 +7642,7 @@
   },
   {
     "id": "phrase_000851",
+    "es": "Ella baila en la habitación.",
     "topic": "Actions and Verbs",
     "se": "Hon dansar i rummet.",
     "pl": "Ona tańczy w pokoju.",
@@ -6801,6 +7651,7 @@
   },
   {
     "id": "phrase_000852",
+    "es": "Ellos se ríen juntos.",
     "topic": "Actions and Verbs",
     "se": "De skrattar tillsammans.",
     "pl": "Oni razem się śmieją.",
@@ -6809,6 +7660,7 @@
   },
   {
     "id": "phrase_000853",
+    "es": "Nos abrazamos todos los días.",
     "topic": "Actions and Verbs",
     "se": "Vi kramas varje dag.",
     "pl": "Codziennie się przytulamy.",
@@ -6817,6 +7669,7 @@
   },
   {
     "id": "phrase_000854",
+    "es": "Él nada en el mar.",
     "topic": "Actions and Verbs",
     "se": "Han simmar i havet.",
     "pl": "On pływa w morzu.",
@@ -6825,6 +7678,7 @@
   },
   {
     "id": "phrase_000855",
+    "es": "Ella va al parque en bicicleta.",
     "topic": "Actions and Verbs",
     "se": "Hon cyklar till parken.",
     "pl": "Ona jedzie rowerem do parku.",
@@ -6833,6 +7687,7 @@
   },
   {
     "id": "phrase_000856",
+    "es": "Ellos hablan polaco con la abuela.",
     "topic": "Actions and Verbs",
     "se": "De pratar polska med farmor.",
     "pl": "Oni rozmawiają z babcią po polsku.",
@@ -6841,6 +7696,7 @@
   },
   {
     "id": "phrase_000857",
+    "es": "Él quiere ir al zoo.",
     "topic": "Places in Town",
     "se": "Han vill gå till zoo.",
     "pl": "On chce iść do zoo.",
@@ -6849,6 +7705,7 @@
   },
   {
     "id": "phrase_000858",
+    "es": "Ella saca libros de la biblioteca.",
     "topic": "Places in Town",
     "se": "Hon lånar böcker på biblioteket.",
     "pl": "Ona pożycza książki w bibliotece.",
@@ -6857,6 +7714,7 @@
   },
   {
     "id": "phrase_000859",
+    "es": "Él come en el restaurante con su familia.",
     "topic": "Places in Town",
     "se": "Han äter på restaurangen med familjen.",
     "pl": "On je w restauracji z rodziną.",
@@ -6865,6 +7723,7 @@
   },
   {
     "id": "phrase_000860",
+    "es": "Ella juega en el parque infantil.",
     "topic": "Places in Town",
     "se": "Hon leker på lekplatsen.",
     "pl": "Ona bawi się na placu zabaw.",
@@ -6873,6 +7732,7 @@
   },
   {
     "id": "phrase_000861",
+    "es": "Ellos van al museo el sábado.",
     "topic": "Places in Town",
     "se": "De går på museum på lördag.",
     "pl": "Oni idą do muzeum w sobotę.",
@@ -6881,6 +7741,7 @@
   },
   {
     "id": "phrase_000862",
+    "es": "Él juega a videojuegos.",
     "topic": "Technology",
     "se": "Han spelar datorspel.",
     "pl": "On gra w gry komputerowe.",
@@ -6889,6 +7750,7 @@
   },
   {
     "id": "phrase_000863",
+    "es": "Ella ve una película en la tableta.",
     "topic": "Technology",
     "se": "Hon tittar på film på surfplattan.",
     "pl": "Ona ogląda film na tablecie.",
@@ -6897,6 +7759,7 @@
   },
   {
     "id": "phrase_000864",
+    "es": "Él no encuentra su móvil.",
     "topic": "Technology",
     "se": "Han hittar inte sin mobil.",
     "pl": "On nie może znaleźć telefonu.",
@@ -6905,6 +7768,7 @@
   },
   {
     "id": "phrase_000865",
+    "es": "Ella escucha música con los auriculares.",
     "topic": "Technology",
     "se": "Hon lyssnar på musik i hörlurarna.",
     "pl": "Ona słucha muzyki w słuchawkach.",
@@ -6913,6 +7777,7 @@
   },
   {
     "id": "phrase_000866",
+    "es": "Ellos hacen una foto.",
     "topic": "Technology",
     "se": "De tar ett foto.",
     "pl": "Oni robią zdjęcie.",
@@ -6921,6 +7786,7 @@
   },
   {
     "id": "phrase_000867",
+    "es": "Él toca la guitarra.",
     "topic": "Music and Art",
     "se": "Han spelar gitarr.",
     "pl": "On gra na gitarze.",
@@ -6929,6 +7795,7 @@
   },
   {
     "id": "phrase_000868",
+    "es": "Ella canta muy bien.",
     "topic": "Music and Art",
     "se": "Hon sjunger vackert.",
     "pl": "Ona śpiewa pięknie.",
@@ -6937,6 +7804,7 @@
   },
   {
     "id": "phrase_000869",
+    "es": "Él dibuja un dinosaurio.",
     "topic": "Music and Art",
     "se": "Han ritar en dinosaurie.",
     "pl": "On rysuje dinozaura.",
@@ -6945,6 +7813,7 @@
   },
   {
     "id": "phrase_000870",
+    "es": "Ella pinta con un pincel.",
     "topic": "Music and Art",
     "se": "Hon målar med pensel.",
     "pl": "Ona maluje pędzlem.",
@@ -6953,6 +7822,7 @@
   },
   {
     "id": "phrase_000871",
+    "es": "Ellos bailan al ritmo de la música.",
     "topic": "Music and Art",
     "se": "De dansar till musiken.",
     "pl": "Oni tańczą przy muzyce.",
@@ -6961,6 +7831,7 @@
   },
   {
     "id": "phrase_000872",
+    "es": "Él practica el piano todos los días.",
     "topic": "Music and Art",
     "se": "Han övar på att spela piano varje dag.",
     "pl": "On codziennie ćwiczy grę na pianinie.",

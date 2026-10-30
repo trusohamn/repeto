@@ -28,16 +28,38 @@ def tone(duration=200):
 
 
 def entry(topic="Greetings", identifier="phrase_000001"):
-    return {"id": identifier, "topic": topic, "se": "Hej!", "en": "Hi!", "pl": "Cześć!", "ru": "Привет!"}
+    return {"id": identifier, "topic": topic, "se": "Hej!", "en": "Hi!", "pl": "Cześć!", "ru": "Привет!", "es": "¡Hola!"}
 
 
 class RendererTests(unittest.TestCase):
+    def test_spanish_translation_is_retained_and_required_when_selected(self):
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "transcript.json"
+            path.write_text(json.dumps([entry()]), encoding="utf-8")
+            topics = renderer.load_topics(path)
+            self.assertEqual(topics["Greetings"][0]["es"], "¡Hola!")
+            without_spanish = {key: value for key, value in entry().items() if key != "es"}
+            path.write_text(json.dumps([without_spanish]), encoding="utf-8")
+            self.assertNotIn("es", renderer.load_topics(path)["Greetings"][0])
+            with self.assertRaisesRegex(ValueError, "phrase_000001: missing es translation"):
+                asyncio.run(renderer.build_audio_tracks(
+                    transcript=path, output=Path(directory) / "audio",
+                    source="pl", targets=("es",),
+                ))
+            for value in ("", " Hola", "niño/niña"):
+                path.write_text(json.dumps([dict(entry(), es=value)]), encoding="utf-8")
+                with self.assertRaises(ValueError):
+                    renderer.load_topics(path)
+
     def test_real_transcript(self):
         topics = renderer.load_topics(
             renderer.ROOT / "courses" / "practice" / "transcript.json"
         )
         self.assertEqual(len(topics), 30)
         self.assertGreater(sum(map(len, topics.values())), 0)
+        self.assertTrue(all(
+            item.get("es") for items in topics.values() for item in items
+        ))
         recap = next(
             item for item in topics["Review and Recap"] if item["id"] == "phrase_000681"
         )
@@ -54,6 +76,23 @@ class RendererTests(unittest.TestCase):
         self.assertEqual(entries["phrase_000870"]["se"], "Hon målar med pensel.")
         self.assertEqual(entries["phrase_000192"]["ru"], "Рука")
         self.assertEqual(entries["phrase_000752"]["pl"], "On zapomniał pracy domowej.")
+        self.assertEqual(entries["phrase_000029"]["es"], "¡Encantado de conocerte!")
+        self.assertEqual(entries["phrase_000291"]["se"], "Res dig!")
+        self.assertEqual(
+            entries["phrase_000780"]["se"], "De delar med sig av leksakerna."
+        )
+        self.assertEqual(entries["phrase_000684"]["en"], "Say it again.")
+        self.assertEqual(entries["phrase_000685"]["pl"], "Jak to się mówi?")
+        self.assertEqual(
+            entries["phrase_000686"]["es"], "¡Ya sé decir algunas cosas!"
+        )
+        for item in topics["Review and Recap"]:
+            for language, language_name in (
+                ("se", "polsk"), ("pl", "polsk"), ("en", "polish"),
+                ("ru", "польск"), ("es", "polac"),
+            ):
+                with self.subTest(id=item["id"], language=language):
+                    self.assertNotIn(language_name, item[language].lower())
         self.assertEqual(
             entries["phrase_000841"]["en"],
             "He runs fast while she runs slowly.",

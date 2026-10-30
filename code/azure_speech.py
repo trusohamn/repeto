@@ -25,12 +25,14 @@ NARRATION_VOICES = {
     "sv": "sv-SE-Harper:MAI-Voice-2.1",
     "en": "en-US-Harper:MAI-Voice-2.1",
     "ru": "ru-RU-SvetlanaNeural",
+    "es": "es-ES-ElviraNeural",
 }
 # Russian Harper (MAI) narration has audible high-frequency artifacts; Svetlana Neural has no styles.
 NARRATION_STYLES: dict[str, str | None] = {
     "pl": "audiobook", "sv": "audiobook", "en": "audiobook", "ru": None,
+    "es": None,
 }
-LOCALES = {"pl": "pl-PL", "sv": "sv-SE", "en": "en-US", "ru": "ru-RU"}
+LOCALES = {"pl": "pl-PL", "sv": "sv-SE", "en": "en-US", "ru": "ru-RU", "es": "es-ES"}
 MSTTS = "http://www.w3.org/2001/mstts"
 ET.register_namespace("mstts", MSTTS)
 

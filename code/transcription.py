@@ -20,18 +20,19 @@ from pydub.effects import compress_dynamic_range
 from pydub.silence import detect_nonsilent
 
 ROOT = Path(__file__).resolve().parent.parent
-Language = Literal["se", "en", "pl", "ru"]
+Language = Literal["se", "en", "pl", "ru", "es"]
 Engine = Literal["azure", "edge"]
 ENGINES: tuple[Engine, ...] = ("azure", "edge")
-LANGUAGES: tuple[Language, ...] = ("se", "pl", "en", "ru")
+LANGUAGES: tuple[Language, ...] = ("se", "pl", "en", "ru", "es")
 TARGETS: tuple[Language, ...] = ("pl", "en", "ru")
 VOICES = {
     "se": "sv-SE-SofieNeural",
     "en": "en-GB-SoniaNeural",
     "pl": "pl-PL-ZofiaNeural",
     "ru": "ru-RU-SvetlanaNeural",
+    "es": "es-ES-ElviraNeural",
 }
-RATES = {"se": "-5%", "en": "-5%", "pl": "-15%", "ru": "-15%"}
+RATES = {"se": "-5%", "en": "-5%", "pl": "-15%", "ru": "-15%", "es": "-15%"}
 SAMPLE_RATE = 44100
 LEAD_IN_MS = 1000
 THINKING_MS = 2000
@@ -42,13 +43,17 @@ AZURE_ATTEMPTS = 6
 LOGGER = logging.getLogger(__name__)
 
 
-class Entry(TypedDict):
+class RequiredEntry(TypedDict):
     id: str
     topic: str
     se: str
     en: str
     pl: str
     ru: str
+
+
+class Entry(RequiredEntry, total=False):
+    es: str
 
 
 class Segment(TypedDict):
@@ -69,6 +74,7 @@ class TimedEntry(EntryTiming, total=False):
     pl: Segment
     en: Segment
     ru: Segment
+    es: Segment
 
 
 class Manifest(TypedDict):
@@ -91,7 +97,8 @@ def load_topics(path: Path) -> dict[str, list[Entry]]:
     for index, entry in enumerate(data):
         if not isinstance(entry, dict):
             raise ValueError(f"Entry {index + 1} must be an object.")
-        for key in ("id", "topic", *LANGUAGES):
+        languages = tuple(lang for lang in LANGUAGES if lang != "es" or "es" in entry)
+        for key in ("id", "topic", *languages):
             value = entry.get(key)
             if not isinstance(value, str) or not value.strip() or value != value.strip():
                 raise ValueError(f"Entry {index + 1}: {key} must be nonempty, trimmed text.")
@@ -104,6 +111,8 @@ def load_topics(path: Path) -> dict[str, list[Entry]]:
             id=entry["id"], topic=entry["topic"],
             se=entry["se"], en=entry["en"], pl=entry["pl"], ru=entry["ru"],
         )
+        if "es" in entry:
+            validated["es"] = entry["es"]
         topics.setdefault(validated["topic"], []).append(validated)
     return topics
 
@@ -251,6 +260,14 @@ def silence(duration_ms: int) -> AudioSegment:
     return AudioSegment.silent(duration=duration_ms, frame_rate=SAMPLE_RATE).set_channels(1)
 
 
+def entry_text(item: Entry, language: Language) -> str:
+    if language == "es":
+        if "es" not in item:
+            raise ValueError(f"{item['id']}: missing es translation.")
+        return item["es"]
+    return item[language]
+
+
 def prepare_clip(audio: AudioSegment, context: str) -> AudioSegment:
     audio = audio.set_frame_rate(SAMPLE_RATE).set_channels(1).set_sample_width(2)
     ranges = detect_nonsilent(
@@ -306,7 +323,7 @@ def append_entry(
         target_start = len(track)
         track += clips[target]
         target_playbacks.append(Segment(
-            text=item[target], start_ms=target_start, end_ms=len(track)
+            text=entry_text(item, target), start_ms=target_start, end_ms=len(track)
         ))
         track += silence(REPETITION_MS)
     timing = TimedEntry(
@@ -315,7 +332,7 @@ def append_entry(
         entry_end_ms=len(track),
         target_playbacks=target_playbacks,
     )
-    timing[source] = Segment(text=item[source], start_ms=start, end_ms=source_end)
+    timing[source] = Segment(text=entry_text(item, source), start_ms=start, end_ms=source_end)
     timing[target] = target_playbacks[0]
     return track, timing
 
@@ -366,16 +383,23 @@ async def build_audio_tracks(
         raise ValueError(f"Unsupported TTS engine: {engine!r}")
     if source not in LANGUAGES:
         raise ValueError(f"Unsupported source language: {source!r}")
+    topics = load_topics(transcript)
     if targets is None:
-        targets = tuple(lang for lang in LANGUAGES if lang != source)
+        targets = tuple(lang for lang in ("se", "pl", "en", "ru") if lang != source)
     if not targets or any(lang not in LANGUAGES for lang in targets):
-        raise ValueError("Select at least one supported target language: se, en, pl, ru.")
+        raise ValueError("Select at least one supported target language: se, en, pl, ru, es.")
     if source in targets or len(set(targets)) != len(targets):
         raise ValueError("Targets must be unique and different from the source language.")
     selected_languages = (source, *targets)
-    topics = load_topics(transcript)
     if topic is not None and topic not in topics:
         raise ValueError(f"Unknown topic {topic!r}. Available topics: {', '.join(topics)}")
+    for title, items in topics.items():
+        if topic is not None and title != topic:
+            continue
+        for item in items:
+            for language in selected_languages:
+                if language not in item:
+                    raise ValueError(f"{item['id']}: missing {language} translation.")
     if max_duration_seconds is not None and (
         not math.isfinite(max_duration_seconds) or max_duration_seconds <= 0
     ):
@@ -417,7 +441,7 @@ async def build_audio_tracks(
             print(f"  Entry {index}/{len(items)}", flush=True)
             clips: dict[Language, AudioSegment] = {}
             for lang in selected_languages:
-                text = item[lang]
+                text = entry_text(item, lang)
                 path = clip_path(text, lang, cache, engine=engine)
                 await generate_clip(text, lang, path, engine=engine)
                 audio = AudioSegment.from_file(str(path), format="mp3")
@@ -454,7 +478,7 @@ async def build_audio_tracks(
 
 def main() -> None:
     parser = argparse.ArgumentParser(
-        description="Build course audio for any pair of transcript languages: se, en, pl, ru."
+        description="Build course audio for any pair of transcript languages: se, en, pl, ru, es."
     )
     parser.add_argument(
         "--transcript",
@@ -474,7 +498,7 @@ def main() -> None:
     )
     parser.add_argument(
         "--target", choices=LANGUAGES, nargs="+", metavar="LANG",
-        help="One or more answer languages (default: all except the source).",
+        help="One or more answer languages (default: se, pl, en, ru except the source; select es explicitly).",
     )
     parser.add_argument(
         "--max-duration", type=float, metavar="SECONDS",

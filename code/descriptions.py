@@ -22,6 +22,8 @@ LANGUAGES = {
     "pl": ("polska", "polsk"),
     "en": ("engelska", "engelsk"),
     "ru": ("ryska", "rysk"),
+    "sv": ("svenska", "svensk"),
+    "es": ("spanska", "spansk"),
 }
 EXAMPLES = 3
 PRACTICE_ID = re.compile(r"repeto:[a-z0-9-]+:topic-(\d+)")
@@ -29,16 +31,20 @@ STORY_ID = re.compile(r"([a-z0-9_-]+):(sv|pl):([a-z]{2}):chapter-(\d+)")
 
 
 def _names(target: str) -> tuple[str, str]:
+    target = "sv" if target == "se" else target
     if target not in LANGUAGES:
         raise ValueError(f"No Swedish language name configured for {target!r}.")
     return LANGUAGES[target]
 
 
 def _polish_language(target: str) -> tuple[str, str]:
+    target = "sv" if target == "se" else target
     languages = {
         "pl": ("polskiego", "polski"),
         "en": ("angielskiego", "angielski"),
         "ru": ("rosyjskiego", "rosyjski"),
+        "sv": ("szwedzkiego", "szwedzki"),
+        "es": ("hiszpańskiego", "hiszpański"),
     }
     if target not in languages:
         raise ValueError(f"No Polish language name configured for {target!r}.")
@@ -46,7 +52,11 @@ def _polish_language(target: str) -> tuple[str, str]:
 
 
 def _polish_adverb(target: str) -> str:
-    adverbs = {"pl": "polsku", "en": "angielsku", "ru": "rosyjsku"}
+    target = "sv" if target == "se" else target
+    adverbs = {
+        "pl": "polsku", "en": "angielsku", "ru": "rosyjsku",
+        "sv": "szwedzku", "es": "hiszpańsku",
+    }
     if target not in adverbs:
         raise ValueError(f"No Polish language name configured for {target!r}.")
     return adverbs[target]
@@ -289,6 +299,7 @@ def refresh_course(
     if source not in ("sv", "pl"):
         raise ValueError(f"{course.name}: unsupported source language {source!r}.")
     target = catalog["target_language"]
+    practice_target = "se" if target == "sv" else target
     practice_source = "se" if source == "sv" else "pl"
     topics: dict[str, list[dict[str, str]]] = {}
     topic_titles: dict[str, dict[str, str]] = {}
@@ -305,7 +316,7 @@ def refresh_course(
             number = int(match[1])
             topic = topic_names[number - 1]
             episode["description"] = practice_description(
-                target, number, len(topic_names), topic_titles[topic], topics[topic],
+                practice_target, number, len(topic_names), topic_titles[topic], topics[topic],
                 source=practice_source,
             )
             practice_count += 1

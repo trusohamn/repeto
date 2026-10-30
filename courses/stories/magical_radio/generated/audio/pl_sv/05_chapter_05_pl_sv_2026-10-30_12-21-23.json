@@ -1,0 +1,559 @@
+{
+  "chapter_number": 5,
+  "title": {
+    "pl": "Latająca książka",
+    "sv": "Den flygande boken",
+    "en": "The Flying Book",
+    "ru": "Летающая книга"
+  },
+  "source_language": "pl",
+  "target_language": "sv",
+  "practice_order": "deterministically_shuffled",
+  "sequence": [
+    "story",
+    "practice",
+    "story"
+  ],
+  "total_duration_ms": 279582,
+  "practice": [
+    {
+      "id": 160,
+      "kind": "vocabulary",
+      "start_ms": 39936,
+      "end_ms": 50484,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "odezwać się",
+        "start_ms": 39936,
+        "end_ms": 40994
+      },
+      "target_playbacks": [
+        {
+          "text": "börja tala",
+          "start_ms": 42994,
+          "end_ms": 44239
+        },
+        {
+          "text": "börja tala",
+          "start_ms": 46739,
+          "end_ms": 47984
+        }
+      ]
+    },
+    {
+      "id": 167,
+      "kind": "vocabulary",
+      "start_ms": 50484,
+      "end_ms": 59871,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "stary",
+        "start_ms": 50484,
+        "end_ms": 51219
+      },
+      "target_playbacks": [
+        {
+          "text": "gammal",
+          "start_ms": 53219,
+          "end_ms": 54045
+        },
+        {
+          "text": "gammal",
+          "start_ms": 56545,
+          "end_ms": 57371
+        }
+      ]
+    },
+    {
+      "id": 229,
+      "kind": "vocabulary",
+      "start_ms": 59871,
+      "end_ms": 69156,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "zawsze",
+        "start_ms": 59871,
+        "end_ms": 60606
+      },
+      "target_playbacks": [
+        {
+          "text": "alltid",
+          "start_ms": 62606,
+          "end_ms": 63381
+        },
+        {
+          "text": "alltid",
+          "start_ms": 65881,
+          "end_ms": 66656
+        }
+      ]
+    },
+    {
+      "id": 162,
+      "kind": "vocabulary",
+      "start_ms": 69156,
+      "end_ms": 78518,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "ważny",
+        "start_ms": 69156,
+        "end_ms": 69852
+      },
+      "target_playbacks": [
+        {
+          "text": "viktig",
+          "start_ms": 71852,
+          "end_ms": 72685
+        },
+        {
+          "text": "viktig",
+          "start_ms": 75185,
+          "end_ms": 76018
+        }
+      ]
+    },
+    {
+      "id": 228,
+      "kind": "vocabulary",
+      "start_ms": 78518,
+      "end_ms": 89213,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "swój kompas",
+        "start_ms": 78518,
+        "end_ms": 79657
+      },
+      "target_playbacks": [
+        {
+          "text": "sin kompass",
+          "start_ms": 81657,
+          "end_ms": 82935
+        },
+        {
+          "text": "sin kompass",
+          "start_ms": 85435,
+          "end_ms": 86713
+        }
+      ]
+    },
+    {
+      "id": 164,
+      "kind": "vocabulary",
+      "start_ms": 89213,
+      "end_ms": 98735,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "naprawiać",
+        "start_ms": 89213,
+        "end_ms": 90183
+      },
+      "target_playbacks": [
+        {
+          "text": "laga",
+          "start_ms": 92183,
+          "end_ms": 92959
+        },
+        {
+          "text": "laga",
+          "start_ms": 95459,
+          "end_ms": 96235
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "kind": "vocabulary",
+      "start_ms": 98735,
+      "end_ms": 110389,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "zepsuty kompas",
+        "start_ms": 98735,
+        "end_ms": 100127
+      },
+      "target_playbacks": [
+        {
+          "text": "en trasig kompass",
+          "start_ms": 102127,
+          "end_ms": 103758
+        },
+        {
+          "text": "en trasig kompass",
+          "start_ms": 106258,
+          "end_ms": 107889
+        }
+      ]
+    },
+    {
+      "id": 165,
+      "kind": "vocabulary",
+      "start_ms": 110389,
+      "end_ms": 121636,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "zepsuta rzecz",
+        "start_ms": 110389,
+        "end_ms": 111604
+      },
+      "target_playbacks": [
+        {
+          "text": "en trasig sak",
+          "start_ms": 113604,
+          "end_ms": 115120
+        },
+        {
+          "text": "en trasig sak",
+          "start_ms": 117620,
+          "end_ms": 119136
+        }
+      ]
+    },
+    {
+      "id": 158,
+      "kind": "vocabulary",
+      "start_ms": 121636,
+      "end_ms": 133246,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "wylądować na ramieniu",
+        "start_ms": 121636,
+        "end_ms": 123318
+      },
+      "target_playbacks": [
+        {
+          "text": "landa på axeln",
+          "start_ms": 125318,
+          "end_ms": 126782
+        },
+        {
+          "text": "landa på axeln",
+          "start_ms": 129282,
+          "end_ms": 130746
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "kind": "vocabulary",
+      "start_ms": 133246,
+      "end_ms": 143523,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "zaklęcie",
+        "start_ms": 133246,
+        "end_ms": 134223
+      },
+      "target_playbacks": [
+        {
+          "text": "trollformel",
+          "start_ms": 136223,
+          "end_ms": 137373
+        },
+        {
+          "text": "trollformel",
+          "start_ms": 139873,
+          "end_ms": 141023
+        }
+      ]
+    },
+    {
+      "id": 161,
+      "kind": "vocabulary",
+      "start_ms": 143523,
+      "end_ms": 153553,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "uczyć",
+        "start_ms": 143523,
+        "end_ms": 144149
+      },
+      "target_playbacks": [
+        {
+          "text": "lära ut",
+          "start_ms": 146149,
+          "end_ms": 147351
+        },
+        {
+          "text": "lära ut",
+          "start_ms": 149851,
+          "end_ms": 151053
+        }
+      ]
+    },
+    {
+      "id": 159,
+      "kind": "vocabulary",
+      "start_ms": 153553,
+      "end_ms": 163705,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "natychmiast",
+        "start_ms": 153553,
+        "end_ms": 154587
+      },
+      "target_playbacks": [
+        {
+          "text": "genast",
+          "start_ms": 156587,
+          "end_ms": 157646
+        },
+        {
+          "text": "genast",
+          "start_ms": 160146,
+          "end_ms": 161205
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "kind": "vocabulary",
+      "start_ms": 163705,
+      "end_ms": 175258,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "machać stronami",
+        "start_ms": 163705,
+        "end_ms": 165144
+      },
+      "target_playbacks": [
+        {
+          "text": "flaxa med sidorna",
+          "start_ms": 167144,
+          "end_ms": 168701
+        },
+        {
+          "text": "flaxa med sidorna",
+          "start_ms": 171201,
+          "end_ms": 172758
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "kind": "vocabulary",
+      "start_ms": 175258,
+      "end_ms": 184290,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "ramię",
+        "start_ms": 175258,
+        "end_ms": 175879
+      },
+      "target_playbacks": [
+        {
+          "text": "axel",
+          "start_ms": 177879,
+          "end_ms": 178584
+        },
+        {
+          "text": "axel",
+          "start_ms": 181084,
+          "end_ms": 181790
+        }
+      ]
+    },
+    {
+      "id": 199,
+      "kind": "vocabulary",
+      "start_ms": 184290,
+      "end_ms": 194054,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "Reparo!",
+        "start_ms": 184290,
+        "end_ms": 185134
+      },
+      "target_playbacks": [
+        {
+          "text": "Reparo!",
+          "start_ms": 187134,
+          "end_ms": 188094
+        },
+        {
+          "text": "Reparo!",
+          "start_ms": 190594,
+          "end_ms": 191554
+        }
+      ]
+    },
+    {
+      "id": 198,
+      "kind": "vocabulary",
+      "start_ms": 194054,
+      "end_ms": 206342,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "każda zepsuta rzecz",
+        "start_ms": 194054,
+        "end_ms": 195696
+      },
+      "target_playbacks": [
+        {
+          "text": "varje trasig sak",
+          "start_ms": 197696,
+          "end_ms": 199519
+        },
+        {
+          "text": "varje trasig sak",
+          "start_ms": 202019,
+          "end_ms": 203842
+        }
+      ]
+    },
+    {
+      "id": 163,
+      "kind": "vocabulary",
+      "start_ms": 206342,
+      "end_ms": 215832,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "słowo",
+        "start_ms": 206342,
+        "end_ms": 207064
+      },
+      "target_playbacks": [
+        {
+          "text": "ett ord",
+          "start_ms": 209064,
+          "end_ms": 209948
+        },
+        {
+          "text": "ett ord",
+          "start_ms": 212448,
+          "end_ms": 213332
+        }
+      ]
+    },
+    {
+      "id": 166,
+      "kind": "vocabulary",
+      "start_ms": 215832,
+      "end_ms": 227807,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "wyciągać z kieszeni",
+        "start_ms": 215832,
+        "end_ms": 217329
+      },
+      "target_playbacks": [
+        {
+          "text": "ta upp ur fickan",
+          "start_ms": 219329,
+          "end_ms": 221068
+        },
+        {
+          "text": "ta upp ur fickan",
+          "start_ms": 223568,
+          "end_ms": 225307
+        }
+      ]
+    },
+    {
+      "id": 230,
+      "kind": "vocabulary",
+      "start_ms": 227807,
+      "end_ms": 238110,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "mieć przy sobie",
+        "start_ms": 227807,
+        "end_ms": 228982
+      },
+      "target_playbacks": [
+        {
+          "text": "ha med sig",
+          "start_ms": 230982,
+          "end_ms": 232046
+        },
+        {
+          "text": "ha med sig",
+          "start_ms": 234546,
+          "end_ms": 235610
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "kind": "vocabulary",
+      "start_ms": 238110,
+      "end_ms": 248910,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "złota książka",
+        "start_ms": 238110,
+        "end_ms": 239446
+      },
+      "target_playbacks": [
+        {
+          "text": "gyllene bok",
+          "start_ms": 241446,
+          "end_ms": 242678
+        },
+        {
+          "text": "gyllene bok",
+          "start_ms": 245178,
+          "end_ms": 246410
+        }
+      ]
+    }
+  ],
+  "book_introduction": null,
+  "chapter_introduction": {
+    "text": "Kapitel fem. Den flygande boken.",
+    "start_ms": 1000,
+    "end_ms": 4264
+  },
+  "transitions": [
+    {
+      "kind": "chime",
+      "from": "story",
+      "to": "practice",
+      "start_ms": 36816,
+      "end_ms": 37436
+    },
+    {
+      "kind": "chime",
+      "from": "practice",
+      "to": "story",
+      "start_ms": 248910,
+      "end_ms": 249530
+    }
+  ],
+  "chapter_readings": [
+    {
+      "text": "Den gyllene boken flaxar med sidorna och landar på Majas axel. Radiofon börjar genast tala: – Den här boken lär ut en viktig trollformel. Ordet är: Reparo! Det lagar allt som är trasigt. Tom tar upp sin gamla, trasiga kompass ur fickan. Han har den alltid med sig.",
+      "start_ms": 6764,
+      "end_ms": 34316
+    },
+    {
+      "text": "Den gyllene boken flaxar med sidorna och landar på Majas axel. Radiofon börjar genast tala: – Den här boken lär ut en viktig trollformel. Ordet är: Reparo! Det lagar allt som är trasigt. Tom tar upp sin gamla, trasiga kompass ur fickan. Han har den alltid med sig.",
+      "start_ms": 252030,
+      "end_ms": 279582
+    }
+  ],
+  "chapter_reading": {
+    "text": "Den gyllene boken flaxar med sidorna och landar på Majas axel. Radiofon börjar genast tala: – Den här boken lär ut en viktig trollformel. Ordet är: Reparo! Det lagar allt som är trasigt. Tom tar upp sin gamla, trasiga kompass ur fickan. Han har den alltid med sig.",
+    "start_ms": 252030,
+    "end_ms": 279582
+  },
+  "narration": {
+    "engine": "azure",
+    "voice": "sv-SE-Harper:MAI-Voice-2.1",
+    "style": "audiobook",
+    "rate": "-12%",
+    "locale": "sv-SE",
+    "capabilities": {
+      "voice": "sv-SE-Harper:MAI-Voice-2.1",
+      "locale": "sv-SE",
+      "advertised_styles": [
+        "agent",
+        "audiobook",
+        "customer_call_center",
+        "educational",
+        "narrator"
+      ]
+    },
+    "ssml": "<speak xmlns:mstts=\"http://www.w3.org/2001/mstts\" version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"sv-SE\"><voice name=\"sv-SE-Harper:MAI-Voice-2.1\"><mstts:express-as style=\"audiobook\"><prosody rate=\"-12%\"><p>Den gyllene boken flaxar med sidorna och landar på Majas axel. Radiofon börjar genast tala: – Den här boken lär ut en viktig trollformel. Ordet är: Reparo! Det lagar allt som är trasigt. Tom tar upp sin gamla, trasiga kompass ur fickan. Han har den alltid med sig.</p></prosody></mstts:express-as></voice></speak>"
+  },
+  "audio_file": "05_chapter_05_pl_sv_2026-10-30_12-21-23.mp3"
+}

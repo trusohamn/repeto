@@ -35,6 +35,24 @@ STORY = {
 
 
 class DescriptionTests(unittest.TestCase):
+    def test_swedish_and_spain_spanish_targets_for_polish_listeners(self):
+        for target, genitive, adverb in (
+            ("sv", "szwedzkiego", "szwedzku"),
+            ("es", "hiszpańskiego", "hiszpańsku"),
+        ):
+            with self.subTest(target=target):
+                self.assertEqual(
+                    descriptions.show_title(target, source="pl"),
+                    f"Repeto – Ucz się {genitive}",
+                )
+                text = descriptions.show_description(target, 30, [], "a@b.se", source="pl")
+                self.assertIn(f"po {adverb}", text)
+                self.assertIn("po polsku", text)
+        self.assertEqual(
+            descriptions.show_title("se", source="pl"),
+            descriptions.show_title("sv", source="pl"),
+        )
+
     def test_show_copy_explains_audience_and_usage(self):
         self.assertEqual(descriptions.show_title("pl"), "Repeto – Lär dig polska")
         self.assertEqual(descriptions.show_title("en"), "Repeto – Lär dig engelska")

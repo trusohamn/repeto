@@ -34,8 +34,9 @@ DEFAULT_VOICES = {
     "sv": "sv-SE-SofieNeural",
     "en": "en-GB-SoniaNeural",
     "ru": "ru-RU-SvetlanaNeural",
+    "es": "es-ES-ElviraNeural",
 }
-DEFAULT_RATES = {"pl": "-15%", "sv": "-15%", "en": "-5%", "ru": "-15%"}
+DEFAULT_RATES = {"pl": "-15%", "sv": "-15%", "en": "-5%", "ru": "-15%", "es": "-15%"}
 DEFAULT_TARGETS = ("pl",)
 # Spoken before each chapter title; short bare titles let expressive narrators
 # drift into character voices (e.g. "Głos z radia." read as a deep radio voice).
@@ -48,6 +49,8 @@ CHAPTER_HEADINGS = {
                        "nine", "ten"]),
     "ru": ("Глава", ["первая", "вторая", "третья", "четвёртая", "пятая", "шестая",
                      "седьмая", "восьмая", "девятая", "десятая"]),
+    "es": ("Capítulo", ["uno", "dos", "tres", "cuatro", "cinco", "seis",
+                       "siete", "ocho", "nueve", "diez"]),
 }
 SAMPLE_RATE = 44100
 BITRATE = "192k"
@@ -75,7 +78,18 @@ async def _narration_clip(
     if path.is_file():
         audio = AudioSegment.from_file(path)
     else:
-        data = await asyncio.to_thread(azure.synthesize, ssml, key, region)
+        for attempt in range(1, 7):
+            try:
+                data = await asyncio.to_thread(azure.synthesize, ssml, key, region)
+                break
+            except azure.AzureSpeechError as error:
+                if not error.retryable or attempt == 6:
+                    raise
+                delay = min(2 ** attempt, 30)
+                LOGGER.warning(
+                    "Azure narration retry %s/6 in %ss: %s", attempt, delay, error,
+                )
+                await asyncio.sleep(delay)
         audio = AudioSegment.from_file(io.BytesIO(data), format="mp3")
         if len(audio) == 0 or audio.rms == 0:
             raise RuntimeError("Azure narration is empty or silent.")

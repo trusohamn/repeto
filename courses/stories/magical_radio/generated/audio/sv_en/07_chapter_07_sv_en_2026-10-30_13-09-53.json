@@ -1,0 +1,622 @@
+{
+  "chapter_number": 7,
+  "title": {
+    "pl": "Złoty ptak",
+    "es": "El pájaro dorado",
+    "sv": "Den gyllene fågeln",
+    "en": "The Golden Bird",
+    "ru": "Золотая птица"
+  },
+  "source_language": "sv",
+  "target_language": "en",
+  "practice_order": "deterministically_shuffled",
+  "sequence": [
+    "story",
+    "practice",
+    "story"
+  ],
+  "total_duration_ms": 337771,
+  "practice": [
+    {
+      "id": 234,
+      "kind": "vocabulary",
+      "start_ms": 55992,
+      "end_ms": 66794,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "på den andra vingen",
+        "start_ms": 55992,
+        "end_ms": 57568
+      },
+      "target_playbacks": [
+        {
+          "text": "on the other wing",
+          "start_ms": 59568,
+          "end_ms": 60681
+        },
+        {
+          "text": "on the other wing",
+          "start_ms": 63181,
+          "end_ms": 64294
+        }
+      ]
+    },
+    {
+      "id": 233,
+      "kind": "vocabulary",
+      "start_ms": 66794,
+      "end_ms": 78600,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "en glänsande blå sten",
+        "start_ms": 66794,
+        "end_ms": 68708
+      },
+      "target_playbacks": [
+        {
+          "text": "a shiny blue stone",
+          "start_ms": 70708,
+          "end_ms": 72154
+        },
+        {
+          "text": "a shiny blue stone",
+          "start_ms": 74654,
+          "end_ms": 76100
+        }
+      ]
+    },
+    {
+      "id": 242,
+      "kind": "vocabulary",
+      "start_ms": 78600,
+      "end_ms": 88462,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "ge tillbaka",
+        "start_ms": 78600,
+        "end_ms": 79910
+      },
+      "target_playbacks": [
+        {
+          "text": "give back",
+          "start_ms": 81910,
+          "end_ms": 82686
+        },
+        {
+          "text": "give back",
+          "start_ms": 85186,
+          "end_ms": 85962
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "kind": "vocabulary",
+      "start_ms": 88462,
+      "end_ms": 98635,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "öppna dörren",
+        "start_ms": 88462,
+        "end_ms": 89639
+      },
+      "target_playbacks": [
+        {
+          "text": "open the door",
+          "start_ms": 91639,
+          "end_ms": 92637
+        },
+        {
+          "text": "open the door",
+          "start_ms": 95137,
+          "end_ms": 96135
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "kind": "vocabulary",
+      "start_ms": 98635,
+      "end_ms": 107385,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "vinge",
+        "start_ms": 98635,
+        "end_ms": 99425
+      },
+      "target_playbacks": [
+        {
+          "text": "wing",
+          "start_ms": 101425,
+          "end_ms": 101905
+        },
+        {
+          "text": "wing",
+          "start_ms": 104405,
+          "end_ms": 104885
+        }
+      ]
+    },
+    {
+      "id": 231,
+      "kind": "vocabulary",
+      "start_ms": 107385,
+      "end_ms": 119542,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "en underjordisk trädgård",
+        "start_ms": 107385,
+        "end_ms": 109470
+      },
+      "target_playbacks": [
+        {
+          "text": "an underground garden",
+          "start_ms": 111470,
+          "end_ms": 113006
+        },
+        {
+          "text": "an underground garden",
+          "start_ms": 115506,
+          "end_ms": 117042
+        }
+      ]
+    },
+    {
+      "id": 239,
+      "kind": "vocabulary",
+      "start_ms": 119542,
+      "end_ms": 129664,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "för länge sedan",
+        "start_ms": 119542,
+        "end_ms": 120976
+      },
+      "target_playbacks": [
+        {
+          "text": "long ago",
+          "start_ms": 122976,
+          "end_ms": 123820
+        },
+        {
+          "text": "long ago",
+          "start_ms": 126320,
+          "end_ms": 127164
+        }
+      ]
+    },
+    {
+      "id": 236,
+      "kind": "vocabulary",
+      "start_ms": 129664,
+      "end_ms": 140724,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "titta på radion",
+        "start_ms": 129664,
+        "end_ms": 131196
+      },
+      "target_playbacks": [
+        {
+          "text": "look at the radio",
+          "start_ms": 133196,
+          "end_ms": 134460
+        },
+        {
+          "text": "look at the radio",
+          "start_ms": 136960,
+          "end_ms": 138224
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "kind": "vocabulary",
+      "start_ms": 140724,
+      "end_ms": 149800,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "gren",
+        "start_ms": 140724,
+        "end_ms": 141410
+      },
+      "target_playbacks": [
+        {
+          "text": "branch",
+          "start_ms": 143410,
+          "end_ms": 144105
+        },
+        {
+          "text": "branch",
+          "start_ms": 146605,
+          "end_ms": 147300
+        }
+      ]
+    },
+    {
+      "id": 179,
+      "kind": "vocabulary",
+      "start_ms": 149800,
+      "end_ms": 160695,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "en gyllene fågel",
+        "start_ms": 149800,
+        "end_ms": 151337
+      },
+      "target_playbacks": [
+        {
+          "text": "a golden bird",
+          "start_ms": 153337,
+          "end_ms": 154516
+        },
+        {
+          "text": "a golden bird",
+          "start_ms": 157016,
+          "end_ms": 158195
+        }
+      ]
+    },
+    {
+      "id": 232,
+      "kind": "vocabulary",
+      "start_ms": 160695,
+      "end_ms": 171080,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "på ena vingen",
+        "start_ms": 160695,
+        "end_ms": 162098
+      },
+      "target_playbacks": [
+        {
+          "text": "on one wing",
+          "start_ms": 164098,
+          "end_ms": 165089
+        },
+        {
+          "text": "on one wing",
+          "start_ms": 167589,
+          "end_ms": 168580
+        }
+      ]
+    },
+    {
+      "id": 241,
+      "kind": "vocabulary",
+      "start_ms": 171080,
+      "end_ms": 182457,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "jag väntade på er",
+        "start_ms": 171080,
+        "end_ms": 172613
+      },
+      "target_playbacks": [
+        {
+          "text": "I was waiting for you",
+          "start_ms": 174613,
+          "end_ms": 176035
+        },
+        {
+          "text": "I was waiting for you",
+          "start_ms": 178535,
+          "end_ms": 179957
+        }
+      ]
+    },
+    {
+      "id": 141,
+      "kind": "vocabulary",
+      "start_ms": 182457,
+      "end_ms": 191545,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "fråga",
+        "start_ms": 182457,
+        "end_ms": 183289
+      },
+      "target_playbacks": [
+        {
+          "text": "ask",
+          "start_ms": 185289,
+          "end_ms": 185917
+        },
+        {
+          "text": "ask",
+          "start_ms": 188417,
+          "end_ms": 189045
+        }
+      ]
+    },
+    {
+      "id": 235,
+      "kind": "vocabulary",
+      "start_ms": 191545,
+      "end_ms": 202312,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "en tom plats",
+        "start_ms": 191545,
+        "end_ms": 192923
+      },
+      "target_playbacks": [
+        {
+          "text": "an empty spot",
+          "start_ms": 194923,
+          "end_ms": 196118
+        },
+        {
+          "text": "an empty spot",
+          "start_ms": 198618,
+          "end_ms": 199812
+        }
+      ]
+    },
+    {
+      "id": 177,
+      "kind": "vocabulary",
+      "start_ms": 202312,
+      "end_ms": 213643,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "gå in i trädgården",
+        "start_ms": 202312,
+        "end_ms": 204107
+      },
+      "target_playbacks": [
+        {
+          "text": "go into the garden",
+          "start_ms": 206107,
+          "end_ms": 207375
+        },
+        {
+          "text": "go into the garden",
+          "start_ms": 209875,
+          "end_ms": 211143
+        }
+      ]
+    },
+    {
+      "id": 180,
+      "kind": "vocabulary",
+      "start_ms": 213643,
+      "end_ms": 223386,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "inte sjunga",
+        "start_ms": 213643,
+        "end_ms": 214724
+      },
+      "target_playbacks": [
+        {
+          "text": "not sing",
+          "start_ms": 216724,
+          "end_ms": 217555
+        },
+        {
+          "text": "not sing",
+          "start_ms": 220055,
+          "end_ms": 220886
+        }
+      ]
+    },
+    {
+      "id": 240,
+      "kind": "vocabulary",
+      "start_ms": 223386,
+      "end_ms": 234895,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "falla ut ur vingen",
+        "start_ms": 223386,
+        "end_ms": 225211
+      },
+      "target_playbacks": [
+        {
+          "text": "fall out of the wing",
+          "start_ms": 227211,
+          "end_ms": 228553
+        },
+        {
+          "text": "fall out of the wing",
+          "start_ms": 231053,
+          "end_ms": 232395
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "kind": "vocabulary",
+      "start_ms": 234895,
+      "end_ms": 245892,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "ticka som en klocka",
+        "start_ms": 234895,
+        "end_ms": 236562
+      },
+      "target_playbacks": [
+        {
+          "text": "tick like a clock",
+          "start_ms": 238562,
+          "end_ms": 239727
+        },
+        {
+          "text": "tick like a clock",
+          "start_ms": 242227,
+          "end_ms": 243392
+        }
+      ]
+    },
+    {
+      "id": 237,
+      "kind": "vocabulary",
+      "start_ms": 245892,
+      "end_ms": 257648,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "se ut precis som",
+        "start_ms": 245892,
+        "end_ms": 247766
+      },
+      "target_playbacks": [
+        {
+          "text": "look exactly like",
+          "start_ms": 249766,
+          "end_ms": 251207
+        },
+        {
+          "text": "look exactly like",
+          "start_ms": 253707,
+          "end_ms": 255148
+        }
+      ]
+    },
+    {
+      "id": 181,
+      "kind": "vocabulary",
+      "start_ms": 257648,
+      "end_ms": 266500,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "bara",
+        "start_ms": 257648,
+        "end_ms": 258330
+      },
+      "target_playbacks": [
+        {
+          "text": "only",
+          "start_ms": 260330,
+          "end_ms": 260915
+        },
+        {
+          "text": "only",
+          "start_ms": 263415,
+          "end_ms": 264000
+        }
+      ]
+    },
+    {
+      "id": 238,
+      "kind": "vocabulary",
+      "start_ms": 266500,
+      "end_ms": 278982,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "var har du fått knappen ifrån?",
+        "start_ms": 266500,
+        "end_ms": 268706
+      },
+      "target_playbacks": [
+        {
+          "text": "where did you get this button?",
+          "start_ms": 270706,
+          "end_ms": 272344
+        },
+        {
+          "text": "where did you get this button?",
+          "start_ms": 274844,
+          "end_ms": 276482
+        }
+      ]
+    },
+    {
+      "id": 178,
+      "kind": "vocabulary",
+      "start_ms": 278982,
+      "end_ms": 290275,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "sitta på en gren",
+        "start_ms": 278982,
+        "end_ms": 280717
+      },
+      "target_playbacks": [
+        {
+          "text": "sit on a branch",
+          "start_ms": 282717,
+          "end_ms": 283996
+        },
+        {
+          "text": "sit on a branch",
+          "start_ms": 286496,
+          "end_ms": 287775
+        }
+      ]
+    }
+  ],
+  "book_introduction": null,
+  "chapter_introduction": {
+    "text": "Chapter seven. The Golden Bird.",
+    "start_ms": 1000,
+    "end_ms": 3496
+  },
+  "transitions": [
+    {
+      "kind": "chime",
+      "from": "story",
+      "to": "practice",
+      "start_ms": 52872,
+      "end_ms": 53492
+    },
+    {
+      "kind": "chime",
+      "from": "practice",
+      "to": "story",
+      "start_ms": 290275,
+      "end_ms": 290895
+    }
+  ],
+  "chapter_readings": [
+    {
+      "text": "The children open the green door and go into an underground garden. A golden bird sits on a branch. It does not sing. It only ticks like a clock: Tick-tock, tick-tock. On one wing it has a shiny blue stone. On the other wing there is an empty spot. Maya looks at the radio. The radio’s blue button looks exactly like the bird’s stone! “Radiophone, where did you get this button?” asks Maya. “It is the bird’s stone,” says Radiophone. “Long ago, it fell out of the bird’s wing. Someone made it into my button. I was waiting for you, so I could give it back!”",
+      "start_ms": 5996,
+      "end_ms": 50372
+    },
+    {
+      "text": "The children open the green door and go into an underground garden. A golden bird sits on a branch. It does not sing. It only ticks like a clock: Tick-tock, tick-tock. On one wing it has a shiny blue stone. On the other wing there is an empty spot. Maya looks at the radio. The radio’s blue button looks exactly like the bird’s stone! “Radiophone, where did you get this button?” asks Maya. “It is the bird’s stone,” says Radiophone. “Long ago, it fell out of the bird’s wing. Someone made it into my button. I was waiting for you, so I could give it back!”",
+      "start_ms": 293395,
+      "end_ms": 337771
+    }
+  ],
+  "chapter_reading": {
+    "text": "The children open the green door and go into an underground garden. A golden bird sits on a branch. It does not sing. It only ticks like a clock: Tick-tock, tick-tock. On one wing it has a shiny blue stone. On the other wing there is an empty spot. Maya looks at the radio. The radio’s blue button looks exactly like the bird’s stone! “Radiophone, where did you get this button?” asks Maya. “It is the bird’s stone,” says Radiophone. “Long ago, it fell out of the bird’s wing. Someone made it into my button. I was waiting for you, so I could give it back!”",
+    "start_ms": 293395,
+    "end_ms": 337771
+  },
+  "narration": {
+    "engine": "azure",
+    "voice": "en-US-Harper:MAI-Voice-2.1",
+    "style": "audiobook",
+    "rate": "-12%",
+    "locale": "en-US",
+    "capabilities": {
+      "voice": "en-US-Harper:MAI-Voice-2.1",
+      "locale": "en-US",
+      "advertised_styles": [
+        "agent",
+        "angry",
+        "audiobook",
+        "confused",
+        "customer_call_center",
+        "determined",
+        "educational",
+        "embarrassed",
+        "excited",
+        "happy",
+        "hopeful",
+        "joyful",
+        "narrator",
+        "regretful",
+        "relieved",
+        "sad",
+        "shouting",
+        "softvoice",
+        "whispering"
+      ]
+    },
+    "ssml": "<speak xmlns:mstts=\"http://www.w3.org/2001/mstts\" version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"en-US\"><voice name=\"en-US-Harper:MAI-Voice-2.1\"><mstts:express-as style=\"audiobook\"><prosody rate=\"-12%\"><p>The children open the green door and go into an underground garden. A golden bird sits on a branch. It does not sing. It only ticks like a clock: Tick-tock, tick-tock. On one wing it has a shiny blue stone. On the other wing there is an empty spot. Maya looks at the radio. The radio’s blue button looks exactly like the bird’s stone! “Radiophone, where did you get this button?” asks Maya. “It is the bird’s stone,” says Radiophone. “Long ago, it fell out of the bird’s wing. Someone made it into my button. I was waiting for you, so I could give it back!”</p></prosody></mstts:express-as></voice></speak>"
+  },
+  "audio_file": "07_chapter_07_sv_en_2026-10-30_13-09-53.mp3"
+}

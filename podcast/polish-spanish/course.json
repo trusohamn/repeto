@@ -1,0 +1,403 @@
+{
+  "title": "Repeto – Ucz się hiszpańskiego",
+  "description": "Ucz się hiszpańskiego, słuchając i mówiąc – z polskim jako wsparciem. Repeto to kurs audio dla początkujących w każdym wieku: dzieci, rodziców, dziadków i wszystkich, którzy chcą zacząć naukę hiszpańskiego. Nie potrzebujesz wcześniejszej wiedzy ani podręcznika.\n\nJak to działa: słyszysz słowo lub zdanie po polsku, a potem masz chwilę, by powiedzieć je po hiszpańsku. Następnie usłyszysz odpowiedź dwa razy i będziesz mieć czas, by powtórzyć wymowę.\n\nW kursie znajdziesz:\n• Sezon 1 – Ćwiczenia: 30 krótkich tematów, od powitań i liczb po jedzenie, emocje i codzienne sytuacje.\n• Sezon 2 – Opowieść „Magiczne Radio” (La radio mágica): jeden rozdział w każdym odcinku. Najpierw słuchasz rozdziału po hiszpańsku, ćwiczysz słownictwo, a potem słuchasz go ponownie.\n• Kolejne opowieści są w przygotowaniu – nowe odcinki będą dodawane regularnie. Obserwuj podcast, żeby ich nie przegapić.\n\nJak korzystać z kursu:\n• Zacznij od sezonu 1, odcinka 1 i słuchaj po kolei.\n• Odpowiadaj na głos w przerwie – spróbuj samodzielnie przypomnieć sobie słowa.\n• Odtwórz odcinek ponownie, aż zdążysz odpowiedzieć przed głosem lektora.\n• Słuchanie w tle może pomóc oswoić się z brzmieniem i melodią języka. Ćwicz też aktywnie, powtarzając i odpowiadając w przerwach.\n\nPodoba Ci się ten format? Repeto jest dostępne także w innych językach – ten sam układ pozwoli Ci od razu poczuć się swobodnie. Wyszukaj „Repeto” w swojej aplikacji do podcastów.\n\nNapisz do nas! Sugestie dotyczące nowych języków, poprawki i pomysły na opowieści są mile widziane: repeto.lingo@gmail.com\n\nGłosy zostały wygenerowane przez AI (Microsoft Azure).",
+  "language": "pl",
+  "author": "Repeto",
+  "email": "repeto.lingo@gmail.com",
+  "source_language": "pl",
+  "target_language": "es",
+  "episodes": [
+    {
+      "id": "repeto:polish-spanish:topic-01",
+      "title": "Powitania — Saludos",
+      "file": "practice/01_greetings_pl_es_double_2026-10-30_13-09-16.mp3",
+      "duration_ms": 380609,
+      "published": "2026-10-30T11:56:09+00:00",
+      "description": "Temat 1 z 30: Powitania (Saludos) – 36 zwrotów.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Cześć! → ¡Hola!\n• Dzień dobry! → ¡Buenos días!\n• Dzień dobry! → ¡Buenas tardes!\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
+      "season": 1,
+      "episode": 1
+    },
+    {
+      "id": "repeto:polish-spanish:topic-02",
+      "title": "Liczby — Números",
+      "file": "practice/02_numbers_pl_es_double_2026-10-30_12-35-32.mp3",
+      "duration_ms": 354427,
+      "published": "2026-10-30T11:56:09+00:00",
+      "description": "Temat 2 z 30: Liczby (Números) – 35 zwrotów.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Jeden → Uno\n• Dwa → Dos\n• Trzy → Tres\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
+      "season": 1,
+      "episode": 2
+    },
+    {
+      "id": "repeto:polish-spanish:topic-03",
+      "title": "Kolory — Colores",
+      "file": "practice/03_colors_pl_es_double_2026-10-30_12-35-32.mp3",
+      "duration_ms": 318102,
+      "published": "2026-10-30T11:56:09+00:00",
+      "description": "Temat 3 z 30: Kolory (Colores) – 29 zwrotów.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Czerwony → Rojo\n• Niebieski → Azul\n• Żółty → Amarillo\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
+      "season": 1,
+      "episode": 3
+    },
+    {
+      "id": "repeto:polish-spanish:topic-04",
+      "title": "Zwierzęta — Animales",
+      "file": "practice/04_animals_pl_es_double_2026-10-30_12-35-32.mp3",
+      "duration_ms": 431659,
+      "published": "2026-10-30T11:56:09+00:00",
+      "description": "Temat 4 z 30: Zwierzęta (Animales) – 42 zwroty.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Pies → Perro\n• Kot → Gato\n• Ptak → Pájaro\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
+      "season": 1,
+      "episode": 4
+    },
+    {
+      "id": "repeto:polish-spanish:topic-05",
+      "title": "Rodzina — Familia",
+      "file": "practice/05_family_pl_es_double_2026-10-30_12-35-32.mp3",
+      "duration_ms": 294251,
+      "published": "2026-10-30T11:56:09+00:00",
+      "description": "Temat 5 z 30: Rodzina (Familia) – 26 zwrotów.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Mama → Mamá\n• Tata → Papá\n• Siostra → Hermana\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
+      "season": 1,
+      "episode": 5
+    },
+    {
+      "id": "repeto:polish-spanish:topic-06",
+      "title": "Jedzenie — Comida",
+      "file": "practice/06_food_pl_es_double_2026-10-30_12-35-32.mp3",
+      "duration_ms": 501884,
+      "published": "2026-10-30T11:56:09+00:00",
+      "description": "Temat 6 z 30: Jedzenie (Comida) – 49 zwrotów.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Chleb → Pan\n• Mleko → Leche\n• Jajko → Huevo\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
+      "season": 1,
+      "episode": 6
+    },
+    {
+      "id": "repeto:polish-spanish:topic-07",
+      "title": "Ciało — Cuerpo",
+      "file": "practice/07_body_pl_es_double_2026-10-30_12-35-32.mp3",
+      "duration_ms": 388457,
+      "published": "2026-10-30T11:56:09+00:00",
+      "description": "Temat 7 z 30: Ciało (Cuerpo) – 37 zwrotów.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Głowa → Cabeza\n• Włosy → Pelo\n• Oko → Ojo\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
+      "season": 1,
+      "episode": 7
+    },
+    {
+      "id": "repeto:polish-spanish:topic-08",
+      "title": "Ubrania — Ropa",
+      "file": "practice/08_clothing_pl_es_double_2026-10-30_12-35-32.mp3",
+      "duration_ms": 326721,
+      "published": "2026-10-30T11:56:09+00:00",
+      "description": "Temat 8 z 30: Ubrania (Ropa) – 29 zwrotów.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Sweter → Jersey\n• Koszulka → Camiseta\n• Koszula → Camisa\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
+      "season": 1,
+      "episode": 8
+    },
+    {
+      "id": "repeto:polish-spanish:topic-09",
+      "title": "W domu — En casa",
+      "file": "practice/09_home_pl_es_double_2026-10-30_12-35-32.mp3",
+      "duration_ms": 398465,
+      "published": "2026-10-30T11:56:09+00:00",
+      "description": "Temat 9 z 30: W domu (En casa) – 38 zwrotów.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Dom → Casa\n• Mieszkanie → Piso\n• Pokój → Habitación\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
+      "season": 1,
+      "episode": 9
+    },
+    {
+      "id": "repeto:polish-spanish:topic-10",
+      "title": "Szkoła — Colegio",
+      "file": "practice/10_school_pl_es_double_2026-10-30_12-35-32.mp3",
+      "duration_ms": 445086,
+      "published": "2026-10-30T11:56:09+00:00",
+      "description": "Temat 10 z 30: Szkoła (Colegio) – 41 zwrotów.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Szkoła → Colegio\n• Klasa → Aula\n• Nauczyciel → Profesor\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
+      "season": 1,
+      "episode": 10
+    },
+    {
+      "id": "repeto:polish-spanish:topic-11",
+      "title": "Pogoda — El tiempo",
+      "file": "practice/11_weather_pl_es_double_2026-10-30_12-35-32.mp3",
+      "duration_ms": 262177,
+      "published": "2026-10-30T11:56:09+00:00",
+      "description": "Temat 11 z 30: Pogoda (El tiempo) – 25 zwrotów.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Pogoda → Tiempo\n• Słońce → Sol\n• Deszcz → Lluvia\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
+      "season": 1,
+      "episode": 11
+    },
+    {
+      "id": "repeto:polish-spanish:topic-12",
+      "title": "Pory roku — Estaciones del año",
+      "file": "practice/12_seasons_pl_es_double_2026-10-30_12-35-32.mp3",
+      "duration_ms": 213158,
+      "published": "2026-10-30T11:56:09+00:00",
+      "description": "Temat 12 z 30: Pory roku (Estaciones del año) – 18 zwrotów.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Wiosna → Primavera\n• Lato → Verano\n• Jesień → Otoño\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
+      "season": 1,
+      "episode": 12
+    },
+    {
+      "id": "repeto:polish-spanish:topic-13",
+      "title": "Dni i czas — Días y horas",
+      "file": "practice/13_days_and_time_pl_es_double_2026-10-30_12-35-32.mp3",
+      "duration_ms": 314033,
+      "published": "2026-10-30T11:56:09+00:00",
+      "description": "Temat 13 z 30: Dni i czas (Días y horas) – 29 zwrotów.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Poniedziałek → Lunes\n• Wtorek → Martes\n• Środa → Miércoles\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
+      "season": 1,
+      "episode": 13
+    },
+    {
+      "id": "repeto:polish-spanish:topic-14",
+      "title": "Zabawki i zabawa — Juguetes y juegos",
+      "file": "practice/14_toys_and_play_pl_es_double_2026-10-30_12-35-32.mp3",
+      "duration_ms": 374599,
+      "published": "2026-10-30T11:56:09+00:00",
+      "description": "Temat 14 z 30: Zabawki i zabawa (Juguetes y juegos) – 34 zwroty.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Zabawka → Juguete\n• Piłka → Pelota\n• Lalka → Muñeca\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
+      "season": 1,
+      "episode": 14
+    },
+    {
+      "id": "repeto:polish-spanish:topic-15",
+      "title": "Sport i zajęcia — Deportes y actividades",
+      "file": "practice/15_sports_and_activities_pl_es_double_2026-10-30_12-35-32.mp3",
+      "duration_ms": 281999,
+      "published": "2026-10-30T11:56:09+00:00",
+      "description": "Temat 15 z 30: Sport i zajęcia (Deportes y actividades) – 25 zwrotów.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Piłka nożna → Fútbol\n• Pływanie → Natación\n• Jazda na rowerze → Ciclismo\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
+      "season": 1,
+      "episode": 15
+    },
+    {
+      "id": "repeto:polish-spanish:topic-16",
+      "title": "Chcę i potrzebuję — Quiero y necesito",
+      "file": "practice/16_i_want_i_need_pl_es_double_2026-10-30_12-35-32.mp3",
+      "duration_ms": 321890,
+      "published": "2026-10-30T11:56:09+00:00",
+      "description": "Temat 16 z 30: Chcę i potrzebuję (Quiero y necesito) – 28 zwrotów.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Chcę wyjść na dwór. → Quiero salir a la calle.\n• Chcę piłkę. → Quiero una pelota.\n• Chcę jeść. → Quiero comer.\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
+      "season": 1,
+      "episode": 16
+    },
+    {
+      "id": "repeto:polish-spanish:topic-17",
+      "title": "Gdzie jest? — ¿Dónde está?",
+      "file": "practice/17_where_is_pl_es_double_2026-10-30_12-35-32.mp3",
+      "duration_ms": 328952,
+      "published": "2026-10-30T11:56:09+00:00",
+      "description": "Temat 17 z 30: Gdzie jest? (¿Dónde está?) – 28 zwrotów.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Gdzie jest miś? → ¿Dónde está el osito de peluche?\n• Gdzie jest mój telefon? → ¿Dónde está mi móvil?\n• Gdzie jest moja torba? → ¿Dónde está mi bolsa?\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
+      "season": 1,
+      "episode": 17
+    },
+    {
+      "id": "repeto:polish-spanish:topic-18",
+      "title": "Uczucia i emocje — Sentimientos y emociones",
+      "file": "practice/18_feelings_and_emotions_pl_es_double_2026-10-30_12-35-32.mp3",
+      "duration_ms": 316950,
+      "published": "2026-10-30T11:56:09+00:00",
+      "description": "Temat 18 z 30: Uczucia i emocje (Sentimientos y emociones) – 28 zwrotów.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Wesoły → Contento\n• Smutny → Triste\n• Zły → Enfadado\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
+      "season": 1,
+      "episode": 18
+    },
+    {
+      "id": "repeto:polish-spanish:topic-19",
+      "title": "Środki transportu — Medios de transporte",
+      "file": "practice/19_transport_pl_es_double_2026-10-30_12-35-32.mp3",
+      "duration_ms": 276854,
+      "published": "2026-10-30T11:56:09+00:00",
+      "description": "Temat 19 z 30: Środki transportu (Medios de transporte) – 25 zwrotów.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Samochód → Coche\n• Autobus → Autobús\n• Pociąg → Tren\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
+      "season": 1,
+      "episode": 19
+    },
+    {
+      "id": "repeto:polish-spanish:topic-20",
+      "title": "Przyroda — Naturaleza",
+      "file": "practice/20_nature_pl_es_double_2026-10-30_12-35-32.mp3",
+      "duration_ms": 280426,
+      "published": "2026-10-30T11:56:09+00:00",
+      "description": "Temat 20 z 30: Przyroda (Naturaleza) – 27 zwrotów.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Las → Bosque\n• Morze → Mar\n• Jezioro → Lago\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
+      "season": 1,
+      "episode": 20
+    },
+    {
+      "id": "repeto:polish-spanish:topic-21",
+      "title": "Święta i uroczystości — Fiestas y celebraciones",
+      "file": "practice/21_holidays_and_celebrations_pl_es_double_2026-10-30_12-35-32.mp3",
+      "duration_ms": 266980,
+      "published": "2026-10-30T11:56:09+00:00",
+      "description": "Temat 21 z 30: Święta i uroczystości (Fiestas y celebraciones) – 23 zwroty.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Urodziny → Cumpleaños\n• Wszystkiego najlepszego z okazji urodzin! → ¡Feliz cumpleaños!\n• Boże Narodzenie → Navidad\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
+      "season": 1,
+      "episode": 21
+    },
+    {
+      "id": "repeto:polish-spanish:topic-22",
+      "title": "Codzienne czynności — Rutina diaria",
+      "file": "practice/22_daily_routine_pl_es_double_2026-10-30_12-35-32.mp3",
+      "duration_ms": 326050,
+      "published": "2026-10-30T11:56:09+00:00",
+      "description": "Temat 22 z 30: Codzienne czynności (Rutina diaria) – 28 zwrotów.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Budzić się → Despertarse\n• Wstawać → Levantarse\n• Myć zęby → Lavarse los dientes\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
+      "season": 1,
+      "episode": 22
+    },
+    {
+      "id": "repeto:polish-spanish:topic-23",
+      "title": "Pytania i prośby — Preguntas y peticiones",
+      "file": "practice/23_asking_and_requests_pl_es_double_2026-10-30_12-35-32.mp3",
+      "duration_ms": 277569,
+      "published": "2026-10-30T11:56:09+00:00",
+      "description": "Temat 23 z 30: Pytania i prośby (Preguntas y peticiones) – 26 zwrotów.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Czy możesz mi pomóc? → ¿Puedes ayudarme?\n• Pomocy! → ¡Socorro!\n• Proszę! → ¡Por favor!\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
+      "season": 1,
+      "episode": 23
+    },
+    {
+      "id": "repeto:polish-spanish:topic-24",
+      "title": "Przeciwieństwa — Contrarios",
+      "file": "practice/24_opposites_pl_es_double_2026-10-30_12-35-32.mp3",
+      "duration_ms": 294064,
+      "published": "2026-10-30T11:56:09+00:00",
+      "description": "Temat 24 z 30: Przeciwieństwa (Contrarios) – 28 zwrotów.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Duży → Grande\n• Mały → Pequeño\n• Długi → Largo\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
+      "season": 1,
+      "episode": 24
+    },
+    {
+      "id": "repeto:polish-spanish:topic-25",
+      "title": "Czynności i czasowniki — Acciones y verbos",
+      "file": "practice/25_actions_and_verbs_pl_es_double_2026-10-30_12-35-32.mp3",
+      "duration_ms": 429939,
+      "published": "2026-10-30T11:56:09+00:00",
+      "description": "Temat 25 z 30: Czynności i czasowniki (Acciones y verbos) – 41 zwrotów.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Iść → Andar\n• Biegać → Correr\n• Skakać → Saltar\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
+      "season": 1,
+      "episode": 25
+    },
+    {
+      "id": "repeto:polish-spanish:topic-26",
+      "title": "Miejsca w mieście — Lugares de la ciudad",
+      "file": "practice/26_places_in_town_pl_es_double_2026-10-30_12-35-32.mp3",
+      "duration_ms": 257049,
+      "published": "2026-10-30T11:56:09+00:00",
+      "description": "Temat 26 z 30: Miejsca w mieście (Lugares de la ciudad) – 23 zwroty.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Park → Parque\n• Plac zabaw → Parque infantil\n• Sklep → Tienda\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
+      "season": 1,
+      "episode": 26
+    },
+    {
+      "id": "repeto:polish-spanish:topic-27",
+      "title": "Technologia — Tecnología",
+      "file": "practice/27_technology_pl_es_double_2026-10-30_12-35-32.mp3",
+      "duration_ms": 246526,
+      "published": "2026-10-30T11:56:09+00:00",
+      "description": "Temat 27 z 30: Technologia (Tecnología) – 22 zwroty.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Telefon → Teléfono\n• Telefon komórkowy → Teléfono móvil\n• Komputer → Ordenador\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
+      "season": 1,
+      "episode": 27
+    },
+    {
+      "id": "repeto:polish-spanish:topic-28",
+      "title": "Muzyka i sztuka — Música y arte",
+      "file": "practice/28_music_and_art_pl_es_double_2026-10-30_12-35-32.mp3",
+      "duration_ms": 250556,
+      "published": "2026-10-30T11:56:09+00:00",
+      "description": "Temat 28 z 30: Muzyka i sztuka (Música y arte) – 23 zwroty.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Muzyka → Música\n• Piosenka → Canción\n• Taniec → Baile\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
+      "season": 1,
+      "episode": 28
+    },
+    {
+      "id": "repeto:polish-spanish:topic-29",
+      "title": "Zwroty grzecznościowe — Expresiones de cortesía",
+      "file": "practice/29_polite_phrases_pl_es_double_2026-10-30_12-35-32.mp3",
+      "duration_ms": 177689,
+      "published": "2026-10-30T11:56:09+00:00",
+      "description": "Temat 29 z 30: Zwroty grzecznościowe (Expresiones de cortesía) – 17 zwrotów.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Proszę. → Por favor.\n• Dziękuję! → ¡Gracias!\n• Bardzo dziękuję! → ¡Muchas gracias!\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
+      "season": 1,
+      "episode": 29
+    },
+    {
+      "id": "repeto:polish-spanish:topic-30",
+      "title": "Powtórka — Repaso",
+      "file": "practice/30_review_and_recap_pl_es_double_2026-10-30_13-09-26.mp3",
+      "duration_ms": 130822,
+      "published": "2026-10-30T11:56:09+00:00",
+      "description": "Temat 30 z 30: Powtórka (Repaso) – 11 zwrotów.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Dobra robota! → ¡Bien hecho!\n• Uczysz się nowego języka! → ¡Estás aprendiendo un idioma nuevo!\n• Ćwiczmy! → ¡Vamos a practicar!\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
+      "season": 1,
+      "episode": 30
+    },
+    {
+      "id": "magical_radio:pl:es:chapter-01",
+      "title": "Magiczne Radio: Stary stół — La mesa vieja",
+      "file": "stories/magical_radio/01_chapter_01_pl_es_2026-10-30_12-52-42.mp3",
+      "image": "images/stories/magical_radio/cover.jpeg",
+      "duration_ms": 312955,
+      "published": "2026-10-30T11:56:17+00:00",
+      "description": "Rozdział 1 z 8 opowieści „Magiczne Radio” (La radio mágica). Rodzeństwo znajduje stare drewniane radio na pchlim targu. Radio nagle szumi, a złoty napis zdradza, że czekało właśnie na nich.\n\nJak wygląda odcinek:\n1. Posłuchaj całego rozdziału po hiszpańsku – nie musisz rozumieć wszystkiego.\n2. Poćwicz słowa i wyrażenia z rozdziału: podpowiedź po polsku, przerwa, odpowiedź po hiszpańsku.\n3. Posłuchaj rozdziału ponownie i sprawdź, ile udało Ci się zrozumieć.\n\nMiędzy częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynając od rozdziału 1.",
+      "season": 2,
+      "episode": 1
+    },
+    {
+      "id": "magical_radio:pl:es:chapter-02",
+      "title": "Magiczne Radio: Głos z radia — Una voz en la radio",
+      "file": "stories/magical_radio/02_chapter_02_pl_es_2026-10-30_12-52-42.mp3",
+      "image": "images/stories/magical_radio/cover.jpeg",
+      "duration_ms": 275489,
+      "published": "2026-10-30T11:56:17+00:00",
+      "description": "Rozdział 2 z 8 opowieści „Magiczne Radio” (La radio mágica). W domu dzieci naciskają niebieski przycisk. Z radia wylatuje chmurka pachnąca cynamonem, a wesoły głos opowiada o myszy z ważnym kluczem.\n\nJak wygląda odcinek:\n1. Posłuchaj całego rozdziału po hiszpańsku – nie musisz rozumieć wszystkiego.\n2. Poćwicz słowa i wyrażenia z rozdziału: podpowiedź po polsku, przerwa, odpowiedź po hiszpańsku.\n3. Posłuchaj rozdziału ponownie i sprawdź, ile udało Ci się zrozumieć.\n\nMiędzy częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynając od rozdziału 1.",
+      "season": 2,
+      "episode": 2
+    },
+    {
+      "id": "magical_radio:pl:es:chapter-03",
+      "title": "Magiczne Radio: Mysz pod drzewem — Un ratón debajo del árbol",
+      "file": "stories/magical_radio/03_chapter_03_pl_es_2026-10-30_12-52-42.mp3",
+      "image": "images/stories/magical_radio/cover.jpeg",
+      "duration_ms": 359810,
+      "published": "2026-10-30T11:56:17+00:00",
+      "description": "Rozdział 3 z 8 opowieści „Magiczne Radio” (La radio mágica). Z latarką, serem i radiem rodzeństwo rusza pod stare drzewo. Mała mysz zgadza się na wymianę, a między korzeniami kryją się tajemnicze drzwi.\n\nJak wygląda odcinek:\n1. Posłuchaj całego rozdziału po hiszpańsku – nie musisz rozumieć wszystkiego.\n2. Poćwicz słowa i wyrażenia z rozdziału: podpowiedź po polsku, przerwa, odpowiedź po hiszpańsku.\n3. Posłuchaj rozdziału ponownie i sprawdź, ile udało Ci się zrozumieć.\n\nMiędzy częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynając od rozdziału 1.",
+      "season": 2,
+      "episode": 3
+    },
+    {
+      "id": "magical_radio:pl:es:chapter-04",
+      "title": "Magiczne Radio: Schody w dół — Escaleras abajo",
+      "file": "stories/magical_radio/04_chapter_04_pl_es_2026-10-30_13-10-12.mp3",
+      "image": "images/stories/magical_radio/cover.jpeg",
+      "duration_ms": 289738,
+      "published": "2026-10-30T11:56:17+00:00",
+      "description": "Rozdział 4 z 8 opowieści „Magiczne Radio” (La radio mágica). Srebrny klucz otwiera drzwi. Kamienne schody prowadzą do biblioteki pełnej latających książek, a na ścianach rosną świecące kwiaty.\n\nJak wygląda odcinek:\n1. Posłuchaj całego rozdziału po hiszpańsku – nie musisz rozumieć wszystkiego.\n2. Poćwicz słowa i wyrażenia z rozdziału: podpowiedź po polsku, przerwa, odpowiedź po hiszpańsku.\n3. Posłuchaj rozdziału ponownie i sprawdź, ile udało Ci się zrozumieć.\n\nMiędzy częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynając od rozdziału 1.",
+      "season": 2,
+      "episode": 4
+    },
+    {
+      "id": "magical_radio:pl:es:chapter-05",
+      "title": "Magiczne Radio: Latająca książka — El libro volador",
+      "file": "stories/magical_radio/05_chapter_05_pl_es_2026-10-30_12-52-42.mp3",
+      "image": "images/stories/magical_radio/cover.jpeg",
+      "duration_ms": 270834,
+      "published": "2026-10-30T11:56:17+00:00",
+      "description": "Rozdział 5 z 8 opowieści „Magiczne Radio” (La radio mágica). Złota książka ląduje na ramieniu, a radio zdradza zaklęcie, które naprawia zepsute rzeczy.\n\nJak wygląda odcinek:\n1. Posłuchaj całego rozdziału po hiszpańsku – nie musisz rozumieć wszystkiego.\n2. Poćwicz słowa i wyrażenia z rozdziału: podpowiedź po polsku, przerwa, odpowiedź po hiszpańsku.\n3. Posłuchaj rozdziału ponownie i sprawdź, ile udało Ci się zrozumieć.\n\nMiędzy częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynając od rozdziału 1.",
+      "season": 2,
+      "episode": 5
+    },
+    {
+      "id": "magical_radio:pl:es:chapter-06",
+      "title": "Magiczne Radio: Pierwsze zaklęcie — El primer hechizo",
+      "file": "stories/magical_radio/06_chapter_06_pl_es_2026-10-30_12-52-42.mp3",
+      "image": "images/stories/magical_radio/cover.jpeg",
+      "duration_ms": 225947,
+      "published": "2026-10-30T11:56:17+00:00",
+      "description": "Rozdział 6 z 8 opowieści „Magiczne Radio” (La radio mágica). Czas wypróbować zaklęcie na zepsutym kompasie. Czy zadziała? I kto czeka za zielonymi drzwiami?\n\nJak wygląda odcinek:\n1. Posłuchaj całego rozdziału po hiszpańsku – nie musisz rozumieć wszystkiego.\n2. Poćwicz słowa i wyrażenia z rozdziału: podpowiedź po polsku, przerwa, odpowiedź po hiszpańsku.\n3. Posłuchaj rozdziału ponownie i sprawdź, ile udało Ci się zrozumieć.\n\nMiędzy częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynając od rozdziału 1.",
+      "season": 2,
+      "episode": 6
+    },
+    {
+      "id": "magical_radio:pl:es:chapter-07",
+      "title": "Magiczne Radio: Złoty ptak — El pájaro dorado",
+      "file": "stories/magical_radio/07_chapter_07_pl_es_2026-10-30_12-52-42.mp3",
+      "image": "images/stories/magical_radio/cover.jpeg",
+      "duration_ms": 353633,
+      "published": "2026-10-30T11:56:17+00:00",
+      "description": "Rozdział 7 z 8 opowieści „Magiczne Radio” (La radio mágica). Za drzwiami jest podziemny ogród. Złoty ptak zamiast śpiewać tyka jak zegar. W jego skrzydle brakuje kamyka, a radio skrywa tajemnicę.\n\nJak wygląda odcinek:\n1. Posłuchaj całego rozdziału po hiszpańsku – nie musisz rozumieć wszystkiego.\n2. Poćwicz słowa i wyrażenia z rozdziału: podpowiedź po polsku, przerwa, odpowiedź po hiszpańsku.\n3. Posłuchaj rozdziału ponownie i sprawdź, ile udało Ci się zrozumieć.\n\nMiędzy częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynając od rozdziału 1.",
+      "season": 2,
+      "episode": 7
+    },
+    {
+      "id": "magical_radio:pl:es:chapter-08",
+      "title": "Magiczne Radio: Wielki koncert — El gran concierto",
+      "file": "stories/magical_radio/08_chapter_08_pl_es_2026-10-30_12-52-42.mp3",
+      "image": "images/stories/magical_radio/cover.jpeg",
+      "duration_ms": 238017,
+      "published": "2026-10-30T11:56:17+00:00",
+      "description": "Rozdział 8 z 8 opowieści „Magiczne Radio” (La radio mágica). Finał! Czy rodzeństwu uda się naprawić złotego ptaka? Opowieść kończy się śpiewem, tańczącymi motylami i zapowiedzią nowej przygody.\n\nJak wygląda odcinek:\n1. Posłuchaj całego rozdziału po hiszpańsku – nie musisz rozumieć wszystkiego.\n2. Poćwicz słowa i wyrażenia z rozdziału: podpowiedź po polsku, przerwa, odpowiedź po hiszpańsku.\n3. Posłuchaj rozdziału ponownie i sprawdź, ile udało Ci się zrozumieć.\n\nMiędzy częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynając od rozdziału 1.",
+      "season": 2,
+      "episode": 8
+    }
+  ],
+  "seasons": {
+    "1": "Ćwiczenia",
+    "2": "Magiczne Radio"
+  }
+}

@@ -1,0 +1,434 @@
+{
+  "chapter_number": 8,
+  "title": {
+    "pl": "Wielki koncert",
+    "es": "El gran concierto",
+    "sv": "Den stora konserten",
+    "en": "The Grand Concert",
+    "ru": "Большой концерт"
+  },
+  "source_language": "pl",
+  "target_language": "es",
+  "practice_order": "deterministically_shuffled",
+  "sequence": [
+    "story",
+    "practice",
+    "story"
+  ],
+  "total_duration_ms": 238017,
+  "practice": [
+    {
+      "id": 244,
+      "kind": "vocabulary",
+      "start_ms": 44304,
+      "end_ms": 57179,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "wyjmować przycisk z radia",
+        "start_ms": 44304,
+        "end_ms": 46299
+      },
+      "target_playbacks": [
+        {
+          "text": "sacar el botón de la radio",
+          "start_ms": 48299,
+          "end_ms": 50239
+        },
+        {
+          "text": "sacar el botón de la radio",
+          "start_ms": 52739,
+          "end_ms": 54679
+        }
+      ]
+    },
+    {
+      "id": 189,
+      "kind": "vocabulary",
+      "start_ms": 57179,
+      "end_ms": 68432,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "wkładać w skrzydło",
+        "start_ms": 57179,
+        "end_ms": 58614
+      },
+      "target_playbacks": [
+        {
+          "text": "colocar en el ala",
+          "start_ms": 60614,
+          "end_ms": 62023
+        },
+        {
+          "text": "colocar en el ala",
+          "start_ms": 64523,
+          "end_ms": 65932
+        }
+      ]
+    },
+    {
+      "id": 101,
+      "kind": "vocabulary",
+      "start_ms": 68432,
+      "end_ms": 78547,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "dobra robota",
+        "start_ms": 68432,
+        "end_ms": 69627
+      },
+      "target_playbacks": [
+        {
+          "text": "bien hecho",
+          "start_ms": 71627,
+          "end_ms": 72587
+        },
+        {
+          "text": "bien hecho",
+          "start_ms": 75087,
+          "end_ms": 76047
+        }
+      ]
+    },
+    {
+      "id": 243,
+      "kind": "vocabulary",
+      "start_ms": 78547,
+      "end_ms": 88476,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "ostrożnie",
+        "start_ms": 78547,
+        "end_ms": 79480
+      },
+      "target_playbacks": [
+        {
+          "text": "con cuidado",
+          "start_ms": 81480,
+          "end_ms": 82478
+        },
+        {
+          "text": "con cuidado",
+          "start_ms": 84978,
+          "end_ms": 85976
+        }
+      ]
+    },
+    {
+      "id": 194,
+      "kind": "vocabulary",
+      "start_ms": 88476,
+      "end_ms": 98441,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "w powietrzu",
+        "start_ms": 88476,
+        "end_ms": 89403
+      },
+      "target_playbacks": [
+        {
+          "text": "en el aire",
+          "start_ms": 91403,
+          "end_ms": 92422
+        },
+        {
+          "text": "en el aire",
+          "start_ms": 94922,
+          "end_ms": 95941
+        }
+      ]
+    },
+    {
+      "id": 193,
+      "kind": "vocabulary",
+      "start_ms": 98441,
+      "end_ms": 108329,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "motyle",
+        "start_ms": 98441,
+        "end_ms": 99203
+      },
+      "target_playbacks": [
+        {
+          "text": "mariposas",
+          "start_ms": 101203,
+          "end_ms": 102266
+        },
+        {
+          "text": "mariposas",
+          "start_ms": 104766,
+          "end_ms": 105829
+        }
+      ]
+    },
+    {
+      "id": 191,
+      "kind": "vocabulary",
+      "start_ms": 108329,
+      "end_ms": 119445,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "zaczynać śpiewać",
+        "start_ms": 108329,
+        "end_ms": 109827
+      },
+      "target_playbacks": [
+        {
+          "text": "empezar a cantar",
+          "start_ms": 111827,
+          "end_ms": 113136
+        },
+        {
+          "text": "empezar a cantar",
+          "start_ms": 115636,
+          "end_ms": 116945
+        }
+      ]
+    },
+    {
+      "id": 190,
+      "kind": "vocabulary",
+      "start_ms": 119445,
+      "end_ms": 128579,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "wołać",
+        "start_ms": 119445,
+        "end_ms": 120179
+      },
+      "target_playbacks": [
+        {
+          "text": "gritar",
+          "start_ms": 122179,
+          "end_ms": 122879
+        },
+        {
+          "text": "gritar",
+          "start_ms": 125379,
+          "end_ms": 126079
+        }
+      ]
+    },
+    {
+      "id": 195,
+      "kind": "vocabulary",
+      "start_ms": 128579,
+      "end_ms": 137805,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "tańczyć",
+        "start_ms": 128579,
+        "end_ms": 129379
+      },
+      "target_playbacks": [
+        {
+          "text": "bailar",
+          "start_ms": 131379,
+          "end_ms": 132092
+        },
+        {
+          "text": "bailar",
+          "start_ms": 134592,
+          "end_ms": 135305
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "kind": "vocabulary",
+      "start_ms": 137805,
+      "end_ms": 150396,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "prawdziwi odkrywcy",
+        "start_ms": 137805,
+        "end_ms": 139304
+      },
+      "target_playbacks": [
+        {
+          "text": "auténticos exploradores",
+          "start_ms": 141304,
+          "end_ms": 143350
+        },
+        {
+          "text": "auténticos exploradores",
+          "start_ms": 145850,
+          "end_ms": 147896
+        }
+      ]
+    },
+    {
+      "id": 246,
+      "kind": "vocabulary",
+      "start_ms": 150396,
+      "end_ms": 161860,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "nowa przygoda",
+        "start_ms": 150396,
+        "end_ms": 151580
+      },
+      "target_playbacks": [
+        {
+          "text": "una nueva aventura",
+          "start_ms": 153580,
+          "end_ms": 155220
+        },
+        {
+          "text": "una nueva aventura",
+          "start_ms": 157720,
+          "end_ms": 159360
+        }
+      ]
+    },
+    {
+      "id": 192,
+      "kind": "vocabulary",
+      "start_ms": 161860,
+      "end_ms": 171951,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "wesoło",
+        "start_ms": 161860,
+        "end_ms": 162613
+      },
+      "target_playbacks": [
+        {
+          "text": "alegremente",
+          "start_ms": 164613,
+          "end_ms": 165782
+        },
+        {
+          "text": "alegremente",
+          "start_ms": 168282,
+          "end_ms": 169451
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "kind": "vocabulary",
+      "start_ms": 171951,
+      "end_ms": 183364,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "machać skrzydłami",
+        "start_ms": 171951,
+        "end_ms": 173520
+      },
+      "target_playbacks": [
+        {
+          "text": "agitar las alas",
+          "start_ms": 175520,
+          "end_ms": 176942
+        },
+        {
+          "text": "agitar las alas",
+          "start_ms": 179442,
+          "end_ms": 180864
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "kind": "vocabulary",
+      "start_ms": 183364,
+      "end_ms": 194783,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "wesoło śpiewać",
+        "start_ms": 183364,
+        "end_ms": 184675
+      },
+      "target_playbacks": [
+        {
+          "text": "cantar alegremente",
+          "start_ms": 186675,
+          "end_ms": 188229
+        },
+        {
+          "text": "cantar alegremente",
+          "start_ms": 190729,
+          "end_ms": 192283
+        }
+      ]
+    },
+    {
+      "id": 245,
+      "kind": "vocabulary",
+      "start_ms": 194783,
+      "end_ms": 204153,
+      "prompt_language": "pl",
+      "prompt": {
+        "text": "jutro",
+        "start_ms": 194783,
+        "end_ms": 195404
+      },
+      "target_playbacks": [
+        {
+          "text": "mañana",
+          "start_ms": 197404,
+          "end_ms": 198279
+        },
+        {
+          "text": "mañana",
+          "start_ms": 200779,
+          "end_ms": 201653
+        }
+      ]
+    }
+  ],
+  "book_introduction": null,
+  "chapter_introduction": {
+    "text": "Capítulo ocho. El gran concierto.",
+    "start_ms": 1000,
+    "end_ms": 5440
+  },
+  "transitions": [
+    {
+      "kind": "chime",
+      "from": "story",
+      "to": "practice",
+      "start_ms": 41184,
+      "end_ms": 41804
+    },
+    {
+      "kind": "chime",
+      "from": "practice",
+      "to": "story",
+      "start_ms": 204153,
+      "end_ms": 204773
+    }
+  ],
+  "chapter_readings": [
+    {
+      "text": "Maya saca con cuidado el botón azul de la radio. Tom lo coloca en el ala del pájaro. Los niños gritan:\n—¡Reparo!\nEl pájaro dorado agita las alas y empieza a cantar alegremente. Las mariposas bailan en el aire.\n—¡Bien hecho! —dice Radiofón—. Sois unos auténticos exploradores. ¡Mañana nos espera una nueva aventura!",
+      "start_ms": 7940,
+      "end_ms": 38684
+    },
+    {
+      "text": "Maya saca con cuidado el botón azul de la radio. Tom lo coloca en el ala del pájaro. Los niños gritan:\n—¡Reparo!\nEl pájaro dorado agita las alas y empieza a cantar alegremente. Las mariposas bailan en el aire.\n—¡Bien hecho! —dice Radiofón—. Sois unos auténticos exploradores. ¡Mañana nos espera una nueva aventura!",
+      "start_ms": 207273,
+      "end_ms": 238017
+    }
+  ],
+  "chapter_reading": {
+    "text": "Maya saca con cuidado el botón azul de la radio. Tom lo coloca en el ala del pájaro. Los niños gritan:\n—¡Reparo!\nEl pájaro dorado agita las alas y empieza a cantar alegremente. Las mariposas bailan en el aire.\n—¡Bien hecho! —dice Radiofón—. Sois unos auténticos exploradores. ¡Mañana nos espera una nueva aventura!",
+    "start_ms": 207273,
+    "end_ms": 238017
+  },
+  "narration": {
+    "engine": "azure",
+    "voice": "es-ES-ElviraNeural",
+    "style": null,
+    "rate": "-12%",
+    "locale": "es-ES",
+    "capabilities": {
+      "voice": "es-ES-ElviraNeural",
+      "locale": "es-ES",
+      "advertised_styles": []
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"es-ES\"><voice name=\"es-ES-ElviraNeural\"><prosody rate=\"-12%\"><p>Maya saca con cuidado el botón azul de la radio. Tom lo coloca en el ala del pájaro. Los niños gritan:\n—¡Reparo!\nEl pájaro dorado agita las alas y empieza a cantar alegremente. Las mariposas bailan en el aire.\n—¡Bien hecho! —dice Radiofón—. Sois unos auténticos exploradores. ¡Mañana nos espera una nueva aventura!</p></prosody></voice></speak>"
+  },
+  "audio_file": "08_chapter_08_pl_es_2026-10-30_12-52-42.mp3"
+}

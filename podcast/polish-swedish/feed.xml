@@ -1,0 +1,868 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Repeto – Ucz się szwedzkiego</title>
+    <link>https://trusohamn.github.io/repeto/polish-swedish/</link>
+    <description>Ucz się szwedzkiego, słuchając i mówiąc – z polskim jako wsparciem. Repeto to kurs audio dla początkujących w każdym wieku: dzieci, rodziców, dziadków i wszystkich, którzy chcą zacząć naukę szwedzkiego. Nie potrzebujesz wcześniejszej wiedzy ani podręcznika.
+
+Jak to działa: słyszysz słowo lub zdanie po polsku, a potem masz chwilę, by powiedzieć je po szwedzku. Następnie usłyszysz odpowiedź dwa razy i będziesz mieć czas, by powtórzyć wymowę.
+
+W kursie znajdziesz:
+• Sezon 1 – Ćwiczenia: 30 krótkich tematów, od powitań i liczb po jedzenie, emocje i codzienne sytuacje.
+• Sezon 2 – Opowieść „Magiczne Radio” (Den magiska radion): jeden rozdział w każdym odcinku. Najpierw słuchasz rozdziału po szwedzku, ćwiczysz słownictwo, a potem słuchasz go ponownie.
+• Kolejne opowieści są w przygotowaniu – nowe odcinki będą dodawane regularnie. Obserwuj podcast, żeby ich nie przegapić.
+
+Jak korzystać z kursu:
+• Zacznij od sezonu 1, odcinka 1 i słuchaj po kolei.
+• Odpowiadaj na głos w przerwie – spróbuj samodzielnie przypomnieć sobie słowa.
+• Odtwórz odcinek ponownie, aż zdążysz odpowiedzieć przed głosem lektora.
+• Słuchanie w tle może pomóc oswoić się z brzmieniem i melodią języka. Ćwicz też aktywnie, powtarzając i odpowiadając w przerwach.
+
+Podoba Ci się ten format? Repeto jest dostępne także w innych językach – ten sam układ pozwoli Ci od razu poczuć się swobodnie. Wyszukaj „Repeto” w swojej aplikacji do podcastów.
+
+Napisz do nas! Sugestie dotyczące nowych języków, poprawki i pomysły na opowieści są mile widziane: repeto.lingo@gmail.com
+
+Głosy zostały wygenerowane przez AI (Microsoft Azure).</description>
+    <language>pl</language>
+    <itunes:author>Repeto</itunes:author>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:type>serial</itunes:type>
+    <itunes:owner>
+      <itunes:name>Repeto</itunes:name>
+      <itunes:email>repeto.lingo@gmail.com</itunes:email>
+    </itunes:owner>
+    <itunes:image href="https://trusohamn.github.io/repeto/polish-swedish/cover-2538d308.jpeg" />
+    <itunes:category text="Education">
+      <itunes:category text="Language Learning" />
+    </itunes:category>
+    <atom:link href="https://trusohamn.github.io/repeto/polish-swedish/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>01 Powitania — Hälsningar</title>
+      <description>Temat 1 z 30: Powitania (Hälsningar) – 36 zwrotów.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po szwedzku w przerwie, zanim usłyszysz odpowiedź. Każdy szwedzki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Cześć! → Hej!
+• Dzień dobry! → God morgon!
+• Dzień dobry! → God eftermiddag!
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 1 z 30: Powitania (Hälsningar) – 36 zwrotów.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po szwedzku w przerwie, zanim usłyszysz odpowiedź. Każdy szwedzki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Cześć! → Hej!&lt;/li&gt;&lt;li&gt;Dzień dobry! → God morgon!&lt;/li&gt;&lt;li&gt;Dzień dobry! → God eftermiddag!&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-swedish:topic-01</guid>
+      <pubDate>Fri, 30 Oct 2026 11:52:19 +0000</pubDate>
+      <itunes:episode>1</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>371</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-swedish/audio/practice/01_greetings_pl_se_double_2026-10-30_12-19-08.mp3" length="8906962" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>02 Liczby — Tal</title>
+      <description>Temat 2 z 30: Liczby (Tal) – 35 zwrotów.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po szwedzku w przerwie, zanim usłyszysz odpowiedź. Każdy szwedzki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Jeden → Ett
+• Dwa → Två
+• Trzy → Tre
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 2 z 30: Liczby (Tal) – 35 zwrotów.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po szwedzku w przerwie, zanim usłyszysz odpowiedź. Każdy szwedzki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Jeden → Ett&lt;/li&gt;&lt;li&gt;Dwa → Två&lt;/li&gt;&lt;li&gt;Trzy → Tre&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-swedish:topic-02</guid>
+      <pubDate>Fri, 30 Oct 2026 11:52:19 +0000</pubDate>
+      <itunes:episode>2</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>348</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-swedish/audio/practice/02_numbers_pl_se_double_2026-10-30_12-19-08.mp3" length="8364033" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>03 Kolory — Färger</title>
+      <description>Temat 3 z 30: Kolory (Färger) – 29 zwrotów.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po szwedzku w przerwie, zanim usłyszysz odpowiedź. Każdy szwedzki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Czerwony → Röd
+• Niebieski → Blå
+• Żółty → Gul
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 3 z 30: Kolory (Färger) – 29 zwrotów.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po szwedzku w przerwie, zanim usłyszysz odpowiedź. Każdy szwedzki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Czerwony → Röd&lt;/li&gt;&lt;li&gt;Niebieski → Blå&lt;/li&gt;&lt;li&gt;Żółty → Gul&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-swedish:topic-03</guid>
+      <pubDate>Fri, 30 Oct 2026 11:52:19 +0000</pubDate>
+      <itunes:episode>3</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>311</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-swedish/audio/practice/03_colors_pl_se_double_2026-10-30_12-19-08.mp3" length="7461868" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>04 Zwierzęta — Djur</title>
+      <description>Temat 4 z 30: Zwierzęta (Djur) – 42 zwroty.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po szwedzku w przerwie, zanim usłyszysz odpowiedź. Każdy szwedzki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Pies → Hund
+• Kot → Katt
+• Ptak → Fågel
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 4 z 30: Zwierzęta (Djur) – 42 zwroty.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po szwedzku w przerwie, zanim usłyszysz odpowiedź. Każdy szwedzki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Pies → Hund&lt;/li&gt;&lt;li&gt;Kot → Katt&lt;/li&gt;&lt;li&gt;Ptak → Fågel&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-swedish:topic-04</guid>
+      <pubDate>Fri, 30 Oct 2026 11:52:19 +0000</pubDate>
+      <itunes:episode>4</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>417</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-swedish/audio/practice/04_animals_pl_se_double_2026-10-30_12-19-08.mp3" length="10019778" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>05 Rodzina — Familj</title>
+      <description>Temat 5 z 30: Rodzina (Familj) – 26 zwrotów.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po szwedzku w przerwie, zanim usłyszysz odpowiedź. Każdy szwedzki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Mama → Mamma
+• Tata → Pappa
+• Siostra → Syster
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 5 z 30: Rodzina (Familj) – 26 zwrotów.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po szwedzku w przerwie, zanim usłyszysz odpowiedź. Każdy szwedzki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Mama → Mamma&lt;/li&gt;&lt;li&gt;Tata → Pappa&lt;/li&gt;&lt;li&gt;Siostra → Syster&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-swedish:topic-05</guid>
+      <pubDate>Fri, 30 Oct 2026 11:52:19 +0000</pubDate>
+      <itunes:episode>5</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>292</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-swedish/audio/practice/05_family_pl_se_double_2026-10-30_12-19-08.mp3" length="7016741" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>06 Jedzenie — Mat</title>
+      <description>Temat 6 z 30: Jedzenie (Mat) – 49 zwrotów.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po szwedzku w przerwie, zanim usłyszysz odpowiedź. Każdy szwedzki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Chleb → Bröd
+• Mleko → Mjölk
+• Jajko → Ägg
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 6 z 30: Jedzenie (Mat) – 49 zwrotów.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po szwedzku w przerwie, zanim usłyszysz odpowiedź. Każdy szwedzki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Chleb → Bröd&lt;/li&gt;&lt;li&gt;Mleko → Mjölk&lt;/li&gt;&lt;li&gt;Jajko → Ägg&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-swedish:topic-06</guid>
+      <pubDate>Fri, 30 Oct 2026 11:52:19 +0000</pubDate>
+      <itunes:episode>6</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>501</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-swedish/audio/practice/06_food_pl_se_double_2026-10-30_12-19-08.mp3" length="12025355" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>07 Ciało — Kroppen</title>
+      <description>Temat 7 z 30: Ciało (Kroppen) – 37 zwrotów.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po szwedzku w przerwie, zanim usłyszysz odpowiedź. Każdy szwedzki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Głowa → Huvud
+• Włosy → Hår
+• Oko → Öga
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 7 z 30: Ciało (Kroppen) – 37 zwrotów.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po szwedzku w przerwie, zanim usłyszysz odpowiedź. Każdy szwedzki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Głowa → Huvud&lt;/li&gt;&lt;li&gt;Włosy → Hår&lt;/li&gt;&lt;li&gt;Oko → Öga&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-swedish:topic-07</guid>
+      <pubDate>Fri, 30 Oct 2026 11:52:19 +0000</pubDate>
+      <itunes:episode>7</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>372</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-swedish/audio/practice/07_body_pl_se_double_2026-10-30_12-19-08.mp3" length="8933920" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>08 Ubrania — Kläder</title>
+      <description>Temat 8 z 30: Ubrania (Kläder) – 29 zwrotów.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po szwedzku w przerwie, zanim usłyszysz odpowiedź. Każdy szwedzki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Sweter → Tröja
+• Koszulka → T-shirt
+• Koszula → Skjorta
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 8 z 30: Ubrania (Kläder) – 29 zwrotów.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po szwedzku w przerwie, zanim usłyszysz odpowiedź. Każdy szwedzki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Sweter → Tröja&lt;/li&gt;&lt;li&gt;Koszulka → T-shirt&lt;/li&gt;&lt;li&gt;Koszula → Skjorta&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-swedish:topic-08</guid>
+      <pubDate>Fri, 30 Oct 2026 11:52:19 +0000</pubDate>
+      <itunes:episode>8</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>311</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-swedish/audio/practice/08_clothing_pl_se_double_2026-10-30_12-19-08.mp3" length="7466883" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>09 W domu — Hemma</title>
+      <description>Temat 9 z 30: W domu (Hemma) – 38 zwrotów.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po szwedzku w przerwie, zanim usłyszysz odpowiedź. Każdy szwedzki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Dom → Hus
+• Mieszkanie → Lägenhet
+• Pokój → Rum
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 9 z 30: W domu (Hemma) – 38 zwrotów.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po szwedzku w przerwie, zanim usłyszysz odpowiedź. Każdy szwedzki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Dom → Hus&lt;/li&gt;&lt;li&gt;Mieszkanie → Lägenhet&lt;/li&gt;&lt;li&gt;Pokój → Rum&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-swedish:topic-09</guid>
+      <pubDate>Fri, 30 Oct 2026 11:52:19 +0000</pubDate>
+      <itunes:episode>9</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>392</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-swedish/audio/practice/09_home_pl_se_double_2026-10-30_12-19-08.mp3" length="9418544" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>10 Szkoła — Skolan</title>
+      <description>Temat 10 z 30: Szkoła (Skolan) – 41 zwrotów.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po szwedzku w przerwie, zanim usłyszysz odpowiedź. Każdy szwedzki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Szkoła → Skola
+• Klasa → Klassrum
+• Nauczyciel → Lärare
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 10 z 30: Szkoła (Skolan) – 41 zwrotów.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po szwedzku w przerwie, zanim usłyszysz odpowiedź. Każdy szwedzki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Szkoła → Skola&lt;/li&gt;&lt;li&gt;Klasa → Klassrum&lt;/li&gt;&lt;li&gt;Nauczyciel → Lärare&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-swedish:topic-10</guid>
+      <pubDate>Fri, 30 Oct 2026 11:52:19 +0000</pubDate>
+      <itunes:episode>10</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>435</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-swedish/audio/practice/10_school_pl_se_double_2026-10-30_13-08-55.mp3" length="10437319" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>11 Pogoda — Väder</title>
+      <description>Temat 11 z 30: Pogoda (Väder) – 25 zwrotów.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po szwedzku w przerwie, zanim usłyszysz odpowiedź. Każdy szwedzki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Pogoda → Väder
+• Słońce → Sol
+• Deszcz → Regn
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 11 z 30: Pogoda (Väder) – 25 zwrotów.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po szwedzku w przerwie, zanim usłyszysz odpowiedź. Każdy szwedzki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Pogoda → Väder&lt;/li&gt;&lt;li&gt;Słońce → Sol&lt;/li&gt;&lt;li&gt;Deszcz → Regn&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-swedish:topic-11</guid>
+      <pubDate>Fri, 30 Oct 2026 11:52:19 +0000</pubDate>
+      <itunes:episode>11</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>258</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-swedish/audio/practice/11_weather_pl_se_double_2026-10-30_12-19-08.mp3" length="6194198" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>12 Pory roku — Årstider</title>
+      <description>Temat 12 z 30: Pory roku (Årstider) – 18 zwrotów.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po szwedzku w przerwie, zanim usłyszysz odpowiedź. Każdy szwedzki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Wiosna → Vår
+• Lato → Sommar
+• Jesień → Höst
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 12 z 30: Pory roku (Årstider) – 18 zwrotów.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po szwedzku w przerwie, zanim usłyszysz odpowiedź. Każdy szwedzki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Wiosna → Vår&lt;/li&gt;&lt;li&gt;Lato → Sommar&lt;/li&gt;&lt;li&gt;Jesień → Höst&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-swedish:topic-12</guid>
+      <pubDate>Fri, 30 Oct 2026 11:52:19 +0000</pubDate>
+      <itunes:episode>12</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>206</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-swedish/audio/practice/12_seasons_pl_se_double_2026-10-30_12-19-08.mp3" length="4935932" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>13 Dni i czas — Dagar och tid</title>
+      <description>Temat 13 z 30: Dni i czas (Dagar och tid) – 29 zwrotów.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po szwedzku w przerwie, zanim usłyszysz odpowiedź. Każdy szwedzki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Poniedziałek → Måndag
+• Wtorek → Tisdag
+• Środa → Onsdag
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 13 z 30: Dni i czas (Dagar och tid) – 29 zwrotów.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po szwedzku w przerwie, zanim usłyszysz odpowiedź. Każdy szwedzki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Poniedziałek → Måndag&lt;/li&gt;&lt;li&gt;Wtorek → Tisdag&lt;/li&gt;&lt;li&gt;Środa → Onsdag&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-swedish:topic-13</guid>
+      <pubDate>Fri, 30 Oct 2026 11:52:19 +0000</pubDate>
+      <itunes:episode>13</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>309</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-swedish/audio/practice/13_days_and_time_pl_se_double_2026-10-30_12-19-08.mp3" length="7408578" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>14 Zabawki i zabawa — Leksaker och lek</title>
+      <description>Temat 14 z 30: Zabawki i zabawa (Leksaker och lek) – 34 zwroty.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po szwedzku w przerwie, zanim usłyszysz odpowiedź. Każdy szwedzki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Zabawka → Leksak
+• Piłka → Boll
+• Lalka → Docka
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 14 z 30: Zabawki i zabawa (Leksaker och lek) – 34 zwroty.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po szwedzku w przerwie, zanim usłyszysz odpowiedź. Każdy szwedzki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Zabawka → Leksak&lt;/li&gt;&lt;li&gt;Piłka → Boll&lt;/li&gt;&lt;li&gt;Lalka → Docka&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-swedish:topic-14</guid>
+      <pubDate>Fri, 30 Oct 2026 11:52:19 +0000</pubDate>
+      <itunes:episode>14</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>366</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-swedish/audio/practice/14_toys_and_play_pl_se_double_2026-10-30_13-09-05.mp3" length="8794113" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>15 Sport i zajęcia — Sport och aktiviteter</title>
+      <description>Temat 15 z 30: Sport i zajęcia (Sport och aktiviteter) – 25 zwrotów.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po szwedzku w przerwie, zanim usłyszysz odpowiedź. Każdy szwedzki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Piłka nożna → Fotboll
+• Pływanie → Simning
+• Jazda na rowerze → Cykling
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 15 z 30: Sport i zajęcia (Sport och aktiviteter) – 25 zwrotów.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po szwedzku w przerwie, zanim usłyszysz odpowiedź. Każdy szwedzki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Piłka nożna → Fotboll&lt;/li&gt;&lt;li&gt;Pływanie → Simning&lt;/li&gt;&lt;li&gt;Jazda na rowerze → Cykling&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-swedish:topic-15</guid>
+      <pubDate>Fri, 30 Oct 2026 11:52:19 +0000</pubDate>
+      <itunes:episode>15</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>277</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-swedish/audio/practice/15_sports_and_activities_pl_se_double_2026-10-30_12-19-08.mp3" length="6659386" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>16 Chcę i potrzebuję — Jag vill ha och jag behöver</title>
+      <description>Temat 16 z 30: Chcę i potrzebuję (Jag vill ha och jag behöver) – 28 zwrotów.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po szwedzku w przerwie, zanim usłyszysz odpowiedź. Każdy szwedzki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Chcę wyjść na dwór. → Jag vill gå ut.
+• Chcę piłkę. → Jag vill ha en boll.
+• Chcę jeść. → Jag vill äta.
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 16 z 30: Chcę i potrzebuję (Jag vill ha och jag behöver) – 28 zwrotów.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po szwedzku w przerwie, zanim usłyszysz odpowiedź. Każdy szwedzki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Chcę wyjść na dwór. → Jag vill gå ut.&lt;/li&gt;&lt;li&gt;Chcę piłkę. → Jag vill ha en boll.&lt;/li&gt;&lt;li&gt;Chcę jeść. → Jag vill äta.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-swedish:topic-16</guid>
+      <pubDate>Fri, 30 Oct 2026 11:52:19 +0000</pubDate>
+      <itunes:episode>16</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>319</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-swedish/audio/practice/16_i_want_i_need_pl_se_double_2026-10-30_12-19-08.mp3" length="7646188" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>17 Gdzie jest? — Var är?</title>
+      <description>Temat 17 z 30: Gdzie jest? (Var är?) – 28 zwrotów.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po szwedzku w przerwie, zanim usłyszysz odpowiedź. Każdy szwedzki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Gdzie jest miś? → Var är nallen?
+• Gdzie jest mój telefon? → Var är min mobil?
+• Gdzie jest moja torba? → Var är min väska?
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 17 z 30: Gdzie jest? (Var är?) – 28 zwrotów.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po szwedzku w przerwie, zanim usłyszysz odpowiedź. Każdy szwedzki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Gdzie jest miś? → Var är nallen?&lt;/li&gt;&lt;li&gt;Gdzie jest mój telefon? → Var är min mobil?&lt;/li&gt;&lt;li&gt;Gdzie jest moja torba? → Var är min väska?&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-swedish:topic-17</guid>
+      <pubDate>Fri, 30 Oct 2026 11:52:19 +0000</pubDate>
+      <itunes:episode>17</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>316</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-swedish/audio/practice/17_where_is_pl_se_double_2026-10-30_12-19-08.mp3" length="7575344" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>18 Uczucia i emocje — Känslor</title>
+      <description>Temat 18 z 30: Uczucia i emocje (Känslor) – 28 zwrotów.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po szwedzku w przerwie, zanim usłyszysz odpowiedź. Każdy szwedzki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Wesoły → Glad
+• Smutny → Ledsen
+• Zły → Arg
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 18 z 30: Uczucia i emocje (Känslor) – 28 zwrotów.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po szwedzku w przerwie, zanim usłyszysz odpowiedź. Każdy szwedzki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Wesoły → Glad&lt;/li&gt;&lt;li&gt;Smutny → Ledsen&lt;/li&gt;&lt;li&gt;Zły → Arg&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-swedish:topic-18</guid>
+      <pubDate>Fri, 30 Oct 2026 11:52:19 +0000</pubDate>
+      <itunes:episode>18</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>304</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-swedish/audio/practice/18_feelings_and_emotions_pl_se_double_2026-10-30_12-19-08.mp3" length="7306387" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>19 Środki transportu — Färdmedel</title>
+      <description>Temat 19 z 30: Środki transportu (Färdmedel) – 25 zwrotów.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po szwedzku w przerwie, zanim usłyszysz odpowiedź. Każdy szwedzki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Samochód → Bil
+• Autobus → Buss
+• Pociąg → Tåg
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 19 z 30: Środki transportu (Färdmedel) – 25 zwrotów.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po szwedzku w przerwie, zanim usłyszysz odpowiedź. Każdy szwedzki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Samochód → Bil&lt;/li&gt;&lt;li&gt;Autobus → Buss&lt;/li&gt;&lt;li&gt;Pociąg → Tåg&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-swedish:topic-19</guid>
+      <pubDate>Fri, 30 Oct 2026 11:52:19 +0000</pubDate>
+      <itunes:episode>19</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>270</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-swedish/audio/practice/19_transport_pl_se_double_2026-10-30_12-19-08.mp3" length="6476320" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>20 Przyroda — Naturen</title>
+      <description>Temat 20 z 30: Przyroda (Naturen) – 27 zwrotów.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po szwedzku w przerwie, zanim usłyszysz odpowiedź. Każdy szwedzki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Las → Skog
+• Morze → Hav
+• Jezioro → Sjö
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 20 z 30: Przyroda (Naturen) – 27 zwrotów.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po szwedzku w przerwie, zanim usłyszysz odpowiedź. Każdy szwedzki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Las → Skog&lt;/li&gt;&lt;li&gt;Morze → Hav&lt;/li&gt;&lt;li&gt;Jezioro → Sjö&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-swedish:topic-20</guid>
+      <pubDate>Fri, 30 Oct 2026 11:52:19 +0000</pubDate>
+      <itunes:episode>20</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>277</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-swedish/audio/practice/20_nature_pl_se_double_2026-10-30_12-19-08.mp3" length="6643086" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>21 Święta i uroczystości — Högtider och firande</title>
+      <description>Temat 21 z 30: Święta i uroczystości (Högtider och firande) – 23 zwroty.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po szwedzku w przerwie, zanim usłyszysz odpowiedź. Każdy szwedzki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Urodziny → Födelsedag
+• Wszystkiego najlepszego z okazji urodzin! → Grattis på födelsedagen!
+• Boże Narodzenie → Jul
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 21 z 30: Święta i uroczystości (Högtider och firande) – 23 zwroty.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po szwedzku w przerwie, zanim usłyszysz odpowiedź. Każdy szwedzki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Urodziny → Födelsedag&lt;/li&gt;&lt;li&gt;Wszystkiego najlepszego z okazji urodzin! → Grattis på födelsedagen!&lt;/li&gt;&lt;li&gt;Boże Narodzenie → Jul&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-swedish:topic-21</guid>
+      <pubDate>Fri, 30 Oct 2026 11:52:19 +0000</pubDate>
+      <itunes:episode>21</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>259</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-swedish/audio/practice/21_holidays_and_celebrations_pl_se_double_2026-10-30_12-19-08.mp3" length="6213006" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>22 Codzienne czynności — Vardagsrutiner</title>
+      <description>Temat 22 z 30: Codzienne czynności (Vardagsrutiner) – 28 zwrotów.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po szwedzku w przerwie, zanim usłyszysz odpowiedź. Każdy szwedzki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Budzić się → Vakna
+• Wstawać → Stiga upp
+• Myć zęby → Borsta tänderna
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 22 z 30: Codzienne czynności (Vardagsrutiner) – 28 zwrotów.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po szwedzku w przerwie, zanim usłyszysz odpowiedź. Każdy szwedzki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Budzić się → Vakna&lt;/li&gt;&lt;li&gt;Wstawać → Stiga upp&lt;/li&gt;&lt;li&gt;Myć zęby → Borsta tänderna&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-swedish:topic-22</guid>
+      <pubDate>Fri, 30 Oct 2026 11:52:19 +0000</pubDate>
+      <itunes:episode>22</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>318</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-swedish/audio/practice/22_daily_routine_pl_se_double_2026-10-30_12-19-08.mp3" length="7634276" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>23 Pytania i prośby — Fråga och be om hjälp</title>
+      <description>Temat 23 z 30: Pytania i prośby (Fråga och be om hjälp) – 26 zwrotów.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po szwedzku w przerwie, zanim usłyszysz odpowiedź. Każdy szwedzki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Czy możesz mi pomóc? → Kan du hjälpa mig?
+• Pomocy! → Hjälp!
+• Proszę! → Snälla!
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 23 z 30: Pytania i prośby (Fråga och be om hjälp) – 26 zwrotów.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po szwedzku w przerwie, zanim usłyszysz odpowiedź. Każdy szwedzki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Czy możesz mi pomóc? → Kan du hjälpa mig?&lt;/li&gt;&lt;li&gt;Pomocy! → Hjälp!&lt;/li&gt;&lt;li&gt;Proszę! → Snälla!&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-swedish:topic-23</guid>
+      <pubDate>Fri, 30 Oct 2026 11:52:19 +0000</pubDate>
+      <itunes:episode>23</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>274</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-swedish/audio/practice/23_asking_and_requests_pl_se_double_2026-10-30_12-19-08.mp3" length="6576003" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>24 Przeciwieństwa — Motsatser</title>
+      <description>Temat 24 z 30: Przeciwieństwa (Motsatser) – 28 zwrotów.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po szwedzku w przerwie, zanim usłyszysz odpowiedź. Każdy szwedzki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Duży → Stor
+• Mały → Liten
+• Długi → Lång
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 24 z 30: Przeciwieństwa (Motsatser) – 28 zwrotów.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po szwedzku w przerwie, zanim usłyszysz odpowiedź. Każdy szwedzki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Duży → Stor&lt;/li&gt;&lt;li&gt;Mały → Liten&lt;/li&gt;&lt;li&gt;Długi → Lång&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-swedish:topic-24</guid>
+      <pubDate>Fri, 30 Oct 2026 11:52:19 +0000</pubDate>
+      <itunes:episode>24</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>288</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-swedish/audio/practice/24_opposites_pl_se_double_2026-10-30_12-19-08.mp3" length="6905146" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>25 Czynności i czasowniki — Handlingar och verb</title>
+      <description>Temat 25 z 30: Czynności i czasowniki (Handlingar och verb) – 41 zwrotów.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po szwedzku w przerwie, zanim usłyszysz odpowiedź. Każdy szwedzki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Iść → Gå
+• Biegać → Springa
+• Skakać → Hoppa
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 25 z 30: Czynności i czasowniki (Handlingar och verb) – 41 zwrotów.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po szwedzku w przerwie, zanim usłyszysz odpowiedź. Każdy szwedzki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Iść → Gå&lt;/li&gt;&lt;li&gt;Biegać → Springa&lt;/li&gt;&lt;li&gt;Skakać → Hoppa&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-swedish:topic-25</guid>
+      <pubDate>Fri, 30 Oct 2026 11:52:19 +0000</pubDate>
+      <itunes:episode>25</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>422</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-swedish/audio/practice/25_actions_and_verbs_pl_se_double_2026-10-30_12-19-08.mp3" length="10123850" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>26 Miejsca w mieście — Platser i staden</title>
+      <description>Temat 26 z 30: Miejsca w mieście (Platser i staden) – 23 zwroty.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po szwedzku w przerwie, zanim usłyszysz odpowiedź. Każdy szwedzki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Park → Park
+• Plac zabaw → Lekplats
+• Sklep → Affär
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 26 z 30: Miejsca w mieście (Platser i staden) – 23 zwroty.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po szwedzku w przerwie, zanim usłyszysz odpowiedź. Każdy szwedzki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Park → Park&lt;/li&gt;&lt;li&gt;Plac zabaw → Lekplats&lt;/li&gt;&lt;li&gt;Sklep → Affär&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-swedish:topic-26</guid>
+      <pubDate>Fri, 30 Oct 2026 11:52:19 +0000</pubDate>
+      <itunes:episode>26</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>252</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-swedish/audio/practice/26_places_in_town_pl_se_double_2026-10-30_12-19-08.mp3" length="6051256" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>27 Technologia — Teknik</title>
+      <description>Temat 27 z 30: Technologia (Teknik) – 22 zwroty.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po szwedzku w przerwie, zanim usłyszysz odpowiedź. Każdy szwedzki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Telefon → Telefon
+• Telefon komórkowy → Mobiltelefon
+• Komputer → Dator
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 27 z 30: Technologia (Teknik) – 22 zwroty.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po szwedzku w przerwie, zanim usłyszysz odpowiedź. Każdy szwedzki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Telefon → Telefon&lt;/li&gt;&lt;li&gt;Telefon komórkowy → Mobiltelefon&lt;/li&gt;&lt;li&gt;Komputer → Dator&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-swedish:topic-27</guid>
+      <pubDate>Fri, 30 Oct 2026 11:52:19 +0000</pubDate>
+      <itunes:episode>27</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>245</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-swedish/audio/practice/27_technology_pl_se_double_2026-10-30_12-19-08.mp3" length="5883863" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>28 Muzyka i sztuka — Musik och konst</title>
+      <description>Temat 28 z 30: Muzyka i sztuka (Musik och konst) – 23 zwroty.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po szwedzku w przerwie, zanim usłyszysz odpowiedź. Każdy szwedzki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Muzyka → Musik
+• Piosenka → Sång
+• Taniec → Dans
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 28 z 30: Muzyka i sztuka (Musik och konst) – 23 zwroty.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po szwedzku w przerwie, zanim usłyszysz odpowiedź. Każdy szwedzki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Muzyka → Musik&lt;/li&gt;&lt;li&gt;Piosenka → Sång&lt;/li&gt;&lt;li&gt;Taniec → Dans&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-swedish:topic-28</guid>
+      <pubDate>Fri, 30 Oct 2026 11:52:19 +0000</pubDate>
+      <itunes:episode>28</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>246</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-swedish/audio/practice/28_music_and_art_pl_se_double_2026-10-30_12-19-08.mp3" length="5912702" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>29 Zwroty grzecznościowe — Artiga fraser</title>
+      <description>Temat 29 z 30: Zwroty grzecznościowe (Artiga fraser) – 17 zwrotów.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po szwedzku w przerwie, zanim usłyszysz odpowiedź. Każdy szwedzki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Proszę. → Snälla.
+• Dziękuję! → Tack!
+• Bardzo dziękuję! → Tack så mycket!
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 29 z 30: Zwroty grzecznościowe (Artiga fraser) – 17 zwrotów.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po szwedzku w przerwie, zanim usłyszysz odpowiedź. Każdy szwedzki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Proszę. → Snälla.&lt;/li&gt;&lt;li&gt;Dziękuję! → Tack!&lt;/li&gt;&lt;li&gt;Bardzo dziękuję! → Tack så mycket!&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-swedish:topic-29</guid>
+      <pubDate>Fri, 30 Oct 2026 11:52:19 +0000</pubDate>
+      <itunes:episode>29</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>177</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-swedish/audio/practice/29_polite_phrases_pl_se_double_2026-10-30_12-19-08.mp3" length="4243164" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>30 Powtórka — Repetition</title>
+      <description>Temat 30 z 30: Powtórka (Repetition) – 11 zwrotów.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po szwedzku w przerwie, zanim usłyszysz odpowiedź. Każdy szwedzki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Dobra robota! → Bra gjort!
+• Uczysz się nowego języka! → Du lär dig ett nytt språk!
+• Ćwiczmy! → Nu övar vi!
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.</description>
+      <content:encoded>&lt;p&gt;Temat 30 z 30: Powtórka (Repetition) – 11 zwrotów.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po szwedzku w przerwie, zanim usłyszysz odpowiedź. Każdy szwedzki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Dobra robota! → Bra gjort!&lt;/li&gt;&lt;li&gt;Uczysz się nowego języka! → Du lär dig ett nytt språk!&lt;/li&gt;&lt;li&gt;Ćwiczmy! → Nu övar vi!&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-swedish:topic-30</guid>
+      <pubDate>Fri, 30 Oct 2026 11:52:19 +0000</pubDate>
+      <itunes:episode>30</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>130</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/polish-swedish/audio/practice/30_review_and_recap_pl_se_double_2026-10-30_13-09-14.mp3" length="3115301" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>01 Magiczne Radio: Stary stół — Det gamla bordet</title>
+      <description>Rozdział 1 z 8 opowieści „Magiczne Radio” (Den magiska radion). Rodzeństwo znajduje stare drewniane radio na pchlim targu. Radio nagle szumi, a złoty napis zdradza, że czekało właśnie na nich.
+
+Jak wygląda odcinek:
+1. Posłuchaj całego rozdziału po szwedzku – nie musisz rozumieć wszystkiego.
+2. Poćwicz słowa i wyrażenia z rozdziału: podpowiedź po polsku, przerwa, odpowiedź po szwedzku.
+3. Posłuchaj rozdziału ponownie i sprawdź, ile udało Ci się zrozumieć.
+
+Między częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynając od rozdziału 1.</description>
+      <content:encoded>&lt;p&gt;Rozdział 1 z 8 opowieści „Magiczne Radio” (Den magiska radion). Rodzeństwo znajduje stare drewniane radio na pchlim targu. Radio nagle szumi, a złoty napis zdradza, że czekało właśnie na nich.&lt;/p&gt;&lt;p&gt;Jak wygląda odcinek:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Posłuchaj całego rozdziału po szwedzku – nie musisz rozumieć wszystkiego.&lt;/li&gt;&lt;li&gt;Poćwicz słowa i wyrażenia z rozdziału: podpowiedź po polsku, przerwa, odpowiedź po szwedzku.&lt;/li&gt;&lt;li&gt;Posłuchaj rozdziału ponownie i sprawdź, ile udało Ci się zrozumieć.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;Między częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynając od rozdziału 1.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">magical_radio:pl:sv:chapter-01</guid>
+      <pubDate>Fri, 30 Oct 2026 11:52:27 +0000</pubDate>
+      <itunes:episode>1</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>299</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://trusohamn.github.io/repeto/polish-swedish/images/stories/magical_radio/cover-447076a6.jpeg" />
+      <enclosure url="https://trusohamn.github.io/repeto/polish-swedish/audio/stories/magical_radio/01_chapter_01_pl_sv_2026-10-30_12-21-23.mp3" length="7184761" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>02 Magiczne Radio: Głos z radia — En röst ur radion</title>
+      <description>Rozdział 2 z 8 opowieści „Magiczne Radio” (Den magiska radion). W domu dzieci naciskają niebieski przycisk. Z radia wylatuje chmurka pachnąca cynamonem, a wesoły głos opowiada o myszy z ważnym kluczem.
+
+Jak wygląda odcinek:
+1. Posłuchaj całego rozdziału po szwedzku – nie musisz rozumieć wszystkiego.
+2. Poćwicz słowa i wyrażenia z rozdziału: podpowiedź po polsku, przerwa, odpowiedź po szwedzku.
+3. Posłuchaj rozdziału ponownie i sprawdź, ile udało Ci się zrozumieć.
+
+Między częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynając od rozdziału 1.</description>
+      <content:encoded>&lt;p&gt;Rozdział 2 z 8 opowieści „Magiczne Radio” (Den magiska radion). W domu dzieci naciskają niebieski przycisk. Z radia wylatuje chmurka pachnąca cynamonem, a wesoły głos opowiada o myszy z ważnym kluczem.&lt;/p&gt;&lt;p&gt;Jak wygląda odcinek:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Posłuchaj całego rozdziału po szwedzku – nie musisz rozumieć wszystkiego.&lt;/li&gt;&lt;li&gt;Poćwicz słowa i wyrażenia z rozdziału: podpowiedź po polsku, przerwa, odpowiedź po szwedzku.&lt;/li&gt;&lt;li&gt;Posłuchaj rozdziału ponownie i sprawdź, ile udało Ci się zrozumieć.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;Między częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynając od rozdziału 1.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">magical_radio:pl:sv:chapter-02</guid>
+      <pubDate>Fri, 30 Oct 2026 11:52:27 +0000</pubDate>
+      <itunes:episode>2</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>266</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://trusohamn.github.io/repeto/polish-swedish/images/stories/magical_radio/cover-447076a6.jpeg" />
+      <enclosure url="https://trusohamn.github.io/repeto/polish-swedish/audio/stories/magical_radio/02_chapter_02_pl_sv_2026-10-30_12-21-23.mp3" length="6391056" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>03 Magiczne Radio: Mysz pod drzewem — En mus under trädet</title>
+      <description>Rozdział 3 z 8 opowieści „Magiczne Radio” (Den magiska radion). Z latarką, serem i radiem rodzeństwo rusza pod stare drzewo. Mała mysz zgadza się na wymianę, a między korzeniami kryją się tajemnicze drzwi.
+
+Jak wygląda odcinek:
+1. Posłuchaj całego rozdziału po szwedzku – nie musisz rozumieć wszystkiego.
+2. Poćwicz słowa i wyrażenia z rozdziału: podpowiedź po polsku, przerwa, odpowiedź po szwedzku.
+3. Posłuchaj rozdziału ponownie i sprawdź, ile udało Ci się zrozumieć.
+
+Między częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynając od rozdziału 1.</description>
+      <content:encoded>&lt;p&gt;Rozdział 3 z 8 opowieści „Magiczne Radio” (Den magiska radion). Z latarką, serem i radiem rodzeństwo rusza pod stare drzewo. Mała mysz zgadza się na wymianę, a między korzeniami kryją się tajemnicze drzwi.&lt;/p&gt;&lt;p&gt;Jak wygląda odcinek:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Posłuchaj całego rozdziału po szwedzku – nie musisz rozumieć wszystkiego.&lt;/li&gt;&lt;li&gt;Poćwicz słowa i wyrażenia z rozdziału: podpowiedź po polsku, przerwa, odpowiedź po szwedzku.&lt;/li&gt;&lt;li&gt;Posłuchaj rozdziału ponownie i sprawdź, ile udało Ci się zrozumieć.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;Między częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynając od rozdziału 1.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">magical_radio:pl:sv:chapter-03</guid>
+      <pubDate>Fri, 30 Oct 2026 11:52:27 +0000</pubDate>
+      <itunes:episode>3</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>344</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://trusohamn.github.io/repeto/polish-swedish/images/stories/magical_radio/cover-447076a6.jpeg" />
+      <enclosure url="https://trusohamn.github.io/repeto/polish-swedish/audio/stories/magical_radio/03_chapter_03_pl_sv_2026-10-30_12-21-23.mp3" length="8264976" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>04 Magiczne Radio: Schody w dół — Trappan ner</title>
+      <description>Rozdział 4 z 8 opowieści „Magiczne Radio” (Den magiska radion). Srebrny klucz otwiera drzwi. Kamienne schody prowadzą do biblioteki pełnej latających książek, a na ścianach rosną świecące kwiaty.
+
+Jak wygląda odcinek:
+1. Posłuchaj całego rozdziału po szwedzku – nie musisz rozumieć wszystkiego.
+2. Poćwicz słowa i wyrażenia z rozdziału: podpowiedź po polsku, przerwa, odpowiedź po szwedzku.
+3. Posłuchaj rozdziału ponownie i sprawdź, ile udało Ci się zrozumieć.
+
+Między częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynając od rozdziału 1.</description>
+      <content:encoded>&lt;p&gt;Rozdział 4 z 8 opowieści „Magiczne Radio” (Den magiska radion). Srebrny klucz otwiera drzwi. Kamienne schody prowadzą do biblioteki pełnej latających książek, a na ścianach rosną świecące kwiaty.&lt;/p&gt;&lt;p&gt;Jak wygląda odcinek:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Posłuchaj całego rozdziału po szwedzku – nie musisz rozumieć wszystkiego.&lt;/li&gt;&lt;li&gt;Poćwicz słowa i wyrażenia z rozdziału: podpowiedź po polsku, przerwa, odpowiedź po szwedzku.&lt;/li&gt;&lt;li&gt;Posłuchaj rozdziału ponownie i sprawdź, ile udało Ci się zrozumieć.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;Między częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynając od rozdziału 1.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">magical_radio:pl:sv:chapter-04</guid>
+      <pubDate>Fri, 30 Oct 2026 11:52:27 +0000</pubDate>
+      <itunes:episode>4</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>275</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://trusohamn.github.io/repeto/polish-swedish/images/stories/magical_radio/cover-447076a6.jpeg" />
+      <enclosure url="https://trusohamn.github.io/repeto/polish-swedish/audio/stories/magical_radio/04_chapter_04_pl_sv_2026-10-30_12-21-23.mp3" length="6606096" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>05 Magiczne Radio: Latająca książka — Den flygande boken</title>
+      <description>Rozdział 5 z 8 opowieści „Magiczne Radio” (Den magiska radion). Złota książka ląduje na ramieniu, a radio zdradza zaklęcie, które naprawia zepsute rzeczy.
+
+Jak wygląda odcinek:
+1. Posłuchaj całego rozdziału po szwedzku – nie musisz rozumieć wszystkiego.
+2. Poćwicz słowa i wyrażenia z rozdziału: podpowiedź po polsku, przerwa, odpowiedź po szwedzku.
+3. Posłuchaj rozdziału ponownie i sprawdź, ile udało Ci się zrozumieć.
+
+Między częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynając od rozdziału 1.</description>
+      <content:encoded>&lt;p&gt;Rozdział 5 z 8 opowieści „Magiczne Radio” (Den magiska radion). Złota książka ląduje na ramieniu, a radio zdradza zaklęcie, które naprawia zepsute rzeczy.&lt;/p&gt;&lt;p&gt;Jak wygląda odcinek:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Posłuchaj całego rozdziału po szwedzku – nie musisz rozumieć wszystkiego.&lt;/li&gt;&lt;li&gt;Poćwicz słowa i wyrażenia z rozdziału: podpowiedź po polsku, przerwa, odpowiedź po szwedzku.&lt;/li&gt;&lt;li&gt;Posłuchaj rozdziału ponownie i sprawdź, ile udało Ci się zrozumieć.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;Między częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynając od rozdziału 1.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">magical_radio:pl:sv:chapter-05</guid>
+      <pubDate>Fri, 30 Oct 2026 11:52:27 +0000</pubDate>
+      <itunes:episode>5</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>280</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://trusohamn.github.io/repeto/polish-swedish/images/stories/magical_radio/cover-447076a6.jpeg" />
+      <enclosure url="https://trusohamn.github.io/repeto/polish-swedish/audio/stories/magical_radio/05_chapter_05_pl_sv_2026-10-30_12-21-23.mp3" length="6711422" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>06 Magiczne Radio: Pierwsze zaklęcie — Den första trollformeln</title>
+      <description>Rozdział 6 z 8 opowieści „Magiczne Radio” (Den magiska radion). Czas wypróbować zaklęcie na zepsutym kompasie. Czy zadziała? I kto czeka za zielonymi drzwiami?
+
+Jak wygląda odcinek:
+1. Posłuchaj całego rozdziału po szwedzku – nie musisz rozumieć wszystkiego.
+2. Poćwicz słowa i wyrażenia z rozdziału: podpowiedź po polsku, przerwa, odpowiedź po szwedzku.
+3. Posłuchaj rozdziału ponownie i sprawdź, ile udało Ci się zrozumieć.
+
+Między częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynając od rozdziału 1.</description>
+      <content:encoded>&lt;p&gt;Rozdział 6 z 8 opowieści „Magiczne Radio” (Den magiska radion). Czas wypróbować zaklęcie na zepsutym kompasie. Czy zadziała? I kto czeka za zielonymi drzwiami?&lt;/p&gt;&lt;p&gt;Jak wygląda odcinek:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Posłuchaj całego rozdziału po szwedzku – nie musisz rozumieć wszystkiego.&lt;/li&gt;&lt;li&gt;Poćwicz słowa i wyrażenia z rozdziału: podpowiedź po polsku, przerwa, odpowiedź po szwedzku.&lt;/li&gt;&lt;li&gt;Posłuchaj rozdziału ponownie i sprawdź, ile udało Ci się zrozumieć.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;Między częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynając od rozdziału 1.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">magical_radio:pl:sv:chapter-06</guid>
+      <pubDate>Fri, 30 Oct 2026 11:52:27 +0000</pubDate>
+      <itunes:episode>6</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>220</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://trusohamn.github.io/repeto/polish-swedish/images/stories/magical_radio/cover-447076a6.jpeg" />
+      <enclosure url="https://trusohamn.github.io/repeto/polish-swedish/audio/stories/magical_radio/06_chapter_06_pl_sv_2026-10-30_12-21-23.mp3" length="5292660" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>07 Magiczne Radio: Złoty ptak — Den gyllene fågeln</title>
+      <description>Rozdział 7 z 8 opowieści „Magiczne Radio” (Den magiska radion). Za drzwiami jest podziemny ogród. Złoty ptak zamiast śpiewać tyka jak zegar. W jego skrzydle brakuje kamyka, a radio skrywa tajemnicę.
+
+Jak wygląda odcinek:
+1. Posłuchaj całego rozdziału po szwedzku – nie musisz rozumieć wszystkiego.
+2. Poćwicz słowa i wyrażenia z rozdziału: podpowiedź po polsku, przerwa, odpowiedź po szwedzku.
+3. Posłuchaj rozdziału ponownie i sprawdź, ile udało Ci się zrozumieć.
+
+Między częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynając od rozdziału 1.</description>
+      <content:encoded>&lt;p&gt;Rozdział 7 z 8 opowieści „Magiczne Radio” (Den magiska radion). Za drzwiami jest podziemny ogród. Złoty ptak zamiast śpiewać tyka jak zegar. W jego skrzydle brakuje kamyka, a radio skrywa tajemnicę.&lt;/p&gt;&lt;p&gt;Jak wygląda odcinek:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Posłuchaj całego rozdziału po szwedzku – nie musisz rozumieć wszystkiego.&lt;/li&gt;&lt;li&gt;Poćwicz słowa i wyrażenia z rozdziału: podpowiedź po polsku, przerwa, odpowiedź po szwedzku.&lt;/li&gt;&lt;li&gt;Posłuchaj rozdziału ponownie i sprawdź, ile udało Ci się zrozumieć.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;Między częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynając od rozdziału 1.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">magical_radio:pl:sv:chapter-07</guid>
+      <pubDate>Fri, 30 Oct 2026 11:52:27 +0000</pubDate>
+      <itunes:episode>7</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>360</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://trusohamn.github.io/repeto/polish-swedish/images/stories/magical_radio/cover-447076a6.jpeg" />
+      <enclosure url="https://trusohamn.github.io/repeto/polish-swedish/audio/stories/magical_radio/07_chapter_07_pl_sv_2026-10-30_13-10-06.mp3" length="8639259" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>08 Magiczne Radio: Wielki koncert — Den stora konserten</title>
+      <description>Rozdział 8 z 8 opowieści „Magiczne Radio” (Den magiska radion). Finał! Czy rodzeństwu uda się naprawić złotego ptaka? Opowieść kończy się śpiewem, tańczącymi motylami i zapowiedzią nowej przygody.
+
+Jak wygląda odcinek:
+1. Posłuchaj całego rozdziału po szwedzku – nie musisz rozumieć wszystkiego.
+2. Poćwicz słowa i wyrażenia z rozdziału: podpowiedź po polsku, przerwa, odpowiedź po szwedzku.
+3. Posłuchaj rozdziału ponownie i sprawdź, ile udało Ci się zrozumieć.
+
+Między częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynając od rozdziału 1.</description>
+      <content:encoded>&lt;p&gt;Rozdział 8 z 8 opowieści „Magiczne Radio” (Den magiska radion). Finał! Czy rodzeństwu uda się naprawić złotego ptaka? Opowieść kończy się śpiewem, tańczącymi motylami i zapowiedzią nowej przygody.&lt;/p&gt;&lt;p&gt;Jak wygląda odcinek:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Posłuchaj całego rozdziału po szwedzku – nie musisz rozumieć wszystkiego.&lt;/li&gt;&lt;li&gt;Poćwicz słowa i wyrażenia z rozdziału: podpowiedź po polsku, przerwa, odpowiedź po szwedzku.&lt;/li&gt;&lt;li&gt;Posłuchaj rozdziału ponownie i sprawdź, ile udało Ci się zrozumieć.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;Między częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynając od rozdziału 1.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">magical_radio:pl:sv:chapter-08</guid>
+      <pubDate>Fri, 30 Oct 2026 11:52:27 +0000</pubDate>
+      <itunes:episode>8</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>228</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://trusohamn.github.io/repeto/polish-swedish/images/stories/magical_radio/cover-447076a6.jpeg" />
+      <enclosure url="https://trusohamn.github.io/repeto/polish-swedish/audio/stories/magical_radio/08_chapter_08_pl_sv_2026-10-30_12-21-23.mp3" length="5467576" type="audio/mpeg" />
+    </item>
+  </channel>
+</rss>
