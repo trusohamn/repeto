@@ -222,6 +222,7 @@ def build_feed(course: Path, base_url: str) -> None:
     cover_label, listen_label, season_label, rss_label = {
         "pl": ("Okładka", "Słuchaj", "Sezon", "Kanał RSS"),
         "en": ("Cover", "Listen", "Season", "RSS feed"),
+        "ru": ("Обложка", "Слушать", "Сезон", "RSS-лента"),
     }.get(config["language"], ("Omslag", "Lyssna", "Säsong", "RSS-flöde"))
     links = [
         f'<a href="{html.escape(link_url)}">{html.escape(name)}</a>'
@@ -282,7 +283,9 @@ def main() -> None:
         '<p lang="pl">Kursy językowe dla początkujących: słuchaj wskazówek po polsku, '
         "odpowiadaj w przerwach i powtarzaj za nagraniem.</p>"
         '<p lang="en">Audio courses for beginners: listen to English prompts, '
-        "answer in the pauses and repeat after the recording.</p>" + "".join(cards)
+        "answer in the pauses and repeat after the recording.</p>"
+        '<p lang="ru">Аудиокурсы для начинающих: слушай подсказки по-русски, '
+        "отвечай во время пауз и повторяй за диктором.</p>" + "".join(cards)
     )), encoding="utf-8")
     (args.root / ".nojekyll").touch()
 

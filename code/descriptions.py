@@ -27,7 +27,7 @@ LANGUAGES = {
 }
 EXAMPLES = 3
 PRACTICE_ID = re.compile(r"repeto:[a-z0-9-]+:topic-(\d+)")
-STORY_ID = re.compile(r"([a-z0-9_-]+):(sv|pl|en):([a-z]{2}):chapter-(\d+)")
+STORY_ID = re.compile(r"([a-z0-9_-]+):(sv|pl|en|ru):([a-z]{2}):chapter-(\d+)")
 
 
 def _names(target: str) -> tuple[str, str]:
@@ -73,6 +73,16 @@ def _polish_count(number: int, singular: str, few: str, many: str) -> str:
     return f"{number} {word}"
 
 
+def _russian_count(number: int, singular: str, few: str, many: str) -> str:
+    if number % 10 == 1 and number % 100 != 11:
+        word = singular
+    elif 2 <= number % 10 <= 4 and not 12 <= number % 100 <= 14:
+        word = few
+    else:
+        word = many
+    return f"{number} {word}"
+
+
 def _english_language(target: str) -> str:
     target = "sv" if target == "se" else target
     languages = {
@@ -84,6 +94,20 @@ def _english_language(target: str) -> str:
     return languages[target]
 
 
+def _russian_language(target: str) -> tuple[str, str]:
+    target = "sv" if target == "se" else target
+    languages = {
+        "pl": ("польский", "по-польски"),
+        "en": ("английский", "по-английски"),
+        "ru": ("русский", "по-русски"),
+        "sv": ("шведский", "по-шведски"),
+        "es": ("испанский", "по-испански"),
+    }
+    if target not in languages:
+        raise ValueError(f"No Russian language name configured for {target!r}.")
+    return languages[target]
+
+
 def show_title(target: str, source: str = "sv") -> str:
     if source == "sv":
         return f"Repeto – Lär dig {_names(target)[0]}"
@@ -92,13 +116,17 @@ def show_title(target: str, source: str = "sv") -> str:
         return f"Repeto – Ucz się {genitive}"
     if source == "en":
         return f"Repeto – Learn {_english_language(target)}"
+    if source == "ru":
+        return f"Repeto – Учи {_russian_language(target)[0]}"
     raise ValueError(f"Unsupported source language {source!r}.")
 
 
 def story_name(titles: dict[str, str], target: str, source: str = "sv") -> str:
     """Story title in the source language with the target title in parentheses."""
-    if source not in ("sv", "pl", "en"):
+    if source not in ("sv", "pl", "en", "ru"):
         raise ValueError(f"Unsupported source language {source!r}.")
+    if source == "ru":
+        return f"«{titles[source]}» ({titles[target]})"
     if source == "en":
         return f'"{titles[source]}" ({titles[target]})'
     return f"„{titles[source]}” ({titles[target]})" if source == "pl" else (
@@ -110,6 +138,51 @@ def show_description(
     target: str, practice_topics: int, story_titles: list[str], email: str,
     source: str = "sv",
 ) -> str:
+    if source == "ru":
+        language, adverb = _russian_language(target)
+        parts = [
+            f"Учи {language}: слушай и говори с подсказками на русском. "
+            "Repeto — аудиокурс для начинающих любого возраста: детей, родителей, "
+            f"бабушек, дедушек и всех, кто хочет начать учить {language}. "
+            "Предварительные знания и учебник не нужны.",
+            "Как это работает: ты слышишь слово или предложение по-русски, "
+            f"а затем во время паузы пробуешь сказать то же самое {adverb}. "
+            "После этого ответ звучит дважды, с паузами для повторения.",
+        ]
+        contents = []
+        if practice_topics:
+            contents.append(
+                "• Сезон 1 — Практика: "
+                f"{_russian_count(practice_topics, 'короткая тема', 'короткие темы', 'коротких тем')} "
+                "— от приветствий и чисел до еды, чувств и повседневных ситуаций."
+            )
+        for title in story_titles:
+            contents.append(
+                f"• Сезон 2 — История {title}: по одной главе в каждом выпуске. "
+                f"Сначала слушай главу {adverb}, затем тренируй слова "
+                "и слушай главу ещё раз."
+            )
+        contents.append(
+            "• Новые истории уже в работе. Подпишись на подкаст, чтобы не пропустить выпуски."
+        )
+        parts.append("Что входит в курс:\n" + "\n".join(contents))
+        parts.append("Как заниматься:\n" + "\n".join([
+            "• Начни с первого выпуска первого сезона и слушай по порядку.",
+            "• Отвечай вслух во время пауз — попробуй вспомнить слова самостоятельно.",
+            "• Слушай выпуск снова, пока не начнёшь отвечать раньше диктора.",
+            "• Фоновое прослушивание помогает привыкнуть к звукам и ритму языка. "
+            "Занимайся и активно: повторяй и отвечай во время пауз.",
+        ]))
+        parts.append(
+            "Нравится такой формат? У Repeto есть курсы и для других языков "
+            "с такой же структурой. Ищи Repeto в своём приложении для подкастов."
+        )
+        parts.append(
+            "Напиши нам! Предложения новых языков, исправления и идеи для историй "
+            f"приветствуются: {email}"
+        )
+        parts.append("Голоса созданы с помощью ИИ (Microsoft Azure).")
+        return "\n\n".join(parts)
     if source == "en":
         language = _english_language(target)
         parts = [
@@ -256,6 +329,21 @@ def practice_description(
     target: str, number: int, total: int, titles: dict[str, str],
     items: list[dict[str, str]], source: str = "se",
 ) -> str:
+    if source == "ru":
+        _, adverb = _russian_language(target)
+        examples = "\n".join(
+            f"• {item[source]} → {item[target]}" for item in items[:EXAMPLES]
+        )
+        phrase_count = _russian_count(len(items), "фраза", "фразы", "фраз")
+        return (
+            f"Тема {number} из {total}: {titles[source]} ({titles[target]}) — "
+            f"{phrase_count}.\n\n"
+            "Ты услышишь слово или предложение по-русски. "
+            f"Скажи то же самое {adverb} во время паузы, прежде чем прозвучит ответ. "
+            "Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.\n\n"
+            f"Примеры из выпуска:\n{examples}\n\n"
+            "Совет: слушай снова, пока не начнёшь отвечать раньше диктора."
+        )
     if source == "en":
         language = _english_language(target)
         examples = "\n".join(
@@ -305,6 +393,24 @@ def story_description(
     target: str, story_titles: dict[str, str], chapter: dict[str, Any], total: int,
     source: str = "sv",
 ) -> str:
+    if source == "ru":
+        _, adverb = _russian_language(target)
+        summary = chapter.get("summary", {}).get(source)
+        opening = (
+            f"История «{story_titles[source]}» ({story_titles[target]}). "
+            f"Глава {chapter['chapter_number']} из {total}."
+        )
+        if summary:
+            opening += f" {summary}"
+        return (
+            f"{opening}\n\n"
+            "Как устроен выпуск:\n"
+            f"1. Послушай всю главу {adverb} — не обязательно понимать всё.\n"
+            "2. Потренируй слова и выражения из главы: подсказка по-русски, "
+            f"пауза, ответ {adverb}.\n"
+            "3. Послушай главу ещё раз и проверь, сколько удалось понять.\n\n"
+            "Между частями звучит сигнал. Слушай по порядку, начиная с первой главы."
+        )
     if source == "en":
         language = _english_language(target)
         summary = chapter.get("summary", {}).get(source)
@@ -392,7 +498,7 @@ def refresh_course(
             f"course source {course_source!r}."
         )
     source = course_source
-    if source not in ("sv", "pl", "en"):
+    if source not in ("sv", "pl", "en", "ru"):
         raise ValueError(f"{course.name}: unsupported source language {source!r}.")
     target = catalog["target_language"]
     practice_target = "se" if target == "sv" else target
@@ -438,7 +544,7 @@ def refresh_course(
     for episode in catalog["episodes"]:
         if PRACTICE_ID.fullmatch(episode["id"]):
             season_names[str(episode["season"])] = (
-                {"sv": "Övningar", "pl": "Ćwiczenia", "en": "Practice"}[source]
+                {"sv": "Övningar", "pl": "Ćwiczenia", "en": "Practice", "ru": "Практика"}[source]
             )
         elif match := STORY_ID.fullmatch(episode["id"]):
             season_names[str(episode["season"])] = (

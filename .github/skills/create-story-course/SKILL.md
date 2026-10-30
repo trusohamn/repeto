@@ -43,7 +43,7 @@ description: Turn a chaptered, child-friendly story into a faithful multilingual
   as the schema example.
 - Give every chapter an optional `summary` map with a one- or two-sentence
   teaser in each supported prompt language (`summary.sv`, `summary.pl`,
-  `summary.en`) for podcast episode descriptions.
+  `summary.en`, `summary.ru`) for podcast episode descriptions.
   Keep it faithful to the chapter text and avoid character names, because
   names are localized per target language.
 - IDs are positive integers unique across all vocabulary items in the story.

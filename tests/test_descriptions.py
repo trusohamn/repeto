@@ -35,6 +35,71 @@ STORY = {
 
 
 class DescriptionTests(unittest.TestCase):
+    def test_russian_audience_copy_and_counts(self):
+        self.assertEqual(descriptions.show_title("es", source="ru"), "Repeto – Учи испанский")
+        self.assertEqual(
+            descriptions.show_title("se", source="ru"),
+            descriptions.show_title("sv", source="ru"),
+        )
+        text = descriptions.show_description("es", 30, [], "a@b.se", source="ru")
+        self.assertIn("30 коротких тем", text)
+        self.assertIn("по-русски", text)
+        self.assertIn("по-испански", text)
+        self.assertIn("ответ звучит дважды", text)
+        self.assertIn("Голоса созданы с помощью ИИ", text)
+        for count, phrase in ((1, "1 фраза"), (2, "2 фразы"), (5, "5 фраз"),
+                              (11, "11 фраз"), (21, "21 фраза"), (22, "22 фразы"),
+                              (25, "25 фраз"), (111, "111 фраз")):
+            with self.subTest(count=count):
+                text = descriptions.practice_description(
+                    "es", 1, 30, {"ru": "Приветствия", "es": "Saludos"},
+                    [{"ru": "Привет!", "es": "¡Hola!"}] * count, source="ru",
+                )
+                self.assertIn(phrase + ".", text)
+                self.assertIn("Привет! → ¡Hola!", text)
+                self.assertIn("Каждая фраза на изучаемом языке звучит дважды", text)
+        with self.assertRaises(ValueError):
+            descriptions.show_title("de", source="ru")
+
+    def test_refresh_russian_source_includes_teaser_and_seasons(self):
+        story = {
+            "story_id": "test_story",
+            "titles": {"ru": "Волшебное радио", "es": "La radio mágica"},
+            "chapters": [
+                {"chapter_number": 1, "summary": {"ru": "Начинается приключение."}},
+            ],
+        }
+        with tempfile.TemporaryDirectory() as directory:
+            course = Path(directory)
+            (course / "course.json").write_text(json.dumps({
+                "title": "Old", "description": "Old", "email": "a@b.se",
+                "source_language": "ru", "target_language": "es",
+                "episodes": [
+                    {"id": "repeto:russian-spanish:topic-01", "description": "old", "season": 1},
+                    {"id": "test_story:ru:es:chapter-01", "description": "old", "season": 2},
+                ],
+            }), encoding="utf-8")
+            catalog = descriptions.refresh_course(
+                course, {"test_story": story},
+                ({"Greetings": [{"ru": "Привет!", "es": "¡Hola!"}]},
+                 {"Greetings": {"ru": "Приветствия", "es": "Saludos"}}),
+                source="ru",
+            )
+            self.assertEqual(catalog["title"], "Repeto – Учи испанский")
+            self.assertEqual(catalog["seasons"], {"1": "Практика", "2": "Волшебное радио"})
+            self.assertIn("«Волшебное радио» (La radio mágica)", catalog["description"])
+            practice, chapter = catalog["episodes"]
+            self.assertIn("Тема 1 из 1", practice["description"])
+            self.assertIn("Привет! → ¡Hola!", practice["description"])
+            self.assertIn("Начинается приключение.", chapter["description"])
+            self.assertIn("подсказка по-русски, пауза, ответ по-испански", chapter["description"])
+            without_summary = descriptions.story_description(
+                "es", story["titles"], {"chapter_number": 1}, 8, source="ru",
+            )
+            self.assertTrue(without_summary.startswith(
+                "История «Волшебное радио» (La radio mágica). Глава 1 из 8.\n\n"
+            ))
+
     def test_english_audience_copy_and_swedish_alias(self):
         self.assertEqual(descriptions.show_title("sv", source="en"), "Repeto – Learn Swedish")
         self.assertEqual(descriptions.show_title("se", source="en"), "Repeto – Learn Swedish")

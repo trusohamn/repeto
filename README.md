@@ -1,6 +1,6 @@
 # Repeto – listen-and-speak language courses
 
-Repeto is a free podcast course for Swedish, Polish and English speakers who are starting a new
+Repeto is a free podcast course for Swedish, Polish, English and Russian speakers who are starting a new
 language. It suits beginners of all ages: children, parents, grandparents and
 any adult who wants to get going without a textbook. Every episode follows the
 same loop: a word or sentence in your source language, a pause to say it yourself in the target
@@ -29,6 +29,7 @@ you know the format, try another language: every course works the same way.
 | Repeto – Ucz się szwedzkiego | [page](https://trusohamn.github.io/repeto/polish-swedish/) | [feed](https://trusohamn.github.io/repeto/polish-swedish/feed.xml) |
 | Repeto – Ucz się hiszpańskiego | [page](https://trusohamn.github.io/repeto/polish-spanish/) | [feed](https://trusohamn.github.io/repeto/polish-spanish/feed.xml) |
 | Repeto – Learn Swedish | [page](https://trusohamn.github.io/repeto/english-swedish/) | [feed](https://trusohamn.github.io/repeto/english-swedish/feed.xml) |
+| Repeto – Учи испанский | [page](https://trusohamn.github.io/repeto/russian-spanish/) | [feed](https://trusohamn.github.io/repeto/russian-spanish/feed.xml) |
 
 New or updated packages become available at these URLs only after publishing
 to GitHub Pages.
@@ -99,6 +100,15 @@ and page labels, and Swedish narration. The existing Swedish Azure voices and
 cached recordings are reused; the story still follows reading, vocabulary
 practice and reading again.
 
+For Russian prompts and Spain-Spanish answers, use practice source `ru`,
+target `es` and `output/russian_spanish_double`. Package with `--source ru
+--target es --course russian-spanish`; render its story with
+`--source-language ru --target es`. This course uses Russian descriptions,
+`summary.ru` story teasers and Russian page labels. Russian prompts use
+`ru-RU-SvetlanaNeural` at `-15%`; Spanish answers use `es-ES-ElviraNeural`
+at `-15%`, with Spanish story narration at `-12%` and no expressive style.
+Existing Spanish readings are reused from the speech cache.
+
 Each podcast lives in `podcast/<course>/` with `cover.jpeg`, `course.json`,
 categorized audio, and generated RSS files. Vocabulary-topic MP3s live in
 `audio/practice/`; story chapters live in `audio/stories/<story-id>/`. The
@@ -129,11 +139,11 @@ number uses `episode`, not its position in the JSON list.
 .venv/bin/python code/podcast.py
 ```
 
-Listener-facing copy for Swedish-, Polish- and English-source courses lives in
+Listener-facing copy for Swedish-, Polish-, English- and Russian-source courses lives in
 [code/descriptions.py](code/descriptions.py): the show title and description,
 the "how to use" steps, practice episode descriptions (topic, phrase count and
 three example phrases) and story episode descriptions (chapter number, the
-chapter's source-language `summary.sv`, `summary.pl` or `summary.en` teaser from the story transcript, and the three
+chapter's source-language `summary.sv`, `summary.pl`, `summary.en` or `summary.ru` teaser from the story transcript, and the three
 listening steps). Both packagers apply it automatically. To refresh the copy of
 already packaged courses without re-rendering audio, run:
 

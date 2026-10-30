@@ -1,0 +1,602 @@
+{
+  "chapter_number": 7,
+  "title": {
+    "pl": "Złoty ptak",
+    "es": "El pájaro dorado",
+    "sv": "Den gyllene fågeln",
+    "en": "The Golden Bird",
+    "ru": "Золотая птица"
+  },
+  "source_language": "ru",
+  "target_language": "es",
+  "practice_order": "deterministically_shuffled",
+  "sequence": [
+    "story",
+    "practice",
+    "story"
+  ],
+  "total_duration_ms": 357206,
+  "practice": [
+    {
+      "id": 234,
+      "kind": "vocabulary",
+      "start_ms": 62352,
+      "end_ms": 73252,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "на другом крыле",
+        "start_ms": 62352,
+        "end_ms": 63690
+      },
+      "target_playbacks": [
+        {
+          "text": "en la otra ala",
+          "start_ms": 65690,
+          "end_ms": 66971
+        },
+        {
+          "text": "en la otra ala",
+          "start_ms": 69471,
+          "end_ms": 70752
+        }
+      ]
+    },
+    {
+      "id": 233,
+      "kind": "vocabulary",
+      "start_ms": 73252,
+      "end_ms": 87131,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "блестящий синий камешек",
+        "start_ms": 73252,
+        "end_ms": 75693
+      },
+      "target_playbacks": [
+        {
+          "text": "una piedrecita azul brillante",
+          "start_ms": 77693,
+          "end_ms": 79912
+        },
+        {
+          "text": "una piedrecita azul brillante",
+          "start_ms": 82412,
+          "end_ms": 84631
+        }
+      ]
+    },
+    {
+      "id": 242,
+      "kind": "vocabulary",
+      "start_ms": 87131,
+      "end_ms": 96744,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "вернуть",
+        "start_ms": 87131,
+        "end_ms": 88052
+      },
+      "target_playbacks": [
+        {
+          "text": "devolver",
+          "start_ms": 90052,
+          "end_ms": 90898
+        },
+        {
+          "text": "devolver",
+          "start_ms": 93398,
+          "end_ms": 94244
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "kind": "vocabulary",
+      "start_ms": 96744,
+      "end_ms": 107438,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "открыть дверь",
+        "start_ms": 96744,
+        "end_ms": 97990
+      },
+      "target_playbacks": [
+        {
+          "text": "abrir la puerta",
+          "start_ms": 99990,
+          "end_ms": 101214
+        },
+        {
+          "text": "abrir la puerta",
+          "start_ms": 103714,
+          "end_ms": 104938
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "kind": "vocabulary",
+      "start_ms": 107438,
+      "end_ms": 116213,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "крыло",
+        "start_ms": 107438,
+        "end_ms": 108101
+      },
+      "target_playbacks": [
+        {
+          "text": "ala",
+          "start_ms": 110101,
+          "end_ms": 110657
+        },
+        {
+          "text": "ala",
+          "start_ms": 113157,
+          "end_ms": 113713
+        }
+      ]
+    },
+    {
+      "id": 231,
+      "kind": "vocabulary",
+      "start_ms": 116213,
+      "end_ms": 128404,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "подземный сад",
+        "start_ms": 116213,
+        "end_ms": 117684
+      },
+      "target_playbacks": [
+        {
+          "text": "un jardín subterráneo",
+          "start_ms": 119684,
+          "end_ms": 121544
+        },
+        {
+          "text": "un jardín subterráneo",
+          "start_ms": 124044,
+          "end_ms": 125904
+        }
+      ]
+    },
+    {
+      "id": 239,
+      "kind": "vocabulary",
+      "start_ms": 128404,
+      "end_ms": 139289,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "давным-давно",
+        "start_ms": 128404,
+        "end_ms": 129621
+      },
+      "target_playbacks": [
+        {
+          "text": "hace mucho tiempo",
+          "start_ms": 131621,
+          "end_ms": 132955
+        },
+        {
+          "text": "hace mucho tiempo",
+          "start_ms": 135455,
+          "end_ms": 136789
+        }
+      ]
+    },
+    {
+      "id": 236,
+      "kind": "vocabulary",
+      "start_ms": 139289,
+      "end_ms": 150628,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "смотреть на радио",
+        "start_ms": 139289,
+        "end_ms": 141032
+      },
+      "target_playbacks": [
+        {
+          "text": "mirar la radio",
+          "start_ms": 143032,
+          "end_ms": 144330
+        },
+        {
+          "text": "mirar la radio",
+          "start_ms": 146830,
+          "end_ms": 148128
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "kind": "vocabulary",
+      "start_ms": 150628,
+      "end_ms": 159899,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "ветка",
+        "start_ms": 150628,
+        "end_ms": 151457
+      },
+      "target_playbacks": [
+        {
+          "text": "rama",
+          "start_ms": 153457,
+          "end_ms": 154178
+        },
+        {
+          "text": "rama",
+          "start_ms": 156678,
+          "end_ms": 157399
+        }
+      ]
+    },
+    {
+      "id": 179,
+      "kind": "vocabulary",
+      "start_ms": 159899,
+      "end_ms": 171428,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "золотая птица",
+        "start_ms": 159899,
+        "end_ms": 161566
+      },
+      "target_playbacks": [
+        {
+          "text": "un pájaro dorado",
+          "start_ms": 163566,
+          "end_ms": 164997
+        },
+        {
+          "text": "un pájaro dorado",
+          "start_ms": 167497,
+          "end_ms": 168928
+        }
+      ]
+    },
+    {
+      "id": 232,
+      "kind": "vocabulary",
+      "start_ms": 171428,
+      "end_ms": 181679,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "на одном крыле",
+        "start_ms": 171428,
+        "end_ms": 172807
+      },
+      "target_playbacks": [
+        {
+          "text": "en un ala",
+          "start_ms": 174807,
+          "end_ms": 175743
+        },
+        {
+          "text": "en un ala",
+          "start_ms": 178243,
+          "end_ms": 179179
+        }
+      ]
+    },
+    {
+      "id": 241,
+      "kind": "vocabulary",
+      "start_ms": 181679,
+      "end_ms": 193213,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "я ждал вас",
+        "start_ms": 181679,
+        "end_ms": 182935
+      },
+      "target_playbacks": [
+        {
+          "text": "os estaba esperando",
+          "start_ms": 184935,
+          "end_ms": 186574
+        },
+        {
+          "text": "os estaba esperando",
+          "start_ms": 189074,
+          "end_ms": 190713
+        }
+      ]
+    },
+    {
+      "id": 141,
+      "kind": "vocabulary",
+      "start_ms": 193213,
+      "end_ms": 203095,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "спрашивать",
+        "start_ms": 193213,
+        "end_ms": 194349
+      },
+      "target_playbacks": [
+        {
+          "text": "preguntar",
+          "start_ms": 196349,
+          "end_ms": 197222
+        },
+        {
+          "text": "preguntar",
+          "start_ms": 199722,
+          "end_ms": 200595
+        }
+      ]
+    },
+    {
+      "id": 235,
+      "kind": "vocabulary",
+      "start_ms": 203095,
+      "end_ms": 214097,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "пустое место",
+        "start_ms": 203095,
+        "end_ms": 204426
+      },
+      "target_playbacks": [
+        {
+          "text": "un hueco vacío",
+          "start_ms": 206426,
+          "end_ms": 207761
+        },
+        {
+          "text": "un hueco vacío",
+          "start_ms": 210261,
+          "end_ms": 211597
+        }
+      ]
+    },
+    {
+      "id": 177,
+      "kind": "vocabulary",
+      "start_ms": 214097,
+      "end_ms": 225504,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "войти в сад",
+        "start_ms": 214097,
+        "end_ms": 215430
+      },
+      "target_playbacks": [
+        {
+          "text": "entrar en el jardín",
+          "start_ms": 217430,
+          "end_ms": 218967
+        },
+        {
+          "text": "entrar en el jardín",
+          "start_ms": 221467,
+          "end_ms": 223004
+        }
+      ]
+    },
+    {
+      "id": 180,
+      "kind": "vocabulary",
+      "start_ms": 225504,
+      "end_ms": 235297,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "не петь",
+        "start_ms": 225504,
+        "end_ms": 226379
+      },
+      "target_playbacks": [
+        {
+          "text": "no cantar",
+          "start_ms": 228379,
+          "end_ms": 229338
+        },
+        {
+          "text": "no cantar",
+          "start_ms": 231838,
+          "end_ms": 232797
+        }
+      ]
+    },
+    {
+      "id": 240,
+      "kind": "vocabulary",
+      "start_ms": 235297,
+      "end_ms": 246198,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "выпасть из крыла",
+        "start_ms": 235297,
+        "end_ms": 236776
+      },
+      "target_playbacks": [
+        {
+          "text": "caerse del ala",
+          "start_ms": 238776,
+          "end_ms": 239987
+        },
+        {
+          "text": "caerse del ala",
+          "start_ms": 242487,
+          "end_ms": 243698
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "kind": "vocabulary",
+      "start_ms": 246198,
+      "end_ms": 259140,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "тикать, как часы",
+        "start_ms": 246198,
+        "end_ms": 248174
+      },
+      "target_playbacks": [
+        {
+          "text": "hacer tictac como un reloj",
+          "start_ms": 250174,
+          "end_ms": 252157
+        },
+        {
+          "text": "hacer tictac como un reloj",
+          "start_ms": 254657,
+          "end_ms": 256640
+        }
+      ]
+    },
+    {
+      "id": 237,
+      "kind": "vocabulary",
+      "start_ms": 259140,
+      "end_ms": 270360,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "выглядеть точно как",
+        "start_ms": 259140,
+        "end_ms": 261070
+      },
+      "target_playbacks": [
+        {
+          "text": "ser igual que",
+          "start_ms": 263070,
+          "end_ms": 264215
+        },
+        {
+          "text": "ser igual que",
+          "start_ms": 266715,
+          "end_ms": 267860
+        }
+      ]
+    },
+    {
+      "id": 181,
+      "kind": "vocabulary",
+      "start_ms": 270360,
+      "end_ms": 279547,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "только",
+        "start_ms": 270360,
+        "end_ms": 271133
+      },
+      "target_playbacks": [
+        {
+          "text": "solo",
+          "start_ms": 273133,
+          "end_ms": 273840
+        },
+        {
+          "text": "solo",
+          "start_ms": 276340,
+          "end_ms": 277047
+        }
+      ]
+    },
+    {
+      "id": 238,
+      "kind": "vocabulary",
+      "start_ms": 279547,
+      "end_ms": 292890,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "откуда у тебя эта кнопка?",
+        "start_ms": 279547,
+        "end_ms": 281674
+      },
+      "target_playbacks": [
+        {
+          "text": "¿de dónde has sacado este botón?",
+          "start_ms": 283674,
+          "end_ms": 285782
+        },
+        {
+          "text": "¿de dónde has sacado este botón?",
+          "start_ms": 288282,
+          "end_ms": 290390
+        }
+      ]
+    },
+    {
+      "id": 178,
+      "kind": "vocabulary",
+      "start_ms": 292890,
+      "end_ms": 305510,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "сидеть на ветке",
+        "start_ms": 292890,
+        "end_ms": 294582
+      },
+      "target_playbacks": [
+        {
+          "text": "estar posado en una rama",
+          "start_ms": 296582,
+          "end_ms": 298546
+        },
+        {
+          "text": "estar posado en una rama",
+          "start_ms": 301046,
+          "end_ms": 303010
+        }
+      ]
+    }
+  ],
+  "book_introduction": null,
+  "chapter_introduction": {
+    "text": "Capítulo siete. El pájaro dorado.",
+    "start_ms": 1000,
+    "end_ms": 5656
+  },
+  "transitions": [
+    {
+      "kind": "chime",
+      "from": "story",
+      "to": "practice",
+      "start_ms": 59232,
+      "end_ms": 59852
+    },
+    {
+      "kind": "chime",
+      "from": "practice",
+      "to": "story",
+      "start_ms": 305510,
+      "end_ms": 306130
+    }
+  ],
+  "chapter_readings": [
+    {
+      "text": "Los niños abren la puerta verde y entran en un jardín subterráneo. En una rama hay un pájaro dorado. No canta. Solo hace tictac como un reloj: tic-tac, tic-tac. En un ala tiene una piedrecita azul brillante. En la otra ala hay un hueco vacío. Maya mira la radio. ¡El botón azul de la radio es igual que la piedrecita del pájaro!\n—Radiofón, ¿de dónde has sacado este botón? —pregunta Maya.\n—Es la piedrecita del pájaro —dice Radiofón—. Hace mucho tiempo se le cayó del ala. Alguien la convirtió en mi botón. ¡Os estaba esperando para devolverla!",
+      "start_ms": 8156,
+      "end_ms": 56732
+    },
+    {
+      "text": "Los niños abren la puerta verde y entran en un jardín subterráneo. En una rama hay un pájaro dorado. No canta. Solo hace tictac como un reloj: tic-tac, tic-tac. En un ala tiene una piedrecita azul brillante. En la otra ala hay un hueco vacío. Maya mira la radio. ¡El botón azul de la radio es igual que la piedrecita del pájaro!\n—Radiofón, ¿de dónde has sacado este botón? —pregunta Maya.\n—Es la piedrecita del pájaro —dice Radiofón—. Hace mucho tiempo se le cayó del ala. Alguien la convirtió en mi botón. ¡Os estaba esperando para devolverla!",
+      "start_ms": 308630,
+      "end_ms": 357206
+    }
+  ],
+  "chapter_reading": {
+    "text": "Los niños abren la puerta verde y entran en un jardín subterráneo. En una rama hay un pájaro dorado. No canta. Solo hace tictac como un reloj: tic-tac, tic-tac. En un ala tiene una piedrecita azul brillante. En la otra ala hay un hueco vacío. Maya mira la radio. ¡El botón azul de la radio es igual que la piedrecita del pájaro!\n—Radiofón, ¿de dónde has sacado este botón? —pregunta Maya.\n—Es la piedrecita del pájaro —dice Radiofón—. Hace mucho tiempo se le cayó del ala. Alguien la convirtió en mi botón. ¡Os estaba esperando para devolverla!",
+    "start_ms": 308630,
+    "end_ms": 357206
+  },
+  "narration": {
+    "engine": "azure",
+    "voice": "es-ES-ElviraNeural",
+    "style": null,
+    "rate": "-12%",
+    "locale": "es-ES",
+    "capabilities": {
+      "voice": "es-ES-ElviraNeural",
+      "locale": "es-ES",
+      "advertised_styles": []
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"es-ES\"><voice name=\"es-ES-ElviraNeural\"><prosody rate=\"-12%\"><p>Los niños abren la puerta verde y entran en un jardín subterráneo. En una rama hay un pájaro dorado. No canta. Solo hace tictac como un reloj: tic-tac, tic-tac. En un ala tiene una piedrecita azul brillante. En la otra ala hay un hueco vacío. Maya mira la radio. ¡El botón azul de la radio es igual que la piedrecita del pájaro!\n—Radiofón, ¿de dónde has sacado este botón? —pregunta Maya.\n—Es la piedrecita del pájaro —dice Radiofón—. Hace mucho tiempo se le cayó del ala. Alguien la convirtió en mi botón. ¡Os estaba esperando para devolverla!</p></prosody></voice></speak>"
+  },
+  "audio_file": "07_chapter_07_ru_es_2026-10-30_17-01-44.mp3"
+}

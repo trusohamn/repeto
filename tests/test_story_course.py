@@ -27,18 +27,23 @@ def tone(duration: int = 100) -> AudioSegment:
 def mini_story() -> dict:
     return {
         "story_id": "test_story",
-        "titles": {"pl": "Kot", "sv": "Katten", "en": "The Cat"},
+        "titles": {"pl": "Kot", "sv": "Katten", "en": "The Cat", "ru": "Кот", "es": "El gato"},
         "chapters": [
             {
                 "chapter_number": 1,
-                "titles": {"pl": "Kot", "sv": "Katten", "en": "The Cat"},
+                "titles": {"pl": "Kot", "sv": "Katten", "en": "The Cat", "ru": "Кот", "es": "El gato"},
                 "chapter_text": {
                     "pl": "Kot śpi.",
                     "sv": "Katten sover.",
                     "en": "The cat is sleeping.",
+                    "ru": "Кот спит.",
+                    "es": "El gato está durmiendo.",
                 },
                 "vocabulary": [
-                    {"id": 1, "text": {"pl": "mały kot", "sv": "liten katt", "en": "little cat"}}
+                    {"id": 1, "text": {
+                        "pl": "mały kot", "sv": "liten katt", "en": "little cat",
+                        "ru": "маленький кот", "es": "gato pequeño",
+                    }}
                 ],
             }
         ],
@@ -52,7 +57,9 @@ class StoryCourseTests(unittest.TestCase):
     def test_azure_is_default_and_practice_stays_on_edge_for_all_languages(self):
         azure = story_course._azure()
         self.assertEqual(story_course.create_parser().parse_args([]).narration_engine, "azure")
-        for source_language, target in (("sv", "pl"), ("pl", "sv"), ("sv", "en"), ("en", "sv")):
+        for source_language, target in (
+            ("sv", "pl"), ("pl", "sv"), ("sv", "en"), ("en", "sv"), ("ru", "es"),
+        ):
             with self.subTest(target=target), tempfile.TemporaryDirectory() as directory:
                 root = Path(directory)
                 transcript = root / "transcript.json"
@@ -83,6 +90,15 @@ class StoryCourseTests(unittest.TestCase):
                 ) as narration:
                     result = asyncio.run(story_course.render_story(args))
                 self.assertEqual(practice.await_count, 2)
+                self.assertEqual(
+                    [call.args[1] for call in practice.await_args_list],
+                    [source_language, target],
+                )
+                self.assertEqual(
+                    [call.args[0] for call in practice.await_args_list],
+                    [mini_story()["chapters"][0]["vocabulary"][0]["text"][lang]
+                     for lang in (source_language, target)],
+                )
                 self.assertEqual(narration.await_count, 3)
                 data = result["chapters"]["1"]["targets"][target]
                 settings = data["narration"]
@@ -103,7 +119,7 @@ class StoryCourseTests(unittest.TestCase):
                     decoded[after["start_ms"]:after["end_ms"]].raw_data,
                 )
                 self.assertEqual(settings["voice"], azure.NARRATION_VOICES[target])
-                self.assertEqual(settings["style"], "audiobook")
+                self.assertEqual(settings["style"], azure.NARRATION_STYLES.get(target, "audiobook"))
                 self.assertIn(azure.LOCALES[target], settings["ssml"])
                 self.assertIn('volume="-5%"', settings["ssml"])
                 self.assertIn('rate="-15%"', settings["ssml"])
@@ -806,6 +822,64 @@ class StoryCourseTests(unittest.TestCase):
             self.assertIn("an English prompt", episode["description"])
             self.assertEqual(catalog["title"], "Repeto – Learn Swedish")
             self.assertEqual(catalog["seasons"], {"1": "Test Story"})
+            self.assertTrue((course / "audio" / episode["file"]).is_file())
+            story_course.package_podcasts(args, transcript, build)
+            self.assertEqual(
+                catalog["episodes"],
+                json.loads(catalog_path.read_text(encoding="utf-8"))["episodes"],
+            )
+
+    def test_russian_spanish_story_packaging_localizes_copy(self):
+        chapter = {
+            "chapter_number": 1,
+            "titles": {"ru": "Кот", "es": "El gato"},
+            "summary": {"ru": "Начинается приключение."},
+        }
+        transcript = {
+            "story_id": "test_story",
+            "titles": {"ru": "Волшебное радио", "es": "La radio mágica"},
+            "chapters": [chapter],
+        }
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            course = root / "podcast/russian-spanish"
+            course.mkdir(parents=True)
+            (course / "cover.jpeg").write_bytes(b"existing cover")
+            catalog_path = course / "course.json"
+            catalog_path.write_text(json.dumps({
+                "title": "Repeto", "description": "Course", "language": "ru",
+                "author": "Repeto", "email": "repeto.lingo@gmail.com",
+                "source_language": "ru", "target_language": "es", "episodes": [],
+            }), encoding="utf-8")
+            story_root = root / "story"
+            (story_root / "generated").mkdir(parents=True)
+            (story_root / "cover.jpeg").write_bytes(b"story cover")
+            transcript_path = story_root / "generated/transcript.json"
+            output = story_course.default_output(transcript_path, "ru", ["es"])
+            output.mkdir(parents=True)
+            audio_name = "01_chapter_01_ru_es_2026-10-30_17-00-00.mp3"
+            (output / audio_name).write_bytes(b"story audio")
+            args = argparse.Namespace(
+                podcast_course="russian-spanish", source_language="ru",
+                transcript=transcript_path, cover=None,
+                email="repeto.lingo@gmail.com", podcast_root=root / "podcast",
+                podcast_base_url="https://example.com/repeto", author="Repeto",
+                output=None,
+            )
+            build = {
+                "settings": {"target_languages": ["es"]},
+                "chapters": {"1": {"targets": {"es": {
+                    "audio_file": audio_name, "total_duration_ms": 8400,
+                }}}},
+            }
+            story_course.package_podcasts(args, transcript, build)
+            catalog = json.loads(catalog_path.read_text(encoding="utf-8"))
+            episode = catalog["episodes"][0]
+            self.assertEqual(episode["id"], "test_story:ru:es:chapter-01")
+            self.assertIn("Начинается приключение.", episode["description"])
+            self.assertIn("подсказка по-русски", episode["description"])
+            self.assertEqual(catalog["title"], "Repeto – Учи испанский")
+            self.assertEqual(catalog["seasons"], {"1": "Волшебное радио"})
             self.assertTrue((course / "audio" / episode["file"]).is_file())
             story_course.package_podcasts(args, transcript, build)
             self.assertEqual(

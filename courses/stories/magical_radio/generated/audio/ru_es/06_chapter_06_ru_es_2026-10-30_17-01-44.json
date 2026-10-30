@@ -1,0 +1,434 @@
+{
+  "chapter_number": 6,
+  "title": {
+    "pl": "Pierwsze zaklęcie",
+    "es": "El primer hechizo",
+    "sv": "Den första trollformeln",
+    "en": "The First Spell",
+    "ru": "Первое заклинание"
+  },
+  "source_language": "ru",
+  "target_language": "es",
+  "practice_order": "deterministically_shuffled",
+  "sequence": [
+    "story",
+    "practice",
+    "story"
+  ],
+  "total_duration_ms": 228977,
+  "practice": [
+    {
+      "id": 170,
+      "kind": "vocabulary",
+      "start_ms": 41496,
+      "end_ms": 50810,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "крутиться",
+        "start_ms": 41496,
+        "end_ms": 42560
+      },
+      "target_playbacks": [
+        {
+          "text": "girar",
+          "start_ms": 44560,
+          "end_ms": 45185
+        },
+        {
+          "text": "girar",
+          "start_ms": 47685,
+          "end_ms": 48310
+        }
+      ]
+    },
+    {
+      "id": 175,
+      "kind": "vocabulary",
+      "start_ms": 50810,
+      "end_ms": 60175,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "кто-то",
+        "start_ms": 50810,
+        "end_ms": 51625
+      },
+      "target_playbacks": [
+        {
+          "text": "alguien",
+          "start_ms": 53625,
+          "end_ms": 54400
+        },
+        {
+          "text": "alguien",
+          "start_ms": 56900,
+          "end_ms": 57675
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "kind": "vocabulary",
+      "start_ms": 60175,
+      "end_ms": 71144,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "ждать помощи",
+        "start_ms": 60175,
+        "end_ms": 61578
+      },
+      "target_playbacks": [
+        {
+          "text": "esperar ayuda",
+          "start_ms": 63578,
+          "end_ms": 64861
+        },
+        {
+          "text": "esperar ayuda",
+          "start_ms": 67361,
+          "end_ms": 68644
+        }
+      ]
+    },
+    {
+      "id": 174,
+      "kind": "vocabulary",
+      "start_ms": 71144,
+      "end_ms": 81987,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "за дверью",
+        "start_ms": 71144,
+        "end_ms": 72121
+      },
+      "target_playbacks": [
+        {
+          "text": "detrás de la puerta",
+          "start_ms": 74121,
+          "end_ms": 75554
+        },
+        {
+          "text": "detrás de la puerta",
+          "start_ms": 78054,
+          "end_ms": 79487
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "kind": "vocabulary",
+      "start_ms": 81987,
+      "end_ms": 92325,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "зелёная дверь",
+        "start_ms": 81987,
+        "end_ms": 83359
+      },
+      "target_playbacks": [
+        {
+          "text": "puerta verde",
+          "start_ms": 85359,
+          "end_ms": 86342
+        },
+        {
+          "text": "puerta verde",
+          "start_ms": 88842,
+          "end_ms": 89825
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "kind": "vocabulary",
+      "start_ms": 92325,
+      "end_ms": 103967,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "стрелка компаса",
+        "start_ms": 92325,
+        "end_ms": 93941
+      },
+      "target_playbacks": [
+        {
+          "text": "aguja de la brújula",
+          "start_ms": 95941,
+          "end_ms": 97454
+        },
+        {
+          "text": "aguja de la brújula",
+          "start_ms": 99954,
+          "end_ms": 101467
+        }
+      ]
+    },
+    {
+      "id": 168,
+      "kind": "vocabulary",
+      "start_ms": 103967,
+      "end_ms": 113437,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "снова",
+        "start_ms": 103967,
+        "end_ms": 104829
+      },
+      "target_playbacks": [
+        {
+          "text": "otra vez",
+          "start_ms": 106829,
+          "end_ms": 107633
+        },
+        {
+          "text": "otra vez",
+          "start_ms": 110133,
+          "end_ms": 110937
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "kind": "vocabulary",
+      "start_ms": 113437,
+      "end_ms": 124458,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "золотая искра",
+        "start_ms": 113437,
+        "end_ms": 115156
+      },
+      "target_playbacks": [
+        {
+          "text": "chispa dorada",
+          "start_ms": 117156,
+          "end_ms": 118307
+        },
+        {
+          "text": "chispa dorada",
+          "start_ms": 120807,
+          "end_ms": 121958
+        }
+      ]
+    },
+    {
+      "id": 172,
+      "kind": "vocabulary",
+      "start_ms": 124458,
+      "end_ms": 134366,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "работать",
+        "start_ms": 124458,
+        "end_ms": 125490
+      },
+      "target_playbacks": [
+        {
+          "text": "funcionar",
+          "start_ms": 127490,
+          "end_ms": 128428
+        },
+        {
+          "text": "funcionar",
+          "start_ms": 130928,
+          "end_ms": 131866
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "kind": "vocabulary",
+      "start_ms": 134366,
+      "end_ms": 145583,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "говорить вместе",
+        "start_ms": 134366,
+        "end_ms": 135887
+      },
+      "target_playbacks": [
+        {
+          "text": "decir juntos",
+          "start_ms": 137887,
+          "end_ms": 139235
+        },
+        {
+          "text": "decir juntos",
+          "start_ms": 141735,
+          "end_ms": 143083
+        }
+      ]
+    },
+    {
+      "id": 171,
+      "kind": "vocabulary",
+      "start_ms": 145583,
+      "end_ms": 155335,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "показывать",
+        "start_ms": 145583,
+        "end_ms": 146605
+      },
+      "target_playbacks": [
+        {
+          "text": "señalar",
+          "start_ms": 148605,
+          "end_ms": 149470
+        },
+        {
+          "text": "señalar",
+          "start_ms": 151970,
+          "end_ms": 152835
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "kind": "vocabulary",
+      "start_ms": 155335,
+      "end_ms": 167273,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "держать компас",
+        "start_ms": 155335,
+        "end_ms": 156897
+      },
+      "target_playbacks": [
+        {
+          "text": "sostener la brújula",
+          "start_ms": 158897,
+          "end_ms": 160585
+        },
+        {
+          "text": "sostener la brújula",
+          "start_ms": 163085,
+          "end_ms": 164773
+        }
+      ]
+    },
+    {
+      "id": 169,
+      "kind": "vocabulary",
+      "start_ms": 167273,
+      "end_ms": 177678,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "быть целым",
+        "start_ms": 167273,
+        "end_ms": 168384
+      },
+      "target_playbacks": [
+        {
+          "text": "estar entero",
+          "start_ms": 170384,
+          "end_ms": 171531
+        },
+        {
+          "text": "estar entero",
+          "start_ms": 174031,
+          "end_ms": 175178
+        }
+      ]
+    },
+    {
+      "id": 176,
+      "kind": "vocabulary",
+      "start_ms": 177678,
+      "end_ms": 188584,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "ваша помощь",
+        "start_ms": 177678,
+        "end_ms": 178888
+      },
+      "target_playbacks": [
+        {
+          "text": "vuestra ayuda",
+          "start_ms": 180888,
+          "end_ms": 182236
+        },
+        {
+          "text": "vuestra ayuda",
+          "start_ms": 184736,
+          "end_ms": 186084
+        }
+      ]
+    },
+    {
+      "id": 173,
+      "kind": "vocabulary",
+      "start_ms": 188584,
+      "end_ms": 197946,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "кричать",
+        "start_ms": 188584,
+        "end_ms": 189546
+      },
+      "target_playbacks": [
+        {
+          "text": "gritar",
+          "start_ms": 191546,
+          "end_ms": 192246
+        },
+        {
+          "text": "gritar",
+          "start_ms": 194746,
+          "end_ms": 195446
+        }
+      ]
+    }
+  ],
+  "book_introduction": null,
+  "chapter_introduction": {
+    "text": "Capítulo seis. El primer hechizo.",
+    "start_ms": 1000,
+    "end_ms": 5464
+  },
+  "transitions": [
+    {
+      "kind": "chime",
+      "from": "story",
+      "to": "practice",
+      "start_ms": 38376,
+      "end_ms": 38996
+    },
+    {
+      "kind": "chime",
+      "from": "practice",
+      "to": "story",
+      "start_ms": 197946,
+      "end_ms": 198566
+    }
+  ],
+  "chapter_readings": [
+    {
+      "text": "Tom sostiene la brújula. Los niños dicen juntos:\n—¡Reparo!\nBrilla una chispa dorada. ¡La brújula vuelve a estar entera! La aguja de la brújula gira y señala una puerta verde.\n—¡Funciona! —grita Tom.\nRadiofón dice:\n—Detrás de la puerta, alguien espera vuestra ayuda.",
+      "start_ms": 7964,
+      "end_ms": 35876
+    },
+    {
+      "text": "Tom sostiene la brújula. Los niños dicen juntos:\n—¡Reparo!\nBrilla una chispa dorada. ¡La brújula vuelve a estar entera! La aguja de la brújula gira y señala una puerta verde.\n—¡Funciona! —grita Tom.\nRadiofón dice:\n—Detrás de la puerta, alguien espera vuestra ayuda.",
+      "start_ms": 201066,
+      "end_ms": 228977
+    }
+  ],
+  "chapter_reading": {
+    "text": "Tom sostiene la brújula. Los niños dicen juntos:\n—¡Reparo!\nBrilla una chispa dorada. ¡La brújula vuelve a estar entera! La aguja de la brújula gira y señala una puerta verde.\n—¡Funciona! —grita Tom.\nRadiofón dice:\n—Detrás de la puerta, alguien espera vuestra ayuda.",
+    "start_ms": 201066,
+    "end_ms": 228977
+  },
+  "narration": {
+    "engine": "azure",
+    "voice": "es-ES-ElviraNeural",
+    "style": null,
+    "rate": "-12%",
+    "locale": "es-ES",
+    "capabilities": {
+      "voice": "es-ES-ElviraNeural",
+      "locale": "es-ES",
+      "advertised_styles": []
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"es-ES\"><voice name=\"es-ES-ElviraNeural\"><prosody rate=\"-12%\"><p>Tom sostiene la brújula. Los niños dicen juntos:\n—¡Reparo!\nBrilla una chispa dorada. ¡La brújula vuelve a estar entera! La aguja de la brújula gira y señala una puerta verde.\n—¡Funciona! —grita Tom.\nRadiofón dice:\n—Detrás de la puerta, alguien espera vuestra ayuda.</p></prosody></voice></speak>"
+  },
+  "audio_file": "06_chapter_06_ru_es_2026-10-30_17-01-44.mp3"
+}

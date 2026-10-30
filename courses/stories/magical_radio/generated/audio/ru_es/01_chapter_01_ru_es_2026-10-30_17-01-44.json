@@ -1,0 +1,582 @@
+{
+  "chapter_number": 1,
+  "title": {
+    "pl": "Stary stół",
+    "es": "La mesa vieja",
+    "sv": "Det gamla bordet",
+    "en": "The Old Table",
+    "ru": "Старый стол"
+  },
+  "source_language": "ru",
+  "target_language": "es",
+  "practice_order": "deterministically_shuffled",
+  "sequence": [
+    "story",
+    "practice",
+    "story"
+  ],
+  "total_duration_ms": 318030,
+  "practice": [
+    {
+      "id": 210,
+      "kind": "vocabulary",
+      "start_ms": 51772,
+      "end_ms": 60915,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "стоять",
+        "start_ms": 51772,
+        "end_ms": 52693
+      },
+      "target_playbacks": [
+        {
+          "text": "estar",
+          "start_ms": 54693,
+          "end_ms": 55304
+        },
+        {
+          "text": "estar",
+          "start_ms": 57804,
+          "end_ms": 58415
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "kind": "vocabulary",
+      "start_ms": 60915,
+      "end_ms": 73273,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "широко открыть глаза",
+        "start_ms": 60915,
+        "end_ms": 62785
+      },
+      "target_playbacks": [
+        {
+          "text": "abrir mucho los ojos",
+          "start_ms": 64785,
+          "end_ms": 66529
+        },
+        {
+          "text": "abrir mucho los ojos",
+          "start_ms": 69029,
+          "end_ms": 70773
+        }
+      ]
+    },
+    {
+      "id": 114,
+      "kind": "vocabulary",
+      "start_ms": 73273,
+      "end_ms": 84923,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "ему шесть лет",
+        "start_ms": 73273,
+        "end_ms": 74949
+      },
+      "target_playbacks": [
+        {
+          "text": "tiene seis años",
+          "start_ms": 76949,
+          "end_ms": 78436
+        },
+        {
+          "text": "tiene seis años",
+          "start_ms": 80936,
+          "end_ms": 82423
+        }
+      ]
+    },
+    {
+      "id": 115,
+      "kind": "vocabulary",
+      "start_ms": 84923,
+      "end_ms": 94492,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "вместе",
+        "start_ms": 84923,
+        "end_ms": 85866
+      },
+      "target_playbacks": [
+        {
+          "text": "juntos",
+          "start_ms": 87866,
+          "end_ms": 88679
+        },
+        {
+          "text": "juntos",
+          "start_ms": 91179,
+          "end_ms": 91992
+        }
+      ]
+    },
+    {
+      "id": 122,
+      "kind": "vocabulary",
+      "start_ms": 94492,
+      "end_ms": 104249,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "появиться",
+        "start_ms": 94492,
+        "end_ms": 95591
+      },
+      "target_playbacks": [
+        {
+          "text": "aparecer",
+          "start_ms": 97591,
+          "end_ms": 98420
+        },
+        {
+          "text": "aparecer",
+          "start_ms": 100920,
+          "end_ms": 101749
+        }
+      ]
+    },
+    {
+      "id": 111,
+      "kind": "vocabulary",
+      "start_ms": 104249,
+      "end_ms": 113869,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "суббота",
+        "start_ms": 104249,
+        "end_ms": 105207
+      },
+      "target_playbacks": [
+        {
+          "text": "sábado",
+          "start_ms": 107207,
+          "end_ms": 108038
+        },
+        {
+          "text": "sábado",
+          "start_ms": 110538,
+          "end_ms": 111369
+        }
+      ]
+    },
+    {
+      "id": 211,
+      "kind": "vocabulary",
+      "start_ms": 113869,
+      "end_ms": 127467,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "идти на блошиный рынок",
+        "start_ms": 113869,
+        "end_ms": 115809
+      },
+      "target_playbacks": [
+        {
+          "text": "ir a un mercadillo de segunda mano",
+          "start_ms": 117809,
+          "end_ms": 120138
+        },
+        {
+          "text": "ir a un mercadillo de segunda mano",
+          "start_ms": 122638,
+          "end_ms": 124967
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "kind": "vocabulary",
+      "start_ms": 127467,
+      "end_ms": 140016,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "блошиный рынок",
+        "start_ms": 127467,
+        "end_ms": 129010
+      },
+      "target_playbacks": [
+        {
+          "text": "mercadillo de segunda mano",
+          "start_ms": 131010,
+          "end_ms": 133013
+        },
+        {
+          "text": "mercadillo de segunda mano",
+          "start_ms": 135513,
+          "end_ms": 137516
+        }
+      ]
+    },
+    {
+      "id": 200,
+      "kind": "vocabulary",
+      "start_ms": 140016,
+      "end_ms": 149098,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "когда",
+        "start_ms": 140016,
+        "end_ms": 140726
+      },
+      "target_playbacks": [
+        {
+          "text": "cuando",
+          "start_ms": 142726,
+          "end_ms": 143412
+        },
+        {
+          "text": "cuando",
+          "start_ms": 145912,
+          "end_ms": 146598
+        }
+      ]
+    },
+    {
+      "id": 117,
+      "kind": "vocabulary",
+      "start_ms": 149098,
+      "end_ms": 159679,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "старый стол",
+        "start_ms": 149098,
+        "end_ms": 150201
+      },
+      "target_playbacks": [
+        {
+          "text": "una mesa vieja",
+          "start_ms": 152201,
+          "end_ms": 153440
+        },
+        {
+          "text": "una mesa vieja",
+          "start_ms": 155940,
+          "end_ms": 157179
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "kind": "vocabulary",
+      "start_ms": 159679,
+      "end_ms": 171072,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "золотая надпись",
+        "start_ms": 159679,
+        "end_ms": 161282
+      },
+      "target_playbacks": [
+        {
+          "text": "mensaje dorado",
+          "start_ms": 163282,
+          "end_ms": 164677
+        },
+        {
+          "text": "mensaje dorado",
+          "start_ms": 167177,
+          "end_ms": 168572
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "kind": "vocabulary",
+      "start_ms": 171072,
+      "end_ms": 183224,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "тихо шуметь",
+        "start_ms": 171072,
+        "end_ms": 172344
+      },
+      "target_playbacks": [
+        {
+          "text": "emitir un suave zumbido",
+          "start_ms": 174344,
+          "end_ms": 176284
+        },
+        {
+          "text": "emitir un suave zumbido",
+          "start_ms": 178784,
+          "end_ms": 180724
+        }
+      ]
+    },
+    {
+      "id": 119,
+      "kind": "vocabulary",
+      "start_ms": 183224,
+      "end_ms": 193919,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "на столе",
+        "start_ms": 183224,
+        "end_ms": 184111
+      },
+      "target_playbacks": [
+        {
+          "text": "encima de la mesa",
+          "start_ms": 186111,
+          "end_ms": 187515
+        },
+        {
+          "text": "encima de la mesa",
+          "start_ms": 190015,
+          "end_ms": 191419
+        }
+      ]
+    },
+    {
+      "id": 120,
+      "kind": "vocabulary",
+      "start_ms": 193919,
+      "end_ms": 204323,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "подходить ближе",
+        "start_ms": 193919,
+        "end_ms": 195290
+      },
+      "target_playbacks": [
+        {
+          "text": "acercarse",
+          "start_ms": 197290,
+          "end_ms": 198307
+        },
+        {
+          "text": "acercarse",
+          "start_ms": 200807,
+          "end_ms": 201823
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "kind": "vocabulary",
+      "start_ms": 204323,
+      "end_ms": 215758,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "золотые ручки",
+        "start_ms": 204323,
+        "end_ms": 205856
+      },
+      "target_playbacks": [
+        {
+          "text": "mandos dorados",
+          "start_ms": 207856,
+          "end_ms": 209307
+        },
+        {
+          "text": "mandos dorados",
+          "start_ms": 211807,
+          "end_ms": 213258
+        }
+      ]
+    },
+    {
+      "id": 112,
+      "kind": "vocabulary",
+      "start_ms": 215758,
+      "end_ms": 227324,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "ей девять лет",
+        "start_ms": 215758,
+        "end_ms": 217240
+      },
+      "target_playbacks": [
+        {
+          "text": "tiene nueve años",
+          "start_ms": 219240,
+          "end_ms": 220782
+        },
+        {
+          "text": "tiene nueve años",
+          "start_ms": 223282,
+          "end_ms": 224824
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "kind": "vocabulary",
+      "start_ms": 227324,
+      "end_ms": 239366,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "разноцветные кнопки",
+        "start_ms": 227324,
+        "end_ms": 229230
+      },
+      "target_playbacks": [
+        {
+          "text": "botones de colores",
+          "start_ms": 231230,
+          "end_ms": 232798
+        },
+        {
+          "text": "botones de colores",
+          "start_ms": 235298,
+          "end_ms": 236866
+        }
+      ]
+    },
+    {
+      "id": 113,
+      "kind": "vocabulary",
+      "start_ms": 239366,
+      "end_ms": 249429,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "её брат",
+        "start_ms": 239366,
+        "end_ms": 240477
+      },
+      "target_playbacks": [
+        {
+          "text": "su hermano",
+          "start_ms": 242477,
+          "end_ms": 243453
+        },
+        {
+          "text": "su hermano",
+          "start_ms": 245953,
+          "end_ms": 246929
+        }
+      ]
+    },
+    {
+      "id": 118,
+      "kind": "vocabulary",
+      "start_ms": 249429,
+      "end_ms": 261389,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "деревянное радио",
+        "start_ms": 249429,
+        "end_ms": 251133
+      },
+      "target_playbacks": [
+        {
+          "text": "una radio de madera",
+          "start_ms": 253133,
+          "end_ms": 254761
+        },
+        {
+          "text": "una radio de madera",
+          "start_ms": 257261,
+          "end_ms": 258889
+        }
+      ]
+    },
+    {
+      "id": 121,
+      "kind": "vocabulary",
+      "start_ms": 261389,
+      "end_ms": 271393,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "вдруг",
+        "start_ms": 261389,
+        "end_ms": 262215
+      },
+      "target_playbacks": [
+        {
+          "text": "de repente",
+          "start_ms": 264215,
+          "end_ms": 265304
+        },
+        {
+          "text": "de repente",
+          "start_ms": 267804,
+          "end_ms": 268893
+        }
+      ]
+    },
+    {
+      "id": 116,
+      "kind": "vocabulary",
+      "start_ms": 271393,
+      "end_ms": 281454,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "в углу",
+        "start_ms": 271393,
+        "end_ms": 272104
+      },
+      "target_playbacks": [
+        {
+          "text": "en un rincón",
+          "start_ms": 274104,
+          "end_ms": 275279
+        },
+        {
+          "text": "en un rincón",
+          "start_ms": 277779,
+          "end_ms": 278954
+        }
+      ]
+    }
+  ],
+  "book_introduction": {
+    "text": "La radio mágica.",
+    "start_ms": 1000,
+    "end_ms": 3424
+  },
+  "chapter_introduction": {
+    "text": "Capítulo uno. La mesa vieja.",
+    "start_ms": 5924,
+    "end_ms": 10196
+  },
+  "transitions": [
+    {
+      "kind": "chime",
+      "from": "story",
+      "to": "practice",
+      "start_ms": 48652,
+      "end_ms": 49272
+    },
+    {
+      "kind": "chime",
+      "from": "practice",
+      "to": "story",
+      "start_ms": 281454,
+      "end_ms": 282074
+    }
+  ],
+  "chapter_readings": [
+    {
+      "text": "Es sábado. Maya tiene nueve años y su hermano Tom tiene seis. Juntos van a un mercadillo de segunda mano. En un rincón hay una mesa vieja y, encima de la mesa, una radio de madera. Tiene mandos dorados y botones de colores. Cuando Maya se acerca, la radio empieza de repente a emitir un suave zumbido. En la radio aparece un mensaje dorado: «Para Maya y Tom». Los niños abren mucho los ojos.",
+      "start_ms": 12696,
+      "end_ms": 46152
+    },
+    {
+      "text": "Es sábado. Maya tiene nueve años y su hermano Tom tiene seis. Juntos van a un mercadillo de segunda mano. En un rincón hay una mesa vieja y, encima de la mesa, una radio de madera. Tiene mandos dorados y botones de colores. Cuando Maya se acerca, la radio empieza de repente a emitir un suave zumbido. En la radio aparece un mensaje dorado: «Para Maya y Tom». Los niños abren mucho los ojos.",
+      "start_ms": 284574,
+      "end_ms": 318030
+    }
+  ],
+  "chapter_reading": {
+    "text": "Es sábado. Maya tiene nueve años y su hermano Tom tiene seis. Juntos van a un mercadillo de segunda mano. En un rincón hay una mesa vieja y, encima de la mesa, una radio de madera. Tiene mandos dorados y botones de colores. Cuando Maya se acerca, la radio empieza de repente a emitir un suave zumbido. En la radio aparece un mensaje dorado: «Para Maya y Tom». Los niños abren mucho los ojos.",
+    "start_ms": 284574,
+    "end_ms": 318030
+  },
+  "narration": {
+    "engine": "azure",
+    "voice": "es-ES-ElviraNeural",
+    "style": null,
+    "rate": "-12%",
+    "locale": "es-ES",
+    "capabilities": {
+      "voice": "es-ES-ElviraNeural",
+      "locale": "es-ES",
+      "advertised_styles": []
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"es-ES\"><voice name=\"es-ES-ElviraNeural\"><prosody rate=\"-12%\"><p>Es sábado. Maya tiene nueve años y su hermano Tom tiene seis. Juntos van a un mercadillo de segunda mano. En un rincón hay una mesa vieja y, encima de la mesa, una radio de madera. Tiene mandos dorados y botones de colores. Cuando Maya se acerca, la radio empieza de repente a emitir un suave zumbido. En la radio aparece un mensaje dorado: «Para Maya y Tom». Los niños abren mucho los ojos.</p></prosody></voice></speak>"
+  },
+  "audio_file": "01_chapter_01_ru_es_2026-10-30_17-01-44.mp3"
+}

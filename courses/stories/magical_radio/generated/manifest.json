@@ -225,69 +225,6 @@
           },
           "packaged_audio": "polish-english/audio/stories/magical_radio/01_chapter_01_pl_en_2026-10-29_20-56-15.mp3"
         },
-        "es": {
-          "source_language": "pl",
-          "audio_file": "01_chapter_01_pl_es_2026-10-30_12-52-42.mp3",
-          "manifest_file": "01_chapter_01_pl_es_2026-10-30_12-52-42.json",
-          "total_duration_ms": 312955,
-          "chapter_reading": {
-            "text": "Es sábado. Maya tiene nueve años y su hermano Tom tiene seis. Juntos van a un mercadillo de segunda mano. En un rincón hay una mesa vieja y, encima de la mesa, una radio de madera. Tiene mandos dorados y botones de colores. Cuando Maya se acerca, la radio empieza de repente a emitir un suave zumbido. En la radio aparece un mensaje dorado: «Para Maya y Tom». Los niños abren mucho los ojos.",
-            "start_ms": 279499,
-            "end_ms": 312955
-          },
-          "chapter_introduction": {
-            "text": "Capítulo uno. La mesa vieja.",
-            "start_ms": 5924,
-            "end_ms": 10196
-          },
-          "chapter_readings": [
-            {
-              "text": "Es sábado. Maya tiene nueve años y su hermano Tom tiene seis. Juntos van a un mercadillo de segunda mano. En un rincón hay una mesa vieja y, encima de la mesa, una radio de madera. Tiene mandos dorados y botones de colores. Cuando Maya se acerca, la radio empieza de repente a emitir un suave zumbido. En la radio aparece un mensaje dorado: «Para Maya y Tom». Los niños abren mucho los ojos.",
-              "start_ms": 12696,
-              "end_ms": 46152
-            },
-            {
-              "text": "Es sábado. Maya tiene nueve años y su hermano Tom tiene seis. Juntos van a un mercadillo de segunda mano. En un rincón hay una mesa vieja y, encima de la mesa, una radio de madera. Tiene mandos dorados y botones de colores. Cuando Maya se acerca, la radio empieza de repente a emitir un suave zumbido. En la radio aparece un mensaje dorado: «Para Maya y Tom». Los niños abren mucho los ojos.",
-              "start_ms": 279499,
-              "end_ms": 312955
-            }
-          ],
-          "sequence": [
-            "story",
-            "practice",
-            "story"
-          ],
-          "transitions": [
-            {
-              "kind": "chime",
-              "from": "story",
-              "to": "practice",
-              "start_ms": 48652,
-              "end_ms": 49272
-            },
-            {
-              "kind": "chime",
-              "from": "practice",
-              "to": "story",
-              "start_ms": 276379,
-              "end_ms": 276999
-            }
-          ],
-          "narration": {
-            "engine": "azure",
-            "voice": "es-ES-ElviraNeural",
-            "style": null,
-            "rate": "-12%",
-            "locale": "es-ES",
-            "capabilities": {
-              "voice": "es-ES-ElviraNeural",
-              "locale": "es-ES",
-              "advertised_styles": []
-            },
-            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"es-ES\"><voice name=\"es-ES-ElviraNeural\"><prosody rate=\"-12%\"><p>Es sábado. Maya tiene nueve años y su hermano Tom tiene seis. Juntos van a un mercadillo de segunda mano. En un rincón hay una mesa vieja y, encima de la mesa, una radio de madera. Tiene mandos dorados y botones de colores. Cuando Maya se acerca, la radio empieza de repente a emitir un suave zumbido. En la radio aparece un mensaje dorado: «Para Maya y Tom». Los niños abren mucho los ojos.</p></prosody></voice></speak>"
-          },
-          "packaged_audio": "polish-spanish/audio/stories/magical_radio/01_chapter_01_pl_es_2026-10-30_12-52-42.mp3"
-        },
         "sv": {
           "source_language": "en",
           "audio_file": "01_chapter_01_en_sv_2026-10-30_13-25-06.mp3",
@@ -356,6 +293,69 @@
             "ssml": "<speak xmlns:mstts=\"http://www.w3.org/2001/mstts\" version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"sv-SE\"><voice name=\"sv-SE-Harper:MAI-Voice-2.1\"><mstts:express-as style=\"audiobook\"><prosody rate=\"-12%\"><p>Det är lördag. Maja är nio år och hennes bror Tom är sex. Tillsammans går de på loppmarknad. I hörnet står ett gammalt bord och på bordet står en radio av trä. Den har gyllene rattar och färgade knappar. När Maja kommer närmare börjar radion plötsligt susa tyst. En gyllene text dyker upp på radion: ”Till Maja och Tom”. Barnen spärrar upp ögonen.</p></prosody></mstts:express-as></voice></speak>"
           },
           "packaged_audio": "english-swedish/audio/stories/magical_radio/01_chapter_01_en_sv_2026-10-30_13-25-06.mp3"
+        },
+        "es": {
+          "source_language": "ru",
+          "audio_file": "01_chapter_01_ru_es_2026-10-30_17-01-44.mp3",
+          "manifest_file": "01_chapter_01_ru_es_2026-10-30_17-01-44.json",
+          "total_duration_ms": 318030,
+          "chapter_reading": {
+            "text": "Es sábado. Maya tiene nueve años y su hermano Tom tiene seis. Juntos van a un mercadillo de segunda mano. En un rincón hay una mesa vieja y, encima de la mesa, una radio de madera. Tiene mandos dorados y botones de colores. Cuando Maya se acerca, la radio empieza de repente a emitir un suave zumbido. En la radio aparece un mensaje dorado: «Para Maya y Tom». Los niños abren mucho los ojos.",
+            "start_ms": 284574,
+            "end_ms": 318030
+          },
+          "chapter_introduction": {
+            "text": "Capítulo uno. La mesa vieja.",
+            "start_ms": 5924,
+            "end_ms": 10196
+          },
+          "chapter_readings": [
+            {
+              "text": "Es sábado. Maya tiene nueve años y su hermano Tom tiene seis. Juntos van a un mercadillo de segunda mano. En un rincón hay una mesa vieja y, encima de la mesa, una radio de madera. Tiene mandos dorados y botones de colores. Cuando Maya se acerca, la radio empieza de repente a emitir un suave zumbido. En la radio aparece un mensaje dorado: «Para Maya y Tom». Los niños abren mucho los ojos.",
+              "start_ms": 12696,
+              "end_ms": 46152
+            },
+            {
+              "text": "Es sábado. Maya tiene nueve años y su hermano Tom tiene seis. Juntos van a un mercadillo de segunda mano. En un rincón hay una mesa vieja y, encima de la mesa, una radio de madera. Tiene mandos dorados y botones de colores. Cuando Maya se acerca, la radio empieza de repente a emitir un suave zumbido. En la radio aparece un mensaje dorado: «Para Maya y Tom». Los niños abren mucho los ojos.",
+              "start_ms": 284574,
+              "end_ms": 318030
+            }
+          ],
+          "sequence": [
+            "story",
+            "practice",
+            "story"
+          ],
+          "transitions": [
+            {
+              "kind": "chime",
+              "from": "story",
+              "to": "practice",
+              "start_ms": 48652,
+              "end_ms": 49272
+            },
+            {
+              "kind": "chime",
+              "from": "practice",
+              "to": "story",
+              "start_ms": 281454,
+              "end_ms": 282074
+            }
+          ],
+          "narration": {
+            "engine": "azure",
+            "voice": "es-ES-ElviraNeural",
+            "style": null,
+            "rate": "-12%",
+            "locale": "es-ES",
+            "capabilities": {
+              "voice": "es-ES-ElviraNeural",
+              "locale": "es-ES",
+              "advertised_styles": []
+            },
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"es-ES\"><voice name=\"es-ES-ElviraNeural\"><prosody rate=\"-12%\"><p>Es sábado. Maya tiene nueve años y su hermano Tom tiene seis. Juntos van a un mercadillo de segunda mano. En un rincón hay una mesa vieja y, encima de la mesa, una radio de madera. Tiene mandos dorados y botones de colores. Cuando Maya se acerca, la radio empieza de repente a emitir un suave zumbido. En la radio aparece un mensaje dorado: «Para Maya y Tom». Los niños abren mucho los ojos.</p></prosody></voice></speak>"
+          },
+          "packaged_audio": "russian-spanish/audio/stories/magical_radio/01_chapter_01_ru_es_2026-10-30_17-01-44.mp3"
         }
       }
     },
@@ -583,69 +583,6 @@
           },
           "packaged_audio": "polish-english/audio/stories/magical_radio/02_chapter_02_pl_en_2026-10-29_20-56-15.mp3"
         },
-        "es": {
-          "source_language": "pl",
-          "audio_file": "02_chapter_02_pl_es_2026-10-30_12-52-42.mp3",
-          "manifest_file": "02_chapter_02_pl_es_2026-10-30_12-52-42.json",
-          "total_duration_ms": 275489,
-          "chapter_reading": {
-            "text": "Los niños compran la radio y la llevan a casa. Tom pulsa el botón azul. De la radio sale volando una nubecita que huele a canela.\n—¡Hola, niños! —dice una voz alegre—. Me llamo Radiofón. En vuestro jardín, debajo del árbol viejo, vive un ratón. Tiene una llave importante y le encanta el queso. ¡Llevadme con vosotros!",
-            "start_ms": 245897,
-            "end_ms": 275489
-          },
-          "chapter_introduction": {
-            "text": "Capítulo dos. Una voz en la radio.",
-            "start_ms": 1000,
-            "end_ms": 5656
-          },
-          "chapter_readings": [
-            {
-              "text": "Los niños compran la radio y la llevan a casa. Tom pulsa el botón azul. De la radio sale volando una nubecita que huele a canela.\n—¡Hola, niños! —dice una voz alegre—. Me llamo Radiofón. En vuestro jardín, debajo del árbol viejo, vive un ratón. Tiene una llave importante y le encanta el queso. ¡Llevadme con vosotros!",
-              "start_ms": 8156,
-              "end_ms": 37748
-            },
-            {
-              "text": "Los niños compran la radio y la llevan a casa. Tom pulsa el botón azul. De la radio sale volando una nubecita que huele a canela.\n—¡Hola, niños! —dice una voz alegre—. Me llamo Radiofón. En vuestro jardín, debajo del árbol viejo, vive un ratón. Tiene una llave importante y le encanta el queso. ¡Llevadme con vosotros!",
-              "start_ms": 245897,
-              "end_ms": 275489
-            }
-          ],
-          "sequence": [
-            "story",
-            "practice",
-            "story"
-          ],
-          "transitions": [
-            {
-              "kind": "chime",
-              "from": "story",
-              "to": "practice",
-              "start_ms": 40248,
-              "end_ms": 40868
-            },
-            {
-              "kind": "chime",
-              "from": "practice",
-              "to": "story",
-              "start_ms": 242777,
-              "end_ms": 243397
-            }
-          ],
-          "narration": {
-            "engine": "azure",
-            "voice": "es-ES-ElviraNeural",
-            "style": null,
-            "rate": "-12%",
-            "locale": "es-ES",
-            "capabilities": {
-              "voice": "es-ES-ElviraNeural",
-              "locale": "es-ES",
-              "advertised_styles": []
-            },
-            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"es-ES\"><voice name=\"es-ES-ElviraNeural\"><prosody rate=\"-12%\"><p>Los niños compran la radio y la llevan a casa. Tom pulsa el botón azul. De la radio sale volando una nubecita que huele a canela.\n—¡Hola, niños! —dice una voz alegre—. Me llamo Radiofón. En vuestro jardín, debajo del árbol viejo, vive un ratón. Tiene una llave importante y le encanta el queso. ¡Llevadme con vosotros!</p></prosody></voice></speak>"
-          },
-          "packaged_audio": "polish-spanish/audio/stories/magical_radio/02_chapter_02_pl_es_2026-10-30_12-52-42.mp3"
-        },
         "sv": {
           "source_language": "en",
           "audio_file": "02_chapter_02_en_sv_2026-10-30_13-25-06.mp3",
@@ -714,6 +651,69 @@
             "ssml": "<speak xmlns:mstts=\"http://www.w3.org/2001/mstts\" version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"sv-SE\"><voice name=\"sv-SE-Harper:MAI-Voice-2.1\"><mstts:express-as style=\"audiobook\"><prosody rate=\"-12%\"><p>Barnen köper radion och bär hem den. Tom trycker på den blå knappen. Ett litet moln som doftar kanel flyger ut ur radion. – Hej, barn! säger en glad röst. Jag heter Radiofon. I er trädgård, under det gamla trädet, bor en mus. Den har en viktig nyckel och gillar ost väldigt mycket. Ta med mig!</p></prosody></mstts:express-as></voice></speak>"
           },
           "packaged_audio": "english-swedish/audio/stories/magical_radio/02_chapter_02_en_sv_2026-10-30_13-25-06.mp3"
+        },
+        "es": {
+          "source_language": "ru",
+          "audio_file": "02_chapter_02_ru_es_2026-10-30_17-01-44.mp3",
+          "manifest_file": "02_chapter_02_ru_es_2026-10-30_17-01-44.json",
+          "total_duration_ms": 278380,
+          "chapter_reading": {
+            "text": "Los niños compran la radio y la llevan a casa. Tom pulsa el botón azul. De la radio sale volando una nubecita que huele a canela.\n—¡Hola, niños! —dice una voz alegre—. Me llamo Radiofón. En vuestro jardín, debajo del árbol viejo, vive un ratón. Tiene una llave importante y le encanta el queso. ¡Llevadme con vosotros!",
+            "start_ms": 248788,
+            "end_ms": 278380
+          },
+          "chapter_introduction": {
+            "text": "Capítulo dos. Una voz en la radio.",
+            "start_ms": 1000,
+            "end_ms": 5656
+          },
+          "chapter_readings": [
+            {
+              "text": "Los niños compran la radio y la llevan a casa. Tom pulsa el botón azul. De la radio sale volando una nubecita que huele a canela.\n—¡Hola, niños! —dice una voz alegre—. Me llamo Radiofón. En vuestro jardín, debajo del árbol viejo, vive un ratón. Tiene una llave importante y le encanta el queso. ¡Llevadme con vosotros!",
+              "start_ms": 8156,
+              "end_ms": 37748
+            },
+            {
+              "text": "Los niños compran la radio y la llevan a casa. Tom pulsa el botón azul. De la radio sale volando una nubecita que huele a canela.\n—¡Hola, niños! —dice una voz alegre—. Me llamo Radiofón. En vuestro jardín, debajo del árbol viejo, vive un ratón. Tiene una llave importante y le encanta el queso. ¡Llevadme con vosotros!",
+              "start_ms": 248788,
+              "end_ms": 278380
+            }
+          ],
+          "sequence": [
+            "story",
+            "practice",
+            "story"
+          ],
+          "transitions": [
+            {
+              "kind": "chime",
+              "from": "story",
+              "to": "practice",
+              "start_ms": 40248,
+              "end_ms": 40868
+            },
+            {
+              "kind": "chime",
+              "from": "practice",
+              "to": "story",
+              "start_ms": 245668,
+              "end_ms": 246288
+            }
+          ],
+          "narration": {
+            "engine": "azure",
+            "voice": "es-ES-ElviraNeural",
+            "style": null,
+            "rate": "-12%",
+            "locale": "es-ES",
+            "capabilities": {
+              "voice": "es-ES-ElviraNeural",
+              "locale": "es-ES",
+              "advertised_styles": []
+            },
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"es-ES\"><voice name=\"es-ES-ElviraNeural\"><prosody rate=\"-12%\"><p>Los niños compran la radio y la llevan a casa. Tom pulsa el botón azul. De la radio sale volando una nubecita que huele a canela.\n—¡Hola, niños! —dice una voz alegre—. Me llamo Radiofón. En vuestro jardín, debajo del árbol viejo, vive un ratón. Tiene una llave importante y le encanta el queso. ¡Llevadme con vosotros!</p></prosody></voice></speak>"
+          },
+          "packaged_audio": "russian-spanish/audio/stories/magical_radio/02_chapter_02_ru_es_2026-10-30_17-01-44.mp3"
         }
       }
     },
@@ -941,69 +941,6 @@
           },
           "packaged_audio": "polish-english/audio/stories/magical_radio/03_chapter_03_pl_en_2026-10-29_21-18-02.mp3"
         },
-        "es": {
-          "source_language": "pl",
-          "audio_file": "03_chapter_03_pl_es_2026-10-30_12-52-42.mp3",
-          "manifest_file": "03_chapter_03_pl_es_2026-10-30_12-52-42.json",
-          "total_duration_ms": 359810,
-          "chapter_reading": {
-            "text": "Debajo del árbol está oscuro, así que Tom coge una linterna. Maya coge la radio y un poco de queso amarillo. Van hasta el gran árbol del jardín. Tom alumbra con la linterna debajo de las raíces. De un agujero sale un ratoncito.\n—¡Buenos días, ratoncito! —dice Maya—. Tenemos queso para ti. ¿Nos das la llave?\nEl ratón les da una llave plateada, se lleva el queso y señala con su patita un montón de hojas. Los niños apartan las hojas. ¡Entre las raíces del árbol hay una puerta pequeña y vieja!",
-            "start_ms": 316130,
-            "end_ms": 359810
-          },
-          "chapter_introduction": {
-            "text": "Capítulo tres. Un ratón debajo del árbol.",
-            "start_ms": 1000,
-            "end_ms": 6136
-          },
-          "chapter_readings": [
-            {
-              "text": "Debajo del árbol está oscuro, así que Tom coge una linterna. Maya coge la radio y un poco de queso amarillo. Van hasta el gran árbol del jardín. Tom alumbra con la linterna debajo de las raíces. De un agujero sale un ratoncito.\n—¡Buenos días, ratoncito! —dice Maya—. Tenemos queso para ti. ¿Nos das la llave?\nEl ratón les da una llave plateada, se lleva el queso y señala con su patita un montón de hojas. Los niños apartan las hojas. ¡Entre las raíces del árbol hay una puerta pequeña y vieja!",
-              "start_ms": 8636,
-              "end_ms": 52316
-            },
-            {
-              "text": "Debajo del árbol está oscuro, así que Tom coge una linterna. Maya coge la radio y un poco de queso amarillo. Van hasta el gran árbol del jardín. Tom alumbra con la linterna debajo de las raíces. De un agujero sale un ratoncito.\n—¡Buenos días, ratoncito! —dice Maya—. Tenemos queso para ti. ¿Nos das la llave?\nEl ratón les da una llave plateada, se lleva el queso y señala con su patita un montón de hojas. Los niños apartan las hojas. ¡Entre las raíces del árbol hay una puerta pequeña y vieja!",
-              "start_ms": 316130,
-              "end_ms": 359810
-            }
-          ],
-          "sequence": [
-            "story",
-            "practice",
-            "story"
-          ],
-          "transitions": [
-            {
-              "kind": "chime",
-              "from": "story",
-              "to": "practice",
-              "start_ms": 54816,
-              "end_ms": 55436
-            },
-            {
-              "kind": "chime",
-              "from": "practice",
-              "to": "story",
-              "start_ms": 313010,
-              "end_ms": 313630
-            }
-          ],
-          "narration": {
-            "engine": "azure",
-            "voice": "es-ES-ElviraNeural",
-            "style": null,
-            "rate": "-12%",
-            "locale": "es-ES",
-            "capabilities": {
-              "voice": "es-ES-ElviraNeural",
-              "locale": "es-ES",
-              "advertised_styles": []
-            },
-            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"es-ES\"><voice name=\"es-ES-ElviraNeural\"><prosody rate=\"-12%\"><p>Debajo del árbol está oscuro, así que Tom coge una linterna. Maya coge la radio y un poco de queso amarillo. Van hasta el gran árbol del jardín. Tom alumbra con la linterna debajo de las raíces. De un agujero sale un ratoncito.\n—¡Buenos días, ratoncito! —dice Maya—. Tenemos queso para ti. ¿Nos das la llave?\nEl ratón les da una llave plateada, se lleva el queso y señala con su patita un montón de hojas. Los niños apartan las hojas. ¡Entre las raíces del árbol hay una puerta pequeña y vieja!</p></prosody></voice></speak>"
-          },
-          "packaged_audio": "polish-spanish/audio/stories/magical_radio/03_chapter_03_pl_es_2026-10-30_12-52-42.mp3"
-        },
         "sv": {
           "source_language": "en",
           "audio_file": "03_chapter_03_en_sv_2026-10-30_13-25-06.mp3",
@@ -1072,6 +1009,69 @@
             "ssml": "<speak xmlns:mstts=\"http://www.w3.org/2001/mstts\" version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"sv-SE\"><voice name=\"sv-SE-Harper:MAI-Voice-2.1\"><mstts:express-as style=\"audiobook\"><prosody rate=\"-12%\"><p>Det är mörkt under trädet, så Tom tar en ficklampa. Maja tar radion och gul ost. De går till det stora trädet i trädgården. Tom lyser med ficklampan under rötterna. En liten mus kommer ut ur ett hål. – Hej, lilla mus! säger Maja. Vi har ost till dig. Ger du oss nyckeln? Musen ger dem en silvernyckel, tar med sig osten och pekar med tassen på en lövhög. Barnen sopar undan löven – mellan trädets rötter finns en liten, gammal dörr!</p></prosody></mstts:express-as></voice></speak>"
           },
           "packaged_audio": "english-swedish/audio/stories/magical_radio/03_chapter_03_en_sv_2026-10-30_13-25-06.mp3"
+        },
+        "es": {
+          "source_language": "ru",
+          "audio_file": "03_chapter_03_ru_es_2026-10-30_17-01-44.mp3",
+          "manifest_file": "03_chapter_03_ru_es_2026-10-30_17-01-44.json",
+          "total_duration_ms": 365072,
+          "chapter_reading": {
+            "text": "Debajo del árbol está oscuro, así que Tom coge una linterna. Maya coge la radio y un poco de queso amarillo. Van hasta el gran árbol del jardín. Tom alumbra con la linterna debajo de las raíces. De un agujero sale un ratoncito.\n—¡Buenos días, ratoncito! —dice Maya—. Tenemos queso para ti. ¿Nos das la llave?\nEl ratón les da una llave plateada, se lleva el queso y señala con su patita un montón de hojas. Los niños apartan las hojas. ¡Entre las raíces del árbol hay una puerta pequeña y vieja!",
+            "start_ms": 321392,
+            "end_ms": 365072
+          },
+          "chapter_introduction": {
+            "text": "Capítulo tres. Un ratón debajo del árbol.",
+            "start_ms": 1000,
+            "end_ms": 6136
+          },
+          "chapter_readings": [
+            {
+              "text": "Debajo del árbol está oscuro, así que Tom coge una linterna. Maya coge la radio y un poco de queso amarillo. Van hasta el gran árbol del jardín. Tom alumbra con la linterna debajo de las raíces. De un agujero sale un ratoncito.\n—¡Buenos días, ratoncito! —dice Maya—. Tenemos queso para ti. ¿Nos das la llave?\nEl ratón les da una llave plateada, se lleva el queso y señala con su patita un montón de hojas. Los niños apartan las hojas. ¡Entre las raíces del árbol hay una puerta pequeña y vieja!",
+              "start_ms": 8636,
+              "end_ms": 52316
+            },
+            {
+              "text": "Debajo del árbol está oscuro, así que Tom coge una linterna. Maya coge la radio y un poco de queso amarillo. Van hasta el gran árbol del jardín. Tom alumbra con la linterna debajo de las raíces. De un agujero sale un ratoncito.\n—¡Buenos días, ratoncito! —dice Maya—. Tenemos queso para ti. ¿Nos das la llave?\nEl ratón les da una llave plateada, se lleva el queso y señala con su patita un montón de hojas. Los niños apartan las hojas. ¡Entre las raíces del árbol hay una puerta pequeña y vieja!",
+              "start_ms": 321392,
+              "end_ms": 365072
+            }
+          ],
+          "sequence": [
+            "story",
+            "practice",
+            "story"
+          ],
+          "transitions": [
+            {
+              "kind": "chime",
+              "from": "story",
+              "to": "practice",
+              "start_ms": 54816,
+              "end_ms": 55436
+            },
+            {
+              "kind": "chime",
+              "from": "practice",
+              "to": "story",
+              "start_ms": 318272,
+              "end_ms": 318892
+            }
+          ],
+          "narration": {
+            "engine": "azure",
+            "voice": "es-ES-ElviraNeural",
+            "style": null,
+            "rate": "-12%",
+            "locale": "es-ES",
+            "capabilities": {
+              "voice": "es-ES-ElviraNeural",
+              "locale": "es-ES",
+              "advertised_styles": []
+            },
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"es-ES\"><voice name=\"es-ES-ElviraNeural\"><prosody rate=\"-12%\"><p>Debajo del árbol está oscuro, así que Tom coge una linterna. Maya coge la radio y un poco de queso amarillo. Van hasta el gran árbol del jardín. Tom alumbra con la linterna debajo de las raíces. De un agujero sale un ratoncito.\n—¡Buenos días, ratoncito! —dice Maya—. Tenemos queso para ti. ¿Nos das la llave?\nEl ratón les da una llave plateada, se lleva el queso y señala con su patita un montón de hojas. Los niños apartan las hojas. ¡Entre las raíces del árbol hay una puerta pequeña y vieja!</p></prosody></voice></speak>"
+          },
+          "packaged_audio": "russian-spanish/audio/stories/magical_radio/03_chapter_03_ru_es_2026-10-30_17-01-44.mp3"
         }
       }
     },
@@ -1814,69 +1814,6 @@
           "audio_file": "04_chapter_04_pl_en_2026-10-29_21-18-08.mp3",
           "packaged_audio": "polish-english/audio/stories/magical_radio/04_chapter_04_pl_en_2026-10-29_21-18-08.mp3"
         },
-        "es": {
-          "source_language": "pl",
-          "audio_file": "04_chapter_04_pl_es_2026-10-30_13-10-12.mp3",
-          "manifest_file": "04_chapter_04_pl_es_2026-10-30_13-10-12.json",
-          "total_duration_ms": 289738,
-          "chapter_reading": {
-            "text": "Maya gira la llave. ¡Clic! La puerta se abre. Unas escaleras de piedra conducen hacia abajo. En las paredes crecen flores que brillan con una luz azul. Los niños bajan a una gran biblioteca. Hay libros por todas partes. ¡Algunos están volando justo debajo del techo! Uno de ellos brilla con una luz dorada.",
-            "start_ms": 260890,
-            "end_ms": 289738
-          },
-          "chapter_introduction": {
-            "text": "Capítulo cuatro. Escaleras abajo.",
-            "start_ms": 1000,
-            "end_ms": 5680
-          },
-          "chapter_readings": [
-            {
-              "text": "Maya gira la llave. ¡Clic! La puerta se abre. Unas escaleras de piedra conducen hacia abajo. En las paredes crecen flores que brillan con una luz azul. Los niños bajan a una gran biblioteca. Hay libros por todas partes. ¡Algunos están volando justo debajo del techo! Uno de ellos brilla con una luz dorada.",
-              "start_ms": 8180,
-              "end_ms": 37028
-            },
-            {
-              "text": "Maya gira la llave. ¡Clic! La puerta se abre. Unas escaleras de piedra conducen hacia abajo. En las paredes crecen flores que brillan con una luz azul. Los niños bajan a una gran biblioteca. Hay libros por todas partes. ¡Algunos están volando justo debajo del techo! Uno de ellos brilla con una luz dorada.",
-              "start_ms": 260890,
-              "end_ms": 289738
-            }
-          ],
-          "sequence": [
-            "story",
-            "practice",
-            "story"
-          ],
-          "transitions": [
-            {
-              "kind": "chime",
-              "from": "story",
-              "to": "practice",
-              "start_ms": 39528,
-              "end_ms": 40148
-            },
-            {
-              "kind": "chime",
-              "from": "practice",
-              "to": "story",
-              "start_ms": 257770,
-              "end_ms": 258390
-            }
-          ],
-          "narration": {
-            "engine": "azure",
-            "voice": "es-ES-ElviraNeural",
-            "style": null,
-            "rate": "-12%",
-            "locale": "es-ES",
-            "capabilities": {
-              "voice": "es-ES-ElviraNeural",
-              "locale": "es-ES",
-              "advertised_styles": []
-            },
-            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"es-ES\"><voice name=\"es-ES-ElviraNeural\"><prosody rate=\"-12%\"><p>Maya gira la llave. ¡Clic! La puerta se abre. Unas escaleras de piedra conducen hacia abajo. En las paredes crecen flores que brillan con una luz azul. Los niños bajan a una gran biblioteca. Hay libros por todas partes. ¡Algunos están volando justo debajo del techo! Uno de ellos brilla con una luz dorada.</p></prosody></voice></speak>"
-          },
-          "packaged_audio": "polish-spanish/audio/stories/magical_radio/04_chapter_04_pl_es_2026-10-30_13-10-12.mp3"
-        },
         "sv": {
           "source_language": "en",
           "audio_file": "04_chapter_04_en_sv_2026-10-30_13-25-06.mp3",
@@ -1945,6 +1882,69 @@
             "ssml": "<speak xmlns:mstts=\"http://www.w3.org/2001/mstts\" version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"sv-SE\"><voice name=\"sv-SE-Harper:MAI-Voice-2.1\"><mstts:express-as style=\"audiobook\"><prosody rate=\"-12%\"><p>Maja vrider om nyckeln. Klick! Dörren öppnas. En stentrappa leder neråt. På väggarna växer blommor som lyser blått. Barnen går ner till ett stort bibliotek. Det finns böcker överallt – några av dem flyger uppe vid taket! En av dem lyser guldgult.</p></prosody></mstts:express-as></voice></speak>"
           },
           "packaged_audio": "english-swedish/audio/stories/magical_radio/04_chapter_04_en_sv_2026-10-30_13-25-06.mp3"
+        },
+        "es": {
+          "source_language": "ru",
+          "audio_file": "04_chapter_04_ru_es_2026-10-30_17-01-44.mp3",
+          "manifest_file": "04_chapter_04_ru_es_2026-10-30_17-01-44.json",
+          "total_duration_ms": 294720,
+          "chapter_reading": {
+            "text": "Maya gira la llave. ¡Clic! La puerta se abre. Unas escaleras de piedra conducen hacia abajo. En las paredes crecen flores que brillan con una luz azul. Los niños bajan a una gran biblioteca. Hay libros por todas partes. ¡Algunos están volando justo debajo del techo! Uno de ellos brilla con una luz dorada.",
+            "start_ms": 265872,
+            "end_ms": 294720
+          },
+          "chapter_introduction": {
+            "text": "Capítulo cuatro. Escaleras abajo.",
+            "start_ms": 1000,
+            "end_ms": 5680
+          },
+          "chapter_readings": [
+            {
+              "text": "Maya gira la llave. ¡Clic! La puerta se abre. Unas escaleras de piedra conducen hacia abajo. En las paredes crecen flores que brillan con una luz azul. Los niños bajan a una gran biblioteca. Hay libros por todas partes. ¡Algunos están volando justo debajo del techo! Uno de ellos brilla con una luz dorada.",
+              "start_ms": 8180,
+              "end_ms": 37028
+            },
+            {
+              "text": "Maya gira la llave. ¡Clic! La puerta se abre. Unas escaleras de piedra conducen hacia abajo. En las paredes crecen flores que brillan con una luz azul. Los niños bajan a una gran biblioteca. Hay libros por todas partes. ¡Algunos están volando justo debajo del techo! Uno de ellos brilla con una luz dorada.",
+              "start_ms": 265872,
+              "end_ms": 294720
+            }
+          ],
+          "sequence": [
+            "story",
+            "practice",
+            "story"
+          ],
+          "transitions": [
+            {
+              "kind": "chime",
+              "from": "story",
+              "to": "practice",
+              "start_ms": 39528,
+              "end_ms": 40148
+            },
+            {
+              "kind": "chime",
+              "from": "practice",
+              "to": "story",
+              "start_ms": 262752,
+              "end_ms": 263372
+            }
+          ],
+          "narration": {
+            "engine": "azure",
+            "voice": "es-ES-ElviraNeural",
+            "style": null,
+            "rate": "-12%",
+            "locale": "es-ES",
+            "capabilities": {
+              "voice": "es-ES-ElviraNeural",
+              "locale": "es-ES",
+              "advertised_styles": []
+            },
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"es-ES\"><voice name=\"es-ES-ElviraNeural\"><prosody rate=\"-12%\"><p>Maya gira la llave. ¡Clic! La puerta se abre. Unas escaleras de piedra conducen hacia abajo. En las paredes crecen flores que brillan con una luz azul. Los niños bajan a una gran biblioteca. Hay libros por todas partes. ¡Algunos están volando justo debajo del techo! Uno de ellos brilla con una luz dorada.</p></prosody></voice></speak>"
+          },
+          "packaged_audio": "russian-spanish/audio/stories/magical_radio/04_chapter_04_ru_es_2026-10-30_17-01-44.mp3"
         }
       }
     },
@@ -2172,69 +2172,6 @@
           },
           "packaged_audio": "polish-english/audio/stories/magical_radio/05_chapter_05_pl_en_2026-10-29_21-18-13.mp3"
         },
-        "es": {
-          "source_language": "pl",
-          "audio_file": "05_chapter_05_pl_es_2026-10-30_12-52-42.mp3",
-          "manifest_file": "05_chapter_05_pl_es_2026-10-30_12-52-42.json",
-          "total_duration_ms": 270834,
-          "chapter_reading": {
-            "text": "El libro dorado agita las páginas y aterriza en el hombro de Maya. Radiofón habla enseguida:\n—Este libro enseña un hechizo importante. La palabra es: ¡Reparo! Arregla cualquier cosa rota.\nTom saca del bolsillo su vieja brújula rota. Siempre la lleva consigo.",
-            "start_ms": 247170,
-            "end_ms": 270834
-          },
-          "chapter_introduction": {
-            "text": "Capítulo cinco. El libro volador.",
-            "start_ms": 1000,
-            "end_ms": 5488
-          },
-          "chapter_readings": [
-            {
-              "text": "El libro dorado agita las páginas y aterriza en el hombro de Maya. Radiofón habla enseguida:\n—Este libro enseña un hechizo importante. La palabra es: ¡Reparo! Arregla cualquier cosa rota.\nTom saca del bolsillo su vieja brújula rota. Siempre la lleva consigo.",
-              "start_ms": 7988,
-              "end_ms": 31652
-            },
-            {
-              "text": "El libro dorado agita las páginas y aterriza en el hombro de Maya. Radiofón habla enseguida:\n—Este libro enseña un hechizo importante. La palabra es: ¡Reparo! Arregla cualquier cosa rota.\nTom saca del bolsillo su vieja brújula rota. Siempre la lleva consigo.",
-              "start_ms": 247170,
-              "end_ms": 270834
-            }
-          ],
-          "sequence": [
-            "story",
-            "practice",
-            "story"
-          ],
-          "transitions": [
-            {
-              "kind": "chime",
-              "from": "story",
-              "to": "practice",
-              "start_ms": 34152,
-              "end_ms": 34772
-            },
-            {
-              "kind": "chime",
-              "from": "practice",
-              "to": "story",
-              "start_ms": 244050,
-              "end_ms": 244670
-            }
-          ],
-          "narration": {
-            "engine": "azure",
-            "voice": "es-ES-ElviraNeural",
-            "style": null,
-            "rate": "-12%",
-            "locale": "es-ES",
-            "capabilities": {
-              "voice": "es-ES-ElviraNeural",
-              "locale": "es-ES",
-              "advertised_styles": []
-            },
-            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"es-ES\"><voice name=\"es-ES-ElviraNeural\"><prosody rate=\"-12%\"><p>El libro dorado agita las páginas y aterriza en el hombro de Maya. Radiofón habla enseguida:\n—Este libro enseña un hechizo importante. La palabra es: ¡Reparo! Arregla cualquier cosa rota.\nTom saca del bolsillo su vieja brújula rota. Siempre la lleva consigo.</p></prosody></voice></speak>"
-          },
-          "packaged_audio": "polish-spanish/audio/stories/magical_radio/05_chapter_05_pl_es_2026-10-30_12-52-42.mp3"
-        },
         "sv": {
           "source_language": "en",
           "audio_file": "05_chapter_05_en_sv_2026-10-30_13-25-06.mp3",
@@ -2303,6 +2240,69 @@
             "ssml": "<speak xmlns:mstts=\"http://www.w3.org/2001/mstts\" version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"sv-SE\"><voice name=\"sv-SE-Harper:MAI-Voice-2.1\"><mstts:express-as style=\"audiobook\"><prosody rate=\"-12%\"><p>Den gyllene boken flaxar med sidorna och landar på Majas axel. Radiofon börjar genast tala: – Den här boken lär ut en viktig trollformel. Ordet är: Reparo! Det lagar allt som är trasigt. Tom tar upp sin gamla, trasiga kompass ur fickan. Han har den alltid med sig.</p></prosody></mstts:express-as></voice></speak>"
           },
           "packaged_audio": "english-swedish/audio/stories/magical_radio/05_chapter_05_en_sv_2026-10-30_13-25-06.mp3"
+        },
+        "es": {
+          "source_language": "ru",
+          "audio_file": "05_chapter_05_ru_es_2026-10-30_17-01-44.mp3",
+          "manifest_file": "05_chapter_05_ru_es_2026-10-30_17-01-44.json",
+          "total_duration_ms": 274181,
+          "chapter_reading": {
+            "text": "El libro dorado agita las páginas y aterriza en el hombro de Maya. Radiofón habla enseguida:\n—Este libro enseña un hechizo importante. La palabra es: ¡Reparo! Arregla cualquier cosa rota.\nTom saca del bolsillo su vieja brújula rota. Siempre la lleva consigo.",
+            "start_ms": 250517,
+            "end_ms": 274181
+          },
+          "chapter_introduction": {
+            "text": "Capítulo cinco. El libro volador.",
+            "start_ms": 1000,
+            "end_ms": 5488
+          },
+          "chapter_readings": [
+            {
+              "text": "El libro dorado agita las páginas y aterriza en el hombro de Maya. Radiofón habla enseguida:\n—Este libro enseña un hechizo importante. La palabra es: ¡Reparo! Arregla cualquier cosa rota.\nTom saca del bolsillo su vieja brújula rota. Siempre la lleva consigo.",
+              "start_ms": 7988,
+              "end_ms": 31652
+            },
+            {
+              "text": "El libro dorado agita las páginas y aterriza en el hombro de Maya. Radiofón habla enseguida:\n—Este libro enseña un hechizo importante. La palabra es: ¡Reparo! Arregla cualquier cosa rota.\nTom saca del bolsillo su vieja brújula rota. Siempre la lleva consigo.",
+              "start_ms": 250517,
+              "end_ms": 274181
+            }
+          ],
+          "sequence": [
+            "story",
+            "practice",
+            "story"
+          ],
+          "transitions": [
+            {
+              "kind": "chime",
+              "from": "story",
+              "to": "practice",
+              "start_ms": 34152,
+              "end_ms": 34772
+            },
+            {
+              "kind": "chime",
+              "from": "practice",
+              "to": "story",
+              "start_ms": 247397,
+              "end_ms": 248017
+            }
+          ],
+          "narration": {
+            "engine": "azure",
+            "voice": "es-ES-ElviraNeural",
+            "style": null,
+            "rate": "-12%",
+            "locale": "es-ES",
+            "capabilities": {
+              "voice": "es-ES-ElviraNeural",
+              "locale": "es-ES",
+              "advertised_styles": []
+            },
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"es-ES\"><voice name=\"es-ES-ElviraNeural\"><prosody rate=\"-12%\"><p>El libro dorado agita las páginas y aterriza en el hombro de Maya. Radiofón habla enseguida:\n—Este libro enseña un hechizo importante. La palabra es: ¡Reparo! Arregla cualquier cosa rota.\nTom saca del bolsillo su vieja brújula rota. Siempre la lleva consigo.</p></prosody></voice></speak>"
+          },
+          "packaged_audio": "russian-spanish/audio/stories/magical_radio/05_chapter_05_ru_es_2026-10-30_17-01-44.mp3"
         }
       }
     },
@@ -2530,69 +2530,6 @@
           },
           "packaged_audio": "polish-english/audio/stories/magical_radio/06_chapter_06_pl_en_2026-10-29_20-56-15.mp3"
         },
-        "es": {
-          "source_language": "pl",
-          "audio_file": "06_chapter_06_pl_es_2026-10-30_12-52-42.mp3",
-          "manifest_file": "06_chapter_06_pl_es_2026-10-30_12-52-42.json",
-          "total_duration_ms": 225947,
-          "chapter_reading": {
-            "text": "Tom sostiene la brújula. Los niños dicen juntos:\n—¡Reparo!\nBrilla una chispa dorada. ¡La brújula vuelve a estar entera! La aguja de la brújula gira y señala una puerta verde.\n—¡Funciona! —grita Tom.\nRadiofón dice:\n—Detrás de la puerta, alguien espera vuestra ayuda.",
-            "start_ms": 198035,
-            "end_ms": 225947
-          },
-          "chapter_introduction": {
-            "text": "Capítulo seis. El primer hechizo.",
-            "start_ms": 1000,
-            "end_ms": 5464
-          },
-          "chapter_readings": [
-            {
-              "text": "Tom sostiene la brújula. Los niños dicen juntos:\n—¡Reparo!\nBrilla una chispa dorada. ¡La brújula vuelve a estar entera! La aguja de la brújula gira y señala una puerta verde.\n—¡Funciona! —grita Tom.\nRadiofón dice:\n—Detrás de la puerta, alguien espera vuestra ayuda.",
-              "start_ms": 7964,
-              "end_ms": 35876
-            },
-            {
-              "text": "Tom sostiene la brújula. Los niños dicen juntos:\n—¡Reparo!\nBrilla una chispa dorada. ¡La brújula vuelve a estar entera! La aguja de la brújula gira y señala una puerta verde.\n—¡Funciona! —grita Tom.\nRadiofón dice:\n—Detrás de la puerta, alguien espera vuestra ayuda.",
-              "start_ms": 198035,
-              "end_ms": 225947
-            }
-          ],
-          "sequence": [
-            "story",
-            "practice",
-            "story"
-          ],
-          "transitions": [
-            {
-              "kind": "chime",
-              "from": "story",
-              "to": "practice",
-              "start_ms": 38376,
-              "end_ms": 38996
-            },
-            {
-              "kind": "chime",
-              "from": "practice",
-              "to": "story",
-              "start_ms": 194915,
-              "end_ms": 195535
-            }
-          ],
-          "narration": {
-            "engine": "azure",
-            "voice": "es-ES-ElviraNeural",
-            "style": null,
-            "rate": "-12%",
-            "locale": "es-ES",
-            "capabilities": {
-              "voice": "es-ES-ElviraNeural",
-              "locale": "es-ES",
-              "advertised_styles": []
-            },
-            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"es-ES\"><voice name=\"es-ES-ElviraNeural\"><prosody rate=\"-12%\"><p>Tom sostiene la brújula. Los niños dicen juntos:\n—¡Reparo!\nBrilla una chispa dorada. ¡La brújula vuelve a estar entera! La aguja de la brújula gira y señala una puerta verde.\n—¡Funciona! —grita Tom.\nRadiofón dice:\n—Detrás de la puerta, alguien espera vuestra ayuda.</p></prosody></voice></speak>"
-          },
-          "packaged_audio": "polish-spanish/audio/stories/magical_radio/06_chapter_06_pl_es_2026-10-30_12-52-42.mp3"
-        },
         "sv": {
           "source_language": "en",
           "audio_file": "06_chapter_06_en_sv_2026-10-30_13-25-06.mp3",
@@ -2661,6 +2598,69 @@
             "ssml": "<speak xmlns:mstts=\"http://www.w3.org/2001/mstts\" version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"sv-SE\"><voice name=\"sv-SE-Harper:MAI-Voice-2.1\"><mstts:express-as style=\"audiobook\"><prosody rate=\"-12%\"><p>Tom håller i kompassen. Barnen säger tillsammans: – Reparo! En gyllene gnista blixtrar till. Kompassen är hel igen! Kompassnålen snurrar och pekar mot en grön dörr. – Det fungerar! ropar Tom. Radiofon säger: – Bakom dörren väntar någon på er hjälp.</p></prosody></mstts:express-as></voice></speak>"
           },
           "packaged_audio": "english-swedish/audio/stories/magical_radio/06_chapter_06_en_sv_2026-10-30_13-25-06.mp3"
+        },
+        "es": {
+          "source_language": "ru",
+          "audio_file": "06_chapter_06_ru_es_2026-10-30_17-01-44.mp3",
+          "manifest_file": "06_chapter_06_ru_es_2026-10-30_17-01-44.json",
+          "total_duration_ms": 228977,
+          "chapter_reading": {
+            "text": "Tom sostiene la brújula. Los niños dicen juntos:\n—¡Reparo!\nBrilla una chispa dorada. ¡La brújula vuelve a estar entera! La aguja de la brújula gira y señala una puerta verde.\n—¡Funciona! —grita Tom.\nRadiofón dice:\n—Detrás de la puerta, alguien espera vuestra ayuda.",
+            "start_ms": 201066,
+            "end_ms": 228977
+          },
+          "chapter_introduction": {
+            "text": "Capítulo seis. El primer hechizo.",
+            "start_ms": 1000,
+            "end_ms": 5464
+          },
+          "chapter_readings": [
+            {
+              "text": "Tom sostiene la brújula. Los niños dicen juntos:\n—¡Reparo!\nBrilla una chispa dorada. ¡La brújula vuelve a estar entera! La aguja de la brújula gira y señala una puerta verde.\n—¡Funciona! —grita Tom.\nRadiofón dice:\n—Detrás de la puerta, alguien espera vuestra ayuda.",
+              "start_ms": 7964,
+              "end_ms": 35876
+            },
+            {
+              "text": "Tom sostiene la brújula. Los niños dicen juntos:\n—¡Reparo!\nBrilla una chispa dorada. ¡La brújula vuelve a estar entera! La aguja de la brújula gira y señala una puerta verde.\n—¡Funciona! —grita Tom.\nRadiofón dice:\n—Detrás de la puerta, alguien espera vuestra ayuda.",
+              "start_ms": 201066,
+              "end_ms": 228977
+            }
+          ],
+          "sequence": [
+            "story",
+            "practice",
+            "story"
+          ],
+          "transitions": [
+            {
+              "kind": "chime",
+              "from": "story",
+              "to": "practice",
+              "start_ms": 38376,
+              "end_ms": 38996
+            },
+            {
+              "kind": "chime",
+              "from": "practice",
+              "to": "story",
+              "start_ms": 197946,
+              "end_ms": 198566
+            }
+          ],
+          "narration": {
+            "engine": "azure",
+            "voice": "es-ES-ElviraNeural",
+            "style": null,
+            "rate": "-12%",
+            "locale": "es-ES",
+            "capabilities": {
+              "voice": "es-ES-ElviraNeural",
+              "locale": "es-ES",
+              "advertised_styles": []
+            },
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"es-ES\"><voice name=\"es-ES-ElviraNeural\"><prosody rate=\"-12%\"><p>Tom sostiene la brújula. Los niños dicen juntos:\n—¡Reparo!\nBrilla una chispa dorada. ¡La brújula vuelve a estar entera! La aguja de la brújula gira y señala una puerta verde.\n—¡Funciona! —grita Tom.\nRadiofón dice:\n—Detrás de la puerta, alguien espera vuestra ayuda.</p></prosody></voice></speak>"
+          },
+          "packaged_audio": "russian-spanish/audio/stories/magical_radio/06_chapter_06_ru_es_2026-10-30_17-01-44.mp3"
         }
       }
     },
@@ -2888,69 +2888,6 @@
           },
           "packaged_audio": "polish-english/audio/stories/magical_radio/07_chapter_07_pl_en_2026-10-29_20-56-15.mp3"
         },
-        "es": {
-          "source_language": "pl",
-          "audio_file": "07_chapter_07_pl_es_2026-10-30_12-52-42.mp3",
-          "manifest_file": "07_chapter_07_pl_es_2026-10-30_12-52-42.json",
-          "total_duration_ms": 353633,
-          "chapter_reading": {
-            "text": "Los niños abren la puerta verde y entran en un jardín subterráneo. En una rama hay un pájaro dorado. No canta. Solo hace tictac como un reloj: tic-tac, tic-tac. En un ala tiene una piedrecita azul brillante. En la otra ala hay un hueco vacío. Maya mira la radio. ¡El botón azul de la radio es igual que la piedrecita del pájaro!\n—Radiofón, ¿de dónde has sacado este botón? —pregunta Maya.\n—Es la piedrecita del pájaro —dice Radiofón—. Hace mucho tiempo se le cayó del ala. Alguien la convirtió en mi botón. ¡Os estaba esperando para devolverla!",
-            "start_ms": 305057,
-            "end_ms": 353633
-          },
-          "chapter_introduction": {
-            "text": "Capítulo siete. El pájaro dorado.",
-            "start_ms": 1000,
-            "end_ms": 5656
-          },
-          "chapter_readings": [
-            {
-              "text": "Los niños abren la puerta verde y entran en un jardín subterráneo. En una rama hay un pájaro dorado. No canta. Solo hace tictac como un reloj: tic-tac, tic-tac. En un ala tiene una piedrecita azul brillante. En la otra ala hay un hueco vacío. Maya mira la radio. ¡El botón azul de la radio es igual que la piedrecita del pájaro!\n—Radiofón, ¿de dónde has sacado este botón? —pregunta Maya.\n—Es la piedrecita del pájaro —dice Radiofón—. Hace mucho tiempo se le cayó del ala. Alguien la convirtió en mi botón. ¡Os estaba esperando para devolverla!",
-              "start_ms": 8156,
-              "end_ms": 56732
-            },
-            {
-              "text": "Los niños abren la puerta verde y entran en un jardín subterráneo. En una rama hay un pájaro dorado. No canta. Solo hace tictac como un reloj: tic-tac, tic-tac. En un ala tiene una piedrecita azul brillante. En la otra ala hay un hueco vacío. Maya mira la radio. ¡El botón azul de la radio es igual que la piedrecita del pájaro!\n—Radiofón, ¿de dónde has sacado este botón? —pregunta Maya.\n—Es la piedrecita del pájaro —dice Radiofón—. Hace mucho tiempo se le cayó del ala. Alguien la convirtió en mi botón. ¡Os estaba esperando para devolverla!",
-              "start_ms": 305057,
-              "end_ms": 353633
-            }
-          ],
-          "sequence": [
-            "story",
-            "practice",
-            "story"
-          ],
-          "transitions": [
-            {
-              "kind": "chime",
-              "from": "story",
-              "to": "practice",
-              "start_ms": 59232,
-              "end_ms": 59852
-            },
-            {
-              "kind": "chime",
-              "from": "practice",
-              "to": "story",
-              "start_ms": 301937,
-              "end_ms": 302557
-            }
-          ],
-          "narration": {
-            "engine": "azure",
-            "voice": "es-ES-ElviraNeural",
-            "style": null,
-            "rate": "-12%",
-            "locale": "es-ES",
-            "capabilities": {
-              "voice": "es-ES-ElviraNeural",
-              "locale": "es-ES",
-              "advertised_styles": []
-            },
-            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"es-ES\"><voice name=\"es-ES-ElviraNeural\"><prosody rate=\"-12%\"><p>Los niños abren la puerta verde y entran en un jardín subterráneo. En una rama hay un pájaro dorado. No canta. Solo hace tictac como un reloj: tic-tac, tic-tac. En un ala tiene una piedrecita azul brillante. En la otra ala hay un hueco vacío. Maya mira la radio. ¡El botón azul de la radio es igual que la piedrecita del pájaro!\n—Radiofón, ¿de dónde has sacado este botón? —pregunta Maya.\n—Es la piedrecita del pájaro —dice Radiofón—. Hace mucho tiempo se le cayó del ala. Alguien la convirtió en mi botón. ¡Os estaba esperando para devolverla!</p></prosody></voice></speak>"
-          },
-          "packaged_audio": "polish-spanish/audio/stories/magical_radio/07_chapter_07_pl_es_2026-10-30_12-52-42.mp3"
-        },
         "sv": {
           "source_language": "en",
           "audio_file": "07_chapter_07_en_sv_2026-10-30_13-25-06.mp3",
@@ -3019,6 +2956,69 @@
             "ssml": "<speak xmlns:mstts=\"http://www.w3.org/2001/mstts\" version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"sv-SE\"><voice name=\"sv-SE-Harper:MAI-Voice-2.1\"><mstts:express-as style=\"audiobook\"><prosody rate=\"-12%\"><p>Barnen öppnar den gröna dörren och går in i en underjordisk trädgård. På en gren sitter en gyllene fågel. Den sjunger inte, utan tickar bara som en klocka: Tick-tack, tick-tack. På ena vingen har den en glänsande blå sten. På den andra vingen finns en tom plats. Maja tittar på radion. Radions blå knapp ser ut precis som fågelns sten! – Radiofon, var har du fått knappen ifrån? frågar Maja. – Det är fågelns sten, säger Radiofon. För länge sedan föll den ur fågelns vinge. Någon gjorde den till min knapp. Jag väntade på er för att kunna ge tillbaka den!</p></prosody></mstts:express-as></voice></speak>"
           },
           "packaged_audio": "english-swedish/audio/stories/magical_radio/07_chapter_07_en_sv_2026-10-30_13-25-06.mp3"
+        },
+        "es": {
+          "source_language": "ru",
+          "audio_file": "07_chapter_07_ru_es_2026-10-30_17-01-44.mp3",
+          "manifest_file": "07_chapter_07_ru_es_2026-10-30_17-01-44.json",
+          "total_duration_ms": 357206,
+          "chapter_reading": {
+            "text": "Los niños abren la puerta verde y entran en un jardín subterráneo. En una rama hay un pájaro dorado. No canta. Solo hace tictac como un reloj: tic-tac, tic-tac. En un ala tiene una piedrecita azul brillante. En la otra ala hay un hueco vacío. Maya mira la radio. ¡El botón azul de la radio es igual que la piedrecita del pájaro!\n—Radiofón, ¿de dónde has sacado este botón? —pregunta Maya.\n—Es la piedrecita del pájaro —dice Radiofón—. Hace mucho tiempo se le cayó del ala. Alguien la convirtió en mi botón. ¡Os estaba esperando para devolverla!",
+            "start_ms": 308630,
+            "end_ms": 357206
+          },
+          "chapter_introduction": {
+            "text": "Capítulo siete. El pájaro dorado.",
+            "start_ms": 1000,
+            "end_ms": 5656
+          },
+          "chapter_readings": [
+            {
+              "text": "Los niños abren la puerta verde y entran en un jardín subterráneo. En una rama hay un pájaro dorado. No canta. Solo hace tictac como un reloj: tic-tac, tic-tac. En un ala tiene una piedrecita azul brillante. En la otra ala hay un hueco vacío. Maya mira la radio. ¡El botón azul de la radio es igual que la piedrecita del pájaro!\n—Radiofón, ¿de dónde has sacado este botón? —pregunta Maya.\n—Es la piedrecita del pájaro —dice Radiofón—. Hace mucho tiempo se le cayó del ala. Alguien la convirtió en mi botón. ¡Os estaba esperando para devolverla!",
+              "start_ms": 8156,
+              "end_ms": 56732
+            },
+            {
+              "text": "Los niños abren la puerta verde y entran en un jardín subterráneo. En una rama hay un pájaro dorado. No canta. Solo hace tictac como un reloj: tic-tac, tic-tac. En un ala tiene una piedrecita azul brillante. En la otra ala hay un hueco vacío. Maya mira la radio. ¡El botón azul de la radio es igual que la piedrecita del pájaro!\n—Radiofón, ¿de dónde has sacado este botón? —pregunta Maya.\n—Es la piedrecita del pájaro —dice Radiofón—. Hace mucho tiempo se le cayó del ala. Alguien la convirtió en mi botón. ¡Os estaba esperando para devolverla!",
+              "start_ms": 308630,
+              "end_ms": 357206
+            }
+          ],
+          "sequence": [
+            "story",
+            "practice",
+            "story"
+          ],
+          "transitions": [
+            {
+              "kind": "chime",
+              "from": "story",
+              "to": "practice",
+              "start_ms": 59232,
+              "end_ms": 59852
+            },
+            {
+              "kind": "chime",
+              "from": "practice",
+              "to": "story",
+              "start_ms": 305510,
+              "end_ms": 306130
+            }
+          ],
+          "narration": {
+            "engine": "azure",
+            "voice": "es-ES-ElviraNeural",
+            "style": null,
+            "rate": "-12%",
+            "locale": "es-ES",
+            "capabilities": {
+              "voice": "es-ES-ElviraNeural",
+              "locale": "es-ES",
+              "advertised_styles": []
+            },
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"es-ES\"><voice name=\"es-ES-ElviraNeural\"><prosody rate=\"-12%\"><p>Los niños abren la puerta verde y entran en un jardín subterráneo. En una rama hay un pájaro dorado. No canta. Solo hace tictac como un reloj: tic-tac, tic-tac. En un ala tiene una piedrecita azul brillante. En la otra ala hay un hueco vacío. Maya mira la radio. ¡El botón azul de la radio es igual que la piedrecita del pájaro!\n—Radiofón, ¿de dónde has sacado este botón? —pregunta Maya.\n—Es la piedrecita del pájaro —dice Radiofón—. Hace mucho tiempo se le cayó del ala. Alguien la convirtió en mi botón. ¡Os estaba esperando para devolverla!</p></prosody></voice></speak>"
+          },
+          "packaged_audio": "russian-spanish/audio/stories/magical_radio/07_chapter_07_ru_es_2026-10-30_17-01-44.mp3"
         }
       }
     },
@@ -3246,69 +3246,6 @@
           },
           "packaged_audio": "polish-english/audio/stories/magical_radio/08_chapter_08_pl_en_2026-10-29_20-56-15.mp3"
         },
-        "es": {
-          "source_language": "pl",
-          "audio_file": "08_chapter_08_pl_es_2026-10-30_12-52-42.mp3",
-          "manifest_file": "08_chapter_08_pl_es_2026-10-30_12-52-42.json",
-          "total_duration_ms": 238017,
-          "chapter_reading": {
-            "text": "Maya saca con cuidado el botón azul de la radio. Tom lo coloca en el ala del pájaro. Los niños gritan:\n—¡Reparo!\nEl pájaro dorado agita las alas y empieza a cantar alegremente. Las mariposas bailan en el aire.\n—¡Bien hecho! —dice Radiofón—. Sois unos auténticos exploradores. ¡Mañana nos espera una nueva aventura!",
-            "start_ms": 207273,
-            "end_ms": 238017
-          },
-          "chapter_introduction": {
-            "text": "Capítulo ocho. El gran concierto.",
-            "start_ms": 1000,
-            "end_ms": 5440
-          },
-          "chapter_readings": [
-            {
-              "text": "Maya saca con cuidado el botón azul de la radio. Tom lo coloca en el ala del pájaro. Los niños gritan:\n—¡Reparo!\nEl pájaro dorado agita las alas y empieza a cantar alegremente. Las mariposas bailan en el aire.\n—¡Bien hecho! —dice Radiofón—. Sois unos auténticos exploradores. ¡Mañana nos espera una nueva aventura!",
-              "start_ms": 7940,
-              "end_ms": 38684
-            },
-            {
-              "text": "Maya saca con cuidado el botón azul de la radio. Tom lo coloca en el ala del pájaro. Los niños gritan:\n—¡Reparo!\nEl pájaro dorado agita las alas y empieza a cantar alegremente. Las mariposas bailan en el aire.\n—¡Bien hecho! —dice Radiofón—. Sois unos auténticos exploradores. ¡Mañana nos espera una nueva aventura!",
-              "start_ms": 207273,
-              "end_ms": 238017
-            }
-          ],
-          "sequence": [
-            "story",
-            "practice",
-            "story"
-          ],
-          "transitions": [
-            {
-              "kind": "chime",
-              "from": "story",
-              "to": "practice",
-              "start_ms": 41184,
-              "end_ms": 41804
-            },
-            {
-              "kind": "chime",
-              "from": "practice",
-              "to": "story",
-              "start_ms": 204153,
-              "end_ms": 204773
-            }
-          ],
-          "narration": {
-            "engine": "azure",
-            "voice": "es-ES-ElviraNeural",
-            "style": null,
-            "rate": "-12%",
-            "locale": "es-ES",
-            "capabilities": {
-              "voice": "es-ES-ElviraNeural",
-              "locale": "es-ES",
-              "advertised_styles": []
-            },
-            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"es-ES\"><voice name=\"es-ES-ElviraNeural\"><prosody rate=\"-12%\"><p>Maya saca con cuidado el botón azul de la radio. Tom lo coloca en el ala del pájaro. Los niños gritan:\n—¡Reparo!\nEl pájaro dorado agita las alas y empieza a cantar alegremente. Las mariposas bailan en el aire.\n—¡Bien hecho! —dice Radiofón—. Sois unos auténticos exploradores. ¡Mañana nos espera una nueva aventura!</p></prosody></voice></speak>"
-          },
-          "packaged_audio": "polish-spanish/audio/stories/magical_radio/08_chapter_08_pl_es_2026-10-30_12-52-42.mp3"
-        },
         "sv": {
           "source_language": "en",
           "audio_file": "08_chapter_08_en_sv_2026-10-30_13-25-06.mp3",
@@ -3377,6 +3314,69 @@
             "ssml": "<speak xmlns:mstts=\"http://www.w3.org/2001/mstts\" version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"sv-SE\"><voice name=\"sv-SE-Harper:MAI-Voice-2.1\"><mstts:express-as style=\"audiobook\"><prosody rate=\"-12%\"><p>Maja tar försiktigt ut den blå knappen ur radion. Tom sätter in den i fågelns vinge. Barnen ropar: – Reparo! Den gyllene fågeln flaxar med vingarna och börjar sjunga glatt. Fjärilar dansar i luften. – Bra jobbat! säger Radiofon. Ni är riktiga upptäckare. I morgon väntar ett nytt äventyr på oss!</p></prosody></mstts:express-as></voice></speak>"
           },
           "packaged_audio": "english-swedish/audio/stories/magical_radio/08_chapter_08_en_sv_2026-10-30_13-25-06.mp3"
+        },
+        "es": {
+          "source_language": "ru",
+          "audio_file": "08_chapter_08_ru_es_2026-10-30_17-01-44.mp3",
+          "manifest_file": "08_chapter_08_ru_es_2026-10-30_17-01-44.json",
+          "total_duration_ms": 241792,
+          "chapter_reading": {
+            "text": "Maya saca con cuidado el botón azul de la radio. Tom lo coloca en el ala del pájaro. Los niños gritan:\n—¡Reparo!\nEl pájaro dorado agita las alas y empieza a cantar alegremente. Las mariposas bailan en el aire.\n—¡Bien hecho! —dice Radiofón—. Sois unos auténticos exploradores. ¡Mañana nos espera una nueva aventura!",
+            "start_ms": 211048,
+            "end_ms": 241792
+          },
+          "chapter_introduction": {
+            "text": "Capítulo ocho. El gran concierto.",
+            "start_ms": 1000,
+            "end_ms": 5440
+          },
+          "chapter_readings": [
+            {
+              "text": "Maya saca con cuidado el botón azul de la radio. Tom lo coloca en el ala del pájaro. Los niños gritan:\n—¡Reparo!\nEl pájaro dorado agita las alas y empieza a cantar alegremente. Las mariposas bailan en el aire.\n—¡Bien hecho! —dice Radiofón—. Sois unos auténticos exploradores. ¡Mañana nos espera una nueva aventura!",
+              "start_ms": 7940,
+              "end_ms": 38684
+            },
+            {
+              "text": "Maya saca con cuidado el botón azul de la radio. Tom lo coloca en el ala del pájaro. Los niños gritan:\n—¡Reparo!\nEl pájaro dorado agita las alas y empieza a cantar alegremente. Las mariposas bailan en el aire.\n—¡Bien hecho! —dice Radiofón—. Sois unos auténticos exploradores. ¡Mañana nos espera una nueva aventura!",
+              "start_ms": 211048,
+              "end_ms": 241792
+            }
+          ],
+          "sequence": [
+            "story",
+            "practice",
+            "story"
+          ],
+          "transitions": [
+            {
+              "kind": "chime",
+              "from": "story",
+              "to": "practice",
+              "start_ms": 41184,
+              "end_ms": 41804
+            },
+            {
+              "kind": "chime",
+              "from": "practice",
+              "to": "story",
+              "start_ms": 207928,
+              "end_ms": 208548
+            }
+          ],
+          "narration": {
+            "engine": "azure",
+            "voice": "es-ES-ElviraNeural",
+            "style": null,
+            "rate": "-12%",
+            "locale": "es-ES",
+            "capabilities": {
+              "voice": "es-ES-ElviraNeural",
+              "locale": "es-ES",
+              "advertised_styles": []
+            },
+            "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"es-ES\"><voice name=\"es-ES-ElviraNeural\"><prosody rate=\"-12%\"><p>Maya saca con cuidado el botón azul de la radio. Tom lo coloca en el ala del pájaro. Los niños gritan:\n—¡Reparo!\nEl pájaro dorado agita las alas y empieza a cantar alegremente. Las mariposas bailan en el aire.\n—¡Bien hecho! —dice Radiofón—. Sois unos auténticos exploradores. ¡Mañana nos espera una nueva aventura!</p></prosody></voice></speak>"
+          },
+          "packaged_audio": "russian-spanish/audio/stories/magical_radio/08_chapter_08_ru_es_2026-10-30_17-01-44.mp3"
         }
       }
     }
@@ -3415,30 +3415,30 @@
       "owner_email": "repeto.lingo@gmail.com"
     },
     "es": {
-      "slug": "polish-spanish",
-      "feed_url": "https://trusohamn.github.io/repeto/polish-spanish/feed.xml",
+      "slug": "russian-spanish",
+      "feed_url": "https://trusohamn.github.io/repeto/russian-spanish/feed.xml",
       "episodes": 38,
-      "title": "Repeto – Ucz się hiszpańskiego",
+      "title": "Repeto – Учи испанский",
       "author": "Repeto",
       "owner_email": "repeto.lingo@gmail.com"
     }
   },
   "settings": {
-    "source_language": "en",
+    "source_language": "ru",
     "target_languages": [
-      "sv"
+      "es"
     ],
     "voices": {
-      "sv": "sv-SE-SofieNeural",
-      "en": "en-GB-SoniaNeural"
+      "es": "es-ES-ElviraNeural",
+      "ru": "ru-RU-SvetlanaNeural"
     },
     "rates": {
-      "sv": "-15%",
-      "en": "-5%"
+      "es": "-15%",
+      "ru": "-15%"
     },
     "pitches": {
-      "sv": "+0Hz",
-      "en": "+0Hz"
+      "es": "+0Hz",
+      "ru": "+0Hz"
     },
     "format": "mp3",
     "bitrate": "192k",
@@ -3451,30 +3451,24 @@
       "practice",
       "story"
     ],
-    "timestamp": "2026-10-30_13-25-06",
+    "timestamp": "2026-10-30_17-01-44",
     "narration": {
-      "sv": {
+      "es": {
         "engine": "azure",
-        "voice": "sv-SE-Harper:MAI-Voice-2.1",
-        "style": "audiobook",
+        "voice": "es-ES-ElviraNeural",
+        "style": null,
         "rate": "-12%",
-        "locale": "sv-SE",
+        "locale": "es-ES",
         "capabilities": {
-          "voice": "sv-SE-Harper:MAI-Voice-2.1",
-          "locale": "sv-SE",
-          "advertised_styles": [
-            "agent",
-            "audiobook",
-            "customer_call_center",
-            "educational",
-            "narrator"
-          ]
+          "voice": "es-ES-ElviraNeural",
+          "locale": "es-ES",
+          "advertised_styles": []
         }
       }
     },
     "narration_engine": "azure",
     "tts_engine": "azure",
-    "output": "courses/stories/magical_radio/generated/audio/en_sv"
+    "output": "courses/stories/magical_radio/generated/audio/ru_es"
   },
   "renders": {
     "sv_pl": {
@@ -3863,6 +3857,53 @@
       "narration_engine": "azure",
       "tts_engine": "azure",
       "output": "courses/stories/magical_radio/generated/audio/en_sv"
+    },
+    "ru_es": {
+      "source_language": "ru",
+      "target_languages": [
+        "es"
+      ],
+      "voices": {
+        "es": "es-ES-ElviraNeural",
+        "ru": "ru-RU-SvetlanaNeural"
+      },
+      "rates": {
+        "es": "-15%",
+        "ru": "-15%"
+      },
+      "pitches": {
+        "es": "+0Hz",
+        "ru": "+0Hz"
+      },
+      "format": "mp3",
+      "bitrate": "192k",
+      "lead_in_ms": 1000,
+      "thinking_ms": 2000,
+      "repetition_ms": 2500,
+      "practice_order": "deterministically_shuffled",
+      "sequence": [
+        "story",
+        "practice",
+        "story"
+      ],
+      "timestamp": "2026-10-30_17-01-44",
+      "narration": {
+        "es": {
+          "engine": "azure",
+          "voice": "es-ES-ElviraNeural",
+          "style": null,
+          "rate": "-12%",
+          "locale": "es-ES",
+          "capabilities": {
+            "voice": "es-ES-ElviraNeural",
+            "locale": "es-ES",
+            "advertised_styles": []
+          }
+        }
+      },
+      "narration_engine": "azure",
+      "tts_engine": "azure",
+      "output": "courses/stories/magical_radio/generated/audio/ru_es"
     }
   }
 }

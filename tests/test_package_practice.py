@@ -61,6 +61,45 @@ def write_render(
 
 
 class PackagePracticeTests(unittest.TestCase):
+    def test_russian_source_spanish_answers_and_page_labels(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            item = {"id": "phrase_000001", "topic": "Greetings", "se": "Hej!",
+                    "pl": "Cześć!", "en": "Hello!", "ru": "Привет!", "es": "¡Hola!"}
+            transcript = root / "transcript.json"
+            transcript.write_text(json.dumps([item]), encoding="utf-8")
+            titles = root / "topics.json"
+            titles.write_text(json.dumps(
+                {"Greetings": {"ru": "Приветствия", "es": "Saludos"}}
+            ), encoding="utf-8")
+            renders = root / "renders"
+            renders.mkdir()
+            write_render(renders, 1, "Greetings", [item], "ru", "es")
+            podcast_root = root / "podcast"
+            course = podcast_root / "russian-spanish"
+            course.mkdir(parents=True)
+            (course / "cover.jpeg").write_bytes(b"jpeg")
+            args = package_practice.create_parser().parse_args([
+                "--source", "ru", "--target", "es", "--course", "russian-spanish",
+                "--renders", str(renders), "--transcript", str(transcript),
+                "--topic-titles", str(titles), "--podcast-root", str(podcast_root),
+            ])
+            catalog = package_practice.package(args)
+            self.assertEqual(catalog["language"], "ru")
+            self.assertEqual(catalog["source_language"], "ru")
+            self.assertEqual(catalog["target_language"], "es")
+            self.assertEqual(catalog["title"], "Repeto – Учи испанский")
+            self.assertIn("Привет! → ¡Hola!", catalog["episodes"][0]["description"])
+            self.assertEqual(catalog["episodes"][0]["title"], "Приветствия — Saludos")
+            page = (course / "index.html").read_text(encoding="utf-8")
+            self.assertIn('lang="ru"', page)
+            self.assertIn("Сезон 1", page)
+            self.assertIn("Слушать", page)
+            self.assertIn("RSS-лента", page)
+            self.assertNotIn("Lyssna", page)
+            again = package_practice.package(args)
+            self.assertEqual(catalog["episodes"], again["episodes"])
+
     def test_english_source_swedish_answers_and_page_labels(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)

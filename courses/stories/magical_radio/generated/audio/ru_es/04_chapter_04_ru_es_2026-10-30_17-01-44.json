@@ -1,0 +1,578 @@
+{
+  "chapter_number": 4,
+  "title": {
+    "pl": "Schody w dół",
+    "es": "Escaleras abajo",
+    "sv": "Trappan ner",
+    "en": "Down the Stairs",
+    "ru": "Лестница вниз"
+  },
+  "source_language": "ru",
+  "target_language": "es",
+  "practice_order": "deterministically_shuffled",
+  "sequence": [
+    "story",
+    "practice",
+    "story"
+  ],
+  "total_duration_ms": 294720,
+  "practice": [
+    {
+      "id": 153,
+      "kind": "vocabulary",
+      "start_ms": 42648,
+      "end_ms": 52056,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "книги",
+        "start_ms": 42648,
+        "end_ms": 43448
+      },
+      "target_playbacks": [
+        {
+          "text": "libros",
+          "start_ms": 45448,
+          "end_ms": 46252
+        },
+        {
+          "text": "libros",
+          "start_ms": 48752,
+          "end_ms": 49556
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "kind": "vocabulary",
+      "start_ms": 52056,
+      "end_ms": 61926,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "открываться",
+        "start_ms": 52056,
+        "end_ms": 53262
+      },
+      "target_playbacks": [
+        {
+          "text": "abrirse",
+          "start_ms": 55262,
+          "end_ms": 56094
+        },
+        {
+          "text": "abrirse",
+          "start_ms": 58594,
+          "end_ms": 59426
+        }
+      ]
+    },
+    {
+      "id": 147,
+      "kind": "vocabulary",
+      "start_ms": 61926,
+      "end_ms": 73366,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "вести вниз",
+        "start_ms": 61926,
+        "end_ms": 63178
+      },
+      "target_playbacks": [
+        {
+          "text": "conducir hacia abajo",
+          "start_ms": 65178,
+          "end_ms": 66772
+        },
+        {
+          "text": "conducir hacia abajo",
+          "start_ms": 69272,
+          "end_ms": 70866
+        }
+      ]
+    },
+    {
+      "id": 227,
+      "kind": "vocabulary",
+      "start_ms": 73366,
+      "end_ms": 86454,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "светиться золотым светом",
+        "start_ms": 73366,
+        "end_ms": 75510
+      },
+      "target_playbacks": [
+        {
+          "text": "brillar con una luz dorada",
+          "start_ms": 77510,
+          "end_ms": 79482
+        },
+        {
+          "text": "brillar con una luz dorada",
+          "start_ms": 81982,
+          "end_ms": 83954
+        }
+      ]
+    },
+    {
+      "id": 226,
+      "kind": "vocabulary",
+      "start_ms": 86454,
+      "end_ms": 97288,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "одна из них",
+        "start_ms": 86454,
+        "end_ms": 87788
+      },
+      "target_playbacks": [
+        {
+          "text": "uno de ellos",
+          "start_ms": 89788,
+          "end_ms": 91038
+        },
+        {
+          "text": "uno de ellos",
+          "start_ms": 93538,
+          "end_ms": 94788
+        }
+      ]
+    },
+    {
+      "id": 154,
+      "kind": "vocabulary",
+      "start_ms": 97288,
+      "end_ms": 107380,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "некоторые",
+        "start_ms": 97288,
+        "end_ms": 98456
+      },
+      "target_playbacks": [
+        {
+          "text": "algunos",
+          "start_ms": 100456,
+          "end_ms": 101418
+        },
+        {
+          "text": "algunos",
+          "start_ms": 103918,
+          "end_ms": 104880
+        }
+      ]
+    },
+    {
+      "id": 150,
+      "kind": "vocabulary",
+      "start_ms": 107380,
+      "end_ms": 116866,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "спускаться",
+        "start_ms": 107380,
+        "end_ms": 108548
+      },
+      "target_playbacks": [
+        {
+          "text": "bajar",
+          "start_ms": 110548,
+          "end_ms": 111207
+        },
+        {
+          "text": "bajar",
+          "start_ms": 113707,
+          "end_ms": 114366
+        }
+      ]
+    },
+    {
+      "id": 204,
+      "kind": "vocabulary",
+      "start_ms": 116866,
+      "end_ms": 129544,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "светиться голубым светом",
+        "start_ms": 116866,
+        "end_ms": 119010
+      },
+      "target_playbacks": [
+        {
+          "text": "brillar con una luz azul",
+          "start_ms": 121010,
+          "end_ms": 122777
+        },
+        {
+          "text": "brillar con una luz azul",
+          "start_ms": 125277,
+          "end_ms": 127044
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "kind": "vocabulary",
+      "start_ms": 129544,
+      "end_ms": 141261,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "каменная лестница",
+        "start_ms": 129544,
+        "end_ms": 131287
+      },
+      "target_playbacks": [
+        {
+          "text": "escaleras de piedra",
+          "start_ms": 133287,
+          "end_ms": 134774
+        },
+        {
+          "text": "escaleras de piedra",
+          "start_ms": 137274,
+          "end_ms": 138761
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "kind": "vocabulary",
+      "start_ms": 141261,
+      "end_ms": 152096,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "повернуть ключ",
+        "start_ms": 141261,
+        "end_ms": 142652
+      },
+      "target_playbacks": [
+        {
+          "text": "girar la llave",
+          "start_ms": 144652,
+          "end_ms": 145874
+        },
+        {
+          "text": "girar la llave",
+          "start_ms": 148374,
+          "end_ms": 149596
+        }
+      ]
+    },
+    {
+      "id": 149,
+      "kind": "vocabulary",
+      "start_ms": 152096,
+      "end_ms": 161091,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "расти",
+        "start_ms": 152096,
+        "end_ms": 152915
+      },
+      "target_playbacks": [
+        {
+          "text": "crecer",
+          "start_ms": 154915,
+          "end_ms": 155503
+        },
+        {
+          "text": "crecer",
+          "start_ms": 158003,
+          "end_ms": 158591
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "kind": "vocabulary",
+      "start_ms": 161091,
+      "end_ms": 172748,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "светящиеся цветы",
+        "start_ms": 161091,
+        "end_ms": 162988
+      },
+      "target_playbacks": [
+        {
+          "text": "flores que brillan",
+          "start_ms": 164988,
+          "end_ms": 166368
+        },
+        {
+          "text": "flores que brillan",
+          "start_ms": 168868,
+          "end_ms": 170248
+        }
+      ]
+    },
+    {
+      "id": 148,
+      "kind": "vocabulary",
+      "start_ms": 172748,
+      "end_ms": 182141,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "стена",
+        "start_ms": 172748,
+        "end_ms": 173559
+      },
+      "target_playbacks": [
+        {
+          "text": "una pared",
+          "start_ms": 175559,
+          "end_ms": 176350
+        },
+        {
+          "text": "una pared",
+          "start_ms": 178850,
+          "end_ms": 179641
+        }
+      ]
+    },
+    {
+      "id": 225,
+      "kind": "vocabulary",
+      "start_ms": 182141,
+      "end_ms": 194056,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "большая библиотека",
+        "start_ms": 182141,
+        "end_ms": 184006
+      },
+      "target_playbacks": [
+        {
+          "text": "una gran biblioteca",
+          "start_ms": 186006,
+          "end_ms": 187531
+        },
+        {
+          "text": "una gran biblioteca",
+          "start_ms": 190031,
+          "end_ms": 191556
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "kind": "vocabulary",
+      "start_ms": 194056,
+      "end_ms": 203226,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "потолок",
+        "start_ms": 194056,
+        "end_ms": 194952
+      },
+      "target_playbacks": [
+        {
+          "text": "techo",
+          "start_ms": 196952,
+          "end_ms": 197589
+        },
+        {
+          "text": "techo",
+          "start_ms": 200089,
+          "end_ms": 200726
+        }
+      ]
+    },
+    {
+      "id": 202,
+      "kind": "vocabulary",
+      "start_ms": 203226,
+      "end_ms": 212369,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "стоять",
+        "start_ms": 203226,
+        "end_ms": 204147
+      },
+      "target_playbacks": [
+        {
+          "text": "estar",
+          "start_ms": 206147,
+          "end_ms": 206758
+        },
+        {
+          "text": "estar",
+          "start_ms": 209258,
+          "end_ms": 209869
+        }
+      ]
+    },
+    {
+      "id": 203,
+      "kind": "vocabulary",
+      "start_ms": 212369,
+      "end_ms": 222967,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "на стенах",
+        "start_ms": 212369,
+        "end_ms": 213450
+      },
+      "target_playbacks": [
+        {
+          "text": "en las paredes",
+          "start_ms": 215450,
+          "end_ms": 216708
+        },
+        {
+          "text": "en las paredes",
+          "start_ms": 219208,
+          "end_ms": 220467
+        }
+      ]
+    },
+    {
+      "id": 146,
+      "kind": "vocabulary",
+      "start_ms": 222967,
+      "end_ms": 231854,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "щёлк!",
+        "start_ms": 222967,
+        "end_ms": 223762
+      },
+      "target_playbacks": [
+        {
+          "text": "¡clic!",
+          "start_ms": 225762,
+          "end_ms": 226308
+        },
+        {
+          "text": "¡clic!",
+          "start_ms": 228808,
+          "end_ms": 229354
+        }
+      ]
+    },
+    {
+      "id": 152,
+      "kind": "vocabulary",
+      "start_ms": 231854,
+      "end_ms": 242624,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "повсюду",
+        "start_ms": 231854,
+        "end_ms": 232736
+      },
+      "target_playbacks": [
+        {
+          "text": "por todas partes",
+          "start_ms": 234736,
+          "end_ms": 236180
+        },
+        {
+          "text": "por todas partes",
+          "start_ms": 238680,
+          "end_ms": 240124
+        }
+      ]
+    },
+    {
+      "id": 155,
+      "kind": "vocabulary",
+      "start_ms": 242624,
+      "end_ms": 251757,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "летать",
+        "start_ms": 242624,
+        "end_ms": 243445
+      },
+      "target_playbacks": [
+        {
+          "text": "volar",
+          "start_ms": 245445,
+          "end_ms": 246101
+        },
+        {
+          "text": "volar",
+          "start_ms": 248601,
+          "end_ms": 249257
+        }
+      ]
+    },
+    {
+      "id": 156,
+      "kind": "vocabulary",
+      "start_ms": 251757,
+      "end_ms": 262752,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "под потолком",
+        "start_ms": 251757,
+        "end_ms": 252924
+      },
+      "target_playbacks": [
+        {
+          "text": "debajo del techo",
+          "start_ms": 254924,
+          "end_ms": 256338
+        },
+        {
+          "text": "debajo del techo",
+          "start_ms": 258838,
+          "end_ms": 260252
+        }
+      ]
+    }
+  ],
+  "book_introduction": null,
+  "chapter_introduction": {
+    "text": "Capítulo cuatro. Escaleras abajo.",
+    "start_ms": 1000,
+    "end_ms": 5680
+  },
+  "transitions": [
+    {
+      "kind": "chime",
+      "from": "story",
+      "to": "practice",
+      "start_ms": 39528,
+      "end_ms": 40148
+    },
+    {
+      "kind": "chime",
+      "from": "practice",
+      "to": "story",
+      "start_ms": 262752,
+      "end_ms": 263372
+    }
+  ],
+  "chapter_readings": [
+    {
+      "text": "Maya gira la llave. ¡Clic! La puerta se abre. Unas escaleras de piedra conducen hacia abajo. En las paredes crecen flores que brillan con una luz azul. Los niños bajan a una gran biblioteca. Hay libros por todas partes. ¡Algunos están volando justo debajo del techo! Uno de ellos brilla con una luz dorada.",
+      "start_ms": 8180,
+      "end_ms": 37028
+    },
+    {
+      "text": "Maya gira la llave. ¡Clic! La puerta se abre. Unas escaleras de piedra conducen hacia abajo. En las paredes crecen flores que brillan con una luz azul. Los niños bajan a una gran biblioteca. Hay libros por todas partes. ¡Algunos están volando justo debajo del techo! Uno de ellos brilla con una luz dorada.",
+      "start_ms": 265872,
+      "end_ms": 294720
+    }
+  ],
+  "chapter_reading": {
+    "text": "Maya gira la llave. ¡Clic! La puerta se abre. Unas escaleras de piedra conducen hacia abajo. En las paredes crecen flores que brillan con una luz azul. Los niños bajan a una gran biblioteca. Hay libros por todas partes. ¡Algunos están volando justo debajo del techo! Uno de ellos brilla con una luz dorada.",
+    "start_ms": 265872,
+    "end_ms": 294720
+  },
+  "narration": {
+    "engine": "azure",
+    "voice": "es-ES-ElviraNeural",
+    "style": null,
+    "rate": "-12%",
+    "locale": "es-ES",
+    "capabilities": {
+      "voice": "es-ES-ElviraNeural",
+      "locale": "es-ES",
+      "advertised_styles": []
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"es-ES\"><voice name=\"es-ES-ElviraNeural\"><prosody rate=\"-12%\"><p>Maya gira la llave. ¡Clic! La puerta se abre. Unas escaleras de piedra conducen hacia abajo. En las paredes crecen flores que brillan con una luz azul. Los niños bajan a una gran biblioteca. Hay libros por todas partes. ¡Algunos están volando justo debajo del techo! Uno de ellos brilla con una luz dorada.</p></prosody></voice></speak>"
+  },
+  "audio_file": "04_chapter_04_ru_es_2026-10-30_17-01-44.mp3"
+}

@@ -1,0 +1,868 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Repeto – Учи испанский</title>
+    <link>https://trusohamn.github.io/repeto/russian-spanish/</link>
+    <description>Учи испанский: слушай и говори с подсказками на русском. Repeto — аудиокурс для начинающих любого возраста: детей, родителей, бабушек, дедушек и всех, кто хочет начать учить испанский. Предварительные знания и учебник не нужны.
+
+Как это работает: ты слышишь слово или предложение по-русски, а затем во время паузы пробуешь сказать то же самое по-испански. После этого ответ звучит дважды, с паузами для повторения.
+
+Что входит в курс:
+• Сезон 1 — Практика: 30 коротких тем — от приветствий и чисел до еды, чувств и повседневных ситуаций.
+• Сезон 2 — История «Волшебное радио» (La radio mágica): по одной главе в каждом выпуске. Сначала слушай главу по-испански, затем тренируй слова и слушай главу ещё раз.
+• Новые истории уже в работе. Подпишись на подкаст, чтобы не пропустить выпуски.
+
+Как заниматься:
+• Начни с первого выпуска первого сезона и слушай по порядку.
+• Отвечай вслух во время пауз — попробуй вспомнить слова самостоятельно.
+• Слушай выпуск снова, пока не начнёшь отвечать раньше диктора.
+• Фоновое прослушивание помогает привыкнуть к звукам и ритму языка. Занимайся и активно: повторяй и отвечай во время пауз.
+
+Нравится такой формат? У Repeto есть курсы и для других языков с такой же структурой. Ищи Repeto в своём приложении для подкастов.
+
+Напиши нам! Предложения новых языков, исправления и идеи для историй приветствуются: repeto.lingo@gmail.com
+
+Голоса созданы с помощью ИИ (Microsoft Azure).</description>
+    <language>ru</language>
+    <itunes:author>Repeto</itunes:author>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:type>serial</itunes:type>
+    <itunes:owner>
+      <itunes:name>Repeto</itunes:name>
+      <itunes:email>repeto.lingo@gmail.com</itunes:email>
+    </itunes:owner>
+    <itunes:image href="https://trusohamn.github.io/repeto/russian-spanish/cover-5b46e175.jpeg" />
+    <itunes:category text="Education">
+      <itunes:category text="Language Learning" />
+    </itunes:category>
+    <atom:link href="https://trusohamn.github.io/repeto/russian-spanish/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>01 Приветствия — Saludos</title>
+      <description>Тема 1 из 30: Приветствия (Saludos) — 36 фраз.
+
+Ты услышишь слово или предложение по-русски. Скажи то же самое по-испански во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.
+
+Примеры из выпуска:
+• Привет! → ¡Hola!
+• Доброе утро! → ¡Buenos días!
+• Добрый день! → ¡Buenas tardes!
+
+Совет: слушай снова, пока не начнёшь отвечать раньше диктора.</description>
+      <content:encoded>&lt;p&gt;Тема 1 из 30: Приветствия (Saludos) — 36 фраз.&lt;/p&gt;&lt;p&gt;Ты услышишь слово или предложение по-русски. Скажи то же самое по-испански во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.&lt;/p&gt;&lt;p&gt;Примеры из выпуска:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Привет! → ¡Hola!&lt;/li&gt;&lt;li&gt;Доброе утро! → ¡Buenos días!&lt;/li&gt;&lt;li&gt;Добрый день! → ¡Buenas tardes!&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Совет: слушай снова, пока не начнёшь отвечать раньше диктора.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:russian-spanish:topic-01</guid>
+      <pubDate>Fri, 30 Oct 2026 16:05:30 +0000</pubDate>
+      <itunes:episode>1</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>389</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/russian-spanish/audio/practice/01_greetings_ru_es_double_2026-10-30_17-01-51.mp3" length="9327011" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>02 Числа — Números</title>
+      <description>Тема 2 из 30: Числа (Números) — 35 фраз.
+
+Ты услышишь слово или предложение по-русски. Скажи то же самое по-испански во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.
+
+Примеры из выпуска:
+• Один → Uno
+• Два → Dos
+• Три → Tres
+
+Совет: слушай снова, пока не начнёшь отвечать раньше диктора.</description>
+      <content:encoded>&lt;p&gt;Тема 2 из 30: Числа (Números) — 35 фраз.&lt;/p&gt;&lt;p&gt;Ты услышишь слово или предложение по-русски. Скажи то же самое по-испански во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.&lt;/p&gt;&lt;p&gt;Примеры из выпуска:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Один → Uno&lt;/li&gt;&lt;li&gt;Два → Dos&lt;/li&gt;&lt;li&gt;Три → Tres&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Совет: слушай снова, пока не начнёшь отвечать раньше диктора.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:russian-spanish:topic-02</guid>
+      <pubDate>Fri, 30 Oct 2026 16:05:30 +0000</pubDate>
+      <itunes:episode>2</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>360</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/russian-spanish/audio/practice/02_numbers_ru_es_double_2026-10-30_17-01-51.mp3" length="8631109" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>03 Цвета — Colores</title>
+      <description>Тема 3 из 30: Цвета (Colores) — 29 фраз.
+
+Ты услышишь слово или предложение по-русски. Скажи то же самое по-испански во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.
+
+Примеры из выпуска:
+• Красный → Rojo
+• Синий → Azul
+• Жёлтый → Amarillo
+
+Совет: слушай снова, пока не начнёшь отвечать раньше диктора.</description>
+      <content:encoded>&lt;p&gt;Тема 3 из 30: Цвета (Colores) — 29 фраз.&lt;/p&gt;&lt;p&gt;Ты услышишь слово или предложение по-русски. Скажи то же самое по-испански во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.&lt;/p&gt;&lt;p&gt;Примеры из выпуска:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Красный → Rojo&lt;/li&gt;&lt;li&gt;Синий → Azul&lt;/li&gt;&lt;li&gt;Жёлтый → Amarillo&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Совет: слушай снова, пока не начнёшь отвечать раньше диктора.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:russian-spanish:topic-03</guid>
+      <pubDate>Fri, 30 Oct 2026 16:05:30 +0000</pubDate>
+      <itunes:episode>3</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>321</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/russian-spanish/audio/practice/03_colors_ru_es_double_2026-10-30_17-01-51.mp3" length="7705120" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>04 Животные — Animales</title>
+      <description>Тема 4 из 30: Животные (Animales) — 42 фразы.
+
+Ты услышишь слово или предложение по-русски. Скажи то же самое по-испански во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.
+
+Примеры из выпуска:
+• Собака → Perro
+• Кошка → Gato
+• Птица → Pájaro
+
+Совет: слушай снова, пока не начнёшь отвечать раньше диктора.</description>
+      <content:encoded>&lt;p&gt;Тема 4 из 30: Животные (Animales) — 42 фразы.&lt;/p&gt;&lt;p&gt;Ты услышишь слово или предложение по-русски. Скажи то же самое по-испански во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.&lt;/p&gt;&lt;p&gt;Примеры из выпуска:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Собака → Perro&lt;/li&gt;&lt;li&gt;Кошка → Gato&lt;/li&gt;&lt;li&gt;Птица → Pájaro&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Совет: слушай снова, пока не начнёшь отвечать раньше диктора.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:russian-spanish:topic-04</guid>
+      <pubDate>Fri, 30 Oct 2026 16:05:30 +0000</pubDate>
+      <itunes:episode>4</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>444</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/russian-spanish/audio/practice/04_animals_ru_es_double_2026-10-30_17-01-51.mp3" length="10661136" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>05 Семья — Familia</title>
+      <description>Тема 5 из 30: Семья (Familia) — 26 фраз.
+
+Ты услышишь слово или предложение по-русски. Скажи то же самое по-испански во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.
+
+Примеры из выпуска:
+• Мама → Mamá
+• Папа → Papá
+• Сестра → Hermana
+
+Совет: слушай снова, пока не начнёшь отвечать раньше диктора.</description>
+      <content:encoded>&lt;p&gt;Тема 5 из 30: Семья (Familia) — 26 фраз.&lt;/p&gt;&lt;p&gt;Ты услышишь слово или предложение по-русски. Скажи то же самое по-испански во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.&lt;/p&gt;&lt;p&gt;Примеры из выпуска:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Мама → Mamá&lt;/li&gt;&lt;li&gt;Папа → Papá&lt;/li&gt;&lt;li&gt;Сестра → Hermana&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Совет: слушай снова, пока не начнёшь отвечать раньше диктора.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:russian-spanish:topic-05</guid>
+      <pubDate>Fri, 30 Oct 2026 16:05:30 +0000</pubDate>
+      <itunes:episode>5</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>301</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/russian-spanish/audio/practice/05_family_ru_es_double_2026-10-30_17-01-51.mp3" length="7226139" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>06 Еда — Comida</title>
+      <description>Тема 6 из 30: Еда (Comida) — 49 фраз.
+
+Ты услышишь слово или предложение по-русски. Скажи то же самое по-испански во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.
+
+Примеры из выпуска:
+• Хлеб → Pan
+• Молоко → Leche
+• Яйцо → Huevo
+
+Совет: слушай снова, пока не начнёшь отвечать раньше диктора.</description>
+      <content:encoded>&lt;p&gt;Тема 6 из 30: Еда (Comida) — 49 фраз.&lt;/p&gt;&lt;p&gt;Ты услышишь слово или предложение по-русски. Скажи то же самое по-испански во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.&lt;/p&gt;&lt;p&gt;Примеры из выпуска:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Хлеб → Pan&lt;/li&gt;&lt;li&gt;Молоко → Leche&lt;/li&gt;&lt;li&gt;Яйцо → Huevo&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Совет: слушай снова, пока не начнёшь отвечать раньше диктора.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:russian-spanish:topic-06</guid>
+      <pubDate>Fri, 30 Oct 2026 16:05:30 +0000</pubDate>
+      <itunes:episode>6</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>509</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/russian-spanish/audio/practice/06_food_ru_es_double_2026-10-30_17-01-51.mp3" length="12227230" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>07 Тело — Cuerpo</title>
+      <description>Тема 7 из 30: Тело (Cuerpo) — 37 фраз.
+
+Ты услышишь слово или предложение по-русски. Скажи то же самое по-испански во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.
+
+Примеры из выпуска:
+• Голова → Cabeza
+• Волосы → Pelo
+• Глаз → Ojo
+
+Совет: слушай снова, пока не начнёшь отвечать раньше диктора.</description>
+      <content:encoded>&lt;p&gt;Тема 7 из 30: Тело (Cuerpo) — 37 фраз.&lt;/p&gt;&lt;p&gt;Ты услышишь слово или предложение по-русски. Скажи то же самое по-испански во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.&lt;/p&gt;&lt;p&gt;Примеры из выпуска:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Голова → Cabeza&lt;/li&gt;&lt;li&gt;Волосы → Pelo&lt;/li&gt;&lt;li&gt;Глаз → Ojo&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Совет: слушай снова, пока не начнёшь отвечать раньше диктора.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:russian-spanish:topic-07</guid>
+      <pubDate>Fri, 30 Oct 2026 16:05:30 +0000</pubDate>
+      <itunes:episode>7</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>396</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/russian-spanish/audio/practice/07_body_ru_es_double_2026-10-30_17-01-51.mp3" length="9499419" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>08 Одежда — Ropa</title>
+      <description>Тема 8 из 30: Одежда (Ropa) — 29 фраз.
+
+Ты услышишь слово или предложение по-русски. Скажи то же самое по-испански во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.
+
+Примеры из выпуска:
+• Свитер → Jersey
+• Футболка → Camiseta
+• Рубашка → Camisa
+
+Совет: слушай снова, пока не начнёшь отвечать раньше диктора.</description>
+      <content:encoded>&lt;p&gt;Тема 8 из 30: Одежда (Ropa) — 29 фраз.&lt;/p&gt;&lt;p&gt;Ты услышишь слово или предложение по-русски. Скажи то же самое по-испански во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.&lt;/p&gt;&lt;p&gt;Примеры из выпуска:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Свитер → Jersey&lt;/li&gt;&lt;li&gt;Футболка → Camiseta&lt;/li&gt;&lt;li&gt;Рубашка → Camisa&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Совет: слушай снова, пока не начнёшь отвечать раньше диктора.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:russian-spanish:topic-08</guid>
+      <pubDate>Fri, 30 Oct 2026 16:05:30 +0000</pubDate>
+      <itunes:episode>8</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>330</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/russian-spanish/audio/practice/08_clothing_ru_es_double_2026-10-30_17-01-51.mp3" length="7914518" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>09 Дома — En casa</title>
+      <description>Тема 9 из 30: Дома (En casa) — 38 фраз.
+
+Ты услышишь слово или предложение по-русски. Скажи то же самое по-испански во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.
+
+Примеры из выпуска:
+• Дом → Casa
+• Квартира → Piso
+• Комната → Habitación
+
+Совет: слушай снова, пока не начнёшь отвечать раньше диктора.</description>
+      <content:encoded>&lt;p&gt;Тема 9 из 30: Дома (En casa) — 38 фраз.&lt;/p&gt;&lt;p&gt;Ты услышишь слово или предложение по-русски. Скажи то же самое по-испански во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.&lt;/p&gt;&lt;p&gt;Примеры из выпуска:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Дом → Casa&lt;/li&gt;&lt;li&gt;Квартира → Piso&lt;/li&gt;&lt;li&gt;Комната → Habitación&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Совет: слушай снова, пока не начнёшь отвечать раньше диктора.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:russian-spanish:topic-09</guid>
+      <pubDate>Fri, 30 Oct 2026 16:05:30 +0000</pubDate>
+      <itunes:episode>9</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>404</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/russian-spanish/audio/practice/09_home_ru_es_double_2026-10-30_17-01-51.mp3" length="9702547" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>10 Школа — Colegio</title>
+      <description>Тема 10 из 30: Школа (Colegio) — 41 фраза.
+
+Ты услышишь слово или предложение по-русски. Скажи то же самое по-испански во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.
+
+Примеры из выпуска:
+• Школа → Colegio
+• Класс → Aula
+• Учитель → Profesor
+
+Совет: слушай снова, пока не начнёшь отвечать раньше диктора.</description>
+      <content:encoded>&lt;p&gt;Тема 10 из 30: Школа (Colegio) — 41 фраза.&lt;/p&gt;&lt;p&gt;Ты услышишь слово или предложение по-русски. Скажи то же самое по-испански во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.&lt;/p&gt;&lt;p&gt;Примеры из выпуска:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Школа → Colegio&lt;/li&gt;&lt;li&gt;Класс → Aula&lt;/li&gt;&lt;li&gt;Учитель → Profesor&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Совет: слушай снова, пока не начнёшь отвечать раньше диктора.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:russian-spanish:topic-10</guid>
+      <pubDate>Fri, 30 Oct 2026 16:05:30 +0000</pubDate>
+      <itunes:episode>10</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>453</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/russian-spanish/audio/practice/10_school_ru_es_double_2026-10-30_17-01-51.mp3" length="10883700" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>11 Погода — El tiempo</title>
+      <description>Тема 11 из 30: Погода (El tiempo) — 25 фраз.
+
+Ты услышишь слово или предложение по-русски. Скажи то же самое по-испански во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.
+
+Примеры из выпуска:
+• Погода → Tiempo
+• Солнце → Sol
+• Дождь → Lluvia
+
+Совет: слушай снова, пока не начнёшь отвечать раньше диктора.</description>
+      <content:encoded>&lt;p&gt;Тема 11 из 30: Погода (El tiempo) — 25 фраз.&lt;/p&gt;&lt;p&gt;Ты услышишь слово или предложение по-русски. Скажи то же самое по-испански во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.&lt;/p&gt;&lt;p&gt;Примеры из выпуска:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Погода → Tiempo&lt;/li&gt;&lt;li&gt;Солнце → Sol&lt;/li&gt;&lt;li&gt;Дождь → Lluvia&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Совет: слушай снова, пока не начнёшь отвечать раньше диктора.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:russian-spanish:topic-11</guid>
+      <pubDate>Fri, 30 Oct 2026 16:05:30 +0000</pubDate>
+      <itunes:episode>11</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>266</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/russian-spanish/audio/practice/11_weather_ru_es_double_2026-10-30_17-01-51.mp3" length="6386668" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>12 Времена года — Estaciones del año</title>
+      <description>Тема 12 из 30: Времена года (Estaciones del año) — 18 фраз.
+
+Ты услышишь слово или предложение по-русски. Скажи то же самое по-испански во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.
+
+Примеры из выпуска:
+• Весна → Primavera
+• Лето → Verano
+• Осень → Otoño
+
+Совет: слушай снова, пока не начнёшь отвечать раньше диктора.</description>
+      <content:encoded>&lt;p&gt;Тема 12 из 30: Времена года (Estaciones del año) — 18 фраз.&lt;/p&gt;&lt;p&gt;Ты услышишь слово или предложение по-русски. Скажи то же самое по-испански во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.&lt;/p&gt;&lt;p&gt;Примеры из выпуска:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Весна → Primavera&lt;/li&gt;&lt;li&gt;Лето → Verano&lt;/li&gt;&lt;li&gt;Осень → Otoño&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Совет: слушай снова, пока не начнёшь отвечать раньше диктора.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:russian-spanish:topic-12</guid>
+      <pubDate>Fri, 30 Oct 2026 16:05:30 +0000</pubDate>
+      <itunes:episode>12</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>217</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/russian-spanish/audio/practice/12_seasons_ru_es_double_2026-10-30_17-01-51.mp3" length="5218681" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>13 Дни и время — Días y horas</title>
+      <description>Тема 13 из 30: Дни и время (Días y horas) — 29 фраз.
+
+Ты услышишь слово или предложение по-русски. Скажи то же самое по-испански во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.
+
+Примеры из выпуска:
+• Понедельник → Lunes
+• Вторник → Martes
+• Среда → Miércoles
+
+Совет: слушай снова, пока не начнёшь отвечать раньше диктора.</description>
+      <content:encoded>&lt;p&gt;Тема 13 из 30: Дни и время (Días y horas) — 29 фраз.&lt;/p&gt;&lt;p&gt;Ты услышишь слово или предложение по-русски. Скажи то же самое по-испански во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.&lt;/p&gt;&lt;p&gt;Примеры из выпуска:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Понедельник → Lunes&lt;/li&gt;&lt;li&gt;Вторник → Martes&lt;/li&gt;&lt;li&gt;Среда → Miércoles&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Совет: слушай снова, пока не начнёшь отвечать раньше диктора.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:russian-spanish:topic-13</guid>
+      <pubDate>Fri, 30 Oct 2026 16:05:30 +0000</pubDate>
+      <itunes:episode>13</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>320</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/russian-spanish/audio/practice/13_days_and_time_ru_es_double_2026-10-30_17-01-51.mp3" length="7690074" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>14 Игрушки и игры — Juguetes y juegos</title>
+      <description>Тема 14 из 30: Игрушки и игры (Juguetes y juegos) — 34 фразы.
+
+Ты услышишь слово или предложение по-русски. Скажи то же самое по-испански во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.
+
+Примеры из выпуска:
+• Игрушка → Juguete
+• Мяч → Pelota
+• Кукла → Muñeca
+
+Совет: слушай снова, пока не начнёшь отвечать раньше диктора.</description>
+      <content:encoded>&lt;p&gt;Тема 14 из 30: Игрушки и игры (Juguetes y juegos) — 34 фразы.&lt;/p&gt;&lt;p&gt;Ты услышишь слово или предложение по-русски. Скажи то же самое по-испански во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.&lt;/p&gt;&lt;p&gt;Примеры из выпуска:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Игрушка → Juguete&lt;/li&gt;&lt;li&gt;Мяч → Pelota&lt;/li&gt;&lt;li&gt;Кукла → Muñeca&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Совет: слушай снова, пока не начнёшь отвечать раньше диктора.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:russian-spanish:topic-14</guid>
+      <pubDate>Fri, 30 Oct 2026 16:05:30 +0000</pubDate>
+      <itunes:episode>14</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>384</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/russian-spanish/audio/practice/14_toys_and_play_ru_es_double_2026-10-30_17-01-51.mp3" length="9221685" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>15 Спорт и занятия — Deportes y actividades</title>
+      <description>Тема 15 из 30: Спорт и занятия (Deportes y actividades) — 25 фраз.
+
+Ты услышишь слово или предложение по-русски. Скажи то же самое по-испански во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.
+
+Примеры из выпуска:
+• Футбол → Fútbol
+• Плавание → Natación
+• Езда на велосипеде → Ciclismo
+
+Совет: слушай снова, пока не начнёшь отвечать раньше диктора.</description>
+      <content:encoded>&lt;p&gt;Тема 15 из 30: Спорт и занятия (Deportes y actividades) — 25 фраз.&lt;/p&gt;&lt;p&gt;Ты услышишь слово или предложение по-русски. Скажи то же самое по-испански во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.&lt;/p&gt;&lt;p&gt;Примеры из выпуска:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Футбол → Fútbol&lt;/li&gt;&lt;li&gt;Плавание → Natación&lt;/li&gt;&lt;li&gt;Езда на велосипеде → Ciclismo&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Совет: слушай снова, пока не начнёшь отвечать раньше диктора.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:russian-spanish:topic-15</guid>
+      <pubDate>Fri, 30 Oct 2026 16:05:30 +0000</pubDate>
+      <itunes:episode>15</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>289</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/russian-spanish/audio/practice/15_sports_and_activities_ru_es_double_2026-10-30_17-01-51.mp3" length="6948405" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>16 Я хочу и мне нужно — Quiero y necesito</title>
+      <description>Тема 16 из 30: Я хочу и мне нужно (Quiero y necesito) — 28 фраз.
+
+Ты услышишь слово или предложение по-русски. Скажи то же самое по-испански во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.
+
+Примеры из выпуска:
+• Я хочу выйти на улицу. → Quiero salir a la calle.
+• Я хочу мяч. → Quiero una pelota.
+• Я хочу есть. → Quiero comer.
+
+Совет: слушай снова, пока не начнёшь отвечать раньше диктора.</description>
+      <content:encoded>&lt;p&gt;Тема 16 из 30: Я хочу и мне нужно (Quiero y necesito) — 28 фраз.&lt;/p&gt;&lt;p&gt;Ты услышишь слово или предложение по-русски. Скажи то же самое по-испански во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.&lt;/p&gt;&lt;p&gt;Примеры из выпуска:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Я хочу выйти на улицу. → Quiero salir a la calle.&lt;/li&gt;&lt;li&gt;Я хочу мяч. → Quiero una pelota.&lt;/li&gt;&lt;li&gt;Я хочу есть. → Quiero comer.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Совет: слушай снова, пока не начнёшь отвечать раньше диктора.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:russian-spanish:topic-16</guid>
+      <pubDate>Fri, 30 Oct 2026 16:05:30 +0000</pubDate>
+      <itunes:episode>16</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>331</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/russian-spanish/audio/practice/16_i_want_i_need_ru_es_double_2026-10-30_17-01-51.mp3" length="7933953" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>17 Где это? — ¿Dónde está?</title>
+      <description>Тема 17 из 30: Где это? (¿Dónde está?) — 28 фраз.
+
+Ты услышишь слово или предложение по-русски. Скажи то же самое по-испански во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.
+
+Примеры из выпуска:
+• Где мишка? → ¿Dónde está el osito de peluche?
+• Где мой телефон? → ¿Dónde está mi móvil?
+• Где моя сумка? → ¿Dónde está mi bolsa?
+
+Совет: слушай снова, пока не начнёшь отвечать раньше диктора.</description>
+      <content:encoded>&lt;p&gt;Тема 17 из 30: Где это? (¿Dónde está?) — 28 фраз.&lt;/p&gt;&lt;p&gt;Ты услышишь слово или предложение по-русски. Скажи то же самое по-испански во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.&lt;/p&gt;&lt;p&gt;Примеры из выпуска:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Где мишка? → ¿Dónde está el osito de peluche?&lt;/li&gt;&lt;li&gt;Где мой телефон? → ¿Dónde está mi móvil?&lt;/li&gt;&lt;li&gt;Где моя сумка? → ¿Dónde está mi bolsa?&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Совет: слушай снова, пока не начнёшь отвечать раньше диктора.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:russian-spanish:topic-17</guid>
+      <pubDate>Fri, 30 Oct 2026 16:05:30 +0000</pubDate>
+      <itunes:episode>17</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>330</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/russian-spanish/audio/practice/17_where_is_ru_es_double_2026-10-30_17-01-51.mp3" length="7927056" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>18 Чувства и эмоции — Sentimientos y emociones</title>
+      <description>Тема 18 из 30: Чувства и эмоции (Sentimientos y emociones) — 28 фраз.
+
+Ты услышишь слово или предложение по-русски. Скажи то же самое по-испански во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.
+
+Примеры из выпуска:
+• Весёлый → Contento
+• Грустный → Triste
+• Сердитый → Enfadado
+
+Совет: слушай снова, пока не начнёшь отвечать раньше диктора.</description>
+      <content:encoded>&lt;p&gt;Тема 18 из 30: Чувства и эмоции (Sentimientos y emociones) — 28 фраз.&lt;/p&gt;&lt;p&gt;Ты услышишь слово или предложение по-русски. Скажи то же самое по-испански во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.&lt;/p&gt;&lt;p&gt;Примеры из выпуска:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Весёлый → Contento&lt;/li&gt;&lt;li&gt;Грустный → Triste&lt;/li&gt;&lt;li&gt;Сердитый → Enfadado&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Совет: слушай снова, пока не начнёшь отвечать раньше диктора.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:russian-spanish:topic-18</guid>
+      <pubDate>Fri, 30 Oct 2026 16:05:30 +0000</pubDate>
+      <itunes:episode>18</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>318</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/russian-spanish/audio/practice/18_feelings_and_emotions_ru_es_double_2026-10-30_17-01-51.mp3" length="7634903" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>19 Транспорт — Medios de transporte</title>
+      <description>Тема 19 из 30: Транспорт (Medios de transporte) — 25 фраз.
+
+Ты услышишь слово или предложение по-русски. Скажи то же самое по-испански во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.
+
+Примеры из выпуска:
+• Машина → Coche
+• Автобус → Autobús
+• Поезд → Tren
+
+Совет: слушай снова, пока не начнёшь отвечать раньше диктора.</description>
+      <content:encoded>&lt;p&gt;Тема 19 из 30: Транспорт (Medios de transporte) — 25 фраз.&lt;/p&gt;&lt;p&gt;Ты услышишь слово или предложение по-русски. Скажи то же самое по-испански во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.&lt;/p&gt;&lt;p&gt;Примеры из выпуска:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Машина → Coche&lt;/li&gt;&lt;li&gt;Автобус → Autobús&lt;/li&gt;&lt;li&gt;Поезд → Tren&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Совет: слушай снова, пока не начнёшь отвечать раньше диктора.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:russian-spanish:topic-19</guid>
+      <pubDate>Fri, 30 Oct 2026 16:05:30 +0000</pubDate>
+      <itunes:episode>19</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>282</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/russian-spanish/audio/practice/19_transport_ru_es_double_2026-10-30_17-01-51.mp3" length="6763458" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>20 Природа — Naturaleza</title>
+      <description>Тема 20 из 30: Природа (Naturaleza) — 27 фраз.
+
+Ты услышишь слово или предложение по-русски. Скажи то же самое по-испански во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.
+
+Примеры из выпуска:
+• Лес → Bosque
+• Море → Mar
+• Озеро → Lago
+
+Совет: слушай снова, пока не начнёшь отвечать раньше диктора.</description>
+      <content:encoded>&lt;p&gt;Тема 20 из 30: Природа (Naturaleza) — 27 фраз.&lt;/p&gt;&lt;p&gt;Ты услышишь слово или предложение по-русски. Скажи то же самое по-испански во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.&lt;/p&gt;&lt;p&gt;Примеры из выпуска:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Лес → Bosque&lt;/li&gt;&lt;li&gt;Море → Mar&lt;/li&gt;&lt;li&gt;Озеро → Lago&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Совет: слушай снова, пока не начнёшь отвечать раньше диктора.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:russian-spanish:topic-20</guid>
+      <pubDate>Fri, 30 Oct 2026 16:05:30 +0000</pubDate>
+      <itunes:episode>20</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>283</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/russian-spanish/audio/practice/20_nature_ru_es_double_2026-10-30_17-01-51.mp3" length="6789163" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>21 Праздники — Fiestas y celebraciones</title>
+      <description>Тема 21 из 30: Праздники (Fiestas y celebraciones) — 23 фразы.
+
+Ты услышишь слово или предложение по-русски. Скажи то же самое по-испански во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.
+
+Примеры из выпуска:
+• День рождения → Cumpleaños
+• С днём рождения! → ¡Feliz cumpleaños!
+• Рождество → Navidad
+
+Совет: слушай снова, пока не начнёшь отвечать раньше диктора.</description>
+      <content:encoded>&lt;p&gt;Тема 21 из 30: Праздники (Fiestas y celebraciones) — 23 фразы.&lt;/p&gt;&lt;p&gt;Ты услышишь слово или предложение по-русски. Скажи то же самое по-испански во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.&lt;/p&gt;&lt;p&gt;Примеры из выпуска:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;День рождения → Cumpleaños&lt;/li&gt;&lt;li&gt;С днём рождения! → ¡Feliz cumpleaños!&lt;/li&gt;&lt;li&gt;Рождество → Navidad&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Совет: слушай снова, пока не начнёшь отвечать раньше диктора.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:russian-spanish:topic-21</guid>
+      <pubDate>Fri, 30 Oct 2026 16:05:30 +0000</pubDate>
+      <itunes:episode>21</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>268</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/russian-spanish/audio/practice/21_holidays_and_celebrations_ru_es_double_2026-10-30_17-01-51.mp3" length="6438077" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>22 Распорядок дня — Rutina diaria</title>
+      <description>Тема 22 из 30: Распорядок дня (Rutina diaria) — 28 фраз.
+
+Ты услышишь слово или предложение по-русски. Скажи то же самое по-испански во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.
+
+Примеры из выпуска:
+• Просыпаться → Despertarse
+• Вставать → Levantarse
+• Чистить зубы → Lavarse los dientes
+
+Совет: слушай снова, пока не начнёшь отвечать раньше диктора.</description>
+      <content:encoded>&lt;p&gt;Тема 22 из 30: Распорядок дня (Rutina diaria) — 28 фраз.&lt;/p&gt;&lt;p&gt;Ты услышишь слово или предложение по-русски. Скажи то же самое по-испански во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.&lt;/p&gt;&lt;p&gt;Примеры из выпуска:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Просыпаться → Despertarse&lt;/li&gt;&lt;li&gt;Вставать → Levantarse&lt;/li&gt;&lt;li&gt;Чистить зубы → Lavarse los dientes&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Совет: слушай снова, пока не начнёшь отвечать раньше диктора.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:russian-spanish:topic-22</guid>
+      <pubDate>Fri, 30 Oct 2026 16:05:30 +0000</pubDate>
+      <itunes:episode>22</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>331</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/russian-spanish/audio/practice/22_daily_routine_ru_es_double_2026-10-30_17-01-51.mp3" length="7935207" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>23 Вопросы и просьбы — Preguntas y peticiones</title>
+      <description>Тема 23 из 30: Вопросы и просьбы (Preguntas y peticiones) — 26 фраз.
+
+Ты услышишь слово или предложение по-русски. Скажи то же самое по-испански во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.
+
+Примеры из выпуска:
+• Ты можешь мне помочь? → ¿Puedes ayudarme?
+• Помогите! → ¡Socorro!
+• Пожалуйста! → ¡Por favor!
+
+Совет: слушай снова, пока не начнёшь отвечать раньше диктора.</description>
+      <content:encoded>&lt;p&gt;Тема 23 из 30: Вопросы и просьбы (Preguntas y peticiones) — 26 фраз.&lt;/p&gt;&lt;p&gt;Ты услышишь слово или предложение по-русски. Скажи то же самое по-испански во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.&lt;/p&gt;&lt;p&gt;Примеры из выпуска:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Ты можешь мне помочь? → ¿Puedes ayudarme?&lt;/li&gt;&lt;li&gt;Помогите! → ¡Socorro!&lt;/li&gt;&lt;li&gt;Пожалуйста! → ¡Por favor!&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Совет: слушай снова, пока не начнёшь отвечать раньше диктора.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:russian-spanish:topic-23</guid>
+      <pubDate>Fri, 30 Oct 2026 16:05:30 +0000</pubDate>
+      <itunes:episode>23</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>285</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/russian-spanish/audio/practice/23_asking_and_requests_ru_es_double_2026-10-30_17-01-51.mp3" length="6846214" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>24 Противоположности — Contrarios</title>
+      <description>Тема 24 из 30: Противоположности (Contrarios) — 28 фраз.
+
+Ты услышишь слово или предложение по-русски. Скажи то же самое по-испански во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.
+
+Примеры из выпуска:
+• Большой → Grande
+• Маленький → Pequeño
+• Длинный → Largo
+
+Совет: слушай снова, пока не начнёшь отвечать раньше диктора.</description>
+      <content:encoded>&lt;p&gt;Тема 24 из 30: Противоположности (Contrarios) — 28 фраз.&lt;/p&gt;&lt;p&gt;Ты услышишь слово или предложение по-русски. Скажи то же самое по-испански во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.&lt;/p&gt;&lt;p&gt;Примеры из выпуска:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Большой → Grande&lt;/li&gt;&lt;li&gt;Маленький → Pequeño&lt;/li&gt;&lt;li&gt;Длинный → Largo&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Совет: слушай снова, пока не начнёшь отвечать раньше диктора.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:russian-spanish:topic-24</guid>
+      <pubDate>Fri, 30 Oct 2026 16:05:30 +0000</pubDate>
+      <itunes:episode>24</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>299</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/russian-spanish/audio/practice/24_opposites_ru_es_double_2026-10-30_17-01-51.mp3" length="7187896" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>25 Действия и глаголы — Acciones y verbos</title>
+      <description>Тема 25 из 30: Действия и глаголы (Acciones y verbos) — 41 фраза.
+
+Ты услышишь слово или предложение по-русски. Скажи то же самое по-испански во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.
+
+Примеры из выпуска:
+• Идти → Andar
+• Бегать → Correr
+• Прыгать → Saltar
+
+Совет: слушай снова, пока не начнёшь отвечать раньше диктора.</description>
+      <content:encoded>&lt;p&gt;Тема 25 из 30: Действия и глаголы (Acciones y verbos) — 41 фраза.&lt;/p&gt;&lt;p&gt;Ты услышишь слово или предложение по-русски. Скажи то же самое по-испански во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.&lt;/p&gt;&lt;p&gt;Примеры из выпуска:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Идти → Andar&lt;/li&gt;&lt;li&gt;Бегать → Correr&lt;/li&gt;&lt;li&gt;Прыгать → Saltar&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Совет: слушай снова, пока не начнёшь отвечать раньше диктора.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:russian-spanish:topic-25</guid>
+      <pubDate>Fri, 30 Oct 2026 16:05:30 +0000</pubDate>
+      <itunes:episode>25</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>438</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/russian-spanish/audio/practice/25_actions_and_verbs_ru_es_double_2026-10-30_17-01-51.mp3" length="10508163" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>26 Места в городе — Lugares de la ciudad</title>
+      <description>Тема 26 из 30: Места в городе (Lugares de la ciudad) — 23 фразы.
+
+Ты услышишь слово или предложение по-русски. Скажи то же самое по-испански во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.
+
+Примеры из выпуска:
+• Парк → Parque
+• Детская площадка → Parque infantil
+• Магазин → Tienda
+
+Совет: слушай снова, пока не начнёшь отвечать раньше диктора.</description>
+      <content:encoded>&lt;p&gt;Тема 26 из 30: Места в городе (Lugares de la ciudad) — 23 фразы.&lt;/p&gt;&lt;p&gt;Ты услышишь слово или предложение по-русски. Скажи то же самое по-испански во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.&lt;/p&gt;&lt;p&gt;Примеры из выпуска:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Парк → Parque&lt;/li&gt;&lt;li&gt;Детская площадка → Parque infantil&lt;/li&gt;&lt;li&gt;Магазин → Tienda&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Совет: слушай снова, пока не начнёшь отвечать раньше диктора.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:russian-spanish:topic-26</guid>
+      <pubDate>Fri, 30 Oct 2026 16:05:30 +0000</pubDate>
+      <itunes:episode>26</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>261</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/russian-spanish/audio/practice/26_places_in_town_ru_es_double_2026-10-30_17-01-51.mp3" length="6266296" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>27 Техника — Tecnología</title>
+      <description>Тема 27 из 30: Техника (Tecnología) — 22 фразы.
+
+Ты услышишь слово или предложение по-русски. Скажи то же самое по-испански во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.
+
+Примеры из выпуска:
+• Телефон → Teléfono
+• Мобильный телефон → Teléfono móvil
+• Компьютер → Ordenador
+
+Совет: слушай снова, пока не начнёшь отвечать раньше диктора.</description>
+      <content:encoded>&lt;p&gt;Тема 27 из 30: Техника (Tecnología) — 22 фразы.&lt;/p&gt;&lt;p&gt;Ты услышишь слово или предложение по-русски. Скажи то же самое по-испански во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.&lt;/p&gt;&lt;p&gt;Примеры из выпуска:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Телефон → Teléfono&lt;/li&gt;&lt;li&gt;Мобильный телефон → Teléfono móvil&lt;/li&gt;&lt;li&gt;Компьютер → Ordenador&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Совет: слушай снова, пока не начнёшь отвечать раньше диктора.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:russian-spanish:topic-27</guid>
+      <pubDate>Fri, 30 Oct 2026 16:05:30 +0000</pubDate>
+      <itunes:episode>27</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>251</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/russian-spanish/audio/practice/27_technology_ru_es_double_2026-10-30_17-01-51.mp3" length="6021790" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>28 Музыка и искусство — Música y arte</title>
+      <description>Тема 28 из 30: Музыка и искусство (Música y arte) — 23 фразы.
+
+Ты услышишь слово или предложение по-русски. Скажи то же самое по-испански во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.
+
+Примеры из выпуска:
+• Музыка → Música
+• Песня → Canción
+• Танцы → Baile
+
+Совет: слушай снова, пока не начнёшь отвечать раньше диктора.</description>
+      <content:encoded>&lt;p&gt;Тема 28 из 30: Музыка и искусство (Música y arte) — 23 фразы.&lt;/p&gt;&lt;p&gt;Ты услышишь слово или предложение по-русски. Скажи то же самое по-испански во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.&lt;/p&gt;&lt;p&gt;Примеры из выпуска:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Музыка → Música&lt;/li&gt;&lt;li&gt;Песня → Canción&lt;/li&gt;&lt;li&gt;Танцы → Baile&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Совет: слушай снова, пока не начнёшь отвечать раньше диктора.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:russian-spanish:topic-28</guid>
+      <pubDate>Fri, 30 Oct 2026 16:05:30 +0000</pubDate>
+      <itunes:episode>28</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>256</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/russian-spanish/audio/practice/28_music_and_art_ru_es_double_2026-10-30_17-01-51.mp3" length="6154074" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>29 Вежливые слова — Expresiones de cortesía</title>
+      <description>Тема 29 из 30: Вежливые слова (Expresiones de cortesía) — 17 фраз.
+
+Ты услышишь слово или предложение по-русски. Скажи то же самое по-испански во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.
+
+Примеры из выпуска:
+• Пожалуйста. → Por favor.
+• Спасибо! → ¡Gracias!
+• Большое спасибо! → ¡Muchas gracias!
+
+Совет: слушай снова, пока не начнёшь отвечать раньше диктора.</description>
+      <content:encoded>&lt;p&gt;Тема 29 из 30: Вежливые слова (Expresiones de cortesía) — 17 фраз.&lt;/p&gt;&lt;p&gt;Ты услышишь слово или предложение по-русски. Скажи то же самое по-испански во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.&lt;/p&gt;&lt;p&gt;Примеры из выпуска:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Пожалуйста. → Por favor.&lt;/li&gt;&lt;li&gt;Спасибо! → ¡Gracias!&lt;/li&gt;&lt;li&gt;Большое спасибо! → ¡Muchas gracias!&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Совет: слушай снова, пока не начнёшь отвечать раньше диктора.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:russian-spanish:topic-29</guid>
+      <pubDate>Fri, 30 Oct 2026 16:05:30 +0000</pubDate>
+      <itunes:episode>29</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>182</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/russian-spanish/audio/practice/29_polite_phrases_ru_es_double_2026-10-30_17-01-51.mp3" length="4370433" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>30 Повторение — Repaso</title>
+      <description>Тема 30 из 30: Повторение (Repaso) — 11 фраз.
+
+Ты услышишь слово или предложение по-русски. Скажи то же самое по-испански во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.
+
+Примеры из выпуска:
+• Молодец! → ¡Bien hecho!
+• Ты учишь новый язык! → ¡Estás aprendiendo un idioma nuevo!
+• Давай потренируемся! → ¡Vamos a practicar!
+
+Совет: слушай снова, пока не начнёшь отвечать раньше диктора.</description>
+      <content:encoded>&lt;p&gt;Тема 30 из 30: Повторение (Repaso) — 11 фраз.&lt;/p&gt;&lt;p&gt;Ты услышишь слово или предложение по-русски. Скажи то же самое по-испански во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.&lt;/p&gt;&lt;p&gt;Примеры из выпуска:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Молодец! → ¡Bien hecho!&lt;/li&gt;&lt;li&gt;Ты учишь новый язык! → ¡Estás aprendiendo un idioma nuevo!&lt;/li&gt;&lt;li&gt;Давай потренируемся! → ¡Vamos a practicar!&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Совет: слушай снова, пока не начнёшь отвечать раньше диктора.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:russian-spanish:topic-30</guid>
+      <pubDate>Fri, 30 Oct 2026 16:05:30 +0000</pubDate>
+      <itunes:episode>30</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>134</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://trusohamn.github.io/repeto/russian-spanish/audio/practice/30_review_and_recap_ru_es_double_2026-10-30_17-01-51.mp3" length="3209342" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>01 Волшебное радио: Старый стол — La mesa vieja</title>
+      <description>История «Волшебное радио» (La radio mágica). Глава 1 из 8. Брат и сестра находят старое деревянное радио на блошином рынке. Вдруг оно начинает шуметь, а золотая надпись показывает, что радио предназначено именно для них.
+
+Как устроен выпуск:
+1. Послушай всю главу по-испански — не обязательно понимать всё.
+2. Потренируй слова и выражения из главы: подсказка по-русски, пауза, ответ по-испански.
+3. Послушай главу ещё раз и проверь, сколько удалось понять.
+
+Между частями звучит сигнал. Слушай по порядку, начиная с первой главы.</description>
+      <content:encoded>&lt;p&gt;История «Волшебное радио» (La radio mágica). Глава 1 из 8. Брат и сестра находят старое деревянное радио на блошином рынке. Вдруг оно начинает шуметь, а золотая надпись показывает, что радио предназначено именно для них.&lt;/p&gt;&lt;p&gt;Как устроен выпуск:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Послушай всю главу по-испански — не обязательно понимать всё.&lt;/li&gt;&lt;li&gt;Потренируй слова и выражения из главы: подсказка по-русски, пауза, ответ по-испански.&lt;/li&gt;&lt;li&gt;Послушай главу ещё раз и проверь, сколько удалось понять.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;Между частями звучит сигнал. Слушай по порядку, начиная с первой главы.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">magical_radio:ru:es:chapter-01</guid>
+      <pubDate>Fri, 30 Oct 2026 16:05:38 +0000</pubDate>
+      <itunes:episode>1</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>318</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://trusohamn.github.io/repeto/russian-spanish/images/stories/magical_radio/cover-447076a6.jpeg" />
+      <enclosure url="https://trusohamn.github.io/repeto/russian-spanish/audio/stories/magical_radio/01_chapter_01_ru_es_2026-10-30_17-01-44.mp3" length="7634276" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>02 Волшебное радио: Голос из радио — Una voz en la radio</title>
+      <description>История «Волшебное радио» (La radio mágica). Глава 2 из 8. Дома дети нажимают синюю кнопку. Из радио вылетает облачко с запахом корицы, а весёлый голос рассказывает о мышке с важным ключом.
+
+Как устроен выпуск:
+1. Послушай всю главу по-испански — не обязательно понимать всё.
+2. Потренируй слова и выражения из главы: подсказка по-русски, пауза, ответ по-испански.
+3. Послушай главу ещё раз и проверь, сколько удалось понять.
+
+Между частями звучит сигнал. Слушай по порядку, начиная с первой главы.</description>
+      <content:encoded>&lt;p&gt;История «Волшебное радио» (La radio mágica). Глава 2 из 8. Дома дети нажимают синюю кнопку. Из радио вылетает облачко с запахом корицы, а весёлый голос рассказывает о мышке с важным ключом.&lt;/p&gt;&lt;p&gt;Как устроен выпуск:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Послушай всю главу по-испански — не обязательно понимать всё.&lt;/li&gt;&lt;li&gt;Потренируй слова и выражения из главы: подсказка по-русски, пауза, ответ по-испански.&lt;/li&gt;&lt;li&gt;Послушай главу ещё раз и проверь, сколько удалось понять.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;Между частями звучит сигнал. Слушай по порядку, начиная с первой главы.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">magical_radio:ru:es:chapter-02</guid>
+      <pubDate>Fri, 30 Oct 2026 16:05:38 +0000</pubDate>
+      <itunes:episode>2</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>278</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://trusohamn.github.io/repeto/russian-spanish/images/stories/magical_radio/cover-447076a6.jpeg" />
+      <enclosure url="https://trusohamn.github.io/repeto/russian-spanish/audio/stories/magical_radio/02_chapter_02_ru_es_2026-10-30_17-01-44.mp3" length="6682583" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>03 Волшебное радио: Мышка под деревом — Un ratón debajo del árbol</title>
+      <description>История «Волшебное радио» (La radio mágica). Глава 3 из 8. С фонариком, сыром и радио дети идут к старому дереву. Маленькая мышка соглашается на обмен, а между корнями скрывается маленькая дверь.
+
+Как устроен выпуск:
+1. Послушай всю главу по-испански — не обязательно понимать всё.
+2. Потренируй слова и выражения из главы: подсказка по-русски, пауза, ответ по-испански.
+3. Послушай главу ещё раз и проверь, сколько удалось понять.
+
+Между частями звучит сигнал. Слушай по порядку, начиная с первой главы.</description>
+      <content:encoded>&lt;p&gt;История «Волшебное радио» (La radio mágica). Глава 3 из 8. С фонариком, сыром и радио дети идут к старому дереву. Маленькая мышка соглашается на обмен, а между корнями скрывается маленькая дверь.&lt;/p&gt;&lt;p&gt;Как устроен выпуск:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Послушай всю главу по-испански — не обязательно понимать всё.&lt;/li&gt;&lt;li&gt;Потренируй слова и выражения из главы: подсказка по-русски, пауза, ответ по-испански.&lt;/li&gt;&lt;li&gt;Послушай главу ещё раз и проверь, сколько удалось понять.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;Между частями звучит сигнал. Слушай по порядку, начиная с первой главы.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">magical_radio:ru:es:chapter-03</guid>
+      <pubDate>Fri, 30 Oct 2026 16:05:38 +0000</pubDate>
+      <itunes:episode>3</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>365</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://trusohamn.github.io/repeto/russian-spanish/images/stories/magical_radio/cover-447076a6.jpeg" />
+      <enclosure url="https://trusohamn.github.io/repeto/russian-spanish/audio/stories/magical_radio/03_chapter_03_ru_es_2026-10-30_17-01-44.mp3" length="8763393" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>04 Волшебное радио: Лестница вниз — Escaleras abajo</title>
+      <description>История «Волшебное радио» (La radio mágica). Глава 4 из 8. Серебряный ключ открывает дверь. Каменные ступени ведут вниз, в библиотеку с летающими книгами, а на стенах растут светящиеся цветы.
+
+Как устроен выпуск:
+1. Послушай всю главу по-испански — не обязательно понимать всё.
+2. Потренируй слова и выражения из главы: подсказка по-русски, пауза, ответ по-испански.
+3. Послушай главу ещё раз и проверь, сколько удалось понять.
+
+Между частями звучит сигнал. Слушай по порядку, начиная с первой главы.</description>
+      <content:encoded>&lt;p&gt;История «Волшебное радио» (La radio mágica). Глава 4 из 8. Серебряный ключ открывает дверь. Каменные ступени ведут вниз, в библиотеку с летающими книгами, а на стенах растут светящиеся цветы.&lt;/p&gt;&lt;p&gt;Как устроен выпуск:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Послушай всю главу по-испански — не обязательно понимать всё.&lt;/li&gt;&lt;li&gt;Потренируй слова и выражения из главы: подсказка по-русски, пауза, ответ по-испански.&lt;/li&gt;&lt;li&gt;Послушай главу ещё раз и проверь, сколько удалось понять.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;Между частями звучит сигнал. Слушай по порядку, начиная с первой главы.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">magical_radio:ru:es:chapter-04</guid>
+      <pubDate>Fri, 30 Oct 2026 16:05:38 +0000</pubDate>
+      <itunes:episode>4</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>295</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://trusohamn.github.io/repeto/russian-spanish/images/stories/magical_radio/cover-447076a6.jpeg" />
+      <enclosure url="https://trusohamn.github.io/repeto/russian-spanish/audio/stories/magical_radio/04_chapter_04_ru_es_2026-10-30_17-01-44.mp3" length="7075047" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>05 Волшебное радио: Летающая книга — El libro volador</title>
+      <description>История «Волшебное радио» (La radio mágica). Глава 5 из 8. Золотая книга садится на плечо, а радио раскрывает заклинание, которое чинит сломанные вещи.
+
+Как устроен выпуск:
+1. Послушай всю главу по-испански — не обязательно понимать всё.
+2. Потренируй слова и выражения из главы: подсказка по-русски, пауза, ответ по-испански.
+3. Послушай главу ещё раз и проверь, сколько удалось понять.
+
+Между частями звучит сигнал. Слушай по порядку, начиная с первой главы.</description>
+      <content:encoded>&lt;p&gt;История «Волшебное радио» (La radio mágica). Глава 5 из 8. Золотая книга садится на плечо, а радио раскрывает заклинание, которое чинит сломанные вещи.&lt;/p&gt;&lt;p&gt;Как устроен выпуск:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Послушай всю главу по-испански — не обязательно понимать всё.&lt;/li&gt;&lt;li&gt;Потренируй слова и выражения из главы: подсказка по-русски, пауза, ответ по-испански.&lt;/li&gt;&lt;li&gt;Послушай главу ещё раз и проверь, сколько удалось понять.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;Между частями звучит сигнал. Слушай по порядку, начиная с первой главы.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">magical_radio:ru:es:chapter-05</guid>
+      <pubDate>Fri, 30 Oct 2026 16:05:38 +0000</pubDate>
+      <itunes:episode>5</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>274</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://trusohamn.github.io/repeto/russian-spanish/images/stories/magical_radio/cover-447076a6.jpeg" />
+      <enclosure url="https://trusohamn.github.io/repeto/russian-spanish/audio/stories/magical_radio/05_chapter_05_ru_es_2026-10-30_17-01-44.mp3" length="6582273" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>06 Волшебное радио: Первое заклинание — El primer hechizo</title>
+      <description>История «Волшебное радио» (La radio mágica). Глава 6 из 8. Пора испытать заклинание на сломанном компасе. Сработает ли оно? И кто ждёт за зелёной дверью?
+
+Как устроен выпуск:
+1. Послушай всю главу по-испански — не обязательно понимать всё.
+2. Потренируй слова и выражения из главы: подсказка по-русски, пауза, ответ по-испански.
+3. Послушай главу ещё раз и проверь, сколько удалось понять.
+
+Между частями звучит сигнал. Слушай по порядку, начиная с первой главы.</description>
+      <content:encoded>&lt;p&gt;История «Волшебное радио» (La radio mágica). Глава 6 из 8. Пора испытать заклинание на сломанном компасе. Сработает ли оно? И кто ждёт за зелёной дверью?&lt;/p&gt;&lt;p&gt;Как устроен выпуск:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Послушай всю главу по-испански — не обязательно понимать всё.&lt;/li&gt;&lt;li&gt;Потренируй слова и выражения из главы: подсказка по-русски, пауза, ответ по-испански.&lt;/li&gt;&lt;li&gt;Послушай главу ещё раз и проверь, сколько удалось понять.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;Между частями звучит сигнал. Слушай по порядку, начиная с первой главы.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">magical_radio:ru:es:chapter-06</guid>
+      <pubDate>Fri, 30 Oct 2026 16:05:38 +0000</pubDate>
+      <itunes:episode>6</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>229</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://trusohamn.github.io/repeto/russian-spanish/images/stories/magical_radio/cover-447076a6.jpeg" />
+      <enclosure url="https://trusohamn.github.io/repeto/russian-spanish/audio/stories/magical_radio/06_chapter_06_ru_es_2026-10-30_17-01-44.mp3" length="5497042" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>07 Волшебное радио: Золотая птица — El pájaro dorado</title>
+      <description>История «Волшебное радио» (La radio mágica). Глава 7 из 8. За дверью находится подземный сад. Золотая птица не поёт, а тикает как часы. В её крыле не хватает камешка, а радио хранит тайну.
+
+Как устроен выпуск:
+1. Послушай всю главу по-испански — не обязательно понимать всё.
+2. Потренируй слова и выражения из главы: подсказка по-русски, пауза, ответ по-испански.
+3. Послушай главу ещё раз и проверь, сколько удалось понять.
+
+Между частями звучит сигнал. Слушай по порядку, начиная с первой главы.</description>
+      <content:encoded>&lt;p&gt;История «Волшебное радио» (La radio mágica). Глава 7 из 8. За дверью находится подземный сад. Золотая птица не поёт, а тикает как часы. В её крыле не хватает камешка, а радио хранит тайну.&lt;/p&gt;&lt;p&gt;Как устроен выпуск:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Послушай всю главу по-испански — не обязательно понимать всё.&lt;/li&gt;&lt;li&gt;Потренируй слова и выражения из главы: подсказка по-русски, пауза, ответ по-испански.&lt;/li&gt;&lt;li&gt;Послушай главу ещё раз и проверь, сколько удалось понять.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;Между частями звучит сигнал. Слушай по порядку, начиная с первой главы.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">magical_radio:ru:es:chapter-07</guid>
+      <pubDate>Fri, 30 Oct 2026 16:05:38 +0000</pubDate>
+      <itunes:episode>7</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>357</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://trusohamn.github.io/repeto/russian-spanish/images/stories/magical_radio/cover-447076a6.jpeg" />
+      <enclosure url="https://trusohamn.github.io/repeto/russian-spanish/audio/stories/magical_radio/07_chapter_07_ru_es_2026-10-30_17-01-44.mp3" length="8574684" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>08 Волшебное радио: Большой концерт — El gran concierto</title>
+      <description>История «Волшебное радио» (La radio mágica). Глава 8 из 8. Финал! Смогут ли дети починить золотую птицу? История заканчивается пением, танцем бабочек и обещанием нового приключения.
+
+Как устроен выпуск:
+1. Послушай всю главу по-испански — не обязательно понимать всё.
+2. Потренируй слова и выражения из главы: подсказка по-русски, пауза, ответ по-испански.
+3. Послушай главу ещё раз и проверь, сколько удалось понять.
+
+Между частями звучит сигнал. Слушай по порядку, начиная с первой главы.</description>
+      <content:encoded>&lt;p&gt;История «Волшебное радио» (La radio mágica). Глава 8 из 8. Финал! Смогут ли дети починить золотую птицу? История заканчивается пением, танцем бабочек и обещанием нового приключения.&lt;/p&gt;&lt;p&gt;Как устроен выпуск:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Послушай всю главу по-испански — не обязательно понимать всё.&lt;/li&gt;&lt;li&gt;Потренируй слова и выражения из главы: подсказка по-русски, пауза, ответ по-испански.&lt;/li&gt;&lt;li&gt;Послушай главу ещё раз и проверь, сколько удалось понять.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;Между частями звучит сигнал. Слушай по порядку, начиная с первой главы.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">magical_radio:ru:es:chapter-08</guid>
+      <pubDate>Fri, 30 Oct 2026 16:05:38 +0000</pubDate>
+      <itunes:episode>8</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>242</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://trusohamn.github.io/repeto/russian-spanish/images/stories/magical_radio/cover-447076a6.jpeg" />
+      <enclosure url="https://trusohamn.github.io/repeto/russian-spanish/audio/stories/magical_radio/08_chapter_08_ru_es_2026-10-30_17-01-44.mp3" length="5804869" type="audio/mpeg" />
+    </item>
+  </channel>
+</rss>

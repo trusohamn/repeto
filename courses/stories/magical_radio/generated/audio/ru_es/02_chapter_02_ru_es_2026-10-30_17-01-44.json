@@ -1,0 +1,530 @@
+{
+  "chapter_number": 2,
+  "title": {
+    "pl": "Głos z radia",
+    "es": "Una voz en la radio",
+    "sv": "En röst ur radion",
+    "en": "A Voice from the Radio",
+    "ru": "Голос из радио"
+  },
+  "source_language": "ru",
+  "target_language": "es",
+  "practice_order": "deterministically_shuffled",
+  "sequence": [
+    "story",
+    "practice",
+    "story"
+  ],
+  "total_duration_ms": 278380,
+  "practice": [
+    {
+      "id": 131,
+      "kind": "vocabulary",
+      "start_ms": 43368,
+      "end_ms": 55566,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "возьмите меня с собой",
+        "start_ms": 43368,
+        "end_ms": 45172
+      },
+      "target_playbacks": [
+        {
+          "text": "llevadme con vosotros",
+          "start_ms": 47172,
+          "end_ms": 48869
+        },
+        {
+          "text": "llevadme con vosotros",
+          "start_ms": 51369,
+          "end_ms": 53066
+        }
+      ]
+    },
+    {
+      "id": 213,
+      "kind": "vocabulary",
+      "start_ms": 55566,
+      "end_ms": 64640,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "жить",
+        "start_ms": 55566,
+        "end_ms": 56272
+      },
+      "target_playbacks": [
+        {
+          "text": "vivir",
+          "start_ms": 58272,
+          "end_ms": 58956
+        },
+        {
+          "text": "vivir",
+          "start_ms": 61456,
+          "end_ms": 62140
+        }
+      ]
+    },
+    {
+      "id": 130,
+      "kind": "vocabulary",
+      "start_ms": 64640,
+      "end_ms": 74223,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "ключ",
+        "start_ms": 64640,
+        "end_ms": 65337
+      },
+      "target_playbacks": [
+        {
+          "text": "una llave",
+          "start_ms": 67337,
+          "end_ms": 68280
+        },
+        {
+          "text": "una llave",
+          "start_ms": 70780,
+          "end_ms": 71723
+        }
+      ]
+    },
+    {
+      "id": 212,
+      "kind": "vocabulary",
+      "start_ms": 74223,
+      "end_ms": 85373,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "покупать радио",
+        "start_ms": 74223,
+        "end_ms": 75629
+      },
+      "target_playbacks": [
+        {
+          "text": "comprar la radio",
+          "start_ms": 77629,
+          "end_ms": 79001
+        },
+        {
+          "text": "comprar la radio",
+          "start_ms": 81501,
+          "end_ms": 82873
+        }
+      ]
+    },
+    {
+      "id": 126,
+      "kind": "vocabulary",
+      "start_ms": 85373,
+      "end_ms": 95259,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "называться",
+        "start_ms": 85373,
+        "end_ms": 86449
+      },
+      "target_playbacks": [
+        {
+          "text": "llamarse",
+          "start_ms": 88449,
+          "end_ms": 89354
+        },
+        {
+          "text": "llamarse",
+          "start_ms": 91854,
+          "end_ms": 92759
+        }
+      ]
+    },
+    {
+      "id": 124,
+      "kind": "vocabulary",
+      "start_ms": 95259,
+      "end_ms": 106276,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "нажимать кнопку",
+        "start_ms": 95259,
+        "end_ms": 96760
+      },
+      "target_playbacks": [
+        {
+          "text": "pulsar un botón",
+          "start_ms": 98760,
+          "end_ms": 100018
+        },
+        {
+          "text": "pulsar un botón",
+          "start_ms": 102518,
+          "end_ms": 103776
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "kind": "vocabulary",
+      "start_ms": 106276,
+      "end_ms": 117124,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "пахнуть корицей",
+        "start_ms": 106276,
+        "end_ms": 107746
+      },
+      "target_playbacks": [
+        {
+          "text": "oler a canela",
+          "start_ms": 109746,
+          "end_ms": 110935
+        },
+        {
+          "text": "oler a canela",
+          "start_ms": 113435,
+          "end_ms": 114624
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "kind": "vocabulary",
+      "start_ms": 117124,
+      "end_ms": 127664,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "весёлый голос",
+        "start_ms": 117124,
+        "end_ms": 118598
+      },
+      "target_playbacks": [
+        {
+          "text": "voz alegre",
+          "start_ms": 120598,
+          "end_ms": 121631
+        },
+        {
+          "text": "voz alegre",
+          "start_ms": 124131,
+          "end_ms": 125164
+        }
+      ]
+    },
+    {
+      "id": 208,
+      "kind": "vocabulary",
+      "start_ms": 127664,
+      "end_ms": 136950,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "говорить",
+        "start_ms": 127664,
+        "end_ms": 128570
+      },
+      "target_playbacks": [
+        {
+          "text": "decir",
+          "start_ms": 130570,
+          "end_ms": 131260
+        },
+        {
+          "text": "decir",
+          "start_ms": 133760,
+          "end_ms": 134450
+        }
+      ]
+    },
+    {
+      "id": 123,
+      "kind": "vocabulary",
+      "start_ms": 136950,
+      "end_ms": 147473,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "нести домой",
+        "start_ms": 136950,
+        "end_ms": 138221
+      },
+      "target_playbacks": [
+        {
+          "text": "llevar a casa",
+          "start_ms": 140221,
+          "end_ms": 141347
+        },
+        {
+          "text": "llevar a casa",
+          "start_ms": 143847,
+          "end_ms": 144973
+        }
+      ]
+    },
+    {
+      "id": 125,
+      "kind": "vocabulary",
+      "start_ms": 147473,
+      "end_ms": 160137,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "вылетать из радио",
+        "start_ms": 147473,
+        "end_ms": 149207
+      },
+      "target_playbacks": [
+        {
+          "text": "salir volando de la radio",
+          "start_ms": 151207,
+          "end_ms": 153172
+        },
+        {
+          "text": "salir volando de la radio",
+          "start_ms": 155672,
+          "end_ms": 157637
+        }
+      ]
+    },
+    {
+      "id": 214,
+      "kind": "vocabulary",
+      "start_ms": 160137,
+      "end_ms": 171572,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "важный ключ",
+        "start_ms": 160137,
+        "end_ms": 161370
+      },
+      "target_playbacks": [
+        {
+          "text": "una llave importante",
+          "start_ms": 163370,
+          "end_ms": 164971
+        },
+        {
+          "text": "una llave importante",
+          "start_ms": 167471,
+          "end_ms": 169072
+        }
+      ]
+    },
+    {
+      "id": 215,
+      "kind": "vocabulary",
+      "start_ms": 171572,
+      "end_ms": 183378,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "очень любить сыр",
+        "start_ms": 171572,
+        "end_ms": 173102
+      },
+      "target_playbacks": [
+        {
+          "text": "encantarle el queso",
+          "start_ms": 175102,
+          "end_ms": 176740
+        },
+        {
+          "text": "encantarle el queso",
+          "start_ms": 179240,
+          "end_ms": 180878
+        }
+      ]
+    },
+    {
+      "id": 128,
+      "kind": "vocabulary",
+      "start_ms": 183378,
+      "end_ms": 195314,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "под старым деревом",
+        "start_ms": 183378,
+        "end_ms": 184837
+      },
+      "target_playbacks": [
+        {
+          "text": "debajo del árbol viejo",
+          "start_ms": 186837,
+          "end_ms": 188576
+        },
+        {
+          "text": "debajo del árbol viejo",
+          "start_ms": 191076,
+          "end_ms": 192814
+        }
+      ]
+    },
+    {
+      "id": 201,
+      "kind": "vocabulary",
+      "start_ms": 195314,
+      "end_ms": 204245,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "привет",
+        "start_ms": 195314,
+        "end_ms": 196113
+      },
+      "target_playbacks": [
+        {
+          "text": "hola",
+          "start_ms": 198113,
+          "end_ms": 198679
+        },
+        {
+          "text": "hola",
+          "start_ms": 201179,
+          "end_ms": 201745
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "kind": "vocabulary",
+      "start_ms": 204245,
+      "end_ms": 214870,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "синяя кнопка",
+        "start_ms": 204245,
+        "end_ms": 205736
+      },
+      "target_playbacks": [
+        {
+          "text": "botón azul",
+          "start_ms": 207736,
+          "end_ms": 208803
+        },
+        {
+          "text": "botón azul",
+          "start_ms": 211303,
+          "end_ms": 212370
+        }
+      ]
+    },
+    {
+      "id": 127,
+      "kind": "vocabulary",
+      "start_ms": 214870,
+      "end_ms": 225318,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "ваш сад",
+        "start_ms": 214870,
+        "end_ms": 215972
+      },
+      "target_playbacks": [
+        {
+          "text": "vuestro jardín",
+          "start_ms": 217972,
+          "end_ms": 219145
+        },
+        {
+          "text": "vuestro jardín",
+          "start_ms": 221645,
+          "end_ms": 222818
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "kind": "vocabulary",
+      "start_ms": 225318,
+      "end_ms": 236119,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "маленькое облачко",
+        "start_ms": 225318,
+        "end_ms": 227213
+      },
+      "target_playbacks": [
+        {
+          "text": "nubecita",
+          "start_ms": 229213,
+          "end_ms": 230166
+        },
+        {
+          "text": "nubecita",
+          "start_ms": 232666,
+          "end_ms": 233619
+        }
+      ]
+    },
+    {
+      "id": 216,
+      "kind": "vocabulary",
+      "start_ms": 236119,
+      "end_ms": 245668,
+      "prompt_language": "ru",
+      "prompt": {
+        "text": "дети",
+        "start_ms": 236119,
+        "end_ms": 236918
+      },
+      "target_playbacks": [
+        {
+          "text": "niños",
+          "start_ms": 238918,
+          "end_ms": 239793
+        },
+        {
+          "text": "niños",
+          "start_ms": 242293,
+          "end_ms": 243168
+        }
+      ]
+    }
+  ],
+  "book_introduction": null,
+  "chapter_introduction": {
+    "text": "Capítulo dos. Una voz en la radio.",
+    "start_ms": 1000,
+    "end_ms": 5656
+  },
+  "transitions": [
+    {
+      "kind": "chime",
+      "from": "story",
+      "to": "practice",
+      "start_ms": 40248,
+      "end_ms": 40868
+    },
+    {
+      "kind": "chime",
+      "from": "practice",
+      "to": "story",
+      "start_ms": 245668,
+      "end_ms": 246288
+    }
+  ],
+  "chapter_readings": [
+    {
+      "text": "Los niños compran la radio y la llevan a casa. Tom pulsa el botón azul. De la radio sale volando una nubecita que huele a canela.\n—¡Hola, niños! —dice una voz alegre—. Me llamo Radiofón. En vuestro jardín, debajo del árbol viejo, vive un ratón. Tiene una llave importante y le encanta el queso. ¡Llevadme con vosotros!",
+      "start_ms": 8156,
+      "end_ms": 37748
+    },
+    {
+      "text": "Los niños compran la radio y la llevan a casa. Tom pulsa el botón azul. De la radio sale volando una nubecita que huele a canela.\n—¡Hola, niños! —dice una voz alegre—. Me llamo Radiofón. En vuestro jardín, debajo del árbol viejo, vive un ratón. Tiene una llave importante y le encanta el queso. ¡Llevadme con vosotros!",
+      "start_ms": 248788,
+      "end_ms": 278380
+    }
+  ],
+  "chapter_reading": {
+    "text": "Los niños compran la radio y la llevan a casa. Tom pulsa el botón azul. De la radio sale volando una nubecita que huele a canela.\n—¡Hola, niños! —dice una voz alegre—. Me llamo Radiofón. En vuestro jardín, debajo del árbol viejo, vive un ratón. Tiene una llave importante y le encanta el queso. ¡Llevadme con vosotros!",
+    "start_ms": 248788,
+    "end_ms": 278380
+  },
+  "narration": {
+    "engine": "azure",
+    "voice": "es-ES-ElviraNeural",
+    "style": null,
+    "rate": "-12%",
+    "locale": "es-ES",
+    "capabilities": {
+      "voice": "es-ES-ElviraNeural",
+      "locale": "es-ES",
+      "advertised_styles": []
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"es-ES\"><voice name=\"es-ES-ElviraNeural\"><prosody rate=\"-12%\"><p>Los niños compran la radio y la llevan a casa. Tom pulsa el botón azul. De la radio sale volando una nubecita que huele a canela.\n—¡Hola, niños! —dice una voz alegre—. Me llamo Radiofón. En vuestro jardín, debajo del árbol viejo, vive un ratón. Tiene una llave importante y le encanta el queso. ¡Llevadme con vosotros!</p></prosody></voice></speak>"
+  },
+  "audio_file": "02_chapter_02_ru_es_2026-10-30_17-01-44.mp3"
+}
