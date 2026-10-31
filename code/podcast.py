@@ -28,20 +28,33 @@ STYLE = (
     ".card{display:flex;gap:1rem;margin:1.5rem 0}.card img{width:8rem;flex:none}"
 )
 HOME_STYLE = """
-:root{color-scheme:light;--ink:#182b39;--muted:#536570;--paper:#fbf8f2;--accent:#b9432b}
+:root{color-scheme:light;--ink:#182849;--muted:#536570;--paper:#fbf8f2;--accent:#b9232a;
+--logo-red:#f02b32;--logo-yellow:#fec607;--logo-green:#65bb40;--logo-blue:#439dd8;
+--logo-pink:#fc4c9d;--logo-purple:#a04bcd;
+--rainbow:linear-gradient(90deg,var(--logo-red) 0% 16.67%,var(--logo-yellow) 16.67% 33.33%,
+var(--logo-green) 33.33% 50%,var(--logo-blue) 50% 66.67%,var(--logo-pink) 66.67% 83.33%,
+var(--logo-purple) 83.33% 100%)}
 *{box-sizing:border-box}html{scroll-behavior:smooth}
 body{margin:0;background:var(--paper);color:var(--ink);font-family:system-ui,sans-serif;line-height:1.6}
 a{color:inherit}a:focus-visible{outline:3px solid var(--accent);outline-offset:5px}
 .shell{max-width:1160px;margin:auto;padding:0 28px}.skip{position:absolute;left:24px;top:-100px}
 .skip:focus{top:12px;background:white;padding:12px;z-index:2}
 header{display:flex;justify-content:space-between;align-items:center;padding:24px 0}
-.brand{font-size:1.6rem;font-weight:900;letter-spacing:-.06em;text-decoration:none}
+.brand{display:inline-block;font-size:1.6rem;font-weight:900;letter-spacing:-.06em;text-decoration:none}
 .hero{padding:24px 0 36px;max-width:820px}
+.hero::after{content:"";display:block;width:180px;height:6px;background:var(--rainbow);
+border-radius:100px;margin-top:24px}
 h1{font-size:clamp(2.7rem,7vw,5.3rem);line-height:1.05;letter-spacing:-.065em;margin:16px 0 24px}
-h1 span{color:var(--accent)}.hero p{font-size:1.15rem;max-width:580px;color:var(--muted)}
+h1 span{color:var(--accent);text-decoration:underline;text-decoration-color:var(--logo-yellow);
+text-decoration-thickness:6px;text-underline-offset:8px}
+.hero p{font-size:1.15rem;max-width:580px;color:var(--muted)}
 .language-label{font-weight:650;margin:0 0 12px}
 .language-nav{display:flex;gap:10px;flex-wrap:wrap;padding:0 0 30px}
 .language-nav a{border:1px solid #c7cec9;border-radius:100px;padding:9px 20px;text-decoration:none;font-weight:650}
+.language-nav a:nth-child(4n+1){background:#e0efdf;border-color:var(--logo-green)}
+.language-nav a:nth-child(4n+2){background:#fff0ce;border-color:var(--logo-yellow)}
+.language-nav a:nth-child(4n+3){background:#e0eafa;border-color:var(--logo-blue)}
+.language-nav a:nth-child(4n+4){background:#f0e1f3;border-color:var(--logo-purple)}
 .language-nav a:hover{background:var(--ink);color:white;border-color:var(--ink)}
 .course-section{padding:28px 0 36px;scroll-margin-top:16px;border-top:1px solid #dedfd5}
 .section-heading{margin-bottom:24px}
@@ -56,12 +69,13 @@ h2{font-size:1.65rem;letter-spacing:-.035em;margin:0}
 .platform-links a{border:1px solid #c7cec9;border-radius:100px;padding:7px 13px;
 font-size:.85rem;font-weight:650;text-decoration:none}
 .platform-links a:hover{background:var(--ink);color:white;border-color:var(--ink)}
-.platform-links .spotify-link{color:#176c38}.platform-links .youtube-link{color:#a52e20}
-.platform-links a:hover{color:white}
-.youtube-notice{background:#f0e9df;border-radius:16px;padding:20px 24px;margin:0 0 30px}
+.platform-links .spotify-link{color:#176c38;background:#e0efdf}
+.platform-links .youtube-link{color:#a52e20;background:#ffe6df}
+.platform-links a:hover{background:var(--ink);color:white}
+.youtube-notice{background:#fff0ce;border-radius:16px;padding:16px 24px;margin:0 0 30px}
 .youtube-notice p{margin:6px 0 0;color:var(--muted)}
-.closing{background:var(--ink);color:var(--paper);border-radius:24px;padding:32px;margin:20px 0 40px}
-.closing h2{font-size:1.8rem}.closing p{max-width:650px;margin-bottom:0;color:#d3dedf}
+.closing{background:#e0efdf;color:var(--ink);border-radius:24px;padding:32px;margin:20px 0 40px}
+.closing h2{font-size:1.8rem}.closing p{max-width:650px;margin-bottom:0;color:var(--muted)}
 .podcast-apps{margin:0 0 32px;color:var(--muted);font-size:.9rem}
 .podcast-apps summary{cursor:pointer;font-weight:650}.podcast-apps ul{padding-left:20px}
 footer{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;border-top:1px solid #dedfd5;
@@ -370,9 +384,9 @@ def build_index(root: Path, courses: list[Path]) -> None:
         '<header><a class="brand" href="./">Repeto</a></header><main>'
         '<section class="hero" aria-labelledby="welcome">'
         '<h1 id="welcome">Learn a language.<br><span>Without the screen.</span></h1>'
-        '<p>Free audio practice for beginners of all ages. '
+        '<p>Little language adventures for kids, grown-ups, and anyone starting out. '
         'Press play in your podcast app, put the screen away, and learn by listening '
-        'and speaking — on a walk, at the kitchen table, or on the way to school.</p>'
+        'and speaking — together at the kitchen table or on a walk of your own. It’s free.</p>'
         '<p>Hear a phrase in your language, try saying it in the new one, '
         'then listen to the answer and repeat.</p>'
         '</section>'
@@ -386,9 +400,9 @@ def build_index(root: Path, courses: list[Path]) -> None:
         '<nav class="language-nav" aria-labelledby="native-language">'
         + "".join(navigation) + '</nav>' + "".join(sections)
         + '</div><section class="closing"><h2>From your first words to a little adventure.</h2>'
-        '<p>Practise everyday words and phrases. Then step into a story: '
-        'listen, explore its vocabulary, and hear the chapter again. '
-        'A little more feels familiar each time.</p>'
+        '<p>Start with everyday words, then meet a mysterious radio in our eight-part story. '
+        'Listen to a chapter, try its words, and hear it again. '
+        'Go at your own pace, together or on your own.</p>'
         '</section><details class="podcast-apps"><summary>Other podcast apps</summary>'
         '<p>To subscribe in another podcast app, copy a feed link below and paste it '
         'into the app’s “add podcast by URL” option. These links are feeds, not listening pages.</p>'
