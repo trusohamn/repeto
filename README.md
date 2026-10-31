@@ -1,390 +1,124 @@
-# Repeto – listen-and-speak language courses
+# Repeto – make your own listen-and-speak courses
 
-Repeto is a free podcast course for Swedish, Polish, English and Russian speakers who are starting a new
-language. It suits beginners of all ages: children, parents, grandparents and
-any adult who wants to get going without a textbook. Every episode follows the
-same loop: a word or sentence in your source language, a pause to say it yourself in the target
-language, then the answer twice so you can copy the pronunciation.
+I share this repository so you can clone it, adapt the material, and generate
+your own language courses. Use it to make screen-free audio practice for your
+family, students, or yourself—not just to listen to the courses I have made.
 
-Each course has two seasons:
+The scripts turn multilingual phrases and stories into MP3s with timestamp
+JSON files, and can package them as podcast feeds. Practice follows
+**prompt → thinking pause → answer → repetition**. Story episodes play a
+complete chapter, practise its vocabulary, then play the same chapter again.
 
-- **Season 1 – Practice:** 30 short everyday topics (greetings, numbers, food,
-  feelings, …). Start with episode 1.
-- **Season 2 – Story:** the eight-chapter story *Den magiska radion*. Each
-  episode plays the chapter, practises its words, then plays the chapter again.
-  Listen in order. New stories are added over time.
+Just want to listen? Visit [Repeto](https://trusohamn.github.io/repeto/).
 
-Tips for listeners: say the answer out loud in the pause, repeat an episode
-until you answer before the voice.
-Background listening helps you get used to the sounds and melody of the
-language, but active answering is where most of the learning happens. Once
-you know the format, try another language: every course works the same way.
+## 1. Set up
 
-| Course | Web page | RSS feed |
-| --- | --- | --- |
-| Repeto – Lär dig polska | [page](https://trusohamn.github.io/repeto/swedish-polish/) | [feed](https://trusohamn.github.io/repeto/swedish-polish/feed.xml) |
-| Repeto – Lär dig engelska | [page](https://trusohamn.github.io/repeto/swedish-english/) | [feed](https://trusohamn.github.io/repeto/swedish-english/feed.xml) |
-| Repeto – Lär dig ryska | [page](https://trusohamn.github.io/repeto/swedish-russian/) | [feed](https://trusohamn.github.io/repeto/swedish-russian/feed.xml) |
-| Repeto – Ucz się angielskiego | [page](https://trusohamn.github.io/repeto/polish-english/) | [feed](https://trusohamn.github.io/repeto/polish-english/feed.xml) |
-| Repeto – Ucz się szwedzkiego | [page](https://trusohamn.github.io/repeto/polish-swedish/) | [feed](https://trusohamn.github.io/repeto/polish-swedish/feed.xml) |
-| Repeto – Ucz się hiszpańskiego | [page](https://trusohamn.github.io/repeto/polish-spanish/) | [feed](https://trusohamn.github.io/repeto/polish-spanish/feed.xml) |
-| Repeto – Learn Swedish | [page](https://trusohamn.github.io/repeto/english-swedish/) | [feed](https://trusohamn.github.io/repeto/english-swedish/feed.xml) |
-| Repeto – Учи испанский | [page](https://trusohamn.github.io/repeto/russian-spanish/) | [feed](https://trusohamn.github.io/repeto/russian-spanish/feed.xml) |
-
-New or updated packages become available at these URLs only after publishing
-to GitHub Pages.
-
-Voices are AI-generated with Microsoft Azure; feeds and pages say so.
-
-## About this repository
-
-The code generates the language-learning MP3s and timestamp JSON files from the
-shared practice corpus in
-[courses/practice/transcript.json](courses/practice/transcript.json) and the
-stories in [courses/stories/](courses/stories/), then packages them as podcast
-feeds. Supports Swedish (`se` in practice data, `sv` in stories and catalogs),
-English (`en`), Polish (`pl`), Russian (`ru`), and Spain Spanish (`es`).
-
-## Podcast packaging
-
-For new translations or language corrections, use the
-[language review skill](.github/skills/review-language-course/SKILL.md) before
-audio generation. It separates phrase-by-phrase linguistic review, automated
-validation and listening checks, and requires text and audio to stay synchronized.
-
-To package another completed course, ask the agent to use the repository's
-[package-podcast skill](.github/skills/package-podcast/SKILL.md).
-Packaging does not commit, push, or publish anything by itself.
-
-Vocabulary practice renders can be packaged as season 1 with
-`code/package_practice.py`. It validates every topic against the current
-transcript, moves the MP3s into `podcast/<course>/audio/practice/` (the timing
-JSON stays in the render folder), creates or updates `course.json`, and
-rebuilds all feeds. Episode titles come from
-[courses/practice/topics.json](courses/practice/topics.json):
+Requires **Python 3.10+**, **FFmpeg**, and an Azure Speech resource.
+Run commands from the cloned repository's root.
 
 ```sh
-.venv/bin/python code/transcription.py --source se --target ru --double-output --output output/swedish_russian_double
-.venv/bin/python code/package_practice.py --target ru --course swedish-russian --renders output/swedish_russian_double
-```
-
-For Polish prompts and English answers, including the story as season 2:
-
-```sh
-.venv/bin/python code/transcription.py --source pl --target en --double-output --output output/polish_english_double
-.venv/bin/python code/package_practice.py --source pl --target en --course polish-english --renders output/polish_english_double
-.venv/bin/python code/story_course.py --source-language pl --target en --package-podcast --podcast-course polish-english
-```
-
-This direction uses Polish show/episode descriptions and page labels, Polish
-vocabulary prompts, and English narration with two English vocabulary answers.
-Both renderers default to licensed Azure Speech.
-
-For the other Polish-source courses, use practice target `se` with course
-`polish-swedish`, or target `es` with course `polish-spanish`. The Swedish
-story target is `sv`; Spanish uses `es` in both renderers. Use separate render
-directories such as `output/polish_swedish_double` and
-`output/polish_spanish_double`. Select Spanish explicitly with `--target es`;
-the practice renderer's default target set remains `se`, `pl`, `en`, and `ru`
-(excluding the source) for compatibility with older transcripts.
-Swedish stories use Harper's audiobook voice; Spain Spanish uses
-`es-ES-ElviraNeural` for narration and practice, without an expressive style
-(the configured Azure region does not advertise Spain Spanish Harper).
-Both courses retain Polish prompts, descriptions and page labels.
-
-For English prompts and Swedish answers, use practice source `en`, target `se`
-and `output/english_swedish_double`. Package with `--source en --target se
---course english-swedish`; render its story with `--source-language en --target sv`.
-This course uses English show and episode descriptions, English story summaries
-and page labels, and Swedish narration. The existing Swedish Azure voices and
-cached recordings are reused; the story still follows reading, vocabulary
-practice and reading again.
-
-For Russian prompts and Spain-Spanish answers, use practice source `ru`,
-target `es` and `output/russian_spanish_double`. Package with `--source ru
---target es --course russian-spanish`; render its story with
-`--source-language ru --target es`. This course uses Russian descriptions,
-`summary.ru` story teasers and Russian page labels. Russian prompts use
-`ru-RU-SvetlanaNeural` at `-15%`; Spanish answers use `es-ES-ElviraNeural`
-at `-15%`, with Spanish story narration at `-12%` and no expressive style.
-Existing Spanish readings are reused from the speech cache.
-
-Each podcast lives in `podcast/<course>/` with `cover.jpeg`, `course.json`,
-categorized audio, and generated RSS files. Vocabulary-topic MP3s live in
-`audio/practice/`; story chapters live in `audio/stories/<story-id>/`. The
-catalog's `file` path is relative to `audio/`. It stores permanent episode IDs
-and publication dates; keep these unchanged when replacing recordings.
-Language corrections in shared transcripts affect every course using the changed
-language. Rebuild the affected episodes from cached clips, synthesize changed
-text, and refresh their timing files and feeds together; changing timing labels
-alone does not correct the spoken audio. Keep everyday phrases natural rather
-than expanding them into formal textbook wording.
-Story artwork lives under `images/stories/<story-id>/cover.jpeg`. Each chapter
-sets an optional catalog `image` path relative to the podcast folder, emitted
-as an episode-level `itunes:image`; the main show cover remains unchanged.
-
-Artwork is published under content-fingerprinted names such as
-`cover-1719c6cd.jpeg`, because Spotify and other apps cache images by URL. To
-change a cover, drop the new image in as plain `cover.jpeg` (or overwrite the
-current `cover-<hash>.jpeg`) and run `.venv/bin/python code/podcast.py`. The
-builder renames it to its new fingerprint, removes the old version, and points
-the feed and web page at the new URL. `course.json` keeps the logical
-`cover.jpeg` path.
-Episodes set `season` and `episode` explicitly. Swedish-to-Polish vocabulary
-topics are season 1, episodes 1–30; *Den magiska radion* story chapters are season
-2, episodes 1–8. These values become podcast metadata in Spotify; the title's
-number uses `episode`, not its position in the JSON list.
-
-```sh
-.venv/bin/python code/podcast.py
-```
-
-Listener-facing copy for Swedish-, Polish-, English- and Russian-source courses lives in
-[code/descriptions.py](code/descriptions.py): the show title and description,
-the "how to use" steps, practice episode descriptions (topic, phrase count and
-three example phrases) and story episode descriptions (chapter number, the
-chapter's source-language `summary.sv`, `summary.pl`, `summary.en` or `summary.ru` teaser from the story transcript, and the three
-listening steps). Both packagers apply it automatically. To refresh the copy of
-already packaged courses without re-rendering audio, run:
-
-```sh
-.venv/bin/python code/descriptions.py podcast/swedish-polish podcast/swedish-english podcast/swedish-russian
-```
-
-Descriptions use blank lines for paragraphs and `•` or `1.` lines for lists.
-The feed keeps them as plain text in `description` and adds an HTML version in
-`content:encoded`; the web pages render the same HTML with season headings
-(from the optional `seasons` map) and an audio player per episode. An optional
-`links` object in `course.json` (for example
-`{"Spotify": "https://open.spotify.com/show/…"}`) adds listening links to the
-course page.
-
-Push changes to `main` to publish through GitHub Actions. One-time GitHub setup:
-**Settings → Pages → Build and deployment → Source: GitHub Actions**.
-In [Spotify for Creators](https://creators.spotify.com/), choose **Add a new show
-→ Find an existing show → Somewhere else**, enter the RSS URL, and verify
-using the code emailed to the feed owner. The owner email is public in RSS.
-
-## Generate audio
-
-### Azure story narration preview
-
-For a local pacing comparison only, copy `.env.example` to `.env` and enter
-your Azure Speech key and region locally. `.env` is ignored by Git; never
-share or commit its contents. Install the project requirements before running:
-
-```sh
-.venv/bin/python code/azure_story_preview.py
-```
-
-This sends the actual first Polish chapter to Azure Speech using Zofia with
-SSML sentence pauses (350 ms) and rate `-8%`. It loads `.env` without
-overriding existing environment variables. Use `--chapter`, `--rate=-8%`,
-`--pause-ms`, and `--output` to adjust the preview.
-The ignored `output/azure-preview/` folder receives an Azure MP3, the existing
-Edge narration extracted as WAV, SSML, and comparison metadata. No practice
-audio, packaged episodes, or RSS are changed. This tests pacing, not a
-voice-specific emotional style. Azure synthesis consumes the resource's
-quota and can incur charges on a paid tier.
-
-To test an explicit audiobook style with the Polish Harper voice:
-
-```sh
-.venv/bin/python code/azure_story_preview.py --voice pl-PL-Harper:MAI-Voice-2.1 --style audiobook --rate=0% --pause-ms 200
-```
-
-The preview checks the region's live voice list for Polish and requested-style
-support before synthesis, and saves the advertised capabilities and requested
-style in the comparison metadata. Availability and free-tier access can vary;
-unsupported requests fail explicitly rather than falling back to a neutral voice.
-
-For passage-directed previews, pass `--directions PATH` with a JSON array
-of passages. The directions override global rate and pauses, and specify each passage's
-rate, pitch, and pause. They must reconstruct the original chapter
-exactly. Intent labels explain the desired emotion in saved metadata; they
-are not spoken text or unsupported named emotion styles. Actual expressiveness
-and whether the voice honors each prosody setting require a listening test.
-The earlier volume test used unsupported decibel syntax. Optional `volume`
-directions now use signed percentages; optional `contour` directions specify
-increasing pitch-control positions, for example `(0%,+0%) (100%,-3%)`.
-
-The approved delivery groups related sentences and avoids forcing each fragment
-into a separate sentence tag. It is stored directly in the story's
-`generated/narration.json`, rather than in separate experimental direction files.
-Acceptance alone does not prove every setting changes the voice audibly.
-Compare recordings by ear.
-
-Run commands from this project directory after setup below.
-
-**Story audio (whole Polish chapter → vocabulary practice → same chapter again):**
-
-```sh
-.venv/bin/python code/story_course.py --source-language sv --target pl
-```
-
-Story narration and the opening book title now default to Azure Harper
-MAI-Voice-2.1, using the `audiobook` style and a `-12%` rate. Polish uses
-`pl-PL-Harper:MAI-Voice-2.1`, Swedish `sv-SE-Harper:MAI-Voice-2.1`, English
-`en-US-Harper:MAI-Voice-2.1`, and Russian `ru-RU-SvetlanaNeural` (Azure Neural, no style; Russian Harper had audible artifacts). The narration voice follows the language being
-read, independently of the prompt/native language. Vocabulary prompts and both
-target repetitions use the same Neural voices (Sofie, Zofia, Sonia, Svetlana)
-through licensed Azure Speech by default (`--tts-engine azure`).
-
-Each episode plays the complete target-language chapter before vocabulary
-practice and repeats the identical narration clip afterward, without a second
-synthesis request. Practice still uses Swedish prompts and two Polish answers.
-The book title is spoken once before the first reading in chapter 1.
-Every episode also announces its chapter number and title once in the target
-language (e.g. "Rozdział drugi. Głos z radia."; see `CHAPTER_HEADINGS`),
-using the narration voice, before the first reading (after the book title in
-chapter 1). A repetition pause separates the title from the story. Its text
-and timestamps are recorded in `chapter_introduction`.
-Both story/practice transitions have a quiet, fading two-note chime (620 ms)
-with the configured repetition pause on either side (default 2.5 seconds).
-The chime is generated locally, with no external sound asset or TTS request.
-Manifests record both readings in chronological `chapter_readings` order and
-the `sequence` as `["story", "practice", "story"]`; the existing
-`chapter_reading` field continues to identify the final reading. The
-`transitions` array records each chime's direction and timestamps.
-
-Configure `.env` as described above. Override narration independently with
-`--narration-voice LANG=VOICE`, `--narration-rate LANG=RATE`, or
-`--narration-style LANG=STYLE`. Use `--narration-engine edge` explicitly for
-the previous all-Edge behavior; Azure failures never silently fall back.
-Existing `--voice`, `--rate`, and `--pitch` settings control the vocabulary
-voices on either engine; `--tts-engine edge` selects the unofficial Edge Read
-Aloud endpoint for them.
-
-The renderer automatically reads `narration.json` beside the transcript when
-present. Its shape is `{"pl": {"1": [{...passage settings...}]}}`;
-each chapter value is either a passage array or a JSON path relative to that
-configuration. Use `--narration-directions PATH` to select another map.
-The approved Polish chapter-one directions are configured; chapters without
-directions use continuous audiobook narration at the selected narration rate.
-Directions must preserve chapter text exactly. Native/target swaps do not
-create missing story translations.
-
-Azure voice/style/language support and chapter text are checked before
-rendering practice. Cached narration is keyed by the complete SSML and output
-format. Chapter manifests record engine, voice, style, locale, and exact SSML.
-Rerenders create new files; packaging and publishing remain separate actions.
-
-Use `--help` for language, voice, pause, output, and format options. Review
-[course requirements](courses/REQUIREMENTS.md) and the reusable
-[create-story-course skill](.github/skills/create-story-course/SKILL.md).
-To add the chapters to the existing Swedish-to-Polish feed as a new season,
-include `--package-podcast --podcast-course swedish-polish`. This updates the
-existing catalog and RSS without creating a separate show. Packaging moves
-each chapter MP3 into the podcast folder instead of copying it, so the audio
-exists once; timing JSON stays under `generated/audio/`.
-
-The same story also ships in English for the Swedish-to-English feed, using
-the English `chapter_text` (a child-friendly translation of the Polish
-original) and `en-US-Harper:MAI-Voice-2.1` narration:
-
-```sh
-.venv/bin/python code/story_course.py --source-language sv --target en --package-podcast --podcast-course swedish-english
-```
-
-Russian works the same way for the Swedish-to-Russian feed, with
-Azure `ru-RU-SvetlanaNeural` for both narration and practice:
-
-```sh
-.venv/bin/python code/story_course.py --source-language sv --target ru --package-podcast --podcast-course swedish-russian
-```
-
-Renders go to `generated/audio/<source>_<targets>/` (for example `sv_pl` or
-`sv_en`) unless `--output` is given. The shared build manifest keeps every
-direction: rendering one target leaves other targets' chapter entries intact,
-`renders` records each direction's settings, and `settings` is the latest
-render. Story artwork defaults to `cover_<source>_<target>.jpeg` (Swedish is
-`se`), then the shared `cover.jpeg`.
-
-Course sources live under `courses/`: reusable vocabulary shared across
-language directions is stored once in `practice/`, while direction-specific
-stories and their generated assets live under the corresponding course folder.
-
-**English → Polish, Greetings preview (up to 5 minutes):**
-
-```sh
-.venv/bin/python code/transcription.py --source en --target pl --topic "Greetings" --max-duration 300 --output output/preview
-```
-
-Saves an MP3 and matching timestamp JSON in `output/preview/`, named like
-`01_greetings_en_pl_2026-10-27_11-18-30.mp3` and `.json`.
-The suffix is the render's local start date and time, shared by all its tracks.
-
-```sh
-# Polish → English, all topics
-.venv/bin/python code/transcription.py --source pl --target en
-
-# Swedish → Polish and English, separate files
-.venv/bin/python code/transcription.py --source se --target pl en
-
-# English → Polish, each answer played twice
-.venv/bin/python code/transcription.py --source en --target pl --double-output --output output/double
-
-# List available topic titles
-.venv/bin/python code/transcription.py --list-topics
-```
-
-- `--source`: prompt language; defaults to `se`.
-- `--target`: one or more answer languages; defaults to all except the source.
-- `--double-output`: play each answer twice, with a 2.5-second pause after each.
-  Adds `_double` before the date in both filenames, for example
-  `01_greetings_en_pl_double_2026-10-27_11-18-30.mp3`.
-- `--topic`: exact topic title; omit to render all topics.
-- `--max-duration`: maximum seconds per track; omit for full topics.
-  Keeps complete entries and may finish before the limit.
-- `--output`: destination folder; defaults to the project's `output/`.
-- `--transcript` and `--cache`: override the input JSON and speech-cache paths.
-
-Each entry plays: **prompt → 2-second thinking pause → answer → 2.5-second
-repetition pause**. Existing speech clips are reused from the cache.
-With `--double-output`, the answer and repetition pause play once more.
-Both playbacks have timestamps in `target_playbacks` in the manifest.
-The duration cap includes both. Timestamped filenames keep separate renders
-apart; avoid starting renders in the same output folder within the same second.
-Uncached speech requires internet access and sends the text to Azure Speech
-(`AZURE_SPEECH_KEY` and `AZURE_SPEECH_REGION` in `.env`). Azure is the default
-because its terms allow publishing the generated audio; `--tts-engine edge`
-uses the unofficial Edge Read Aloud endpoint with the same voices, which has no
-publishing licence and can be blocked without notice. Each render manifest
-records `tts_engine` and `voices`. Azure clips are cached as
-`.audio_cache/<lang>_azure_<sha>.mp3`, separately from Edge clips.
-Unpunctuated words receive a final full stop for TTS reliability; transcript
-and manifest text stay unchanged. Cache keys use this speech text, so older
-unpunctuated clips may need regenerating once.
-Empty-audio responses are retried up to three attempts, with 2- and 4-second
-waits. If rendering still fails, rerun the same command; completed speech clips
-are cached and reused. No phrases are silently skipped.
-High speech peaks are gently compressed when needed to reach consistent volume
-without clipping; clips that still cannot meet the limits are rejected.
-Do not run simultaneous renders into the same output folder.
-Final MP3 and JSON files are published per topic only after every selected
-entry and language track succeeds and passes export validation. A failed topic
-publishes no final files; previously completed topics and cached clips remain.
-If the output folder disappears during synthesis, export recreates it.
-With a duration cap, success means all complete entries selected for the preview.
-
-## Setup (macOS)
-
-Requires Python 3.10+ and FFmpeg:
-
-```sh
+# macOS; on other systems, install FFmpeg with your package manager
 brew install ffmpeg
 python3 -m venv .venv
 .venv/bin/python -m pip install -r requirements.txt
+cp .env.example .env
 ```
 
-In VS Code, select this project's `.venv` with **Python: Select Interpreter**.
+Enter `AZURE_SPEECH_KEY` and `AZURE_SPEECH_REGION` in your local `.env`.
+Never commit or share credentials. Uncached synthesis sends course text to
+Azure and may incur charges; completed speech clips are cached for reuse.
+Azure is the default engine for publishable audio. The optional unofficial
+Edge endpoint is not a substitute for licensed publishing.
 
-## Edit the transcript
+The commands below use macOS/Linux paths. On Windows, use
+`.venv\Scripts\python.exe` instead of `.venv/bin/python`.
 
-Keep each entry's permanent `id` unchanged when editing or moving it. Assign
-a new unused ID to new entries; never renumber or reuse deleted IDs.
+## 2. Choose or adapt the material
 
-## Tests
+- [Practice transcript](courses/practice/transcript.json): words and phrases.
+- [Topic titles](courses/practice/topics.json): localized practice headings.
+- [Stories](courses/stories/): chapter texts, vocabulary, and narration settings.
+
+Supported language codes are `en`, `pl`, `ru`, `es` (Spain Spanish), and
+Swedish: **`se` for practice, `sv` for stories and podcast catalogs**.
+Source means the listener's prompt language; target means the language learned.
+Always select the target explicitly, especially Spanish.
+
+Keep existing entry IDs unchanged; assign unused IDs to new entries.
+Review translations for natural wording, matching meaning, and clean spoken
+text before spending money on synthesis. Adding a language flag does not
+create missing translations or voice support.
+
+For agent-assisted work, use the
+[language review skill](.github/skills/review-language-course/SKILL.md).
+
+## 3. Generate practice audio
+
+Start with a short English → Polish preview:
+
+```sh
+.venv/bin/python code/transcription.py --list-topics
+.venv/bin/python code/transcription.py --source en --target pl --topic "Greetings" --max-duration 300 --double-output --output output/preview
+```
+
+Listen to the result before rendering all topics. For a full Polish → English course:
+
+```sh
+.venv/bin/python code/transcription.py --source pl --target en --double-output --output output/my-course
+```
+
+MP3s and matching timing JSON files go to the output folder.
+`--double-output` repeats each target answer twice; omit it for one answer.
+Use `--transcript PATH` for a different practice dataset.
+Do not render simultaneously into the same output folder. If synthesis fails,
+rerun the command: successful speech clips remain cached.
+
+## 4. Add a story (optional)
+
+```sh
+.venv/bin/python code/story_course.py --source-language pl --target en
+```
+
+This uses the existing translated story and configured Azure narration voices.
+Generated audio and timing files live under the story's `generated/audio/`
+directory by default. Use `--help` to choose a transcript, output directory,
+voice, rate, or pauses. Listen to a chapter before rendering or publishing
+the whole story.
+
+See the [story requirements](courses/REQUIREMENTS.md) and
+[create-story-course skill](.github/skills/create-story-course/SKILL.md)
+for custom stories and narration.
+
+## 5. Package and publish (optional)
+
+Create `podcast/my-course/` and put your artwork there as `cover.jpeg`.
+Replace the example URL, author, and email below with your own.
+The feed owner's email is public.
+
+```sh
+.venv/bin/python code/package_practice.py --source pl --target en --course my-course --renders output/my-course --podcast-base-url https://YOUR-USER.github.io/YOUR-REPO --author "Your name" --email you@example.com
+```
+
+The packager validates renders, moves MP3s into the podcast directory, and
+creates the catalog, RSS, and web pages. Timing JSON stays in the render folder.
+To add the story as season 2:
+
+```sh
+.venv/bin/python code/story_course.py --source-language pl --target en --package-podcast --podcast-course my-course
+.venv/bin/python code/podcast.py --base-url https://YOUR-USER.github.io/YOUR-REPO
+```
+
+Rebuild with your own base URL before publishing; the scripts' default URL is
+Repeto's. Check `course.json` for your title, descriptions, contact details,
+and optional `links.Spotify` / `links.YouTube`. Keep episode IDs and publication
+dates stable when updating audio. Cover filenames are fingerprinted automatically.
+
+Packaging does **not** commit, push, or publish. To use GitHub Pages, configure
+**Settings → Pages → Source: GitHub Actions**, then review the deployment
+workflow before pushing. Submit your published RSS URL to podcast platforms.
+See the [packaging skill](.github/skills/package-podcast/SKILL.md) for details.
+
+## Checks and further reference
 
 ```sh
 .venv/bin/python -m pip install -r requirements-dev.txt
@@ -392,4 +126,7 @@ a new unused ID to new entries; never renumber or reuse deleted IDs.
 .venv/bin/python -m pyright
 ```
 
-See [REQUIREMENTS.md](REQUIREMENTS.md) for audio specifications and the timestamp schema.
+Use each script's `--help` for advanced options.
+[REQUIREMENTS.md](REQUIREMENTS.md) documents audio limits and timestamp schemas.
+When changing shared text, regenerate all affected recordings and timing files
+together—editing labels alone does not change the spoken audio.

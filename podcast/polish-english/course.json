@@ -6,6 +6,10 @@
   "email": "repeto.lingo@gmail.com",
   "source_language": "pl",
   "target_language": "en",
+  "links": {
+    "Spotify": "https://open.spotify.com/show/6bLpxDoqIbLKk7eKPt29cc",
+    "YouTube": "https://www.youtube.com/playlist?list=PLaiumH4cRmVQ"
+  },
   "episodes": [
     {
       "id": "repeto:polish-english:topic-01",

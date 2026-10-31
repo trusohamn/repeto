@@ -14,6 +14,122 @@ SPEC.loader.exec_module(podcast)
 
 
 class PodcastTests(unittest.TestCase):
+    def test_homepage_groups_courses_and_uses_platform_links_without_embeds(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            courses = []
+            for language, title in (
+                ("en", "Repeto – Learn Swedish"),
+                ("sv", "Repeto – Lär dig polska & engelska"),
+                ("pl", "Repeto – Ucz się szwedzkiego"),
+                ("ru", "Repeto – Учи испанский"),
+            ):
+                course = root / f"{language}-course"
+                course.mkdir()
+                (course / "cover.jpeg").write_bytes(b"cover")
+                config = {
+                    "language": language, "title": title,
+                    "description": "Repeated generic introduction that should not appear.",
+                    "episodes": [{}] * 38,
+                }
+                if language == "sv":
+                    config["links"] = {
+                        "Spotify": "https://open.spotify.com/show/4pCmGojSZmODKl9qvxTrgq",
+                        "YouTube": "https://www.youtube.com/playlist?list=PLaiumH4cRmVQ",
+                    }
+                if language == "en":
+                    config["links"] = {
+                        "YouTube": "https://www.youtube.com/playlist?list=PLXdnYK4NDPvE",
+                    }
+                (course / "course.json").write_text(json.dumps(config), encoding="utf-8")
+                podcast.fingerprint_image(course / "cover.jpeg")
+                courses.append(course)
+            podcast.build_index(root, courses)
+            page = (root / "index.html").read_text(encoding="utf-8")
+            self.assertEqual(page.count('<article class="course-card">'), 4)
+            self.assertNotIn('<iframe ', page)
+            self.assertNotIn('spotify-player', page)
+            self.assertIn(
+                '<a class="spotify-link" href="https://open.spotify.com/show/4pCmGojSZmODKl9qvxTrgq">'
+                'Open in Spotify</a>',
+                page,
+            )
+            self.assertEqual(page.count('class="youtube-link"'), 2)
+            self.assertIn(
+                '<a class="youtube-link" href="https://www.youtube.com/playlist?list=PLaiumH4cRmVQ">',
+                page,
+            )
+            self.assertIn(
+                '<h3 lang="en"><a href="https://www.youtube.com/playlist?list=PLXdnYK4NDPvE">',
+                page,
+            )
+            self.assertIn("Listen on YouTube", page)
+            self.assertIn("Uploads are in progress.", page)
+            self.assertIn('href="https://www.youtube.com/@repeto-ling/podcasts"', page)
+            self.assertEqual(page.count("38 episodes"), 4)
+            self.assertIn('<html lang="en">', page)
+            self.assertIn("<title>Repeto – screen-free language learning</title>", page)
+            self.assertIn('Learn a language.<br><span>Without the screen.</span>', page)
+            self.assertNotIn("Less screen time. More conversation.", page)
+            self.assertNotIn("Listen. Speak. Make it yours.", page)
+            self.assertNotIn('class="steps"', page)
+            self.assertIn("Press play in your podcast app, put the screen away", page)
+            self.assertNotIn('class="listen-link"', page)
+            self.assertNotIn("Słuchaj tutaj", page)
+            self.assertIn("For Swedish speakers", page)
+            self.assertIn(
+                '<h3 lang="sv"><a href="https://open.spotify.com/show/4pCmGojSZmODKl9qvxTrgq">',
+                page,
+            )
+            self.assertNotIn("Repeated generic introduction", page)
+            self.assertNotIn('class="rss-link"', page)
+            self.assertIn('<details class="podcast-apps"><summary>', page)
+            self.assertIn("These links are feeds, not listening pages.", page)
+            self.assertIn("Lär dig polska &amp; engelska", page)
+            for language in ("sv", "pl", "en", "ru"):
+                self.assertIn(f'href="#courses-{language}"', page)
+                self.assertIn(f'id="courses-{language}"', page)
+                self.assertIn(f'href="{language}-course/feed.xml"', page)
+                self.assertIn(f'src="{language}-course/cover-3fa405a8.jpeg"', page)
+            self.assertLess(page.index('id="courses-sv"'), page.index('id="courses-en"'))
+            self.assertIn('id="native-language">Choose your native language:</p>', page)
+            self.assertIn('aria-labelledby="native-language"', page)
+            original = (root / "index.html").read_bytes()
+            podcast.build_index(root, courses)
+            self.assertEqual((root / "index.html").read_bytes(), original)
+
+    def test_homepage_rejects_unverified_spotify_urls(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            course = root / "course"
+            course.mkdir()
+            (course / "cover.jpeg").write_bytes(b"cover")
+            config = {"language": "sv", "title": "Repeto", "episodes": [{}]}
+            for url in ("https://example.com/show/4pCmGojSZmODKl9qvxTrgq",
+                        "https://open.spotify.com/search/Repeto", "javascript:alert(1)"):
+                config["links"] = {"Spotify": url}
+                (course / "course.json").write_text(json.dumps(config), encoding="utf-8")
+                with self.subTest(url=url), self.assertRaisesRegex(ValueError, "Invalid Spotify"):
+                    podcast.build_index(root, [course])
+
+    def test_homepage_rejects_invalid_youtube_urls(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            course = root / "course"
+            course.mkdir()
+            (course / "cover.jpeg").write_bytes(b"cover")
+            config = {"language": "en", "title": "Repeto", "episodes": [{}]}
+            for url in (
+                "javascript:alert(1)",
+                "https://example.com/playlist?list=PLXdnYK4NDPvE",
+                "https://www.youtube.com/@repeto-ling/podcasts",
+                "https://www.youtube.com/playlist?list=PLXdnYK4NDPvE&extra=1",
+            ):
+                config["links"] = {"YouTube": url}
+                (course / "course.json").write_text(json.dumps(config), encoding="utf-8")
+                with self.subTest(url=url), self.assertRaisesRegex(ValueError, "Invalid YouTube"):
+                    podcast.build_index(root, [course])
+
     def test_text_to_html_renders_paragraphs_and_lists(self):
         self.assertEqual(
             podcast.text_to_html("Hej <du>!\nRad två\n\nSteg:\n1. Lyssna\n2. Prata\n\n• a\n• b"),

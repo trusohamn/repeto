@@ -6,6 +6,9 @@
   "email": "repeto.lingo@gmail.com",
   "source_language": "pl",
   "target_language": "es",
+  "links": {
+    "Spotify": "https://open.spotify.com/show/3m9NWdCSyqXCXw9c8okFLH"
+  },
   "episodes": [
     {
       "id": "repeto:polish-spanish:topic-01",

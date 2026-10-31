@@ -6,6 +6,9 @@
   "email": "repeto.lingo@gmail.com",
   "source_language": "pl",
   "target_language": "sv",
+  "links": {
+    "Spotify": "https://open.spotify.com/show/5tdfa9udOuipOZrwtFN54K"
+  },
   "episodes": [
     {
       "id": "repeto:polish-swedish:topic-01",

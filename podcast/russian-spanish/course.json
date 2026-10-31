@@ -6,6 +6,9 @@
   "email": "repeto.lingo@gmail.com",
   "source_language": "ru",
   "target_language": "es",
+  "links": {
+    "Spotify": "https://open.spotify.com/show/21OEnzPWsLSZwfHRgofkyP"
+  },
   "episodes": [
     {
       "id": "repeto:russian-spanish:topic-01",

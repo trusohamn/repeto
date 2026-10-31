@@ -6,6 +6,9 @@
   "email": "repeto.lingo@gmail.com",
   "source_language": "sv",
   "target_language": "ru",
+  "links": {
+    "Spotify": "https://open.spotify.com/show/1KLQpTEupiAjnf33JZKQrc"
+  },
   "episodes": [
     {
       "id": "repeto:swedish-russian:topic-01",
