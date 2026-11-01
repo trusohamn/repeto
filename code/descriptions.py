@@ -563,7 +563,7 @@ def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("courses", nargs="+", type=Path, help="podcast/<course> folders")
     parser.add_argument("--podcast-root", type=Path, default=ROOT / "podcast")
-    parser.add_argument("--podcast-base-url", default="https://trusohamn.github.io/repeto")
+    parser.add_argument("--podcast-base-url", default="https://repeto.stream")
     args = parser.parse_args()
     for course in args.courses:
         refresh_course(course)

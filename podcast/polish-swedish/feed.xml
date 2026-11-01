@@ -2,7 +2,7 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
   <channel>
     <title>Repeto – Ucz się szwedzkiego</title>
-    <link>https://trusohamn.github.io/repeto/polish-swedish/</link>
+    <link>https://repeto.stream/polish-swedish/</link>
     <description>Ucz się szwedzkiego, słuchając i mówiąc – z polskim jako wsparciem. Repeto to kurs audio dla początkujących w każdym wieku: dzieci, rodziców, dziadków i wszystkich, którzy chcą zacząć naukę szwedzkiego. Nie potrzebujesz wcześniejszej wiedzy ani podręcznika.
 
 Jak to działa: słyszysz słowo lub zdanie po polsku, a potem masz chwilę, by powiedzieć je po szwedzku. Następnie usłyszysz odpowiedź dwa razy i będziesz mieć czas, by powtórzyć wymowę.
@@ -31,11 +31,11 @@ Głosy zostały wygenerowane przez AI (Microsoft Azure).</description>
       <itunes:name>Repeto</itunes:name>
       <itunes:email>repeto.lingo@gmail.com</itunes:email>
     </itunes:owner>
-    <itunes:image href="https://trusohamn.github.io/repeto/polish-swedish/cover-2538d308.jpeg" />
+    <itunes:image href="https://repeto.stream/polish-swedish/cover-2538d308.jpeg" />
     <itunes:category text="Education">
       <itunes:category text="Language Learning" />
     </itunes:category>
-    <atom:link href="https://trusohamn.github.io/repeto/polish-swedish/feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://repeto.stream/polish-swedish/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>01 Powitania — Hälsningar</title>
       <description>Temat 1 z 30: Powitania (Hälsningar) – 36 zwrotów.
@@ -56,7 +56,7 @@ Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>371</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <enclosure url="https://trusohamn.github.io/repeto/polish-swedish/audio/practice/01_greetings_pl_se_double_2026-10-30_12-19-08.mp3" length="8906962" type="audio/mpeg" />
+      <enclosure url="https://repeto.stream/polish-swedish/audio/practice/01_greetings_pl_se_double_2026-10-30_12-19-08.mp3" length="8906962" type="audio/mpeg" />
     </item>
     <item>
       <title>02 Liczby — Tal</title>
@@ -78,7 +78,7 @@ Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>348</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <enclosure url="https://trusohamn.github.io/repeto/polish-swedish/audio/practice/02_numbers_pl_se_double_2026-10-30_12-19-08.mp3" length="8364033" type="audio/mpeg" />
+      <enclosure url="https://repeto.stream/polish-swedish/audio/practice/02_numbers_pl_se_double_2026-10-30_12-19-08.mp3" length="8364033" type="audio/mpeg" />
     </item>
     <item>
       <title>03 Kolory — Färger</title>
@@ -100,7 +100,7 @@ Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>311</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <enclosure url="https://trusohamn.github.io/repeto/polish-swedish/audio/practice/03_colors_pl_se_double_2026-10-30_12-19-08.mp3" length="7461868" type="audio/mpeg" />
+      <enclosure url="https://repeto.stream/polish-swedish/audio/practice/03_colors_pl_se_double_2026-10-30_12-19-08.mp3" length="7461868" type="audio/mpeg" />
     </item>
     <item>
       <title>04 Zwierzęta — Djur</title>
@@ -122,7 +122,7 @@ Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>417</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <enclosure url="https://trusohamn.github.io/repeto/polish-swedish/audio/practice/04_animals_pl_se_double_2026-10-30_12-19-08.mp3" length="10019778" type="audio/mpeg" />
+      <enclosure url="https://repeto.stream/polish-swedish/audio/practice/04_animals_pl_se_double_2026-10-30_12-19-08.mp3" length="10019778" type="audio/mpeg" />
     </item>
     <item>
       <title>05 Rodzina — Familj</title>
@@ -144,7 +144,7 @@ Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>292</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <enclosure url="https://trusohamn.github.io/repeto/polish-swedish/audio/practice/05_family_pl_se_double_2026-10-30_12-19-08.mp3" length="7016741" type="audio/mpeg" />
+      <enclosure url="https://repeto.stream/polish-swedish/audio/practice/05_family_pl_se_double_2026-10-30_12-19-08.mp3" length="7016741" type="audio/mpeg" />
     </item>
     <item>
       <title>06 Jedzenie — Mat</title>
@@ -166,7 +166,7 @@ Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>501</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <enclosure url="https://trusohamn.github.io/repeto/polish-swedish/audio/practice/06_food_pl_se_double_2026-10-30_12-19-08.mp3" length="12025355" type="audio/mpeg" />
+      <enclosure url="https://repeto.stream/polish-swedish/audio/practice/06_food_pl_se_double_2026-10-30_12-19-08.mp3" length="12025355" type="audio/mpeg" />
     </item>
     <item>
       <title>07 Ciało — Kroppen</title>
@@ -188,7 +188,7 @@ Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>372</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <enclosure url="https://trusohamn.github.io/repeto/polish-swedish/audio/practice/07_body_pl_se_double_2026-10-30_12-19-08.mp3" length="8933920" type="audio/mpeg" />
+      <enclosure url="https://repeto.stream/polish-swedish/audio/practice/07_body_pl_se_double_2026-10-30_12-19-08.mp3" length="8933920" type="audio/mpeg" />
     </item>
     <item>
       <title>08 Ubrania — Kläder</title>
@@ -210,7 +210,7 @@ Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>311</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <enclosure url="https://trusohamn.github.io/repeto/polish-swedish/audio/practice/08_clothing_pl_se_double_2026-10-30_12-19-08.mp3" length="7466883" type="audio/mpeg" />
+      <enclosure url="https://repeto.stream/polish-swedish/audio/practice/08_clothing_pl_se_double_2026-10-30_12-19-08.mp3" length="7466883" type="audio/mpeg" />
     </item>
     <item>
       <title>09 W domu — Hemma</title>
@@ -232,7 +232,7 @@ Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>392</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <enclosure url="https://trusohamn.github.io/repeto/polish-swedish/audio/practice/09_home_pl_se_double_2026-10-30_12-19-08.mp3" length="9418544" type="audio/mpeg" />
+      <enclosure url="https://repeto.stream/polish-swedish/audio/practice/09_home_pl_se_double_2026-10-30_12-19-08.mp3" length="9418544" type="audio/mpeg" />
     </item>
     <item>
       <title>10 Szkoła — Skolan</title>
@@ -254,7 +254,7 @@ Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>435</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <enclosure url="https://trusohamn.github.io/repeto/polish-swedish/audio/practice/10_school_pl_se_double_2026-10-30_13-08-55.mp3" length="10437319" type="audio/mpeg" />
+      <enclosure url="https://repeto.stream/polish-swedish/audio/practice/10_school_pl_se_double_2026-10-30_13-08-55.mp3" length="10437319" type="audio/mpeg" />
     </item>
     <item>
       <title>11 Pogoda — Väder</title>
@@ -276,7 +276,7 @@ Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>258</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <enclosure url="https://trusohamn.github.io/repeto/polish-swedish/audio/practice/11_weather_pl_se_double_2026-10-30_12-19-08.mp3" length="6194198" type="audio/mpeg" />
+      <enclosure url="https://repeto.stream/polish-swedish/audio/practice/11_weather_pl_se_double_2026-10-30_12-19-08.mp3" length="6194198" type="audio/mpeg" />
     </item>
     <item>
       <title>12 Pory roku — Årstider</title>
@@ -298,7 +298,7 @@ Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>206</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <enclosure url="https://trusohamn.github.io/repeto/polish-swedish/audio/practice/12_seasons_pl_se_double_2026-10-30_12-19-08.mp3" length="4935932" type="audio/mpeg" />
+      <enclosure url="https://repeto.stream/polish-swedish/audio/practice/12_seasons_pl_se_double_2026-10-30_12-19-08.mp3" length="4935932" type="audio/mpeg" />
     </item>
     <item>
       <title>13 Dni i czas — Dagar och tid</title>
@@ -320,7 +320,7 @@ Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>309</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <enclosure url="https://trusohamn.github.io/repeto/polish-swedish/audio/practice/13_days_and_time_pl_se_double_2026-10-30_12-19-08.mp3" length="7408578" type="audio/mpeg" />
+      <enclosure url="https://repeto.stream/polish-swedish/audio/practice/13_days_and_time_pl_se_double_2026-10-30_12-19-08.mp3" length="7408578" type="audio/mpeg" />
     </item>
     <item>
       <title>14 Zabawki i zabawa — Leksaker och lek</title>
@@ -342,7 +342,7 @@ Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>366</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <enclosure url="https://trusohamn.github.io/repeto/polish-swedish/audio/practice/14_toys_and_play_pl_se_double_2026-10-30_13-09-05.mp3" length="8794113" type="audio/mpeg" />
+      <enclosure url="https://repeto.stream/polish-swedish/audio/practice/14_toys_and_play_pl_se_double_2026-10-30_13-09-05.mp3" length="8794113" type="audio/mpeg" />
     </item>
     <item>
       <title>15 Sport i zajęcia — Sport och aktiviteter</title>
@@ -364,7 +364,7 @@ Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>277</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <enclosure url="https://trusohamn.github.io/repeto/polish-swedish/audio/practice/15_sports_and_activities_pl_se_double_2026-10-30_12-19-08.mp3" length="6659386" type="audio/mpeg" />
+      <enclosure url="https://repeto.stream/polish-swedish/audio/practice/15_sports_and_activities_pl_se_double_2026-10-30_12-19-08.mp3" length="6659386" type="audio/mpeg" />
     </item>
     <item>
       <title>16 Chcę i potrzebuję — Jag vill ha och jag behöver</title>
@@ -386,7 +386,7 @@ Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>319</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <enclosure url="https://trusohamn.github.io/repeto/polish-swedish/audio/practice/16_i_want_i_need_pl_se_double_2026-10-30_12-19-08.mp3" length="7646188" type="audio/mpeg" />
+      <enclosure url="https://repeto.stream/polish-swedish/audio/practice/16_i_want_i_need_pl_se_double_2026-10-30_12-19-08.mp3" length="7646188" type="audio/mpeg" />
     </item>
     <item>
       <title>17 Gdzie jest? — Var är?</title>
@@ -408,7 +408,7 @@ Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>316</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <enclosure url="https://trusohamn.github.io/repeto/polish-swedish/audio/practice/17_where_is_pl_se_double_2026-10-30_12-19-08.mp3" length="7575344" type="audio/mpeg" />
+      <enclosure url="https://repeto.stream/polish-swedish/audio/practice/17_where_is_pl_se_double_2026-10-30_12-19-08.mp3" length="7575344" type="audio/mpeg" />
     </item>
     <item>
       <title>18 Uczucia i emocje — Känslor</title>
@@ -430,7 +430,7 @@ Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>304</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <enclosure url="https://trusohamn.github.io/repeto/polish-swedish/audio/practice/18_feelings_and_emotions_pl_se_double_2026-10-30_12-19-08.mp3" length="7306387" type="audio/mpeg" />
+      <enclosure url="https://repeto.stream/polish-swedish/audio/practice/18_feelings_and_emotions_pl_se_double_2026-10-30_12-19-08.mp3" length="7306387" type="audio/mpeg" />
     </item>
     <item>
       <title>19 Środki transportu — Färdmedel</title>
@@ -452,7 +452,7 @@ Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>270</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <enclosure url="https://trusohamn.github.io/repeto/polish-swedish/audio/practice/19_transport_pl_se_double_2026-10-30_12-19-08.mp3" length="6476320" type="audio/mpeg" />
+      <enclosure url="https://repeto.stream/polish-swedish/audio/practice/19_transport_pl_se_double_2026-10-30_12-19-08.mp3" length="6476320" type="audio/mpeg" />
     </item>
     <item>
       <title>20 Przyroda — Naturen</title>
@@ -474,7 +474,7 @@ Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>277</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <enclosure url="https://trusohamn.github.io/repeto/polish-swedish/audio/practice/20_nature_pl_se_double_2026-10-30_12-19-08.mp3" length="6643086" type="audio/mpeg" />
+      <enclosure url="https://repeto.stream/polish-swedish/audio/practice/20_nature_pl_se_double_2026-10-30_12-19-08.mp3" length="6643086" type="audio/mpeg" />
     </item>
     <item>
       <title>21 Święta i uroczystości — Högtider och firande</title>
@@ -496,7 +496,7 @@ Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>259</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <enclosure url="https://trusohamn.github.io/repeto/polish-swedish/audio/practice/21_holidays_and_celebrations_pl_se_double_2026-10-30_12-19-08.mp3" length="6213006" type="audio/mpeg" />
+      <enclosure url="https://repeto.stream/polish-swedish/audio/practice/21_holidays_and_celebrations_pl_se_double_2026-10-30_12-19-08.mp3" length="6213006" type="audio/mpeg" />
     </item>
     <item>
       <title>22 Codzienne czynności — Vardagsrutiner</title>
@@ -518,7 +518,7 @@ Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>318</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <enclosure url="https://trusohamn.github.io/repeto/polish-swedish/audio/practice/22_daily_routine_pl_se_double_2026-10-30_12-19-08.mp3" length="7634276" type="audio/mpeg" />
+      <enclosure url="https://repeto.stream/polish-swedish/audio/practice/22_daily_routine_pl_se_double_2026-10-30_12-19-08.mp3" length="7634276" type="audio/mpeg" />
     </item>
     <item>
       <title>23 Pytania i prośby — Fråga och be om hjälp</title>
@@ -540,7 +540,7 @@ Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>274</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <enclosure url="https://trusohamn.github.io/repeto/polish-swedish/audio/practice/23_asking_and_requests_pl_se_double_2026-10-30_12-19-08.mp3" length="6576003" type="audio/mpeg" />
+      <enclosure url="https://repeto.stream/polish-swedish/audio/practice/23_asking_and_requests_pl_se_double_2026-10-30_12-19-08.mp3" length="6576003" type="audio/mpeg" />
     </item>
     <item>
       <title>24 Przeciwieństwa — Motsatser</title>
@@ -562,7 +562,7 @@ Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>288</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <enclosure url="https://trusohamn.github.io/repeto/polish-swedish/audio/practice/24_opposites_pl_se_double_2026-10-30_12-19-08.mp3" length="6905146" type="audio/mpeg" />
+      <enclosure url="https://repeto.stream/polish-swedish/audio/practice/24_opposites_pl_se_double_2026-10-30_12-19-08.mp3" length="6905146" type="audio/mpeg" />
     </item>
     <item>
       <title>25 Czynności i czasowniki — Handlingar och verb</title>
@@ -584,7 +584,7 @@ Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>422</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <enclosure url="https://trusohamn.github.io/repeto/polish-swedish/audio/practice/25_actions_and_verbs_pl_se_double_2026-10-30_12-19-08.mp3" length="10123850" type="audio/mpeg" />
+      <enclosure url="https://repeto.stream/polish-swedish/audio/practice/25_actions_and_verbs_pl_se_double_2026-10-30_12-19-08.mp3" length="10123850" type="audio/mpeg" />
     </item>
     <item>
       <title>26 Miejsca w mieście — Platser i staden</title>
@@ -606,7 +606,7 @@ Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>252</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <enclosure url="https://trusohamn.github.io/repeto/polish-swedish/audio/practice/26_places_in_town_pl_se_double_2026-10-30_12-19-08.mp3" length="6051256" type="audio/mpeg" />
+      <enclosure url="https://repeto.stream/polish-swedish/audio/practice/26_places_in_town_pl_se_double_2026-10-30_12-19-08.mp3" length="6051256" type="audio/mpeg" />
     </item>
     <item>
       <title>27 Technologia — Teknik</title>
@@ -628,7 +628,7 @@ Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>245</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <enclosure url="https://trusohamn.github.io/repeto/polish-swedish/audio/practice/27_technology_pl_se_double_2026-10-30_12-19-08.mp3" length="5883863" type="audio/mpeg" />
+      <enclosure url="https://repeto.stream/polish-swedish/audio/practice/27_technology_pl_se_double_2026-10-30_12-19-08.mp3" length="5883863" type="audio/mpeg" />
     </item>
     <item>
       <title>28 Muzyka i sztuka — Musik och konst</title>
@@ -650,7 +650,7 @@ Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>246</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <enclosure url="https://trusohamn.github.io/repeto/polish-swedish/audio/practice/28_music_and_art_pl_se_double_2026-10-30_12-19-08.mp3" length="5912702" type="audio/mpeg" />
+      <enclosure url="https://repeto.stream/polish-swedish/audio/practice/28_music_and_art_pl_se_double_2026-10-30_12-19-08.mp3" length="5912702" type="audio/mpeg" />
     </item>
     <item>
       <title>29 Zwroty grzecznościowe — Artiga fraser</title>
@@ -672,7 +672,7 @@ Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>177</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <enclosure url="https://trusohamn.github.io/repeto/polish-swedish/audio/practice/29_polite_phrases_pl_se_double_2026-10-30_12-19-08.mp3" length="4243164" type="audio/mpeg" />
+      <enclosure url="https://repeto.stream/polish-swedish/audio/practice/29_polite_phrases_pl_se_double_2026-10-30_12-19-08.mp3" length="4243164" type="audio/mpeg" />
     </item>
     <item>
       <title>30 Powtórka — Repetition</title>
@@ -694,7 +694,7 @@ Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>130</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <enclosure url="https://trusohamn.github.io/repeto/polish-swedish/audio/practice/30_review_and_recap_pl_se_double_2026-10-30_13-09-14.mp3" length="3115301" type="audio/mpeg" />
+      <enclosure url="https://repeto.stream/polish-swedish/audio/practice/30_review_and_recap_pl_se_double_2026-10-30_13-09-14.mp3" length="3115301" type="audio/mpeg" />
     </item>
     <item>
       <title>01 Magiczne Radio: Stary stół — Det gamla bordet</title>
@@ -714,8 +714,8 @@ Między częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynaj�
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>299</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <itunes:image href="https://trusohamn.github.io/repeto/polish-swedish/images/stories/magical_radio/cover-447076a6.jpeg" />
-      <enclosure url="https://trusohamn.github.io/repeto/polish-swedish/audio/stories/magical_radio/01_chapter_01_pl_sv_2026-10-30_12-21-23.mp3" length="7184761" type="audio/mpeg" />
+      <itunes:image href="https://repeto.stream/polish-swedish/images/stories/magical_radio/cover-447076a6.jpeg" />
+      <enclosure url="https://repeto.stream/polish-swedish/audio/stories/magical_radio/01_chapter_01_pl_sv_2026-10-30_12-21-23.mp3" length="7184761" type="audio/mpeg" />
     </item>
     <item>
       <title>02 Magiczne Radio: Głos z radia — En röst ur radion</title>
@@ -735,8 +735,8 @@ Między częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynaj�
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>266</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <itunes:image href="https://trusohamn.github.io/repeto/polish-swedish/images/stories/magical_radio/cover-447076a6.jpeg" />
-      <enclosure url="https://trusohamn.github.io/repeto/polish-swedish/audio/stories/magical_radio/02_chapter_02_pl_sv_2026-10-30_12-21-23.mp3" length="6391056" type="audio/mpeg" />
+      <itunes:image href="https://repeto.stream/polish-swedish/images/stories/magical_radio/cover-447076a6.jpeg" />
+      <enclosure url="https://repeto.stream/polish-swedish/audio/stories/magical_radio/02_chapter_02_pl_sv_2026-10-30_12-21-23.mp3" length="6391056" type="audio/mpeg" />
     </item>
     <item>
       <title>03 Magiczne Radio: Mysz pod drzewem — En mus under trädet</title>
@@ -756,8 +756,8 @@ Między częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynaj�
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>344</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <itunes:image href="https://trusohamn.github.io/repeto/polish-swedish/images/stories/magical_radio/cover-447076a6.jpeg" />
-      <enclosure url="https://trusohamn.github.io/repeto/polish-swedish/audio/stories/magical_radio/03_chapter_03_pl_sv_2026-10-30_12-21-23.mp3" length="8264976" type="audio/mpeg" />
+      <itunes:image href="https://repeto.stream/polish-swedish/images/stories/magical_radio/cover-447076a6.jpeg" />
+      <enclosure url="https://repeto.stream/polish-swedish/audio/stories/magical_radio/03_chapter_03_pl_sv_2026-10-30_12-21-23.mp3" length="8264976" type="audio/mpeg" />
     </item>
     <item>
       <title>04 Magiczne Radio: Schody w dół — Trappan ner</title>
@@ -777,8 +777,8 @@ Między częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynaj�
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>275</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <itunes:image href="https://trusohamn.github.io/repeto/polish-swedish/images/stories/magical_radio/cover-447076a6.jpeg" />
-      <enclosure url="https://trusohamn.github.io/repeto/polish-swedish/audio/stories/magical_radio/04_chapter_04_pl_sv_2026-10-30_12-21-23.mp3" length="6606096" type="audio/mpeg" />
+      <itunes:image href="https://repeto.stream/polish-swedish/images/stories/magical_radio/cover-447076a6.jpeg" />
+      <enclosure url="https://repeto.stream/polish-swedish/audio/stories/magical_radio/04_chapter_04_pl_sv_2026-10-30_12-21-23.mp3" length="6606096" type="audio/mpeg" />
     </item>
     <item>
       <title>05 Magiczne Radio: Latająca książka — Den flygande boken</title>
@@ -798,8 +798,8 @@ Między częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynaj�
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>280</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <itunes:image href="https://trusohamn.github.io/repeto/polish-swedish/images/stories/magical_radio/cover-447076a6.jpeg" />
-      <enclosure url="https://trusohamn.github.io/repeto/polish-swedish/audio/stories/magical_radio/05_chapter_05_pl_sv_2026-10-30_12-21-23.mp3" length="6711422" type="audio/mpeg" />
+      <itunes:image href="https://repeto.stream/polish-swedish/images/stories/magical_radio/cover-447076a6.jpeg" />
+      <enclosure url="https://repeto.stream/polish-swedish/audio/stories/magical_radio/05_chapter_05_pl_sv_2026-10-30_12-21-23.mp3" length="6711422" type="audio/mpeg" />
     </item>
     <item>
       <title>06 Magiczne Radio: Pierwsze zaklęcie — Den första trollformeln</title>
@@ -819,8 +819,8 @@ Między częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynaj�
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>220</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <itunes:image href="https://trusohamn.github.io/repeto/polish-swedish/images/stories/magical_radio/cover-447076a6.jpeg" />
-      <enclosure url="https://trusohamn.github.io/repeto/polish-swedish/audio/stories/magical_radio/06_chapter_06_pl_sv_2026-10-30_12-21-23.mp3" length="5292660" type="audio/mpeg" />
+      <itunes:image href="https://repeto.stream/polish-swedish/images/stories/magical_radio/cover-447076a6.jpeg" />
+      <enclosure url="https://repeto.stream/polish-swedish/audio/stories/magical_radio/06_chapter_06_pl_sv_2026-10-30_12-21-23.mp3" length="5292660" type="audio/mpeg" />
     </item>
     <item>
       <title>07 Magiczne Radio: Złoty ptak — Den gyllene fågeln</title>
@@ -840,8 +840,8 @@ Między częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynaj�
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>360</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <itunes:image href="https://trusohamn.github.io/repeto/polish-swedish/images/stories/magical_radio/cover-447076a6.jpeg" />
-      <enclosure url="https://trusohamn.github.io/repeto/polish-swedish/audio/stories/magical_radio/07_chapter_07_pl_sv_2026-10-30_13-10-06.mp3" length="8639259" type="audio/mpeg" />
+      <itunes:image href="https://repeto.stream/polish-swedish/images/stories/magical_radio/cover-447076a6.jpeg" />
+      <enclosure url="https://repeto.stream/polish-swedish/audio/stories/magical_radio/07_chapter_07_pl_sv_2026-10-30_13-10-06.mp3" length="8639259" type="audio/mpeg" />
     </item>
     <item>
       <title>08 Magiczne Radio: Wielki koncert — Den stora konserten</title>
@@ -861,8 +861,8 @@ Między częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynaj�
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>228</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <itunes:image href="https://trusohamn.github.io/repeto/polish-swedish/images/stories/magical_radio/cover-447076a6.jpeg" />
-      <enclosure url="https://trusohamn.github.io/repeto/polish-swedish/audio/stories/magical_radio/08_chapter_08_pl_sv_2026-10-30_12-21-23.mp3" length="5467576" type="audio/mpeg" />
+      <itunes:image href="https://repeto.stream/polish-swedish/images/stories/magical_radio/cover-447076a6.jpeg" />
+      <enclosure url="https://repeto.stream/polish-swedish/audio/stories/magical_radio/08_chapter_08_pl_sv_2026-10-30_12-21-23.mp3" length="5467576" type="audio/mpeg" />
     </item>
   </channel>
 </rss>

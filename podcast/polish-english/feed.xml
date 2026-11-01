@@ -2,7 +2,7 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
   <channel>
     <title>Repeto – Ucz się angielskiego</title>
-    <link>https://trusohamn.github.io/repeto/polish-english/</link>
+    <link>https://repeto.stream/polish-english/</link>
     <description>Ucz się angielskiego, słuchając i mówiąc – z polskim jako wsparciem. Repeto to kurs audio dla początkujących w każdym wieku: dzieci, rodziców, dziadków i wszystkich, którzy chcą zacząć naukę angielskiego. Nie potrzebujesz wcześniejszej wiedzy ani podręcznika.
 
 Jak to działa: słyszysz słowo lub zdanie po polsku, a potem masz chwilę, by powiedzieć je po angielsku. Następnie usłyszysz odpowiedź dwa razy i będziesz mieć czas, by powtórzyć wymowę.
@@ -31,11 +31,11 @@ Głosy zostały wygenerowane przez AI (Microsoft Azure).</description>
       <itunes:name>Repeto</itunes:name>
       <itunes:email>repeto.lingo@gmail.com</itunes:email>
     </itunes:owner>
-    <itunes:image href="https://trusohamn.github.io/repeto/polish-english/cover-c6a7269f.jpeg" />
+    <itunes:image href="https://repeto.stream/polish-english/cover-c6a7269f.jpeg" />
     <itunes:category text="Education">
       <itunes:category text="Language Learning" />
     </itunes:category>
-    <atom:link href="https://trusohamn.github.io/repeto/polish-english/feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://repeto.stream/polish-english/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>01 Powitania — Greetings</title>
       <description>Temat 1 z 30: Powitania (Greetings) – 36 zwrotów.
@@ -56,7 +56,7 @@ Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>366</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <enclosure url="https://trusohamn.github.io/repeto/polish-english/audio/practice/01_greetings_pl_en_double_2026-10-29_20-52-27.mp3" length="8780320" type="audio/mpeg" />
+      <enclosure url="https://repeto.stream/polish-english/audio/practice/01_greetings_pl_en_double_2026-10-29_20-52-27.mp3" length="8780320" type="audio/mpeg" />
     </item>
     <item>
       <title>02 Liczby — Numbers</title>
@@ -78,7 +78,7 @@ Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>342</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <enclosure url="https://trusohamn.github.io/repeto/polish-english/audio/practice/02_numbers_pl_en_double_2026-10-29_20-52-27.mp3" length="8221091" type="audio/mpeg" />
+      <enclosure url="https://repeto.stream/polish-english/audio/practice/02_numbers_pl_en_double_2026-10-29_20-52-27.mp3" length="8221091" type="audio/mpeg" />
     </item>
     <item>
       <title>03 Kolory — Colors</title>
@@ -100,7 +100,7 @@ Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>304</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <enclosure url="https://trusohamn.github.io/repeto/polish-english/audio/practice/03_colors_pl_en_double_2026-10-29_20-52-27.mp3" length="7309522" type="audio/mpeg" />
+      <enclosure url="https://repeto.stream/polish-english/audio/practice/03_colors_pl_en_double_2026-10-29_20-52-27.mp3" length="7309522" type="audio/mpeg" />
     </item>
     <item>
       <title>04 Zwierzęta — Animals</title>
@@ -122,7 +122,7 @@ Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>412</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <enclosure url="https://trusohamn.github.io/repeto/polish-english/audio/practice/04_animals_pl_en_double_2026-10-29_20-52-27.mp3" length="9878717" type="audio/mpeg" />
+      <enclosure url="https://repeto.stream/polish-english/audio/practice/04_animals_pl_en_double_2026-10-29_20-52-27.mp3" length="9878717" type="audio/mpeg" />
     </item>
     <item>
       <title>05 Rodzina — Family</title>
@@ -144,7 +144,7 @@ Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>283</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <enclosure url="https://trusohamn.github.io/repeto/polish-english/audio/practice/05_family_pl_en_double_2026-10-29_20-52-27.mp3" length="6799821" type="audio/mpeg" />
+      <enclosure url="https://repeto.stream/polish-english/audio/practice/05_family_pl_en_double_2026-10-29_20-52-27.mp3" length="6799821" type="audio/mpeg" />
     </item>
     <item>
       <title>06 Jedzenie — Food</title>
@@ -166,7 +166,7 @@ Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>490</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <enclosure url="https://trusohamn.github.io/repeto/polish-english/audio/practice/06_food_pl_en_double_2026-10-29_20-52-27.mp3" length="11763922" type="audio/mpeg" />
+      <enclosure url="https://repeto.stream/polish-english/audio/practice/06_food_pl_en_double_2026-10-29_20-52-27.mp3" length="11763922" type="audio/mpeg" />
     </item>
     <item>
       <title>07 Ciało — Body</title>
@@ -188,7 +188,7 @@ Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>365</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <enclosure url="https://trusohamn.github.io/repeto/polish-english/audio/practice/07_body_pl_en_double_2026-10-29_20-52-27.mp3" length="8753362" type="audio/mpeg" />
+      <enclosure url="https://repeto.stream/polish-english/audio/practice/07_body_pl_en_double_2026-10-29_20-52-27.mp3" length="8753362" type="audio/mpeg" />
     </item>
     <item>
       <title>08 Ubrania — Clothing</title>
@@ -210,7 +210,7 @@ Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>307</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <enclosure url="https://trusohamn.github.io/repeto/polish-english/audio/practice/08_clothing_pl_en_double_2026-10-29_20-52-27.mp3" length="7364692" type="audio/mpeg" />
+      <enclosure url="https://repeto.stream/polish-english/audio/practice/08_clothing_pl_en_double_2026-10-29_20-52-27.mp3" length="7364692" type="audio/mpeg" />
     </item>
     <item>
       <title>09 W domu — Home</title>
@@ -232,7 +232,7 @@ Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>381</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <enclosure url="https://trusohamn.github.io/repeto/polish-english/audio/practice/09_home_pl_en_double_2026-10-29_20-52-27.mp3" length="9147079" type="audio/mpeg" />
+      <enclosure url="https://repeto.stream/polish-english/audio/practice/09_home_pl_en_double_2026-10-29_20-52-27.mp3" length="9147079" type="audio/mpeg" />
     </item>
     <item>
       <title>10 Szkoła — School</title>
@@ -254,7 +254,7 @@ Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>429</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <enclosure url="https://trusohamn.github.io/repeto/polish-english/audio/practice/10_school_pl_en_double_2026-10-29_21-19-53.mp3" length="10299393" type="audio/mpeg" />
+      <enclosure url="https://repeto.stream/polish-english/audio/practice/10_school_pl_en_double_2026-10-29_21-19-53.mp3" length="10299393" type="audio/mpeg" />
     </item>
     <item>
       <title>11 Pogoda — Weather</title>
@@ -276,7 +276,7 @@ Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>253</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <enclosure url="https://trusohamn.github.io/repeto/polish-english/audio/practice/11_weather_pl_en_double_2026-10-29_20-52-27.mp3" length="6081349" type="audio/mpeg" />
+      <enclosure url="https://repeto.stream/polish-english/audio/practice/11_weather_pl_en_double_2026-10-29_20-52-27.mp3" length="6081349" type="audio/mpeg" />
     </item>
     <item>
       <title>12 Pory roku — Seasons</title>
@@ -298,7 +298,7 @@ Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>201</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <enclosure url="https://trusohamn.github.io/repeto/polish-english/audio/practice/12_seasons_pl_en_double_2026-10-29_20-52-27.mp3" length="4816813" type="audio/mpeg" />
+      <enclosure url="https://repeto.stream/polish-english/audio/practice/12_seasons_pl_en_double_2026-10-29_20-52-27.mp3" length="4816813" type="audio/mpeg" />
     </item>
     <item>
       <title>13 Dni i czas — Days and Time</title>
@@ -320,7 +320,7 @@ Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>306</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <enclosure url="https://trusohamn.github.io/repeto/polish-english/audio/practice/13_days_and_time_pl_en_double_2026-10-29_20-52-27.mp3" length="7354661" type="audio/mpeg" />
+      <enclosure url="https://repeto.stream/polish-english/audio/practice/13_days_and_time_pl_en_double_2026-10-29_20-52-27.mp3" length="7354661" type="audio/mpeg" />
     </item>
     <item>
       <title>14 Zabawki i zabawa — Toys and Play</title>
@@ -342,7 +342,7 @@ Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>357</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <enclosure url="https://trusohamn.github.io/repeto/polish-english/audio/practice/14_toys_and_play_pl_en_double_2026-10-29_20-52-27.mp3" length="8565280" type="audio/mpeg" />
+      <enclosure url="https://repeto.stream/polish-english/audio/practice/14_toys_and_play_pl_en_double_2026-10-29_20-52-27.mp3" length="8565280" type="audio/mpeg" />
     </item>
     <item>
       <title>15 Sport i zajęcia — Sports and Activities</title>
@@ -364,7 +364,7 @@ Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>270</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <enclosure url="https://trusohamn.github.io/repeto/polish-english/audio/practice/15_sports_and_activities_pl_en_double_2026-10-29_20-52-27.mp3" length="6486351" type="audio/mpeg" />
+      <enclosure url="https://repeto.stream/polish-english/audio/practice/15_sports_and_activities_pl_en_double_2026-10-29_20-52-27.mp3" length="6486351" type="audio/mpeg" />
     </item>
     <item>
       <title>16 Chcę i potrzebuję — I want and I need</title>
@@ -386,7 +386,7 @@ Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>316</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <enclosure url="https://trusohamn.github.io/repeto/polish-english/audio/practice/16_i_want_i_need_pl_en_double_2026-10-29_20-52-27.mp3" length="7584121" type="audio/mpeg" />
+      <enclosure url="https://repeto.stream/polish-english/audio/practice/16_i_want_i_need_pl_en_double_2026-10-29_20-52-27.mp3" length="7584121" type="audio/mpeg" />
     </item>
     <item>
       <title>17 Gdzie jest? — Where is it?</title>
@@ -408,7 +408,7 @@ Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>311</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <enclosure url="https://trusohamn.github.io/repeto/polish-english/audio/practice/17_where_is_pl_en_double_2026-10-29_20-52-27.mp3" length="7469391" type="audio/mpeg" />
+      <enclosure url="https://repeto.stream/polish-english/audio/practice/17_where_is_pl_en_double_2026-10-29_20-52-27.mp3" length="7469391" type="audio/mpeg" />
     </item>
     <item>
       <title>18 Uczucia i emocje — Feelings and Emotions</title>
@@ -430,7 +430,7 @@ Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>298</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <enclosure url="https://trusohamn.github.io/repeto/polish-english/audio/practice/18_feelings_and_emotions_pl_en_double_2026-10-29_20-52-27.mp3" length="7159056" type="audio/mpeg" />
+      <enclosure url="https://repeto.stream/polish-english/audio/practice/18_feelings_and_emotions_pl_en_double_2026-10-29_20-52-27.mp3" length="7159056" type="audio/mpeg" />
     </item>
     <item>
       <title>19 Środki transportu — Transport</title>
@@ -452,7 +452,7 @@ Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>267</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <enclosure url="https://trusohamn.github.io/repeto/polish-english/audio/practice/19_transport_pl_en_double_2026-10-29_20-52-27.mp3" length="6397953" type="audio/mpeg" />
+      <enclosure url="https://repeto.stream/polish-english/audio/practice/19_transport_pl_en_double_2026-10-29_20-52-27.mp3" length="6397953" type="audio/mpeg" />
     </item>
     <item>
       <title>20 Przyroda — Nature</title>
@@ -474,7 +474,7 @@ Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>273</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <enclosure url="https://trusohamn.github.io/repeto/polish-english/audio/practice/20_nature_pl_en_double_2026-10-29_20-52-27.mp3" length="6557822" type="audio/mpeg" />
+      <enclosure url="https://repeto.stream/polish-english/audio/practice/20_nature_pl_en_double_2026-10-29_20-52-27.mp3" length="6557822" type="audio/mpeg" />
     </item>
     <item>
       <title>21 Święta i uroczystości — Holidays and Celebrations</title>
@@ -496,7 +496,7 @@ Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>255</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <enclosure url="https://trusohamn.github.io/repeto/polish-english/audio/practice/21_holidays_and_celebrations_pl_en_double_2026-10-29_20-52-27.mp3" length="6131504" type="audio/mpeg" />
+      <enclosure url="https://repeto.stream/polish-english/audio/practice/21_holidays_and_celebrations_pl_en_double_2026-10-29_20-52-27.mp3" length="6131504" type="audio/mpeg" />
     </item>
     <item>
       <title>22 Codzienne czynności — Daily Routine</title>
@@ -518,7 +518,7 @@ Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>315</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <enclosure url="https://trusohamn.github.io/repeto/polish-english/audio/practice/22_daily_routine_pl_en_double_2026-10-29_20-52-27.mp3" length="7557790" type="audio/mpeg" />
+      <enclosure url="https://repeto.stream/polish-english/audio/practice/22_daily_routine_pl_en_double_2026-10-29_20-52-27.mp3" length="7557790" type="audio/mpeg" />
     </item>
     <item>
       <title>23 Pytania i prośby — Asking and Requests</title>
@@ -540,7 +540,7 @@ Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>268</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <enclosure url="https://trusohamn.github.io/repeto/polish-english/audio/practice/23_asking_and_requests_pl_en_double_2026-10-29_20-52-27.mp3" length="6424284" type="audio/mpeg" />
+      <enclosure url="https://repeto.stream/polish-english/audio/practice/23_asking_and_requests_pl_en_double_2026-10-29_20-52-27.mp3" length="6424284" type="audio/mpeg" />
     </item>
     <item>
       <title>24 Przeciwieństwa — Opposites</title>
@@ -562,7 +562,7 @@ Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>279</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <enclosure url="https://trusohamn.github.io/repeto/polish-english/audio/practice/24_opposites_pl_en_double_2026-10-29_21-20-03.mp3" length="6700137" type="audio/mpeg" />
+      <enclosure url="https://repeto.stream/polish-english/audio/practice/24_opposites_pl_en_double_2026-10-29_21-20-03.mp3" length="6700137" type="audio/mpeg" />
     </item>
     <item>
       <title>25 Czynności i czasowniki — Actions and Verbs</title>
@@ -584,7 +584,7 @@ Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>408</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <enclosure url="https://trusohamn.github.io/repeto/polish-english/audio/practice/25_actions_and_verbs_pl_en_double_2026-10-29_20-52-27.mp3" length="9792826" type="audio/mpeg" />
+      <enclosure url="https://repeto.stream/polish-english/audio/practice/25_actions_and_verbs_pl_en_double_2026-10-29_20-52-27.mp3" length="9792826" type="audio/mpeg" />
     </item>
     <item>
       <title>26 Miejsca w mieście — Places in Town</title>
@@ -606,7 +606,7 @@ Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>250</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <enclosure url="https://trusohamn.github.io/repeto/polish-english/audio/practice/26_places_in_town_pl_en_double_2026-10-29_20-52-27.mp3" length="6013012" type="audio/mpeg" />
+      <enclosure url="https://repeto.stream/polish-english/audio/practice/26_places_in_town_pl_en_double_2026-10-29_20-52-27.mp3" length="6013012" type="audio/mpeg" />
     </item>
     <item>
       <title>27 Technologia — Technology</title>
@@ -628,7 +628,7 @@ Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>240</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <enclosure url="https://trusohamn.github.io/repeto/polish-english/audio/practice/27_technology_pl_en_double_2026-10-29_20-52-27.mp3" length="5760356" type="audio/mpeg" />
+      <enclosure url="https://repeto.stream/polish-english/audio/practice/27_technology_pl_en_double_2026-10-29_20-52-27.mp3" length="5760356" type="audio/mpeg" />
     </item>
     <item>
       <title>28 Muzyka i sztuka — Music and Art</title>
@@ -650,7 +650,7 @@ Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>242</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <enclosure url="https://trusohamn.github.io/repeto/polish-english/audio/practice/28_music_and_art_pl_en_double_2026-10-29_20-52-27.mp3" length="5815527" type="audio/mpeg" />
+      <enclosure url="https://repeto.stream/polish-english/audio/practice/28_music_and_art_pl_en_double_2026-10-29_20-52-27.mp3" length="5815527" type="audio/mpeg" />
     </item>
     <item>
       <title>29 Zwroty grzecznościowe — Polite Phrases</title>
@@ -672,7 +672,7 @@ Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>173</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <enclosure url="https://trusohamn.github.io/repeto/polish-english/audio/practice/29_polite_phrases_pl_en_double_2026-10-29_20-52-27.mp3" length="4164797" type="audio/mpeg" />
+      <enclosure url="https://repeto.stream/polish-english/audio/practice/29_polite_phrases_pl_en_double_2026-10-29_20-52-27.mp3" length="4164797" type="audio/mpeg" />
     </item>
     <item>
       <title>30 Powtórka — Review and Recap</title>
@@ -694,7 +694,7 @@ Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>126</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <enclosure url="https://trusohamn.github.io/repeto/polish-english/audio/practice/30_review_and_recap_pl_en_double_2026-10-30_13-08-52.mp3" length="3027530" type="audio/mpeg" />
+      <enclosure url="https://repeto.stream/polish-english/audio/practice/30_review_and_recap_pl_en_double_2026-10-30_13-08-52.mp3" length="3027530" type="audio/mpeg" />
     </item>
     <item>
       <title>01 Magiczne Radio: Stary stół — The Old Table</title>
@@ -714,8 +714,8 @@ Między częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynaj�
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>295</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <itunes:image href="https://trusohamn.github.io/repeto/polish-english/images/stories/magical_radio/cover-447076a6.jpeg" />
-      <enclosure url="https://trusohamn.github.io/repeto/polish-english/audio/stories/magical_radio/01_chapter_01_pl_en_2026-10-29_20-56-15.mp3" length="7078808" type="audio/mpeg" />
+      <itunes:image href="https://repeto.stream/polish-english/images/stories/magical_radio/cover-447076a6.jpeg" />
+      <enclosure url="https://repeto.stream/polish-english/audio/stories/magical_radio/01_chapter_01_pl_en_2026-10-29_20-56-15.mp3" length="7078808" type="audio/mpeg" />
     </item>
     <item>
       <title>02 Magiczne Radio: Głos z radia — A Voice from the Radio</title>
@@ -735,8 +735,8 @@ Między częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynaj�
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>265</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <itunes:image href="https://trusohamn.github.io/repeto/polish-english/images/stories/magical_radio/cover-447076a6.jpeg" />
-      <enclosure url="https://trusohamn.github.io/repeto/polish-english/audio/stories/magical_radio/02_chapter_02_pl_en_2026-10-29_20-56-15.mp3" length="6368487" type="audio/mpeg" />
+      <itunes:image href="https://repeto.stream/polish-english/images/stories/magical_radio/cover-447076a6.jpeg" />
+      <enclosure url="https://repeto.stream/polish-english/audio/stories/magical_radio/02_chapter_02_pl_en_2026-10-29_20-56-15.mp3" length="6368487" type="audio/mpeg" />
     </item>
     <item>
       <title>03 Magiczne Radio: Mysz pod drzewem — A Mouse under the Tree</title>
@@ -756,8 +756,8 @@ Między częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynaj�
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>340</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <itunes:image href="https://trusohamn.github.io/repeto/polish-english/images/stories/magical_radio/cover-447076a6.jpeg" />
-      <enclosure url="https://trusohamn.github.io/repeto/polish-english/audio/stories/magical_radio/03_chapter_03_pl_en_2026-10-29_21-18-02.mp3" length="8164666" type="audio/mpeg" />
+      <itunes:image href="https://repeto.stream/polish-english/images/stories/magical_radio/cover-447076a6.jpeg" />
+      <enclosure url="https://repeto.stream/polish-english/audio/stories/magical_radio/03_chapter_03_pl_en_2026-10-29_21-18-02.mp3" length="8164666" type="audio/mpeg" />
     </item>
     <item>
       <title>04 Magiczne Radio: Schody w dół — Down the Stairs</title>
@@ -777,8 +777,8 @@ Między częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynaj�
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>269</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <itunes:image href="https://trusohamn.github.io/repeto/polish-english/images/stories/magical_radio/cover-447076a6.jpeg" />
-      <enclosure url="https://trusohamn.github.io/repeto/polish-english/audio/stories/magical_radio/04_chapter_04_pl_en_2026-10-29_21-18-08.mp3" length="6447481" type="audio/mpeg" />
+      <itunes:image href="https://repeto.stream/polish-english/images/stories/magical_radio/cover-447076a6.jpeg" />
+      <enclosure url="https://repeto.stream/polish-english/audio/stories/magical_radio/04_chapter_04_pl_en_2026-10-29_21-18-08.mp3" length="6447481" type="audio/mpeg" />
     </item>
     <item>
       <title>05 Magiczne Radio: Latająca książka — The Flying Book</title>
@@ -798,8 +798,8 @@ Między częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynaj�
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>262</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <itunes:image href="https://trusohamn.github.io/repeto/polish-english/images/stories/magical_radio/cover-447076a6.jpeg" />
-      <enclosure url="https://trusohamn.github.io/repeto/polish-english/audio/stories/magical_radio/05_chapter_05_pl_en_2026-10-29_21-18-13.mp3" length="6298270" type="audio/mpeg" />
+      <itunes:image href="https://repeto.stream/polish-english/images/stories/magical_radio/cover-447076a6.jpeg" />
+      <enclosure url="https://repeto.stream/polish-english/audio/stories/magical_radio/05_chapter_05_pl_en_2026-10-29_21-18-13.mp3" length="6298270" type="audio/mpeg" />
     </item>
     <item>
       <title>06 Magiczne Radio: Pierwsze zaklęcie — The First Spell</title>
@@ -819,8 +819,8 @@ Między częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynaj�
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>208</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <itunes:image href="https://trusohamn.github.io/repeto/polish-english/images/stories/magical_radio/cover-447076a6.jpeg" />
-      <enclosure url="https://trusohamn.github.io/repeto/polish-english/audio/stories/magical_radio/06_chapter_06_pl_en_2026-10-29_20-56-15.mp3" length="4984206" type="audio/mpeg" />
+      <itunes:image href="https://repeto.stream/polish-english/images/stories/magical_radio/cover-447076a6.jpeg" />
+      <enclosure url="https://repeto.stream/polish-english/audio/stories/magical_radio/06_chapter_06_pl_en_2026-10-29_20-56-15.mp3" length="4984206" type="audio/mpeg" />
     </item>
     <item>
       <title>07 Magiczne Radio: Złoty ptak — The Golden Bird</title>
@@ -840,8 +840,8 @@ Między częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynaj�
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>333</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <itunes:image href="https://trusohamn.github.io/repeto/polish-english/images/stories/magical_radio/cover-447076a6.jpeg" />
-      <enclosure url="https://trusohamn.github.io/repeto/polish-english/audio/stories/magical_radio/07_chapter_07_pl_en_2026-10-29_20-56-15.mp3" length="7992885" type="audio/mpeg" />
+      <itunes:image href="https://repeto.stream/polish-english/images/stories/magical_radio/cover-447076a6.jpeg" />
+      <enclosure url="https://repeto.stream/polish-english/audio/stories/magical_radio/07_chapter_07_pl_en_2026-10-29_20-56-15.mp3" length="7992885" type="audio/mpeg" />
     </item>
     <item>
       <title>08 Magiczne Radio: Wielki koncert — The Grand Concert</title>
@@ -861,8 +861,8 @@ Między częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynaj�
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>218</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <itunes:image href="https://trusohamn.github.io/repeto/polish-english/images/stories/magical_radio/cover-447076a6.jpeg" />
-      <enclosure url="https://trusohamn.github.io/repeto/polish-english/audio/stories/magical_radio/08_chapter_08_pl_en_2026-10-29_20-56-15.mp3" length="5238743" type="audio/mpeg" />
+      <itunes:image href="https://repeto.stream/polish-english/images/stories/magical_radio/cover-447076a6.jpeg" />
+      <enclosure url="https://repeto.stream/polish-english/audio/stories/magical_radio/08_chapter_08_pl_en_2026-10-29_20-56-15.mp3" length="5238743" type="audio/mpeg" />
     </item>
   </channel>
 </rss>

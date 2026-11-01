@@ -276,6 +276,17 @@ class PodcastTests(unittest.TestCase):
             self.assertTrue(enclosure.get("url", "").startswith(
                 "https://example.com/repeto/swedish-polish/audio/practice/"
             ))
+            podcast.build_feed(course, "https://repeto.stream")
+            migrated = ET.parse(course / "feed.xml")
+            self.assertEqual(
+                [(item.findtext("guid"), item.findtext("pubDate")) for item in items],
+                [(item.findtext("guid"), item.findtext("pubDate"))
+                 for item in migrated.findall("./channel/item")],
+            )
+            self_link = migrated.find(f"./channel/{{{podcast.ATOM}}}link")
+            assert self_link is not None
+            self.assertEqual(self_link.get("href"), "https://repeto.stream/swedish-polish/feed.xml")
+            self.assertNotIn("https://example.com/repeto", (course / "feed.xml").read_text())
             config["episodes"][0]["title"] = "Updated & improved"
             catalog.write_text(json.dumps(config))
             podcast.build_feed(course, "https://example.com/repeto")

@@ -9,7 +9,7 @@ JSON files, and can package them as podcast feeds. Practice follows
 **prompt → thinking pause → answer → repetition**. Story episodes play a
 complete chapter, practise its vocabulary, then play the same chapter again.
 
-Just want to listen? Visit [Repeto](https://trusohamn.github.io/repeto/).
+Just want to listen? Visit [Repeto](https://repeto.stream/).
 
 ## 1. Set up
 

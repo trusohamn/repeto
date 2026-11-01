@@ -419,7 +419,7 @@ def build_index(root: Path, courses: list[Path]) -> None:
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--root", type=Path, default=Path("podcast"))
-    parser.add_argument("--base-url", default="https://trusohamn.github.io/repeto")
+    parser.add_argument("--base-url", default="https://repeto.stream")
     args = parser.parse_args()
     courses = sorted(path.parent for path in args.root.glob("*/course.json"))
     if not courses:
