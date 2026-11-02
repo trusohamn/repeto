@@ -3386,7 +3386,7 @@
       "slug": "swedish-polish",
       "feed_url": "https://trusohamn.github.io/repeto/swedish-polish/feed.xml",
       "episodes": 38,
-      "title": "Repeto – Polska för svensktalande",
+      "title": "Repeto – Jag lär mig polska",
       "author": "Repeto",
       "owner_email": "repeto.lingo@gmail.com"
     },
@@ -3394,7 +3394,7 @@
       "slug": "polish-english",
       "feed_url": "https://trusohamn.github.io/repeto/polish-english/feed.xml",
       "episodes": 38,
-      "title": "Repeto – Angielski dla polskojęzycznych",
+      "title": "Repeto – Uczę się angielskiego",
       "author": "Repeto",
       "owner_email": "repeto.lingo@gmail.com"
     },
@@ -3402,7 +3402,7 @@
       "slug": "swedish-russian",
       "feed_url": "https://trusohamn.github.io/repeto/swedish-russian/feed.xml",
       "episodes": 38,
-      "title": "Repeto – Ryska för svensktalande",
+      "title": "Repeto – Jag lär mig ryska",
       "author": "Repeto",
       "owner_email": "repeto.lingo@gmail.com"
     },
@@ -3410,7 +3410,7 @@
       "slug": "english-swedish",
       "feed_url": "https://trusohamn.github.io/repeto/english-swedish/feed.xml",
       "episodes": 38,
-      "title": "Repeto – Learn Swedish",
+      "title": "Repeto – I learn Swedish",
       "author": "Repeto",
       "owner_email": "repeto.lingo@gmail.com"
     },
@@ -3418,7 +3418,7 @@
       "slug": "russian-spanish",
       "feed_url": "https://trusohamn.github.io/repeto/russian-spanish/feed.xml",
       "episodes": 38,
-      "title": "Repeto – Учи испанский",
+      "title": "Repeto – Я учу испанский",
       "author": "Repeto",
       "owner_email": "repeto.lingo@gmail.com"
     }

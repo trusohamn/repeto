@@ -93,11 +93,11 @@ podcast/<slug>/
 - English-source courses use practice `--source en` and story
   `--source-language en`, with English descriptions, `summary.en` story teasers
   and page labels. English-to-Swedish uses practice target `se`, story/catalog
-  target `sv`, and show title `Repeto – Learn Swedish`.
+  target `sv`, and show title `Repeto – I learn Swedish`.
 - Russian-source courses use `--source ru` and `--source-language ru`,
   Russian descriptions, `summary.ru` teasers and page labels. Russian-to-Spanish
   uses `es` in both renderers, Spain Spanish voices, and title
-  `Repeto – Учи испанский`. Check Russian count forms, including
+  `Repeto – Я учу испанский`. Check Russian count forms, including
   `21 фраза`, `22 фразы`, `25 фраз` and `11 фраз`; Polish count rules
   differ for numbers ending in one.
 - Use bilingual episode titles, source first, without a numeric prefix:

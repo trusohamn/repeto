@@ -36,7 +36,7 @@ STORY = {
 
 class DescriptionTests(unittest.TestCase):
     def test_russian_audience_copy_and_counts(self):
-        self.assertEqual(descriptions.show_title("es", source="ru"), "Repeto – Учи испанский")
+        self.assertEqual(descriptions.show_title("es", source="ru"), "Repeto – Я учу испанский")
         self.assertEqual(
             descriptions.show_title("se", source="ru"),
             descriptions.show_title("sv", source="ru"),
@@ -85,7 +85,7 @@ class DescriptionTests(unittest.TestCase):
                  {"Greetings": {"ru": "Приветствия", "es": "Saludos"}}),
                 source="ru",
             )
-            self.assertEqual(catalog["title"], "Repeto – Учи испанский")
+            self.assertEqual(catalog["title"], "Repeto – Я учу испанский")
             self.assertEqual(catalog["seasons"], {"1": "Практика", "2": "Волшебное радио"})
             self.assertIn("«Волшебное радио» (La radio mágica)", catalog["description"])
             practice, chapter = catalog["episodes"]
@@ -101,8 +101,8 @@ class DescriptionTests(unittest.TestCase):
             ))
 
     def test_english_audience_copy_and_swedish_alias(self):
-        self.assertEqual(descriptions.show_title("sv", source="en"), "Repeto – Learn Swedish")
-        self.assertEqual(descriptions.show_title("se", source="en"), "Repeto – Learn Swedish")
+        self.assertEqual(descriptions.show_title("sv", source="en"), "Repeto – I learn Swedish")
+        self.assertEqual(descriptions.show_title("se", source="en"), "Repeto – I learn Swedish")
         text = descriptions.show_description("sv", 30, [], "a@b.se", source="en")
         self.assertIn("English prompts", text)
         self.assertIn("Season 1 – Practice: 30 short topics", text)
@@ -141,7 +141,7 @@ class DescriptionTests(unittest.TestCase):
                  {"Greetings": {"en": "Greetings", "se": "Hälsningar"}}),
                 source="en",
             )
-            self.assertEqual(catalog["title"], "Repeto – Learn Swedish")
+            self.assertEqual(catalog["title"], "Repeto – I learn Swedish")
             self.assertEqual(catalog["seasons"], {"1": "Practice", "2": "The Magical Radio"})
             self.assertIn('"The Magical Radio" (Den magiska radion)', catalog["description"])
             practice, chapter = catalog["episodes"]
@@ -164,7 +164,7 @@ class DescriptionTests(unittest.TestCase):
             with self.subTest(target=target):
                 self.assertEqual(
                     descriptions.show_title(target, source="pl"),
-                    f"Repeto – Ucz się {genitive}",
+                    f"Repeto – Uczę się {genitive}",
                 )
                 text = descriptions.show_description(target, 30, [], "a@b.se", source="pl")
                 self.assertIn(f"po {adverb}", text)
@@ -175,10 +175,10 @@ class DescriptionTests(unittest.TestCase):
         )
 
     def test_show_copy_explains_audience_and_usage(self):
-        self.assertEqual(descriptions.show_title("pl"), "Repeto – Lär dig polska")
-        self.assertEqual(descriptions.show_title("en"), "Repeto – Lär dig engelska")
-        self.assertEqual(descriptions.show_title("ru"), "Repeto – Lär dig ryska")
-        self.assertEqual(descriptions.show_title("ru", source="pl"), "Repeto – Ucz się rosyjskiego")
+        self.assertEqual(descriptions.show_title("pl"), "Repeto – Jag lär mig polska")
+        self.assertEqual(descriptions.show_title("en"), "Repeto – Jag lär mig engelska")
+        self.assertEqual(descriptions.show_title("ru"), "Repeto – Jag lär mig ryska")
+        self.assertEqual(descriptions.show_title("ru", source="pl"), "Repeto – Uczę się rosyjskiego")
         text = descriptions.show_description(
             "pl", 30, [descriptions.story_name({"sv": "Den magiska radion", "pl": "Magiczne Radio"}, "pl")],
             "a@b.se",
@@ -202,7 +202,7 @@ class DescriptionTests(unittest.TestCase):
     def test_polish_source_copy(self):
         self.assertEqual(
             descriptions.show_title("en", source="pl"),
-            "Repeto – Ucz się angielskiego",
+            "Repeto – Uczę się angielskiego",
         )
         text = descriptions.show_description(
             "en", 30,
@@ -288,7 +288,7 @@ class DescriptionTests(unittest.TestCase):
                 course, {"test_story": STORY}, ({"Greetings": ITEMS}, TITLES),
             )
 
-            self.assertEqual(catalog["title"], "Repeto – Lär dig polska")
+            self.assertEqual(catalog["title"], "Repeto – Jag lär mig polska")
             self.assertEqual(catalog["seasons"], {"1": "Övningar", "2": "Testberättelsen"})
             self.assertIn("1 kort ämne", catalog["description"])
             self.assertIn("”Testberättelsen” (Testowa historia)", catalog["description"])
@@ -323,7 +323,7 @@ class DescriptionTests(unittest.TestCase):
                 source="pl",
             )
 
-            self.assertEqual(catalog["title"], "Repeto – Ucz się angielskiego")
+            self.assertEqual(catalog["title"], "Repeto – Uczę się angielskiego")
             self.assertEqual(
                 catalog["seasons"], {"1": "Ćwiczenia", "2": "Magiczne radio"},
             )

@@ -110,14 +110,14 @@ def _russian_language(target: str) -> tuple[str, str]:
 
 def show_title(target: str, source: str = "sv") -> str:
     if source == "sv":
-        return f"Repeto – Lär dig {_names(target)[0]}"
+        return f"Repeto – Jag lär mig {_names(target)[0]}"
     if source == "pl":
         genitive, _ = _polish_language(target)
-        return f"Repeto – Ucz się {genitive}"
+        return f"Repeto – Uczę się {genitive}"
     if source == "en":
-        return f"Repeto – Learn {_english_language(target)}"
+        return f"Repeto – I learn {_english_language(target)}"
     if source == "ru":
-        return f"Repeto – Учи {_russian_language(target)[0]}"
+        return f"Repeto – Я учу {_russian_language(target)[0]}"
     raise ValueError(f"Unsupported source language {source!r}.")
 
 

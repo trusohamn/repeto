@@ -19,10 +19,10 @@ class PodcastTests(unittest.TestCase):
             root = Path(directory)
             courses = []
             for language, title in (
-                ("en", "Repeto – Learn Swedish"),
-                ("sv", "Repeto – Lär dig polska & engelska"),
-                ("pl", "Repeto – Ucz się szwedzkiego"),
-                ("ru", "Repeto – Учи испанский"),
+                ("en", "Repeto – I learn Swedish"),
+                ("sv", "Repeto – Jag lär mig polska & engelska"),
+                ("pl", "Repeto – Uczę się szwedzkiego"),
+                ("ru", "Repeto – Я учу испанский"),
             ):
                 course = root / f"{language}-course"
                 course.mkdir()
@@ -67,7 +67,7 @@ class PodcastTests(unittest.TestCase):
                 page,
             )
             self.assertIn("Listen on YouTube", page)
-            self.assertIn("Uploads are in progress.", page)
+            self.assertIn("All eight podcasts are available as playlists.", page)
             self.assertIn('href="https://www.youtube.com/@repeto-ling/podcasts"', page)
             self.assertEqual(page.count("38 episodes"), 4)
             self.assertIn('<html lang="en">', page)
@@ -91,7 +91,7 @@ class PodcastTests(unittest.TestCase):
             self.assertNotIn('class="rss-link"', page)
             self.assertIn('<details class="podcast-apps"><summary>', page)
             self.assertIn("These links are feeds, not listening pages.", page)
-            self.assertIn("Lär dig polska &amp; engelska", page)
+            self.assertIn("Jag lär mig polska &amp; engelska", page)
             for language in ("sv", "pl", "en", "ru"):
                 self.assertIn(f'href="#courses-{language}"', page)
                 self.assertIn(f'id="courses-{language}"', page)
