@@ -11,6 +11,10 @@ complete chapter, practise its vocabulary, then play the same chapter again.
 
 Just want to listen? Visit [Repeto](https://repeto.stream/).
 
+We are planning a website editor for community corrections, new phrases, and
+story drafts. See the [contribution requirements](CONTRIBUTION_REQUIREMENTS.md)
+for the agreed review and automation flow; this feature is not implemented yet.
+
 ## 1. Set up
 
 Requires **Python 3.10+**, **FFmpeg**, and an Azure Speech resource.
