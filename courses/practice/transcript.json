@@ -2647,12 +2647,12 @@
   },
   {
     "id": "phrase_000296",
-    "es": "¿Cómo se dice eso en polaco?",
+    "es": "¿Cómo se dice eso?",
     "topic": "School",
-    "se": "Hur säger man det på polska?",
-    "pl": "Jak się to mówi po polsku?",
-    "en": "How do you say that in Polish?",
-    "ru": "Как это сказать по-польски?"
+    "se": "Hur säger man det?",
+    "pl": "Jak się to mówi?",
+    "en": "How do you say that?",
+    "ru": "Как это сказать?"
   },
   {
     "id": "phrase_000297",
@@ -6130,7 +6130,7 @@
   },
   {
     "id": "phrase_000683",
-    "es": "Repite conmigo.",
+    "es": "Repite después de mí.",
     "topic": "Review and Recap",
     "se": "Upprepa efter mig.",
     "pl": "Powtarzaj za mną.",
