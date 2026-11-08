@@ -19,6 +19,24 @@ The first release supports:
 Keep the experience welcoming to families and adult beginners. Contributions
 are suggestions, never direct edits to the published course.
 
+### Implementation order
+
+Deliver the shared PR path before adding website intake:
+
+1. Deterministic PR validation: schemas, stable IDs, changed entries, missing
+   translations, consistency warnings, and affected-course reports.
+2. Approval-gated preparation: Copilot text proposals, Azure Speech synthesis,
+   durable clip storage, and focused text/audio previews.
+3. Reviewed-manifest verification and automatic publication after merge.
+4. Website editor and validated-issue-to-draft-PR intake, reusing the working
+   shared pipeline rather than introducing a separate preparation path.
+
+These are delivery milestones, not additional maintainer approval gates.
+Validation can be implemented before storage selection; durable cache and
+artifact storage must be chosen before paid preparation is enabled. The
+first-release scope above describes the completed public contribution release,
+not a promise that website intake is part of the first implementation milestone.
+
 ## Change flow
 
 There are two contribution entry points: the website editor and a direct
@@ -100,6 +118,12 @@ review even when every language field is populated.
 - Preserve unsent edits during validation or network errors; provide explicit
   pending, successful, duplicate, outdated, and failed submission states.
 - Return a link to the created issue after confirmed success.
+- Initially, show submission status and issue/PR links, not a live editor
+  synchronized with pending GitHub changes. Follow-up corrections are linked
+  proposals or explicit revisions that pass validation again; they never
+  silently overwrite a prepared or reviewed revision. A public submission ID
+  or display name does not prove ownership. Anonymous in-place editing remains
+  out of scope until a secure ownership mechanism is designed.
 - Support mobile screens, keyboard navigation, labeled fields, readable
   contrast, and accessible errors and status announcements.
 - Clearly distinguish the currently published text from pending proposals and
@@ -139,6 +163,12 @@ Validated issues automatically produce draft PRs through deterministic tooling,
 without LLM or TTS calls. Maintainers can request changes, reject, or mark a
 duplicate without an additional required issue-approval gate. Issue text and
 labels supplied by an untrusted user cannot authorize paid workflows.
+
+Separate intake/PR-writing credentials from generation credentials and human
+authorization. Bot accounts must not be eligible generation approvers, satisfy
+required human merge approval, or bypass branch protection. Authorize paid
+jobs by checking the maintainer's identity and the recorded revision/scope;
+comments and labels are signals, not authority by themselves.
 
 ## Contributor credit and content rights
 
@@ -181,6 +211,11 @@ after generation, before merge.
   generated fields, and usage/cost information for reproducibility and review.
 - Set configurable input/output and spending limits, bounded retries, and
   concurrency controls. Do not make duplicate paid calls on workflow retries.
+- Approval 1 reduces unsolicited spending; it does not replace runtime limits.
+  Bound agent turns/tool use, execution time, retries, and project-wide usage
+  as well as each job's budget. Ordinary validation can consume Actions runner
+  minutes even without AI/TTS calls; use timeouts, concurrency limits, and
+  cancellation of superseded validation runs.
 - Before approval 1, show the input revision, changed entries, translation
   languages and fields, affected episodes, anticipated API usage/cost, and
   hard maximum budget. Approval authorizes this bounded job, not unlimited
@@ -231,6 +266,10 @@ Required checks include:
 - Completeness of required translations before a PR is eligible for merge.
 - A report of existing translations affected by semantic edits, with unresolved
   consistency warnings blocking merge until explicitly reviewed.
+- Initially, conservatively flag other translations of every changed phrase
+  and corresponding multilingual story/vocabulary unit. Deterministic checks
+  do not claim to understand meaning. Copilot may refine proposals after
+  approval 1, but cannot silently clear the requirement for human review.
 - Duplicate detection and TTS-text warnings, including slash alternatives and
   editorial parentheses that might be spoken aloud.
 - Preservation of existing IDs, episode GUIDs, and publication dates.
@@ -252,6 +291,16 @@ translation approval; this intentionally permits spending on drafts.
 - Corrections to a shared language affect every course using that language.
 - Synthesize only changed/uncached spoken clips; reuse compatible cached clips.
   Reassemble every affected complete episode and refresh its timing data.
+- Store completed clips as immutable, content-addressed objects in durable
+  storage. Derive the cache key from the exact synthesis input (including SSML),
+  language, provider, voice, rate, output format, and versioned synthesis
+  configuration. Verify stored artifact hashes before reuse; a permanent
+  phrase ID alone is never a valid cache key. Report corrupt objects and
+  exclude them from reuse; any replacement synthesis still requires an
+  authorized job and available budget.
+- Keep episode assembly separate from clip synthesis. Its manifest records
+  ordered clip hashes, repetitions, pauses, and renderer settings/version so
+  assembly-only changes rebuild episodes without regenerating compatible clips.
 - Detect new/deleted/moved entries, chapter text, vocabulary, spoken headings,
   and relevant voice, rate, SSML, pause, or renderer changes.
 - Story episodes retain full reading -> vocabulary -> identical full reading.
@@ -272,6 +321,11 @@ not sufficient for reliable reuse and listening review.
 
 ## Approval 2: review, merge, and automatic publishing
 
+- Keep one current preparation/review summary per PR, showing revision, scope,
+  budget, progress, failures, and preview links. Gate 1 is a bounded spending
+  decision, not a duplicate full language review. Notify the maintainer when
+  preparation and validation finish or fail; clearly mark superseded summaries
+  and prevent their previews from appearing current.
 - Produce a reviewable build with affected episodes, text/timing differences,
   validation results, and clear playback/download access.
 - Provide a focused review page pairing original/proposed text with changed
@@ -343,6 +397,15 @@ deployment or a failed release.
     match, despite having a different commit ID.
 15. Exhausted queue capacity or generation budget produces an explicit,
     recoverable failure, never duplicate PRs or uncontrolled paid retries.
+16. Identical synthesis inputs reuse verified clips across runs. Changed voice,
+    SSML, or synthesis settings cannot reuse an incompatible clip; changed
+    episode order or pauses rebuild assembly without unnecessary synthesis.
+17. A pending website follow-up cannot overwrite prepared content or inherit
+    an earlier revision's review. Public attribution does not grant edit rights.
+18. Bot comments, labels, and PR-writing permissions cannot authorize paid
+    generation or satisfy required human approval.
+19. A prepared PR exposes one current summary with focused previews and a
+    completion/failure notification, without adding another approval gate.
 
 ## Open implementation decisions
 
