@@ -364,6 +364,40 @@ merged PR, not arbitrary packaged files that bypass the two gates. The public
 editor reads the published release so text and audio stay synchronized during
 deployment or a failed release.
 
+## Local-first implementation and testing
+
+- Implement validation, change reporting, preparation, cache handling, manifest
+  verification, and release staging as locally runnable commands/modules.
+  GitHub Actions orchestrates those same entry points; do not duplicate core
+  rules in workflow YAML.
+- Start with offline unit and integration tests using fixture datasets, fake
+  Copilot/TTS/GitHub adapters, and isolated temporary storage. Default tests
+  require no credentials, make no external calls, and never modify published
+  datasets, audio, feeds, or production storage.
+- Exercise the shared path locally from proposed changes through validation,
+  simulated authorization, text preparation, audio assembly, review manifest,
+  and publication into an isolated staging directory. Test missing translations,
+  stale revisions, budget exhaustion, retries, corrupt cache objects, changed
+  synthesis settings, and reviewed/merged content mismatches.
+- Use valid audio fixtures to test real assembly and timing behavior. Fake
+  speech proves orchestration, not Azure voice quality; fake model responses
+  prove schema handling, not translation quality. Human text/listening review
+  remains necessary.
+- Live Copilot and Azure Speech smoke tests are opt-in, require explicit
+  authorization and bounded usage, and use isolated outputs. Local execution
+  does not bypass approval 1 or permit automatic production publication.
+- Only after local checks pass, exercise GitHub integration in a designated
+  test repository or isolated non-publishing workflow with disposable PRs and
+  test artifacts. First verify unpaid validation; then test authorized
+  preparation and staged publication. Paid calls remain explicitly authorized.
+- Verify actual fork behavior, token permissions, maintainer identity checks,
+  protected approval gates, required checks, event/retry behavior, artifact
+  access, and squash-merge handling on GitHub. Local simulations or workflow
+  emulators cannot prove these platform controls work.
+- Keep production publishing disabled until the staged integration path passes.
+  Record which acceptance scenarios are verified offline, with live providers,
+  and on GitHub; do not describe simulated coverage as end-to-end verification.
+
 ## First-release acceptance scenarios
 
 1. A visitor without an account edits a phrase, previews it, and submits.
