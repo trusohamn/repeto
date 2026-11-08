@@ -195,6 +195,29 @@ after generation, before merge.
 Incomplete proposals remain pending; neither a model failure nor absent
 translations may be replaced with silent defaults or success-shaped placeholders.
 
+### Agreed generation providers
+
+- Use GitHub Copilot CLI in the approval-gated GitHub Actions job for text
+  review and missing/affected translation proposals. Keep the integration
+  replaceable; use the Copilot SDK only if application-level orchestration
+  becomes necessary.
+- Retain Azure Speech for audio synthesis. Copilot does not synthesize speech.
+- Copilot calls consume the authenticated plan's usage allowance or billing;
+  an open-source repository does not automatically make them free. Report
+  Copilot usage separately from Azure Speech usage and enforce bounded runs.
+- Configure supported Copilot automation authentication before enabling the
+  job. A personal token requires the Copilot Requests permission; built-in
+  workflow-token authentication depends on repository/organization eligibility
+  and policy. Do not assume ordinary repository access grants model access.
+- Run trusted preparation tooling against validated contribution data, never
+  contributor-controlled executable code with generation credentials.
+- Neither provider is called during issue/PR creation or ordinary PR
+  validation. Both remain behind approval 1 for the recorded revision and
+  scope; generated text and audio remain subject to approval 2.
+
+Implementation references: [Copilot CLI in GitHub Actions](https://docs.github.com/en/copilot/how-tos/copilot-cli/automate-copilot-cli/automate-with-actions)
+and [Copilot SDK usage and billing](https://github.com/github/copilot-sdk).
+
 ## Pull request validation
 
 PRs run tests and dataset checks without paid synthesis or exposed secrets.
@@ -324,7 +347,8 @@ deployment or a failed release.
 ## Open implementation decisions
 
 - Backend/storage provider and GitHub App or equivalent bot authentication.
-- LLM provider/model, supported review languages, and per-run/monthly budgets.
+- Copilot model, supported review languages, automation authentication, and
+  per-run/monthly budgets.
 - Spam protection and concrete submission size/rate limits.
 - Code/content licensing, contribution terms, privacy notice, and retention.
 - Maintainer authorization mechanism and exact review/approval interfaces.
