@@ -71,6 +71,14 @@ class PodcastTests(unittest.TestCase):
             self.assertIn('href="https://www.youtube.com/@repeto-ling/podcasts"', page)
             self.assertEqual(page.count("38 episodes"), 4)
             self.assertIn('<html lang="en">', page)
+            self.assertIn(
+                '<link rel="icon" type="image/png" sizes="32x32" href="favicon.png">',
+                page,
+            )
+            self.assertIn(
+                '<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">',
+                page,
+            )
             self.assertIn("<title>Repeto – screen-free language learning</title>", page)
             self.assertIn('Learn a language.<br><span>Without the screen.</span>', page)
             self.assertNotIn("Less screen time. More conversation.", page)
@@ -201,6 +209,15 @@ class PodcastTests(unittest.TestCase):
             )
             self.assertIn(
                 'src="cover-37fbc2b9.jpeg"', (course / "index.html").read_text()
+            )
+            page = (course / "index.html").read_text()
+            self.assertIn(
+                '<link rel="icon" type="image/png" sizes="32x32" href="../favicon.png">',
+                page,
+            )
+            self.assertIn(
+                '<link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">',
+                page,
             )
             for invalid in (
                 "../escape.jpeg", "/absolute.jpeg", "nested\\escape.jpeg",

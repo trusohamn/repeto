@@ -28,6 +28,11 @@ not generate audio, create new shows, commit, push, or deploy.
 - When asked to prepare absent directions, create `podcast/<source>-<target>/`
   with a copied `cover.jpeg` only. Do not create placeholder catalogs, feeds,
   or pages; the builder publishes only folders with a real `course.json`.
+- Site icons are separate from podcast covers. The shared `podcast/favicon.png`
+  (32x32) and `podcast/apple-touch-icon.png` (180x180) are resized copies of
+  the round `logo.jpeg` at the repository root. Preserve that original;
+  regenerate both PNGs when changing the site logo. The page builder links
+  to them relatively from the homepage and each course page.
 - If several images fit the same direction or the direction is unclear, ask
   the user to choose before replacing it.
 - Inspect actual format and dimensions; podcast covers should be square JPEGs,

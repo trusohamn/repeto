@@ -49,9 +49,6 @@ Review translations for natural wording, matching meaning, and clean spoken
 text before spending money on synthesis. Adding a language flag does not
 create missing translations or voice support.
 
-For agent-assisted work, use the
-[language review skill](.github/skills/review-language-course/SKILL.md).
-
 ## 3. Generate practice audio
 
 Start with a short English → Polish preview:

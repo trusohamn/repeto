@@ -112,10 +112,17 @@ def text_to_html(text: str) -> str:
     return "".join(blocks)
 
 
-def _page(title: str, body: str, language: str = "sv", *, style: str = STYLE) -> str:
+def _page(
+    title: str, body: str, language: str = "sv", *,
+    style: str = STYLE, asset_prefix: str = "../",
+) -> str:
     return (
         f'<!doctype html><html lang="{html.escape(language, quote=True)}"><meta charset="utf-8">'
         '<meta name="viewport" content="width=device-width,initial-scale=1">'
+        f'<link rel="icon" type="image/png" sizes="32x32" '
+        f'href="{html.escape(asset_prefix, quote=True)}favicon.png">'
+        f'<link rel="apple-touch-icon" sizes="180x180" '
+        f'href="{html.escape(asset_prefix, quote=True)}apple-touch-icon.png">'
         f"<title>{html.escape(title)}</title><style>{style}</style>{body}</html>\n"
     )
 
@@ -410,7 +417,10 @@ def build_index(root: Path, courses: list[Path]) -> None:
         '<a href="mailto:repeto.lingo@gmail.com">repeto.lingo@gmail.com</a></footer></div>'
     )
     (root / "index.html").write_text(
-        _page("Repeto – screen-free language learning", body, language="en", style=HOME_STYLE),
+        _page(
+            "Repeto – screen-free language learning", body, language="en",
+            style=HOME_STYLE, asset_prefix="",
+        ),
         encoding="utf-8",
     )
 

@@ -1,0 +1,602 @@
+{
+  "chapter_number": 7,
+  "title": {
+    "pl": "Złoty ptak",
+    "es": "El pájaro dorado",
+    "sv": "Den gyllene fågeln",
+    "en": "The Golden Bird",
+    "ru": "Золотая птица"
+  },
+  "source_language": "sv",
+  "target_language": "es",
+  "practice_order": "deterministically_shuffled",
+  "sequence": [
+    "story",
+    "practice",
+    "story"
+  ],
+  "total_duration_ms": 358435,
+  "practice": [
+    {
+      "id": 234,
+      "kind": "vocabulary",
+      "start_ms": 62352,
+      "end_ms": 73490,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "på den andra vingen",
+        "start_ms": 62352,
+        "end_ms": 63928
+      },
+      "target_playbacks": [
+        {
+          "text": "en la otra ala",
+          "start_ms": 65928,
+          "end_ms": 67209
+        },
+        {
+          "text": "en la otra ala",
+          "start_ms": 69709,
+          "end_ms": 70990
+        }
+      ]
+    },
+    {
+      "id": 233,
+      "kind": "vocabulary",
+      "start_ms": 73490,
+      "end_ms": 86842,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "en glänsande blå sten",
+        "start_ms": 73490,
+        "end_ms": 75404
+      },
+      "target_playbacks": [
+        {
+          "text": "una piedrecita azul brillante",
+          "start_ms": 77404,
+          "end_ms": 79623
+        },
+        {
+          "text": "una piedrecita azul brillante",
+          "start_ms": 82123,
+          "end_ms": 84342
+        }
+      ]
+    },
+    {
+      "id": 242,
+      "kind": "vocabulary",
+      "start_ms": 86842,
+      "end_ms": 96844,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "ge tillbaka",
+        "start_ms": 86842,
+        "end_ms": 88152
+      },
+      "target_playbacks": [
+        {
+          "text": "devolver",
+          "start_ms": 90152,
+          "end_ms": 90998
+        },
+        {
+          "text": "devolver",
+          "start_ms": 93498,
+          "end_ms": 94344
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "kind": "vocabulary",
+      "start_ms": 96844,
+      "end_ms": 107469,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "öppna dörren",
+        "start_ms": 96844,
+        "end_ms": 98021
+      },
+      "target_playbacks": [
+        {
+          "text": "abrir la puerta",
+          "start_ms": 100021,
+          "end_ms": 101245
+        },
+        {
+          "text": "abrir la puerta",
+          "start_ms": 103745,
+          "end_ms": 104969
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "kind": "vocabulary",
+      "start_ms": 107469,
+      "end_ms": 116371,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "vinge",
+        "start_ms": 107469,
+        "end_ms": 108259
+      },
+      "target_playbacks": [
+        {
+          "text": "ala",
+          "start_ms": 110259,
+          "end_ms": 110815
+        },
+        {
+          "text": "ala",
+          "start_ms": 113315,
+          "end_ms": 113871
+        }
+      ]
+    },
+    {
+      "id": 231,
+      "kind": "vocabulary",
+      "start_ms": 116371,
+      "end_ms": 129176,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "en underjordisk trädgård",
+        "start_ms": 116371,
+        "end_ms": 118456
+      },
+      "target_playbacks": [
+        {
+          "text": "un jardín subterráneo",
+          "start_ms": 120456,
+          "end_ms": 122316
+        },
+        {
+          "text": "un jardín subterráneo",
+          "start_ms": 124816,
+          "end_ms": 126676
+        }
+      ]
+    },
+    {
+      "id": 239,
+      "kind": "vocabulary",
+      "start_ms": 129176,
+      "end_ms": 140278,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "för länge sedan",
+        "start_ms": 129176,
+        "end_ms": 130610
+      },
+      "target_playbacks": [
+        {
+          "text": "hace mucho tiempo",
+          "start_ms": 132610,
+          "end_ms": 133944
+        },
+        {
+          "text": "hace mucho tiempo",
+          "start_ms": 136444,
+          "end_ms": 137778
+        }
+      ]
+    },
+    {
+      "id": 236,
+      "kind": "vocabulary",
+      "start_ms": 140278,
+      "end_ms": 151406,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "titta på radion",
+        "start_ms": 140278,
+        "end_ms": 141810
+      },
+      "target_playbacks": [
+        {
+          "text": "mirar la radio",
+          "start_ms": 143810,
+          "end_ms": 145108
+        },
+        {
+          "text": "mirar la radio",
+          "start_ms": 147608,
+          "end_ms": 148906
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "kind": "vocabulary",
+      "start_ms": 151406,
+      "end_ms": 160534,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "gren",
+        "start_ms": 151406,
+        "end_ms": 152092
+      },
+      "target_playbacks": [
+        {
+          "text": "rama",
+          "start_ms": 154092,
+          "end_ms": 154813
+        },
+        {
+          "text": "rama",
+          "start_ms": 157313,
+          "end_ms": 158034
+        }
+      ]
+    },
+    {
+      "id": 179,
+      "kind": "vocabulary",
+      "start_ms": 160534,
+      "end_ms": 171933,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "en gyllene fågel",
+        "start_ms": 160534,
+        "end_ms": 162071
+      },
+      "target_playbacks": [
+        {
+          "text": "un pájaro dorado",
+          "start_ms": 164071,
+          "end_ms": 165502
+        },
+        {
+          "text": "un pájaro dorado",
+          "start_ms": 168002,
+          "end_ms": 169433
+        }
+      ]
+    },
+    {
+      "id": 232,
+      "kind": "vocabulary",
+      "start_ms": 171933,
+      "end_ms": 182208,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "på ena vingen",
+        "start_ms": 171933,
+        "end_ms": 173336
+      },
+      "target_playbacks": [
+        {
+          "text": "en un ala",
+          "start_ms": 175336,
+          "end_ms": 176272
+        },
+        {
+          "text": "en un ala",
+          "start_ms": 178772,
+          "end_ms": 179708
+        }
+      ]
+    },
+    {
+      "id": 241,
+      "kind": "vocabulary",
+      "start_ms": 182208,
+      "end_ms": 194019,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "jag väntade på er",
+        "start_ms": 182208,
+        "end_ms": 183741
+      },
+      "target_playbacks": [
+        {
+          "text": "os estaba esperando",
+          "start_ms": 185741,
+          "end_ms": 187380
+        },
+        {
+          "text": "os estaba esperando",
+          "start_ms": 189880,
+          "end_ms": 191519
+        }
+      ]
+    },
+    {
+      "id": 141,
+      "kind": "vocabulary",
+      "start_ms": 194019,
+      "end_ms": 203597,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "fråga",
+        "start_ms": 194019,
+        "end_ms": 194851
+      },
+      "target_playbacks": [
+        {
+          "text": "preguntar",
+          "start_ms": 196851,
+          "end_ms": 197724
+        },
+        {
+          "text": "preguntar",
+          "start_ms": 200224,
+          "end_ms": 201097
+        }
+      ]
+    },
+    {
+      "id": 235,
+      "kind": "vocabulary",
+      "start_ms": 203597,
+      "end_ms": 214647,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "en tom plats",
+        "start_ms": 203597,
+        "end_ms": 204975
+      },
+      "target_playbacks": [
+        {
+          "text": "un hueco vacío",
+          "start_ms": 206975,
+          "end_ms": 208311
+        },
+        {
+          "text": "un hueco vacío",
+          "start_ms": 210811,
+          "end_ms": 212147
+        }
+      ]
+    },
+    {
+      "id": 177,
+      "kind": "vocabulary",
+      "start_ms": 214647,
+      "end_ms": 226515,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "gå in i trädgården",
+        "start_ms": 214647,
+        "end_ms": 216441
+      },
+      "target_playbacks": [
+        {
+          "text": "entrar en el jardín",
+          "start_ms": 218441,
+          "end_ms": 219978
+        },
+        {
+          "text": "entrar en el jardín",
+          "start_ms": 222478,
+          "end_ms": 224015
+        }
+      ]
+    },
+    {
+      "id": 180,
+      "kind": "vocabulary",
+      "start_ms": 226515,
+      "end_ms": 236514,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "inte sjunga",
+        "start_ms": 226515,
+        "end_ms": 227596
+      },
+      "target_playbacks": [
+        {
+          "text": "no cantar",
+          "start_ms": 229596,
+          "end_ms": 230555
+        },
+        {
+          "text": "no cantar",
+          "start_ms": 233055,
+          "end_ms": 234014
+        }
+      ]
+    },
+    {
+      "id": 240,
+      "kind": "vocabulary",
+      "start_ms": 236514,
+      "end_ms": 247761,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "falla ut ur vingen",
+        "start_ms": 236514,
+        "end_ms": 238339
+      },
+      "target_playbacks": [
+        {
+          "text": "caerse del ala",
+          "start_ms": 240339,
+          "end_ms": 241550
+        },
+        {
+          "text": "caerse del ala",
+          "start_ms": 244050,
+          "end_ms": 245261
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "kind": "vocabulary",
+      "start_ms": 247761,
+      "end_ms": 260394,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "ticka som en klocka",
+        "start_ms": 247761,
+        "end_ms": 249428
+      },
+      "target_playbacks": [
+        {
+          "text": "hacer tictac como un reloj",
+          "start_ms": 251428,
+          "end_ms": 253411
+        },
+        {
+          "text": "hacer tictac como un reloj",
+          "start_ms": 255911,
+          "end_ms": 257894
+        }
+      ]
+    },
+    {
+      "id": 237,
+      "kind": "vocabulary",
+      "start_ms": 260394,
+      "end_ms": 271558,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "se ut precis som",
+        "start_ms": 260394,
+        "end_ms": 262268
+      },
+      "target_playbacks": [
+        {
+          "text": "ser igual que",
+          "start_ms": 264268,
+          "end_ms": 265413
+        },
+        {
+          "text": "ser igual que",
+          "start_ms": 267913,
+          "end_ms": 269058
+        }
+      ]
+    },
+    {
+      "id": 181,
+      "kind": "vocabulary",
+      "start_ms": 271558,
+      "end_ms": 280654,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "bara",
+        "start_ms": 271558,
+        "end_ms": 272240
+      },
+      "target_playbacks": [
+        {
+          "text": "solo",
+          "start_ms": 274240,
+          "end_ms": 274947
+        },
+        {
+          "text": "solo",
+          "start_ms": 277447,
+          "end_ms": 278154
+        }
+      ]
+    },
+    {
+      "id": 238,
+      "kind": "vocabulary",
+      "start_ms": 280654,
+      "end_ms": 294076,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "var har du fått knappen ifrån?",
+        "start_ms": 280654,
+        "end_ms": 282860
+      },
+      "target_playbacks": [
+        {
+          "text": "¿de dónde has sacado este botón?",
+          "start_ms": 284860,
+          "end_ms": 286968
+        },
+        {
+          "text": "¿de dónde has sacado este botón?",
+          "start_ms": 289468,
+          "end_ms": 291576
+        }
+      ]
+    },
+    {
+      "id": 178,
+      "kind": "vocabulary",
+      "start_ms": 294076,
+      "end_ms": 306739,
+      "prompt_language": "sv",
+      "prompt": {
+        "text": "sitta på en gren",
+        "start_ms": 294076,
+        "end_ms": 295811
+      },
+      "target_playbacks": [
+        {
+          "text": "estar posado en una rama",
+          "start_ms": 297811,
+          "end_ms": 299775
+        },
+        {
+          "text": "estar posado en una rama",
+          "start_ms": 302275,
+          "end_ms": 304239
+        }
+      ]
+    }
+  ],
+  "book_introduction": null,
+  "chapter_introduction": {
+    "text": "Capítulo siete. El pájaro dorado.",
+    "start_ms": 1000,
+    "end_ms": 5656
+  },
+  "transitions": [
+    {
+      "kind": "chime",
+      "from": "story",
+      "to": "practice",
+      "start_ms": 59232,
+      "end_ms": 59852
+    },
+    {
+      "kind": "chime",
+      "from": "practice",
+      "to": "story",
+      "start_ms": 306739,
+      "end_ms": 307359
+    }
+  ],
+  "chapter_readings": [
+    {
+      "text": "Los niños abren la puerta verde y entran en un jardín subterráneo. En una rama hay un pájaro dorado. No canta. Solo hace tictac como un reloj: tic-tac, tic-tac. En un ala tiene una piedrecita azul brillante. En la otra ala hay un hueco vacío. Maya mira la radio. ¡El botón azul de la radio es igual que la piedrecita del pájaro!\n—Radiofón, ¿de dónde has sacado este botón? —pregunta Maya.\n—Es la piedrecita del pájaro —dice Radiofón—. Hace mucho tiempo se le cayó del ala. Alguien la convirtió en mi botón. ¡Os estaba esperando para devolverla!",
+      "start_ms": 8156,
+      "end_ms": 56732
+    },
+    {
+      "text": "Los niños abren la puerta verde y entran en un jardín subterráneo. En una rama hay un pájaro dorado. No canta. Solo hace tictac como un reloj: tic-tac, tic-tac. En un ala tiene una piedrecita azul brillante. En la otra ala hay un hueco vacío. Maya mira la radio. ¡El botón azul de la radio es igual que la piedrecita del pájaro!\n—Radiofón, ¿de dónde has sacado este botón? —pregunta Maya.\n—Es la piedrecita del pájaro —dice Radiofón—. Hace mucho tiempo se le cayó del ala. Alguien la convirtió en mi botón. ¡Os estaba esperando para devolverla!",
+      "start_ms": 309859,
+      "end_ms": 358435
+    }
+  ],
+  "chapter_reading": {
+    "text": "Los niños abren la puerta verde y entran en un jardín subterráneo. En una rama hay un pájaro dorado. No canta. Solo hace tictac como un reloj: tic-tac, tic-tac. En un ala tiene una piedrecita azul brillante. En la otra ala hay un hueco vacío. Maya mira la radio. ¡El botón azul de la radio es igual que la piedrecita del pájaro!\n—Radiofón, ¿de dónde has sacado este botón? —pregunta Maya.\n—Es la piedrecita del pájaro —dice Radiofón—. Hace mucho tiempo se le cayó del ala. Alguien la convirtió en mi botón. ¡Os estaba esperando para devolverla!",
+    "start_ms": 309859,
+    "end_ms": 358435
+  },
+  "narration": {
+    "engine": "azure",
+    "voice": "es-ES-ElviraNeural",
+    "style": null,
+    "rate": "-12%",
+    "locale": "es-ES",
+    "capabilities": {
+      "voice": "es-ES-ElviraNeural",
+      "locale": "es-ES",
+      "advertised_styles": []
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xml:lang=\"es-ES\"><voice name=\"es-ES-ElviraNeural\"><prosody rate=\"-12%\"><p>Los niños abren la puerta verde y entran en un jardín subterráneo. En una rama hay un pájaro dorado. No canta. Solo hace tictac como un reloj: tic-tac, tic-tac. En un ala tiene una piedrecita azul brillante. En la otra ala hay un hueco vacío. Maya mira la radio. ¡El botón azul de la radio es igual que la piedrecita del pájaro!\n—Radiofón, ¿de dónde has sacado este botón? —pregunta Maya.\n—Es la piedrecita del pájaro —dice Radiofón—. Hace mucho tiempo se le cayó del ala. Alguien la convirtió en mi botón. ¡Os estaba esperando para devolverla!</p></prosody></voice></speak>"
+  },
+  "audio_file": "07_chapter_07_sv_es_2026-11-08_21-06-20.mp3"
+}
