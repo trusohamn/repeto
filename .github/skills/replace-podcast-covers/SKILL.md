@@ -1,6 +1,6 @@
 ---
 name: replace-podcast-covers
-description: Match new Repeto artwork to podcast language directions, copy it without removing originals, and refresh cover URLs in RSS feeds and web pages.
+description: Match new Repeto artwork to podcast language directions, copy (or move, when the user asks) it into place, and refresh cover URLs in RSS feeds and web pages.
 ---
 
 # Replace podcast covers
@@ -18,7 +18,11 @@ not generate audio, create new shows, commit, push, or deploy.
   never infer which filename belongs to an image from parallel response order.
   Identify both flags explicitly: Poland is white over red, Russia is white
   over blue over red, Sweden is a yellow cross on blue, Spain is red/yellow/red,
-  and English uses the Union Jack. Plain speech bubbles are not flags.
+  Germany is black/red/gold, France is vertical blue/white/red, and English
+  uses the Union Jack. Plain speech bubbles are generic brand art, not flags.
+- Destination folders are `podcast/<source>-<target>/` with full English
+  language names (`swedish`, `polish`, `english`, `russian`, `spanish`,
+  `german`, `french`).
 - Match against `source_language` and `target_language` in each
   `podcast/<slug>/course.json`. Catalog Swedish is `sv`, while folder names use
   `swedish`. Reversed directions need different covers.
@@ -29,12 +33,16 @@ not generate audio, create new shows, commit, push, or deploy.
   with a copied `cover.jpeg` only. Do not create placeholder catalogs, feeds,
   or pages; the builder publishes only folders with a real `course.json`.
 - Site icons are separate from podcast covers. The shared `podcast/favicon.png`
-  (32x32) and `podcast/apple-touch-icon.png` (180x180) are resized copies of
-  the round `logo.jpeg` at the repository root. Preserve that original;
-  regenerate both PNGs when changing the site logo. The page builder links
-  to them relatively from the homepage and each course page.
+  (32x32) and `podcast/apple-touch-icon.png` (180x180) are generated from
+  `branding/logo.jpeg`, cropped to the bubbles and wordmark
+  (`crop=1180:1180:430:240`) before resizing with ffmpeg. Preserve that
+  original; regenerate both PNGs when changing the site logo. The page builder
+  links to them relatively from the homepage and each course page.
+- `branding/cover.jpeg` is the generic flagless Repeto.stream cover. Use it
+  only when the user asks for brand-level artwork, never as a course cover.
 - If several images fit the same direction or the direction is unclear, ask
-  the user to choose before replacing it.
+  the user to choose before replacing it. Visually identical duplicates may
+  use either one; leave the other in place and report it.
 - Inspect actual format and dimensions; podcast covers should be square JPEGs,
   1400-3000 pixels per side. On macOS use `sips` to inspect these properties.
 
@@ -43,7 +51,10 @@ not generate audio, create new shows, commit, push, or deploy.
 - Record source checksums, current cover filenames, and current catalogs,
   feeds, pages, and story artwork before changing anything.
 - Copy each selected source into its existing podcast folder as `cover.jpeg`.
-  Never move, rename, overwrite, or delete originals in `new covers/`.
+  Keep originals in `new_covers/` unless the user explicitly asks to move
+  them; when moving, leave unused, duplicate, and generic images in place.
+- After placing covers, report missing directions: every source/target pair
+  among the supported languages that still has no cover.
 - Preserve story episode artwork under `images/stories/`; replacing a show
   cover does not replace its story covers.
 - Configure the project's Python environment and use `.venv/bin/python`.
@@ -67,8 +78,8 @@ not generate audio, create new shows, commit, push, or deploy.
 .venv/bin/python -m unittest discover -s tests -p test_podcast.py -q
 ```
 
-- Verify each destination's bytes match its selected source and all source
-  checksums and filenames remain unchanged.
+- Verify each destination's bytes match its selected source (the snapshot
+  when sources were moved) and that unmoved source files are unchanged.
 - Visually inspect the installed covers with their podcast slugs attached.
   Confirm both flags against catalog language settings; matching checksums and
   working URLs alone do not verify that the correct artwork was selected.

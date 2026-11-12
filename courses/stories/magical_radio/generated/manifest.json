@@ -3919,56 +3919,56 @@
       "slug": "english-polish",
       "feed_url": "https://repeto.stream/english-polish/feed.xml",
       "episodes": 38,
-      "title": "Repeto – I learn Polish",
-      "author": "Repeto",
+      "title": "Repeto.stream – I learn Polish",
+      "author": "Repeto.stream",
       "owner_email": "repeto.lingo@gmail.com"
     },
     "en": {
       "slug": "spanish-english",
       "feed_url": "https://repeto.stream/spanish-english/feed.xml",
       "episodes": 38,
-      "title": "Repeto – Aprendo inglés",
-      "author": "Repeto",
+      "title": "Repeto.stream – Aprendo inglés",
+      "author": "Repeto.stream",
       "owner_email": "repeto.lingo@gmail.com"
     },
     "ru": {
       "slug": "swedish-russian",
       "feed_url": "https://trusohamn.github.io/repeto/swedish-russian/feed.xml",
       "episodes": 38,
-      "title": "Repeto – Jag lär mig ryska",
-      "author": "Repeto",
+      "title": "Repeto.stream – Jag lär mig ryska",
+      "author": "Repeto.stream",
       "owner_email": "repeto.lingo@gmail.com"
     },
     "sv": {
       "slug": "russian-swedish",
       "feed_url": "https://repeto.stream/russian-swedish/feed.xml",
       "episodes": 38,
-      "title": "Repeto – Я учу шведский",
-      "author": "Repeto",
+      "title": "Repeto.stream – Я учу шведский",
+      "author": "Repeto.stream",
       "owner_email": "repeto.lingo@gmail.com"
     },
     "es": {
       "slug": "english-spanish",
       "feed_url": "https://repeto.stream/english-spanish/feed.xml",
       "episodes": 38,
-      "title": "Repeto – I learn Spanish",
-      "author": "Repeto",
+      "title": "Repeto.stream – I learn Spanish",
+      "author": "Repeto.stream",
       "owner_email": "repeto.lingo@gmail.com"
     },
     "de": {
       "slug": "english-german",
       "feed_url": "https://repeto.stream/english-german/feed.xml",
       "episodes": 38,
-      "title": "Repeto – I learn German",
-      "author": "Repeto",
+      "title": "Repeto.stream – I learn German",
+      "author": "Repeto.stream",
       "owner_email": "repeto.lingo@gmail.com"
     },
     "fr": {
       "slug": "english-french",
       "feed_url": "https://repeto.stream/english-french/feed.xml",
       "episodes": 38,
-      "title": "Repeto – I learn French",
-      "author": "Repeto",
+      "title": "Repeto.stream – I learn French",
+      "author": "Repeto.stream",
       "owner_email": "repeto.lingo@gmail.com"
     }
   },
