@@ -1,8 +1,7 @@
 # Website illustrations
 
 The homepage loads every image in this folder. To change one, overwrite the
-file with the same name and size; no rebuild is needed. The current files are
-placeholders.
+file with the same name and size; no rebuild is needed.
 
 Style: match the cover artwork. Use flat, slightly grainy illustrations in
 coral `#e8604a`, orange `#f0962f`, teal `#2e8f8c`, blue `#4a62c4` and cream,
