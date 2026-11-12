@@ -26,7 +26,7 @@
 <a class="skip" href="#main">{{ t.skip }}</a>
 {% set home = prefix or './' %}
 <header class="topbar"><div class="wrap"><a class="brand" href="{{ home }}"><img src="{{ prefix }}apple-touch-icon.png" alt="" width="36" height="36"><span>Repeto<b>.stream</b></span></a>
-<nav aria-label="Main"><a href="{{ home }}#courses">{{ t.all_courses }}</a><a href="{{ GITHUB_URL }}">GitHub</a></nav></div><div class="progress" aria-hidden="true"></div></header>
+<nav aria-label="Main"><a href="{{ home }}#courses">{{ t.all_courses }}</a></nav></div><div class="progress" aria-hidden="true"></div></header>
 {% block body %}{% endblock %}
 <footer><div class="wrap"><div><strong>{{ BRAND }}</strong><br>{{ t.open_source }} <a href="{{ GITHUB_URL }}">GitHub</a> · MIT<br>{{ t.voices }}</div>
 <div><a href="mailto:{{ EMAIL }}">{{ EMAIL }}</a></div></div></footer>
