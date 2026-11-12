@@ -49,7 +49,7 @@
   <div class="group"><h3><span lang="{{ group.source }}">{{ group.native }}</span> <small>For {{ group.name }} speakers</small></h3>
    <div class="cards">
    {% for card in group.cards %}
-    <a class="card" href="{{ card.slug }}/" data-source="{{ group.source }}" data-target="{{ card.target }}"><img src="{{ card.slug }}/{{ card.cover }}" alt="" loading="lazy" width="600" height="600"><div class="body"><span class="pair">{{ card.pair }}</span><h4 lang="{{ group.source }}">{{ card.title }}</h4><span class="meta">{{ card.meta }}</span>{% if card.spotify %}<span class="tags"><span class="badge">On Spotify</span></span>{% endif %}</div></a>
+    <a class="card" href="{{ card.slug }}/" data-source="{{ group.source }}" data-target="{{ card.target }}"><div class="body"><span class="pair">{{ card.pair }}</span><h4 lang="{{ group.source }}">{{ card.title }}</h4><span class="meta">{{ card.meta }}</span></div></a>
    {% endfor %}
    </div>
   </div>

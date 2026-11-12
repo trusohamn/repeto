@@ -63,7 +63,7 @@ UI = {
             ('Say it out loud', 'You hear a phrase in your language. Say it in the new language during the pause.'),
             ('Listen and repeat', 'The answer is played twice. Say it along with the voice.'),
         ],
-        'about': 'About this course', 'kind_story': 'Story', 'episode': 'Episode', 'transcript': 'Transcript',
+        'kind_story': 'Story', 'episode': 'Episode', 'transcript': 'Transcript',
         'print_season': 'Print all transcripts', 'print': 'Print', 'back': 'Back to the course',
         'hear': 'You hear', 'say': 'You say',
         'practice_intro': 'You hear the left column. Say the right column out loud in the pause – then the answer is played twice.',
@@ -89,7 +89,7 @@ UI = {
             ('Säg det högt', 'Du hör en fras på ditt språk. Säg den på det nya språket i pausen.'),
             ('Lyssna och härma', 'Svaret spelas två gånger. Säg det igen tillsammans med rösten.'),
         ],
-        'about': 'Om kursen', 'kind_story': 'Berättelse', 'episode': 'Avsnitt', 'transcript': 'Transkript',
+        'kind_story': 'Berättelse', 'episode': 'Avsnitt', 'transcript': 'Transkript',
         'print_season': 'Skriv ut alla transkript', 'print': 'Skriv ut', 'back': 'Tillbaka till kursen',
         'hear': 'Du hör', 'say': 'Du säger',
         'practice_intro': 'Du hör vänster kolumn. Säg höger kolumn högt i pausen – sedan spelas svaret två gånger.',
@@ -115,7 +115,7 @@ UI = {
             ('Powiedz to na głos', 'Słyszysz zdanie w swoim języku. W pauzie powiedz je w nowym języku.'),
             ('Słuchaj i powtarzaj', 'Odpowiedź pada dwa razy. Powtórz ją razem z lektorem.'),
         ],
-        'about': 'O kursie', 'kind_story': 'Opowieść', 'episode': 'Odcinek', 'transcript': 'Transkrypcja',
+        'kind_story': 'Opowieść', 'episode': 'Odcinek', 'transcript': 'Transkrypcja',
         'print_season': 'Wydrukuj wszystkie transkrypcje', 'print': 'Drukuj', 'back': 'Wróć do kursu',
         'hear': 'Słyszysz', 'say': 'Mówisz',
         'practice_intro': 'Słyszysz lewą kolumnę. W pauzie powiedz na głos prawą – potem odpowiedź zabrzmi dwa razy.',
@@ -141,7 +141,7 @@ UI = {
             ('Скажите вслух', 'Вы слышите фразу на своём языке. В паузе скажите её на новом языке.'),
             ('Слушайте и повторяйте', 'Ответ звучит дважды. Повторите его вместе с диктором.'),
         ],
-        'about': 'О курсе', 'kind_story': 'История', 'episode': 'Эпизод', 'transcript': 'Текст',
+        'kind_story': 'История', 'episode': 'Эпизод', 'transcript': 'Текст',
         'print_season': 'Распечатать все тексты', 'print': 'Распечатать', 'back': 'Назад к курсу',
         'hear': 'Вы слышите', 'say': 'Вы говорите',
         'practice_intro': 'Вы слышите левую колонку. В паузе скажите вслух правую – затем ответ прозвучит дважды.',
@@ -167,7 +167,7 @@ UI = {
             ('Dilo en voz alta', 'Oyes una frase en tu idioma. Dila en el nuevo idioma durante la pausa.'),
             ('Escucha y repite', 'La respuesta suena dos veces. Repítela junto con la voz.'),
         ],
-        'about': 'Sobre el curso', 'kind_story': 'Historia', 'episode': 'Episodio', 'transcript': 'Transcripción',
+        'kind_story': 'Historia', 'episode': 'Episodio', 'transcript': 'Transcripción',
         'print_season': 'Imprimir todas las transcripciones', 'print': 'Imprimir', 'back': 'Volver al curso',
         'hear': 'Oyes', 'say': 'Dices',
         'practice_intro': 'Oyes la columna de la izquierda. Di en voz alta la de la derecha durante la pausa; después la respuesta suena dos veces.',
@@ -359,10 +359,9 @@ def build_home(courses: list[dict], base_url: str, assets: dict) -> str:
     groups = [{
         'source': source, 'native': NATIVE[source], 'name': NAMES['en'][source],
         'cards': [{
-            'slug': c['slug'], 'cover': c['cover'], 'target': c['target_language'],
+            'slug': c['slug'], 'target': c['target_language'],
             'pair': f'{NAMES["en"][source]} → {NAMES["en"][c["target_language"]]}',
             'title': short_title(c['title']), 'meta': episode_meta(c, 'en'),
-            'spotify': 'Spotify' in c.get('links', {}),
         } for c in by_source[source]],
     } for source in sources]
     picker_data = {}
@@ -420,6 +419,23 @@ def season_episodes(course: dict, season) -> list[dict]:
     return sorted((ep for ep in course['episodes'] if str(ep.get('season')) == str(season)), key=lambda ep: int(ep['episode']))
 
 
+CHAPTER_OF = re.compile(r'\b\d+\s+\S{1,3}\s+\d+\b')
+
+
+def story_title(title: str, story: str) -> str:
+    """'Story: Chapter — Kapitel' -> 'Chapter — Kapitel' (the season heading already names the story)."""
+    prefix = f'{story}: '
+    return title[len(prefix):] if title.startswith(prefix) else title
+
+
+def story_summary(text: str, story: str) -> str:
+    """Drop leading sentences like 'Chapter 1 of 8 in "Story" (...).' that only repeat the season heading."""
+    sentences = re.split(r'(?<=[.!?])\s+', text)
+    while len(sentences) > 1 and (story in sentences[0] or CHAPTER_OF.search(sentences[0])):
+        sentences.pop(0)
+    return ' '.join(sentences)
+
+
 def course_page(course: dict, base_url: str, assets: dict) -> str:
     ui = course['ui']
     t = UI[ui]
@@ -433,9 +449,9 @@ def course_page(course: dict, base_url: str, assets: dict) -> str:
             'kind': t['kind_story'] if any(':chapter-' in ep['id'] for ep in episodes) else None,
             'print': season_name(season) if any(ep.get('transcript') for ep in episodes) else None,
             'episodes': [{
-                'number': int(ep['episode']), 'title': ep['title'], 'page': transcript_name(ep),
+                'number': int(ep['episode']), 'title': story_title(ep['title'], label), 'page': transcript_name(ep),
                 'summary': (f'{ep["phrases"]} {plural(ui, ep["phrases"], "phrases")}' if 'phrases' in ep
-                            else first_paragraph(ep.get('description', ''))),
+                            else story_summary(first_paragraph(ep.get('description', '')), label)),
                 'length': minutes(ui, int(ep.get('duration_ms') or 0)), 'transcript': ep.get('transcript'),
             } for ep in episodes],
         })
@@ -451,7 +467,6 @@ def course_page(course: dict, base_url: str, assets: dict) -> str:
         canonical=f'{base_url}/{course["slug"]}/', image=f'{base_url}/{course["slug"]}/{course["cover"]}',
         course=course, pair=f'{NAMES[ui][source]} → {NAMES[ui][target]}', heading=short_title(course['title']),
         lead=lead, stats=stats, links=course.get('links', {}), seasons=seasons,
-        about=Markup(text_to_html(course.get('description', ''))),
     )
 
 

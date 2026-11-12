@@ -100,15 +100,13 @@ section{padding:72px 0}
 .all-title{font-size:22px;margin:0 0 20px;color:var(--muted)}
 .missing{margin:10px 0 0;color:var(--muted)}
 .group{margin-bottom:36px}.group h3{font-size:22px;margin:0 0 14px;display:flex;gap:10px;align-items:baseline}.group h3 small{color:var(--muted);font-weight:600;font-size:15px}
-.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:16px}
-.card{background:#fff;border-radius:var(--radius);overflow:hidden;text-decoration:none;color:var(--ink);box-shadow:0 2px 0 var(--line),0 10px 30px rgba(24,34,74,.07);display:flex;flex-direction:column;transition:transform .2s,box-shadow .2s}
-.card:hover{transform:translateY(-6px) rotate(-.4deg);box-shadow:0 18px 40px rgba(24,34,74,.18);color:var(--ink)}
-.card img{aspect-ratio:1;object-fit:cover;width:100%}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:12px}
+.card{background:#fff;border-left:5px solid var(--teal);border-radius:var(--radius);overflow:hidden;text-decoration:none;color:var(--ink);box-shadow:0 2px 0 var(--line),0 10px 30px rgba(24,34,74,.07);display:flex;flex-direction:column;transition:transform .2s,box-shadow .2s,border-color .2s}
+.card:hover{transform:translateY(-3px);border-left-color:var(--red);box-shadow:0 18px 40px rgba(24,34,74,.18);color:var(--ink)}
 .card .body{padding:12px 14px 14px;display:grid;gap:4px}
 .card .pair{font-weight:800;color:var(--red);font-size:12px;letter-spacing:.06em;text-transform:uppercase}
 .card h4{margin:0;font-size:17px;line-height:1.25}
 .card .meta{font-size:13px;color:var(--muted)}
-.card .tags{display:flex;gap:6px;flex-wrap:wrap}
 .inside{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:30px}
 .panel{background:#fff;border-radius:var(--radius);padding:28px;box-shadow:0 2px 0 var(--line)}
 .panel h3{margin:6px 0 10px;font-size:24px}
@@ -151,8 +149,6 @@ footer a{color:#fff}footer .wrap{display:flex;gap:24px;flex-wrap:wrap;justify-co
 .episodes .num{width:34px;height:34px;font-size:14px;border-radius:50%;background:var(--cream);display:grid;place-items:center;font-weight:900;color:var(--navy)}
 .episodes h3{margin:0;font-size:16px}.episodes p{margin:2px 0 0;color:var(--muted);font-size:14px}
 .episodes .side{display:flex;align-items:center;gap:14px;font-size:14px;white-space:nowrap}.episodes .side a{font-weight:700}
-details.about{background:#fff;border-radius:var(--radius);padding:20px 24px;margin-top:40px;box-shadow:0 2px 0 var(--line)}
-details.about summary{cursor:pointer;font-weight:800;font-size:18px}
 .mistake{display:flex;gap:14px;align-items:center;border:2px dashed var(--red);border-radius:18px;padding:16px 20px;margin-top:30px;background:#fff}
 .mistake p{margin:0}.mistake .badge{white-space:nowrap;flex:none}
 @media (max-width:600px){.mistake{flex-direction:column;align-items:flex-start;gap:10px}}
@@ -186,7 +182,7 @@ details.about summary{cursor:pointer;font-weight:800;font-size:18px}
  .steps .art,.trust .art{grid-row:span 2;width:84px;aspect-ratio:1;margin:0;border-radius:12px}
  .steps h3,.trust b{margin:0;font-size:17px;align-self:end}.steps p,.trust p{font-size:14px;align-self:start}
  .soon-grid{gap:10px}.soon-card{grid-template-columns:84px 1fr;gap:14px;padding:14px}.soon-card .art{width:84px}.soon-card h3{margin:6px 0 4px;font-size:17px}.soon-card p{margin:0;font-size:14px}
- .cards{grid-template-columns:1fr 1fr;gap:10px}.card .body{padding:8px 10px 10px;gap:2px}.card h4{font-size:15px}.card .pair{font-size:10.5px}.card .meta{font-size:12px}.card .badge{font-size:11px;padding:2px 8px}
+ .cards{grid-template-columns:1fr 1fr;gap:10px}.card .body{padding:8px 10px 10px;gap:2px}.card h4{font-size:15px}.card .pair{font-size:10.5px}.card .meta{font-size:12px}
  .course-hero{padding:24px 0 32px}.course-hero img{max-width:140px;border-radius:18px}.course-hero h1{font-size:32px}
  .stats{display:grid;grid-template-columns:1fr 1fr;gap:8px}.stats li{padding:8px 12px}.stats b{font-size:18px}
  .how{gap:8px}.how li{display:grid;grid-template-columns:32px 1fr;gap:2px 12px;padding:12px 14px;align-items:center}.how li::before{grid-row:span 2;width:32px;height:32px;margin:0;font-size:14px}.how b{margin:0}.how p{font-size:14px}

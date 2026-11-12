@@ -211,6 +211,18 @@ class PodcastTests(unittest.TestCase):
             "<li>Prata</li></ol><ul><li>a</li><li>b</li></ul>",
         )
 
+    def test_story_rows_drop_repeated_story_name(self):
+        website = __import__("website")
+        self.assertEqual(website.story_title("Den magiska radion: Det gamla bordet — La mesa vieja", "Den magiska radion"),
+                         "Det gamla bordet — La mesa vieja")
+        self.assertEqual(website.story_title("Hälsningar — Saludos", "Övningar"), "Hälsningar — Saludos")
+        for text, story in (
+            ('Chapter 1 of 8 in "The Magical Radio" (La radio magique). Two siblings find a radio.', "The Magical Radio"),
+            ("История «Волшебное радио» (La radio mágica). Глава 1 из 8. Two siblings find a radio.", "Волшебное радио"),
+        ):
+            with self.subTest(story=story):
+                self.assertEqual(website.story_summary(text, story), "Two siblings find a radio.")
+
     def test_remove_superseded_audio_keeps_referenced_files(self):
         with tempfile.TemporaryDirectory() as directory:
             course = Path(directory)

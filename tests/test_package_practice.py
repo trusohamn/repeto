@@ -93,7 +93,7 @@ class PackagePracticeTests(unittest.TestCase):
             self.assertEqual(catalog["episodes"][0]["title"], "Приветствия — Saludos")
             page = (course / "index.html").read_text(encoding="utf-8")
             self.assertIn('lang="ru"', page)
-            self.assertIn("Фразы", page)
+            self.assertIn("36 фраз", page)
             self.assertIn("Слушайте и повторяйте", page)
             self.assertNotIn("feed.xml", page)
             self.assertNotIn("Lyssna", page)
