@@ -399,5 +399,8 @@
   "seasons": {
     "1": "Práctica",
     "2": "La radio mágica"
+  },
+  "links": {
+    "Spotify": "https://open.spotify.com/show/5LNWAewXRN640kGPA2Mtd4"
   }
 }

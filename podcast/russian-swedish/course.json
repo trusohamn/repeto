@@ -399,5 +399,8 @@
   "seasons": {
     "1": "Практика",
     "2": "Волшебное радио"
+  },
+  "links": {
+    "Spotify": "https://open.spotify.com/show/5AhGS7NQASIkynkAtWnMBQ"
   }
 }
