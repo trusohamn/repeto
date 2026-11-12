@@ -18,6 +18,7 @@ ROOT = Path(__file__).resolve().parent.parent
 PRACTICE_TRANSCRIPT = ROOT / "courses" / "practice" / "transcript.json"
 PRACTICE_TOPICS = ROOT / "courses" / "practice" / "topics.json"
 STORIES = ROOT / "courses" / "stories"
+BRAND = "Repeto.stream"
 LANGUAGES = {
     "pl": ("polska", "polsk"),
     "en": ("engelska", "engelsk"),
@@ -127,16 +128,16 @@ def _russian_language(target: str) -> tuple[str, str]:
 
 def show_title(target: str, source: str = "sv") -> str:
     if source == "sv":
-        return f"Repeto – Jag lär mig {_names(target)[0]}"
+        return f"{BRAND} – Jag lär mig {_names(target)[0]}"
     if source == "pl":
         genitive, _ = _polish_language(target)
-        return f"Repeto – Uczę się {genitive}"
+        return f"{BRAND} – Uczę się {genitive}"
     if source == "en":
-        return f"Repeto – I learn {_english_language(target)}"
+        return f"{BRAND} – I learn {_english_language(target)}"
     if source == "ru":
-        return f"Repeto – Я учу {_russian_language(target)[0]}"
+        return f"{BRAND} – Я учу {_russian_language(target)[0]}"
     if source == "es":
-        return f"Repeto – Aprendo {_spanish_language(target)}"
+        return f"{BRAND} – Aprendo {_spanish_language(target)}"
     raise ValueError(f"Unsupported source language {source!r}.")
 
 
@@ -161,7 +162,7 @@ def show_description(
         language, adverb = _russian_language(target)
         parts = [
             f"Учи {language}: слушай и говори с подсказками на русском. "
-            "Repeto — аудиокурс для начинающих любого возраста: детей, родителей, "
+            "Repeto.stream — аудиокурс для начинающих любого возраста: детей, родителей, "
             f"бабушек, дедушек и всех, кто хочет начать учить {language}. "
             "Предварительные знания и учебник не нужны.",
             "Как это работает: ты слышишь слово или предложение по-русски, "
@@ -193,8 +194,8 @@ def show_description(
             "Занимайся и активно: повторяй и отвечай во время пауз.",
         ]))
         parts.append(
-            "Нравится такой формат? У Repeto есть курсы и для других языков "
-            "с такой же структурой. Ищи Repeto в своём приложении для подкастов."
+            "Нравится такой формат? У Repeto.stream есть курсы и для других языков "
+            "с такой же структурой. Ищи Repeto.stream в своём приложении для подкастов."
         )
         parts.append(
             "Напиши нам! Предложения новых языков, исправления и идеи для историй "
@@ -206,7 +207,7 @@ def show_description(
         language = _spanish_language(target)
         parts = [
             f"Aprende {language} escuchando y hablando, con indicaciones en español. "
-            "Repeto es un curso de audio para principiantes de todas las edades: niños, "
+            "Repeto.stream es un curso de audio para principiantes de todas las edades: niños, "
             f"padres, abuelos y cualquiera que quiera empezar a aprender {language}. "
             "No necesitas conocimientos previos ni libro de texto.",
             "Cómo funciona: oyes una palabra o una frase en español y tienes una pausa "
@@ -238,8 +239,8 @@ def show_description(
             "idioma. Practica también de forma activa: repite y responde en las pausas.",
         ]))
         parts.append(
-            "¿Te gusta este formato? Repeto también está disponible en otros idiomas, "
-            "con la misma estructura. Busca Repeto en tu aplicación de pódcasts."
+            "¿Te gusta este formato? Repeto.stream también está disponible en otros idiomas, "
+            "con la misma estructura. Busca Repeto.stream en tu aplicación de pódcasts."
         )
         parts.append(
             "¡Escríbenos! Las sugerencias de nuevos idiomas, correcciones e ideas para "
@@ -251,7 +252,7 @@ def show_description(
         language = _english_language(target)
         parts = [
             f"Learn {language} by listening and speaking, with English prompts to guide you. "
-            "Repeto is an audio course for beginners of all ages: children, parents, "
+            "Repeto.stream is an audio course for beginners of all ages: children, parents, "
             f"grandparents and anyone who wants to start learning {language}. "
             "No previous knowledge or textbook is needed.",
             "How it works: you hear a word or sentence in English, then have a pause "
@@ -284,8 +285,8 @@ def show_description(
             "during the pauses.",
         ]))
         parts.append(
-            "Enjoy this format? Repeto is also available in other languages, with "
-            "the same familiar structure. Search for Repeto in your podcast app."
+            "Enjoy this format? Repeto.stream is also available in other languages, with "
+            "the same familiar structure. Search for Repeto.stream in your podcast app."
         )
         parts.append(
             "Get in touch! Suggestions for new languages, corrections and story ideas "
@@ -298,7 +299,7 @@ def show_description(
         adverb = _polish_adverb(target)
         parts = [
             f"Ucz się {language}, słuchając i mówiąc – z polskim jako wsparciem. "
-            "Repeto to kurs audio dla początkujących w każdym wieku: dzieci, rodziców, "
+            "Repeto.stream to kurs audio dla początkujących w każdym wieku: dzieci, rodziców, "
             f"dziadków i wszystkich, którzy chcą zacząć naukę {language}. "
             "Nie potrzebujesz wcześniejszej wiedzy ani podręcznika.",
             f"Jak to działa: słyszysz słowo lub zdanie po polsku, a potem masz chwilę, "
@@ -331,8 +332,8 @@ def show_description(
             "Ćwicz też aktywnie, powtarzając i odpowiadając w przerwach.",
         ]))
         parts.append(
-            "Podoba Ci się ten format? Repeto jest dostępne także w innych językach – "
-            "ten sam układ pozwoli Ci od razu poczuć się swobodnie. Wyszukaj „Repeto” "
+            "Podoba Ci się ten format? Repeto.stream jest dostępne także w innych językach – "
+            "ten sam układ pozwoli Ci od razu poczuć się swobodnie. Wyszukaj „Repeto.stream” "
             "w swojej aplikacji do podcastów."
         )
         parts.append(
@@ -346,7 +347,7 @@ def show_description(
     language, _ = _names(target)
     parts = [
         f"Lär dig {language} genom att lyssna och prata – med svenska som stöd. "
-        "Repeto är en lyssningskurs för nybörjare i alla åldrar: barn, föräldrar, "
+        "Repeto.stream är en lyssningskurs för nybörjare i alla åldrar: barn, föräldrar, "
         f"mor- och farföräldrar och alla som vill komma igång med {language}. "
         "Ingen förkunskap och ingen bok behövs.",
         f"Så fungerar det: du hör ett ord eller en mening på svenska och får en paus "
@@ -378,8 +379,8 @@ def show_description(
         "melodi. Öva också aktivt genom att härma och svara i pauserna.",
     ]))
     parts.append(
-        "Gillar du upplägget? Repeto finns även på andra språk – samma format, så du "
-        "känner igen dig direkt. Sök på ”Repeto” där du lyssnar på poddar."
+        "Gillar du upplägget? Repeto.stream finns även på andra språk – samma format, så du "
+        "känner igen dig direkt. Sök på ”Repeto.stream” där du lyssnar på poddar."
     )
     parts.append(
         "Hör gärna av dig! Önskemål om nya språk, rättelser och idéer till nya "
@@ -650,6 +651,8 @@ def refresh_course(
             )
     catalog["seasons"] = season_names
     catalog["title"] = show_title(target, source)
+    if catalog.get("author") == "Repeto":
+        catalog["author"] = BRAND
     catalog["description"] = show_description(
         target, practice_count, story_names, catalog["email"], source,
     )

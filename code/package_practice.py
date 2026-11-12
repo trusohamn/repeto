@@ -219,7 +219,7 @@ def create_parser() -> argparse.ArgumentParser:
     parser.add_argument(
         "--podcast-base-url", default="https://repeto.stream"
     )
-    parser.add_argument("--author", default="Repeto")
+    parser.add_argument("--author", default="Repeto.stream")
     parser.add_argument("--email", default="repeto.lingo@gmail.com")
     return parser
 

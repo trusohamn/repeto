@@ -337,7 +337,7 @@ def build_index(root: Path, courses: list[Path]) -> None:
         if cover is None:
             raise ValueError(f"Missing cover: {course}")
         href = quote(course.name) + "/"
-        title = html.escape(config["title"].removeprefix("Repeto – "))
+        title = html.escape(config["title"].removeprefix("Repeto.stream – ").removeprefix("Repeto – "))
         feed_links.append(
             f'<li lang="{language}"><a href="{href}feed.xml">{title}</a></li>'
         )
@@ -388,7 +388,7 @@ def build_index(root: Path, courses: list[Path]) -> None:
         )
     body = (
         '<a class="skip" href="#courses">Skip to courses</a><div class="shell">'
-        '<header><a class="brand" href="./">Repeto</a></header><main>'
+        '<header><a class="brand" href="./">Repeto.stream</a></header><main>'
         '<section class="hero" aria-labelledby="welcome">'
         '<h1 id="welcome">Learn a language.<br><span>Without the screen.</span></h1>'
         '<p>Little language adventures for kids, grown-ups, and anyone starting out. '
@@ -408,12 +408,12 @@ def build_index(root: Path, courses: list[Path]) -> None:
         '<p>To subscribe in another podcast app, copy a feed link below and paste it '
         'into the app’s “add podcast by URL” option. These links are feeds, not listening pages.</p>'
         f'<ul>{"".join(feed_links)}</ul></details></main>'
-        '<footer><span>Repeto · AI-generated voices (Microsoft Azure)</span>'
+        '<footer><span>Repeto.stream · AI-generated voices (Microsoft Azure)</span>'
         '<a href="mailto:repeto.lingo@gmail.com">repeto.lingo@gmail.com</a></footer></div>'
     )
     (root / "index.html").write_text(
         _page(
-            "Repeto – screen-free language learning", body, language="en",
+            "Repeto.stream – screen-free language learning", body, language="en",
             style=HOME_STYLE, asset_prefix="",
         ),
         encoding="utf-8",

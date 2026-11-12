@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
   <channel>
-    <title>Repeto – Uczę się angielskiego</title>
+    <title>Repeto.stream – Uczę się angielskiego</title>
     <link>https://repeto.stream/polish-english/</link>
-    <description>Ucz się angielskiego, słuchając i mówiąc – z polskim jako wsparciem. Repeto to kurs audio dla początkujących w każdym wieku: dzieci, rodziców, dziadków i wszystkich, którzy chcą zacząć naukę angielskiego. Nie potrzebujesz wcześniejszej wiedzy ani podręcznika.
+    <description>Ucz się angielskiego, słuchając i mówiąc – z polskim jako wsparciem. Repeto.stream to kurs audio dla początkujących w każdym wieku: dzieci, rodziców, dziadków i wszystkich, którzy chcą zacząć naukę angielskiego. Nie potrzebujesz wcześniejszej wiedzy ani podręcznika.
 
 Jak to działa: słyszysz słowo lub zdanie po polsku, a potem masz chwilę, by powiedzieć je po angielsku. Następnie usłyszysz odpowiedź dwa razy i będziesz mieć czas, by powtórzyć wymowę.
 
@@ -18,17 +18,17 @@ Jak korzystać z kursu:
 • Odtwórz odcinek ponownie, aż zdążysz odpowiedzieć przed głosem lektora.
 • Słuchanie w tle może pomóc oswoić się z brzmieniem i melodią języka. Ćwicz też aktywnie, powtarzając i odpowiadając w przerwach.
 
-Podoba Ci się ten format? Repeto jest dostępne także w innych językach – ten sam układ pozwoli Ci od razu poczuć się swobodnie. Wyszukaj „Repeto” w swojej aplikacji do podcastów.
+Podoba Ci się ten format? Repeto.stream jest dostępne także w innych językach – ten sam układ pozwoli Ci od razu poczuć się swobodnie. Wyszukaj „Repeto.stream” w swojej aplikacji do podcastów.
 
 Napisz do nas! Sugestie dotyczące nowych języków, poprawki i pomysły na opowieści są mile widziane: repeto.lingo@gmail.com
 
 Głosy zostały wygenerowane przez AI (Microsoft Azure).</description>
     <language>pl</language>
-    <itunes:author>Repeto</itunes:author>
+    <itunes:author>Repeto.stream</itunes:author>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>serial</itunes:type>
     <itunes:owner>
-      <itunes:name>Repeto</itunes:name>
+      <itunes:name>Repeto.stream</itunes:name>
       <itunes:email>repeto.lingo@gmail.com</itunes:email>
     </itunes:owner>
     <itunes:image href="https://repeto.stream/polish-english/cover-6c3d0262.jpeg" />

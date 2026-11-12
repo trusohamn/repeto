@@ -1,4 +1,4 @@
-# Repeto – make your own listen-and-speak courses
+# Repeto.stream – make your own listen-and-speak courses
 
 I share this repository so you can clone it, adapt the material, and generate
 your own language courses. Use it to make screen-free audio practice for your
@@ -9,7 +9,7 @@ JSON files, and can package them as podcast feeds. Practice follows
 **prompt → thinking pause → answer → repetition**. Story episodes play a
 complete chapter, practise its vocabulary, then play the same chapter again.
 
-Just want to listen? Visit [Repeto](https://repeto.stream/).
+Just want to listen? Visit [Repeto.stream](https://repeto.stream/).
 
 ## 1. Set up
 

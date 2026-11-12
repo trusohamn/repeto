@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
   <channel>
-    <title>Repeto – Я учу испанский</title>
+    <title>Repeto.stream – Я учу испанский</title>
     <link>https://repeto.stream/russian-spanish/</link>
-    <description>Учи испанский: слушай и говори с подсказками на русском. Repeto — аудиокурс для начинающих любого возраста: детей, родителей, бабушек, дедушек и всех, кто хочет начать учить испанский. Предварительные знания и учебник не нужны.
+    <description>Учи испанский: слушай и говори с подсказками на русском. Repeto.stream — аудиокурс для начинающих любого возраста: детей, родителей, бабушек, дедушек и всех, кто хочет начать учить испанский. Предварительные знания и учебник не нужны.
 
 Как это работает: ты слышишь слово или предложение по-русски, а затем во время паузы пробуешь сказать то же самое по-испански. После этого ответ звучит дважды, с паузами для повторения.
 
@@ -18,17 +18,17 @@
 • Слушай выпуск снова, пока не начнёшь отвечать раньше диктора.
 • Фоновое прослушивание помогает привыкнуть к звукам и ритму языка. Занимайся и активно: повторяй и отвечай во время пауз.
 
-Нравится такой формат? У Repeto есть курсы и для других языков с такой же структурой. Ищи Repeto в своём приложении для подкастов.
+Нравится такой формат? У Repeto.stream есть курсы и для других языков с такой же структурой. Ищи Repeto.stream в своём приложении для подкастов.
 
 Напиши нам! Предложения новых языков, исправления и идеи для историй приветствуются: repeto.lingo@gmail.com
 
 Голоса созданы с помощью ИИ (Microsoft Azure).</description>
     <language>ru</language>
-    <itunes:author>Repeto</itunes:author>
+    <itunes:author>Repeto.stream</itunes:author>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>serial</itunes:type>
     <itunes:owner>
-      <itunes:name>Repeto</itunes:name>
+      <itunes:name>Repeto.stream</itunes:name>
       <itunes:email>repeto.lingo@gmail.com</itunes:email>
     </itunes:owner>
     <itunes:image href="https://repeto.stream/russian-spanish/cover-fd7e90ff.jpeg" />

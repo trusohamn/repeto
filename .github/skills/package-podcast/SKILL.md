@@ -17,6 +17,9 @@ does not synthesize audio or submit shows to Spotify.
   publishing requires separate authorization.
 - Check Git status and preserve user edits, covers, and existing course data.
 - Configure the project's Python environment and use `.venv/bin/python`.
+- The listener-facing brand is `Repeto.stream` (other apps already use
+  "Repeto"): show titles, author, descriptions and the homepage come from
+  `descriptions.BRAND`. Never change episode GUIDs, which keep `repeto:`.
 
 ## Validate inputs before packaging
 
@@ -93,16 +96,16 @@ podcast/<slug>/
 - English-source courses use practice `--source en` and story
   `--source-language en`, with English descriptions, `summary.en` story teasers
   and page labels. English-to-Swedish uses practice target `se`, story/catalog
-  target `sv`, and show title `Repeto – I learn Swedish`.
+  target `sv`, and show title `Repeto.stream – I learn Swedish`.
 - Russian-source courses use `--source ru` and `--source-language ru`,
   Russian descriptions, `summary.ru` teasers and page labels. Russian-to-Spanish
   uses `es` in both renderers, Spain Spanish voices, and title
-  `Repeto – Я учу испанский`. Check Russian count forms, including
+  `Repeto.stream – Я учу испанский`. Check Russian count forms, including
   `21 фраза`, `22 фразы`, `25 фраз` and `11 фраз`; Polish count rules
   differ for numbers ending in one.
 - Spanish-source courses use `--source es` and `--source-language es`,
   Spanish descriptions, `summary.es` teasers, page labels and season names
-  `Práctica` / `La radio mágica`; English-target title `Repeto – Aprendo inglés`.
+  `Práctica` / `La radio mágica`; English-target title `Repeto.stream – Aprendo inglés`.
 - German (`de`, `de-DE-KatjaNeural`) and French (`fr`, `fr-FR-DeniseNeural`)
   are target-only languages; add their names to every source's description
   maps before packaging a new direction.

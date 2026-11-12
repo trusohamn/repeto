@@ -19,9 +19,9 @@ class PodcastTests(unittest.TestCase):
             root = Path(directory)
             courses = []
             for language, title in (
-                ("en", "Repeto – I learn Swedish"),
+                ("en", "Repeto.stream – I learn Swedish"),
                 ("sv", "Repeto – Jag lär mig polska & engelska"),
-                ("pl", "Repeto – Uczę się szwedzkiego"),
+                ("pl", "Repeto.stream – Uczę się szwedzkiego"),
                 ("ru", "Repeto – Я учу испанский"),
             ):
                 course = root / f"{language}-course"
@@ -47,7 +47,7 @@ class PodcastTests(unittest.TestCase):
             podcast.build_index(root, courses)
             page = (root / "index.html").read_text(encoding="utf-8")
             self.assertEqual(page.count('<article class="course-card">'), 4)
-            self.assertIn('<header><a class="brand" href="./">Repeto</a></header>', page)
+            self.assertIn('<header><a class="brand" href="./">Repeto.stream</a></header>', page)
             self.assertIn('--logo-red:#f02b32', page)
             self.assertIn('--logo-pink:#fc4c9d', page)
             self.assertNotIn('<iframe ', page)
@@ -79,7 +79,7 @@ class PodcastTests(unittest.TestCase):
                 '<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">',
                 page,
             )
-            self.assertIn("<title>Repeto – screen-free language learning</title>", page)
+            self.assertIn("<title>Repeto.stream – screen-free language learning</title>", page)
             self.assertIn('Learn a language.<br><span>Without the screen.</span>', page)
             self.assertNotIn("Less screen time. More conversation.", page)
             self.assertNotIn("Listen. Speak. Make it yours.", page)
