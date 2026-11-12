@@ -172,13 +172,13 @@ def show_description(
         contents = []
         if practice_topics:
             contents.append(
-                "• Сезон 1 — Практика: "
+                "• Фразы: "
                 f"{_russian_count(practice_topics, 'короткая тема', 'короткие темы', 'коротких тем')} "
                 "— от приветствий и чисел до еды, чувств и повседневных ситуаций."
             )
         for title in story_titles:
             contents.append(
-                f"• Сезон 2 — История {title}: по одной главе в каждом выпуске. "
+                f"• История {title}: по одной главе в каждом выпуске. "
                 f"Сначала слушай главу {adverb}, затем тренируй слова "
                 "и слушай главу ещё раз."
             )
@@ -187,7 +187,7 @@ def show_description(
         )
         parts.append("Что входит в курс:\n" + "\n".join(contents))
         parts.append("Как заниматься:\n" + "\n".join([
-            "• Начни с первого выпуска первого сезона и слушай по порядку.",
+            "• Начни с первого выпуска с фразами и слушай по порядку.",
             "• Отвечай вслух во время пауз — попробуй вспомнить слова самостоятельно.",
             "• Слушай выпуск снова, пока не начнёшь отвечать раньше диктора.",
             "• Фоновое прослушивание помогает привыкнуть к звукам и ритму языка. "
@@ -217,13 +217,13 @@ def show_description(
         contents = []
         if practice_topics:
             contents.append(
-                f"• Temporada 1 – Práctica: {practice_topics} "
+                f"• Frases: {practice_topics} "
                 f"{'tema corto' if practice_topics == 1 else 'temas cortos'}, desde saludos "
                 "y números hasta comida, emociones y situaciones cotidianas."
             )
         for title in story_titles:
             contents.append(
-                f"• Temporada 2 – Cuento {title}: un capítulo en cada episodio. "
+                f"• Cuento {title}: un capítulo en cada episodio. "
                 f"Escucha el capítulo en {language}, practica su vocabulario "
                 "y vuelve a escuchar el capítulo."
             )
@@ -232,7 +232,7 @@ def show_description(
         )
         parts.append("Qué incluye:\n" + "\n".join(contents))
         parts.append("Cómo usar el curso:\n" + "\n".join([
-            "• Empieza por la temporada 1, episodio 1, y escucha en orden.",
+            "• Empieza por el primer episodio de frases y escucha en orden.",
             "• Responde en voz alta en cada pausa. Intenta recordar las palabras tú solo.",
             "• Vuelve a escuchar un episodio hasta que respondas antes que la voz grabada.",
             "• Escuchar de fondo te ayuda a acostumbrarte a los sonidos y al ritmo del "
@@ -262,13 +262,13 @@ def show_description(
         contents = []
         if practice_topics:
             contents.append(
-                f"• Season 1 – Practice: {practice_topics} short "
+                f"• Phrases: {practice_topics} short "
                 f"{'topic' if practice_topics == 1 else 'topics'}, from greetings and "
                 "numbers to food, feelings and everyday situations."
             )
         for title in story_titles:
             contents.append(
-                f"• Season 2 – Story: {title}, one chapter per episode. "
+                f"• Story: {title}, one chapter per episode. "
                 f"Listen to the chapter in {language}, practise its vocabulary, "
                 "then listen to the chapter again."
             )
@@ -277,7 +277,7 @@ def show_description(
         )
         parts.append("What's included:\n" + "\n".join(contents))
         parts.append("How to use the course:\n" + "\n".join([
-            "• Start with season 1, episode 1 and listen in order.",
+            "• Start with the first phrase episode and listen in order.",
             "• Answer out loud during each pause. Try to recall the words yourself.",
             "• Replay an episode until you can answer before the recorded voice.",
             "• Listening in the background can help you get used to the sounds and "
@@ -309,13 +309,13 @@ def show_description(
         contents = []
         if practice_topics:
             contents.append(
-                f"• Sezon 1 – Ćwiczenia: "
+                f"• Frazy: "
                 f"{_polish_count(practice_topics, 'krótki temat', 'krótkie tematy', 'krótkich tematów')}, "
                 "od powitań i liczb po jedzenie, emocje i codzienne sytuacje."
             )
         for title in story_titles:
             contents.append(
-                f"• Sezon 2 – Opowieść {title}: jeden rozdział w każdym odcinku. "
+                f"• Opowieść {title}: jeden rozdział w każdym odcinku. "
                 f"Najpierw słuchasz rozdziału po {adverb}, ćwiczysz słownictwo, "
                 "a potem słuchasz go ponownie."
             )
@@ -325,7 +325,7 @@ def show_description(
         )
         parts.append("W kursie znajdziesz:\n" + "\n".join(contents))
         parts.append("Jak korzystać z kursu:\n" + "\n".join([
-            "• Zacznij od sezonu 1, odcinka 1 i słuchaj po kolei.",
+            "• Zacznij od pierwszego odcinka z frazami i słuchaj po kolei.",
             "• Odpowiadaj na głos w przerwie – spróbuj samodzielnie przypomnieć sobie słowa.",
             "• Odtwórz odcinek ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
             "• Słuchanie w tle może pomóc oswoić się z brzmieniem i melodią języka. "
@@ -357,13 +357,13 @@ def show_description(
     contents = []
     if practice_topics:
         contents.append(
-            f"• Säsong 1 – Övningar: {practice_topics} "
+            f"• Fraser: {practice_topics} "
             f"{'kort ämne' if practice_topics == 1 else 'korta ämnen'}, från hälsningar och "
             "siffror till mat, känslor och vardag."
         )
     for title in story_titles:
         contents.append(
-            f"• Säsong 2 – Berättelsen {title}: ett kapitel per avsnitt. Du hör "
+            f"• Berättelsen {title}: ett kapitel per avsnitt. Du hör "
             f"kapitlet på {language}, övar orden och hör kapitlet igen."
         )
     contents.append(
@@ -372,7 +372,7 @@ def show_description(
     )
     parts.append("Det här ingår:\n" + "\n".join(contents))
     parts.append("Så använder du kursen:\n" + "\n".join([
-        "• Börja med säsong 1, avsnitt 1, och lyssna i ordning.",
+        "• Börja med det första avsnittet med fraser och lyssna i ordning.",
         "• Säg svaret högt i pausen – öva på att själv komma på orden.",
         "• Lyssna på avsnittet igen tills du hinner svara före rösten.",
         "• Bakgrundslyssning kan hjälpa dig att bli bekant med språkets ljud och "

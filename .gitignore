@@ -6,3 +6,11 @@ output/
 .env
 .env.*
 !.env.example
+
+# Generated website (built by .github/workflows/podcast.yml)
+podcast/index.html
+podcast/*/index.html
+podcast/*/transcripts/
+podcast/assets/
+podcast/sitemap.xml
+podcast/robots.txt

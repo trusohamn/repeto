@@ -1,5 +1,6 @@
 import importlib.util
 import json
+import re
 import tempfile
 import unittest
 import xml.etree.ElementTree as ET
@@ -14,103 +15,158 @@ SPEC.loader.exec_module(podcast)
 
 
 class PodcastTests(unittest.TestCase):
-    def test_homepage_groups_courses_and_uses_platform_links_without_embeds(self):
+    def _site(self, root: Path) -> list[Path]:
+        practice = {"topics": [
+            {"topic": "Greetings", "names": {"se": "Hälsningar", "en": "Greetings"},
+             "phrases": [{"se": "Hej", "en": "Hello", "es": "Hola"},
+                         {"se": "Tack", "en": "Thank you", "es": "Gracias"}]},
+        ]}
+        self.stories = {"magical_radio": {"titles": {"pl": "Magiczne radio"}, "chapters": [{
+            "chapter_number": 1, "titles": {"pl": "Stary stół"},
+            "chapter_text": {"sv": "Det är lördag.\n\nMaja är nio.", "es": "Es sábado.", "en": "It is Saturday."},
+            "vocabulary": [{"id": f"w{i}", "text": {"sv": f"ord{i}", "es": f"palabra{i}", "en": f"word{i}"}}
+                           for i in range(6)],
+        }]}}
+        courses = []
+        for slug, source, target, title, links in (
+            ("swedish-spanish", "sv", "es", "Repeto.stream – Jag lär mig spanska & mer", {}),
+            ("english-swedish", "en", "sv", "Repeto.stream – I learn Swedish", {
+                "Spotify": "https://open.spotify.com/show/4pCmGojSZmODKl9qvxTrgq",
+                "YouTube": "https://www.youtube.com/playlist?list=PLaiumH4cRmVQ",
+            }),
+        ):
+            course = root / slug
+            (course / "images/stories/magical_radio").mkdir(parents=True)
+            (course / "cover.jpeg").write_bytes(slug.encode())
+            (course / "images/stories/magical_radio/cover.jpeg").write_bytes(b"story")
+            config = {
+                "title": title, "language": source, "source_language": source, "target_language": target,
+                "description": "First paragraph.\n\nMore details.",
+                "seasons": {"1": "Practice", "2": "The Magical Radio"},
+                "episodes": [
+                    {"id": f"repeto:{slug}:topic-01", "title": "Greetings", "season": 1, "episode": 1,
+                     "duration_ms": 300000, "description": "Topic one.\n\nMore."},
+                    {"id": f"repeto:{slug}:topic-02", "title": "Missing", "season": 1, "episode": 2,
+                     "duration_ms": 60000, "description": "No transcript data."},
+                    {"id": f"magical_radio:{source}:{target}:chapter-01", "title": "Chapter 1",
+                     "season": 2, "episode": 1, "duration_ms": 600000, "description": "Story.",
+                     "image": "images/stories/magical_radio/cover.jpeg"},
+                ],
+            }
+            if links:
+                config["links"] = links
+            (course / "course.json").write_text(json.dumps(config), encoding="utf-8")
+            podcast.fingerprint_image(course / "cover.jpeg")
+            podcast.fingerprint_image(course / "images/stories/magical_radio/cover.jpeg")
+            courses.append(course)
+        (root / "swedish-spanish/transcripts").mkdir()
+        (root / "swedish-spanish/transcripts/stale.html").write_text("old")
+        podcast.build_index(root, courses, "https://example.com", practice=practice, stories=self.stories)
+        return courses
+
+    def test_homepage_links_cards_to_course_pages_without_feeds(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
-            courses = []
-            for language, title in (
-                ("en", "Repeto.stream – I learn Swedish"),
-                ("sv", "Repeto – Jag lär mig polska & engelska"),
-                ("pl", "Repeto.stream – Uczę się szwedzkiego"),
-                ("ru", "Repeto – Я учу испанский"),
-            ):
-                course = root / f"{language}-course"
-                course.mkdir()
-                (course / "cover.jpeg").write_bytes(b"cover")
-                config = {
-                    "language": language, "title": title,
-                    "description": "Repeated generic introduction that should not appear.",
-                    "episodes": [{}] * 38,
-                }
-                if language == "sv":
-                    config["links"] = {
-                        "Spotify": "https://open.spotify.com/show/4pCmGojSZmODKl9qvxTrgq",
-                        "YouTube": "https://www.youtube.com/playlist?list=PLaiumH4cRmVQ",
-                    }
-                if language == "en":
-                    config["links"] = {
-                        "YouTube": "https://www.youtube.com/playlist?list=PLXdnYK4NDPvE",
-                    }
-                (course / "course.json").write_text(json.dumps(config), encoding="utf-8")
-                podcast.fingerprint_image(course / "cover.jpeg")
-                courses.append(course)
-            podcast.build_index(root, courses)
+            courses = self._site(root)
             page = (root / "index.html").read_text(encoding="utf-8")
-            self.assertEqual(page.count('<article class="course-card">'), 4)
-            self.assertIn('<header><a class="brand" href="./">Repeto.stream</a></header>', page)
-            self.assertIn('--logo-red:#f02b32', page)
-            self.assertIn('--logo-pink:#fc4c9d', page)
-            self.assertNotIn('<iframe ', page)
-            self.assertNotIn('spotify-player', page)
-            self.assertIn(
-                '<a class="spotify-link" href="https://open.spotify.com/show/4pCmGojSZmODKl9qvxTrgq">'
-                'Open in Spotify</a>',
-                page,
-            )
-            self.assertEqual(page.count('class="youtube-link"'), 2)
-            self.assertIn(
-                '<a class="youtube-link" href="https://www.youtube.com/playlist?list=PLaiumH4cRmVQ">',
-                page,
-            )
-            self.assertIn(
-                '<h3 lang="en"><a href="https://www.youtube.com/playlist?list=PLXdnYK4NDPvE">',
-                page,
-            )
-            self.assertIn("Listen on YouTube", page)
-            self.assertNotIn("youtube-notice", page)
-            self.assertNotIn("All eight podcasts are available as playlists.", page)
-            self.assertEqual(page.count("38 episodes"), 4)
-            self.assertIn('<html lang="en">', page)
-            self.assertIn(
-                '<link rel="icon" type="image/png" sizes="32x32" href="favicon.png">',
-                page,
-            )
-            self.assertIn(
-                '<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">',
-                page,
-            )
-            self.assertIn("<title>Repeto.stream – screen-free language learning</title>", page)
-            self.assertIn('Learn a language.<br><span>Without the screen.</span>', page)
-            self.assertNotIn("Less screen time. More conversation.", page)
-            self.assertNotIn("Listen. Speak. Make it yours.", page)
-            self.assertNotIn('class="steps"', page)
-            self.assertIn("Press play in your podcast app, put the screen away", page)
-            self.assertIn("Little language adventures for kids, grown-ups, and anyone starting out.", page)
-            self.assertIn("together at the kitchen table or on a walk of your own.", page)
-            self.assertIn("Go at your own pace, together or on your own.", page)
-            self.assertNotIn('class="listen-link"', page)
-            self.assertNotIn("Słuchaj tutaj", page)
-            self.assertIn("For Swedish speakers", page)
-            self.assertIn(
-                '<h3 lang="sv"><a href="https://open.spotify.com/show/4pCmGojSZmODKl9qvxTrgq">',
-                page,
-            )
-            self.assertNotIn("Repeated generic introduction", page)
-            self.assertNotIn('class="rss-link"', page)
-            self.assertIn('<details class="podcast-apps"><summary>', page)
-            self.assertIn("These links are feeds, not listening pages.", page)
-            self.assertIn("Jag lär mig polska &amp; engelska", page)
-            for language in ("sv", "pl", "en", "ru"):
-                self.assertIn(f'href="#courses-{language}"', page)
-                self.assertIn(f'id="courses-{language}"', page)
-                self.assertIn(f'href="{language}-course/feed.xml"', page)
-                self.assertIn(f'src="{language}-course/cover-3fa405a8.jpeg"', page)
-            self.assertLess(page.index('id="courses-sv"'), page.index('id="courses-en"'))
-            self.assertIn('id="native-language">Choose your native language:</p>', page)
-            self.assertIn('aria-labelledby="native-language"', page)
-            original = (root / "index.html").read_bytes()
-            podcast.build_index(root, courses)
-            self.assertEqual((root / "index.html").read_bytes(), original)
+            self.assertEqual(page.count('<a class="card"'), 2)
+            self.assertIn('<a class="card" href="swedish-spanish/" data-source="sv" data-target="es">', page)
+            self.assertIn('<a class="card" href="english-swedish/" data-source="en" data-target="sv">', page)
+            self.assertIn('<h4 lang="sv">Jag lär mig spanska &amp; mer</h4>', page)
+            self.assertLess(page.index('data-source="sv"'), page.index('data-source="en"'))
+            self.assertNotIn("feed.xml", page)
+            self.assertNotIn("<audio", page)
+            self.assertNotIn("<iframe", page)
+            self.assertIn('href="https://github.com/trusohamn/repeto"', page)
+            self.assertIn("MIT", page)
+            self.assertIn("Suggest a correction", page)
+            self.assertIn("Request a language", page)
+            self.assertIn('class="steps"', page)
+            css = re.search(r'<link rel="stylesheet" href="(assets/site-[0-9a-f]{10}\.css)">', page).group(1)
+            self.assertIn("prefers-reduced-motion", (root / css).read_text(encoding="utf-8"))
+            self.assertRegex(page, r'<script src="assets/site-[0-9a-f]{10}\.js" defer></script>')
+            self.assertNotIn("<style", page)
+            self.assertEqual(len(list((root / "assets").iterdir())), 2)
+            self.assertIn('<option value="sv" lang="sv">svenska</option>', page)
+            self.assertIn('"name": "spanska"', page)
+            self.assertIn('"speak": "Jag talar"', page)
+            self.assertNotIn('class="chip"', page)
+            self.assertIn('<link rel="icon" type="image/png" sizes="32x32" href="favicon.png">', page)
+            self.assertIn('<link rel="canonical" href="https://example.com/">', page)
+            self.assertIn('<meta property="og:image" content="https://example.com/social.jpeg">', page)
+            self.assertIn('src="images/stories/magical_radio/cover-', page.replace("swedish-spanish/", ""))
+            original = page
+            podcast.build_index(root, courses, "https://example.com", practice=None, stories=self.stories)
+            podcast.build_index(root, courses, "https://example.com",
+                                practice={"topics": []}, stories=self.stories)
+            self.assertEqual((root / "index.html").read_text(encoding="utf-8"), original)
+
+    def test_course_page_is_localized_with_listen_links_and_transcripts(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            self._site(root)
+            english = (root / "english-swedish/index.html").read_text(encoding="utf-8")
+            swedish = (root / "swedish-spanish/index.html").read_text(encoding="utf-8")
+            for page in (english, swedish):
+                self.assertNotIn("<audio", page)
+                self.assertNotIn("feed.xml", page)
+                self.assertNotIn("<iframe", page)
+                self.assertIn('href="../favicon.png"', page)
+                self.assertIn('href="transcripts/season-1-episode-01.html"', page)
+                self.assertIn('href="transcripts/season-2-episode-01.html"', page)
+                self.assertNotIn("season-1-episode-02.html", page)
+                self.assertIn('href="transcripts/season-1.html"', page)
+            self.assertIn('href="https://open.spotify.com/show/4pCmGojSZmODKl9qvxTrgq"', english)
+            self.assertIn('<html lang="en">', english)
+            self.assertIn("Listen on YouTube", english)
+            self.assertIn('<html lang="sv">', swedish)
+            self.assertNotIn("open.spotify.com", swedish)
+            self.assertIn("Kursen kommer snart till Spotify.", swedish)
+            self.assertIn("Svenska → Spanska", swedish)
+            self.assertIn("<h1>Jag lär mig spanska &amp; mer</h1>", swedish)
+            self.assertIn("3 avsnitt", swedish.replace("<b>3</b><span>", "3 "))
+            self.assertIn("Hittat ett fel?", swedish)
+
+    def test_transcripts_follow_spoken_order_and_replace_stale_files(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            self._site(root)
+            folder = root / "swedish-spanish/transcripts"
+            self.assertEqual(sorted(path.name for path in folder.iterdir()), [
+                "season-1-episode-01.html", "season-1.html", "season-2-episode-01.html", "season-2.html",
+            ])
+            practice = (folder / "season-1-episode-01.html").read_text(encoding="utf-8")
+            self.assertIn('<td lang="sv">Hej</td><td lang="es">Hola</td>', practice)
+            self.assertLess(practice.index("Hola"), practice.index("Gracias"))
+            self.assertIn('data-print', practice)
+            self.assertRegex(practice, r'href="\.\./\.\./assets/site-[0-9a-f]{10}\.css"')
+            self.assertIn('href="../../favicon.png"', practice)
+            story = (folder / "season-2-episode-01.html").read_text(encoding="utf-8")
+            self.assertIn('<div class="target" lang="es">', story)
+            self.assertIn("<p>Det är lördag.</p><p>Maja är nio.</p>", story)
+            chapter = self.stories["magical_radio"]["chapters"][0]
+            vocabulary = list(chapter["vocabulary"])
+            import random
+            random.Random("1:Stary stół").shuffle(vocabulary)
+            positions = [story.index(f'<td lang="es">{item["text"]["es"]}</td>') for item in vocabulary]
+            self.assertEqual(positions, sorted(positions))
+            self.assertNotEqual([item["id"] for item in vocabulary], [f"w{i}" for i in range(6)])
+            season = (folder / "season-1.html").read_text(encoding="utf-8")
+            self.assertEqual(season.count('<article class="sheet">'), 1)
+            self.assertIn('<h2 class="title">Greetings</h2>', season)
+
+    def test_sitemap_and_robots(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            self._site(root)
+            sitemap = (root / "sitemap.xml").read_text(encoding="utf-8")
+            ET.fromstring(sitemap)
+            self.assertIn("<loc>https://example.com/</loc>", sitemap)
+            self.assertIn("<loc>https://example.com/swedish-spanish/</loc>", sitemap)
+            self.assertIn("<loc>https://example.com/swedish-spanish/transcripts/season-2.html</loc>", sitemap)
+            robots = (root / "robots.txt").read_text(encoding="utf-8")
+            self.assertIn("Disallow: /*/audio/", robots)
+            self.assertIn("Sitemap: https://example.com/sitemap.xml", robots)
 
     def test_homepage_rejects_unverified_spotify_urls(self):
         with tempfile.TemporaryDirectory() as directory:
@@ -207,18 +263,7 @@ class PodcastTests(unittest.TestCase):
                 show_artwork.get("href"),
                 "https://example.com/repeto/swedish-polish/cover-37fbc2b9.jpeg",
             )
-            self.assertIn(
-                'src="cover-37fbc2b9.jpeg"', (course / "index.html").read_text()
-            )
-            page = (course / "index.html").read_text()
-            self.assertIn(
-                '<link rel="icon" type="image/png" sizes="32x32" href="../favicon.png">',
-                page,
-            )
-            self.assertIn(
-                '<link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">',
-                page,
-            )
+            self.assertFalse((course / "index.html").exists())
             for invalid in (
                 "../escape.jpeg", "/absolute.jpeg", "nested\\escape.jpeg",
                 "nested/../escape.jpeg", "https://example.com/cover.jpeg",

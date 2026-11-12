@@ -1,0 +1,11 @@
+  <div class="picker reveal" lang="{{ picker.source }}">
+   <div class="pick-text">
+    <p class="sentence"><span data-word="speak">{{ picker.first.speak }}</span>
+     <span class="pick"><select id="pick-speak" aria-label="Language you speak">{% for s, label in picker.speak_options %}<option value="{{ s }}" lang="{{ s }}"{% if s == picker.source %} selected{% endif %}>{{ label }}</option>{% endfor %}</select></span>
+     <span data-word="learn">{{ picker.first.learn }}</span>
+     <span class="pick learn"><select id="pick-learn" aria-label="Language you want to learn">{% for c in picker.first.courses %}<option value="{{ c.target }}">{{ c.name }}</option>{% endfor %}</select></span></p>
+    <p class="pick-meta"><a class="btn btn-orange pick-go" href="{{ picker.course.href }}">{{ picker.first.start }} →</a><span class="meta">{{ picker.course.meta }}</span></p>
+   </div>
+   <a class="pick-cover" href="{{ picker.course.href }}" tabindex="-1" aria-hidden="true"><img src="{{ picker.course.cover }}" alt="" width="600" height="600"></a>
+   <script type="application/json" id="picker-data">{{ picker.json }}</script>
+  </div>

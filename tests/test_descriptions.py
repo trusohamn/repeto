@@ -105,7 +105,7 @@ class DescriptionTests(unittest.TestCase):
         self.assertEqual(descriptions.show_title("se", source="en"), "Repeto.stream – I learn Swedish")
         text = descriptions.show_description("sv", 30, [], "a@b.se", source="en")
         self.assertIn("English prompts", text)
-        self.assertIn("Season 1 – Practice: 30 short topics", text)
+        self.assertIn("Phrases: 30 short topics", text)
         self.assertIn("answer twice", text)
         self.assertIn("AI-generated", text)
         self.assertIn("corrections and story ideas are welcome: a@b.se", text)
@@ -160,7 +160,7 @@ class DescriptionTests(unittest.TestCase):
         self.assertEqual(descriptions.show_title("en", source="es"), "Repeto.stream – Aprendo inglés")
         text = descriptions.show_description("en", 30, [], "a@b.se", source="es")
         self.assertIn("indicaciones en español", text)
-        self.assertIn("Temporada 1 – Práctica: 30 temas cortos", text)
+        self.assertIn("Frases: 30 temas cortos", text)
         self.assertIn("sugerencias de nuevos idiomas", text)
         self.assertIn("a@b.se", text)
         text = descriptions.practice_description(
@@ -240,8 +240,8 @@ class DescriptionTests(unittest.TestCase):
             "a@b.se",
         )
         self.assertIn("nybörjare i alla åldrar", text)
-        self.assertIn("Säsong 1 – Övningar: 30 korta ämnen", text)
-        self.assertIn("Säsong 2 – Berättelsen ”Den magiska radion” (Magiczne Radio)", text)
+        self.assertIn("Fraser: 30 korta ämnen", text)
+        self.assertIn("Berättelsen ”Den magiska radion” (Magiczne Radio)", text)
         self.assertIn("Repeto.stream finns även på andra språk", text)
         self.assertNotIn("http", text)
         self.assertIn("Fler berättelser är på väg", text)
@@ -269,7 +269,7 @@ class DescriptionTests(unittest.TestCase):
             source="pl",
         )
         self.assertIn("Ucz się angielskiego", text)
-        self.assertIn("Sezon 1 – Ćwiczenia: 30 krótkich tematów", text)
+        self.assertIn("Frazy: 30 krótkich tematów", text)
         self.assertIn("„Magiczne radio” (The Magic Radio)", text)
         self.assertIn("słuchasz rozdziału po angielsku", text)
         self.assertNotIn("po angielskiego", text)

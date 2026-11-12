@@ -1,0 +1,102 @@
+{% extends 'base.html' %}
+{% block body %}
+<main id="main">
+<section class="hero">
+ <div class="wrap">
+  <div>
+   <p class="eyebrow">Free audio language courses</p>
+   <h1>Learn a language <em>on the go</em> – no screen needed.</h1>
+   <p class="lead">Each episode plays a phrase in your language, pauses while you say it in the new one, then plays the answer twice. For children and adults, while walking, driving or cooking.</p>
+   <div class="ctas"><a class="btn btn-orange" href="#courses">Find your course</a><a class="btn btn-ghost" href="#how">How it works</a></div>
+   <ul class="facts"><li>Screen-free</li><li>Free, no account</li><li>{{ total }} language pairs</li><li>Printable transcripts</li></ul>
+  </div>
+  {% include '_hero_svg.html' %}
+ </div>
+ <svg class="wave-band" viewBox="0 0 1200 70" preserveAspectRatio="none" aria-hidden="true"><path d="M0 40 C200 0 400 70 600 35 S1000 0 1200 35 V70 H0Z" fill="#2e8f8c"/></svg>
+</section>
+<div class="marquee" aria-label="Moments for listening"><div class="marquee-track">{% for m in moments * 2 %}<span>{{ m }}</span>{% endfor %}</div></div>
+
+<section id="how">
+ <div class="wrap">
+  <p class="eyebrow">How it works</p>
+  <h2>Every episode works the same way</h2>
+  <div class="trail-wrap">
+  {% set trail = 'M0 45 C60 10 90 10 125 45 S190 80 250 45 S330 10 375 45 S440 80 500 45 S580 10 625 45 S690 80 750 45 S830 10 875 45 S940 80 1000 45' %}
+  <svg class="trail" viewBox="0 0 1000 90" aria-hidden="true">
+   <path class="trail-bg" d="{{ trail }}"/>
+   <path class="trail-line" d="{{ trail }}"/>
+   {% for cx in [125, 375, 625, 875] %}<circle class="stop" cx="{{ cx }}" cy="45" r="11"/>{% endfor %}
+
+   <g class="traveller"><circle r="17" fill="#e8604a"/><text y="7" text-anchor="middle" font-size="20" font-weight="800" fill="#fff">♪</text></g>
+  </svg>
+  <ol class="steps">
+  {% for image, title, text in steps %}
+   <li class="reveal"><img class="art" src="images/site/{{ image }}" alt="" width="800" height="800" loading="lazy"><h3>{{ title }}</h3><p>{{ text }}</p></li>
+  {% endfor %}
+  </ol>
+  </div>
+ </div>
+</section>
+
+<section id="courses" class="alt">
+ <div class="wrap">
+  <p class="eyebrow">Courses</p>
+  <h2>Choose your language pair</h2>
+  <p class="lead">Instructions and prompts are in the language you already speak.</p>
+  {% include '_picker.html' %}
+  <h3 class="all-title">All courses</h3>
+  {% for group in groups %}
+  <div class="group"><h3><span lang="{{ group.source }}">{{ group.native }}</span> <small>For {{ group.name }} speakers</small></h3>
+   <div class="cards">
+   {% for card in group.cards %}
+    <a class="card" href="{{ card.slug }}/" data-source="{{ group.source }}" data-target="{{ card.target }}"><img src="{{ card.slug }}/{{ card.cover }}" alt="" loading="lazy" width="600" height="600"><div class="body"><span class="pair">{{ card.pair }}</span><h4 lang="{{ group.source }}">{{ card.title }}</h4><span class="meta">{{ card.meta }}</span>{% if card.spotify %}<span class="tags"><span class="badge">On Spotify</span></span>{% endif %}</div></a>
+   {% endfor %}
+   </div>
+  </div>
+  {% endfor %}
+  <p class="missing">Missing a language pair? Write to <a href="mailto:{{ EMAIL }}">{{ EMAIL }}</a>.</p>
+ </div>
+</section>
+
+<section id="inside">
+ <div class="wrap">
+  <p class="eyebrow">What's inside</p>
+  <h2>Two ways to learn</h2>
+  <div class="inside">
+   <div class="panel reveal"><span class="badge">Phrases</span><h3>Everyday phrases</h3>
+    <p>30 everyday topics, such as greetings, food, weather and feelings. Each phrase follows this pattern:</p>
+    <div class="dialog" aria-label="Example"><span class="bubble src" lang="en">I'm hungry.</span><span class="bubble pause">… your turn …</span><span class="bubble tgt" lang="es">Tengo hambre.</span></div>
+   </div>
+   <div class="panel story reveal">{% if story_cover %}<img src="{{ story_cover }}" alt="The Magical Radio cover" loading="lazy" width="300" height="300">{% else %}<span></span>{% endif %}<div><span class="badge">Stories</span><h3>The Magical Radio</h3>
+    <p>The first story, in eight chapters. Each episode plays a chapter, practises its key words, then plays the chapter again. More stories are coming.</p></div>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section class="alt" id="families">
+ <div class="wrap">
+  <p class="eyebrow">Who it's for</p>
+  <h2>For children and adults</h2>
+  <ul class="trust">
+  {% for image, title, text in audience %}
+   <li class="reveal"><img class="art" src="images/site/{{ image }}" alt="" width="800" height="600" loading="lazy"><b>{{ title }}</b><p>{{ text }}</p></li>
+  {% endfor %}
+  </ul>
+ </div>
+</section>
+
+<section id="soon">
+ <div class="wrap">
+  <p class="eyebrow">Coming soon</p>
+  <h2>Planned features</h2>
+  <div class="soon-grid">
+  {% for image, title, text in planned %}
+   <div class="soon-card reveal"><img class="art" src="images/site/{{ image }}" alt="" width="600" height="600" loading="lazy"><div><span class="badge soon">Coming soon</span><h3>{{ title }}</h3><p>{{ text }}</p></div></div>
+  {% endfor %}
+  </div>
+  <p>Until then, write to us at <a href="mailto:{{ EMAIL }}">{{ EMAIL }}</a>.</p>
+ </div>
+</section>
+</main>
+{% endblock %}

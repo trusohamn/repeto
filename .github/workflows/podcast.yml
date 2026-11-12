@@ -2,7 +2,7 @@ name: Publish podcasts
 on:
   push:
     branches: [main]
-    paths: ["podcast/**", "code/podcast.py", "tests/test_podcast.py", ".github/workflows/podcast.yml"]
+    paths: ["podcast/**", "code/podcast.py", "code/website.py", "code/templates/**", "code/site/**", "courses/practice/transcript.json", "courses/practice/topics.json", "courses/stories/*/generated/transcript.json", "tests/test_podcast.py", ".github/workflows/podcast.yml"]
   workflow_dispatch:
 
 permissions:
@@ -26,6 +26,7 @@ jobs:
         with:
           python-version: "3.13"
       - run: |
+          pip install "jinja2>=3.1,<4"
           python -m unittest discover -s tests -p test_podcast.py -v
           python code/podcast.py
       - uses: actions/configure-pages@v5

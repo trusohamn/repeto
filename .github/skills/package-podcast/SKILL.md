@@ -63,7 +63,8 @@ podcast/<slug>/
     stories/<story-id>/<original-render-filename>.mp3
   images/stories/<story-id>/cover-<hash>.jpeg
   feed.xml
-  index.html
+  index.html               # generated course page (git-ignored)
+  transcripts/             # generated printable transcripts (git-ignored)
 ```
 
 - For vocabulary practice, prefer `code/package_practice.py`; it performs
@@ -148,7 +149,15 @@ Parse the new RSS and verify:
   `audio/mpeg` type; confirm copied bytes match the validated render.
 - Duration and publication metadata match the catalog.
 - All URLs use the correct HTTPS base URL and course slug.
-- The root podcast index links to the new course.
+- The root podcast index has a card linking to the new course page
+  (`<slug>/index.html`). Pages never link to `feed.xml` or embed raw MP3s;
+  add `links.Spotify` / `links.YouTube` to show listen buttons, otherwise the
+  page says Spotify is coming soon.
+- Every practice and story episode has a transcript under
+  `<slug>/transcripts/`, and `sitemap.xml` lists the course and transcripts.
+- Site markup is in `code/templates/` (Jinja2) and styles/script in
+  `code/site/`; edit those, not the generated HTML. Generated pages, `assets/`,
+  `sitemap.xml` and `robots.txt` are git-ignored and rebuilt by the workflow.
 
 Update the README feed list and report the local package path, topic/entry
 counts, total duration, and expected feed URL. Do not call an unpublished URL

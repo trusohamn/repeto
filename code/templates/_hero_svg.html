@@ -1,0 +1,44 @@
+<svg class="hero-art" viewBox="0 0 400 400" role="img" aria-label="Headphones with two speech bubbles: hear a phrase, say it in a new language">
+<g class="flow-lines" fill="none" stroke-width="6" stroke-linecap="round">
+{% for y, color, dur, dash in [(318, '#4a62c4', 2.2, '40 14'), (334, '#e8604a', 3.0, '22 12'), (350, '#2e8f8c', 2.6, '60 18'), (366, '#f0962f', 3.4, '14 10'), (382, '#e8604a', 2.8, '30 16')] %}
+<path class="flow" style="animation-duration:{{ dur }}s;stroke-dasharray:{{ dash }}" stroke="{{ color }}" d="M-20 {{ y }} C70 {{ y - 34 }} 130 {{ y + 30 }} 210 {{ y }} S340 {{ y - 30 }} 420 {{ y }}"/>
+{% endfor %}
+</g>
+{% for x, y, r, color, delay in [(40, 300, 4, '#e8604a', 0), (120, 392, 3.5, '#2e8f8c', -1.5), (230, 306, 4, '#f0962f', -3), (300, 396, 3, '#4a62c4', -4.5), (360, 312, 4, '#2e8f8c', -2.2), (180, 372, 3, '#e8604a', -5.4)] %}
+<circle class="drift" style="animation-delay:{{ delay }}s" cx="{{ x }}" cy="{{ y }}" r="{{ r }}" fill="{{ color }}"/>
+{% endfor %}
+{% for cx, color, delay in [(74, '#e8604a', 0), (74, '#2e8f8c', 1), (326, '#2e8f8c', 0.5), (326, '#f0962f', 1.5)] %}
+<circle class="ring" style="animation-delay:{{ delay }}s" cx="{{ cx }}" cy="250" r="54" fill="none" stroke="{{ color }}" stroke-width="3"/>
+{% endfor %}
+{% for x, dx, delay, size, fill, glyph in [(60, -30, 0, 30, '#e8604a', '♪'), (335, 30, 1.3, 34, '#f0962f', '♫'), (80, -10, 2.6, 26, '#4a62c4', '♩'), (320, 20, 3.6, 28, '#2e8f8c', '♪'), (200, 0, 4.4, 24, '#e8604a', '♫')] %}
+<text class="note" style="--dx:{{ dx }}px;animation-delay:{{ delay }}s" x="{{ x }}" y="250" font-size="{{ size }}" fill="{{ fill }}">{{ glyph }}</text>
+{% endfor %}
+<g class="phones"><g class="bob">
+<path d="M78 240 C78 62 322 62 322 240" fill="none" stroke="#e8604a" stroke-width="24" stroke-linecap="round"/>
+<path d="M98 238 C98 88 302 88 302 238" fill="none" stroke="#2e8f8c" stroke-width="9" stroke-linecap="round"/>
+<path d="M86 236 C86 66 314 66 314 236" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-dasharray="0 150 70 1000" opacity=".45"/>
+<rect x="66" y="186" width="18" height="30" rx="6" fill="#c4462f"/><rect x="316" y="186" width="18" height="30" rx="6" fill="#c4462f"/>
+{% for side, cx, pad in [('l', 74, 100), ('r', 326, 300)] %}
+<g class="cup cup-{{ side }}"><ellipse cx="{{ cx }}" cy="250" rx="38" ry="54" fill="#f0962f"/>
+<ellipse cx="{{ cx }}" cy="262" rx="30" ry="34" fill="#e07a1f" opacity=".45"/>
+<ellipse cx="{{ pad }}" cy="250" rx="19" ry="50" fill="#2e8f8c"/>
+<ellipse cx="{{ pad }}" cy="250" rx="6" ry="30" fill="#1c2547" opacity=".55"/>
+<path d="M{{ cx - 18 }} 214 Q{{ cx - 24 }} 236 {{ cx - 20 }} 258" stroke="#fff" stroke-width="5" stroke-linecap="round" fill="none" opacity=".45"/></g>
+{% endfor %}
+<g class="bub bub-l"><circle cx="160" cy="212" r="44" fill="#f0962f"/><path d="M134 244 L120 274 L156 252Z" fill="#f0962f"/></g>
+<g class="bub bub-r"><circle cx="244" cy="208" r="46" fill="#fff"/><path d="M270 242 L286 272 L252 252Z" fill="#fff"/></g>
+{% for i in range(3) %}
+<circle class="typing" style="animation-delay:{{ i * 0.12 }}s" cx="{{ 190 + i * 11 }}" cy="150" r="4" fill="#1c2547"/>
+{% endfor %}
+<g>
+{% for left, right in word_pairs %}
+<text class="word{{ ' first' if loop.first }}" style="animation-delay:{{ loop.index0 * 4 }}s" x="158" y="219" text-anchor="middle" font-size="19" font-weight="800" fill="#1c2547">{{ left }}</text>
+{% endfor %}
+</g>
+<g>
+{% for left, right in word_pairs %}
+<text class="word word-r{{ ' first' if loop.first }}" style="animation-delay:{{ loop.index0 * 4 + 1.6 }}s" x="244" y="215" text-anchor="middle" font-size="19" font-weight="800" fill="#1c2547">{{ right }}</text>
+{% endfor %}
+</g>
+</g></g>
+</svg>

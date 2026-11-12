@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% macro phrase_table(rows) %}
+<table class="phrases"><thead><tr><th scope="col">{{ t.hear }} · {{ names.source }}</th><th scope="col">{{ t.say }} · {{ names.target }}</th></tr></thead>
+<tbody>{% for left, right in rows %}<tr><td lang="{{ langs.source }}">{{ left }}</td><td lang="{{ langs.target }}">{{ right }}</td></tr>{% endfor %}</tbody></table>
+{% endmacro %}
+{% block body %}
+<main id="main" class="doc">
+<div class="doc-bar no-print"><a class="back" href="../">← {{ t.back }}</a><button class="btn btn-orange" type="button" data-print>{{ t.print }}</button></div>
+{% for sheet in sheets %}
+<article class="sheet">
+ <header><img src="../{{ sheet.cover }}" alt="" width="84" height="84"><div><p class="eyebrow">{{ sheet.label }} · {{ t.episode }} {{ sheet.number }}</p><{{ heading }}{% if heading != 'h1' %} class="title"{% endif %}>{{ sheet.title }}</{{ heading }}></div></header>
+{% if sheet.story %}
+ <h3>{{ t.part1 }}</h3>
+ <div class="story-text"><div class="target" lang="{{ langs.target }}"><h4>{{ names.target }}</h4>{% for p in sheet.story.target %}<p>{{ p }}</p>{% endfor %}</div>
+ <div class="source" lang="{{ langs.source }}"><h4>{{ t.translation }} · {{ names.source }}</h4>{% for p in sheet.story.source %}<p>{{ p }}</p>{% endfor %}</div></div>
+ <h3>{{ t.part2 }}</h3>
+ {{ phrase_table(sheet.rows) }}
+ <h3>{{ t.part3 }}</h3><p>{{ t.again }}</p>
+{% else %}
+ <p>{{ t.practice_intro }}</p>
+ {{ phrase_table(sheet.rows) }}
+{% endif %}
+ <p class="printed-from">{{ BRAND }} · {{ course_title }}</p>
+</article>
+{% endfor %}
+{% with no_print = true %}{% include '_mistake.html' %}{% endwith %}
+</main>
+{% endblock %}

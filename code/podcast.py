@@ -2,15 +2,19 @@
 
 import argparse
 import hashlib
-import html
 import json
 import re
+import sys
 import xml.etree.ElementTree as ET
 from datetime import datetime
 from email.utils import format_datetime
 from pathlib import Path
 from pathlib import PurePosixPath
 from urllib.parse import quote
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import website  # noqa: E402
+from website import text_to_html  # noqa: E402,F401
 
 ITUNES = "http://www.itunes.com/dtds/podcast-1.0.dtd"
 ATOM = "http://www.w3.org/2005/Atom"
@@ -19,112 +23,6 @@ ET.register_namespace("itunes", ITUNES)
 ET.register_namespace("atom", ATOM)
 ET.register_namespace("content", CONTENT)
 FINGERPRINT = re.compile(r"-[0-9a-f]{8}")
-LIST_ITEM = re.compile(r"(?:•|\d+\.)\s+")
-STYLE = (
-    "body{font-family:system-ui,sans-serif;max-width:42rem;margin:auto;padding:1rem;"
-    "line-height:1.5;color:#222}img{max-width:100%;height:auto;border-radius:.5rem}"
-    "audio{width:100%}details{margin:.75rem 0;border-bottom:1px solid #ddd;"
-    "padding-bottom:.75rem}summary{cursor:pointer;font-weight:600}"
-    ".card{display:flex;gap:1rem;margin:1.5rem 0}.card img{width:8rem;flex:none}"
-)
-HOME_STYLE = """
-:root{color-scheme:light;--ink:#182849;--muted:#536570;--paper:#fbf8f2;--accent:#b9232a;
---logo-red:#f02b32;--logo-yellow:#fec607;--logo-green:#65bb40;--logo-blue:#439dd8;
---logo-pink:#fc4c9d;--logo-purple:#a04bcd;
---rainbow:linear-gradient(90deg,var(--logo-red) 0% 16.67%,var(--logo-yellow) 16.67% 33.33%,
-var(--logo-green) 33.33% 50%,var(--logo-blue) 50% 66.67%,var(--logo-pink) 66.67% 83.33%,
-var(--logo-purple) 83.33% 100%)}
-*{box-sizing:border-box}html{scroll-behavior:smooth}
-body{margin:0;background:var(--paper);color:var(--ink);font-family:system-ui,sans-serif;line-height:1.6}
-a{color:inherit}a:focus-visible{outline:3px solid var(--accent);outline-offset:5px}
-.shell{max-width:1160px;margin:auto;padding:0 28px}.skip{position:absolute;left:24px;top:-100px}
-.skip:focus{top:12px;background:white;padding:12px;z-index:2}
-header{display:flex;justify-content:space-between;align-items:center;padding:24px 0}
-.brand{display:inline-block;font-size:1.6rem;font-weight:900;letter-spacing:-.06em;text-decoration:none}
-.hero{padding:24px 0 36px;max-width:820px}
-.hero::after{content:"";display:block;width:180px;height:6px;background:var(--rainbow);
-border-radius:100px;margin-top:24px}
-h1{font-size:clamp(2.7rem,7vw,5.3rem);line-height:1.05;letter-spacing:-.065em;margin:16px 0 24px}
-h1 span{color:var(--accent);text-decoration:underline;text-decoration-color:var(--logo-yellow);
-text-decoration-thickness:6px;text-underline-offset:8px}
-.hero p{font-size:1.15rem;max-width:580px;color:var(--muted)}
-.language-label{font-weight:650;margin:0 0 12px}
-.language-nav{display:flex;gap:10px;flex-wrap:wrap;padding:0 0 30px}
-.language-nav a{border:1px solid #c7cec9;border-radius:100px;padding:9px 20px;text-decoration:none;font-weight:650}
-.language-nav a:nth-child(4n+1){background:#e0efdf;border-color:var(--logo-green)}
-.language-nav a:nth-child(4n+2){background:#fff0ce;border-color:var(--logo-yellow)}
-.language-nav a:nth-child(4n+3){background:#e0eafa;border-color:var(--logo-blue)}
-.language-nav a:nth-child(4n+4){background:#f0e1f3;border-color:var(--logo-purple)}
-.language-nav a:hover{background:var(--ink);color:white;border-color:var(--ink)}
-.course-section{padding:28px 0 36px;scroll-margin-top:16px;border-top:1px solid #dedfd5}
-.section-heading{margin-bottom:24px}
-h2{font-size:1.65rem;letter-spacing:-.035em;margin:0}
-.course-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}
-.course-card{background:white;border:1px solid #e3e4dc;border-radius:22px;overflow:hidden;box-shadow:0 5px 20px #182b3907}
-.cover-link{display:block;overflow:hidden;background:#eee}.cover-link img{display:block;width:100%;aspect-ratio:1;object-fit:cover}
-.card-body{padding:20px}.course-card h3{font-size:1.28rem;margin:0 0 8px;letter-spacing:-.025em}
-.course-card h3 a{text-decoration:none}.course-card h3 a:hover{text-decoration:underline}
-.episode-count{font-size:.85rem;color:var(--muted);margin:0 0 18px}
-.platform-links{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px}
-.platform-links a{border:1px solid #c7cec9;border-radius:100px;padding:7px 13px;
-font-size:.85rem;font-weight:650;text-decoration:none}
-.platform-links a:hover{background:var(--ink);color:white;border-color:var(--ink)}
-.platform-links .spotify-link{color:#176c38;background:#e0efdf}
-.platform-links .youtube-link{color:#a52e20;background:#ffe6df}
-.platform-links a:hover{background:var(--ink);color:white}
-.closing{background:#e0efdf;color:var(--ink);border-radius:24px;padding:32px;margin:20px 0 40px}
-.closing h2{font-size:1.8rem}.closing p{max-width:650px;margin-bottom:0;color:var(--muted)}
-.podcast-apps{margin:0 0 32px;color:var(--muted);font-size:.9rem}
-.podcast-apps summary{cursor:pointer;font-weight:650}.podcast-apps ul{padding-left:20px}
-footer{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;border-top:1px solid #dedfd5;
-padding:24px 0 36px;font-size:.8rem;color:var(--muted)}
-@media(max-width:850px){.course-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media(max-width:540px){.shell{padding:0 20px}
-.hero{padding-top:24px}.course-grid{grid-template-columns:1fr}.closing{padding:24px}}
-@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
-"""
-HOME_AUDIENCES = {
-    "sv": ("Swedish", "For Swedish speakers"),
-    "pl": ("Polish", "For Polish speakers"),
-    "en": ("English", "For English speakers"),
-    "ru": ("Russian", "For Russian speakers"),
-    "es": ("Spanish", "For Spanish speakers"),
-}
-
-
-def text_to_html(text: str) -> str:
-    """Render plain description text: blank lines split paragraphs, • or N. lines form lists."""
-    blocks = []
-    for paragraph in text.strip().split("\n\n"):
-        lines = paragraph.splitlines()
-        heading = [line for line in lines if not LIST_ITEM.match(line)]
-        items = [LIST_ITEM.sub("", line, count=1) for line in lines if LIST_ITEM.match(line)]
-        if heading and not items:
-            blocks.append("<p>" + "<br>".join(html.escape(line) for line in lines) + "</p>")
-            continue
-        if heading:
-            blocks.append("<p>" + "<br>".join(html.escape(line) for line in heading) + "</p>")
-        tag = "ol" if LIST_ITEM.match(lines[-1]) and lines[-1][0].isdigit() else "ul"
-        blocks.append(
-            f"<{tag}>" + "".join(f"<li>{html.escape(item)}</li>" for item in items) + f"</{tag}>"
-        )
-    return "".join(blocks)
-
-
-def _page(
-    title: str, body: str, language: str = "sv", *,
-    style: str = STYLE, asset_prefix: str = "../",
-) -> str:
-    return (
-        f'<!doctype html><html lang="{html.escape(language, quote=True)}"><meta charset="utf-8">'
-        '<meta name="viewport" content="width=device-width,initial-scale=1">'
-        f'<link rel="icon" type="image/png" sizes="32x32" '
-        f'href="{html.escape(asset_prefix, quote=True)}favicon.png">'
-        f'<link rel="apple-touch-icon" sizes="180x180" '
-        f'href="{html.escape(asset_prefix, quote=True)}apple-touch-icon.png">'
-        f"<title>{html.escape(title)}</title><style>{style}</style>{body}</html>\n"
-    )
-
 
 def _fingerprinted_versions(path: Path) -> list[Path]:
     return sorted(
@@ -289,135 +187,40 @@ def build_feed(course: Path, base_url: str) -> None:
         )
     ET.indent(rss)
     ET.ElementTree(rss).write(course / "feed.xml", encoding="utf-8", xml_declaration=True)
-    cover_label, listen_label, season_label, rss_label = {
-        "pl": ("Okładka", "Słuchaj", "Sezon", "Kanał RSS"),
-        "en": ("Cover", "Listen", "Season", "RSS feed"),
-        "ru": ("Обложка", "Слушать", "Сезон", "RSS-лента"),
-        "es": ("Portada", "Escuchar", "Temporada", "Canal RSS"),
-    }.get(config["language"], ("Omslag", "Lyssna", "Säsong", "RSS-flöde"))
-    links = [
-        f'<a href="{html.escape(link_url)}">{html.escape(name)}</a>'
-        for name, link_url in config.get("links", {}).items()
-    ] + [f'<a href="feed.xml">{rss_label}</a>']
-    seasons: dict[int, list[str]] = {}
-    season_names: dict[str, str] = config.get("seasons", {})
-    for episode in sorted(episodes, key=lambda e: (e["season"], e["episode"])):
-        audio_url = "audio/" + "/".join(
-            quote(part) for part in PurePosixPath(episode["file"]).parts
-        )
-        seasons.setdefault(episode["season"], []).append(
-            f'<details><summary>{episode["episode"]:02d} '
-            f'{html.escape(episode["title"])}</summary>'
-            f'{text_to_html(episode["description"])}'
-            f'<audio controls preload="none" src="{html.escape(audio_url)}"></audio></details>'
-        )
-    (course / "index.html").write_text(_page(config["title"], (
-        f'<h1>{html.escape(config["title"])}</h1>'
-        f'<img src="{html.escape(quote(cover.name))}" alt="{cover_label}" width="300">'
-        f'{text_to_html(config["description"])}'
-        f'<p><strong>{listen_label}:</strong> {" · ".join(links)}</p>'
-        + "".join(
-            f"<h2>{season_label} {season}"
-            + (f" – {html.escape(name)}" if (name := season_names.get(str(season))) else "")
-            + f"</h2>{''.join(items)}"
-            for season, items in seasons.items()
-        )
-    ), language=config["language"]), encoding="utf-8")
 
 
-def build_index(root: Path, courses: list[Path]) -> None:
-    groups: dict[str, list[str]] = {}
-    feed_links = []
+def build_index(root: Path, courses: list[Path], base_url: str = "https://repeto.stream",
+                practice: dict | None = None, stories: dict | None = None) -> None:
+    """Validate store links and build the website (homepage, course pages, transcripts)."""
+    catalogs = []
     for course in courses:
         config = json.loads((course / "course.json").read_text(encoding="utf-8"))
-        language = config["language"]
-        if language not in HOME_AUDIENCES:
-            raise ValueError(f"Unsupported homepage audience: {language!r}")
+        config.setdefault("source_language", config.get("language"))
+        if config["source_language"] not in website.UI:
+            raise ValueError(f"Unsupported homepage audience: {config['source_language']!r}")
         cover = find_image(course / "cover.jpeg")
         if cover is None:
             raise ValueError(f"Missing cover: {course}")
-        href = quote(course.name) + "/"
-        title = html.escape(config["title"].removeprefix("Repeto.stream – ").removeprefix("Repeto – "))
-        feed_links.append(
-            f'<li lang="{language}"><a href="{href}feed.xml">{title}</a></li>'
-        )
         spotify = config.get("links", {}).get("Spotify")
         youtube = config.get("links", {}).get("YouTube")
         if youtube and re.fullmatch(
             r"https://www\.youtube\.com/playlist\?list=PL[A-Za-z0-9_-]{10,}", youtube
         ) is None:
             raise ValueError(f"Invalid YouTube playlist URL for {course.name}: {youtube!r}")
-        destination = html.escape(spotify or youtube or href, quote=True)
-        platform_links = []
-        if spotify:
-            match = re.fullmatch(r"https://open\.spotify\.com/show/([A-Za-z0-9]{22})", spotify)
-            if match is None:
-                raise ValueError(f"Invalid Spotify show URL for {course.name}: {spotify!r}")
-            platform_links.append(
-                f'<a class="spotify-link" href="{html.escape(spotify, quote=True)}">'
-                'Open in Spotify</a>'
-            )
-        if youtube:
-            platform_links.append(
-                f'<a class="youtube-link" href="{html.escape(youtube, quote=True)}">'
-                'Listen on YouTube</a>'
-            )
-        platforms = (
-            f'<div class="platform-links">{"".join(platform_links)}</div>'
-            if platform_links else ""
-        )
-        groups.setdefault(language, []).append(
-            f'<article class="course-card"><a class="cover-link" href="{destination}" tabindex="-1" '
-            f'aria-hidden="true"><img src="{href}{quote(cover.name)}" alt="" '
-            'width="400" height="400" loading="lazy"></a><div class="card-body">'
-            f'<h3 lang="{language}"><a href="{destination}">{title}</a></h3>'
-            f'<p class="episode-count">{len(config["episodes"])} episodes</p>'
-            f'{platforms}</div></article>'
-        )
-    navigation = []
-    sections = []
-    for language, (label, heading) in HOME_AUDIENCES.items():
-        if language not in groups:
-            continue
-        navigation.append(f'<a href="#courses-{language}">{label}</a>')
-        sections.append(
-            f'<section class="course-section" id="courses-{language}" '
-            f'aria-labelledby="heading-{language}"><div class="section-heading">'
-            f'<h2 id="heading-{language}">{heading}</h2></div>'
-            f'<div class="course-grid">{"".join(groups[language])}</div></section>'
-        )
-    body = (
-        '<a class="skip" href="#courses">Skip to courses</a><div class="shell">'
-        '<header><a class="brand" href="./">Repeto.stream</a></header><main>'
-        '<section class="hero" aria-labelledby="welcome">'
-        '<h1 id="welcome">Learn a language.<br><span>Without the screen.</span></h1>'
-        '<p>Little language adventures for kids, grown-ups, and anyone starting out. '
-        'Press play in your podcast app, put the screen away, and learn by listening '
-        'and speaking — together at the kitchen table or on a walk of your own. It’s free.</p>'
-        '<p>Hear a phrase in your language, try saying it in the new one, '
-        'then listen to the answer and repeat.</p>'
-        '</section>'
-        '<div id="courses"><p class="language-label" id="native-language">Choose your native language:</p>'
-        '<nav class="language-nav" aria-labelledby="native-language">'
-        + "".join(navigation) + '</nav>' + "".join(sections)
-        + '</div><section class="closing"><h2>From your first words to a little adventure.</h2>'
-        '<p>Start with everyday words, then meet a mysterious radio in our eight-part story. '
-        'Listen to a chapter, try its words, and hear it again. '
-        'Go at your own pace, together or on your own.</p>'
-        '</section><details class="podcast-apps"><summary>Other podcast apps</summary>'
-        '<p>To subscribe in another podcast app, copy a feed link below and paste it '
-        'into the app’s “add podcast by URL” option. These links are feeds, not listening pages.</p>'
-        f'<ul>{"".join(feed_links)}</ul></details></main>'
-        '<footer><span>Repeto.stream · AI-generated voices (Microsoft Azure)</span>'
-        '<a href="mailto:repeto.lingo@gmail.com">repeto.lingo@gmail.com</a></footer></div>'
-    )
-    (root / "index.html").write_text(
-        _page(
-            "Repeto.stream – screen-free language learning", body, language="en",
-            style=HOME_STYLE, asset_prefix="",
-        ),
-        encoding="utf-8",
-    )
+        if spotify and website.SPOTIFY_SHOW.fullmatch(spotify) is None:
+            raise ValueError(f"Invalid Spotify show URL for {course.name}: {spotify!r}")
+        config["slug"] = course.name
+        config["cover"] = quote(cover.name)
+        for episode in config["episodes"]:
+            if "image" in episode:
+                image = find_image(course / Path(*PurePosixPath(episode["image"]).parts))
+                if image is not None:
+                    episode["cover"] = "/".join(
+                        quote(part) for part in (*PurePosixPath(episode["image"]).parts[:-1], image.name)
+                    )
+                    config.setdefault("story_cover", f"{quote(course.name)}/{episode['cover']}")
+        catalogs.append(config)
+    website.build_site(root, catalogs, base_url, practice=practice, stories=stories)
 
 
 def main() -> None:
@@ -430,7 +233,7 @@ def main() -> None:
         raise ValueError("No course catalogs found.")
     for course in courses:
         build_feed(course, args.base_url)
-    build_index(args.root, courses)
+    build_index(args.root, courses, args.base_url)
     (args.root / ".nojekyll").touch()
 
 

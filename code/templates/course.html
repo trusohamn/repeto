@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+{% block body %}
+<main id="main">
+<section class="course-hero">
+ <div class="wrap">
+  <img src="{{ course.cover }}" alt="{{ course.title }}" width="600" height="600">
+  <div>
+   <a class="back" href="../">← {{ t.all_courses }}</a>
+   <p class="eyebrow">{{ pair }}</p>
+   <h1>{{ heading }}</h1>
+   <p class="lead">{{ lead }}</p>
+   <ul class="stats">{% for value, label in stats %}<li><b>{{ value }}</b><span>{{ label }}</span></li>{% endfor %}</ul>
+   <div class="actions">
+    {% if 'Spotify' in links %}<a class="btn btn-spotify" href="{{ links.Spotify }}">{{ t.spotify }}</a>{% endif %}
+    {% if 'YouTube' in links %}<a class="btn btn-youtube" href="{{ links.YouTube }}">{{ t.youtube }}</a>{% endif %}
+    <a class="btn btn-ghost" href="#season-1">{{ t.transcripts }}</a>
+    {% if 'Spotify' not in links %}<p class="soon-note">{{ t.soon_spotify }}</p>{% endif %}
+   </div>
+  </div>
+ </div>
+</section>
+<div class="wrap">
+ <section aria-labelledby="how-title" style="padding:48px 0 0"><h2 id="how-title">{{ t.how }}</h2><ol class="how">{% for a, b in t.steps %}<li><b>{{ a }}</b><p>{{ b }}</p></li>{% endfor %}</ol></section>
+ {% for season in seasons %}
+ <section class="season" id="season-{{ season.key }}" aria-labelledby="season-{{ season.key }}-title">
+  <div class="season-head"><div>{% if season.kind %}<p class="eyebrow">{{ season.kind }}</p>{% endif %}<h2 id="season-{{ season.key }}-title">{{ season.label }}</h2></div>{% if season.print %}<a class="btn btn-ghost" href="transcripts/{{ season.print }}">{{ t.print_season }}</a>{% endif %}</div>
+  <ol class="episodes">
+  {% for ep in season.episodes %}
+   <li><span class="num">{{ ep.number }}</span><div><h3>{{ ep.title }}</h3><p>{{ ep.summary }}</p></div><div class="side"><span>{{ ep.length }}</span>{% if ep.transcript %}<a href="transcripts/{{ ep.transcript }}">{{ t.transcript }}</a>{% endif %}</div></li>
+  {% endfor %}
+  </ol>
+ </section>
+ {% endfor %}
+ <details class="about"><summary>{{ t.about }}</summary>{{ about }}</details>
+ {% include '_mistake.html' %}
+</div>
+</main>
+{% endblock %}
