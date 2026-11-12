@@ -22,7 +22,9 @@ Enjoy this format? Repeto.stream is also available in other languages, with the 
 
 Get in touch! Suggestions for new languages, corrections and story ideas are welcome: repeto.stream@gmail.com
 
-Voices are AI-generated (Microsoft Azure).</description>
+Voices are AI-generated (Microsoft Azure).
+
+All episodes and transcripts: https://repeto.stream/english-german/</description>
     <language>en</language>
     <itunes:author>Repeto.stream</itunes:author>
     <itunes:explicit>false</itunes:explicit>
@@ -38,6 +40,7 @@ Voices are AI-generated (Microsoft Azure).</description>
     <atom:link href="https://repeto.stream/english-german/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>01 Greetings — Begrüßungen</title>
+      <link>https://repeto.stream/english-german/transcripts/season-1-episode-01.html</link>
       <description>Topic 1 of 30: Greetings (Begrüßungen) – 36 phrases.
 
 You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.
@@ -47,8 +50,10 @@ Examples from this episode:
 • Good morning! → Guten Morgen!
 • Good afternoon! → Guten Tag!
 
-Tip: listen again until you can answer before the recorded voice.</description>
-      <content:encoded>&lt;p&gt;Topic 1 of 30: Greetings (Begrüßungen) – 36 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Hi! → Hallo!&lt;/li&gt;&lt;li&gt;Good morning! → Guten Morgen!&lt;/li&gt;&lt;li&gt;Good afternoon! → Guten Tag!&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+Tip: listen again until you can answer before the recorded voice.
+
+Transcript: https://repeto.stream/english-german/transcripts/season-1-episode-01.html</description>
+      <content:encoded>&lt;p&gt;Topic 1 of 30: Greetings (Begrüßungen) – 36 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Hi! → Hallo!&lt;/li&gt;&lt;li&gt;Good morning! → Guten Morgen!&lt;/li&gt;&lt;li&gt;Good afternoon! → Guten Tag!&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;&lt;p&gt;Transcript: &lt;a href="https://repeto.stream/english-german/transcripts/season-1-episode-01.html"&gt;https://repeto.stream/english-german/transcripts/season-1-episode-01.html&lt;/a&gt;&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:english-german:topic-01</guid>
       <pubDate>Thu, 12 Nov 2026 09:05:23 +0000</pubDate>
       <itunes:episode>1</itunes:episode>
@@ -60,6 +65,7 @@ Tip: listen again until you can answer before the recorded voice.</description>
     </item>
     <item>
       <title>02 Numbers — Zahlen</title>
+      <link>https://repeto.stream/english-german/transcripts/season-1-episode-02.html</link>
       <description>Topic 2 of 30: Numbers (Zahlen) – 35 phrases.
 
 You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.
@@ -69,8 +75,10 @@ Examples from this episode:
 • Two → Zwei
 • Three → Drei
 
-Tip: listen again until you can answer before the recorded voice.</description>
-      <content:encoded>&lt;p&gt;Topic 2 of 30: Numbers (Zahlen) – 35 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;One → Eins&lt;/li&gt;&lt;li&gt;Two → Zwei&lt;/li&gt;&lt;li&gt;Three → Drei&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+Tip: listen again until you can answer before the recorded voice.
+
+Transcript: https://repeto.stream/english-german/transcripts/season-1-episode-02.html</description>
+      <content:encoded>&lt;p&gt;Topic 2 of 30: Numbers (Zahlen) – 35 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;One → Eins&lt;/li&gt;&lt;li&gt;Two → Zwei&lt;/li&gt;&lt;li&gt;Three → Drei&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;&lt;p&gt;Transcript: &lt;a href="https://repeto.stream/english-german/transcripts/season-1-episode-02.html"&gt;https://repeto.stream/english-german/transcripts/season-1-episode-02.html&lt;/a&gt;&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:english-german:topic-02</guid>
       <pubDate>Thu, 12 Nov 2026 09:05:23 +0000</pubDate>
       <itunes:episode>2</itunes:episode>
@@ -82,6 +90,7 @@ Tip: listen again until you can answer before the recorded voice.</description>
     </item>
     <item>
       <title>03 Colors — Farben</title>
+      <link>https://repeto.stream/english-german/transcripts/season-1-episode-03.html</link>
       <description>Topic 3 of 30: Colors (Farben) – 29 phrases.
 
 You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.
@@ -91,8 +100,10 @@ Examples from this episode:
 • Blue → Blau
 • Yellow → Gelb
 
-Tip: listen again until you can answer before the recorded voice.</description>
-      <content:encoded>&lt;p&gt;Topic 3 of 30: Colors (Farben) – 29 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Red → Rot&lt;/li&gt;&lt;li&gt;Blue → Blau&lt;/li&gt;&lt;li&gt;Yellow → Gelb&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+Tip: listen again until you can answer before the recorded voice.
+
+Transcript: https://repeto.stream/english-german/transcripts/season-1-episode-03.html</description>
+      <content:encoded>&lt;p&gt;Topic 3 of 30: Colors (Farben) – 29 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Red → Rot&lt;/li&gt;&lt;li&gt;Blue → Blau&lt;/li&gt;&lt;li&gt;Yellow → Gelb&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;&lt;p&gt;Transcript: &lt;a href="https://repeto.stream/english-german/transcripts/season-1-episode-03.html"&gt;https://repeto.stream/english-german/transcripts/season-1-episode-03.html&lt;/a&gt;&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:english-german:topic-03</guid>
       <pubDate>Thu, 12 Nov 2026 09:05:23 +0000</pubDate>
       <itunes:episode>3</itunes:episode>
@@ -104,6 +115,7 @@ Tip: listen again until you can answer before the recorded voice.</description>
     </item>
     <item>
       <title>04 Animals — Tiere</title>
+      <link>https://repeto.stream/english-german/transcripts/season-1-episode-04.html</link>
       <description>Topic 4 of 30: Animals (Tiere) – 42 phrases.
 
 You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.
@@ -113,8 +125,10 @@ Examples from this episode:
 • Cat → Katze
 • Bird → Vogel
 
-Tip: listen again until you can answer before the recorded voice.</description>
-      <content:encoded>&lt;p&gt;Topic 4 of 30: Animals (Tiere) – 42 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Dog → Hund&lt;/li&gt;&lt;li&gt;Cat → Katze&lt;/li&gt;&lt;li&gt;Bird → Vogel&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+Tip: listen again until you can answer before the recorded voice.
+
+Transcript: https://repeto.stream/english-german/transcripts/season-1-episode-04.html</description>
+      <content:encoded>&lt;p&gt;Topic 4 of 30: Animals (Tiere) – 42 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Dog → Hund&lt;/li&gt;&lt;li&gt;Cat → Katze&lt;/li&gt;&lt;li&gt;Bird → Vogel&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;&lt;p&gt;Transcript: &lt;a href="https://repeto.stream/english-german/transcripts/season-1-episode-04.html"&gt;https://repeto.stream/english-german/transcripts/season-1-episode-04.html&lt;/a&gt;&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:english-german:topic-04</guid>
       <pubDate>Thu, 12 Nov 2026 09:05:23 +0000</pubDate>
       <itunes:episode>4</itunes:episode>
@@ -126,6 +140,7 @@ Tip: listen again until you can answer before the recorded voice.</description>
     </item>
     <item>
       <title>05 Family — Familie</title>
+      <link>https://repeto.stream/english-german/transcripts/season-1-episode-05.html</link>
       <description>Topic 5 of 30: Family (Familie) – 26 phrases.
 
 You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.
@@ -135,8 +150,10 @@ Examples from this episode:
 • Dad → Papa
 • Sister → Schwester
 
-Tip: listen again until you can answer before the recorded voice.</description>
-      <content:encoded>&lt;p&gt;Topic 5 of 30: Family (Familie) – 26 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Mum → Mama&lt;/li&gt;&lt;li&gt;Dad → Papa&lt;/li&gt;&lt;li&gt;Sister → Schwester&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+Tip: listen again until you can answer before the recorded voice.
+
+Transcript: https://repeto.stream/english-german/transcripts/season-1-episode-05.html</description>
+      <content:encoded>&lt;p&gt;Topic 5 of 30: Family (Familie) – 26 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Mum → Mama&lt;/li&gt;&lt;li&gt;Dad → Papa&lt;/li&gt;&lt;li&gt;Sister → Schwester&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;&lt;p&gt;Transcript: &lt;a href="https://repeto.stream/english-german/transcripts/season-1-episode-05.html"&gt;https://repeto.stream/english-german/transcripts/season-1-episode-05.html&lt;/a&gt;&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:english-german:topic-05</guid>
       <pubDate>Thu, 12 Nov 2026 09:05:23 +0000</pubDate>
       <itunes:episode>5</itunes:episode>
@@ -148,6 +165,7 @@ Tip: listen again until you can answer before the recorded voice.</description>
     </item>
     <item>
       <title>06 Food — Essen</title>
+      <link>https://repeto.stream/english-german/transcripts/season-1-episode-06.html</link>
       <description>Topic 6 of 30: Food (Essen) – 49 phrases.
 
 You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.
@@ -157,8 +175,10 @@ Examples from this episode:
 • Milk → Milch
 • Egg → Ei
 
-Tip: listen again until you can answer before the recorded voice.</description>
-      <content:encoded>&lt;p&gt;Topic 6 of 30: Food (Essen) – 49 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Bread → Brot&lt;/li&gt;&lt;li&gt;Milk → Milch&lt;/li&gt;&lt;li&gt;Egg → Ei&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+Tip: listen again until you can answer before the recorded voice.
+
+Transcript: https://repeto.stream/english-german/transcripts/season-1-episode-06.html</description>
+      <content:encoded>&lt;p&gt;Topic 6 of 30: Food (Essen) – 49 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Bread → Brot&lt;/li&gt;&lt;li&gt;Milk → Milch&lt;/li&gt;&lt;li&gt;Egg → Ei&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;&lt;p&gt;Transcript: &lt;a href="https://repeto.stream/english-german/transcripts/season-1-episode-06.html"&gt;https://repeto.stream/english-german/transcripts/season-1-episode-06.html&lt;/a&gt;&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:english-german:topic-06</guid>
       <pubDate>Thu, 12 Nov 2026 09:05:23 +0000</pubDate>
       <itunes:episode>6</itunes:episode>
@@ -170,6 +190,7 @@ Tip: listen again until you can answer before the recorded voice.</description>
     </item>
     <item>
       <title>07 Body — Körper</title>
+      <link>https://repeto.stream/english-german/transcripts/season-1-episode-07.html</link>
       <description>Topic 7 of 30: Body (Körper) – 37 phrases.
 
 You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.
@@ -179,8 +200,10 @@ Examples from this episode:
 • Hair → Haare
 • Eye → Auge
 
-Tip: listen again until you can answer before the recorded voice.</description>
-      <content:encoded>&lt;p&gt;Topic 7 of 30: Body (Körper) – 37 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Head → Kopf&lt;/li&gt;&lt;li&gt;Hair → Haare&lt;/li&gt;&lt;li&gt;Eye → Auge&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+Tip: listen again until you can answer before the recorded voice.
+
+Transcript: https://repeto.stream/english-german/transcripts/season-1-episode-07.html</description>
+      <content:encoded>&lt;p&gt;Topic 7 of 30: Body (Körper) – 37 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Head → Kopf&lt;/li&gt;&lt;li&gt;Hair → Haare&lt;/li&gt;&lt;li&gt;Eye → Auge&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;&lt;p&gt;Transcript: &lt;a href="https://repeto.stream/english-german/transcripts/season-1-episode-07.html"&gt;https://repeto.stream/english-german/transcripts/season-1-episode-07.html&lt;/a&gt;&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:english-german:topic-07</guid>
       <pubDate>Thu, 12 Nov 2026 09:05:23 +0000</pubDate>
       <itunes:episode>7</itunes:episode>
@@ -192,6 +215,7 @@ Tip: listen again until you can answer before the recorded voice.</description>
     </item>
     <item>
       <title>08 Clothing — Kleidung</title>
+      <link>https://repeto.stream/english-german/transcripts/season-1-episode-08.html</link>
       <description>Topic 8 of 30: Clothing (Kleidung) – 29 phrases.
 
 You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.
@@ -201,8 +225,10 @@ Examples from this episode:
 • T-shirt → T-Shirt
 • Shirt → Hemd
 
-Tip: listen again until you can answer before the recorded voice.</description>
-      <content:encoded>&lt;p&gt;Topic 8 of 30: Clothing (Kleidung) – 29 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Jumper → Pullover&lt;/li&gt;&lt;li&gt;T-shirt → T-Shirt&lt;/li&gt;&lt;li&gt;Shirt → Hemd&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+Tip: listen again until you can answer before the recorded voice.
+
+Transcript: https://repeto.stream/english-german/transcripts/season-1-episode-08.html</description>
+      <content:encoded>&lt;p&gt;Topic 8 of 30: Clothing (Kleidung) – 29 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Jumper → Pullover&lt;/li&gt;&lt;li&gt;T-shirt → T-Shirt&lt;/li&gt;&lt;li&gt;Shirt → Hemd&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;&lt;p&gt;Transcript: &lt;a href="https://repeto.stream/english-german/transcripts/season-1-episode-08.html"&gt;https://repeto.stream/english-german/transcripts/season-1-episode-08.html&lt;/a&gt;&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:english-german:topic-08</guid>
       <pubDate>Thu, 12 Nov 2026 09:05:23 +0000</pubDate>
       <itunes:episode>8</itunes:episode>
@@ -214,6 +240,7 @@ Tip: listen again until you can answer before the recorded voice.</description>
     </item>
     <item>
       <title>09 Home — Zu Hause</title>
+      <link>https://repeto.stream/english-german/transcripts/season-1-episode-09.html</link>
       <description>Topic 9 of 30: Home (Zu Hause) – 38 phrases.
 
 You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.
@@ -223,8 +250,10 @@ Examples from this episode:
 • Flat → Wohnung
 • Room → Zimmer
 
-Tip: listen again until you can answer before the recorded voice.</description>
-      <content:encoded>&lt;p&gt;Topic 9 of 30: Home (Zu Hause) – 38 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;House → Haus&lt;/li&gt;&lt;li&gt;Flat → Wohnung&lt;/li&gt;&lt;li&gt;Room → Zimmer&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+Tip: listen again until you can answer before the recorded voice.
+
+Transcript: https://repeto.stream/english-german/transcripts/season-1-episode-09.html</description>
+      <content:encoded>&lt;p&gt;Topic 9 of 30: Home (Zu Hause) – 38 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;House → Haus&lt;/li&gt;&lt;li&gt;Flat → Wohnung&lt;/li&gt;&lt;li&gt;Room → Zimmer&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;&lt;p&gt;Transcript: &lt;a href="https://repeto.stream/english-german/transcripts/season-1-episode-09.html"&gt;https://repeto.stream/english-german/transcripts/season-1-episode-09.html&lt;/a&gt;&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:english-german:topic-09</guid>
       <pubDate>Thu, 12 Nov 2026 09:05:23 +0000</pubDate>
       <itunes:episode>9</itunes:episode>
@@ -236,6 +265,7 @@ Tip: listen again until you can answer before the recorded voice.</description>
     </item>
     <item>
       <title>10 School — Schule</title>
+      <link>https://repeto.stream/english-german/transcripts/season-1-episode-10.html</link>
       <description>Topic 10 of 30: School (Schule) – 41 phrases.
 
 You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.
@@ -245,8 +275,10 @@ Examples from this episode:
 • Classroom → Klassenzimmer
 • Teacher → Lehrer
 
-Tip: listen again until you can answer before the recorded voice.</description>
-      <content:encoded>&lt;p&gt;Topic 10 of 30: School (Schule) – 41 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;School → Schule&lt;/li&gt;&lt;li&gt;Classroom → Klassenzimmer&lt;/li&gt;&lt;li&gt;Teacher → Lehrer&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+Tip: listen again until you can answer before the recorded voice.
+
+Transcript: https://repeto.stream/english-german/transcripts/season-1-episode-10.html</description>
+      <content:encoded>&lt;p&gt;Topic 10 of 30: School (Schule) – 41 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;School → Schule&lt;/li&gt;&lt;li&gt;Classroom → Klassenzimmer&lt;/li&gt;&lt;li&gt;Teacher → Lehrer&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;&lt;p&gt;Transcript: &lt;a href="https://repeto.stream/english-german/transcripts/season-1-episode-10.html"&gt;https://repeto.stream/english-german/transcripts/season-1-episode-10.html&lt;/a&gt;&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:english-german:topic-10</guid>
       <pubDate>Thu, 12 Nov 2026 09:05:23 +0000</pubDate>
       <itunes:episode>10</itunes:episode>
@@ -258,6 +290,7 @@ Tip: listen again until you can answer before the recorded voice.</description>
     </item>
     <item>
       <title>11 Weather — Wetter</title>
+      <link>https://repeto.stream/english-german/transcripts/season-1-episode-11.html</link>
       <description>Topic 11 of 30: Weather (Wetter) – 25 phrases.
 
 You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.
@@ -267,8 +300,10 @@ Examples from this episode:
 • Sun → Sonne
 • Rain → Regen
 
-Tip: listen again until you can answer before the recorded voice.</description>
-      <content:encoded>&lt;p&gt;Topic 11 of 30: Weather (Wetter) – 25 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Weather → Wetter&lt;/li&gt;&lt;li&gt;Sun → Sonne&lt;/li&gt;&lt;li&gt;Rain → Regen&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+Tip: listen again until you can answer before the recorded voice.
+
+Transcript: https://repeto.stream/english-german/transcripts/season-1-episode-11.html</description>
+      <content:encoded>&lt;p&gt;Topic 11 of 30: Weather (Wetter) – 25 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Weather → Wetter&lt;/li&gt;&lt;li&gt;Sun → Sonne&lt;/li&gt;&lt;li&gt;Rain → Regen&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;&lt;p&gt;Transcript: &lt;a href="https://repeto.stream/english-german/transcripts/season-1-episode-11.html"&gt;https://repeto.stream/english-german/transcripts/season-1-episode-11.html&lt;/a&gt;&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:english-german:topic-11</guid>
       <pubDate>Thu, 12 Nov 2026 09:05:23 +0000</pubDate>
       <itunes:episode>11</itunes:episode>
@@ -280,6 +315,7 @@ Tip: listen again until you can answer before the recorded voice.</description>
     </item>
     <item>
       <title>12 Seasons — Jahreszeiten</title>
+      <link>https://repeto.stream/english-german/transcripts/season-1-episode-12.html</link>
       <description>Topic 12 of 30: Seasons (Jahreszeiten) – 18 phrases.
 
 You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.
@@ -289,8 +325,10 @@ Examples from this episode:
 • Summer → Sommer
 • Autumn → Herbst
 
-Tip: listen again until you can answer before the recorded voice.</description>
-      <content:encoded>&lt;p&gt;Topic 12 of 30: Seasons (Jahreszeiten) – 18 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Spring → Frühling&lt;/li&gt;&lt;li&gt;Summer → Sommer&lt;/li&gt;&lt;li&gt;Autumn → Herbst&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+Tip: listen again until you can answer before the recorded voice.
+
+Transcript: https://repeto.stream/english-german/transcripts/season-1-episode-12.html</description>
+      <content:encoded>&lt;p&gt;Topic 12 of 30: Seasons (Jahreszeiten) – 18 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Spring → Frühling&lt;/li&gt;&lt;li&gt;Summer → Sommer&lt;/li&gt;&lt;li&gt;Autumn → Herbst&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;&lt;p&gt;Transcript: &lt;a href="https://repeto.stream/english-german/transcripts/season-1-episode-12.html"&gt;https://repeto.stream/english-german/transcripts/season-1-episode-12.html&lt;/a&gt;&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:english-german:topic-12</guid>
       <pubDate>Thu, 12 Nov 2026 09:05:23 +0000</pubDate>
       <itunes:episode>12</itunes:episode>
@@ -302,6 +340,7 @@ Tip: listen again until you can answer before the recorded voice.</description>
     </item>
     <item>
       <title>13 Days and Time — Tage und Zeit</title>
+      <link>https://repeto.stream/english-german/transcripts/season-1-episode-13.html</link>
       <description>Topic 13 of 30: Days and Time (Tage und Zeit) – 29 phrases.
 
 You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.
@@ -311,8 +350,10 @@ Examples from this episode:
 • Tuesday → Dienstag
 • Wednesday → Mittwoch
 
-Tip: listen again until you can answer before the recorded voice.</description>
-      <content:encoded>&lt;p&gt;Topic 13 of 30: Days and Time (Tage und Zeit) – 29 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Monday → Montag&lt;/li&gt;&lt;li&gt;Tuesday → Dienstag&lt;/li&gt;&lt;li&gt;Wednesday → Mittwoch&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+Tip: listen again until you can answer before the recorded voice.
+
+Transcript: https://repeto.stream/english-german/transcripts/season-1-episode-13.html</description>
+      <content:encoded>&lt;p&gt;Topic 13 of 30: Days and Time (Tage und Zeit) – 29 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Monday → Montag&lt;/li&gt;&lt;li&gt;Tuesday → Dienstag&lt;/li&gt;&lt;li&gt;Wednesday → Mittwoch&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;&lt;p&gt;Transcript: &lt;a href="https://repeto.stream/english-german/transcripts/season-1-episode-13.html"&gt;https://repeto.stream/english-german/transcripts/season-1-episode-13.html&lt;/a&gt;&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:english-german:topic-13</guid>
       <pubDate>Thu, 12 Nov 2026 09:05:23 +0000</pubDate>
       <itunes:episode>13</itunes:episode>
@@ -324,6 +365,7 @@ Tip: listen again until you can answer before the recorded voice.</description>
     </item>
     <item>
       <title>14 Toys and Play — Spielzeug und Spiele</title>
+      <link>https://repeto.stream/english-german/transcripts/season-1-episode-14.html</link>
       <description>Topic 14 of 30: Toys and Play (Spielzeug und Spiele) – 34 phrases.
 
 You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.
@@ -333,8 +375,10 @@ Examples from this episode:
 • Ball → Ball
 • Doll → Puppe
 
-Tip: listen again until you can answer before the recorded voice.</description>
-      <content:encoded>&lt;p&gt;Topic 14 of 30: Toys and Play (Spielzeug und Spiele) – 34 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Toy → Spielzeug&lt;/li&gt;&lt;li&gt;Ball → Ball&lt;/li&gt;&lt;li&gt;Doll → Puppe&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+Tip: listen again until you can answer before the recorded voice.
+
+Transcript: https://repeto.stream/english-german/transcripts/season-1-episode-14.html</description>
+      <content:encoded>&lt;p&gt;Topic 14 of 30: Toys and Play (Spielzeug und Spiele) – 34 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Toy → Spielzeug&lt;/li&gt;&lt;li&gt;Ball → Ball&lt;/li&gt;&lt;li&gt;Doll → Puppe&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;&lt;p&gt;Transcript: &lt;a href="https://repeto.stream/english-german/transcripts/season-1-episode-14.html"&gt;https://repeto.stream/english-german/transcripts/season-1-episode-14.html&lt;/a&gt;&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:english-german:topic-14</guid>
       <pubDate>Thu, 12 Nov 2026 09:05:23 +0000</pubDate>
       <itunes:episode>14</itunes:episode>
@@ -346,6 +390,7 @@ Tip: listen again until you can answer before the recorded voice.</description>
     </item>
     <item>
       <title>15 Sports and Activities — Sport und Aktivitäten</title>
+      <link>https://repeto.stream/english-german/transcripts/season-1-episode-15.html</link>
       <description>Topic 15 of 30: Sports and Activities (Sport und Aktivitäten) – 25 phrases.
 
 You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.
@@ -355,8 +400,10 @@ Examples from this episode:
 • Swimming → Schwimmen
 • Cycling → Radfahren
 
-Tip: listen again until you can answer before the recorded voice.</description>
-      <content:encoded>&lt;p&gt;Topic 15 of 30: Sports and Activities (Sport und Aktivitäten) – 25 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Football → Fußball&lt;/li&gt;&lt;li&gt;Swimming → Schwimmen&lt;/li&gt;&lt;li&gt;Cycling → Radfahren&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+Tip: listen again until you can answer before the recorded voice.
+
+Transcript: https://repeto.stream/english-german/transcripts/season-1-episode-15.html</description>
+      <content:encoded>&lt;p&gt;Topic 15 of 30: Sports and Activities (Sport und Aktivitäten) – 25 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Football → Fußball&lt;/li&gt;&lt;li&gt;Swimming → Schwimmen&lt;/li&gt;&lt;li&gt;Cycling → Radfahren&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;&lt;p&gt;Transcript: &lt;a href="https://repeto.stream/english-german/transcripts/season-1-episode-15.html"&gt;https://repeto.stream/english-german/transcripts/season-1-episode-15.html&lt;/a&gt;&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:english-german:topic-15</guid>
       <pubDate>Thu, 12 Nov 2026 09:05:23 +0000</pubDate>
       <itunes:episode>15</itunes:episode>
@@ -368,6 +415,7 @@ Tip: listen again until you can answer before the recorded voice.</description>
     </item>
     <item>
       <title>16 I want and I need — Ich will und ich brauche</title>
+      <link>https://repeto.stream/english-german/transcripts/season-1-episode-16.html</link>
       <description>Topic 16 of 30: I want and I need (Ich will und ich brauche) – 28 phrases.
 
 You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.
@@ -377,8 +425,10 @@ Examples from this episode:
 • I want a ball. → Ich will einen Ball.
 • I want to eat. → Ich will essen.
 
-Tip: listen again until you can answer before the recorded voice.</description>
-      <content:encoded>&lt;p&gt;Topic 16 of 30: I want and I need (Ich will und ich brauche) – 28 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;I want to go outside. → Ich will nach draußen gehen.&lt;/li&gt;&lt;li&gt;I want a ball. → Ich will einen Ball.&lt;/li&gt;&lt;li&gt;I want to eat. → Ich will essen.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+Tip: listen again until you can answer before the recorded voice.
+
+Transcript: https://repeto.stream/english-german/transcripts/season-1-episode-16.html</description>
+      <content:encoded>&lt;p&gt;Topic 16 of 30: I want and I need (Ich will und ich brauche) – 28 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;I want to go outside. → Ich will nach draußen gehen.&lt;/li&gt;&lt;li&gt;I want a ball. → Ich will einen Ball.&lt;/li&gt;&lt;li&gt;I want to eat. → Ich will essen.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;&lt;p&gt;Transcript: &lt;a href="https://repeto.stream/english-german/transcripts/season-1-episode-16.html"&gt;https://repeto.stream/english-german/transcripts/season-1-episode-16.html&lt;/a&gt;&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:english-german:topic-16</guid>
       <pubDate>Thu, 12 Nov 2026 09:05:23 +0000</pubDate>
       <itunes:episode>16</itunes:episode>
@@ -390,6 +440,7 @@ Tip: listen again until you can answer before the recorded voice.</description>
     </item>
     <item>
       <title>17 Where is it? — Wo ist es?</title>
+      <link>https://repeto.stream/english-german/transcripts/season-1-episode-17.html</link>
       <description>Topic 17 of 30: Where is it? (Wo ist es?) – 28 phrases.
 
 You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.
@@ -399,8 +450,10 @@ Examples from this episode:
 • Where is my phone? → Wo ist mein Handy?
 • Where is my bag? → Wo ist meine Tasche?
 
-Tip: listen again until you can answer before the recorded voice.</description>
-      <content:encoded>&lt;p&gt;Topic 17 of 30: Where is it? (Wo ist es?) – 28 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Where is the teddy bear? → Wo ist der Teddybär?&lt;/li&gt;&lt;li&gt;Where is my phone? → Wo ist mein Handy?&lt;/li&gt;&lt;li&gt;Where is my bag? → Wo ist meine Tasche?&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+Tip: listen again until you can answer before the recorded voice.
+
+Transcript: https://repeto.stream/english-german/transcripts/season-1-episode-17.html</description>
+      <content:encoded>&lt;p&gt;Topic 17 of 30: Where is it? (Wo ist es?) – 28 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Where is the teddy bear? → Wo ist der Teddybär?&lt;/li&gt;&lt;li&gt;Where is my phone? → Wo ist mein Handy?&lt;/li&gt;&lt;li&gt;Where is my bag? → Wo ist meine Tasche?&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;&lt;p&gt;Transcript: &lt;a href="https://repeto.stream/english-german/transcripts/season-1-episode-17.html"&gt;https://repeto.stream/english-german/transcripts/season-1-episode-17.html&lt;/a&gt;&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:english-german:topic-17</guid>
       <pubDate>Thu, 12 Nov 2026 09:05:23 +0000</pubDate>
       <itunes:episode>17</itunes:episode>
@@ -412,6 +465,7 @@ Tip: listen again until you can answer before the recorded voice.</description>
     </item>
     <item>
       <title>18 Feelings and Emotions — Gefühle</title>
+      <link>https://repeto.stream/english-german/transcripts/season-1-episode-18.html</link>
       <description>Topic 18 of 30: Feelings and Emotions (Gefühle) – 28 phrases.
 
 You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.
@@ -421,8 +475,10 @@ Examples from this episode:
 • Sad → traurig
 • Angry → wütend
 
-Tip: listen again until you can answer before the recorded voice.</description>
-      <content:encoded>&lt;p&gt;Topic 18 of 30: Feelings and Emotions (Gefühle) – 28 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Happy → fröhlich&lt;/li&gt;&lt;li&gt;Sad → traurig&lt;/li&gt;&lt;li&gt;Angry → wütend&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+Tip: listen again until you can answer before the recorded voice.
+
+Transcript: https://repeto.stream/english-german/transcripts/season-1-episode-18.html</description>
+      <content:encoded>&lt;p&gt;Topic 18 of 30: Feelings and Emotions (Gefühle) – 28 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Happy → fröhlich&lt;/li&gt;&lt;li&gt;Sad → traurig&lt;/li&gt;&lt;li&gt;Angry → wütend&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;&lt;p&gt;Transcript: &lt;a href="https://repeto.stream/english-german/transcripts/season-1-episode-18.html"&gt;https://repeto.stream/english-german/transcripts/season-1-episode-18.html&lt;/a&gt;&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:english-german:topic-18</guid>
       <pubDate>Thu, 12 Nov 2026 09:05:23 +0000</pubDate>
       <itunes:episode>18</itunes:episode>
@@ -434,6 +490,7 @@ Tip: listen again until you can answer before the recorded voice.</description>
     </item>
     <item>
       <title>19 Transport — Verkehrsmittel</title>
+      <link>https://repeto.stream/english-german/transcripts/season-1-episode-19.html</link>
       <description>Topic 19 of 30: Transport (Verkehrsmittel) – 25 phrases.
 
 You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.
@@ -443,8 +500,10 @@ Examples from this episode:
 • Bus → Bus
 • Train → Zug
 
-Tip: listen again until you can answer before the recorded voice.</description>
-      <content:encoded>&lt;p&gt;Topic 19 of 30: Transport (Verkehrsmittel) – 25 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Car → Auto&lt;/li&gt;&lt;li&gt;Bus → Bus&lt;/li&gt;&lt;li&gt;Train → Zug&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+Tip: listen again until you can answer before the recorded voice.
+
+Transcript: https://repeto.stream/english-german/transcripts/season-1-episode-19.html</description>
+      <content:encoded>&lt;p&gt;Topic 19 of 30: Transport (Verkehrsmittel) – 25 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Car → Auto&lt;/li&gt;&lt;li&gt;Bus → Bus&lt;/li&gt;&lt;li&gt;Train → Zug&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;&lt;p&gt;Transcript: &lt;a href="https://repeto.stream/english-german/transcripts/season-1-episode-19.html"&gt;https://repeto.stream/english-german/transcripts/season-1-episode-19.html&lt;/a&gt;&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:english-german:topic-19</guid>
       <pubDate>Thu, 12 Nov 2026 09:05:23 +0000</pubDate>
       <itunes:episode>19</itunes:episode>
@@ -456,6 +515,7 @@ Tip: listen again until you can answer before the recorded voice.</description>
     </item>
     <item>
       <title>20 Nature — Natur</title>
+      <link>https://repeto.stream/english-german/transcripts/season-1-episode-20.html</link>
       <description>Topic 20 of 30: Nature (Natur) – 27 phrases.
 
 You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.
@@ -465,8 +525,10 @@ Examples from this episode:
 • Sea → Meer
 • Lake → See
 
-Tip: listen again until you can answer before the recorded voice.</description>
-      <content:encoded>&lt;p&gt;Topic 20 of 30: Nature (Natur) – 27 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Forest → Wald&lt;/li&gt;&lt;li&gt;Sea → Meer&lt;/li&gt;&lt;li&gt;Lake → See&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+Tip: listen again until you can answer before the recorded voice.
+
+Transcript: https://repeto.stream/english-german/transcripts/season-1-episode-20.html</description>
+      <content:encoded>&lt;p&gt;Topic 20 of 30: Nature (Natur) – 27 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Forest → Wald&lt;/li&gt;&lt;li&gt;Sea → Meer&lt;/li&gt;&lt;li&gt;Lake → See&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;&lt;p&gt;Transcript: &lt;a href="https://repeto.stream/english-german/transcripts/season-1-episode-20.html"&gt;https://repeto.stream/english-german/transcripts/season-1-episode-20.html&lt;/a&gt;&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:english-german:topic-20</guid>
       <pubDate>Thu, 12 Nov 2026 09:05:23 +0000</pubDate>
       <itunes:episode>20</itunes:episode>
@@ -478,6 +540,7 @@ Tip: listen again until you can answer before the recorded voice.</description>
     </item>
     <item>
       <title>21 Holidays and Celebrations — Feiertage und Feste</title>
+      <link>https://repeto.stream/english-german/transcripts/season-1-episode-21.html</link>
       <description>Topic 21 of 30: Holidays and Celebrations (Feiertage und Feste) – 23 phrases.
 
 You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.
@@ -487,8 +550,10 @@ Examples from this episode:
 • Happy birthday! → Alles Gute zum Geburtstag!
 • Christmas → Weihnachten
 
-Tip: listen again until you can answer before the recorded voice.</description>
-      <content:encoded>&lt;p&gt;Topic 21 of 30: Holidays and Celebrations (Feiertage und Feste) – 23 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Birthday → Geburtstag&lt;/li&gt;&lt;li&gt;Happy birthday! → Alles Gute zum Geburtstag!&lt;/li&gt;&lt;li&gt;Christmas → Weihnachten&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+Tip: listen again until you can answer before the recorded voice.
+
+Transcript: https://repeto.stream/english-german/transcripts/season-1-episode-21.html</description>
+      <content:encoded>&lt;p&gt;Topic 21 of 30: Holidays and Celebrations (Feiertage und Feste) – 23 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Birthday → Geburtstag&lt;/li&gt;&lt;li&gt;Happy birthday! → Alles Gute zum Geburtstag!&lt;/li&gt;&lt;li&gt;Christmas → Weihnachten&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;&lt;p&gt;Transcript: &lt;a href="https://repeto.stream/english-german/transcripts/season-1-episode-21.html"&gt;https://repeto.stream/english-german/transcripts/season-1-episode-21.html&lt;/a&gt;&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:english-german:topic-21</guid>
       <pubDate>Thu, 12 Nov 2026 09:05:23 +0000</pubDate>
       <itunes:episode>21</itunes:episode>
@@ -500,6 +565,7 @@ Tip: listen again until you can answer before the recorded voice.</description>
     </item>
     <item>
       <title>22 Daily Routine — Tagesablauf</title>
+      <link>https://repeto.stream/english-german/transcripts/season-1-episode-22.html</link>
       <description>Topic 22 of 30: Daily Routine (Tagesablauf) – 28 phrases.
 
 You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.
@@ -509,8 +575,10 @@ Examples from this episode:
 • Get up → aufstehen
 • Brush your teeth → sich die Zähne putzen
 
-Tip: listen again until you can answer before the recorded voice.</description>
-      <content:encoded>&lt;p&gt;Topic 22 of 30: Daily Routine (Tagesablauf) – 28 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Wake up → aufwachen&lt;/li&gt;&lt;li&gt;Get up → aufstehen&lt;/li&gt;&lt;li&gt;Brush your teeth → sich die Zähne putzen&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+Tip: listen again until you can answer before the recorded voice.
+
+Transcript: https://repeto.stream/english-german/transcripts/season-1-episode-22.html</description>
+      <content:encoded>&lt;p&gt;Topic 22 of 30: Daily Routine (Tagesablauf) – 28 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Wake up → aufwachen&lt;/li&gt;&lt;li&gt;Get up → aufstehen&lt;/li&gt;&lt;li&gt;Brush your teeth → sich die Zähne putzen&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;&lt;p&gt;Transcript: &lt;a href="https://repeto.stream/english-german/transcripts/season-1-episode-22.html"&gt;https://repeto.stream/english-german/transcripts/season-1-episode-22.html&lt;/a&gt;&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:english-german:topic-22</guid>
       <pubDate>Thu, 12 Nov 2026 09:05:23 +0000</pubDate>
       <itunes:episode>22</itunes:episode>
@@ -522,6 +590,7 @@ Tip: listen again until you can answer before the recorded voice.</description>
     </item>
     <item>
       <title>23 Asking and Requests — Fragen und Bitten</title>
+      <link>https://repeto.stream/english-german/transcripts/season-1-episode-23.html</link>
       <description>Topic 23 of 30: Asking and Requests (Fragen und Bitten) – 26 phrases.
 
 You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.
@@ -531,8 +600,10 @@ Examples from this episode:
 • Help! → Hilfe!
 • Please! → Bitte!
 
-Tip: listen again until you can answer before the recorded voice.</description>
-      <content:encoded>&lt;p&gt;Topic 23 of 30: Asking and Requests (Fragen und Bitten) – 26 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Can you help me? → Kannst du mir helfen?&lt;/li&gt;&lt;li&gt;Help! → Hilfe!&lt;/li&gt;&lt;li&gt;Please! → Bitte!&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+Tip: listen again until you can answer before the recorded voice.
+
+Transcript: https://repeto.stream/english-german/transcripts/season-1-episode-23.html</description>
+      <content:encoded>&lt;p&gt;Topic 23 of 30: Asking and Requests (Fragen und Bitten) – 26 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Can you help me? → Kannst du mir helfen?&lt;/li&gt;&lt;li&gt;Help! → Hilfe!&lt;/li&gt;&lt;li&gt;Please! → Bitte!&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;&lt;p&gt;Transcript: &lt;a href="https://repeto.stream/english-german/transcripts/season-1-episode-23.html"&gt;https://repeto.stream/english-german/transcripts/season-1-episode-23.html&lt;/a&gt;&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:english-german:topic-23</guid>
       <pubDate>Thu, 12 Nov 2026 09:05:23 +0000</pubDate>
       <itunes:episode>23</itunes:episode>
@@ -544,6 +615,7 @@ Tip: listen again until you can answer before the recorded voice.</description>
     </item>
     <item>
       <title>24 Opposites — Gegensätze</title>
+      <link>https://repeto.stream/english-german/transcripts/season-1-episode-24.html</link>
       <description>Topic 24 of 30: Opposites (Gegensätze) – 28 phrases.
 
 You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.
@@ -553,8 +625,10 @@ Examples from this episode:
 • Small → klein
 • Long → lang
 
-Tip: listen again until you can answer before the recorded voice.</description>
-      <content:encoded>&lt;p&gt;Topic 24 of 30: Opposites (Gegensätze) – 28 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Big → groß&lt;/li&gt;&lt;li&gt;Small → klein&lt;/li&gt;&lt;li&gt;Long → lang&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+Tip: listen again until you can answer before the recorded voice.
+
+Transcript: https://repeto.stream/english-german/transcripts/season-1-episode-24.html</description>
+      <content:encoded>&lt;p&gt;Topic 24 of 30: Opposites (Gegensätze) – 28 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Big → groß&lt;/li&gt;&lt;li&gt;Small → klein&lt;/li&gt;&lt;li&gt;Long → lang&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;&lt;p&gt;Transcript: &lt;a href="https://repeto.stream/english-german/transcripts/season-1-episode-24.html"&gt;https://repeto.stream/english-german/transcripts/season-1-episode-24.html&lt;/a&gt;&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:english-german:topic-24</guid>
       <pubDate>Thu, 12 Nov 2026 09:05:23 +0000</pubDate>
       <itunes:episode>24</itunes:episode>
@@ -566,6 +640,7 @@ Tip: listen again until you can answer before the recorded voice.</description>
     </item>
     <item>
       <title>25 Actions and Verbs — Handlungen und Verben</title>
+      <link>https://repeto.stream/english-german/transcripts/season-1-episode-25.html</link>
       <description>Topic 25 of 30: Actions and Verbs (Handlungen und Verben) – 41 phrases.
 
 You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.
@@ -575,8 +650,10 @@ Examples from this episode:
 • Run → laufen
 • Jump → springen
 
-Tip: listen again until you can answer before the recorded voice.</description>
-      <content:encoded>&lt;p&gt;Topic 25 of 30: Actions and Verbs (Handlungen und Verben) – 41 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Walk → gehen&lt;/li&gt;&lt;li&gt;Run → laufen&lt;/li&gt;&lt;li&gt;Jump → springen&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+Tip: listen again until you can answer before the recorded voice.
+
+Transcript: https://repeto.stream/english-german/transcripts/season-1-episode-25.html</description>
+      <content:encoded>&lt;p&gt;Topic 25 of 30: Actions and Verbs (Handlungen und Verben) – 41 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Walk → gehen&lt;/li&gt;&lt;li&gt;Run → laufen&lt;/li&gt;&lt;li&gt;Jump → springen&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;&lt;p&gt;Transcript: &lt;a href="https://repeto.stream/english-german/transcripts/season-1-episode-25.html"&gt;https://repeto.stream/english-german/transcripts/season-1-episode-25.html&lt;/a&gt;&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:english-german:topic-25</guid>
       <pubDate>Thu, 12 Nov 2026 09:05:23 +0000</pubDate>
       <itunes:episode>25</itunes:episode>
@@ -588,6 +665,7 @@ Tip: listen again until you can answer before the recorded voice.</description>
     </item>
     <item>
       <title>26 Places in Town — Orte in der Stadt</title>
+      <link>https://repeto.stream/english-german/transcripts/season-1-episode-26.html</link>
       <description>Topic 26 of 30: Places in Town (Orte in der Stadt) – 23 phrases.
 
 You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.
@@ -597,8 +675,10 @@ Examples from this episode:
 • Playground → der Spielplatz
 • Shop → der Laden
 
-Tip: listen again until you can answer before the recorded voice.</description>
-      <content:encoded>&lt;p&gt;Topic 26 of 30: Places in Town (Orte in der Stadt) – 23 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Park → der Park&lt;/li&gt;&lt;li&gt;Playground → der Spielplatz&lt;/li&gt;&lt;li&gt;Shop → der Laden&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+Tip: listen again until you can answer before the recorded voice.
+
+Transcript: https://repeto.stream/english-german/transcripts/season-1-episode-26.html</description>
+      <content:encoded>&lt;p&gt;Topic 26 of 30: Places in Town (Orte in der Stadt) – 23 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Park → der Park&lt;/li&gt;&lt;li&gt;Playground → der Spielplatz&lt;/li&gt;&lt;li&gt;Shop → der Laden&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;&lt;p&gt;Transcript: &lt;a href="https://repeto.stream/english-german/transcripts/season-1-episode-26.html"&gt;https://repeto.stream/english-german/transcripts/season-1-episode-26.html&lt;/a&gt;&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:english-german:topic-26</guid>
       <pubDate>Thu, 12 Nov 2026 09:05:23 +0000</pubDate>
       <itunes:episode>26</itunes:episode>
@@ -610,6 +690,7 @@ Tip: listen again until you can answer before the recorded voice.</description>
     </item>
     <item>
       <title>27 Technology — Technik</title>
+      <link>https://repeto.stream/english-german/transcripts/season-1-episode-27.html</link>
       <description>Topic 27 of 30: Technology (Technik) – 22 phrases.
 
 You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.
@@ -619,8 +700,10 @@ Examples from this episode:
 • Mobile phone → das Handy
 • Computer → der Computer
 
-Tip: listen again until you can answer before the recorded voice.</description>
-      <content:encoded>&lt;p&gt;Topic 27 of 30: Technology (Technik) – 22 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Phone → das Telefon&lt;/li&gt;&lt;li&gt;Mobile phone → das Handy&lt;/li&gt;&lt;li&gt;Computer → der Computer&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+Tip: listen again until you can answer before the recorded voice.
+
+Transcript: https://repeto.stream/english-german/transcripts/season-1-episode-27.html</description>
+      <content:encoded>&lt;p&gt;Topic 27 of 30: Technology (Technik) – 22 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Phone → das Telefon&lt;/li&gt;&lt;li&gt;Mobile phone → das Handy&lt;/li&gt;&lt;li&gt;Computer → der Computer&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;&lt;p&gt;Transcript: &lt;a href="https://repeto.stream/english-german/transcripts/season-1-episode-27.html"&gt;https://repeto.stream/english-german/transcripts/season-1-episode-27.html&lt;/a&gt;&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:english-german:topic-27</guid>
       <pubDate>Thu, 12 Nov 2026 09:05:23 +0000</pubDate>
       <itunes:episode>27</itunes:episode>
@@ -632,6 +715,7 @@ Tip: listen again until you can answer before the recorded voice.</description>
     </item>
     <item>
       <title>28 Music and Art — Musik und Kunst</title>
+      <link>https://repeto.stream/english-german/transcripts/season-1-episode-28.html</link>
       <description>Topic 28 of 30: Music and Art (Musik und Kunst) – 23 phrases.
 
 You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.
@@ -641,8 +725,10 @@ Examples from this episode:
 • Song → das Lied
 • Dancing → das Tanzen
 
-Tip: listen again until you can answer before the recorded voice.</description>
-      <content:encoded>&lt;p&gt;Topic 28 of 30: Music and Art (Musik und Kunst) – 23 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Music → die Musik&lt;/li&gt;&lt;li&gt;Song → das Lied&lt;/li&gt;&lt;li&gt;Dancing → das Tanzen&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+Tip: listen again until you can answer before the recorded voice.
+
+Transcript: https://repeto.stream/english-german/transcripts/season-1-episode-28.html</description>
+      <content:encoded>&lt;p&gt;Topic 28 of 30: Music and Art (Musik und Kunst) – 23 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Music → die Musik&lt;/li&gt;&lt;li&gt;Song → das Lied&lt;/li&gt;&lt;li&gt;Dancing → das Tanzen&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;&lt;p&gt;Transcript: &lt;a href="https://repeto.stream/english-german/transcripts/season-1-episode-28.html"&gt;https://repeto.stream/english-german/transcripts/season-1-episode-28.html&lt;/a&gt;&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:english-german:topic-28</guid>
       <pubDate>Thu, 12 Nov 2026 09:05:23 +0000</pubDate>
       <itunes:episode>28</itunes:episode>
@@ -654,6 +740,7 @@ Tip: listen again until you can answer before the recorded voice.</description>
     </item>
     <item>
       <title>29 Polite Phrases — Höfliche Ausdrücke</title>
+      <link>https://repeto.stream/english-german/transcripts/season-1-episode-29.html</link>
       <description>Topic 29 of 30: Polite Phrases (Höfliche Ausdrücke) – 17 phrases.
 
 You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.
@@ -663,8 +750,10 @@ Examples from this episode:
 • Thank you! → Danke!
 • Thank you very much! → Vielen Dank!
 
-Tip: listen again until you can answer before the recorded voice.</description>
-      <content:encoded>&lt;p&gt;Topic 29 of 30: Polite Phrases (Höfliche Ausdrücke) – 17 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Please. → Bitte.&lt;/li&gt;&lt;li&gt;Thank you! → Danke!&lt;/li&gt;&lt;li&gt;Thank you very much! → Vielen Dank!&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+Tip: listen again until you can answer before the recorded voice.
+
+Transcript: https://repeto.stream/english-german/transcripts/season-1-episode-29.html</description>
+      <content:encoded>&lt;p&gt;Topic 29 of 30: Polite Phrases (Höfliche Ausdrücke) – 17 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Please. → Bitte.&lt;/li&gt;&lt;li&gt;Thank you! → Danke!&lt;/li&gt;&lt;li&gt;Thank you very much! → Vielen Dank!&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;&lt;p&gt;Transcript: &lt;a href="https://repeto.stream/english-german/transcripts/season-1-episode-29.html"&gt;https://repeto.stream/english-german/transcripts/season-1-episode-29.html&lt;/a&gt;&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:english-german:topic-29</guid>
       <pubDate>Thu, 12 Nov 2026 09:05:23 +0000</pubDate>
       <itunes:episode>29</itunes:episode>
@@ -676,6 +765,7 @@ Tip: listen again until you can answer before the recorded voice.</description>
     </item>
     <item>
       <title>30 Review and Recap — Wiederholung</title>
+      <link>https://repeto.stream/english-german/transcripts/season-1-episode-30.html</link>
       <description>Topic 30 of 30: Review and Recap (Wiederholung) – 11 phrases.
 
 You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.
@@ -685,8 +775,10 @@ Examples from this episode:
 • You are learning a new language! → Du lernst eine neue Sprache!
 • Let's practise! → Lass uns üben!
 
-Tip: listen again until you can answer before the recorded voice.</description>
-      <content:encoded>&lt;p&gt;Topic 30 of 30: Review and Recap (Wiederholung) – 11 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Well done! → Gut gemacht!&lt;/li&gt;&lt;li&gt;You are learning a new language! → Du lernst eine neue Sprache!&lt;/li&gt;&lt;li&gt;Let&amp;#x27;s practise! → Lass uns üben!&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+Tip: listen again until you can answer before the recorded voice.
+
+Transcript: https://repeto.stream/english-german/transcripts/season-1-episode-30.html</description>
+      <content:encoded>&lt;p&gt;Topic 30 of 30: Review and Recap (Wiederholung) – 11 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Well done! → Gut gemacht!&lt;/li&gt;&lt;li&gt;You are learning a new language! → Du lernst eine neue Sprache!&lt;/li&gt;&lt;li&gt;Let&amp;#x27;s practise! → Lass uns üben!&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;&lt;p&gt;Transcript: &lt;a href="https://repeto.stream/english-german/transcripts/season-1-episode-30.html"&gt;https://repeto.stream/english-german/transcripts/season-1-episode-30.html&lt;/a&gt;&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">repeto:english-german:topic-30</guid>
       <pubDate>Thu, 12 Nov 2026 09:05:23 +0000</pubDate>
       <itunes:episode>30</itunes:episode>
@@ -698,6 +790,7 @@ Tip: listen again until you can answer before the recorded voice.</description>
     </item>
     <item>
       <title>01 The Magical Radio: The Old Table — Der alte Tisch</title>
+      <link>https://repeto.stream/english-german/transcripts/season-2-episode-01.html</link>
       <description>Chapter 1 of 8 in "The Magical Radio" (Das magische Radio). Two siblings find an old wooden radio at a flea market. Suddenly it starts to hum, and a golden inscription shows that the radio is meant for them.
 
 How the episode works:
@@ -705,8 +798,10 @@ How the episode works:
 2. Practise words and expressions from the chapter: an English prompt, a pause, then the answer in German.
 3. Listen to the chapter again and see how much you can understand.
 
-A chime separates the sections. Listen in order, starting with chapter 1.</description>
-      <content:encoded>&lt;p&gt;Chapter 1 of 8 in &amp;quot;The Magical Radio&amp;quot; (Das magische Radio). Two siblings find an old wooden radio at a flea market. Suddenly it starts to hum, and a golden inscription shows that the radio is meant for them.&lt;/p&gt;&lt;p&gt;How the episode works:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Listen to the whole chapter in German. You don&amp;#x27;t need to understand everything.&lt;/li&gt;&lt;li&gt;Practise words and expressions from the chapter: an English prompt, a pause, then the answer in German.&lt;/li&gt;&lt;li&gt;Listen to the chapter again and see how much you can understand.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;A chime separates the sections. Listen in order, starting with chapter 1.&lt;/p&gt;</content:encoded>
+A chime separates the sections. Listen in order, starting with chapter 1.
+
+Transcript: https://repeto.stream/english-german/transcripts/season-2-episode-01.html</description>
+      <content:encoded>&lt;p&gt;Chapter 1 of 8 in &amp;quot;The Magical Radio&amp;quot; (Das magische Radio). Two siblings find an old wooden radio at a flea market. Suddenly it starts to hum, and a golden inscription shows that the radio is meant for them.&lt;/p&gt;&lt;p&gt;How the episode works:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Listen to the whole chapter in German. You don&amp;#x27;t need to understand everything.&lt;/li&gt;&lt;li&gt;Practise words and expressions from the chapter: an English prompt, a pause, then the answer in German.&lt;/li&gt;&lt;li&gt;Listen to the chapter again and see how much you can understand.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;A chime separates the sections. Listen in order, starting with chapter 1.&lt;/p&gt;&lt;p&gt;Transcript: &lt;a href="https://repeto.stream/english-german/transcripts/season-2-episode-01.html"&gt;https://repeto.stream/english-german/transcripts/season-2-episode-01.html&lt;/a&gt;&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">magical_radio:en:de:chapter-01</guid>
       <pubDate>Thu, 12 Nov 2026 09:06:58 +0000</pubDate>
       <itunes:episode>1</itunes:episode>
@@ -719,6 +814,7 @@ A chime separates the sections. Listen in order, starting with chapter 1.</descr
     </item>
     <item>
       <title>02 The Magical Radio: A Voice from the Radio — Eine Stimme aus dem Radio</title>
+      <link>https://repeto.stream/english-german/transcripts/season-2-episode-02.html</link>
       <description>Chapter 2 of 8 in "The Magical Radio" (Das magische Radio). At home, the children press the blue button. A little cloud smelling of cinnamon floats out of the radio, and a cheerful voice tells them about a mouse with an important key.
 
 How the episode works:
@@ -726,8 +822,10 @@ How the episode works:
 2. Practise words and expressions from the chapter: an English prompt, a pause, then the answer in German.
 3. Listen to the chapter again and see how much you can understand.
 
-A chime separates the sections. Listen in order, starting with chapter 1.</description>
-      <content:encoded>&lt;p&gt;Chapter 2 of 8 in &amp;quot;The Magical Radio&amp;quot; (Das magische Radio). At home, the children press the blue button. A little cloud smelling of cinnamon floats out of the radio, and a cheerful voice tells them about a mouse with an important key.&lt;/p&gt;&lt;p&gt;How the episode works:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Listen to the whole chapter in German. You don&amp;#x27;t need to understand everything.&lt;/li&gt;&lt;li&gt;Practise words and expressions from the chapter: an English prompt, a pause, then the answer in German.&lt;/li&gt;&lt;li&gt;Listen to the chapter again and see how much you can understand.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;A chime separates the sections. Listen in order, starting with chapter 1.&lt;/p&gt;</content:encoded>
+A chime separates the sections. Listen in order, starting with chapter 1.
+
+Transcript: https://repeto.stream/english-german/transcripts/season-2-episode-02.html</description>
+      <content:encoded>&lt;p&gt;Chapter 2 of 8 in &amp;quot;The Magical Radio&amp;quot; (Das magische Radio). At home, the children press the blue button. A little cloud smelling of cinnamon floats out of the radio, and a cheerful voice tells them about a mouse with an important key.&lt;/p&gt;&lt;p&gt;How the episode works:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Listen to the whole chapter in German. You don&amp;#x27;t need to understand everything.&lt;/li&gt;&lt;li&gt;Practise words and expressions from the chapter: an English prompt, a pause, then the answer in German.&lt;/li&gt;&lt;li&gt;Listen to the chapter again and see how much you can understand.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;A chime separates the sections. Listen in order, starting with chapter 1.&lt;/p&gt;&lt;p&gt;Transcript: &lt;a href="https://repeto.stream/english-german/transcripts/season-2-episode-02.html"&gt;https://repeto.stream/english-german/transcripts/season-2-episode-02.html&lt;/a&gt;&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">magical_radio:en:de:chapter-02</guid>
       <pubDate>Thu, 12 Nov 2026 09:06:58 +0000</pubDate>
       <itunes:episode>2</itunes:episode>
@@ -740,6 +838,7 @@ A chime separates the sections. Listen in order, starting with chapter 1.</descr
     </item>
     <item>
       <title>03 The Magical Radio: A Mouse under the Tree — Die Maus unter dem Baum</title>
+      <link>https://repeto.stream/english-german/transcripts/season-2-episode-03.html</link>
       <description>Chapter 3 of 8 in "The Magical Radio" (Das magische Radio). With a torch, some cheese and the radio, the siblings head to the old tree. A little mouse agrees to a trade, and a small door is hidden between the roots.
 
 How the episode works:
@@ -747,8 +846,10 @@ How the episode works:
 2. Practise words and expressions from the chapter: an English prompt, a pause, then the answer in German.
 3. Listen to the chapter again and see how much you can understand.
 
-A chime separates the sections. Listen in order, starting with chapter 1.</description>
-      <content:encoded>&lt;p&gt;Chapter 3 of 8 in &amp;quot;The Magical Radio&amp;quot; (Das magische Radio). With a torch, some cheese and the radio, the siblings head to the old tree. A little mouse agrees to a trade, and a small door is hidden between the roots.&lt;/p&gt;&lt;p&gt;How the episode works:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Listen to the whole chapter in German. You don&amp;#x27;t need to understand everything.&lt;/li&gt;&lt;li&gt;Practise words and expressions from the chapter: an English prompt, a pause, then the answer in German.&lt;/li&gt;&lt;li&gt;Listen to the chapter again and see how much you can understand.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;A chime separates the sections. Listen in order, starting with chapter 1.&lt;/p&gt;</content:encoded>
+A chime separates the sections. Listen in order, starting with chapter 1.
+
+Transcript: https://repeto.stream/english-german/transcripts/season-2-episode-03.html</description>
+      <content:encoded>&lt;p&gt;Chapter 3 of 8 in &amp;quot;The Magical Radio&amp;quot; (Das magische Radio). With a torch, some cheese and the radio, the siblings head to the old tree. A little mouse agrees to a trade, and a small door is hidden between the roots.&lt;/p&gt;&lt;p&gt;How the episode works:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Listen to the whole chapter in German. You don&amp;#x27;t need to understand everything.&lt;/li&gt;&lt;li&gt;Practise words and expressions from the chapter: an English prompt, a pause, then the answer in German.&lt;/li&gt;&lt;li&gt;Listen to the chapter again and see how much you can understand.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;A chime separates the sections. Listen in order, starting with chapter 1.&lt;/p&gt;&lt;p&gt;Transcript: &lt;a href="https://repeto.stream/english-german/transcripts/season-2-episode-03.html"&gt;https://repeto.stream/english-german/transcripts/season-2-episode-03.html&lt;/a&gt;&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">magical_radio:en:de:chapter-03</guid>
       <pubDate>Thu, 12 Nov 2026 09:06:58 +0000</pubDate>
       <itunes:episode>3</itunes:episode>
@@ -761,6 +862,7 @@ A chime separates the sections. Listen in order, starting with chapter 1.</descr
     </item>
     <item>
       <title>04 The Magical Radio: Down the Stairs — Die Treppe hinunter</title>
+      <link>https://repeto.stream/english-german/transcripts/season-2-episode-04.html</link>
       <description>Chapter 4 of 8 in "The Magical Radio" (Das magische Radio). The silver key opens the door. Stone steps lead down to a library full of flying books, with glowing flowers growing on the walls.
 
 How the episode works:
@@ -768,8 +870,10 @@ How the episode works:
 2. Practise words and expressions from the chapter: an English prompt, a pause, then the answer in German.
 3. Listen to the chapter again and see how much you can understand.
 
-A chime separates the sections. Listen in order, starting with chapter 1.</description>
-      <content:encoded>&lt;p&gt;Chapter 4 of 8 in &amp;quot;The Magical Radio&amp;quot; (Das magische Radio). The silver key opens the door. Stone steps lead down to a library full of flying books, with glowing flowers growing on the walls.&lt;/p&gt;&lt;p&gt;How the episode works:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Listen to the whole chapter in German. You don&amp;#x27;t need to understand everything.&lt;/li&gt;&lt;li&gt;Practise words and expressions from the chapter: an English prompt, a pause, then the answer in German.&lt;/li&gt;&lt;li&gt;Listen to the chapter again and see how much you can understand.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;A chime separates the sections. Listen in order, starting with chapter 1.&lt;/p&gt;</content:encoded>
+A chime separates the sections. Listen in order, starting with chapter 1.
+
+Transcript: https://repeto.stream/english-german/transcripts/season-2-episode-04.html</description>
+      <content:encoded>&lt;p&gt;Chapter 4 of 8 in &amp;quot;The Magical Radio&amp;quot; (Das magische Radio). The silver key opens the door. Stone steps lead down to a library full of flying books, with glowing flowers growing on the walls.&lt;/p&gt;&lt;p&gt;How the episode works:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Listen to the whole chapter in German. You don&amp;#x27;t need to understand everything.&lt;/li&gt;&lt;li&gt;Practise words and expressions from the chapter: an English prompt, a pause, then the answer in German.&lt;/li&gt;&lt;li&gt;Listen to the chapter again and see how much you can understand.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;A chime separates the sections. Listen in order, starting with chapter 1.&lt;/p&gt;&lt;p&gt;Transcript: &lt;a href="https://repeto.stream/english-german/transcripts/season-2-episode-04.html"&gt;https://repeto.stream/english-german/transcripts/season-2-episode-04.html&lt;/a&gt;&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">magical_radio:en:de:chapter-04</guid>
       <pubDate>Thu, 12 Nov 2026 09:06:58 +0000</pubDate>
       <itunes:episode>4</itunes:episode>
@@ -782,6 +886,7 @@ A chime separates the sections. Listen in order, starting with chapter 1.</descr
     </item>
     <item>
       <title>05 The Magical Radio: The Flying Book — Das fliegende Buch</title>
+      <link>https://repeto.stream/english-german/transcripts/season-2-episode-05.html</link>
       <description>Chapter 5 of 8 in "The Magical Radio" (Das magische Radio). A golden book lands on one of the children's shoulders, and the radio reveals a spell that can mend broken things.
 
 How the episode works:
@@ -789,8 +894,10 @@ How the episode works:
 2. Practise words and expressions from the chapter: an English prompt, a pause, then the answer in German.
 3. Listen to the chapter again and see how much you can understand.
 
-A chime separates the sections. Listen in order, starting with chapter 1.</description>
-      <content:encoded>&lt;p&gt;Chapter 5 of 8 in &amp;quot;The Magical Radio&amp;quot; (Das magische Radio). A golden book lands on one of the children&amp;#x27;s shoulders, and the radio reveals a spell that can mend broken things.&lt;/p&gt;&lt;p&gt;How the episode works:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Listen to the whole chapter in German. You don&amp;#x27;t need to understand everything.&lt;/li&gt;&lt;li&gt;Practise words and expressions from the chapter: an English prompt, a pause, then the answer in German.&lt;/li&gt;&lt;li&gt;Listen to the chapter again and see how much you can understand.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;A chime separates the sections. Listen in order, starting with chapter 1.&lt;/p&gt;</content:encoded>
+A chime separates the sections. Listen in order, starting with chapter 1.
+
+Transcript: https://repeto.stream/english-german/transcripts/season-2-episode-05.html</description>
+      <content:encoded>&lt;p&gt;Chapter 5 of 8 in &amp;quot;The Magical Radio&amp;quot; (Das magische Radio). A golden book lands on one of the children&amp;#x27;s shoulders, and the radio reveals a spell that can mend broken things.&lt;/p&gt;&lt;p&gt;How the episode works:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Listen to the whole chapter in German. You don&amp;#x27;t need to understand everything.&lt;/li&gt;&lt;li&gt;Practise words and expressions from the chapter: an English prompt, a pause, then the answer in German.&lt;/li&gt;&lt;li&gt;Listen to the chapter again and see how much you can understand.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;A chime separates the sections. Listen in order, starting with chapter 1.&lt;/p&gt;&lt;p&gt;Transcript: &lt;a href="https://repeto.stream/english-german/transcripts/season-2-episode-05.html"&gt;https://repeto.stream/english-german/transcripts/season-2-episode-05.html&lt;/a&gt;&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">magical_radio:en:de:chapter-05</guid>
       <pubDate>Thu, 12 Nov 2026 09:06:58 +0000</pubDate>
       <itunes:episode>5</itunes:episode>
@@ -803,6 +910,7 @@ A chime separates the sections. Listen in order, starting with chapter 1.</descr
     </item>
     <item>
       <title>06 The Magical Radio: The First Spell — Der erste Zauberspruch</title>
+      <link>https://repeto.stream/english-german/transcripts/season-2-episode-06.html</link>
       <description>Chapter 6 of 8 in "The Magical Radio" (Das magische Radio). It's time to try the spell on a broken compass. Will it work? And who is waiting behind the green door?
 
 How the episode works:
@@ -810,8 +918,10 @@ How the episode works:
 2. Practise words and expressions from the chapter: an English prompt, a pause, then the answer in German.
 3. Listen to the chapter again and see how much you can understand.
 
-A chime separates the sections. Listen in order, starting with chapter 1.</description>
-      <content:encoded>&lt;p&gt;Chapter 6 of 8 in &amp;quot;The Magical Radio&amp;quot; (Das magische Radio). It&amp;#x27;s time to try the spell on a broken compass. Will it work? And who is waiting behind the green door?&lt;/p&gt;&lt;p&gt;How the episode works:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Listen to the whole chapter in German. You don&amp;#x27;t need to understand everything.&lt;/li&gt;&lt;li&gt;Practise words and expressions from the chapter: an English prompt, a pause, then the answer in German.&lt;/li&gt;&lt;li&gt;Listen to the chapter again and see how much you can understand.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;A chime separates the sections. Listen in order, starting with chapter 1.&lt;/p&gt;</content:encoded>
+A chime separates the sections. Listen in order, starting with chapter 1.
+
+Transcript: https://repeto.stream/english-german/transcripts/season-2-episode-06.html</description>
+      <content:encoded>&lt;p&gt;Chapter 6 of 8 in &amp;quot;The Magical Radio&amp;quot; (Das magische Radio). It&amp;#x27;s time to try the spell on a broken compass. Will it work? And who is waiting behind the green door?&lt;/p&gt;&lt;p&gt;How the episode works:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Listen to the whole chapter in German. You don&amp;#x27;t need to understand everything.&lt;/li&gt;&lt;li&gt;Practise words and expressions from the chapter: an English prompt, a pause, then the answer in German.&lt;/li&gt;&lt;li&gt;Listen to the chapter again and see how much you can understand.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;A chime separates the sections. Listen in order, starting with chapter 1.&lt;/p&gt;&lt;p&gt;Transcript: &lt;a href="https://repeto.stream/english-german/transcripts/season-2-episode-06.html"&gt;https://repeto.stream/english-german/transcripts/season-2-episode-06.html&lt;/a&gt;&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">magical_radio:en:de:chapter-06</guid>
       <pubDate>Thu, 12 Nov 2026 09:06:58 +0000</pubDate>
       <itunes:episode>6</itunes:episode>
@@ -824,6 +934,7 @@ A chime separates the sections. Listen in order, starting with chapter 1.</descr
     </item>
     <item>
       <title>07 The Magical Radio: The Golden Bird — Der goldene Vogel</title>
+      <link>https://repeto.stream/english-german/transcripts/season-2-episode-07.html</link>
       <description>Chapter 7 of 8 in "The Magical Radio" (Das magische Radio). Behind the door lies an underground garden. A golden bird ticks like a clock instead of singing. A stone is missing from its wing, and the radio has a secret.
 
 How the episode works:
@@ -831,8 +942,10 @@ How the episode works:
 2. Practise words and expressions from the chapter: an English prompt, a pause, then the answer in German.
 3. Listen to the chapter again and see how much you can understand.
 
-A chime separates the sections. Listen in order, starting with chapter 1.</description>
-      <content:encoded>&lt;p&gt;Chapter 7 of 8 in &amp;quot;The Magical Radio&amp;quot; (Das magische Radio). Behind the door lies an underground garden. A golden bird ticks like a clock instead of singing. A stone is missing from its wing, and the radio has a secret.&lt;/p&gt;&lt;p&gt;How the episode works:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Listen to the whole chapter in German. You don&amp;#x27;t need to understand everything.&lt;/li&gt;&lt;li&gt;Practise words and expressions from the chapter: an English prompt, a pause, then the answer in German.&lt;/li&gt;&lt;li&gt;Listen to the chapter again and see how much you can understand.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;A chime separates the sections. Listen in order, starting with chapter 1.&lt;/p&gt;</content:encoded>
+A chime separates the sections. Listen in order, starting with chapter 1.
+
+Transcript: https://repeto.stream/english-german/transcripts/season-2-episode-07.html</description>
+      <content:encoded>&lt;p&gt;Chapter 7 of 8 in &amp;quot;The Magical Radio&amp;quot; (Das magische Radio). Behind the door lies an underground garden. A golden bird ticks like a clock instead of singing. A stone is missing from its wing, and the radio has a secret.&lt;/p&gt;&lt;p&gt;How the episode works:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Listen to the whole chapter in German. You don&amp;#x27;t need to understand everything.&lt;/li&gt;&lt;li&gt;Practise words and expressions from the chapter: an English prompt, a pause, then the answer in German.&lt;/li&gt;&lt;li&gt;Listen to the chapter again and see how much you can understand.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;A chime separates the sections. Listen in order, starting with chapter 1.&lt;/p&gt;&lt;p&gt;Transcript: &lt;a href="https://repeto.stream/english-german/transcripts/season-2-episode-07.html"&gt;https://repeto.stream/english-german/transcripts/season-2-episode-07.html&lt;/a&gt;&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">magical_radio:en:de:chapter-07</guid>
       <pubDate>Thu, 12 Nov 2026 09:06:58 +0000</pubDate>
       <itunes:episode>7</itunes:episode>
@@ -845,6 +958,7 @@ A chime separates the sections. Listen in order, starting with chapter 1.</descr
     </item>
     <item>
       <title>08 The Magical Radio: The Grand Concert — Das große Konzert</title>
+      <link>https://repeto.stream/english-german/transcripts/season-2-episode-08.html</link>
       <description>Chapter 8 of 8 in "The Magical Radio" (Das magische Radio). The finale! Can the siblings mend the golden bird? The story ends with singing, dancing butterflies and the promise of another adventure.
 
 How the episode works:
@@ -852,8 +966,10 @@ How the episode works:
 2. Practise words and expressions from the chapter: an English prompt, a pause, then the answer in German.
 3. Listen to the chapter again and see how much you can understand.
 
-A chime separates the sections. Listen in order, starting with chapter 1.</description>
-      <content:encoded>&lt;p&gt;Chapter 8 of 8 in &amp;quot;The Magical Radio&amp;quot; (Das magische Radio). The finale! Can the siblings mend the golden bird? The story ends with singing, dancing butterflies and the promise of another adventure.&lt;/p&gt;&lt;p&gt;How the episode works:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Listen to the whole chapter in German. You don&amp;#x27;t need to understand everything.&lt;/li&gt;&lt;li&gt;Practise words and expressions from the chapter: an English prompt, a pause, then the answer in German.&lt;/li&gt;&lt;li&gt;Listen to the chapter again and see how much you can understand.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;A chime separates the sections. Listen in order, starting with chapter 1.&lt;/p&gt;</content:encoded>
+A chime separates the sections. Listen in order, starting with chapter 1.
+
+Transcript: https://repeto.stream/english-german/transcripts/season-2-episode-08.html</description>
+      <content:encoded>&lt;p&gt;Chapter 8 of 8 in &amp;quot;The Magical Radio&amp;quot; (Das magische Radio). The finale! Can the siblings mend the golden bird? The story ends with singing, dancing butterflies and the promise of another adventure.&lt;/p&gt;&lt;p&gt;How the episode works:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Listen to the whole chapter in German. You don&amp;#x27;t need to understand everything.&lt;/li&gt;&lt;li&gt;Practise words and expressions from the chapter: an English prompt, a pause, then the answer in German.&lt;/li&gt;&lt;li&gt;Listen to the chapter again and see how much you can understand.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;A chime separates the sections. Listen in order, starting with chapter 1.&lt;/p&gt;&lt;p&gt;Transcript: &lt;a href="https://repeto.stream/english-german/transcripts/season-2-episode-08.html"&gt;https://repeto.stream/english-german/transcripts/season-2-episode-08.html&lt;/a&gt;&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">magical_radio:en:de:chapter-08</guid>
       <pubDate>Thu, 12 Nov 2026 09:06:58 +0000</pubDate>
       <itunes:episode>8</itunes:episode>

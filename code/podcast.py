@@ -95,7 +95,8 @@ def build_feed(course: Path, base_url: str) -> None:
 
     field(channel, "title", config["title"])
     field(channel, "link", url + "/")
-    field(channel, "description", config["description"])
+    labels = website.UI[website.course_ui(config)]
+    field(channel, "description", f'{config["description"]}\n\n{labels["all_episodes"]}: {url}/')
     field(channel, "language", config["language"])
     field(channel, f"{{{ITUNES}}}author", config["author"])
     field(channel, f"{{{ITUNES}}}explicit", "false")
@@ -144,8 +145,11 @@ def build_feed(course: Path, base_url: str) -> None:
         item = ET.SubElement(channel, "item")
         title = f"{number:02d} {episode['title']}"
         field(item, "title", title)
-        field(item, "description", episode["description"])
-        field(item, f"{{{CONTENT}}}encoded", text_to_html(episode["description"]))
+        page = website.episode_url(base_url, quote(course.name), episode)
+        field(item, "link", page)
+        field(item, "description", f'{episode["description"]}\n\n{labels["transcript"]}: {page}')
+        field(item, f"{{{CONTENT}}}encoded",
+              text_to_html(episode["description"]) + f'<p>{labels["transcript"]}: <a href="{page}">{page}</a></p>')
         guid = field(item, "guid", episode["id"])
         guid.set("isPermaLink", "false")
         field(item, "pubDate", format_datetime(datetime.fromisoformat(episode["published"])))

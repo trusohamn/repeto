@@ -5,7 +5,21 @@
 {% endmacro %}
 {% block body %}
 <main id="main" class="doc">
-<div class="doc-bar no-print"><a class="back" href="../">← {{ t.back }}</a><button class="btn btn-orange" type="button" data-print>{{ t.print }}</button></div>
+<div class="doc-bar no-print"><a class="back" href="../">← {{ t.back }}</a>{% if sheets %}<button class="btn btn-orange" type="button" data-print>{{ t.print }}</button>{% endif %}</div>
+{% if listen %}
+<div class="listen no-print"><span class="length">{{ listen.length }}</span>
+{% if 'Spotify' in listen.links %}<a class="btn btn-spotify" href="{{ listen.links.Spotify }}">{{ t.spotify }}</a>{% endif %}
+{% if 'YouTube' in listen.links %}<a class="btn btn-youtube" href="{{ listen.links.YouTube }}">{{ t.youtube }}</a>{% endif %}
+{% if 'Spotify' not in listen.links %}<span class="soon-note">{{ t.soon_spotify }}</span>{% endif %}
+</div>
+{% if not sheets %}
+<article class="sheet">
+ <header><img src="../{{ listen.cover }}" alt="" width="84" height="84"><div><p class="eyebrow">{{ listen.label }} · {{ t.episode }} {{ listen.number }}</p><h1>{{ listen.title }}</h1></div></header>
+ {% if listen.summary %}<p>{{ listen.summary }}</p>{% endif %}
+ <p class="muted">{{ t.no_transcript }}</p>
+</article>
+{% endif %}
+{% endif %}
 {% for sheet in sheets %}
 <article class="sheet">
  <header><img src="../{{ sheet.cover }}" alt="" width="84" height="84"><div><p class="eyebrow">{{ sheet.label }} · {{ t.episode }} {{ sheet.number }}</p><{{ heading }}{% if heading != 'h1' %} class="title"{% endif %}>{{ sheet.title }}</{{ heading }}></div></header>

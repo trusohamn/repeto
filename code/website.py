@@ -50,6 +50,7 @@ PICKER = {
 
 UI = {
     'en': {
+        'all_episodes': 'All episodes and transcripts', 'no_transcript': 'There is no transcript for this episode yet.',
         'skip': 'Skip to content', 'all_courses': 'All courses',
         'episodes': ('episode', 'episodes'), 'topics': ('practice topic', 'practice topics'),
         'chapters': ('story chapter', 'story chapters'), 'phrases': ('phrase', 'phrases'), 'listening': 'of listening',
@@ -75,6 +76,7 @@ UI = {
         'voices': 'AI-generated voices (Microsoft Azure).',
     },
     'sv': {
+        'all_episodes': 'Alla avsnitt och transkript', 'no_transcript': 'Det finns inget transkript för det här avsnittet än.',
         'skip': 'Hoppa till innehållet', 'all_courses': 'Alla kurser',
         'episodes': ('avsnitt', 'avsnitt'), 'topics': ('övningsämne', 'övningsämnen'),
         'chapters': ('berättelsekapitel', 'berättelsekapitel'), 'phrases': ('fras', 'fraser'), 'listening': 'lyssning',
@@ -100,6 +102,7 @@ UI = {
         'voices': 'AI-genererade röster (Microsoft Azure).',
     },
     'pl': {
+        'all_episodes': 'Wszystkie odcinki i transkrypcje', 'no_transcript': 'Ten odcinek nie ma jeszcze transkrypcji.',
         'skip': 'Przejdź do treści', 'all_courses': 'Wszystkie kursy',
         'episodes': ('odcinek', 'odcinki', 'odcinków'), 'topics': ('temat ćwiczeń', 'tematy ćwiczeń', 'tematów ćwiczeń'),
         'chapters': ('rozdział opowieści', 'rozdziały opowieści', 'rozdziałów opowieści'), 'phrases': ('fraza', 'frazy', 'fraz'), 'listening': 'słuchania',
@@ -125,6 +128,7 @@ UI = {
         'voices': 'Głosy wygenerowane przez AI (Microsoft Azure).',
     },
     'ru': {
+        'all_episodes': 'Все эпизоды и тексты', 'no_transcript': 'Для этого эпизода текста пока нет.',
         'skip': 'Перейти к содержанию', 'all_courses': 'Все курсы',
         'episodes': ('эпизод', 'эпизода', 'эпизодов'), 'topics': ('тема для практики', 'темы для практики', 'тем для практики'),
         'chapters': ('глава истории', 'главы истории', 'глав истории'), 'phrases': ('фраза', 'фразы', 'фраз'), 'listening': 'прослушивания',
@@ -150,6 +154,7 @@ UI = {
         'voices': 'Голоса созданы ИИ (Microsoft Azure).',
     },
     'es': {
+        'all_episodes': 'Todos los episodios y transcripciones', 'no_transcript': 'Este episodio todavía no tiene transcripción.',
         'skip': 'Saltar al contenido', 'all_courses': 'Todos los cursos',
         'episodes': ('episodio', 'episodios'), 'topics': ('tema de práctica', 'temas de práctica'),
         'chapters': ('capítulo del cuento', 'capítulos del cuento'), 'phrases': ('frase', 'frases'), 'listening': 'de escucha',
@@ -397,6 +402,16 @@ def transcript_name(episode: dict) -> str:
     return f'season-{episode["season"]}-episode-{int(episode["episode"]):02d}.html'
 
 
+def episode_url(base_url: str, slug: str, episode: dict) -> str:
+    """Public URL of an episode page (also used as the feed item <link>)."""
+    return f'{base_url.rstrip("/")}/{slug}/transcripts/{transcript_name(episode)}'
+
+
+def course_ui(course: dict) -> str:
+    source = course.get('source_language') or course.get('language')
+    return source if source in UI else 'en'
+
+
 def season_name(season: str) -> str:
     return f'season-{season}.html'
 
@@ -418,7 +433,7 @@ def course_page(course: dict, base_url: str, assets: dict) -> str:
             'kind': t['kind_story'] if any(':chapter-' in ep['id'] for ep in episodes) else None,
             'print': season_name(season) if any(ep.get('transcript') for ep in episodes) else None,
             'episodes': [{
-                'number': int(ep['episode']), 'title': ep['title'],
+                'number': int(ep['episode']), 'title': ep['title'], 'page': transcript_name(ep),
                 'summary': (f'{ep["phrases"]} {plural(ui, ep["phrases"], "phrases")}' if 'phrases' in ep
                             else first_paragraph(ep.get('description', ''))),
                 'length': minutes(ui, int(ep.get('duration_ms') or 0)), 'transcript': ep.get('transcript'),
@@ -484,35 +499,48 @@ def attach_transcripts(course: dict, practice: dict | None, stories: dict) -> di
 
 
 def doc_page(course: dict, title: str, sheets: list[dict], base_url: str, path: str, assets: dict,
-             heading: str = 'h1') -> str:
+             heading: str = 'h1', episode: dict | None = None) -> str:
     ui = course['ui']
     source, target = course['source_language'], course['target_language']
+    listen = None
+    if episode is not None:
+        listen = {
+            'cover': episode.get('cover') or course['cover'], 'label': course['seasons'].get(str(episode['season']), ''),
+            'number': int(episode['episode']), 'title': episode['title'],
+            'summary': '' if sheets else first_paragraph(episode.get('description', '')),
+            'length': minutes(ui, int(episode.get('duration_ms') or 0)), 'links': course.get('links', {}),
+        }
     return render(
         'transcript.html', assets=assets, title=f'{title} – {course["title"]}', lang=ui, prefix='../../', ui=ui,
         description=f'{UI[ui]["transcript"]}: {title}', canonical=f'{base_url}/{course["slug"]}/transcripts/{path}',
-        image=None, sheets=sheets, heading=heading, course_title=course['title'],
+        image=None, sheets=sheets, heading=heading, course_title=course['title'], listen=listen,
         langs={'source': source, 'target': target}, names={'source': NAMES[ui][source], 'target': NAMES[ui][target]},
     )
 
 
 def write_transcripts(directory: Path, course: dict, sheets: dict, base_url: str, assets: dict) -> list[str]:
+    """Write one page per episode (with its transcript when available) and a printable page per season."""
     folder = directory / 'transcripts'
     if folder.exists():
         shutil.rmtree(folder)
-    if not sheets:
+    if not course['episodes']:
         return []
     folder.mkdir()
     written = []
     for season, label in course.get('seasons', {}).items():
-        episodes = [ep for ep in season_episodes(course, season) if ep['id'] in sheets]
+        episodes = season_episodes(course, season)
         for ep in episodes:
-            (folder / ep['transcript']).write_text(
-                doc_page(course, ep['title'], [sheets[ep['id']]], base_url, ep['transcript'], assets), encoding='utf-8')
-            written.append(ep['transcript'])
-        if episodes:
+            name = transcript_name(ep)
+            sheet_list = [sheets[ep['id']]] if ep['id'] in sheets else []
+            (folder / name).write_text(
+                doc_page(course, ep['title'], sheet_list, base_url, name, assets, episode=ep), encoding='utf-8')
+            written.append(name)
+        with_sheets = [ep for ep in episodes if ep['id'] in sheets]
+        if with_sheets:
             name = season_name(season)
             (folder / name).write_text(
-                doc_page(course, label, [sheets[ep['id']] for ep in episodes], base_url, name, assets, 'h2'), encoding='utf-8')
+                doc_page(course, label, [sheets[ep['id']] for ep in with_sheets], base_url, name, assets, 'h2'),
+                encoding='utf-8')
             written.append(name)
     return written
 
@@ -533,7 +561,7 @@ def build_site(root: Path, courses: list[dict], base_url: str, practice: dict | 
     assets = write_assets(root)
     urls = [f'{base_url}/']
     for course in courses:
-        course['ui'] = course['source_language'] if course['source_language'] in UI else 'en'
+        course['ui'] = course_ui(course)
         directory = root / course['slug']
         sheets = attach_transcripts(course, practice, stories)
         for name in write_transcripts(directory, course, sheets, base_url, assets):

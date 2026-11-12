@@ -114,7 +114,7 @@ class PodcastTests(unittest.TestCase):
                 self.assertIn('href="../favicon.png"', page)
                 self.assertIn('href="transcripts/season-1-episode-01.html"', page)
                 self.assertIn('href="transcripts/season-2-episode-01.html"', page)
-                self.assertNotIn("season-1-episode-02.html", page)
+                self.assertIn('<h3><a href="transcripts/season-1-episode-02.html">', page)
                 self.assertIn('href="transcripts/season-1.html"', page)
             self.assertIn('href="https://open.spotify.com/show/4pCmGojSZmODKl9qvxTrgq"', english)
             self.assertIn('<html lang="en">', english)
@@ -133,8 +133,12 @@ class PodcastTests(unittest.TestCase):
             self._site(root)
             folder = root / "swedish-spanish/transcripts"
             self.assertEqual(sorted(path.name for path in folder.iterdir()), [
-                "season-1-episode-01.html", "season-1.html", "season-2-episode-01.html", "season-2.html",
+                "season-1-episode-01.html", "season-1-episode-02.html", "season-1.html",
+                "season-2-episode-01.html", "season-2.html",
             ])
+            empty = (folder / "season-1-episode-02.html").read_text(encoding="utf-8")
+            self.assertIn("Det finns inget transkript för det här avsnittet än.", empty)
+            self.assertNotIn("data-print", empty)
             practice = (folder / "season-1-episode-01.html").read_text(encoding="utf-8")
             self.assertIn('<td lang="sv">Hej</td><td lang="es">Hola</td>', practice)
             self.assertLess(practice.index("Hola"), practice.index("Gracias"))
@@ -329,6 +333,12 @@ class PodcastTests(unittest.TestCase):
                 items[0].findtext("title"), "01 Hälsningar — Powitania"
             )
             self.assertEqual(items[0].findtext("guid"), config["episodes"][0]["id"])
+            page = "https://example.com/repeto/swedish-polish/transcripts/season-1-episode-01.html"
+            self.assertEqual(items[0].findtext("link"), page)
+            self.assertTrue(items[0].findtext("description", "").endswith(f"\n\nTranskript: {page}"))
+            self.assertIn(f'<a href="{page}">', items[0].findtext(f"{{{podcast.CONTENT}}}encoded", ""))
+            self.assertTrue(root.findtext("./channel/description", "").endswith(
+                "\n\nAlla avsnitt och transkript: https://example.com/repeto/swedish-polish/"))
             self.assertEqual(items[0].findtext(f"{{{podcast.ITUNES}}}season"), "1")
             self.assertEqual(items[0].findtext(f"{{{podcast.ITUNES}}}episode"), "1")
             enclosure = items[0].find("enclosure")

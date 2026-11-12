@@ -115,10 +115,11 @@ dates stable when updating audio. Cover filenames are fingerprinted automaticall
 
 `code/podcast.py` writes each `feed.xml`; `code/website.py` builds the site:
 the homepage with a course picker, a localized page per course (links to
-Spotify/YouTube, no players or RSS links), printable
-transcripts under `<slug>/transcripts/` from `courses/practice/transcript.json`
+Spotify/YouTube, no players or RSS links), an episode page with a printable
+transcript for every episode under `<slug>/transcripts/` from `courses/practice/transcript.json`
 and each story's `generated/transcript.json`, plus `sitemap.xml` and
-`robots.txt` (which keeps crawlers out of `/*/audio/`). `podcast/social.jpeg`
+`robots.txt` (which keeps crawlers out of `/*/audio/`). Feed items link to
+their episode page and the show description links to the course page. `podcast/social.jpeg`
 is the share image. Page markup lives in Jinja2 templates under
 `code/templates/`; shared styles and script are `code/site/site.css` and
 `code/site/site.js`, copied to `podcast/assets/` with a content hash. The

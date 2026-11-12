@@ -64,7 +64,7 @@ podcast/<slug>/
   images/stories/<story-id>/cover-<hash>.jpeg
   feed.xml
   index.html               # generated course page (git-ignored)
-  transcripts/             # generated printable transcripts (git-ignored)
+  transcripts/             # generated episode pages + printable transcripts (git-ignored)
 ```
 
 - For vocabulary practice, prefer `code/package_practice.py`; it performs
@@ -153,8 +153,14 @@ Parse the new RSS and verify:
   (`<slug>/index.html`). Pages never link to `feed.xml` or embed raw MP3s;
   add `links.Spotify` / `links.YouTube` to show listen buttons, otherwise the
   page says Spotify is coming soon.
-- Every practice and story episode has a transcript under
-  `<slug>/transcripts/`, and `sitemap.xml` lists the course and transcripts.
+- Every episode has a page `<slug>/transcripts/season-S-episode-NN.html`
+  (length, listen buttons and its transcript when available), and
+  `sitemap.xml` lists the course and transcripts.
+- Each feed item has `<link>` to its episode page, and its description and
+  `content:encoded` end with a localized "Transcript: <url>" line; the
+  channel description ends with "All episodes and transcripts: <course url>".
+  These are added by `build_feed` only — never write them into `course.json`
+  descriptions, or the website will show links to itself.
 - Site markup is in `code/templates/` (Jinja2) and styles/script in
   `code/site/`; edit those, not the generated HTML. Generated pages, `assets/`,
   `sitemap.xml` and `robots.txt` are git-ignored and rebuilt by the workflow.

@@ -26,7 +26,7 @@
   <div class="season-head"><div>{% if season.kind %}<p class="eyebrow">{{ season.kind }}</p>{% endif %}<h2 id="season-{{ season.key }}-title">{{ season.label }}</h2></div>{% if season.print %}<a class="btn btn-ghost" href="transcripts/{{ season.print }}">{{ t.print_season }}</a>{% endif %}</div>
   <ol class="episodes">
   {% for ep in season.episodes %}
-   <li><span class="num">{{ ep.number }}</span><div><h3>{{ ep.title }}</h3><p>{{ ep.summary }}</p></div><div class="side"><span>{{ ep.length }}</span>{% if ep.transcript %}<a href="transcripts/{{ ep.transcript }}">{{ t.transcript }}</a>{% endif %}</div></li>
+   <li><span class="num">{{ ep.number }}</span><div><h3><a href="transcripts/{{ ep.page }}">{{ ep.title }}</a></h3><p>{{ ep.summary }}</p></div><div class="side"><span>{{ ep.length }}</span>{% if ep.transcript %}<a href="transcripts/{{ ep.transcript }}">{{ t.transcript }}</a>{% endif %}</div></li>
   {% endfor %}
   </ol>
  </section>
