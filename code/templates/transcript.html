@@ -31,10 +31,10 @@
  {{ phrase_table(sheet.rows) }}
  <h3>{{ t.part3 }}</h3><p>{{ t.again }}</p>
 {% else %}
- <p>{{ t.practice_intro }}</p>
+ <p class="intro">{{ t.practice_intro }}</p>
  {{ phrase_table(sheet.rows) }}
 {% endif %}
- <p class="printed-from">{{ BRAND }} · {{ course_title }}</p>
+ <p class="printed-from">{{ course_title }}</p>
 </article>
 {% endfor %}
 {% with no_print = true %}{% include '_mistake.html' %}{% endwith %}
