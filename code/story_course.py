@@ -1164,7 +1164,7 @@ def create_parser() -> argparse.ArgumentParser:
         "--podcast-base-url", default="https://repeto.stream"
     )
     parser.add_argument("--author", default="Repeto.stream")
-    parser.add_argument("--email", default="repeto.lingo@gmail.com")
+    parser.add_argument("--email", default="repeto.stream@gmail.com")
     parser.add_argument(
         "--podcast-course",
         help="Add story chapters to an existing podcast course slug instead of creating a new feed.",

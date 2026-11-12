@@ -573,7 +573,7 @@ class StoryCourseTests(unittest.TestCase):
                 source_language="sv",
                 transcript=root / "story" / "generated" / "transcript.json",
                 cover=None,
-                email="repeto.lingo@gmail.com",
+                email="repeto.stream@gmail.com",
                 podcast_root=root / "podcast",
                 podcast_base_url="https://example.com/repeto",
                 author="Repeto",
@@ -683,7 +683,7 @@ class StoryCourseTests(unittest.TestCase):
             catalog_path = course / "course.json"
             catalog_path.write_text(json.dumps({
                 "title": "Repeto", "description": "Kurs", "language": "sv",
-                "author": "Repeto", "email": "repeto.lingo@gmail.com",
+                "author": "Repeto", "email": "repeto.stream@gmail.com",
                 "source_language": "sv", "target_language": "en", "episodes": [],
             }), encoding="utf-8")
             story_root = root / "story"
@@ -697,7 +697,7 @@ class StoryCourseTests(unittest.TestCase):
             args = argparse.Namespace(
                 podcast_course="swedish-english", source_language="sv",
                 transcript=transcript_path, cover=None,
-                email="repeto.lingo@gmail.com", podcast_root=root / "podcast",
+                email="repeto.stream@gmail.com", podcast_root=root / "podcast",
                 podcast_base_url="https://example.com/repeto", author="Repeto",
                 output=None,
             )
@@ -741,7 +741,7 @@ class StoryCourseTests(unittest.TestCase):
             catalog_path = course / "course.json"
             catalog_path.write_text(json.dumps({
                 "title": "Repeto", "description": "Kurs", "language": "pl",
-                "author": "Repeto", "email": "repeto.lingo@gmail.com",
+                "author": "Repeto", "email": "repeto.stream@gmail.com",
                 "source_language": "pl", "target_language": "en", "episodes": [],
             }), encoding="utf-8")
             story_root = root / "story"
@@ -755,7 +755,7 @@ class StoryCourseTests(unittest.TestCase):
             args = argparse.Namespace(
                 podcast_course="polish-english", source_language="pl",
                 transcript=transcript_path, cover=None,
-                email="repeto.lingo@gmail.com", podcast_root=root / "podcast",
+                email="repeto.stream@gmail.com", podcast_root=root / "podcast",
                 podcast_base_url="https://example.com/repeto", author="Repeto",
                 output=None,
             )
@@ -790,7 +790,7 @@ class StoryCourseTests(unittest.TestCase):
             catalog_path = course / "course.json"
             catalog_path.write_text(json.dumps({
                 "title": "Repeto", "description": "Course", "language": "en",
-                "author": "Repeto", "email": "repeto.lingo@gmail.com",
+                "author": "Repeto", "email": "repeto.stream@gmail.com",
                 "source_language": "en", "target_language": "sv", "episodes": [],
             }), encoding="utf-8")
             story_root = root / "story"
@@ -804,7 +804,7 @@ class StoryCourseTests(unittest.TestCase):
             args = argparse.Namespace(
                 podcast_course="english-swedish", source_language="en",
                 transcript=transcript_path, cover=None,
-                email="repeto.lingo@gmail.com", podcast_root=root / "podcast",
+                email="repeto.stream@gmail.com", podcast_root=root / "podcast",
                 podcast_base_url="https://example.com/repeto", author="Repeto",
                 output=None,
             )
@@ -848,7 +848,7 @@ class StoryCourseTests(unittest.TestCase):
             catalog_path = course / "course.json"
             catalog_path.write_text(json.dumps({
                 "title": "Repeto", "description": "Course", "language": "ru",
-                "author": "Repeto", "email": "repeto.lingo@gmail.com",
+                "author": "Repeto", "email": "repeto.stream@gmail.com",
                 "source_language": "ru", "target_language": "es", "episodes": [],
             }), encoding="utf-8")
             story_root = root / "story"
@@ -862,7 +862,7 @@ class StoryCourseTests(unittest.TestCase):
             args = argparse.Namespace(
                 podcast_course="russian-spanish", source_language="ru",
                 transcript=transcript_path, cover=None,
-                email="repeto.lingo@gmail.com", podcast_root=root / "podcast",
+                email="repeto.stream@gmail.com", podcast_root=root / "podcast",
                 podcast_base_url="https://example.com/repeto", author="Repeto",
                 output=None,
             )

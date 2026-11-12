@@ -17,7 +17,7 @@ from markupsafe import Markup
 ROOT = Path(__file__).resolve().parent.parent
 BRAND = 'Repeto.stream'
 GITHUB_URL = 'https://github.com/trusohamn/repeto'
-EMAIL = 'repeto.lingo@gmail.com'
+EMAIL = 'repeto.stream@gmail.com'
 
 ORDER = ['sv', 'pl', 'en', 'ru', 'es', 'de', 'fr']
 NATIVE = {

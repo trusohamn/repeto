@@ -20,7 +20,7 @@ Cómo usar el curso:
 
 ¿Te gusta este formato? Repeto.stream también está disponible en otros idiomas, con la misma estructura. Busca Repeto.stream en tu aplicación de pódcasts.
 
-¡Escríbenos! Las sugerencias de nuevos idiomas, correcciones e ideas para cuentos son bienvenidas: repeto.lingo@gmail.com
+¡Escríbenos! Las sugerencias de nuevos idiomas, correcciones e ideas para cuentos son bienvenidas: repeto.stream@gmail.com
 
 Las voces están generadas con IA (Microsoft Azure).</description>
     <language>es</language>
@@ -29,7 +29,7 @@ Las voces están generadas con IA (Microsoft Azure).</description>
     <itunes:type>serial</itunes:type>
     <itunes:owner>
       <itunes:name>Repeto.stream</itunes:name>
-      <itunes:email>repeto.lingo@gmail.com</itunes:email>
+      <itunes:email>repeto.stream@gmail.com</itunes:email>
     </itunes:owner>
     <itunes:image href="https://repeto.stream/spanish-english/cover-7724dfb5.jpeg" />
     <itunes:category text="Education">
