@@ -28,7 +28,10 @@ def tone(duration=200):
 
 
 def entry(topic="Greetings", identifier="phrase_000001"):
-    return {"id": identifier, "topic": topic, "se": "Hej!", "en": "Hi!", "pl": "Cześć!", "ru": "Привет!", "es": "¡Hola!"}
+    return {
+        "id": identifier, "topic": topic, "se": "Hej!", "en": "Hi!", "pl": "Cześć!",
+        "ru": "Привет!", "es": "¡Hola!", "de": "Hallo!", "fr": "Salut !",
+    }
 
 
 class RendererTests(unittest.TestCase):
@@ -50,6 +53,27 @@ class RendererTests(unittest.TestCase):
                 path.write_text(json.dumps([dict(entry(), es=value)]), encoding="utf-8")
                 with self.assertRaises(ValueError):
                     renderer.load_topics(path)
+
+    def test_german_and_french_are_optional_validated_and_configured(self):
+        def without(*languages):
+            return {key: value for key, value in entry().items() if key not in languages}
+
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "transcript.json"
+            path.write_text(json.dumps([entry()]), encoding="utf-8")
+            item = renderer.load_topics(path)["Greetings"][0]
+            self.assertEqual((item["de"], item["fr"]), ("Hallo!", "Salut !"))
+            path.write_text(json.dumps([without("de", "fr")]), encoding="utf-8")
+            item = renderer.load_topics(path)["Greetings"][0]
+            for language in ("de", "fr"):
+                self.assertNotIn(language, item)
+                with self.assertRaisesRegex(ValueError, f"missing {language} translation"):
+                    renderer.entry_text(item, language)
+                path.write_text(json.dumps([dict(entry(), **{language: " x"})]), encoding="utf-8")
+                with self.assertRaises(ValueError):
+                    renderer.load_topics(path)
+        self.assertEqual(renderer.VOICES["de"], "de-DE-KatjaNeural")
+        self.assertEqual(renderer.VOICES["fr"], "fr-FR-DeniseNeural")
 
     def test_real_transcript(self):
         topics = renderer.load_topics(
@@ -310,6 +334,21 @@ class RendererTests(unittest.TestCase):
         self.assertEqual(len(prepared), len(speech))
         self.assertAlmostEqual(prepared.dBFS, -20.0, delta=0.01)
         self.assertLessEqual(prepared.max_dBFS, -1.0)
+
+    def test_short_loud_word_is_peak_limited_slightly_below_target(self):
+        def word(transient_ms):
+            quiet = tone(400).apply_gain(-20)
+            return quiet + tone(transient_ms).apply_gain(6) + quiet
+
+        with patch.object(renderer, "compress_dynamic_range", side_effect=lambda audio, **_: audio):
+            with self.assertLogs(renderer.LOGGER, level="WARNING") as logs:
+                prepared = renderer.prepare_clip(word(10), "short word")
+            self.assertIn("below target", "\n".join(logs.output))
+            self.assertLess(prepared.dBFS, -20.0)
+            self.assertGreater(prepared.dBFS, -23.0)
+            self.assertLessEqual(prepared.max_dBFS, -1.0)
+            with self.assertRaises(ValueError):
+                renderer.prepare_clip(word(2), "spiky word")
 
     def test_empty_silent_or_unscalable_clip_is_rejected(self):
         impulse = AudioSegment(

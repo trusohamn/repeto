@@ -59,7 +59,7 @@ class DescriptionTests(unittest.TestCase):
                 self.assertIn("Привет! → ¡Hola!", text)
                 self.assertIn("Каждая фраза на изучаемом языке звучит дважды", text)
         with self.assertRaises(ValueError):
-            descriptions.show_title("de", source="ru")
+            descriptions.show_title("it", source="ru")
 
     def test_refresh_russian_source_includes_teaser_and_seasons(self):
         story = {
@@ -155,6 +155,62 @@ class DescriptionTests(unittest.TestCase):
             self.assertTrue(without_summary.startswith(
                 'Chapter 1 of 8 in "The Magical Radio" (Den magiska radion).\n\n'
             ))
+
+    def test_spanish_audience_copy_and_new_target_languages(self):
+        self.assertEqual(descriptions.show_title("en", source="es"), "Repeto – Aprendo inglés")
+        text = descriptions.show_description("en", 30, [], "a@b.se", source="es")
+        self.assertIn("indicaciones en español", text)
+        self.assertIn("Temporada 1 – Práctica: 30 temas cortos", text)
+        self.assertIn("sugerencias de nuevos idiomas", text)
+        self.assertIn("a@b.se", text)
+        text = descriptions.practice_description(
+            "en", 1, 30, {"es": "Saludos", "en": "Greetings"},
+            [{"es": "¡Hola!", "en": "Hi!"}], source="es",
+        )
+        self.assertIn("Tema 1 de 30: Saludos (Greetings) – 1 frase.", text)
+        self.assertIn("¡Hola! → Hi!", text)
+        story = {"es": "La radio mágica", "en": "The Magical Radio"}
+        chapter = descriptions.story_description(
+            "en", story, {"chapter_number": 2, "summary": {"es": "Algo pasa."}}, 8, source="es",
+        )
+        self.assertTrue(chapter.startswith(
+            "Capítulo 2 de 8 del cuento «La radio mágica» (The Magical Radio). Algo pasa."
+        ))
+        self.assertEqual(
+            descriptions.story_name(story, "en", "es"), "«La radio mágica» (The Magical Radio)"
+        )
+        for target, english, swedish, polish, russian in (
+            ("de", "German", "tyska", "niemieckiego", "немецкий"),
+            ("fr", "French", "franska", "francuskiego", "французский"),
+        ):
+            self.assertEqual(descriptions.show_title(target, "en"), f"Repeto – I learn {english}")
+            self.assertEqual(descriptions.show_title(target, "sv"), f"Repeto – Jag lär mig {swedish}")
+            self.assertEqual(descriptions.show_title(target, "pl"), f"Repeto – Uczę się {polish}")
+            self.assertEqual(descriptions.show_title(target, "ru"), f"Repeto – Я учу {russian}")
+
+    def test_refresh_spanish_source_names_seasons(self):
+        with tempfile.TemporaryDirectory() as directory:
+            course = Path(directory)
+            (course / "course.json").write_text(json.dumps({
+                "title": "Old", "description": "Old", "email": "a@b.se",
+                "source_language": "es", "target_language": "en",
+                "episodes": [
+                    {"id": "repeto:spanish-english:topic-01", "description": "old", "season": 1},
+                    {"id": "test_story:es:en:chapter-01", "description": "old", "season": 2},
+                ],
+            }), encoding="utf-8")
+            catalog = descriptions.refresh_course(
+                course,
+                {"test_story": {
+                    "story_id": "test_story",
+                    "titles": {"es": "La radio mágica", "en": "The Magical Radio"},
+                    "chapters": [{"chapter_number": 1}],
+                }},
+                ({"Greetings": [{"es": "¡Hola!", "en": "Hi!"}]},
+                 {"Greetings": {"es": "Saludos", "en": "Greetings"}}),
+            )
+            self.assertEqual(catalog["title"], "Repeto – Aprendo inglés")
+            self.assertEqual(catalog["seasons"], {"1": "Práctica", "2": "La radio mágica"})
 
     def test_swedish_and_spain_spanish_targets_for_polish_listeners(self):
         for target, genitive, adverb in (
@@ -252,7 +308,7 @@ class DescriptionTests(unittest.TestCase):
 
     def test_unknown_language_is_rejected(self):
         with self.assertRaises(ValueError):
-            descriptions.show_title("de")
+            descriptions.show_title("it")
 
     def test_practice_description_lists_examples(self):
         text = descriptions.practice_description("pl", 2, 30, TITLES["Greetings"], ITEMS)

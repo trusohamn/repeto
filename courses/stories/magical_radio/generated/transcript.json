@@ -5,7 +5,9 @@
     "pl": "Magiczne Radio",
     "sv": "Den magiska radion",
     "en": "The Magical Radio",
-    "ru": "Волшебное радио"
+    "ru": "Волшебное радио",
+    "de": "Das magische Radio",
+    "fr": "La radio magique"
   },
   "chapters": [
     {
@@ -15,13 +17,18 @@
         "es": "La mesa vieja",
         "sv": "Det gamla bordet",
         "en": "The Old Table",
-        "ru": "Старый стол"
+        "ru": "Старый стол",
+        "de": "Der alte Tisch",
+        "fr": "La vieille table"
       },
       "summary": {
         "sv": "Två syskon hittar en gammal träradio på en loppmarknad. Plötsligt surrar den – och en gyllene text visar att radion är till just dem.",
         "pl": "Rodzeństwo znajduje stare drewniane radio na pchlim targu. Radio nagle szumi, a złoty napis zdradza, że czekało właśnie na nich.",
         "en": "Two siblings find an old wooden radio at a flea market. Suddenly it starts to hum, and a golden inscription shows that the radio is meant for them.",
-        "ru": "Брат и сестра находят старое деревянное радио на блошином рынке. Вдруг оно начинает шуметь, а золотая надпись показывает, что радио предназначено именно для них."
+        "ru": "Брат и сестра находят старое деревянное радио на блошином рынке. Вдруг оно начинает шуметь, а золотая надпись показывает, что радио предназначено именно для них.",
+        "es": "Dos hermanos encuentran una vieja radio de madera en un mercadillo. De repente, la radio zumba y aparece un mensaje dorado dirigido a ellos.",
+        "de": "Auf einem Flohmarkt beginnt ein altes Radio plötzlich zu rauschen und zeigt eine goldene Botschaft.",
+        "fr": "Deux enfants trouvent une vieille radio en bois dans un vide-grenier. Elle se met soudain à bourdonner, et une inscription dorée révèle qu'elle les attendait."
       },
       "vocabulary": [
         {
@@ -31,7 +38,9 @@
             "pl": "pchli targ",
             "sv": "loppmarknad",
             "en": "flea market",
-            "ru": "блошиный рынок"
+            "ru": "блошиный рынок",
+            "de": "Flohmarkt",
+            "fr": "un vide-grenier"
           }
         },
         {
@@ -41,7 +50,9 @@
             "pl": "złote pokrętła",
             "sv": "gyllene rattar",
             "en": "gold knobs",
-            "ru": "золотые ручки"
+            "ru": "золотые ручки",
+            "de": "goldene Drehknöpfe",
+            "fr": "des boutons de réglage dorés"
           }
         },
         {
@@ -51,7 +62,9 @@
             "pl": "kolorowe przyciski",
             "sv": "färgade knappar",
             "en": "colourful buttons",
-            "ru": "разноцветные кнопки"
+            "ru": "разноцветные кнопки",
+            "de": "bunte Knöpfe",
+            "fr": "des boutons colorés"
           }
         },
         {
@@ -61,7 +74,9 @@
             "pl": "cicho szumieć",
             "sv": "susa tyst",
             "en": "hum quietly",
-            "ru": "тихо шуметь"
+            "ru": "тихо шуметь",
+            "de": "leise rauschen",
+            "fr": "bourdonner doucement"
           }
         },
         {
@@ -71,7 +86,9 @@
             "pl": "złoty napis",
             "sv": "gyllene inskription",
             "en": "golden inscription",
-            "ru": "золотая надпись"
+            "ru": "золотая надпись",
+            "de": "goldene Aufschrift",
+            "fr": "une inscription dorée"
           }
         },
         {
@@ -81,7 +98,9 @@
             "pl": "otworzyć szeroko oczy",
             "sv": "spärra upp ögonen",
             "en": "open one's eyes wide",
-            "ru": "широко открыть глаза"
+            "ru": "широко открыть глаза",
+            "de": "die Augen weit aufreißen",
+            "fr": "ouvrir grand les yeux"
           }
         },
         {
@@ -91,7 +110,9 @@
             "pl": "sobota",
             "sv": "lördag",
             "en": "Saturday",
-            "ru": "суббота"
+            "ru": "суббота",
+            "de": "Samstag",
+            "fr": "samedi"
           }
         },
         {
@@ -101,7 +122,9 @@
             "pl": "ma dziewięć lat",
             "sv": "är nio år",
             "en": "is nine years old",
-            "ru": "ей девять лет"
+            "ru": "ей девять лет",
+            "de": "neun Jahre alt sein",
+            "fr": "elle a neuf ans"
           }
         },
         {
@@ -111,7 +134,9 @@
             "pl": "jej brat",
             "sv": "hennes bror",
             "en": "her brother",
-            "ru": "её брат"
+            "ru": "её брат",
+            "de": "ihr Bruder",
+            "fr": "son frère"
           }
         },
         {
@@ -121,7 +146,9 @@
             "pl": "ma sześć lat",
             "sv": "är sex år",
             "en": "is six years old",
-            "ru": "ему шесть лет"
+            "ru": "ему шесть лет",
+            "de": "sechs Jahre alt sein",
+            "fr": "il a six ans"
           }
         },
         {
@@ -131,7 +158,9 @@
             "pl": "razem",
             "sv": "tillsammans",
             "en": "together",
-            "ru": "вместе"
+            "ru": "вместе",
+            "de": "zusammen",
+            "fr": "ensemble"
           }
         },
         {
@@ -141,7 +170,9 @@
             "pl": "w rogu",
             "sv": "i hörnet",
             "en": "in the corner",
-            "ru": "в углу"
+            "ru": "в углу",
+            "de": "in einer Ecke",
+            "fr": "dans un coin"
           }
         },
         {
@@ -151,7 +182,9 @@
             "pl": "stary stół",
             "sv": "ett gammalt bord",
             "en": "an old table",
-            "ru": "старый стол"
+            "ru": "старый стол",
+            "de": "alter Tisch",
+            "fr": "une vieille table"
           }
         },
         {
@@ -161,7 +194,9 @@
             "pl": "drewniane radio",
             "sv": "en radio av trä",
             "en": "a wooden radio",
-            "ru": "деревянное радио"
+            "ru": "деревянное радио",
+            "de": "Radio aus Holz",
+            "fr": "une radio en bois"
           }
         },
         {
@@ -171,7 +206,9 @@
             "pl": "na stole",
             "sv": "på bordet",
             "en": "on the table",
-            "ru": "на столе"
+            "ru": "на столе",
+            "de": "auf dem Tisch",
+            "fr": "sur la table"
           }
         },
         {
@@ -181,7 +218,9 @@
             "pl": "podchodzić bliżej",
             "sv": "komma närmare",
             "en": "come closer",
-            "ru": "подходить ближе"
+            "ru": "подходить ближе",
+            "de": "näher kommen",
+            "fr": "s'approcher"
           }
         },
         {
@@ -191,7 +230,9 @@
             "pl": "nagle",
             "sv": "plötsligt",
             "en": "suddenly",
-            "ru": "вдруг"
+            "ru": "вдруг",
+            "de": "plötzlich",
+            "fr": "soudain"
           }
         },
         {
@@ -201,7 +242,9 @@
             "pl": "pojawić się",
             "sv": "dyka upp",
             "en": "appear",
-            "ru": "появиться"
+            "ru": "появиться",
+            "de": "erscheinen",
+            "fr": "apparaître"
           }
         },
         {
@@ -211,7 +254,9 @@
             "pl": "gdy",
             "sv": "när",
             "en": "when",
-            "ru": "когда"
+            "ru": "когда",
+            "de": "als",
+            "fr": "quand"
           }
         },
         {
@@ -221,7 +266,9 @@
             "pl": "stać",
             "sv": "stå",
             "en": "stand",
-            "ru": "стоять"
+            "ru": "стоять",
+            "de": "stehen",
+            "fr": "se trouver"
           }
         },
         {
@@ -231,7 +278,9 @@
             "pl": "iść na pchli targ",
             "sv": "gå på loppmarknad",
             "en": "go to a flea market",
-            "ru": "идти на блошиный рынок"
+            "ru": "идти на блошиный рынок",
+            "de": "auf einen Flohmarkt gehen",
+            "fr": "aller au vide-grenier"
           }
         }
       ],
@@ -240,7 +289,9 @@
         "pl": "Jest sobota. Maja ma dziewięć lat, a jej brat Tomek – sześć. Razem idą na pchli targ. W rogu stoi stary stół, a na stole – drewniane radio. Ma złote pokrętła i kolorowe przyciski. Gdy Maja podchodzi bliżej, radio nagle cicho szumi. Na radiu pojawia się złoty napis: „Dla Mai i Tomka”. Dzieci otwierają szeroko oczy.",
         "sv": "Det är lördag. Maja är nio år och hennes bror Tom är sex. Tillsammans går de på loppmarknad. I hörnet står ett gammalt bord och på bordet står en radio av trä. Den har gyllene rattar och färgade knappar. När Maja kommer närmare börjar radion plötsligt susa tyst. En gyllene text dyker upp på radion: ”Till Maja och Tom”. Barnen spärrar upp ögonen.",
         "en": "It is Saturday. Maya is nine years old, and her brother Tom is six. Together they go to a flea market. In the corner stands an old table, and on the table there is a wooden radio. It has gold knobs and colourful buttons. When Maya comes closer, the radio suddenly hums quietly. A golden inscription appears on the radio: “For Maya and Tom.” The children open their eyes wide.",
-        "ru": "Сегодня суббота. Маше девять лет, а её брату Мише — шесть. Вместе они идут на блошиный рынок. В углу стоит старый стол, а на столе — деревянное радио. У него золотые ручки и разноцветные кнопки. Когда Маша подходит ближе, радио вдруг тихо шумит. На радио появляется золотая надпись: «Для Маши и Миши». Дети широко открывают глаза."
+        "ru": "Сегодня суббота. Маше девять лет, а её брату Мише — шесть. Вместе они идут на блошиный рынок. В углу стоит старый стол, а на столе — деревянное радио. У него золотые ручки и разноцветные кнопки. Когда Маша подходит ближе, радио вдруг тихо шумит. На радио появляется золотая надпись: «Для Маши и Миши». Дети широко открывают глаза.",
+        "de": "Es ist Samstag. Maja ist neun Jahre alt, und ihr Bruder Tom ist sechs. Zusammen gehen sie auf einen Flohmarkt.\n\nIn einer Ecke steht ein alter Tisch, und auf dem Tisch steht ein Radio aus Holz. Es hat goldene Drehknöpfe und bunte Knöpfe. Als Maja näher kommt, rauscht das Radio plötzlich leise.\n\nAuf dem Radio erscheint eine goldene Aufschrift: „Für Maja und Tom“. Die Kinder reißen die Augen weit auf.",
+        "fr": "C'est samedi. Maya a neuf ans et son frère Thomas en a six. Ils vont ensemble au vide-grenier.\nDans un coin se trouve une vieille table et, sur la table, une radio en bois. Elle a des boutons de réglage dorés et des boutons colorés. Quand Maya s'approche, la radio se met soudain à bourdonner doucement.\nUne inscription dorée apparaît sur la radio : « Pour Maya et Thomas. » Les enfants ouvrent grand les yeux."
       }
     },
     {
@@ -250,13 +301,18 @@
         "es": "Una voz en la radio",
         "sv": "En röst ur radion",
         "en": "A Voice from the Radio",
-        "ru": "Голос из радио"
+        "ru": "Голос из радио",
+        "de": "Eine Stimme aus dem Radio",
+        "fr": "Une voix dans la radio"
       },
       "summary": {
         "sv": "Hemma trycker de på den blå knappen. Ur radion kommer ett moln som doftar kanel – och en glad röst berättar om en mus med en viktig nyckel.",
         "pl": "W domu dzieci naciskają niebieski przycisk. Z radia wylatuje chmurka pachnąca cynamonem, a wesoły głos opowiada o myszy z ważnym kluczem.",
         "en": "At home, the children press the blue button. A little cloud smelling of cinnamon floats out of the radio, and a cheerful voice tells them about a mouse with an important key.",
-        "ru": "Дома дети нажимают синюю кнопку. Из радио вылетает облачко с запахом корицы, а весёлый голос рассказывает о мышке с важным ключом."
+        "ru": "Дома дети нажимают синюю кнопку. Из радио вылетает облачко с запахом корицы, а весёлый голос рассказывает о мышке с важным ключом.",
+        "es": "En casa, los niños pulsan el botón azul. De la radio sale una nubecita que huele a canela y una voz alegre les habla de un ratón que tiene una llave importante.",
+        "de": "Eine fröhliche Stimme aus dem Radio erzählt von einer Maus mit einem wichtigen Schlüssel.",
+        "fr": "À la maison, les enfants appuient sur le bouton bleu. Un petit nuage qui sent la cannelle sort de la radio, et une voix joyeuse leur parle d'une souris qui a une clé importante."
       },
       "vocabulary": [
         {
@@ -266,7 +322,9 @@
             "pl": "niebieski przycisk",
             "sv": "blå knapp",
             "en": "blue button",
-            "ru": "синяя кнопка"
+            "ru": "синяя кнопка",
+            "de": "blauer Knopf",
+            "fr": "le bouton bleu"
           }
         },
         {
@@ -276,7 +334,9 @@
             "pl": "mała chmurka",
             "sv": "litet moln",
             "en": "little cloud",
-            "ru": "маленькое облачко"
+            "ru": "маленькое облачко",
+            "de": "kleine Wolke",
+            "fr": "un petit nuage"
           }
         },
         {
@@ -286,7 +346,9 @@
             "pl": "pachnieć cynamonem",
             "sv": "dofta av kanel",
             "en": "smell of cinnamon",
-            "ru": "пахнуть корицей"
+            "ru": "пахнуть корицей",
+            "de": "nach Zimt riechen",
+            "fr": "sentir la cannelle"
           }
         },
         {
@@ -296,7 +358,9 @@
             "pl": "wesoły głos",
             "sv": "glad röst",
             "en": "cheerful voice",
-            "ru": "весёлый голос"
+            "ru": "весёлый голос",
+            "de": "fröhliche Stimme",
+            "fr": "une voix joyeuse"
           }
         },
         {
@@ -306,7 +370,9 @@
             "pl": "nieść do domu",
             "sv": "bära hem",
             "en": "carry home",
-            "ru": "нести домой"
+            "ru": "нести домой",
+            "de": "nach Hause tragen",
+            "fr": "rapporter à la maison"
           }
         },
         {
@@ -316,7 +382,9 @@
             "pl": "naciskać przycisk",
             "sv": "trycka på en knapp",
             "en": "press a button",
-            "ru": "нажимать кнопку"
+            "ru": "нажимать кнопку",
+            "de": "einen Knopf drücken",
+            "fr": "appuyer sur un bouton"
           }
         },
         {
@@ -326,7 +394,9 @@
             "pl": "wylatywać z radia",
             "sv": "flyga ut ur radion",
             "en": "fly out of the radio",
-            "ru": "вылетать из радио"
+            "ru": "вылетать из радио",
+            "de": "aus dem Radio herausfliegen",
+            "fr": "sortir en volant de la radio"
           }
         },
         {
@@ -336,7 +406,9 @@
             "pl": "nazywać się",
             "sv": "heta",
             "en": "be called",
-            "ru": "называться"
+            "ru": "называться",
+            "de": "heißen",
+            "fr": "s'appeler"
           }
         },
         {
@@ -346,7 +418,9 @@
             "pl": "wasz ogród",
             "sv": "er trädgård",
             "en": "your garden",
-            "ru": "ваш сад"
+            "ru": "ваш сад",
+            "de": "euer Garten",
+            "fr": "votre jardin"
           }
         },
         {
@@ -356,7 +430,9 @@
             "pl": "pod starym drzewem",
             "sv": "under det gamla trädet",
             "en": "under the old tree",
-            "ru": "под старым деревом"
+            "ru": "под старым деревом",
+            "de": "unter dem alten Baum",
+            "fr": "sous le vieil arbre"
           }
         },
         {
@@ -366,7 +442,9 @@
             "pl": "klucz",
             "sv": "en nyckel",
             "en": "a key",
-            "ru": "ключ"
+            "ru": "ключ",
+            "de": "Schlüssel",
+            "fr": "une clé"
           }
         },
         {
@@ -376,7 +454,9 @@
             "pl": "weźcie mnie ze sobą",
             "sv": "ta med mig",
             "en": "take me with you",
-            "ru": "возьмите меня с собой"
+            "ru": "возьмите меня с собой",
+            "de": "Nehmt mich mit!",
+            "fr": "emmenez-moi avec vous"
           }
         },
         {
@@ -386,7 +466,9 @@
             "pl": "cześć",
             "sv": "hej",
             "en": "hi",
-            "ru": "привет"
+            "ru": "привет",
+            "de": "Hallo",
+            "fr": "salut"
           }
         },
         {
@@ -396,7 +478,9 @@
             "pl": "mówić",
             "sv": "säga",
             "en": "say",
-            "ru": "говорить"
+            "ru": "говорить",
+            "de": "sagen",
+            "fr": "dire"
           }
         },
         {
@@ -406,7 +490,9 @@
             "pl": "kupować radio",
             "sv": "köpa radion",
             "en": "buy the radio",
-            "ru": "покупать радио"
+            "ru": "покупать радио",
+            "de": "das Radio kaufen",
+            "fr": "acheter la radio"
           }
         },
         {
@@ -416,7 +502,9 @@
             "pl": "mieszkać",
             "sv": "bo",
             "en": "live",
-            "ru": "жить"
+            "ru": "жить",
+            "de": "leben",
+            "fr": "habiter"
           }
         },
         {
@@ -426,7 +514,9 @@
             "pl": "ważny klucz",
             "sv": "en viktig nyckel",
             "en": "an important key",
-            "ru": "важный ключ"
+            "ru": "важный ключ",
+            "de": "wichtiger Schlüssel",
+            "fr": "une clé importante"
           }
         },
         {
@@ -436,7 +526,9 @@
             "pl": "bardzo lubić ser",
             "sv": "verkligen gilla ost",
             "en": "really love cheese",
-            "ru": "очень любить сыр"
+            "ru": "очень любить сыр",
+            "de": "Käse sehr mögen",
+            "fr": "aimer beaucoup le fromage"
           }
         },
         {
@@ -446,7 +538,9 @@
             "pl": "dzieci",
             "sv": "barn",
             "en": "kids",
-            "ru": "дети"
+            "ru": "дети",
+            "de": "Kinder",
+            "fr": "les enfants"
           }
         }
       ],
@@ -455,7 +549,9 @@
         "pl": "Dzieci kupują radio i niosą je do domu. Tomek naciska niebieski przycisk. Z radia wylatuje mała chmurka, która pachnie cynamonem. – Cześć, dzieci! – mówi wesoły głos. – Nazywam się Radiofon. W waszym ogrodzie, pod starym drzewem, mieszka mysz. Ma ważny klucz i bardzo lubi ser. Weźcie mnie ze sobą!",
         "sv": "Barnen köper radion och bär hem den. Tom trycker på den blå knappen. Ett litet moln som doftar kanel flyger ut ur radion. – Hej, barn! säger en glad röst. Jag heter Radiofon. I er trädgård, under det gamla trädet, bor en mus. Den har en viktig nyckel och gillar ost väldigt mycket. Ta med mig!",
         "en": "The children buy the radio and carry it home. Tom presses the blue button. A little cloud flies out of the radio, and it smells of cinnamon. “Hi, kids!” says a cheerful voice. “My name is Radiophone. In your garden, under the old tree, lives a mouse. It has an important key, and it really loves cheese. Take me with you!”",
-        "ru": "Дети покупают радио и несут его домой. Миша нажимает синюю кнопку. Из радио вылетает маленькое облачко, которое пахнет корицей. — Привет, дети! — говорит весёлый голос. — Меня зовут Радиофон. В вашем саду, под старым деревом, живёт мышка. У неё есть важный ключ, и она очень любит сыр. Возьмите меня с собой!"
+        "ru": "Дети покупают радио и несут его домой. Миша нажимает синюю кнопку. Из радио вылетает маленькое облачко, которое пахнет корицей. — Привет, дети! — говорит весёлый голос. — Меня зовут Радиофон. В вашем саду, под старым деревом, живёт мышка. У неё есть важный ключ, и она очень любит сыр. Возьмите меня с собой!",
+        "de": "Die Kinder kaufen das Radio und tragen es nach Hause. Tom drückt den blauen Knopf. Aus dem Radio fliegt eine kleine Wolke, die nach Zimt riecht.\n\n„Hallo, Kinder!“, sagt eine fröhliche Stimme. „Ich heiße Radiofon. In eurem Garten, unter dem alten Baum, lebt eine Maus. Sie hat einen wichtigen Schlüssel und mag Käse sehr. Nehmt mich mit!“",
+        "fr": "Les enfants achètent la radio et la rapportent à la maison. Thomas appuie sur le bouton bleu. Un petit nuage s'envole de la radio ; il sent la cannelle.\n— Salut, les enfants ! dit une voix joyeuse. Je m'appelle Radiophon. Une souris habite dans votre jardin, sous le vieil arbre. Elle a une clé importante et elle aime beaucoup le fromage. Emmenez-moi avec vous !"
       }
     },
     {
@@ -465,13 +561,18 @@
         "es": "Un ratón debajo del árbol",
         "sv": "En mus under trädet",
         "en": "A Mouse under the Tree",
-        "ru": "Мышка под деревом"
+        "ru": "Мышка под деревом",
+        "de": "Die Maus unter dem Baum",
+        "fr": "La souris sous l'arbre"
       },
       "summary": {
         "sv": "Med ficklampa, ost och radion går syskonen till det gamla trädet. En liten mus vill byta – och mellan rötterna gömmer sig en liten dörr.",
         "pl": "Z latarką, serem i radiem rodzeństwo rusza pod stare drzewo. Mała mysz zgadza się na wymianę, a między korzeniami kryją się tajemnicze drzwi.",
         "en": "With a torch, some cheese and the radio, the siblings head to the old tree. A little mouse agrees to a trade, and a small door is hidden between the roots.",
-        "ru": "С фонариком, сыром и радио дети идут к старому дереву. Маленькая мышка соглашается на обмен, а между корнями скрывается маленькая дверь."
+        "ru": "С фонариком, сыром и радио дети идут к старому дереву. Маленькая мышка соглашается на обмен, а между корнями скрывается маленькая дверь.",
+        "es": "Con una linterna, queso y la radio, los hermanos se acercan al árbol viejo. Un ratoncito les da una llave a cambio del queso y entre las raíces descubren una puerta pequeña.",
+        "de": "Mit Käse gewinnen die Kinder einen Schlüssel und entdecken zwischen den Baumwurzeln eine Tür.",
+        "fr": "Avec une lampe de poche, du fromage et la radio, les enfants vont jusqu'au vieil arbre. Une petite souris accepte l'échange, et une petite porte se cache entre les racines."
       },
       "vocabulary": [
         {
@@ -481,7 +582,9 @@
             "pl": "latarka",
             "sv": "ficklampa",
             "en": "flashlight",
-            "ru": "фонарик"
+            "ru": "фонарик",
+            "de": "Taschenlampe",
+            "fr": "une lampe de poche"
           }
         },
         {
@@ -491,7 +594,9 @@
             "pl": "żółty ser",
             "sv": "gul ost",
             "en": "yellow cheese",
-            "ru": "жёлтый сыр"
+            "ru": "жёлтый сыр",
+            "de": "gelber Käse",
+            "fr": "du fromage jaune"
           }
         },
         {
@@ -501,7 +606,9 @@
             "pl": "świecić latarką",
             "sv": "lysa med ficklampan",
             "en": "shine a flashlight",
-            "ru": "светить фонариком"
+            "ru": "светить фонариком",
+            "de": "mit der Taschenlampe leuchten",
+            "fr": "éclairer avec la lampe de poche"
           }
         },
         {
@@ -511,7 +618,9 @@
             "pl": "korzenie",
             "sv": "rötter",
             "en": "roots",
-            "ru": "корни"
+            "ru": "корни",
+            "de": "Wurzeln",
+            "fr": "les racines"
           }
         },
         {
@@ -521,7 +630,9 @@
             "pl": "dziura",
             "sv": "hål",
             "en": "hole",
-            "ru": "норка"
+            "ru": "норка",
+            "de": "Loch",
+            "fr": "un trou"
           }
         },
         {
@@ -531,7 +642,9 @@
             "pl": "łapka",
             "sv": "tass",
             "en": "paw",
-            "ru": "лапка"
+            "ru": "лапка",
+            "de": "Pfötchen",
+            "fr": "une petite patte"
           }
         },
         {
@@ -541,7 +654,9 @@
             "pl": "srebrny klucz",
             "sv": "silvernyckel",
             "en": "silver key",
-            "ru": "серебряный ключ"
+            "ru": "серебряный ключ",
+            "de": "silberner Schlüssel",
+            "fr": "une clé en argent"
           }
         },
         {
@@ -551,7 +666,9 @@
             "pl": "brać",
             "sv": "ta",
             "en": "take",
-            "ru": "брать"
+            "ru": "брать",
+            "de": "nehmen",
+            "fr": "prendre"
           }
         },
         {
@@ -561,7 +678,9 @@
             "pl": "iść pod drzewo",
             "sv": "gå till trädet",
             "en": "go to the tree",
-            "ru": "идти к дереву"
+            "ru": "идти к дереву",
+            "de": "zum Baum gehen",
+            "fr": "aller jusqu'à l'arbre"
           }
         },
         {
@@ -571,7 +690,9 @@
             "pl": "w ogrodzie",
             "sv": "i trädgården",
             "en": "in the garden",
-            "ru": "в саду"
+            "ru": "в саду",
+            "de": "im Garten",
+            "fr": "dans le jardin"
           }
         },
         {
@@ -581,7 +702,9 @@
             "pl": "wielkie drzewo",
             "sv": "ett stort träd",
             "en": "a big tree",
-            "ru": "большое дерево"
+            "ru": "большое дерево",
+            "de": "großer Baum",
+            "fr": "un grand arbre"
           }
         },
         {
@@ -591,7 +714,9 @@
             "pl": "wychodzić z dziury",
             "sv": "komma ut ur ett hål",
             "en": "come out of a hole",
-            "ru": "выходить из норки"
+            "ru": "выходить из норки",
+            "de": "aus einem Loch herauskommen",
+            "fr": "sortir d'un trou"
           }
         },
         {
@@ -601,7 +726,9 @@
             "pl": "mała mysz",
             "sv": "en liten mus",
             "en": "a little mouse",
-            "ru": "маленькая мышка"
+            "ru": "маленькая мышка",
+            "de": "kleine Maus",
+            "fr": "une petite souris"
           }
         },
         {
@@ -611,7 +738,9 @@
             "pl": "mamy dla ciebie ser",
             "sv": "vi har ost till dig",
             "en": "we have cheese for you",
-            "ru": "у нас есть для тебя сыр"
+            "ru": "у нас есть для тебя сыр",
+            "de": "Wir haben Käse für dich.",
+            "fr": "nous avons du fromage pour toi"
           }
         },
         {
@@ -621,7 +750,9 @@
             "pl": "dawać",
             "sv": "ge",
             "en": "give",
-            "ru": "давать"
+            "ru": "давать",
+            "de": "geben",
+            "fr": "donner"
           }
         },
         {
@@ -631,7 +762,9 @@
             "pl": "zabierać ser",
             "sv": "ta med sig osten",
             "en": "take the cheese away",
-            "ru": "забирать сыр"
+            "ru": "забирать сыр",
+            "de": "den Käse mitnehmen",
+            "fr": "emporter le fromage"
           }
         },
         {
@@ -641,7 +774,9 @@
             "pl": "jest ciemno",
             "sv": "det är mörkt",
             "en": "it is dark",
-            "ru": "темно"
+            "ru": "темно",
+            "de": "es ist dunkel",
+            "fr": "il fait sombre"
           }
         },
         {
@@ -651,7 +786,9 @@
             "pl": "więc",
             "sv": "så",
             "en": "so",
-            "ru": "поэтому"
+            "ru": "поэтому",
+            "de": "deshalb",
+            "fr": "alors"
           }
         },
         {
@@ -661,7 +798,9 @@
             "pl": "dzień dobry, myszko!",
             "sv": "hej, lilla mus!",
             "en": "hello, little mouse!",
-            "ru": "здравствуй, мышка!"
+            "ru": "здравствуй, мышка!",
+            "de": "Guten Tag, kleine Maus!",
+            "fr": "bonjour, petite souris !"
           }
         },
         {
@@ -671,7 +810,9 @@
             "pl": "czy dasz nam klucz?",
             "sv": "ger du oss nyckeln?",
             "en": "will you give us the key?",
-            "ru": "ты дашь нам ключ?"
+            "ru": "ты дашь нам ключ?",
+            "de": "Gibst du uns den Schlüssel?",
+            "fr": "est-ce que tu vas nous donner la clé ?"
           }
         },
         {
@@ -681,7 +822,9 @@
             "pl": "kupka liści",
             "sv": "en lövhög",
             "en": "a pile of leaves",
-            "ru": "кучка листьев"
+            "ru": "кучка листьев",
+            "de": "Laubhaufen",
+            "fr": "un tas de feuilles"
           }
         },
         {
@@ -691,7 +834,9 @@
             "pl": "odgarniać liście",
             "sv": "sopa undan löven",
             "en": "brush the leaves aside",
-            "ru": "разгребать листья"
+            "ru": "разгребать листья",
+            "de": "die Blätter beiseiteschieben",
+            "fr": "écarter les feuilles"
           }
         },
         {
@@ -701,7 +846,9 @@
             "pl": "pomiędzy korzeniami",
             "sv": "mellan rötterna",
             "en": "between the roots",
-            "ru": "между корнями"
+            "ru": "между корнями",
+            "de": "zwischen den Wurzeln",
+            "fr": "entre les racines"
           }
         },
         {
@@ -711,7 +858,9 @@
             "pl": "małe, stare drzwi",
             "sv": "en liten, gammal dörr",
             "en": "a small, old door",
-            "ru": "маленькая старая дверь"
+            "ru": "маленькая старая дверь",
+            "de": "kleine, alte Tür",
+            "fr": "une petite porte ancienne"
           }
         }
       ],
@@ -720,7 +869,9 @@
         "pl": "Pod drzewem jest ciemno, więc Tomek bierze latarkę. Maja bierze radio i żółty ser. Idą pod wielkie drzewo w ogrodzie. Tomek świeci latarką pod korzeniami. Z dziury wychodzi mała mysz. – Dzień dobry, myszko! – mówi Maja. – Mamy dla ciebie ser. Czy dasz nam klucz? Mysz daje im srebrny klucz, zabiera ser i pokazuje łapką kupkę liści. Dzieci odgarniają liście – pomiędzy korzeniami drzewa są małe, stare drzwi!",
         "sv": "Det är mörkt under trädet, så Tom tar en ficklampa. Maja tar radion och gul ost. De går till det stora trädet i trädgården. Tom lyser med ficklampan under rötterna. En liten mus kommer ut ur ett hål. – Hej, lilla mus! säger Maja. Vi har ost till dig. Ger du oss nyckeln? Musen ger dem en silvernyckel, tar med sig osten och pekar med tassen på en lövhög. Barnen sopar undan löven – mellan trädets rötter finns en liten, gammal dörr!",
         "en": "It is dark under the tree, so Tom takes a flashlight. Maya takes the radio and some yellow cheese. They go to the big tree in the garden. Tom shines the flashlight under the roots. A little mouse comes out of a hole. “Hello, little mouse!” says Maya. “We have some cheese for you. Will you give us the key?” The mouse gives them a silver key, takes the cheese and points its paw at a pile of leaves. The children brush the leaves aside – between the roots of the tree there is a small, old door!",
-        "ru": "Под деревом темно, поэтому Миша берёт фонарик. Маша берёт радио и жёлтый сыр. Они идут к большому дереву в саду. Миша светит фонариком под корни. Из норки выходит маленькая мышка. — Здравствуй, мышка! — говорит Маша. — У нас есть для тебя сыр. Ты дашь нам ключ? Мышка даёт им серебряный ключ, забирает сыр и показывает лапкой на кучку листьев. Дети разгребают листья — между корнями дерева маленькая старая дверь!"
+        "ru": "Под деревом темно, поэтому Миша берёт фонарик. Маша берёт радио и жёлтый сыр. Они идут к большому дереву в саду. Миша светит фонариком под корни. Из норки выходит маленькая мышка. — Здравствуй, мышка! — говорит Маша. — У нас есть для тебя сыр. Ты дашь нам ключ? Мышка даёт им серебряный ключ, забирает сыр и показывает лапкой на кучку листьев. Дети разгребают листья — между корнями дерева маленькая старая дверь!",
+        "de": "Unter dem Baum ist es dunkel, deshalb nimmt Tom eine Taschenlampe. Maja nimmt das Radio und gelben Käse mit. Sie gehen zum großen Baum im Garten. Tom leuchtet mit der Taschenlampe unter die Wurzeln. Aus einem Loch kommt eine kleine Maus.\n\n„Guten Tag, kleine Maus!“, sagt Maja. „Wir haben Käse für dich. Gibst du uns den Schlüssel?“\n\nDie Maus gibt ihnen einen silbernen Schlüssel, nimmt den Käse und zeigt mit ihrer Pfote auf einen Laubhaufen. Die Kinder schieben die Blätter beiseite – zwischen den Wurzeln des Baumes ist eine kleine, alte Tür!",
+        "fr": "Sous l'arbre, il fait sombre, alors Thomas prend une lampe de poche. Maya prend la radio et du fromage jaune. Ils vont jusqu'au grand arbre du jardin.\nThomas éclaire sous les racines avec sa lampe de poche. Une petite souris sort d'un trou.\n— Bonjour, petite souris ! dit Maya. Nous avons du fromage pour toi. Est-ce que tu vas nous donner la clé ?\nLa souris leur donne une clé en argent, emporte le fromage et leur montre un tas de feuilles avec sa patte. Les enfants écartent les feuilles : entre les racines de l'arbre, il y a une petite porte ancienne !"
       }
     },
     {
@@ -730,13 +881,18 @@
         "es": "Escaleras abajo",
         "sv": "Trappan ner",
         "en": "Down the Stairs",
-        "ru": "Лестница вниз"
+        "ru": "Лестница вниз",
+        "de": "Die Treppe hinunter",
+        "fr": "En descendant l'escalier"
       },
       "summary": {
         "sv": "Silvernyckeln öppnar dörren. En stentrappa leder ner till ett bibliotek med flygande böcker och blå, lysande blommor.",
         "pl": "Srebrny klucz otwiera drzwi. Kamienne schody prowadzą do biblioteki pełnej latających książek, a na ścianach rosną świecące kwiaty.",
         "en": "The silver key opens the door. Stone steps lead down to a library full of flying books, with glowing flowers growing on the walls.",
-        "ru": "Серебряный ключ открывает дверь. Каменные ступени ведут вниз, в библиотеку с летающими книгами, а на стенах растут светящиеся цветы."
+        "ru": "Серебряный ключ открывает дверь. Каменные ступени ведут вниз, в библиотеку с летающими книгами, а на стенах растут светящиеся цветы.",
+        "es": "La llave de plata abre la puerta. Unas escaleras de piedra conducen a una biblioteca con libros voladores y flores luminosas en las paredes.",
+        "de": "Hinter einer alten Tür führen Steinstufen zu einer geheimnisvollen Bibliothek mit fliegenden Büchern.",
+        "fr": "La clé en argent ouvre la porte. Un escalier de pierre mène à une bibliothèque remplie de livres volants, tandis que des fleurs lumineuses poussent sur les murs."
       },
       "vocabulary": [
         {
@@ -746,7 +902,9 @@
             "pl": "przekręcić klucz",
             "sv": "vrida om nyckeln",
             "en": "turn the key",
-            "ru": "повернуть ключ"
+            "ru": "повернуть ключ",
+            "de": "den Schlüssel drehen",
+            "fr": "tourner la clé"
           }
         },
         {
@@ -756,7 +914,9 @@
             "pl": "otwierać się",
             "sv": "öppnas",
             "en": "open",
-            "ru": "открываться"
+            "ru": "открываться",
+            "de": "sich öffnen",
+            "fr": "s'ouvrir"
           }
         },
         {
@@ -766,7 +926,9 @@
             "pl": "kamienne schody",
             "sv": "stentrappa",
             "en": "stone stairs",
-            "ru": "каменная лестница"
+            "ru": "каменная лестница",
+            "de": "Steintreppe",
+            "fr": "un escalier en pierre"
           }
         },
         {
@@ -776,7 +938,9 @@
             "pl": "świecące kwiaty",
             "sv": "lysande blommor",
             "en": "glowing flowers",
-            "ru": "светящиеся цветы"
+            "ru": "светящиеся цветы",
+            "de": "leuchtende Blumen",
+            "fr": "des fleurs lumineuses"
           }
         },
         {
@@ -786,7 +950,9 @@
             "pl": "sufit",
             "sv": "tak",
             "en": "ceiling",
-            "ru": "потолок"
+            "ru": "потолок",
+            "de": "Decke",
+            "fr": "le plafond"
           }
         },
         {
@@ -796,7 +962,9 @@
             "pl": "klik!",
             "sv": "klick!",
             "en": "click!",
-            "ru": "щёлк!"
+            "ru": "щёлк!",
+            "de": "Klick!",
+            "fr": "clic !"
           }
         },
         {
@@ -806,7 +974,9 @@
             "pl": "prowadzić w dół",
             "sv": "leda neråt",
             "en": "lead down",
-            "ru": "вести вниз"
+            "ru": "вести вниз",
+            "de": "nach unten führen",
+            "fr": "mener vers le bas"
           }
         },
         {
@@ -816,7 +986,9 @@
             "pl": "ściana",
             "sv": "en vägg",
             "en": "a wall",
-            "ru": "стена"
+            "ru": "стена",
+            "de": "Wand",
+            "fr": "un mur"
           }
         },
         {
@@ -826,7 +998,9 @@
             "pl": "rosnąć",
             "sv": "växa",
             "en": "grow",
-            "ru": "расти"
+            "ru": "расти",
+            "de": "wachsen",
+            "fr": "pousser"
           }
         },
         {
@@ -836,7 +1010,9 @@
             "pl": "schodzić",
             "sv": "gå ner",
             "en": "go down",
-            "ru": "спускаться"
+            "ru": "спускаться",
+            "de": "hinuntergehen",
+            "fr": "descendre"
           }
         },
         {
@@ -846,7 +1022,9 @@
             "pl": "wszędzie",
             "sv": "överallt",
             "en": "everywhere",
-            "ru": "повсюду"
+            "ru": "повсюду",
+            "de": "überall",
+            "fr": "partout"
           }
         },
         {
@@ -856,7 +1034,9 @@
             "pl": "książki",
             "sv": "böcker",
             "en": "books",
-            "ru": "книги"
+            "ru": "книги",
+            "de": "Bücher",
+            "fr": "des livres"
           }
         },
         {
@@ -866,7 +1046,9 @@
             "pl": "niektóre",
             "sv": "några",
             "en": "some",
-            "ru": "некоторые"
+            "ru": "некоторые",
+            "de": "manche",
+            "fr": "certains"
           }
         },
         {
@@ -876,7 +1058,9 @@
             "pl": "latać",
             "sv": "flyga",
             "en": "fly",
-            "ru": "летать"
+            "ru": "летать",
+            "de": "fliegen",
+            "fr": "voler"
           }
         },
         {
@@ -886,7 +1070,9 @@
             "pl": "pod sufitem",
             "sv": "under taket",
             "en": "under the ceiling",
-            "ru": "под потолком"
+            "ru": "под потолком",
+            "de": "unter der Decke",
+            "fr": "sous le plafond"
           }
         },
         {
@@ -896,7 +1082,9 @@
             "pl": "stać",
             "sv": "stå",
             "en": "stand",
-            "ru": "стоять"
+            "ru": "стоять",
+            "de": "stehen",
+            "fr": "se trouver"
           }
         },
         {
@@ -906,7 +1094,9 @@
             "pl": "na ścianach",
             "sv": "på väggarna",
             "en": "on the walls",
-            "ru": "на стенах"
+            "ru": "на стенах",
+            "de": "an den Wänden",
+            "fr": "sur les murs"
           }
         },
         {
@@ -916,7 +1106,9 @@
             "pl": "świecić na niebiesko",
             "sv": "lysa blått",
             "en": "glow blue",
-            "ru": "светиться голубым светом"
+            "ru": "светиться голубым светом",
+            "de": "blau leuchten",
+            "fr": "briller d'une lumière bleue"
           }
         },
         {
@@ -926,7 +1118,9 @@
             "pl": "wielka biblioteka",
             "sv": "ett stort bibliotek",
             "en": "a big library",
-            "ru": "большая библиотека"
+            "ru": "большая библиотека",
+            "de": "große Bibliothek",
+            "fr": "une grande bibliothèque"
           }
         },
         {
@@ -936,7 +1130,9 @@
             "pl": "jedna z nich",
             "sv": "en av dem",
             "en": "one of them",
-            "ru": "одна из них"
+            "ru": "одна из них",
+            "de": "eines davon",
+            "fr": "l'un d'eux"
           }
         },
         {
@@ -946,7 +1142,9 @@
             "pl": "świecić na złoto",
             "sv": "lysa guldgult",
             "en": "glow with a golden light",
-            "ru": "светиться золотым светом"
+            "ru": "светиться золотым светом",
+            "de": "golden leuchten",
+            "fr": "briller d'une lumière dorée"
           }
         }
       ],
@@ -955,7 +1153,9 @@
         "pl": "Maja przekręca klucz. Klik! Drzwi się otwierają. W dół prowadzą kamienne schody. Na ścianach rosną świecące na niebiesko kwiaty. Dzieci schodzą do wielkiej biblioteki. Wszędzie stoją książki – niektóre latają pod sufitem! Jedna z nich świeci na złoto.",
         "sv": "Maja vrider om nyckeln. Klick! Dörren öppnas. En stentrappa leder neråt. På väggarna växer blommor som lyser blått. Barnen går ner till ett stort bibliotek. Det finns böcker överallt – några av dem flyger uppe vid taket! En av dem lyser guldgult.",
         "en": "Maya turns the key. Click! The door opens. Stone stairs lead down. Blue, glowing flowers grow on the walls. The children go down into a big library. There are books everywhere, and some of them are flying just below the ceiling! One of them is glowing with a golden light.",
-        "ru": "Маша поворачивает ключ. Щёлк! Дверь открывается. Вниз ведёт каменная лестница. На стенах растут цветы, которые светятся голубым светом. Дети спускаются в большую библиотеку. Повсюду стоят книги, а некоторые летают под потолком! Одна из них светится золотым светом."
+        "ru": "Маша поворачивает ключ. Щёлк! Дверь открывается. Вниз ведёт каменная лестница. На стенах растут цветы, которые светятся голубым светом. Дети спускаются в большую библиотеку. Повсюду стоят книги, а некоторые летают под потолком! Одна из них светится золотым светом.",
+        "de": "Maja dreht den Schlüssel. Klick! Die Tür geht auf.\n\nEine Steintreppe führt nach unten. An den Wänden wachsen blau leuchtende Blumen. Die Kinder steigen hinunter in eine große Bibliothek.\n\nÜberall stehen Bücher – manche fliegen unter der Decke! Eines davon leuchtet golden.",
+        "fr": "Maya tourne la clé. Clic ! La porte s'ouvre.\nUn escalier en pierre descend sous terre. Sur les murs poussent des fleurs qui brillent d'une lumière bleue. Les enfants descendent dans une grande bibliothèque.\nIl y a des livres partout ; certains volent juste sous le plafond ! L'un d'eux brille d'une lumière dorée."
       }
     },
     {
@@ -965,13 +1165,18 @@
         "es": "El libro volador",
         "sv": "Den flygande boken",
         "en": "The Flying Book",
-        "ru": "Летающая книга"
+        "ru": "Летающая книга",
+        "de": "Das fliegende Buch",
+        "fr": "Le livre volant"
       },
       "summary": {
         "sv": "En gyllene bok landar på en axel, och radion lär ut en trollformel som lagar allt som är trasigt.",
         "pl": "Złota książka ląduje na ramieniu, a radio zdradza zaklęcie, które naprawia zepsute rzeczy.",
         "en": "A golden book lands on one of the children's shoulders, and the radio reveals a spell that can mend broken things.",
-        "ru": "Золотая книга садится на плечо, а радио раскрывает заклинание, которое чинит сломанные вещи."
+        "ru": "Золотая книга садится на плечо, а радио раскрывает заклинание, которое чинит сломанные вещи.",
+        "es": "Un libro dorado aterriza en el hombro de la niña y la radio revela un hechizo que arregla las cosas rotas.",
+        "de": "Ein goldenes Buch verrät einen Zauberspruch, der kaputte Dinge reparieren kann.",
+        "fr": "Un livre doré se pose sur une épaule et la radio révèle un sort capable de réparer tout objet cassé."
       },
       "vocabulary": [
         {
@@ -981,7 +1186,9 @@
             "pl": "złota książka",
             "sv": "gyllene bok",
             "en": "golden book",
-            "ru": "золотая книга"
+            "ru": "золотая книга",
+            "de": "goldenes Buch",
+            "fr": "livre doré"
           }
         },
         {
@@ -991,7 +1198,9 @@
             "pl": "machać stronami",
             "sv": "flaxa med sidorna",
             "en": "flap its pages",
-            "ru": "махать страницами"
+            "ru": "махать страницами",
+            "de": "mit den Seiten flattern",
+            "fr": "faire battre ses pages"
           }
         },
         {
@@ -1001,7 +1210,9 @@
             "pl": "ramię",
             "sv": "axel",
             "en": "shoulder",
-            "ru": "плечо"
+            "ru": "плечо",
+            "de": "Schulter",
+            "fr": "épaule"
           }
         },
         {
@@ -1011,7 +1222,9 @@
             "pl": "zaklęcie",
             "sv": "trollformel",
             "en": "spell",
-            "ru": "заклинание"
+            "ru": "заклинание",
+            "de": "Zauberspruch",
+            "fr": "sort"
           }
         },
         {
@@ -1021,7 +1234,9 @@
             "pl": "zepsuty kompas",
             "sv": "en trasig kompass",
             "en": "a broken compass",
-            "ru": "сломанный компас"
+            "ru": "сломанный компас",
+            "de": "kaputter Kompass",
+            "fr": "boussole cassée"
           }
         },
         {
@@ -1031,7 +1246,9 @@
             "pl": "wylądować na ramieniu",
             "sv": "landa på axeln",
             "en": "land on a shoulder",
-            "ru": "приземлиться на плечо"
+            "ru": "приземлиться на плечо",
+            "de": "auf der Schulter landen",
+            "fr": "atterrir sur l’épaule"
           }
         },
         {
@@ -1041,7 +1258,9 @@
             "pl": "natychmiast",
             "sv": "genast",
             "en": "immediately",
-            "ru": "сразу"
+            "ru": "сразу",
+            "de": "sofort",
+            "fr": "aussitôt"
           }
         },
         {
@@ -1051,7 +1270,9 @@
             "pl": "odezwać się",
             "sv": "börja tala",
             "en": "begin to speak",
-            "ru": "заговорить"
+            "ru": "заговорить",
+            "de": "sich melden",
+            "fr": "prendre la parole"
           }
         },
         {
@@ -1061,7 +1282,9 @@
             "pl": "uczyć",
             "sv": "lära ut",
             "en": "teach",
-            "ru": "учить"
+            "ru": "учить",
+            "de": "lehren",
+            "fr": "enseigner"
           }
         },
         {
@@ -1071,7 +1294,9 @@
             "pl": "ważny",
             "sv": "viktig",
             "en": "important",
-            "ru": "важный"
+            "ru": "важный",
+            "de": "wichtig",
+            "fr": "important"
           }
         },
         {
@@ -1081,7 +1306,9 @@
             "pl": "słowo",
             "sv": "ett ord",
             "en": "a word",
-            "ru": "слово"
+            "ru": "слово",
+            "de": "Wort",
+            "fr": "mot"
           }
         },
         {
@@ -1091,7 +1318,9 @@
             "pl": "naprawiać",
             "sv": "laga",
             "en": "repair",
-            "ru": "чинить"
+            "ru": "чинить",
+            "de": "reparieren",
+            "fr": "réparer"
           }
         },
         {
@@ -1101,7 +1330,9 @@
             "pl": "zepsuta rzecz",
             "sv": "en trasig sak",
             "en": "a broken thing",
-            "ru": "сломанная вещь"
+            "ru": "сломанная вещь",
+            "de": "kaputte Sache",
+            "fr": "objet cassé"
           }
         },
         {
@@ -1111,7 +1342,9 @@
             "pl": "wyciągać z kieszeni",
             "sv": "ta upp ur fickan",
             "en": "take out of a pocket",
-            "ru": "доставать из кармана"
+            "ru": "доставать из кармана",
+            "de": "aus der Tasche holen",
+            "fr": "sortir de sa poche"
           }
         },
         {
@@ -1121,7 +1354,9 @@
             "pl": "stary",
             "sv": "gammal",
             "en": "old",
-            "ru": "старый"
+            "ru": "старый",
+            "de": "alt",
+            "fr": "vieux"
           }
         },
         {
@@ -1131,7 +1366,9 @@
             "pl": "każda zepsuta rzecz",
             "sv": "varje trasig sak",
             "en": "every broken thing",
-            "ru": "любая сломанная вещь"
+            "ru": "любая сломанная вещь",
+            "de": "alles, was kaputt ist",
+            "fr": "tout ce qui est cassé"
           }
         },
         {
@@ -1141,7 +1378,9 @@
             "pl": "Reparo!",
             "sv": "Reparo!",
             "en": "Reparo!",
-            "ru": "Репаро!"
+            "ru": "Репаро!",
+            "de": "Reparo!",
+            "fr": "Reparo !"
           }
         },
         {
@@ -1151,7 +1390,9 @@
             "pl": "swój kompas",
             "sv": "sin kompass",
             "en": "his compass",
-            "ru": "свой компас"
+            "ru": "свой компас",
+            "de": "sein Kompass",
+            "fr": "sa boussole"
           }
         },
         {
@@ -1161,7 +1402,9 @@
             "pl": "zawsze",
             "sv": "alltid",
             "en": "always",
-            "ru": "всегда"
+            "ru": "всегда",
+            "de": "immer",
+            "fr": "toujours"
           }
         },
         {
@@ -1171,7 +1414,9 @@
             "pl": "mieć przy sobie",
             "sv": "ha med sig",
             "en": "have with you",
-            "ru": "носить с собой"
+            "ru": "носить с собой",
+            "de": "bei sich haben",
+            "fr": "avoir sur soi"
           }
         }
       ],
@@ -1180,7 +1425,9 @@
         "pl": "Złota książka macha stronami i ląduje na ramieniu Mai. Radiofon odzywa się natychmiast: – Ta książka uczy ważnego zaklęcia. Słowo to: Reparo! Naprawia każdą zepsutą rzecz. Tomek wyciąga z kieszeni swój stary, zepsuty kompas. Zawsze ma go przy sobie.",
         "sv": "Den gyllene boken flaxar med sidorna och landar på Majas axel. Radiofon börjar genast tala: – Den här boken lär ut en viktig trollformel. Ordet är: Reparo! Det lagar allt som är trasigt. Tom tar upp sin gamla, trasiga kompass ur fickan. Han har den alltid med sig.",
         "en": "The golden book flaps its pages and lands on Maya’s shoulder. Radiophone speaks up immediately: “This book teaches an important spell. The word is: Reparo! It repairs every broken thing.” Tom takes his old, broken compass out of his pocket. He always has it with him.",
-        "ru": "Золотая книга машет страницами и приземляется Маше на плечо. Радиофон сразу говорит: — Эта книга учит важному заклинанию. Вот это слово: Репаро! Оно чинит любую сломанную вещь. Миша достаёт из кармана свой старый сломанный компас. Он всегда носит его с собой."
+        "ru": "Золотая книга машет страницами и приземляется Маше на плечо. Радиофон сразу говорит: — Эта книга учит важному заклинанию. Вот это слово: Репаро! Оно чинит любую сломанную вещь. Миша достаёт из кармана свой старый сломанный компас. Он всегда носит его с собой.",
+        "de": "Das goldene Buch flattert mit den Seiten und landet auf Majas Schulter. Radiofon meldet sich sofort:\n\n„Dieses Buch lehrt einen wichtigen Zauberspruch. Das Wort heißt: Reparo! Es repariert alles, was kaputt ist.“\n\nTom zieht seinen alten, kaputten Kompass aus der Tasche. Er hat ihn immer bei sich.",
+        "fr": "Le livre doré fait battre ses pages et atterrit sur l’épaule de Maya.\nRadiophon prend aussitôt la parole :\n— Ce livre enseigne un sort important. Le mot, c’est : Reparo ! Il répare tout ce qui est cassé.\nThomas sort de sa poche sa vieille boussole cassée. Il l’a toujours avec lui."
       }
     },
     {
@@ -1190,13 +1437,18 @@
         "es": "El primer hechizo",
         "sv": "Den första trollformeln",
         "en": "The First Spell",
-        "ru": "Первое заклинание"
+        "ru": "Первое заклинание",
+        "de": "Der erste Zauberspruch",
+        "fr": "Le premier sort"
       },
       "summary": {
         "sv": "Dags att prova trollformeln på en trasig kompass. Fungerar den? Och vem väntar bakom den gröna dörren?",
         "pl": "Czas wypróbować zaklęcie na zepsutym kompasie. Czy zadziała? I kto czeka za zielonymi drzwiami?",
         "en": "It's time to try the spell on a broken compass. Will it work? And who is waiting behind the green door?",
-        "ru": "Пора испытать заклинание на сломанном компасе. Сработает ли оно? И кто ждёт за зелёной дверью?"
+        "ru": "Пора испытать заклинание на сломанном компасе. Сработает ли оно? И кто ждёт за зелёной дверью?",
+        "es": "Es hora de probar el hechizo en una brújula rota. ¿Funcionará? ¿Y quién espera detrás de la puerta verde?",
+        "de": "Ein Zauberspruch repariert den Kompass. Seine Nadel zeigt auf eine grüne Tür.",
+        "fr": "Il est temps d’essayer le sort sur une boussole cassée. Fonctionnera-t-il, et qui attend derrière la porte verte ?"
       },
       "vocabulary": [
         {
@@ -1206,7 +1458,9 @@
             "pl": "trzymać kompas",
             "sv": "hålla i kompassen",
             "en": "hold the compass",
-            "ru": "держать компас"
+            "ru": "держать компас",
+            "de": "den Kompass halten",
+            "fr": "tenir la boussole"
           }
         },
         {
@@ -1216,7 +1470,9 @@
             "pl": "mówić razem",
             "sv": "säga tillsammans",
             "en": "say together",
-            "ru": "говорить вместе"
+            "ru": "говорить вместе",
+            "de": "zusammen sagen",
+            "fr": "dire ensemble"
           }
         },
         {
@@ -1226,7 +1482,9 @@
             "pl": "złota iskra",
             "sv": "gyllene gnista",
             "en": "golden spark",
-            "ru": "золотая искра"
+            "ru": "золотая искра",
+            "de": "goldener Funke",
+            "fr": "étincelle dorée"
           }
         },
         {
@@ -1236,7 +1494,9 @@
             "pl": "igła kompasu",
             "sv": "kompassnål",
             "en": "compass needle",
-            "ru": "стрелка компаса"
+            "ru": "стрелка компаса",
+            "de": "Kompassnadel",
+            "fr": "aiguille de la boussole"
           }
         },
         {
@@ -1246,7 +1506,9 @@
             "pl": "zielone drzwi",
             "sv": "grön dörr",
             "en": "green door",
-            "ru": "зелёная дверь"
+            "ru": "зелёная дверь",
+            "de": "grüne Tür",
+            "fr": "porte verte"
           }
         },
         {
@@ -1256,7 +1518,9 @@
             "pl": "czekać na pomoc",
             "sv": "vänta på hjälp",
             "en": "wait for help",
-            "ru": "ждать помощи"
+            "ru": "ждать помощи",
+            "de": "auf Hilfe warten",
+            "fr": "attendre de l’aide"
           }
         },
         {
@@ -1266,7 +1530,9 @@
             "pl": "znów",
             "sv": "igen",
             "en": "again",
-            "ru": "снова"
+            "ru": "снова",
+            "de": "wieder",
+            "fr": "de nouveau"
           }
         },
         {
@@ -1276,7 +1542,9 @@
             "pl": "być całym",
             "sv": "vara hel",
             "en": "be whole",
-            "ru": "быть целым"
+            "ru": "быть целым",
+            "de": "ganz sein",
+            "fr": "être entier"
           }
         },
         {
@@ -1286,7 +1554,9 @@
             "pl": "kręcić się",
             "sv": "snurra",
             "en": "spin",
-            "ru": "крутиться"
+            "ru": "крутиться",
+            "de": "sich drehen",
+            "fr": "tourner"
           }
         },
         {
@@ -1296,7 +1566,9 @@
             "pl": "pokazywać",
             "sv": "peka",
             "en": "point",
-            "ru": "показывать"
+            "ru": "показывать",
+            "de": "auf etwas zeigen",
+            "fr": "indiquer"
           }
         },
         {
@@ -1306,7 +1578,9 @@
             "pl": "działać",
             "sv": "fungera",
             "en": "work",
-            "ru": "работать"
+            "ru": "работать",
+            "de": "funktionieren",
+            "fr": "marcher"
           }
         },
         {
@@ -1316,7 +1590,9 @@
             "pl": "krzyczeć",
             "sv": "ropa",
             "en": "shout",
-            "ru": "кричать"
+            "ru": "кричать",
+            "de": "rufen",
+            "fr": "s’écrier"
           }
         },
         {
@@ -1326,7 +1602,9 @@
             "pl": "za drzwiami",
             "sv": "bakom dörren",
             "en": "behind the door",
-            "ru": "за дверью"
+            "ru": "за дверью",
+            "de": "hinter der Tür",
+            "fr": "derrière la porte"
           }
         },
         {
@@ -1336,7 +1614,9 @@
             "pl": "ktoś",
             "sv": "någon",
             "en": "someone",
-            "ru": "кто-то"
+            "ru": "кто-то",
+            "de": "jemand",
+            "fr": "quelqu’un"
           }
         },
         {
@@ -1346,7 +1626,9 @@
             "pl": "wasza pomoc",
             "sv": "er hjälp",
             "en": "your help",
-            "ru": "ваша помощь"
+            "ru": "ваша помощь",
+            "de": "eure Hilfe",
+            "fr": "votre aide"
           }
         }
       ],
@@ -1355,7 +1637,9 @@
         "pl": "Tomek trzyma kompas. Dzieci mówią razem: – Reparo! Błyska złota iskra. Kompas znów jest cały! Igła kompasu kręci się i pokazuje zielone drzwi. – Działa! – krzyczy Tomek. Radiofon mówi: – Za drzwiami ktoś czeka na waszą pomoc.",
         "sv": "Tom håller i kompassen. Barnen säger tillsammans: – Reparo! En gyllene gnista blixtrar till. Kompassen är hel igen! Kompassnålen snurrar och pekar mot en grön dörr. – Det fungerar! ropar Tom. Radiofon säger: – Bakom dörren väntar någon på er hjälp.",
         "en": "Tom holds the compass. The children say together: “Reparo!” A golden spark flashes. The compass is whole again! The compass needle spins and points to a green door. “It works!” shouts Tom. Radiophone says: “Behind the door, someone is waiting for your help.”",
-        "ru": "Миша держит компас. Дети вместе говорят: — Репаро! Вспыхивает золотая искра. Компас снова целый! Стрелка компаса крутится и показывает на зелёную дверь. — Работает! — кричит Миша. Радиофон говорит: — За дверью кто-то ждёт вашей помощи."
+        "ru": "Миша держит компас. Дети вместе говорят: — Репаро! Вспыхивает золотая искра. Компас снова целый! Стрелка компаса крутится и показывает на зелёную дверь. — Работает! — кричит Миша. Радиофон говорит: — За дверью кто-то ждёт вашей помощи.",
+        "de": "Tom hält den Kompass. Die Kinder sagen zusammen:\n\n„Reparo!“\n\nEin goldener Funke blitzt auf. Der Kompass ist wieder ganz! Die Kompassnadel dreht sich und zeigt auf eine grüne Tür.\n\n„Es funktioniert!“, ruft Tom.\n\nRadiofon sagt: „Hinter der Tür wartet jemand auf eure Hilfe.“",
+        "fr": "Thomas tient la boussole. Les enfants disent ensemble :\n— Reparo !\nUne étincelle dorée jaillit. La boussole est de nouveau entière ! Son aiguille tourne et indique une porte verte.\n— Ça marche ! s’écrie Thomas.\nRadiophon dit :\n— Derrière la porte, quelqu’un attend votre aide."
       }
     },
     {
@@ -1365,13 +1649,18 @@
         "es": "El pájaro dorado",
         "sv": "Den gyllene fågeln",
         "en": "The Golden Bird",
-        "ru": "Золотая птица"
+        "ru": "Золотая птица",
+        "de": "Der goldene Vogel",
+        "fr": "L’oiseau doré"
       },
       "summary": {
         "sv": "Bakom dörren finns en underjordisk trädgård med en gyllene fågel som inte kan sjunga – den tickar bara som en klocka. En sten saknas i vingen, och radion bär på en hemlighet.",
         "pl": "Za drzwiami jest podziemny ogród. Złoty ptak zamiast śpiewać tyka jak zegar. W jego skrzydle brakuje kamyka, a radio skrywa tajemnicę.",
         "en": "Behind the door lies an underground garden. A golden bird ticks like a clock instead of singing. A stone is missing from its wing, and the radio has a secret.",
-        "ru": "За дверью находится подземный сад. Золотая птица не поёт, а тикает как часы. В её крыле не хватает камешка, а радио хранит тайну."
+        "ru": "За дверью находится подземный сад. Золотая птица не поёт, а тикает как часы. В её крыле не хватает камешка, а радио хранит тайну.",
+        "es": "Detrás de la puerta hay un jardín subterráneo. Un pájaro dorado hace tictac como un reloj en lugar de cantar; le falta una piedrecita en un ala y la radio guarda un secreto.",
+        "de": "In einem unterirdischen Garten entdecken die Kinder, warum ein blauer Stein in einem Flügel fehlt.",
+        "fr": "Derrière la porte se trouve un jardin souterrain. Un oiseau doré fait tic-tac au lieu de chanter ; une pierre manque à son aile, et la radio cache un secret."
       },
       "vocabulary": [
         {
@@ -1381,7 +1670,9 @@
             "pl": "pytać",
             "sv": "fråga",
             "en": "ask",
-            "ru": "спрашивать"
+            "ru": "спрашивать",
+            "de": "fragen",
+            "fr": "demander"
           }
         },
         {
@@ -1391,7 +1682,9 @@
             "pl": "otworzyć drzwi",
             "sv": "öppna dörren",
             "en": "open the door",
-            "ru": "открыть дверь"
+            "ru": "открыть дверь",
+            "de": "die Tür öffnen",
+            "fr": "ouvrir la porte"
           }
         },
         {
@@ -1401,7 +1694,9 @@
             "pl": "gałąź",
             "sv": "gren",
             "en": "branch",
-            "ru": "ветка"
+            "ru": "ветка",
+            "de": "Ast",
+            "fr": "branche"
           }
         },
         {
@@ -1411,7 +1706,9 @@
             "pl": "tykać jak zegar",
             "sv": "ticka som en klocka",
             "en": "tick like a clock",
-            "ru": "тикать, как часы"
+            "ru": "тикать, как часы",
+            "de": "wie eine Uhr ticken",
+            "fr": "faire tic-tac comme une horloge"
           }
         },
         {
@@ -1421,7 +1718,9 @@
             "pl": "skrzydło",
             "sv": "vinge",
             "en": "wing",
-            "ru": "крыло"
+            "ru": "крыло",
+            "de": "Flügel",
+            "fr": "aile"
           }
         },
         {
@@ -1431,7 +1730,9 @@
             "pl": "wejść do ogrodu",
             "sv": "gå in i trädgården",
             "en": "go into the garden",
-            "ru": "войти в сад"
+            "ru": "войти в сад",
+            "de": "in den Garten gehen",
+            "fr": "entrer dans le jardin"
           }
         },
         {
@@ -1441,7 +1742,9 @@
             "pl": "siedzieć na gałęzi",
             "sv": "sitta på en gren",
             "en": "sit on a branch",
-            "ru": "сидеть на ветке"
+            "ru": "сидеть на ветке",
+            "de": "auf einem Ast sitzen",
+            "fr": "être posé sur une branche"
           }
         },
         {
@@ -1451,7 +1754,9 @@
             "pl": "złoty ptak",
             "sv": "en gyllene fågel",
             "en": "a golden bird",
-            "ru": "золотая птица"
+            "ru": "золотая птица",
+            "de": "goldener Vogel",
+            "fr": "oiseau doré"
           }
         },
         {
@@ -1461,7 +1766,9 @@
             "pl": "nie śpiewać",
             "sv": "inte sjunga",
             "en": "not sing",
-            "ru": "не петь"
+            "ru": "не петь",
+            "de": "nicht singen",
+            "fr": "ne pas chanter"
           }
         },
         {
@@ -1471,7 +1778,9 @@
             "pl": "tylko",
             "sv": "bara",
             "en": "only",
-            "ru": "только"
+            "ru": "только",
+            "de": "nur",
+            "fr": "seulement"
           }
         },
         {
@@ -1481,7 +1790,9 @@
             "pl": "podziemny ogród",
             "sv": "en underjordisk trädgård",
             "en": "an underground garden",
-            "ru": "подземный сад"
+            "ru": "подземный сад",
+            "de": "unterirdischer Garten",
+            "fr": "jardin souterrain"
           }
         },
         {
@@ -1491,7 +1802,9 @@
             "pl": "na jednym skrzydle",
             "sv": "på ena vingen",
             "en": "on one wing",
-            "ru": "на одном крыле"
+            "ru": "на одном крыле",
+            "de": "auf einem Flügel",
+            "fr": "sur une aile"
           }
         },
         {
@@ -1501,7 +1814,9 @@
             "pl": "błyszczący niebieski kamyk",
             "sv": "en glänsande blå sten",
             "en": "a shiny blue stone",
-            "ru": "блестящий синий камешек"
+            "ru": "блестящий синий камешек",
+            "de": "glänzender blauer Stein",
+            "fr": "petite pierre bleue brillante"
           }
         },
         {
@@ -1511,7 +1826,9 @@
             "pl": "na drugim skrzydle",
             "sv": "på den andra vingen",
             "en": "on the other wing",
-            "ru": "на другом крыле"
+            "ru": "на другом крыле",
+            "de": "auf dem anderen Flügel",
+            "fr": "sur l’autre aile"
           }
         },
         {
@@ -1521,7 +1838,9 @@
             "pl": "puste miejsce",
             "sv": "en tom plats",
             "en": "an empty spot",
-            "ru": "пустое место"
+            "ru": "пустое место",
+            "de": "leere Stelle",
+            "fr": "emplacement vide"
           }
         },
         {
@@ -1531,7 +1850,9 @@
             "pl": "patrzeć na radio",
             "sv": "titta på radion",
             "en": "look at the radio",
-            "ru": "смотреть на радио"
+            "ru": "смотреть на радио",
+            "de": "auf das Radio schauen",
+            "fr": "regarder la radio"
           }
         },
         {
@@ -1541,7 +1862,9 @@
             "pl": "wyglądać dokładnie jak",
             "sv": "se ut precis som",
             "en": "look exactly like",
-            "ru": "выглядеть точно как"
+            "ru": "выглядеть точно как",
+            "de": "genauso aussehen wie",
+            "fr": "ressembler exactement à"
           }
         },
         {
@@ -1551,7 +1874,9 @@
             "pl": "skąd masz ten przycisk?",
             "sv": "var har du fått knappen ifrån?",
             "en": "where did you get this button?",
-            "ru": "откуда у тебя эта кнопка?"
+            "ru": "откуда у тебя эта кнопка?",
+            "de": "Woher hast du diesen Knopf?",
+            "fr": "D’où vient ce bouton ?"
           }
         },
         {
@@ -1561,7 +1886,9 @@
             "pl": "dawno temu",
             "sv": "för länge sedan",
             "en": "long ago",
-            "ru": "давным-давно"
+            "ru": "давным-давно",
+            "de": "vor langer Zeit",
+            "fr": "il y a longtemps"
           }
         },
         {
@@ -1571,7 +1898,9 @@
             "pl": "wypaść ze skrzydła",
             "sv": "falla ut ur vingen",
             "en": "fall out of the wing",
-            "ru": "выпасть из крыла"
+            "ru": "выпасть из крыла",
+            "de": "aus dem Flügel fallen",
+            "fr": "tomber de l’aile"
           }
         },
         {
@@ -1581,7 +1910,9 @@
             "pl": "czekałem na was",
             "sv": "jag väntade på er",
             "en": "I was waiting for you",
-            "ru": "я ждал вас"
+            "ru": "я ждал вас",
+            "de": "Ich habe auf euch gewartet.",
+            "fr": "je vous attendais"
           }
         },
         {
@@ -1591,7 +1922,9 @@
             "pl": "oddać",
             "sv": "ge tillbaka",
             "en": "give back",
-            "ru": "вернуть"
+            "ru": "вернуть",
+            "de": "zurückgeben",
+            "fr": "rendre"
           }
         }
       ],
@@ -1600,7 +1933,9 @@
         "pl": "Dzieci otwierają zielone drzwi i wchodzą do podziemnego ogrodu. Na gałęzi siedzi złoty ptak. Nie śpiewa, tylko tyka jak zegar: Tik-tak, tik-tak. Na jednym skrzydle ma błyszczący niebieski kamyk. Na drugim skrzydle jest puste miejsce. Maja patrzy na radio. Niebieski przycisk radia wygląda dokładnie jak kamyk ptaka! – Radiofonie, skąd masz ten przycisk? – pyta Maja. – To kamyk ptaka – mówi Radiofon. – Dawno temu wypadł ptakowi ze skrzydła. Ktoś zrobił z niego mój przycisk. Czekałem na was, żeby go oddać!",
         "sv": "Barnen öppnar den gröna dörren och går in i en underjordisk trädgård. På en gren sitter en gyllene fågel. Den sjunger inte, utan tickar bara som en klocka: Tick-tack, tick-tack. På ena vingen har den en glänsande blå sten. På den andra vingen finns en tom plats. Maja tittar på radion. Radions blå knapp ser ut precis som fågelns sten! – Radiofon, var har du fått knappen ifrån? frågar Maja. – Det är fågelns sten, säger Radiofon. För länge sedan föll den ur fågelns vinge. Någon gjorde den till min knapp. Jag väntade på er för att kunna ge tillbaka den!",
         "en": "The children open the green door and go into an underground garden. A golden bird sits on a branch. It does not sing. It only ticks like a clock: Tick-tock, tick-tock. On one wing it has a shiny blue stone. On the other wing there is an empty spot. Maya looks at the radio. The radio’s blue button looks exactly like the bird’s stone! “Radiophone, where did you get this button?” asks Maya. “It is the bird’s stone,” says Radiophone. “Long ago, it fell out of the bird’s wing. Someone made it into my button. I was waiting for you, so I could give it back!”",
-        "ru": "Дети открывают зелёную дверь и входят в подземный сад. На ветке сидит золотая птица. Она не поёт, а только тикает, как часы: Тик-так, тик-так. На одном крыле у неё блестящий синий камешек. На другом крыле — пустое место. Маша смотрит на радио. Синяя кнопка радио выглядит точно как камешек птицы! — Радиофон, откуда у тебя эта кнопка? — спрашивает Маша. — Это камешек птицы, — говорит Радиофон. — Давным-давно он выпал у птицы из крыла. Кто-то сделал из него мою кнопку. Я ждал вас, чтобы его вернуть!"
+        "ru": "Дети открывают зелёную дверь и входят в подземный сад. На ветке сидит золотая птица. Она не поёт, а только тикает, как часы: Тик-так, тик-так. На одном крыле у неё блестящий синий камешек. На другом крыле — пустое место. Маша смотрит на радио. Синяя кнопка радио выглядит точно как камешек птицы! — Радиофон, откуда у тебя эта кнопка? — спрашивает Маша. — Это камешек птицы, — говорит Радиофон. — Давным-давно он выпал у птицы из крыла. Кто-то сделал из него мою кнопку. Я ждал вас, чтобы его вернуть!",
+        "de": "Die Kinder öffnen die grüne Tür und gehen in einen unterirdischen Garten. Auf einem Ast sitzt ein goldener Vogel. Er singt nicht, sondern tickt nur wie eine Uhr: Tick-tack, Tick-tack. Auf einem Flügel hat er einen glänzenden blauen Stein. Auf dem anderen Flügel ist eine leere Stelle. Maja schaut auf das Radio. Der blaue Knopf am Radio sieht genauso aus wie der Stein des Vogels!\n\n„Radiofon, woher hast du diesen Knopf?“, fragt Maja.\n\n„Das ist der Stein des Vogels“, sagt Radiofon. „Vor langer Zeit fiel er dem Vogel aus dem Flügel. Jemand hat daraus meinen Knopf gemacht. Ich habe auf euch gewartet, um ihn zurückzugeben!“",
+        "fr": "Les enfants ouvrent la porte verte et entrent dans un jardin souterrain.\nUn oiseau doré est posé sur une branche. Il ne chante pas ; il fait seulement tic-tac comme une horloge : tic-tac, tic-tac. Sur l’une de ses ailes, il a une petite pierre bleue brillante. Sur l’autre, il y a un emplacement vide.\nMaya regarde la radio. Le bouton bleu de la radio ressemble exactement à la pierre de l’oiseau !\n— Radiophon, d’où vient ce bouton ? demande Maya.\n— C’est la pierre de l’oiseau, dit Radiophon. Il y a longtemps, elle est tombée de son aile. Quelqu’un en a fait mon bouton. Je vous attendais pour la lui rendre !"
       }
     },
     {
@@ -1610,13 +1945,18 @@
         "es": "El gran concierto",
         "sv": "Den stora konserten",
         "en": "The Grand Concert",
-        "ru": "Большой концерт"
+        "ru": "Большой концерт",
+        "de": "Das große Konzert",
+        "fr": "Le grand concert"
       },
       "summary": {
         "sv": "Finalen! Kan syskonen laga den gyllene fågeln? Berättelsen slutar med sång, dansande fjärilar och löftet om ett nytt äventyr.",
         "pl": "Finał! Czy rodzeństwu uda się naprawić złotego ptaka? Opowieść kończy się śpiewem, tańczącymi motylami i zapowiedzią nowej przygody.",
         "en": "The finale! Can the siblings mend the golden bird? The story ends with singing, dancing butterflies and the promise of another adventure.",
-        "ru": "Финал! Смогут ли дети починить золотую птицу? История заканчивается пением, танцем бабочек и обещанием нового приключения."
+        "ru": "Финал! Смогут ли дети починить золотую птицу? История заканчивается пением, танцем бабочек и обещанием нового приключения.",
+        "es": "¡El final! ¿Conseguirán los hermanos arreglar al pájaro dorado? La historia termina con cantos, mariposas que bailan y la promesa de una nueva aventura.",
+        "de": "Der goldene Vogel singt wieder. Schon wartet ein neues Abenteuer.",
+        "fr": "Le grand final : les enfants réussiront-ils à réparer l’oiseau doré ? L’histoire se termine en chansons, avec des papillons qui dansent et la promesse d’une nouvelle aventure."
       },
       "vocabulary": [
         {
@@ -1626,7 +1966,9 @@
             "pl": "prawdziwi odkrywcy",
             "sv": "riktiga upptäckare",
             "en": "real explorers",
-            "ru": "настоящие исследователи"
+            "ru": "настоящие исследователи",
+            "de": "echte Entdecker",
+            "fr": "vrais explorateurs"
           }
         },
         {
@@ -1636,7 +1978,9 @@
             "pl": "machać skrzydłami",
             "sv": "flaxa med vingarna",
             "en": "flap its wings",
-            "ru": "махать крыльями"
+            "ru": "махать крыльями",
+            "de": "mit den Flügeln schlagen",
+            "fr": "battre des ailes"
           }
         },
         {
@@ -1646,7 +1990,9 @@
             "pl": "wesoło śpiewać",
             "sv": "sjunga glatt",
             "en": "sing happily",
-            "ru": "весело петь"
+            "ru": "весело петь",
+            "de": "fröhlich singen",
+            "fr": "chanter joyeusement"
           }
         },
         {
@@ -1656,7 +2002,9 @@
             "pl": "dobra robota",
             "sv": "bra jobbat",
             "en": "good job",
-            "ru": "отличная работа"
+            "ru": "отличная работа",
+            "de": "Gut gemacht!",
+            "fr": "bien joué"
           }
         },
         {
@@ -1666,7 +2014,9 @@
             "pl": "wkładać w skrzydło",
             "sv": "sätta in i vingen",
             "en": "put into the wing",
-            "ru": "вставлять в крыло"
+            "ru": "вставлять в крыло",
+            "de": "in den Flügel stecken",
+            "fr": "mettre dans l’aile"
           }
         },
         {
@@ -1676,7 +2026,9 @@
             "pl": "wołać",
             "sv": "ropa",
             "en": "call out",
-            "ru": "кричать"
+            "ru": "кричать",
+            "de": "rufen",
+            "fr": "s’écrier"
           }
         },
         {
@@ -1686,7 +2038,9 @@
             "pl": "zaczynać śpiewać",
             "sv": "börja sjunga",
             "en": "begin to sing",
-            "ru": "начинать петь"
+            "ru": "начинать петь",
+            "de": "anfangen zu singen",
+            "fr": "se mettre à chanter"
           }
         },
         {
@@ -1696,7 +2050,9 @@
             "pl": "wesoło",
             "sv": "glatt",
             "en": "happily",
-            "ru": "весело"
+            "ru": "весело",
+            "de": "fröhlich",
+            "fr": "joyeusement"
           }
         },
         {
@@ -1706,7 +2062,9 @@
             "pl": "motyle",
             "sv": "fjärilar",
             "en": "butterflies",
-            "ru": "бабочки"
+            "ru": "бабочки",
+            "de": "Schmetterlinge",
+            "fr": "papillons"
           }
         },
         {
@@ -1716,7 +2074,9 @@
             "pl": "w powietrzu",
             "sv": "i luften",
             "en": "in the air",
-            "ru": "в воздухе"
+            "ru": "в воздухе",
+            "de": "in der Luft",
+            "fr": "dans l’air"
           }
         },
         {
@@ -1726,7 +2086,9 @@
             "pl": "tańczyć",
             "sv": "dansa",
             "en": "dance",
-            "ru": "танцевать"
+            "ru": "танцевать",
+            "de": "tanzen",
+            "fr": "danser"
           }
         },
         {
@@ -1736,7 +2098,9 @@
             "pl": "ostrożnie",
             "sv": "försiktigt",
             "en": "carefully",
-            "ru": "осторожно"
+            "ru": "осторожно",
+            "de": "vorsichtig",
+            "fr": "avec précaution"
           }
         },
         {
@@ -1746,7 +2110,9 @@
             "pl": "wyjmować przycisk z radia",
             "sv": "ta ut knappen ur radion",
             "en": "take the button out of the radio",
-            "ru": "вынимать кнопку из радио"
+            "ru": "вынимать кнопку из радио",
+            "de": "den Knopf aus dem Radio nehmen",
+            "fr": "retirer le bouton de la radio"
           }
         },
         {
@@ -1756,7 +2122,9 @@
             "pl": "jutro",
             "sv": "i morgon",
             "en": "tomorrow",
-            "ru": "завтра"
+            "ru": "завтра",
+            "de": "morgen",
+            "fr": "demain"
           }
         },
         {
@@ -1766,7 +2134,9 @@
             "pl": "nowa przygoda",
             "sv": "ett nytt äventyr",
             "en": "a new adventure",
-            "ru": "новое приключение"
+            "ru": "новое приключение",
+            "de": "neues Abenteuer",
+            "fr": "nouvelle aventure"
           }
         }
       ],
@@ -1775,7 +2145,9 @@
         "pl": "Maja ostrożnie wyjmuje niebieski przycisk z radia. Tomek wkłada go w skrzydło ptaka. Dzieci wołają: – Reparo! Złoty ptak macha skrzydłami i zaczyna wesoło śpiewać. W powietrzu tańczą motyle. – Dobra robota! – mówi Radiofon. – Jesteście prawdziwymi odkrywcami. Jutro czeka nas nowa przygoda!",
         "sv": "Maja tar försiktigt ut den blå knappen ur radion. Tom sätter in den i fågelns vinge. Barnen ropar: – Reparo! Den gyllene fågeln flaxar med vingarna och börjar sjunga glatt. Fjärilar dansar i luften. – Bra jobbat! säger Radiofon. Ni är riktiga upptäckare. I morgon väntar ett nytt äventyr på oss!",
         "en": "Maya carefully takes the blue button out of the radio. Tom puts it into the bird’s wing. The children call out: “Reparo!” The golden bird flaps its wings and begins to sing happily. Butterflies dance in the air. “Good job!” says Radiophone. “You are real explorers. Tomorrow a new adventure is waiting for us!”",
-        "ru": "Маша осторожно вынимает синюю кнопку из радио. Миша вставляет её в крыло птицы. Дети кричат: — Репаро! Золотая птица машет крыльями и начинает весело петь. В воздухе танцуют бабочки. — Отличная работа! — говорит Радиофон. — Вы настоящие исследователи. Завтра нас ждёт новое приключение!"
+        "ru": "Маша осторожно вынимает синюю кнопку из радио. Миша вставляет её в крыло птицы. Дети кричат: — Репаро! Золотая птица машет крыльями и начинает весело петь. В воздухе танцуют бабочки. — Отличная работа! — говорит Радиофон. — Вы настоящие исследователи. Завтра нас ждёт новое приключение!",
+        "de": "Maja nimmt vorsichtig den blauen Knopf aus dem Radio. Tom steckt ihn in den Flügel des Vogels.\n\nDie Kinder rufen: „Reparo!“\n\nDer goldene Vogel schlägt mit den Flügeln und beginnt fröhlich zu singen. In der Luft tanzen Schmetterlinge.\n\n„Gut gemacht!“, sagt Radiofon. „Ihr seid echte Entdecker. Morgen wartet ein neues Abenteuer auf uns!“",
+        "fr": "Maya retire avec précaution le bouton bleu de la radio. Thomas le met dans l’aile de l’oiseau.\nLes enfants s’écrient :\n— Reparo !\nL’oiseau doré bat des ailes et se met à chanter joyeusement. Des papillons dansent dans l’air.\n— Bien joué ! dit Radiophon. Vous êtes de vrais explorateurs. Une nouvelle aventure nous attend demain !"
       }
     }
   ]

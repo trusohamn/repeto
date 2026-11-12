@@ -43,7 +43,7 @@ description: Turn a chaptered, child-friendly story into a faithful multilingual
   as the schema example.
 - Give every chapter an optional `summary` map with a one- or two-sentence
   teaser in each supported prompt language (`summary.sv`, `summary.pl`,
-  `summary.en`, `summary.ru`) for podcast episode descriptions.
+  `summary.en`, `summary.ru`, `summary.es`) for podcast episode descriptions.
   Keep it faithful to the chapter text and avoid character names, because
   names are localized per target language.
 - IDs are positive integers unique across all vocabulary items in the story.
@@ -70,7 +70,8 @@ description: Turn a chaptered, child-friendly story into a faithful multilingual
   uses Azure `ru-RU-SvetlanaNeural` without a style (Russian Harper produced
   audible background artifacts).
   Spain Spanish uses `es-ES-ElviraNeural` without an expressive style; the
-  configured region does not advertise Spain Spanish Harper.
+  configured region does not advertise Spain Spanish Harper. German uses
+  `de-DE-KatjaNeural` and French `fr-FR-DeniseNeural`, also without a style.
   Prompts and vocabulary repetitions use the same Neural voices through
   licensed Azure Speech (`--tts-engine azure`, the default); use
   `--tts-engine edge` only when explicitly requested. Narration uses the

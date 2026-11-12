@@ -24,10 +24,12 @@ LANGUAGES = {
     "ru": ("ryska", "rysk"),
     "sv": ("svenska", "svensk"),
     "es": ("spanska", "spansk"),
+    "de": ("tyska", "tysk"),
+    "fr": ("franska", "fransk"),
 }
 EXAMPLES = 3
 PRACTICE_ID = re.compile(r"repeto:[a-z0-9-]+:topic-(\d+)")
-STORY_ID = re.compile(r"([a-z0-9_-]+):(sv|pl|en|ru):([a-z]{2}):chapter-(\d+)")
+STORY_ID = re.compile(r"([a-z0-9_-]+):(sv|pl|en|ru|es):([a-z]{2}):chapter-(\d+)")
 
 
 def _names(target: str) -> tuple[str, str]:
@@ -45,6 +47,8 @@ def _polish_language(target: str) -> tuple[str, str]:
         "ru": ("rosyjskiego", "rosyjski"),
         "sv": ("szwedzkiego", "szwedzki"),
         "es": ("hiszpańskiego", "hiszpański"),
+        "de": ("niemieckiego", "niemiecki"),
+        "fr": ("francuskiego", "francuski"),
     }
     if target not in languages:
         raise ValueError(f"No Polish language name configured for {target!r}.")
@@ -55,7 +59,7 @@ def _polish_adverb(target: str) -> str:
     target = "sv" if target == "se" else target
     adverbs = {
         "pl": "polsku", "en": "angielsku", "ru": "rosyjsku",
-        "sv": "szwedzku", "es": "hiszpańsku",
+        "sv": "szwedzku", "es": "hiszpańsku", "de": "niemiecku", "fr": "francusku",
     }
     if target not in adverbs:
         raise ValueError(f"No Polish language name configured for {target!r}.")
@@ -87,10 +91,21 @@ def _english_language(target: str) -> str:
     target = "sv" if target == "se" else target
     languages = {
         "pl": "Polish", "en": "English", "ru": "Russian",
-        "sv": "Swedish", "es": "Spanish",
+        "sv": "Swedish", "es": "Spanish", "de": "German", "fr": "French",
     }
     if target not in languages:
         raise ValueError(f"No English language name configured for {target!r}.")
+    return languages[target]
+
+
+def _spanish_language(target: str) -> str:
+    target = "sv" if target == "se" else target
+    languages = {
+        "pl": "polaco", "en": "inglés", "ru": "ruso", "sv": "sueco",
+        "de": "alemán", "fr": "francés",
+    }
+    if target not in languages:
+        raise ValueError(f"No Spanish language name configured for {target!r}.")
     return languages[target]
 
 
@@ -102,6 +117,8 @@ def _russian_language(target: str) -> tuple[str, str]:
         "ru": ("русский", "по-русски"),
         "sv": ("шведский", "по-шведски"),
         "es": ("испанский", "по-испански"),
+        "de": ("немецкий", "по-немецки"),
+        "fr": ("французский", "по-французски"),
     }
     if target not in languages:
         raise ValueError(f"No Russian language name configured for {target!r}.")
@@ -118,14 +135,16 @@ def show_title(target: str, source: str = "sv") -> str:
         return f"Repeto – I learn {_english_language(target)}"
     if source == "ru":
         return f"Repeto – Я учу {_russian_language(target)[0]}"
+    if source == "es":
+        return f"Repeto – Aprendo {_spanish_language(target)}"
     raise ValueError(f"Unsupported source language {source!r}.")
 
 
 def story_name(titles: dict[str, str], target: str, source: str = "sv") -> str:
     """Story title in the source language with the target title in parentheses."""
-    if source not in ("sv", "pl", "en", "ru"):
+    if source not in ("sv", "pl", "en", "ru", "es"):
         raise ValueError(f"Unsupported source language {source!r}.")
-    if source == "ru":
+    if source in ("ru", "es"):
         return f"«{titles[source]}» ({titles[target]})"
     if source == "en":
         return f'"{titles[source]}" ({titles[target]})'
@@ -182,6 +201,51 @@ def show_description(
             f"приветствуются: {email}"
         )
         parts.append("Голоса созданы с помощью ИИ (Microsoft Azure).")
+        return "\n\n".join(parts)
+    if source == "es":
+        language = _spanish_language(target)
+        parts = [
+            f"Aprende {language} escuchando y hablando, con indicaciones en español. "
+            "Repeto es un curso de audio para principiantes de todas las edades: niños, "
+            f"padres, abuelos y cualquiera que quiera empezar a aprender {language}. "
+            "No necesitas conocimientos previos ni libro de texto.",
+            "Cómo funciona: oyes una palabra o una frase en español y tienes una pausa "
+            f"para decirla en {language}. Después oyes la respuesta dos veces, con tiempo "
+            "para repetirla y practicar la pronunciación.",
+        ]
+        contents = []
+        if practice_topics:
+            contents.append(
+                f"• Temporada 1 – Práctica: {practice_topics} "
+                f"{'tema corto' if practice_topics == 1 else 'temas cortos'}, desde saludos "
+                "y números hasta comida, emociones y situaciones cotidianas."
+            )
+        for title in story_titles:
+            contents.append(
+                f"• Temporada 2 – Cuento {title}: un capítulo en cada episodio. "
+                f"Escucha el capítulo en {language}, practica su vocabulario "
+                "y vuelve a escuchar el capítulo."
+            )
+        contents.append(
+            "• Hay más cuentos en camino. Sigue el pódcast para no perderte los nuevos episodios."
+        )
+        parts.append("Qué incluye:\n" + "\n".join(contents))
+        parts.append("Cómo usar el curso:\n" + "\n".join([
+            "• Empieza por la temporada 1, episodio 1, y escucha en orden.",
+            "• Responde en voz alta en cada pausa. Intenta recordar las palabras tú solo.",
+            "• Vuelve a escuchar un episodio hasta que respondas antes que la voz grabada.",
+            "• Escuchar de fondo te ayuda a acostumbrarte a los sonidos y al ritmo del "
+            "idioma. Practica también de forma activa: repite y responde en las pausas.",
+        ]))
+        parts.append(
+            "¿Te gusta este formato? Repeto también está disponible en otros idiomas, "
+            "con la misma estructura. Busca Repeto en tu aplicación de pódcasts."
+        )
+        parts.append(
+            "¡Escríbenos! Las sugerencias de nuevos idiomas, correcciones e ideas para "
+            f"cuentos son bienvenidas: {email}"
+        )
+        parts.append("Las voces están generadas con IA (Microsoft Azure).")
         return "\n\n".join(parts)
     if source == "en":
         language = _english_language(target)
@@ -344,6 +408,21 @@ def practice_description(
             f"Примеры из выпуска:\n{examples}\n\n"
             "Совет: слушай снова, пока не начнёшь отвечать раньше диктора."
         )
+    if source == "es":
+        language = _spanish_language(target)
+        examples = "\n".join(
+            f"• {item[source]} → {item[target]}" for item in items[:EXAMPLES]
+        )
+        phrase_count = f"{len(items)} {'frase' if len(items) == 1 else 'frases'}"
+        return (
+            f"Tema {number} de {total}: {titles[source]} ({titles[target]}) – "
+            f"{phrase_count}.\n\n"
+            "Oyes una palabra o una frase en español. "
+            f"Dila en {language} durante la pausa, antes de oír la respuesta. "
+            f"Cada frase en {language} suena dos veces: escucha y repite.\n\n"
+            f"Ejemplos de este episodio:\n{examples}\n\n"
+            "Consejo: vuelve a escuchar hasta que respondas antes que la voz grabada."
+        )
     if source == "en":
         language = _english_language(target)
         examples = "\n".join(
@@ -410,6 +489,24 @@ def story_description(
             f"пауза, ответ {adverb}.\n"
             "3. Послушай главу ещё раз и проверь, сколько удалось понять.\n\n"
             "Между частями звучит сигнал. Слушай по порядку, начиная с первой главы."
+        )
+    if source == "es":
+        language = _spanish_language(target)
+        summary = chapter.get("summary", {}).get(source)
+        opening = (
+            f"Capítulo {chapter['chapter_number']} de {total} del cuento "
+            f"«{story_titles[source]}» ({story_titles[target]})."
+        )
+        if summary:
+            opening += f" {summary}"
+        return (
+            f"{opening}\n\n"
+            "Cómo es el episodio:\n"
+            f"1. Escucha el capítulo completo en {language}. No hace falta entenderlo todo.\n"
+            "2. Practica palabras y expresiones del capítulo: una pista en español, "
+            f"una pausa y la respuesta en {language}.\n"
+            "3. Vuelve a escuchar el capítulo y comprueba cuánto entiendes.\n\n"
+            "Una señal sonora separa las partes. Escucha en orden, empezando por el capítulo 1."
         )
     if source == "en":
         language = _english_language(target)
@@ -498,7 +595,7 @@ def refresh_course(
             f"course source {course_source!r}."
         )
     source = course_source
-    if source not in ("sv", "pl", "en", "ru"):
+    if source not in ("sv", "pl", "en", "ru", "es"):
         raise ValueError(f"{course.name}: unsupported source language {source!r}.")
     target = catalog["target_language"]
     practice_target = "se" if target == "sv" else target
@@ -544,7 +641,8 @@ def refresh_course(
     for episode in catalog["episodes"]:
         if PRACTICE_ID.fullmatch(episode["id"]):
             season_names[str(episode["season"])] = (
-                {"sv": "Övningar", "pl": "Ćwiczenia", "en": "Practice", "ru": "Практика"}[source]
+                {"sv": "Övningar", "pl": "Ćwiczenia", "en": "Practice", "ru": "Практика",
+                 "es": "Práctica"}[source]
             )
         elif match := STORY_ID.fullmatch(episode["id"]):
             season_names[str(episode["season"])] = (

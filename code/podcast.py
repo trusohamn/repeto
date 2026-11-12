@@ -72,8 +72,6 @@ font-size:.85rem;font-weight:650;text-decoration:none}
 .platform-links .spotify-link{color:#176c38;background:#e0efdf}
 .platform-links .youtube-link{color:#a52e20;background:#ffe6df}
 .platform-links a:hover{background:var(--ink);color:white}
-.youtube-notice{background:#fff0ce;border-radius:16px;padding:16px 24px;margin:0 0 30px}
-.youtube-notice p{margin:6px 0 0;color:var(--muted)}
 .closing{background:#e0efdf;color:var(--ink);border-radius:24px;padding:32px;margin:20px 0 40px}
 .closing h2{font-size:1.8rem}.closing p{max-width:650px;margin-bottom:0;color:var(--muted)}
 .podcast-apps{margin:0 0 32px;color:var(--muted);font-size:.9rem}
@@ -90,6 +88,7 @@ HOME_AUDIENCES = {
     "pl": ("Polish", "For Polish speakers"),
     "en": ("English", "For English speakers"),
     "ru": ("Russian", "For Russian speakers"),
+    "es": ("Spanish", "For Spanish speakers"),
 }
 
 
@@ -294,6 +293,7 @@ def build_feed(course: Path, base_url: str) -> None:
         "pl": ("Okładka", "Słuchaj", "Sezon", "Kanał RSS"),
         "en": ("Cover", "Listen", "Season", "RSS feed"),
         "ru": ("Обложка", "Слушать", "Сезон", "RSS-лента"),
+        "es": ("Portada", "Escuchar", "Temporada", "Canal RSS"),
     }.get(config["language"], ("Omslag", "Lyssna", "Säsong", "RSS-flöde"))
     links = [
         f'<a href="{html.escape(link_url)}">{html.escape(name)}</a>'
@@ -397,11 +397,6 @@ def build_index(root: Path, courses: list[Path]) -> None:
         '<p>Hear a phrase in your language, try saying it in the new one, '
         'then listen to the answer and repeat.</p>'
         '</section>'
-        '<aside class="youtube-notice" aria-label="YouTube availability">'
-        '<strong>Repeto podcasts are on YouTube, too.</strong>'
-        '<p>All eight podcasts are available as playlists. Choose one below or '
-        '<a href="https://www.youtube.com/@repeto-ling/podcasts">Browse our YouTube podcasts</a>.'
-        '</p></aside>'
         '<div id="courses"><p class="language-label" id="native-language">Choose your native language:</p>'
         '<nav class="language-nav" aria-labelledby="native-language">'
         + "".join(navigation) + '</nav>' + "".join(sections)

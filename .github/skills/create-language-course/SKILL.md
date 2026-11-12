@@ -39,6 +39,9 @@ practice-only feed is not a completed course.
   not the parent workspace directory.
 - Practice uses Swedish `se`; stories and catalogs use Swedish `sv`.
   Spain Spanish uses `es` throughout. Do not interchange these codes.
+  Germany German is `de` and France French is `fr`; Spanish, German and French
+  are optional per practice entry, so a new target needs every entry, topic,
+  chapter title and vocabulary item translated before rendering.
 - Keep one shared practice source at `courses/practice/transcript.json`.
   Do not fork the entire corpus into a direction-specific transcript folder.
 - Shared story data lives under `courses/stories/magical_radio/`.

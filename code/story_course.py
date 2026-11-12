@@ -35,8 +35,13 @@ DEFAULT_VOICES = {
     "en": "en-GB-SoniaNeural",
     "ru": "ru-RU-SvetlanaNeural",
     "es": "es-ES-ElviraNeural",
+    "de": "de-DE-KatjaNeural",
+    "fr": "fr-FR-DeniseNeural",
 }
-DEFAULT_RATES = {"pl": "-15%", "sv": "-15%", "en": "-5%", "ru": "-15%", "es": "-15%"}
+DEFAULT_RATES = {
+    "pl": "-15%", "sv": "-15%", "en": "-5%", "ru": "-15%", "es": "-15%",
+    "de": "-15%", "fr": "-15%",
+}
 DEFAULT_TARGETS = ("pl",)
 # Spoken before each chapter title; short bare titles let expressive narrators
 # drift into character voices (e.g. "Głos z radia." read as a deep radio voice).
@@ -51,6 +56,10 @@ CHAPTER_HEADINGS = {
                      "седьмая", "восьмая", "девятая", "десятая"]),
     "es": ("Capítulo", ["uno", "dos", "tres", "cuatro", "cinco", "seis",
                        "siete", "ocho", "nueve", "diez"]),
+    "de": ("Kapitel", ["eins", "zwei", "drei", "vier", "fünf", "sechs",
+                       "sieben", "acht", "neun", "zehn"]),
+    "fr": ("Chapitre", ["un", "deux", "trois", "quatre", "cinq", "six",
+                        "sept", "huit", "neuf", "dix"]),
 }
 SAMPLE_RATE = 44100
 BITRATE = "192k"
@@ -1059,7 +1068,7 @@ def package_podcasts(
                         target, story_titles, chapter, len(transcript["chapters"]),
                         source=source_language,
                     )
-                    if source_language in ("sv", "pl", "en", "ru") and target in copy.LANGUAGES
+                    if source_language in ("sv", "pl", "en", "ru", "es") and target in copy.LANGUAGES
                     else "Listen to the complete chapter in the target language, "
                     "practice vocabulary with native-language prompts, then listen "
                     "to the same chapter again."
@@ -1077,7 +1086,7 @@ def package_podcasts(
                 episodes.append(episode)
                 previous_by_id[episode_id] = episode
         _write_json(existing_catalog, catalog)
-        if source_language in ("sv", "pl", "en", "ru") and target in copy.LANGUAGES:
+        if source_language in ("sv", "pl", "en", "ru", "es") and target in copy.LANGUAGES:
             catalog = copy.refresh_course(course, {transcript["story_id"]: transcript})
         for path in builder.remove_superseded_audio(course, superseded):
             print(f"Removed superseded audio: {path.relative_to(course)}", flush=True)

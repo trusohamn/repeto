@@ -67,8 +67,8 @@ class PodcastTests(unittest.TestCase):
                 page,
             )
             self.assertIn("Listen on YouTube", page)
-            self.assertIn("All eight podcasts are available as playlists.", page)
-            self.assertIn('href="https://www.youtube.com/@repeto-ling/podcasts"', page)
+            self.assertNotIn("youtube-notice", page)
+            self.assertNotIn("All eight podcasts are available as playlists.", page)
             self.assertEqual(page.count("38 episodes"), 4)
             self.assertIn('<html lang="en">', page)
             self.assertIn(

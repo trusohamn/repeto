@@ -1,0 +1,868 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Repeto – I learn French</title>
+    <link>https://repeto.stream/english-french/</link>
+    <description>Learn French by listening and speaking, with English prompts to guide you. Repeto is an audio course for beginners of all ages: children, parents, grandparents and anyone who wants to start learning French. No previous knowledge or textbook is needed.
+
+How it works: you hear a word or sentence in English, then have a pause to say it in French. Next, you hear the answer twice, with time to repeat it and practise the pronunciation.
+
+What's included:
+• Season 1 – Practice: 30 short topics, from greetings and numbers to food, feelings and everyday situations.
+• Season 2 – Story: "The Magical Radio" (La radio magique), one chapter per episode. Listen to the chapter in French, practise its vocabulary, then listen to the chapter again.
+• More stories are on the way. Follow the podcast to hear new episodes.
+
+How to use the course:
+• Start with season 1, episode 1 and listen in order.
+• Answer out loud during each pause. Try to recall the words yourself.
+• Replay an episode until you can answer before the recorded voice.
+• Listening in the background can help you get used to the sounds and rhythm of the language. Practise actively too, by repeating and answering during the pauses.
+
+Enjoy this format? Repeto is also available in other languages, with the same familiar structure. Search for Repeto in your podcast app.
+
+Get in touch! Suggestions for new languages, corrections and story ideas are welcome: repeto.lingo@gmail.com
+
+Voices are AI-generated (Microsoft Azure).</description>
+    <language>en</language>
+    <itunes:author>Repeto</itunes:author>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:type>serial</itunes:type>
+    <itunes:owner>
+      <itunes:name>Repeto</itunes:name>
+      <itunes:email>repeto.lingo@gmail.com</itunes:email>
+    </itunes:owner>
+    <itunes:image href="https://repeto.stream/english-french/cover-fee80047.jpeg" />
+    <itunes:category text="Education">
+      <itunes:category text="Language Learning" />
+    </itunes:category>
+    <atom:link href="https://repeto.stream/english-french/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>01 Greetings — Salutations</title>
+      <description>Topic 1 of 30: Greetings (Salutations) – 36 phrases.
+
+You hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• Hi! → Salut !
+• Good morning! → Bonjour !
+• Good afternoon! → Bonjour !
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 1 of 30: Greetings (Salutations) – 36 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Hi! → Salut !&lt;/li&gt;&lt;li&gt;Good morning! → Bonjour !&lt;/li&gt;&lt;li&gt;Good afternoon! → Bonjour !&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-french:topic-01</guid>
+      <pubDate>Thu, 12 Nov 2026 09:13:45 +0000</pubDate>
+      <itunes:episode>1</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>360</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/english-french/audio/practice/01_greetings_en_fr_double_2026-11-12_10-06-59.mp3" length="8641767" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>02 Numbers — Nombres</title>
+      <description>Topic 2 of 30: Numbers (Nombres) – 35 phrases.
+
+You hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• One → Un
+• Two → Deux
+• Three → Trois
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 2 of 30: Numbers (Nombres) – 35 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;One → Un&lt;/li&gt;&lt;li&gt;Two → Deux&lt;/li&gt;&lt;li&gt;Three → Trois&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-french:topic-02</guid>
+      <pubDate>Thu, 12 Nov 2026 09:13:45 +0000</pubDate>
+      <itunes:episode>2</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>329</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/english-french/audio/practice/02_numbers_en_fr_double_2026-11-12_10-06-59.mp3" length="7905741" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>03 Colors — Couleurs</title>
+      <description>Topic 3 of 30: Colors (Couleurs) – 29 phrases.
+
+You hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• Red → Rouge
+• Blue → Bleu
+• Yellow → Jaune
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 3 of 30: Colors (Couleurs) – 29 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Red → Rouge&lt;/li&gt;&lt;li&gt;Blue → Bleu&lt;/li&gt;&lt;li&gt;Yellow → Jaune&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-french:topic-03</guid>
+      <pubDate>Thu, 12 Nov 2026 09:13:45 +0000</pubDate>
+      <itunes:episode>3</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>296</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/english-french/audio/practice/03_colors_en_fr_double_2026-11-12_10-06-59.mp3" length="7099497" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>04 Animals — Animaux</title>
+      <description>Topic 4 of 30: Animals (Animaux) – 42 phrases.
+
+You hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• Dog → Un chien
+• Cat → Un chat
+• Bird → Un oiseau
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 4 of 30: Animals (Animaux) – 42 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Dog → Un chien&lt;/li&gt;&lt;li&gt;Cat → Un chat&lt;/li&gt;&lt;li&gt;Bird → Un oiseau&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-french:topic-04</guid>
+      <pubDate>Thu, 12 Nov 2026 09:13:45 +0000</pubDate>
+      <itunes:episode>4</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>420</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/english-french/audio/practice/04_animals_en_fr_double_2026-11-12_10-06-59.mp3" length="10069933" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>05 Family — Famille</title>
+      <description>Topic 5 of 30: Family (Famille) – 26 phrases.
+
+You hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• Mum → Maman
+• Dad → Papa
+• Sister → Une sœur
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 5 of 30: Family (Famille) – 26 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Mum → Maman&lt;/li&gt;&lt;li&gt;Dad → Papa&lt;/li&gt;&lt;li&gt;Sister → Une sœur&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-french:topic-05</guid>
+      <pubDate>Thu, 12 Nov 2026 09:13:45 +0000</pubDate>
+      <itunes:episode>5</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>281</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/english-french/audio/practice/05_family_en_fr_double_2026-11-12_10-06-59.mp3" length="6751546" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>06 Food — Alimentation</title>
+      <description>Topic 6 of 30: Food (Alimentation) – 49 phrases.
+
+You hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• Bread → Du pain
+• Milk → Du lait
+• Egg → Un œuf
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 6 of 30: Food (Alimentation) – 49 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Bread → Du pain&lt;/li&gt;&lt;li&gt;Milk → Du lait&lt;/li&gt;&lt;li&gt;Egg → Un œuf&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-french:topic-06</guid>
+      <pubDate>Thu, 12 Nov 2026 09:13:45 +0000</pubDate>
+      <itunes:episode>6</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>497</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/english-french/audio/practice/06_food_en_fr_double_2026-11-12_10-06-59.mp3" length="11931314" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>07 Body — Le corps</title>
+      <description>Topic 7 of 30: Body (Le corps) – 37 phrases.
+
+You hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• Head → La tête
+• Hair → Les cheveux
+• Eye → L'œil
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 7 of 30: Body (Le corps) – 37 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Head → La tête&lt;/li&gt;&lt;li&gt;Hair → Les cheveux&lt;/li&gt;&lt;li&gt;Eye → L&amp;#x27;œil&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-french:topic-07</guid>
+      <pubDate>Thu, 12 Nov 2026 09:13:45 +0000</pubDate>
+      <itunes:episode>7</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>369</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/english-french/audio/practice/07_body_en_fr_double_2026-11-12_10-06-59.mp3" length="8864957" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>08 Clothing — Les vêtements</title>
+      <description>Topic 8 of 30: Clothing (Les vêtements) – 29 phrases.
+
+You hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• Jumper → Le pull
+• T-shirt → Le tee-shirt
+• Shirt → La chemise
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 8 of 30: Clothing (Les vêtements) – 29 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Jumper → Le pull&lt;/li&gt;&lt;li&gt;T-shirt → Le tee-shirt&lt;/li&gt;&lt;li&gt;Shirt → La chemise&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-french:topic-08</guid>
+      <pubDate>Thu, 12 Nov 2026 09:13:45 +0000</pubDate>
+      <itunes:episode>8</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>304</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/english-french/audio/practice/08_clothing_en_fr_double_2026-11-12_10-06-59.mp3" length="7288206" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>09 Home — À la maison</title>
+      <description>Topic 9 of 30: Home (À la maison) – 38 phrases.
+
+You hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• House → La maison
+• Flat → L'appartement
+• Room → La pièce
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 9 of 30: Home (À la maison) – 38 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;House → La maison&lt;/li&gt;&lt;li&gt;Flat → L&amp;#x27;appartement&lt;/li&gt;&lt;li&gt;Room → La pièce&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-french:topic-09</guid>
+      <pubDate>Thu, 12 Nov 2026 09:13:45 +0000</pubDate>
+      <itunes:episode>9</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>392</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/english-french/audio/practice/09_home_en_fr_double_2026-11-12_10-06-59.mp3" length="9402243" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>10 School — L'école</title>
+      <description>Topic 10 of 30: School (L'école) – 41 phrases.
+
+You hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• School → L'école
+• Classroom → La salle de classe
+• Teacher → Le professeur
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 10 of 30: School (L&amp;#x27;école) – 41 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;School → L&amp;#x27;école&lt;/li&gt;&lt;li&gt;Classroom → La salle de classe&lt;/li&gt;&lt;li&gt;Teacher → Le professeur&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-french:topic-10</guid>
+      <pubDate>Thu, 12 Nov 2026 09:13:45 +0000</pubDate>
+      <itunes:episode>10</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>428</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/english-french/audio/practice/10_school_en_fr_double_2026-11-12_10-06-59.mp3" length="10279331" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>11 Weather — La météo</title>
+      <description>Topic 11 of 30: Weather (La météo) – 25 phrases.
+
+You hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• Weather → La météo
+• Sun → Le soleil
+• Rain → La pluie
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 11 of 30: Weather (La météo) – 25 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Weather → La météo&lt;/li&gt;&lt;li&gt;Sun → Le soleil&lt;/li&gt;&lt;li&gt;Rain → La pluie&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-french:topic-11</guid>
+      <pubDate>Thu, 12 Nov 2026 09:13:45 +0000</pubDate>
+      <itunes:episode>11</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>254</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/english-french/audio/practice/11_weather_en_fr_double_2026-11-12_10-06-59.mp3" length="6092634" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>12 Seasons — Les saisons</title>
+      <description>Topic 12 of 30: Seasons (Les saisons) – 18 phrases.
+
+You hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• Spring → Le printemps
+• Summer → L'été
+• Autumn → L'automne
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 12 of 30: Seasons (Les saisons) – 18 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Spring → Le printemps&lt;/li&gt;&lt;li&gt;Summer → L&amp;#x27;été&lt;/li&gt;&lt;li&gt;Autumn → L&amp;#x27;automne&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-french:topic-12</guid>
+      <pubDate>Thu, 12 Nov 2026 09:13:45 +0000</pubDate>
+      <itunes:episode>12</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>202</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/english-french/audio/practice/12_seasons_en_fr_double_2026-11-12_10-06-59.mp3" length="4843772" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>13 Days and Time — Les jours et l'heure</title>
+      <description>Topic 13 of 30: Days and Time (Les jours et l'heure) – 29 phrases.
+
+You hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• Monday → Lundi
+• Tuesday → Mardi
+• Wednesday → Mercredi
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 13 of 30: Days and Time (Les jours et l&amp;#x27;heure) – 29 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Monday → Lundi&lt;/li&gt;&lt;li&gt;Tuesday → Mardi&lt;/li&gt;&lt;li&gt;Wednesday → Mercredi&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-french:topic-13</guid>
+      <pubDate>Thu, 12 Nov 2026 09:13:45 +0000</pubDate>
+      <itunes:episode>13</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>306</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/english-french/audio/practice/13_days_and_time_en_fr_double_2026-11-12_10-06-59.mp3" length="7334599" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>14 Toys and Play — Les jouets et les jeux</title>
+      <description>Topic 14 of 30: Toys and Play (Les jouets et les jeux) – 34 phrases.
+
+You hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• Toy → Un jouet
+• Ball → Un ballon
+• Doll → Une poupée
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 14 of 30: Toys and Play (Les jouets et les jeux) – 34 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Toy → Un jouet&lt;/li&gt;&lt;li&gt;Ball → Un ballon&lt;/li&gt;&lt;li&gt;Doll → Une poupée&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-french:topic-14</guid>
+      <pubDate>Thu, 12 Nov 2026 09:13:45 +0000</pubDate>
+      <itunes:episode>14</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>361</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/english-french/audio/practice/14_toys_and_play_en_fr_double_2026-11-12_10-06-59.mp3" length="8663083" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>15 Sports and Activities — Les sports et les activités</title>
+      <description>Topic 15 of 30: Sports and Activities (Les sports et les activités) – 25 phrases.
+
+You hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• Football → Le foot
+• Swimming → La natation
+• Cycling → Le vélo
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 15 of 30: Sports and Activities (Les sports et les activités) – 25 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Football → Le foot&lt;/li&gt;&lt;li&gt;Swimming → La natation&lt;/li&gt;&lt;li&gt;Cycling → Le vélo&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-french:topic-15</guid>
+      <pubDate>Thu, 12 Nov 2026 09:13:45 +0000</pubDate>
+      <itunes:episode>15</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>275</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/english-french/audio/practice/15_sports_and_activities_en_fr_double_2026-11-12_10-06-59.mp3" length="6603589" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>16 I want and I need — Je veux / J'ai besoin</title>
+      <description>Topic 16 of 30: I want and I need (Je veux / J'ai besoin) – 28 phrases.
+
+You hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• I want to go outside. → Je veux sortir.
+• I want a ball. → Je veux un ballon.
+• I want to eat. → Je veux manger.
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 16 of 30: I want and I need (Je veux / J&amp;#x27;ai besoin) – 28 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;I want to go outside. → Je veux sortir.&lt;/li&gt;&lt;li&gt;I want a ball. → Je veux un ballon.&lt;/li&gt;&lt;li&gt;I want to eat. → Je veux manger.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-french:topic-16</guid>
+      <pubDate>Thu, 12 Nov 2026 09:13:45 +0000</pubDate>
+      <itunes:episode>16</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>319</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/english-french/audio/practice/16_i_want_i_need_en_fr_double_2026-11-12_10-06-59.mp3" length="7663115" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>17 Where is it? — Où est... ?</title>
+      <description>Topic 17 of 30: Where is it? (Où est... ?) – 28 phrases.
+
+You hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• Where is the teddy bear? → Où est le nounours ?
+• Where is my phone? → Où est mon téléphone ?
+• Where is my bag? → Où est mon sac ?
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 17 of 30: Where is it? (Où est... ?) – 28 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Where is the teddy bear? → Où est le nounours ?&lt;/li&gt;&lt;li&gt;Where is my phone? → Où est mon téléphone ?&lt;/li&gt;&lt;li&gt;Where is my bag? → Où est mon sac ?&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-french:topic-17</guid>
+      <pubDate>Thu, 12 Nov 2026 09:13:45 +0000</pubDate>
+      <itunes:episode>17</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>300</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/english-french/audio/practice/17_where_is_en_fr_double_2026-11-12_10-06-59.mp3" length="7199181" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>18 Feelings and Emotions — Les sentiments et les émotions</title>
+      <description>Topic 18 of 30: Feelings and Emotions (Les sentiments et les émotions) – 28 phrases.
+
+You hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• Happy → Joyeux
+• Sad → Triste
+• Angry → En colère
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 18 of 30: Feelings and Emotions (Les sentiments et les émotions) – 28 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Happy → Joyeux&lt;/li&gt;&lt;li&gt;Sad → Triste&lt;/li&gt;&lt;li&gt;Angry → En colère&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-french:topic-18</guid>
+      <pubDate>Thu, 12 Nov 2026 09:13:45 +0000</pubDate>
+      <itunes:episode>18</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>297</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/english-french/audio/practice/18_feelings_and_emotions_en_fr_double_2026-11-12_10-06-59.mp3" length="7132725" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>19 Transport — Transports</title>
+      <description>Topic 19 of 30: Transport (Transports) – 25 phrases.
+
+You hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• Car → Voiture
+• Bus → Bus
+• Train → Train
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 19 of 30: Transport (Transports) – 25 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Car → Voiture&lt;/li&gt;&lt;li&gt;Bus → Bus&lt;/li&gt;&lt;li&gt;Train → Train&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-french:topic-19</guid>
+      <pubDate>Thu, 12 Nov 2026 09:13:45 +0000</pubDate>
+      <itunes:episode>19</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>264</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/english-french/audio/practice/19_transport_en_fr_double_2026-11-12_10-06-59.mp3" length="6328363" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>20 Nature — Nature</title>
+      <description>Topic 20 of 30: Nature (Nature) – 27 phrases.
+
+You hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• Forest → Forêt
+• Sea → Mer
+• Lake → Lac
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 20 of 30: Nature (Nature) – 27 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Forest → Forêt&lt;/li&gt;&lt;li&gt;Sea → Mer&lt;/li&gt;&lt;li&gt;Lake → Lac&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-french:topic-20</guid>
+      <pubDate>Thu, 12 Nov 2026 09:13:45 +0000</pubDate>
+      <itunes:episode>20</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>270</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/english-french/audio/practice/20_nature_en_fr_double_2026-11-12_10-06-59.mp3" length="6479455" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>21 Holidays and Celebrations — Fêtes et célébrations</title>
+      <description>Topic 21 of 30: Holidays and Celebrations (Fêtes et célébrations) – 23 phrases.
+
+You hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• Birthday → Anniversaire
+• Happy birthday! → Joyeux anniversaire !
+• Christmas → Noël
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 21 of 30: Holidays and Celebrations (Fêtes et célébrations) – 23 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Birthday → Anniversaire&lt;/li&gt;&lt;li&gt;Happy birthday! → Joyeux anniversaire !&lt;/li&gt;&lt;li&gt;Christmas → Noël&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-french:topic-21</guid>
+      <pubDate>Thu, 12 Nov 2026 09:13:45 +0000</pubDate>
+      <itunes:episode>21</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>250</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/english-french/audio/practice/21_holidays_and_celebrations_en_fr_double_2026-11-12_10-06-59.mp3" length="5995458" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>22 Daily Routine — Routine quotidienne</title>
+      <description>Topic 22 of 30: Daily Routine (Routine quotidienne) – 28 phrases.
+
+You hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• Wake up → Se réveiller
+• Get up → Se lever
+• Brush your teeth → Se brosser les dents
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 22 of 30: Daily Routine (Routine quotidienne) – 28 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Wake up → Se réveiller&lt;/li&gt;&lt;li&gt;Get up → Se lever&lt;/li&gt;&lt;li&gt;Brush your teeth → Se brosser les dents&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-french:topic-22</guid>
+      <pubDate>Thu, 12 Nov 2026 09:13:45 +0000</pubDate>
+      <itunes:episode>22</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>314</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/english-french/audio/practice/22_daily_routine_en_fr_double_2026-11-12_10-06-59.mp3" length="7537728" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>23 Asking and Requests — Questions et demandes</title>
+      <description>Topic 23 of 30: Asking and Requests (Questions et demandes) – 26 phrases.
+
+You hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• Can you help me? → Tu peux m'aider ?
+• Help! → Au secours !
+• Please! → S'il te plaît !
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 23 of 30: Asking and Requests (Questions et demandes) – 26 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Can you help me? → Tu peux m&amp;#x27;aider ?&lt;/li&gt;&lt;li&gt;Help! → Au secours !&lt;/li&gt;&lt;li&gt;Please! → S&amp;#x27;il te plaît !&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-french:topic-23</guid>
+      <pubDate>Thu, 12 Nov 2026 09:13:45 +0000</pubDate>
+      <itunes:episode>23</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>267</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/english-french/audio/practice/23_asking_and_requests_en_fr_double_2026-11-12_10-06-59.mp3" length="6407984" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>24 Opposites — Contraires</title>
+      <description>Topic 24 of 30: Opposites (Contraires) – 28 phrases.
+
+You hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• Big → Grand
+• Small → Petit
+• Long → Long
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 24 of 30: Opposites (Contraires) – 28 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Big → Grand&lt;/li&gt;&lt;li&gt;Small → Petit&lt;/li&gt;&lt;li&gt;Long → Long&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-french:topic-24</guid>
+      <pubDate>Thu, 12 Nov 2026 09:13:45 +0000</pubDate>
+      <itunes:episode>24</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>276</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/english-french/audio/practice/24_opposites_en_fr_double_2026-11-12_10-06-59.mp3" length="6613620" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>25 Actions and Verbs — Actions et verbes</title>
+      <description>Topic 25 of 30: Actions and Verbs (Actions et verbes) – 41 phrases.
+
+You hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• Walk → Marcher
+• Run → Courir
+• Jump → Sauter
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 25 of 30: Actions and Verbs (Actions et verbes) – 41 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Walk → Marcher&lt;/li&gt;&lt;li&gt;Run → Courir&lt;/li&gt;&lt;li&gt;Jump → Sauter&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-french:topic-25</guid>
+      <pubDate>Thu, 12 Nov 2026 09:13:45 +0000</pubDate>
+      <itunes:episode>25</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>412</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/english-french/audio/practice/25_actions_and_verbs_en_fr_double_2026-11-12_10-06-59.mp3" length="9878717" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>26 Places in Town — Lieux en ville</title>
+      <description>Topic 26 of 30: Places in Town (Lieux en ville) – 23 phrases.
+
+You hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• Park → Parc
+• Playground → Aire de jeux
+• Shop → Magasin
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 26 of 30: Places in Town (Lieux en ville) – 23 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Park → Parc&lt;/li&gt;&lt;li&gt;Playground → Aire de jeux&lt;/li&gt;&lt;li&gt;Shop → Magasin&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-french:topic-26</guid>
+      <pubDate>Thu, 12 Nov 2026 09:13:45 +0000</pubDate>
+      <itunes:episode>26</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>246</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/english-french/audio/practice/26_places_in_town_en_fr_double_2026-11-12_10-06-59.mp3" length="5898283" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>27 Technology — Technologie</title>
+      <description>Topic 27 of 30: Technology (Technologie) – 22 phrases.
+
+You hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• Phone → Téléphone
+• Mobile phone → Téléphone portable
+• Computer → Ordinateur
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 27 of 30: Technology (Technologie) – 22 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Phone → Téléphone&lt;/li&gt;&lt;li&gt;Mobile phone → Téléphone portable&lt;/li&gt;&lt;li&gt;Computer → Ordinateur&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-french:topic-27</guid>
+      <pubDate>Thu, 12 Nov 2026 09:13:45 +0000</pubDate>
+      <itunes:episode>27</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>242</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/english-french/audio/practice/27_technology_en_fr_double_2026-11-12_10-06-59.mp3" length="5805496" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>28 Music and Art — Musique et art</title>
+      <description>Topic 28 of 30: Music and Art (Musique et art) – 23 phrases.
+
+You hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• Music → Musique
+• Song → Chanson
+• Dancing → Danse
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 28 of 30: Music and Art (Musique et art) – 23 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Music → Musique&lt;/li&gt;&lt;li&gt;Song → Chanson&lt;/li&gt;&lt;li&gt;Dancing → Danse&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-french:topic-28</guid>
+      <pubDate>Thu, 12 Nov 2026 09:13:45 +0000</pubDate>
+      <itunes:episode>28</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>243</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/english-french/audio/practice/28_music_and_art_en_fr_double_2026-11-12_10-06-59.mp3" length="5834962" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>29 Polite Phrases — Formules de politesse</title>
+      <description>Topic 29 of 30: Polite Phrases (Formules de politesse) – 17 phrases.
+
+You hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• Please. → S’il te plaît.
+• Thank you! → Merci !
+• Thank you very much! → Merci beaucoup !
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 29 of 30: Polite Phrases (Formules de politesse) – 17 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Please. → S’il te plaît.&lt;/li&gt;&lt;li&gt;Thank you! → Merci !&lt;/li&gt;&lt;li&gt;Thank you very much! → Merci beaucoup !&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-french:topic-29</guid>
+      <pubDate>Thu, 12 Nov 2026 09:13:45 +0000</pubDate>
+      <itunes:episode>29</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>175</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/english-french/audio/practice/29_polite_phrases_en_fr_double_2026-11-12_10-06-59.mp3" length="4213698" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>30 Review and Recap — Révision et récapitulatif</title>
+      <description>Topic 30 of 30: Review and Recap (Révision et récapitulatif) – 11 phrases.
+
+You hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• Well done! → Bien joué !
+• You are learning a new language! → Tu apprends une nouvelle langue !
+• Let's practise! → Entraînons-nous !
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 30 of 30: Review and Recap (Révision et récapitulatif) – 11 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Well done! → Bien joué !&lt;/li&gt;&lt;li&gt;You are learning a new language! → Tu apprends une nouvelle langue !&lt;/li&gt;&lt;li&gt;Let&amp;#x27;s practise! → Entraînons-nous !&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-french:topic-30</guid>
+      <pubDate>Thu, 12 Nov 2026 09:13:45 +0000</pubDate>
+      <itunes:episode>30</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>126</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/english-french/audio/practice/30_review_and_recap_en_fr_double_2026-11-12_10-06-59.mp3" length="3035680" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>01 The Magical Radio: The Old Table — La vieille table</title>
+      <description>Chapter 1 of 8 in "The Magical Radio" (La radio magique). Two siblings find an old wooden radio at a flea market. Suddenly it starts to hum, and a golden inscription shows that the radio is meant for them.
+
+How the episode works:
+1. Listen to the whole chapter in French. You don't need to understand everything.
+2. Practise words and expressions from the chapter: an English prompt, a pause, then the answer in French.
+3. Listen to the chapter again and see how much you can understand.
+
+A chime separates the sections. Listen in order, starting with chapter 1.</description>
+      <content:encoded>&lt;p&gt;Chapter 1 of 8 in &amp;quot;The Magical Radio&amp;quot; (La radio magique). Two siblings find an old wooden radio at a flea market. Suddenly it starts to hum, and a golden inscription shows that the radio is meant for them.&lt;/p&gt;&lt;p&gt;How the episode works:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Listen to the whole chapter in French. You don&amp;#x27;t need to understand everything.&lt;/li&gt;&lt;li&gt;Practise words and expressions from the chapter: an English prompt, a pause, then the answer in French.&lt;/li&gt;&lt;li&gt;Listen to the chapter again and see how much you can understand.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;A chime separates the sections. Listen in order, starting with chapter 1.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">magical_radio:en:fr:chapter-01</guid>
+      <pubDate>Thu, 12 Nov 2026 09:15:12 +0000</pubDate>
+      <itunes:episode>1</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>297</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://repeto.stream/english-french/images/stories/magical_radio/cover-447076a6.jpeg" />
+      <enclosure url="https://repeto.stream/english-french/audio/stories/magical_radio/01_chapter_01_en_fr_2026-11-12_10-13-52.mp3" length="7121440" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>02 The Magical Radio: A Voice from the Radio — Une voix dans la radio</title>
+      <description>Chapter 2 of 8 in "The Magical Radio" (La radio magique). At home, the children press the blue button. A little cloud smelling of cinnamon floats out of the radio, and a cheerful voice tells them about a mouse with an important key.
+
+How the episode works:
+1. Listen to the whole chapter in French. You don't need to understand everything.
+2. Practise words and expressions from the chapter: an English prompt, a pause, then the answer in French.
+3. Listen to the chapter again and see how much you can understand.
+
+A chime separates the sections. Listen in order, starting with chapter 1.</description>
+      <content:encoded>&lt;p&gt;Chapter 2 of 8 in &amp;quot;The Magical Radio&amp;quot; (La radio magique). At home, the children press the blue button. A little cloud smelling of cinnamon floats out of the radio, and a cheerful voice tells them about a mouse with an important key.&lt;/p&gt;&lt;p&gt;How the episode works:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Listen to the whole chapter in French. You don&amp;#x27;t need to understand everything.&lt;/li&gt;&lt;li&gt;Practise words and expressions from the chapter: an English prompt, a pause, then the answer in French.&lt;/li&gt;&lt;li&gt;Listen to the chapter again and see how much you can understand.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;A chime separates the sections. Listen in order, starting with chapter 1.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">magical_radio:en:fr:chapter-02</guid>
+      <pubDate>Thu, 12 Nov 2026 09:15:12 +0000</pubDate>
+      <itunes:episode>2</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>268</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://repeto.stream/english-french/images/stories/magical_radio/cover-447076a6.jpeg" />
+      <enclosure url="https://repeto.stream/english-french/audio/stories/magical_radio/02_chapter_02_en_fr_2026-11-12_10-13-52.mp3" length="6444346" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>03 The Magical Radio: A Mouse under the Tree — La souris sous l'arbre</title>
+      <description>Chapter 3 of 8 in "The Magical Radio" (La radio magique). With a torch, some cheese and the radio, the siblings head to the old tree. A little mouse agrees to a trade, and a small door is hidden between the roots.
+
+How the episode works:
+1. Listen to the whole chapter in French. You don't need to understand everything.
+2. Practise words and expressions from the chapter: an English prompt, a pause, then the answer in French.
+3. Listen to the chapter again and see how much you can understand.
+
+A chime separates the sections. Listen in order, starting with chapter 1.</description>
+      <content:encoded>&lt;p&gt;Chapter 3 of 8 in &amp;quot;The Magical Radio&amp;quot; (La radio magique). With a torch, some cheese and the radio, the siblings head to the old tree. A little mouse agrees to a trade, and a small door is hidden between the roots.&lt;/p&gt;&lt;p&gt;How the episode works:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Listen to the whole chapter in French. You don&amp;#x27;t need to understand everything.&lt;/li&gt;&lt;li&gt;Practise words and expressions from the chapter: an English prompt, a pause, then the answer in French.&lt;/li&gt;&lt;li&gt;Listen to the chapter again and see how much you can understand.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;A chime separates the sections. Listen in order, starting with chapter 1.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">magical_radio:en:fr:chapter-03</guid>
+      <pubDate>Thu, 12 Nov 2026 09:15:12 +0000</pubDate>
+      <itunes:episode>3</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>354</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://repeto.stream/english-french/images/stories/magical_radio/cover-447076a6.jpeg" />
+      <enclosure url="https://repeto.stream/english-french/audio/stories/magical_radio/03_chapter_03_en_fr_2026-11-12_10-13-52.mp3" length="8493182" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>04 The Magical Radio: Down the Stairs — En descendant l'escalier</title>
+      <description>Chapter 4 of 8 in "The Magical Radio" (La radio magique). The silver key opens the door. Stone steps lead down to a library full of flying books, with glowing flowers growing on the walls.
+
+How the episode works:
+1. Listen to the whole chapter in French. You don't need to understand everything.
+2. Practise words and expressions from the chapter: an English prompt, a pause, then the answer in French.
+3. Listen to the chapter again and see how much you can understand.
+
+A chime separates the sections. Listen in order, starting with chapter 1.</description>
+      <content:encoded>&lt;p&gt;Chapter 4 of 8 in &amp;quot;The Magical Radio&amp;quot; (La radio magique). The silver key opens the door. Stone steps lead down to a library full of flying books, with glowing flowers growing on the walls.&lt;/p&gt;&lt;p&gt;How the episode works:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Listen to the whole chapter in French. You don&amp;#x27;t need to understand everything.&lt;/li&gt;&lt;li&gt;Practise words and expressions from the chapter: an English prompt, a pause, then the answer in French.&lt;/li&gt;&lt;li&gt;Listen to the chapter again and see how much you can understand.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;A chime separates the sections. Listen in order, starting with chapter 1.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">magical_radio:en:fr:chapter-04</guid>
+      <pubDate>Thu, 12 Nov 2026 09:15:12 +0000</pubDate>
+      <itunes:episode>4</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>273</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://repeto.stream/english-french/images/stories/magical_radio/cover-447076a6.jpeg" />
+      <enclosure url="https://repeto.stream/english-french/audio/stories/magical_radio/04_chapter_04_en_fr_2026-11-12_10-13-52.mp3" length="6544030" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>05 The Magical Radio: The Flying Book — Le livre volant</title>
+      <description>Chapter 5 of 8 in "The Magical Radio" (La radio magique). A golden book lands on one of the children's shoulders, and the radio reveals a spell that can mend broken things.
+
+How the episode works:
+1. Listen to the whole chapter in French. You don't need to understand everything.
+2. Practise words and expressions from the chapter: an English prompt, a pause, then the answer in French.
+3. Listen to the chapter again and see how much you can understand.
+
+A chime separates the sections. Listen in order, starting with chapter 1.</description>
+      <content:encoded>&lt;p&gt;Chapter 5 of 8 in &amp;quot;The Magical Radio&amp;quot; (La radio magique). A golden book lands on one of the children&amp;#x27;s shoulders, and the radio reveals a spell that can mend broken things.&lt;/p&gt;&lt;p&gt;How the episode works:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Listen to the whole chapter in French. You don&amp;#x27;t need to understand everything.&lt;/li&gt;&lt;li&gt;Practise words and expressions from the chapter: an English prompt, a pause, then the answer in French.&lt;/li&gt;&lt;li&gt;Listen to the chapter again and see how much you can understand.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;A chime separates the sections. Listen in order, starting with chapter 1.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">magical_radio:en:fr:chapter-05</guid>
+      <pubDate>Thu, 12 Nov 2026 09:15:12 +0000</pubDate>
+      <itunes:episode>5</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>262</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://repeto.stream/english-french/images/stories/magical_radio/cover-447076a6.jpeg" />
+      <enclosure url="https://repeto.stream/english-french/audio/stories/magical_radio/05_chapter_05_en_fr_2026-11-12_10-13-52.mp3" length="6278834" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>06 The Magical Radio: The First Spell — Le premier sort</title>
+      <description>Chapter 6 of 8 in "The Magical Radio" (La radio magique). It's time to try the spell on a broken compass. Will it work? And who is waiting behind the green door?
+
+How the episode works:
+1. Listen to the whole chapter in French. You don't need to understand everything.
+2. Practise words and expressions from the chapter: an English prompt, a pause, then the answer in French.
+3. Listen to the chapter again and see how much you can understand.
+
+A chime separates the sections. Listen in order, starting with chapter 1.</description>
+      <content:encoded>&lt;p&gt;Chapter 6 of 8 in &amp;quot;The Magical Radio&amp;quot; (La radio magique). It&amp;#x27;s time to try the spell on a broken compass. Will it work? And who is waiting behind the green door?&lt;/p&gt;&lt;p&gt;How the episode works:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Listen to the whole chapter in French. You don&amp;#x27;t need to understand everything.&lt;/li&gt;&lt;li&gt;Practise words and expressions from the chapter: an English prompt, a pause, then the answer in French.&lt;/li&gt;&lt;li&gt;Listen to the chapter again and see how much you can understand.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;A chime separates the sections. Listen in order, starting with chapter 1.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">magical_radio:en:fr:chapter-06</guid>
+      <pubDate>Thu, 12 Nov 2026 09:15:12 +0000</pubDate>
+      <itunes:episode>6</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>213</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://repeto.stream/english-french/images/stories/magical_radio/cover-447076a6.jpeg" />
+      <enclosure url="https://repeto.stream/english-french/audio/stories/magical_radio/06_chapter_06_en_fr_2026-11-12_10-13-52.mp3" length="5124640" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>07 The Magical Radio: The Golden Bird — L’oiseau doré</title>
+      <description>Chapter 7 of 8 in "The Magical Radio" (La radio magique). Behind the door lies an underground garden. A golden bird ticks like a clock instead of singing. A stone is missing from its wing, and the radio has a secret.
+
+How the episode works:
+1. Listen to the whole chapter in French. You don't need to understand everything.
+2. Practise words and expressions from the chapter: an English prompt, a pause, then the answer in French.
+3. Listen to the chapter again and see how much you can understand.
+
+A chime separates the sections. Listen in order, starting with chapter 1.</description>
+      <content:encoded>&lt;p&gt;Chapter 7 of 8 in &amp;quot;The Magical Radio&amp;quot; (La radio magique). Behind the door lies an underground garden. A golden bird ticks like a clock instead of singing. A stone is missing from its wing, and the radio has a secret.&lt;/p&gt;&lt;p&gt;How the episode works:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Listen to the whole chapter in French. You don&amp;#x27;t need to understand everything.&lt;/li&gt;&lt;li&gt;Practise words and expressions from the chapter: an English prompt, a pause, then the answer in French.&lt;/li&gt;&lt;li&gt;Listen to the chapter again and see how much you can understand.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;A chime separates the sections. Listen in order, starting with chapter 1.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">magical_radio:en:fr:chapter-07</guid>
+      <pubDate>Thu, 12 Nov 2026 09:15:12 +0000</pubDate>
+      <itunes:episode>7</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>341</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://repeto.stream/english-french/images/stories/magical_radio/cover-447076a6.jpeg" />
+      <enclosure url="https://repeto.stream/english-french/audio/stories/magical_radio/07_chapter_07_en_fr_2026-11-12_10-13-52.mp3" length="8185982" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>08 The Magical Radio: The Grand Concert — Le grand concert</title>
+      <description>Chapter 8 of 8 in "The Magical Radio" (La radio magique). The finale! Can the siblings mend the golden bird? The story ends with singing, dancing butterflies and the promise of another adventure.
+
+How the episode works:
+1. Listen to the whole chapter in French. You don't need to understand everything.
+2. Practise words and expressions from the chapter: an English prompt, a pause, then the answer in French.
+3. Listen to the chapter again and see how much you can understand.
+
+A chime separates the sections. Listen in order, starting with chapter 1.</description>
+      <content:encoded>&lt;p&gt;Chapter 8 of 8 in &amp;quot;The Magical Radio&amp;quot; (La radio magique). The finale! Can the siblings mend the golden bird? The story ends with singing, dancing butterflies and the promise of another adventure.&lt;/p&gt;&lt;p&gt;How the episode works:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Listen to the whole chapter in French. You don&amp;#x27;t need to understand everything.&lt;/li&gt;&lt;li&gt;Practise words and expressions from the chapter: an English prompt, a pause, then the answer in French.&lt;/li&gt;&lt;li&gt;Listen to the chapter again and see how much you can understand.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;A chime separates the sections. Listen in order, starting with chapter 1.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">magical_radio:en:fr:chapter-08</guid>
+      <pubDate>Thu, 12 Nov 2026 09:15:12 +0000</pubDate>
+      <itunes:episode>8</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>224</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://repeto.stream/english-french/images/stories/magical_radio/cover-447076a6.jpeg" />
+      <enclosure url="https://repeto.stream/english-french/audio/stories/magical_radio/08_chapter_08_en_fr_2026-11-12_10-13-52.mp3" length="5371654" type="audio/mpeg" />
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,868 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Repeto – Aprendo inglés</title>
+    <link>https://repeto.stream/spanish-english/</link>
+    <description>Aprende inglés escuchando y hablando, con indicaciones en español. Repeto es un curso de audio para principiantes de todas las edades: niños, padres, abuelos y cualquiera que quiera empezar a aprender inglés. No necesitas conocimientos previos ni libro de texto.
+
+Cómo funciona: oyes una palabra o una frase en español y tienes una pausa para decirla en inglés. Después oyes la respuesta dos veces, con tiempo para repetirla y practicar la pronunciación.
+
+Qué incluye:
+• Temporada 1 – Práctica: 30 temas cortos, desde saludos y números hasta comida, emociones y situaciones cotidianas.
+• Temporada 2 – Cuento «La radio mágica» (The Magical Radio): un capítulo en cada episodio. Escucha el capítulo en inglés, practica su vocabulario y vuelve a escuchar el capítulo.
+• Hay más cuentos en camino. Sigue el pódcast para no perderte los nuevos episodios.
+
+Cómo usar el curso:
+• Empieza por la temporada 1, episodio 1, y escucha en orden.
+• Responde en voz alta en cada pausa. Intenta recordar las palabras tú solo.
+• Vuelve a escuchar un episodio hasta que respondas antes que la voz grabada.
+• Escuchar de fondo te ayuda a acostumbrarte a los sonidos y al ritmo del idioma. Practica también de forma activa: repite y responde en las pausas.
+
+¿Te gusta este formato? Repeto también está disponible en otros idiomas, con la misma estructura. Busca Repeto en tu aplicación de pódcasts.
+
+¡Escríbenos! Las sugerencias de nuevos idiomas, correcciones e ideas para cuentos son bienvenidas: repeto.lingo@gmail.com
+
+Las voces están generadas con IA (Microsoft Azure).</description>
+    <language>es</language>
+    <itunes:author>Repeto</itunes:author>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:type>serial</itunes:type>
+    <itunes:owner>
+      <itunes:name>Repeto</itunes:name>
+      <itunes:email>repeto.lingo@gmail.com</itunes:email>
+    </itunes:owner>
+    <itunes:image href="https://repeto.stream/spanish-english/cover-c862cdc3.jpeg" />
+    <itunes:category text="Education">
+      <itunes:category text="Language Learning" />
+    </itunes:category>
+    <atom:link href="https://repeto.stream/spanish-english/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>01 Saludos — Greetings</title>
+      <description>Tema 1 de 30: Saludos (Greetings) – 36 frases.
+
+Oyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.
+
+Ejemplos de este episodio:
+• ¡Hola! → Hi!
+• ¡Buenos días! → Good morning!
+• ¡Buenas tardes! → Good afternoon!
+
+Consejo: vuelve a escuchar hasta que respondas antes que la voz grabada.</description>
+      <content:encoded>&lt;p&gt;Tema 1 de 30: Saludos (Greetings) – 36 frases.&lt;/p&gt;&lt;p&gt;Oyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.&lt;/p&gt;&lt;p&gt;Ejemplos de este episodio:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;¡Hola! → Hi!&lt;/li&gt;&lt;li&gt;¡Buenos días! → Good morning!&lt;/li&gt;&lt;li&gt;¡Buenas tardes! → Good afternoon!&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Consejo: vuelve a escuchar hasta que respondas antes que la voz grabada.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:spanish-english:topic-01</guid>
+      <pubDate>Thu, 12 Nov 2026 08:44:24 +0000</pubDate>
+      <itunes:episode>1</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>370</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/spanish-english/audio/practice/01_greetings_es_en_double_2026-11-12_09-41-01.mp3" length="8888781" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>02 Números — Numbers</title>
+      <description>Tema 2 de 30: Números (Numbers) – 35 frases.
+
+Oyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.
+
+Ejemplos de este episodio:
+• Uno → One
+• Dos → Two
+• Tres → Three
+
+Consejo: vuelve a escuchar hasta que respondas antes que la voz grabada.</description>
+      <content:encoded>&lt;p&gt;Tema 2 de 30: Números (Numbers) – 35 frases.&lt;/p&gt;&lt;p&gt;Oyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.&lt;/p&gt;&lt;p&gt;Ejemplos de este episodio:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Uno → One&lt;/li&gt;&lt;li&gt;Dos → Two&lt;/li&gt;&lt;li&gt;Tres → Three&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Consejo: vuelve a escuchar hasta que respondas antes que la voz grabada.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:spanish-english:topic-02</guid>
+      <pubDate>Thu, 12 Nov 2026 08:44:24 +0000</pubDate>
+      <itunes:episode>2</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>344</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/spanish-english/audio/practice/02_numbers_es_en_double_2026-11-12_09-41-01.mp3" length="8248049" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>03 Colores — Colors</title>
+      <description>Tema 3 de 30: Colores (Colors) – 29 frases.
+
+Oyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.
+
+Ejemplos de este episodio:
+• Rojo → Red
+• Azul → Blue
+• Amarillo → Yellow
+
+Consejo: vuelve a escuchar hasta que respondas antes que la voz grabada.</description>
+      <content:encoded>&lt;p&gt;Tema 3 de 30: Colores (Colors) – 29 frases.&lt;/p&gt;&lt;p&gt;Oyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.&lt;/p&gt;&lt;p&gt;Ejemplos de este episodio:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Rojo → Red&lt;/li&gt;&lt;li&gt;Azul → Blue&lt;/li&gt;&lt;li&gt;Amarillo → Yellow&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Consejo: vuelve a escuchar hasta que respondas antes que la voz grabada.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:spanish-english:topic-03</guid>
+      <pubDate>Thu, 12 Nov 2026 08:44:24 +0000</pubDate>
+      <itunes:episode>3</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>303</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/spanish-english/audio/practice/03_colors_es_en_double_2026-11-12_09-41-01.mp3" length="7278175" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>04 Animales — Animals</title>
+      <description>Tema 4 de 30: Animales (Animals) – 42 frases.
+
+Oyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.
+
+Ejemplos de este episodio:
+• Perro → Dog
+• Gato → Cat
+• Pájaro → Bird
+
+Consejo: vuelve a escuchar hasta que respondas antes que la voz grabada.</description>
+      <content:encoded>&lt;p&gt;Tema 4 de 30: Animales (Animals) – 42 frases.&lt;/p&gt;&lt;p&gt;Oyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.&lt;/p&gt;&lt;p&gt;Ejemplos de este episodio:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Perro → Dog&lt;/li&gt;&lt;li&gt;Gato → Cat&lt;/li&gt;&lt;li&gt;Pájaro → Bird&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Consejo: vuelve a escuchar hasta que respondas antes que la voz grabada.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:spanish-english:topic-04</guid>
+      <pubDate>Thu, 12 Nov 2026 08:44:24 +0000</pubDate>
+      <itunes:episode>4</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>423</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/spanish-english/audio/practice/04_animals_es_en_double_2026-11-12_09-41-01.mp3" length="10159585" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>05 Familia — Family</title>
+      <description>Tema 5 de 30: Familia (Family) – 26 frases.
+
+Oyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.
+
+Ejemplos de este episodio:
+• Mamá → Mum
+• Papá → Dad
+• Hermana → Sister
+
+Consejo: vuelve a escuchar hasta que respondas antes que la voz grabada.</description>
+      <content:encoded>&lt;p&gt;Tema 5 de 30: Familia (Family) – 26 frases.&lt;/p&gt;&lt;p&gt;Oyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.&lt;/p&gt;&lt;p&gt;Ejemplos de este episodio:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Mamá → Mum&lt;/li&gt;&lt;li&gt;Papá → Dad&lt;/li&gt;&lt;li&gt;Hermana → Sister&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Consejo: vuelve a escuchar hasta que respondas antes que la voz grabada.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:spanish-english:topic-05</guid>
+      <pubDate>Thu, 12 Nov 2026 08:44:24 +0000</pubDate>
+      <itunes:episode>5</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>283</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/spanish-english/audio/practice/05_family_es_en_double_2026-11-12_09-41-01.mp3" length="6801074" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>06 Comida — Food</title>
+      <description>Tema 6 de 30: Comida (Food) – 49 frases.
+
+Oyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.
+
+Ejemplos de este episodio:
+• Pan → Bread
+• Leche → Milk
+• Huevo → Egg
+
+Consejo: vuelve a escuchar hasta que respondas antes que la voz grabada.</description>
+      <content:encoded>&lt;p&gt;Tema 6 de 30: Comida (Food) – 49 frases.&lt;/p&gt;&lt;p&gt;Oyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.&lt;/p&gt;&lt;p&gt;Ejemplos de este episodio:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Pan → Bread&lt;/li&gt;&lt;li&gt;Leche → Milk&lt;/li&gt;&lt;li&gt;Huevo → Egg&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Consejo: vuelve a escuchar hasta que respondas antes que la voz grabada.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:spanish-english:topic-06</guid>
+      <pubDate>Thu, 12 Nov 2026 08:44:24 +0000</pubDate>
+      <itunes:episode>6</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>493</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/spanish-english/audio/practice/06_food_es_en_double_2026-11-12_09-41-01.mp3" length="11829750" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>07 Cuerpo — Body</title>
+      <description>Tema 7 de 30: Cuerpo (Body) – 37 frases.
+
+Oyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.
+
+Ejemplos de este episodio:
+• Cabeza → Head
+• Pelo → Hair
+• Ojo → Eye
+
+Consejo: vuelve a escuchar hasta que respondas antes que la voz grabada.</description>
+      <content:encoded>&lt;p&gt;Tema 7 de 30: Cuerpo (Body) – 37 frases.&lt;/p&gt;&lt;p&gt;Oyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.&lt;/p&gt;&lt;p&gt;Ejemplos de este episodio:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Cabeza → Head&lt;/li&gt;&lt;li&gt;Pelo → Hair&lt;/li&gt;&lt;li&gt;Ojo → Eye&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Consejo: vuelve a escuchar hasta que respondas antes que la voz grabada.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:spanish-english:topic-07</guid>
+      <pubDate>Thu, 12 Nov 2026 08:44:24 +0000</pubDate>
+      <itunes:episode>7</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>373</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/spanish-english/audio/practice/07_body_es_en_double_2026-11-12_09-41-01.mp3" length="8964013" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>08 Ropa — Clothing</title>
+      <description>Tema 8 de 30: Ropa (Clothing) – 29 frases.
+
+Oyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.
+
+Ejemplos de este episodio:
+• Jersey → Jumper
+• Camiseta → T-shirt
+• Camisa → Shirt
+
+Consejo: vuelve a escuchar hasta que respondas antes que la voz grabada.</description>
+      <content:encoded>&lt;p&gt;Tema 8 de 30: Ropa (Clothing) – 29 frases.&lt;/p&gt;&lt;p&gt;Oyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.&lt;/p&gt;&lt;p&gt;Ejemplos de este episodio:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Jersey → Jumper&lt;/li&gt;&lt;li&gt;Camiseta → T-shirt&lt;/li&gt;&lt;li&gt;Camisa → Shirt&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Consejo: vuelve a escuchar hasta que respondas antes que la voz grabada.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:spanish-english:topic-08</guid>
+      <pubDate>Thu, 12 Nov 2026 08:44:24 +0000</pubDate>
+      <itunes:episode>8</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>312</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/spanish-english/audio/practice/08_clothing_es_en_double_2026-11-12_09-41-01.mp3" length="7495096" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>09 En casa — Home</title>
+      <description>Tema 9 de 30: En casa (Home) – 38 frases.
+
+Oyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.
+
+Ejemplos de este episodio:
+• Casa → House
+• Piso → Flat
+• Habitación → Room
+
+Consejo: vuelve a escuchar hasta que respondas antes que la voz grabada.</description>
+      <content:encoded>&lt;p&gt;Tema 9 de 30: En casa (Home) – 38 frases.&lt;/p&gt;&lt;p&gt;Oyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.&lt;/p&gt;&lt;p&gt;Ejemplos de este episodio:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Casa → House&lt;/li&gt;&lt;li&gt;Piso → Flat&lt;/li&gt;&lt;li&gt;Habitación → Room&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Consejo: vuelve a escuchar hasta que respondas antes que la voz grabada.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:spanish-english:topic-09</guid>
+      <pubDate>Thu, 12 Nov 2026 08:44:24 +0000</pubDate>
+      <itunes:episode>9</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>385</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/spanish-english/audio/practice/09_home_es_en_double_2026-11-12_09-41-01.mp3" length="9250524" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>10 Colegio — School</title>
+      <description>Tema 10 de 30: Colegio (School) – 41 frases.
+
+Oyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.
+
+Ejemplos de este episodio:
+• Colegio → School
+• Aula → Classroom
+• Profesor → Teacher
+
+Consejo: vuelve a escuchar hasta que respondas antes que la voz grabada.</description>
+      <content:encoded>&lt;p&gt;Tema 10 de 30: Colegio (School) – 41 frases.&lt;/p&gt;&lt;p&gt;Oyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.&lt;/p&gt;&lt;p&gt;Ejemplos de este episodio:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Colegio → School&lt;/li&gt;&lt;li&gt;Aula → Classroom&lt;/li&gt;&lt;li&gt;Profesor → Teacher&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Consejo: vuelve a escuchar hasta que respondas antes que la voz grabada.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:spanish-english:topic-10</guid>
+      <pubDate>Thu, 12 Nov 2026 08:44:24 +0000</pubDate>
+      <itunes:episode>10</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>431</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/spanish-english/audio/practice/10_school_es_en_double_2026-11-12_09-41-01.mp3" length="10340771" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>11 El tiempo — Weather</title>
+      <description>Tema 11 de 30: El tiempo (Weather) – 25 frases.
+
+Oyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.
+
+Ejemplos de este episodio:
+• Tiempo → Weather
+• Sol → Sun
+• Lluvia → Rain
+
+Consejo: vuelve a escuchar hasta que respondas antes que la voz grabada.</description>
+      <content:encoded>&lt;p&gt;Tema 11 de 30: El tiempo (Weather) – 25 frases.&lt;/p&gt;&lt;p&gt;Oyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.&lt;/p&gt;&lt;p&gt;Ejemplos de este episodio:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Tiempo → Weather&lt;/li&gt;&lt;li&gt;Sol → Sun&lt;/li&gt;&lt;li&gt;Lluvia → Rain&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Consejo: vuelve a escuchar hasta que respondas antes que la voz grabada.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:spanish-english:topic-11</guid>
+      <pubDate>Thu, 12 Nov 2026 08:44:24 +0000</pubDate>
+      <itunes:episode>11</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>255</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/spanish-english/audio/practice/11_weather_es_en_double_2026-11-12_09-41-01.mp3" length="6118965" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>12 Estaciones del año — Seasons</title>
+      <description>Tema 12 de 30: Estaciones del año (Seasons) – 18 frases.
+
+Oyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.
+
+Ejemplos de este episodio:
+• Primavera → Spring
+• Verano → Summer
+• Otoño → Autumn
+
+Consejo: vuelve a escuchar hasta que respondas antes que la voz grabada.</description>
+      <content:encoded>&lt;p&gt;Tema 12 de 30: Estaciones del año (Seasons) – 18 frases.&lt;/p&gt;&lt;p&gt;Oyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.&lt;/p&gt;&lt;p&gt;Ejemplos de este episodio:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Primavera → Spring&lt;/li&gt;&lt;li&gt;Verano → Summer&lt;/li&gt;&lt;li&gt;Otoño → Autumn&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Consejo: vuelve a escuchar hasta que respondas antes que la voz grabada.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:spanish-english:topic-12</guid>
+      <pubDate>Thu, 12 Nov 2026 08:44:24 +0000</pubDate>
+      <itunes:episode>12</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>204</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/spanish-english/audio/practice/12_seasons_es_en_double_2026-11-12_09-41-01.mp3" length="4908973" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>13 Días y horas — Days and Time</title>
+      <description>Tema 13 de 30: Días y horas (Days and Time) – 29 frases.
+
+Oyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.
+
+Ejemplos de este episodio:
+• Lunes → Monday
+• Martes → Tuesday
+• Miércoles → Wednesday
+
+Consejo: vuelve a escuchar hasta que respondas antes que la voz grabada.</description>
+      <content:encoded>&lt;p&gt;Tema 13 de 30: Días y horas (Days and Time) – 29 frases.&lt;/p&gt;&lt;p&gt;Oyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.&lt;/p&gt;&lt;p&gt;Ejemplos de este episodio:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Lunes → Monday&lt;/li&gt;&lt;li&gt;Martes → Tuesday&lt;/li&gt;&lt;li&gt;Miércoles → Wednesday&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Consejo: vuelve a escuchar hasta que respondas antes que la voz grabada.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:spanish-english:topic-13</guid>
+      <pubDate>Thu, 12 Nov 2026 08:44:24 +0000</pubDate>
+      <itunes:episode>13</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>308</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/spanish-english/audio/practice/13_days_and_time_es_en_double_2026-11-12_09-41-01.mp3" length="7400428" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>14 Juguetes y juegos — Toys and Play</title>
+      <description>Tema 14 de 30: Juguetes y juegos (Toys and Play) – 34 frases.
+
+Oyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.
+
+Ejemplos de este episodio:
+• Juguete → Toy
+• Pelota → Ball
+• Muñeca → Doll
+
+Consejo: vuelve a escuchar hasta que respondas antes que la voz grabada.</description>
+      <content:encoded>&lt;p&gt;Tema 14 de 30: Juguetes y juegos (Toys and Play) – 34 frases.&lt;/p&gt;&lt;p&gt;Oyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.&lt;/p&gt;&lt;p&gt;Ejemplos de este episodio:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Juguete → Toy&lt;/li&gt;&lt;li&gt;Pelota → Ball&lt;/li&gt;&lt;li&gt;Muñeca → Doll&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Consejo: vuelve a escuchar hasta que respondas antes que la voz grabada.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:spanish-english:topic-14</guid>
+      <pubDate>Thu, 12 Nov 2026 08:44:24 +0000</pubDate>
+      <itunes:episode>14</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>358</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/spanish-english/audio/practice/14_toys_and_play_es_en_double_2026-11-12_09-41-01.mp3" length="8603523" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>15 Deportes y actividades — Sports and Activities</title>
+      <description>Tema 15 de 30: Deportes y actividades (Sports and Activities) – 25 frases.
+
+Oyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.
+
+Ejemplos de este episodio:
+• Fútbol → Football
+• Natación → Swimming
+• Ciclismo → Cycling
+
+Consejo: vuelve a escuchar hasta que respondas antes que la voz grabada.</description>
+      <content:encoded>&lt;p&gt;Tema 15 de 30: Deportes y actividades (Sports and Activities) – 25 frases.&lt;/p&gt;&lt;p&gt;Oyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.&lt;/p&gt;&lt;p&gt;Ejemplos de este episodio:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Fútbol → Football&lt;/li&gt;&lt;li&gt;Natación → Swimming&lt;/li&gt;&lt;li&gt;Ciclismo → Cycling&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Consejo: vuelve a escuchar hasta que respondas antes que la voz grabada.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:spanish-english:topic-15</guid>
+      <pubDate>Thu, 12 Nov 2026 08:44:24 +0000</pubDate>
+      <itunes:episode>15</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>270</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/spanish-english/audio/practice/15_sports_and_activities_es_en_double_2026-11-12_09-41-01.mp3" length="6492621" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>16 Quiero y necesito — I want and I need</title>
+      <description>Tema 16 de 30: Quiero y necesito (I want and I need) – 28 frases.
+
+Oyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.
+
+Ejemplos de este episodio:
+• Quiero salir a la calle. → I want to go outside.
+• Quiero una pelota. → I want a ball.
+• Quiero comer. → I want to eat.
+
+Consejo: vuelve a escuchar hasta que respondas antes que la voz grabada.</description>
+      <content:encoded>&lt;p&gt;Tema 16 de 30: Quiero y necesito (I want and I need) – 28 frases.&lt;/p&gt;&lt;p&gt;Oyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.&lt;/p&gt;&lt;p&gt;Ejemplos de este episodio:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Quiero salir a la calle. → I want to go outside.&lt;/li&gt;&lt;li&gt;Quiero una pelota. → I want a ball.&lt;/li&gt;&lt;li&gt;Quiero comer. → I want to eat.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Consejo: vuelve a escuchar hasta que respondas antes que la voz grabada.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:spanish-english:topic-16</guid>
+      <pubDate>Thu, 12 Nov 2026 08:44:24 +0000</pubDate>
+      <itunes:episode>16</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>316</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/spanish-english/audio/practice/16_i_want_i_need_es_en_double_2026-11-12_09-41-01.mp3" length="7582867" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>17 ¿Dónde está? — Where is it?</title>
+      <description>Tema 17 de 30: ¿Dónde está? (Where is it?) – 28 frases.
+
+Oyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.
+
+Ejemplos de este episodio:
+• ¿Dónde está el osito de peluche? → Where is the teddy bear?
+• ¿Dónde está mi móvil? → Where is my phone?
+• ¿Dónde está mi bolsa? → Where is my bag?
+
+Consejo: vuelve a escuchar hasta que respondas antes que la voz grabada.</description>
+      <content:encoded>&lt;p&gt;Tema 17 de 30: ¿Dónde está? (Where is it?) – 28 frases.&lt;/p&gt;&lt;p&gt;Oyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.&lt;/p&gt;&lt;p&gt;Ejemplos de este episodio:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;¿Dónde está el osito de peluche? → Where is the teddy bear?&lt;/li&gt;&lt;li&gt;¿Dónde está mi móvil? → Where is my phone?&lt;/li&gt;&lt;li&gt;¿Dónde está mi bolsa? → Where is my bag?&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Consejo: vuelve a escuchar hasta que respondas antes que la voz grabada.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:spanish-english:topic-17</guid>
+      <pubDate>Thu, 12 Nov 2026 08:44:24 +0000</pubDate>
+      <itunes:episode>17</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>316</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/spanish-english/audio/practice/17_where_is_es_en_double_2026-11-12_09-41-01.mp3" length="7592898" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>18 Sentimientos y emociones — Feelings and Emotions</title>
+      <description>Tema 18 de 30: Sentimientos y emociones (Feelings and Emotions) – 28 frases.
+
+Oyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.
+
+Ejemplos de este episodio:
+• Contento → Happy
+• Triste → Sad
+• Enfadado → Angry
+
+Consejo: vuelve a escuchar hasta que respondas antes que la voz grabada.</description>
+      <content:encoded>&lt;p&gt;Tema 18 de 30: Sentimientos y emociones (Feelings and Emotions) – 28 frases.&lt;/p&gt;&lt;p&gt;Oyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.&lt;/p&gt;&lt;p&gt;Ejemplos de este episodio:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Contento → Happy&lt;/li&gt;&lt;li&gt;Triste → Sad&lt;/li&gt;&lt;li&gt;Enfadado → Angry&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Consejo: vuelve a escuchar hasta que respondas antes que la voz grabada.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:spanish-english:topic-18</guid>
+      <pubDate>Thu, 12 Nov 2026 08:44:24 +0000</pubDate>
+      <itunes:episode>18</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>301</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/spanish-english/audio/practice/18_feelings_and_emotions_es_en_double_2026-11-12_09-41-01.mp3" length="7225512" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>19 Medios de transporte — Transport</title>
+      <description>Tema 19 de 30: Medios de transporte (Transport) – 25 frases.
+
+Oyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.
+
+Ejemplos de este episodio:
+• Coche → Car
+• Autobús → Bus
+• Tren → Train
+
+Consejo: vuelve a escuchar hasta que respondas antes que la voz grabada.</description>
+      <content:encoded>&lt;p&gt;Tema 19 de 30: Medios de transporte (Transport) – 25 frases.&lt;/p&gt;&lt;p&gt;Oyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.&lt;/p&gt;&lt;p&gt;Ejemplos de este episodio:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Coche → Car&lt;/li&gt;&lt;li&gt;Autobús → Bus&lt;/li&gt;&lt;li&gt;Tren → Train&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Consejo: vuelve a escuchar hasta que respondas antes que la voz grabada.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:spanish-english:topic-19</guid>
+      <pubDate>Thu, 12 Nov 2026 08:44:24 +0000</pubDate>
+      <itunes:episode>19</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>269</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/spanish-english/audio/practice/19_transport_es_en_double_2026-11-12_09-41-01.mp3" length="6450616" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>20 Naturaleza — Nature</title>
+      <description>Tema 20 de 30: Naturaleza (Nature) – 27 frases.
+
+Oyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.
+
+Ejemplos de este episodio:
+• Bosque → Forest
+• Mar → Sea
+• Lago → Lake
+
+Consejo: vuelve a escuchar hasta que respondas antes que la voz grabada.</description>
+      <content:encoded>&lt;p&gt;Tema 20 de 30: Naturaleza (Nature) – 27 frases.&lt;/p&gt;&lt;p&gt;Oyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.&lt;/p&gt;&lt;p&gt;Ejemplos de este episodio:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Bosque → Forest&lt;/li&gt;&lt;li&gt;Mar → Sea&lt;/li&gt;&lt;li&gt;Lago → Lake&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Consejo: vuelve a escuchar hasta que respondas antes que la voz grabada.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:spanish-english:topic-20</guid>
+      <pubDate>Thu, 12 Nov 2026 08:44:24 +0000</pubDate>
+      <itunes:episode>20</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>275</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/spanish-english/audio/practice/20_nature_es_en_double_2026-11-12_09-41-01.mp3" length="6589796" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>21 Fiestas y celebraciones — Holidays and Celebrations</title>
+      <description>Tema 21 de 30: Fiestas y celebraciones (Holidays and Celebrations) – 23 frases.
+
+Oyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.
+
+Ejemplos de este episodio:
+• Cumpleaños → Birthday
+• ¡Feliz cumpleaños! → Happy birthday!
+• Navidad → Christmas
+
+Consejo: vuelve a escuchar hasta que respondas antes que la voz grabada.</description>
+      <content:encoded>&lt;p&gt;Tema 21 de 30: Fiestas y celebraciones (Holidays and Celebrations) – 23 frases.&lt;/p&gt;&lt;p&gt;Oyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.&lt;/p&gt;&lt;p&gt;Ejemplos de este episodio:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Cumpleaños → Birthday&lt;/li&gt;&lt;li&gt;¡Feliz cumpleaños! → Happy birthday!&lt;/li&gt;&lt;li&gt;Navidad → Christmas&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Consejo: vuelve a escuchar hasta que respondas antes que la voz grabada.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:spanish-english:topic-21</guid>
+      <pubDate>Thu, 12 Nov 2026 08:44:24 +0000</pubDate>
+      <itunes:episode>21</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>254</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/spanish-english/audio/practice/21_holidays_and_celebrations_es_en_double_2026-11-12_09-41-01.mp3" length="6097022" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>22 Rutina diaria — Daily Routine</title>
+      <description>Tema 22 de 30: Rutina diaria (Daily Routine) – 28 frases.
+
+Oyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.
+
+Ejemplos de este episodio:
+• Despertarse → Wake up
+• Levantarse → Get up
+• Lavarse los dientes → Brush your teeth
+
+Consejo: vuelve a escuchar hasta que respondas antes que la voz grabada.</description>
+      <content:encoded>&lt;p&gt;Tema 22 de 30: Rutina diaria (Daily Routine) – 28 frases.&lt;/p&gt;&lt;p&gt;Oyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.&lt;/p&gt;&lt;p&gt;Ejemplos de este episodio:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Despertarse → Wake up&lt;/li&gt;&lt;li&gt;Levantarse → Get up&lt;/li&gt;&lt;li&gt;Lavarse los dientes → Brush your teeth&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Consejo: vuelve a escuchar hasta que respondas antes que la voz grabada.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:spanish-english:topic-22</guid>
+      <pubDate>Thu, 12 Nov 2026 08:44:24 +0000</pubDate>
+      <itunes:episode>22</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>320</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/spanish-english/audio/practice/22_daily_routine_es_en_double_2026-11-12_09-41-01.mp3" length="7682550" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>23 Preguntas y peticiones — Asking and Requests</title>
+      <description>Tema 23 de 30: Preguntas y peticiones (Asking and Requests) – 26 frases.
+
+Oyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.
+
+Ejemplos de este episodio:
+• ¿Puedes ayudarme? → Can you help me?
+• ¡Socorro! → Help!
+• ¡Por favor! → Please!
+
+Consejo: vuelve a escuchar hasta que respondas antes que la voz grabada.</description>
+      <content:encoded>&lt;p&gt;Tema 23 de 30: Preguntas y peticiones (Asking and Requests) – 26 frases.&lt;/p&gt;&lt;p&gt;Oyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.&lt;/p&gt;&lt;p&gt;Ejemplos de este episodio:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;¿Puedes ayudarme? → Can you help me?&lt;/li&gt;&lt;li&gt;¡Socorro! → Help!&lt;/li&gt;&lt;li&gt;¡Por favor! → Please!&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Consejo: vuelve a escuchar hasta que respondas antes que la voz grabada.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:spanish-english:topic-23</guid>
+      <pubDate>Thu, 12 Nov 2026 08:44:24 +0000</pubDate>
+      <itunes:episode>23</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>269</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/spanish-english/audio/practice/23_asking_and_requests_es_en_double_2026-11-12_09-41-01.mp3" length="6447481" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>24 Contrarios — Opposites</title>
+      <description>Tema 24 de 30: Contrarios (Opposites) – 28 frases.
+
+Oyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.
+
+Ejemplos de este episodio:
+• Grande → Big
+• Pequeño → Small
+• Largo → Long
+
+Consejo: vuelve a escuchar hasta que respondas antes que la voz grabada.</description>
+      <content:encoded>&lt;p&gt;Tema 24 de 30: Contrarios (Opposites) – 28 frases.&lt;/p&gt;&lt;p&gt;Oyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.&lt;/p&gt;&lt;p&gt;Ejemplos de este episodio:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Grande → Big&lt;/li&gt;&lt;li&gt;Pequeño → Small&lt;/li&gt;&lt;li&gt;Largo → Long&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Consejo: vuelve a escuchar hasta que respondas antes que la voz grabada.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:spanish-english:topic-24</guid>
+      <pubDate>Thu, 12 Nov 2026 08:44:24 +0000</pubDate>
+      <itunes:episode>24</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>281</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/spanish-english/audio/practice/24_opposites_es_en_double_2026-11-12_09-41-01.mp3" length="6757189" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>25 Acciones y verbos — Actions and Verbs</title>
+      <description>Tema 25 de 30: Acciones y verbos (Actions and Verbs) – 41 frases.
+
+Oyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.
+
+Ejemplos de este episodio:
+• Andar → Walk
+• Correr → Run
+• Saltar → Jump
+
+Consejo: vuelve a escuchar hasta que respondas antes que la voz grabada.</description>
+      <content:encoded>&lt;p&gt;Tema 25 de 30: Acciones y verbos (Actions and Verbs) – 41 frases.&lt;/p&gt;&lt;p&gt;Oyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.&lt;/p&gt;&lt;p&gt;Ejemplos de este episodio:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Andar → Walk&lt;/li&gt;&lt;li&gt;Correr → Run&lt;/li&gt;&lt;li&gt;Saltar → Jump&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Consejo: vuelve a escuchar hasta que respondas antes que la voz grabada.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:spanish-english:topic-25</guid>
+      <pubDate>Thu, 12 Nov 2026 08:44:24 +0000</pubDate>
+      <itunes:episode>25</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>410</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/spanish-english/audio/practice/25_actions_and_verbs_es_en_double_2026-11-12_09-41-01.mp3" length="9837339" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>26 Lugares de la ciudad — Places in Town</title>
+      <description>Tema 26 de 30: Lugares de la ciudad (Places in Town) – 23 frases.
+
+Oyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.
+
+Ejemplos de este episodio:
+• Parque → Park
+• Parque infantil → Playground
+• Tienda → Shop
+
+Consejo: vuelve a escuchar hasta que respondas antes que la voz grabada.</description>
+      <content:encoded>&lt;p&gt;Tema 26 de 30: Lugares de la ciudad (Places in Town) – 23 frases.&lt;/p&gt;&lt;p&gt;Oyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.&lt;/p&gt;&lt;p&gt;Ejemplos de este episodio:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Parque → Park&lt;/li&gt;&lt;li&gt;Parque infantil → Playground&lt;/li&gt;&lt;li&gt;Tienda → Shop&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Consejo: vuelve a escuchar hasta que respondas antes que la voz grabada.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:spanish-english:topic-26</guid>
+      <pubDate>Thu, 12 Nov 2026 08:44:24 +0000</pubDate>
+      <itunes:episode>26</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>251</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/spanish-english/audio/practice/26_places_in_town_es_en_double_2026-11-12_09-41-01.mp3" length="6022416" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>27 Tecnología — Technology</title>
+      <description>Tema 27 de 30: Tecnología (Technology) – 22 frases.
+
+Oyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.
+
+Ejemplos de este episodio:
+• Teléfono → Phone
+• Teléfono móvil → Mobile phone
+• Ordenador → Computer
+
+Consejo: vuelve a escuchar hasta que respondas antes que la voz grabada.</description>
+      <content:encoded>&lt;p&gt;Tema 27 de 30: Tecnología (Technology) – 22 frases.&lt;/p&gt;&lt;p&gt;Oyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.&lt;/p&gt;&lt;p&gt;Ejemplos de este episodio:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Teléfono → Phone&lt;/li&gt;&lt;li&gt;Teléfono móvil → Mobile phone&lt;/li&gt;&lt;li&gt;Ordenador → Computer&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Consejo: vuelve a escuchar hasta que respondas antes que la voz grabada.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:spanish-english:topic-27</guid>
+      <pubDate>Thu, 12 Nov 2026 08:44:24 +0000</pubDate>
+      <itunes:episode>27</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>238</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/spanish-english/audio/practice/27_technology_es_en_double_2026-11-12_09-41-01.mp3" length="5723367" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>28 Música y arte — Music and Art</title>
+      <description>Tema 28 de 30: Música y arte (Music and Art) – 23 frases.
+
+Oyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.
+
+Ejemplos de este episodio:
+• Música → Music
+• Canción → Song
+• Baile → Dancing
+
+Consejo: vuelve a escuchar hasta que respondas antes que la voz grabada.</description>
+      <content:encoded>&lt;p&gt;Tema 28 de 30: Música y arte (Music and Art) – 23 frases.&lt;/p&gt;&lt;p&gt;Oyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.&lt;/p&gt;&lt;p&gt;Ejemplos de este episodio:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Música → Music&lt;/li&gt;&lt;li&gt;Canción → Song&lt;/li&gt;&lt;li&gt;Baile → Dancing&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Consejo: vuelve a escuchar hasta que respondas antes que la voz grabada.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:spanish-english:topic-28</guid>
+      <pubDate>Thu, 12 Nov 2026 08:44:24 +0000</pubDate>
+      <itunes:episode>28</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>245</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/spanish-english/audio/practice/28_music_and_art_es_en_double_2026-11-12_09-41-01.mp3" length="5874459" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>29 Expresiones de cortesía — Polite Phrases</title>
+      <description>Tema 29 de 30: Expresiones de cortesía (Polite Phrases) – 17 frases.
+
+Oyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.
+
+Ejemplos de este episodio:
+• Por favor. → Please.
+• ¡Gracias! → Thank you!
+• ¡Muchas gracias! → Thank you very much!
+
+Consejo: vuelve a escuchar hasta que respondas antes que la voz grabada.</description>
+      <content:encoded>&lt;p&gt;Tema 29 de 30: Expresiones de cortesía (Polite Phrases) – 17 frases.&lt;/p&gt;&lt;p&gt;Oyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.&lt;/p&gt;&lt;p&gt;Ejemplos de este episodio:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Por favor. → Please.&lt;/li&gt;&lt;li&gt;¡Gracias! → Thank you!&lt;/li&gt;&lt;li&gt;¡Muchas gracias! → Thank you very much!&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Consejo: vuelve a escuchar hasta que respondas antes que la voz grabada.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:spanish-english:topic-29</guid>
+      <pubDate>Thu, 12 Nov 2026 08:44:24 +0000</pubDate>
+      <itunes:episode>29</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>175</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/spanish-english/audio/practice/29_polite_phrases_es_en_double_2026-11-12_09-41-01.mp3" length="4193009" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>30 Repaso — Review and Recap</title>
+      <description>Tema 30 de 30: Repaso (Review and Recap) – 11 frases.
+
+Oyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.
+
+Ejemplos de este episodio:
+• ¡Bien hecho! → Well done!
+• ¡Estás aprendiendo un idioma nuevo! → You are learning a new language!
+• ¡Vamos a practicar! → Let's practise!
+
+Consejo: vuelve a escuchar hasta que respondas antes que la voz grabada.</description>
+      <content:encoded>&lt;p&gt;Tema 30 de 30: Repaso (Review and Recap) – 11 frases.&lt;/p&gt;&lt;p&gt;Oyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.&lt;/p&gt;&lt;p&gt;Ejemplos de este episodio:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;¡Bien hecho! → Well done!&lt;/li&gt;&lt;li&gt;¡Estás aprendiendo un idioma nuevo! → You are learning a new language!&lt;/li&gt;&lt;li&gt;¡Vamos a practicar! → Let&amp;#x27;s practise!&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Consejo: vuelve a escuchar hasta que respondas antes que la voz grabada.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:spanish-english:topic-30</guid>
+      <pubDate>Thu, 12 Nov 2026 08:44:24 +0000</pubDate>
+      <itunes:episode>30</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>126</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/spanish-english/audio/practice/30_review_and_recap_es_en_double_2026-11-12_09-41-01.mp3" length="3035680" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>01 La radio mágica: La mesa vieja — The Old Table</title>
+      <description>Capítulo 1 de 8 del cuento «La radio mágica» (The Magical Radio). Dos hermanos encuentran una vieja radio de madera en un mercadillo. De repente, la radio zumba y aparece un mensaje dorado dirigido a ellos.
+
+Cómo es el episodio:
+1. Escucha el capítulo completo en inglés. No hace falta entenderlo todo.
+2. Practica palabras y expresiones del capítulo: una pista en español, una pausa y la respuesta en inglés.
+3. Vuelve a escuchar el capítulo y comprueba cuánto entiendes.
+
+Una señal sonora separa las partes. Escucha en orden, empezando por el capítulo 1.</description>
+      <content:encoded>&lt;p&gt;Capítulo 1 de 8 del cuento «La radio mágica» (The Magical Radio). Dos hermanos encuentran una vieja radio de madera en un mercadillo. De repente, la radio zumba y aparece un mensaje dorado dirigido a ellos.&lt;/p&gt;&lt;p&gt;Cómo es el episodio:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Escucha el capítulo completo en inglés. No hace falta entenderlo todo.&lt;/li&gt;&lt;li&gt;Practica palabras y expresiones del capítulo: una pista en español, una pausa y la respuesta en inglés.&lt;/li&gt;&lt;li&gt;Vuelve a escuchar el capítulo y comprueba cuánto entiendes.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;Una señal sonora separa las partes. Escucha en orden, empezando por el capítulo 1.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">magical_radio:es:en:chapter-01</guid>
+      <pubDate>Thu, 12 Nov 2026 08:45:16 +0000</pubDate>
+      <itunes:episode>1</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>301</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://repeto.stream/spanish-english/images/stories/magical_radio/cover-447076a6.jpeg" />
+      <enclosure url="https://repeto.stream/spanish-english/audio/stories/magical_radio/01_chapter_01_es_en_2026-11-12_09-44-33.mp3" length="7214227" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>02 La radio mágica: Una voz en la radio — A Voice from the Radio</title>
+      <description>Capítulo 2 de 8 del cuento «La radio mágica» (The Magical Radio). En casa, los niños pulsan el botón azul. De la radio sale una nubecita que huele a canela y una voz alegre les habla de un ratón que tiene una llave importante.
+
+Cómo es el episodio:
+1. Escucha el capítulo completo en inglés. No hace falta entenderlo todo.
+2. Practica palabras y expresiones del capítulo: una pista en español, una pausa y la respuesta en inglés.
+3. Vuelve a escuchar el capítulo y comprueba cuánto entiendes.
+
+Una señal sonora separa las partes. Escucha en orden, empezando por el capítulo 1.</description>
+      <content:encoded>&lt;p&gt;Capítulo 2 de 8 del cuento «La radio mágica» (The Magical Radio). En casa, los niños pulsan el botón azul. De la radio sale una nubecita que huele a canela y una voz alegre les habla de un ratón que tiene una llave importante.&lt;/p&gt;&lt;p&gt;Cómo es el episodio:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Escucha el capítulo completo en inglés. No hace falta entenderlo todo.&lt;/li&gt;&lt;li&gt;Practica palabras y expresiones del capítulo: una pista en español, una pausa y la respuesta en inglés.&lt;/li&gt;&lt;li&gt;Vuelve a escuchar el capítulo y comprueba cuánto entiendes.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;Una señal sonora separa las partes. Escucha en orden, empezando por el capítulo 1.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">magical_radio:es:en:chapter-02</guid>
+      <pubDate>Thu, 12 Nov 2026 08:45:16 +0000</pubDate>
+      <itunes:episode>2</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>266</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://repeto.stream/spanish-english/images/stories/magical_radio/cover-447076a6.jpeg" />
+      <enclosure url="https://repeto.stream/spanish-english/audio/stories/magical_radio/02_chapter_02_es_en_2026-11-12_09-44-33.mp3" length="6392310" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>03 La radio mágica: Un ratón debajo del árbol — A Mouse under the Tree</title>
+      <description>Capítulo 3 de 8 del cuento «La radio mágica» (The Magical Radio). Con una linterna, queso y la radio, los hermanos se acercan al árbol viejo. Un ratoncito les da una llave a cambio del queso y entre las raíces descubren una puerta pequeña.
+
+Cómo es el episodio:
+1. Escucha el capítulo completo en inglés. No hace falta entenderlo todo.
+2. Practica palabras y expresiones del capítulo: una pista en español, una pausa y la respuesta en inglés.
+3. Vuelve a escuchar el capítulo y comprueba cuánto entiendes.
+
+Una señal sonora separa las partes. Escucha en orden, empezando por el capítulo 1.</description>
+      <content:encoded>&lt;p&gt;Capítulo 3 de 8 del cuento «La radio mágica» (The Magical Radio). Con una linterna, queso y la radio, los hermanos se acercan al árbol viejo. Un ratoncito les da una llave a cambio del queso y entre las raíces descubren una puerta pequeña.&lt;/p&gt;&lt;p&gt;Cómo es el episodio:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Escucha el capítulo completo en inglés. No hace falta entenderlo todo.&lt;/li&gt;&lt;li&gt;Practica palabras y expresiones del capítulo: una pista en español, una pausa y la respuesta en inglés.&lt;/li&gt;&lt;li&gt;Vuelve a escuchar el capítulo y comprueba cuánto entiendes.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;Una señal sonora separa las partes. Escucha en orden, empezando por el capítulo 1.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">magical_radio:es:en:chapter-03</guid>
+      <pubDate>Thu, 12 Nov 2026 08:45:16 +0000</pubDate>
+      <itunes:episode>3</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>344</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://repeto.stream/spanish-english/images/stories/magical_radio/cover-447076a6.jpeg" />
+      <enclosure url="https://repeto.stream/spanish-english/audio/stories/magical_radio/03_chapter_03_es_en_2026-11-12_09-44-33.mp3" length="8266857" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>04 La radio mágica: Escaleras abajo — Down the Stairs</title>
+      <description>Capítulo 4 de 8 del cuento «La radio mágica» (The Magical Radio). La llave de plata abre la puerta. Unas escaleras de piedra conducen a una biblioteca con libros voladores y flores luminosas en las paredes.
+
+Cómo es el episodio:
+1. Escucha el capítulo completo en inglés. No hace falta entenderlo todo.
+2. Practica palabras y expresiones del capítulo: una pista en español, una pausa y la respuesta en inglés.
+3. Vuelve a escuchar el capítulo y comprueba cuánto entiendes.
+
+Una señal sonora separa las partes. Escucha en orden, empezando por el capítulo 1.</description>
+      <content:encoded>&lt;p&gt;Capítulo 4 de 8 del cuento «La radio mágica» (The Magical Radio). La llave de plata abre la puerta. Unas escaleras de piedra conducen a una biblioteca con libros voladores y flores luminosas en las paredes.&lt;/p&gt;&lt;p&gt;Cómo es el episodio:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Escucha el capítulo completo en inglés. No hace falta entenderlo todo.&lt;/li&gt;&lt;li&gt;Practica palabras y expresiones del capítulo: una pista en español, una pausa y la respuesta en inglés.&lt;/li&gt;&lt;li&gt;Vuelve a escuchar el capítulo y comprueba cuánto entiendes.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;Una señal sonora separa las partes. Escucha en orden, empezando por el capítulo 1.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">magical_radio:es:en:chapter-04</guid>
+      <pubDate>Thu, 12 Nov 2026 08:45:16 +0000</pubDate>
+      <itunes:episode>4</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>271</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://repeto.stream/spanish-english/images/stories/magical_radio/cover-447076a6.jpeg" />
+      <enclosure url="https://repeto.stream/spanish-english/audio/stories/magical_radio/04_chapter_04_es_en_2026-11-12_09-44-33.mp3" length="6497009" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>05 La radio mágica: El libro volador — The Flying Book</title>
+      <description>Capítulo 5 de 8 del cuento «La radio mágica» (The Magical Radio). Un libro dorado aterriza en el hombro de la niña y la radio revela un hechizo que arregla las cosas rotas.
+
+Cómo es el episodio:
+1. Escucha el capítulo completo en inglés. No hace falta entenderlo todo.
+2. Practica palabras y expresiones del capítulo: una pista en español, una pausa y la respuesta en inglés.
+3. Vuelve a escuchar el capítulo y comprueba cuánto entiendes.
+
+Una señal sonora separa las partes. Escucha en orden, empezando por el capítulo 1.</description>
+      <content:encoded>&lt;p&gt;Capítulo 5 de 8 del cuento «La radio mágica» (The Magical Radio). Un libro dorado aterriza en el hombro de la niña y la radio revela un hechizo que arregla las cosas rotas.&lt;/p&gt;&lt;p&gt;Cómo es el episodio:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Escucha el capítulo completo en inglés. No hace falta entenderlo todo.&lt;/li&gt;&lt;li&gt;Practica palabras y expresiones del capítulo: una pista en español, una pausa y la respuesta en inglés.&lt;/li&gt;&lt;li&gt;Vuelve a escuchar el capítulo y comprueba cuánto entiendes.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;Una señal sonora separa las partes. Escucha en orden, empezando por el capítulo 1.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">magical_radio:es:en:chapter-05</guid>
+      <pubDate>Thu, 12 Nov 2026 08:45:16 +0000</pubDate>
+      <itunes:episode>5</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>263</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://repeto.stream/spanish-english/images/stories/magical_radio/cover-447076a6.jpeg" />
+      <enclosure url="https://repeto.stream/spanish-english/audio/stories/magical_radio/05_chapter_05_es_en_2026-11-12_09-44-33.mp3" length="6324601" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>06 La radio mágica: El primer hechizo — The First Spell</title>
+      <description>Capítulo 6 de 8 del cuento «La radio mágica» (The Magical Radio). Es hora de probar el hechizo en una brújula rota. ¿Funcionará? ¿Y quién espera detrás de la puerta verde?
+
+Cómo es el episodio:
+1. Escucha el capítulo completo en inglés. No hace falta entenderlo todo.
+2. Practica palabras y expresiones del capítulo: una pista en español, una pausa y la respuesta en inglés.
+3. Vuelve a escuchar el capítulo y comprueba cuánto entiendes.
+
+Una señal sonora separa las partes. Escucha en orden, empezando por el capítulo 1.</description>
+      <content:encoded>&lt;p&gt;Capítulo 6 de 8 del cuento «La radio mágica» (The Magical Radio). Es hora de probar el hechizo en una brújula rota. ¿Funcionará? ¿Y quién espera detrás de la puerta verde?&lt;/p&gt;&lt;p&gt;Cómo es el episodio:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Escucha el capítulo completo en inglés. No hace falta entenderlo todo.&lt;/li&gt;&lt;li&gt;Practica palabras y expresiones del capítulo: una pista en español, una pausa y la respuesta en inglés.&lt;/li&gt;&lt;li&gt;Vuelve a escuchar el capítulo y comprueba cuánto entiendes.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;Una señal sonora separa las partes. Escucha en orden, empezando por el capítulo 1.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">magical_radio:es:en:chapter-06</guid>
+      <pubDate>Thu, 12 Nov 2026 08:45:16 +0000</pubDate>
+      <itunes:episode>6</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>209</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://repeto.stream/spanish-english/images/stories/magical_radio/cover-447076a6.jpeg" />
+      <enclosure url="https://repeto.stream/spanish-english/audio/stories/magical_radio/06_chapter_06_es_en_2026-11-12_09-44-33.mp3" length="5017434" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>07 La radio mágica: El pájaro dorado — The Golden Bird</title>
+      <description>Capítulo 7 de 8 del cuento «La radio mágica» (The Magical Radio). Detrás de la puerta hay un jardín subterráneo. Un pájaro dorado hace tictac como un reloj en lugar de cantar; le falta una piedrecita en un ala y la radio guarda un secreto.
+
+Cómo es el episodio:
+1. Escucha el capítulo completo en inglés. No hace falta entenderlo todo.
+2. Practica palabras y expresiones del capítulo: una pista en español, una pausa y la respuesta en inglés.
+3. Vuelve a escuchar el capítulo y comprueba cuánto entiendes.
+
+Una señal sonora separa las partes. Escucha en orden, empezando por el capítulo 1.</description>
+      <content:encoded>&lt;p&gt;Capítulo 7 de 8 del cuento «La radio mágica» (The Magical Radio). Detrás de la puerta hay un jardín subterráneo. Un pájaro dorado hace tictac como un reloj en lugar de cantar; le falta una piedrecita en un ala y la radio guarda un secreto.&lt;/p&gt;&lt;p&gt;Cómo es el episodio:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Escucha el capítulo completo en inglés. No hace falta entenderlo todo.&lt;/li&gt;&lt;li&gt;Practica palabras y expresiones del capítulo: una pista en español, una pausa y la respuesta en inglés.&lt;/li&gt;&lt;li&gt;Vuelve a escuchar el capítulo y comprueba cuánto entiendes.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;Una señal sonora separa las partes. Escucha en orden, empezando por el capítulo 1.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">magical_radio:es:en:chapter-07</guid>
+      <pubDate>Thu, 12 Nov 2026 08:45:16 +0000</pubDate>
+      <itunes:episode>7</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>335</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://repeto.stream/spanish-english/images/stories/magical_radio/cover-447076a6.jpeg" />
+      <enclosure url="https://repeto.stream/spanish-english/audio/stories/magical_radio/07_chapter_07_es_en_2026-11-12_09-44-33.mp3" length="8038652" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>08 La radio mágica: El gran concierto — The Grand Concert</title>
+      <description>Capítulo 8 de 8 del cuento «La radio mágica» (The Magical Radio). ¡El final! ¿Conseguirán los hermanos arreglar al pájaro dorado? La historia termina con cantos, mariposas que bailan y la promesa de una nueva aventura.
+
+Cómo es el episodio:
+1. Escucha el capítulo completo en inglés. No hace falta entenderlo todo.
+2. Practica palabras y expresiones del capítulo: una pista en español, una pausa y la respuesta en inglés.
+3. Vuelve a escuchar el capítulo y comprueba cuánto entiendes.
+
+Una señal sonora separa las partes. Escucha en orden, empezando por el capítulo 1.</description>
+      <content:encoded>&lt;p&gt;Capítulo 8 de 8 del cuento «La radio mágica» (The Magical Radio). ¡El final! ¿Conseguirán los hermanos arreglar al pájaro dorado? La historia termina con cantos, mariposas que bailan y la promesa de una nueva aventura.&lt;/p&gt;&lt;p&gt;Cómo es el episodio:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Escucha el capítulo completo en inglés. No hace falta entenderlo todo.&lt;/li&gt;&lt;li&gt;Practica palabras y expresiones del capítulo: una pista en español, una pausa y la respuesta en inglés.&lt;/li&gt;&lt;li&gt;Vuelve a escuchar el capítulo y comprueba cuánto entiendes.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;Una señal sonora separa las partes. Escucha en orden, empezando por el capítulo 1.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">magical_radio:es:en:chapter-08</guid>
+      <pubDate>Thu, 12 Nov 2026 08:45:16 +0000</pubDate>
+      <itunes:episode>8</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>220</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://repeto.stream/spanish-english/images/stories/magical_radio/cover-447076a6.jpeg" />
+      <enclosure url="https://repeto.stream/spanish-english/audio/stories/magical_radio/08_chapter_08_es_en_2026-11-12_09-44-33.mp3" length="5276986" type="audio/mpeg" />
+    </item>
+  </channel>
+</rss>

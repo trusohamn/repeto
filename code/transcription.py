@@ -20,10 +20,12 @@ from pydub.effects import compress_dynamic_range
 from pydub.silence import detect_nonsilent
 
 ROOT = Path(__file__).resolve().parent.parent
-Language = Literal["se", "en", "pl", "ru", "es"]
+Language = Literal["se", "en", "pl", "ru", "es", "de", "fr"]
 Engine = Literal["azure", "edge"]
 ENGINES: tuple[Engine, ...] = ("azure", "edge")
-LANGUAGES: tuple[Language, ...] = ("se", "pl", "en", "ru", "es")
+LANGUAGES: tuple[Language, ...] = ("se", "pl", "en", "ru", "es", "de", "fr")
+# Languages added after the original corpus; entries may omit them.
+OPTIONAL_LANGUAGES: tuple[Language, ...] = ("es", "de", "fr")
 TARGETS: tuple[Language, ...] = ("pl", "en", "ru")
 VOICES = {
     "se": "sv-SE-SofieNeural",
@@ -31,13 +33,19 @@ VOICES = {
     "pl": "pl-PL-ZofiaNeural",
     "ru": "ru-RU-SvetlanaNeural",
     "es": "es-ES-ElviraNeural",
+    "de": "de-DE-KatjaNeural",
+    "fr": "fr-FR-DeniseNeural",
 }
-RATES = {"se": "-5%", "en": "-5%", "pl": "-15%", "ru": "-15%", "es": "-15%"}
+RATES = {
+    "se": "-5%", "en": "-5%", "pl": "-15%", "ru": "-15%", "es": "-15%",
+    "de": "-15%", "fr": "-15%",
+}
 SAMPLE_RATE = 44100
 LEAD_IN_MS = 1000
 THINKING_MS = 2000
 REPETITION_MS = 2500
 VOICE_DBFS = -20.0
+MAX_LOUDNESS_SHORTFALL_DB = 3.0
 TTS_ATTEMPTS = 3
 AZURE_ATTEMPTS = 6
 LOGGER = logging.getLogger(__name__)
@@ -54,6 +62,8 @@ class RequiredEntry(TypedDict):
 
 class Entry(RequiredEntry, total=False):
     es: str
+    de: str
+    fr: str
 
 
 class Segment(TypedDict):
@@ -75,6 +85,8 @@ class TimedEntry(EntryTiming, total=False):
     en: Segment
     ru: Segment
     es: Segment
+    de: Segment
+    fr: Segment
 
 
 class Manifest(TypedDict):
@@ -97,7 +109,9 @@ def load_topics(path: Path) -> dict[str, list[Entry]]:
     for index, entry in enumerate(data):
         if not isinstance(entry, dict):
             raise ValueError(f"Entry {index + 1} must be an object.")
-        languages = tuple(lang for lang in LANGUAGES if lang != "es" or "es" in entry)
+        languages = tuple(
+            lang for lang in LANGUAGES if lang not in OPTIONAL_LANGUAGES or lang in entry
+        )
         for key in ("id", "topic", *languages):
             value = entry.get(key)
             if not isinstance(value, str) or not value.strip() or value != value.strip():
@@ -111,8 +125,9 @@ def load_topics(path: Path) -> dict[str, list[Entry]]:
             id=entry["id"], topic=entry["topic"],
             se=entry["se"], en=entry["en"], pl=entry["pl"], ru=entry["ru"],
         )
-        if "es" in entry:
-            validated["es"] = entry["es"]
+        for lang in OPTIONAL_LANGUAGES:
+            if lang in entry:
+                validated[lang] = entry[lang]
         topics.setdefault(validated["topic"], []).append(validated)
     return topics
 
@@ -261,10 +276,8 @@ def silence(duration_ms: int) -> AudioSegment:
 
 
 def entry_text(item: Entry, language: Language) -> str:
-    if language == "es":
-        if "es" not in item:
-            raise ValueError(f"{item['id']}: missing es translation.")
-        return item["es"]
+    if language in OPTIONAL_LANGUAGES and language not in item:
+        raise ValueError(f"{item['id']}: missing {language} translation.")
     return item[language]
 
 
@@ -286,6 +299,7 @@ def prepare_clip(audio: AudioSegment, context: str) -> AudioSegment:
     audio = aligned
     if len(audio) == 0 or audio.rms == 0:
         raise ValueError(f"Empty or silent speech clip: {context}")
+    original = audio
     gain = VOICE_DBFS - audio.dBFS
     if audio.max_dBFS + gain > -1.0:
         LOGGER.warning(
@@ -299,10 +313,21 @@ def prepare_clip(audio: AudioSegment, context: str) -> AudioSegment:
             if audio.max_dBFS + gain <= -1.0:
                 break
         else:
-            raise ValueError(
-                f"Cannot normalize {context} to {VOICE_DBFS} dBFS without exceeding "
-                "-1 dBFS peak headroom, even after compression. Check or regenerate this clip."
+            # Very short words with one loud vowel cannot reach the RMS target;
+            # accept a slightly quieter clip rather than clipping it.
+            audio = original
+            gain = VOICE_DBFS - audio.dBFS
+            safe_gain = -1.0 - audio.max_dBFS
+            if gain - safe_gain > MAX_LOUDNESS_SHORTFALL_DB:
+                raise ValueError(
+                    f"Cannot normalize {context} to {VOICE_DBFS} dBFS without exceeding "
+                    "-1 dBFS peak headroom, even after compression. Check or regenerate this clip."
+                )
+            LOGGER.warning(
+                "Normalizing %s %.1f dB below target to keep peak headroom", context,
+                gain - safe_gain,
             )
+            gain = safe_gain
     return audio.apply_gain(gain)
 
 
@@ -498,7 +523,7 @@ def main() -> None:
     )
     parser.add_argument(
         "--target", choices=LANGUAGES, nargs="+", metavar="LANG",
-        help="One or more answer languages (default: se, pl, en, ru except the source; select es explicitly).",
+        help="One or more answer languages (default: se, pl, en, ru except the source; select es, de or fr explicitly).",
     )
     parser.add_argument(
         "--max-duration", type=float, metavar="SECONDS",

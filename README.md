@@ -39,8 +39,11 @@ The commands below use macOS/Linux paths. On Windows, use
 - [Topic titles](courses/practice/topics.json): localized practice headings.
 - [Stories](courses/stories/): chapter texts, vocabulary, and narration settings.
 
-Supported language codes are `en`, `pl`, `ru`, `es` (Spain Spanish), and
+Supported language codes are `en`, `pl`, `ru`, `es` (Spain Spanish),
+`de` (Germany German), `fr` (France French), and
 Swedish: **`se` for practice, `sv` for stories and podcast catalogs**.
+Prompt (source) languages are Swedish, Polish, English, Russian and Spanish;
+German and French are currently target languages only.
 Source means the listener's prompt language; target means the language learned.
 Always select the target explicitly, especially Spanish.
 

@@ -100,6 +100,12 @@ podcast/<slug>/
   `Repeto – Я учу испанский`. Check Russian count forms, including
   `21 фраза`, `22 фразы`, `25 фраз` and `11 фраз`; Polish count rules
   differ for numbers ending in one.
+- Spanish-source courses use `--source es` and `--source-language es`,
+  Spanish descriptions, `summary.es` teasers, page labels and season names
+  `Práctica` / `La radio mágica`; English-target title `Repeto – Aprendo inglés`.
+- German (`de`, `de-DE-KatjaNeural`) and French (`fr`, `fr-FR-DeniseNeural`)
+  are target-only languages; add their names to every source's description
+  maps before packaging a new direction.
 - Use bilingual episode titles, source first, without a numeric prefix:
   `Hälsningar — Greetings`. `code/podcast.py` adds the number.
 - Use season 1 and episodes 1 through the current topic count for a new course.

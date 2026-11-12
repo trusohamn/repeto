@@ -1,0 +1,868 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Repeto – I learn Spanish</title>
+    <link>https://repeto.stream/english-spanish/</link>
+    <description>Learn Spanish by listening and speaking, with English prompts to guide you. Repeto is an audio course for beginners of all ages: children, parents, grandparents and anyone who wants to start learning Spanish. No previous knowledge or textbook is needed.
+
+How it works: you hear a word or sentence in English, then have a pause to say it in Spanish. Next, you hear the answer twice, with time to repeat it and practise the pronunciation.
+
+What's included:
+• Season 1 – Practice: 30 short topics, from greetings and numbers to food, feelings and everyday situations.
+• Season 2 – Story: "The Magical Radio" (La radio mágica), one chapter per episode. Listen to the chapter in Spanish, practise its vocabulary, then listen to the chapter again.
+• More stories are on the way. Follow the podcast to hear new episodes.
+
+How to use the course:
+• Start with season 1, episode 1 and listen in order.
+• Answer out loud during each pause. Try to recall the words yourself.
+• Replay an episode until you can answer before the recorded voice.
+• Listening in the background can help you get used to the sounds and rhythm of the language. Practise actively too, by repeating and answering during the pauses.
+
+Enjoy this format? Repeto is also available in other languages, with the same familiar structure. Search for Repeto in your podcast app.
+
+Get in touch! Suggestions for new languages, corrections and story ideas are welcome: repeto.lingo@gmail.com
+
+Voices are AI-generated (Microsoft Azure).</description>
+    <language>en</language>
+    <itunes:author>Repeto</itunes:author>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:type>serial</itunes:type>
+    <itunes:owner>
+      <itunes:name>Repeto</itunes:name>
+      <itunes:email>repeto.lingo@gmail.com</itunes:email>
+    </itunes:owner>
+    <itunes:image href="https://repeto.stream/english-spanish/cover-e97e7bee.jpeg" />
+    <itunes:category text="Education">
+      <itunes:category text="Language Learning" />
+    </itunes:category>
+    <atom:link href="https://repeto.stream/english-spanish/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>01 Greetings — Saludos</title>
+      <description>Topic 1 of 30: Greetings (Saludos) – 36 phrases.
+
+You hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• Hi! → ¡Hola!
+• Good morning! → ¡Buenos días!
+• Good afternoon! → ¡Buenas tardes!
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 1 of 30: Greetings (Saludos) – 36 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Hi! → ¡Hola!&lt;/li&gt;&lt;li&gt;Good morning! → ¡Buenos días!&lt;/li&gt;&lt;li&gt;Good afternoon! → ¡Buenas tardes!&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-spanish:topic-01</guid>
+      <pubDate>Wed, 11 Nov 2026 17:50:33 +0000</pubDate>
+      <itunes:episode>1</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>378</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/english-spanish/audio/practice/01_greetings_en_es_double_2026-11-11_18-45-30.mp3" length="9066831" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>02 Numbers — Números</title>
+      <description>Topic 2 of 30: Numbers (Números) – 35 phrases.
+
+You hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• One → Uno
+• Two → Dos
+• Three → Tres
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 2 of 30: Numbers (Números) – 35 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;One → Uno&lt;/li&gt;&lt;li&gt;Two → Dos&lt;/li&gt;&lt;li&gt;Three → Tres&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-spanish:topic-02</guid>
+      <pubDate>Wed, 11 Nov 2026 17:50:33 +0000</pubDate>
+      <itunes:episode>2</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>350</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/english-spanish/audio/practice/02_numbers_en_es_double_2026-11-11_18-45-30.mp3" length="8391618" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>03 Colors — Colores</title>
+      <description>Topic 3 of 30: Colors (Colores) – 29 phrases.
+
+You hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• Red → Rojo
+• Blue → Azul
+• Yellow → Amarillo
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 3 of 30: Colors (Colores) – 29 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Red → Rojo&lt;/li&gt;&lt;li&gt;Blue → Azul&lt;/li&gt;&lt;li&gt;Yellow → Amarillo&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-spanish:topic-03</guid>
+      <pubDate>Wed, 11 Nov 2026 17:50:33 +0000</pubDate>
+      <itunes:episode>3</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>310</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/english-spanish/audio/practice/03_colors_en_es_double_2026-11-11_18-45-30.mp3" length="7441806" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>04 Animals — Animales</title>
+      <description>Topic 4 of 30: Animals (Animales) – 42 phrases.
+
+You hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• Dog → Perro
+• Cat → Gato
+• Bird → Pájaro
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 4 of 30: Animals (Animales) – 42 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Dog → Perro&lt;/li&gt;&lt;li&gt;Cat → Gato&lt;/li&gt;&lt;li&gt;Bird → Pájaro&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-spanish:topic-04</guid>
+      <pubDate>Wed, 11 Nov 2026 17:50:33 +0000</pubDate>
+      <itunes:episode>4</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>433</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/english-spanish/audio/practice/04_animals_en_es_double_2026-11-11_18-45-30.mp3" length="10400957" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>05 Family — Familia</title>
+      <description>Topic 5 of 30: Family (Familia) – 26 phrases.
+
+You hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• Mum → Mamá
+• Dad → Papá
+• Sister → Hermana
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 5 of 30: Family (Familia) – 26 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Mum → Mamá&lt;/li&gt;&lt;li&gt;Dad → Papá&lt;/li&gt;&lt;li&gt;Sister → Hermana&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-spanish:topic-05</guid>
+      <pubDate>Wed, 11 Nov 2026 17:50:33 +0000</pubDate>
+      <itunes:episode>5</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>289</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/english-spanish/audio/practice/05_family_en_es_double_2026-11-11_18-45-30.mp3" length="6932732" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>06 Food — Comida</title>
+      <description>Topic 6 of 30: Food (Comida) – 49 phrases.
+
+You hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• Bread → Pan
+• Milk → Leche
+• Egg → Huevo
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 6 of 30: Food (Comida) – 49 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Bread → Pan&lt;/li&gt;&lt;li&gt;Milk → Leche&lt;/li&gt;&lt;li&gt;Egg → Huevo&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-spanish:topic-06</guid>
+      <pubDate>Wed, 11 Nov 2026 17:50:33 +0000</pubDate>
+      <itunes:episode>6</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>499</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/english-spanish/audio/practice/06_food_en_es_double_2026-11-11_18-45-30.mp3" length="11970812" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>07 Body — Cuerpo</title>
+      <description>Topic 7 of 30: Body (Cuerpo) – 37 phrases.
+
+You hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• Head → Cabeza
+• Hair → Pelo
+• Eye → Ojo
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 7 of 30: Body (Cuerpo) – 37 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Head → Cabeza&lt;/li&gt;&lt;li&gt;Hair → Pelo&lt;/li&gt;&lt;li&gt;Eye → Ojo&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-spanish:topic-07</guid>
+      <pubDate>Wed, 11 Nov 2026 17:50:33 +0000</pubDate>
+      <itunes:episode>7</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>385</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/english-spanish/audio/practice/07_body_en_es_double_2026-11-11_18-45-30.mp3" length="9249897" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>08 Clothing — Ropa</title>
+      <description>Topic 8 of 30: Clothing (Ropa) – 29 phrases.
+
+You hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• Jumper → Jersey
+• T-shirt → Camiseta
+• Shirt → Camisa
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 8 of 30: Clothing (Ropa) – 29 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Jumper → Jersey&lt;/li&gt;&lt;li&gt;T-shirt → Camiseta&lt;/li&gt;&lt;li&gt;Shirt → Camisa&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-spanish:topic-08</guid>
+      <pubDate>Wed, 11 Nov 2026 17:50:33 +0000</pubDate>
+      <itunes:episode>8</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>322</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/english-spanish/audio/practice/08_clothing_en_es_double_2026-11-11_18-45-30.mp3" length="7734586" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>09 Home — En casa</title>
+      <description>Topic 9 of 30: Home (En casa) – 38 phrases.
+
+You hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• House → Casa
+• Flat → Piso
+• Room → Habitación
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 9 of 30: Home (En casa) – 38 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;House → Casa&lt;/li&gt;&lt;li&gt;Flat → Piso&lt;/li&gt;&lt;li&gt;Room → Habitación&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-spanish:topic-09</guid>
+      <pubDate>Wed, 11 Nov 2026 17:50:33 +0000</pubDate>
+      <itunes:episode>9</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>394</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/english-spanish/audio/practice/09_home_en_es_double_2026-11-11_18-45-30.mp3" length="9458668" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>10 School — Colegio</title>
+      <description>Topic 10 of 30: School (Colegio) – 41 phrases.
+
+You hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• School → Colegio
+• Classroom → Aula
+• Teacher → Profesor
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 10 of 30: School (Colegio) – 41 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;School → Colegio&lt;/li&gt;&lt;li&gt;Classroom → Aula&lt;/li&gt;&lt;li&gt;Teacher → Profesor&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-spanish:topic-10</guid>
+      <pubDate>Wed, 11 Nov 2026 17:50:33 +0000</pubDate>
+      <itunes:episode>10</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>439</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/english-spanish/audio/practice/10_school_en_es_double_2026-11-11_18-45-30.mp3" length="10537003" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>11 Weather — El tiempo</title>
+      <description>Topic 11 of 30: Weather (El tiempo) – 25 phrases.
+
+You hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• Weather → Tiempo
+• Sun → Sol
+• Rain → Lluvia
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 11 of 30: Weather (El tiempo) – 25 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Weather → Tiempo&lt;/li&gt;&lt;li&gt;Sun → Sol&lt;/li&gt;&lt;li&gt;Rain → Lluvia&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-spanish:topic-11</guid>
+      <pubDate>Wed, 11 Nov 2026 17:50:33 +0000</pubDate>
+      <itunes:episode>11</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>259</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/english-spanish/audio/practice/11_weather_en_es_double_2026-11-11_18-45-30.mp3" length="6224918" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>12 Seasons — Estaciones del año</title>
+      <description>Topic 12 of 30: Seasons (Estaciones del año) – 18 phrases.
+
+You hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• Spring → Primavera
+• Summer → Verano
+• Autumn → Otoño
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 12 of 30: Seasons (Estaciones del año) – 18 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Spring → Primavera&lt;/li&gt;&lt;li&gt;Summer → Verano&lt;/li&gt;&lt;li&gt;Autumn → Otoño&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-spanish:topic-12</guid>
+      <pubDate>Wed, 11 Nov 2026 17:50:33 +0000</pubDate>
+      <itunes:episode>12</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>211</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/english-spanish/audio/practice/12_seasons_en_es_double_2026-11-11_18-45-30.mp3" length="5058812" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>13 Days and Time — Días y horas</title>
+      <description>Topic 13 of 30: Days and Time (Días y horas) – 29 phrases.
+
+You hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• Monday → Lunes
+• Tuesday → Martes
+• Wednesday → Miércoles
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 13 of 30: Days and Time (Días y horas) – 29 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Monday → Lunes&lt;/li&gt;&lt;li&gt;Tuesday → Martes&lt;/li&gt;&lt;li&gt;Wednesday → Miércoles&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-spanish:topic-13</guid>
+      <pubDate>Wed, 11 Nov 2026 17:50:33 +0000</pubDate>
+      <itunes:episode>13</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>312</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/english-spanish/audio/practice/13_days_and_time_en_es_double_2026-11-11_18-45-30.mp3" length="7491961" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>14 Toys and Play — Juguetes y juegos</title>
+      <description>Topic 14 of 30: Toys and Play (Juguetes y juegos) – 34 phrases.
+
+You hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• Toy → Juguete
+• Ball → Pelota
+• Doll → Muñeca
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 14 of 30: Toys and Play (Juguetes y juegos) – 34 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Toy → Juguete&lt;/li&gt;&lt;li&gt;Ball → Pelota&lt;/li&gt;&lt;li&gt;Doll → Muñeca&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-spanish:topic-14</guid>
+      <pubDate>Wed, 11 Nov 2026 17:50:33 +0000</pubDate>
+      <itunes:episode>14</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>367</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/english-spanish/audio/practice/14_toys_and_play_en_es_double_2026-11-11_18-45-30.mp3" length="8816683" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>15 Sports and Activities — Deportes y actividades</title>
+      <description>Topic 15 of 30: Sports and Activities (Deportes y actividades) – 25 phrases.
+
+You hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• Football → Fútbol
+• Swimming → Natación
+• Cycling → Ciclismo
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 15 of 30: Sports and Activities (Deportes y actividades) – 25 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Football → Fútbol&lt;/li&gt;&lt;li&gt;Swimming → Natación&lt;/li&gt;&lt;li&gt;Cycling → Ciclismo&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-spanish:topic-15</guid>
+      <pubDate>Wed, 11 Nov 2026 17:50:33 +0000</pubDate>
+      <itunes:episode>15</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>276</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/english-spanish/audio/practice/15_sports_and_activities_en_es_double_2026-11-11_18-45-30.mp3" length="6634309" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>16 I want and I need — Quiero y necesito</title>
+      <description>Topic 16 of 30: I want and I need (Quiero y necesito) – 28 phrases.
+
+You hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• I want to go outside. → Quiero salir a la calle.
+• I want a ball. → Quiero una pelota.
+• I want to eat. → Quiero comer.
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 16 of 30: I want and I need (Quiero y necesito) – 28 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;I want to go outside. → Quiero salir a la calle.&lt;/li&gt;&lt;li&gt;I want a ball. → Quiero una pelota.&lt;/li&gt;&lt;li&gt;I want to eat. → Quiero comer.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-spanish:topic-16</guid>
+      <pubDate>Wed, 11 Nov 2026 17:50:33 +0000</pubDate>
+      <itunes:episode>16</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>319</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/english-spanish/audio/practice/16_i_want_i_need_en_es_double_2026-11-11_18-45-30.mp3" length="7654338" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>17 Where is it? — ¿Dónde está?</title>
+      <description>Topic 17 of 30: Where is it? (¿Dónde está?) – 28 phrases.
+
+You hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• Where is the teddy bear? → ¿Dónde está el osito de peluche?
+• Where is my phone? → ¿Dónde está mi móvil?
+• Where is my bag? → ¿Dónde está mi bolsa?
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 17 of 30: Where is it? (¿Dónde está?) – 28 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Where is the teddy bear? → ¿Dónde está el osito de peluche?&lt;/li&gt;&lt;li&gt;Where is my phone? → ¿Dónde está mi móvil?&lt;/li&gt;&lt;li&gt;Where is my bag? → ¿Dónde está mi bolsa?&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-spanish:topic-17</guid>
+      <pubDate>Wed, 11 Nov 2026 17:50:33 +0000</pubDate>
+      <itunes:episode>17</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>325</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/english-spanish/audio/practice/17_where_is_en_es_double_2026-11-11_18-45-30.mp3" length="7806057" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>18 Feelings and Emotions — Sentimientos y emociones</title>
+      <description>Topic 18 of 30: Feelings and Emotions (Sentimientos y emociones) – 28 phrases.
+
+You hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• Happy → Contento
+• Sad → Triste
+• Angry → Enfadado
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 18 of 30: Feelings and Emotions (Sentimientos y emociones) – 28 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Happy → Contento&lt;/li&gt;&lt;li&gt;Sad → Triste&lt;/li&gt;&lt;li&gt;Angry → Enfadado&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-spanish:topic-18</guid>
+      <pubDate>Wed, 11 Nov 2026 17:50:33 +0000</pubDate>
+      <itunes:episode>18</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>310</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/english-spanish/audio/practice/18_feelings_and_emotions_en_es_double_2026-11-11_18-45-30.mp3" length="7449956" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>19 Transport — Medios de transporte</title>
+      <description>Topic 19 of 30: Transport (Medios de transporte) – 25 phrases.
+
+You hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• Car → Coche
+• Bus → Autobús
+• Train → Tren
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 19 of 30: Transport (Medios de transporte) – 25 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Car → Coche&lt;/li&gt;&lt;li&gt;Bus → Autobús&lt;/li&gt;&lt;li&gt;Train → Tren&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-spanish:topic-19</guid>
+      <pubDate>Wed, 11 Nov 2026 17:50:33 +0000</pubDate>
+      <itunes:episode>19</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>274</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/english-spanish/audio/practice/19_transport_en_es_double_2026-11-11_18-45-30.mp3" length="6574750" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>20 Nature — Naturaleza</title>
+      <description>Topic 20 of 30: Nature (Naturaleza) – 27 phrases.
+
+You hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• Forest → Bosque
+• Sea → Mar
+• Lake → Lago
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 20 of 30: Nature (Naturaleza) – 27 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Forest → Bosque&lt;/li&gt;&lt;li&gt;Sea → Mar&lt;/li&gt;&lt;li&gt;Lake → Lago&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-spanish:topic-20</guid>
+      <pubDate>Wed, 11 Nov 2026 17:50:33 +0000</pubDate>
+      <itunes:episode>20</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>278</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/english-spanish/audio/practice/20_nature_en_es_double_2026-11-11_18-45-30.mp3" length="6676941" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>21 Holidays and Celebrations — Fiestas y celebraciones</title>
+      <description>Topic 21 of 30: Holidays and Celebrations (Fiestas y celebraciones) – 23 phrases.
+
+You hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• Birthday → Cumpleaños
+• Happy birthday! → ¡Feliz cumpleaños!
+• Christmas → Navidad
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 21 of 30: Holidays and Celebrations (Fiestas y celebraciones) – 23 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Birthday → Cumpleaños&lt;/li&gt;&lt;li&gt;Happy birthday! → ¡Feliz cumpleaños!&lt;/li&gt;&lt;li&gt;Christmas → Navidad&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-spanish:topic-21</guid>
+      <pubDate>Wed, 11 Nov 2026 17:50:33 +0000</pubDate>
+      <itunes:episode>21</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>260</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/english-spanish/audio/practice/21_holidays_and_celebrations_en_es_double_2026-11-11_18-45-30.mp3" length="6236203" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>22 Daily Routine — Rutina diaria</title>
+      <description>Topic 22 of 30: Daily Routine (Rutina diaria) – 28 phrases.
+
+You hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• Wake up → Despertarse
+• Get up → Levantarse
+• Brush your teeth → Lavarse los dientes
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 22 of 30: Daily Routine (Rutina diaria) – 28 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Wake up → Despertarse&lt;/li&gt;&lt;li&gt;Get up → Levantarse&lt;/li&gt;&lt;li&gt;Brush your teeth → Lavarse los dientes&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-spanish:topic-22</guid>
+      <pubDate>Wed, 11 Nov 2026 17:50:33 +0000</pubDate>
+      <itunes:episode>22</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>326</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/english-spanish/audio/practice/22_daily_routine_en_es_double_2026-11-11_18-45-30.mp3" length="7817342" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>23 Asking and Requests — Preguntas y peticiones</title>
+      <description>Topic 23 of 30: Asking and Requests (Preguntas y peticiones) – 26 phrases.
+
+You hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• Can you help me? → ¿Puedes ayudarme?
+• Help! → ¡Socorro!
+• Please! → ¡Por favor!
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 23 of 30: Asking and Requests (Preguntas y peticiones) – 26 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Can you help me? → ¿Puedes ayudarme?&lt;/li&gt;&lt;li&gt;Help! → ¡Socorro!&lt;/li&gt;&lt;li&gt;Please! → ¡Por favor!&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-spanish:topic-23</guid>
+      <pubDate>Wed, 11 Nov 2026 17:50:33 +0000</pubDate>
+      <itunes:episode>23</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>274</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/english-spanish/audio/practice/23_asking_and_requests_en_es_double_2026-11-11_18-45-30.mp3" length="6566599" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>24 Opposites — Contrarios</title>
+      <description>Topic 24 of 30: Opposites (Contrarios) – 28 phrases.
+
+You hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• Big → Grande
+• Small → Pequeño
+• Long → Largo
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 24 of 30: Opposites (Contrarios) – 28 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Big → Grande&lt;/li&gt;&lt;li&gt;Small → Pequeño&lt;/li&gt;&lt;li&gt;Long → Largo&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-spanish:topic-24</guid>
+      <pubDate>Wed, 11 Nov 2026 17:50:33 +0000</pubDate>
+      <itunes:episode>24</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>289</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/english-spanish/audio/practice/24_opposites_en_es_double_2026-11-11_18-45-30.mp3" length="6936493" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>25 Actions and Verbs — Acciones y verbos</title>
+      <description>Topic 25 of 30: Actions and Verbs (Acciones y verbos) – 41 phrases.
+
+You hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• Walk → Andar
+• Run → Correr
+• Jump → Saltar
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 25 of 30: Actions and Verbs (Acciones y verbos) – 41 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Walk → Andar&lt;/li&gt;&lt;li&gt;Run → Correr&lt;/li&gt;&lt;li&gt;Jump → Saltar&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-spanish:topic-25</guid>
+      <pubDate>Wed, 11 Nov 2026 17:50:33 +0000</pubDate>
+      <itunes:episode>25</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>421</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/english-spanish/audio/practice/25_actions_and_verbs_en_es_double_2026-11-11_18-45-30.mp3" length="10101280" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>26 Places in Town — Lugares de la ciudad</title>
+      <description>Topic 26 of 30: Places in Town (Lugares de la ciudad) – 23 phrases.
+
+You hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• Park → Parque
+• Playground → Parque infantil
+• Shop → Tienda
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 26 of 30: Places in Town (Lugares de la ciudad) – 23 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Park → Parque&lt;/li&gt;&lt;li&gt;Playground → Parque infantil&lt;/li&gt;&lt;li&gt;Shop → Tienda&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-spanish:topic-26</guid>
+      <pubDate>Wed, 11 Nov 2026 17:50:33 +0000</pubDate>
+      <itunes:episode>26</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>254</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/english-spanish/audio/practice/26_places_in_town_en_es_double_2026-11-11_18-45-30.mp3" length="6101411" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>27 Technology — Tecnología</title>
+      <description>Topic 27 of 30: Technology (Tecnología) – 22 phrases.
+
+You hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• Phone → Teléfono
+• Mobile phone → Teléfono móvil
+• Computer → Ordenador
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 27 of 30: Technology (Tecnología) – 22 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Phone → Teléfono&lt;/li&gt;&lt;li&gt;Mobile phone → Teléfono móvil&lt;/li&gt;&lt;li&gt;Computer → Ordenador&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-spanish:topic-27</guid>
+      <pubDate>Wed, 11 Nov 2026 17:50:33 +0000</pubDate>
+      <itunes:episode>27</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>242</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/english-spanish/audio/practice/27_technology_en_es_double_2026-11-11_18-45-30.mp3" length="5802361" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>28 Music and Art — Música y arte</title>
+      <description>Topic 28 of 30: Music and Art (Música y arte) – 23 phrases.
+
+You hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• Music → Música
+• Song → Canción
+• Dancing → Baile
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 28 of 30: Music and Art (Música y arte) – 23 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Music → Música&lt;/li&gt;&lt;li&gt;Song → Canción&lt;/li&gt;&lt;li&gt;Dancing → Baile&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-spanish:topic-28</guid>
+      <pubDate>Wed, 11 Nov 2026 17:50:33 +0000</pubDate>
+      <itunes:episode>28</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>249</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/english-spanish/audio/practice/28_music_and_art_en_es_double_2026-11-11_18-45-30.mp3" length="5974142" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>29 Polite Phrases — Expresiones de cortesía</title>
+      <description>Topic 29 of 30: Polite Phrases (Expresiones de cortesía) – 17 phrases.
+
+You hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• Please. → Por favor.
+• Thank you! → ¡Gracias!
+• Thank you very much! → ¡Muchas gracias!
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 29 of 30: Polite Phrases (Expresiones de cortesía) – 17 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Please. → Por favor.&lt;/li&gt;&lt;li&gt;Thank you! → ¡Gracias!&lt;/li&gt;&lt;li&gt;Thank you very much! → ¡Muchas gracias!&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-spanish:topic-29</guid>
+      <pubDate>Wed, 11 Nov 2026 17:50:33 +0000</pubDate>
+      <itunes:episode>29</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>177</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/english-spanish/audio/practice/29_polite_phrases_en_es_double_2026-11-11_18-45-30.mp3" length="4243791" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>30 Review and Recap — Repaso</title>
+      <description>Topic 30 of 30: Review and Recap (Repaso) – 11 phrases.
+
+You hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• Well done! → ¡Bien hecho!
+• You are learning a new language! → ¡Estás aprendiendo un idioma nuevo!
+• Let's practise! → ¡Vamos a practicar!
+
+Tip: listen again until you can answer before the recorded voice.</description>
+      <content:encoded>&lt;p&gt;Topic 30 of 30: Review and Recap (Repaso) – 11 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Well done! → ¡Bien hecho!&lt;/li&gt;&lt;li&gt;You are learning a new language! → ¡Estás aprendiendo un idioma nuevo!&lt;/li&gt;&lt;li&gt;Let&amp;#x27;s practise! → ¡Vamos a practicar!&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-spanish:topic-30</guid>
+      <pubDate>Wed, 11 Nov 2026 17:50:33 +0000</pubDate>
+      <itunes:episode>30</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>129</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://repeto.stream/english-spanish/audio/practice/30_review_and_recap_en_es_double_2026-11-11_18-45-30.mp3" length="3097747" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>01 The Magical Radio: The Old Table — La mesa vieja</title>
+      <description>Chapter 1 of 8 in "The Magical Radio" (La radio mágica). Two siblings find an old wooden radio at a flea market. Suddenly it starts to hum, and a golden inscription shows that the radio is meant for them.
+
+How the episode works:
+1. Listen to the whole chapter in Spanish. You don't need to understand everything.
+2. Practise words and expressions from the chapter: an English prompt, a pause, then the answer in Spanish.
+3. Listen to the chapter again and see how much you can understand.
+
+A chime separates the sections. Listen in order, starting with chapter 1.</description>
+      <content:encoded>&lt;p&gt;Chapter 1 of 8 in &amp;quot;The Magical Radio&amp;quot; (La radio mágica). Two siblings find an old wooden radio at a flea market. Suddenly it starts to hum, and a golden inscription shows that the radio is meant for them.&lt;/p&gt;&lt;p&gt;How the episode works:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Listen to the whole chapter in Spanish. You don&amp;#x27;t need to understand everything.&lt;/li&gt;&lt;li&gt;Practise words and expressions from the chapter: an English prompt, a pause, then the answer in Spanish.&lt;/li&gt;&lt;li&gt;Listen to the chapter again and see how much you can understand.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;A chime separates the sections. Listen in order, starting with chapter 1.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">magical_radio:en:es:chapter-01</guid>
+      <pubDate>Wed, 11 Nov 2026 17:51:48 +0000</pubDate>
+      <itunes:episode>1</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>313</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://repeto.stream/english-spanish/images/stories/magical_radio/cover-447076a6.jpeg" />
+      <enclosure url="https://repeto.stream/english-spanish/audio/stories/magical_radio/01_chapter_01_en_es_2026-11-11_18-51-05.mp3" length="7509515" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>02 The Magical Radio: A Voice from the Radio — Una voz en la radio</title>
+      <description>Chapter 2 of 8 in "The Magical Radio" (La radio mágica). At home, the children press the blue button. A little cloud smelling of cinnamon floats out of the radio, and a cheerful voice tells them about a mouse with an important key.
+
+How the episode works:
+1. Listen to the whole chapter in Spanish. You don't need to understand everything.
+2. Practise words and expressions from the chapter: an English prompt, a pause, then the answer in Spanish.
+3. Listen to the chapter again and see how much you can understand.
+
+A chime separates the sections. Listen in order, starting with chapter 1.</description>
+      <content:encoded>&lt;p&gt;Chapter 2 of 8 in &amp;quot;The Magical Radio&amp;quot; (La radio mágica). At home, the children press the blue button. A little cloud smelling of cinnamon floats out of the radio, and a cheerful voice tells them about a mouse with an important key.&lt;/p&gt;&lt;p&gt;How the episode works:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Listen to the whole chapter in Spanish. You don&amp;#x27;t need to understand everything.&lt;/li&gt;&lt;li&gt;Practise words and expressions from the chapter: an English prompt, a pause, then the answer in Spanish.&lt;/li&gt;&lt;li&gt;Listen to the chapter again and see how much you can understand.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;A chime separates the sections. Listen in order, starting with chapter 1.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">magical_radio:en:es:chapter-02</guid>
+      <pubDate>Wed, 11 Nov 2026 17:51:48 +0000</pubDate>
+      <itunes:episode>2</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>273</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://repeto.stream/english-spanish/images/stories/magical_radio/cover-447076a6.jpeg" />
+      <enclosure url="https://repeto.stream/english-spanish/audio/stories/magical_radio/02_chapter_02_en_es_2026-11-11_18-51-05.mp3" length="6549672" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>03 The Magical Radio: A Mouse under the Tree — Un ratón debajo del árbol</title>
+      <description>Chapter 3 of 8 in "The Magical Radio" (La radio mágica). With a torch, some cheese and the radio, the siblings head to the old tree. A little mouse agrees to a trade, and a small door is hidden between the roots.
+
+How the episode works:
+1. Listen to the whole chapter in Spanish. You don't need to understand everything.
+2. Practise words and expressions from the chapter: an English prompt, a pause, then the answer in Spanish.
+3. Listen to the chapter again and see how much you can understand.
+
+A chime separates the sections. Listen in order, starting with chapter 1.</description>
+      <content:encoded>&lt;p&gt;Chapter 3 of 8 in &amp;quot;The Magical Radio&amp;quot; (La radio mágica). With a torch, some cheese and the radio, the siblings head to the old tree. A little mouse agrees to a trade, and a small door is hidden between the roots.&lt;/p&gt;&lt;p&gt;How the episode works:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Listen to the whole chapter in Spanish. You don&amp;#x27;t need to understand everything.&lt;/li&gt;&lt;li&gt;Practise words and expressions from the chapter: an English prompt, a pause, then the answer in Spanish.&lt;/li&gt;&lt;li&gt;Listen to the chapter again and see how much you can understand.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;A chime separates the sections. Listen in order, starting with chapter 1.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">magical_radio:en:es:chapter-03</guid>
+      <pubDate>Wed, 11 Nov 2026 17:51:48 +0000</pubDate>
+      <itunes:episode>3</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>359</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://repeto.stream/english-spanish/images/stories/magical_radio/cover-447076a6.jpeg" />
+      <enclosure url="https://repeto.stream/english-spanish/audio/stories/magical_radio/03_chapter_03_en_es_2026-11-11_18-51-05.mp3" length="8615435" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>04 The Magical Radio: Down the Stairs — Escaleras abajo</title>
+      <description>Chapter 4 of 8 in "The Magical Radio" (La radio mágica). The silver key opens the door. Stone steps lead down to a library full of flying books, with glowing flowers growing on the walls.
+
+How the episode works:
+1. Listen to the whole chapter in Spanish. You don't need to understand everything.
+2. Practise words and expressions from the chapter: an English prompt, a pause, then the answer in Spanish.
+3. Listen to the chapter again and see how much you can understand.
+
+A chime separates the sections. Listen in order, starting with chapter 1.</description>
+      <content:encoded>&lt;p&gt;Chapter 4 of 8 in &amp;quot;The Magical Radio&amp;quot; (La radio mágica). The silver key opens the door. Stone steps lead down to a library full of flying books, with glowing flowers growing on the walls.&lt;/p&gt;&lt;p&gt;How the episode works:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Listen to the whole chapter in Spanish. You don&amp;#x27;t need to understand everything.&lt;/li&gt;&lt;li&gt;Practise words and expressions from the chapter: an English prompt, a pause, then the answer in Spanish.&lt;/li&gt;&lt;li&gt;Listen to the chapter again and see how much you can understand.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;A chime separates the sections. Listen in order, starting with chapter 1.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">magical_radio:en:es:chapter-04</guid>
+      <pubDate>Wed, 11 Nov 2026 17:51:48 +0000</pubDate>
+      <itunes:episode>4</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>286</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://repeto.stream/english-spanish/images/stories/magical_radio/cover-447076a6.jpeg" />
+      <enclosure url="https://repeto.stream/english-spanish/audio/stories/magical_radio/04_chapter_04_en_es_2026-11-11_18-51-05.mp3" length="6871919" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>05 The Magical Radio: The Flying Book — El libro volador</title>
+      <description>Chapter 5 of 8 in "The Magical Radio" (La radio mágica). A golden book lands on one of the children's shoulders, and the radio reveals a spell that can mend broken things.
+
+How the episode works:
+1. Listen to the whole chapter in Spanish. You don't need to understand everything.
+2. Practise words and expressions from the chapter: an English prompt, a pause, then the answer in Spanish.
+3. Listen to the chapter again and see how much you can understand.
+
+A chime separates the sections. Listen in order, starting with chapter 1.</description>
+      <content:encoded>&lt;p&gt;Chapter 5 of 8 in &amp;quot;The Magical Radio&amp;quot; (La radio mágica). A golden book lands on one of the children&amp;#x27;s shoulders, and the radio reveals a spell that can mend broken things.&lt;/p&gt;&lt;p&gt;How the episode works:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Listen to the whole chapter in Spanish. You don&amp;#x27;t need to understand everything.&lt;/li&gt;&lt;li&gt;Practise words and expressions from the chapter: an English prompt, a pause, then the answer in Spanish.&lt;/li&gt;&lt;li&gt;Listen to the chapter again and see how much you can understand.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;A chime separates the sections. Listen in order, starting with chapter 1.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">magical_radio:en:es:chapter-05</guid>
+      <pubDate>Wed, 11 Nov 2026 17:51:48 +0000</pubDate>
+      <itunes:episode>5</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>269</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://repeto.stream/english-spanish/images/stories/magical_radio/cover-447076a6.jpeg" />
+      <enclosure url="https://repeto.stream/english-spanish/audio/stories/magical_radio/05_chapter_05_en_es_2026-11-11_18-51-05.mp3" length="6453123" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>06 The Magical Radio: The First Spell — El primer hechizo</title>
+      <description>Chapter 6 of 8 in "The Magical Radio" (La radio mágica). It's time to try the spell on a broken compass. Will it work? And who is waiting behind the green door?
+
+How the episode works:
+1. Listen to the whole chapter in Spanish. You don't need to understand everything.
+2. Practise words and expressions from the chapter: an English prompt, a pause, then the answer in Spanish.
+3. Listen to the chapter again and see how much you can understand.
+
+A chime separates the sections. Listen in order, starting with chapter 1.</description>
+      <content:encoded>&lt;p&gt;Chapter 6 of 8 in &amp;quot;The Magical Radio&amp;quot; (La radio mágica). It&amp;#x27;s time to try the spell on a broken compass. Will it work? And who is waiting behind the green door?&lt;/p&gt;&lt;p&gt;How the episode works:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Listen to the whole chapter in Spanish. You don&amp;#x27;t need to understand everything.&lt;/li&gt;&lt;li&gt;Practise words and expressions from the chapter: an English prompt, a pause, then the answer in Spanish.&lt;/li&gt;&lt;li&gt;Listen to the chapter again and see how much you can understand.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;A chime separates the sections. Listen in order, starting with chapter 1.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">magical_radio:en:es:chapter-06</guid>
+      <pubDate>Wed, 11 Nov 2026 17:51:48 +0000</pubDate>
+      <itunes:episode>6</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>224</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://repeto.stream/english-spanish/images/stories/magical_radio/cover-447076a6.jpeg" />
+      <enclosure url="https://repeto.stream/english-spanish/audio/stories/magical_radio/06_chapter_06_en_es_2026-11-11_18-51-05.mp3" length="5367892" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>07 The Magical Radio: The Golden Bird — El pájaro dorado</title>
+      <description>Chapter 7 of 8 in "The Magical Radio" (La radio mágica). Behind the door lies an underground garden. A golden bird ticks like a clock instead of singing. A stone is missing from its wing, and the radio has a secret.
+
+How the episode works:
+1. Listen to the whole chapter in Spanish. You don't need to understand everything.
+2. Practise words and expressions from the chapter: an English prompt, a pause, then the answer in Spanish.
+3. Listen to the chapter again and see how much you can understand.
+
+A chime separates the sections. Listen in order, starting with chapter 1.</description>
+      <content:encoded>&lt;p&gt;Chapter 7 of 8 in &amp;quot;The Magical Radio&amp;quot; (La radio mágica). Behind the door lies an underground garden. A golden bird ticks like a clock instead of singing. A stone is missing from its wing, and the radio has a secret.&lt;/p&gt;&lt;p&gt;How the episode works:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Listen to the whole chapter in Spanish. You don&amp;#x27;t need to understand everything.&lt;/li&gt;&lt;li&gt;Practise words and expressions from the chapter: an English prompt, a pause, then the answer in Spanish.&lt;/li&gt;&lt;li&gt;Listen to the chapter again and see how much you can understand.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;A chime separates the sections. Listen in order, starting with chapter 1.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">magical_radio:en:es:chapter-07</guid>
+      <pubDate>Wed, 11 Nov 2026 17:51:48 +0000</pubDate>
+      <itunes:episode>7</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>350</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://repeto.stream/english-spanish/images/stories/magical_radio/cover-447076a6.jpeg" />
+      <enclosure url="https://repeto.stream/english-spanish/audio/stories/magical_radio/07_chapter_07_en_es_2026-11-11_18-51-05.mp3" length="8413561" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>08 The Magical Radio: The Grand Concert — El gran concierto</title>
+      <description>Chapter 8 of 8 in "The Magical Radio" (La radio mágica). The finale! Can the siblings mend the golden bird? The story ends with singing, dancing butterflies and the promise of another adventure.
+
+How the episode works:
+1. Listen to the whole chapter in Spanish. You don't need to understand everything.
+2. Practise words and expressions from the chapter: an English prompt, a pause, then the answer in Spanish.
+3. Listen to the chapter again and see how much you can understand.
+
+A chime separates the sections. Listen in order, starting with chapter 1.</description>
+      <content:encoded>&lt;p&gt;Chapter 8 of 8 in &amp;quot;The Magical Radio&amp;quot; (La radio mágica). The finale! Can the siblings mend the golden bird? The story ends with singing, dancing butterflies and the promise of another adventure.&lt;/p&gt;&lt;p&gt;How the episode works:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Listen to the whole chapter in Spanish. You don&amp;#x27;t need to understand everything.&lt;/li&gt;&lt;li&gt;Practise words and expressions from the chapter: an English prompt, a pause, then the answer in Spanish.&lt;/li&gt;&lt;li&gt;Listen to the chapter again and see how much you can understand.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;A chime separates the sections. Listen in order, starting with chapter 1.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">magical_radio:en:es:chapter-08</guid>
+      <pubDate>Wed, 11 Nov 2026 17:51:48 +0000</pubDate>
+      <itunes:episode>8</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>236</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://repeto.stream/english-spanish/images/stories/magical_radio/cover-447076a6.jpeg" />
+      <enclosure url="https://repeto.stream/english-spanish/audio/stories/magical_radio/08_chapter_08_en_es_2026-11-11_18-51-05.mp3" length="5670704" type="audio/mpeg" />
+    </item>
+  </channel>
+</rss>

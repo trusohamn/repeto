@@ -1,0 +1,403 @@
+{
+  "title": "Repeto – I learn Polish",
+  "description": "Learn Polish by listening and speaking, with English prompts to guide you. Repeto is an audio course for beginners of all ages: children, parents, grandparents and anyone who wants to start learning Polish. No previous knowledge or textbook is needed.\n\nHow it works: you hear a word or sentence in English, then have a pause to say it in Polish. Next, you hear the answer twice, with time to repeat it and practise the pronunciation.\n\nWhat's included:\n• Season 1 – Practice: 30 short topics, from greetings and numbers to food, feelings and everyday situations.\n• Season 2 – Story: \"The Magical Radio\" (Magiczne Radio), one chapter per episode. Listen to the chapter in Polish, practise its vocabulary, then listen to the chapter again.\n• More stories are on the way. Follow the podcast to hear new episodes.\n\nHow to use the course:\n• Start with season 1, episode 1 and listen in order.\n• Answer out loud during each pause. Try to recall the words yourself.\n• Replay an episode until you can answer before the recorded voice.\n• Listening in the background can help you get used to the sounds and rhythm of the language. Practise actively too, by repeating and answering during the pauses.\n\nEnjoy this format? Repeto is also available in other languages, with the same familiar structure. Search for Repeto in your podcast app.\n\nGet in touch! Suggestions for new languages, corrections and story ideas are welcome: repeto.lingo@gmail.com\n\nVoices are AI-generated (Microsoft Azure).",
+  "language": "en",
+  "author": "Repeto",
+  "email": "repeto.lingo@gmail.com",
+  "source_language": "en",
+  "target_language": "pl",
+  "episodes": [
+    {
+      "id": "repeto:english-polish:topic-01",
+      "title": "Greetings — Powitania",
+      "file": "practice/01_greetings_en_pl_double_2026-11-11_18-48-56.mp3",
+      "duration_ms": 368674,
+      "published": "2026-11-11T17:53:20+00:00",
+      "description": "Topic 1 of 30: Greetings (Powitania) – 36 phrases.\n\nYou hear a word or sentence in English. Say it in Polish during the pause, before you hear the answer. Each Polish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Hi! → Cześć!\n• Good morning! → Dzień dobry!\n• Good afternoon! → Dzień dobry!\n\nTip: listen again until you can answer before the recorded voice.",
+      "season": 1,
+      "episode": 1
+    },
+    {
+      "id": "repeto:english-polish:topic-02",
+      "title": "Numbers — Liczby",
+      "file": "practice/02_numbers_en_pl_double_2026-11-11_18-48-56.mp3",
+      "duration_ms": 347333,
+      "published": "2026-11-11T17:53:20+00:00",
+      "description": "Topic 2 of 30: Numbers (Liczby) – 35 phrases.\n\nYou hear a word or sentence in English. Say it in Polish during the pause, before you hear the answer. Each Polish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• One → Jeden\n• Two → Dwa\n• Three → Trzy\n\nTip: listen again until you can answer before the recorded voice.",
+      "season": 1,
+      "episode": 2
+    },
+    {
+      "id": "repeto:english-polish:topic-03",
+      "title": "Colors — Kolory",
+      "file": "practice/03_colors_en_pl_double_2026-11-11_18-48-56.mp3",
+      "duration_ms": 312581,
+      "published": "2026-11-11T17:53:20+00:00",
+      "description": "Topic 3 of 30: Colors (Kolory) – 29 phrases.\n\nYou hear a word or sentence in English. Say it in Polish during the pause, before you hear the answer. Each Polish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Red → Czerwony\n• Blue → Niebieski\n• Yellow → Żółty\n\nTip: listen again until you can answer before the recorded voice.",
+      "season": 1,
+      "episode": 3
+    },
+    {
+      "id": "repeto:english-polish:topic-04",
+      "title": "Animals — Zwierzęta",
+      "file": "practice/04_animals_en_pl_double_2026-11-11_18-48-56.mp3",
+      "duration_ms": 409906,
+      "published": "2026-11-11T17:53:20+00:00",
+      "description": "Topic 4 of 30: Animals (Zwierzęta) – 42 phrases.\n\nYou hear a word or sentence in English. Say it in Polish during the pause, before you hear the answer. Each Polish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Dog → Pies\n• Cat → Kot\n• Bird → Ptak\n\nTip: listen again until you can answer before the recorded voice.",
+      "season": 1,
+      "episode": 4
+    },
+    {
+      "id": "repeto:english-polish:topic-05",
+      "title": "Family — Rodzina",
+      "file": "practice/05_family_en_pl_double_2026-11-11_18-48-56.mp3",
+      "duration_ms": 288723,
+      "published": "2026-11-11T17:53:20+00:00",
+      "description": "Topic 5 of 30: Family (Rodzina) – 26 phrases.\n\nYou hear a word or sentence in English. Say it in Polish during the pause, before you hear the answer. Each Polish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Mum → Mama\n• Dad → Tata\n• Sister → Siostra\n\nTip: listen again until you can answer before the recorded voice.",
+      "season": 1,
+      "episode": 5
+    },
+    {
+      "id": "repeto:english-polish:topic-06",
+      "title": "Food — Jedzenie",
+      "file": "practice/06_food_en_pl_double_2026-11-11_18-48-56.mp3",
+      "duration_ms": 493270,
+      "published": "2026-11-11T17:53:20+00:00",
+      "description": "Topic 6 of 30: Food (Jedzenie) – 49 phrases.\n\nYou hear a word or sentence in English. Say it in Polish during the pause, before you hear the answer. Each Polish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Bread → Chleb\n• Milk → Mleko\n• Egg → Jajko\n\nTip: listen again until you can answer before the recorded voice.",
+      "season": 1,
+      "episode": 6
+    },
+    {
+      "id": "repeto:english-polish:topic-07",
+      "title": "Body — Ciało",
+      "file": "practice/07_body_en_pl_double_2026-11-11_18-48-56.mp3",
+      "duration_ms": 367769,
+      "published": "2026-11-11T17:53:20+00:00",
+      "description": "Topic 7 of 30: Body (Ciało) – 37 phrases.\n\nYou hear a word or sentence in English. Say it in Polish during the pause, before you hear the answer. Each Polish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Head → Głowa\n• Hair → Włosy\n• Eye → Oko\n\nTip: listen again until you can answer before the recorded voice.",
+      "season": 1,
+      "episode": 7
+    },
+    {
+      "id": "repeto:english-polish:topic-08",
+      "title": "Clothing — Ubrania",
+      "file": "practice/08_clothing_en_pl_double_2026-11-11_18-48-56.mp3",
+      "duration_ms": 311314,
+      "published": "2026-11-11T17:53:20+00:00",
+      "description": "Topic 8 of 30: Clothing (Ubrania) – 29 phrases.\n\nYou hear a word or sentence in English. Say it in Polish during the pause, before you hear the answer. Each Polish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Jumper → Sweter\n• T-shirt → Koszulka\n• Shirt → Koszula\n\nTip: listen again until you can answer before the recorded voice.",
+      "season": 1,
+      "episode": 8
+    },
+    {
+      "id": "repeto:english-polish:topic-09",
+      "title": "Home — W domu",
+      "file": "practice/09_home_en_pl_double_2026-11-11_18-48-56.mp3",
+      "duration_ms": 385477,
+      "published": "2026-11-11T17:53:20+00:00",
+      "description": "Topic 9 of 30: Home (W domu) – 38 phrases.\n\nYou hear a word or sentence in English. Say it in Polish during the pause, before you hear the answer. Each Polish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• House → Dom\n• Flat → Mieszkanie\n• Room → Pokój\n\nTip: listen again until you can answer before the recorded voice.",
+      "season": 1,
+      "episode": 9
+    },
+    {
+      "id": "repeto:english-polish:topic-10",
+      "title": "School — Szkoła",
+      "file": "practice/10_school_en_pl_double_2026-11-11_18-48-56.mp3",
+      "duration_ms": 431504,
+      "published": "2026-11-11T17:53:20+00:00",
+      "description": "Topic 10 of 30: School (Szkoła) – 41 phrases.\n\nYou hear a word or sentence in English. Say it in Polish during the pause, before you hear the answer. Each Polish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• School → Szkoła\n• Classroom → Klasa\n• Teacher → Nauczyciel\n\nTip: listen again until you can answer before the recorded voice.",
+      "season": 1,
+      "episode": 10
+    },
+    {
+      "id": "repeto:english-polish:topic-11",
+      "title": "Weather — Pogoda",
+      "file": "practice/11_weather_en_pl_double_2026-11-11_18-48-56.mp3",
+      "duration_ms": 256175,
+      "published": "2026-11-11T17:53:20+00:00",
+      "description": "Topic 11 of 30: Weather (Pogoda) – 25 phrases.\n\nYou hear a word or sentence in English. Say it in Polish during the pause, before you hear the answer. Each Polish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Weather → Pogoda\n• Sun → Słońce\n• Rain → Deszcz\n\nTip: listen again until you can answer before the recorded voice.",
+      "season": 1,
+      "episode": 11
+    },
+    {
+      "id": "repeto:english-polish:topic-12",
+      "title": "Seasons — Pory roku",
+      "file": "practice/12_seasons_en_pl_double_2026-11-11_18-48-56.mp3",
+      "duration_ms": 203063,
+      "published": "2026-11-11T17:53:20+00:00",
+      "description": "Topic 12 of 30: Seasons (Pory roku) – 18 phrases.\n\nYou hear a word or sentence in English. Say it in Polish during the pause, before you hear the answer. Each Polish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Spring → Wiosna\n• Summer → Lato\n• Autumn → Jesień\n\nTip: listen again until you can answer before the recorded voice.",
+      "season": 1,
+      "episode": 12
+    },
+    {
+      "id": "repeto:english-polish:topic-13",
+      "title": "Days and Time — Dni i czas",
+      "file": "practice/13_days_and_time_en_pl_double_2026-11-11_18-48-56.mp3",
+      "duration_ms": 308304,
+      "published": "2026-11-11T17:53:20+00:00",
+      "description": "Topic 13 of 30: Days and Time (Dni i czas) – 29 phrases.\n\nYou hear a word or sentence in English. Say it in Polish during the pause, before you hear the answer. Each Polish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Monday → Poniedziałek\n• Tuesday → Wtorek\n• Wednesday → Środa\n\nTip: listen again until you can answer before the recorded voice.",
+      "season": 1,
+      "episode": 13
+    },
+    {
+      "id": "repeto:english-polish:topic-14",
+      "title": "Toys and Play — Zabawki i zabawa",
+      "file": "practice/14_toys_and_play_en_pl_double_2026-11-11_18-48-56.mp3",
+      "duration_ms": 364135,
+      "published": "2026-11-11T17:53:20+00:00",
+      "description": "Topic 14 of 30: Toys and Play (Zabawki i zabawa) – 34 phrases.\n\nYou hear a word or sentence in English. Say it in Polish during the pause, before you hear the answer. Each Polish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Toy → Zabawka\n• Ball → Piłka\n• Doll → Lalka\n\nTip: listen again until you can answer before the recorded voice.",
+      "season": 1,
+      "episode": 14
+    },
+    {
+      "id": "repeto:english-polish:topic-15",
+      "title": "Sports and Activities — Sport i zajęcia",
+      "file": "practice/15_sports_and_activities_en_pl_double_2026-11-11_18-48-56.mp3",
+      "duration_ms": 275823,
+      "published": "2026-11-11T17:53:20+00:00",
+      "description": "Topic 15 of 30: Sports and Activities (Sport i zajęcia) – 25 phrases.\n\nYou hear a word or sentence in English. Say it in Polish during the pause, before you hear the answer. Each Polish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Football → Piłka nożna\n• Swimming → Pływanie\n• Cycling → Jazda na rowerze\n\nTip: listen again until you can answer before the recorded voice.",
+      "season": 1,
+      "episode": 15
+    },
+    {
+      "id": "repeto:english-polish:topic-16",
+      "title": "I want and I need — Chcę i potrzebuję",
+      "file": "practice/16_i_want_i_need_en_pl_double_2026-11-11_18-48-56.mp3",
+      "duration_ms": 318966,
+      "published": "2026-11-11T17:53:20+00:00",
+      "description": "Topic 16 of 30: I want and I need (Chcę i potrzebuję) – 28 phrases.\n\nYou hear a word or sentence in English. Say it in Polish during the pause, before you hear the answer. Each Polish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• I want to go outside. → Chcę wyjść na dwór.\n• I want a ball. → Chcę piłkę.\n• I want to eat. → Chcę jeść.\n\nTip: listen again until you can answer before the recorded voice.",
+      "season": 1,
+      "episode": 16
+    },
+    {
+      "id": "repeto:english-polish:topic-17",
+      "title": "Where is it? — Gdzie jest?",
+      "file": "practice/17_where_is_en_pl_double_2026-11-11_18-48-56.mp3",
+      "duration_ms": 314921,
+      "published": "2026-11-11T17:53:20+00:00",
+      "description": "Topic 17 of 30: Where is it? (Gdzie jest?) – 28 phrases.\n\nYou hear a word or sentence in English. Say it in Polish during the pause, before you hear the answer. Each Polish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Where is the teddy bear? → Gdzie jest miś?\n• Where is my phone? → Gdzie jest mój telefon?\n• Where is my bag? → Gdzie jest moja torba?\n\nTip: listen again until you can answer before the recorded voice.",
+      "season": 1,
+      "episode": 17
+    },
+    {
+      "id": "repeto:english-polish:topic-18",
+      "title": "Feelings and Emotions — Uczucia i emocje",
+      "file": "practice/18_feelings_and_emotions_en_pl_double_2026-11-11_18-48-56.mp3",
+      "duration_ms": 304819,
+      "published": "2026-11-11T17:53:20+00:00",
+      "description": "Topic 18 of 30: Feelings and Emotions (Uczucia i emocje) – 28 phrases.\n\nYou hear a word or sentence in English. Say it in Polish during the pause, before you hear the answer. Each Polish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Happy → Wesoły\n• Sad → Smutny\n• Angry → Zły\n\nTip: listen again until you can answer before the recorded voice.",
+      "season": 1,
+      "episode": 18
+    },
+    {
+      "id": "repeto:english-polish:topic-19",
+      "title": "Transport — Środki transportu",
+      "file": "practice/19_transport_en_pl_double_2026-11-11_18-48-56.mp3",
+      "duration_ms": 269471,
+      "published": "2026-11-11T17:53:20+00:00",
+      "description": "Topic 19 of 30: Transport (Środki transportu) – 25 phrases.\n\nYou hear a word or sentence in English. Say it in Polish during the pause, before you hear the answer. Each Polish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Car → Samochód\n• Bus → Autobus\n• Train → Pociąg\n\nTip: listen again until you can answer before the recorded voice.",
+      "season": 1,
+      "episode": 19
+    },
+    {
+      "id": "repeto:english-polish:topic-20",
+      "title": "Nature — Przyroda",
+      "file": "practice/20_nature_en_pl_double_2026-11-11_18-48-56.mp3",
+      "duration_ms": 275452,
+      "published": "2026-11-11T17:53:20+00:00",
+      "description": "Topic 20 of 30: Nature (Przyroda) – 27 phrases.\n\nYou hear a word or sentence in English. Say it in Polish during the pause, before you hear the answer. Each Polish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Forest → Las\n• Sea → Morze\n• Lake → Jezioro\n\nTip: listen again until you can answer before the recorded voice.",
+      "season": 1,
+      "episode": 20
+    },
+    {
+      "id": "repeto:english-polish:topic-21",
+      "title": "Holidays and Celebrations — Święta i uroczystości",
+      "file": "practice/21_holidays_and_celebrations_en_pl_double_2026-11-11_18-48-56.mp3",
+      "duration_ms": 262629,
+      "published": "2026-11-11T17:53:20+00:00",
+      "description": "Topic 21 of 30: Holidays and Celebrations (Święta i uroczystości) – 23 phrases.\n\nYou hear a word or sentence in English. Say it in Polish during the pause, before you hear the answer. Each Polish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Birthday → Urodziny\n• Happy birthday! → Wszystkiego najlepszego z okazji urodzin!\n• Christmas → Boże Narodzenie\n\nTip: listen again until you can answer before the recorded voice.",
+      "season": 1,
+      "episode": 21
+    },
+    {
+      "id": "repeto:english-polish:topic-22",
+      "title": "Daily Routine — Codzienne czynności",
+      "file": "practice/22_daily_routine_en_pl_double_2026-11-11_18-48-56.mp3",
+      "duration_ms": 315236,
+      "published": "2026-11-11T17:53:20+00:00",
+      "description": "Topic 22 of 30: Daily Routine (Codzienne czynności) – 28 phrases.\n\nYou hear a word or sentence in English. Say it in Polish during the pause, before you hear the answer. Each Polish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Wake up → Budzić się\n• Get up → Wstawać\n• Brush your teeth → Myć zęby\n\nTip: listen again until you can answer before the recorded voice.",
+      "season": 1,
+      "episode": 22
+    },
+    {
+      "id": "repeto:english-polish:topic-23",
+      "title": "Asking and Requests — Pytania i prośby",
+      "file": "practice/23_asking_and_requests_en_pl_double_2026-11-11_18-48-56.mp3",
+      "duration_ms": 271633,
+      "published": "2026-11-11T17:53:20+00:00",
+      "description": "Topic 23 of 30: Asking and Requests (Pytania i prośby) – 26 phrases.\n\nYou hear a word or sentence in English. Say it in Polish during the pause, before you hear the answer. Each Polish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Can you help me? → Czy możesz mi pomóc?\n• Help! → Pomocy!\n• Please! → Proszę!\n\nTip: listen again until you can answer before the recorded voice.",
+      "season": 1,
+      "episode": 23
+    },
+    {
+      "id": "repeto:english-polish:topic-24",
+      "title": "Opposites — Przeciwieństwa",
+      "file": "practice/24_opposites_en_pl_double_2026-11-11_18-48-56.mp3",
+      "duration_ms": 284220,
+      "published": "2026-11-11T17:53:20+00:00",
+      "description": "Topic 24 of 30: Opposites (Przeciwieństwa) – 28 phrases.\n\nYou hear a word or sentence in English. Say it in Polish during the pause, before you hear the answer. Each Polish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Big → Duży\n• Small → Mały\n• Long → Długi\n\nTip: listen again until you can answer before the recorded voice.",
+      "season": 1,
+      "episode": 24
+    },
+    {
+      "id": "repeto:english-polish:topic-25",
+      "title": "Actions and Verbs — Czynności i czasowniki",
+      "file": "practice/25_actions_and_verbs_en_pl_double_2026-11-11_18-48-56.mp3",
+      "duration_ms": 417087,
+      "published": "2026-11-11T17:53:20+00:00",
+      "description": "Topic 25 of 30: Actions and Verbs (Czynności i czasowniki) – 41 phrases.\n\nYou hear a word or sentence in English. Say it in Polish during the pause, before you hear the answer. Each Polish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Walk → Iść\n• Run → Biegać\n• Jump → Skakać\n\nTip: listen again until you can answer before the recorded voice.",
+      "season": 1,
+      "episode": 25
+    },
+    {
+      "id": "repeto:english-polish:topic-26",
+      "title": "Places in Town — Miejsca w mieście",
+      "file": "practice/26_places_in_town_en_pl_double_2026-11-11_18-48-56.mp3",
+      "duration_ms": 253356,
+      "published": "2026-11-11T17:53:20+00:00",
+      "description": "Topic 26 of 30: Places in Town (Miejsca w mieście) – 23 phrases.\n\nYou hear a word or sentence in English. Say it in Polish during the pause, before you hear the answer. Each Polish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Park → Park\n• Playground → Plac zabaw\n• Shop → Sklep\n\nTip: listen again until you can answer before the recorded voice.",
+      "season": 1,
+      "episode": 26
+    },
+    {
+      "id": "repeto:english-polish:topic-27",
+      "title": "Technology — Technologia",
+      "file": "practice/27_technology_en_pl_double_2026-11-11_18-48-56.mp3",
+      "duration_ms": 244789,
+      "published": "2026-11-11T17:53:20+00:00",
+      "description": "Topic 27 of 30: Technology (Technologia) – 22 phrases.\n\nYou hear a word or sentence in English. Say it in Polish during the pause, before you hear the answer. Each Polish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Phone → Telefon\n• Mobile phone → Telefon komórkowy\n• Computer → Komputer\n\nTip: listen again until you can answer before the recorded voice.",
+      "season": 1,
+      "episode": 27
+    },
+    {
+      "id": "repeto:english-polish:topic-28",
+      "title": "Music and Art — Muzyka i sztuka",
+      "file": "practice/28_music_and_art_en_pl_double_2026-11-11_18-48-56.mp3",
+      "duration_ms": 243949,
+      "published": "2026-11-11T17:53:20+00:00",
+      "description": "Topic 28 of 30: Music and Art (Muzyka i sztuka) – 23 phrases.\n\nYou hear a word or sentence in English. Say it in Polish during the pause, before you hear the answer. Each Polish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Music → Muzyka\n• Song → Piosenka\n• Dancing → Taniec\n\nTip: listen again until you can answer before the recorded voice.",
+      "season": 1,
+      "episode": 28
+    },
+    {
+      "id": "repeto:english-polish:topic-29",
+      "title": "Polite Phrases — Zwroty grzecznościowe",
+      "file": "practice/29_polite_phrases_en_pl_double_2026-11-11_18-48-56.mp3",
+      "duration_ms": 174410,
+      "published": "2026-11-11T17:53:20+00:00",
+      "description": "Topic 29 of 30: Polite Phrases (Zwroty grzecznościowe) – 17 phrases.\n\nYou hear a word or sentence in English. Say it in Polish during the pause, before you hear the answer. Each Polish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Please. → Proszę.\n• Thank you! → Dziękuję!\n• Thank you very much! → Bardzo dziękuję!\n\nTip: listen again until you can answer before the recorded voice.",
+      "season": 1,
+      "episode": 29
+    },
+    {
+      "id": "repeto:english-polish:topic-30",
+      "title": "Review and Recap — Powtórka",
+      "file": "practice/30_review_and_recap_en_pl_double_2026-11-11_18-48-56.mp3",
+      "duration_ms": 128361,
+      "published": "2026-11-11T17:53:20+00:00",
+      "description": "Topic 30 of 30: Review and Recap (Powtórka) – 11 phrases.\n\nYou hear a word or sentence in English. Say it in Polish during the pause, before you hear the answer. Each Polish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Well done! → Dobra robota!\n• You are learning a new language! → Uczysz się nowego języka!\n• Let's practise! → Ćwiczmy!\n\nTip: listen again until you can answer before the recorded voice.",
+      "season": 1,
+      "episode": 30
+    },
+    {
+      "id": "magical_radio:en:pl:chapter-01",
+      "title": "The Magical Radio: The Old Table — Stary stół",
+      "file": "stories/magical_radio/01_chapter_01_en_pl_2026-11-11_18-53-28.mp3",
+      "image": "images/stories/magical_radio/cover.jpeg",
+      "duration_ms": 298502,
+      "published": "2026-11-11T17:54:10+00:00",
+      "description": "Chapter 1 of 8 in \"The Magical Radio\" (Magiczne Radio). Two siblings find an old wooden radio at a flea market. Suddenly it starts to hum, and a golden inscription shows that the radio is meant for them.\n\nHow the episode works:\n1. Listen to the whole chapter in Polish. You don't need to understand everything.\n2. Practise words and expressions from the chapter: an English prompt, a pause, then the answer in Polish.\n3. Listen to the chapter again and see how much you can understand.\n\nA chime separates the sections. Listen in order, starting with chapter 1.",
+      "season": 2,
+      "episode": 1
+    },
+    {
+      "id": "magical_radio:en:pl:chapter-02",
+      "title": "The Magical Radio: A Voice from the Radio — Głos z radia",
+      "file": "stories/magical_radio/02_chapter_02_en_pl_2026-11-11_18-53-28.mp3",
+      "image": "images/stories/magical_radio/cover.jpeg",
+      "duration_ms": 266634,
+      "published": "2026-11-11T17:54:10+00:00",
+      "description": "Chapter 2 of 8 in \"The Magical Radio\" (Magiczne Radio). At home, the children press the blue button. A little cloud smelling of cinnamon floats out of the radio, and a cheerful voice tells them about a mouse with an important key.\n\nHow the episode works:\n1. Listen to the whole chapter in Polish. You don't need to understand everything.\n2. Practise words and expressions from the chapter: an English prompt, a pause, then the answer in Polish.\n3. Listen to the chapter again and see how much you can understand.\n\nA chime separates the sections. Listen in order, starting with chapter 1.",
+      "season": 2,
+      "episode": 2
+    },
+    {
+      "id": "magical_radio:en:pl:chapter-03",
+      "title": "The Magical Radio: A Mouse under the Tree — Mysz pod drzewem",
+      "file": "stories/magical_radio/03_chapter_03_en_pl_2026-11-11_18-53-28.mp3",
+      "image": "images/stories/magical_radio/cover.jpeg",
+      "duration_ms": 335859,
+      "published": "2026-11-11T17:54:10+00:00",
+      "description": "Chapter 3 of 8 in \"The Magical Radio\" (Magiczne Radio). With a torch, some cheese and the radio, the siblings head to the old tree. A little mouse agrees to a trade, and a small door is hidden between the roots.\n\nHow the episode works:\n1. Listen to the whole chapter in Polish. You don't need to understand everything.\n2. Practise words and expressions from the chapter: an English prompt, a pause, then the answer in Polish.\n3. Listen to the chapter again and see how much you can understand.\n\nA chime separates the sections. Listen in order, starting with chapter 1.",
+      "season": 2,
+      "episode": 3
+    },
+    {
+      "id": "magical_radio:en:pl:chapter-04",
+      "title": "The Magical Radio: Down the Stairs — Schody w dół",
+      "file": "stories/magical_radio/04_chapter_04_en_pl_2026-11-11_18-53-28.mp3",
+      "image": "images/stories/magical_radio/cover.jpeg",
+      "duration_ms": 264859,
+      "published": "2026-11-11T17:54:10+00:00",
+      "description": "Chapter 4 of 8 in \"The Magical Radio\" (Magiczne Radio). The silver key opens the door. Stone steps lead down to a library full of flying books, with glowing flowers growing on the walls.\n\nHow the episode works:\n1. Listen to the whole chapter in Polish. You don't need to understand everything.\n2. Practise words and expressions from the chapter: an English prompt, a pause, then the answer in Polish.\n3. Listen to the chapter again and see how much you can understand.\n\nA chime separates the sections. Listen in order, starting with chapter 1.",
+      "season": 2,
+      "episode": 4
+    },
+    {
+      "id": "magical_radio:en:pl:chapter-05",
+      "title": "The Magical Radio: The Flying Book — Latająca książka",
+      "file": "stories/magical_radio/05_chapter_05_en_pl_2026-11-11_18-53-28.mp3",
+      "image": "images/stories/magical_radio/cover.jpeg",
+      "duration_ms": 267117,
+      "published": "2026-11-11T17:54:10+00:00",
+      "description": "Chapter 5 of 8 in \"The Magical Radio\" (Magiczne Radio). A golden book lands on one of the children's shoulders, and the radio reveals a spell that can mend broken things.\n\nHow the episode works:\n1. Listen to the whole chapter in Polish. You don't need to understand everything.\n2. Practise words and expressions from the chapter: an English prompt, a pause, then the answer in Polish.\n3. Listen to the chapter again and see how much you can understand.\n\nA chime separates the sections. Listen in order, starting with chapter 1.",
+      "season": 2,
+      "episode": 5
+    },
+    {
+      "id": "magical_radio:en:pl:chapter-06",
+      "title": "The Magical Radio: The First Spell — Pierwsze zaklęcie",
+      "file": "stories/magical_radio/06_chapter_06_en_pl_2026-11-11_18-53-28.mp3",
+      "image": "images/stories/magical_radio/cover.jpeg",
+      "duration_ms": 214754,
+      "published": "2026-11-11T17:54:10+00:00",
+      "description": "Chapter 6 of 8 in \"The Magical Radio\" (Magiczne Radio). It's time to try the spell on a broken compass. Will it work? And who is waiting behind the green door?\n\nHow the episode works:\n1. Listen to the whole chapter in Polish. You don't need to understand everything.\n2. Practise words and expressions from the chapter: an English prompt, a pause, then the answer in Polish.\n3. Listen to the chapter again and see how much you can understand.\n\nA chime separates the sections. Listen in order, starting with chapter 1.",
+      "season": 2,
+      "episode": 6
+    },
+    {
+      "id": "magical_radio:en:pl:chapter-07",
+      "title": "The Magical Radio: The Golden Bird — Złoty ptak",
+      "file": "stories/magical_radio/07_chapter_07_en_pl_2026-11-11_18-53-28.mp3",
+      "image": "images/stories/magical_radio/cover.jpeg",
+      "duration_ms": 345223,
+      "published": "2026-11-11T17:54:10+00:00",
+      "description": "Chapter 7 of 8 in \"The Magical Radio\" (Magiczne Radio). Behind the door lies an underground garden. A golden bird ticks like a clock instead of singing. A stone is missing from its wing, and the radio has a secret.\n\nHow the episode works:\n1. Listen to the whole chapter in Polish. You don't need to understand everything.\n2. Practise words and expressions from the chapter: an English prompt, a pause, then the answer in Polish.\n3. Listen to the chapter again and see how much you can understand.\n\nA chime separates the sections. Listen in order, starting with chapter 1.",
+      "season": 2,
+      "episode": 7
+    },
+    {
+      "id": "magical_radio:en:pl:chapter-08",
+      "title": "The Magical Radio: The Grand Concert — Wielki koncert",
+      "file": "stories/magical_radio/08_chapter_08_en_pl_2026-11-11_18-53-28.mp3",
+      "image": "images/stories/magical_radio/cover.jpeg",
+      "duration_ms": 226600,
+      "published": "2026-11-11T17:54:10+00:00",
+      "description": "Chapter 8 of 8 in \"The Magical Radio\" (Magiczne Radio). The finale! Can the siblings mend the golden bird? The story ends with singing, dancing butterflies and the promise of another adventure.\n\nHow the episode works:\n1. Listen to the whole chapter in Polish. You don't need to understand everything.\n2. Practise words and expressions from the chapter: an English prompt, a pause, then the answer in Polish.\n3. Listen to the chapter again and see how much you can understand.\n\nA chime separates the sections. Listen in order, starting with chapter 1.",
+      "season": 2,
+      "episode": 8
+    }
+  ],
+  "seasons": {
+    "1": "Practice",
+    "2": "The Magical Radio"
+  }
+}
