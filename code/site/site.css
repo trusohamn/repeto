@@ -179,6 +179,22 @@ details.about summary{cursor:pointer;font-weight:800;font-size:18px}
 .printed-from{display:none}
 @media (max-width:900px){.hero .wrap,.course-hero .wrap{grid-template-columns:1fr}.hero-art{max-width:360px}.steps,.trust{grid-template-columns:1fr 1fr}.trail{display:none}.inside,.soon-grid{grid-template-columns:1fr}.course-hero img{max-width:240px}.how{grid-template-columns:1fr}}
 @media (max-width:600px){body{font-size:16px}section{padding:52px 0}.steps,.trust{grid-template-columns:1fr}.topbar nav{display:none}.panel.story{grid-template-columns:1fr}.panel.story img{max-width:160px}.soon-card{grid-template-columns:1fr}.soon-card .art{width:100%;max-width:200px}.story-text{grid-template-columns:1fr}.sheet{padding:20px}.episodes li{grid-template-columns:40px 1fr}.episodes .side{grid-column:2;text-align:left}.picker{padding:30px 24px;grid-template-columns:1fr;gap:26px}.pick-cover{max-width:200px;order:-1}}
+@media (max-width:600px){
+ .hero{padding-top:36px}.hero h1{font-size:40px}.hero .ctas{margin:20px 0 14px}.hero .facts{margin-bottom:8px;gap:8px}.hero .facts li{font-size:13px;padding:5px 10px}.hero-art{max-width:280px;margin:-56px auto -6px}.pick-cover{max-width:150px}.picker{padding:24px 20px;gap:18px}
+ .steps,.trust{gap:10px;margin-top:22px}
+ .steps li,.trust li{display:grid;grid-template-columns:84px 1fr;gap:4px 14px;align-items:center;padding:12px}
+ .steps .art,.trust .art{grid-row:span 2;width:84px;aspect-ratio:1;margin:0;border-radius:12px}
+ .steps h3,.trust b{margin:0;font-size:17px;align-self:end}.steps p,.trust p{font-size:14px;align-self:start}
+ .soon-grid{gap:10px}.soon-card{grid-template-columns:84px 1fr;gap:14px;padding:14px}.soon-card .art{width:84px}.soon-card h3{margin:6px 0 4px;font-size:17px}.soon-card p{margin:0;font-size:14px}
+ .cards{grid-template-columns:1fr 1fr;gap:10px}.card .body{padding:8px 10px 10px;gap:2px}.card h4{font-size:15px}.card .pair{font-size:10.5px}.card .meta{font-size:12px}.card .badge{font-size:11px;padding:2px 8px}
+ .course-hero{padding:24px 0 32px}.course-hero img{max-width:140px;border-radius:18px}.course-hero h1{font-size:32px}
+ .stats{display:grid;grid-template-columns:1fr 1fr;gap:8px}.stats li{padding:8px 12px}.stats b{font-size:18px}
+ .how{gap:8px}.how li{display:grid;grid-template-columns:32px 1fr;gap:2px 12px;padding:12px 14px;align-items:center}.how li::before{grid-row:span 2;width:32px;height:32px;margin:0;font-size:14px}.how b{margin:0}.how p{font-size:14px}
+ section{padding:40px 0}.inside{gap:12px;margin-top:22px}.panel{padding:20px}.panel h3{font-size:21px}.panel.story{grid-template-columns:96px 1fr;gap:6px 14px}.panel.story img{max-width:96px}
+ .episodes li{grid-template-columns:30px 1fr auto;gap:10px;padding:8px 12px}.episodes .num{width:30px;height:30px;font-size:13px}
+ .episodes h3{font-size:15px}.episodes p{font-size:13px}
+ .episodes .side{grid-column:auto;flex-direction:column;align-items:flex-end;gap:0;font-size:13px}
+}
 @media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}.word{opacity:0}.word.first{opacity:1}.note,.typing{opacity:0}.ring{opacity:0}.js .reveal,.js .card{opacity:1;transform:none}section h2::after{width:140px}.progress{display:none}}
 @media print{
  @page{margin:12mm}
