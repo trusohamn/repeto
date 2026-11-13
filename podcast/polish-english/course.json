@@ -309,7 +309,9 @@
       "published": "2026-10-29T19:56:06+00:00",
       "description": "Temat 30 z 30: Powtórka (Review and Recap) – 11 zwrotów.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Dobra robota! → Well done!\n• Uczysz się nowego języka! → You are learning a new language!\n• Ćwiczmy! → Let's practise!\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
       "season": 1,
-      "episode": 30
+      "episode": 30,
+      "bytes": 3027530,
+      "sha256": "8384e16044bd7e16988b2b441a0ba0768fd48ff8bd2b6dd53c342e847d7ef74d"
     },
     {
       "id": "magical_radio:pl:en:chapter-01",
