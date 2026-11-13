@@ -25,6 +25,7 @@ from typing import Any, Protocol
 ROOT = Path(__file__).resolve().parents[1]
 CHUNK = 1024 * 1024
 CACHE_CONTROL = "public, max-age=31536000, immutable"
+SITE_URL = "https://repeto.stream"
 
 
 def _load_podcast() -> Any:
@@ -307,6 +308,9 @@ def main(argv: list[str] | None = None) -> int:
         if args.remove_local:
             for item in items:
                 item.path.unlink()
+        # Keep committed feeds in line with course.json; Pages rebuilds them anyway.
+        for course in sorted({item.course for item in items}):
+            podcast.build_feed(course, SITE_URL)
         print(f"Published {len(items)} file(s).")
     except (PublishError, ValueError) as error:
         print(f"error: {error}", file=sys.stderr)
