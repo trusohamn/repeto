@@ -252,6 +252,24 @@ class PackagePracticeTests(unittest.TestCase):
             again = package_practice.package(args)
             self.assertEqual(again["episodes"][0]["published"], episode["published"])
 
+            audio = course / "audio/practice" / filename
+            catalog_path = course / "course.json"
+            published = json.loads(catalog_path.read_text(encoding="utf-8"))
+            published["episodes"][0].update(bytes=audio.stat().st_size, sha256="a" * 64)
+            catalog_path.write_text(json.dumps(published), encoding="utf-8")
+            audio.unlink()
+            repackaged = package_practice.package(args)
+            self.assertEqual(repackaged["episodes"][0]["sha256"], "a" * 64)
+            self.assertIn(
+                "https://audio.repeto.stream/swedish-russian/audio/practice/",
+                (course / "feed.xml").read_text(encoding="utf-8"),
+            )
+
+            published["episodes"][0]["file"] = "practice/other.mp3"
+            catalog_path.write_text(json.dumps(published), encoding="utf-8")
+            with self.assertRaises(FileNotFoundError):
+                package_practice.package(args)
+
     def test_rejects_stale_render_text(self):
         with tempfile.TemporaryDirectory() as directory:
             renders = Path(directory)

@@ -130,6 +130,8 @@ Packaging does **not** commit, push, or publish. To use GitHub Pages, configure
 **Settings → Pages → Source: GitHub Actions**, then review the deployment
 workflow before pushing. Submit your published RSS URL to podcast platforms.
 See the [packaging skill](.github/skills/package-podcast/SKILL.md) for details.
+Audio is published to Cloudflare R2 from approved PRs; see
+[docs/deploy.md](docs/deploy.md).
 
 ## Checks and further reference
 

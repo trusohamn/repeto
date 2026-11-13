@@ -23,6 +23,9 @@ ET.register_namespace("itunes", ITUNES)
 ET.register_namespace("atom", ATOM)
 ET.register_namespace("content", CONTENT)
 FINGERPRINT = re.compile(r"-[0-9a-f]{8}")
+AUDIO_BASE_URL = "https://audio.repeto.stream"
+AUDIO_METADATA = ("bytes", "sha256")
+SHA256 = re.compile(r"[0-9a-f]{64}")
 
 def _fingerprinted_versions(path: Path) -> list[Path]:
     return sorted(
@@ -74,11 +77,55 @@ def remove_superseded_audio(course: Path, old_files: list[str]) -> list[Path]:
     return removed
 
 
-def build_feed(course: Path, base_url: str) -> None:
+def audio_key(course_name: str, filename: str) -> str:
+    """Return the storage key for an episode; it mirrors the GitHub Pages path."""
+    return f"{course_name}/audio/{filename}"
+
+
+def safe_audio_path(filename: object) -> PurePosixPath:
+    if not isinstance(filename, str):
+        raise ValueError(f"Invalid audio filename: {filename!r}")
+    relative = PurePosixPath(filename)
+    if (
+        "\\" in filename
+        or relative.is_absolute()
+        or str(relative) != filename
+        or any(part in {"", ".", ".."} for part in relative.parts)
+        or relative.suffix != ".mp3"
+    ):
+        raise ValueError(f"Invalid audio filename: {filename!r}")
+    return relative
+
+
+def published_audio(episode: dict) -> tuple[int, str] | None:
+    """Return verified upload metadata (size, SHA-256), or None if not uploaded."""
+    present = [name for name in AUDIO_METADATA if name in episode]
+    if not present:
+        return None
+    size, digest = episode.get("bytes"), episode.get("sha256")
+    if (
+        len(present) != len(AUDIO_METADATA)
+        or type(size) is not int or size < 1
+        or not isinstance(digest, str) or SHA256.fullmatch(digest) is None
+    ):
+        raise ValueError(f"Invalid published audio metadata: {episode.get('id')!r}")
+    return size, digest
+
+
+def carry_audio_metadata(previous: dict, episode: dict) -> dict:
+    """Keep upload metadata when a repackaged episode still uses the same audio file."""
+    if previous.get("file") == episode.get("file"):
+        for name in AUDIO_METADATA:
+            if name in previous:
+                episode[name] = previous[name]
+    return episode
+
+
+def build_feed(course: Path, base_url: str, audio_base_url: str = AUDIO_BASE_URL) -> None:
     config = json.loads((course / "course.json").read_text(encoding="utf-8"))
     url = f"{base_url.rstrip('/')}/{quote(course.name)}"
-    if not base_url.startswith("https://"):
-        raise ValueError("Podcast hosting requires an HTTPS base URL.")
+    if not base_url.startswith("https://") or not audio_base_url.startswith("https://"):
+        raise ValueError("Podcast hosting requires HTTPS base URLs.")
     if find_image(course / "cover.jpeg") is None:
         raise ValueError(f"Missing cover: {course}")
     episodes = config["episodes"]
@@ -124,21 +171,22 @@ def build_feed(course: Path, base_url: str) -> None:
         if (season, number) in seen_numbers:
             raise ValueError(f"Duplicate season/episode: {season}/{number}")
         seen_numbers.add((season, number))
-        filename = episode["file"]
-        if not isinstance(filename, str):
-            raise ValueError(f"Invalid audio filename: {filename!r}")
-        relative_audio_path = PurePosixPath(filename)
-        if (
-            "\\" in filename
-            or relative_audio_path.is_absolute()
-            or str(relative_audio_path) != filename
-            or any(part in {"", ".", ".."} for part in relative_audio_path.parts)
-            or relative_audio_path.suffix != ".mp3"
-        ):
-            raise ValueError(f"Invalid audio filename: {filename!r}")
+        relative_audio_path = safe_audio_path(episode["file"])
         audio = course / "audio" / Path(*relative_audio_path.parts)
-        if not audio.is_file() or audio.stat().st_size == 0:
-            raise ValueError(f"Missing or empty audio: {audio}")
+        audio_path = "/".join(quote(part) for part in relative_audio_path.parts)
+        published = published_audio(episode)
+        if published is not None:
+            audio_length = published[0]
+            if audio.is_file() and audio.stat().st_size != audio_length:
+                raise ValueError(f"Local audio differs from published metadata: {audio}")
+            audio_url = (
+                f"{audio_base_url.rstrip('/')}/{quote(course.name)}/audio/{audio_path}"
+            )
+        else:
+            if not audio.is_file() or audio.stat().st_size == 0:
+                raise ValueError(f"Missing or empty audio: {audio}")
+            audio_length = audio.stat().st_size
+            audio_url = f"{url}/audio/{audio_path}"
         if episode["id"] in seen:
             raise ValueError(f"Duplicate episode ID: {episode['id']}")
         seen.add(episode["id"])
@@ -183,11 +231,7 @@ def build_feed(course: Path, base_url: str) -> None:
                 href=url + "/" + "/".join(quote(part) for part in published_parts),
             )
         ET.SubElement(
-            item, "enclosure",
-            url=url + "/audio/" + "/".join(
-                quote(part) for part in relative_audio_path.parts
-            ),
-            length=str(audio.stat().st_size), type="audio/mpeg",
+            item, "enclosure", url=audio_url, length=str(audio_length), type="audio/mpeg",
         )
     ET.indent(rss)
     ET.ElementTree(rss).write(course / "feed.xml", encoding="utf-8", xml_declaration=True)
@@ -231,12 +275,16 @@ def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--root", type=Path, default=Path("podcast"))
     parser.add_argument("--base-url", default="https://repeto.stream")
+    parser.add_argument(
+        "--audio-base-url", default=AUDIO_BASE_URL,
+        help="Public URL for audio that has verified upload metadata in course.json.",
+    )
     args = parser.parse_args()
     courses = sorted(path.parent for path in args.root.glob("*/course.json"))
     if not courses:
         raise ValueError("No course catalogs found.")
     for course in courses:
-        build_feed(course, args.base_url)
+        build_feed(course, args.base_url, args.audio_base_url)
     build_index(args.root, courses, args.base_url)
     (args.root / ".nojekyll").touch()
 

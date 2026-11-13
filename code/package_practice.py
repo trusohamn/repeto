@@ -159,14 +159,21 @@ def package(args: argparse.Namespace) -> dict[str, Any]:
         filename = manifest["audio_file"]
         render = args.renders / filename
         destination = course / "audio" / "practice" / filename
-        validate_render(
-            render if render.is_file() else destination,
-            manifest, items, number, source, target,
-        )
         episode_id = f"repeto:{args.course}:topic-{number:02d}"
         old = previous.get(episode_id, {})
+        # Published audio lives in R2, not the checkout; it was validated before upload.
+        in_storage_only = (
+            not render.is_file() and not destination.is_file()
+            and old.get("file") == f"practice/{filename}"
+            and _podcast_builder().published_audio(old) is not None
+        )
+        if not in_storage_only:
+            validate_render(
+                render if render.is_file() else destination,
+                manifest, items, number, source, target,
+            )
         source_title = titles[topic][source]
-        practice_episodes.append((render, destination, {
+        practice_episodes.append((render, destination, _podcast_builder().carry_audio_metadata(old, {
             "id": episode_id,
             "title": f"{source_title} — {titles[topic][target]}",
             "file": f"practice/{filename}",
@@ -177,10 +184,11 @@ def package(args: argparse.Namespace) -> dict[str, Any]:
             ),
             "season": old.get("season", 1),
             "episode": old.get("episode", number),
-        }))
+        })))
         print(f"Validated: {topic} ({len(items)} entries)", flush=True)
-    for render, destination, _ in practice_episodes:
-        move_audio(render, destination)
+    for render, destination, episode in practice_episodes:
+        if render.is_file() or destination.is_file() or "sha256" not in episode:
+            move_audio(render, destination)
     new_ids = {episode["id"] for _, _, episode in practice_episodes}
     catalog["episodes"] = [episode for _, _, episode in practice_episodes] + [
         episode for episode in catalog["episodes"] if episode["id"] not in new_ids
