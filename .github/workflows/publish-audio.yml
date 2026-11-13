@@ -98,6 +98,12 @@ jobs:
             commit -m "Publish audio to R2"
           # A plain push is rejected if the branch moved after approval.
           git push origin "HEAD:refs/heads/$HEAD_REF"
+          # GitHub needs a moment to compute mergeability of the new commit.
+          for attempt in $(seq 30); do
+            state=$(gh pr view "$PR" --repo "$GITHUB_REPOSITORY" --json mergeable --jq .mergeable)
+            [ "$state" != UNKNOWN ] && break
+            sleep 5
+          done
           gh pr merge "$PR" --repo "$GITHUB_REPOSITORY" --squash --delete-branch \
             --match-head-commit "$(git rev-parse HEAD)"
 
@@ -111,7 +117,8 @@ jobs:
         run: >-
           gh pr comment "$PR" --repo "$GITHUB_REPOSITORY" --body
           "Audio publishing failed: $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID
-          — fix the problem and add the \`publish-audio\` label again. Uploads are safe to retry."
+          — fix the problem and add the \`publish-audio\` label again. Uploads are safe to retry.
+          If a \"Publish audio to R2\" commit is already on this PR, only the merge failed: merge it manually."
 
   migration:
     if: github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/main'
