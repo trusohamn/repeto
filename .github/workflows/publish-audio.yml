@@ -74,7 +74,7 @@ jobs:
           R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
           R2_BUCKET: ${{ secrets.R2_BUCKET }}
         run: |
-          mapfile -d '' paths < <(git diff --name-only -z --diff-filter=AM \
+          mapfile -d '' paths < <(git diff --no-renames --name-only -z --diff-filter=AM \
             "$BASE_SHA...$HEAD_SHA" -- ':(glob)podcast/*/audio/**')
           if [ "${#paths[@]}" -eq 0 ]; then
             echo "::error::The PR adds or changes no audio under podcast/*/audio/."
