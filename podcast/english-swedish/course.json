@@ -309,7 +309,9 @@
       "published": "2026-10-30T12:25:55+00:00",
       "description": "Topic 30 of 30: Review and Recap (Repetition) – 11 phrases.\n\nYou hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Well done! → Bra gjort!\n• You are learning a new language! → Du lär dig ett nytt språk!\n• Let's practise! → Nu övar vi!\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 30
+      "episode": 30,
+      "bytes": 3060758,
+      "sha256": "d0b12b71ad9df67a66232143c7c179f1dcc1b0a25f0809b0108f35cd03278f60"
     },
     {
       "id": "magical_radio:en:sv:chapter-01",
