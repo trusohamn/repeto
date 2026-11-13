@@ -82,7 +82,7 @@ to upload from a machine.
 ```bash
 python code/audio_publish.py plan                      # pending audio, no upload
 python code/audio_publish.py publish --storage /tmp/r2 # rehearse into a folder
-python code/audio_publish.py check --storage /tmp/r2   # verify recorded metadata
+python code/audio_publish.py check --storage /tmp/r2   # verify saved size and checksum
 ```
 
 ## One-time setup

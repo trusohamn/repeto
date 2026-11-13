@@ -1,4 +1,4 @@
-"""Publish episode MP3s to Cloudflare R2 and record verified metadata in course.json.
+"""Publish episode MP3s to Cloudflare R2 and save their size and checksum in course.json.
 
 Storage keys mirror the GitHub Pages paths (``<course>/audio/<file>``) and are
 never overwritten: identical audio is reused, different audio is refused.
@@ -172,7 +172,7 @@ def pending_audio(root: Path, paths: Iterable[Path] | None = None) -> list[Audio
 
     With ``paths``, only those MP3s are considered and each must belong to an
     episode.  Already published episodes are skipped when their local copy
-    matches the recorded metadata and refused when it differs.
+    matches the saved size and checksum and refused when it differs.
     """
     wanted = None if paths is None else {path.resolve() for path in paths}
     matched: set[Path] = set()
@@ -223,7 +223,7 @@ def publish(storage: Storage, items: Iterable[AudioItem], log: Any = print) -> N
         log(f"{'Reused' if stored else 'Uploaded'} and verified: {item.key}")
 
 
-def record(items: Iterable[AudioItem]) -> None:
+def save_metadata(items: Iterable[AudioItem]) -> None:
     """Write verified size and digest into each episode of its course.json."""
     by_course: dict[Path, dict[str, AudioItem]] = {}
     for item in items:
@@ -271,7 +271,7 @@ def main(argv: list[str] | None = None) -> int:
     commands = parser.add_subparsers(dest="command", required=True)
     for name, help_text in (
         ("plan", "List audio that would be published (no storage access)."),
-        ("publish", "Upload, verify and record audio."),
+        ("publish", "Upload and verify audio, then save its size and checksum."),
         ("check", "Verify that every published episode is stored unchanged."),
     ):
         command = commands.add_parser(name, help=help_text)
@@ -284,7 +284,7 @@ def main(argv: list[str] | None = None) -> int:
                                  help='"r2" or a local directory for rehearsals.')
     publish_command = commands.choices["publish"]
     publish_command.add_argument("--remove-local", action="store_true",
-                                 help="Delete local MP3s after they are verified and recorded.")
+                                 help="Delete local MP3s after they are verified and their size and checksum are saved.")
     publish_command.add_argument("--require-audio", action="store_true",
                                  help="Fail when there is nothing to publish.")
     args = parser.parse_args(argv)
@@ -303,7 +303,7 @@ def main(argv: list[str] | None = None) -> int:
         if args.require_audio and not items:
             raise PublishError("No audio to publish.")
         publish(_storage(args.storage), items)
-        record(items)
+        save_metadata(items)
         if args.remove_local:
             for item in items:
                 item.path.unlink()

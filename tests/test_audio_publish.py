@@ -114,7 +114,7 @@ class AudioPublishTests(unittest.TestCase):
         self.assertIn("2 file(s) to publish.", out)
         self.assertFalse(self.bucket.exists())
 
-    def test_publish_uploads_verifies_records_and_removes_local_audio(self):
+    def test_publish_uploads_verifies_saves_metadata_and_removes_local_audio(self):
         code, out, err = self._run(
             "publish", "--root", str(self.root), "--storage", str(self.bucket), "--remove-local",
         )
@@ -166,7 +166,7 @@ class AudioPublishTests(unittest.TestCase):
             audio_publish.publish(audio_publish.DirectoryStorage(self.bucket), items, logs.append)
         self.assertEqual(key.read_bytes(), b"other audio")
 
-    def test_failed_verification_records_nothing_and_keeps_local_audio(self):
+    def test_failed_verification_saves_nothing_and_keeps_local_audio(self):
         items = audio_publish.pending_audio(self.root)
         with self.assertRaisesRegex(audio_publish.PublishError, "failed verification"):
             audio_publish.publish(CorruptingStorage(self.bucket), items, lambda _: None)
