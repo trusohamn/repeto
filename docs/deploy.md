@@ -87,11 +87,26 @@ python code/audio_publish.py check --storage /tmp/r2   # verify saved size and c
 
 ## One-time setup
 
-1. Create an R2 bucket and connect the custom domain `audio.repeto.stream`
-   (the `r2.dev` URL is rate-limited and not for production).
-2. Create an R2 API token with Object Read & Write limited to the bucket.
-3. Create the GitHub environment `audio-production` with secrets
-   `R2_ACCOUNT_ID`, `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY` and `R2_BUCKET`.
+1. Create the R2 bucket `repeto-stream` and add the custom domain
+   `audio.repeto.stream`. Do not connect `repeto.stream` itself: it would take
+   the website and feeds away from GitHub Pages. Keep the public development
+   URL (`r2.dev`) disabled.
+2. Create an R2 **Account API token** with Object Read & Write limited to
+   `repeto-stream`, without IP filtering. Its S3 Access Key ID and Secret Access
+   Key are shown once; paste them directly into GitHub.
+3. Create the GitHub environment `audio-production`:
+   - Deployment branches: selected branches, `main` only. Both workflow modes
+     run in the context of `main`. No required reviewers or wait timer; the
+     label is the approval.
+   - Environment secrets (no environment variables are used):
+
+     | Secret | Value |
+     |---|---|
+     | `R2_ACCOUNT_ID` | Cloudflare account ID, from the bucket's S3 API URL `https://<account id>.r2.cloudflarestorage.com` |
+     | `R2_BUCKET` | `repeto-stream` |
+     | `R2_ACCESS_KEY_ID` | Access Key ID of the R2 API token |
+     | `R2_SECRET_ACCESS_KEY` | Secret Access Key of the R2 API token |
+
 4. Create the `publish-audio` label. Allow GitHub Actions to create PRs (for
    migration), and make sure branch protection on `main` lets the workflow
    squash-merge without status checks on its own commit.
