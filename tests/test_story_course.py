@@ -668,6 +668,19 @@ class StoryCourseTests(unittest.TestCase):
                 sorted(path.name for path in story_cover.parent.iterdir()), [story_cover.name]
             )
 
+            published = json.loads(catalog_path.read_text(encoding="utf-8"))
+            published["episodes"][2].update(bytes=11, sha256="b" * 64)
+            catalog_path.write_text(json.dumps(published), encoding="utf-8")
+            (audio_dir / added["file"]).unlink()
+            story_course.package_podcasts(args, transcript, build)
+            repackaged = json.loads(catalog_path.read_text(encoding="utf-8"))["episodes"][2]
+            self.assertEqual((repackaged["bytes"], repackaged["sha256"]), (11, "b" * 64))
+            published["episodes"][2].pop("sha256")
+            published["episodes"][2].pop("bytes")
+            catalog_path.write_text(json.dumps(published), encoding="utf-8")
+            with self.assertRaisesRegex(FileNotFoundError, "Missing completed story audio"):
+                story_course.package_podcasts(args, transcript, build)
+
     def test_swedish_english_story_episode_has_swedish_description(self):
         chapter = mini_story()["chapters"][0]
         transcript = {

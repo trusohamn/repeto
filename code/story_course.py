@@ -1030,8 +1030,10 @@ def package_podcasts(
             audio_source = args.output / audio_name
             relative_audio_name = f'stories/{transcript["story_id"]}/{audio_name}'
             audio_destination = audio_dir / relative_audio_name
+            episode_id = f'{transcript["story_id"]}:{source_language}:{target}:chapter-{number:02d}'
+            previous = previous_by_id.get(episode_id, {})
             # Packaging moves the render so each episode MP3 exists only once;
-            # reruns accept audio that an earlier run already moved.
+            # reruns accept audio that an earlier run already moved or published to R2.
             if audio_source.is_file():
                 if audio_destination.exists():
                     if audio_destination.read_bytes() != audio_source.read_bytes():
@@ -1042,13 +1044,14 @@ def package_podcasts(
                 else:
                     audio_destination.parent.mkdir(parents=True, exist_ok=True)
                     shutil.move(audio_source, audio_destination)
-            elif not audio_destination.is_file():
+            elif not audio_destination.is_file() and not (
+                previous.get("file") == relative_audio_name
+                and builder.published_audio(previous) is not None
+            ):
                 raise FileNotFoundError(f"Missing completed story audio: {audio_source}")
             data["packaged_audio"] = (
                 audio_destination.relative_to(podcast_root).as_posix()
             )
-            episode_id = f'{transcript["story_id"]}:{source_language}:{target}:chapter-{number:02d}'
-            previous = previous_by_id.get(episode_id, {})
             if "file" in previous:
                 superseded.append(previous["file"])
             episode = {
@@ -1076,6 +1079,7 @@ def package_podcasts(
                 "season": previous.get("season", story_season),
                 "episode": previous.get("episode", number),
             }
+            builder.carry_audio_metadata(previous, episode)
             if episode_id in previous_by_id:
                 episode_index = next(
                     index for index, existing in enumerate(episodes)
