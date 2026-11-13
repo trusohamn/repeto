@@ -12,15 +12,16 @@ flowchart TD
     C --> D["Trusted Action uploads audio to public R2"]
     D --> E{"Upload and metadata verified?"}
     E -- No --> F["Stop and report failure"]
-    E -- Yes --> G["Update metadata and remove uploaded MP3s from PR branch"]
-    G --> H["Squash-merge the verified PR"]
+    E -- Yes --> G["Save size and checksum, rebuild feed.xml, remove uploaded MP3s on PR branch"]
+    G --> H["Maintainer squash-merges the PR"]
     H --> I["Pages Action builds feeds and website"]
     I --> J["Deploy feeds and website"]
 ```
 
-The approval starts the production upload; there is no private staging or
-second publishing approval. The audio is public on R2 before merge, although
-the updated feeds and website do not advertise it until the Pages deployment.
+The label starts the production upload; there is no private staging. The
+workflow does not merge: a maintainer merges the cleaned PR like any other,
+which deploys the feeds and website. The audio is public on R2 before merge,
+but nothing links to it until the Pages deployment.
 
 ## Publishing behavior
 
@@ -36,19 +37,22 @@ the updated feeds and website do not advertise it until the Pages deployment.
   be reused, but different audio must not overwrite an existing versioned key.
 - Only after verification does the workflow update the PR with the information
   needed to publish, including each audio object's filename, size and digest,
-  and remove the uploaded MP3s from the PR's final state. The resulting
+  rebuild the affected `feed.xml` files so their enclosures point to R2, and
+  remove the uploaded MP3s from the PR's final state. The resulting
   revision must correspond to the approved content and verified audio; any
   other change invalidates authorization.
-- The verified, cleaned PR is squash-merged. Its resulting commit on `main`
-  contains publishing metadata, not the newly uploaded MP3s. Earlier PR
-  commits can still contain the audio; this does not erase Git history.
+- The workflow comments that the PR is ready, and a maintainer squash-merges
+  it. Its resulting commit on `main` contains publishing metadata and updated
+  feeds, not the newly uploaded MP3s. Earlier PR commits can still contain the
+  audio; this does not erase Git history.
 - After merge, the Pages workflow rebuilds and deploys the feeds and website.
   Their audio links point to R2, and feed enclosure lengths come from verified
   metadata rather than local MP3 files. Relevant metadata changes must trigger
   this deployment.
-- Upload or verification failure stops cleanup and merge. Publication must not
-  deploy feeds pointing to missing or unverified audio. If an upload succeeds
-  but a later step fails, the public object may remain; retrying must be safe.
+- Upload or verification failure stops cleanup, so the PR is not ready to
+  merge. Publication must not deploy feeds pointing to missing or unverified
+  audio. If an upload succeeds but a later step fails, the public object may
+  remain; retrying must be safe.
 
 ## How it is implemented
 
@@ -66,13 +70,15 @@ the updated feeds and website do not advertise it until the Pages deployment.
 - Each published episode in `course.json` gets `bytes` and `sha256`.
   [podcast.py](../code/podcast.py) points enclosures with this metadata to R2;
   episodes without it keep their Pages URLs, so migration is incremental.
-  Re-packaging keeps the metadata and does not need the MP3 locally.
-- The workflow commits with `GITHUB_TOKEN`, which does not trigger workflows,
-  so it starts [podcast.yml](../.github/workflows/podcast.yml) explicitly after
-  merging.
+  After saving the metadata, the publisher rebuilds `feed.xml` for the affected
+  courses, so the PR shows the new R2 enclosure URLs. Pages rebuilds all feeds
+  on deploy as well. Re-packaging keeps the metadata and does not need the MP3
+  locally.
+- The maintainer's merge to `main` triggers
+  [podcast.yml](../.github/workflows/podcast.yml) as usual.
 - On failure the workflow comments on the PR. Fix the cause and add the label
-  again; already uploaded identical audio is reused. If only the merge failed,
-  the PR already contains the metadata and can be merged manually.
+  again; already uploaded identical audio is reused. Do not merge a PR that
+  still contains new MP3s: they would be served from Pages, not R2.
 
 ## Local use
 
@@ -107,14 +113,15 @@ python code/audio_publish.py check --storage /tmp/r2   # verify saved size and c
      | `R2_ACCESS_KEY_ID` | Access Key ID of the R2 API token |
      | `R2_SECRET_ACCESS_KEY` | Secret Access Key of the R2 API token |
 
-4. Create the `publish-audio` label. Allow GitHub Actions to create PRs (for
-   migration), and make sure branch protection on `main` lets the workflow
-   squash-merge without status checks on its own commit.
+4. Create the `publish-audio` label and allow GitHub Actions to create PRs (for
+   migration). If `main` gets branch protection, required status checks will
+   not run on the workflow's own commit (`GITHUB_TOKEN` pushes do not trigger
+   workflows).
 5. Upload a single test MP3 and confirm HTTPS playback, seeking and the RSS
    enclosure URL.
 6. Run **Publish audio** manually on `main` to migrate tracked audio. It uploads
-   and verifies everything pending and opens a PR with the metadata; merging it
-   switches feeds to R2.
+   and verifies everything pending and opens a PR with the metadata and
+   rebuilt feeds; merging it switches feeds to R2.
 
 ## Operations and boundaries
 

@@ -1,8 +1,10 @@
 name: Publish audio
 # Adding the "publish-audio" label to a PR is the single approval: the audio the
-# PR adds is uploaded to R2 and verified, the MP3s are replaced by metadata in
-# course.json, and the PR is squash-merged.  Running the workflow manually from
-# main migrates already-tracked audio and opens a PR with the metadata.
+# PR adds is uploaded to R2 and verified, and the MP3s are replaced on the PR
+# branch by their size and checksum in course.json, with feed.xml rebuilt to
+# point to R2.  A maintainer then merges
+# the PR, which deploys the feeds and website.  Running the workflow manually
+# from main migrates already-tracked audio and opens a PR with the metadata.
 on:
   pull_request_target:
     types: [labeled]
@@ -26,7 +28,6 @@ jobs:
     permissions:
       contents: write
       pull-requests: write
-      actions: write
     env:
       GH_TOKEN: ${{ github.token }}
       PR: ${{ github.event.pull_request.number }}
@@ -66,7 +67,7 @@ jobs:
             exit 1
           fi
 
-      - name: Upload audio to R2, verify it and save size and checksum in course.json
+      - name: Upload audio to R2, verify it and save size and checksum, rebuild feeds
         working-directory: pr
         env:
           R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
@@ -83,12 +84,12 @@ jobs:
           python ../trusted/code/audio_publish.py publish --root podcast --storage r2 \
             --require-audio --remove-local -- "${paths[@]}"
 
-      - name: Replace MP3s with metadata and merge
+      - name: Replace MP3s with metadata on the PR branch
         working-directory: pr
         run: |
           git add -A -- podcast
           unexpected=$(git diff --cached --name-status \
-            | grep -Ev $'^(M\tpodcast/[^/]+/course\\.json|D\tpodcast/[^/]+/audio/.+\\.mp3)$' || true)
+            | grep -Ev $'^(M\tpodcast/[^/]+/(course\\.json|feed\\.xml)|D\tpodcast/[^/]+/audio/.+\\.mp3)$' || true)
           if [ -n "$unexpected" ]; then
             echo "::error::Unexpected changes: $unexpected"
             exit 1
@@ -98,27 +99,15 @@ jobs:
             commit -m "Publish audio to R2"
           # A plain push is rejected if the branch moved after approval.
           git push origin "HEAD:refs/heads/$HEAD_REF"
-          # GitHub needs a moment to compute mergeability of the new commit.
-          for attempt in $(seq 30); do
-            state=$(gh pr view "$PR" --repo "$GITHUB_REPOSITORY" --json mergeable --jq .mergeable)
-            [ "$state" != UNKNOWN ] && break
-            sleep 5
-          done
-          gh pr merge "$PR" --repo "$GITHUB_REPOSITORY" --squash --delete-branch \
-            --match-head-commit "$(git rev-parse HEAD)"
-
-      # Pushes made with GITHUB_TOKEN do not trigger workflows, so start the
-      # Pages deployment explicitly.
-      - name: Deploy feeds and website
-        run: gh workflow run podcast.yml --repo "$GITHUB_REPOSITORY" --ref main
+          gh pr comment "$PR" --repo "$GITHUB_REPOSITORY" --body \
+            "Audio published to R2 and verified. MP3s replaced by size and checksum in course.json; feed.xml now points to R2. Ready to merge."
 
       - name: Report failure
         if: failure()
         run: >-
           gh pr comment "$PR" --repo "$GITHUB_REPOSITORY" --body
           "Audio publishing failed: $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID
-          — fix the problem and add the \`publish-audio\` label again. Uploads are safe to retry.
-          If a \"Publish audio to R2\" commit is already on this PR, only the merge failed: merge it manually."
+          — fix the problem and add the \`publish-audio\` label again. Uploads are safe to retry."
 
   migration:
     if: github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/main'
@@ -138,7 +127,7 @@ jobs:
 
       - run: pip install -r requirements-publish.txt
 
-      - name: Upload tracked audio to R2, verify it and save size and checksum in course.json
+      - name: Upload tracked audio to R2, verify it and save size and checksum, rebuild feeds
         env:
           R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
           R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
@@ -152,7 +141,7 @@ jobs:
             echo "All tracked audio is already published."
             exit 0
           fi
-          unexpected=$(git diff --name-only | grep -Ev '^podcast/[^/]+/course\.json$' || true)
+          unexpected=$(git diff --name-only | grep -Ev '^podcast/[^/]+/(course\.json|feed\.xml)$' || true)
           if [ -n "$unexpected" ]; then
             echo "::error::Unexpected changes: $unexpected"
             exit 1
@@ -164,4 +153,4 @@ jobs:
             commit -am "Save size and checksum of audio migrated to R2"
           git push origin "$branch"
           gh pr create --base main --head "$branch" --title "Save size and checksum of audio migrated to R2" \
-            --body "Audio was uploaded to R2 and verified by run $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID. Merging switches feed enclosures to R2; the MP3s stay in Git so existing URLs keep working."
+            --body "Audio was uploaded to R2 and verified by run $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID. Feeds are rebuilt with R2 enclosures and take effect on merge; the MP3s stay in Git so existing URLs keep working."

@@ -126,6 +126,9 @@ class AudioPublishTests(unittest.TestCase):
         first = self._episodes()[0]
         self.assertEqual(first["bytes"], 11)
         self.assertEqual(first["sha256"], hashlib.sha256(b"first audio").hexdigest())
+        published = ET.parse(self.course / "feed.xml").find("./channel/item/enclosure")
+        assert published is not None
+        self.assertTrue(published.get("url", "").startswith(podcast.AUDIO_BASE_URL))
         self.assertEqual(self._run("plan", "--root", str(self.root))[1].strip(),
                          "0 file(s) to publish.")
         self.assertEqual(self._run("check", "--root", str(self.root),
