@@ -307,7 +307,9 @@
       "published": "2026-10-27T18:52:57+00:00",
       "description": "Ämne 30 av 30: Repetition (Review and Recap) – 11 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Bra gjort! → Well done!\n• Du lär dig ett nytt språk! → You are learning a new language!\n• Nu övar vi! → Let's practise!\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 30
+      "episode": 30,
+      "bytes": 3016872,
+      "sha256": "0bd68b0d118681bd940e7339ddbba61c65ebdff2dc5702a11a550e4655dc47de"
     },
     {
       "id": "magical_radio:sv:en:chapter-01",
