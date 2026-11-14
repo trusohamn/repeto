@@ -15,7 +15,9 @@
       "published": "2026-11-08T17:12:12+00:00",
       "description": "Ämne 1 av 30: Hälsningar (Saludos) – 36 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på spanska i pausen innan svaret kommer. Varje spansk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Hej! → ¡Hola!\n• God morgon! → ¡Buenos días!\n• God eftermiddag! → ¡Buenas tardes!\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 1
+      "episode": 1,
+      "bytes": 9130152,
+      "sha256": "6210bcf645f6505851462caaa4d9748684c35a2a8bd6bc8ed363ed3304a3f146"
     },
     {
       "id": "repeto:swedish-spanish:topic-02",
@@ -25,7 +27,9 @@
       "published": "2026-11-08T17:12:12+00:00",
       "description": "Ämne 2 av 30: Tal (Números) – 35 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på spanska i pausen innan svaret kommer. Varje spansk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Ett → Uno\n• Två → Dos\n• Tre → Tres\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 2
+      "episode": 2,
+      "bytes": 8463089,
+      "sha256": "71811eff23141a6df524bacb378fd53f5497718c79de6db43489079ac8f3bd23"
     },
     {
       "id": "repeto:swedish-spanish:topic-03",
@@ -35,7 +39,9 @@
       "published": "2026-11-08T17:12:12+00:00",
       "description": "Ämne 3 av 30: Färger (Colores) – 29 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på spanska i pausen innan svaret kommer. Varje spansk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Röd → Rojo\n• Blå → Azul\n• Gul → Amarillo\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 3
+      "episode": 3,
+      "bytes": 7517665,
+      "sha256": "70d51dc926ff2cfce7c83a6fb38860bc77078aa762c816a74e85015f47da868a"
     },
     {
       "id": "repeto:swedish-spanish:topic-04",
@@ -45,7 +51,9 @@
       "published": "2026-11-08T17:12:12+00:00",
       "description": "Ämne 4 av 30: Djur (Animales) – 42 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på spanska i pausen innan svaret kommer. Varje spansk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Hund → Perro\n• Katt → Gato\n• Fågel → Pájaro\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 4
+      "episode": 4,
+      "bytes": 10471174,
+      "sha256": "0d5e8204d83f6b6b01dab43e848bd8e1d0ad5b9d393e60175acf2b989e0eed65"
     },
     {
       "id": "repeto:swedish-spanish:topic-05",
@@ -55,7 +63,9 @@
       "published": "2026-11-08T17:12:12+00:00",
       "description": "Ämne 5 av 30: Familj (Familia) – 26 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på spanska i pausen innan svaret kommer. Varje spansk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Mamma → Mamá\n• Pappa → Papá\n• Syster → Hermana\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 5
+      "episode": 5,
+      "bytes": 7041192,
+      "sha256": "9b6d0a73c5102e2d3ed93b8b0f9e05f8afd50ac4248aa612a1a25a7f1ef39cad"
     },
     {
       "id": "repeto:swedish-spanish:topic-06",
@@ -65,7 +75,9 @@
       "published": "2026-11-08T17:12:12+00:00",
       "description": "Ämne 6 av 30: Mat (Comida) – 49 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på spanska i pausen innan svaret kommer. Varje spansk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Bröd → Pan\n• Mjölk → Leche\n• Ägg → Huevo\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 6
+      "episode": 6,
+      "bytes": 12101842,
+      "sha256": "7f3c856246e707bffaa42bad246ac7c54853c3d105f9c76c8d432e69994ec55d"
     },
     {
       "id": "repeto:swedish-spanish:topic-07",
@@ -75,7 +87,9 @@
       "published": "2026-11-08T17:12:12+00:00",
       "description": "Ämne 7 av 30: Kroppen (Cuerpo) – 37 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på spanska i pausen innan svaret kommer. Varje spansk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Huvud → Cabeza\n• Hår → Pelo\n• Öga → Ojo\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 7
+      "episode": 7,
+      "bytes": 9340176,
+      "sha256": "d56d03c7b13af8dce61b0b890144716f30b28f77bf24ef80d346e9490e767905"
     },
     {
       "id": "repeto:swedish-spanish:topic-08",
@@ -85,7 +99,9 @@
       "published": "2026-11-08T17:12:12+00:00",
       "description": "Ämne 8 av 30: Kläder (Ropa) – 29 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på spanska i pausen innan svaret kommer. Varje spansk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Tröja → Jersey\n• T-shirt → Camiseta\n• Skjorta → Camisa\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 8
+      "episode": 8,
+      "bytes": 7785995,
+      "sha256": "28e78a44f46938fe4cee10562112cba274597e54a478457e8a1b78ee560e12d0"
     },
     {
       "id": "repeto:swedish-spanish:topic-09",
@@ -95,7 +111,9 @@
       "published": "2026-11-08T17:12:12+00:00",
       "description": "Ämne 9 av 30: Hemma (En casa) – 38 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på spanska i pausen innan svaret kommer. Varje spansk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Hus → Casa\n• Lägenhet → Piso\n• Rum → Habitación\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 9
+      "episode": 9,
+      "bytes": 9594714,
+      "sha256": "d3ceabbd101b75d4258327c0b8647d1eb28b5f3e27ea28140786d4fe8506cadb"
     },
     {
       "id": "repeto:swedish-spanish:topic-10",
@@ -105,7 +123,9 @@
       "published": "2026-11-08T17:12:12+00:00",
       "description": "Ämne 10 av 30: Skolan (Colegio) – 41 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på spanska i pausen innan svaret kommer. Varje spansk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Skola → Colegio\n• Klassrum → Aula\n• Lärare → Profesor\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 10
+      "episode": 10,
+      "bytes": 10607847,
+      "sha256": "caed08232032547ddab061aee014a4d636bfcd7a6799e8a46cee6427b9f77881"
     },
     {
       "id": "repeto:swedish-spanish:topic-11",
@@ -115,7 +135,9 @@
       "published": "2026-11-08T17:12:12+00:00",
       "description": "Ämne 11 av 30: Väder (El tiempo) – 25 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på spanska i pausen innan svaret kommer. Varje spansk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Väder → Tiempo\n• Sol → Sol\n• Regn → Lluvia\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 11
+      "episode": 11,
+      "bytes": 6281342,
+      "sha256": "ee6eb53d7f23b6eab21235da20ebb584b7833eba90c2cd2abbab6abca1c17801"
     },
     {
       "id": "repeto:swedish-spanish:topic-12",
@@ -125,7 +147,9 @@
       "published": "2026-11-08T17:12:12+00:00",
       "description": "Ämne 12 av 30: Årstider (Estaciones del año) – 18 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på spanska i pausen innan svaret kommer. Varje spansk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Vår → Primavera\n• Sommar → Verano\n• Höst → Otoño\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 12
+      "episode": 12,
+      "bytes": 5118998,
+      "sha256": "19267ad5d07b92966d26bfe018f4d3dea5c0cf965103614b90ce03b17a1c8b05"
     },
     {
       "id": "repeto:swedish-spanish:topic-13",
@@ -135,7 +159,9 @@
       "published": "2026-11-08T17:12:12+00:00",
       "description": "Ämne 13 av 30: Dagar och tid (Días y horas) – 29 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på spanska i pausen innan svaret kommer. Varje spansk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Måndag → Lunes\n• Tisdag → Martes\n• Onsdag → Miércoles\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 13
+      "episode": 13,
+      "bytes": 7519546,
+      "sha256": "e2509a01f0a68f262f98de0ff9f515f8363097e7b0396edeb003b524cf56a8f5"
     },
     {
       "id": "repeto:swedish-spanish:topic-14",
@@ -145,7 +171,9 @@
       "published": "2026-11-08T17:12:12+00:00",
       "description": "Ämne 14 av 30: Leksaker och lek (Juguetes y juegos) – 34 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på spanska i pausen innan svaret kommer. Varje spansk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Leksak → Juguete\n• Boll → Pelota\n• Docka → Muñeca\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 14
+      "episode": 14,
+      "bytes": 8930785,
+      "sha256": "2d4954f69b86d3c7c1e4561cf0e93277dc262ff9c950cea004226363389995f1"
     },
     {
       "id": "repeto:swedish-spanish:topic-15",
@@ -155,7 +183,9 @@
       "published": "2026-11-08T17:12:12+00:00",
       "description": "Ämne 15 av 30: Sport och aktiviteter (Deportes y actividades) – 25 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på spanska i pausen innan svaret kommer. Varje spansk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Fotboll → Fútbol\n• Simning → Natación\n• Cykling → Ciclismo\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 15
+      "episode": 15,
+      "bytes": 6720826,
+      "sha256": "7e568c81bc45eff751b2f1ba9c097bbe334604a3006d716815e8a4b3ac29d477"
     },
     {
       "id": "repeto:swedish-spanish:topic-16",
@@ -165,7 +195,9 @@
       "published": "2026-11-08T17:12:12+00:00",
       "description": "Ämne 16 av 30: Jag vill ha och jag behöver (Quiero y necesito) – 28 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på spanska i pausen innan svaret kommer. Varje spansk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Jag vill gå ut. → Quiero salir a la calle.\n• Jag vill ha en boll. → Quiero una pelota.\n• Jag vill äta. → Quiero comer.\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 16
+      "episode": 16,
+      "bytes": 7685685,
+      "sha256": "54c93697b1ac27dbfe999e29ea5035efa01a7676a3a352124022e1f128e544a6"
     },
     {
       "id": "repeto:swedish-spanish:topic-17",
@@ -175,7 +207,9 @@
       "published": "2026-11-08T17:12:12+00:00",
       "description": "Ämne 17 av 30: Var är? (¿Dónde está?) – 28 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på spanska i pausen innan svaret kommer. Varje spansk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Var är nallen? → ¿Dónde está el osito de peluche?\n• Var är min mobil? → ¿Dónde está mi móvil?\n• Var är min väska? → ¿Dónde está mi bolsa?\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 17
+      "episode": 17,
+      "bytes": 7859347,
+      "sha256": "abad9df0cd63778a9e1b15196bee8ce3ff372afd4c4f24ca2a4999d767dfbef0"
     },
     {
       "id": "repeto:swedish-spanish:topic-18",
@@ -185,7 +219,9 @@
       "published": "2026-11-08T17:12:12+00:00",
       "description": "Ämne 18 av 30: Känslor (Sentimientos y emociones) – 28 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på spanska i pausen innan svaret kommer. Varje spansk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Glad → Contento\n• Ledsen → Triste\n• Arg → Enfadado\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 18
+      "episode": 18,
+      "bytes": 7523935,
+      "sha256": "5fc2037b63319d8cb1b33a73c71d03f33f76f6c999f142525c13a558f1994f85"
     },
     {
       "id": "repeto:swedish-spanish:topic-19",
@@ -195,7 +231,9 @@
       "published": "2026-11-08T17:12:12+00:00",
       "description": "Ämne 19 av 30: Färdmedel (Medios de transporte) – 25 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på spanska i pausen innan svaret kommer. Varje spansk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Bil → Coche\n• Buss → Autobús\n• Tåg → Tren\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 19
+      "episode": 19,
+      "bytes": 6614247,
+      "sha256": "da097d5de7b17325d77cde3203b72d7a4657007c6e10eec03ea55238981e14fa"
     },
     {
       "id": "repeto:swedish-spanish:topic-20",
@@ -205,7 +243,9 @@
       "published": "2026-11-08T17:12:12+00:00",
       "description": "Ämne 20 av 30: Naturen (Naturaleza) – 27 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på spanska i pausen innan svaret kommer. Varje spansk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Skog → Bosque\n• Hav → Mar\n• Sjö → Lago\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 20
+      "episode": 20,
+      "bytes": 6719572,
+      "sha256": "a69a5bc8e92d64b7b1e57e8cee986577446b8646619cf3389b6aa824ecc5fb0f"
     },
     {
       "id": "repeto:swedish-spanish:topic-21",
@@ -215,7 +255,9 @@
       "published": "2026-11-08T17:12:12+00:00",
       "description": "Ämne 21 av 30: Högtider och firande (Fiestas y celebraciones) – 23 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på spanska i pausen innan svaret kommer. Varje spansk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Födelsedag → Cumpleaños\n• Grattis på födelsedagen! → ¡Feliz cumpleaños!\n• Jul → Navidad\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 21
+      "episode": 21,
+      "bytes": 6276954,
+      "sha256": "9c73e385dcdec4111c9fdbb62a2a2d760b3fb6a44d31a0c0795af680e754e0ac"
     },
     {
       "id": "repeto:swedish-spanish:topic-22",
@@ -225,7 +267,9 @@
       "published": "2026-11-08T17:12:12+00:00",
       "description": "Ämne 22 av 30: Vardagsrutiner (Rutina diaria) – 28 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på spanska i pausen innan svaret kommer. Varje spansk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Vakna → Despertarse\n• Stiga upp → Levantarse\n• Borsta tänderna → Lavarse los dientes\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 22
+      "episode": 22,
+      "bytes": 7855585,
+      "sha256": "d0e650ad7c66d35939e342e64581482e7df9db91df95b2582ef677746861b725"
     },
     {
       "id": "repeto:swedish-spanish:topic-23",
@@ -235,7 +279,9 @@
       "published": "2026-11-08T17:12:12+00:00",
       "description": "Ämne 23 av 30: Fråga och be om hjälp (Preguntas y peticiones) – 26 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på spanska i pausen innan svaret kommer. Varje spansk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Kan du hjälpa mig? → ¿Puedes ayudarme?\n• Hjälp! → ¡Socorro!\n• Snälla! → ¡Por favor!\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 23
+      "episode": 23,
+      "bytes": 6643086,
+      "sha256": "bb6cdcc541764424cb1a64794f5a2c0e6340213bbe9b7dd67f8299a67eeeaf2b"
     },
     {
       "id": "repeto:swedish-spanish:topic-24",
@@ -245,7 +291,9 @@
       "published": "2026-11-08T17:12:12+00:00",
       "description": "Ämne 24 av 30: Motsatser (Contrarios) – 28 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på spanska i pausen innan svaret kommer. Varje spansk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Stor → Grande\n• Liten → Pequeño\n• Lång → Largo\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 24
+      "episode": 24,
+      "bytes": 7038684,
+      "sha256": "f7f9862113e9ed6391e4b07cffdb217be5e1620469b450ee844eb8e28f6b6143"
     },
     {
       "id": "repeto:swedish-spanish:topic-25",
@@ -255,7 +303,9 @@
       "published": "2026-11-08T17:12:12+00:00",
       "description": "Ämne 25 av 30: Handlingar och verb (Acciones y verbos) – 41 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på spanska i pausen innan svaret kommer. Varje spansk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Gå → Andar\n• Springa → Correr\n• Hoppa → Saltar\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 25
+      "episode": 25,
+      "bytes": 10266792,
+      "sha256": "0449a49b28f909287214c0a0406aeb7461e9658be66ed5b1075ac0b64e58ca33"
     },
     {
       "id": "repeto:swedish-spanish:topic-26",
@@ -265,7 +315,9 @@
       "published": "2026-11-08T17:12:12+00:00",
       "description": "Ämne 26 av 30: Platser i staden (Lugares de la ciudad) – 23 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på spanska i pausen innan svaret kommer. Varje spansk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Park → Parque\n• Lekplats → Parque infantil\n• Affär → Tienda\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 26
+      "episode": 26,
+      "bytes": 6120846,
+      "sha256": "4172a626c845956cbd9bec93e7d0de115bc3ab24e6c9ed42b5c1f43a7de21dcd"
     },
     {
       "id": "repeto:swedish-spanish:topic-27",
@@ -275,7 +327,9 @@
       "published": "2026-11-08T17:12:12+00:00",
       "description": "Ämne 27 av 30: Teknik (Tecnología) – 22 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på spanska i pausen innan svaret kommer. Varje spansk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Telefon → Teléfono\n• Mobiltelefon → Teléfono móvil\n• Dator → Ordenador\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 27
+      "episode": 27,
+      "bytes": 5863801,
+      "sha256": "5b49134262cc1917595e878760ae83d7001c38d39fd358349a5474cd2161df19"
     },
     {
       "id": "repeto:swedish-spanish:topic-28",
@@ -285,7 +339,9 @@
       "published": "2026-11-08T17:12:12+00:00",
       "description": "Ämne 28 av 30: Musik och konst (Música y arte) – 23 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på spanska i pausen innan svaret kommer. Varje spansk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Musik → Música\n• Sång → Canción\n• Dans → Baile\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 28
+      "episode": 28,
+      "bytes": 6023043,
+      "sha256": "f63e5f771b98a6634e94c4c3789221d7603ba3ccbcecbfbb1f2ab8600584492d"
     },
     {
       "id": "repeto:swedish-spanish:topic-29",
@@ -295,7 +351,9 @@
       "published": "2026-11-08T17:12:12+00:00",
       "description": "Ämne 29 av 30: Artiga fraser (Expresiones de cortesía) – 17 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på spanska i pausen innan svaret kommer. Varje spansk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Snälla. → Por favor.\n• Tack! → ¡Gracias!\n• Tack så mycket! → ¡Muchas gracias!\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 29
+      "episode": 29,
+      "bytes": 4282661,
+      "sha256": "c062d1602c2925caae086536a93020812e86b8c7e75860e85d1bbfd0db4cc3dd"
     },
     {
       "id": "repeto:swedish-spanish:topic-30",
@@ -305,7 +363,9 @@
       "published": "2026-11-08T17:12:12+00:00",
       "description": "Ämne 30 av 30: Repetition (Repaso) – 11 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på spanska i pausen innan svaret kommer. Varje spansk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Bra gjort! → ¡Bien hecho!\n• Du lär dig ett nytt språk! → ¡Estás aprendiendo un idioma nuevo!\n• Nu övar vi! → ¡Vamos a practicar!\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 30
+      "episode": 30,
+      "bytes": 3141633,
+      "sha256": "861c7bbce6df8df1b5e3a23a12a687ef63f1057f8dc05a0a7078fbbc5b91faf9"
     },
     {
       "id": "magical_radio:sv:es:chapter-01",
@@ -316,7 +376,9 @@
       "published": "2026-11-08T20:10:56+00:00",
       "description": "Kapitel 1 av 8 i berättelsen ”Den magiska radion” (La radio mágica). Två syskon hittar en gammal träradio på en loppmarknad. Plötsligt surrar den – och en gyllene text visar att radion är till just dem.\n\nSå går avsnittet till:\n1. Lyssna på hela kapitlet på spanska – du behöver inte förstå allt.\n2. Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på spanska.\n3. Lyssna på kapitlet igen – nu förstår du mycket mer.\n\nEn ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.",
       "season": 2,
-      "episode": 1
+      "episode": 1,
+      "bytes": 7603556,
+      "sha256": "8e431a238d655befd3cecf5efe8fd98f7eecc00ecae1a52715e03fb699067f07"
     },
     {
       "id": "magical_radio:sv:es:chapter-02",
@@ -327,7 +389,9 @@
       "published": "2026-11-08T20:10:56+00:00",
       "description": "Kapitel 2 av 8 i berättelsen ”Den magiska radion” (La radio mágica). Hemma trycker de på den blå knappen. Ur radion kommer ett moln som doftar kanel – och en glad röst berättar om en mus med en viktig nyckel.\n\nSå går avsnittet till:\n1. Lyssna på hela kapitlet på spanska – du behöver inte förstå allt.\n2. Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på spanska.\n3. Lyssna på kapitlet igen – nu förstår du mycket mer.\n\nEn ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.",
       "season": 2,
-      "episode": 2
+      "episode": 2,
+      "bytes": 6648101,
+      "sha256": "805ab297a5db2358c339af5e5d749e7eadafa05e21771029ac7f5334a088b6a0"
     },
     {
       "id": "magical_radio:sv:es:chapter-03",
@@ -338,7 +402,9 @@
       "published": "2026-11-08T20:10:56+00:00",
       "description": "Kapitel 3 av 8 i berättelsen ”Den magiska radion” (La radio mágica). Med ficklampa, ost och radion går syskonen till det gamla trädet. En liten mus vill byta – och mellan rötterna gömmer sig en liten dörr.\n\nSå går avsnittet till:\n1. Lyssna på hela kapitlet på spanska – du behöver inte förstå allt.\n2. Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på spanska.\n3. Lyssna på kapitlet igen – nu förstår du mycket mer.\n\nEn ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.",
       "season": 2,
-      "episode": 3
+      "episode": 3,
+      "bytes": 8757123,
+      "sha256": "2aca0faccf24eb95b0f8ed2b9b60ce05bd406538a34861055731eea15d3d4a64"
     },
     {
       "id": "magical_radio:sv:es:chapter-04",
@@ -349,7 +415,9 @@
       "published": "2026-11-08T20:10:56+00:00",
       "description": "Kapitel 4 av 8 i berättelsen ”Den magiska radion” (La radio mágica). Silvernyckeln öppnar dörren. En stentrappa leder ner till ett bibliotek med flygande böcker och blå, lysande blommor.\n\nSå går avsnittet till:\n1. Lyssna på hela kapitlet på spanska – du behöver inte förstå allt.\n2. Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på spanska.\n3. Lyssna på kapitlet igen – nu förstår du mycket mer.\n\nEn ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.",
       "season": 2,
-      "episode": 4
+      "episode": 4,
+      "bytes": 6991664,
+      "sha256": "8c10ed94d5b35ce46ab3160e1c795eb7214ee6a228cb43e9ff854054e9793a06"
     },
     {
       "id": "magical_radio:sv:es:chapter-05",
@@ -360,7 +428,9 @@
       "published": "2026-11-08T20:10:56+00:00",
       "description": "Kapitel 5 av 8 i berättelsen ”Den magiska radion” (La radio mágica). En gyllene bok landar på en axel, och radion lär ut en trollformel som lagar allt som är trasigt.\n\nSå går avsnittet till:\n1. Lyssna på hela kapitlet på spanska – du behöver inte förstå allt.\n2. Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på spanska.\n3. Lyssna på kapitlet igen – nu förstår du mycket mer.\n\nEn ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.",
       "season": 2,
-      "episode": 5
+      "episode": 5,
+      "bytes": 6554061,
+      "sha256": "a9bff1420a8e0fb50198078592caa405d361a0b5552a1eb618f089d20d9956ac"
     },
     {
       "id": "magical_radio:sv:es:chapter-06",
@@ -371,7 +441,9 @@
       "published": "2026-11-08T20:10:56+00:00",
       "description": "Kapitel 6 av 8 i berättelsen ”Den magiska radion” (La radio mágica). Dags att prova trollformeln på en trasig kompass. Fungerar den? Och vem väntar bakom den gröna dörren?\n\nSå går avsnittet till:\n1. Lyssna på hela kapitlet på spanska – du behöver inte förstå allt.\n2. Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på spanska.\n3. Lyssna på kapitlet igen – nu förstår du mycket mer.\n\nEn ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.",
       "season": 2,
-      "episode": 6
+      "episode": 6,
+      "bytes": 5461306,
+      "sha256": "961717eb0218ffaf6b92fb507770dd995d2669bd7e6c8c79b79b04f645efab3e"
     },
     {
       "id": "magical_radio:sv:es:chapter-07",
@@ -382,7 +454,9 @@
       "published": "2026-11-08T20:10:56+00:00",
       "description": "Kapitel 7 av 8 i berättelsen ”Den magiska radion” (La radio mágica). Bakom dörren finns en underjordisk trädgård med en gyllene fågel som inte kan sjunga – den tickar bara som en klocka. En sten saknas i vingen, och radion bär på en hemlighet.\n\nSå går avsnittet till:\n1. Lyssna på hela kapitlet på spanska – du behöver inte förstå allt.\n2. Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på spanska.\n3. Lyssna på kapitlet igen – nu förstår du mycket mer.\n\nEn ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.",
       "season": 2,
-      "episode": 7
+      "episode": 7,
+      "bytes": 8604150,
+      "sha256": "c91f0a4401f622c4b89ee99db3d8b65fb57079b57a0fd52c25d870e8c36a24bd"
     },
     {
       "id": "magical_radio:sv:es:chapter-08",
@@ -393,7 +467,9 @@
       "published": "2026-11-08T20:10:56+00:00",
       "description": "Kapitel 8 av 8 i berättelsen ”Den magiska radion” (La radio mágica). Finalen! Kan syskonen laga den gyllene fågeln? Berättelsen slutar med sång, dansande fjärilar och löftet om ett nytt äventyr.\n\nSå går avsnittet till:\n1. Lyssna på hela kapitlet på spanska – du behöver inte förstå allt.\n2. Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på spanska.\n3. Lyssna på kapitlet igen – nu förstår du mycket mer.\n\nEn ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.",
       "season": 2,
-      "episode": 8
+      "episode": 8,
+      "bytes": 5747190,
+      "sha256": "773a08eae80ae6e7db0fd1aa1b5c62de29baff7e3508e12ce269f287c02a9e89"
     }
   ],
   "seasons": {

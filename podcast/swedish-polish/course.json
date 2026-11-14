@@ -17,7 +17,9 @@
       "published": "2026-10-27T14:00:00+00:00",
       "description": "Ämne 1 av 30: Hälsningar (Powitania) – 36 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Hej! → Cześć!\n• God morgon! → Dzień dobry!\n• God eftermiddag! → Dzień dobry!\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 1
+      "episode": 1,
+      "bytes": 8913231,
+      "sha256": "3a2b1350ea63024c5caf2b4fb9c97e0eb93c277e2d788410b2646b53e95d1b10"
     },
     {
       "id": "repeto:swedish-polish:topic-02",
@@ -27,7 +29,9 @@
       "published": "2026-10-27T14:00:00+00:00",
       "description": "Ämne 2 av 30: Tal (Liczby) – 35 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Ett → Jeden\n• Två → Dwa\n• Tre → Trzy\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 2
+      "episode": 2,
+      "bytes": 8409172,
+      "sha256": "b13ab32be2587b205c7d25ebf22d4d14f50597b7348daacbe81cf0f53257cf0c"
     },
     {
       "id": "repeto:swedish-polish:topic-03",
@@ -37,7 +41,9 @@
       "published": "2026-10-27T14:00:00+00:00",
       "description": "Ämne 3 av 30: Färger (Kolory) – 29 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Röd → Czerwony\n• Blå → Niebieski\n• Gul → Żółty\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 3
+      "episode": 3,
+      "bytes": 7579732,
+      "sha256": "e00d2b1e8a7fec711c34eb97058a961bcb08dbc2f245be678ddc4cb09592b725"
     },
     {
       "id": "repeto:swedish-polish:topic-04",
@@ -47,7 +53,9 @@
       "published": "2026-10-27T14:00:00+00:00",
       "description": "Ämne 4 av 30: Djur (Zwierzęta) – 42 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Hund → Pies\n• Katt → Kot\n• Fågel → Ptak\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 4
+      "episode": 4,
+      "bytes": 9909437,
+      "sha256": "c605a80b8905c1a9d8a0682dd73fe47740ab0967e981882f183834f057868861"
     },
     {
       "id": "repeto:swedish-polish:topic-05",
@@ -57,7 +65,9 @@
       "published": "2026-10-27T14:00:00+00:00",
       "description": "Ämne 5 av 30: Familj (Rodzina) – 26 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Mamma → Mama\n• Pappa → Tata\n• Syster → Siostra\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 5
+      "episode": 5,
+      "bytes": 7039311,
+      "sha256": "8f531f9af2f6ba384da5a8f193a09e3ed09f954768c3877d61073799fd40bb0e"
     },
     {
       "id": "repeto:swedish-polish:topic-06",
@@ -67,7 +77,9 @@
       "published": "2026-10-27T14:00:00+00:00",
       "description": "Ämne 6 av 30: Mat (Jedzenie) – 49 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Bröd → Chleb\n• Mjölk → Mleko\n• Ägg → Jajko\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 6
+      "episode": 6,
+      "bytes": 11970812,
+      "sha256": "05f7bb8ef0189cd0fc1e619e1c2152ca557c0a4095df39838d2285c5a71d7812"
     },
     {
       "id": "repeto:swedish-polish:topic-07",
@@ -77,7 +89,9 @@
       "published": "2026-10-27T14:00:00+00:00",
       "description": "Ämne 7 av 30: Kroppen (Ciało) – 37 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Huvud → Głowa\n• Hår → Włosy\n• Öga → Oko\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 7
+      "episode": 7,
+      "bytes": 8918247,
+      "sha256": "3650fe96aa68da7545ecf26dd4d66d811d0cde95ff2a429855daafd65c1b5afd"
     },
     {
       "id": "repeto:swedish-polish:topic-08",
@@ -87,7 +101,9 @@
       "published": "2026-10-27T14:00:00+00:00",
       "description": "Ämne 8 av 30: Kläder (Ubrania) – 29 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Tröja → Sweter\n• T-shirt → Koszulka\n• Skjorta → Koszula\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 8
+      "episode": 8,
+      "bytes": 7524562,
+      "sha256": "c31b59f6f3b255a4a231d82f9bb82b331bee4715d47a5639a22bd47a2efb0803"
     },
     {
       "id": "repeto:swedish-polish:topic-09",
@@ -97,7 +113,9 @@
       "published": "2026-10-27T14:00:00+00:00",
       "description": "Ämne 9 av 30: Hemma (W domu) – 38 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Hus → Dom\n• Lägenhet → Mieszkanie\n• Rum → Pokój\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 9
+      "episode": 9,
+      "bytes": 9388451,
+      "sha256": "cabb62c87606edafee48b8d165a2962156c060ae75fc5c76e17edfed3c2342bb"
     },
     {
       "id": "repeto:swedish-polish:topic-10",
@@ -107,7 +125,9 @@
       "published": "2026-10-27T14:00:00+00:00",
       "description": "Ämne 10 av 30: Skolan (Szkoła) – 41 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Skola → Szkoła\n• Klassrum → Klasa\n• Lärare → Nauczyciel\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 10
+      "episode": 10,
+      "bytes": 10428542,
+      "sha256": "d70012372fcd7c4dc8a87cc900c04d71b3d39dd13fb3d68ec5ca107fac3f193b"
     },
     {
       "id": "repeto:swedish-polish:topic-11",
@@ -117,7 +137,9 @@
       "published": "2026-10-27T14:00:00+00:00",
       "description": "Ämne 11 av 30: Väder (Pogoda) – 25 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Väder → Pogoda\n• Sol → Słońce\n• Regn → Deszcz\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 11
+      "episode": 11,
+      "bytes": 6206110,
+      "sha256": "e56ef466d014daaf83d637f0ee0a633238605d8f83cbdd9ca2cf25e462be6b48"
     },
     {
       "id": "repeto:swedish-polish:topic-12",
@@ -127,7 +149,9 @@
       "published": "2026-10-27T14:00:00+00:00",
       "description": "Ämne 12 av 30: Årstider (Pory roku) – 18 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Vår → Wiosna\n• Sommar → Lato\n• Höst → Jesień\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 12
+      "episode": 12,
+      "bytes": 4934678,
+      "sha256": "5bf619fe064cf8f8c0f3eef6af09a54e9e2481171b606f384431d6ebf955e8fb"
     },
     {
       "id": "repeto:swedish-polish:topic-13",
@@ -137,7 +161,9 @@
       "published": "2026-10-27T14:00:00+00:00",
       "description": "Ämne 13 av 30: Dagar och tid (Dni i czas) – 29 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Måndag → Poniedziałek\n• Tisdag → Wtorek\n• Onsdag → Środa\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 13
+      "episode": 13,
+      "bytes": 7428013,
+      "sha256": "bbd773f49111b6c1c3e5b88117300c3d79e7ca79dfd1f5ddd19c86193c61eeb6"
     },
     {
       "id": "repeto:swedish-polish:topic-14",
@@ -147,7 +173,9 @@
       "published": "2026-10-27T14:00:00+00:00",
       "description": "Ämne 14 av 30: Leksaker och lek (Zabawki i zabawa) – 34 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Leksak → Zabawka\n• Boll → Piłka\n• Docka → Lalka\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 14
+      "episode": 14,
+      "bytes": 8854926,
+      "sha256": "ce648ee8a4f9653e761c27d947c7e50339c8b56e4de160725e4a34a2084de0ee"
     },
     {
       "id": "repeto:swedish-polish:topic-15",
@@ -157,7 +185,9 @@
       "published": "2026-10-27T14:00:00+00:00",
       "description": "Ämne 15 av 30: Sport och aktiviteter (Sport i zajęcia) – 25 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Fotboll → Piłka nożna\n• Simning → Pływanie\n• Cykling → Jazda na rowerze\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 15
+      "episode": 15,
+      "bytes": 6707661,
+      "sha256": "bdeb66806b4405ddf227b7cc55e90ea2da9a4634d5000a5625f459644d068798"
     },
     {
       "id": "repeto:swedish-polish:topic-16",
@@ -167,7 +197,9 @@
       "published": "2026-10-27T14:00:00+00:00",
       "description": "Ämne 16 av 30: Jag vill ha och jag behöver (Chcę i potrzebuję) – 28 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Jag vill gå ut. → Chcę wyjść na dwór.\n• Jag vill ha en boll. → Chcę piłkę.\n• Jag vill äta. → Chcę jeść.\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 16
+      "episode": 16,
+      "bytes": 7687566,
+      "sha256": "cd8779490f90ebeeb13f593456dc02347c1851331d942e7917a93b6076552ec9"
     },
     {
       "id": "repeto:swedish-polish:topic-17",
@@ -177,7 +209,9 @@
       "published": "2026-10-27T14:00:00+00:00",
       "description": "Ämne 17 av 30: Var är? (Gdzie jest?) – 28 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Var är nallen? → Gdzie jest miś?\n• Var är min mobil? → Gdzie jest mój telefon?\n• Var är min väska? → Gdzie jest moja torba?\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 17
+      "episode": 17,
+      "bytes": 7612960,
+      "sha256": "f30660acb2a7cf5576dc3a8f16bcad8cd90ac87c51e3cdff1911101308004ae5"
     },
     {
       "id": "repeto:swedish-polish:topic-18",
@@ -187,7 +221,9 @@
       "published": "2026-10-27T14:00:00+00:00",
       "description": "Ämne 18 av 30: Känslor (Uczucia i emocje) – 28 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Glad → Wesoły\n• Ledsen → Smutny\n• Arg → Zły\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 18
+      "episode": 18,
+      "bytes": 7391024,
+      "sha256": "4fcaa176537d8c8c8ff86dde75104a0e898a1b6d2918677ba3ec9577a9c8170c"
     },
     {
       "id": "repeto:swedish-polish:topic-19",
@@ -197,7 +233,9 @@
       "published": "2026-10-27T14:00:00+00:00",
       "description": "Ämne 19 av 30: Färdmedel (Środki transportu) – 25 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Bil → Samochód\n• Buss → Autobus\n• Tåg → Pociąg\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 19
+      "episode": 19,
+      "bytes": 6508294,
+      "sha256": "ba3a39c20661004b4f9f6b3ad76e27815040182e8baf1838ec6b97ade4a430ca"
     },
     {
       "id": "repeto:swedish-polish:topic-20",
@@ -207,7 +245,9 @@
       "published": "2026-10-27T14:00:00+00:00",
       "description": "Ämne 20 av 30: Naturen (Przyroda) – 27 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Skog → Las\n• Hav → Morze\n• Sjö → Jezioro\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 20
+      "episode": 20,
+      "bytes": 6654998,
+      "sha256": "c528a4d7f3f8042428f0a9e5ce04461919802370507d18b6172d7b985372fa5b"
     },
     {
       "id": "repeto:swedish-polish:topic-21",
@@ -217,7 +257,9 @@
       "published": "2026-10-27T14:00:00+00:00",
       "description": "Ämne 21 av 30: Högtider och firande (Święta i uroczystości) – 23 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Födelsedag → Urodziny\n• Grattis på födelsedagen! → Wszystkiego najlepszego z okazji urodzin!\n• Jul → Boże Narodzenie\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 21
+      "episode": 21,
+      "bytes": 6345290,
+      "sha256": "100121fb2ad4c0e4ebf41582799e0f978a9d39571d6bc9a8cdef6568a92b72a1"
     },
     {
       "id": "repeto:swedish-polish:topic-22",
@@ -227,7 +269,9 @@
       "published": "2026-10-27T14:00:00+00:00",
       "description": "Ämne 22 av 30: Vardagsrutiner (Codzienne czynności) – 28 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Vakna → Budzić się\n• Stiga upp → Wstawać\n• Borsta tänderna → Myć zęby\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 22
+      "episode": 22,
+      "bytes": 7605437,
+      "sha256": "7a1f0f4ded11504b081d85615304350defde76e9369b75f1c06b888d2551c003"
     },
     {
       "id": "repeto:swedish-polish:topic-23",
@@ -237,7 +281,9 @@
       "published": "2026-10-27T14:00:00+00:00",
       "description": "Ämne 23 av 30: Fråga och be om hjälp (Pytania i prośby) – 26 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Kan du hjälpa mig? → Czy możesz mi pomóc?\n• Hjälp! → Pomocy!\n• Snälla! → Proszę!\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 23
+      "episode": 23,
+      "bytes": 6596692,
+      "sha256": "ef1966f4b8a2913f1edbf1f86665cc5687780cc2f295c567457c2a9e7acee7b5"
     },
     {
       "id": "repeto:swedish-polish:topic-24",
@@ -247,7 +293,9 @@
       "published": "2026-10-27T14:00:00+00:00",
       "description": "Ämne 24 av 30: Motsatser (Przeciwieństwa) – 28 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Stor → Duży\n• Liten → Mały\n• Lång → Długi\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 24
+      "episode": 24,
+      "bytes": 6925208,
+      "sha256": "7fed39aec4474e291136b3e129a9da4bb90af4ef010d6a74f9490099bcd265f2"
     },
     {
       "id": "repeto:swedish-polish:topic-25",
@@ -257,7 +305,9 @@
       "published": "2026-10-27T14:00:00+00:00",
       "description": "Ämne 25 av 30: Handlingar och verb (Czynności i czasowniki) – 41 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Gå → Iść\n• Springa → Biegać\n• Hoppa → Skakać\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 25
+      "episode": 25,
+      "bytes": 10177140,
+      "sha256": "1c48a21e5d655df10ffb5ae709260abdf702270a881a47d5efc04ec9605cdfdb"
     },
     {
       "id": "repeto:swedish-polish:topic-26",
@@ -267,7 +317,9 @@
       "published": "2026-10-27T14:00:00+00:00",
       "description": "Ämne 26 av 30: Platser i staden (Miejsca w mieście) – 23 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Park → Park\n• Lekplats → Plac zabaw\n• Affär → Sklep\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 26
+      "episode": 26,
+      "bytes": 6101411,
+      "sha256": "f81d8e6e813c536a0ffd2fa0217dd92e7e7fb51b181a7ac9dbc5159d4bda438f"
     },
     {
       "id": "repeto:swedish-polish:topic-27",
@@ -277,7 +329,9 @@
       "published": "2026-10-27T14:00:00+00:00",
       "description": "Ämne 27 av 30: Teknik (Technologia) – 22 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Telefon → Telefon\n• Mobiltelefon → Telefon komórkowy\n• Dator → Komputer\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 27
+      "episode": 27,
+      "bytes": 5938407,
+      "sha256": "fa5dcc2ef63ed86d4a27aa8c1d0928082e6298afdfe629a85d9d2de268f739b3"
     },
     {
       "id": "repeto:swedish-polish:topic-28",
@@ -287,7 +341,9 @@
       "published": "2026-10-27T14:00:00+00:00",
       "description": "Ämne 28 av 30: Musik och konst (Muzyka i sztuka) – 23 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Musik → Muzyka\n• Sång → Piosenka\n• Dans → Taniec\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 28
+      "episode": 28,
+      "bytes": 5904552,
+      "sha256": "b5b1b299682cf33d73f5b5f374b290cf0b11e2f2e3a6ea4dbfafede4802c5240"
     },
     {
       "id": "repeto:swedish-polish:topic-29",
@@ -297,7 +353,9 @@
       "published": "2026-10-27T14:00:00+00:00",
       "description": "Ämne 29 av 30: Artiga fraser (Zwroty grzecznościowe) – 17 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Snälla. → Proszę.\n• Tack! → Dziękuję!\n• Tack så mycket! → Bardzo dziękuję!\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 29
+      "episode": 29,
+      "bytes": 4226864,
+      "sha256": "dc1131de27b552e17bf8cfec6a0e59a6e6a512aab4c0de1d123e856e4bb43b83"
     },
     {
       "id": "repeto:swedish-polish:topic-30",
@@ -307,7 +365,9 @@
       "published": "2026-10-27T14:00:00+00:00",
       "description": "Ämne 30 av 30: Repetition (Powtórka) – 11 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Bra gjort! → Dobra robota!\n• Du lär dig ett nytt språk! → Uczysz się nowego języka!\n• Nu övar vi! → Ćwiczmy!\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 30
+      "episode": 30,
+      "bytes": 3125959,
+      "sha256": "8131da58cd5def5ae5fd9032c563fe4bdb14fffa1e0ecaf0f0ac986d9ad21598"
     },
     {
       "id": "magical_radio:sv:pl:chapter-01",
@@ -318,7 +378,9 @@
       "published": "2026-10-27T21:09:04+00:00",
       "description": "Kapitel 1 av 8 i berättelsen ”Den magiska radion” (Magiczne Radio). Två syskon hittar en gammal träradio på en loppmarknad. Plötsligt surrar den – och en gyllene text visar att radion är till just dem.\n\nSå går avsnittet till:\n1. Lyssna på hela kapitlet på polska – du behöver inte förstå allt.\n2. Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på polska.\n3. Lyssna på kapitlet igen – nu förstår du mycket mer.\n\nEn ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.",
       "season": 2,
-      "episode": 1
+      "episode": 1,
+      "bytes": 7259367,
+      "sha256": "db88850ec9b953fcd0c1f0f728ab6eb6182ea2eccc0645077306b797130b18c9"
     },
     {
       "id": "magical_radio:sv:pl:chapter-02",
@@ -329,7 +391,9 @@
       "published": "2026-10-27T21:09:04+00:00",
       "description": "Kapitel 2 av 8 i berättelsen ”Den magiska radion” (Magiczne Radio). Hemma trycker de på den blå knappen. Ur radion kommer ett moln som doftar kanel – och en glad röst berättar om en mus med en viktig nyckel.\n\nSå går avsnittet till:\n1. Lyssna på hela kapitlet på polska – du behöver inte förstå allt.\n2. Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på polska.\n3. Lyssna på kapitlet igen – nu förstår du mycket mer.\n\nEn ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.",
       "season": 2,
-      "episode": 2
+      "episode": 2,
+      "bytes": 6498890,
+      "sha256": "999d238842f4f0865c29576a9ce0acaab9ab40e486ec17407420a2864b0a60d0"
     },
     {
       "id": "magical_radio:sv:pl:chapter-03",
@@ -340,7 +404,9 @@
       "published": "2026-10-27T21:09:04+00:00",
       "description": "Kapitel 3 av 8 i berättelsen ”Den magiska radion” (Magiczne Radio). Med ficklampa, ost och radion går syskonen till det gamla trädet. En liten mus vill byta – och mellan rötterna gömmer sig en liten dörr.\n\nSå går avsnittet till:\n1. Lyssna på hela kapitlet på polska – du behöver inte förstå allt.\n2. Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på polska.\n3. Lyssna på kapitlet igen – nu förstår du mycket mer.\n\nEn ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.",
       "season": 2,
-      "episode": 3
+      "episode": 3,
+      "bytes": 8203536,
+      "sha256": "64549b69bf690533482a4215b9f6c94989f47337c9b525d21e597438fd18a12e"
     },
     {
       "id": "magical_radio:sv:pl:chapter-04",
@@ -351,7 +417,9 @@
       "published": "2026-10-27T21:09:04+00:00",
       "description": "Kapitel 4 av 8 i berättelsen ”Den magiska radion” (Magiczne Radio). Silvernyckeln öppnar dörren. En stentrappa leder ner till ett bibliotek med flygande böcker och blå, lysande blommor.\n\nSå går avsnittet till:\n1. Lyssna på hela kapitlet på polska – du behöver inte förstå allt.\n2. Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på polska.\n3. Lyssna på kapitlet igen – nu förstår du mycket mer.\n\nEn ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.",
       "season": 2,
-      "episode": 4
+      "episode": 4,
+      "bytes": 6477574,
+      "sha256": "1be108e0a192587e952fd845e86251be2e29c3b00762a51d01e064134dfd662b"
     },
     {
       "id": "magical_radio:sv:pl:chapter-05",
@@ -362,7 +430,9 @@
       "published": "2026-10-27T21:09:04+00:00",
       "description": "Kapitel 5 av 8 i berättelsen ”Den magiska radion” (Magiczne Radio). En gyllene bok landar på en axel, och radion lär ut en trollformel som lagar allt som är trasigt.\n\nSå går avsnittet till:\n1. Lyssna på hela kapitlet på polska – du behöver inte förstå allt.\n2. Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på polska.\n3. Lyssna på kapitlet igen – nu förstår du mycket mer.\n\nEn ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.",
       "season": 2,
-      "episode": 5
+      "episode": 5,
+      "bytes": 6513310,
+      "sha256": "8a50aff8351d79d57c17466e2769d0ed7b03688f62d1b8ad048d028d1052ce46"
     },
     {
       "id": "magical_radio:sv:pl:chapter-06",
@@ -373,7 +443,9 @@
       "published": "2026-10-27T21:09:04+00:00",
       "description": "Kapitel 6 av 8 i berättelsen ”Den magiska radion” (Magiczne Radio). Dags att prova trollformeln på en trasig kompass. Fungerar den? Och vem väntar bakom den gröna dörren?\n\nSå går avsnittet till:\n1. Lyssna på hela kapitlet på polska – du behöver inte förstå allt.\n2. Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på polska.\n3. Lyssna på kapitlet igen – nu förstår du mycket mer.\n\nEn ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.",
       "season": 2,
-      "episode": 6
+      "episode": 6,
+      "bytes": 5249401,
+      "sha256": "58805299abfaa9466a923a74c6bd9a29ac245d1a59d302c66ffa4e383b4ceef1"
     },
     {
       "id": "magical_radio:sv:pl:chapter-07",
@@ -384,7 +456,9 @@
       "published": "2026-10-27T21:09:04+00:00",
       "description": "Kapitel 7 av 8 i berättelsen ”Den magiska radion” (Magiczne Radio). Bakom dörren finns en underjordisk trädgård med en gyllene fågel som inte kan sjunga – den tickar bara som en klocka. En sten saknas i vingen, och radion bär på en hemlighet.\n\nSå går avsnittet till:\n1. Lyssna på hela kapitlet på polska – du behöver inte förstå allt.\n2. Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på polska.\n3. Lyssna på kapitlet igen – nu förstår du mycket mer.\n\nEn ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.",
       "season": 2,
-      "episode": 7
+      "episode": 7,
+      "bytes": 8477509,
+      "sha256": "bd22052a1eaf6b039a013fe9b001b03406d8f88775873e64e44827c7bb0d3929"
     },
     {
       "id": "magical_radio:sv:pl:chapter-08",
@@ -395,7 +469,9 @@
       "published": "2026-10-27T21:09:04+00:00",
       "description": "Kapitel 8 av 8 i berättelsen ”Den magiska radion” (Magiczne Radio). Finalen! Kan syskonen laga den gyllene fågeln? Berättelsen slutar med sång, dansande fjärilar och löftet om ett nytt äventyr.\n\nSå går avsnittet till:\n1. Lyssna på hela kapitlet på polska – du behöver inte förstå allt.\n2. Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på polska.\n3. Lyssna på kapitlet igen – nu förstår du mycket mer.\n\nEn ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.",
       "season": 2,
-      "episode": 8
+      "episode": 8,
+      "bytes": 5516477,
+      "sha256": "3ce03a4691a890ed8484a7364b37b911742f012e4cb3c05139e1091a5332f4f4"
     }
   ],
   "source_language": "sv",

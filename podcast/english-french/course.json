@@ -15,7 +15,9 @@
       "published": "2026-11-12T09:13:45+00:00",
       "description": "Topic 1 of 30: Greetings (Salutations) – 36 phrases.\n\nYou hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Hi! → Salut !\n• Good morning! → Bonjour !\n• Good afternoon! → Bonjour !\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 1
+      "episode": 1,
+      "bytes": 8641767,
+      "sha256": "918da8d23238ac8efdd607d0ba8ea941ed05fd870b5b9f8ee396315e695e30aa"
     },
     {
       "id": "repeto:english-french:topic-02",
@@ -25,7 +27,9 @@
       "published": "2026-11-12T09:13:45+00:00",
       "description": "Topic 2 of 30: Numbers (Nombres) – 35 phrases.\n\nYou hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• One → Un\n• Two → Deux\n• Three → Trois\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 2
+      "episode": 2,
+      "bytes": 7905741,
+      "sha256": "8429e6b76cbf54ba3a8204e684bc3d1ad1e54839e24bc2d335fa9d5ffed67795"
     },
     {
       "id": "repeto:english-french:topic-03",
@@ -35,7 +39,9 @@
       "published": "2026-11-12T09:13:45+00:00",
       "description": "Topic 3 of 30: Colors (Couleurs) – 29 phrases.\n\nYou hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Red → Rouge\n• Blue → Bleu\n• Yellow → Jaune\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 3
+      "episode": 3,
+      "bytes": 7099497,
+      "sha256": "698392b709f801213fe032aa640833279d20f9d6485b65856f7ec51745ce81b4"
     },
     {
       "id": "repeto:english-french:topic-04",
@@ -45,7 +51,9 @@
       "published": "2026-11-12T09:13:45+00:00",
       "description": "Topic 4 of 30: Animals (Animaux) – 42 phrases.\n\nYou hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Dog → Un chien\n• Cat → Un chat\n• Bird → Un oiseau\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 4
+      "episode": 4,
+      "bytes": 10069933,
+      "sha256": "8ce7f7af3e4d1f874c4f9b9aaac74a119210227d3f614966d8de5f29c09c2e52"
     },
     {
       "id": "repeto:english-french:topic-05",
@@ -55,7 +63,9 @@
       "published": "2026-11-12T09:13:45+00:00",
       "description": "Topic 5 of 30: Family (Famille) – 26 phrases.\n\nYou hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Mum → Maman\n• Dad → Papa\n• Sister → Une sœur\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 5
+      "episode": 5,
+      "bytes": 6751546,
+      "sha256": "7ff5ff7fe4f523ce00c7b85ebd2752c09fbef6cd19f53181a8bdd4e3eb067d9b"
     },
     {
       "id": "repeto:english-french:topic-06",
@@ -65,7 +75,9 @@
       "published": "2026-11-12T09:13:45+00:00",
       "description": "Topic 6 of 30: Food (Alimentation) – 49 phrases.\n\nYou hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Bread → Du pain\n• Milk → Du lait\n• Egg → Un œuf\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 6
+      "episode": 6,
+      "bytes": 11931314,
+      "sha256": "f1f85cd4f6c72d3d11382f6bdbe53d8a0aa429ea0b3f4b655dc1e773463a86e2"
     },
     {
       "id": "repeto:english-french:topic-07",
@@ -75,7 +87,9 @@
       "published": "2026-11-12T09:13:45+00:00",
       "description": "Topic 7 of 30: Body (Le corps) – 37 phrases.\n\nYou hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Head → La tête\n• Hair → Les cheveux\n• Eye → L'œil\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 7
+      "episode": 7,
+      "bytes": 8864957,
+      "sha256": "c92d87844eca5cba20d0ef3daf4a9fbe3334e9bd1c72055276870c92ff73e8a1"
     },
     {
       "id": "repeto:english-french:topic-08",
@@ -85,7 +99,9 @@
       "published": "2026-11-12T09:13:45+00:00",
       "description": "Topic 8 of 30: Clothing (Les vêtements) – 29 phrases.\n\nYou hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Jumper → Le pull\n• T-shirt → Le tee-shirt\n• Shirt → La chemise\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 8
+      "episode": 8,
+      "bytes": 7288206,
+      "sha256": "985070349956110f4fc56adefea40a121ab13baf84980a1fc6c6a12030a5accb"
     },
     {
       "id": "repeto:english-french:topic-09",
@@ -95,7 +111,9 @@
       "published": "2026-11-12T09:13:45+00:00",
       "description": "Topic 9 of 30: Home (À la maison) – 38 phrases.\n\nYou hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• House → La maison\n• Flat → L'appartement\n• Room → La pièce\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 9
+      "episode": 9,
+      "bytes": 9402243,
+      "sha256": "e0e1bf3fd3cc63373786da9006f9ed368479fb0767753ce1bb9147eb97d6c59a"
     },
     {
       "id": "repeto:english-french:topic-10",
@@ -105,7 +123,9 @@
       "published": "2026-11-12T09:13:45+00:00",
       "description": "Topic 10 of 30: School (L'école) – 41 phrases.\n\nYou hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• School → L'école\n• Classroom → La salle de classe\n• Teacher → Le professeur\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 10
+      "episode": 10,
+      "bytes": 10279331,
+      "sha256": "d65c2b803ae94d8c9da222826cdb489ababfc83524ad2222b13d13c33b4b8f36"
     },
     {
       "id": "repeto:english-french:topic-11",
@@ -115,7 +135,9 @@
       "published": "2026-11-12T09:13:45+00:00",
       "description": "Topic 11 of 30: Weather (La météo) – 25 phrases.\n\nYou hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Weather → La météo\n• Sun → Le soleil\n• Rain → La pluie\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 11
+      "episode": 11,
+      "bytes": 6092634,
+      "sha256": "06a03e4628ae0e36a8be4d461baa3c50b31c4320cb875fb466841eeb3945bd32"
     },
     {
       "id": "repeto:english-french:topic-12",
@@ -125,7 +147,9 @@
       "published": "2026-11-12T09:13:45+00:00",
       "description": "Topic 12 of 30: Seasons (Les saisons) – 18 phrases.\n\nYou hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Spring → Le printemps\n• Summer → L'été\n• Autumn → L'automne\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 12
+      "episode": 12,
+      "bytes": 4843772,
+      "sha256": "ff666901ff40df7fc6571243e61d8a98c8969c9bd4ab4ea77bba801a88577e64"
     },
     {
       "id": "repeto:english-french:topic-13",
@@ -135,7 +159,9 @@
       "published": "2026-11-12T09:13:45+00:00",
       "description": "Topic 13 of 30: Days and Time (Les jours et l'heure) – 29 phrases.\n\nYou hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Monday → Lundi\n• Tuesday → Mardi\n• Wednesday → Mercredi\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 13
+      "episode": 13,
+      "bytes": 7334599,
+      "sha256": "ae1743d4a619e0a7b419952f7797dde8e3d925dfaaebf85badff9c5b61dee85e"
     },
     {
       "id": "repeto:english-french:topic-14",
@@ -145,7 +171,9 @@
       "published": "2026-11-12T09:13:45+00:00",
       "description": "Topic 14 of 30: Toys and Play (Les jouets et les jeux) – 34 phrases.\n\nYou hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Toy → Un jouet\n• Ball → Un ballon\n• Doll → Une poupée\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 14
+      "episode": 14,
+      "bytes": 8663083,
+      "sha256": "ce726df81695bd8d0572be210c3ceceb498d953f073c034b19b1bbf7a9893240"
     },
     {
       "id": "repeto:english-french:topic-15",
@@ -155,7 +183,9 @@
       "published": "2026-11-12T09:13:45+00:00",
       "description": "Topic 15 of 30: Sports and Activities (Les sports et les activités) – 25 phrases.\n\nYou hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Football → Le foot\n• Swimming → La natation\n• Cycling → Le vélo\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 15
+      "episode": 15,
+      "bytes": 6603589,
+      "sha256": "d5f8578f05b964039799600f65baef6fa2ad683998d5a9dbd7850a37fb27738c"
     },
     {
       "id": "repeto:english-french:topic-16",
@@ -165,7 +195,9 @@
       "published": "2026-11-12T09:13:45+00:00",
       "description": "Topic 16 of 30: I want and I need (Je veux / J'ai besoin) – 28 phrases.\n\nYou hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• I want to go outside. → Je veux sortir.\n• I want a ball. → Je veux un ballon.\n• I want to eat. → Je veux manger.\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 16
+      "episode": 16,
+      "bytes": 7663115,
+      "sha256": "dcbb8939b5d55d7724e3d58457e35d120fe86e34a34b358027c3635b00e1c273"
     },
     {
       "id": "repeto:english-french:topic-17",
@@ -175,7 +207,9 @@
       "published": "2026-11-12T09:13:45+00:00",
       "description": "Topic 17 of 30: Where is it? (Où est... ?) – 28 phrases.\n\nYou hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Where is the teddy bear? → Où est le nounours ?\n• Where is my phone? → Où est mon téléphone ?\n• Where is my bag? → Où est mon sac ?\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 17
+      "episode": 17,
+      "bytes": 7199181,
+      "sha256": "3d1b695f2eaf6ba790cdf1c0d2845e40a13392de0d39dddef0a96fad3c1dd003"
     },
     {
       "id": "repeto:english-french:topic-18",
@@ -185,7 +219,9 @@
       "published": "2026-11-12T09:13:45+00:00",
       "description": "Topic 18 of 30: Feelings and Emotions (Les sentiments et les émotions) – 28 phrases.\n\nYou hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Happy → Joyeux\n• Sad → Triste\n• Angry → En colère\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 18
+      "episode": 18,
+      "bytes": 7132725,
+      "sha256": "042191dc711034acc9aa9aebb2e4ff8e8e03556bf5ab603594ac54723c9a9d94"
     },
     {
       "id": "repeto:english-french:topic-19",
@@ -195,7 +231,9 @@
       "published": "2026-11-12T09:13:45+00:00",
       "description": "Topic 19 of 30: Transport (Transports) – 25 phrases.\n\nYou hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Car → Voiture\n• Bus → Bus\n• Train → Train\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 19
+      "episode": 19,
+      "bytes": 6328363,
+      "sha256": "52d4e5a56d265bab5ab0b843f0b7ec6a010d71d572c9e6d236cf9b8c4388f795"
     },
     {
       "id": "repeto:english-french:topic-20",
@@ -205,7 +243,9 @@
       "published": "2026-11-12T09:13:45+00:00",
       "description": "Topic 20 of 30: Nature (Nature) – 27 phrases.\n\nYou hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Forest → Forêt\n• Sea → Mer\n• Lake → Lac\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 20
+      "episode": 20,
+      "bytes": 6479455,
+      "sha256": "02b3d0af5e8fb6d59cf6112612c41f777ad8edc20172c6bfc901b497e60d4902"
     },
     {
       "id": "repeto:english-french:topic-21",
@@ -215,7 +255,9 @@
       "published": "2026-11-12T09:13:45+00:00",
       "description": "Topic 21 of 30: Holidays and Celebrations (Fêtes et célébrations) – 23 phrases.\n\nYou hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Birthday → Anniversaire\n• Happy birthday! → Joyeux anniversaire !\n• Christmas → Noël\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 21
+      "episode": 21,
+      "bytes": 5995458,
+      "sha256": "7c95b29f466a40dba48c83692559d676921e45cdf81c1d7fc30e14978281dead"
     },
     {
       "id": "repeto:english-french:topic-22",
@@ -225,7 +267,9 @@
       "published": "2026-11-12T09:13:45+00:00",
       "description": "Topic 22 of 30: Daily Routine (Routine quotidienne) – 28 phrases.\n\nYou hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Wake up → Se réveiller\n• Get up → Se lever\n• Brush your teeth → Se brosser les dents\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 22
+      "episode": 22,
+      "bytes": 7537728,
+      "sha256": "7c47914bb44e0882f181554ac2a9a8bcaf7dbf6765602b0b7039ba8ce94d482e"
     },
     {
       "id": "repeto:english-french:topic-23",
@@ -235,7 +279,9 @@
       "published": "2026-11-12T09:13:45+00:00",
       "description": "Topic 23 of 30: Asking and Requests (Questions et demandes) – 26 phrases.\n\nYou hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Can you help me? → Tu peux m'aider ?\n• Help! → Au secours !\n• Please! → S'il te plaît !\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 23
+      "episode": 23,
+      "bytes": 6407984,
+      "sha256": "984ef9bf9ad02052b6c2e78507d1696b751c63eb701381c692727850ff465a3e"
     },
     {
       "id": "repeto:english-french:topic-24",
@@ -245,7 +291,9 @@
       "published": "2026-11-12T09:13:45+00:00",
       "description": "Topic 24 of 30: Opposites (Contraires) – 28 phrases.\n\nYou hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Big → Grand\n• Small → Petit\n• Long → Long\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 24
+      "episode": 24,
+      "bytes": 6613620,
+      "sha256": "6ecb117c518109c44ce51d0755d3fcd6ae9f636d332a3699cdceee5c75b4d53d"
     },
     {
       "id": "repeto:english-french:topic-25",
@@ -255,7 +303,9 @@
       "published": "2026-11-12T09:13:45+00:00",
       "description": "Topic 25 of 30: Actions and Verbs (Actions et verbes) – 41 phrases.\n\nYou hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Walk → Marcher\n• Run → Courir\n• Jump → Sauter\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 25
+      "episode": 25,
+      "bytes": 9878717,
+      "sha256": "fc84aaa29b1ba09de36ab9762af8a63196ed5e96f2abecd1c910217e2a911b53"
     },
     {
       "id": "repeto:english-french:topic-26",
@@ -265,7 +315,9 @@
       "published": "2026-11-12T09:13:45+00:00",
       "description": "Topic 26 of 30: Places in Town (Lieux en ville) – 23 phrases.\n\nYou hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Park → Parc\n• Playground → Aire de jeux\n• Shop → Magasin\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 26
+      "episode": 26,
+      "bytes": 5898283,
+      "sha256": "18dd343fc7925b26e4127b7deb6b4e55af6a4282f7c2ad95698af18dcacd1bc8"
     },
     {
       "id": "repeto:english-french:topic-27",
@@ -275,7 +327,9 @@
       "published": "2026-11-12T09:13:45+00:00",
       "description": "Topic 27 of 30: Technology (Technologie) – 22 phrases.\n\nYou hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Phone → Téléphone\n• Mobile phone → Téléphone portable\n• Computer → Ordinateur\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 27
+      "episode": 27,
+      "bytes": 5805496,
+      "sha256": "7d1fd3392c909c81d473f7ac51c6a1ed9b731e6511786a96ac7fd8d70b5e5991"
     },
     {
       "id": "repeto:english-french:topic-28",
@@ -285,7 +339,9 @@
       "published": "2026-11-12T09:13:45+00:00",
       "description": "Topic 28 of 30: Music and Art (Musique et art) – 23 phrases.\n\nYou hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Music → Musique\n• Song → Chanson\n• Dancing → Danse\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 28
+      "episode": 28,
+      "bytes": 5834962,
+      "sha256": "d5ab66c11f7e1bcf422da532e767d7cc719f897f84cd5fc86f597c6e1f459215"
     },
     {
       "id": "repeto:english-french:topic-29",
@@ -295,7 +351,9 @@
       "published": "2026-11-12T09:13:45+00:00",
       "description": "Topic 29 of 30: Polite Phrases (Formules de politesse) – 17 phrases.\n\nYou hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Please. → S’il te plaît.\n• Thank you! → Merci !\n• Thank you very much! → Merci beaucoup !\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 29
+      "episode": 29,
+      "bytes": 4213698,
+      "sha256": "396fa5b95070ce744a161251ecd59aa4f4ef9e059d22561f7b512eab24ccda74"
     },
     {
       "id": "repeto:english-french:topic-30",
@@ -305,7 +363,9 @@
       "published": "2026-11-12T09:13:45+00:00",
       "description": "Topic 30 of 30: Review and Recap (Révision et récapitulatif) – 11 phrases.\n\nYou hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Well done! → Bien joué !\n• You are learning a new language! → Tu apprends une nouvelle langue !\n• Let's practise! → Entraînons-nous !\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 30
+      "episode": 30,
+      "bytes": 3035680,
+      "sha256": "31ee4349a02313de46374be8bb4a581831a0e0ec90c6a9c204cf1fd87a223cea"
     },
     {
       "id": "magical_radio:en:fr:chapter-01",
@@ -316,7 +376,9 @@
       "published": "2026-11-12T09:15:12+00:00",
       "description": "Chapter 1 of 8 in \"The Magical Radio\" (La radio magique). Two siblings find an old wooden radio at a flea market. Suddenly it starts to hum, and a golden inscription shows that the radio is meant for them.\n\nHow the episode works:\n1. Listen to the whole chapter in French. You don't need to understand everything.\n2. Practise words and expressions from the chapter: an English prompt, a pause, then the answer in French.\n3. Listen to the chapter again and see how much you can understand.\n\nA chime separates the sections. Listen in order, starting with chapter 1.",
       "season": 2,
-      "episode": 1
+      "episode": 1,
+      "bytes": 7121440,
+      "sha256": "ea00969bd2dc2c3a4282509b45758c18eab53a22a17ab64fceabf615ff8326c1"
     },
     {
       "id": "magical_radio:en:fr:chapter-02",
@@ -327,7 +389,9 @@
       "published": "2026-11-12T09:15:12+00:00",
       "description": "Chapter 2 of 8 in \"The Magical Radio\" (La radio magique). At home, the children press the blue button. A little cloud smelling of cinnamon floats out of the radio, and a cheerful voice tells them about a mouse with an important key.\n\nHow the episode works:\n1. Listen to the whole chapter in French. You don't need to understand everything.\n2. Practise words and expressions from the chapter: an English prompt, a pause, then the answer in French.\n3. Listen to the chapter again and see how much you can understand.\n\nA chime separates the sections. Listen in order, starting with chapter 1.",
       "season": 2,
-      "episode": 2
+      "episode": 2,
+      "bytes": 6444346,
+      "sha256": "69a25c4ab8bc57cef7d91ffefa70b7bf224f8365e6d125cf95cda7a6f6dcd65f"
     },
     {
       "id": "magical_radio:en:fr:chapter-03",
@@ -338,7 +402,9 @@
       "published": "2026-11-12T09:15:12+00:00",
       "description": "Chapter 3 of 8 in \"The Magical Radio\" (La radio magique). With a torch, some cheese and the radio, the siblings head to the old tree. A little mouse agrees to a trade, and a small door is hidden between the roots.\n\nHow the episode works:\n1. Listen to the whole chapter in French. You don't need to understand everything.\n2. Practise words and expressions from the chapter: an English prompt, a pause, then the answer in French.\n3. Listen to the chapter again and see how much you can understand.\n\nA chime separates the sections. Listen in order, starting with chapter 1.",
       "season": 2,
-      "episode": 3
+      "episode": 3,
+      "bytes": 8493182,
+      "sha256": "ec244d6a978c801f42ec786394a21612c33854d363c8963546f5fb434b83cc04"
     },
     {
       "id": "magical_radio:en:fr:chapter-04",
@@ -349,7 +415,9 @@
       "published": "2026-11-12T09:15:12+00:00",
       "description": "Chapter 4 of 8 in \"The Magical Radio\" (La radio magique). The silver key opens the door. Stone steps lead down to a library full of flying books, with glowing flowers growing on the walls.\n\nHow the episode works:\n1. Listen to the whole chapter in French. You don't need to understand everything.\n2. Practise words and expressions from the chapter: an English prompt, a pause, then the answer in French.\n3. Listen to the chapter again and see how much you can understand.\n\nA chime separates the sections. Listen in order, starting with chapter 1.",
       "season": 2,
-      "episode": 4
+      "episode": 4,
+      "bytes": 6544030,
+      "sha256": "f8741388311de73553ca36e9f1187f2c783f49b9e8bcec88206c527c77a05286"
     },
     {
       "id": "magical_radio:en:fr:chapter-05",
@@ -360,7 +428,9 @@
       "published": "2026-11-12T09:15:12+00:00",
       "description": "Chapter 5 of 8 in \"The Magical Radio\" (La radio magique). A golden book lands on one of the children's shoulders, and the radio reveals a spell that can mend broken things.\n\nHow the episode works:\n1. Listen to the whole chapter in French. You don't need to understand everything.\n2. Practise words and expressions from the chapter: an English prompt, a pause, then the answer in French.\n3. Listen to the chapter again and see how much you can understand.\n\nA chime separates the sections. Listen in order, starting with chapter 1.",
       "season": 2,
-      "episode": 5
+      "episode": 5,
+      "bytes": 6278834,
+      "sha256": "fd18cdfc46a0e2fd5a098748a3f3ef56e4ee59dcbb67fd50b342e6c253dd25f1"
     },
     {
       "id": "magical_radio:en:fr:chapter-06",
@@ -371,7 +441,9 @@
       "published": "2026-11-12T09:15:12+00:00",
       "description": "Chapter 6 of 8 in \"The Magical Radio\" (La radio magique). It's time to try the spell on a broken compass. Will it work? And who is waiting behind the green door?\n\nHow the episode works:\n1. Listen to the whole chapter in French. You don't need to understand everything.\n2. Practise words and expressions from the chapter: an English prompt, a pause, then the answer in French.\n3. Listen to the chapter again and see how much you can understand.\n\nA chime separates the sections. Listen in order, starting with chapter 1.",
       "season": 2,
-      "episode": 6
+      "episode": 6,
+      "bytes": 5124640,
+      "sha256": "be5e6d2db264f927661b2e7fa2b61c82f8a1600e1268c6097ef3c488f58f2ead"
     },
     {
       "id": "magical_radio:en:fr:chapter-07",
@@ -382,7 +454,9 @@
       "published": "2026-11-12T09:15:12+00:00",
       "description": "Chapter 7 of 8 in \"The Magical Radio\" (La radio magique). Behind the door lies an underground garden. A golden bird ticks like a clock instead of singing. A stone is missing from its wing, and the radio has a secret.\n\nHow the episode works:\n1. Listen to the whole chapter in French. You don't need to understand everything.\n2. Practise words and expressions from the chapter: an English prompt, a pause, then the answer in French.\n3. Listen to the chapter again and see how much you can understand.\n\nA chime separates the sections. Listen in order, starting with chapter 1.",
       "season": 2,
-      "episode": 7
+      "episode": 7,
+      "bytes": 8185982,
+      "sha256": "229838983f6e0c05759c5b9eb6040cb1a5a1acb7fd73bd58cc08701a294c83e8"
     },
     {
       "id": "magical_radio:en:fr:chapter-08",
@@ -393,7 +467,9 @@
       "published": "2026-11-12T09:15:12+00:00",
       "description": "Chapter 8 of 8 in \"The Magical Radio\" (La radio magique). The finale! Can the siblings mend the golden bird? The story ends with singing, dancing butterflies and the promise of another adventure.\n\nHow the episode works:\n1. Listen to the whole chapter in French. You don't need to understand everything.\n2. Practise words and expressions from the chapter: an English prompt, a pause, then the answer in French.\n3. Listen to the chapter again and see how much you can understand.\n\nA chime separates the sections. Listen in order, starting with chapter 1.",
       "season": 2,
-      "episode": 8
+      "episode": 8,
+      "bytes": 5371654,
+      "sha256": "282534a0ee3a20da291e1380b379272a01469e516b7ef43f229a67dafc6dd39c"
     }
   ],
   "seasons": {

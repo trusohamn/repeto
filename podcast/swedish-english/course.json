@@ -17,7 +17,9 @@
       "published": "2026-10-27T18:52:57+00:00",
       "description": "Ämne 1 av 30: Hälsningar (Greetings) – 36 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Hej! → Hi!\n• God morgon! → Good morning!\n• God eftermiddag! → Good afternoon!\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 1
+      "episode": 1,
+      "bytes": 8774678,
+      "sha256": "93b9dbbc1beb7fcf44a4f65b6824b465de68ba4ef7dcbac363da46895e276842"
     },
     {
       "id": "repeto:swedish-english:topic-02",
@@ -27,7 +29,9 @@
       "published": "2026-10-27T18:52:57+00:00",
       "description": "Ämne 2 av 30: Tal (Numbers) – 35 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Ett → One\n• Två → Two\n• Tre → Three\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 2
+      "episode": 2,
+      "bytes": 8175951,
+      "sha256": "ac9744666495cec18e17294d389650dc8670c9a5d4047687b47f043028d589d5"
     },
     {
       "id": "repeto:swedish-english:topic-03",
@@ -37,7 +41,9 @@
       "published": "2026-10-27T18:52:57+00:00",
       "description": "Ämne 3 av 30: Färger (Colors) – 29 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Röd → Red\n• Blå → Blue\n• Gul → Yellow\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 3
+      "episode": 3,
+      "bytes": 7191030,
+      "sha256": "8b151d96fdbe75c486e4031d84e49c57e1c3775f859200ae8e6ba8104422088e"
     },
     {
       "id": "repeto:swedish-english:topic-04",
@@ -47,7 +53,9 @@
       "published": "2026-10-27T18:52:57+00:00",
       "description": "Ämne 4 av 30: Djur (Animals) – 42 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Hund → Dog\n• Katt → Cat\n• Fågel → Bird\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 4
+      "episode": 4,
+      "bytes": 9989058,
+      "sha256": "b6cadb7d3dabbf48224e955574be703345fdb1885adad764c1f3687c0fc0a8a6"
     },
     {
       "id": "repeto:swedish-english:topic-05",
@@ -57,7 +65,9 @@
       "published": "2026-10-27T18:52:57+00:00",
       "description": "Ämne 5 av 30: Familj (Family) – 26 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Mamma → Mum\n• Pappa → Dad\n• Syster → Sister\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 5
+      "episode": 5,
+      "bytes": 6777251,
+      "sha256": "9b4d1dd3acf445484b2cd7bb32e572e6fbc789cddc51b5a6930cf45a25248f09"
     },
     {
       "id": "repeto:swedish-english:topic-06",
@@ -67,7 +77,9 @@
       "published": "2026-10-27T18:52:57+00:00",
       "description": "Ämne 6 av 30: Mat (Food) – 49 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Bröd → Bread\n• Mjölk → Milk\n• Ägg → Egg\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 6
+      "episode": 6,
+      "bytes": 11819092,
+      "sha256": "45215a9f0433d6fc3c6750e5b067803d20c6b05180eff2599920113150e47397"
     },
     {
       "id": "repeto:swedish-english:topic-07",
@@ -77,7 +89,9 @@
       "published": "2026-10-27T18:52:57+00:00",
       "description": "Ämne 7 av 30: Kroppen (Body) – 37 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Huvud → Head\n• Hår → Hair\n• Öga → Eye\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 7
+      "episode": 7,
+      "bytes": 8768408,
+      "sha256": "533fb53244ecbf2890c3086d0c9414881224571f00c83e7ded02c5ce3561f11f"
     },
     {
       "id": "repeto:swedish-english:topic-08",
@@ -87,7 +101,9 @@
       "published": "2026-10-27T18:52:57+00:00",
       "description": "Ämne 8 av 30: Kläder (Clothing) – 29 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Tröja → Jumper\n• T-shirt → T-shirt\n• Skjorta → Shirt\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 8
+      "episode": 8,
+      "bytes": 7307641,
+      "sha256": "ff0f7e7bb1b87fc0cc9faa18ae0658ac681bff772e330a57734c3cc03bcd14ee"
     },
     {
       "id": "repeto:swedish-english:topic-09",
@@ -97,7 +113,9 @@
       "published": "2026-10-27T18:52:57+00:00",
       "description": "Ämne 9 av 30: Hemma (Home) – 38 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Hus → House\n• Lägenhet → Flat\n• Rum → Room\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 9
+      "episode": 9,
+      "bytes": 9177172,
+      "sha256": "e56d2187b8f4f57dc105825729364d431696530734c67ef3b0c1547b0459b47d"
     },
     {
       "id": "repeto:swedish-english:topic-10",
@@ -107,7 +125,9 @@
       "published": "2026-10-27T18:52:57+00:00",
       "description": "Ämne 10 av 30: Skolan (School) – 41 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Skola → School\n• Klassrum → Classroom\n• Lärare → Teacher\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 10
+      "episode": 10,
+      "bytes": 10215383,
+      "sha256": "0d0963093a0ca6510d7cff69d08d293d2f2fc46f127758cbad9dad9cc51d4036"
     },
     {
       "id": "repeto:swedish-english:topic-11",
@@ -117,7 +137,9 @@
       "published": "2026-10-27T18:52:57+00:00",
       "description": "Ämne 11 av 30: Väder (Weather) – 25 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Väder → Weather\n• Sol → Sun\n• Regn → Rain\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 11
+      "episode": 11,
+      "bytes": 6068810,
+      "sha256": "54ca03b6ca903484ffd8721cfa07c07e8a98e28fdfd5a7e02b7692c9c4f5bb4a"
     },
     {
       "id": "repeto:swedish-english:topic-12",
@@ -127,7 +149,9 @@
       "published": "2026-10-27T18:52:57+00:00",
       "description": "Ämne 12 av 30: Årstider (Seasons) – 18 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Vår → Spring\n• Sommar → Summer\n• Höst → Autumn\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 12
+      "episode": 12,
+      "bytes": 4818067,
+      "sha256": "f1f7440c40fc35bedd4dca493f0b18d5933932eb7e33d2d62f4d52c610b2eb5a"
     },
     {
       "id": "repeto:swedish-english:topic-13",
@@ -137,7 +161,9 @@
       "published": "2026-10-27T18:52:57+00:00",
       "description": "Ämne 13 av 30: Dagar och tid (Days and Time) – 29 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Måndag → Monday\n• Tisdag → Tuesday\n• Onsdag → Wednesday\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 13
+      "episode": 13,
+      "bytes": 7335853,
+      "sha256": "7491d531a6c24a6d7d08e5e4b045fcf7c9515bbf5d99524448800bb19d9782ed"
     },
     {
       "id": "repeto:swedish-english:topic-14",
@@ -147,7 +173,9 @@
       "published": "2026-10-27T18:52:57+00:00",
       "description": "Ämne 14 av 30: Leksaker och lek (Toys and Play) – 34 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Leksak → Toy\n• Boll → Ball\n• Docka → Doll\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 14
+      "episode": 14,
+      "bytes": 8504467,
+      "sha256": "2401220ce2b508920d0f59904954673b387e6d4f108df8c59312213360f54648"
     },
     {
       "id": "repeto:swedish-english:topic-15",
@@ -157,7 +185,9 @@
       "published": "2026-10-27T18:52:57+00:00",
       "description": "Ämne 15 av 30: Sport och aktiviteter (Sports and Activities) – 25 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Fotboll → Football\n• Simning → Swimming\n• Cykling → Cycling\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 15
+      "episode": 15,
+      "bytes": 6437450,
+      "sha256": "5625e866e2086492ec6b2034f147de602651c5b676d57b8a8f1319d84ee1d7be"
     },
     {
       "id": "repeto:swedish-english:topic-16",
@@ -167,7 +197,9 @@
       "published": "2026-10-27T18:52:57+00:00",
       "description": "Ämne 16 av 30: Jag vill ha och jag behöver (I want and I need) – 28 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Jag vill gå ut. → I want to go outside.\n• Jag vill ha en boll. → I want a ball.\n• Jag vill äta. → I want to eat.\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 16
+      "episode": 16,
+      "bytes": 7542743,
+      "sha256": "7868342e505e4d2aade005d28705e866f0a304fe6795ac0b65f446cde60210bc"
     },
     {
       "id": "repeto:swedish-english:topic-17",
@@ -177,7 +209,9 @@
       "published": "2026-10-27T18:52:57+00:00",
       "description": "Ämne 17 av 30: Var är? (Where is it?) – 28 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Var är nallen? → Where is the teddy bear?\n• Var är min mobil? → Where is my phone?\n• Var är min väska? → Where is my bag?\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 17
+      "episode": 17,
+      "bytes": 7432402,
+      "sha256": "bbbdc54c72baec67b94722577068d58f7d95a579d0236adb9247b462ea7fbd06"
     },
     {
       "id": "repeto:swedish-english:topic-18",
@@ -187,7 +221,9 @@
       "published": "2026-10-27T18:52:57+00:00",
       "description": "Ämne 18 av 30: Känslor (Feelings and Emotions) – 28 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Glad → Happy\n• Ledsen → Sad\n• Arg → Angry\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 18
+      "episode": 18,
+      "bytes": 7074420,
+      "sha256": "cdfe5bfd372d1fd614647d7a2250a087a8f0d7f8862c8ce868773488eaf29de5"
     },
     {
       "id": "repeto:swedish-english:topic-19",
@@ -197,7 +233,9 @@
       "published": "2026-10-27T18:52:57+00:00",
       "description": "Ämne 19 av 30: Färdmedel (Transport) – 25 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Bil → Car\n• Buss → Bus\n• Tåg → Train\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 19
+      "episode": 19,
+      "bytes": 6365352,
+      "sha256": "84787b12fc28b08d5c55c9d51bb9c6cc6be3f9af27a8740682011ef6726c55f3"
     },
     {
       "id": "repeto:swedish-english:topic-20",
@@ -207,7 +245,9 @@
       "published": "2026-10-27T18:52:57+00:00",
       "description": "Ämne 20 av 30: Naturen (Nature) – 27 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Skog → Forest\n• Hav → Sea\n• Sjö → Lake\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 20
+      "episode": 20,
+      "bytes": 6545283,
+      "sha256": "73c3f121c696fd0d54479f18e18cfc799502d243c749b81ecf369232bf4107e0"
     },
     {
       "id": "repeto:swedish-english:topic-21",
@@ -217,7 +257,9 @@
       "published": "2026-10-27T18:52:57+00:00",
       "description": "Ämne 21 av 30: Högtider och firande (Holidays and Celebrations) – 23 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Födelsedag → Birthday\n• Grattis på födelsedagen! → Happy birthday!\n• Jul → Christmas\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 21
+      "episode": 21,
+      "bytes": 5999220,
+      "sha256": "fe71136c75aa2be4b4f369c80208ccd870f0ed25ff94594a8c716adc53a48b4e"
     },
     {
       "id": "repeto:swedish-english:topic-22",
@@ -227,7 +269,9 @@
       "published": "2026-10-27T18:52:57+00:00",
       "description": "Ämne 22 av 30: Vardagsrutiner (Daily Routine) – 28 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Vakna → Wake up\n• Stiga upp → Get up\n• Borsta tänderna → Brush your teeth\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 22
+      "episode": 22,
+      "bytes": 7586002,
+      "sha256": "c6839ce7420ce86a438d98798bd8e6596bb9814c04885cd3e0eb3aa018343c68"
     },
     {
       "id": "repeto:swedish-english:topic-23",
@@ -237,7 +281,9 @@
       "published": "2026-10-27T18:52:57+00:00",
       "description": "Ämne 23 av 30: Fråga och be om hjälp (Asking and Requests) – 26 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Kan du hjälpa mig? → Can you help me?\n• Hjälp! → Help!\n• Snälla! → Please!\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 23
+      "episode": 23,
+      "bytes": 6403595,
+      "sha256": "538149c252ed213790f5ee9376481e25863ad8bda5c1e1e5d4ee8e3724b38e15"
     },
     {
       "id": "repeto:swedish-english:topic-24",
@@ -247,7 +293,9 @@
       "published": "2026-10-27T18:52:57+00:00",
       "description": "Ämne 24 av 30: Motsatser (Opposites) – 28 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Stor → Big\n• Liten → Small\n• Lång → Long\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 24
+      "episode": 24,
+      "bytes": 6680075,
+      "sha256": "7642d38b798e8a87f1ffc255560beba22d2ee1c5de790305a4ea68ef2b319cd8"
     },
     {
       "id": "repeto:swedish-english:topic-25",
@@ -257,7 +305,9 @@
       "published": "2026-10-27T18:52:57+00:00",
       "description": "Ämne 25 av 30: Handlingar och verb (Actions and Verbs) – 41 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Gå → Walk\n• Springa → Run\n• Hoppa → Jump\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 25
+      "episode": 25,
+      "bytes": 9739536,
+      "sha256": "e24409f004cc4db0c22755aa0c4c2c79c0a7f4880826cc9de33813b3b490aca5"
     },
     {
       "id": "repeto:swedish-english:topic-26",
@@ -267,7 +317,9 @@
       "published": "2026-10-27T18:52:57+00:00",
       "description": "Ämne 26 av 30: Platser i staden (Places in Town) – 23 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Park → Park\n• Lekplats → Playground\n• Affär → Shop\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 26
+      "episode": 26,
+      "bytes": 5962857,
+      "sha256": "74eb4c6740b5969bb08b9eb2e6820ae58ea77ddc56920a99bd7c76bf0095c33f"
     },
     {
       "id": "repeto:swedish-english:topic-27",
@@ -277,7 +329,9 @@
       "published": "2026-10-27T18:52:57+00:00",
       "description": "Ämne 27 av 30: Teknik (Technology) – 22 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Telefon → Phone\n• Mobiltelefon → Mobile phone\n• Dator → Computer\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 27
+      "episode": 27,
+      "bytes": 5705812,
+      "sha256": "a9186a88a66143062da3398d639cfddf5276a849e899f133c606ebe9dacaddf3"
     },
     {
       "id": "repeto:swedish-english:topic-28",
@@ -287,7 +341,9 @@
       "published": "2026-10-27T18:52:57+00:00",
       "description": "Ämne 28 av 30: Musik och konst (Music and Art) – 23 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Musik → Music\n• Sång → Song\n• Dans → Dancing\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 28
+      "episode": 28,
+      "bytes": 5823677,
+      "sha256": "c32a89b6507fb55988a7d7b54ad92fc3598a017a8b84bf0efce5b241a869a4ce"
     },
     {
       "id": "repeto:swedish-english:topic-29",
@@ -297,7 +353,9 @@
       "published": "2026-10-27T18:52:57+00:00",
       "description": "Ämne 29 av 30: Artiga fraser (Polite Phrases) – 17 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Snälla. → Please.\n• Tack! → Thank you!\n• Tack så mycket! → Thank you very much!\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 29
+      "episode": 29,
+      "bytes": 4181724,
+      "sha256": "71d2592b3ef941b2172d5b4f74307b7e86a43539647127f8ad6e2394c12e7dcf"
     },
     {
       "id": "repeto:swedish-english:topic-30",
@@ -307,7 +365,9 @@
       "published": "2026-10-27T18:52:57+00:00",
       "description": "Ämne 30 av 30: Repetition (Review and Recap) – 11 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Bra gjort! → Well done!\n• Du lär dig ett nytt språk! → You are learning a new language!\n• Nu övar vi! → Let's practise!\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 30
+      "episode": 30,
+      "bytes": 3016872,
+      "sha256": "0bd68b0d118681bd940e7339ddbba61c65ebdff2dc5702a11a550e4655dc47de"
     },
     {
       "id": "magical_radio:sv:en:chapter-01",
@@ -318,7 +378,9 @@
       "published": "2026-10-28T14:58:21+00:00",
       "description": "Kapitel 1 av 8 i berättelsen ”Den magiska radion” (The Magical Radio). Två syskon hittar en gammal träradio på en loppmarknad. Plötsligt surrar den – och en gyllene text visar att radion är till just dem.\n\nSå går avsnittet till:\n1. Lyssna på hela kapitlet på engelska – du behöver inte förstå allt.\n2. Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på engelska.\n3. Lyssna på kapitlet igen – nu förstår du mycket mer.\n\nEn ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.",
       "season": 2,
-      "episode": 1
+      "episode": 1,
+      "bytes": 7169088,
+      "sha256": "cf493af23787764f79283756cefb29b2093dc2f06f404fc3a689ffa08d68faf2"
     },
     {
       "id": "magical_radio:sv:en:chapter-02",
@@ -329,7 +391,9 @@
       "published": "2026-10-28T14:58:21+00:00",
       "description": "Kapitel 2 av 8 i berättelsen ”Den magiska radion” (The Magical Radio). Hemma trycker de på den blå knappen. Ur radion kommer ett moln som doftar kanel – och en glad röst berättar om en mus med en viktig nyckel.\n\nSå går avsnittet till:\n1. Lyssna på hela kapitlet på engelska – du behöver inte förstå allt.\n2. Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på engelska.\n3. Lyssna på kapitlet igen – nu förstår du mycket mer.\n\nEn ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.",
       "season": 2,
-      "episode": 2
+      "episode": 2,
+      "bytes": 6402968,
+      "sha256": "53a29f9d0510e9d7ea06b19866d9eac8fb2c16dee8c0fdaa69cc01037815201e"
     },
     {
       "id": "magical_radio:sv:en:chapter-03",
@@ -340,7 +404,9 @@
       "published": "2026-10-28T14:58:21+00:00",
       "description": "Kapitel 3 av 8 i berättelsen ”Den magiska radion” (The Magical Radio). Med ficklampa, ost och radion går syskonen till det gamla trädet. En liten mus vill byta – och mellan rötterna gömmer sig en liten dörr.\n\nSå går avsnittet till:\n1. Lyssna på hela kapitlet på engelska – du behöver inte förstå allt.\n2. Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på engelska.\n3. Lyssna på kapitlet igen – nu förstår du mycket mer.\n\nEn ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.",
       "season": 2,
-      "episode": 3
+      "episode": 3,
+      "bytes": 8285039,
+      "sha256": "fd3a35b99b552488d328c461089e57c9b51071a408edbf936970859b5ab08ed6"
     },
     {
       "id": "magical_radio:sv:en:chapter-04",
@@ -351,7 +417,9 @@
       "published": "2026-10-28T14:58:21+00:00",
       "description": "Kapitel 4 av 8 i berättelsen ”Den magiska radion” (The Magical Radio). Silvernyckeln öppnar dörren. En stentrappa leder ner till ett bibliotek med flygande böcker och blå, lysande blommor.\n\nSå går avsnittet till:\n1. Lyssna på hela kapitlet på engelska – du behöver inte förstå allt.\n2. Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på engelska.\n3. Lyssna på kapitlet igen – nu förstår du mycket mer.\n\nEn ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.",
       "season": 2,
-      "episode": 4
+      "episode": 4,
+      "bytes": 6483843,
+      "sha256": "2bc5416eb4893b7f441950d29d648436bb584a2463c6c7fe8ef0af596420457b"
     },
     {
       "id": "magical_radio:sv:en:chapter-05",
@@ -362,7 +430,9 @@
       "published": "2026-10-28T14:58:21+00:00",
       "description": "Kapitel 5 av 8 i berättelsen ”Den magiska radion” (The Magical Radio). En gyllene bok landar på en axel, och radion lär ut en trollformel som lagar allt som är trasigt.\n\nSå går avsnittet till:\n1. Lyssna på hela kapitlet på engelska – du behöver inte förstå allt.\n2. Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på engelska.\n3. Lyssna på kapitlet igen – nu förstår du mycket mer.\n\nEn ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.",
       "season": 2,
-      "episode": 5
+      "episode": 5,
+      "bytes": 6350932,
+      "sha256": "6313f09bb01f2a6161a1de70001cd3a8917253e4043b1230bc05be7ef58dfa66"
     },
     {
       "id": "magical_radio:sv:en:chapter-06",
@@ -373,7 +443,9 @@
       "published": "2026-10-28T14:58:21+00:00",
       "description": "Kapitel 6 av 8 i berättelsen ”Den magiska radion” (The Magical Radio). Dags att prova trollformeln på en trasig kompass. Fungerar den? Och vem väntar bakom den gröna dörren?\n\nSå går avsnittet till:\n1. Lyssna på hela kapitlet på engelska – du behöver inte förstå allt.\n2. Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på engelska.\n3. Lyssna på kapitlet igen – nu förstår du mycket mer.\n\nEn ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.",
       "season": 2,
-      "episode": 6
+      "episode": 6,
+      "bytes": 5021195,
+      "sha256": "803dd731d014be553c42fe6a70cff32351ddd53dd3135880b5a4e50c9f6d9897"
     },
     {
       "id": "magical_radio:sv:en:chapter-07",
@@ -384,7 +456,9 @@
       "published": "2026-10-28T14:58:21+00:00",
       "description": "Kapitel 7 av 8 i berättelsen ”Den magiska radion” (The Magical Radio). Bakom dörren finns en underjordisk trädgård med en gyllene fågel som inte kan sjunga – den tickar bara som en klocka. En sten saknas i vingen, och radion bär på en hemlighet.\n\nSå går avsnittet till:\n1. Lyssna på hela kapitlet på engelska – du behöver inte förstå allt.\n2. Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på engelska.\n3. Lyssna på kapitlet igen – nu förstår du mycket mer.\n\nEn ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.",
       "season": 2,
-      "episode": 7
+      "episode": 7,
+      "bytes": 8108242,
+      "sha256": "27ba0f853f4d8cf71814e7d6ae5be85543480b8bafd3eda19eff8244284406c3"
     },
     {
       "id": "magical_radio:sv:en:chapter-08",
@@ -395,7 +469,9 @@
       "published": "2026-10-28T14:58:21+00:00",
       "description": "Kapitel 8 av 8 i berättelsen ”Den magiska radion” (The Magical Radio). Finalen! Kan syskonen laga den gyllene fågeln? Berättelsen slutar med sång, dansande fjärilar och löftet om ett nytt äventyr.\n\nSå går avsnittet till:\n1. Lyssna på hela kapitlet på engelska – du behöver inte förstå allt.\n2. Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på engelska.\n3. Lyssna på kapitlet igen – nu förstår du mycket mer.\n\nEn ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.",
       "season": 2,
-      "episode": 8
+      "episode": 8,
+      "bytes": 5271971,
+      "sha256": "0ce746edda7c92246a2f4401267da5aa6afcf5c8df05f5cd4bbf22ab8c1b5d19"
     }
   ],
   "source_language": "sv",

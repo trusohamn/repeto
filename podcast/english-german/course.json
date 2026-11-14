@@ -15,7 +15,9 @@
       "published": "2026-11-12T09:05:23+00:00",
       "description": "Topic 1 of 30: Greetings (Begrüßungen) – 36 phrases.\n\nYou hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Hi! → Hallo!\n• Good morning! → Guten Morgen!\n• Good afternoon! → Guten Tag!\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 1
+      "episode": 1,
+      "bytes": 8873734,
+      "sha256": "a33845c0e1303dee7eb79e956c749518253a6f9892e9ac4942092317d5e07ffb"
     },
     {
       "id": "repeto:english-german:topic-02",
@@ -25,7 +27,9 @@
       "published": "2026-11-12T09:05:23+00:00",
       "description": "Topic 2 of 30: Numbers (Zahlen) – 35 phrases.\n\nYou hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• One → Eins\n• Two → Zwei\n• Three → Drei\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 2
+      "episode": 2,
+      "bytes": 8171563,
+      "sha256": "36dc98fef8600d6596550bd80787672c51858ad7a31de04d8282a266044b2f65"
     },
     {
       "id": "repeto:english-german:topic-03",
@@ -35,7 +39,9 @@
       "published": "2026-11-12T09:05:23+00:00",
       "description": "Topic 3 of 30: Colors (Farben) – 29 phrases.\n\nYou hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Red → Rot\n• Blue → Blau\n• Yellow → Gelb\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 3
+      "episode": 3,
+      "bytes": 7348392,
+      "sha256": "99ec2222e1468d78e018f136e69bb3fc300e36b38570583d0d5760ff7e6fca5f"
     },
     {
       "id": "repeto:english-german:topic-04",
@@ -45,7 +51,9 @@
       "published": "2026-11-12T09:05:23+00:00",
       "description": "Topic 4 of 30: Animals (Tiere) – 42 phrases.\n\nYou hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Dog → Hund\n• Cat → Katze\n• Bird → Vogel\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 4
+      "episode": 4,
+      "bytes": 10076830,
+      "sha256": "1dfd5f26af2ac489849bb2a8d26b78564a498463f6c96ddcac68663d624a4876"
     },
     {
       "id": "repeto:english-german:topic-05",
@@ -55,7 +63,9 @@
       "published": "2026-11-12T09:05:23+00:00",
       "description": "Topic 5 of 30: Family (Familie) – 26 phrases.\n\nYou hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Mum → Mama\n• Dad → Papa\n• Sister → Schwester\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 5
+      "episode": 5,
+      "bytes": 6888846,
+      "sha256": "de14f8b909f0c3896bdb9731b65e67c396726c807809c59539e899926091a41a"
     },
     {
       "id": "repeto:english-german:topic-06",
@@ -65,7 +75,9 @@
       "published": "2026-11-12T09:05:23+00:00",
       "description": "Topic 6 of 30: Food (Essen) – 49 phrases.\n\nYou hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Bread → Brot\n• Milk → Milch\n• Egg → Ei\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 6
+      "episode": 6,
+      "bytes": 11816585,
+      "sha256": "194eaa2cf7d0022b7f7d6cbe736802d2b9ae7db7bd01031b950af69aaad4d333"
     },
     {
       "id": "repeto:english-german:topic-07",
@@ -75,7 +87,9 @@
       "published": "2026-11-12T09:05:23+00:00",
       "description": "Topic 7 of 30: Body (Körper) – 37 phrases.\n\nYou hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Head → Kopf\n• Hair → Haare\n• Eye → Auge\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 7
+      "episode": 7,
+      "bytes": 8851164,
+      "sha256": "d626c9f1e5f04b97ad662cffa572b30436142986b978f4ad53d9354d12b82a9d"
     },
     {
       "id": "repeto:english-german:topic-08",
@@ -85,7 +99,9 @@
       "published": "2026-11-12T09:05:23+00:00",
       "description": "Topic 8 of 30: Clothing (Kleidung) – 29 phrases.\n\nYou hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Jumper → Pullover\n• T-shirt → T-Shirt\n• Shirt → Hemd\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 8
+      "episode": 8,
+      "bytes": 7428640,
+      "sha256": "a3fab0d2a86f6b287420e19259a05534e02c18f7bf3896e5a83e285d5deb1000"
     },
     {
       "id": "repeto:english-german:topic-09",
@@ -95,7 +111,9 @@
       "published": "2026-11-12T09:05:23+00:00",
       "description": "Topic 9 of 30: Home (Zu Hause) – 38 phrases.\n\nYou hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• House → Haus\n• Flat → Wohnung\n• Room → Zimmer\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 9
+      "episode": 9,
+      "bytes": 9237359,
+      "sha256": "8754f47281696415ca32fd86b9f9584c4eef21ce669fd203dd92e8b3a8414e8a"
     },
     {
       "id": "repeto:english-german:topic-10",
@@ -105,7 +123,9 @@
       "published": "2026-11-12T09:05:23+00:00",
       "description": "Topic 10 of 30: School (Schule) – 41 phrases.\n\nYou hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• School → Schule\n• Classroom → Klassenzimmer\n• Teacher → Lehrer\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 10
+      "episode": 10,
+      "bytes": 10381522,
+      "sha256": "e56f4a1be657c73dd28655712713bf96ba490817fadf556e468b7d2c75b9a784"
     },
     {
       "id": "repeto:english-german:topic-11",
@@ -115,7 +135,9 @@
       "published": "2026-11-12T09:05:23+00:00",
       "description": "Topic 11 of 30: Weather (Wetter) – 25 phrases.\n\nYou hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Weather → Wetter\n• Sun → Sonne\n• Rain → Regen\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 11
+      "episode": 11,
+      "bytes": 6126488,
+      "sha256": "e5c7aa6e167528f172e1f993d6c5038e4e4049b36b139a72a04bf4896aa5fe59"
     },
     {
       "id": "repeto:english-german:topic-12",
@@ -125,7 +147,9 @@
       "published": "2026-11-12T09:05:23+00:00",
       "description": "Topic 12 of 30: Seasons (Jahreszeiten) – 18 phrases.\n\nYou hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Spring → Frühling\n• Summer → Sommer\n• Autumn → Herbst\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 12
+      "episode": 12,
+      "bytes": 4913362,
+      "sha256": "a4b4862cabce541284c3c8a42d224786f9b7bb97efc119535587609f0649e704"
     },
     {
       "id": "repeto:english-german:topic-13",
@@ -135,7 +159,9 @@
       "published": "2026-11-12T09:05:23+00:00",
       "description": "Topic 13 of 30: Days and Time (Tage und Zeit) – 29 phrases.\n\nYou hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Monday → Montag\n• Tuesday → Dienstag\n• Wednesday → Mittwoch\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 13
+      "episode": 13,
+      "bytes": 7325195,
+      "sha256": "e31832efb128217abef3b6ea765c97186a50872d7c822d4fa7275cb7b64c87bb"
     },
     {
       "id": "repeto:english-german:topic-14",
@@ -145,7 +171,9 @@
       "published": "2026-11-12T09:05:23+00:00",
       "description": "Topic 14 of 30: Toys and Play (Spielzeug und Spiele) – 34 phrases.\n\nYou hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Toy → Spielzeug\n• Ball → Ball\n• Doll → Puppe\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 14
+      "episode": 14,
+      "bytes": 8730165,
+      "sha256": "e45f4358fbf99038037f1a9afa73bb0848145185dd16c8cc78ab1f5b07abac9f"
     },
     {
       "id": "repeto:english-german:topic-15",
@@ -155,7 +183,9 @@
       "published": "2026-11-12T09:05:23+00:00",
       "description": "Topic 15 of 30: Sports and Activities (Sport und Aktivitäten) – 25 phrases.\n\nYou hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Football → Fußball\n• Swimming → Schwimmen\n• Cycling → Radfahren\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 15
+      "episode": 15,
+      "bytes": 6503279,
+      "sha256": "b67afe8b346b2d00652c76475095d7c18dbb31cff56083a0bb4a4cc7e308f83b"
     },
     {
       "id": "repeto:english-german:topic-16",
@@ -165,7 +195,9 @@
       "published": "2026-11-12T09:05:23+00:00",
       "description": "Topic 16 of 30: I want and I need (Ich will und ich brauche) – 28 phrases.\n\nYou hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• I want to go outside. → Ich will nach draußen gehen.\n• I want a ball. → Ich will einen Ball.\n• I want to eat. → Ich will essen.\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 16
+      "episode": 16,
+      "bytes": 7644934,
+      "sha256": "b8e75b4261aeeb2f173cfd132d8a8f0a5603d6a733489d55421ffc9f5ade2c82"
     },
     {
       "id": "repeto:english-german:topic-17",
@@ -175,7 +207,9 @@
       "published": "2026-11-12T09:05:23+00:00",
       "description": "Topic 17 of 30: Where is it? (Wo ist es?) – 28 phrases.\n\nYou hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Where is the teddy bear? → Wo ist der Teddybär?\n• Where is my phone? → Wo ist mein Handy?\n• Where is my bag? → Wo ist meine Tasche?\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 17
+      "episode": 17,
+      "bytes": 7540862,
+      "sha256": "c0903ba0218db7594e5cfa61fa8f52361ec7bb6aa989c66216744c469fc22dfe"
     },
     {
       "id": "repeto:english-german:topic-18",
@@ -185,7 +219,9 @@
       "published": "2026-11-12T09:05:23+00:00",
       "description": "Topic 18 of 30: Feelings and Emotions (Gefühle) – 28 phrases.\n\nYou hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Happy → fröhlich\n• Sad → traurig\n• Angry → wütend\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 18
+      "episode": 18,
+      "bytes": 7320807,
+      "sha256": "5f1ac67b32444b252ef777be55cd5a6195bab243faab311458310a20cbde84af"
     },
     {
       "id": "repeto:english-german:topic-19",
@@ -195,7 +231,9 @@
       "published": "2026-11-12T09:05:23+00:00",
       "description": "Topic 19 of 30: Transport (Verkehrsmittel) – 25 phrases.\n\nYou hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Car → Auto\n• Bus → Bus\n• Train → Zug\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 19
+      "episode": 19,
+      "bytes": 6497636,
+      "sha256": "41923e3517a31ba9ff1259beb6cec0a1ebe46d691741449a736d14e94c789f75"
     },
     {
       "id": "repeto:english-german:topic-20",
@@ -205,7 +243,9 @@
       "published": "2026-11-12T09:05:23+00:00",
       "description": "Topic 20 of 30: Nature (Natur) – 27 phrases.\n\nYou hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Forest → Wald\n• Sea → Meer\n• Lake → See\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 20
+      "episode": 20,
+      "bytes": 6539014,
+      "sha256": "e7e4ae888f171a1ea02c3cc01459d81018bb5d8744bedb88f086dca0c10955d8"
     },
     {
       "id": "repeto:english-german:topic-21",
@@ -215,7 +255,9 @@
       "published": "2026-11-12T09:05:23+00:00",
       "description": "Topic 21 of 30: Holidays and Celebrations (Feiertage und Feste) – 23 phrases.\n\nYou hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Birthday → Geburtstag\n• Happy birthday! → Alles Gute zum Geburtstag!\n• Christmas → Weihnachten\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 21
+      "episode": 21,
+      "bytes": 6275073,
+      "sha256": "466e1c4256413618e26db82bcd85b47dd848722b26602863bcd661f1d4a09690"
     },
     {
       "id": "repeto:english-german:topic-22",
@@ -225,7 +267,9 @@
       "published": "2026-11-12T09:05:23+00:00",
       "description": "Topic 22 of 30: Daily Routine (Tagesablauf) – 28 phrases.\n\nYou hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Wake up → aufwachen\n• Get up → aufstehen\n• Brush your teeth → sich die Zähne putzen\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 22
+      "episode": 22,
+      "bytes": 7775964,
+      "sha256": "3e039fd93b547474bcbd6af70f51284355cbdd14c501205e7c287ab97b577dd8"
     },
     {
       "id": "repeto:english-german:topic-23",
@@ -235,7 +279,9 @@
       "published": "2026-11-12T09:05:23+00:00",
       "description": "Topic 23 of 30: Asking and Requests (Fragen und Bitten) – 26 phrases.\n\nYou hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Can you help me? → Kannst du mir helfen?\n• Help! → Hilfe!\n• Please! → Bitte!\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 23
+      "episode": 23,
+      "bytes": 6612993,
+      "sha256": "9efa67c8a610ed3fc3c9e737c89cae6d6c752ee79ee55c7405d01862e36dfc13"
     },
     {
       "id": "repeto:english-german:topic-24",
@@ -245,7 +291,9 @@
       "published": "2026-11-12T09:05:23+00:00",
       "description": "Topic 24 of 30: Opposites (Gegensätze) – 28 phrases.\n\nYou hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Big → groß\n• Small → klein\n• Long → lang\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 24
+      "episode": 24,
+      "bytes": 6762204,
+      "sha256": "db54c354fee0f1dd7269617a82c76a6aa73d64ac893b813198bac0587f534cd9"
     },
     {
       "id": "repeto:english-german:topic-25",
@@ -255,7 +303,9 @@
       "published": "2026-11-12T09:05:23+00:00",
       "description": "Topic 25 of 30: Actions and Verbs (Handlungen und Verben) – 41 phrases.\n\nYou hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Walk → gehen\n• Run → laufen\n• Jump → springen\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 25
+      "episode": 25,
+      "bytes": 9957711,
+      "sha256": "d1e45f1125fb4d1374cc06a954cc46927fa50005634363e9d7245f073a7617c0"
     },
     {
       "id": "repeto:english-german:topic-26",
@@ -265,7 +315,9 @@
       "published": "2026-11-12T09:05:23+00:00",
       "description": "Topic 26 of 30: Places in Town (Orte in der Stadt) – 23 phrases.\n\nYou hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Park → der Park\n• Playground → der Spielplatz\n• Shop → der Laden\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 26
+      "episode": 26,
+      "bytes": 6239964,
+      "sha256": "a5e601c1424d48ec40d95751277709276721adee1c0d60c908febebd470a5573"
     },
     {
       "id": "repeto:english-german:topic-27",
@@ -275,7 +327,9 @@
       "published": "2026-11-12T09:05:23+00:00",
       "description": "Topic 27 of 30: Technology (Technik) – 22 phrases.\n\nYou hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Phone → das Telefon\n• Mobile phone → das Handy\n• Computer → der Computer\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 27
+      "episode": 27,
+      "bytes": 5885744,
+      "sha256": "4f675c290a61e2ff927cc99d81d6f99db03847ae3f2cbefd45a74001aba92592"
     },
     {
       "id": "repeto:english-german:topic-28",
@@ -285,7 +339,9 @@
       "published": "2026-11-12T09:05:23+00:00",
       "description": "Topic 28 of 30: Music and Art (Musik und Kunst) – 23 phrases.\n\nYou hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Music → die Musik\n• Song → das Lied\n• Dancing → das Tanzen\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 28
+      "episode": 28,
+      "bytes": 5940288,
+      "sha256": "ca723e1c7e767d48796499a685452af00e778e777a3e2026f4ed5e09716c8397"
     },
     {
       "id": "repeto:english-german:topic-29",
@@ -295,7 +351,9 @@
       "published": "2026-11-12T09:05:23+00:00",
       "description": "Topic 29 of 30: Polite Phrases (Höfliche Ausdrücke) – 17 phrases.\n\nYou hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Please. → Bitte.\n• Thank you! → Danke!\n• Thank you very much! → Vielen Dank!\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 29
+      "episode": 29,
+      "bytes": 4260092,
+      "sha256": "f61beccf9e64e64cf1a14f339906c6b9197dcd60504a8485e0d0ccde87a71658"
     },
     {
       "id": "repeto:english-german:topic-30",
@@ -305,7 +363,9 @@
       "published": "2026-11-12T09:05:23+00:00",
       "description": "Topic 30 of 30: Review and Recap (Wiederholung) – 11 phrases.\n\nYou hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Well done! → Gut gemacht!\n• You are learning a new language! → Du lernst eine neue Sprache!\n• Let's practise! → Lass uns üben!\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 30
+      "episode": 30,
+      "bytes": 3026903,
+      "sha256": "bb6713128977a7665146c6b6b2aff415269fb0de4f55a622f0762301cc416136"
     },
     {
       "id": "magical_radio:en:de:chapter-01",
@@ -316,7 +376,9 @@
       "published": "2026-11-12T09:06:58+00:00",
       "description": "Chapter 1 of 8 in \"The Magical Radio\" (Das magische Radio). Two siblings find an old wooden radio at a flea market. Suddenly it starts to hum, and a golden inscription shows that the radio is meant for them.\n\nHow the episode works:\n1. Listen to the whole chapter in German. You don't need to understand everything.\n2. Practise words and expressions from the chapter: an English prompt, a pause, then the answer in German.\n3. Listen to the chapter again and see how much you can understand.\n\nA chime separates the sections. Listen in order, starting with chapter 1.",
       "season": 2,
-      "episode": 1
+      "episode": 1,
+      "bytes": 7428640,
+      "sha256": "7a5161f3bab273db681da4a0427f30723ba57aeeb02cb460a789bd2940c0f409"
     },
     {
       "id": "magical_radio:en:de:chapter-02",
@@ -327,7 +389,9 @@
       "published": "2026-11-12T09:06:58+00:00",
       "description": "Chapter 2 of 8 in \"The Magical Radio\" (Das magische Radio). At home, the children press the blue button. A little cloud smelling of cinnamon floats out of the radio, and a cheerful voice tells them about a mouse with an important key.\n\nHow the episode works:\n1. Listen to the whole chapter in German. You don't need to understand everything.\n2. Practise words and expressions from the chapter: an English prompt, a pause, then the answer in German.\n3. Listen to the chapter again and see how much you can understand.\n\nA chime separates the sections. Listen in order, starting with chapter 1.",
       "season": 2,
-      "episode": 2
+      "episode": 2,
+      "bytes": 6567226,
+      "sha256": "4d6197fcdd5f098f22dfcf4419f230f2aab868604efc6df0ff9acc16f2e543d6"
     },
     {
       "id": "magical_radio:en:de:chapter-03",
@@ -338,7 +402,9 @@
       "published": "2026-11-12T09:06:58+00:00",
       "description": "Chapter 3 of 8 in \"The Magical Radio\" (Das magische Radio). With a torch, some cheese and the radio, the siblings head to the old tree. A little mouse agrees to a trade, and a small door is hidden between the roots.\n\nHow the episode works:\n1. Listen to the whole chapter in German. You don't need to understand everything.\n2. Practise words and expressions from the chapter: an English prompt, a pause, then the answer in German.\n3. Listen to the chapter again and see how much you can understand.\n\nA chime separates the sections. Listen in order, starting with chapter 1.",
       "season": 2,
-      "episode": 3
+      "episode": 3,
+      "bytes": 8676875,
+      "sha256": "d668d82a95bcf4e5aa625d9580dad3acfb59f6421e38b9e5273b89fef727e91c"
     },
     {
       "id": "magical_radio:en:de:chapter-04",
@@ -349,7 +415,9 @@
       "published": "2026-11-12T09:06:58+00:00",
       "description": "Chapter 4 of 8 in \"The Magical Radio\" (Das magische Radio). The silver key opens the door. Stone steps lead down to a library full of flying books, with glowing flowers growing on the walls.\n\nHow the episode works:\n1. Listen to the whole chapter in German. You don't need to understand everything.\n2. Practise words and expressions from the chapter: an English prompt, a pause, then the answer in German.\n3. Listen to the chapter again and see how much you can understand.\n\nA chime separates the sections. Listen in order, starting with chapter 1.",
       "season": 2,
-      "episode": 4
+      "episode": 4,
+      "bytes": 6574123,
+      "sha256": "07ad8cdfc6da816984af2bdbeed550c8d5737c1beb1a7438caf35d92c5774657"
     },
     {
       "id": "magical_radio:en:de:chapter-05",
@@ -360,7 +428,9 @@
       "published": "2026-11-12T09:06:58+00:00",
       "description": "Chapter 5 of 8 in \"The Magical Radio\" (Das magische Radio). A golden book lands on one of the children's shoulders, and the radio reveals a spell that can mend broken things.\n\nHow the episode works:\n1. Listen to the whole chapter in German. You don't need to understand everything.\n2. Practise words and expressions from the chapter: an English prompt, a pause, then the answer in German.\n3. Listen to the chapter again and see how much you can understand.\n\nA chime separates the sections. Listen in order, starting with chapter 1.",
       "season": 2,
-      "episode": 5
+      "episode": 5,
+      "bytes": 6573496,
+      "sha256": "35fb15c7f34cc216274fd9eead8fef99c50672a4c0307942869a4de9a1c2273c"
     },
     {
       "id": "magical_radio:en:de:chapter-06",
@@ -371,7 +441,9 @@
       "published": "2026-11-12T09:06:58+00:00",
       "description": "Chapter 6 of 8 in \"The Magical Radio\" (Das magische Radio). It's time to try the spell on a broken compass. Will it work? And who is waiting behind the green door?\n\nHow the episode works:\n1. Listen to the whole chapter in German. You don't need to understand everything.\n2. Practise words and expressions from the chapter: an English prompt, a pause, then the answer in German.\n3. Listen to the chapter again and see how much you can understand.\n\nA chime separates the sections. Listen in order, starting with chapter 1.",
       "season": 2,
-      "episode": 6
+      "episode": 6,
+      "bytes": 5308960,
+      "sha256": "7cbbb651598c0be6925e03cd1f3555e489873800c63e10dd8302e42e9883e01a"
     },
     {
       "id": "magical_radio:en:de:chapter-07",
@@ -382,7 +454,9 @@
       "published": "2026-11-12T09:06:58+00:00",
       "description": "Chapter 7 of 8 in \"The Magical Radio\" (Das magische Radio). Behind the door lies an underground garden. A golden bird ticks like a clock instead of singing. A stone is missing from its wing, and the radio has a secret.\n\nHow the episode works:\n1. Listen to the whole chapter in German. You don't need to understand everything.\n2. Practise words and expressions from the chapter: an English prompt, a pause, then the answer in German.\n3. Listen to the chapter again and see how much you can understand.\n\nA chime separates the sections. Listen in order, starting with chapter 1.",
       "season": 2,
-      "episode": 7
+      "episode": 7,
+      "bytes": 8602270,
+      "sha256": "30e2ef3c6e9d9d83f47a79e055b146aae7f65a15be144370a6f424b846239d5b"
     },
     {
       "id": "magical_radio:en:de:chapter-08",
@@ -393,7 +467,9 @@
       "published": "2026-11-12T09:06:58+00:00",
       "description": "Chapter 8 of 8 in \"The Magical Radio\" (Das magische Radio). The finale! Can the siblings mend the golden bird? The story ends with singing, dancing butterflies and the promise of another adventure.\n\nHow the episode works:\n1. Listen to the whole chapter in German. You don't need to understand everything.\n2. Practise words and expressions from the chapter: an English prompt, a pause, then the answer in German.\n3. Listen to the chapter again and see how much you can understand.\n\nA chime separates the sections. Listen in order, starting with chapter 1.",
       "season": 2,
-      "episode": 8
+      "episode": 8,
+      "bytes": 5583559,
+      "sha256": "707cab6bd46e36d15b024725e5a104a827593108c58ea456fc75d46077ff1c67"
     }
   ],
   "seasons": {
