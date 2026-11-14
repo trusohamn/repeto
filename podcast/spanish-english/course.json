@@ -15,7 +15,9 @@
       "published": "2026-11-12T08:44:24+00:00",
       "description": "Tema 1 de 30: Saludos (Greetings) – 36 frases.\n\nOyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.\n\nEjemplos de este episodio:\n• ¡Hola! → Hi!\n• ¡Buenos días! → Good morning!\n• ¡Buenas tardes! → Good afternoon!\n\nConsejo: vuelve a escuchar hasta que respondas antes que la voz grabada.",
       "season": 1,
-      "episode": 1
+      "episode": 1,
+      "bytes": 8888781,
+      "sha256": "32512967f9369dcc6017461e645befb93138fcea4e245c58466c246aacd6a769"
     },
     {
       "id": "repeto:spanish-english:topic-02",
@@ -25,7 +27,9 @@
       "published": "2026-11-12T08:44:24+00:00",
       "description": "Tema 2 de 30: Números (Numbers) – 35 frases.\n\nOyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.\n\nEjemplos de este episodio:\n• Uno → One\n• Dos → Two\n• Tres → Three\n\nConsejo: vuelve a escuchar hasta que respondas antes que la voz grabada.",
       "season": 1,
-      "episode": 2
+      "episode": 2,
+      "bytes": 8248049,
+      "sha256": "5bcf727b8e6aacae7ee44e4244e52642bd09cfe273c3796be80f38e573a8d662"
     },
     {
       "id": "repeto:spanish-english:topic-03",
@@ -35,7 +39,9 @@
       "published": "2026-11-12T08:44:24+00:00",
       "description": "Tema 3 de 30: Colores (Colors) – 29 frases.\n\nOyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.\n\nEjemplos de este episodio:\n• Rojo → Red\n• Azul → Blue\n• Amarillo → Yellow\n\nConsejo: vuelve a escuchar hasta que respondas antes que la voz grabada.",
       "season": 1,
-      "episode": 3
+      "episode": 3,
+      "bytes": 7278175,
+      "sha256": "3c2109121160a5362f2273708ce902fc3f1d05d516d735b6c3d4a5174d36c9fb"
     },
     {
       "id": "repeto:spanish-english:topic-04",
@@ -45,7 +51,9 @@
       "published": "2026-11-12T08:44:24+00:00",
       "description": "Tema 4 de 30: Animales (Animals) – 42 frases.\n\nOyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.\n\nEjemplos de este episodio:\n• Perro → Dog\n• Gato → Cat\n• Pájaro → Bird\n\nConsejo: vuelve a escuchar hasta que respondas antes que la voz grabada.",
       "season": 1,
-      "episode": 4
+      "episode": 4,
+      "bytes": 10159585,
+      "sha256": "cf2009a265f759ed36e10b490c153a4d708eb9bc0fce8cd3a9f01a507de1cf19"
     },
     {
       "id": "repeto:spanish-english:topic-05",
@@ -55,7 +63,9 @@
       "published": "2026-11-12T08:44:24+00:00",
       "description": "Tema 5 de 30: Familia (Family) – 26 frases.\n\nOyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.\n\nEjemplos de este episodio:\n• Mamá → Mum\n• Papá → Dad\n• Hermana → Sister\n\nConsejo: vuelve a escuchar hasta que respondas antes que la voz grabada.",
       "season": 1,
-      "episode": 5
+      "episode": 5,
+      "bytes": 6801074,
+      "sha256": "7814ad93fef4b36e0172196acbea63ae223f731089752f54afbfa6f4f9a3c490"
     },
     {
       "id": "repeto:spanish-english:topic-06",
@@ -65,7 +75,9 @@
       "published": "2026-11-12T08:44:24+00:00",
       "description": "Tema 6 de 30: Comida (Food) – 49 frases.\n\nOyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.\n\nEjemplos de este episodio:\n• Pan → Bread\n• Leche → Milk\n• Huevo → Egg\n\nConsejo: vuelve a escuchar hasta que respondas antes que la voz grabada.",
       "season": 1,
-      "episode": 6
+      "episode": 6,
+      "bytes": 11829750,
+      "sha256": "91365aa17809adf3e2f95457a0b967ccb6b3e9e33a31c1f84c635b8f03241211"
     },
     {
       "id": "repeto:spanish-english:topic-07",
@@ -75,7 +87,9 @@
       "published": "2026-11-12T08:44:24+00:00",
       "description": "Tema 7 de 30: Cuerpo (Body) – 37 frases.\n\nOyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.\n\nEjemplos de este episodio:\n• Cabeza → Head\n• Pelo → Hair\n• Ojo → Eye\n\nConsejo: vuelve a escuchar hasta que respondas antes que la voz grabada.",
       "season": 1,
-      "episode": 7
+      "episode": 7,
+      "bytes": 8964013,
+      "sha256": "f25eed7b7ecc012e07e3a8c93b3d6d4784c11b3f8f0d8ab97878beff6c00293c"
     },
     {
       "id": "repeto:spanish-english:topic-08",
@@ -85,7 +99,9 @@
       "published": "2026-11-12T08:44:24+00:00",
       "description": "Tema 8 de 30: Ropa (Clothing) – 29 frases.\n\nOyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.\n\nEjemplos de este episodio:\n• Jersey → Jumper\n• Camiseta → T-shirt\n• Camisa → Shirt\n\nConsejo: vuelve a escuchar hasta que respondas antes que la voz grabada.",
       "season": 1,
-      "episode": 8
+      "episode": 8,
+      "bytes": 7495096,
+      "sha256": "9e7e90cd2698de245b36b41c855779c7de6f7a96e159dd02e0fb053f6c74bfce"
     },
     {
       "id": "repeto:spanish-english:topic-09",
@@ -95,7 +111,9 @@
       "published": "2026-11-12T08:44:24+00:00",
       "description": "Tema 9 de 30: En casa (Home) – 38 frases.\n\nOyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.\n\nEjemplos de este episodio:\n• Casa → House\n• Piso → Flat\n• Habitación → Room\n\nConsejo: vuelve a escuchar hasta que respondas antes que la voz grabada.",
       "season": 1,
-      "episode": 9
+      "episode": 9,
+      "bytes": 9250524,
+      "sha256": "f418c5ab38a8957ab685f62f885980e98c69a82aa60400c1e3a7bd4cedfeefc5"
     },
     {
       "id": "repeto:spanish-english:topic-10",
@@ -105,7 +123,9 @@
       "published": "2026-11-12T08:44:24+00:00",
       "description": "Tema 10 de 30: Colegio (School) – 41 frases.\n\nOyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.\n\nEjemplos de este episodio:\n• Colegio → School\n• Aula → Classroom\n• Profesor → Teacher\n\nConsejo: vuelve a escuchar hasta que respondas antes que la voz grabada.",
       "season": 1,
-      "episode": 10
+      "episode": 10,
+      "bytes": 10340771,
+      "sha256": "d0a5ba1e48ff38b0725c2f216b253545233612f9b815effb66bca983fa063231"
     },
     {
       "id": "repeto:spanish-english:topic-11",
@@ -115,7 +135,9 @@
       "published": "2026-11-12T08:44:24+00:00",
       "description": "Tema 11 de 30: El tiempo (Weather) – 25 frases.\n\nOyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.\n\nEjemplos de este episodio:\n• Tiempo → Weather\n• Sol → Sun\n• Lluvia → Rain\n\nConsejo: vuelve a escuchar hasta que respondas antes que la voz grabada.",
       "season": 1,
-      "episode": 11
+      "episode": 11,
+      "bytes": 6118965,
+      "sha256": "00e3820e05ead6dd791d094837608bc5edbe0e244033e0593bb9338bf75398f2"
     },
     {
       "id": "repeto:spanish-english:topic-12",
@@ -125,7 +147,9 @@
       "published": "2026-11-12T08:44:24+00:00",
       "description": "Tema 12 de 30: Estaciones del año (Seasons) – 18 frases.\n\nOyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.\n\nEjemplos de este episodio:\n• Primavera → Spring\n• Verano → Summer\n• Otoño → Autumn\n\nConsejo: vuelve a escuchar hasta que respondas antes que la voz grabada.",
       "season": 1,
-      "episode": 12
+      "episode": 12,
+      "bytes": 4908973,
+      "sha256": "b85e44a41faed51132e46000a6370132dffa273589ae946d2fb590cb5b5d01d7"
     },
     {
       "id": "repeto:spanish-english:topic-13",
@@ -135,7 +159,9 @@
       "published": "2026-11-12T08:44:24+00:00",
       "description": "Tema 13 de 30: Días y horas (Days and Time) – 29 frases.\n\nOyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.\n\nEjemplos de este episodio:\n• Lunes → Monday\n• Martes → Tuesday\n• Miércoles → Wednesday\n\nConsejo: vuelve a escuchar hasta que respondas antes que la voz grabada.",
       "season": 1,
-      "episode": 13
+      "episode": 13,
+      "bytes": 7400428,
+      "sha256": "25640ede3a9819429e363bd84d01887474379d513daa8ae3b531e513da201888"
     },
     {
       "id": "repeto:spanish-english:topic-14",
@@ -145,7 +171,9 @@
       "published": "2026-11-12T08:44:24+00:00",
       "description": "Tema 14 de 30: Juguetes y juegos (Toys and Play) – 34 frases.\n\nOyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.\n\nEjemplos de este episodio:\n• Juguete → Toy\n• Pelota → Ball\n• Muñeca → Doll\n\nConsejo: vuelve a escuchar hasta que respondas antes que la voz grabada.",
       "season": 1,
-      "episode": 14
+      "episode": 14,
+      "bytes": 8603523,
+      "sha256": "67d37f2b6fa0ac18f1bc49abf136961eb148c99f1d259a3c124fa0a53a8b12a1"
     },
     {
       "id": "repeto:spanish-english:topic-15",
@@ -155,7 +183,9 @@
       "published": "2026-11-12T08:44:24+00:00",
       "description": "Tema 15 de 30: Deportes y actividades (Sports and Activities) – 25 frases.\n\nOyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.\n\nEjemplos de este episodio:\n• Fútbol → Football\n• Natación → Swimming\n• Ciclismo → Cycling\n\nConsejo: vuelve a escuchar hasta que respondas antes que la voz grabada.",
       "season": 1,
-      "episode": 15
+      "episode": 15,
+      "bytes": 6492621,
+      "sha256": "9437769984e1a824479aaf21ba276d14c5e6939d661bd110cfa3d3727cd5614c"
     },
     {
       "id": "repeto:spanish-english:topic-16",
@@ -165,7 +195,9 @@
       "published": "2026-11-12T08:44:24+00:00",
       "description": "Tema 16 de 30: Quiero y necesito (I want and I need) – 28 frases.\n\nOyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.\n\nEjemplos de este episodio:\n• Quiero salir a la calle. → I want to go outside.\n• Quiero una pelota. → I want a ball.\n• Quiero comer. → I want to eat.\n\nConsejo: vuelve a escuchar hasta que respondas antes que la voz grabada.",
       "season": 1,
-      "episode": 16
+      "episode": 16,
+      "bytes": 7582867,
+      "sha256": "ff51d0e45951513c478d58a37bb4cab940342a396fc93795af0e055387b128bd"
     },
     {
       "id": "repeto:spanish-english:topic-17",
@@ -175,7 +207,9 @@
       "published": "2026-11-12T08:44:24+00:00",
       "description": "Tema 17 de 30: ¿Dónde está? (Where is it?) – 28 frases.\n\nOyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.\n\nEjemplos de este episodio:\n• ¿Dónde está el osito de peluche? → Where is the teddy bear?\n• ¿Dónde está mi móvil? → Where is my phone?\n• ¿Dónde está mi bolsa? → Where is my bag?\n\nConsejo: vuelve a escuchar hasta que respondas antes que la voz grabada.",
       "season": 1,
-      "episode": 17
+      "episode": 17,
+      "bytes": 7592898,
+      "sha256": "7981286d0d1bffe6128a600671ed18eda93ba3cc4ba0797e85d99e9b0761a752"
     },
     {
       "id": "repeto:spanish-english:topic-18",
@@ -185,7 +219,9 @@
       "published": "2026-11-12T08:44:24+00:00",
       "description": "Tema 18 de 30: Sentimientos y emociones (Feelings and Emotions) – 28 frases.\n\nOyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.\n\nEjemplos de este episodio:\n• Contento → Happy\n• Triste → Sad\n• Enfadado → Angry\n\nConsejo: vuelve a escuchar hasta que respondas antes que la voz grabada.",
       "season": 1,
-      "episode": 18
+      "episode": 18,
+      "bytes": 7225512,
+      "sha256": "c7dc6f9c576008101abfd8bd081ca077186391f66da629cfd8d49d61c901357a"
     },
     {
       "id": "repeto:spanish-english:topic-19",
@@ -195,7 +231,9 @@
       "published": "2026-11-12T08:44:24+00:00",
       "description": "Tema 19 de 30: Medios de transporte (Transport) – 25 frases.\n\nOyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.\n\nEjemplos de este episodio:\n• Coche → Car\n• Autobús → Bus\n• Tren → Train\n\nConsejo: vuelve a escuchar hasta que respondas antes que la voz grabada.",
       "season": 1,
-      "episode": 19
+      "episode": 19,
+      "bytes": 6450616,
+      "sha256": "d280bb4beaf28f82a3662f5ccbb31fe04b09c10abb3c1328190a840352077430"
     },
     {
       "id": "repeto:spanish-english:topic-20",
@@ -205,7 +243,9 @@
       "published": "2026-11-12T08:44:24+00:00",
       "description": "Tema 20 de 30: Naturaleza (Nature) – 27 frases.\n\nOyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.\n\nEjemplos de este episodio:\n• Bosque → Forest\n• Mar → Sea\n• Lago → Lake\n\nConsejo: vuelve a escuchar hasta que respondas antes que la voz grabada.",
       "season": 1,
-      "episode": 20
+      "episode": 20,
+      "bytes": 6589796,
+      "sha256": "fb0d18c499abe1d660a8db04f87494ab1160d406f4b74e3d8324660ac81cdf71"
     },
     {
       "id": "repeto:spanish-english:topic-21",
@@ -215,7 +255,9 @@
       "published": "2026-11-12T08:44:24+00:00",
       "description": "Tema 21 de 30: Fiestas y celebraciones (Holidays and Celebrations) – 23 frases.\n\nOyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.\n\nEjemplos de este episodio:\n• Cumpleaños → Birthday\n• ¡Feliz cumpleaños! → Happy birthday!\n• Navidad → Christmas\n\nConsejo: vuelve a escuchar hasta que respondas antes que la voz grabada.",
       "season": 1,
-      "episode": 21
+      "episode": 21,
+      "bytes": 6097022,
+      "sha256": "4f0c0966188ed330787caadbec2dac8aefb579b6636ac039550a1496a6df111a"
     },
     {
       "id": "repeto:spanish-english:topic-22",
@@ -225,7 +267,9 @@
       "published": "2026-11-12T08:44:24+00:00",
       "description": "Tema 22 de 30: Rutina diaria (Daily Routine) – 28 frases.\n\nOyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.\n\nEjemplos de este episodio:\n• Despertarse → Wake up\n• Levantarse → Get up\n• Lavarse los dientes → Brush your teeth\n\nConsejo: vuelve a escuchar hasta que respondas antes que la voz grabada.",
       "season": 1,
-      "episode": 22
+      "episode": 22,
+      "bytes": 7682550,
+      "sha256": "a4430ded7c69f1097a771e5b5446be1d144c64a6686fbd15a11eaa841146ebe9"
     },
     {
       "id": "repeto:spanish-english:topic-23",
@@ -235,7 +279,9 @@
       "published": "2026-11-12T08:44:24+00:00",
       "description": "Tema 23 de 30: Preguntas y peticiones (Asking and Requests) – 26 frases.\n\nOyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.\n\nEjemplos de este episodio:\n• ¿Puedes ayudarme? → Can you help me?\n• ¡Socorro! → Help!\n• ¡Por favor! → Please!\n\nConsejo: vuelve a escuchar hasta que respondas antes que la voz grabada.",
       "season": 1,
-      "episode": 23
+      "episode": 23,
+      "bytes": 6447481,
+      "sha256": "0af032b73e20a898358400e43458e9590ab434cf0422bad50c27896645d4fe4f"
     },
     {
       "id": "repeto:spanish-english:topic-24",
@@ -245,7 +291,9 @@
       "published": "2026-11-12T08:44:24+00:00",
       "description": "Tema 24 de 30: Contrarios (Opposites) – 28 frases.\n\nOyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.\n\nEjemplos de este episodio:\n• Grande → Big\n• Pequeño → Small\n• Largo → Long\n\nConsejo: vuelve a escuchar hasta que respondas antes que la voz grabada.",
       "season": 1,
-      "episode": 24
+      "episode": 24,
+      "bytes": 6757189,
+      "sha256": "379436567ef05f52abf4ef11f2cf909fe73bda7be4782b480aa6665451e86b2f"
     },
     {
       "id": "repeto:spanish-english:topic-25",
@@ -255,7 +303,9 @@
       "published": "2026-11-12T08:44:24+00:00",
       "description": "Tema 25 de 30: Acciones y verbos (Actions and Verbs) – 41 frases.\n\nOyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.\n\nEjemplos de este episodio:\n• Andar → Walk\n• Correr → Run\n• Saltar → Jump\n\nConsejo: vuelve a escuchar hasta que respondas antes que la voz grabada.",
       "season": 1,
-      "episode": 25
+      "episode": 25,
+      "bytes": 9837339,
+      "sha256": "992997aacbade3acecda9d8ddccadef03273cc97e7d948b1d3bcb28750b69cc8"
     },
     {
       "id": "repeto:spanish-english:topic-26",
@@ -265,7 +315,9 @@
       "published": "2026-11-12T08:44:24+00:00",
       "description": "Tema 26 de 30: Lugares de la ciudad (Places in Town) – 23 frases.\n\nOyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.\n\nEjemplos de este episodio:\n• Parque → Park\n• Parque infantil → Playground\n• Tienda → Shop\n\nConsejo: vuelve a escuchar hasta que respondas antes que la voz grabada.",
       "season": 1,
-      "episode": 26
+      "episode": 26,
+      "bytes": 6022416,
+      "sha256": "8ec3a316bfee997212fcac1fd2d91e0c25a3ad81e7c5379bbc2eb441fa227fb5"
     },
     {
       "id": "repeto:spanish-english:topic-27",
@@ -275,7 +327,9 @@
       "published": "2026-11-12T08:44:24+00:00",
       "description": "Tema 27 de 30: Tecnología (Technology) – 22 frases.\n\nOyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.\n\nEjemplos de este episodio:\n• Teléfono → Phone\n• Teléfono móvil → Mobile phone\n• Ordenador → Computer\n\nConsejo: vuelve a escuchar hasta que respondas antes que la voz grabada.",
       "season": 1,
-      "episode": 27
+      "episode": 27,
+      "bytes": 5723367,
+      "sha256": "2bd970d231f8cc5d8a2bba9fe945c76454304029d00029a0058bb37ad0b12ce1"
     },
     {
       "id": "repeto:spanish-english:topic-28",
@@ -285,7 +339,9 @@
       "published": "2026-11-12T08:44:24+00:00",
       "description": "Tema 28 de 30: Música y arte (Music and Art) – 23 frases.\n\nOyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.\n\nEjemplos de este episodio:\n• Música → Music\n• Canción → Song\n• Baile → Dancing\n\nConsejo: vuelve a escuchar hasta que respondas antes que la voz grabada.",
       "season": 1,
-      "episode": 28
+      "episode": 28,
+      "bytes": 5874459,
+      "sha256": "10eb05491fd2721071385aca0580bcc1239a6a98f3959f8bf0b54595fe201a6b"
     },
     {
       "id": "repeto:spanish-english:topic-29",
@@ -295,7 +351,9 @@
       "published": "2026-11-12T08:44:24+00:00",
       "description": "Tema 29 de 30: Expresiones de cortesía (Polite Phrases) – 17 frases.\n\nOyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.\n\nEjemplos de este episodio:\n• Por favor. → Please.\n• ¡Gracias! → Thank you!\n• ¡Muchas gracias! → Thank you very much!\n\nConsejo: vuelve a escuchar hasta que respondas antes que la voz grabada.",
       "season": 1,
-      "episode": 29
+      "episode": 29,
+      "bytes": 4193009,
+      "sha256": "031877c4f16e2f01042442c731745ed7531d14094c521ed262e5a09b545c3895"
     },
     {
       "id": "repeto:spanish-english:topic-30",
@@ -305,7 +363,9 @@
       "published": "2026-11-12T08:44:24+00:00",
       "description": "Tema 30 de 30: Repaso (Review and Recap) – 11 frases.\n\nOyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.\n\nEjemplos de este episodio:\n• ¡Bien hecho! → Well done!\n• ¡Estás aprendiendo un idioma nuevo! → You are learning a new language!\n• ¡Vamos a practicar! → Let's practise!\n\nConsejo: vuelve a escuchar hasta que respondas antes que la voz grabada.",
       "season": 1,
-      "episode": 30
+      "episode": 30,
+      "bytes": 3035680,
+      "sha256": "e0cb4d3fff553c4e97fd31abde7298117249e05cf7f403783d110c1a8a146937"
     },
     {
       "id": "magical_radio:es:en:chapter-01",
@@ -316,7 +376,9 @@
       "published": "2026-11-12T08:45:16+00:00",
       "description": "Capítulo 1 de 8 del cuento «La radio mágica» (The Magical Radio). Dos hermanos encuentran una vieja radio de madera en un mercadillo. De repente, la radio zumba y aparece un mensaje dorado dirigido a ellos.\n\nCómo es el episodio:\n1. Escucha el capítulo completo en inglés. No hace falta entenderlo todo.\n2. Practica palabras y expresiones del capítulo: una pista en español, una pausa y la respuesta en inglés.\n3. Vuelve a escuchar el capítulo y comprueba cuánto entiendes.\n\nUna señal sonora separa las partes. Escucha en orden, empezando por el capítulo 1.",
       "season": 2,
-      "episode": 1
+      "episode": 1,
+      "bytes": 7214227,
+      "sha256": "75c6cea12304b22ca81a344330627b9da004b75d2b15c6ba92e4bc294d8a68de"
     },
     {
       "id": "magical_radio:es:en:chapter-02",
@@ -327,7 +389,9 @@
       "published": "2026-11-12T08:45:16+00:00",
       "description": "Capítulo 2 de 8 del cuento «La radio mágica» (The Magical Radio). En casa, los niños pulsan el botón azul. De la radio sale una nubecita que huele a canela y una voz alegre les habla de un ratón que tiene una llave importante.\n\nCómo es el episodio:\n1. Escucha el capítulo completo en inglés. No hace falta entenderlo todo.\n2. Practica palabras y expresiones del capítulo: una pista en español, una pausa y la respuesta en inglés.\n3. Vuelve a escuchar el capítulo y comprueba cuánto entiendes.\n\nUna señal sonora separa las partes. Escucha en orden, empezando por el capítulo 1.",
       "season": 2,
-      "episode": 2
+      "episode": 2,
+      "bytes": 6392310,
+      "sha256": "97c7b40f37006a27ae1a3dce53635bbf2e1a59cbddb60dfe6f6c7076c59d8c82"
     },
     {
       "id": "magical_radio:es:en:chapter-03",
@@ -338,7 +402,9 @@
       "published": "2026-11-12T08:45:16+00:00",
       "description": "Capítulo 3 de 8 del cuento «La radio mágica» (The Magical Radio). Con una linterna, queso y la radio, los hermanos se acercan al árbol viejo. Un ratoncito les da una llave a cambio del queso y entre las raíces descubren una puerta pequeña.\n\nCómo es el episodio:\n1. Escucha el capítulo completo en inglés. No hace falta entenderlo todo.\n2. Practica palabras y expresiones del capítulo: una pista en español, una pausa y la respuesta en inglés.\n3. Vuelve a escuchar el capítulo y comprueba cuánto entiendes.\n\nUna señal sonora separa las partes. Escucha en orden, empezando por el capítulo 1.",
       "season": 2,
-      "episode": 3
+      "episode": 3,
+      "bytes": 8266857,
+      "sha256": "6007bafb91bdfd195a210aebd3eee7101180e4b3b5b1288e1d97b3ee04062592"
     },
     {
       "id": "magical_radio:es:en:chapter-04",
@@ -349,7 +415,9 @@
       "published": "2026-11-12T08:45:16+00:00",
       "description": "Capítulo 4 de 8 del cuento «La radio mágica» (The Magical Radio). La llave de plata abre la puerta. Unas escaleras de piedra conducen a una biblioteca con libros voladores y flores luminosas en las paredes.\n\nCómo es el episodio:\n1. Escucha el capítulo completo en inglés. No hace falta entenderlo todo.\n2. Practica palabras y expresiones del capítulo: una pista en español, una pausa y la respuesta en inglés.\n3. Vuelve a escuchar el capítulo y comprueba cuánto entiendes.\n\nUna señal sonora separa las partes. Escucha en orden, empezando por el capítulo 1.",
       "season": 2,
-      "episode": 4
+      "episode": 4,
+      "bytes": 6497009,
+      "sha256": "139e36c16aeda83e8eeda6a7c5ed383e9c84c993fc9633d4d202278fb1fff489"
     },
     {
       "id": "magical_radio:es:en:chapter-05",
@@ -360,7 +428,9 @@
       "published": "2026-11-12T08:45:16+00:00",
       "description": "Capítulo 5 de 8 del cuento «La radio mágica» (The Magical Radio). Un libro dorado aterriza en el hombro de la niña y la radio revela un hechizo que arregla las cosas rotas.\n\nCómo es el episodio:\n1. Escucha el capítulo completo en inglés. No hace falta entenderlo todo.\n2. Practica palabras y expresiones del capítulo: una pista en español, una pausa y la respuesta en inglés.\n3. Vuelve a escuchar el capítulo y comprueba cuánto entiendes.\n\nUna señal sonora separa las partes. Escucha en orden, empezando por el capítulo 1.",
       "season": 2,
-      "episode": 5
+      "episode": 5,
+      "bytes": 6324601,
+      "sha256": "e106b66124167c8d94f5d732dc50b6f4cf91be332ccac42aaf357430c6c358bc"
     },
     {
       "id": "magical_radio:es:en:chapter-06",
@@ -371,7 +441,9 @@
       "published": "2026-11-12T08:45:16+00:00",
       "description": "Capítulo 6 de 8 del cuento «La radio mágica» (The Magical Radio). Es hora de probar el hechizo en una brújula rota. ¿Funcionará? ¿Y quién espera detrás de la puerta verde?\n\nCómo es el episodio:\n1. Escucha el capítulo completo en inglés. No hace falta entenderlo todo.\n2. Practica palabras y expresiones del capítulo: una pista en español, una pausa y la respuesta en inglés.\n3. Vuelve a escuchar el capítulo y comprueba cuánto entiendes.\n\nUna señal sonora separa las partes. Escucha en orden, empezando por el capítulo 1.",
       "season": 2,
-      "episode": 6
+      "episode": 6,
+      "bytes": 5017434,
+      "sha256": "c9de0f478d5fc5b4710640ca4253ca117a7977008e31b9c8e84eafca8bbac760"
     },
     {
       "id": "magical_radio:es:en:chapter-07",
@@ -382,7 +454,9 @@
       "published": "2026-11-12T08:45:16+00:00",
       "description": "Capítulo 7 de 8 del cuento «La radio mágica» (The Magical Radio). Detrás de la puerta hay un jardín subterráneo. Un pájaro dorado hace tictac como un reloj en lugar de cantar; le falta una piedrecita en un ala y la radio guarda un secreto.\n\nCómo es el episodio:\n1. Escucha el capítulo completo en inglés. No hace falta entenderlo todo.\n2. Practica palabras y expresiones del capítulo: una pista en español, una pausa y la respuesta en inglés.\n3. Vuelve a escuchar el capítulo y comprueba cuánto entiendes.\n\nUna señal sonora separa las partes. Escucha en orden, empezando por el capítulo 1.",
       "season": 2,
-      "episode": 7
+      "episode": 7,
+      "bytes": 8038652,
+      "sha256": "a9302ba8b4c03858f782f38f9d06b7b794364c2eec66f0fd3b36f6b4cb206001"
     },
     {
       "id": "magical_radio:es:en:chapter-08",
@@ -393,7 +467,9 @@
       "published": "2026-11-12T08:45:16+00:00",
       "description": "Capítulo 8 de 8 del cuento «La radio mágica» (The Magical Radio). ¡El final! ¿Conseguirán los hermanos arreglar al pájaro dorado? La historia termina con cantos, mariposas que bailan y la promesa de una nueva aventura.\n\nCómo es el episodio:\n1. Escucha el capítulo completo en inglés. No hace falta entenderlo todo.\n2. Practica palabras y expresiones del capítulo: una pista en español, una pausa y la respuesta en inglés.\n3. Vuelve a escuchar el capítulo y comprueba cuánto entiendes.\n\nUna señal sonora separa las partes. Escucha en orden, empezando por el capítulo 1.",
       "season": 2,
-      "episode": 8
+      "episode": 8,
+      "bytes": 5276986,
+      "sha256": "c42cc3bcf42358011f0e5cab5c05eec103cf94595b77cfae3b355f9a3b1db8b3"
     }
   ],
   "seasons": {

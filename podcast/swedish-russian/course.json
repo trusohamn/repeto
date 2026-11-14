@@ -19,7 +19,9 @@
       "published": "2026-10-28T17:34:21+00:00",
       "description": "Ämne 1 av 30: Hälsningar (Приветствия) – 36 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Hej! → Привет!\n• God morgon! → Доброе утро!\n• God eftermiddag! → Добрый день!\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 1
+      "episode": 1,
+      "bytes": 9295037,
+      "sha256": "2c43b565d04aab061a3155409b5d53c6c2b4f5b0fbb7f47dab764148fde9d92c"
     },
     {
       "id": "repeto:swedish-russian:topic-02",
@@ -29,7 +31,9 @@
       "published": "2026-10-28T17:34:21+00:00",
       "description": "Ämne 2 av 30: Tal (Числа) – 35 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Ett → Один\n• Två → Два\n• Tre → Три\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 2
+      "episode": 2,
+      "bytes": 8654932,
+      "sha256": "684d49cb1118e36e1672b6f55c2e8bfe878a36906405915117f78978d9fea47d"
     },
     {
       "id": "repeto:swedish-russian:topic-03",
@@ -39,7 +43,9 @@
       "published": "2026-10-28T17:34:21+00:00",
       "description": "Ämne 3 av 30: Färger (Цвета) – 29 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Röd → Красный\n• Blå → Синий\n• Gul → Жёлтый\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 3
+      "episode": 3,
+      "bytes": 7717659,
+      "sha256": "065a58ccae4921a4a5dab48b35953ecb385dc114e3899e17475ce95cdd8461f4"
     },
     {
       "id": "repeto:swedish-russian:topic-04",
@@ -49,7 +55,9 @@
       "published": "2026-10-28T17:34:21+00:00",
       "description": "Ämne 4 av 30: Djur (Животные) – 42 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Hund → Собака\n• Katt → Кошка\n• Fågel → Птица\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 4
+      "episode": 4,
+      "bytes": 10508790,
+      "sha256": "854a783696430c19380ed18343d56e342c1280a25859fc1ae2a273a808d4bf8e"
     },
     {
       "id": "repeto:swedish-russian:topic-05",
@@ -59,7 +67,9 @@
       "published": "2026-10-28T17:34:21+00:00",
       "description": "Ämne 5 av 30: Familj (Семья) – 26 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Mamma → Мама\n• Pappa → Папа\n• Syster → Сестра\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 5
+      "episode": 5,
+      "bytes": 7364692,
+      "sha256": "4b1e6590d0770eb98452290c97d0f07fd0497781f224a1c6a0d38bb141d3decb"
     },
     {
       "id": "repeto:swedish-russian:topic-06",
@@ -69,7 +79,9 @@
       "published": "2026-10-28T17:34:21+00:00",
       "description": "Ämne 6 av 30: Mat (Еда) – 49 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Bröd → Хлеб\n• Mjölk → Молоко\n• Ägg → Яйцо\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 6
+      "episode": 6,
+      "bytes": 12331928,
+      "sha256": "7141c20b62542902ea283bf82d7bf5627044237b6706eb76d2a760642c33a999"
     },
     {
       "id": "repeto:swedish-russian:topic-07",
@@ -79,7 +91,9 @@
       "published": "2026-10-28T17:34:21+00:00",
       "description": "Ämne 7 av 30: Kroppen (Тело) – 37 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Huvud → Голова\n• Hår → Волосы\n• Öga → Глаз\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 7
+      "episode": 7,
+      "bytes": 9268079,
+      "sha256": "9898a95b42fde23c86d5a4b0a9a09eac5eb64397dfe22ffd3881519ff6703e1d"
     },
     {
       "id": "repeto:swedish-russian:topic-08",
@@ -89,7 +103,9 @@
       "published": "2026-10-28T17:34:21+00:00",
       "description": "Ämne 8 av 30: Kläder (Одежда) – 29 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Tröja → Свитер\n• T-shirt → Футболка\n• Skjorta → Рубашка\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 8
+      "episode": 8,
+      "bytes": 7667504,
+      "sha256": "d4406e96157f3b3813f839854ddcef21e6c7a609fad348f8fac8f7ade5a87725"
     },
     {
       "id": "repeto:swedish-russian:topic-09",
@@ -99,7 +115,9 @@
       "published": "2026-10-28T17:34:21+00:00",
       "description": "Ämne 9 av 30: Hemma (Дома) – 38 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Hus → Дом\n• Lägenhet → Квартира\n• Rum → Комната\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 9
+      "episode": 9,
+      "bytes": 9664931,
+      "sha256": "7867bbd5b1d4d1738fc6bfed5478ae258e2f6ffd3814a7b2705bf20c6a3dc4b1"
     },
     {
       "id": "repeto:swedish-russian:topic-10",
@@ -109,7 +127,9 @@
       "published": "2026-10-28T17:34:21+00:00",
       "description": "Ämne 10 av 30: Skolan (Школа) – 41 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Skola → Школа\n• Klassrum → Класс\n• Lärare → Учитель\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 10
+      "episode": 10,
+      "bytes": 10827902,
+      "sha256": "e6d2c53e98ec2a1c4e99018a98102e603d9e7241239c57b547a76748b2fc05ac"
     },
     {
       "id": "repeto:swedish-russian:topic-11",
@@ -119,7 +139,9 @@
       "published": "2026-10-28T17:34:21+00:00",
       "description": "Ämne 11 av 30: Väder (Погода) – 25 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Väder → Погода\n• Sol → Солнце\n• Regn → Дождь\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 11
+      "episode": 11,
+      "bytes": 6392310,
+      "sha256": "97c0b4fa4ab47cf76b7dc434a29624474c41402201b9084d0f38870d0c299f9d"
     },
     {
       "id": "repeto:swedish-russian:topic-12",
@@ -129,7 +151,9 @@
       "published": "2026-10-28T17:34:21+00:00",
       "description": "Ämne 12 av 30: Årstider (Времена года) – 18 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Vår → Весна\n• Sommar → Лето\n• Höst → Осень\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 12
+      "episode": 12,
+      "bytes": 5136552,
+      "sha256": "5c5b2505a414288d16d518efa5a74f077bca94736f42afc0b0a6c6a9fea4a47f"
     },
     {
       "id": "repeto:swedish-russian:topic-13",
@@ -139,7 +163,9 @@
       "published": "2026-10-28T17:34:21+00:00",
       "description": "Ämne 13 av 30: Dagar och tid (Дни и время) – 29 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Måndag → Понедельник\n• Tisdag → Вторник\n• Onsdag → Среда\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 13
+      "episode": 13,
+      "bytes": 7730825,
+      "sha256": "b9b62f8b5516008ad386c594887bc78c312aa30fc717770e0f9a3a7197881825"
     },
     {
       "id": "repeto:swedish-russian:topic-14",
@@ -149,7 +175,9 @@
       "published": "2026-10-28T17:34:21+00:00",
       "description": "Ämne 14 av 30: Leksaker och lek (Игрушки и игры) – 34 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Leksak → Игрушка\n• Boll → Мяч\n• Docka → Кукла\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 14
+      "episode": 14,
+      "bytes": 9314472,
+      "sha256": "d55528f7069e5eee3a1622ba29b7439765eaf75d8e88e924c4bde02a62b29b6e"
     },
     {
       "id": "repeto:swedish-russian:topic-15",
@@ -159,7 +187,9 @@
       "published": "2026-10-28T17:34:21+00:00",
       "description": "Ämne 15 av 30: Sport och aktiviteter (Спорт и занятия) – 25 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Fotboll → Футбол\n• Simning → Плавание\n• Cykling → Езда на велосипеде\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 15
+      "episode": 15,
+      "bytes": 7065016,
+      "sha256": "62722b639c8e0dd4d854a21584fc48d3a99104fa8c406fb872faddf8ac2668c5"
     },
     {
       "id": "repeto:swedish-russian:topic-16",
@@ -169,7 +199,9 @@
       "published": "2026-10-28T17:34:21+00:00",
       "description": "Ämne 16 av 30: Jag vill ha och jag behöver (Я хочу и мне нужно) – 28 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Jag vill gå ut. → Я хочу выйти на улицу.\n• Jag vill ha en boll. → Я хочу мяч.\n• Jag vill äta. → Я хочу есть.\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 16
+      "episode": 16,
+      "bytes": 8101972,
+      "sha256": "c81d6dd2660048553cffe205e9531662e3465e6fbc475bbf6a3daec40dae9080"
     },
     {
       "id": "repeto:swedish-russian:topic-17",
@@ -179,7 +211,9 @@
       "published": "2026-10-28T17:34:21+00:00",
       "description": "Ämne 17 av 30: Var är? (Где это?) – 28 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Var är nallen? → Где мишка?\n• Var är min mobil? → Где мой телефон?\n• Var är min väska? → Где моя сумка?\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 17
+      "episode": 17,
+      "bytes": 7673146,
+      "sha256": "bec247b25d536b24e1569329bf640d5dc1bc60f1848f43c42cedeb295ec673eb"
     },
     {
       "id": "repeto:swedish-russian:topic-18",
@@ -189,7 +223,9 @@
       "published": "2026-10-28T17:34:21+00:00",
       "description": "Ämne 18 av 30: Känslor (Чувства и эмоции) – 28 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Glad → Весёлый\n• Ledsen → Грустный\n• Arg → Сердитый\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 18
+      "episode": 18,
+      "bytes": 7443687,
+      "sha256": "72b2c3df8cafa34eb11c833ad8533c878e52223c057a69746df04baef688c982"
     },
     {
       "id": "repeto:swedish-russian:topic-19",
@@ -199,7 +235,9 @@
       "published": "2026-10-28T17:34:21+00:00",
       "description": "Ämne 19 av 30: Färdmedel (Транспорт) – 25 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Bil → Машина\n• Buss → Автобус\n• Tåg → Поезд\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 19
+      "episode": 19,
+      "bytes": 6743396,
+      "sha256": "361a8b29bf64e33809ce950b35a2eb7c00d18af0e52dfe7d84ba4b9c10813afa"
     },
     {
       "id": "repeto:swedish-russian:topic-20",
@@ -209,7 +247,9 @@
       "published": "2026-10-28T17:34:21+00:00",
       "description": "Ämne 20 av 30: Naturen (Природа) – 27 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Skog → Лес\n• Hav → Море\n• Sjö → Озеро\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 20
+      "episode": 20,
+      "bytes": 6769728,
+      "sha256": "236bdc99d487095ba822446a7b86ce3e708ca3f13a0ce635d34c38aa502395dd"
     },
     {
       "id": "repeto:swedish-russian:topic-21",
@@ -219,7 +259,9 @@
       "published": "2026-10-28T17:34:21+00:00",
       "description": "Ämne 21 av 30: Högtider och firande (Праздники) – 23 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Födelsedag → День рождения\n• Grattis på födelsedagen! → С днём рождения!\n• Jul → Рождество\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 21
+      "episode": 21,
+      "bytes": 6403595,
+      "sha256": "d2d559eaf0e0f3051d98de89587d3ea3e53bdedbc5f7af2e66251c24e58daafd"
     },
     {
       "id": "repeto:swedish-russian:topic-22",
@@ -229,7 +271,9 @@
       "published": "2026-10-28T17:34:21+00:00",
       "description": "Ämne 22 av 30: Vardagsrutiner (Распорядок дня) – 28 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Vakna → Просыпаться\n• Stiga upp → Вставать\n• Borsta tänderna → Чистить зубы\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 22
+      "episode": 22,
+      "bytes": 7821731,
+      "sha256": "c3ee08f0ae9096e2c12aa909aa47e2f632db39a68b3ac34c75ab856efcc10b19"
     },
     {
       "id": "repeto:swedish-russian:topic-23",
@@ -239,7 +283,9 @@
       "published": "2026-10-28T17:34:21+00:00",
       "description": "Ämne 23 av 30: Fråga och be om hjälp (Вопросы и просьбы) – 26 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Kan du hjälpa mig? → Ты можешь мне помочь?\n• Hjälp! → Помогите!\n• Snälla! → Пожалуйста!\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 23
+      "episode": 23,
+      "bytes": 6962825,
+      "sha256": "da8ee60fd6b6f46c6f297d62208aa255829872900dc1edf3ad391e6686cae5b5"
     },
     {
       "id": "repeto:swedish-russian:topic-24",
@@ -249,7 +295,9 @@
       "published": "2026-10-28T17:34:21+00:00",
       "description": "Ämne 24 av 30: Motsatser (Противоположности) – 28 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Stor → Большой\n• Liten → Маленький\n• Lång → Длинный\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 24
+      "episode": 24,
+      "bytes": 7183507,
+      "sha256": "67429bb529b3c323c77735efada7444f0e0a7d245506b22e25829f00e0e9ed6a"
     },
     {
       "id": "repeto:swedish-russian:topic-25",
@@ -259,7 +307,9 @@
       "published": "2026-10-28T17:34:21+00:00",
       "description": "Ämne 25 av 30: Handlingar och verb (Действия и глаголы) – 41 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Gå → Идти\n• Springa → Бегать\n• Hoppa → Прыгать\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 25
+      "episode": 25,
+      "bytes": 10553303,
+      "sha256": "b69dbf4df60520b9b71011e1c3f4beaded031de3129101b845fb1fb91f8de1cb"
     },
     {
       "id": "repeto:swedish-russian:topic-26",
@@ -269,7 +319,9 @@
       "published": "2026-10-28T17:34:21+00:00",
       "description": "Ämne 26 av 30: Platser i staden (Места в городе) – 23 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Park → Парк\n• Lekplats → Детская площадка\n• Affär → Магазин\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 26
+      "episode": 26,
+      "bytes": 6292627,
+      "sha256": "0e97fbcc44a7ce588a453f7d9c2664fcab066976a6f4dc2b6a2a530ce07ba32c"
     },
     {
       "id": "repeto:swedish-russian:topic-27",
@@ -279,7 +331,9 @@
       "published": "2026-10-28T17:34:21+00:00",
       "description": "Ämne 27 av 30: Teknik (Техника) – 22 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Telefon → Телефон\n• Mobiltelefon → Мобильный телефон\n• Dator → Компьютер\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 27
+      "episode": 27,
+      "bytes": 6144670,
+      "sha256": "8bc57e81ef9543f86990e9981cc42205251ccd9ad213782be28696291684ecba"
     },
     {
       "id": "repeto:swedish-russian:topic-28",
@@ -289,7 +343,9 @@
       "published": "2026-10-28T17:34:21+00:00",
       "description": "Ämne 28 av 30: Musik och konst (Музыка и искусство) – 23 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Musik → Музыка\n• Sång → Песня\n• Dans → Танцы\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 28
+      "episode": 28,
+      "bytes": 6183540,
+      "sha256": "85d0b85cd422440d356a81408f7314886e41463679a8a9f8c525f5839ee72640"
     },
     {
       "id": "repeto:swedish-russian:topic-29",
@@ -299,7 +355,9 @@
       "published": "2026-10-28T17:34:21+00:00",
       "description": "Ämne 29 av 30: Artiga fraser (Вежливые слова) – 17 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Snälla. → Пожалуйста.\n• Tack! → Спасибо!\n• Tack så mycket! → Большое спасибо!\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 29
+      "episode": 29,
+      "bytes": 4435008,
+      "sha256": "02bd5969e0395f27d9445f0395f96b6499824ccee99c9efdce81a11ab82cc59e"
     },
     {
       "id": "repeto:swedish-russian:topic-30",
@@ -309,7 +367,9 @@
       "published": "2026-10-28T17:34:21+00:00",
       "description": "Ämne 30 av 30: Repetition (Повторение) – 11 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på ryska i pausen innan svaret kommer. Varje rysk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Bra gjort! → Молодец!\n• Du lär dig ett nytt språk! → Ты учишь новый язык!\n• Nu övar vi! → Давай потренируемся!\n\nTips: lyssna igen tills du hinner svara före rösten.",
       "season": 1,
-      "episode": 30
+      "episode": 30,
+      "bytes": 3262005,
+      "sha256": "74c8ebf4508ae7f289cb3cdace45c845c33c926393e2a3c20c2f35a90374742e"
     },
     {
       "id": "magical_radio:sv:ru:chapter-01",
@@ -320,7 +380,9 @@
       "published": "2026-10-28T17:35:10+00:00",
       "description": "Kapitel 1 av 8 i berättelsen ”Den magiska radion” (Волшебное радио). Två syskon hittar en gammal träradio på en loppmarknad. Plötsligt surrar den – och en gyllene text visar att radion är till just dem.\n\nSå går avsnittet till:\n1. Lyssna på hela kapitlet på ryska – du behöver inte förstå allt.\n2. Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på ryska.\n3. Lyssna på kapitlet igen – nu förstår du mycket mer.\n\nEn ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.",
       "season": 2,
-      "episode": 1
+      "episode": 1,
+      "bytes": 7594779,
+      "sha256": "08ddeb2f0ded94f1507fcbdcd373fa2590ab7a65929fa0ba8167f055d3d1b7c7"
     },
     {
       "id": "magical_radio:sv:ru:chapter-02",
@@ -331,7 +393,9 @@
       "published": "2026-10-28T17:35:10+00:00",
       "description": "Kapitel 2 av 8 i berättelsen ”Den magiska radion” (Волшебное радио). Hemma trycker de på den blå knappen. Ur radion kommer ett moln som doftar kanel – och en glad röst berättar om en mus med en viktig nyckel.\n\nSå går avsnittet till:\n1. Lyssna på hela kapitlet på ryska – du behöver inte förstå allt.\n2. Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på ryska.\n3. Lyssna på kapitlet igen – nu förstår du mycket mer.\n\nEn ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.",
       "season": 2,
-      "episode": 2
+      "episode": 2,
+      "bytes": 6949659,
+      "sha256": "d091a3799d3450d291d13e4c6e65c520234089e092e8de29e860a1c721d2da28"
     },
     {
       "id": "magical_radio:sv:ru:chapter-03",
@@ -342,7 +406,9 @@
       "published": "2026-10-28T17:35:10+00:00",
       "description": "Kapitel 3 av 8 i berättelsen ”Den magiska radion” (Волшебное радио). Med ficklampa, ost och radion går syskonen till det gamla trädet. En liten mus vill byta – och mellan rötterna gömmer sig en liten dörr.\n\nSå går avsnittet till:\n1. Lyssna på hela kapitlet på ryska – du behöver inte förstå allt.\n2. Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på ryska.\n3. Lyssna på kapitlet igen – nu förstår du mycket mer.\n\nEn ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.",
       "season": 2,
-      "episode": 3
+      "episode": 3,
+      "bytes": 8685025,
+      "sha256": "461a158bb0dc378fdb46083a89f4fde03dd423d5dcf8dd710a5f6502ece20a92"
     },
     {
       "id": "magical_radio:sv:ru:chapter-04",
@@ -353,7 +419,9 @@
       "published": "2026-10-28T17:35:10+00:00",
       "description": "Kapitel 4 av 8 i berättelsen ”Den magiska radion” (Волшебное радио). Silvernyckeln öppnar dörren. En stentrappa leder ner till ett bibliotek med flygande böcker och blå, lysande blommor.\n\nSå går avsnittet till:\n1. Lyssna på hela kapitlet på ryska – du behöver inte förstå allt.\n2. Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på ryska.\n3. Lyssna på kapitlet igen – nu förstår du mycket mer.\n\nEn ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.",
       "season": 2,
-      "episode": 4
+      "episode": 4,
+      "bytes": 7158430,
+      "sha256": "930566e0bb6891c57afa2e8c0591221522e85bf143c14b159ed46e6643188799"
     },
     {
       "id": "magical_radio:sv:ru:chapter-05",
@@ -364,7 +432,9 @@
       "published": "2026-10-28T17:35:10+00:00",
       "description": "Kapitel 5 av 8 i berättelsen ”Den magiska radion” (Волшебное радио). En gyllene bok landar på en axel, och radion lär ut en trollformel som lagar allt som är trasigt.\n\nSå går avsnittet till:\n1. Lyssna på hela kapitlet på ryska – du behöver inte förstå allt.\n2. Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på ryska.\n3. Lyssna på kapitlet igen – nu förstår du mycket mer.\n\nEn ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.",
       "season": 2,
-      "episode": 5
+      "episode": 5,
+      "bytes": 6751546,
+      "sha256": "f494f200d99f45be3624e0ce88853cf181a20ce8dffce4286d3ad5b35a446d3a"
     },
     {
       "id": "magical_radio:sv:ru:chapter-06",
@@ -375,7 +445,9 @@
       "published": "2026-10-28T17:35:10+00:00",
       "description": "Kapitel 6 av 8 i berättelsen ”Den magiska radion” (Волшебное радио). Dags att prova trollformeln på en trasig kompass. Fungerar den? Och vem väntar bakom den gröna dörren?\n\nSå går avsnittet till:\n1. Lyssna på hela kapitlet på ryska – du behöver inte förstå allt.\n2. Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på ryska.\n3. Lyssna på kapitlet igen – nu förstår du mycket mer.\n\nEn ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.",
       "season": 2,
-      "episode": 6
+      "episode": 6,
+      "bytes": 5483876,
+      "sha256": "703c301130f80cc04762c36ccadf91ae823ec3246762c5bad317420f5b842250"
     },
     {
       "id": "magical_radio:sv:ru:chapter-07",
@@ -386,7 +458,9 @@
       "published": "2026-10-28T17:35:10+00:00",
       "description": "Kapitel 7 av 8 i berättelsen ”Den magiska radion” (Волшебное радио). Bakom dörren finns en underjordisk trädgård med en gyllene fågel som inte kan sjunga – den tickar bara som en klocka. En sten saknas i vingen, och radion bär på en hemlighet.\n\nSå går avsnittet till:\n1. Lyssna på hela kapitlet på ryska – du behöver inte förstå allt.\n2. Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på ryska.\n3. Lyssna på kapitlet igen – nu förstår du mycket mer.\n\nEn ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.",
       "season": 2,
-      "episode": 7
+      "episode": 7,
+      "bytes": 8854299,
+      "sha256": "bb72837f9df95df76d548892e2ff3117f8c390a163790783c63c88b6299c8344"
     },
     {
       "id": "magical_radio:sv:ru:chapter-08",
@@ -397,7 +471,9 @@
       "published": "2026-10-28T17:35:10+00:00",
       "description": "Kapitel 8 av 8 i berättelsen ”Den magiska radion” (Волшебное радио). Finalen! Kan syskonen laga den gyllene fågeln? Berättelsen slutar med sång, dansande fjärilar och löftet om ett nytt äventyr.\n\nSå går avsnittet till:\n1. Lyssna på hela kapitlet på ryska – du behöver inte förstå allt.\n2. Öva orden och uttrycken ur kapitlet: svensk ledtråd, paus, svar på ryska.\n3. Lyssna på kapitlet igen – nu förstår du mycket mer.\n\nEn ljudsignal hörs mellan delarna. Lyssna i ordning från kapitel 1.",
       "season": 2,
-      "episode": 8
+      "episode": 8,
+      "bytes": 5946557,
+      "sha256": "fa7a94ba3e8233088d2332749222960a9c23a70feae0a56f22a4f9edc86be9ed"
     }
   ],
   "seasons": {

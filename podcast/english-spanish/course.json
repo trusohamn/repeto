@@ -15,7 +15,9 @@
       "published": "2026-11-11T17:50:33+00:00",
       "description": "Topic 1 of 30: Greetings (Saludos) – 36 phrases.\n\nYou hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Hi! → ¡Hola!\n• Good morning! → ¡Buenos días!\n• Good afternoon! → ¡Buenas tardes!\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 1
+      "episode": 1,
+      "bytes": 9066831,
+      "sha256": "8c1c5c712e7a71dc49176f57036b117e25462b73bbff2b268f1251b87e5af813"
     },
     {
       "id": "repeto:english-spanish:topic-02",
@@ -25,7 +27,9 @@
       "published": "2026-11-11T17:50:33+00:00",
       "description": "Topic 2 of 30: Numbers (Números) – 35 phrases.\n\nYou hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• One → Uno\n• Two → Dos\n• Three → Tres\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 2
+      "episode": 2,
+      "bytes": 8391618,
+      "sha256": "4ee29e69f977a4c300a8e63c4704a7c461c9d142bc6a0520e83169e060d1e2aa"
     },
     {
       "id": "repeto:english-spanish:topic-03",
@@ -35,7 +39,9 @@
       "published": "2026-11-11T17:50:33+00:00",
       "description": "Topic 3 of 30: Colors (Colores) – 29 phrases.\n\nYou hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Red → Rojo\n• Blue → Azul\n• Yellow → Amarillo\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 3
+      "episode": 3,
+      "bytes": 7441806,
+      "sha256": "fc3d0abd6d6b5f7fdcf31606e9cc9ced38930cfd4faf5ad741021c5c89567cb1"
     },
     {
       "id": "repeto:english-spanish:topic-04",
@@ -45,7 +51,9 @@
       "published": "2026-11-11T17:50:33+00:00",
       "description": "Topic 4 of 30: Animals (Animales) – 42 phrases.\n\nYou hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Dog → Perro\n• Cat → Gato\n• Bird → Pájaro\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 4
+      "episode": 4,
+      "bytes": 10400957,
+      "sha256": "ffdcc2d791a52abe2f97e7176a37b0f47912bd1cfc48a9666614787707c53c7a"
     },
     {
       "id": "repeto:english-spanish:topic-05",
@@ -55,7 +63,9 @@
       "published": "2026-11-11T17:50:33+00:00",
       "description": "Topic 5 of 30: Family (Familia) – 26 phrases.\n\nYou hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Mum → Mamá\n• Dad → Papá\n• Sister → Hermana\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 5
+      "episode": 5,
+      "bytes": 6932732,
+      "sha256": "97b09815cd7e9bc7ae683eca062fa1eab3cd0d2a06f376154ba60b98e4fe5ff0"
     },
     {
       "id": "repeto:english-spanish:topic-06",
@@ -65,7 +75,9 @@
       "published": "2026-11-11T17:50:33+00:00",
       "description": "Topic 6 of 30: Food (Comida) – 49 phrases.\n\nYou hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Bread → Pan\n• Milk → Leche\n• Egg → Huevo\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 6
+      "episode": 6,
+      "bytes": 11970812,
+      "sha256": "28179e8d264cd9460707a3929927367ae1a8dbb3189cfb8e58b8d6144d30d673"
     },
     {
       "id": "repeto:english-spanish:topic-07",
@@ -75,7 +87,9 @@
       "published": "2026-11-11T17:50:33+00:00",
       "description": "Topic 7 of 30: Body (Cuerpo) – 37 phrases.\n\nYou hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Head → Cabeza\n• Hair → Pelo\n• Eye → Ojo\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 7
+      "episode": 7,
+      "bytes": 9249897,
+      "sha256": "5d077ffb9e6f0ac0bd8b781ff4e6cdf354f13c7fa912f53356f82ed5014db222"
     },
     {
       "id": "repeto:english-spanish:topic-08",
@@ -85,7 +99,9 @@
       "published": "2026-11-11T17:50:33+00:00",
       "description": "Topic 8 of 30: Clothing (Ropa) – 29 phrases.\n\nYou hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Jumper → Jersey\n• T-shirt → Camiseta\n• Shirt → Camisa\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 8
+      "episode": 8,
+      "bytes": 7734586,
+      "sha256": "fcfce1c13952cad9273ebbc6ffb472124a168ad2cb1eac2e6b9bf6d01656c794"
     },
     {
       "id": "repeto:english-spanish:topic-09",
@@ -95,7 +111,9 @@
       "published": "2026-11-11T17:50:33+00:00",
       "description": "Topic 9 of 30: Home (En casa) – 38 phrases.\n\nYou hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• House → Casa\n• Flat → Piso\n• Room → Habitación\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 9
+      "episode": 9,
+      "bytes": 9458668,
+      "sha256": "ee2780ced229e9cb63a275823e689558ca3be4147757025e77fb2f6e3b47da5d"
     },
     {
       "id": "repeto:english-spanish:topic-10",
@@ -105,7 +123,9 @@
       "published": "2026-11-11T17:50:33+00:00",
       "description": "Topic 10 of 30: School (Colegio) – 41 phrases.\n\nYou hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• School → Colegio\n• Classroom → Aula\n• Teacher → Profesor\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 10
+      "episode": 10,
+      "bytes": 10537003,
+      "sha256": "6d2a0309445aeb8a9cb0f364cef2a718ee2669604844657a0adb5dc8777e8241"
     },
     {
       "id": "repeto:english-spanish:topic-11",
@@ -115,7 +135,9 @@
       "published": "2026-11-11T17:50:33+00:00",
       "description": "Topic 11 of 30: Weather (El tiempo) – 25 phrases.\n\nYou hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Weather → Tiempo\n• Sun → Sol\n• Rain → Lluvia\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 11
+      "episode": 11,
+      "bytes": 6224918,
+      "sha256": "37f71e4a1020bffb857a025ce2d4a11c85bbe1991909c78676dd77823719e1df"
     },
     {
       "id": "repeto:english-spanish:topic-12",
@@ -125,7 +147,9 @@
       "published": "2026-11-11T17:50:33+00:00",
       "description": "Topic 12 of 30: Seasons (Estaciones del año) – 18 phrases.\n\nYou hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Spring → Primavera\n• Summer → Verano\n• Autumn → Otoño\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 12
+      "episode": 12,
+      "bytes": 5058812,
+      "sha256": "99975191e37e477ba270ff46ef956d7dd47848eb116d19e6f8d7d10fbc6f00b1"
     },
     {
       "id": "repeto:english-spanish:topic-13",
@@ -135,7 +159,9 @@
       "published": "2026-11-11T17:50:33+00:00",
       "description": "Topic 13 of 30: Days and Time (Días y horas) – 29 phrases.\n\nYou hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Monday → Lunes\n• Tuesday → Martes\n• Wednesday → Miércoles\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 13
+      "episode": 13,
+      "bytes": 7491961,
+      "sha256": "2a9579096fd82366d04720f504866e78cd90cea092880e49dfdeb337777266f5"
     },
     {
       "id": "repeto:english-spanish:topic-14",
@@ -145,7 +171,9 @@
       "published": "2026-11-11T17:50:33+00:00",
       "description": "Topic 14 of 30: Toys and Play (Juguetes y juegos) – 34 phrases.\n\nYou hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Toy → Juguete\n• Ball → Pelota\n• Doll → Muñeca\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 14
+      "episode": 14,
+      "bytes": 8816683,
+      "sha256": "494d986f62df90a73d5e49e91b929db4b35a610349ed856fff5c00cca1b07ceb"
     },
     {
       "id": "repeto:english-spanish:topic-15",
@@ -155,7 +183,9 @@
       "published": "2026-11-11T17:50:33+00:00",
       "description": "Topic 15 of 30: Sports and Activities (Deportes y actividades) – 25 phrases.\n\nYou hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Football → Fútbol\n• Swimming → Natación\n• Cycling → Ciclismo\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 15
+      "episode": 15,
+      "bytes": 6634309,
+      "sha256": "8ff384b9bb5a8d14209ae04cf2959a2d88fefb9c404546344a647f907c7e5cc0"
     },
     {
       "id": "repeto:english-spanish:topic-16",
@@ -165,7 +195,9 @@
       "published": "2026-11-11T17:50:33+00:00",
       "description": "Topic 16 of 30: I want and I need (Quiero y necesito) – 28 phrases.\n\nYou hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• I want to go outside. → Quiero salir a la calle.\n• I want a ball. → Quiero una pelota.\n• I want to eat. → Quiero comer.\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 16
+      "episode": 16,
+      "bytes": 7654338,
+      "sha256": "4f219d246aa31c7d26a8f6cfa05f8266946cbe8e5d083895acc420c93407fd4b"
     },
     {
       "id": "repeto:english-spanish:topic-17",
@@ -175,7 +207,9 @@
       "published": "2026-11-11T17:50:33+00:00",
       "description": "Topic 17 of 30: Where is it? (¿Dónde está?) – 28 phrases.\n\nYou hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Where is the teddy bear? → ¿Dónde está el osito de peluche?\n• Where is my phone? → ¿Dónde está mi móvil?\n• Where is my bag? → ¿Dónde está mi bolsa?\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 17
+      "episode": 17,
+      "bytes": 7806057,
+      "sha256": "d43e841ad28c3749327c095c58abb69e716f9aeacc8cb9affb8e30fc3e311e2c"
     },
     {
       "id": "repeto:english-spanish:topic-18",
@@ -185,7 +219,9 @@
       "published": "2026-11-11T17:50:33+00:00",
       "description": "Topic 18 of 30: Feelings and Emotions (Sentimientos y emociones) – 28 phrases.\n\nYou hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Happy → Contento\n• Sad → Triste\n• Angry → Enfadado\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 18
+      "episode": 18,
+      "bytes": 7449956,
+      "sha256": "8265eb6faa784c84f40698c47956b3f7ed2945af66553b301167a22c4fc4e327"
     },
     {
       "id": "repeto:english-spanish:topic-19",
@@ -195,7 +231,9 @@
       "published": "2026-11-11T17:50:33+00:00",
       "description": "Topic 19 of 30: Transport (Medios de transporte) – 25 phrases.\n\nYou hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Car → Coche\n• Bus → Autobús\n• Train → Tren\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 19
+      "episode": 19,
+      "bytes": 6574750,
+      "sha256": "4e117627561c5a552f9684a3407ded99181ef7daa31dfc7b393505b92e0437af"
     },
     {
       "id": "repeto:english-spanish:topic-20",
@@ -205,7 +243,9 @@
       "published": "2026-11-11T17:50:33+00:00",
       "description": "Topic 20 of 30: Nature (Naturaleza) – 27 phrases.\n\nYou hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Forest → Bosque\n• Sea → Mar\n• Lake → Lago\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 20
+      "episode": 20,
+      "bytes": 6676941,
+      "sha256": "0fad1f38cf450d55380736b643d6497d7437b81a7ce1060985bb51a8af4b7025"
     },
     {
       "id": "repeto:english-spanish:topic-21",
@@ -215,7 +255,9 @@
       "published": "2026-11-11T17:50:33+00:00",
       "description": "Topic 21 of 30: Holidays and Celebrations (Fiestas y celebraciones) – 23 phrases.\n\nYou hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Birthday → Cumpleaños\n• Happy birthday! → ¡Feliz cumpleaños!\n• Christmas → Navidad\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 21
+      "episode": 21,
+      "bytes": 6236203,
+      "sha256": "feafb4f17632b73c38e8dc9e6790510867b3c6519b800059b94e4b906d6afd03"
     },
     {
       "id": "repeto:english-spanish:topic-22",
@@ -225,7 +267,9 @@
       "published": "2026-11-11T17:50:33+00:00",
       "description": "Topic 22 of 30: Daily Routine (Rutina diaria) – 28 phrases.\n\nYou hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Wake up → Despertarse\n• Get up → Levantarse\n• Brush your teeth → Lavarse los dientes\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 22
+      "episode": 22,
+      "bytes": 7817342,
+      "sha256": "cefbee3e26ac50a00a21f87f055fa089308a02b492d4c9744380f6fe765ac7b6"
     },
     {
       "id": "repeto:english-spanish:topic-23",
@@ -235,7 +279,9 @@
       "published": "2026-11-11T17:50:33+00:00",
       "description": "Topic 23 of 30: Asking and Requests (Preguntas y peticiones) – 26 phrases.\n\nYou hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Can you help me? → ¿Puedes ayudarme?\n• Help! → ¡Socorro!\n• Please! → ¡Por favor!\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 23
+      "episode": 23,
+      "bytes": 6566599,
+      "sha256": "d8c29b94733c97c812619938c96a4d31296b4f74d3b79d6c80118a658b99da1b"
     },
     {
       "id": "repeto:english-spanish:topic-24",
@@ -245,7 +291,9 @@
       "published": "2026-11-11T17:50:33+00:00",
       "description": "Topic 24 of 30: Opposites (Contrarios) – 28 phrases.\n\nYou hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Big → Grande\n• Small → Pequeño\n• Long → Largo\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 24
+      "episode": 24,
+      "bytes": 6936493,
+      "sha256": "424a44f8fda7c64a0f13b810a3c535a5ec520eee6d71b5d7fcc23cf3019879ba"
     },
     {
       "id": "repeto:english-spanish:topic-25",
@@ -255,7 +303,9 @@
       "published": "2026-11-11T17:50:33+00:00",
       "description": "Topic 25 of 30: Actions and Verbs (Acciones y verbos) – 41 phrases.\n\nYou hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Walk → Andar\n• Run → Correr\n• Jump → Saltar\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 25
+      "episode": 25,
+      "bytes": 10101280,
+      "sha256": "df97d963b004c36bb84133247a0f407c3a774d6cd4fb629bc2e8cce61e455f0f"
     },
     {
       "id": "repeto:english-spanish:topic-26",
@@ -265,7 +315,9 @@
       "published": "2026-11-11T17:50:33+00:00",
       "description": "Topic 26 of 30: Places in Town (Lugares de la ciudad) – 23 phrases.\n\nYou hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Park → Parque\n• Playground → Parque infantil\n• Shop → Tienda\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 26
+      "episode": 26,
+      "bytes": 6101411,
+      "sha256": "8c37b64e46e3c397ef2812374567eae218938e67e9ae9a2f33313993a1a0851f"
     },
     {
       "id": "repeto:english-spanish:topic-27",
@@ -275,7 +327,9 @@
       "published": "2026-11-11T17:50:33+00:00",
       "description": "Topic 27 of 30: Technology (Tecnología) – 22 phrases.\n\nYou hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Phone → Teléfono\n• Mobile phone → Teléfono móvil\n• Computer → Ordenador\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 27
+      "episode": 27,
+      "bytes": 5802361,
+      "sha256": "b36bbf17f7f5b8bce4bd08f3692277940c6b4e320d582e950e128641ac0809c7"
     },
     {
       "id": "repeto:english-spanish:topic-28",
@@ -285,7 +339,9 @@
       "published": "2026-11-11T17:50:33+00:00",
       "description": "Topic 28 of 30: Music and Art (Música y arte) – 23 phrases.\n\nYou hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Music → Música\n• Song → Canción\n• Dancing → Baile\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 28
+      "episode": 28,
+      "bytes": 5974142,
+      "sha256": "9d6685a797de76674c9344998519c6c32135145d0c65e9dbe42942ffe6bec552"
     },
     {
       "id": "repeto:english-spanish:topic-29",
@@ -295,7 +351,9 @@
       "published": "2026-11-11T17:50:33+00:00",
       "description": "Topic 29 of 30: Polite Phrases (Expresiones de cortesía) – 17 phrases.\n\nYou hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Please. → Por favor.\n• Thank you! → ¡Gracias!\n• Thank you very much! → ¡Muchas gracias!\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 29
+      "episode": 29,
+      "bytes": 4243791,
+      "sha256": "8b2c70275a2e222fe0dd718774141b9df85251a501f115a5d2c7fe11b5fa33a3"
     },
     {
       "id": "repeto:english-spanish:topic-30",
@@ -305,7 +363,9 @@
       "published": "2026-11-11T17:50:33+00:00",
       "description": "Topic 30 of 30: Review and Recap (Repaso) – 11 phrases.\n\nYou hear a word or sentence in English. Say it in Spanish during the pause, before you hear the answer. Each Spanish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Well done! → ¡Bien hecho!\n• You are learning a new language! → ¡Estás aprendiendo un idioma nuevo!\n• Let's practise! → ¡Vamos a practicar!\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 30
+      "episode": 30,
+      "bytes": 3097747,
+      "sha256": "d717d816ce49e45f870cf6b028874cfbbba4e37fd18ac5603281584419a5a553"
     },
     {
       "id": "magical_radio:en:es:chapter-01",
@@ -316,7 +376,9 @@
       "published": "2026-11-11T17:51:48+00:00",
       "description": "Chapter 1 of 8 in \"The Magical Radio\" (La radio mágica). Two siblings find an old wooden radio at a flea market. Suddenly it starts to hum, and a golden inscription shows that the radio is meant for them.\n\nHow the episode works:\n1. Listen to the whole chapter in Spanish. You don't need to understand everything.\n2. Practise words and expressions from the chapter: an English prompt, a pause, then the answer in Spanish.\n3. Listen to the chapter again and see how much you can understand.\n\nA chime separates the sections. Listen in order, starting with chapter 1.",
       "season": 2,
-      "episode": 1
+      "episode": 1,
+      "bytes": 7509515,
+      "sha256": "568afd4cfe3c6e7a7fdf7879e1af0a0164c4c61c78831aa4328cdcf69dd61298"
     },
     {
       "id": "magical_radio:en:es:chapter-02",
@@ -327,7 +389,9 @@
       "published": "2026-11-11T17:51:48+00:00",
       "description": "Chapter 2 of 8 in \"The Magical Radio\" (La radio mágica). At home, the children press the blue button. A little cloud smelling of cinnamon floats out of the radio, and a cheerful voice tells them about a mouse with an important key.\n\nHow the episode works:\n1. Listen to the whole chapter in Spanish. You don't need to understand everything.\n2. Practise words and expressions from the chapter: an English prompt, a pause, then the answer in Spanish.\n3. Listen to the chapter again and see how much you can understand.\n\nA chime separates the sections. Listen in order, starting with chapter 1.",
       "season": 2,
-      "episode": 2
+      "episode": 2,
+      "bytes": 6549672,
+      "sha256": "2da94eb1679065ed913c6169ac3738cb841f08b638c245eee57771dcb9cf3e53"
     },
     {
       "id": "magical_radio:en:es:chapter-03",
@@ -338,7 +402,9 @@
       "published": "2026-11-11T17:51:48+00:00",
       "description": "Chapter 3 of 8 in \"The Magical Radio\" (La radio mágica). With a torch, some cheese and the radio, the siblings head to the old tree. A little mouse agrees to a trade, and a small door is hidden between the roots.\n\nHow the episode works:\n1. Listen to the whole chapter in Spanish. You don't need to understand everything.\n2. Practise words and expressions from the chapter: an English prompt, a pause, then the answer in Spanish.\n3. Listen to the chapter again and see how much you can understand.\n\nA chime separates the sections. Listen in order, starting with chapter 1.",
       "season": 2,
-      "episode": 3
+      "episode": 3,
+      "bytes": 8615435,
+      "sha256": "f15c4ce760a80c603717534d05fa89e6ddd6dae04fdbc9486a6d4cccbd836c36"
     },
     {
       "id": "magical_radio:en:es:chapter-04",
@@ -349,7 +415,9 @@
       "published": "2026-11-11T17:51:48+00:00",
       "description": "Chapter 4 of 8 in \"The Magical Radio\" (La radio mágica). The silver key opens the door. Stone steps lead down to a library full of flying books, with glowing flowers growing on the walls.\n\nHow the episode works:\n1. Listen to the whole chapter in Spanish. You don't need to understand everything.\n2. Practise words and expressions from the chapter: an English prompt, a pause, then the answer in Spanish.\n3. Listen to the chapter again and see how much you can understand.\n\nA chime separates the sections. Listen in order, starting with chapter 1.",
       "season": 2,
-      "episode": 4
+      "episode": 4,
+      "bytes": 6871919,
+      "sha256": "538adb4b87402a983be9e912a718d4263a450b30f7e22294e4fbc2d6cb0535a6"
     },
     {
       "id": "magical_radio:en:es:chapter-05",
@@ -360,7 +428,9 @@
       "published": "2026-11-11T17:51:48+00:00",
       "description": "Chapter 5 of 8 in \"The Magical Radio\" (La radio mágica). A golden book lands on one of the children's shoulders, and the radio reveals a spell that can mend broken things.\n\nHow the episode works:\n1. Listen to the whole chapter in Spanish. You don't need to understand everything.\n2. Practise words and expressions from the chapter: an English prompt, a pause, then the answer in Spanish.\n3. Listen to the chapter again and see how much you can understand.\n\nA chime separates the sections. Listen in order, starting with chapter 1.",
       "season": 2,
-      "episode": 5
+      "episode": 5,
+      "bytes": 6453123,
+      "sha256": "71b623deec494a50795f7f979c5cca17c1ff426ba1922bc81366d263609fd314"
     },
     {
       "id": "magical_radio:en:es:chapter-06",
@@ -371,7 +441,9 @@
       "published": "2026-11-11T17:51:48+00:00",
       "description": "Chapter 6 of 8 in \"The Magical Radio\" (La radio mágica). It's time to try the spell on a broken compass. Will it work? And who is waiting behind the green door?\n\nHow the episode works:\n1. Listen to the whole chapter in Spanish. You don't need to understand everything.\n2. Practise words and expressions from the chapter: an English prompt, a pause, then the answer in Spanish.\n3. Listen to the chapter again and see how much you can understand.\n\nA chime separates the sections. Listen in order, starting with chapter 1.",
       "season": 2,
-      "episode": 6
+      "episode": 6,
+      "bytes": 5367892,
+      "sha256": "1999dd438fcbb3d74c9be1ce395c383fa38b1aaed480bf89329dc4b4466bfe4e"
     },
     {
       "id": "magical_radio:en:es:chapter-07",
@@ -382,7 +454,9 @@
       "published": "2026-11-11T17:51:48+00:00",
       "description": "Chapter 7 of 8 in \"The Magical Radio\" (La radio mágica). Behind the door lies an underground garden. A golden bird ticks like a clock instead of singing. A stone is missing from its wing, and the radio has a secret.\n\nHow the episode works:\n1. Listen to the whole chapter in Spanish. You don't need to understand everything.\n2. Practise words and expressions from the chapter: an English prompt, a pause, then the answer in Spanish.\n3. Listen to the chapter again and see how much you can understand.\n\nA chime separates the sections. Listen in order, starting with chapter 1.",
       "season": 2,
-      "episode": 7
+      "episode": 7,
+      "bytes": 8413561,
+      "sha256": "82663512f778781ef23d3ede317d2edf88b19fdc7af9e1efd3f874c602f0c74f"
     },
     {
       "id": "magical_radio:en:es:chapter-08",
@@ -393,7 +467,9 @@
       "published": "2026-11-11T17:51:48+00:00",
       "description": "Chapter 8 of 8 in \"The Magical Radio\" (La radio mágica). The finale! Can the siblings mend the golden bird? The story ends with singing, dancing butterflies and the promise of another adventure.\n\nHow the episode works:\n1. Listen to the whole chapter in Spanish. You don't need to understand everything.\n2. Practise words and expressions from the chapter: an English prompt, a pause, then the answer in Spanish.\n3. Listen to the chapter again and see how much you can understand.\n\nA chime separates the sections. Listen in order, starting with chapter 1.",
       "season": 2,
-      "episode": 8
+      "episode": 8,
+      "bytes": 5670704,
+      "sha256": "7f4ba95bae608a820930d51bc85a9d937fe0d6c93651dd7d67365a471969c363"
     }
   ],
   "seasons": {

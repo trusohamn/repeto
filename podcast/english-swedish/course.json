@@ -19,7 +19,9 @@
       "published": "2026-10-30T12:25:55+00:00",
       "description": "Topic 1 of 30: Greetings (Hälsningar) – 36 phrases.\n\nYou hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Hi! → Hej!\n• Good morning! → God morgon!\n• Good afternoon! → God eftermiddag!\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 1
+      "episode": 1,
+      "bytes": 8837999,
+      "sha256": "7f09e1751d7800cd1f42bd6286d7e1661c7288109ea23b78b26fa801225619d3"
     },
     {
       "id": "repeto:english-swedish:topic-02",
@@ -29,7 +31,9 @@
       "published": "2026-10-30T12:25:55+00:00",
       "description": "Topic 2 of 30: Numbers (Tal) – 35 phrases.\n\nYou hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• One → Ett\n• Two → Två\n• Three → Tre\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 2
+      "episode": 2,
+      "bytes": 8247422,
+      "sha256": "0541289af2423eaccfd43d5c32f9683c84d4f547e03de5ac9124e325d29d7604"
     },
     {
       "id": "repeto:english-swedish:topic-03",
@@ -39,7 +43,9 @@
       "published": "2026-10-30T12:25:55+00:00",
       "description": "Topic 3 of 30: Colors (Färger) – 29 phrases.\n\nYou hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Red → Röd\n• Blue → Blå\n• Yellow → Gul\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 3
+      "episode": 3,
+      "bytes": 7267517,
+      "sha256": "9842525a88f49e284842d3b002bd67850f484d4ed451c71218c9fb7e693e1167"
     },
     {
       "id": "repeto:english-swedish:topic-04",
@@ -49,7 +55,9 @@
       "published": "2026-10-30T12:25:55+00:00",
       "description": "Topic 4 of 30: Animals (Djur) – 42 phrases.\n\nYou hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Dog → Hund\n• Cat → Katt\n• Bird → Fågel\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 4
+      "episode": 4,
+      "bytes": 10059275,
+      "sha256": "cb318debddbf5902857b64d2ce0dba02f7f7e08efc94b889513c25ee5b919799"
     },
     {
       "id": "repeto:english-swedish:topic-05",
@@ -59,7 +67,9 @@
       "published": "2026-10-30T12:25:55+00:00",
       "description": "Topic 5 of 30: Family (Familj) – 26 phrases.\n\nYou hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Mum → Mamma\n• Dad → Pappa\n• Sister → Syster\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 5
+      "episode": 5,
+      "bytes": 6885711,
+      "sha256": "339c736a22f0a69fe8f7e43ad37976e30c378ab7ae053d55bc3ef428d2dc1993"
     },
     {
       "id": "repeto:english-swedish:topic-06",
@@ -69,7 +79,9 @@
       "published": "2026-10-30T12:25:55+00:00",
       "description": "Topic 6 of 30: Food (Mat) – 49 phrases.\n\nYou hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Bread → Bröd\n• Milk → Mjölk\n• Egg → Ägg\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 6
+      "episode": 6,
+      "bytes": 11949496,
+      "sha256": "c276ea21d23f027c7e14d640f303ae086a7bb994671db759b9aadbb5a74976f0"
     },
     {
       "id": "repeto:english-swedish:topic-07",
@@ -79,7 +91,9 @@
       "published": "2026-10-30T12:25:55+00:00",
       "description": "Topic 7 of 30: Body (Kroppen) – 37 phrases.\n\nYou hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Head → Huvud\n• Hair → Hår\n• Eye → Öga\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 7
+      "episode": 7,
+      "bytes": 8859314,
+      "sha256": "bcc0dee856a8ecb0b14043ad0198d49cd95c10eb95265a3164ac022915988438"
     },
     {
       "id": "repeto:english-swedish:topic-08",
@@ -89,7 +103,9 @@
       "published": "2026-10-30T12:25:55+00:00",
       "description": "Topic 8 of 30: Clothing (Kläder) – 29 phrases.\n\nYou hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Jumper → Tröja\n• T-shirt → T-shirt\n• Shirt → Skjorta\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 8
+      "episode": 8,
+      "bytes": 7358423,
+      "sha256": "9fd96a61a1e60d29f597159357814e5211df9198b2b610e797a6f8f9890e41e6"
     },
     {
       "id": "repeto:english-swedish:topic-09",
@@ -99,7 +115,9 @@
       "published": "2026-10-30T12:25:55+00:00",
       "description": "Topic 9 of 30: Home (Hemma) – 38 phrases.\n\nYou hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• House → Hus\n• Flat → Lägenhet\n• Room → Rum\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 9
+      "episode": 9,
+      "bytes": 9312591,
+      "sha256": "5fa048aed38492f17891f22ffc14fae34b602df25f948e81e04355ee6c6f1d31"
     },
     {
       "id": "repeto:english-swedish:topic-10",
@@ -109,7 +127,9 @@
       "published": "2026-10-30T12:25:55+00:00",
       "description": "Topic 10 of 30: School (Skolan) – 41 phrases.\n\nYou hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• School → Skola\n• Classroom → Klassrum\n• Teacher → Lärare\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 10
+      "episode": 10,
+      "bytes": 10286227,
+      "sha256": "03f8b394bce88a7edfcd156fe60396658211bd07720799e05ce13a21bea92698"
     },
     {
       "id": "repeto:english-swedish:topic-11",
@@ -119,7 +139,9 @@
       "published": "2026-10-30T12:25:55+00:00",
       "description": "Topic 11 of 30: Weather (Väder) – 25 phrases.\n\nYou hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Weather → Väder\n• Sun → Sol\n• Rain → Regn\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 11
+      "episode": 11,
+      "bytes": 6125234,
+      "sha256": "34a2f53a4a2a700c79044ad930cc7e2c48fed8b0c6499cc38a01fcc7018d0591"
     },
     {
       "id": "repeto:english-swedish:topic-12",
@@ -129,7 +151,9 @@
       "published": "2026-10-30T12:25:55+00:00",
       "description": "Topic 12 of 30: Seasons (Årstider) – 18 phrases.\n\nYou hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Spring → Vår\n• Summer → Sommar\n• Autumn → Höst\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 12
+      "episode": 12,
+      "bytes": 4877626,
+      "sha256": "967c5d82acd2693a1b66b20023bcb7a4e7852d5c21823113dc57ec2ad708c3a7"
     },
     {
       "id": "repeto:english-swedish:topic-13",
@@ -139,7 +163,9 @@
       "published": "2026-10-30T12:25:55+00:00",
       "description": "Topic 13 of 30: Days and Time (Dagar och tid) – 29 phrases.\n\nYou hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Monday → Måndag\n• Tuesday → Tisdag\n• Wednesday → Onsdag\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 13
+      "episode": 13,
+      "bytes": 7362812,
+      "sha256": "733a17138ad5ced57c0b0e409a83fedb315b09dac3cfb884613e04fa183dd8b2"
     },
     {
       "id": "repeto:english-swedish:topic-14",
@@ -149,7 +175,9 @@
       "published": "2026-10-30T12:25:55+00:00",
       "description": "Topic 14 of 30: Toys and Play (Leksaker och lek) – 34 phrases.\n\nYou hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Toy → Leksak\n• Ball → Boll\n• Doll → Docka\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 14
+      "episode": 14,
+      "bytes": 8618570,
+      "sha256": "17d462dc4c8dfe2bdf39053af75344176f59b1af7b5d36037d7f97958fa5dcf6"
     },
     {
       "id": "repeto:english-swedish:topic-15",
@@ -159,7 +187,9 @@
       "published": "2026-10-30T12:25:55+00:00",
       "description": "Topic 15 of 30: Sports and Activities (Sport och aktiviteter) – 25 phrases.\n\nYou hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Football → Fotboll\n• Swimming → Simning\n• Cycling → Cykling\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 15
+      "episode": 15,
+      "bytes": 6523968,
+      "sha256": "ff60979aecd6f80ccc1a2000a8b5ec5bf5de60caf7bc235b6a81f077987444ae"
     },
     {
       "id": "repeto:english-swedish:topic-16",
@@ -169,7 +199,9 @@
       "published": "2026-10-30T12:25:55+00:00",
       "description": "Topic 16 of 30: I want and I need (Jag vill ha och jag behöver) – 28 phrases.\n\nYou hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• I want to go outside. → Jag vill gå ut.\n• I want a ball. → Jag vill ha en boll.\n• I want to eat. → Jag vill äta.\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 16
+      "episode": 16,
+      "bytes": 7573463,
+      "sha256": "30b8f2635ade04225150471d2a3c41b197717c04266c2bc70904aebf6fcbd595"
     },
     {
       "id": "repeto:english-swedish:topic-17",
@@ -179,7 +211,9 @@
       "published": "2026-10-30T12:25:55+00:00",
       "description": "Topic 17 of 30: Where is it? (Var är?) – 28 phrases.\n\nYou hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Where is the teddy bear? → Var är nallen?\n• Where is my phone? → Var är min mobil?\n• Where is my bag? → Var är min väska?\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 17
+      "episode": 17,
+      "bytes": 7485692,
+      "sha256": "2dbca28a76173362b676e0f6ebc01702a7185962449f348d7822a5e0593a6c83"
     },
     {
       "id": "repeto:english-swedish:topic-18",
@@ -189,7 +223,9 @@
       "published": "2026-10-30T12:25:55+00:00",
       "description": "Topic 18 of 30: Feelings and Emotions (Känslor) – 28 phrases.\n\nYou hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Happy → Glad\n• Sad → Ledsen\n• Angry → Arg\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 18
+      "episode": 18,
+      "bytes": 7148399,
+      "sha256": "33cee66a264cace5062c7a914143be486a11b1d51d956164981ec5452f1bc74c"
     },
     {
       "id": "repeto:english-swedish:topic-19",
@@ -199,7 +235,9 @@
       "published": "2026-10-30T12:25:55+00:00",
       "description": "Topic 19 of 30: Transport (Färdmedel) – 25 phrases.\n\nYou hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Car → Bil\n• Bus → Buss\n• Train → Tåg\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 19
+      "episode": 19,
+      "bytes": 6404849,
+      "sha256": "72c2a44e5b2534a4ad2e00334b0c3d7e79346824d24578738ab7abae4af683fd"
     },
     {
       "id": "repeto:english-swedish:topic-20",
@@ -209,7 +247,9 @@
       "published": "2026-10-30T12:25:55+00:00",
       "description": "Topic 20 of 30: Nature (Naturen) – 27 phrases.\n\nYou hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Forest → Skog\n• Sea → Hav\n• Lake → Sjö\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 20
+      "episode": 20,
+      "bytes": 6587915,
+      "sha256": "befd14c8c4b2d89c18c3a6e619f1233b52b1016fa8002e92ff7c1323e4506b7e"
     },
     {
       "id": "repeto:english-swedish:topic-21",
@@ -219,7 +259,9 @@
       "published": "2026-10-30T12:25:55+00:00",
       "description": "Topic 21 of 30: Holidays and Celebrations (Högtider och firande) – 23 phrases.\n\nYou hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Birthday → Födelsedag\n• Happy birthday! → Grattis på födelsedagen!\n• Christmas → Jul\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 21
+      "episode": 21,
+      "bytes": 6039971,
+      "sha256": "833b74d7e406b75de4c2e01270953941d09bb3b4b7a9200eacc3944669ba37a2"
     },
     {
       "id": "repeto:english-swedish:topic-22",
@@ -229,7 +271,9 @@
       "published": "2026-10-30T12:25:55+00:00",
       "description": "Topic 22 of 30: Daily Routine (Vardagsrutiner) – 28 phrases.\n\nYou hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Wake up → Vakna\n• Get up → Stiga upp\n• Brush your teeth → Borsta tänderna\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 22
+      "episode": 22,
+      "bytes": 7624245,
+      "sha256": "225e4e751a0f67754280c4917ac8a40e4cc42710c786b7d61d2fded0d5f74020"
     },
     {
       "id": "repeto:english-swedish:topic-23",
@@ -239,7 +283,9 @@
       "published": "2026-10-30T12:25:55+00:00",
       "description": "Topic 23 of 30: Asking and Requests (Fråga och be om hjälp) – 26 phrases.\n\nYou hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Can you help me? → Kan du hjälpa mig?\n• Help! → Hjälp!\n• Please! → Snälla!\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 23
+      "episode": 23,
+      "bytes": 6480082,
+      "sha256": "a803a8b09af84bd8db6748bd10b353b6f173314058a91e23d7fb630ad841d825"
     },
     {
       "id": "repeto:english-swedish:topic-24",
@@ -249,7 +295,9 @@
       "published": "2026-10-30T12:25:55+00:00",
       "description": "Topic 24 of 30: Opposites (Motsatser) – 28 phrases.\n\nYou hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Big → Stor\n• Small → Liten\n• Long → Lång\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 24
+      "episode": 24,
+      "bytes": 6782266,
+      "sha256": "f87d84d284652596485ce2ef07b74c22b187cfac8cad7ab64f40401f3f3a97a3"
     },
     {
       "id": "repeto:english-swedish:topic-25",
@@ -259,7 +307,9 @@
       "published": "2026-10-30T12:25:55+00:00",
       "description": "Topic 25 of 30: Actions and Verbs (Handlingar och verb) – 41 phrases.\n\nYou hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Walk → Gå\n• Run → Springa\n• Jump → Hoppa\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 25
+      "episode": 25,
+      "bytes": 9905048,
+      "sha256": "6c1a6a18da818a71d3a7aa1f40e42fb1bda5301aaca735c2f6203c6a8033af9a"
     },
     {
       "id": "repeto:english-swedish:topic-26",
@@ -269,7 +319,9 @@
       "published": "2026-10-30T12:25:55+00:00",
       "description": "Topic 26 of 30: Places in Town (Platser i staden) – 23 phrases.\n\nYou hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Park → Park\n• Playground → Lekplats\n• Shop → Affär\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 26
+      "episode": 26,
+      "bytes": 5982292,
+      "sha256": "1461ae48edee5453412646d2721aafa3f27c5d66dd807f24e8f767f6d1110c08"
     },
     {
       "id": "repeto:english-swedish:topic-27",
@@ -279,7 +331,9 @@
       "published": "2026-10-30T12:25:55+00:00",
       "description": "Topic 27 of 30: Technology (Teknik) – 22 phrases.\n\nYou hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Phone → Telefon\n• Mobile phone → Mobiltelefon\n• Computer → Dator\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 27
+      "episode": 27,
+      "bytes": 5767252,
+      "sha256": "2fba5f9c8a510e6727db6823c762041a887f6f1b505673d8b94905adbd1b02e0"
     },
     {
       "id": "repeto:english-swedish:topic-28",
@@ -289,7 +343,9 @@
       "published": "2026-10-30T12:25:55+00:00",
       "description": "Topic 28 of 30: Music and Art (Musik och konst) – 23 phrases.\n\nYou hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Music → Musik\n• Song → Sång\n• Dancing → Dans\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 28
+      "episode": 28,
+      "bytes": 5871951,
+      "sha256": "51cf4ebabe8a2b705dd9605d34390e2c7bcb71c4154562ef9687e978ae2d4914"
     },
     {
       "id": "repeto:english-swedish:topic-29",
@@ -299,7 +355,9 @@
       "published": "2026-10-30T12:25:55+00:00",
       "description": "Topic 29 of 30: Polite Phrases (Artiga fraser) – 17 phrases.\n\nYou hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Please. → Snälla.\n• Thank you! → Tack!\n• Thank you very much! → Tack så mycket!\n\nTip: listen again until you can answer before the recorded voice.",
       "season": 1,
-      "episode": 29
+      "episode": 29,
+      "bytes": 4221221,
+      "sha256": "b5b28e9c6e8cf62b876117f25014e61b328b99a8d44409aa9a9bf90ada0cb8d7"
     },
     {
       "id": "repeto:english-swedish:topic-30",
@@ -322,7 +380,9 @@
       "published": "2026-10-30T12:26:02+00:00",
       "description": "Chapter 1 of 8 in \"The Magical Radio\" (Den magiska radion). Two siblings find an old wooden radio at a flea market. Suddenly it starts to hum, and a golden inscription shows that the radio is meant for them.\n\nHow the episode works:\n1. Listen to the whole chapter in Swedish. You don't need to understand everything.\n2. Practise words and expressions from the chapter: an English prompt, a pause, then the answer in Swedish.\n3. Listen to the chapter again and see how much you can understand.\n\nA chime separates the sections. Listen in order, starting with chapter 1.",
       "season": 2,
-      "episode": 1
+      "episode": 1,
+      "bytes": 7181626,
+      "sha256": "cff780280c3d4cd48536475d289976a31ac41e069a3db1f3b9ac9f4a34d3f3eb"
     },
     {
       "id": "magical_radio:en:sv:chapter-02",
@@ -333,7 +393,9 @@
       "published": "2026-10-30T12:26:02+00:00",
       "description": "Chapter 2 of 8 in \"The Magical Radio\" (Den magiska radion). At home, the children press the blue button. A little cloud smelling of cinnamon floats out of the radio, and a cheerful voice tells them about a mouse with an important key.\n\nHow the episode works:\n1. Listen to the whole chapter in Swedish. You don't need to understand everything.\n2. Practise words and expressions from the chapter: an English prompt, a pause, then the answer in Swedish.\n3. Listen to the chapter again and see how much you can understand.\n\nA chime separates the sections. Listen in order, starting with chapter 1.",
       "season": 2,
-      "episode": 2
+      "episode": 2,
+      "bytes": 6327109,
+      "sha256": "50b8c237407d63fb4ed93607e549d6cbad218dc918c697a0cf64c3931d55cb5d"
     },
     {
       "id": "magical_radio:en:sv:chapter-03",
@@ -344,7 +406,9 @@
       "published": "2026-10-30T12:26:02+00:00",
       "description": "Chapter 3 of 8 in \"The Magical Radio\" (Den magiska radion). With a torch, some cheese and the radio, the siblings head to the old tree. A little mouse agrees to a trade, and a small door is hidden between the roots.\n\nHow the episode works:\n1. Listen to the whole chapter in Swedish. You don't need to understand everything.\n2. Practise words and expressions from the chapter: an English prompt, a pause, then the answer in Swedish.\n3. Listen to the chapter again and see how much you can understand.\n\nA chime separates the sections. Listen in order, starting with chapter 1.",
       "season": 2,
-      "episode": 3
+      "episode": 3,
+      "bytes": 8243661,
+      "sha256": "d144d4be06aa3cca6bf7f53032b83e76be75e1ecfccc93b55a49211adb2c2f2c"
     },
     {
       "id": "magical_radio:en:sv:chapter-04",
@@ -355,7 +419,9 @@
       "published": "2026-10-30T12:26:02+00:00",
       "description": "Chapter 4 of 8 in \"The Magical Radio\" (Den magiska radion). The silver key opens the door. Stone steps lead down to a library full of flying books, with glowing flowers growing on the walls.\n\nHow the episode works:\n1. Listen to the whole chapter in Swedish. You don't need to understand everything.\n2. Practise words and expressions from the chapter: an English prompt, a pause, then the answer in Swedish.\n3. Listen to the chapter again and see how much you can understand.\n\nA chime separates the sections. Listen in order, starting with chapter 1.",
       "season": 2,
-      "episode": 4
+      "episode": 4,
+      "bytes": 6522714,
+      "sha256": "cc2d9a1ca06d62711b5b1484067203d1614b25c26e52bd5ac24287664215532a"
     },
     {
       "id": "magical_radio:en:sv:chapter-05",
@@ -366,7 +432,9 @@
       "published": "2026-10-30T12:26:02+00:00",
       "description": "Chapter 5 of 8 in \"The Magical Radio\" (Den magiska radion). A golden book lands on one of the children's shoulders, and the radio reveals a spell that can mend broken things.\n\nHow the episode works:\n1. Listen to the whole chapter in Swedish. You don't need to understand everything.\n2. Practise words and expressions from the chapter: an English prompt, a pause, then the answer in Swedish.\n3. Listen to the chapter again and see how much you can understand.\n\nA chime separates the sections. Listen in order, starting with chapter 1.",
       "season": 2,
-      "episode": 5
+      "episode": 5,
+      "bytes": 6663148,
+      "sha256": "88a36100d2caa9994551d8c55d044ce87f220db9d9bf4789c1593eeedbf4f5a2"
     },
     {
       "id": "magical_radio:en:sv:chapter-06",
@@ -377,7 +445,9 @@
       "published": "2026-10-30T12:26:02+00:00",
       "description": "Chapter 6 of 8 in \"The Magical Radio\" (Den magiska radion). It's time to try the spell on a broken compass. Will it work? And who is waiting behind the green door?\n\nHow the episode works:\n1. Listen to the whole chapter in Swedish. You don't need to understand everything.\n2. Practise words and expressions from the chapter: an English prompt, a pause, then the answer in Swedish.\n3. Listen to the chapter again and see how much you can understand.\n\nA chime separates the sections. Listen in order, starting with chapter 1.",
       "season": 2,
-      "episode": 6
+      "episode": 6,
+      "bytes": 5236235,
+      "sha256": "d74f4c3aa0905db079e5422b50de7e678a43b21236eb4e5cb4ae361bf5df21b8"
     },
     {
       "id": "magical_radio:en:sv:chapter-07",
@@ -388,7 +458,9 @@
       "published": "2026-10-30T12:26:02+00:00",
       "description": "Chapter 7 of 8 in \"The Magical Radio\" (Den magiska radion). Behind the door lies an underground garden. A golden bird ticks like a clock instead of singing. A stone is missing from its wing, and the radio has a secret.\n\nHow the episode works:\n1. Listen to the whole chapter in Swedish. You don't need to understand everything.\n2. Practise words and expressions from the chapter: an English prompt, a pause, then the answer in Swedish.\n3. Listen to the chapter again and see how much you can understand.\n\nA chime separates the sections. Listen in order, starting with chapter 1.",
       "season": 2,
-      "episode": 7
+      "episode": 7,
+      "bytes": 8564026,
+      "sha256": "9f4ea77fc364a0278afbe724d30539ab613eaf49f0d93423905fd4c11248e266"
     },
     {
       "id": "magical_radio:en:sv:chapter-08",
@@ -399,7 +471,9 @@
       "published": "2026-10-30T12:26:02+00:00",
       "description": "Chapter 8 of 8 in \"The Magical Radio\" (Den magiska radion). The finale! Can the siblings mend the golden bird? The story ends with singing, dancing butterflies and the promise of another adventure.\n\nHow the episode works:\n1. Listen to the whole chapter in Swedish. You don't need to understand everything.\n2. Practise words and expressions from the chapter: an English prompt, a pause, then the answer in Swedish.\n3. Listen to the chapter again and see how much you can understand.\n\nA chime separates the sections. Listen in order, starting with chapter 1.",
       "season": 2,
-      "episode": 8
+      "episode": 8,
+      "bytes": 5424317,
+      "sha256": "7a0a01423626893867a66c236a74a85ce67183823ffc0de958860926d5ee9a0b"
     }
   ],
   "seasons": {
