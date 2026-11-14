@@ -1,21 +1,25 @@
 # Production deployment
 
-Audio is generated locally and published to Cloudflare R2 by GitHub Actions.
-GitHub Pages hosts the website and RSS feeds.
+MP3s supplied in PRs are currently published to Cloudflare R2 by GitHub
+Actions. GitHub Pages hosts the website and RSS feeds.
+
+> **Status:** The workflow below describes the current publisher: it uploads
+> MP3s already present in a PR directly to production R2 when approved with the
+> `publish-audio` label. The audio-production pipeline described next is the
+> intended design, not implemented behavior yet.
 
 ## Publishing flow
 
 ```mermaid
 flowchart TD
-    A["Generate audio locally"] --> B["Commit audio and content to a PR"]
-    B --> C["Maintainer approves the exact PR revision"]
-    C --> D["Trusted Action uploads audio to public R2"]
-    D --> E{"Upload and metadata verified?"}
-    E -- No --> F["Stop and report failure"]
-    E -- Yes --> G["Save size and checksum, rebuild feed.xml, remove uploaded MP3s on PR branch"]
-    G --> H["Maintainer squash-merges the PR"]
-    H --> I["Pages Action builds feeds and website"]
-    I --> J["Deploy feeds and website"]
+    A["PR contains audio and content"] --> B["Maintainer adds publish-audio label"]
+    B --> C["Trusted Action uploads audio to public R2"]
+    C --> D{"Upload verified?"}
+    D -- No --> E["Stop and report failure"]
+    D -- Yes --> F["Save metadata, rebuild feed.xml, remove uploaded MP3s"]
+    F --> G["Maintainer squash-merges the PR"]
+    G --> H["Pages Action builds feeds and website"]
+    H --> I["Deploy feeds and website"]
 ```
 
 The label starts the production upload; there is no private staging. The
@@ -23,11 +27,44 @@ workflow does not merge: a maintainer merges the cleaned PR like any other,
 which deploys the feeds and website. The audio is public on R2 before merge,
 but nothing links to it until the Pages deployment.
 
+## Planned audio-production pipeline
+
+The same `publish-audio` label will authorize paid audio generation for the
+exact PR revision. The trusted workflow will validate the inputs, render the
+audio, and upload it to a **public staging namespace** in R2. It will verify the
+uploaded bytes and provide staging links so a reviewer can listen before
+merging. The staging files will not be linked from the production feed or
+website.
+
+```mermaid
+flowchart TD
+    A["PR with reviewed text and audio settings"] --> B["Maintainer adds publish-audio label"]
+    B --> C["Trusted workflow validates exact PR revision"]
+    C --> D["Generate audio"]
+    D --> E["Upload and verify audio in public staging"]
+    E --> F["Add staging listen links to PR"]
+    F --> G["Reviewer listens and maintainer merges"]
+    G --> H["Promote the exact verified bytes to production R2"]
+    H --> I["Save production metadata and rebuild feed"]
+    I --> J["Pages deploys feed and website"]
+```
+
+The label is the first approval because it authorizes synthesis and its
+associated provider cost. Reviewing and merging the PR is the second approval.
+Promotion must use the exact staged bytes that were reviewed; it must not
+regenerate them. The workflow must bind staging objects to the approved PR
+revision and verify their checksums during promotion.
+
+Staging is intentionally public for simplicity: anyone with a staging URL can
+listen to that audio. Do not put private or confidential material in a PR for
+this pipeline. Staging URLs must remain separate from production enclosures;
+only promotion and merge may switch the production feed to the production
+audio URL.
+
 ## Publishing behavior
 
-- The PR initially contains the locally generated MP3s and associated content
-  and catalog changes. Existing episode IDs and versioned audio filenames are
-  preserved.
+- The PR initially contains MP3s and associated content and catalog changes.
+  Existing episode IDs and versioned audio filenames are preserved.
 - An authorized maintainer approves the exact PR revision for upload. The
   privileged workflow uses trusted workflow code and does not execute code
   supplied by the PR. If the revision changes, it stops and requires a new
