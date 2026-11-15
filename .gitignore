@@ -2,6 +2,8 @@
 __pycache__/
 .audio_cache/
 output/
+# Podcast audio is hosted in R2; local renders must not be committed.
+podcast/*/audio/
 **/.DS_Store
 .env
 .env.*

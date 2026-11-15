@@ -100,11 +100,15 @@ Use the configured project interpreter and existing validators and tests.
    Practice historically uses Swedish `se`; stories and catalogs use `sv`.
    Compare the pre-edit baseline and packaged timing text, not just the git diff.
 5. **Audio:** synthesize only changed clips, reusing unchanged narration and
-   vocabulary clips. Recompose only affected episodes through existing helpers.
-   Keep both story readings consistent; preserve book and chapter introductions,
-   chimes, pauses and narration voice settings.
+   vocabulary clips. For existing published directions use the
+   [PR audio workflow](../../../docs/deploy.md): it reuses verified cache
+   entries, renders affected story chapters, and currently renders practice
+   direction-wide. Review staging before merging. Keep both story readings
+   consistent; preserve introductions, chimes, pauses and narration settings.
 6. **Artifacts:** update timing JSON, build manifest, catalog, RSS and pages
-   together. Editing timing labels alone does not change the recorded speech.
+   consistently. The automated workflow commits catalog, RSS and staging
+   manifest changes, not temporary renders or timing manifests. Editing timing
+   labels alone does not change the recorded speech.
    Preserve episode GUIDs, publication dates and season/episode numbers.
 7. **Verification:** decode changed MP3s; check text, bounds, non-silent segments,
    sample rate, duration, repetitions and pauses. Confirm every enclosure's path

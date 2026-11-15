@@ -130,8 +130,11 @@ Packaging does **not** commit, push, or publish. To use GitHub Pages, configure
 **Settings → Pages → Source: GitHub Actions**, then review the deployment
 workflow before pushing. Submit your published RSS URL to podcast platforms.
 See the [packaging skill](.github/skills/package-podcast/SKILL.md) for details.
-Audio is published to Cloudflare R2 from approved PRs; see
-[docs/deploy.md](docs/deploy.md).
+For existing Repeto courses, approved PRs generate audio into public staging
+for listening; after review and merge, the workflow promotes those exact bytes
+to Cloudflare R2 before deploying feeds. Story changes render affected chapters;
+practice changes currently render affected directions. New course directions
+need separate initial packaging. See [docs/deploy.md](docs/deploy.md).
 
 ## Checks and further reference
 

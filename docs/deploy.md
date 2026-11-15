@@ -20,7 +20,7 @@ flowchart TD
 ```
 
 Opening or updating a PR only reports which existing practice directions and
-story directions are affected. It does not call paid services. The
+story directions and chapters are affected. It does not call paid services. The
 `publish-audio` label is the first approval: it authorizes Azure Speech
 generation for that exact PR revision. After the staged audio is reviewed, the
 maintainer's merge is the second approval. The production deployment promotes
@@ -38,8 +38,12 @@ it uses trusted code and treats PR contents as data, not executable code.
   Story targets include the affected chapter numbers; only those chapters are
   rendered and replaced for each direction. Changes to a complete story source
   file conservatively rebuild all chapters for the affected narration language.
+  Changes to registered narration directions affect the corresponding chapters.
   Practice rendering remains direction-wide. Practice topic-title and
   story-summary-only edits do not trigger TTS.
+- The target report covers existing catalog directions; it does not bootstrap
+  an entirely new course. Follow the local course-creation and packaging
+  instructions for new directions.
 - The label run rechecks the approved PR head and validates all relevant inputs
   before requesting speech. A changed PR needs the label again.
 - Speech clips use the renderers' content-addressed keys. The workflow checks
@@ -55,6 +59,11 @@ it uses trusted code and treats PR contents as data, not executable code.
   MP3s are not added to Git. The feed generated in the PR already uses the
   final production URLs, not staging URLs. Those new production URLs may not
   work until promotion, so use the staging links for review.
+- `podcast/*/audio/` is ignored by Git: local episode files are optional and
+  must not be committed or deployed as Pages assets. Published catalog metadata
+  supplies their production R2 URLs, byte lengths and checksums. As an
+  additional safeguard, the Pages workflow excludes course `audio/`
+  directories when preparing its deployment artifact.
 - On merge, the Pages workflow verifies and promotes each manifest entry to
   its immutable production key before rebuilding and deploying feeds. If
   promotion fails, deployment is blocked and the previous live feed remains
@@ -109,10 +118,11 @@ python code/audio_publish.py check --storage /tmp/r2   # verify saved size and c
    Pages. Keep the public development URL (`r2.dev`) disabled. Configure an R2
    lifecycle rule to expire objects under `staging/` after 90 days; a PR whose
    staged audio expires must be approved and staged again before merge.
-2. Create a separate **private** R2 bucket named `repeto-speech-cache` with no
-   public domain. Create a bucket-scoped Object Read & Write API token for
-   `repeto-stream` and a separate token scoped to `repeto-speech-cache`. Do not
-   apply IP filtering to these GitHub-hosted workflow credentials.
+2. Create a separate **private** R2 bucket in the same R2 account, with no
+   public domain. Repeto uses `repeto-stream-cache`; another name works if
+   `R2_CACHE_BUCKET` matches it exactly. Create a bucket-scoped Object Read &
+   Write API token for `repeto-stream` and a separate token scoped to the cache
+   bucket. Do not apply IP filtering to these GitHub-hosted credentials.
 3. Create the GitHub environment `audio-production`:
    - Deployment branches: selected branches, `main` only. The privileged label
      workflow runs in the context of `main`. No required reviewers or wait
@@ -127,7 +137,7 @@ python code/audio_publish.py check --storage /tmp/r2   # verify saved size and c
      | `R2_BUCKET` | `repeto-stream` |
      | `R2_ACCESS_KEY_ID` | Access Key ID for the production bucket token |
      | `R2_SECRET_ACCESS_KEY` | Secret Access Key for the production bucket token |
-     | `R2_CACHE_BUCKET` | `repeto-speech-cache` |
+     | `R2_CACHE_BUCKET` | `repeto-stream-cache` (or your exact private bucket name) |
      | `R2_CACHE_ACCESS_KEY_ID` | Access Key ID for the private cache token |
      | `R2_CACHE_SECRET_ACCESS_KEY` | Secret Access Key for the private cache token |
 

@@ -59,11 +59,19 @@ Flag meaningful ambiguities rather than silently changing the source.
 Save a content baseline outside tracked course data. Count actual topics,
 chapters and vocabulary entries; never assume that a historical count still
 applies. Resolve high-confidence mistakes and record substantive changes.
-For any shared-text edit, identify and regenerate affected recordings in
-existing courses, including their timing, catalogs and feeds. Updating an
-existing course is a dependency, not a substitute for creating the new course.
+For shared-text edits affecting existing catalog directions, use the approved
+PR audio workflow described in [deployment](../../../docs/deploy.md): inspect
+the inferred targets, authorize generation with `publish-audio`, review staged
+audio and merge only after approval. Story generation selects affected chapters;
+practice generation remains direction-wide. Do not independently commit
+generated MP3s for that workflow. Updating an existing course is a dependency,
+not a substitute for creating the new course.
 
 ## Generate both seasons
+
+The PR workflow only targets existing catalog directions; it does not bootstrap
+an entirely new course. The local creation steps below remain necessary for a
+new direction. Local rendering and packaging do not by themselves publish audio.
 
 1. Render every practice topic with the selected source and target, explicit
    Azure synthesis and double target playback, without a preview duration cap.

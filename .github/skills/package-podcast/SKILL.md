@@ -1,12 +1,20 @@
 ---
 name: package-podcast
-description: Package a completed Repeto audio course as a separate GitHub Pages podcast with an episode catalog, bilingual titles, cover, MP3s, and validated RSS. Use when preparing a generated course for RSS or Spotify.
+description: Package a completed Repeto audio course with an episode catalog, bilingual titles, cover, MP3s, and validated RSS. Use when preparing a generated course for RSS or Spotify.
 ---
 
 # Package a Repeto podcast
 
 Work from the repository root. This skill packages existing recordings; it
 does not synthesize audio or submit shows to Spotify.
+
+For changes to an existing published direction, prefer the approved
+[PR audio workflow](../../../docs/deploy.md): generation packages affected
+audio, stages it for listening, and promotes reviewed bytes to R2 after merge
+before deploying the feed. Its scope is existing catalog directions, not
+bootstrapping a new course. The local packaging instructions below apply to
+new courses and deliberate local packaging; local MP3s are not automatically
+published to R2.
 
 ## Confirm scope
 
@@ -177,16 +185,17 @@ episode GUIDs, and publication dates, and stores the MP3s under
 than copying it, so only one copy exists; the timing JSON stays in the story's
 `generated/audio/` folder and the build manifest records `packaged_audio`.
 Reruns accept already-moved audio and refuse to overwrite different audio.
-When a re-render replaces an episode (new timestamped filename, same GUID and
-publication date), both `story_course.py` and `package_practice.py` delete the
-superseded MP3 once the catalog no longer references it
-(`podcast.remove_superseded_audio`), so each episode exists only once.
+By default, local packaging removes an unreferenced superseded local MP3;
+`--retain-superseded-audio` keeps it. The PR workflow uses that option while
+staging and does not delete old production objects.
 Use a separate feed only when explicitly requested.
 
 ## Publish only when authorized
 
-Commit/push only when requested. A push to `main` triggers the existing Pages
-workflow. After deployment succeeds, fetch the public RSS, cover, and audio
-and check enclosure byte lengths and HTTP availability before reporting it
-live. A separate course feed is added as a separate externally hosted show
-in Spotify for Creators; do not create or delete shows without authorization.
+Commit/push only when requested. For the existing-course PR workflow, review
+the staging links before merge; the Pages workflow promotes verified audio
+before deployment. A push to `main` triggers it only for configured paths.
+After deployment succeeds, fetch the public RSS, cover, and audio and check
+enclosure byte lengths and HTTP availability before reporting it live. A
+separate course feed is added as a separate externally hosted show in Spotify
+for Creators; do not create or delete shows without authorization.
