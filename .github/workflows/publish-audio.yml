@@ -1,22 +1,66 @@
 name: Publish audio
-# Adding the "publish-audio" label to a PR is the single approval: the audio the
-# PR adds is uploaded to R2 and verified, and the MP3s are replaced on the PR
-# branch by their size and checksum in course.json, with feed.xml rebuilt to
-# point to R2.  A maintainer then merges
-# the PR, which deploys the feeds and website.  Running the workflow manually
-# from main migrates already-tracked audio and opens a PR with the metadata.
+# Adding the "publish-audio" label is the single approval to generate and stage
+# audio for the exact PR revision. Merge promotes those reviewed bytes to
+# production.
 on:
   pull_request_target:
-    types: [labeled]
-  workflow_dispatch:
+    types: [opened, synchronize, reopened, ready_for_review, labeled]
 
 permissions: {}
 
 concurrency:
-  group: publish-audio-${{ github.event.pull_request.number || 'migration' }}
+  group: >-
+    publish-audio-${{ github.event.pull_request.number }}-${{ github.event.action == 'labeled' && 'publish' || 'report' }}
   cancel-in-progress: false
 
 jobs:
+  report-targets:
+    if: >-
+      github.event_name == 'pull_request_target'
+      && contains(fromJSON('["opened", "synchronize", "reopened", "ready_for_review"]'), github.event.action)
+      && github.event.pull_request.base.ref == 'main'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+    env:
+      GH_TOKEN: ${{ github.token }}
+      PR: ${{ github.event.pull_request.number }}
+      HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+    steps:
+      - name: Check out trusted code from main
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          path: trusted
+          persist-credentials: false
+
+      - name: Check out PR data without executing it
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ env.HEAD_SHA }}
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
+          path: pr
+          persist-credentials: false
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Report affected audio targets
+        run: |
+          report=$(python trusted/code/audio_targets.py --base trusted --head pr)
+          marker='<!-- repeto-audio-target-report -->'
+          body="$marker"$'\n\n'"$report"
+          comment_id=$(gh api --paginate "repos/$GITHUB_REPOSITORY/issues/$PR/comments" \
+            --jq ".[] | select(.body | contains(\"$marker\")) | .id" | tail -n 1)
+          if [ -n "$comment_id" ]; then
+            gh api "repos/$GITHUB_REPOSITORY/issues/comments/$comment_id" \
+              -X PATCH -f body="$body" >/dev/null
+          else
+            gh pr comment "$PR" --repo "$GITHUB_REPOSITORY" --body "$body"
+          fi
+
   pull-request:
     if: >-
       github.event_name == 'pull_request_target'
@@ -33,7 +77,6 @@ jobs:
       PR: ${{ github.event.pull_request.number }}
       HEAD_SHA: ${{ github.event.pull_request.head.sha }}
       HEAD_REF: ${{ github.event.pull_request.head.ref }}
-      BASE_SHA: ${{ github.event.pull_request.base.sha }}
     steps:
       - name: Consume approval
         run: gh pr edit "$PR" --repo "$GITHUB_REPOSITORY" --remove-label publish-audio
@@ -45,7 +88,7 @@ jobs:
           path: trusted
           persist-credentials: false
 
-      # The PR is only read and committed to; none of its code is executed.
+      # The PR checkout is treated only as data; all executed scripts come from trusted/.
       - name: Check out the approved PR revision
         uses: actions/checkout@v4
         with:
@@ -57,7 +100,8 @@ jobs:
         with:
           python-version: "3.13"
 
-      - run: pip install -r trusted/requirements-publish.txt
+      - run: pip install -r trusted/requirements.txt -r trusted/requirements-publish.txt
+      - run: sudo apt-get update && sudo apt-get install -y ffmpeg
 
       - name: Check the approved revision is still the PR head
         run: |
@@ -67,90 +111,55 @@ jobs:
             exit 1
           fi
 
-      - name: Upload audio to R2, verify it and save size and checksum, rebuild feeds
+      - name: Generate, verify, and stage audio for the approved revision
         working-directory: pr
         env:
+          AZURE_SPEECH_KEY: ${{ secrets.AZURE_SPEECH_KEY }}
+          AZURE_SPEECH_REGION: ${{ secrets.AZURE_SPEECH_REGION }}
           R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
           R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
           R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
           R2_BUCKET: ${{ secrets.R2_BUCKET }}
+          R2_CACHE_BUCKET: ${{ secrets.R2_CACHE_BUCKET }}
+          R2_CACHE_ACCESS_KEY_ID: ${{ secrets.R2_CACHE_ACCESS_KEY_ID }}
+          R2_CACHE_SECRET_ACCESS_KEY: ${{ secrets.R2_CACHE_SECRET_ACCESS_KEY }}
         run: |
-          mapfile -d '' paths < <(git diff --no-renames --name-only -z --diff-filter=AM \
-            "$BASE_SHA...$HEAD_SHA" -- ':(glob)podcast/*/audio/**')
-          if [ "${#paths[@]}" -eq 0 ]; then
-            echo "::error::The PR adds or changes no audio under podcast/*/audio/."
-            exit 1
-          fi
-          python ../trusted/code/audio_publish.py publish --root podcast --storage r2 \
-            --require-audio --remove-local -- "${paths[@]}"
+          python ../trusted/code/audio_targets.py \
+            --base ../trusted --head . --json > "$RUNNER_TEMP/audio-targets.json"
+          python ../trusted/code/audio_pipeline.py \
+            --root . \
+            --targets "$RUNNER_TEMP/audio-targets.json" \
+            --pull-request "$PR" \
+            --approved-sha "$HEAD_SHA" \
+            --report-dir "$RUNNER_TEMP/audio-report"
 
-      - name: Replace MP3s with metadata on the PR branch
+      - name: Commit staging manifest and audio metadata to the PR branch
         working-directory: pr
         run: |
-          git add -A -- podcast
-          unexpected=$(git diff --cached --name-status \
-            | grep -Ev $'^(M\tpodcast/[^/]+/(course\\.json|feed\\.xml)|D\tpodcast/[^/]+/audio/.+\\.mp3)$' || true)
+          current=$(gh pr view "$PR" --repo "$GITHUB_REPOSITORY" --json headRefOid --jq .headRefOid)
+          if [ "$current" != "$HEAD_SHA" ]; then
+            echo "::error::The PR changed during audio generation ($current). Re-add the label to approve it."
+            exit 1
+          fi
+          git add -A -- podcast .audio-staging
+          unexpected=$(git diff --cached --name-status | grep -Ev \
+            $'^(M\tpodcast/[^/]+/(course\\.json|feed\\.xml|index\\.html)|[AM]\t\\.audio-staging/pr-[0-9]+-[0-9a-f]{40}\\.json|D\t\\.audio-staging/pr-[0-9]+-[0-9a-f]{40}\\.json)$' || true)
           if [ -n "$unexpected" ]; then
             echo "::error::Unexpected changes: $unexpected"
             exit 1
           fi
           git -c user.name="github-actions[bot]" \
             -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
-            commit -m "Publish audio to R2"
-          # A plain push is rejected if the branch moved after approval.
+            commit -m "Stage reviewed audio for production" \
+            -m "Co-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>"
           git push origin "HEAD:refs/heads/$HEAD_REF"
-          gh pr comment "$PR" --repo "$GITHUB_REPOSITORY" --body \
-            "Audio published to R2 and verified. MP3s replaced by size and checksum in course.json; feed.xml now points to R2. Ready to merge."
+          for report in "$RUNNER_TEMP"/audio-report/*.md; do
+            gh pr comment "$PR" --repo "$GITHUB_REPOSITORY" --body-file "$report"
+          done
 
       - name: Report failure
         if: failure()
         run: >-
           gh pr comment "$PR" --repo "$GITHUB_REPOSITORY" --body
-          "Audio publishing failed: $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID
+          "Audio generation or staging failed: $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID
           — fix the problem and add the \`publish-audio\` label again. Uploads are safe to retry."
-
-  migration:
-    if: github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/main'
-    runs-on: ubuntu-latest
-    environment: audio-production
-    permissions:
-      contents: write
-      pull-requests: write
-    env:
-      GH_TOKEN: ${{ github.token }}
-    steps:
-      - uses: actions/checkout@v4
-
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.13"
-
-      - run: pip install -r requirements-publish.txt
-
-      - name: Upload tracked audio to R2, verify it and save size and checksum, rebuild feeds
-        env:
-          R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
-          R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
-          R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
-          R2_BUCKET: ${{ secrets.R2_BUCKET }}
-        run: python code/audio_publish.py publish --root podcast --storage r2
-
-      - name: Open a PR with the metadata
-        run: |
-          if git diff --quiet; then
-            echo "All tracked audio is already published."
-            exit 0
-          fi
-          unexpected=$(git diff --name-only | grep -Ev '^podcast/[^/]+/(course\.json|feed\.xml)$' || true)
-          if [ -n "$unexpected" ]; then
-            echo "::error::Unexpected changes: $unexpected"
-            exit 1
-          fi
-          branch="audio-migration/$GITHUB_RUN_ID"
-          git switch -c "$branch"
-          git -c user.name="github-actions[bot]" \
-            -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
-            commit -am "Save size and checksum of audio migrated to R2"
-          git push origin "$branch"
-          gh pr create --base main --head "$branch" --title "Save size and checksum of audio migrated to R2" \
-            --body "Audio was uploaded to R2 and verified by run $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID. Feeds are rebuilt with R2 enclosures and take effect on merge; the MP3s stay in Git so existing URLs keep working."

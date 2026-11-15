@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 import argparse
 import asyncio
 import hashlib
@@ -11,13 +13,16 @@ import tempfile
 from datetime import datetime
 from pathlib import Path
 from types import ModuleType
-from typing import Literal, TypedDict
+from typing import TYPE_CHECKING, Literal, TypedDict
 
 import edge_tts
 from edge_tts.exceptions import NoAudioReceived
 from pydub import AudioSegment
 from pydub.effects import compress_dynamic_range
 from pydub.silence import detect_nonsilent
+
+if TYPE_CHECKING:
+    from speech_cache import SpeechCache
 
 ROOT = Path(__file__).resolve().parent.parent
 Language = Literal["se", "en", "pl", "ru", "es", "de", "fr"]
@@ -49,6 +54,24 @@ MAX_LOUDNESS_SHORTFALL_DB = 3.0
 TTS_ATTEMPTS = 3
 AZURE_ATTEMPTS = 6
 LOGGER = logging.getLogger(__name__)
+
+
+async def _fetch_cached_clip(path: Path, speech_cache: SpeechCache) -> bool:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    if not await asyncio.to_thread(speech_cache.fetch, path.name, path):
+        return False
+    if not path.is_file() or path.stat().st_size == 0:
+        raise RuntimeError(f"Speech cache hit did not materialize a clip: {path}")
+    return True
+
+
+async def _store_generated_clip(path: Path, speech_cache: SpeechCache) -> None:
+    if not path.is_file() or path.stat().st_size == 0:
+        raise RuntimeError(f"Synthesized speech clip is missing or empty: {path}")
+    audio = AudioSegment.from_file(path, format="mp3")
+    if len(audio) == 0 or audio.rms == 0:
+        raise RuntimeError(f"Synthesized speech clip is empty or silent: {path}")
+    await asyncio.to_thread(speech_cache.store, path.name, path)
 
 
 class RequiredEntry(TypedDict):
@@ -230,14 +253,19 @@ async def generate_clip(
     rate: str | None = None,
     pitch: str = "+0Hz",
     engine: Engine = "edge",
+    speech_cache: SpeechCache | None = None,
 ) -> None:
     if out_path.is_file() and out_path.stat().st_size > 0:
         return
     out_path.parent.mkdir(parents=True, exist_ok=True)
+    if speech_cache is not None and await _fetch_cached_clip(out_path, speech_cache):
+        return
     if engine == "azure":
         await generate_azure_clip(
             text, voice or VOICES[lang], rate or RATES[lang], pitch, out_path
         )
+        if speech_cache is not None:
+            await _store_generated_clip(out_path, speech_cache)
         return
     if engine != "edge":
         raise ValueError(f"Unsupported TTS engine: {engine!r}")
@@ -255,6 +283,8 @@ async def generate_clip(
                 if not pending.is_file() or pending.stat().st_size == 0:
                     raise NoAudioReceived("TTS returned an empty audio file.")
                 pending.replace(out_path)
+            if speech_cache is not None:
+                await _store_generated_clip(out_path, speech_cache)
             return
         except NoAudioReceived as error:
             if attempt == TTS_ATTEMPTS:
@@ -403,6 +433,8 @@ async def build_audio_tracks(
     targets: tuple[Language, ...] | None = None,
     double_output: bool = False,
     engine: Engine = "azure",
+    speech_cache: SpeechCache | None = None,
+    validate_only: bool = False,
 ) -> None:
     if engine not in ENGINES:
         raise ValueError(f"Unsupported TTS engine: {engine!r}")
@@ -437,6 +469,8 @@ async def build_audio_tracks(
         raise RuntimeError(
             "Install ffmpeg and ffprobe before rendering (macOS: brew install ffmpeg)."
         )
+    if validate_only:
+        return
     output.mkdir(parents=True, exist_ok=True)
     cache.mkdir(parents=True, exist_ok=True)
     recorded_at = datetime.now().astimezone()
@@ -468,7 +502,12 @@ async def build_audio_tracks(
             for lang in selected_languages:
                 text = entry_text(item, lang)
                 path = clip_path(text, lang, cache, engine=engine)
-                await generate_clip(text, lang, path, engine=engine)
+                if speech_cache is None:
+                    await generate_clip(text, lang, path, engine=engine)
+                else:
+                    await generate_clip(
+                        text, lang, path, engine=engine, speech_cache=speech_cache,
+                    )
                 audio = AudioSegment.from_file(str(path), format="mp3")
                 clips[lang] = prepare_clip(audio, str(path))
             candidates: dict[Language, tuple[AudioSegment, TimedEntry]] = {
@@ -512,6 +551,16 @@ def main() -> None:
     )
     parser.add_argument("--output", type=Path, default=ROOT / "output")
     parser.add_argument("--cache", type=Path, default=ROOT / ".audio_cache")
+    parser.add_argument(
+        "--r2-cache",
+        action="store_true",
+        help="Use the private R2 speech-clip cache (requires R2 cache credentials).",
+    )
+    parser.add_argument(
+        "--validate-only",
+        action="store_true",
+        help="Validate the selected languages and transcript without generating audio.",
+    )
     parser.add_argument("--topic", help="Render only this exact topic title.")
     parser.add_argument(
         "--double-output", action="store_true",
@@ -541,10 +590,17 @@ def main() -> None:
         for topic, entries in load_topics(args.transcript).items():
             print(f"{topic}: {len(entries)} entries")
         return
+    speech_cache = None
+    if args.r2_cache and not args.validate_only:
+        from r2_speech_cache import R2SpeechCache
+
+        speech_cache = R2SpeechCache.from_environment()
     asyncio.run(build_audio_tracks(
         args.transcript, args.output, args.cache, args.topic, args.max_duration,
         source=args.source, targets=tuple(args.target) if args.target is not None else None,
         double_output=args.double_output, engine=args.tts_engine,
+        speech_cache=speech_cache,
+        validate_only=args.validate_only,
     ))
 
 

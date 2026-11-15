@@ -42,10 +42,21 @@ class ClientError(Exception):
 class FakeBody:
     def __init__(self, data: bytes) -> None:
         self.data = data
+        self.offset = 0
 
     def iter_chunks(self, size: int):
         for start in range(0, len(self.data), size):
             yield self.data[start:start + size]
+
+    def read(self, size: int = -1) -> bytes:
+        if size < 0:
+            size = len(self.data) - self.offset
+        chunk = self.data[self.offset:self.offset + size]
+        self.offset += len(chunk)
+        return chunk
+
+    def close(self) -> None:
+        pass
 
 
 class FakeR2Client:
@@ -63,6 +74,9 @@ class FakeR2Client:
         if kwargs.get("IfNoneMatch") == "*" and kwargs["Key"] in self.objects:
             raise ClientError("PreconditionFailed")
         self.objects[kwargs["Key"]] = kwargs["Body"].read()
+
+    def delete_object(self, Bucket: str, Key: str) -> None:
+        self.objects.pop(Key, None)
 
 
 class AudioPublishTests(unittest.TestCase):
@@ -218,6 +232,18 @@ class AudioPublishTests(unittest.TestCase):
         self.assertFalse(storage.put_new(key, self.second, "unused"))
         self.assertEqual(client.objects[key], b"first audio")
         self.assertIsNone(storage.digest("absent.mp3"))
+
+    def test_r2_storage_downloads_and_deletes_objects(self):
+        client = FakeR2Client()
+        client.objects["staging/pr-1/audio.mp3"] = b"staged audio"
+        storage = audio_publish.R2Storage(client, "repeto-audio")
+        destination = Path(self.temp.name) / "download" / "audio.mp3"
+
+        self.assertTrue(storage.download("staging/pr-1/audio.mp3", destination))
+        self.assertEqual(destination.read_bytes(), b"staged audio")
+        self.assertFalse(storage.download("missing.mp3", destination))
+        storage.delete("staging/pr-1/audio.mp3")
+        self.assertNotIn("staging/pr-1/audio.mp3", client.objects)
 
     def test_r2_settings_are_required(self):
         with unittest.mock.patch.dict("os.environ", {}, clear=True):

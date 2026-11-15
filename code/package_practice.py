@@ -201,13 +201,15 @@ def package(args: argparse.Namespace) -> dict[str, Any]:
         previous[episode["id"]]["file"] for _, _, episode in practice_episodes
         if episode["id"] in previous
     ]
-    for path in _podcast_builder().remove_superseded_audio(course, superseded):
-        print(f"Removed superseded audio: {path.relative_to(course)}", flush=True)
-    subprocess.run(
-        [sys.executable, str(ROOT / "code" / "podcast.py"),
-         "--root", str(args.podcast_root.resolve()), "--base-url", args.podcast_base_url],
-        cwd=ROOT, check=True,
-    )
+    if not getattr(args, "retain_superseded_audio", False):
+        for path in _podcast_builder().remove_superseded_audio(course, superseded):
+            print(f"Removed superseded audio: {path.relative_to(course)}", flush=True)
+    if not getattr(args, "skip_site_build", False):
+        subprocess.run(
+            [sys.executable, str(ROOT / "code" / "podcast.py"),
+             "--root", str(args.podcast_root.resolve()), "--base-url", args.podcast_base_url],
+            cwd=ROOT, check=True,
+        )
     return catalog
 
 
@@ -229,6 +231,16 @@ def create_parser() -> argparse.ArgumentParser:
     )
     parser.add_argument("--author", default="Repeto.stream")
     parser.add_argument("--email", default="repeto.stream@gmail.com")
+    parser.add_argument(
+        "--retain-superseded-audio",
+        action="store_true",
+        help="Keep old versioned MP3s on disk after replacing their catalog entries.",
+    )
+    parser.add_argument(
+        "--skip-site-build",
+        action="store_true",
+        help="Do not rebuild the complete podcast website after packaging.",
+    )
     return parser
 
 

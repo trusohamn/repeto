@@ -17,6 +17,7 @@ import importlib.util
 import json
 import os
 import sys
+import tempfile
 from collections.abc import Iterable, Iterator
 from dataclasses import dataclass
 from pathlib import Path
@@ -51,6 +52,14 @@ class Storage(Protocol):
 
     def put_new(self, key: str, path: Path, sha256: str) -> bool:
         """Store a file only if the key is absent; return False if it already exists."""
+        ...
+
+    def download(self, key: str, destination: Path) -> bool:
+        """Download a stored object to a local path; return False if it is absent."""
+        ...
+
+    def delete(self, key: str) -> None:
+        """Delete a stored object if present."""
         ...
 
 
@@ -99,6 +108,28 @@ class DirectoryStorage:
             return False
         return True
 
+    def download(self, key: str, destination: Path) -> bool:
+        source = self._path(key)
+        if not source.is_file():
+            return False
+        destination.parent.mkdir(parents=True, exist_ok=True)
+        temporary: Path | None = None
+        try:
+            with tempfile.NamedTemporaryFile(
+                mode="wb", dir=destination.parent, prefix=f".{destination.name}.", delete=False
+            ) as output:
+                temporary = Path(output.name)
+                for chunk in _read_file(source):
+                    output.write(chunk)
+            temporary.replace(destination)
+            return True
+        finally:
+            if temporary is not None:
+                temporary.unlink(missing_ok=True)
+
+    def delete(self, key: str) -> None:
+        self._path(key).unlink(missing_ok=True)
+
 
 class R2Storage:
     def __init__(self, client: Any, bucket: str) -> None:
@@ -140,7 +171,11 @@ class R2Storage:
             if self._error_code(error) in {"NoSuchKey", "404", "NotFound"}:
                 return None
             raise
-        return _hash_chunks(response["Body"].iter_chunks(CHUNK))
+        body = response["Body"]
+        try:
+            return _hash_chunks(body.iter_chunks(CHUNK))
+        finally:
+            body.close()
 
     def put_new(self, key: str, path: Path, sha256: str) -> bool:
         try:
@@ -155,6 +190,33 @@ class R2Storage:
                 return False
             raise
         return True
+
+    def download(self, key: str, destination: Path) -> bool:
+        try:
+            response = self.client.get_object(Bucket=self.bucket, Key=key)
+        except Exception as error:
+            if self._error_code(error) in {"NoSuchKey", "404", "NotFound"}:
+                return False
+            raise
+        body = response["Body"]
+        destination.parent.mkdir(parents=True, exist_ok=True)
+        temporary: Path | None = None
+        try:
+            with tempfile.NamedTemporaryFile(
+                mode="wb", dir=destination.parent, prefix=f".{destination.name}.", delete=False
+            ) as output:
+                temporary = Path(output.name)
+                for chunk in body.iter_chunks(CHUNK):
+                    output.write(chunk)
+            temporary.replace(destination)
+            return True
+        finally:
+            body.close()
+            if temporary is not None:
+                temporary.unlink(missing_ok=True)
+
+    def delete(self, key: str) -> None:
+        self.client.delete_object(Bucket=self.bucket, Key=key)
 
 
 @dataclass(frozen=True)
