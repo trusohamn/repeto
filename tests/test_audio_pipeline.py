@@ -114,6 +114,25 @@ class AudioPipelineTests(unittest.TestCase):
     def tearDown(self) -> None:
         self.temp.cleanup()
 
+    def test_preflight_accepts_fingerprinted_course_cover(self) -> None:
+        cover = self.root / "podcast/english-polish/cover.jpeg"
+        cover.rename(cover.with_name("cover-12345678.jpeg"))
+        audio_pipeline._catalog_target(
+            audio_pipeline.AudioTarget("practice", "english-polish", "en", "pl"),
+            self.root,
+        )
+
+    def test_preflight_rejects_symlinked_fingerprinted_cover(self) -> None:
+        cover = self.root / "podcast/english-polish/cover.jpeg"
+        external = self.root / "outside.jpeg"
+        cover.rename(external)
+        cover.with_name("cover-12345678.jpeg").symlink_to(external)
+        with self.assertRaisesRegex(audio_pipeline.StagingError, "must not be a symlink"):
+            audio_pipeline._catalog_target(
+                audio_pipeline.AudioTarget("practice", "english-polish", "en", "pl"),
+                self.root,
+            )
+
     def test_stages_audio_and_commits_only_metadata_manifest(self) -> None:
         audio_bytes = b"generated practice audio"
         storage = FakeStorage()

@@ -103,9 +103,12 @@ def _catalog_target(target: AudioTarget, root: Path) -> None:
         for episode in catalog["episodes"]
     ):
         raise PipelineError(f"No matching episodes found in {catalog_path}")
-    cover = safe_input_path(root, f"podcast/{target.course}/cover.jpeg")
+    cover_name = f"podcast/{target.course}/cover.jpeg"
+    safe_input_path(root, cover_name, optional=True)
+    cover = audio_publish.podcast.find_image(root / cover_name)
     if cover is None:
-        raise PipelineError(f"Missing course cover: {cover}")
+        raise PipelineError(f"Missing course cover: {root / cover_name}")
+    safe_input_path(root, cover.relative_to(root).as_posix())
     if target.kind == "practice":
         topic_titles = safe_input_path(root, "courses/practice/topics.json")
         assert topic_titles is not None
