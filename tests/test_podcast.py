@@ -1,3 +1,4 @@
+import hashlib
 import importlib.util
 import json
 import re
@@ -254,6 +255,8 @@ class PodcastTests(unittest.TestCase):
                 audio = course / "audio" / episode["file"]
                 audio.parent.mkdir(parents=True, exist_ok=True)
                 audio.write_bytes(b"audio")
+                episode["bytes"] = len(b"audio")
+                episode["sha256"] = hashlib.sha256(b"audio").hexdigest()
             image_path = "images/stories/test story/cover.jpeg"
             image = course / image_path
             image.parent.mkdir(parents=True)
@@ -329,12 +332,18 @@ class PodcastTests(unittest.TestCase):
             course = Path(directory) / "swedish-polish"
             (course / "audio" / "practice").mkdir(parents=True)
             (course / "cover.jpeg").write_bytes(b"cover")
-            for episode in config["episodes"]:
+            for index, episode in enumerate(config["episodes"]):
                 if not episode["file"].startswith("practice/"):
                     episode["file"] = "practice/" + episode["file"]
                 audio = course / "audio" / episode["file"]
                 audio.parent.mkdir(parents=True, exist_ok=True)
                 audio.write_bytes(b"audio")
+                if index == 0:
+                    episode["bytes"] = len(b"audio")
+                    episode["sha256"] = hashlib.sha256(b"audio").hexdigest()
+                else:
+                    episode.pop("bytes", None)
+                    episode.pop("sha256", None)
             catalog = course / "course.json"
             catalog.write_text(json.dumps(config))
             podcast.build_feed(course, "https://example.com/repeto")
@@ -358,6 +367,12 @@ class PodcastTests(unittest.TestCase):
             self.assertEqual(enclosure.get("length"), "5")
             self.assertEqual(enclosure.get("type"), "audio/mpeg")
             self.assertTrue(enclosure.get("url", "").startswith(
+                "https://audio.repeto.stream/swedish-polish/audio/practice/"
+            ))
+            local_enclosure = items[1].find("enclosure")
+            assert local_enclosure is not None
+            self.assertEqual(local_enclosure.get("length"), "5")
+            self.assertTrue(local_enclosure.get("url", "").startswith(
                 "https://example.com/repeto/swedish-polish/audio/practice/"
             ))
             podcast.build_feed(course, "https://repeto.stream")
