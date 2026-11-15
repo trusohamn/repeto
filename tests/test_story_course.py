@@ -1,5 +1,6 @@
 import asyncio
 import argparse
+import hashlib
 import importlib.util
 import json
 import tempfile
@@ -559,6 +560,8 @@ class StoryCourseTests(unittest.TestCase):
                 audio = audio_dir / episode["file"]
                 audio.parent.mkdir(parents=True, exist_ok=True)
                 audio.write_bytes(b"existing audio")
+                episode["bytes"] = len(b"existing audio")
+                episode["sha256"] = hashlib.sha256(b"existing audio").hexdigest()
             catalog_path = course / "course.json"
             catalog_path.write_text(json.dumps(catalog_data), encoding="utf-8")
             audio_source_dir = root / "render"
