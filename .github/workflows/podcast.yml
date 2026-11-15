@@ -52,9 +52,13 @@ jobs:
           pip install "jinja2>=3.1,<4"
           python -m unittest discover -s tests -p test_podcast.py -v
           python code/podcast.py
+      - name: Prepare Pages without episode audio
+        run: |
+          mkdir -p "$RUNNER_TEMP/podcast-pages"
+          rsync -a --exclude='/*/audio/' podcast/ "$RUNNER_TEMP/podcast-pages/"
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: podcast
+          path: ${{ runner.temp }}/podcast-pages
       - uses: actions/deploy-pages@v4
         id: deployment
