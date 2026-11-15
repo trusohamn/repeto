@@ -2,10 +2,12 @@ import asyncio
 import argparse
 import hashlib
 import importlib.util
+import io
 import json
 import tempfile
 import unittest
 import xml.etree.ElementTree as ET
+from contextlib import redirect_stdout
 from pathlib import Path
 from unittest.mock import AsyncMock, patch
 
@@ -55,6 +57,106 @@ STORY_COVER_HASH = "41b6d295"
 EXISTING_COVER_HASH = "7be87c5d"
 
 class StoryCourseTests(unittest.TestCase):
+    def test_selective_render_only_synthesizes_selected_chapter_and_languages(self):
+        story = mini_story()
+        second = json.loads(json.dumps(story["chapters"][0]))
+        second["chapter_number"] = 2
+        second["titles"]["en"] = "Second chapter"
+        second["vocabulary"][0]["text"]["en"] = "selected word"
+        story["chapters"].append(second)
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            args = story_course.create_parser().parse_args([
+                "--transcript", str(root / "transcript.json"),
+                "--source-text", str(root / "pl.txt"),
+                "--output", str(root / "audio"), "--cache", str(root / "cache"),
+                "--build-manifest", str(root / "manifest.json"),
+                "--source-language", "en", "--target", "sv",
+                "--narration-engine", "edge", "--tts-engine", "edge",
+                "--chapter", "2", "--format", "wav",
+            ])
+            old = {"audio_file": "old-chapter.wav"}
+            args.build_manifest.write_text(json.dumps({
+                "story_id": "test_story",
+                "chapters": {"1": {"targets": {"sv": old}}},
+            }), encoding="utf-8")
+            output = io.StringIO()
+            with patch.object(story_course, "load_transcript", return_value=story), patch.object(
+                story_course, "_clip", new_callable=AsyncMock, return_value=tone()
+            ) as clip, redirect_stdout(output):
+                result = asyncio.run(story_course.render_story(args))
+            self.assertEqual(result["chapters"]["1"]["targets"]["sv"], old)
+            self.assertIn("audio_file", result["chapters"]["2"]["targets"]["sv"])
+            self.assertEqual({call.args[1] for call in clip.await_args_list}, {"en", "sv"})
+            self.assertEqual(clip.await_count, 4)
+            self.assertIn("chapter 2 (en -> sv): Second chapter", output.getvalue())
+            self.assertNotIn("Rendering chapter 1", output.getvalue())
+            self.assertNotIn("Kot", output.getvalue())
+
+    def test_invalid_chapter_selection_is_rejected(self):
+        for selection in ([0], [1, 1], [3]):
+            with self.subTest(selection=selection):
+                with self.assertRaises(ValueError):
+                    story_course._selected_chapters(mini_story(), argparse.Namespace(chapter=selection))
+
+    def test_selective_packaging_preserves_other_episode(self):
+        story = mini_story()
+        second = json.loads(json.dumps(story["chapters"][0]))
+        second["chapter_number"] = 2
+        story["chapters"].append(second)
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            course = root / "podcast" / "english-swedish"
+            course.mkdir(parents=True)
+            (course / "cover.jpeg").write_bytes(b"cover")
+            story_root = root / "story"
+            story_root.mkdir()
+            (story_root / "cover.jpeg").write_bytes(b"story cover")
+            old_episode = {
+                "id": "test_story:en:sv:chapter-01", "file": "stories/test_story/old.mp3",
+                "season": 1, "episode": 1, "published": "2025-01-01T00:00:00+00:00",
+                "bytes": 3, "sha256": hashlib.sha256(b"old").hexdigest(),
+            }
+            other_episode = {
+                "id": "test_story:en:sv:chapter-02", "file": "stories/test_story/old2.mp3",
+                "season": 1, "episode": 2, "published": "2025-01-02T00:00:00+00:00",
+            }
+            catalog = {
+                "language": "en", "source_language": "en", "target_language": "sv",
+                "title": "Test", "author": "Repeto", "email": "test@example.com",
+                "episodes": [old_episode, other_episode],
+            }
+            (course / "course.json").write_text(json.dumps(catalog), encoding="utf-8")
+            output = root / "output"
+            output.mkdir()
+            (output / "new.mp3").write_bytes(b"new")
+            args = argparse.Namespace(
+                podcast_course="english-swedish", source_language="en",
+                transcript=story_root / "generated/transcript.json", cover=None,
+                email="test@example.com", podcast_root=root / "podcast",
+                podcast_base_url="https://example.com", author="Repeto", output=output,
+                chapter=[2], retain_superseded_audio=True, skip_site_build=True,
+            )
+            build = {
+                "settings": {"target_languages": ["sv"]},
+                "chapters": {"2": {"targets": {"sv": {
+                    "audio_file": "new.mp3", "total_duration_ms": 1000,
+                }}}},
+            }
+            builder = story_course._podcast_builder()
+            copy = story_course._load_module("descriptions")
+            with patch.object(builder, "build_feed"), patch.object(
+                story_course, "_podcast_builder", return_value=builder
+            ), patch.object(story_course, "_load_module", return_value=copy), patch.object(
+                copy, "refresh_course", return_value=catalog
+            ):
+                story_course.package_podcasts(args, story, build)
+            episodes = json.loads((course / "course.json").read_text(encoding="utf-8"))["episodes"]
+            self.assertEqual(episodes[0], old_episode)
+            self.assertEqual(episodes[1]["file"], "stories/test_story/new.mp3")
+            self.assertEqual(episodes[1]["published"], other_episode["published"])
+            self.assertEqual((course / "audio/stories/test_story/new.mp3").read_bytes(), b"new")
+
     def test_azure_is_default_and_practice_stays_on_edge_for_all_languages(self):
         azure = story_course._azure()
         self.assertEqual(story_course.create_parser().parse_args([]).narration_engine, "azure")

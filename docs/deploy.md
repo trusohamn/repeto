@@ -35,7 +35,11 @@ it uses trusted code and treats PR contents as data, not executable code.
 
 - The PR report compares the base and proposed JSON by stable entry and chapter
   IDs, then lists existing catalog directions affected by spoken-text changes.
-  Practice topic-title and story-summary-only edits do not trigger TTS.
+  Story targets include the affected chapter numbers; only those chapters are
+  rendered and replaced for each direction. Changes to a complete story source
+  file conservatively rebuild all chapters for the affected narration language.
+  Practice rendering remains direction-wide. Practice topic-title and
+  story-summary-only edits do not trigger TTS.
 - The label run rechecks the approved PR head and validates all relevant inputs
   before requesting speech. A changed PR needs the label again.
 - Speech clips use the renderers' content-addressed keys. The workflow checks

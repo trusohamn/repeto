@@ -116,7 +116,7 @@ class AudioTargetTests(unittest.TestCase):
         self.assertEqual(
             infer_audio_targets(self.base, self.head),
             [
-                AudioTarget("story", "polish-english", "pl", "en", "magical_radio"),
+                AudioTarget("story", "polish-english", "pl", "en", "magical_radio", (1,)),
             ],
         )
 
@@ -129,9 +129,9 @@ class AudioTargetTests(unittest.TestCase):
         self.assertEqual(
             infer_audio_targets(self.base, self.head),
             [
-                AudioTarget("story", "english-polish", "en", "pl", "magical_radio"),
-                AudioTarget("story", "english-swedish", "en", "sv", "magical_radio"),
-                AudioTarget("story", "polish-english", "pl", "en", "magical_radio"),
+                AudioTarget("story", "english-polish", "en", "pl", "magical_radio", (1,)),
+                AudioTarget("story", "english-swedish", "en", "sv", "magical_radio", (1,)),
+                AudioTarget("story", "polish-english", "pl", "en", "magical_radio", (1,)),
             ],
         )
 
@@ -142,9 +142,79 @@ class AudioTargetTests(unittest.TestCase):
         self.assertEqual(
             infer_audio_targets(self.base, self.head),
             [
-                AudioTarget("story", "english-polish", "en", "pl", "magical_radio"),
+                AudioTarget("story", "english-polish", "en", "pl", "magical_radio", (1,)),
             ],
         )
+
+    def test_story_changes_are_scoped_per_chapter_and_language(self) -> None:
+        for root in (self.base, self.head):
+            story_path = root / "courses/stories/magical_radio/generated/transcript.json"
+            story = json.loads(story_path.read_text(encoding="utf-8"))
+            second = json.loads(json.dumps(story["chapters"][0]))
+            second["chapter_number"] = 2
+            story["chapters"].append(second)
+            self._write(story_path, story)
+        story_path = self.head / "courses/stories/magical_radio/generated/transcript.json"
+        story = json.loads(story_path.read_text(encoding="utf-8"))
+        story["chapters"][1]["vocabulary"][0]["text"]["en"] = "home"
+        story["chapters"][0]["chapter_text"]["pl"] = "Zmiana."
+        self._write(story_path, story)
+
+        targets = infer_audio_targets(self.base, self.head)
+
+        self.assertEqual(targets, [
+            AudioTarget("story", "english-polish", "en", "pl", "magical_radio", (1, 2)),
+            AudioTarget("story", "english-swedish", "en", "sv", "magical_radio", (2,)),
+            AudioTarget("story", "polish-english", "pl", "en", "magical_radio", (2,)),
+        ])
+        self.assertIn("chapters 1, 2", render_report(targets))
+
+    def test_narration_directions_change_triggers_only_its_chapter(self) -> None:
+        directions = self.head / "courses/stories/magical_radio/generated/narration.json"
+        self._write(directions, {"pl": {"1": [{"text": "Tekst."}]}})
+        self.assertEqual(infer_audio_targets(self.base, self.head), [
+            AudioTarget("story", "english-polish", "en", "pl", "magical_radio", (1,))
+        ])
+
+    def test_story_title_change_only_affects_first_chapter(self) -> None:
+        for root in (self.base, self.head):
+            story_path = root / "courses/stories/magical_radio/generated/transcript.json"
+            story = json.loads(story_path.read_text(encoding="utf-8"))
+            second = json.loads(json.dumps(story["chapters"][0]))
+            second["chapter_number"] = 2
+            story["chapters"].append(second)
+            self._write(story_path, story)
+        story_path = self.head / "courses/stories/magical_radio/generated/transcript.json"
+        story = json.loads(story_path.read_text(encoding="utf-8"))
+        story["titles"]["en"] = "A new title"
+        self._write(story_path, story)
+        self.assertEqual(infer_audio_targets(self.base, self.head), [
+            AudioTarget("story", "polish-english", "pl", "en", "magical_radio", (1,))
+        ])
+
+    def test_vocabulary_reordering_changes_the_chapter(self) -> None:
+        for root in (self.base, self.head):
+            story_path = root / "courses/stories/magical_radio/generated/transcript.json"
+            story = json.loads(story_path.read_text(encoding="utf-8"))
+            story["chapters"][0]["vocabulary"].append(
+                {"id": "word-2", "text": {"pl": "kot", "en": "cat"}}
+            )
+            if root == self.head:
+                story["chapters"][0]["vocabulary"].reverse()
+            self._write(story_path, story)
+        self.assertEqual(infer_audio_targets(self.base, self.head), [
+            AudioTarget("story", "english-polish", "en", "pl", "magical_radio", (1,)),
+            AudioTarget("story", "english-swedish", "en", "sv", "magical_radio", (1,)),
+            AudioTarget("story", "polish-english", "pl", "en", "magical_radio", (1,)),
+        ])
+
+    def test_removing_story_chapter_fails_explicitly(self) -> None:
+        story_path = self.head / "courses/stories/magical_radio/generated/transcript.json"
+        story = json.loads(story_path.read_text(encoding="utf-8"))
+        story["chapters"] = []
+        self._write(story_path, story)
+        with self.assertRaisesRegex(ValueError, "Removing story chapter 1"):
+            infer_audio_targets(self.base, self.head)
 
     def test_report_lists_generation_scope_and_cache_behavior(self) -> None:
         report = render_report([AudioTarget("practice", "english-polish", "en", "pl")])

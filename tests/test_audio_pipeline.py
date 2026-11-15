@@ -142,6 +142,7 @@ class AudioPipelineTests(unittest.TestCase):
                 "source": "en",
                 "target": "fr",
                 "story_id": "magical_radio",
+                "chapters": [4],
             }]),
             encoding="utf-8",
         )
@@ -150,6 +151,7 @@ class AudioPipelineTests(unittest.TestCase):
         def fake_run(command: list[str], root: Path) -> None:
             commands.append(command)
             self.assertEqual(root, self.root.resolve())
+            self.assertEqual(command[command.index("--chapter") + 1], "4")
             if "--validate-only" not in command:
                 podcast_root = Path(command[command.index("--podcast-root") + 1])
                 self.assertEqual(podcast_root, self.root.resolve() / "podcast")
@@ -170,6 +172,16 @@ class AudioPipelineTests(unittest.TestCase):
                 self.root / "reports",
             )
         self.assertEqual(len(commands), 2)
+
+    def test_rejects_invalid_story_chapter_selection(self) -> None:
+        for chapters in ([1, 1], [True], [0], ["1"]):
+            with self.subTest(chapters=chapters):
+                self.targets.write_text(json.dumps([{
+                    "kind": "story", "course": "english-french", "source": "en",
+                    "target": "fr", "story_id": "magical_radio", "chapters": chapters,
+                }]), encoding="utf-8")
+                with self.assertRaisesRegex(audio_pipeline.PipelineError, "chapters"):
+                    audio_pipeline._read_targets(self.targets)
 
     def test_stages_audio_and_commits_only_metadata_manifest(self) -> None:
         audio_bytes = b"generated practice audio"
