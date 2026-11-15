@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "pull_request": 12,
+  "approved_sha": "cf93161a6eb9adbc850a4594c9e2ff72c93a0049",
+  "input_sha256": "7acf68372e62db71d99ac29f2ade7967fd9edb8050c0777032b13051c43e7da1",
+  "targets": [
+    {
+      "kind": "story",
+      "course": "english-french",
+      "source": "en",
+      "target": "fr",
+      "story_id": "magical_radio"
+    }
+  ],
+  "items": [
+    {
+      "course": "english-french",
+      "episode_id": "magical_radio:en:fr:chapter-04",
+      "file": "stories/magical_radio/04_chapter_04_en_fr_2026-11-15_18-46-19.mp3",
+      "staging_key": "staging/pr-12/cf93161a6eb9adbc850a4594c9e2ff72c93a0049/english-french/audio/stories/magical_radio/04_chapter_04_en_fr_2026-11-15_18-46-19.mp3",
+      "size": 6532745,
+      "sha256": "1e4c15a3a9ef9692daa7266ea311d4008a54c60c54b93268e88ee75a5c8d63b8"
+    }
+  ]
+}

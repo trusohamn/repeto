@@ -409,15 +409,15 @@
     {
       "id": "magical_radio:en:fr:chapter-04",
       "title": "The Magical Radio: Down the Stairs — En descendant l'escalier",
-      "file": "stories/magical_radio/04_chapter_04_en_fr_2026-11-12_10-13-52.mp3",
+      "file": "stories/magical_radio/04_chapter_04_en_fr_2026-11-15_18-46-19.mp3",
       "image": "images/stories/magical_radio/cover.jpeg",
-      "duration_ms": 272599,
+      "duration_ms": 272129,
       "published": "2026-11-12T09:15:12+00:00",
       "description": "Chapter 4 of 8 in \"The Magical Radio\" (La radio magique). The silver key opens the door. Stone steps lead down to a library full of flying books, with glowing flowers growing on the walls.\n\nHow the episode works:\n1. Listen to the whole chapter in French. You don't need to understand everything.\n2. Practise words and expressions from the chapter: an English prompt, a pause, then the answer in French.\n3. Listen to the chapter again and see how much you can understand.\n\nA chime separates the sections. Listen in order, starting with chapter 1.",
       "season": 2,
       "episode": 4,
-      "bytes": 6544030,
-      "sha256": "f8741388311de73553ca36e9f1187f2c783f49b9e8bcec88206c527c77a05286"
+      "bytes": 6532745,
+      "sha256": "1e4c15a3a9ef9692daa7266ea311d4008a54c60c54b93268e88ee75a5c8d63b8"
     },
     {
       "id": "magical_radio:en:fr:chapter-05",
