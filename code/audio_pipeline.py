@@ -317,6 +317,7 @@ def stage_audio(
     approved_sha: str,
     report_dir: Path,
 ) -> Path:
+    root = root.resolve()
     if pull_request < 1:
         raise PipelineError("Pull request number must be positive.")
     if not re.fullmatch(r"[0-9a-f]{40}", approved_sha):
