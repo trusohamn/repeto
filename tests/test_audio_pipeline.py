@@ -1,5 +1,6 @@
 import hashlib
 import json
+import os
 import subprocess
 import sys
 import tempfile
@@ -132,6 +133,43 @@ class AudioPipelineTests(unittest.TestCase):
                 audio_pipeline.AudioTarget("practice", "english-polish", "en", "pl"),
                 self.root,
             )
+
+    def test_story_renderer_uses_approved_checkout_for_relative_root(self) -> None:
+        self.targets.write_text(
+            json.dumps([{
+                "kind": "story",
+                "course": "english-french",
+                "source": "en",
+                "target": "fr",
+                "story_id": "magical_radio",
+            }]),
+            encoding="utf-8",
+        )
+        commands: list[list[str]] = []
+
+        def fake_run(command: list[str], root: Path) -> None:
+            commands.append(command)
+            self.assertEqual(root, self.root.resolve())
+            if "--validate-only" not in command:
+                podcast_root = Path(command[command.index("--podcast-root") + 1])
+                self.assertEqual(podcast_root, self.root.resolve() / "podcast")
+                raise RuntimeError("renderer invoked")
+
+        with (
+            patch("audio_pipeline._catalog_target"),
+            patch("audio_pipeline._validate_generation_environment"),
+            patch("audio_pipeline.input_fingerprint", return_value="fingerprint"),
+            patch("audio_pipeline._run", side_effect=fake_run),
+            self.assertRaisesRegex(RuntimeError, "renderer invoked"),
+        ):
+            audio_pipeline.stage_audio(
+                Path(os.path.relpath(self.root)),
+                self.targets,
+                42,
+                self.approved_sha,
+                self.root / "reports",
+            )
+        self.assertEqual(len(commands), 2)
 
     def test_stages_audio_and_commits_only_metadata_manifest(self) -> None:
         audio_bytes = b"generated practice audio"
