@@ -627,10 +627,26 @@ def _load_existing_build(path: Path, story_id: str) -> dict[str, Any]:
     return data
 
 
+def _selected_chapters(transcript: dict[str, Any], args: argparse.Namespace) -> list[dict[str, Any]]:
+    chapters = transcript["chapters"]
+    requested = getattr(args, "chapter", None)
+    if not requested:
+        return chapters
+    available = {chapter["chapter_number"] for chapter in chapters}
+    if any(number < 1 for number in requested) or len(requested) != len(set(requested)):
+        raise ValueError("Chapter selections must be distinct positive numbers.")
+    missing = set(requested) - available
+    if missing:
+        raise ValueError(f"Unknown story chapters: {', '.join(map(str, sorted(missing)))}")
+    return [chapter for chapter in chapters if chapter["chapter_number"] in requested]
+
+
 async def render_story(
     args: argparse.Namespace, speech_cache: SpeechCache | None = None,
 ) -> dict[str, Any]:
     transcript = load_transcript(args.transcript, args.source_text)
+    selected_chapters = _selected_chapters(transcript, args)
+    selected_numbers = {chapter["chapter_number"] for chapter in selected_chapters}
     available = set(transcript["chapters"][0]["titles"])
     targets = args.target or list(DEFAULT_TARGETS)
     if args.source_language not in available:
@@ -732,7 +748,7 @@ async def render_story(
                     passages, _read_chapter_text(chapters_by_number[number], language),
                 )
     ssml_by_chapter = {}
-    for chapter in transcript["chapters"]:
+    for chapter in selected_chapters:
         for target in targets:
             text = _read_chapter_text(chapter, target)
             if args.narration_engine == "azure":
@@ -791,13 +807,14 @@ async def render_story(
             "titles": chapter["titles"],
             "targets": {
                 language: data for language, data in previous_targets.items()
-                if language not in targets
+                if chapter["chapter_number"] not in selected_numbers or language not in targets
             },
         }
-    for chapter in transcript["chapters"]:
+    for chapter in selected_chapters:
         chapter_number = chapter["chapter_number"]
         print(
-            f'Rendering chapter {chapter_number}: {chapter["titles"]["pl"]}...',
+            f'Rendering chapter {chapter_number} ({args.source_language} -> {", ".join(targets)}): '
+            f'{chapter["titles"][args.source_language]}...',
             flush=True,
         )
         practice_items = chapter["vocabulary"]
@@ -1050,7 +1067,7 @@ def package_podcasts(
             story_season = max(existing_seasons, default=0) + 1 if args.podcast_course else 1
 
         superseded: list[str] = []
-        for chapter in transcript["chapters"]:
+        for chapter in _selected_chapters(transcript, args):
             number = chapter["chapter_number"]
             data = build["chapters"][str(number)]["targets"][target]
             audio_name = data["audio_file"]
@@ -1178,6 +1195,10 @@ def create_parser() -> argparse.ArgumentParser:
         default=default_story / "generated/manifest.json",
     )
     parser.add_argument("--source-language", default="sv")
+    parser.add_argument(
+        "--chapter", type=int, action="append", metavar="NUMBER",
+        help="Render only this chapter number; repeat for multiple chapters.",
+    )
     parser.add_argument(
         "--target", nargs="+", default=None, metavar="LANG",
         help="Target languages; defaults to pl.",

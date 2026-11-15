@@ -18,6 +18,7 @@ class AudioTarget:
     source: str
     target: str
     story_id: str | None = None
+    chapters: tuple[int, ...] = ()
 
 
 @dataclass
@@ -133,35 +134,38 @@ def _language_texts(value: Any) -> Mapping[str, Any]:
 
 def _changed_story_languages(
     base: Any, head: Any
-) -> tuple[str | None, StoryLanguageChanges]:
+) -> tuple[str | None, dict[int, StoryLanguageChanges]]:
     old_id, old_chapters = _chapter_map(base)
     new_id, new_chapters = _chapter_map(head)
     story_id = new_id or old_id
-    changes = StoryLanguageChanges(set(), set())
+    changes: dict[int, StoryLanguageChanges] = {}
 
-    def include_all(chapter: Mapping[str, Any]) -> None:
+    def include_all(number: int, chapter: Mapping[str, Any]) -> None:
+        chapter_changes = changes.setdefault(number, StoryLanguageChanges(set(), set()))
         for field in ("chapter_text", "titles"):
-            changes.narration_targets.update(_language_texts(chapter.get(field)))
+            chapter_changes.narration_targets.update(_language_texts(chapter.get(field)))
         for word in chapter.get("vocabulary", []):
             if isinstance(word, Mapping):
-                changes.vocabulary_languages.update(_language_texts(word.get("text")))
+                chapter_changes.vocabulary_languages.update(_language_texts(word.get("text")))
 
     if old_id != new_id:
-        for chapter in (*old_chapters.values(), *new_chapters.values()):
-            include_all(chapter)
-        for data in (base, head):
-            if isinstance(data, Mapping):
-                changes.narration_targets.update(_language_texts(data.get("titles")))
+        if old_id is not None:
+            raise ValueError("Removing or changing a published story ID requires manual migration.")
+        for number, chapter in new_chapters.items():
+            include_all(number, chapter)
         return story_id, changes
 
     for number in old_chapters.keys() | new_chapters.keys():
         old, new = old_chapters.get(number), new_chapters.get(number)
-        if old is None or new is None:
-            include_all(old or new or {})
+        if new is None:
+            raise ValueError(f"Removing story chapter {number} requires manual migration.")
+        if old is None:
+            include_all(number, new)
             continue
+        chapter_changes = changes.setdefault(number, StoryLanguageChanges(set(), set()))
         for field in ("chapter_text", "titles"):
             old_text, new_text = _language_texts(old.get(field)), _language_texts(new.get(field))
-            changes.narration_targets.update(
+            chapter_changes.narration_targets.update(
                 language
                 for language in old_text.keys() | new_text.keys()
                 if old_text.get(language) != new_text.get(language)
@@ -181,16 +185,19 @@ def _changed_story_languages(
             old_word, new_word = old_words.get(word_id), new_words.get(word_id)
             old_text = _language_texts((old_word or {}).get("text"))
             new_text = _language_texts((new_word or {}).get("text"))
-            changes.vocabulary_languages.update(
+            chapter_changes.vocabulary_languages.update(
                 language
                 for language in old_text.keys() | new_text.keys()
                 if old_text.get(language) != new_text.get(language)
             )
+        if list(old_words) != list(new_words):
+            for word in (*old_words.values(), *new_words.values()):
+                chapter_changes.vocabulary_languages.update(_language_texts(word.get("text")))
 
-    for field in ("titles",):
-        old_text = _language_texts((base or {}).get(field) if isinstance(base, Mapping) else None)
-        new_text = _language_texts((head or {}).get(field) if isinstance(head, Mapping) else None)
-        changes.narration_targets.update(
+    if 1 in new_chapters:
+        old_text = _language_texts((base or {}).get("titles") if isinstance(base, Mapping) else None)
+        new_text = _language_texts((head or {}).get("titles") if isinstance(head, Mapping) else None)
+        changes.setdefault(1, StoryLanguageChanges(set(), set())).narration_targets.update(
             language
             for language in old_text.keys() | new_text.keys()
             if old_text.get(language) != new_text.get(language)
@@ -288,22 +295,42 @@ def infer_audio_targets(base_root: Path, head_root: Path) -> list[AudioTarget]:
             stories_head / story_slug / "generated/transcript.json", head_root
         )
         story_id, changes = _changed_story_languages(base_story, head_story)
-        changes.narration_targets.update(
-            _changed_story_source_languages(base_root, head_root, story_slug)
+        _, head_chapters = _chapter_map(head_story)
+        source_changes = _changed_story_source_languages(base_root, head_root, story_slug)
+        for number in head_chapters:
+            changes.setdefault(number, StoryLanguageChanges(set(), set())).narration_targets.update(
+                source_changes
+            )
+        old_directions = _read_json(
+            stories_base / story_slug / "generated/narration.json", base_root
         )
-        if not changes.narration_targets and not changes.vocabulary_languages:
-            continue
+        new_directions = _read_json(
+            stories_head / story_slug / "generated/narration.json", head_root
+        )
+        old_directions = _language_texts(old_directions)
+        new_directions = _language_texts(new_directions)
+        for language in old_directions.keys() | new_directions.keys():
+            old_chapters = _language_texts(old_directions.get(language))
+            new_chapters = _language_texts(new_directions.get(language))
+            for number in head_chapters:
+                if old_chapters.get(str(number)) != new_chapters.get(str(number)):
+                    changes.setdefault(number, StoryLanguageChanges(set(), set())).narration_targets.add(
+                        language
+                    )
         for slug, source, target, episodes in courses:
             has_story = any(
                 str(episode.get("id", "")).startswith(f"{story_id}:")
                 for episode in episodes
             )
-            affects_narration = target in changes.narration_targets
-            affects_vocabulary = bool(
-                {source, target} & changes.vocabulary_languages
+            chapters = tuple(
+                sorted(
+                    number for number, chapter_changes in changes.items()
+                    if target in chapter_changes.narration_targets
+                    or {source, target} & chapter_changes.vocabulary_languages
+                )
             )
-            if has_story and (affects_narration or affects_vocabulary):
-                targets.add(AudioTarget("story", slug, source, target, story_id))
+            if has_story and chapters:
+                targets.add(AudioTarget("story", slug, source, target, story_id, chapters))
     return sorted(targets)
 
 
@@ -318,6 +345,8 @@ def render_report(targets: list[AudioTarget]) -> str:
         label = f"{target.kind}: {target.course} ({target.source} -> {target.target})"
         if target.story_id:
             label += f", story `{target.story_id}`"
+            if target.chapters:
+                label += ", chapters " + ", ".join(map(str, target.chapters))
         lines.append(f"- {label}")
     lines.append(
         "\nAdd the `publish-audio` label to authorize generation. The run will "

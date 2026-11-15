@@ -46,12 +46,20 @@ def _read_targets(path: Path) -> list[AudioTarget]:
     for entry in payload:
         if not isinstance(entry, Mapping):
             raise PipelineError("Invalid inferred audio target.")
+        chapters = entry.get("chapters", [])
+        if (
+            not isinstance(chapters, (list, tuple))
+            or any(type(number) is not int or number < 1 for number in chapters)
+            or len(set(chapters)) != len(chapters)
+        ):
+            raise PipelineError(f"Invalid inferred story chapters: {chapters!r}")
         target = AudioTarget(
             kind=str(entry.get("kind", "")),
             course=str(entry.get("course", "")),
             source=str(entry.get("source", "")),
             target=str(entry.get("target", "")),
             story_id=str(entry["story_id"]) if entry.get("story_id") is not None else None,
+            chapters=tuple(sorted(chapters)),
         )
         if (
             target.kind not in {"practice", "story"}
@@ -59,7 +67,7 @@ def _read_targets(path: Path) -> list[AudioTarget]:
             or not LANGUAGE.fullmatch(target.source)
             or not LANGUAGE.fullmatch(target.target)
             or target.source == target.target
-            or (target.kind == "practice" and target.story_id is not None)
+            or (target.kind == "practice" and (target.story_id is not None or target.chapters))
             or (
                 target.kind == "story"
                 and (
@@ -187,6 +195,8 @@ def _renderer_command(
             "--tts-engine",
             "azure",
         ]
+        for chapter in target.chapters:
+            command.extend(["--chapter", str(chapter)])
     if validate_only:
         command.append("--validate-only")
     else:
@@ -258,6 +268,7 @@ def _report_files(
         "Affected targets:",
         *[
             f"- {target.kind}: `{target.course}` ({target.source} -> {target.target})"
+            + (f", chapters {', '.join(map(str, target.chapters))}" if target.chapters else "")
             for target in targets
         ],
         "",
