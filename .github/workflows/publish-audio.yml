@@ -29,21 +29,23 @@ jobs:
       HEAD_SHA: ${{ github.event.pull_request.head.sha }}
     steps:
       - name: Check out trusted code from main
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           ref: ${{ github.sha }}
           path: trusted
           persist-credentials: false
 
       - name: Check out PR data without executing it
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           ref: ${{ env.HEAD_SHA }}
           repository: ${{ github.event.pull_request.head.repo.full_name }}
           path: pr
           persist-credentials: false
+          # Fork contents are read only as data by the trusted target reporter.
+          allow-unsafe-pr-checkout: true
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.13"
 
@@ -82,7 +84,7 @@ jobs:
         run: gh pr edit "$PR" --repo "$GITHUB_REPOSITORY" --remove-label publish-audio
 
       - name: Check out trusted code from main
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           ref: ${{ github.sha }}
           path: trusted
@@ -90,13 +92,13 @@ jobs:
 
       # The PR checkout is treated only as data; all executed scripts come from trusted/.
       - name: Check out the approved PR revision
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           ref: ${{ env.HEAD_SHA }}
           path: pr
           fetch-depth: 0
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.13"
 
