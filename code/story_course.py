@@ -19,12 +19,15 @@ import tempfile
 from datetime import datetime, timezone
 from pathlib import Path
 from collections.abc import Sequence
-from typing import Any
+from typing import TYPE_CHECKING, Any
 from urllib.parse import quote
 
 from aiohttp import ClientConnectionError
 from pydub import AudioSegment
 from pydub.generators import Sine
+
+if TYPE_CHECKING:
+    from speech_cache import SpeechCache
 
 ROOT = Path(__file__).resolve().parents[1]
 LANGUAGE_PATTERN = re.compile(r"^[a-z]{2}$")
@@ -78,12 +81,15 @@ def _azure() -> Any:
 
 async def _narration_clip(
     ssml: str, cache: Path, key: str, region: str,
+    speech_cache: SpeechCache | None = None,
 ) -> AudioSegment:
     azure = _azure()
     digest = hashlib.sha256(
         ("azure:audio-24khz-160kbitrate-mono-mp3:" + ssml).encode("utf-8")
     ).hexdigest()
     path = cache / f"azure_{digest}.mp3"
+    if not path.is_file() and speech_cache is not None:
+        await _renderer()._fetch_cached_clip(path, speech_cache)
     if path.is_file():
         audio = AudioSegment.from_file(path)
     else:
@@ -106,6 +112,9 @@ async def _narration_clip(
             pending = Path(directory) / "narration.mp3"
             pending.write_bytes(data)
             pending.replace(path)
+        if speech_cache is not None:
+            await asyncio.to_thread(speech_cache.store, path.name, path)
+            audio = AudioSegment.from_file(path)
     if len(audio) == 0 or audio.rms == 0:
         raise RuntimeError(f"Azure narration cache is empty or silent: {path}")
     return audio.set_frame_rate(SAMPLE_RATE).set_channels(1)
@@ -344,12 +353,15 @@ async def _clip(
     rate: str,
     pitch: str,
     engine: str = "azure",
+    speech_cache: SpeechCache | None = None,
 ) -> AudioSegment:
     renderer = _renderer()
     engine_language = _language_key(language)
     renderer.VOICES[engine_language] = voice
     renderer.RATES[engine_language] = rate
     cache_path = cache / _speech_key(text, language, voice, rate, pitch, engine)
+    if not cache_path.is_file() and speech_cache is not None:
+        await renderer._fetch_cached_clip(cache_path, speech_cache)
     if not cache_path.is_file():
         for attempt in range(1, 9):
             try:
@@ -379,6 +391,8 @@ async def _clip(
                     attempt, language, text, error, delay,
                 )
                 await asyncio.sleep(delay)
+        if speech_cache is not None:
+            await renderer._store_generated_clip(cache_path, speech_cache)
     raw = AudioSegment.from_file(str(cache_path), format="mp3")
     return renderer.prepare_clip(raw, str(cache_path))
 
@@ -613,7 +627,9 @@ def _load_existing_build(path: Path, story_id: str) -> dict[str, Any]:
     return data
 
 
-async def render_story(args: argparse.Namespace) -> dict[str, Any]:
+async def render_story(
+    args: argparse.Namespace, speech_cache: SpeechCache | None = None,
+) -> dict[str, Any]:
     transcript = load_transcript(args.transcript, args.source_text)
     available = set(transcript["chapters"][0]["titles"])
     targets = args.target or list(DEFAULT_TARGETS)
@@ -728,6 +744,8 @@ async def render_story(args: argparse.Namespace) -> dict[str, Any]:
                     passages=azure.validate_passages(passages, text) if passages is not None else None,
                 )
 
+    if getattr(args, "validate_only", False):
+        return {}
     if args.output is None:
         args.output = default_output(args.transcript, args.source_language, targets)
     args.cache.mkdir(parents=True, exist_ok=True)
@@ -791,6 +809,7 @@ async def render_story(args: argparse.Namespace) -> dict[str, Any]:
                     item["text"][language], language, args.cache,
                     voices[language], rates[language], pitch[language],
                     args.tts_engine,
+                    speech_cache=speech_cache,
                 )
 
         tracks: dict[str, AudioSegment] = {}
@@ -803,7 +822,9 @@ async def render_story(args: argparse.Namespace) -> dict[str, Any]:
             chapter_text = _read_chapter_text(chapter, target)
             if args.narration_engine == "azure":
                 chapter_ssml = ssml_by_chapter[(chapter_number, target)]
-                chapter_clip = await _narration_clip(chapter_ssml, args.cache, key, region)
+                chapter_clip = await _narration_clip(
+                    chapter_ssml, args.cache, key, region, speech_cache=speech_cache,
+                )
                 title_ssml = azure.build_ssml(
                     chapter_heading(chapter, target), narration_rates[target], 0,
                     voice_name=narration_voices[target], style=narration_styles[target],
@@ -811,15 +832,18 @@ async def render_story(args: argparse.Namespace) -> dict[str, Any]:
                 )
                 chapter_intro_clip = await _narration_clip(
                     title_ssml, args.cache, key, region,
+                    speech_cache=speech_cache,
                 )
             else:
                 chapter_clip = await _clip(
                     chapter_text, target, args.cache,
                     voices[target], rates[target], pitch[target], "edge",
+                    speech_cache=speech_cache,
                 )
                 chapter_intro_clip = await _clip(
                     chapter_heading(chapter, target), target, args.cache,
                     voices[target], rates[target], pitch[target], "edge",
+                    speech_cache=speech_cache,
                 )
             book_intro_clip = None
             if story_title:
@@ -829,11 +853,14 @@ async def render_story(args: argparse.Namespace) -> dict[str, Any]:
                         voice_name=narration_voices[target], style=narration_styles[target],
                         locale=azure.LOCALES[target],
                     )
-                    book_intro_clip = await _narration_clip(intro_ssml, args.cache, key, region)
+                    book_intro_clip = await _narration_clip(
+                        intro_ssml, args.cache, key, region, speech_cache=speech_cache,
+                    )
                 else:
                     book_intro_clip = await _clip(
                         f"{story_title}.", target, args.cache,
                         voices[target], rates[target], pitch[target], "edge",
+                        speech_cache=speech_cache,
                     )
             practice_clips = {
                 item["id"]: (
@@ -1092,11 +1119,12 @@ def package_podcasts(
         _write_json(existing_catalog, catalog)
         if source_language in ("sv", "pl", "en", "ru", "es") and target in copy.LANGUAGES:
             catalog = copy.refresh_course(course, {transcript["story_id"]: transcript})
-        for path in builder.remove_superseded_audio(course, superseded):
-            print(f"Removed superseded audio: {path.relative_to(course)}", flush=True)
-            stale_timing = args.output / f"{path.stem}.json"
-            if stale_timing.is_file():
-                stale_timing.unlink()
+        if not getattr(args, "retain_superseded_audio", False):
+            for path in builder.remove_superseded_audio(course, superseded):
+                print(f"Removed superseded audio: {path.relative_to(course)}", flush=True)
+                stale_timing = args.output / f"{path.stem}.json"
+                if stale_timing.is_file():
+                    stale_timing.unlink()
         builder.build_feed(course, base_url)
         feed_catalogs[target] = {
             "slug": slug,
@@ -1106,12 +1134,13 @@ def package_podcasts(
             "author": catalog["author"],
             "owner_email": catalog["email"],
         }
-    script = ROOT / "code" / "podcast.py"
-    subprocess.run(
-        [sys.executable, str(script), "--root", str(podcast_root), "--base-url", base_url],
-        cwd=ROOT,
-        check=True,
-    )
+    if not getattr(args, "skip_site_build", False):
+        script = ROOT / "code" / "podcast.py"
+        subprocess.run(
+            [sys.executable, str(script), "--root", str(podcast_root), "--base-url", base_url],
+            cwd=ROOT,
+            check=True,
+        )
     build["podcasts"] = {**build.get("podcasts", {}), **feed_catalogs}
 
 
@@ -1134,6 +1163,16 @@ def create_parser() -> argparse.ArgumentParser:
         help="Render folder; defaults to generated/audio/<source>_<targets> beside the transcript.",
     )
     parser.add_argument("--cache", type=Path, default=ROOT / ".audio_cache")
+    parser.add_argument(
+        "--r2-cache",
+        action="store_true",
+        help="Use the private R2 speech-clip cache (requires R2 cache credentials).",
+    )
+    parser.add_argument(
+        "--validate-only",
+        action="store_true",
+        help="Validate the selected story direction without generating audio.",
+    )
     parser.add_argument(
         "--build-manifest", type=Path,
         default=default_story / "generated/manifest.json",
@@ -1162,6 +1201,16 @@ def create_parser() -> argparse.ArgumentParser:
     parser.add_argument("--format", dest="file_format", choices=("mp3", "wav"), default="mp3")
     parser.add_argument("--bitrate", default=BITRATE)
     parser.add_argument("--package-podcast", action="store_true")
+    parser.add_argument(
+        "--retain-superseded-audio",
+        action="store_true",
+        help="Keep old versioned MP3s on disk after replacing their catalog entries.",
+    )
+    parser.add_argument(
+        "--skip-site-build",
+        action="store_true",
+        help="Do not rebuild the complete podcast website after packaging.",
+    )
     parser.add_argument("--cover", type=Path)
     parser.add_argument("--podcast-root", type=Path, default=Path("podcast"))
     parser.add_argument(
@@ -1189,7 +1238,12 @@ def main() -> None:
                 f'{len(chapter["chapter_text"]["pl"])} Polish chapter characters'
             )
         return
-    asyncio.run(render_story(args))
+    speech_cache = None
+    if args.r2_cache and not args.validate_only:
+        from r2_speech_cache import R2SpeechCache
+
+        speech_cache = R2SpeechCache.from_environment()
+    asyncio.run(render_story(args, speech_cache=speech_cache))
 
 
 if __name__ == "__main__":

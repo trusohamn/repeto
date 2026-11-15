@@ -1,89 +1,94 @@
-# Production deployment
+# Audio production and deployment
 
-Audio is generated locally and published to Cloudflare R2 by GitHub Actions.
-GitHub Pages hosts the website and RSS feeds.
+GitHub Actions generates and stages audio for reviewed pull requests. Cloudflare
+R2 stores public staging and production audio; GitHub Pages hosts the live
+website and RSS feeds.
 
-## Publishing flow
+## End-to-end flow
 
 ```mermaid
 flowchart TD
-    A["Generate audio locally"] --> B["Commit audio and content to a PR"]
-    B --> C["Maintainer approves the exact PR revision"]
-    C --> D["Trusted Action uploads audio to public R2"]
-    D --> E{"Upload and metadata verified?"}
-    E -- No --> F["Stop and report failure"]
-    E -- Yes --> G["Save size and checksum, rebuild feed.xml, remove uploaded MP3s on PR branch"]
-    G --> H["Maintainer squash-merges the PR"]
-    H --> I["Pages Action builds feeds and website"]
-    I --> J["Deploy feeds and website"]
+    A["PR changes practice or story source data"] --> B["Report inferred audio targets on the PR"]
+    B --> C["Maintainer adds publish-audio label"]
+    C --> D["Validate exact PR revision"]
+    D --> E["Reuse private cached clips; synthesize cache misses"]
+    E --> F["Upload and verify full episodes in public R2 staging"]
+    F --> G["Comment with staging listen links and update PR metadata"]
+    G --> H["Reviewer listens; maintainer merges"]
+    H --> I["Promote exact staged bytes to production R2"]
+    I --> J["Build and deploy live feeds and website"]
 ```
 
-The label starts the production upload; there is no private staging. The
-workflow does not merge: a maintainer merges the cleaned PR like any other,
-which deploys the feeds and website. The audio is public on R2 before merge,
-but nothing links to it until the Pages deployment.
+Opening or updating a PR only reports which existing practice directions and
+story directions are affected. It does not call paid services. The
+`publish-audio` label is the first approval: it authorizes Azure Speech
+generation for that exact PR revision. After the staged audio is reviewed, the
+maintainer's merge is the second approval. The production deployment promotes
+the exact reviewed bytes; it does not regenerate them.
 
-## Publishing behavior
+Staging audio is public to anyone with its URL. Staging objects use a distinct
+key namespace and never appear in production feeds. Do not submit confidential
+material. The workflow is limited to same-repository pull requests into `main`;
+it uses trusted code and treats PR contents as data, not executable code.
 
-- The PR initially contains the locally generated MP3s and associated content
-  and catalog changes. Existing episode IDs and versioned audio filenames are
-  preserved.
-- An authorized maintainer approves the exact PR revision for upload. The
-  privileged workflow uses trusted workflow code and does not execute code
-  supplied by the PR. If the revision changes, it stops and requires a new
-  authorization.
-- The workflow uploads the intended MP3s to public R2 and verifies the stored
-  bytes against the approved files. Retries are safe: an identical object can
-  be reused, but different audio must not overwrite an existing versioned key.
-- Only after verification does the workflow update the PR with the information
-  needed to publish, including each audio object's filename, size and digest,
-  rebuild the affected `feed.xml` files so their enclosures point to R2, and
-  remove the uploaded MP3s from the PR's final state. The resulting
-  revision must correspond to the approved content and verified audio; any
-  other change invalidates authorization.
-- The workflow comments that the PR is ready, and a maintainer squash-merges
-  it. Its resulting commit on `main` contains publishing metadata and updated
-  feeds, not the newly uploaded MP3s. Earlier PR commits can still contain the
-  audio; this does not erase Git history.
-- After merge, the Pages workflow rebuilds and deploys the feeds and website.
-  Their audio links point to R2, and feed enclosure lengths come from verified
-  metadata rather than local MP3 files. Relevant metadata changes must trigger
-  this deployment.
-- Upload or verification failure stops cleanup, so the PR is not ready to
-  merge. Publication must not deploy feeds pointing to missing or unverified
-  audio. If an upload succeeds but a later step fails, the public object may
-  remain; retrying must be safe.
+## Target inference and cache behavior
 
-## How it is implemented
+- The PR report compares the base and proposed JSON by stable entry and chapter
+  IDs, then lists existing catalog directions affected by spoken-text changes.
+  Practice topic-title and story-summary-only edits do not trigger TTS.
+- The label run rechecks the approved PR head and validates all relevant inputs
+  before requesting speech. A changed PR needs the label again.
+- Speech clips use the renderers' content-addressed keys. The workflow checks
+  the private R2 cache first, verifies each retrieved clip, and only sends
+  cache misses to Azure Speech. Successfully generated clips are stored in the
+  cache for future runs. Cache objects are immutable; invalid objects fail the
+  run rather than being used as valid audio.
+- Full practice episodes and story chapters are assembled from the approved
+  transcript/settings, uploaded under the PR revision's public staging keys,
+  and verified against their byte length and SHA-256 digest.
+- The PR receives the production audio filenames and integrity metadata plus a
+  staging manifest. A comment provides direct staging listen links; generated
+  MP3s are not added to Git. The feed generated in the PR already uses the
+  final production URLs, not staging URLs. Those new production URLs may not
+  work until promotion, so use the staging links for review.
+- On merge, the Pages workflow verifies and promotes each manifest entry to
+  its immutable production key before rebuilding and deploying feeds. If
+  promotion fails, deployment is blocked and the previous live feed remains
+  in place. No link rewrite is needed after promotion: the feed URLs already
+  point to the production keys. Existing episode IDs, season/episode numbers,
+  and publication dates are retained when audio is replaced. Feed enclosures
+  use the production audio URL and verified length.
+- Retries are safe. Existing matching cache and staging objects are reused;
+  different content at an immutable key fails instead of overwriting it.
+  Upload, validation, or verification failures stop the process and are
+  reported on the PR.
 
-- Approval is adding the `publish-audio` label to a same-repository PR into
-  `main` (only users with triage or write access can label).
-  [publish-audio.yml](../.github/workflows/publish-audio.yml) removes the label
-  first, so every run consumes one approval.
-- The workflow publishes only the MP3s under `podcast/*/audio/` that the PR adds
-  or changes, using [audio_publish.py](../code/audio_publish.py) from `main`.
-  A PR without audio fails.
-- Objects are stored at `<course>/audio/<file>`, mirroring the Pages paths, and
-  served from `https://audio.repeto.stream`. Uploads are conditional
-  (`If-None-Match: *`) and immutable (`Cache-Control: public, max-age=31536000,
-  immutable`).
-- Each published episode in `course.json` gets `bytes` and `sha256`.
-  [podcast.py](../code/podcast.py) points enclosures with this metadata to R2;
-  episodes without it keep their Pages URLs, so migration is incremental.
-  After saving the metadata, the publisher rebuilds `feed.xml` for the affected
-  courses, so the PR shows the new R2 enclosure URLs. Pages rebuilds all feeds
-  on deploy as well. Re-packaging keeps the metadata and does not need the MP3
-  locally.
-- The maintainer's merge to `main` triggers
-  [podcast.yml](../.github/workflows/podcast.yml) as usual.
-- On failure the workflow comments on the PR. Fix the cause and add the label
-  again; already uploaded identical audio is reused. Do not merge a PR that
-  still contains new MP3s: they would be served from Pages, not R2.
+## Components
+
+- [publish-audio.yml](../.github/workflows/publish-audio.yml) reports inferred
+  targets on PR open/update, consumes the `publish-audio` label, and runs
+  trusted generation and staging code.
+- [audio_targets.py](../code/audio_targets.py) identifies affected packaged
+  practice and story directions without performing synthesis.
+- [audio_pipeline.py](../code/audio_pipeline.py) validates every inferred
+  target before synthesis, invokes only trusted renderers against PR data,
+  packages both practice and story output, stages immutable objects, and writes
+  a revision-bound manifest.
+- [transcription.py](../code/transcription.py) and
+  [story_course.py](../code/story_course.py) render the approved inputs. Their
+  local cache behavior is extended by the workflow's private R2 speech cache.
+- [audio_publish.py](../code/audio_publish.py) verifies immutable storage
+  objects, records `bytes` and `sha256` in course catalogs, and rebuilds
+  affected feeds.
+- [podcast.yml](../.github/workflows/podcast.yml) promotes reviewed staging
+  objects before building and deploying the live feeds and website.
 
 ## Local use
 
-R2 credentials are not needed locally. Install `requirements-publish.txt` only
-to upload from a machine.
+Local renderers continue using `.audio_cache`; remote R2 cache access is only
+needed by the GitHub Actions pipeline. Install `requirements.txt` and
+`requirements-publish.txt` to run the renderers, publisher, or promotion
+commands locally.
 
 ```bash
 python code/audio_publish.py plan                      # pending audio, no upload
@@ -93,42 +98,46 @@ python code/audio_publish.py check --storage /tmp/r2   # verify saved size and c
 
 ## One-time setup
 
-1. Create the R2 bucket `repeto-stream` and add the custom domain
-   `audio.repeto.stream`. Do not connect `repeto.stream` itself: it would take
-   the website and feeds away from GitHub Pages. Keep the public development
-   URL (`r2.dev`) disabled.
-2. Create an R2 **Account API token** with Object Read & Write limited to
-   `repeto-stream`, without IP filtering. Its S3 Access Key ID and Secret Access
-   Key are shown once; paste them directly into GitHub.
+1. Create the public R2 bucket `repeto-stream` and add the custom domain
+   `audio.repeto.stream`. Staging objects use the `staging/` prefix in this
+   bucket; no second public bucket or domain is needed. Do not connect
+   `repeto.stream` itself: it would take the website and feeds away from GitHub
+   Pages. Keep the public development URL (`r2.dev`) disabled. Configure an R2
+   lifecycle rule to expire objects under `staging/` after 90 days; a PR whose
+   staged audio expires must be approved and staged again before merge.
+2. Create a separate **private** R2 bucket named `repeto-speech-cache` with no
+   public domain. Create a bucket-scoped Object Read & Write API token for
+   `repeto-stream` and a separate token scoped to `repeto-speech-cache`. Do not
+   apply IP filtering to these GitHub-hosted workflow credentials.
 3. Create the GitHub environment `audio-production`:
-   - Deployment branches: selected branches, `main` only. Both workflow modes
-     run in the context of `main`. No required reviewers or wait timer; the
-     label is the approval.
-   - Environment secrets (no environment variables are used):
+   - Deployment branches: selected branches, `main` only. The privileged label
+     workflow runs in the context of `main`. No required reviewers or wait
+     timer; the label is the generation approval.
+   - Add these environment secrets (no environment variables are used):
 
      | Secret | Value |
      |---|---|
-     | `R2_ACCOUNT_ID` | Cloudflare account ID, from the bucket's S3 API URL `https://<account id>.r2.cloudflarestorage.com` |
+     | `AZURE_SPEECH_KEY` | Azure Speech resource key |
+     | `AZURE_SPEECH_REGION` | Azure Speech resource region |
+     | `R2_ACCOUNT_ID` | Cloudflare account ID from the S3 API URL `https://<account id>.r2.cloudflarestorage.com` |
      | `R2_BUCKET` | `repeto-stream` |
-     | `R2_ACCESS_KEY_ID` | Access Key ID of the R2 API token |
-     | `R2_SECRET_ACCESS_KEY` | Secret Access Key of the R2 API token |
+     | `R2_ACCESS_KEY_ID` | Access Key ID for the production bucket token |
+     | `R2_SECRET_ACCESS_KEY` | Secret Access Key for the production bucket token |
+     | `R2_CACHE_BUCKET` | `repeto-speech-cache` |
+     | `R2_CACHE_ACCESS_KEY_ID` | Access Key ID for the private cache token |
+     | `R2_CACHE_SECRET_ACCESS_KEY` | Secret Access Key for the private cache token |
 
-4. Create the `publish-audio` label and allow GitHub Actions to create PRs (for
-   migration). If `main` gets branch protection, required status checks will
+4. Create the `publish-audio` label. If `main` gets branch protection, required status checks will
    not run on the workflow's own commit (`GITHUB_TOKEN` pushes do not trigger
    workflows).
-5. Upload a single test MP3 and confirm HTTPS playback, seeking and the RSS
-   enclosure URL.
-6. Run **Publish audio** manually on `main` to migrate tracked audio. It uploads
-   and verifies everything pending and opens a PR with the metadata and
-   rebuilt feeds; merging it switches feeds to R2.
+5. Test the complete flow with a small PR: confirm the target report appears
+   before labeling, the run posts playable staging links, and after merge the
+   production enclosure serves the verified audio.
 
 ## Operations and boundaries
 
-- R2 production credentials are available only to the `audio-production`
-  environment; they are not required for local generation.
-- Existing URLs remain accessible after migration because the tracked MP3s stay
-  on Pages; removing them and rewriting old Git history are separate decisions.
+- Azure and R2 credentials are available only to the `audio-production`
+  environment; they are not required for local rendering.
 - Replaced audio always gets a new versioned filename. Spotify picks up the new
   enclosure URL; YouTube needs **Re-upload from RSS feed** in Studio.
 - Automated tests cover integrity checks and failure and retry paths using fake

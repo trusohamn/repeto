@@ -2,21 +2,44 @@ name: Publish podcasts
 on:
   push:
     branches: [main]
-    paths: ["podcast/**", "code/podcast.py", "code/website.py", "code/templates/**", "code/site/**", "courses/practice/transcript.json", "courses/practice/topics.json", "courses/stories/*/generated/transcript.json", "tests/test_podcast.py", ".github/workflows/podcast.yml"]
+    paths: ["podcast/**", ".audio-staging/**", "code/audio_staging.py", "code/podcast.py", "code/website.py", "code/templates/**", "code/site/**", "courses/practice/transcript.json", "courses/practice/topics.json", "courses/stories/*/generated/transcript.json", "tests/test_podcast.py", ".github/workflows/podcast.yml"]
   workflow_dispatch:
 
-permissions:
-  contents: read
-  pages: write
-  id-token: write
+permissions: {}
 
 concurrency:
   group: podcast-pages
   cancel-in-progress: false
 
 jobs:
-  publish:
+  promote:
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
+    environment: audio-production
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - run: pip install -r requirements-publish.txt
+      - name: Promote reviewed staged audio
+        env:
+          R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
+          R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          R2_BUCKET: ${{ secrets.R2_BUCKET }}
+        run: python code/audio_staging.py --root . --storage r2
+
+  publish:
+    if: github.ref == 'refs/heads/main'
+    needs: promote
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
