@@ -1,0 +1,908 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Repeto.stream – Я учу немецкий</title>
+    <link>https://repeto.stream/russian-german/</link>
+    <description>Учи немецкий: слушай и говори с подсказками на русском. Repeto.stream — аудиокурс для начинающих любого возраста: детей, родителей, бабушек, дедушек и всех, кто хочет начать учить немецкий. Предварительные знания и учебник не нужны.
+
+Как это работает: ты слышишь слово или предложение по-русски, а затем во время паузы пробуешь сказать то же самое по-немецки. После этого ответ звучит дважды, с паузами для повторения.
+
+Что входит в курс:
+• Фразы: 30 коротких тем — от приветствий и чисел до еды, чувств и повседневных ситуаций.
+• История «Волшебное радио» (Das magische Radio): по одной главе в каждом выпуске. Сначала слушай главу по-немецки, затем тренируй слова и слушай главу ещё раз.
+• Новые истории уже в работе. Подпишись на подкаст, чтобы не пропустить выпуски.
+
+Как заниматься:
+• Начни с первого выпуска с фразами и слушай по порядку.
+• Отвечай вслух во время пауз — попробуй вспомнить слова самостоятельно.
+• Слушай выпуск снова, пока не начнёшь отвечать раньше диктора.
+• Фоновое прослушивание помогает привыкнуть к звукам и ритму языка. Занимайся и активно: повторяй и отвечай во время пауз.
+
+Нравится такой формат? У Repeto.stream есть курсы и для других языков с такой же структурой. Ищи Repeto.stream в своём приложении для подкастов.
+
+Напиши нам! Предложения новых языков, исправления и идеи для историй приветствуются: repeto.stream@gmail.com
+
+Голоса созданы с помощью ИИ (Microsoft Azure).
+
+Все эпизоды и тексты: https://repeto.stream/russian-german/</description>
+    <language>ru</language>
+    <itunes:author>Repeto.stream</itunes:author>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:type>serial</itunes:type>
+    <itunes:owner>
+      <itunes:name>Repeto.stream</itunes:name>
+      <itunes:email>repeto.stream@gmail.com</itunes:email>
+    </itunes:owner>
+    <itunes:image href="https://repeto.stream/russian-german/cover-77eb3e45.jpeg" />
+    <itunes:category text="Education">
+      <itunes:category text="Language Learning" />
+    </itunes:category>
+    <atom:link href="https://repeto.stream/russian-german/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>01 Приветствия — Begrüßungen</title>
+      <link>https://repeto.stream/russian-german/transcripts/season-1-episode-01.html</link>
+      <description>Тема 1 из 30: Приветствия (Begrüßungen) — 36 фраз.
+
+Ты услышишь слово или предложение по-русски. Скажи то же самое по-немецки во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.
+
+Примеры из выпуска:
+• Привет! → Hallo!
+• Доброе утро! → Guten Morgen!
+• Добрый день! → Guten Tag!
+
+Совет: слушай снова, пока не начнёшь отвечать раньше диктора.
+
+Текст: https://repeto.stream/russian-german/transcripts/season-1-episode-01.html</description>
+      <content:encoded>&lt;p&gt;Тема 1 из 30: Приветствия (Begrüßungen) — 36 фраз.&lt;/p&gt;&lt;p&gt;Ты услышишь слово или предложение по-русски. Скажи то же самое по-немецки во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.&lt;/p&gt;&lt;p&gt;Примеры из выпуска:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Привет! → Hallo!&lt;/li&gt;&lt;li&gt;Доброе утро! → Guten Morgen!&lt;/li&gt;&lt;li&gt;Добрый день! → Guten Tag!&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Совет: слушай снова, пока не начнёшь отвечать раньше диктора.&lt;/p&gt;&lt;p&gt;Текст: &lt;a href="https://repeto.stream/russian-german/transcripts/season-1-episode-01.html"&gt;https://repeto.stream/russian-german/transcripts/season-1-episode-01.html&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:russian-german:topic-01</guid>
+      <pubDate>Mon, 16 Nov 2026 11:30:07 +0000</pubDate>
+      <itunes:episode>1</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>02 Числа — Zahlen</title>
+      <link>https://repeto.stream/russian-german/transcripts/season-1-episode-02.html</link>
+      <description>Тема 2 из 30: Числа (Zahlen) — 35 фраз.
+
+Ты услышишь слово или предложение по-русски. Скажи то же самое по-немецки во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.
+
+Примеры из выпуска:
+• Один → Eins
+• Два → Zwei
+• Три → Drei
+
+Совет: слушай снова, пока не начнёшь отвечать раньше диктора.
+
+Текст: https://repeto.stream/russian-german/transcripts/season-1-episode-02.html</description>
+      <content:encoded>&lt;p&gt;Тема 2 из 30: Числа (Zahlen) — 35 фраз.&lt;/p&gt;&lt;p&gt;Ты услышишь слово или предложение по-русски. Скажи то же самое по-немецки во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.&lt;/p&gt;&lt;p&gt;Примеры из выпуска:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Один → Eins&lt;/li&gt;&lt;li&gt;Два → Zwei&lt;/li&gt;&lt;li&gt;Три → Drei&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Совет: слушай снова, пока не начнёшь отвечать раньше диктора.&lt;/p&gt;&lt;p&gt;Текст: &lt;a href="https://repeto.stream/russian-german/transcripts/season-1-episode-02.html"&gt;https://repeto.stream/russian-german/transcripts/season-1-episode-02.html&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:russian-german:topic-02</guid>
+      <pubDate>Mon, 16 Nov 2026 11:30:07 +0000</pubDate>
+      <itunes:episode>2</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>03 Цвета — Farben</title>
+      <link>https://repeto.stream/russian-german/transcripts/season-1-episode-03.html</link>
+      <description>Тема 3 из 30: Цвета (Farben) — 29 фраз.
+
+Ты услышишь слово или предложение по-русски. Скажи то же самое по-немецки во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.
+
+Примеры из выпуска:
+• Красный → Rot
+• Синий → Blau
+• Жёлтый → Gelb
+
+Совет: слушай снова, пока не начнёшь отвечать раньше диктора.
+
+Текст: https://repeto.stream/russian-german/transcripts/season-1-episode-03.html</description>
+      <content:encoded>&lt;p&gt;Тема 3 из 30: Цвета (Farben) — 29 фраз.&lt;/p&gt;&lt;p&gt;Ты услышишь слово или предложение по-русски. Скажи то же самое по-немецки во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.&lt;/p&gt;&lt;p&gt;Примеры из выпуска:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Красный → Rot&lt;/li&gt;&lt;li&gt;Синий → Blau&lt;/li&gt;&lt;li&gt;Жёлтый → Gelb&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Совет: слушай снова, пока не начнёшь отвечать раньше диктора.&lt;/p&gt;&lt;p&gt;Текст: &lt;a href="https://repeto.stream/russian-german/transcripts/season-1-episode-03.html"&gt;https://repeto.stream/russian-german/transcripts/season-1-episode-03.html&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:russian-german:topic-03</guid>
+      <pubDate>Mon, 16 Nov 2026 11:30:07 +0000</pubDate>
+      <itunes:episode>3</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>04 Животные — Tiere</title>
+      <link>https://repeto.stream/russian-german/transcripts/season-1-episode-04.html</link>
+      <description>Тема 4 из 30: Животные (Tiere) — 42 фразы.
+
+Ты услышишь слово или предложение по-русски. Скажи то же самое по-немецки во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.
+
+Примеры из выпуска:
+• Собака → Hund
+• Кошка → Katze
+• Птица → Vogel
+
+Совет: слушай снова, пока не начнёшь отвечать раньше диктора.
+
+Текст: https://repeto.stream/russian-german/transcripts/season-1-episode-04.html</description>
+      <content:encoded>&lt;p&gt;Тема 4 из 30: Животные (Tiere) — 42 фразы.&lt;/p&gt;&lt;p&gt;Ты услышишь слово или предложение по-русски. Скажи то же самое по-немецки во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.&lt;/p&gt;&lt;p&gt;Примеры из выпуска:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Собака → Hund&lt;/li&gt;&lt;li&gt;Кошка → Katze&lt;/li&gt;&lt;li&gt;Птица → Vogel&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Совет: слушай снова, пока не начнёшь отвечать раньше диктора.&lt;/p&gt;&lt;p&gt;Текст: &lt;a href="https://repeto.stream/russian-german/transcripts/season-1-episode-04.html"&gt;https://repeto.stream/russian-german/transcripts/season-1-episode-04.html&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:russian-german:topic-04</guid>
+      <pubDate>Mon, 16 Nov 2026 11:30:07 +0000</pubDate>
+      <itunes:episode>4</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>05 Семья — Familie</title>
+      <link>https://repeto.stream/russian-german/transcripts/season-1-episode-05.html</link>
+      <description>Тема 5 из 30: Семья (Familie) — 26 фраз.
+
+Ты услышишь слово или предложение по-русски. Скажи то же самое по-немецки во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.
+
+Примеры из выпуска:
+• Мама → Mama
+• Папа → Papa
+• Сестра → Schwester
+
+Совет: слушай снова, пока не начнёшь отвечать раньше диктора.
+
+Текст: https://repeto.stream/russian-german/transcripts/season-1-episode-05.html</description>
+      <content:encoded>&lt;p&gt;Тема 5 из 30: Семья (Familie) — 26 фраз.&lt;/p&gt;&lt;p&gt;Ты услышишь слово или предложение по-русски. Скажи то же самое по-немецки во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.&lt;/p&gt;&lt;p&gt;Примеры из выпуска:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Мама → Mama&lt;/li&gt;&lt;li&gt;Папа → Papa&lt;/li&gt;&lt;li&gt;Сестра → Schwester&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Совет: слушай снова, пока не начнёшь отвечать раньше диктора.&lt;/p&gt;&lt;p&gt;Текст: &lt;a href="https://repeto.stream/russian-german/transcripts/season-1-episode-05.html"&gt;https://repeto.stream/russian-german/transcripts/season-1-episode-05.html&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:russian-german:topic-05</guid>
+      <pubDate>Mon, 16 Nov 2026 11:30:07 +0000</pubDate>
+      <itunes:episode>5</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>06 Еда — Essen</title>
+      <link>https://repeto.stream/russian-german/transcripts/season-1-episode-06.html</link>
+      <description>Тема 6 из 30: Еда (Essen) — 49 фраз.
+
+Ты услышишь слово или предложение по-русски. Скажи то же самое по-немецки во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.
+
+Примеры из выпуска:
+• Хлеб → Brot
+• Молоко → Milch
+• Яйцо → Ei
+
+Совет: слушай снова, пока не начнёшь отвечать раньше диктора.
+
+Текст: https://repeto.stream/russian-german/transcripts/season-1-episode-06.html</description>
+      <content:encoded>&lt;p&gt;Тема 6 из 30: Еда (Essen) — 49 фраз.&lt;/p&gt;&lt;p&gt;Ты услышишь слово или предложение по-русски. Скажи то же самое по-немецки во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.&lt;/p&gt;&lt;p&gt;Примеры из выпуска:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Хлеб → Brot&lt;/li&gt;&lt;li&gt;Молоко → Milch&lt;/li&gt;&lt;li&gt;Яйцо → Ei&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Совет: слушай снова, пока не начнёшь отвечать раньше диктора.&lt;/p&gt;&lt;p&gt;Текст: &lt;a href="https://repeto.stream/russian-german/transcripts/season-1-episode-06.html"&gt;https://repeto.stream/russian-german/transcripts/season-1-episode-06.html&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:russian-german:topic-06</guid>
+      <pubDate>Mon, 16 Nov 2026 11:30:07 +0000</pubDate>
+      <itunes:episode>6</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>07 Тело — Körper</title>
+      <link>https://repeto.stream/russian-german/transcripts/season-1-episode-07.html</link>
+      <description>Тема 7 из 30: Тело (Körper) — 37 фраз.
+
+Ты услышишь слово или предложение по-русски. Скажи то же самое по-немецки во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.
+
+Примеры из выпуска:
+• Голова → Kopf
+• Волосы → Haare
+• Глаз → Auge
+
+Совет: слушай снова, пока не начнёшь отвечать раньше диктора.
+
+Текст: https://repeto.stream/russian-german/transcripts/season-1-episode-07.html</description>
+      <content:encoded>&lt;p&gt;Тема 7 из 30: Тело (Körper) — 37 фраз.&lt;/p&gt;&lt;p&gt;Ты услышишь слово или предложение по-русски. Скажи то же самое по-немецки во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.&lt;/p&gt;&lt;p&gt;Примеры из выпуска:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Голова → Kopf&lt;/li&gt;&lt;li&gt;Волосы → Haare&lt;/li&gt;&lt;li&gt;Глаз → Auge&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Совет: слушай снова, пока не начнёшь отвечать раньше диктора.&lt;/p&gt;&lt;p&gt;Текст: &lt;a href="https://repeto.stream/russian-german/transcripts/season-1-episode-07.html"&gt;https://repeto.stream/russian-german/transcripts/season-1-episode-07.html&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:russian-german:topic-07</guid>
+      <pubDate>Mon, 16 Nov 2026 11:30:07 +0000</pubDate>
+      <itunes:episode>7</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>08 Одежда — Kleidung</title>
+      <link>https://repeto.stream/russian-german/transcripts/season-1-episode-08.html</link>
+      <description>Тема 8 из 30: Одежда (Kleidung) — 29 фраз.
+
+Ты услышишь слово или предложение по-русски. Скажи то же самое по-немецки во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.
+
+Примеры из выпуска:
+• Свитер → Pullover
+• Футболка → T-Shirt
+• Рубашка → Hemd
+
+Совет: слушай снова, пока не начнёшь отвечать раньше диктора.
+
+Текст: https://repeto.stream/russian-german/transcripts/season-1-episode-08.html</description>
+      <content:encoded>&lt;p&gt;Тема 8 из 30: Одежда (Kleidung) — 29 фраз.&lt;/p&gt;&lt;p&gt;Ты услышишь слово или предложение по-русски. Скажи то же самое по-немецки во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.&lt;/p&gt;&lt;p&gt;Примеры из выпуска:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Свитер → Pullover&lt;/li&gt;&lt;li&gt;Футболка → T-Shirt&lt;/li&gt;&lt;li&gt;Рубашка → Hemd&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Совет: слушай снова, пока не начнёшь отвечать раньше диктора.&lt;/p&gt;&lt;p&gt;Текст: &lt;a href="https://repeto.stream/russian-german/transcripts/season-1-episode-08.html"&gt;https://repeto.stream/russian-german/transcripts/season-1-episode-08.html&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:russian-german:topic-08</guid>
+      <pubDate>Mon, 16 Nov 2026 11:30:07 +0000</pubDate>
+      <itunes:episode>8</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>09 Дома — Zu Hause</title>
+      <link>https://repeto.stream/russian-german/transcripts/season-1-episode-09.html</link>
+      <description>Тема 9 из 30: Дома (Zu Hause) — 38 фраз.
+
+Ты услышишь слово или предложение по-русски. Скажи то же самое по-немецки во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.
+
+Примеры из выпуска:
+• Дом → Haus
+• Квартира → Wohnung
+• Комната → Zimmer
+
+Совет: слушай снова, пока не начнёшь отвечать раньше диктора.
+
+Текст: https://repeto.stream/russian-german/transcripts/season-1-episode-09.html</description>
+      <content:encoded>&lt;p&gt;Тема 9 из 30: Дома (Zu Hause) — 38 фраз.&lt;/p&gt;&lt;p&gt;Ты услышишь слово или предложение по-русски. Скажи то же самое по-немецки во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.&lt;/p&gt;&lt;p&gt;Примеры из выпуска:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Дом → Haus&lt;/li&gt;&lt;li&gt;Квартира → Wohnung&lt;/li&gt;&lt;li&gt;Комната → Zimmer&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Совет: слушай снова, пока не начнёшь отвечать раньше диктора.&lt;/p&gt;&lt;p&gt;Текст: &lt;a href="https://repeto.stream/russian-german/transcripts/season-1-episode-09.html"&gt;https://repeto.stream/russian-german/transcripts/season-1-episode-09.html&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:russian-german:topic-09</guid>
+      <pubDate>Mon, 16 Nov 2026 11:30:07 +0000</pubDate>
+      <itunes:episode>9</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>10 Школа — Schule</title>
+      <link>https://repeto.stream/russian-german/transcripts/season-1-episode-10.html</link>
+      <description>Тема 10 из 30: Школа (Schule) — 41 фраза.
+
+Ты услышишь слово или предложение по-русски. Скажи то же самое по-немецки во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.
+
+Примеры из выпуска:
+• Школа → Schule
+• Класс → Klassenzimmer
+• Учитель → Lehrer
+
+Совет: слушай снова, пока не начнёшь отвечать раньше диктора.
+
+Текст: https://repeto.stream/russian-german/transcripts/season-1-episode-10.html</description>
+      <content:encoded>&lt;p&gt;Тема 10 из 30: Школа (Schule) — 41 фраза.&lt;/p&gt;&lt;p&gt;Ты услышишь слово или предложение по-русски. Скажи то же самое по-немецки во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.&lt;/p&gt;&lt;p&gt;Примеры из выпуска:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Школа → Schule&lt;/li&gt;&lt;li&gt;Класс → Klassenzimmer&lt;/li&gt;&lt;li&gt;Учитель → Lehrer&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Совет: слушай снова, пока не начнёшь отвечать раньше диктора.&lt;/p&gt;&lt;p&gt;Текст: &lt;a href="https://repeto.stream/russian-german/transcripts/season-1-episode-10.html"&gt;https://repeto.stream/russian-german/transcripts/season-1-episode-10.html&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:russian-german:topic-10</guid>
+      <pubDate>Mon, 16 Nov 2026 11:30:07 +0000</pubDate>
+      <itunes:episode>10</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>11 Погода — Wetter</title>
+      <link>https://repeto.stream/russian-german/transcripts/season-1-episode-11.html</link>
+      <description>Тема 11 из 30: Погода (Wetter) — 25 фраз.
+
+Ты услышишь слово или предложение по-русски. Скажи то же самое по-немецки во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.
+
+Примеры из выпуска:
+• Погода → Wetter
+• Солнце → Sonne
+• Дождь → Regen
+
+Совет: слушай снова, пока не начнёшь отвечать раньше диктора.
+
+Текст: https://repeto.stream/russian-german/transcripts/season-1-episode-11.html</description>
+      <content:encoded>&lt;p&gt;Тема 11 из 30: Погода (Wetter) — 25 фраз.&lt;/p&gt;&lt;p&gt;Ты услышишь слово или предложение по-русски. Скажи то же самое по-немецки во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.&lt;/p&gt;&lt;p&gt;Примеры из выпуска:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Погода → Wetter&lt;/li&gt;&lt;li&gt;Солнце → Sonne&lt;/li&gt;&lt;li&gt;Дождь → Regen&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Совет: слушай снова, пока не начнёшь отвечать раньше диктора.&lt;/p&gt;&lt;p&gt;Текст: &lt;a href="https://repeto.stream/russian-german/transcripts/season-1-episode-11.html"&gt;https://repeto.stream/russian-german/transcripts/season-1-episode-11.html&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:russian-german:topic-11</guid>
+      <pubDate>Mon, 16 Nov 2026 11:30:07 +0000</pubDate>
+      <itunes:episode>11</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>12 Времена года — Jahreszeiten</title>
+      <link>https://repeto.stream/russian-german/transcripts/season-1-episode-12.html</link>
+      <description>Тема 12 из 30: Времена года (Jahreszeiten) — 18 фраз.
+
+Ты услышишь слово или предложение по-русски. Скажи то же самое по-немецки во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.
+
+Примеры из выпуска:
+• Весна → Frühling
+• Лето → Sommer
+• Осень → Herbst
+
+Совет: слушай снова, пока не начнёшь отвечать раньше диктора.
+
+Текст: https://repeto.stream/russian-german/transcripts/season-1-episode-12.html</description>
+      <content:encoded>&lt;p&gt;Тема 12 из 30: Времена года (Jahreszeiten) — 18 фраз.&lt;/p&gt;&lt;p&gt;Ты услышишь слово или предложение по-русски. Скажи то же самое по-немецки во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.&lt;/p&gt;&lt;p&gt;Примеры из выпуска:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Весна → Frühling&lt;/li&gt;&lt;li&gt;Лето → Sommer&lt;/li&gt;&lt;li&gt;Осень → Herbst&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Совет: слушай снова, пока не начнёшь отвечать раньше диктора.&lt;/p&gt;&lt;p&gt;Текст: &lt;a href="https://repeto.stream/russian-german/transcripts/season-1-episode-12.html"&gt;https://repeto.stream/russian-german/transcripts/season-1-episode-12.html&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:russian-german:topic-12</guid>
+      <pubDate>Mon, 16 Nov 2026 11:30:07 +0000</pubDate>
+      <itunes:episode>12</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>13 Дни и время — Tage und Zeit</title>
+      <link>https://repeto.stream/russian-german/transcripts/season-1-episode-13.html</link>
+      <description>Тема 13 из 30: Дни и время (Tage und Zeit) — 29 фраз.
+
+Ты услышишь слово или предложение по-русски. Скажи то же самое по-немецки во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.
+
+Примеры из выпуска:
+• Понедельник → Montag
+• Вторник → Dienstag
+• Среда → Mittwoch
+
+Совет: слушай снова, пока не начнёшь отвечать раньше диктора.
+
+Текст: https://repeto.stream/russian-german/transcripts/season-1-episode-13.html</description>
+      <content:encoded>&lt;p&gt;Тема 13 из 30: Дни и время (Tage und Zeit) — 29 фраз.&lt;/p&gt;&lt;p&gt;Ты услышишь слово или предложение по-русски. Скажи то же самое по-немецки во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.&lt;/p&gt;&lt;p&gt;Примеры из выпуска:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Понедельник → Montag&lt;/li&gt;&lt;li&gt;Вторник → Dienstag&lt;/li&gt;&lt;li&gt;Среда → Mittwoch&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Совет: слушай снова, пока не начнёшь отвечать раньше диктора.&lt;/p&gt;&lt;p&gt;Текст: &lt;a href="https://repeto.stream/russian-german/transcripts/season-1-episode-13.html"&gt;https://repeto.stream/russian-german/transcripts/season-1-episode-13.html&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:russian-german:topic-13</guid>
+      <pubDate>Mon, 16 Nov 2026 11:30:07 +0000</pubDate>
+      <itunes:episode>13</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>14 Игрушки и игры — Spielzeug und Spiele</title>
+      <link>https://repeto.stream/russian-german/transcripts/season-1-episode-14.html</link>
+      <description>Тема 14 из 30: Игрушки и игры (Spielzeug und Spiele) — 34 фразы.
+
+Ты услышишь слово или предложение по-русски. Скажи то же самое по-немецки во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.
+
+Примеры из выпуска:
+• Игрушка → Spielzeug
+• Мяч → Ball
+• Кукла → Puppe
+
+Совет: слушай снова, пока не начнёшь отвечать раньше диктора.
+
+Текст: https://repeto.stream/russian-german/transcripts/season-1-episode-14.html</description>
+      <content:encoded>&lt;p&gt;Тема 14 из 30: Игрушки и игры (Spielzeug und Spiele) — 34 фразы.&lt;/p&gt;&lt;p&gt;Ты услышишь слово или предложение по-русски. Скажи то же самое по-немецки во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.&lt;/p&gt;&lt;p&gt;Примеры из выпуска:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Игрушка → Spielzeug&lt;/li&gt;&lt;li&gt;Мяч → Ball&lt;/li&gt;&lt;li&gt;Кукла → Puppe&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Совет: слушай снова, пока не начнёшь отвечать раньше диктора.&lt;/p&gt;&lt;p&gt;Текст: &lt;a href="https://repeto.stream/russian-german/transcripts/season-1-episode-14.html"&gt;https://repeto.stream/russian-german/transcripts/season-1-episode-14.html&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:russian-german:topic-14</guid>
+      <pubDate>Mon, 16 Nov 2026 11:30:07 +0000</pubDate>
+      <itunes:episode>14</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>15 Спорт и занятия — Sport und Aktivitäten</title>
+      <link>https://repeto.stream/russian-german/transcripts/season-1-episode-15.html</link>
+      <description>Тема 15 из 30: Спорт и занятия (Sport und Aktivitäten) — 25 фраз.
+
+Ты услышишь слово или предложение по-русски. Скажи то же самое по-немецки во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.
+
+Примеры из выпуска:
+• Футбол → Fußball
+• Плавание → Schwimmen
+• Езда на велосипеде → Radfahren
+
+Совет: слушай снова, пока не начнёшь отвечать раньше диктора.
+
+Текст: https://repeto.stream/russian-german/transcripts/season-1-episode-15.html</description>
+      <content:encoded>&lt;p&gt;Тема 15 из 30: Спорт и занятия (Sport und Aktivitäten) — 25 фраз.&lt;/p&gt;&lt;p&gt;Ты услышишь слово или предложение по-русски. Скажи то же самое по-немецки во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.&lt;/p&gt;&lt;p&gt;Примеры из выпуска:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Футбол → Fußball&lt;/li&gt;&lt;li&gt;Плавание → Schwimmen&lt;/li&gt;&lt;li&gt;Езда на велосипеде → Radfahren&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Совет: слушай снова, пока не начнёшь отвечать раньше диктора.&lt;/p&gt;&lt;p&gt;Текст: &lt;a href="https://repeto.stream/russian-german/transcripts/season-1-episode-15.html"&gt;https://repeto.stream/russian-german/transcripts/season-1-episode-15.html&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:russian-german:topic-15</guid>
+      <pubDate>Mon, 16 Nov 2026 11:30:07 +0000</pubDate>
+      <itunes:episode>15</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>16 Я хочу и мне нужно — Ich will und ich brauche</title>
+      <link>https://repeto.stream/russian-german/transcripts/season-1-episode-16.html</link>
+      <description>Тема 16 из 30: Я хочу и мне нужно (Ich will und ich brauche) — 28 фраз.
+
+Ты услышишь слово или предложение по-русски. Скажи то же самое по-немецки во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.
+
+Примеры из выпуска:
+• Я хочу выйти на улицу. → Ich will nach draußen gehen.
+• Я хочу мяч. → Ich will einen Ball.
+• Я хочу есть. → Ich will essen.
+
+Совет: слушай снова, пока не начнёшь отвечать раньше диктора.
+
+Текст: https://repeto.stream/russian-german/transcripts/season-1-episode-16.html</description>
+      <content:encoded>&lt;p&gt;Тема 16 из 30: Я хочу и мне нужно (Ich will und ich brauche) — 28 фраз.&lt;/p&gt;&lt;p&gt;Ты услышишь слово или предложение по-русски. Скажи то же самое по-немецки во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.&lt;/p&gt;&lt;p&gt;Примеры из выпуска:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Я хочу выйти на улицу. → Ich will nach draußen gehen.&lt;/li&gt;&lt;li&gt;Я хочу мяч. → Ich will einen Ball.&lt;/li&gt;&lt;li&gt;Я хочу есть. → Ich will essen.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Совет: слушай снова, пока не начнёшь отвечать раньше диктора.&lt;/p&gt;&lt;p&gt;Текст: &lt;a href="https://repeto.stream/russian-german/transcripts/season-1-episode-16.html"&gt;https://repeto.stream/russian-german/transcripts/season-1-episode-16.html&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:russian-german:topic-16</guid>
+      <pubDate>Mon, 16 Nov 2026 11:30:07 +0000</pubDate>
+      <itunes:episode>16</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>17 Где это? — Wo ist es?</title>
+      <link>https://repeto.stream/russian-german/transcripts/season-1-episode-17.html</link>
+      <description>Тема 17 из 30: Где это? (Wo ist es?) — 28 фраз.
+
+Ты услышишь слово или предложение по-русски. Скажи то же самое по-немецки во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.
+
+Примеры из выпуска:
+• Где мишка? → Wo ist der Teddybär?
+• Где мой телефон? → Wo ist mein Handy?
+• Где моя сумка? → Wo ist meine Tasche?
+
+Совет: слушай снова, пока не начнёшь отвечать раньше диктора.
+
+Текст: https://repeto.stream/russian-german/transcripts/season-1-episode-17.html</description>
+      <content:encoded>&lt;p&gt;Тема 17 из 30: Где это? (Wo ist es?) — 28 фраз.&lt;/p&gt;&lt;p&gt;Ты услышишь слово или предложение по-русски. Скажи то же самое по-немецки во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.&lt;/p&gt;&lt;p&gt;Примеры из выпуска:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Где мишка? → Wo ist der Teddybär?&lt;/li&gt;&lt;li&gt;Где мой телефон? → Wo ist mein Handy?&lt;/li&gt;&lt;li&gt;Где моя сумка? → Wo ist meine Tasche?&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Совет: слушай снова, пока не начнёшь отвечать раньше диктора.&lt;/p&gt;&lt;p&gt;Текст: &lt;a href="https://repeto.stream/russian-german/transcripts/season-1-episode-17.html"&gt;https://repeto.stream/russian-german/transcripts/season-1-episode-17.html&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:russian-german:topic-17</guid>
+      <pubDate>Mon, 16 Nov 2026 11:30:07 +0000</pubDate>
+      <itunes:episode>17</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>18 Чувства и эмоции — Gefühle</title>
+      <link>https://repeto.stream/russian-german/transcripts/season-1-episode-18.html</link>
+      <description>Тема 18 из 30: Чувства и эмоции (Gefühle) — 28 фраз.
+
+Ты услышишь слово или предложение по-русски. Скажи то же самое по-немецки во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.
+
+Примеры из выпуска:
+• Весёлый → fröhlich
+• Грустный → traurig
+• Сердитый → wütend
+
+Совет: слушай снова, пока не начнёшь отвечать раньше диктора.
+
+Текст: https://repeto.stream/russian-german/transcripts/season-1-episode-18.html</description>
+      <content:encoded>&lt;p&gt;Тема 18 из 30: Чувства и эмоции (Gefühle) — 28 фраз.&lt;/p&gt;&lt;p&gt;Ты услышишь слово или предложение по-русски. Скажи то же самое по-немецки во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.&lt;/p&gt;&lt;p&gt;Примеры из выпуска:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Весёлый → fröhlich&lt;/li&gt;&lt;li&gt;Грустный → traurig&lt;/li&gt;&lt;li&gt;Сердитый → wütend&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Совет: слушай снова, пока не начнёшь отвечать раньше диктора.&lt;/p&gt;&lt;p&gt;Текст: &lt;a href="https://repeto.stream/russian-german/transcripts/season-1-episode-18.html"&gt;https://repeto.stream/russian-german/transcripts/season-1-episode-18.html&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:russian-german:topic-18</guid>
+      <pubDate>Mon, 16 Nov 2026 11:30:07 +0000</pubDate>
+      <itunes:episode>18</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>19 Транспорт — Verkehrsmittel</title>
+      <link>https://repeto.stream/russian-german/transcripts/season-1-episode-19.html</link>
+      <description>Тема 19 из 30: Транспорт (Verkehrsmittel) — 25 фраз.
+
+Ты услышишь слово или предложение по-русски. Скажи то же самое по-немецки во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.
+
+Примеры из выпуска:
+• Машина → Auto
+• Автобус → Bus
+• Поезд → Zug
+
+Совет: слушай снова, пока не начнёшь отвечать раньше диктора.
+
+Текст: https://repeto.stream/russian-german/transcripts/season-1-episode-19.html</description>
+      <content:encoded>&lt;p&gt;Тема 19 из 30: Транспорт (Verkehrsmittel) — 25 фраз.&lt;/p&gt;&lt;p&gt;Ты услышишь слово или предложение по-русски. Скажи то же самое по-немецки во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.&lt;/p&gt;&lt;p&gt;Примеры из выпуска:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Машина → Auto&lt;/li&gt;&lt;li&gt;Автобус → Bus&lt;/li&gt;&lt;li&gt;Поезд → Zug&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Совет: слушай снова, пока не начнёшь отвечать раньше диктора.&lt;/p&gt;&lt;p&gt;Текст: &lt;a href="https://repeto.stream/russian-german/transcripts/season-1-episode-19.html"&gt;https://repeto.stream/russian-german/transcripts/season-1-episode-19.html&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:russian-german:topic-19</guid>
+      <pubDate>Mon, 16 Nov 2026 11:30:07 +0000</pubDate>
+      <itunes:episode>19</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>20 Природа — Natur</title>
+      <link>https://repeto.stream/russian-german/transcripts/season-1-episode-20.html</link>
+      <description>Тема 20 из 30: Природа (Natur) — 27 фраз.
+
+Ты услышишь слово или предложение по-русски. Скажи то же самое по-немецки во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.
+
+Примеры из выпуска:
+• Лес → Wald
+• Море → Meer
+• Озеро → See
+
+Совет: слушай снова, пока не начнёшь отвечать раньше диктора.
+
+Текст: https://repeto.stream/russian-german/transcripts/season-1-episode-20.html</description>
+      <content:encoded>&lt;p&gt;Тема 20 из 30: Природа (Natur) — 27 фраз.&lt;/p&gt;&lt;p&gt;Ты услышишь слово или предложение по-русски. Скажи то же самое по-немецки во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.&lt;/p&gt;&lt;p&gt;Примеры из выпуска:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Лес → Wald&lt;/li&gt;&lt;li&gt;Море → Meer&lt;/li&gt;&lt;li&gt;Озеро → See&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Совет: слушай снова, пока не начнёшь отвечать раньше диктора.&lt;/p&gt;&lt;p&gt;Текст: &lt;a href="https://repeto.stream/russian-german/transcripts/season-1-episode-20.html"&gt;https://repeto.stream/russian-german/transcripts/season-1-episode-20.html&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:russian-german:topic-20</guid>
+      <pubDate>Mon, 16 Nov 2026 11:30:07 +0000</pubDate>
+      <itunes:episode>20</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>21 Праздники — Feiertage und Feste</title>
+      <link>https://repeto.stream/russian-german/transcripts/season-1-episode-21.html</link>
+      <description>Тема 21 из 30: Праздники (Feiertage und Feste) — 23 фразы.
+
+Ты услышишь слово или предложение по-русски. Скажи то же самое по-немецки во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.
+
+Примеры из выпуска:
+• День рождения → Geburtstag
+• С днём рождения! → Alles Gute zum Geburtstag!
+• Рождество → Weihnachten
+
+Совет: слушай снова, пока не начнёшь отвечать раньше диктора.
+
+Текст: https://repeto.stream/russian-german/transcripts/season-1-episode-21.html</description>
+      <content:encoded>&lt;p&gt;Тема 21 из 30: Праздники (Feiertage und Feste) — 23 фразы.&lt;/p&gt;&lt;p&gt;Ты услышишь слово или предложение по-русски. Скажи то же самое по-немецки во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.&lt;/p&gt;&lt;p&gt;Примеры из выпуска:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;День рождения → Geburtstag&lt;/li&gt;&lt;li&gt;С днём рождения! → Alles Gute zum Geburtstag!&lt;/li&gt;&lt;li&gt;Рождество → Weihnachten&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Совет: слушай снова, пока не начнёшь отвечать раньше диктора.&lt;/p&gt;&lt;p&gt;Текст: &lt;a href="https://repeto.stream/russian-german/transcripts/season-1-episode-21.html"&gt;https://repeto.stream/russian-german/transcripts/season-1-episode-21.html&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:russian-german:topic-21</guid>
+      <pubDate>Mon, 16 Nov 2026 11:30:07 +0000</pubDate>
+      <itunes:episode>21</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>22 Распорядок дня — Tagesablauf</title>
+      <link>https://repeto.stream/russian-german/transcripts/season-1-episode-22.html</link>
+      <description>Тема 22 из 30: Распорядок дня (Tagesablauf) — 28 фраз.
+
+Ты услышишь слово или предложение по-русски. Скажи то же самое по-немецки во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.
+
+Примеры из выпуска:
+• Просыпаться → aufwachen
+• Вставать → aufstehen
+• Чистить зубы → sich die Zähne putzen
+
+Совет: слушай снова, пока не начнёшь отвечать раньше диктора.
+
+Текст: https://repeto.stream/russian-german/transcripts/season-1-episode-22.html</description>
+      <content:encoded>&lt;p&gt;Тема 22 из 30: Распорядок дня (Tagesablauf) — 28 фраз.&lt;/p&gt;&lt;p&gt;Ты услышишь слово или предложение по-русски. Скажи то же самое по-немецки во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.&lt;/p&gt;&lt;p&gt;Примеры из выпуска:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Просыпаться → aufwachen&lt;/li&gt;&lt;li&gt;Вставать → aufstehen&lt;/li&gt;&lt;li&gt;Чистить зубы → sich die Zähne putzen&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Совет: слушай снова, пока не начнёшь отвечать раньше диктора.&lt;/p&gt;&lt;p&gt;Текст: &lt;a href="https://repeto.stream/russian-german/transcripts/season-1-episode-22.html"&gt;https://repeto.stream/russian-german/transcripts/season-1-episode-22.html&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:russian-german:topic-22</guid>
+      <pubDate>Mon, 16 Nov 2026 11:30:07 +0000</pubDate>
+      <itunes:episode>22</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>23 Вопросы и просьбы — Fragen und Bitten</title>
+      <link>https://repeto.stream/russian-german/transcripts/season-1-episode-23.html</link>
+      <description>Тема 23 из 30: Вопросы и просьбы (Fragen und Bitten) — 26 фраз.
+
+Ты услышишь слово или предложение по-русски. Скажи то же самое по-немецки во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.
+
+Примеры из выпуска:
+• Ты можешь мне помочь? → Kannst du mir helfen?
+• Помогите! → Hilfe!
+• Пожалуйста! → Bitte!
+
+Совет: слушай снова, пока не начнёшь отвечать раньше диктора.
+
+Текст: https://repeto.stream/russian-german/transcripts/season-1-episode-23.html</description>
+      <content:encoded>&lt;p&gt;Тема 23 из 30: Вопросы и просьбы (Fragen und Bitten) — 26 фраз.&lt;/p&gt;&lt;p&gt;Ты услышишь слово или предложение по-русски. Скажи то же самое по-немецки во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.&lt;/p&gt;&lt;p&gt;Примеры из выпуска:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Ты можешь мне помочь? → Kannst du mir helfen?&lt;/li&gt;&lt;li&gt;Помогите! → Hilfe!&lt;/li&gt;&lt;li&gt;Пожалуйста! → Bitte!&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Совет: слушай снова, пока не начнёшь отвечать раньше диктора.&lt;/p&gt;&lt;p&gt;Текст: &lt;a href="https://repeto.stream/russian-german/transcripts/season-1-episode-23.html"&gt;https://repeto.stream/russian-german/transcripts/season-1-episode-23.html&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:russian-german:topic-23</guid>
+      <pubDate>Mon, 16 Nov 2026 11:30:07 +0000</pubDate>
+      <itunes:episode>23</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>24 Противоположности — Gegensätze</title>
+      <link>https://repeto.stream/russian-german/transcripts/season-1-episode-24.html</link>
+      <description>Тема 24 из 30: Противоположности (Gegensätze) — 28 фраз.
+
+Ты услышишь слово или предложение по-русски. Скажи то же самое по-немецки во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.
+
+Примеры из выпуска:
+• Большой → groß
+• Маленький → klein
+• Длинный → lang
+
+Совет: слушай снова, пока не начнёшь отвечать раньше диктора.
+
+Текст: https://repeto.stream/russian-german/transcripts/season-1-episode-24.html</description>
+      <content:encoded>&lt;p&gt;Тема 24 из 30: Противоположности (Gegensätze) — 28 фраз.&lt;/p&gt;&lt;p&gt;Ты услышишь слово или предложение по-русски. Скажи то же самое по-немецки во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.&lt;/p&gt;&lt;p&gt;Примеры из выпуска:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Большой → groß&lt;/li&gt;&lt;li&gt;Маленький → klein&lt;/li&gt;&lt;li&gt;Длинный → lang&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Совет: слушай снова, пока не начнёшь отвечать раньше диктора.&lt;/p&gt;&lt;p&gt;Текст: &lt;a href="https://repeto.stream/russian-german/transcripts/season-1-episode-24.html"&gt;https://repeto.stream/russian-german/transcripts/season-1-episode-24.html&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:russian-german:topic-24</guid>
+      <pubDate>Mon, 16 Nov 2026 11:30:07 +0000</pubDate>
+      <itunes:episode>24</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>25 Действия и глаголы — Handlungen und Verben</title>
+      <link>https://repeto.stream/russian-german/transcripts/season-1-episode-25.html</link>
+      <description>Тема 25 из 30: Действия и глаголы (Handlungen und Verben) — 41 фраза.
+
+Ты услышишь слово или предложение по-русски. Скажи то же самое по-немецки во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.
+
+Примеры из выпуска:
+• Идти → gehen
+• Бегать → laufen
+• Прыгать → springen
+
+Совет: слушай снова, пока не начнёшь отвечать раньше диктора.
+
+Текст: https://repeto.stream/russian-german/transcripts/season-1-episode-25.html</description>
+      <content:encoded>&lt;p&gt;Тема 25 из 30: Действия и глаголы (Handlungen und Verben) — 41 фраза.&lt;/p&gt;&lt;p&gt;Ты услышишь слово или предложение по-русски. Скажи то же самое по-немецки во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.&lt;/p&gt;&lt;p&gt;Примеры из выпуска:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Идти → gehen&lt;/li&gt;&lt;li&gt;Бегать → laufen&lt;/li&gt;&lt;li&gt;Прыгать → springen&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Совет: слушай снова, пока не начнёшь отвечать раньше диктора.&lt;/p&gt;&lt;p&gt;Текст: &lt;a href="https://repeto.stream/russian-german/transcripts/season-1-episode-25.html"&gt;https://repeto.stream/russian-german/transcripts/season-1-episode-25.html&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:russian-german:topic-25</guid>
+      <pubDate>Mon, 16 Nov 2026 11:30:07 +0000</pubDate>
+      <itunes:episode>25</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>26 Места в городе — Orte in der Stadt</title>
+      <link>https://repeto.stream/russian-german/transcripts/season-1-episode-26.html</link>
+      <description>Тема 26 из 30: Места в городе (Orte in der Stadt) — 23 фразы.
+
+Ты услышишь слово или предложение по-русски. Скажи то же самое по-немецки во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.
+
+Примеры из выпуска:
+• Парк → der Park
+• Детская площадка → der Spielplatz
+• Магазин → der Laden
+
+Совет: слушай снова, пока не начнёшь отвечать раньше диктора.
+
+Текст: https://repeto.stream/russian-german/transcripts/season-1-episode-26.html</description>
+      <content:encoded>&lt;p&gt;Тема 26 из 30: Места в городе (Orte in der Stadt) — 23 фразы.&lt;/p&gt;&lt;p&gt;Ты услышишь слово или предложение по-русски. Скажи то же самое по-немецки во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.&lt;/p&gt;&lt;p&gt;Примеры из выпуска:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Парк → der Park&lt;/li&gt;&lt;li&gt;Детская площадка → der Spielplatz&lt;/li&gt;&lt;li&gt;Магазин → der Laden&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Совет: слушай снова, пока не начнёшь отвечать раньше диктора.&lt;/p&gt;&lt;p&gt;Текст: &lt;a href="https://repeto.stream/russian-german/transcripts/season-1-episode-26.html"&gt;https://repeto.stream/russian-german/transcripts/season-1-episode-26.html&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:russian-german:topic-26</guid>
+      <pubDate>Mon, 16 Nov 2026 11:30:07 +0000</pubDate>
+      <itunes:episode>26</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>27 Техника — Technik</title>
+      <link>https://repeto.stream/russian-german/transcripts/season-1-episode-27.html</link>
+      <description>Тема 27 из 30: Техника (Technik) — 22 фразы.
+
+Ты услышишь слово или предложение по-русски. Скажи то же самое по-немецки во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.
+
+Примеры из выпуска:
+• Телефон → das Telefon
+• Мобильный телефон → das Handy
+• Компьютер → der Computer
+
+Совет: слушай снова, пока не начнёшь отвечать раньше диктора.
+
+Текст: https://repeto.stream/russian-german/transcripts/season-1-episode-27.html</description>
+      <content:encoded>&lt;p&gt;Тема 27 из 30: Техника (Technik) — 22 фразы.&lt;/p&gt;&lt;p&gt;Ты услышишь слово или предложение по-русски. Скажи то же самое по-немецки во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.&lt;/p&gt;&lt;p&gt;Примеры из выпуска:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Телефон → das Telefon&lt;/li&gt;&lt;li&gt;Мобильный телефон → das Handy&lt;/li&gt;&lt;li&gt;Компьютер → der Computer&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Совет: слушай снова, пока не начнёшь отвечать раньше диктора.&lt;/p&gt;&lt;p&gt;Текст: &lt;a href="https://repeto.stream/russian-german/transcripts/season-1-episode-27.html"&gt;https://repeto.stream/russian-german/transcripts/season-1-episode-27.html&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:russian-german:topic-27</guid>
+      <pubDate>Mon, 16 Nov 2026 11:30:07 +0000</pubDate>
+      <itunes:episode>27</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>28 Музыка и искусство — Musik und Kunst</title>
+      <link>https://repeto.stream/russian-german/transcripts/season-1-episode-28.html</link>
+      <description>Тема 28 из 30: Музыка и искусство (Musik und Kunst) — 23 фразы.
+
+Ты услышишь слово или предложение по-русски. Скажи то же самое по-немецки во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.
+
+Примеры из выпуска:
+• Музыка → die Musik
+• Песня → das Lied
+• Танцы → das Tanzen
+
+Совет: слушай снова, пока не начнёшь отвечать раньше диктора.
+
+Текст: https://repeto.stream/russian-german/transcripts/season-1-episode-28.html</description>
+      <content:encoded>&lt;p&gt;Тема 28 из 30: Музыка и искусство (Musik und Kunst) — 23 фразы.&lt;/p&gt;&lt;p&gt;Ты услышишь слово или предложение по-русски. Скажи то же самое по-немецки во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.&lt;/p&gt;&lt;p&gt;Примеры из выпуска:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Музыка → die Musik&lt;/li&gt;&lt;li&gt;Песня → das Lied&lt;/li&gt;&lt;li&gt;Танцы → das Tanzen&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Совет: слушай снова, пока не начнёшь отвечать раньше диктора.&lt;/p&gt;&lt;p&gt;Текст: &lt;a href="https://repeto.stream/russian-german/transcripts/season-1-episode-28.html"&gt;https://repeto.stream/russian-german/transcripts/season-1-episode-28.html&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:russian-german:topic-28</guid>
+      <pubDate>Mon, 16 Nov 2026 11:30:07 +0000</pubDate>
+      <itunes:episode>28</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>29 Вежливые слова — Höfliche Ausdrücke</title>
+      <link>https://repeto.stream/russian-german/transcripts/season-1-episode-29.html</link>
+      <description>Тема 29 из 30: Вежливые слова (Höfliche Ausdrücke) — 17 фраз.
+
+Ты услышишь слово или предложение по-русски. Скажи то же самое по-немецки во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.
+
+Примеры из выпуска:
+• Пожалуйста. → Bitte.
+• Спасибо! → Danke!
+• Большое спасибо! → Vielen Dank!
+
+Совет: слушай снова, пока не начнёшь отвечать раньше диктора.
+
+Текст: https://repeto.stream/russian-german/transcripts/season-1-episode-29.html</description>
+      <content:encoded>&lt;p&gt;Тема 29 из 30: Вежливые слова (Höfliche Ausdrücke) — 17 фраз.&lt;/p&gt;&lt;p&gt;Ты услышишь слово или предложение по-русски. Скажи то же самое по-немецки во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.&lt;/p&gt;&lt;p&gt;Примеры из выпуска:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Пожалуйста. → Bitte.&lt;/li&gt;&lt;li&gt;Спасибо! → Danke!&lt;/li&gt;&lt;li&gt;Большое спасибо! → Vielen Dank!&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Совет: слушай снова, пока не начнёшь отвечать раньше диктора.&lt;/p&gt;&lt;p&gt;Текст: &lt;a href="https://repeto.stream/russian-german/transcripts/season-1-episode-29.html"&gt;https://repeto.stream/russian-german/transcripts/season-1-episode-29.html&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:russian-german:topic-29</guid>
+      <pubDate>Mon, 16 Nov 2026 11:30:07 +0000</pubDate>
+      <itunes:episode>29</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>30 Повторение — Wiederholung</title>
+      <link>https://repeto.stream/russian-german/transcripts/season-1-episode-30.html</link>
+      <description>Тема 30 из 30: Повторение (Wiederholung) — 11 фраз.
+
+Ты услышишь слово или предложение по-русски. Скажи то же самое по-немецки во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.
+
+Примеры из выпуска:
+• Молодец! → Gut gemacht!
+• Ты учишь новый язык! → Du lernst eine neue Sprache!
+• Давай потренируемся! → Lass uns üben!
+
+Совет: слушай снова, пока не начнёшь отвечать раньше диктора.
+
+Текст: https://repeto.stream/russian-german/transcripts/season-1-episode-30.html</description>
+      <content:encoded>&lt;p&gt;Тема 30 из 30: Повторение (Wiederholung) — 11 фраз.&lt;/p&gt;&lt;p&gt;Ты услышишь слово или предложение по-русски. Скажи то же самое по-немецки во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.&lt;/p&gt;&lt;p&gt;Примеры из выпуска:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Молодец! → Gut gemacht!&lt;/li&gt;&lt;li&gt;Ты учишь новый язык! → Du lernst eine neue Sprache!&lt;/li&gt;&lt;li&gt;Давай потренируемся! → Lass uns üben!&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Совет: слушай снова, пока не начнёшь отвечать раньше диктора.&lt;/p&gt;&lt;p&gt;Текст: &lt;a href="https://repeto.stream/russian-german/transcripts/season-1-episode-30.html"&gt;https://repeto.stream/russian-german/transcripts/season-1-episode-30.html&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:russian-german:topic-30</guid>
+      <pubDate>Mon, 16 Nov 2026 11:30:07 +0000</pubDate>
+      <itunes:episode>30</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>01 Волшебное радио: Старый стол — Der alte Tisch</title>
+      <link>https://repeto.stream/russian-german/transcripts/season-2-episode-01.html</link>
+      <description>История «Волшебное радио» (Das magische Radio). Глава 1 из 8. Брат и сестра находят старое деревянное радио на блошином рынке. Вдруг оно начинает шуметь, а золотая надпись показывает, что радио предназначено именно для них.
+
+Как устроен выпуск:
+1. Послушай всю главу по-немецки — не обязательно понимать всё.
+2. Потренируй слова и выражения из главы: подсказка по-русски, пауза, ответ по-немецки.
+3. Послушай главу ещё раз и проверь, сколько удалось понять.
+
+Между частями звучит сигнал. Слушай по порядку, начиная с первой главы.
+
+Текст: https://repeto.stream/russian-german/transcripts/season-2-episode-01.html</description>
+      <content:encoded>&lt;p&gt;История «Волшебное радио» (Das magische Radio). Глава 1 из 8. Брат и сестра находят старое деревянное радио на блошином рынке. Вдруг оно начинает шуметь, а золотая надпись показывает, что радио предназначено именно для них.&lt;/p&gt;&lt;p&gt;Как устроен выпуск:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Послушай всю главу по-немецки — не обязательно понимать всё.&lt;/li&gt;&lt;li&gt;Потренируй слова и выражения из главы: подсказка по-русски, пауза, ответ по-немецки.&lt;/li&gt;&lt;li&gt;Послушай главу ещё раз и проверь, сколько удалось понять.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;Между частями звучит сигнал. Слушай по порядку, начиная с первой главы.&lt;/p&gt;&lt;p&gt;Текст: &lt;a href="https://repeto.stream/russian-german/transcripts/season-2-episode-01.html"&gt;https://repeto.stream/russian-german/transcripts/season-2-episode-01.html&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">magical_radio:ru:de:chapter-01</guid>
+      <pubDate>Mon, 16 Nov 2026 11:30:07 +0000</pubDate>
+      <itunes:episode>1</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://repeto.stream/russian-german/images/stories/magical_radio/cover-fe68de28.jpeg" />
+    </item>
+    <item>
+      <title>02 Волшебное радио: Голос из радио — Eine Stimme aus dem Radio</title>
+      <link>https://repeto.stream/russian-german/transcripts/season-2-episode-02.html</link>
+      <description>История «Волшебное радио» (Das magische Radio). Глава 2 из 8. Дома дети нажимают синюю кнопку. Из радио вылетает облачко с запахом корицы, а весёлый голос рассказывает о мышке с важным ключом.
+
+Как устроен выпуск:
+1. Послушай всю главу по-немецки — не обязательно понимать всё.
+2. Потренируй слова и выражения из главы: подсказка по-русски, пауза, ответ по-немецки.
+3. Послушай главу ещё раз и проверь, сколько удалось понять.
+
+Между частями звучит сигнал. Слушай по порядку, начиная с первой главы.
+
+Текст: https://repeto.stream/russian-german/transcripts/season-2-episode-02.html</description>
+      <content:encoded>&lt;p&gt;История «Волшебное радио» (Das magische Radio). Глава 2 из 8. Дома дети нажимают синюю кнопку. Из радио вылетает облачко с запахом корицы, а весёлый голос рассказывает о мышке с важным ключом.&lt;/p&gt;&lt;p&gt;Как устроен выпуск:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Послушай всю главу по-немецки — не обязательно понимать всё.&lt;/li&gt;&lt;li&gt;Потренируй слова и выражения из главы: подсказка по-русски, пауза, ответ по-немецки.&lt;/li&gt;&lt;li&gt;Послушай главу ещё раз и проверь, сколько удалось понять.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;Между частями звучит сигнал. Слушай по порядку, начиная с первой главы.&lt;/p&gt;&lt;p&gt;Текст: &lt;a href="https://repeto.stream/russian-german/transcripts/season-2-episode-02.html"&gt;https://repeto.stream/russian-german/transcripts/season-2-episode-02.html&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">magical_radio:ru:de:chapter-02</guid>
+      <pubDate>Mon, 16 Nov 2026 11:30:07 +0000</pubDate>
+      <itunes:episode>2</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://repeto.stream/russian-german/images/stories/magical_radio/cover-fe68de28.jpeg" />
+    </item>
+    <item>
+      <title>03 Волшебное радио: Мышка под деревом — Die Maus unter dem Baum</title>
+      <link>https://repeto.stream/russian-german/transcripts/season-2-episode-03.html</link>
+      <description>История «Волшебное радио» (Das magische Radio). Глава 3 из 8. С фонариком, сыром и радио дети идут к старому дереву. Маленькая мышка соглашается на обмен, а между корнями скрывается маленькая дверь.
+
+Как устроен выпуск:
+1. Послушай всю главу по-немецки — не обязательно понимать всё.
+2. Потренируй слова и выражения из главы: подсказка по-русски, пауза, ответ по-немецки.
+3. Послушай главу ещё раз и проверь, сколько удалось понять.
+
+Между частями звучит сигнал. Слушай по порядку, начиная с первой главы.
+
+Текст: https://repeto.stream/russian-german/transcripts/season-2-episode-03.html</description>
+      <content:encoded>&lt;p&gt;История «Волшебное радио» (Das magische Radio). Глава 3 из 8. С фонариком, сыром и радио дети идут к старому дереву. Маленькая мышка соглашается на обмен, а между корнями скрывается маленькая дверь.&lt;/p&gt;&lt;p&gt;Как устроен выпуск:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Послушай всю главу по-немецки — не обязательно понимать всё.&lt;/li&gt;&lt;li&gt;Потренируй слова и выражения из главы: подсказка по-русски, пауза, ответ по-немецки.&lt;/li&gt;&lt;li&gt;Послушай главу ещё раз и проверь, сколько удалось понять.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;Между частями звучит сигнал. Слушай по порядку, начиная с первой главы.&lt;/p&gt;&lt;p&gt;Текст: &lt;a href="https://repeto.stream/russian-german/transcripts/season-2-episode-03.html"&gt;https://repeto.stream/russian-german/transcripts/season-2-episode-03.html&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">magical_radio:ru:de:chapter-03</guid>
+      <pubDate>Mon, 16 Nov 2026 11:30:07 +0000</pubDate>
+      <itunes:episode>3</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://repeto.stream/russian-german/images/stories/magical_radio/cover-fe68de28.jpeg" />
+    </item>
+    <item>
+      <title>04 Волшебное радио: Лестница вниз — Die Treppe hinunter</title>
+      <link>https://repeto.stream/russian-german/transcripts/season-2-episode-04.html</link>
+      <description>История «Волшебное радио» (Das magische Radio). Глава 4 из 8. Серебряный ключ открывает дверь. Каменные ступени ведут вниз, в библиотеку с летающими книгами, а на стенах растут светящиеся цветы.
+
+Как устроен выпуск:
+1. Послушай всю главу по-немецки — не обязательно понимать всё.
+2. Потренируй слова и выражения из главы: подсказка по-русски, пауза, ответ по-немецки.
+3. Послушай главу ещё раз и проверь, сколько удалось понять.
+
+Между частями звучит сигнал. Слушай по порядку, начиная с первой главы.
+
+Текст: https://repeto.stream/russian-german/transcripts/season-2-episode-04.html</description>
+      <content:encoded>&lt;p&gt;История «Волшебное радио» (Das magische Radio). Глава 4 из 8. Серебряный ключ открывает дверь. Каменные ступени ведут вниз, в библиотеку с летающими книгами, а на стенах растут светящиеся цветы.&lt;/p&gt;&lt;p&gt;Как устроен выпуск:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Послушай всю главу по-немецки — не обязательно понимать всё.&lt;/li&gt;&lt;li&gt;Потренируй слова и выражения из главы: подсказка по-русски, пауза, ответ по-немецки.&lt;/li&gt;&lt;li&gt;Послушай главу ещё раз и проверь, сколько удалось понять.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;Между частями звучит сигнал. Слушай по порядку, начиная с первой главы.&lt;/p&gt;&lt;p&gt;Текст: &lt;a href="https://repeto.stream/russian-german/transcripts/season-2-episode-04.html"&gt;https://repeto.stream/russian-german/transcripts/season-2-episode-04.html&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">magical_radio:ru:de:chapter-04</guid>
+      <pubDate>Mon, 16 Nov 2026 11:30:07 +0000</pubDate>
+      <itunes:episode>4</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://repeto.stream/russian-german/images/stories/magical_radio/cover-fe68de28.jpeg" />
+    </item>
+    <item>
+      <title>05 Волшебное радио: Летающая книга — Das fliegende Buch</title>
+      <link>https://repeto.stream/russian-german/transcripts/season-2-episode-05.html</link>
+      <description>История «Волшебное радио» (Das magische Radio). Глава 5 из 8. Золотая книга садится на плечо, а радио раскрывает заклинание, которое чинит сломанные вещи.
+
+Как устроен выпуск:
+1. Послушай всю главу по-немецки — не обязательно понимать всё.
+2. Потренируй слова и выражения из главы: подсказка по-русски, пауза, ответ по-немецки.
+3. Послушай главу ещё раз и проверь, сколько удалось понять.
+
+Между частями звучит сигнал. Слушай по порядку, начиная с первой главы.
+
+Текст: https://repeto.stream/russian-german/transcripts/season-2-episode-05.html</description>
+      <content:encoded>&lt;p&gt;История «Волшебное радио» (Das magische Radio). Глава 5 из 8. Золотая книга садится на плечо, а радио раскрывает заклинание, которое чинит сломанные вещи.&lt;/p&gt;&lt;p&gt;Как устроен выпуск:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Послушай всю главу по-немецки — не обязательно понимать всё.&lt;/li&gt;&lt;li&gt;Потренируй слова и выражения из главы: подсказка по-русски, пауза, ответ по-немецки.&lt;/li&gt;&lt;li&gt;Послушай главу ещё раз и проверь, сколько удалось понять.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;Между частями звучит сигнал. Слушай по порядку, начиная с первой главы.&lt;/p&gt;&lt;p&gt;Текст: &lt;a href="https://repeto.stream/russian-german/transcripts/season-2-episode-05.html"&gt;https://repeto.stream/russian-german/transcripts/season-2-episode-05.html&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">magical_radio:ru:de:chapter-05</guid>
+      <pubDate>Mon, 16 Nov 2026 11:30:07 +0000</pubDate>
+      <itunes:episode>5</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://repeto.stream/russian-german/images/stories/magical_radio/cover-fe68de28.jpeg" />
+    </item>
+    <item>
+      <title>06 Волшебное радио: Первое заклинание — Der erste Zauberspruch</title>
+      <link>https://repeto.stream/russian-german/transcripts/season-2-episode-06.html</link>
+      <description>История «Волшебное радио» (Das magische Radio). Глава 6 из 8. Пора испытать заклинание на сломанном компасе. Сработает ли оно? И кто ждёт за зелёной дверью?
+
+Как устроен выпуск:
+1. Послушай всю главу по-немецки — не обязательно понимать всё.
+2. Потренируй слова и выражения из главы: подсказка по-русски, пауза, ответ по-немецки.
+3. Послушай главу ещё раз и проверь, сколько удалось понять.
+
+Между частями звучит сигнал. Слушай по порядку, начиная с первой главы.
+
+Текст: https://repeto.stream/russian-german/transcripts/season-2-episode-06.html</description>
+      <content:encoded>&lt;p&gt;История «Волшебное радио» (Das magische Radio). Глава 6 из 8. Пора испытать заклинание на сломанном компасе. Сработает ли оно? И кто ждёт за зелёной дверью?&lt;/p&gt;&lt;p&gt;Как устроен выпуск:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Послушай всю главу по-немецки — не обязательно понимать всё.&lt;/li&gt;&lt;li&gt;Потренируй слова и выражения из главы: подсказка по-русски, пауза, ответ по-немецки.&lt;/li&gt;&lt;li&gt;Послушай главу ещё раз и проверь, сколько удалось понять.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;Между частями звучит сигнал. Слушай по порядку, начиная с первой главы.&lt;/p&gt;&lt;p&gt;Текст: &lt;a href="https://repeto.stream/russian-german/transcripts/season-2-episode-06.html"&gt;https://repeto.stream/russian-german/transcripts/season-2-episode-06.html&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">magical_radio:ru:de:chapter-06</guid>
+      <pubDate>Mon, 16 Nov 2026 11:30:07 +0000</pubDate>
+      <itunes:episode>6</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://repeto.stream/russian-german/images/stories/magical_radio/cover-fe68de28.jpeg" />
+    </item>
+    <item>
+      <title>07 Волшебное радио: Золотая птица — Der goldene Vogel</title>
+      <link>https://repeto.stream/russian-german/transcripts/season-2-episode-07.html</link>
+      <description>История «Волшебное радио» (Das magische Radio). Глава 7 из 8. За дверью находится подземный сад. Золотая птица не поёт, а тикает как часы. В её крыле не хватает камешка, а радио хранит тайну.
+
+Как устроен выпуск:
+1. Послушай всю главу по-немецки — не обязательно понимать всё.
+2. Потренируй слова и выражения из главы: подсказка по-русски, пауза, ответ по-немецки.
+3. Послушай главу ещё раз и проверь, сколько удалось понять.
+
+Между частями звучит сигнал. Слушай по порядку, начиная с первой главы.
+
+Текст: https://repeto.stream/russian-german/transcripts/season-2-episode-07.html</description>
+      <content:encoded>&lt;p&gt;История «Волшебное радио» (Das magische Radio). Глава 7 из 8. За дверью находится подземный сад. Золотая птица не поёт, а тикает как часы. В её крыле не хватает камешка, а радио хранит тайну.&lt;/p&gt;&lt;p&gt;Как устроен выпуск:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Послушай всю главу по-немецки — не обязательно понимать всё.&lt;/li&gt;&lt;li&gt;Потренируй слова и выражения из главы: подсказка по-русски, пауза, ответ по-немецки.&lt;/li&gt;&lt;li&gt;Послушай главу ещё раз и проверь, сколько удалось понять.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;Между частями звучит сигнал. Слушай по порядку, начиная с первой главы.&lt;/p&gt;&lt;p&gt;Текст: &lt;a href="https://repeto.stream/russian-german/transcripts/season-2-episode-07.html"&gt;https://repeto.stream/russian-german/transcripts/season-2-episode-07.html&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">magical_radio:ru:de:chapter-07</guid>
+      <pubDate>Mon, 16 Nov 2026 11:30:07 +0000</pubDate>
+      <itunes:episode>7</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://repeto.stream/russian-german/images/stories/magical_radio/cover-fe68de28.jpeg" />
+    </item>
+    <item>
+      <title>08 Волшебное радио: Большой концерт — Das große Konzert</title>
+      <link>https://repeto.stream/russian-german/transcripts/season-2-episode-08.html</link>
+      <description>История «Волшебное радио» (Das magische Radio). Глава 8 из 8. Финал! Смогут ли дети починить золотую птицу? История заканчивается пением, танцем бабочек и обещанием нового приключения.
+
+Как устроен выпуск:
+1. Послушай всю главу по-немецки — не обязательно понимать всё.
+2. Потренируй слова и выражения из главы: подсказка по-русски, пауза, ответ по-немецки.
+3. Послушай главу ещё раз и проверь, сколько удалось понять.
+
+Между частями звучит сигнал. Слушай по порядку, начиная с первой главы.
+
+Текст: https://repeto.stream/russian-german/transcripts/season-2-episode-08.html</description>
+      <content:encoded>&lt;p&gt;История «Волшебное радио» (Das magische Radio). Глава 8 из 8. Финал! Смогут ли дети починить золотую птицу? История заканчивается пением, танцем бабочек и обещанием нового приключения.&lt;/p&gt;&lt;p&gt;Как устроен выпуск:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Послушай всю главу по-немецки — не обязательно понимать всё.&lt;/li&gt;&lt;li&gt;Потренируй слова и выражения из главы: подсказка по-русски, пауза, ответ по-немецки.&lt;/li&gt;&lt;li&gt;Послушай главу ещё раз и проверь, сколько удалось понять.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;Между частями звучит сигнал. Слушай по порядку, начиная с первой главы.&lt;/p&gt;&lt;p&gt;Текст: &lt;a href="https://repeto.stream/russian-german/transcripts/season-2-episode-08.html"&gt;https://repeto.stream/russian-german/transcripts/season-2-episode-08.html&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">magical_radio:ru:de:chapter-08</guid>
+      <pubDate>Mon, 16 Nov 2026 11:30:07 +0000</pubDate>
+      <itunes:episode>8</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://repeto.stream/russian-german/images/stories/magical_radio/cover-fe68de28.jpeg" />
+    </item>
+  </channel>
+</rss>
