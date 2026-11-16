@@ -20,6 +20,7 @@ from edge_tts.exceptions import NoAudioReceived
 from pydub import AudioSegment
 from pydub.effects import compress_dynamic_range
 from pydub.silence import detect_nonsilent
+from audio_encoding import mp3_export_settings
 
 if TYPE_CHECKING:
     from speech_cache import SpeechCache
@@ -402,10 +403,13 @@ def export_section(
         for target in manifests:
             manifest = manifests[target]
             audio_path = staging / manifest["audio_file"]
+            export_options, encoding_parameters = mp3_export_settings()
             with audio_path.open("w+b") as audio_file:
                 tracks[target].export(
-                    audio_file, format="mp3", bitrate="192k",
-                    parameters=["-ar", str(SAMPLE_RATE), "-write_xing", "1"],
+                    audio_file,
+                    format="mp3",
+                    parameters=["-ar", str(SAMPLE_RATE), *encoding_parameters],
+                    **export_options,
                 )
             decoded = AudioSegment.from_file(str(audio_path), format="mp3")
             if decoded.frame_rate != SAMPLE_RATE or abs(
