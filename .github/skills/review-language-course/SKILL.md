@@ -99,11 +99,10 @@ Use the configured project interpreter and existing validators and tests.
 4. **Impact:** identify every packaged direction using each changed language.
    Practice historically uses Swedish `se`; stories and catalogs use `sv`.
    Compare the pre-edit baseline and packaged timing text, not just the git diff.
-5. **Audio:** synthesize only changed clips, reusing unchanged narration and
-   vocabulary clips. For existing published directions use the
-   [PR audio workflow](../../../docs/deploy.md): it reuses verified cache
-   entries, renders affected story chapters, and currently renders practice
-   direction-wide. Review staging before merging. Keep both story readings
+5. **Audio:** use the [PR audio workflow](../../../docs/deploy.md) for missing
+   and changed recordings, including new locally packaged courses. It reuses
+   verified cached clips and renders affected practice topics and story
+   chapters only. Review staging before merging. Keep both story readings
    consistent; preserve introductions, chimes, pauses and narration settings.
 6. **Artifacts:** update timing JSON, build manifest, catalog, RSS and pages
    consistently. The automated workflow commits catalog, RSS and staging

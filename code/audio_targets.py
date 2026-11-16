@@ -2,6 +2,7 @@
 
 import argparse
 import json
+import re
 import sys
 from collections.abc import Mapping
 from dataclasses import asdict, dataclass
@@ -19,6 +20,7 @@ class AudioTarget:
     target: str
     story_id: str | None = None
     chapters: tuple[int, ...] = ()
+    topics: tuple[str, ...] = ()
 
 
 @dataclass
@@ -226,7 +228,7 @@ def _catalogs(root: Path) -> list[tuple[str, str, str, list[Mapping[str, Any]]]]
 
 
 def infer_audio_targets(base_root: Path, head_root: Path) -> list[AudioTarget]:
-    """Return existing catalog directions whose spoken source data changed."""
+    """Return catalog episodes with pending or changed spoken source data."""
     base_practice = _read_json(
         base_root / "courses/practice/transcript.json", base_root
     )
@@ -240,6 +242,57 @@ def infer_audio_targets(base_root: Path, head_root: Path) -> list[AudioTarget]:
         catalog_root = base_root / "podcast"
     courses = _catalogs(catalog_root)
     targets: set[AudioTarget] = set()
+    practice_topics: dict[tuple[str, str, str], set[str]] = {}
+    head_entries = _entries_by_id(head_practice)
+    topic_order = list(dict.fromkeys(
+        entry["topic"] for entry in head_entries.values()
+        if isinstance(entry.get("topic"), str)
+    ))
+    old_topic_order = list(dict.fromkeys(
+        entry["topic"] for entry in _entries_by_id(base_practice).values()
+        if isinstance(entry.get("topic"), str)
+    ))
+    if topic_order[:len(old_topic_order)] != old_topic_order:
+        raise ValueError(
+            "Removing or reordering practice topics changes episode IDs and requires manual migration."
+        )
+
+    def add_practice(slug: str, source: str, target: str, topic: str) -> None:
+        practice_topics.setdefault((slug, source, target), set()).add(topic)
+
+    for slug, source, target, episodes in courses:
+        for episode in episodes:
+            if "pending_audio" in episode and episode["pending_audio"] is not True:
+                raise ValueError(f"Invalid pending audio flag in {slug}.")
+            if episode.get("pending_audio") is not True:
+                continue
+            if any(key in episode for key in ("file", "duration_ms", "bytes", "sha256")):
+                raise ValueError(f"Pending episode has audio metadata in {slug}.")
+            episode_id = episode.get("id")
+            if not isinstance(episode_id, str):
+                raise ValueError(f"Pending episode has invalid ID in {slug}.")
+            practice_match = re.fullmatch(
+                rf"repeto:{re.escape(slug)}:topic-(\d+)", episode_id
+            )
+            story_match = re.fullmatch(
+                rf"([A-Za-z0-9_-]+):{re.escape(source)}:{re.escape(target)}:chapter-(\d+)",
+                episode_id,
+            )
+            if practice_match:
+                number = int(practice_match.group(1))
+                if number < 1 or number > len(topic_order):
+                    raise ValueError(f"Pending practice episode has no topic: {episode_id}")
+                add_practice(
+                    slug, PRACTICE_LANGUAGE_ALIASES.get(source, source),
+                    PRACTICE_LANGUAGE_ALIASES.get(target, target), topic_order[number - 1]
+                )
+            elif story_match:
+                number = int(story_match.group(2))
+                if number < 1:
+                    raise ValueError(f"Invalid pending story chapter: {episode_id}")
+                targets.add(AudioTarget("story", slug, source, target, story_match.group(1), (number,)))
+            else:
+                raise ValueError(f"Unrecognized pending episode ID: {episode_id}")
 
     if changed_practice:
         old_entries = _entries_by_id(base_practice)
@@ -278,7 +331,10 @@ def infer_audio_targets(base_root: Path, head_root: Path) -> list[AudioTarget]:
                     and ({catalog_source, catalog_target} & changed_languages
                          or {source, target} & changed_languages)
                 ):
-                    targets.add(AudioTarget("practice", slug, source, target))
+                    for entry in (old, new):
+                        topic = entry.get("topic")
+                        if isinstance(topic, str) and topic in topic_order:
+                            add_practice(slug, source, target, topic)
 
     stories_base = base_root / "courses/stories"
     stories_head = head_root / "courses/stories"
@@ -331,13 +387,24 @@ def infer_audio_targets(base_root: Path, head_root: Path) -> list[AudioTarget]:
             )
             if has_story and chapters:
                 targets.add(AudioTarget("story", slug, source, target, story_id, chapters))
+    for (slug, source, target), selected in practice_topics.items():
+        targets.add(AudioTarget("practice", slug, source, target, topics=tuple(
+            topic for topic in topic_order if topic in selected
+        )))
+    story_groups: dict[tuple[str, str, str, str | None], set[int]] = {}
+    for item in targets:
+        if item.kind == "story":
+            story_groups.setdefault((item.course, item.source, item.target, item.story_id), set()).update(item.chapters)
+    targets = {item for item in targets if item.kind != "story"}
+    for (slug, source, target, story_id), chapters in story_groups.items():
+        targets.add(AudioTarget("story", slug, source, target, story_id, tuple(sorted(chapters))))
     return sorted(targets)
 
 
 def render_report(targets: list[AudioTarget]) -> str:
     if not targets:
         return (
-            "No existing audio directions are affected by spoken-text changes. "
+            "No catalog episodes need audio generation. "
             "Topic titles and other catalog-only edits do not trigger TTS."
         )
     lines = ["Affected audio targets (no audio has been generated):"]
@@ -347,6 +414,8 @@ def render_report(targets: list[AudioTarget]) -> str:
             label += f", story `{target.story_id}`"
             if target.chapters:
                 label += ", chapters " + ", ".join(map(str, target.chapters))
+        if target.topics:
+            label += ", topics " + ", ".join(target.topics)
         lines.append(f"- {label}")
     lines.append(
         "\nAdd the `publish-audio` label to authorize generation. The run will "

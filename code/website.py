@@ -346,7 +346,10 @@ def course_counts(course: dict) -> dict:
 
 def episode_meta(course: dict, ui: str) -> str:
     counts = course_counts(course)
-    return f'{counts["episodes"]} {plural(ui, counts["episodes"], "episodes")} · {hours(ui, counts["ms"])}'
+    result = f'{counts["episodes"]} {plural(ui, counts["episodes"], "episodes")}'
+    if not any(ep.get('pending_audio') is True for ep in course['episodes']):
+        result += f' · {hours(ui, counts["ms"])}'
+    return result
 
 
 def build_home(courses: list[dict], base_url: str, assets: dict) -> str:
@@ -452,15 +455,16 @@ def course_page(course: dict, base_url: str, assets: dict) -> str:
                 'number': int(ep['episode']), 'title': story_title(ep['title'], label), 'page': transcript_name(ep),
                 'summary': (f'{ep["phrases"]} {plural(ui, ep["phrases"], "phrases")}' if 'phrases' in ep
                             else story_summary(first_paragraph(ep.get('description', '')), label)),
-                'length': minutes(ui, int(ep.get('duration_ms') or 0)), 'transcript': ep.get('transcript'),
+                'length': None if ep.get('pending_audio') is True else minutes(ui, int(ep.get('duration_ms') or 0)), 'transcript': ep.get('transcript'),
             } for ep in episodes],
         })
     stats = [
         (str(counts['episodes']), plural(ui, counts['episodes'], 'episodes')),
         (str(counts['practice']), plural(ui, counts['practice'], 'topics')),
         (str(counts['story']), plural(ui, counts['story'], 'chapters')),
-        (hours(ui, counts['ms']), t['listening']),
     ]
+    if not any(ep.get('pending_audio') is True for ep in course['episodes']):
+        stats.append((hours(ui, counts['ms']), t['listening']))
     lead = first_paragraph(course.get('description', ''))
     return render(
         'course.html', assets=assets, title=course['title'], lang=ui, prefix='../', ui=ui, description=lead[:300],
@@ -523,7 +527,7 @@ def doc_page(course: dict, title: str, sheets: list[dict], base_url: str, path: 
             'cover': episode.get('cover') or course['cover'], 'label': course['seasons'].get(str(episode['season']), ''),
             'number': int(episode['episode']), 'title': episode['title'],
             'summary': '' if sheets else first_paragraph(episode.get('description', '')),
-            'length': minutes(ui, int(episode.get('duration_ms') or 0)), 'links': course.get('links', {}),
+            'length': None if episode.get('pending_audio') is True else minutes(ui, int(episode.get('duration_ms') or 0)), 'links': course.get('links', {}),
         }
     return render(
         'transcript.html', assets=assets, title=f'{title} – {course["title"]}', lang=ui, prefix='../../', ui=ui,

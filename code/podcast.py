@@ -55,6 +55,8 @@ def fingerprint_image(path: Path) -> Path:
         raise ValueError(f"Missing or empty image: {path}")
     digest = hashlib.sha256(current.read_bytes()).hexdigest()[:8]
     published = path.with_name(f"{path.stem}-{digest}{path.suffix}")
+    if current == path and published.is_file() and current.read_bytes() == published.read_bytes():
+        return published
     if current != published:
         current.replace(published)
     for stale in _fingerprinted_versions(path):
@@ -66,7 +68,7 @@ def fingerprint_image(path: Path) -> Path:
 def remove_superseded_audio(course: Path, old_files: list[str]) -> list[Path]:
     """Delete episode MP3s that a re-render replaced and the catalog no longer uses."""
     catalog = json.loads((course / "course.json").read_text(encoding="utf-8"))
-    referenced = {episode["file"] for episode in catalog["episodes"]}
+    referenced = {episode["file"] for episode in catalog["episodes"] if "file" in episode}
     audio_root = (course / "audio").resolve()
     removed = []
     for old_file in sorted(set(old_files) - referenced):
@@ -121,7 +123,18 @@ def carry_audio_metadata(previous: dict, episode: dict) -> dict:
     return episode
 
 
-def build_feed(course: Path, base_url: str, audio_base_url: str = AUDIO_BASE_URL) -> None:
+def preserve_episode_metadata(previous: dict, episode: dict) -> dict:
+    """Keep authored metadata while replacing audio and retiring the pending flag."""
+    for key, value in previous.items():
+        if key not in {"file", "duration_ms", "bytes", "sha256", "pending_audio"}:
+            episode[key] = value
+    return carry_audio_metadata(previous, episode)
+
+
+def build_feed(
+    course: Path, base_url: str, audio_base_url: str = AUDIO_BASE_URL, *,
+    draft: bool = False,
+) -> None:
     config = json.loads((course / "course.json").read_text(encoding="utf-8"))
     url = f"{base_url.rstrip('/')}/{quote(course.name)}"
     if not base_url.startswith("https://") or not audio_base_url.startswith("https://"):
@@ -131,6 +144,14 @@ def build_feed(course: Path, base_url: str, audio_base_url: str = AUDIO_BASE_URL
     episodes = config["episodes"]
     if not episodes:
         raise ValueError(f"No episodes: {course}")
+    for episode in episodes:
+        if "pending_audio" in episode and episode["pending_audio"] is not True:
+            raise ValueError(f"Invalid pending_audio flag: {episode.get('id')!r}")
+        if episode.get("pending_audio") is True:
+            if any(key in episode for key in ("file", "duration_ms", "bytes", "sha256")):
+                raise ValueError(f"Pending episode has audio metadata: {episode.get('id')!r}")
+            if not draft:
+                raise ValueError(f"Pending audio is not allowed in production: {episode.get('id')!r}")
     cover = fingerprint_image(course / "cover.jpeg")
     rss = ET.Element("rss", version="2.0")
     channel = ET.SubElement(rss, "channel")
@@ -171,22 +192,24 @@ def build_feed(course: Path, base_url: str, audio_base_url: str = AUDIO_BASE_URL
         if (season, number) in seen_numbers:
             raise ValueError(f"Duplicate season/episode: {season}/{number}")
         seen_numbers.add((season, number))
-        relative_audio_path = safe_audio_path(episode["file"])
-        audio = course / "audio" / Path(*relative_audio_path.parts)
-        audio_path = "/".join(quote(part) for part in relative_audio_path.parts)
-        published = published_audio(episode)
-        if published is not None:
-            audio_length = published[0]
-            if audio.is_file() and audio.stat().st_size != audio_length:
-                raise ValueError(f"Local audio differs from published metadata: {audio}")
-            audio_url = (
-                f"{audio_base_url.rstrip('/')}/{quote(course.name)}/audio/{audio_path}"
-            )
-        else:
-            if not audio.is_file() or audio.stat().st_size == 0:
-                raise ValueError(f"Missing or empty audio: {audio}")
-            audio_length = audio.stat().st_size
-            audio_url = f"{url}/audio/{audio_path}"
+        pending = episode.get("pending_audio") is True
+        if not pending:
+            relative_audio_path = safe_audio_path(episode["file"])
+            audio = course / "audio" / Path(*relative_audio_path.parts)
+            audio_path = "/".join(quote(part) for part in relative_audio_path.parts)
+            published = published_audio(episode)
+            if published is not None:
+                audio_length = published[0]
+                if audio.is_file() and audio.stat().st_size != audio_length:
+                    raise ValueError(f"Local audio differs from published metadata: {audio}")
+                audio_url = (
+                    f"{audio_base_url.rstrip('/')}/{quote(course.name)}/audio/{audio_path}"
+                )
+            else:
+                if not audio.is_file() or audio.stat().st_size == 0:
+                    raise ValueError(f"Missing or empty audio: {audio}")
+                audio_length = audio.stat().st_size
+                audio_url = f"{url}/audio/{audio_path}"
         if episode["id"] in seen:
             raise ValueError(f"Duplicate episode ID: {episode['id']}")
         seen.add(episode["id"])
@@ -204,7 +227,8 @@ def build_feed(course: Path, base_url: str, audio_base_url: str = AUDIO_BASE_URL
         field(item, f"{{{ITUNES}}}episode", str(number))
         field(item, f"{{{ITUNES}}}season", str(season))
         field(item, f"{{{ITUNES}}}episodeType", "full")
-        field(item, f"{{{ITUNES}}}duration", str(round(episode["duration_ms"] / 1000)))
+        if not pending:
+            field(item, f"{{{ITUNES}}}duration", str(round(episode["duration_ms"] / 1000)))
         field(item, f"{{{ITUNES}}}explicit", "false")
         if "image" in episode:
             image_name = episode["image"]
@@ -230,9 +254,10 @@ def build_feed(course: Path, base_url: str, audio_base_url: str = AUDIO_BASE_URL
                 item, f"{{{ITUNES}}}image",
                 href=url + "/" + "/".join(quote(part) for part in published_parts),
             )
-        ET.SubElement(
-            item, "enclosure", url=audio_url, length=str(audio_length), type="audio/mpeg",
-        )
+        if not pending:
+            ET.SubElement(
+                item, "enclosure", url=audio_url, length=str(audio_length), type="audio/mpeg",
+            )
     ET.indent(rss)
     ET.ElementTree(rss).write(course / "feed.xml", encoding="utf-8", xml_declaration=True)
 

@@ -47,12 +47,19 @@ def _read_targets(path: Path) -> list[AudioTarget]:
         if not isinstance(entry, Mapping):
             raise PipelineError("Invalid inferred audio target.")
         chapters = entry.get("chapters", [])
+        topics = entry.get("topics", [])
         if (
             not isinstance(chapters, (list, tuple))
             or any(type(number) is not int or number < 1 for number in chapters)
             or len(set(chapters)) != len(chapters)
         ):
             raise PipelineError(f"Invalid inferred story chapters: {chapters!r}")
+        if (
+            not isinstance(topics, (list, tuple))
+            or any(not isinstance(topic, str) or not topic for topic in topics)
+            or len(set(topics)) != len(topics)
+        ):
+            raise PipelineError(f"Invalid inferred practice topics: {topics!r}")
         target = AudioTarget(
             kind=str(entry.get("kind", "")),
             course=str(entry.get("course", "")),
@@ -60,6 +67,7 @@ def _read_targets(path: Path) -> list[AudioTarget]:
             target=str(entry.get("target", "")),
             story_id=str(entry["story_id"]) if entry.get("story_id") is not None else None,
             chapters=tuple(sorted(chapters)),
+            topics=tuple(topics),
         )
         if (
             target.kind not in {"practice", "story"}
@@ -67,12 +75,14 @@ def _read_targets(path: Path) -> list[AudioTarget]:
             or not LANGUAGE.fullmatch(target.source)
             or not LANGUAGE.fullmatch(target.target)
             or target.source == target.target
-            or (target.kind == "practice" and (target.story_id is not None or target.chapters))
+            or (target.kind == "practice" and (target.story_id is not None or target.chapters or not target.topics))
             or (
                 target.kind == "story"
                 and (
                     target.story_id is None
                     or not re.fullmatch(r"[A-Za-z0-9_-]+", target.story_id)
+                    or target.topics
+                    or not target.chapters
                 )
             )
         ):
@@ -150,7 +160,8 @@ def _run(command: Sequence[str], root: Path) -> None:
 
 
 def _renderer_command(
-    target: AudioTarget, root: Path, work: Path, *, validate_only: bool
+    target: AudioTarget, root: Path, work: Path, *, validate_only: bool,
+    topic: str | None = None,
 ) -> list[str]:
     prefix = [sys.executable]
     if target.kind == "practice":
@@ -171,6 +182,8 @@ def _renderer_command(
             "--tts-engine",
             "azure",
         ]
+        if topic is not None:
+            command.extend(["--topic", topic])
     else:
         story_root = root / "courses/stories" / str(target.story_id)
         command = [
@@ -217,8 +230,7 @@ def _renderer_command(
 
 
 def _package_practice(target: AudioTarget, root: Path, work: Path) -> None:
-    _run(
-        [
+    command = [
             sys.executable,
             str(ROOT / "code/package_practice.py"),
             "--source",
@@ -237,9 +249,10 @@ def _package_practice(target: AudioTarget, root: Path, work: Path) -> None:
             str(root / "podcast"),
             "--retain-superseded-audio",
             "--skip-site-build",
-        ],
-        root,
-    )
+        ]
+    for topic in target.topics:
+        command.extend(["--topic", topic])
+    _run(command, root)
 
 
 def _audio_snapshot(root: Path, targets: Sequence[AudioTarget]) -> dict[Path, tuple[int, str]]:
@@ -251,6 +264,26 @@ def _audio_snapshot(root: Path, targets: Sequence[AudioTarget]) -> dict[Path, tu
                 if path.is_file() and not path.is_symlink():
                     snapshot[path.resolve()] = audio_publish.file_digest(path)
     return snapshot
+
+
+def _expected_episode_ids(root: Path, targets: Sequence[AudioTarget]) -> set[tuple[str, str]]:
+    expected: set[tuple[str, str]] = set()
+    for target in targets:
+        if target.kind == "practice" and target.topics:
+            from transcription import load_topics
+
+            topics = load_topics(root / "courses/practice/transcript.json")
+            for topic in target.topics:
+                if topic not in topics:
+                    raise PipelineError(f"Unknown selected practice topic: {topic!r}")
+                number = list(topics).index(topic) + 1
+                expected.add((target.course, f"repeto:{target.course}:topic-{number:02d}"))
+        elif target.kind == "story" and target.chapters:
+            expected.update(
+                (target.course, f"{target.story_id}:{target.source}:{target.target}:chapter-{number:02d}")
+                for number in target.chapters
+            )
+    return expected
 
 
 def _report_files(
@@ -269,6 +302,7 @@ def _report_files(
         *[
             f"- {target.kind}: `{target.course}` ({target.source} -> {target.target})"
             + (f", chapters {', '.join(map(str, target.chapters))}" if target.chapters else "")
+            + (f", topics {', '.join(target.topics)}" if target.topics else "")
             for target in targets
         ],
         "",
@@ -338,6 +372,7 @@ def stage_audio(
     ).stdout.strip() != approved_sha:
         raise PipelineError("Checked-out PR revision does not match the approved revision.")
     targets = _read_targets(targets_path)
+    expected_episodes = _expected_episode_ids(root, targets)
     manifest_targets = [
         StagingTarget(target.kind, target.course, target.source, target.target, target.story_id)
         for target in targets
@@ -349,12 +384,14 @@ def stage_audio(
     with tempfile.TemporaryDirectory(prefix="audio-pipeline-") as directory:
         work = Path(directory)
         for target in targets:
-            _run(_renderer_command(target, root, work, validate_only=True), root)
+            for topic in target.topics if target.kind == "practice" else (None,):
+                _run(_renderer_command(target, root, work, validate_only=True, topic=topic), root)
         if input_fingerprint(root, manifest_targets) != source_sha256:
             raise PipelineError("Source data changed during validation.")
         before = _audio_snapshot(root, targets)
         for target in targets:
-            _run(_renderer_command(target, root, work, validate_only=False), root)
+            for topic in target.topics if target.kind == "practice" else (None,):
+                _run(_renderer_command(target, root, work, validate_only=False, topic=topic), root)
             if target.kind == "practice":
                 _package_practice(target, root, work)
         candidates = [
@@ -367,6 +404,14 @@ def stage_audio(
         items = audio_publish.pending_audio(root / "podcast", candidates)
         if not items:
             raise PipelineError("Generated audio contains no unpublished course episodes.")
+        if expected_episodes:
+            actual_episodes = {(item.course.name, item.episode_id) for item in items}
+            if actual_episodes != expected_episodes:
+                raise PipelineError(
+                    f"Generated episodes do not match approved targets: "
+                    f"missing={sorted(expected_episodes - actual_episodes)}, "
+                    f"unexpected={sorted(actual_episodes - expected_episodes)}"
+                )
         if input_fingerprint(root, manifest_targets) != source_sha256:
             raise PipelineError("Source data changed during audio generation.")
         storage = audio_publish.R2Storage.from_environment()

@@ -15,6 +15,7 @@ from audio_staging import (  # pyright: ignore[reportMissingImports]
     StagingError,
     input_fingerprint,
     make_manifest,
+    promote_all,
     promote_manifest,
     read_manifest,
     safe_input_path,
@@ -116,6 +117,18 @@ class AudioStagingTests(unittest.TestCase):
             json.loads(path.read_text(encoding="utf-8"))["items"][0]["episode_id"],
             self.item.episode_id,
         )
+
+    def test_pending_episode_blocks_promotion_before_storage_changes(self) -> None:
+        write_manifest(self.root, self.manifest)
+        self._write(
+            self.root / "podcast/new-course/course.json",
+            {"episodes": [{"id": "pending", "pending_audio": True}]},
+        )
+        storage = FakeStorage()
+        storage.objects[self.item.staging_key] = self.content
+        with self.assertRaisesRegex(StagingError, "Cannot publish pending audio"):
+            promote_all(self.root, storage)
+        self.assertEqual(storage.objects, {self.item.staging_key: self.content})
 
     def test_promotes_exact_verified_bytes_and_removes_public_staging_copy(self) -> None:
         storage = FakeStorage()

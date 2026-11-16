@@ -44,17 +44,21 @@ def load_topic_titles(path: Path, topics: list[str], languages: tuple[str, ...])
 
 def select_manifests(
     renders: Path, topics: dict[str, list[renderer.Entry]], source: str, target: str,
+    selected: set[str] | None = None,
 ) -> dict[str, dict[str, Any]]:
     manifests: dict[str, dict[str, Any]] = {}
     for path in sorted(renders.glob(f"*_{source}_{target}_double_*.json")):
         manifest = json.loads(path.read_text(encoding="utf-8"))
         title = manifest["section"]
+        if selected is not None and title not in selected:
+            continue
         if title in manifests:
             raise ValueError(f"Multiple renders for {title!r}; remove the stale one.")
         manifests[title] = manifest
-    if set(manifests) != set(topics):
-        missing = sorted(set(topics) - set(manifests))
-        extra = sorted(set(manifests) - set(topics))
+    expected = set(topics) if selected is None else selected
+    if set(manifests) != expected:
+        missing = sorted(expected - set(manifests))
+        extra = sorted(set(manifests) - expected)
         raise ValueError(f"Renders do not match topics; missing={missing}, extra={extra}")
     return manifests
 
@@ -125,14 +129,21 @@ def package(args: argparse.Namespace) -> dict[str, Any]:
         raise ValueError("Podcast copy supports only --source se, pl, en, ru or es.")
     catalog_source = "sv" if source == "se" else source
     topics = renderer.load_topics(args.transcript)
+    requested = getattr(args, "topic", None)
+    selected = set(requested) if requested else None
+    if selected is not None:
+        unknown = sorted(selected - set(topics))
+        if unknown:
+            raise ValueError(f"Unknown topics: {', '.join(unknown)}")
     titles = load_topic_titles(args.topic_titles, list(topics), (source, target))
-    manifests = select_manifests(args.renders, topics, source, target)
+    manifests = select_manifests(args.renders, topics, source, target, selected)
     course = args.podcast_root / args.course
     if _podcast_builder().find_image(course / "cover.jpeg") is None:
         raise FileNotFoundError(f"Podcast cover not found: {course / 'cover.jpeg'}")
     catalog_path = course / "course.json"
     copy = _load("descriptions")
-    if catalog_path.is_file():
+    had_catalog = catalog_path.is_file()
+    if had_catalog:
         catalog = json.loads(catalog_path.read_text(encoding="utf-8"))
         if (
             catalog.get("source_language", "sv"), catalog.get("target_language", catalog_target)
@@ -155,6 +166,8 @@ def package(args: argparse.Namespace) -> dict[str, Any]:
     published = datetime.now(timezone.utc).isoformat(timespec="seconds")
     practice_episodes = []
     for number, (topic, items) in enumerate(topics.items(), start=1):
+        if selected is not None and topic not in selected:
+            continue
         manifest = manifests[topic]
         filename = manifest["audio_file"]
         render = args.renders / filename
@@ -173,7 +186,7 @@ def package(args: argparse.Namespace) -> dict[str, Any]:
                 manifest, items, number, source, target,
             )
         source_title = titles[topic][source]
-        practice_episodes.append((render, destination, _podcast_builder().carry_audio_metadata(old, {
+        practice_episodes.append((render, destination, _podcast_builder().preserve_episode_metadata(old, {
             "id": episode_id,
             "title": f"{source_title} — {titles[topic][target]}",
             "file": f"practice/{filename}",
@@ -190,16 +203,31 @@ def package(args: argparse.Namespace) -> dict[str, Any]:
         if render.is_file() or destination.is_file() or "sha256" not in episode:
             move_audio(render, destination)
     new_ids = {episode["id"] for _, _, episode in practice_episodes}
-    catalog["episodes"] = [episode for _, _, episode in practice_episodes] + [
-        episode for episode in catalog["episodes"] if episode["id"] not in new_ids
-    ]
+    if not had_catalog:
+        catalog["episodes"] = [episode for _, _, episode in practice_episodes] + [
+            episode for episode in catalog["episodes"] if episode["id"] not in new_ids
+        ]
+    else:
+        replacements = {episode["id"]: episode for _, _, episode in practice_episodes}
+        catalog["episodes"] = [
+            replacements.get(episode["id"], episode) for episode in catalog["episodes"]
+        ] + [
+            episode for _, _, episode in practice_episodes if episode["id"] not in previous
+        ]
+    if had_catalog and practice_episodes:
+        catalog.setdefault("seasons", {}).setdefault(
+            str(practice_episodes[0][2]["season"]),
+            {"sv": "Övningar", "pl": "Ćwiczenia", "en": "Practice",
+             "ru": "Практика", "es": "Práctica"}[catalog_source],
+        )
     catalog_path.write_text(
         json.dumps(catalog, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
     )
-    catalog = copy.refresh_course(course, practice=(topics, titles))
+    if not had_catalog:
+        catalog = copy.refresh_course(course, practice=(topics, titles))
     superseded = [
         previous[episode["id"]]["file"] for _, _, episode in practice_episodes
-        if episode["id"] in previous
+        if episode["id"] in previous and "file" in previous[episode["id"]]
     ]
     if not getattr(args, "retain_superseded_audio", False):
         for path in _podcast_builder().remove_superseded_audio(course, superseded):
@@ -219,6 +247,9 @@ def create_parser() -> argparse.ArgumentParser:
     parser.add_argument("--target", required=True, choices=renderer.LANGUAGES)
     parser.add_argument("--course", required=True, help="Podcast course slug.")
     parser.add_argument("--renders", type=Path, required=True)
+    parser.add_argument(
+        "--topic", action="append", help="Package this exact topic title; may be repeated.",
+    )
     parser.add_argument(
         "--transcript", type=Path, default=ROOT / "courses/practice/transcript.json"
     )

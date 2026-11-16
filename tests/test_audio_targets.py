@@ -91,12 +91,66 @@ class AudioTargetTests(unittest.TestCase):
         self.assertEqual(
             targets,
             [
-                AudioTarget("practice", "english-french", "en", "fr"),
-                AudioTarget("practice", "english-polish", "en", "pl"),
-                AudioTarget("practice", "english-swedish", "en", "se"),
-                AudioTarget("practice", "polish-english", "pl", "en"),
+                AudioTarget("practice", "english-french", "en", "fr", topics=("Greetings",)),
+                AudioTarget("practice", "english-polish", "en", "pl", topics=("Greetings",)),
+                AudioTarget("practice", "english-swedish", "en", "se", topics=("Greetings",)),
+                AudioTarget("practice", "polish-english", "pl", "en", topics=("Greetings",)),
             ],
         )
+
+    def test_new_course_pending_episodes_are_reported_without_text_changes(self) -> None:
+        self._write(
+            self.head / "podcast/polish-english-new/course.json",
+            {
+                "source_language": "pl",
+                "target_language": "en",
+                "episodes": [
+                    {"id": "repeto:polish-english-new:topic-01", "pending_audio": True},
+                    {"id": "magical_radio:pl:en:chapter-01", "pending_audio": True},
+                ],
+            },
+        )
+        self.assertEqual(infer_audio_targets(self.base, self.head), [
+            AudioTarget("practice", "polish-english-new", "pl", "en", topics=("Greetings",)),
+            AudioTarget("story", "polish-english-new", "pl", "en", "magical_radio", (1,)),
+        ])
+
+    def test_pending_unknown_episode_is_rejected(self) -> None:
+        self._write(
+            self.head / "podcast/invalid/course.json",
+            {"source_language": "pl", "target_language": "en",
+             "episodes": [{"id": "unknown", "pending_audio": True}]},
+        )
+        with self.assertRaisesRegex(ValueError, "Unrecognized pending"):
+            infer_audio_targets(self.base, self.head)
+
+    def test_pending_episode_with_audio_metadata_is_rejected(self) -> None:
+        self._write(
+            self.head / "podcast/invalid/course.json",
+            {"source_language": "pl", "target_language": "en",
+             "episodes": [{"id": "repeto:invalid:topic-01", "pending_audio": True,
+                           "file": "practice/old.mp3"}]},
+        )
+        with self.assertRaisesRegex(ValueError, "has audio metadata"):
+            infer_audio_targets(self.base, self.head)
+
+    def test_practice_only_changed_topic_is_selected(self) -> None:
+        for root in (self.base, self.head):
+            path = root / "courses/practice/transcript.json"
+            transcript = json.loads(path.read_text(encoding="utf-8"))
+            transcript.append({"id": 3, "topic": "Food", "en": "Apple", "pl": "Jabłko"})
+            if root == self.head:
+                transcript[-1]["pl"] = "Jabłuszko"
+            self._write(path, transcript)
+        self.assertEqual(infer_audio_targets(self.base, self.head), [
+            AudioTarget("practice", "english-polish", "en", "pl", topics=("Food",)),
+            AudioTarget("practice", "polish-english", "pl", "en", topics=("Food",)),
+        ])
+
+    def test_removing_practice_topic_requires_manual_migration(self) -> None:
+        self._write(self.head / "courses/practice/transcript.json", [])
+        with self.assertRaisesRegex(ValueError, "episode IDs"):
+            infer_audio_targets(self.base, self.head)
 
     def test_topic_title_or_story_summary_only_does_not_trigger_tts(self) -> None:
         story_path = self.head / "courses/stories/magical_radio/generated/transcript.json"

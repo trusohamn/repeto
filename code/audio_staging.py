@@ -444,6 +444,32 @@ def _file_digest(path: Path) -> tuple[int, str]:
 
 
 def promote_all(root: Path, storage: StagingStorage, *, remove_staging: bool = True) -> int:
+    from audio_publish import podcast
+
+    for path in sorted((root / "podcast").glob("*/course.json")):
+        try:
+            catalog = json.loads(path.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError) as error:
+            raise StagingError(f"Cannot read catalog {path}: {error}") from error
+        if not isinstance(catalog, Mapping) or not isinstance(catalog.get("episodes"), list):
+            raise StagingError(f"Invalid podcast catalog: {path}")
+        for episode in catalog["episodes"]:
+            if not isinstance(episode, Mapping):
+                raise StagingError(f"Invalid podcast episode in {path}.")
+            if episode.get("pending_audio") is True:
+                raise StagingError(
+                    f"Cannot publish pending audio: {path} episode {episode.get('id')!r}."
+                )
+            try:
+                if "pending_audio" in episode:
+                    raise ValueError("Invalid pending_audio flag.")
+                podcast.safe_audio_path(episode.get("file"))
+                if podcast.published_audio(episode) is None:
+                    raise ValueError("Missing verified audio metadata.")
+            except ValueError as error:
+                raise StagingError(
+                    f"Cannot publish incomplete audio: {path} episode {episode.get('id')!r}: {error}"
+                ) from error
     total = 0
     manifests = sorted((root / ".audio-staging").glob("*.json"))
     for path in manifests:

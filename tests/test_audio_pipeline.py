@@ -106,6 +106,7 @@ class AudioPipelineTests(unittest.TestCase):
                         "course": "english-polish",
                         "source": "en",
                         "target": "pl",
+                        "topics": ["Greetings"],
                     }
                 ]
             ),
@@ -182,6 +183,41 @@ class AudioPipelineTests(unittest.TestCase):
                 }]), encoding="utf-8")
                 with self.assertRaisesRegex(audio_pipeline.PipelineError, "chapters"):
                     audio_pipeline._read_targets(self.targets)
+
+    def test_selected_practice_topic_is_passed_to_renderer_and_packager(self) -> None:
+        target = audio_pipeline.AudioTarget(
+            "practice", "english-polish", "en", "pl", topics=("Greetings",)
+        )
+        command = audio_pipeline._renderer_command(
+            target, self.root, self.root / "work", validate_only=True, topic="Greetings"
+        )
+        self.assertEqual(command[command.index("--topic") + 1], "Greetings")
+        self.assertEqual(
+            audio_pipeline._expected_episode_ids(self.root, [target]),
+            {("english-polish", "repeto:english-polish:topic-01")},
+        )
+        with patch("audio_pipeline._run") as run:
+            audio_pipeline._package_practice(target, self.root, self.root / "work")
+        packaged = run.call_args.args[0]
+        self.assertEqual(packaged[packaged.index("--topic") + 1], "Greetings")
+
+    def test_rejects_invalid_selected_topics(self) -> None:
+        for topics in ([1], [""], ["Greetings", "Greetings"]):
+            with self.subTest(topics=topics):
+                self.targets.write_text(json.dumps([{
+                    "kind": "practice", "course": "english-polish",
+                    "source": "en", "target": "pl", "topics": topics,
+                }]), encoding="utf-8")
+                with self.assertRaisesRegex(audio_pipeline.PipelineError, "topics"):
+                    audio_pipeline._read_targets(self.targets)
+
+    def test_rejects_unbounded_practice_selection(self) -> None:
+        self.targets.write_text(json.dumps([{
+            "kind": "practice", "course": "english-polish",
+            "source": "en", "target": "pl",
+        }]), encoding="utf-8")
+        with self.assertRaisesRegex(audio_pipeline.PipelineError, "Invalid inferred audio target"):
+            audio_pipeline._read_targets(self.targets)
 
     def test_stages_audio_and_commits_only_metadata_manifest(self) -> None:
         audio_bytes = b"generated practice audio"

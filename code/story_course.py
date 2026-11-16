@@ -1123,7 +1123,7 @@ def package_podcasts(
                 "season": previous.get("season", story_season),
                 "episode": previous.get("episode", number),
             }
-            builder.carry_audio_metadata(previous, episode)
+            builder.preserve_episode_metadata(previous, episode)
             if episode_id in previous_by_id:
                 episode_index = next(
                     index for index, existing in enumerate(episodes)
@@ -1133,8 +1133,14 @@ def package_podcasts(
             else:
                 episodes.append(episode)
                 previous_by_id[episode_id] = episode
+        if args.podcast_course:
+            catalog.setdefault("seasons", {}).setdefault(str(story_season), source_title)
         _write_json(existing_catalog, catalog)
-        if source_language in ("sv", "pl", "en", "ru", "es") and target in copy.LANGUAGES:
+        if (
+            not args.podcast_course
+            and source_language in ("sv", "pl", "en", "ru", "es")
+            and target in copy.LANGUAGES
+        ):
             catalog = copy.refresh_course(course, {transcript["story_id"]: transcript})
         if not getattr(args, "retain_superseded_audio", False):
             for path in builder.remove_superseded_audio(course, superseded):
@@ -1142,7 +1148,11 @@ def package_podcasts(
                 stale_timing = args.output / f"{path.stem}.json"
                 if stale_timing.is_file():
                     stale_timing.unlink()
-        builder.build_feed(course, base_url)
+        if not (
+            getattr(args, "skip_site_build", False)
+            and any(episode.get("pending_audio") is True for episode in catalog["episodes"])
+        ):
+            builder.build_feed(course, base_url)
         feed_catalogs[target] = {
             "slug": slug,
             "feed_url": f"{base_url}/{quote(slug)}/feed.xml",

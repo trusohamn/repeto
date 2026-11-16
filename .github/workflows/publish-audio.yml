@@ -145,7 +145,7 @@ jobs:
           fi
           git add -A -- podcast .audio-staging
           unexpected=$(git diff --cached --name-status | grep -Ev \
-            $'^(M\tpodcast/[^/]+/(course\\.json|feed\\.xml|index\\.html)|[AM]\t\\.audio-staging/pr-[0-9]+-[0-9a-f]{40}\\.json|D\t\\.audio-staging/pr-[0-9]+-[0-9a-f]{40}\\.json)$' || true)
+            $'^([AM]\tpodcast/[^/]+/(course\\.json|feed\\.xml|index\\.html)|[AM]\t\\.audio-staging/pr-[0-9]+-[0-9a-f]{40}\\.json|D\t\\.audio-staging/pr-[0-9]+-[0-9a-f]{40}\\.json)$' || true)
           if [ -n "$unexpected" ]; then
             echo "::error::Unexpected changes: $unexpected"
             exit 1

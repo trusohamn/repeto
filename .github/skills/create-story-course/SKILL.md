@@ -65,11 +65,12 @@ description: Turn a chaptered, child-friendly story into a faithful multilingual
 
 ## Audio rendering
 
-- For changes to an existing published direction, follow the
+- For missing or changed recordings, follow the
   [PR audio workflow](../../../docs/deploy.md) rather than manually publishing
-  local renders. The target report identifies affected directions and chapters;
+  local renders. Prepare a new course catalog and draft feed locally first.
+  The target report identifies affected directions and chapters;
   the `publish-audio` label authorizes generation, and reviewed staged bytes
-  are promoted only after merge. The workflow does not bootstrap a new course.
+  are promoted only after merge.
 - For an intentional local partial render, repeat `--chapter NUMBER` for each
   selected chapter; omitting it renders every chapter. Partial podcast
   packaging replaces only those chapter episodes.

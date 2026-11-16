@@ -61,6 +61,133 @@ def write_render(
 
 
 class PackagePracticeTests(unittest.TestCase):
+    def test_selected_topics_update_in_place_without_touching_other_episodes(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            items = [
+                {"id": f"phrase_{n:06}", "topic": topic, "se": "Hej!",
+                 "pl": "Cześć!", "en": "Hi!", "ru": "Привет!"}
+                for n, topic in enumerate(("Greetings", "Numbers", "Colors"), 1)
+            ]
+            transcript = root / "transcript.json"
+            transcript.write_text(json.dumps(items), encoding="utf-8")
+            titles = root / "topics.json"
+            titles.write_text(json.dumps({
+                item["topic"]: {"se": item["topic"], "ru": item["topic"]}
+                for item in items
+            }), encoding="utf-8")
+            renders = root / "renders"
+            renders.mkdir()
+            write_render(renders, 1, "Greetings", items[:1])
+            write_render(renders, 3, "Colors", items[2:])
+            for suffix in ("old", "older"):
+                (renders / f"02_se_ru_double_{suffix}.json").write_text(
+                    json.dumps({"section": "Numbers"}), encoding="utf-8"
+                )
+            course = root / "podcast/swedish-russian"
+            course.mkdir(parents=True)
+            (course / "cover.jpeg").write_bytes(b"jpeg")
+            pending = [
+                {"id": f"repeto:swedish-russian:topic-{n:02}",
+                 "title": f"Existing {n}", "description": f"Keep {n}",
+                 "season": 1, "episode": n, "published": "2026-01-02T00:00:00+00:00",
+                 "pending_audio": True}
+                for n in range(1, 4)
+            ]
+            story = {"id": "untouched-story", "title": "Original",
+                     "pending_audio": True, "season": 2, "episode": 1}
+            catalog = {"title": "Original show", "source_language": "sv",
+                       "target_language": "ru", "episodes": [pending[0], story, pending[1], pending[2]]}
+            (course / "course.json").write_text(json.dumps(catalog), encoding="utf-8")
+            args = package_practice.create_parser().parse_args([
+                "--target", "ru", "--course", "swedish-russian", "--renders", str(renders),
+                "--transcript", str(transcript), "--topic-titles", str(titles),
+                "--podcast-root", str(root / "podcast"), "--skip-site-build",
+                "--topic", "Colors", "--topic", "Greetings",
+            ])
+            result = package_practice.package(args)
+            self.assertEqual([ep["id"] for ep in result["episodes"]],
+                             [ep["id"] for ep in catalog["episodes"]])
+            self.assertEqual(result["episodes"][1:3], [story, pending[1]])
+            for index in (0, 3):
+                episode = result["episodes"][index]
+                self.assertNotIn("pending_audio", episode)
+                self.assertEqual(episode["published"], "2026-01-02T00:00:00+00:00")
+                self.assertEqual(episode["title"], catalog["episodes"][index]["title"])
+                self.assertEqual(episode["description"], catalog["episodes"][index]["description"])
+                self.assertIn("file", episode)
+                self.assertIn("duration_ms", episode)
+            self.assertEqual(result["title"], "Original show")
+            self.assertEqual(package_practice.package(args), result)
+
+    def test_selection_rejects_unknown_missing_and_duplicate_selected_manifests(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            items = [{"id": "phrase_000001", "topic": "Greetings", "se": "Hej!",
+                      "pl": "Cześć!", "en": "Hi!", "ru": "Привет!"}]
+            transcript = root / "transcript.json"
+            transcript.write_text(json.dumps(items), encoding="utf-8")
+            titles = root / "topics.json"
+            titles.write_text(json.dumps({"Greetings": {"se": "Hej", "ru": "Привет"}}))
+            renders = root / "renders"
+            renders.mkdir()
+            base = ["--target", "ru", "--course", "swedish-russian", "--renders", str(renders),
+                    "--transcript", str(transcript), "--topic-titles", str(titles),
+                    "--podcast-root", str(root / "podcast"), "--skip-site-build"]
+            parser = package_practice.create_parser()
+            with self.assertRaisesRegex(ValueError, "Unknown topics"):
+                package_practice.package(parser.parse_args(base + ["--topic", "greetings"]))
+            with self.assertRaisesRegex(ValueError, "missing=.*Greetings"):
+                package_practice.package(parser.parse_args(base + ["--topic", "Greetings"]))
+            with self.assertRaisesRegex(ValueError, "missing=.*Greetings"):
+                package_practice.package(parser.parse_args(base))
+            manifest = {"section": "Greetings"}
+            for suffix in ("one", "two"):
+                (renders / f"01_se_ru_double_{suffix}.json").write_text(json.dumps(manifest))
+            with self.assertRaisesRegex(ValueError, "Multiple renders"):
+                package_practice.package(parser.parse_args(base + ["--topic", "Greetings"]))
+
+    def test_full_packaging_preserves_draft_copy_and_other_season(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            item = {"id": "phrase_000001", "topic": "Greetings", "se": "Hej!",
+                    "pl": "Cześć!", "en": "Hi!", "ru": "Привет!"}
+            transcript = root / "transcript.json"
+            transcript.write_text(json.dumps([item]))
+            titles = root / "topics.json"
+            titles.write_text(json.dumps({"Greetings": {"se": "Hälsningar", "ru": "Приветствия"}}))
+            renders = root / "renders"
+            renders.mkdir()
+            write_render(renders, 1, "Greetings", [item])
+            course = root / "podcast/swedish-russian"
+            course.mkdir(parents=True)
+            (course / "cover.jpeg").write_bytes(b"jpeg")
+            pending = {"id": "repeto:swedish-russian:topic-01", "title": "Custom title",
+                       "description": "Custom copy", "published": "2025-01-01T00:00:00+00:00",
+                       "season": 1, "episode": 1, "pending_audio": True, "extra": "keep"}
+            story = {"id": "test_story:sv:ru:chapter-01", "title": "Story title",
+                     "description": "Story copy", "season": 2, "episode": 1,
+                     "published": "2025-01-01T00:00:00+00:00", "pending_audio": True}
+            catalog = {"title": "Custom show", "description": "Custom show copy",
+                       "source_language": "sv", "target_language": "ru",
+                       "seasons": {"1": "Custom season", "2": "Custom story"},
+                       "episodes": [story, pending]}
+            (course / "course.json").write_text(json.dumps(catalog))
+            args = package_practice.create_parser().parse_args([
+                "--target", "ru", "--course", "swedish-russian", "--renders", str(renders),
+                "--transcript", str(transcript), "--topic-titles", str(titles),
+                "--podcast-root", str(root / "podcast"), "--skip-site-build",
+            ])
+            result = package_practice.package(args)
+            self.assertEqual(result["title"], "Custom show")
+            self.assertEqual(result["description"], "Custom show copy")
+            self.assertEqual(result["seasons"], catalog["seasons"])
+            self.assertEqual(result["episodes"][0], story)
+            filled = result["episodes"][1]
+            self.assertEqual({key: filled[key] for key in pending if key != "pending_audio"},
+                             {key: value for key, value in pending.items() if key != "pending_audio"})
+            self.assertNotIn("pending_audio", filled)
+
     def test_russian_source_spanish_answers_and_page_labels(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)

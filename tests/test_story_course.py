@@ -57,6 +57,54 @@ STORY_COVER_HASH = "41b6d295"
 EXISTING_COVER_HASH = "7be87c5d"
 
 class StoryCourseTests(unittest.TestCase):
+    def test_fill_pending_story_preserves_authored_metadata_and_other_seasons(self):
+        story = mini_story()
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            course = root / "podcast/english-swedish"
+            course.mkdir(parents=True)
+            (course / "cover.jpeg").write_bytes(b"cover")
+            story_root = root / "story"
+            story_root.mkdir()
+            (story_root / "cover.jpeg").write_bytes(b"story cover")
+            practice = {"id": "repeto:english-swedish:topic-01", "title": "Custom practice",
+                        "description": "Original practice", "season": 1, "episode": 1,
+                        "pending_audio": True}
+            pending = {"id": "test_story:en:sv:chapter-01", "title": "Custom chapter",
+                       "description": "Original chapter", "published": "2025-01-02T00:00:00+00:00",
+                       "season": 2, "episode": 1, "pending_audio": True, "extra": "keep"}
+            catalog = {"language": "en", "source_language": "en", "target_language": "sv",
+                       "title": "Custom show", "description": "Custom show copy",
+                       "author": "Repeto", "email": "test@example.com",
+                       "seasons": {"1": "Custom practice", "2": "Custom story"},
+                       "episodes": [practice, pending]}
+            (course / "course.json").write_text(json.dumps(catalog))
+            output = root / "output"
+            output.mkdir()
+            (output / "new.mp3").write_bytes(b"new")
+            args = argparse.Namespace(
+                podcast_course="english-swedish", source_language="en",
+                transcript=story_root / "generated/transcript.json", cover=None,
+                email="test@example.com", podcast_root=root / "podcast",
+                podcast_base_url="https://example.com", author="Repeto", output=output,
+                chapter=[1], retain_superseded_audio=True, skip_site_build=True,
+            )
+            build = {"settings": {"target_languages": ["sv"]}, "chapters": {
+                "1": {"targets": {"sv": {"audio_file": "new.mp3", "total_duration_ms": 1000}}}}}
+            story_course.package_podcasts(args, story, build)
+            result = json.loads((course / "course.json").read_text())
+            self.assertEqual(result["title"], catalog["title"])
+            self.assertEqual(result["description"], catalog["description"])
+            self.assertEqual(result["seasons"], catalog["seasons"])
+            self.assertEqual(result["episodes"][0], practice)
+            filled = result["episodes"][1]
+            self.assertEqual({key: filled[key] for key in pending if key != "pending_audio"},
+                             {key: value for key, value in pending.items() if key != "pending_audio"})
+            self.assertNotIn("pending_audio", filled)
+            self.assertEqual(filled["file"], "stories/test_story/new.mp3")
+            self.assertEqual(filled["duration_ms"], 1000)
+            self.assertFalse((course / "feed.xml").exists())
+
     def test_selective_render_only_synthesizes_selected_chapter_and_languages(self):
         story = mini_story()
         second = json.loads(json.dumps(story["chapters"][0]))
@@ -938,7 +986,7 @@ class StoryCourseTests(unittest.TestCase):
             self.assertEqual(episode["id"], "test_story:en:sv:chapter-01")
             self.assertIn("An adventure begins.", episode["description"])
             self.assertIn("an English prompt", episode["description"])
-            self.assertEqual(catalog["title"], "Repeto.stream – I learn Swedish")
+            self.assertEqual(catalog["title"], "Repeto")
             self.assertEqual(catalog["seasons"], {"1": "Test Story"})
             self.assertTrue((course / "audio" / episode["file"]).is_file())
             story_course.package_podcasts(args, transcript, build)
@@ -996,7 +1044,7 @@ class StoryCourseTests(unittest.TestCase):
             self.assertEqual(episode["id"], "test_story:ru:es:chapter-01")
             self.assertIn("Начинается приключение.", episode["description"])
             self.assertIn("подсказка по-русски", episode["description"])
-            self.assertEqual(catalog["title"], "Repeto.stream – Я учу испанский")
+            self.assertEqual(catalog["title"], "Repeto")
             self.assertEqual(catalog["seasons"], {"1": "Волшебное радио"})
             self.assertTrue((course / "audio" / episode["file"]).is_file())
             story_course.package_podcasts(args, transcript, build)

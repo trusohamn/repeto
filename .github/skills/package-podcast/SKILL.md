@@ -1,22 +1,38 @@
 ---
 name: package-podcast
-description: Package a completed Repeto audio course with an episode catalog, bilingual titles, cover, MP3s, and validated RSS. Use when preparing a generated course for RSS or Spotify.
+description: Prepare a Repeto course catalog, artwork and draft RSS locally before audio generation, or package existing recordings. Use when preparing a course for the approved audio pipeline or podcast publication.
 ---
 
 # Package a Repeto podcast
 
-Work from the repository root. This skill packages existing recordings; it
-does not synthesize audio or submit shows to Spotify.
+Work from the repository root. For a new course, prepare the catalog and draft
+RSS locally from reviewed transcripts and artwork, before opening a PR. Follow
+the [deployment guide](../../../docs/deploy.md) for the draft command and the
+approved PR audio workflow. The pipeline creates missing or changed recordings,
+fills real audio metadata, stages them for listening, and promotes reviewed
+bytes after merge. A draft feed without audio is not publishable.
 
-For changes to an existing published direction, prefer the approved
-[PR audio workflow](../../../docs/deploy.md): generation packages affected
-audio, stages it for listening, and promotes reviewed bytes to R2 after merge
-before deploying the feed. Its scope is existing catalog directions, not
-bootstrapping a new course. The local packaging instructions below apply to
-new courses and deliberate local packaging; local MP3s are not automatically
-published to R2.
+The commands below describe deliberate packaging of existing local recordings;
+do not use them to bypass the approved PR workflow. This skill does not submit
+shows to Spotify.
 
-## Confirm scope
+## Prepare a draft course
+
+After reviewing both seasons and selecting the existing course cover:
+
+```sh
+.venv/bin/python code/package_draft.py --source pl --target de \
+  --course polish-german --output-root output/draft-polish-german \
+  --cover podcast/polish-german/cover.jpeg --install
+```
+
+Use the requested languages and slug, not the example values. The draft output
+contains a reviewable feed and pages. The install step copies the pending
+catalog, feed and artwork into `podcast/<course>/` without overwriting existing
+files. Open a PR and check its target
+report before approving generation.
+
+## Confirm scope for completed local recordings
 
 - Identify source/target languages, render directory, and podcast course slug.
   Example: `se` to `en`, `output/swedish_english_double`,

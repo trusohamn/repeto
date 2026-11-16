@@ -19,8 +19,8 @@ flowchart TD
     I --> J["Build and deploy live feeds and website"]
 ```
 
-Opening or updating a PR only reports which existing practice directions and
-story directions and chapters are affected. It does not call paid services. The
+Opening or updating a PR reports pending and changed practice topics and story
+chapters in course catalogs. It does not call paid services. The
 `publish-audio` label is the first approval: it authorizes Azure Speech
 generation for that exact PR revision. After the staged audio is reviewed, the
 maintainer's merge is the second approval. The production deployment promotes
@@ -28,22 +28,68 @@ the exact reviewed bytes; it does not regenerate them.
 
 Staging audio is public to anyone with its URL. Staging objects use a distinct
 key namespace and never appear in production feeds. Do not submit confidential
-material. The workflow is limited to same-repository pull requests into `main`;
-it uses trusted code and treats PR contents as data, not executable code.
+material. Target reports support fork PRs into `main`; generation is limited to
+same-repository PRs. The workflow uses trusted code and treats PR contents as
+data, not executable code.
+
+## Supported scope and requirements
+
+The pipeline produces audio for **practice courses and chaptered story
+courses** whose transcripts and course metadata have already been prepared and
+reviewed locally. It does not write or translate course content. Opening or
+updating a PR only reports targets; audio generation requires a maintainer to
+add the `publish-audio` label to a same-repository PR targeting `main`.
+
+The PR must include:
+
+- `podcast/<course>/course.json` with the course direction and episode list.
+  New episodes must be marked `pending_audio: true` and must not contain
+  `file`, `duration_ms`, `bytes`, or `sha256` until the pipeline generates and
+  verifies their audio.
+- A valid course cover at `podcast/<course>/cover.jpeg`. Story targets also
+  need `courses/stories/<story-id>/generated/transcript.json`, the story source
+  at `courses/stories/<story-id>/complete/pl.txt`, and applicable story
+  artwork (`cover_<source>_<target>.jpeg`, `cover.jpeg`, or `cover.jpg`).
+- For practice audio, the shared practice transcript and topic-title data,
+  with pending episode IDs in the `repeto:<course>:topic-NN` format. Topic
+  episodes are identified by their position in the practice topic list, and
+  the source and target translations must be present for every phrase.
+- For story audio, a generated chapter transcript and catalog IDs in the
+  `<story-id>:<source>:<target>:chapter-NN` format. The requested narration
+  direction, source and target chapter text, titles, and vocabulary must be
+  present in the story inputs.
+- Azure Speech, production R2, and private R2 cache credentials configured as
+  the environment secrets listed under [One-time setup](#one-time-setup).
+  Generation runs on trusted scripts from `main`, so pipeline changes must be
+  merged to `main` before a course PR can use them.
+
+The target reporter supports pending episodes and source-text changes: it
+selects affected practice topics and story chapters rather than rendering the
+whole library. It does not check every stored R2 object, so missing audio that
+has complete catalog metadata is not discovered by ordinary PR reporting.
+Removing or reordering practice topics, removing story chapters, or changing a
+published story ID requires a manual migration; those changes are rejected
+rather than automatically remapped. Nonstandard episode IDs and arbitrary
+audio files are outside the supported pipeline format.
 
 ## Target inference and cache behavior
 
 - The PR report compares the base and proposed JSON by stable entry and chapter
-  IDs, then lists existing catalog directions affected by spoken-text changes.
+  IDs, then lists catalog episodes affected by spoken-text changes or marked
+  `pending_audio`.
   Story targets include the affected chapter numbers; only those chapters are
   rendered and replaced for each direction. Changes to a complete story source
   file conservatively rebuild all chapters for the affected narration language.
   Changes to registered narration directions affect the corresponding chapters.
-  Practice rendering remains direction-wide. Practice topic-title and
+  Practice rendering selects only affected topics. Practice topic-title and
   story-summary-only edits do not trigger TTS.
-- The target report covers existing catalog directions; it does not bootstrap
-  an entirely new course. Follow the local course-creation and packaging
-  instructions for new directions.
+- New courses are prepared locally with a catalog and draft feed containing
+  pending episodes before opening the PR. Draft items omit audio enclosures
+  and durations; after approval the pipeline supplies actual audio metadata.
+  Pending episodes block promotion and production feed generation.
+- PR reporting checks catalog metadata and changed inputs, not every R2 object.
+  A separate storage audit is needed to discover an object that has disappeared
+  despite complete catalog metadata.
 - The label run rechecks the approved PR head and validates all relevant inputs
   before requesting speech. A changed PR needs the label again.
 - Speech clips use the renderers' content-addressed keys. The workflow checks
@@ -82,11 +128,11 @@ it uses trusted code and treats PR contents as data, not executable code.
   targets on PR open/update, consumes the `publish-audio` label, and runs
   trusted generation and staging code.
 - [audio_targets.py](../code/audio_targets.py) identifies affected packaged
-  practice and story directions without performing synthesis.
+  practice topics and story chapters without performing synthesis.
 - [audio_pipeline.py](../code/audio_pipeline.py) validates every inferred
   target before synthesis, invokes only trusted renderers against PR data,
-  packages both practice and story output, stages immutable objects, and writes
-  a revision-bound manifest.
+  attaches audio to the locally prepared catalog, stages immutable objects,
+  and writes a revision-bound manifest.
 - [transcription.py](../code/transcription.py) and
   [story_course.py](../code/story_course.py) render the approved inputs. Their
   local cache behavior is extended by the workflow's private R2 speech cache.
@@ -97,6 +143,22 @@ it uses trusted code and treats PR contents as data, not executable code.
   objects before building and deploying the live feeds and website.
 
 ## Local use
+
+For a new course, after reviewing transcripts and preparing its cover, build
+the catalog, pending feed and pages locally:
+
+```bash
+.venv/bin/python code/package_draft.py --source pl --target de \
+  --course polish-german --output-root output/draft-polish-german \
+  --cover podcast/polish-german/cover.jpeg --install
+```
+
+Replace the example direction and slug as needed. The draft output is for
+review and the installation places the catalog, draft feed and artwork in the
+course directory for the PR. The PR workflow uses trusted scripts from
+`main`, so these draft/pipeline changes must first be merged to `main` before a
+new-course PR can use them. Do not merge or publish a course with pending
+audio; generate, stage and review it first.
 
 Local renderers continue using `.audio_cache`; remote R2 cache access is only
 needed by the GitHub Actions pipeline. Install `requirements.txt` and

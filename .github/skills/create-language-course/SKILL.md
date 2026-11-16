@@ -63,44 +63,29 @@ For shared-text edits affecting existing catalog directions, use the approved
 PR audio workflow described in [deployment](../../../docs/deploy.md): inspect
 the inferred targets, authorize generation with `publish-audio`, review staged
 audio and merge only after approval. Story generation selects affected chapters;
-practice generation remains direction-wide. Do not independently commit
+practice generation selects affected topics. Do not independently commit
 generated MP3s for that workflow. Updating an existing course is a dependency,
 not a substitute for creating the new course.
 
-## Generate both seasons
+## Prepare locally, generate on the pipeline
 
-The PR workflow only targets existing catalog directions; it does not bootstrap
-an entirely new course. The local creation steps below remain necessary for a
-new direction. Local rendering and packaging do not by themselves publish audio.
+Prepare both seasons' text, artwork, episode catalog and draft RSS locally,
+before opening the PR. Pending episodes must not contain invented audio
+durations, file sizes or checksums. The draft feed is for review, not
+publication. Use the local draft packaging command described in the
+[deployment guide](../../../docs/deploy.md).
 
-1. Render every practice topic with the selected source and target, explicit
-   Azure synthesis and double target playback, without a preview duration cap.
-2. Package the practice recordings into the new course as season 1 using
-   `code/package_practice.py`.
-3. Render every existing story chapter with `code/story_course.py`.
-   The narration language is the target, not the source. Preserve book and
-   chapter introductions, the two identical whole-chapter readings, chimes,
-   vocabulary-only practice and double target playback.
-4. Append story chapters to the same course using `--package-podcast` and
-   `--podcast-course`. Do not create a separate story-only show accidentally.
-5. Rebuild the final catalog, descriptions, RSS, course page and homepage
-   after adding the story. Preserve show artwork; use story-specific episode
-   artwork for the chapter episodes.
+On PR open the target report identifies pending and changed recordings without
+calling speech services. Check its scope, then only add `publish-audio` when
+authorized. The pipeline renders the selected practice topics and story
+chapters, fills real audio metadata, stages the recordings and updates the PR
+feed. Review the links and final diff before merge; promotion uses those exact
+reviewed bytes. Do not generate paid audio locally as a substitute.
 
-For Swedish to Spain Spanish, the component commands are:
-
-```sh
-.venv/bin/python code/transcription.py --source se --target es --double-output --tts-engine azure --output output/swedish_spanish_double
-.venv/bin/python code/package_practice.py --source se --target es --course swedish-spanish --renders output/swedish_spanish_double
-.venv/bin/python code/story_course.py --source-language sv --target es --tts-engine azure --narration-engine azure --package-podcast --podcast-course swedish-spanish
-```
-
-These examples use Repeto's default podcast hosting URL and owner metadata;
-verify their applicability before packaging. Stage packaging when possible,
-and scope feed rebuilding to avoid overwriting concurrent changes in other
-courses. Reuse completed speech caches; do not re-synthesize unchanged text
-or duplicate entire audio libraries. Never render concurrently into the
-same output directory.
+The story narration language is the target, not the source. Preserve the book
+and chapter introductions, two whole-chapter readings, chimes, vocabulary
+practice and double target playback. Updating existing directions affected by
+shared text is also required, not a substitute for creating the new course.
 
 ## Verify the complete course
 
