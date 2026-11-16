@@ -138,6 +138,8 @@ need separate initial packaging. See [docs/deploy.md](docs/deploy.md).
 
 ## Checks and further reference
 
+Work is tracked in GitHub Issues; see the [task tracking guide](docs/task-tracking.md).
+
 ```sh
 .venv/bin/python -m pip install -r requirements-dev.txt
 .venv/bin/python -m unittest discover -s tests -q
