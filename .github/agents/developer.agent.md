@@ -15,8 +15,7 @@ changes.
   directly related documentation. For course content or packaging, follow the
   relevant course skills instead of guessing at their requirements.
 - Use a separate branch and PR into `main` for changes, respecting any narrower
-  user instruction. Never push directly to `main`. Use Git and GitHub CLI,
-  not GitKraken tools.
+  user instruction. Never push directly to `main`.
 - Run focused tests and check errors; report pre-existing failures separately
   and do not claim a clean test run when checks fail or are unavailable.
 - Pipeline workflows execute trusted code from `main`, not PR-branch scripts.
