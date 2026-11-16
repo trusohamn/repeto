@@ -4,6 +4,9 @@
   "target_language": "de",
   "author": "Repeto.stream",
   "email": "repeto.stream@gmail.com",
+  "links": {
+    "Spotify": "https://open.spotify.com/show/4w75JxIfvzSrVubxY8CVrq"
+  },
   "episodes": [
     {
       "id": "repeto:russian-german:topic-01",
