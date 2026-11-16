@@ -1,7 +1,9 @@
 name: Sync Spotify episode IDs
 on:
-  schedule:
-    - cron: "15 6 * * *"
+  workflow_run:
+    workflows: ["Publish podcasts"]
+    types: [completed]
+    branches: [main]
   workflow_dispatch:
 
 permissions:
@@ -14,9 +16,20 @@ concurrency:
 
 jobs:
   sync:
+    if: >-
+      (github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/main')
+      || (github.event_name == 'workflow_run'
+          && github.event.workflow_run.conclusion == 'success'
+          && github.event.workflow_run.head_repository.full_name == github.repository)
     runs-on: ubuntu-latest
+    timeout-minutes: 40
     steps:
+      - name: Wait 30 minutes for Spotify ingestion after deployment
+        if: github.event_name == 'workflow_run'
+        run: sleep 1800
       - uses: actions/checkout@v6
+        with:
+          ref: main
       - uses: actions/setup-python@v6
         with:
           python-version: "3.13"
