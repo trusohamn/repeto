@@ -1,0 +1,42 @@
+name: Sync Spotify episode IDs
+on:
+  schedule:
+    - cron: "15 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: spotify-episode-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+      - run: python -m pip install "jinja2>=3.1,<4"
+      - name: Test Spotify synchronization
+        run: python -m unittest discover -s tests -p "test_spotify_sync.py" -v
+      - name: Fetch and match Spotify episodes
+        env:
+          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
+          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
+          SPOTIFY_MARKET: US
+        run: python code/spotify_sync.py --root podcast
+      - uses: peter-evans/create-pull-request@v7
+        with:
+          add-paths: podcast/*/course.json
+          branch: automation/spotify-episode-sync
+          delete-branch: true
+          title: "Sync Spotify episode IDs"
+          commit-message: "Sync Spotify episode IDs"
+          body: |
+            Automated Spotify episode metadata refresh. The workflow summary lists unmatched or ambiguous episodes.
+
+            This pull request only updates stable episode IDs; it does not generate audio or publish the podcast feeds.

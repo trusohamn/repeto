@@ -282,9 +282,24 @@ def build_index(root: Path, courses: list[Path], base_url: str = "https://repeto
             raise ValueError(f"Invalid YouTube playlist URL for {course.name}: {youtube!r}")
         if spotify and website.SPOTIFY_SHOW.fullmatch(spotify) is None:
             raise ValueError(f"Invalid Spotify show URL for {course.name}: {spotify!r}")
+        spotify_show_id = config.get("spotify_show_id")
+        if spotify_show_id is not None and (
+            not isinstance(spotify_show_id, str)
+            or website.SPOTIFY_EPISODE_ID.fullmatch(spotify_show_id) is None
+        ):
+            raise ValueError(f"Invalid synchronized Spotify show ID for {course.name}: {spotify_show_id!r}")
         config["slug"] = course.name
         config["cover"] = quote(cover.name)
         for episode in config["episodes"]:
+            if "spotify_episode_id" in episode:
+                spotify_episode_id = episode["spotify_episode_id"]
+                if (
+                    not isinstance(spotify_episode_id, str)
+                    or website.SPOTIFY_EPISODE_ID.fullmatch(spotify_episode_id) is None
+                ):
+                    raise ValueError(
+                        f"Invalid Spotify episode ID for {episode.get('id')!r}: {spotify_episode_id!r}"
+                    )
             if "image" in episode:
                 image = find_image(course / Path(*PurePosixPath(episode["image"]).parts))
                 if image is not None:
