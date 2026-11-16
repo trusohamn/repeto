@@ -75,7 +75,7 @@ durations, file sizes or checksums. The draft feed is for review, not
 publication. Use the local draft packaging command described in the
 [deployment guide](../../../docs/deploy.md).
 
-Open a non-draft course PR by default, using Git and GitHub CLI. The target
+Open a non-draft course PR by default. The target
 report identifies pending and changed recordings without calling speech
 services. Check its scope and current revision, then only add `publish-audio`
 when the user explicitly authorizes generation for that PR. If authorized,

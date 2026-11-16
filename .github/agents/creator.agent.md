@@ -18,8 +18,8 @@ if you were spawned as an agent.
   Package a truthful pending catalog, feed and fingerprinted artwork; never
   invent audio metadata or enclosures. Protect existing and unrelated courses.
 - Use a separate branch and a non-draft course PR into `main` by default, unless
-  the user specifies otherwise. Use Git and GitHub CLI, not GitKraken tools.
-  Verify the PR target report before any audio approval.
+  the user specifies otherwise. Verify the PR target report before any audio
+  approval.
 - Do not add `publish-audio` unless the user explicitly authorizes paid
   generation for that PR. If authorized, verify scope and the current revision,
   add the label once, and monitor the run through completion. Do not repeatedly

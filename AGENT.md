@@ -28,8 +28,8 @@ component does not complete the course.
   An agent that was spawned for a task must do that work directly, not spawn
   another agent. If it stops reporting, state that monitoring is unconfirmed
   and investigate or take over instead of claiming active monitoring.
-- Use Git and GitHub CLI (`gh`), not GitKraken tools. Preserve user changes and
-  use a separate branch and PR into `main`; never push directly to `main`.
+- Preserve user changes and use a separate branch and PR into `main`; never
+  push directly to `main`.
   Course PRs should be non-draft by default so they can be reviewed and
   reported on. Respect an explicit instruction to work locally or use a draft.
 - Creating a PR, generating audio, merging, promotion and submitting a feed
