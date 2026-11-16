@@ -20,7 +20,7 @@ class DraftPackagingTests(unittest.TestCase):
             draft_root = root / "draft"
             args = package_draft.create_parser().parse_args([
                 "--source", "pl", "--target", "de", "--course", "polish-german",
-                "--output-root", str(draft_root), "--cover", str(ROOT / "podcast/polish-german/cover.jpeg"),
+                "--output-root", str(draft_root), "--cover", str(ROOT / "podcast/english-russian/cover.jpeg"),
             ])
             package_draft.package(args)
             destination = root / "podcast/polish-german"
@@ -57,7 +57,7 @@ class DraftPackagingTests(unittest.TestCase):
             draft_root = root / "draft"
             args = package_draft.create_parser().parse_args([
                 "--source", "pl", "--target", "de", "--course", "polish-german",
-                "--output-root", str(draft_root), "--cover", str(ROOT / "podcast/polish-german/cover.jpeg"),
+                "--output-root", str(draft_root), "--cover", str(ROOT / "podcast/english-russian/cover.jpeg"),
             ])
             package_draft.package(args)
             destination = root / "podcast/polish-german"
