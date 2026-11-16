@@ -4,6 +4,8 @@ import hashlib
 import importlib.util
 import io
 import json
+import shutil
+import sys
 import tempfile
 import unittest
 import xml.etree.ElementTree as ET
@@ -13,8 +15,10 @@ from unittest.mock import AsyncMock, patch
 
 from pydub import AudioSegment
 from pydub.generators import Sine
+from pydub.utils import mediainfo_json
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT / "code"))
 SPEC = importlib.util.spec_from_file_location(
     "story_course", ROOT / "code/story_course.py"
 )
@@ -680,6 +684,34 @@ class StoryCourseTests(unittest.TestCase):
                     manifest["chapter_introduction"]["text"],
                     story_course.chapter_heading(mini_story()["chapters"][0], target),
                 )
+
+    @unittest.skipUnless(shutil.which("ffmpeg") and shutil.which("ffprobe"), "FFmpeg required")
+    def test_story_mp3_defaults_to_vbr_and_preserves_cbr_override(self):
+        track = tone(500) + AudioSegment.silent(duration=4500, frame_rate=44100)
+        manifests = {
+            "sv": {
+                "chapter_number": 1,
+                "source_language": "pl",
+                "total_duration_ms": len(track),
+            }
+        }
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            vbr = story_course._export_chapter(
+                root / "vbr", {"sv": track}, manifests, "mp3", None, "test"
+            )["sv"]
+            vbr_path = root / "vbr" / vbr["audio_file"]
+            vbr_info = mediainfo_json(str(vbr_path))["streams"][0]
+            self.assertEqual(vbr_info["codec_name"], "mp3")
+            self.assertLess(int(vbr_info["bit_rate"]), 192000)
+            self.assertLessEqual(
+                abs(len(AudioSegment.from_file(vbr_path, format="mp3")) - len(track)), 1
+            )
+            cbr = story_course._export_chapter(
+                root / "cbr", {"sv": track}, manifests, "mp3", "192k", "test"
+            )["sv"]
+            cbr_info = mediainfo_json(str(root / "cbr" / cbr["audio_file"]))["streams"][0]
+            self.assertEqual(int(cbr_info["bit_rate"]), 192000)
 
     def test_missing_chapter_title_clip_is_rejected(self):
         with self.assertRaisesRegex(ValueError, "chapter title clip"):

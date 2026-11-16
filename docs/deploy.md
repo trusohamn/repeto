@@ -100,6 +100,9 @@ audio files are outside the supported pipeline format.
 - Full practice episodes and story chapters are assembled from the approved
   transcript/settings, uploaded under the PR revision's public staging keys,
   and verified against their byte length and SHA-256 digest.
+- Final MP3s use LAME variable-bitrate quality 4 by default. This preserves the
+  planned pause durations while allowing quiet sections to use fewer bytes.
+  Story rendering can use a fixed bitrate when `--bitrate` is explicitly set.
 - The PR receives the production audio filenames and integrity metadata plus a
   staging manifest. A comment provides direct staging listen links; generated
   MP3s are not added to Git. The feed generated in the PR already uses the

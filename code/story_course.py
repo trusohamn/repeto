@@ -26,6 +26,8 @@ from aiohttp import ClientConnectionError
 from pydub import AudioSegment
 from pydub.generators import Sine
 
+from audio_encoding import MP3_VBR_QUALITY, mp3_export_settings
+
 if TYPE_CHECKING:
     from speech_cache import SpeechCache
 
@@ -65,7 +67,6 @@ CHAPTER_HEADINGS = {
                         "sept", "huit", "neuf", "dix"]),
 }
 SAMPLE_RATE = 44100
-BITRATE = "192k"
 LOGGER = logging.getLogger(__name__)
 
 
@@ -541,7 +542,7 @@ def _export_chapter(
     tracks: dict[str, AudioSegment],
     manifests: dict[str, dict[str, Any]],
     file_format: str,
-    bitrate: str,
+    bitrate: str | None,
     timestamp: str,
 ) -> dict[str, dict[str, Any]]:
     output.mkdir(parents=True, exist_ok=True)
@@ -559,8 +560,9 @@ def _export_chapter(
             parameters = ["-ar", str(SAMPLE_RATE)]
             export_options: dict[str, Any] = {"format": file_format}
             if file_format == "mp3":
-                export_options["bitrate"] = bitrate
-                parameters.extend(["-write_xing", "1"])
+                mp3_options, encoding_parameters = mp3_export_settings(bitrate)
+                export_options.update(mp3_options)
+                parameters.extend(encoding_parameters)
             with audio_path.open("w+b") as output_file:
                 track.export(output_file, parameters=parameters, **export_options)
             with audio_path.open("rb") as staged_audio:
@@ -783,6 +785,10 @@ async def render_story(
         "pitches": {lang: pitch[lang] for lang in {args.source_language, *targets}},
         "format": args.file_format,
         "bitrate": args.bitrate if args.file_format == "mp3" else None,
+        "mp3_vbr_quality": (
+            MP3_VBR_QUALITY
+            if args.file_format == "mp3" and args.bitrate is None else None
+        ),
         "lead_in_ms": args.lead_in_ms,
         "thinking_ms": args.thinking_ms,
         "repetition_ms": args.repetition_ms,
@@ -1230,7 +1236,10 @@ def create_parser() -> argparse.ArgumentParser:
     parser.add_argument("--repetition-ms", type=int, default=2500)
     parser.add_argument("--max-duration", type=float)
     parser.add_argument("--format", dest="file_format", choices=("mp3", "wav"), default="mp3")
-    parser.add_argument("--bitrate", default=BITRATE)
+    parser.add_argument(
+        "--bitrate",
+        help="Use constant-bitrate MP3 instead of the default VBR encoding.",
+    )
     parser.add_argument("--package-podcast", action="store_true")
     parser.add_argument(
         "--retain-superseded-audio",
