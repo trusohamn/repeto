@@ -1,20 +1,17 @@
 # Spotify episode synchronization
 
 Repeto uses the Spotify Web API to retrieve public episodes for each configured
-show. The static-site build does not contact Spotify. After the `Publish
-podcasts` workflow successfully deploys from `main`, a separate GitHub Actions
-workflow waits 30 minutes for Spotify ingestion, then runs the synchronizer.
-Failed deployments do not trigger synchronization, and there is no daily poll.
+show. The static-site build does not contact Spotify. A separate GitHub Actions
+workflow runs daily at 06:15 UTC, independently of podcast deployments.
 The synchronizer opens or updates a pull request when episode mappings change.
 A maintainer reviews and merges that metadata PR before the episode embeds
 appear on the site.
 
 The workflow can also be started manually from the Actions tab on `main`;
-manual runs skip the 30-minute delay. Both triggers execute code from `main`.
-The delay does not guarantee Spotify has ingested the feed: if episodes are
-still missing, check the run summary and rerun manually later. Merging a mapping
-PR causes another deployment and post-deployment check; if the mappings have
-not changed, no further PR is created.
+both triggers execute code from `main`, without a deployment-related delay.
+Spotify ingestion can take time: if episodes are still missing, the next daily
+run retries discovery, or a maintainer can rerun manually sooner. If the
+mappings have not changed, no further PR is created.
 
 ## Setup and data source
 
