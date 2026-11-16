@@ -116,6 +116,7 @@ class PodcastTests(unittest.TestCase):
                 self.assertIn('href="transcripts/season-1-episode-01.html"', page)
                 self.assertIn('href="transcripts/season-2-episode-01.html"', page)
                 self.assertIn('<h3><a href="transcripts/season-1-episode-02.html">', page)
+                self.assertEqual(page.count('href="transcripts/season-1-episode-01.html"'), 1)
                 self.assertIn('href="transcripts/season-1.html"', page)
             self.assertIn('href="https://open.spotify.com/show/4pCmGojSZmODKl9qvxTrgq"', english)
             self.assertIn('<html lang="en">', english)
@@ -135,9 +136,11 @@ class PodcastTests(unittest.TestCase):
             "polish-german": "https://open.spotify.com/show/3cjB9e8s9YfypvRNxyfj6U",
         }
         courses = [repository / "podcast" / slug for slug in expected]
+        config_by_slug = {}
         for slug, url in expected.items():
             config = json.loads((repository / "podcast" / slug / "course.json").read_text())
             self.assertEqual(config["links"]["Spotify"], url)
+            config_by_slug[slug] = config
 
         with tempfile.TemporaryDirectory() as directory:
             output = Path(directory)
@@ -151,7 +154,15 @@ class PodcastTests(unittest.TestCase):
                 ).read_text(encoding="utf-8")
                 with self.subTest(course=slug):
                     self.assertIn(f'href="{url}"', course_page)
-                    self.assertIn(f'href="{url}"', episode_page)
+                    episode_id = config_by_slug[slug]["episodes"][0].get("spotify_episode_id")
+                    if episode_id:
+                        self.assertIn(
+                            f"https://open.spotify.com/embed/episode/{episode_id}",
+                            episode_page,
+                        )
+                        self.assertNotIn(f'href="{url}"', episode_page)
+                    else:
+                        self.assertIn(f'href="{url}"', episode_page)
 
     def test_transcripts_follow_spoken_order_and_replace_stale_files(self):
         with tempfile.TemporaryDirectory() as directory:
@@ -201,16 +212,26 @@ class PodcastTests(unittest.TestCase):
 
             page = (course / "transcripts/season-1-episode-01.html").read_text(encoding="utf-8")
             self.assertIn(f'src="https://open.spotify.com/embed/episode/{spotify_id}"', page)
+            course_page = (course / "index.html").read_text(encoding="utf-8")
+            self.assertEqual(course_page.count('id="course-player"'), 1)
+            self.assertIn(f'data-spotify="{spotify_id}" title="Listen on Spotify: Greetings"', course_page)
+            self.assertIn(f'class="num play" type="button" data-spotify="{spotify_id}"', course_page)
+            self.assertIn('aria-pressed="true" aria-controls="course-player"', course_page)
+            self.assertEqual(course_page.count('class="num play"'), 1)
             self.assertIn(f'href="https://open.spotify.com/episode/{spotify_id}"', page)
             self.assertIn('title="Listen to Greetings on Spotify"', page)
             self.assertIn('loading="lazy"', page)
+            self.assertEqual(page.count('>Listen on Spotify</a>'), 1)
+            self.assertNotIn('href="https://open.spotify.com/show/4pCmGojSZmODKl9qvxTrgq"', page)
 
             config["spotify_show_id"] = "b" * 22
             config_path.write_text(json.dumps(config), encoding="utf-8")
             podcast.build_index(root, courses, "https://example.com", stories=self.stories)
             page = (course / "transcripts/season-1-episode-01.html").read_text(encoding="utf-8")
             self.assertNotIn("<iframe", page)
+            self.assertNotIn("course-player", (course / "index.html").read_text(encoding="utf-8"))
             self.assertIn('href="https://open.spotify.com/show/4pCmGojSZmODKl9qvxTrgq"', page)
+            self.assertEqual(page.count('>Listen on Spotify</a>'), 1)
 
             config["episodes"][0]["spotify_episode_id"] = "invalid"
             config_path.write_text(json.dumps(config), encoding="utf-8")
