@@ -59,7 +59,9 @@
       <itunes:episode>1</itunes:episode>
       <itunes:season>1</itunes:season>
       <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>381</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://audio.repeto.stream/russian-german/audio/practice/01_greetings_ru_de_double_2026-11-16_11-39-12.mp3" length="2286237" type="audio/mpeg" />
     </item>
     <item>
       <title>02 Числа — Zahlen</title>
@@ -82,7 +84,9 @@
       <itunes:episode>2</itunes:episode>
       <itunes:season>1</itunes:season>
       <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>350</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://audio.repeto.stream/russian-german/audio/practice/02_numbers_ru_de_double_2026-11-16_11-40-42.mp3" length="2054972" type="audio/mpeg" />
     </item>
     <item>
       <title>03 Цвета — Farben</title>
@@ -105,7 +109,9 @@
       <itunes:episode>3</itunes:episode>
       <itunes:season>1</itunes:season>
       <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>317</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://audio.repeto.stream/russian-german/audio/practice/03_colors_ru_de_double_2026-11-16_11-42-09.mp3" length="1964176" type="audio/mpeg" />
     </item>
     <item>
       <title>04 Животные — Tiere</title>
@@ -128,7 +134,9 @@
       <itunes:episode>4</itunes:episode>
       <itunes:season>1</itunes:season>
       <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>431</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://audio.repeto.stream/russian-german/audio/practice/04_animals_ru_de_double_2026-11-16_11-43-22.mp3" length="2547572" type="audio/mpeg" />
     </item>
     <item>
       <title>05 Семья — Familie</title>
@@ -151,7 +159,9 @@
       <itunes:episode>5</itunes:episode>
       <itunes:season>1</itunes:season>
       <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>299</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://audio.repeto.stream/russian-german/audio/practice/05_family_ru_de_double_2026-11-16_11-45-06.mp3" length="1908306" type="audio/mpeg" />
     </item>
     <item>
       <title>06 Еда — Essen</title>
@@ -174,7 +184,9 @@
       <itunes:episode>6</itunes:episode>
       <itunes:season>1</itunes:season>
       <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>503</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://audio.repeto.stream/russian-german/audio/practice/06_food_ru_de_double_2026-11-16_11-46-13.mp3" length="2969836" type="audio/mpeg" />
     </item>
     <item>
       <title>07 Тело — Körper</title>
@@ -197,7 +209,9 @@
       <itunes:episode>7</itunes:episode>
       <itunes:season>1</itunes:season>
       <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>379</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://audio.repeto.stream/russian-german/audio/practice/07_body_ru_de_double_2026-11-16_11-48-11.mp3" length="2237227" type="audio/mpeg" />
     </item>
     <item>
       <title>08 Одежда — Kleidung</title>
@@ -220,7 +234,9 @@
       <itunes:episode>8</itunes:episode>
       <itunes:season>1</itunes:season>
       <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>317</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://audio.repeto.stream/russian-german/audio/practice/08_clothing_ru_de_double_2026-11-16_11-49-43.mp3" length="1945016" type="audio/mpeg" />
     </item>
     <item>
       <title>09 Дома — Zu Hause</title>
@@ -243,7 +259,9 @@
       <itunes:episode>9</itunes:episode>
       <itunes:season>1</itunes:season>
       <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>395</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://audio.repeto.stream/russian-german/audio/practice/09_home_ru_de_double_2026-11-16_11-50-56.mp3" length="2359181" type="audio/mpeg" />
     </item>
     <item>
       <title>10 Школа — Schule</title>
@@ -266,7 +284,9 @@
       <itunes:episode>10</itunes:episode>
       <itunes:season>1</itunes:season>
       <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>445</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://audio.repeto.stream/russian-german/audio/practice/10_school_ru_de_double_2026-11-16_11-52-31.mp3" length="2753288" type="audio/mpeg" />
     </item>
     <item>
       <title>11 Погода — Wetter</title>
@@ -289,7 +309,9 @@
       <itunes:episode>11</itunes:episode>
       <itunes:season>1</itunes:season>
       <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>262</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://audio.repeto.stream/russian-german/audio/practice/11_weather_ru_de_double_2026-11-16_11-54-19.mp3" length="1577445" type="audio/mpeg" />
     </item>
     <item>
       <title>12 Времена года — Jahreszeiten</title>
@@ -312,7 +334,9 @@
       <itunes:episode>12</itunes:episode>
       <itunes:season>1</itunes:season>
       <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>211</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://audio.repeto.stream/russian-german/audio/practice/12_seasons_ru_de_double_2026-11-16_11-55-23.mp3" length="1360173" type="audio/mpeg" />
     </item>
     <item>
       <title>13 Дни и время — Tage und Zeit</title>
@@ -335,7 +359,9 @@
       <itunes:episode>13</itunes:episode>
       <itunes:season>1</itunes:season>
       <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>313</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://audio.repeto.stream/russian-german/audio/practice/13_days_and_time_ru_de_double_2026-11-16_11-56-08.mp3" length="1935365" type="audio/mpeg" />
     </item>
     <item>
       <title>14 Игрушки и игры — Spielzeug und Spiele</title>
@@ -358,7 +384,9 @@
       <itunes:episode>14</itunes:episode>
       <itunes:season>1</itunes:season>
       <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>381</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://audio.repeto.stream/russian-german/audio/practice/14_toys_and_play_ru_de_double_2026-11-16_11-57-17.mp3" length="2386165" type="audio/mpeg" />
     </item>
     <item>
       <title>15 Спорт и занятия — Sport und Aktivitäten</title>
@@ -381,7 +409,9 @@
       <itunes:episode>15</itunes:episode>
       <itunes:season>1</itunes:season>
       <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>284</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://audio.repeto.stream/russian-german/audio/practice/15_sports_and_activities_ru_de_double_2026-11-16_11-58-42.mp3" length="1791458" type="audio/mpeg" />
     </item>
     <item>
       <title>16 Я хочу и мне нужно — Ich will und ich brauche</title>
@@ -404,7 +434,9 @@
       <itunes:episode>16</itunes:episode>
       <itunes:season>1</itunes:season>
       <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>330</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://audio.repeto.stream/russian-german/audio/practice/16_i_want_i_need_ru_de_double_2026-11-16_11-59-45.mp3" length="2139953" type="audio/mpeg" />
     </item>
     <item>
       <title>17 Где это? — Wo ist es?</title>
@@ -427,7 +459,9 @@
       <itunes:episode>17</itunes:episode>
       <itunes:season>1</itunes:season>
       <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>319</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://audio.repeto.stream/russian-german/audio/practice/17_where_is_ru_de_double_2026-11-16_12-00-55.mp3" length="2043426" type="audio/mpeg" />
     </item>
     <item>
       <title>18 Чувства и эмоции — Gefühle</title>
@@ -450,7 +484,9 @@
       <itunes:episode>18</itunes:episode>
       <itunes:season>1</itunes:season>
       <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>313</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://audio.repeto.stream/russian-german/audio/practice/18_feelings_and_emotions_ru_de_double_2026-11-16_12-02-05.mp3" length="1975615" type="audio/mpeg" />
     </item>
     <item>
       <title>19 Транспорт — Verkehrsmittel</title>
@@ -473,7 +509,9 @@
       <itunes:episode>19</itunes:episode>
       <itunes:season>1</itunes:season>
       <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>279</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://audio.repeto.stream/russian-german/audio/practice/19_transport_ru_de_double_2026-11-16_12-03-15.mp3" length="1743372" type="audio/mpeg" />
     </item>
     <item>
       <title>20 Природа — Natur</title>
@@ -496,7 +534,9 @@
       <itunes:episode>20</itunes:episode>
       <itunes:season>1</itunes:season>
       <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>277</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://audio.repeto.stream/russian-german/audio/practice/20_nature_ru_de_double_2026-11-16_12-04-16.mp3" length="1630200" type="audio/mpeg" />
     </item>
     <item>
       <title>21 Праздники — Feiertage und Feste</title>
@@ -519,7 +559,9 @@
       <itunes:episode>21</itunes:episode>
       <itunes:season>1</itunes:season>
       <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>270</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://audio.repeto.stream/russian-german/audio/practice/21_holidays_and_celebrations_ru_de_double_2026-11-16_12-05-22.mp3" length="1769204" type="audio/mpeg" />
     </item>
     <item>
       <title>22 Распорядок дня — Tagesablauf</title>
@@ -542,7 +584,9 @@
       <itunes:episode>22</itunes:episode>
       <itunes:season>1</itunes:season>
       <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>329</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://audio.repeto.stream/russian-german/audio/practice/22_daily_routine_ru_de_double_2026-11-16_12-06-22.mp3" length="2153202" type="audio/mpeg" />
     </item>
     <item>
       <title>23 Вопросы и просьбы — Fragen und Bitten</title>
@@ -565,7 +609,9 @@
       <itunes:episode>23</itunes:episode>
       <itunes:season>1</itunes:season>
       <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>287</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://audio.repeto.stream/russian-german/audio/practice/23_asking_and_requests_ru_de_double_2026-11-16_12-07-33.mp3" length="1795130" type="audio/mpeg" />
     </item>
     <item>
       <title>24 Противоположности — Gegensätze</title>
@@ -588,7 +634,9 @@
       <itunes:episode>24</itunes:episode>
       <itunes:season>1</itunes:season>
       <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>292</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://audio.repeto.stream/russian-german/audio/practice/24_opposites_ru_de_double_2026-11-16_12-08-34.mp3" length="1742192" type="audio/mpeg" />
     </item>
     <item>
       <title>25 Действия и глаголы — Handlungen und Verben</title>
@@ -611,7 +659,9 @@
       <itunes:episode>25</itunes:episode>
       <itunes:season>1</itunes:season>
       <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>432</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://audio.repeto.stream/russian-german/audio/practice/25_actions_and_verbs_ru_de_double_2026-11-16_12-09-42.mp3" length="2597449" type="audio/mpeg" />
     </item>
     <item>
       <title>26 Места в городе — Orte in der Stadt</title>
@@ -634,7 +684,9 @@
       <itunes:episode>26</itunes:episode>
       <itunes:season>1</itunes:season>
       <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>267</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://audio.repeto.stream/russian-german/audio/practice/26_places_in_town_ru_de_double_2026-11-16_12-11-27.mp3" length="1725040" type="audio/mpeg" />
     </item>
     <item>
       <title>27 Техника — Technik</title>
@@ -657,7 +709,9 @@
       <itunes:episode>27</itunes:episode>
       <itunes:season>1</itunes:season>
       <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>254</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://audio.repeto.stream/russian-german/audio/practice/27_technology_ru_de_double_2026-11-16_12-12-26.mp3" length="1633732" type="audio/mpeg" />
     </item>
     <item>
       <title>28 Музыка и искусство — Musik und Kunst</title>
@@ -680,7 +734,9 @@
       <itunes:episode>28</itunes:episode>
       <itunes:season>1</itunes:season>
       <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>255</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://audio.repeto.stream/russian-german/audio/practice/28_music_and_art_ru_de_double_2026-11-16_12-13-20.mp3" length="1590654" type="audio/mpeg" />
     </item>
     <item>
       <title>29 Вежливые слова — Höfliche Ausdrücke</title>
@@ -703,7 +759,9 @@
       <itunes:episode>29</itunes:episode>
       <itunes:season>1</itunes:season>
       <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>183</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://audio.repeto.stream/russian-german/audio/practice/29_polite_phrases_ru_de_double_2026-11-16_12-14-16.mp3" length="1110534" type="audio/mpeg" />
     </item>
     <item>
       <title>30 Повторение — Wiederholung</title>
@@ -726,7 +784,9 @@
       <itunes:episode>30</itunes:episode>
       <itunes:season>1</itunes:season>
       <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>131</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://audio.repeto.stream/russian-german/audio/practice/30_review_and_recap_ru_de_double_2026-11-16_12-14-52.mp3" length="865264" type="audio/mpeg" />
     </item>
     <item>
       <title>01 Волшебное радио: Старый стол — Der alte Tisch</title>
@@ -747,8 +807,10 @@
       <itunes:episode>1</itunes:episode>
       <itunes:season>2</itunes:season>
       <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>315</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://repeto.stream/russian-german/images/stories/magical_radio/cover-fe68de28.jpeg" />
+      <enclosure url="https://audio.repeto.stream/russian-german/audio/stories/magical_radio/01_chapter_01_ru_de_2026-11-16_12-15-27.mp3" length="2116486" type="audio/mpeg" />
     </item>
     <item>
       <title>02 Волшебное радио: Голос из радио — Eine Stimme aus dem Radio</title>
@@ -769,8 +831,10 @@
       <itunes:episode>2</itunes:episode>
       <itunes:season>2</itunes:season>
       <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>279</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://repeto.stream/russian-german/images/stories/magical_radio/cover-fe68de28.jpeg" />
+      <enclosure url="https://audio.repeto.stream/russian-german/audio/stories/magical_radio/02_chapter_02_ru_de_2026-11-16_12-15-27.mp3" length="1824018" type="audio/mpeg" />
     </item>
     <item>
       <title>03 Волшебное радио: Мышка под деревом — Die Maus unter dem Baum</title>
@@ -791,8 +855,10 @@
       <itunes:episode>3</itunes:episode>
       <itunes:season>2</itunes:season>
       <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>368</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://repeto.stream/russian-german/images/stories/magical_radio/cover-fe68de28.jpeg" />
+      <enclosure url="https://audio.repeto.stream/russian-german/audio/stories/magical_radio/03_chapter_03_ru_de_2026-11-16_12-15-27.mp3" length="2476812" type="audio/mpeg" />
     </item>
     <item>
       <title>04 Волшебное радио: Лестница вниз — Die Treppe hinunter</title>
@@ -813,8 +879,10 @@
       <itunes:episode>4</itunes:episode>
       <itunes:season>2</itunes:season>
       <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>282</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://repeto.stream/russian-german/images/stories/magical_radio/cover-fe68de28.jpeg" />
+      <enclosure url="https://audio.repeto.stream/russian-german/audio/stories/magical_radio/04_chapter_04_ru_de_2026-11-16_12-15-27.mp3" length="1754223" type="audio/mpeg" />
     </item>
     <item>
       <title>05 Волшебное радио: Летающая книга — Das fliegende Buch</title>
@@ -835,8 +903,10 @@
       <itunes:episode>5</itunes:episode>
       <itunes:season>2</itunes:season>
       <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>279</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://repeto.stream/russian-german/images/stories/magical_radio/cover-fe68de28.jpeg" />
+      <enclosure url="https://audio.repeto.stream/russian-german/audio/stories/magical_radio/05_chapter_05_ru_de_2026-11-16_12-15-27.mp3" length="1798391" type="audio/mpeg" />
     </item>
     <item>
       <title>06 Волшебное радио: Первое заклинание — Der erste Zauberspruch</title>
@@ -857,8 +927,10 @@
       <itunes:episode>6</itunes:episode>
       <itunes:season>2</itunes:season>
       <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>227</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://repeto.stream/russian-german/images/stories/magical_radio/cover-fe68de28.jpeg" />
+      <enclosure url="https://audio.repeto.stream/russian-german/audio/stories/magical_radio/06_chapter_06_ru_de_2026-11-16_12-15-27.mp3" length="1466758" type="audio/mpeg" />
     </item>
     <item>
       <title>07 Волшебное радио: Золотая птица — Der goldene Vogel</title>
@@ -879,8 +951,10 @@
       <itunes:episode>7</itunes:episode>
       <itunes:season>2</itunes:season>
       <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>365</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://repeto.stream/russian-german/images/stories/magical_radio/cover-fe68de28.jpeg" />
+      <enclosure url="https://audio.repeto.stream/russian-german/audio/stories/magical_radio/07_chapter_07_ru_de_2026-11-16_12-15-27.mp3" length="2533462" type="audio/mpeg" />
     </item>
     <item>
       <title>08 Волшебное радио: Большой концерт — Das große Konzert</title>
@@ -901,8 +975,10 @@
       <itunes:episode>8</itunes:episode>
       <itunes:season>2</itunes:season>
       <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>238</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://repeto.stream/russian-german/images/stories/magical_radio/cover-fe68de28.jpeg" />
+      <enclosure url="https://audio.repeto.stream/russian-german/audio/stories/magical_radio/08_chapter_08_ru_de_2026-11-16_12-15-27.mp3" length="1587933" type="audio/mpeg" />
     </item>
   </channel>
 </rss>
