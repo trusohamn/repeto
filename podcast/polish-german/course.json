@@ -8,352 +8,466 @@
     {
       "id": "repeto:polish-german:topic-01",
       "title": "Powitania — Begrüßungen",
-      "pending_audio": true,
+      "file": "practice/01_greetings_pl_de_double_2026-11-16_10-13-50.mp3",
+      "duration_ms": 372573,
       "published": "2026-11-15T22:36:42+00:00",
       "description": "Temat 1 z 30: Powitania (Begrüßungen) – 36 zwrotów.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po niemiecku w przerwie, zanim usłyszysz odpowiedź. Każdy niemiecki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Cześć! → Hallo!\n• Dzień dobry! → Guten Morgen!\n• Dzień dobry! → Guten Tag!\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
       "season": 1,
-      "episode": 1
+      "episode": 1,
+      "bytes": 8943324,
+      "sha256": "d733c5d39f68508cfdf81cb91a1c5eef251f242b5ae0edee83b40472d36105ae"
     },
     {
       "id": "repeto:polish-german:topic-02",
       "title": "Liczby — Zahlen",
-      "pending_audio": true,
+      "file": "practice/02_numbers_pl_de_double_2026-11-16_10-15-58.mp3",
+      "duration_ms": 345259,
       "published": "2026-11-15T22:36:42+00:00",
       "description": "Temat 2 z 30: Liczby (Zahlen) – 35 zwrotów.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po niemiecku w przerwie, zanim usłyszysz odpowiedź. Każdy niemiecki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Jeden → Eins\n• Dwa → Zwei\n• Trzy → Drei\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
       "season": 1,
-      "episode": 2
+      "episode": 2,
+      "bytes": 8287546,
+      "sha256": "18a8e9942af72f5021f9f9ea92f6d0affaa02b2b4091e21863a93b5639f87bc6"
     },
     {
       "id": "repeto:polish-german:topic-03",
       "title": "Kolory — Farben",
-      "pending_audio": true,
+      "file": "practice/03_colors_pl_de_double_2026-11-16_10-18-05.mp3",
+      "duration_ms": 314210,
       "published": "2026-11-15T22:36:42+00:00",
       "description": "Temat 3 z 30: Kolory (Farben) – 29 zwrotów.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po niemiecku w przerwie, zanim usłyszysz odpowiedź. Każdy niemiecki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Czerwony → Rot\n• Niebieski → Blau\n• Żółty → Gelb\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
       "season": 1,
-      "episode": 3
+      "episode": 3,
+      "bytes": 7542743,
+      "sha256": "fa82da30633a4d8dc9f2e675f19c50c53173beaa7ac298e0610ca419de89a285"
     },
     {
       "id": "repeto:polish-german:topic-04",
       "title": "Zwierzęta — Tiere",
-      "pending_audio": true,
+      "file": "practice/04_animals_pl_de_double_2026-11-16_10-19-51.mp3",
+      "duration_ms": 418165,
       "published": "2026-11-15T22:36:42+00:00",
       "description": "Temat 4 z 30: Zwierzęta (Tiere) – 42 zwroty.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po niemiecku w przerwie, zanim usłyszysz odpowiedź. Każdy niemiecki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Pies → Hund\n• Kot → Katze\n• Ptak → Vogel\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
       "season": 1,
-      "episode": 4
+      "episode": 4,
+      "bytes": 10037332,
+      "sha256": "f894653c21eb0350a4c1336eeff3d099485e0356188ece6b86fb6efb6b707344"
     },
     {
       "id": "repeto:polish-german:topic-05",
       "title": "Rodzina — Familie",
-      "pending_audio": true,
+      "file": "practice/05_family_pl_de_double_2026-11-16_10-22-22.mp3",
+      "duration_ms": 292414,
       "published": "2026-11-15T22:36:42+00:00",
       "description": "Temat 5 z 30: Rodzina (Familie) – 26 zwrotów.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po niemiecku w przerwie, zanim usłyszysz odpowiedź. Każdy niemiecki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Mama → Mama\n• Tata → Papa\n• Siostra → Schwester\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
       "season": 1,
-      "episode": 5
+      "episode": 5,
+      "bytes": 7019249,
+      "sha256": "5c00e07288af3d509c86abe8c1b55960cc9b95ccc69f4c78db502fabb41c0e58"
     },
     {
       "id": "repeto:polish-german:topic-06",
       "title": "Jedzenie — Essen",
-      "pending_audio": true,
+      "file": "practice/06_food_pl_de_double_2026-11-16_10-23-56.mp3",
+      "duration_ms": 495459,
       "published": "2026-11-15T22:36:42+00:00",
       "description": "Temat 6 z 30: Jedzenie (Essen) – 49 zwrotów.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po niemiecku w przerwie, zanim usłyszysz odpowiedź. Każdy niemiecki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Chleb → Brot\n• Mleko → Milch\n• Jajko → Ei\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
       "season": 1,
-      "episode": 6
+      "episode": 6,
+      "bytes": 11892444,
+      "sha256": "c6521596e6d0c91226251af3c322c327ad9473e2172d76758f1f9a2646b0c592"
     },
     {
       "id": "repeto:polish-german:topic-07",
       "title": "Ciało — Körper",
-      "pending_audio": true,
+      "file": "practice/07_body_pl_de_double_2026-11-16_10-26-47.mp3",
+      "duration_ms": 371860,
       "published": "2026-11-15T22:36:42+00:00",
       "description": "Temat 7 z 30: Ciało (Körper) – 37 zwrotów.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po niemiecku w przerwie, zanim usłyszysz odpowiedź. Każdy niemiecki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Głowa → Kopf\n• Włosy → Haare\n• Oko → Auge\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
       "season": 1,
-      "episode": 7
+      "episode": 7,
+      "bytes": 8926397,
+      "sha256": "4741683e09041a63c24a04f7e92c63171d670945f176cec4fb8dfd65d56f5acc"
     },
     {
       "id": "repeto:polish-german:topic-08",
       "title": "Ubrania — Kleidung",
-      "pending_audio": true,
+      "file": "practice/08_clothing_pl_de_double_2026-11-16_10-29-00.mp3",
+      "duration_ms": 313602,
       "published": "2026-11-15T22:36:42+00:00",
       "description": "Temat 8 z 30: Ubrania (Kleidung) – 29 zwrotów.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po niemiecku w przerwie, zanim usłyszysz odpowiedź. Każdy niemiecki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Sweter → Pullover\n• Koszulka → T-Shirt\n• Koszula → Hemd\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
       "season": 1,
-      "episode": 8
+      "episode": 8,
+      "bytes": 7528323,
+      "sha256": "85ec2e616c063d4127170955da5864524f03a0a6db5299244f09ef41cbe1704b"
     },
     {
       "id": "repeto:polish-german:topic-09",
       "title": "W domu — Zu Hause",
-      "pending_audio": true,
+      "file": "practice/09_home_pl_de_double_2026-11-16_10-30-47.mp3",
+      "duration_ms": 389233,
       "published": "2026-11-15T22:36:42+00:00",
       "description": "Temat 9 z 30: W domu (Zu Hause) – 38 zwrotów.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po niemiecku w przerwie, zanim usłyszysz odpowiedź. Każdy niemiecki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Dom → Haus\n• Mieszkanie → Wohnung\n• Pokój → Zimmer\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
       "season": 1,
-      "episode": 9
+      "episode": 9,
+      "bytes": 9343311,
+      "sha256": "4ce66c99aabfe256438d33e72254cd53c51401147dde1bb9ce974515fb37a9f6"
     },
     {
       "id": "repeto:polish-german:topic-10",
       "title": "Szkoła — Schule",
-      "pending_audio": true,
+      "file": "practice/10_school_pl_de_double_2026-11-16_10-33-05.mp3",
+      "duration_ms": 436951,
       "published": "2026-11-15T22:36:42+00:00",
       "description": "Temat 10 z 30: Szkoła (Schule) – 41 zwrotów.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po niemiecku w przerwie, zanim usłyszysz odpowiedź. Każdy niemiecki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Szkoła → Schule\n• Klasa → Klassenzimmer\n• Nauczyciel → Lehrer\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
       "season": 1,
-      "episode": 10
+      "episode": 10,
+      "bytes": 10488728,
+      "sha256": "e3142dc1029301afc94555f798f153add70e6ab6821969e67afbae2738549ed2"
     },
     {
       "id": "repeto:polish-german:topic-11",
       "title": "Pogoda — Wetter",
-      "pending_audio": true,
+      "file": "practice/11_weather_pl_de_double_2026-11-16_10-35-34.mp3",
+      "duration_ms": 258073,
       "published": "2026-11-15T22:36:42+00:00",
       "description": "Temat 11 z 30: Pogoda (Wetter) – 25 zwrotów.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po niemiecku w przerwie, zanim usłyszysz odpowiedź. Każdy niemiecki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Pogoda → Wetter\n• Słońce → Sonne\n• Deszcz → Regen\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
       "season": 1,
-      "episode": 11
+      "episode": 11,
+      "bytes": 6195452,
+      "sha256": "c50db77469b83975892fc02933b28f6a45797f8af2f470ad64095102ba145c0e"
     },
     {
       "id": "repeto:polish-german:topic-12",
       "title": "Pory roku — Jahreszeiten",
-      "pending_audio": true,
+      "file": "practice/12_seasons_pl_de_double_2026-11-16_10-37-02.mp3",
+      "duration_ms": 207081,
       "published": "2026-11-15T22:36:42+00:00",
       "description": "Temat 12 z 30: Pory roku (Jahreszeiten) – 18 zwrotów.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po niemiecku w przerwie, zanim usłyszysz odpowiedź. Każdy niemiecki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Wiosna → Frühling\n• Lato → Sommer\n• Jesień → Herbst\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
       "season": 1,
-      "episode": 12
+      "episode": 12,
+      "bytes": 4971667,
+      "sha256": "87636aec33b20cd6986f49aceb5553d92999fa7c2be33dca01d466269b5cdcb1"
     },
     {
       "id": "repeto:polish-german:topic-13",
       "title": "Dni i czas — Tage und Zeit",
-      "pending_audio": true,
+      "file": "practice/13_days_and_time_pl_de_double_2026-11-16_10-38-08.mp3",
+      "duration_ms": 307083,
       "published": "2026-11-15T22:36:42+00:00",
       "description": "Temat 13 z 30: Dni i czas (Tage und Zeit) – 29 zwrotów.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po niemiecku w przerwie, zanim usłyszysz odpowiedź. Każdy niemiecki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Poniedziałek → Montag\n• Wtorek → Dienstag\n• Środa → Mittwoch\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
       "season": 1,
-      "episode": 13
+      "episode": 13,
+      "bytes": 7371589,
+      "sha256": "229f6dd28b8addc896f64dc3ec15555bd66b7fc34b0df6d572a723c8024d7e6c"
     },
     {
       "id": "repeto:polish-german:topic-14",
       "title": "Zabawki i zabawa — Spielzeug und Spiele",
-      "pending_audio": true,
+      "file": "practice/14_toys_and_play_pl_de_double_2026-11-16_10-39-51.mp3",
+      "duration_ms": 370994,
       "published": "2026-11-15T22:36:42+00:00",
       "description": "Temat 14 z 30: Zabawki i zabawa (Spielzeug und Spiele) – 34 zwroty.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po niemiecku w przerwie, zanim usłyszysz odpowiedź. Każdy niemiecki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Zabawka → Spielzeug\n• Piłka → Ball\n• Lalka → Puppe\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
       "season": 1,
-      "episode": 14
+      "episode": 14,
+      "bytes": 8905708,
+      "sha256": "be37ba334b3a55cf77ee85f483407a6da658c9456a303ad2540cca0e8e008a97"
     },
     {
       "id": "repeto:polish-german:topic-15",
       "title": "Sport i zajęcia — Sport und Aktivitäten",
-      "pending_audio": true,
+      "file": "practice/15_sports_and_activities_pl_de_double_2026-11-16_10-41-57.mp3",
+      "duration_ms": 276527,
       "published": "2026-11-15T22:36:42+00:00",
       "description": "Temat 15 z 30: Sport i zajęcia (Sport und Aktivitäten) – 25 zwrotów.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po niemiecku w przerwie, zanim usłyszysz odpowiedź. Każdy niemiecki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Piłka nożna → Fußball\n• Pływanie → Schwimmen\n• Jazda na rowerze → Radfahren\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
       "season": 1,
-      "episode": 15
+      "episode": 15,
+      "bytes": 6638070,
+      "sha256": "041af51859730f3abf0c0906c098598fba45700c3a79086d1071fc395e7b3a57"
     },
     {
       "id": "repeto:polish-german:topic-16",
       "title": "Chcę i potrzebuję — Ich will und ich brauche",
-      "pending_audio": true,
+      "file": "practice/16_i_want_i_need_pl_de_double_2026-11-16_10-43-28.mp3",
+      "duration_ms": 321491,
       "published": "2026-11-15T22:36:42+00:00",
       "description": "Temat 16 z 30: Chcę i potrzebuję (Ich will und ich brauche) – 28 zwrotów.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po niemiecku w przerwie, zanim usłyszysz odpowiedź. Każdy niemiecki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Chcę wyjść na dwór. → Ich will nach draußen gehen.\n• Chcę piłkę. → Ich will einen Ball.\n• Chcę jeść. → Ich will essen.\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
       "season": 1,
-      "episode": 16
+      "episode": 16,
+      "bytes": 7717659,
+      "sha256": "0400a407fdb245d12e24eaca0018dac9b772063f7436aca5e29484a9668c3036"
     },
     {
       "id": "repeto:polish-german:topic-17",
       "title": "Gdzie jest? — Wo ist es?",
-      "pending_audio": true,
+      "file": "practice/17_where_is_pl_de_double_2026-11-16_10-45-08.mp3",
+      "duration_ms": 317882,
       "published": "2026-11-15T22:36:42+00:00",
       "description": "Temat 17 z 30: Gdzie jest? (Wo ist es?) – 28 zwrotów.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po niemiecku w przerwie, zanim usłyszysz odpowiedź. Każdy niemiecki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Gdzie jest miś? → Wo ist der Teddybär?\n• Gdzie jest mój telefon? → Wo ist mein Handy?\n• Gdzie jest moja torba? → Wo ist meine Tasche?\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
       "season": 1,
-      "episode": 17
+      "episode": 17,
+      "bytes": 7630514,
+      "sha256": "5a03fdecee4e192b75cbebe49cfc15fc817b8900c6da638cfb330c7429d103d6"
     },
     {
       "id": "repeto:polish-german:topic-18",
       "title": "Uczucia i emocje — Gefühle",
-      "pending_audio": true,
+      "file": "practice/18_feelings_and_emotions_pl_de_double_2026-11-16_10-46-49.mp3",
+      "duration_ms": 311552,
       "published": "2026-11-15T22:36:42+00:00",
       "description": "Temat 18 z 30: Uczucia i emocje (Gefühle) – 28 zwrotów.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po niemiecku w przerwie, zanim usłyszysz odpowiedź. Każdy niemiecki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Wesoły → fröhlich\n• Smutny → traurig\n• Zły → wütend\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
       "season": 1,
-      "episode": 18
+      "episode": 18,
+      "bytes": 7478795,
+      "sha256": "aa92fe8967978735de0830b1d2b601fd15a0b81d073e91ffc81bcc841aadff53"
     },
     {
       "id": "repeto:polish-german:topic-19",
       "title": "Środki transportu — Verkehrsmittel",
-      "pending_audio": true,
+      "file": "practice/19_transport_pl_de_double_2026-11-16_10-48-30.mp3",
+      "duration_ms": 273644,
       "published": "2026-11-15T22:36:42+00:00",
       "description": "Temat 19 z 30: Środki transportu (Verkehrsmittel) – 25 zwrotów.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po niemiecku w przerwie, zanim usłyszysz odpowiedź. Każdy niemiecki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Samochód → Auto\n• Autobus → Bus\n• Pociąg → Zug\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
       "season": 1,
-      "episode": 19
+      "episode": 19,
+      "bytes": 6569107,
+      "sha256": "c892f04d5ea491a9562b7ac2e94e52a2038d0174a6a60e8ac323da4fbb47c739"
     },
     {
       "id": "repeto:polish-german:topic-20",
       "title": "Przyroda — Natur",
-      "pending_audio": true,
+      "file": "practice/20_nature_pl_de_double_2026-11-16_10-49-57.mp3",
+      "duration_ms": 274679,
       "published": "2026-11-15T22:36:42+00:00",
       "description": "Temat 20 z 30: Przyroda (Natur) – 27 zwrotów.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po niemiecku w przerwie, zanim usłyszysz odpowiedź. Każdy niemiecki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Las → Wald\n• Morze → Meer\n• Jezioro → See\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
       "season": 1,
-      "episode": 20
+      "episode": 20,
+      "bytes": 6594185,
+      "sha256": "6834341254841b0c4d6dabda569d3cf50184dab67d71a02109a2cb1d91683f1f"
     },
     {
       "id": "repeto:polish-german:topic-21",
       "title": "Święta i uroczystości — Feiertage und Feste",
-      "pending_audio": true,
+      "file": "practice/21_holidays_and_celebrations_pl_de_double_2026-11-16_10-51-34.mp3",
+      "duration_ms": 268600,
       "published": "2026-11-15T22:36:42+00:00",
       "description": "Temat 21 z 30: Święta i uroczystości (Feiertage und Feste) – 23 zwroty.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po niemiecku w przerwie, zanim usłyszysz odpowiedź. Każdy niemiecki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Urodziny → Geburtstag\n• Wszystkiego najlepszego z okazji urodzin! → Alles Gute zum Geburtstag!\n• Boże Narodzenie → Weihnachten\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
       "season": 1,
-      "episode": 21
+      "episode": 21,
+      "bytes": 6448108,
+      "sha256": "ae362063f2df24c36417a72d70fdff9f87dd1905c8f961ccdfedead046805e33"
     },
     {
       "id": "repeto:polish-german:topic-22",
       "title": "Codzienne czynności — Tagesablauf",
-      "pending_audio": true,
+      "file": "practice/22_daily_routine_pl_de_double_2026-11-16_10-52-58.mp3",
+      "duration_ms": 324339,
       "published": "2026-11-15T22:36:42+00:00",
       "description": "Temat 22 z 30: Codzienne czynności (Tagesablauf) – 28 zwrotów.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po niemiecku w przerwie, zanim usłyszysz odpowiedź. Każdy niemiecki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Budzić się → aufwachen\n• Wstawać → aufstehen\n• Myć zęby → sich die Zähne putzen\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
       "season": 1,
-      "episode": 22
+      "episode": 22,
+      "bytes": 7785995,
+      "sha256": "70f4058b77f4abf000b6ee000406008bca2202082ddef22501168da60f656abb"
     },
     {
       "id": "repeto:polish-german:topic-23",
       "title": "Pytania i prośby — Fragen und Bitten",
-      "pending_audio": true,
+      "file": "practice/23_asking_and_requests_pl_de_double_2026-11-16_10-54-41.mp3",
+      "duration_ms": 279505,
       "published": "2026-11-15T22:36:42+00:00",
       "description": "Temat 23 z 30: Pytania i prośby (Fragen und Bitten) – 26 zwrotów.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po niemiecku w przerwie, zanim usłyszysz odpowiedź. Każdy niemiecki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Czy możesz mi pomóc? → Kannst du mir helfen?\n• Pomocy! → Hilfe!\n• Proszę! → Bitte!\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
       "season": 1,
-      "episode": 23
+      "episode": 23,
+      "bytes": 6709541,
+      "sha256": "08fbce40fe61654c4eb726c75e2bc141484c527ff9deaef82ff24e0b2b7c5d09"
     },
     {
       "id": "repeto:polish-german:topic-24",
       "title": "Przeciwieństwa — Gegensätze",
-      "pending_audio": true,
+      "file": "practice/24_opposites_pl_de_double_2026-11-16_10-56-03.mp3",
+      "duration_ms": 286808,
       "published": "2026-11-15T22:36:42+00:00",
       "description": "Temat 24 z 30: Przeciwieństwa (Gegensätze) – 28 zwrotów.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po niemiecku w przerwie, zanim usłyszysz odpowiedź. Każdy niemiecki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Duży → groß\n• Mały → klein\n• Długi → lang\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
       "season": 1,
-      "episode": 24
+      "episode": 24,
+      "bytes": 6885084,
+      "sha256": "181a49cd9faf77513f8963f8bc1c1816bb0bc7bbacf4aef01368af30c646c45e"
     },
     {
       "id": "repeto:polish-german:topic-25",
       "title": "Czynności i czasowniki — Handlungen und Verben",
-      "pending_audio": true,
+      "file": "practice/25_actions_and_verbs_pl_de_double_2026-11-16_10-57-37.mp3",
+      "duration_ms": 423957,
       "published": "2026-11-15T22:36:42+00:00",
       "description": "Temat 25 z 30: Czynności i czasowniki (Handlungen und Verben) – 41 zwrotów.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po niemiecku w przerwie, zanim usłyszysz odpowiedź. Każdy niemiecki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Iść → gehen\n• Biegać → laufen\n• Skakać → springen\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
       "season": 1,
-      "episode": 25
+      "episode": 25,
+      "bytes": 10176513,
+      "sha256": "78facfc4e5228cd89a839d474152a3227c5ff4605ec6775403db0a5d003279b5"
     },
     {
       "id": "repeto:polish-german:topic-26",
       "title": "Miejsca w mieście — Orte in der Stadt",
-      "pending_audio": true,
+      "file": "practice/26_places_in_town_pl_de_double_2026-11-16_11-00-02.mp3",
+      "duration_ms": 262829,
       "published": "2026-11-15T22:36:42+00:00",
       "description": "Temat 26 z 30: Miejsca w mieście (Orte in der Stadt) – 23 zwroty.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po niemiecku w przerwie, zanim usłyszysz odpowiedź. Każdy niemiecki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Park → der Park\n• Plac zabaw → der Spielplatz\n• Sklep → der Laden\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
       "season": 1,
-      "episode": 26
+      "episode": 26,
+      "bytes": 6309554,
+      "sha256": "57520bfa72b446e697478b2535597da56a9d82dabc9569a96e5dc7af91de85f5"
     },
     {
       "id": "repeto:polish-german:topic-27",
       "title": "Technologia — Technik",
-      "pending_audio": true,
+      "file": "practice/27_technology_pl_de_double_2026-11-16_11-01-30.mp3",
+      "duration_ms": 250020,
       "published": "2026-11-15T22:36:42+00:00",
       "description": "Temat 27 z 30: Technologia (Technik) – 22 zwroty.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po niemiecku w przerwie, zanim usłyszysz odpowiedź. Każdy niemiecki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Telefon → das Telefon\n• Telefon komórkowy → das Handy\n• Komputer → der Computer\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
       "season": 1,
-      "episode": 27
+      "episode": 27,
+      "bytes": 6002354,
+      "sha256": "a862b91eae925f8343a2f641c0be2d6824381b3f39ce1dea75cf811e47738d30"
     },
     {
       "id": "repeto:polish-german:topic-28",
       "title": "Muzyka i sztuka — Musik und Kunst",
-      "pending_audio": true,
+      "file": "practice/28_music_and_art_pl_de_double_2026-11-16_11-02-48.mp3",
+      "duration_ms": 249132,
       "published": "2026-11-15T22:36:42+00:00",
       "description": "Temat 28 z 30: Muzyka i sztuka (Musik und Kunst) – 23 zwroty.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po niemiecku w przerwie, zanim usłyszysz odpowiedź. Każdy niemiecki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Muzyka → die Musik\n• Piosenka → das Lied\n• Taniec → das Tanzen\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
       "season": 1,
-      "episode": 28
+      "episode": 28,
+      "bytes": 5981039,
+      "sha256": "37561d9d7fe6028b680c453e0fdf38da09a9c14afc78b87f5bf9c0966366fce7"
     },
     {
       "id": "repeto:polish-german:topic-29",
       "title": "Zwroty grzecznościowe — Höfliche Ausdrücke",
-      "pending_audio": true,
+      "file": "practice/29_polite_phrases_pl_de_double_2026-11-16_11-04-11.mp3",
+      "duration_ms": 178371,
       "published": "2026-11-15T22:36:42+00:00",
       "description": "Temat 29 z 30: Zwroty grzecznościowe (Höfliche Ausdrücke) – 17 zwrotów.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po niemiecku w przerwie, zanim usłyszysz odpowiedź. Każdy niemiecki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Proszę. → Bitte.\n• Dziękuję! → Danke!\n• Bardzo dziękuję! → Vielen Dank!\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
       "season": 1,
-      "episode": 29
+      "episode": 29,
+      "bytes": 4282661,
+      "sha256": "9456373aa48c1d290bd1f05cc60a432be9917325f38802e8882542caa7d058b8"
     },
     {
       "id": "repeto:polish-german:topic-30",
       "title": "Powtórka — Wiederholung",
-      "pending_audio": true,
+      "file": "practice/30_review_and_recap_pl_de_double_2026-11-16_11-05-04.mp3",
+      "duration_ms": 128338,
       "published": "2026-11-15T22:36:42+00:00",
       "description": "Temat 30 z 30: Powtórka (Wiederholung) – 11 zwrotów.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po niemiecku w przerwie, zanim usłyszysz odpowiedź. Każdy niemiecki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Dobra robota! → Gut gemacht!\n• Uczysz się nowego języka! → Du lernst eine neue Sprache!\n• Ćwiczmy! → Lass uns üben!\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
       "season": 1,
-      "episode": 30
+      "episode": 30,
+      "bytes": 3081447,
+      "sha256": "c66081b7765d04f9bbe5d1636d347f734cd6a78bb9f8d5bdbdb1b3570dba332e"
     },
     {
       "id": "magical_radio:pl:de:chapter-01",
       "title": "Magiczne Radio: Stary stół — Der alte Tisch",
-      "pending_audio": true,
+      "file": "stories/magical_radio/01_chapter_01_pl_de_2026-11-16_11-05-49.mp3",
+      "image": "images/stories/magical_radio/cover.jpeg",
+      "duration_ms": 309596,
       "published": "2026-11-15T22:36:42+00:00",
       "description": "Rozdział 1 z 8 opowieści „Magiczne Radio” (Das magische Radio). Rodzeństwo znajduje stare drewniane radio na pchlim targu. Radio nagle szumi, a złoty napis zdradza, że czekało właśnie na nich.\n\nJak wygląda odcinek:\n1. Posłuchaj całego rozdziału po niemiecku – nie musisz rozumieć wszystkiego.\n2. Poćwicz słowa i wyrażenia z rozdziału: podpowiedź po polsku, przerwa, odpowiedź po niemiecku.\n3. Posłuchaj rozdziału ponownie i sprawdź, ile udało Ci się zrozumieć.\n\nMiędzy częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynając od rozdziału 1.",
-      "image": "images/stories/magical_radio/cover.jpeg",
       "season": 2,
-      "episode": 1
+      "episode": 1,
+      "bytes": 7431775,
+      "sha256": "1110707b2f5e93bd4348a50bfbe86e9f79b6ea614124f95494025d9b9619a0ea"
     },
     {
       "id": "magical_radio:pl:de:chapter-02",
       "title": "Magiczne Radio: Głos z radia — Eine Stimme aus dem Radio",
-      "pending_audio": true,
+      "file": "stories/magical_radio/02_chapter_02_pl_de_2026-11-16_11-05-49.mp3",
+      "image": "images/stories/magical_radio/cover.jpeg",
+      "duration_ms": 276217,
       "published": "2026-11-15T22:36:42+00:00",
       "description": "Rozdział 2 z 8 opowieści „Magiczne Radio” (Das magische Radio). W domu dzieci naciskają niebieski przycisk. Z radia wylatuje chmurka pachnąca cynamonem, a wesoły głos opowiada o myszy z ważnym kluczem.\n\nJak wygląda odcinek:\n1. Posłuchaj całego rozdziału po niemiecku – nie musisz rozumieć wszystkiego.\n2. Poćwicz słowa i wyrażenia z rozdziału: podpowiedź po polsku, przerwa, odpowiedź po niemiecku.\n3. Posłuchaj rozdziału ponownie i sprawdź, ile udało Ci się zrozumieć.\n\nMiędzy częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynając od rozdziału 1.",
-      "image": "images/stories/magical_radio/cover.jpeg",
       "season": 2,
-      "episode": 2
+      "episode": 2,
+      "bytes": 6630547,
+      "sha256": "493ee1a5259f8771e1d1013cd3fdcea198f59d1c367c67700a514c4d54229b4a"
     },
     {
       "id": "magical_radio:pl:de:chapter-03",
       "title": "Magiczne Radio: Mysz pod drzewem — Die Maus unter dem Baum",
-      "pending_audio": true,
+      "file": "stories/magical_radio/03_chapter_03_pl_de_2026-11-16_11-05-49.mp3",
+      "image": "images/stories/magical_radio/cover.jpeg",
+      "duration_ms": 362346,
       "published": "2026-11-15T22:36:42+00:00",
       "description": "Rozdział 3 z 8 opowieści „Magiczne Radio” (Das magische Radio). Z latarką, serem i radiem rodzeństwo rusza pod stare drzewo. Mała mysz zgadza się na wymianę, a między korzeniami kryją się tajemnicze drzwi.\n\nJak wygląda odcinek:\n1. Posłuchaj całego rozdziału po niemiecku – nie musisz rozumieć wszystkiego.\n2. Poćwicz słowa i wyrażenia z rozdziału: podpowiedź po polsku, przerwa, odpowiedź po niemiecku.\n3. Posłuchaj rozdziału ponownie i sprawdź, ile udało Ci się zrozumieć.\n\nMiędzy częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynając od rozdziału 1.",
-      "image": "images/stories/magical_radio/cover.jpeg",
       "season": 2,
-      "episode": 3
+      "episode": 3,
+      "bytes": 8698191,
+      "sha256": "33379dcb84f8e76d8c4b257192ef76ae9f094c0e056f96c4ee5ea494b5e937ee"
     },
     {
       "id": "magical_radio:pl:de:chapter-04",
       "title": "Magiczne Radio: Schody w dół — Die Treppe hinunter",
-      "pending_audio": true,
+      "file": "stories/magical_radio/04_chapter_04_pl_de_2026-11-16_11-05-49.mp3",
+      "image": "images/stories/magical_radio/cover.jpeg",
+      "duration_ms": 277334,
       "published": "2026-11-15T22:36:42+00:00",
       "description": "Rozdział 4 z 8 opowieści „Magiczne Radio” (Das magische Radio). Srebrny klucz otwiera drzwi. Kamienne schody prowadzą do biblioteki pełnej latających książek, a na ścianach rosną świecące kwiaty.\n\nJak wygląda odcinek:\n1. Posłuchaj całego rozdziału po niemiecku – nie musisz rozumieć wszystkiego.\n2. Poćwicz słowa i wyrażenia z rozdziału: podpowiedź po polsku, przerwa, odpowiedź po niemiecku.\n3. Posłuchaj rozdziału ponownie i sprawdź, ile udało Ci się zrozumieć.\n\nMiędzy częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynając od rozdziału 1.",
-      "image": "images/stories/magical_radio/cover.jpeg",
       "season": 2,
-      "episode": 4
+      "episode": 4,
+      "bytes": 6657505,
+      "sha256": "b765f389474c548e4cb8e007d306cf8314c242bb61136ab43405aa30b15727cf"
     },
     {
       "id": "magical_radio:pl:de:chapter-05",
       "title": "Magiczne Radio: Latająca książka — Das fliegende Buch",
-      "pending_audio": true,
+      "file": "stories/magical_radio/05_chapter_05_pl_de_2026-11-16_11-05-49.mp3",
+      "image": "images/stories/magical_radio/cover.jpeg",
+      "duration_ms": 275841,
       "published": "2026-11-15T22:36:42+00:00",
       "description": "Rozdział 5 z 8 opowieści „Magiczne Radio” (Das magische Radio). Złota książka ląduje na ramieniu, a radio zdradza zaklęcie, które naprawia zepsute rzeczy.\n\nJak wygląda odcinek:\n1. Posłuchaj całego rozdziału po niemiecku – nie musisz rozumieć wszystkiego.\n2. Poćwicz słowa i wyrażenia z rozdziału: podpowiedź po polsku, przerwa, odpowiedź po niemiecku.\n3. Posłuchaj rozdziału ponownie i sprawdź, ile udało Ci się zrozumieć.\n\nMiędzy częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynając od rozdziału 1.",
-      "image": "images/stories/magical_radio/cover.jpeg",
       "season": 2,
-      "episode": 5
+      "episode": 5,
+      "bytes": 6621770,
+      "sha256": "41227b1136d40f29be7be0f8388cc5d2260a73ca2213d73b3e0884af77fa9789"
     },
     {
       "id": "magical_radio:pl:de:chapter-06",
       "title": "Magiczne Radio: Pierwsze zaklęcie — Der erste Zauberspruch",
-      "pending_audio": true,
+      "file": "stories/magical_radio/06_chapter_06_pl_de_2026-11-16_11-05-49.mp3",
+      "image": "images/stories/magical_radio/cover.jpeg",
+      "duration_ms": 223494,
       "published": "2026-11-15T22:36:42+00:00",
       "description": "Rozdział 6 z 8 opowieści „Magiczne Radio” (Das magische Radio). Czas wypróbować zaklęcie na zepsutym kompasie. Czy zadziała? I kto czeka za zielonymi drzwiami?\n\nJak wygląda odcinek:\n1. Posłuchaj całego rozdziału po niemiecku – nie musisz rozumieć wszystkiego.\n2. Poćwicz słowa i wyrażenia z rozdziału: podpowiedź po polsku, przerwa, odpowiedź po niemiecku.\n3. Posłuchaj rozdziału ponownie i sprawdź, ile udało Ci się zrozumieć.\n\nMiędzy częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynając od rozdziału 1.",
-      "image": "images/stories/magical_radio/cover.jpeg",
       "season": 2,
-      "episode": 6
+      "episode": 6,
+      "bytes": 5365385,
+      "sha256": "4a9b5bb3e39fcea2e845dc806a05a6ffe2862f1df2debb265dc83a6fcfc3269b"
     },
     {
       "id": "magical_radio:pl:de:chapter-07",
       "title": "Magiczne Radio: Złoty ptak — Der goldene Vogel",
-      "pending_audio": true,
+      "file": "stories/magical_radio/07_chapter_07_pl_de_2026-11-16_11-05-49.mp3",
+      "image": "images/stories/magical_radio/cover.jpeg",
+      "duration_ms": 361497,
       "published": "2026-11-15T22:36:42+00:00",
       "description": "Rozdział 7 z 8 opowieści „Magiczne Radio” (Das magische Radio). Za drzwiami jest podziemny ogród. Złoty ptak zamiast śpiewać tyka jak zegar. W jego skrzydle brakuje kamyka, a radio skrywa tajemnicę.\n\nJak wygląda odcinek:\n1. Posłuchaj całego rozdziału po niemiecku – nie musisz rozumieć wszystkiego.\n2. Poćwicz słowa i wyrażenia z rozdziału: podpowiedź po polsku, przerwa, odpowiedź po niemiecku.\n3. Posłuchaj rozdziału ponownie i sprawdź, ile udało Ci się zrozumieć.\n\nMiędzy częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynając od rozdziału 1.",
-      "image": "images/stories/magical_radio/cover.jpeg",
       "season": 2,
-      "episode": 7
+      "episode": 7,
+      "bytes": 8677502,
+      "sha256": "c77f93b8e5418d0d1d1068e0b7ce0721bd58a9a55fba97187eb622eecba83abc"
     },
     {
       "id": "magical_radio:pl:de:chapter-08",
       "title": "Magiczne Radio: Wielki koncert — Das große Konzert",
-      "pending_audio": true,
+      "file": "stories/magical_radio/08_chapter_08_pl_de_2026-11-16_11-05-49.mp3",
+      "image": "images/stories/magical_radio/cover.jpeg",
+      "duration_ms": 234398,
       "published": "2026-11-15T22:36:42+00:00",
       "description": "Rozdział 8 z 8 opowieści „Magiczne Radio” (Das magische Radio). Finał! Czy rodzeństwu uda się naprawić złotego ptaka? Opowieść kończy się śpiewem, tańczącymi motylami i zapowiedzią nowej przygody.\n\nJak wygląda odcinek:\n1. Posłuchaj całego rozdziału po niemiecku – nie musisz rozumieć wszystkiego.\n2. Poćwicz słowa i wyrażenia z rozdziału: podpowiedź po polsku, przerwa, odpowiedź po niemiecku.\n3. Posłuchaj rozdziału ponownie i sprawdź, ile udało Ci się zrozumieć.\n\nMiędzy częściami usłyszysz sygnał dźwiękowy. Słuchaj po kolei, zaczynając od rozdziału 1.",
-      "image": "images/stories/magical_radio/cover.jpeg",
       "season": 2,
-      "episode": 8
+      "episode": 8,
+      "bytes": 5627445,
+      "sha256": "78b2c5c8049ff082ea60c17f618be42608ddfde10bef99e93c83d832714c3114"
     }
   ],
   "seasons": {
