@@ -184,7 +184,9 @@ Parse the new RSS and verify:
 - The root podcast index has a card linking to the new course page
   (`<slug>/index.html`). Pages never link to `feed.xml` or embed raw MP3s;
   add `links.Spotify` / `links.YouTube` to show listen buttons, otherwise the
-  page says Spotify is coming soon.
+  page says Spotify is coming soon. Once Spotify lists the episodes, follow
+  [sync-spotify-episodes](../sync-spotify-episodes/SKILL.md) to add the
+  per-episode players.
 - Every episode has a page `<slug>/transcripts/season-S-episode-NN.html`
   (length, listen buttons and its transcript when available), and
   `sitemap.xml` lists the course and transcripts.

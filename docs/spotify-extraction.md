@@ -22,9 +22,8 @@ then install the optional collector dependency and its browser:
 ```
 
 These are local installations, not GitHub Actions configuration. The collector
-does not read `.env` or use credentials. Existing `SPOTIFY_CLIENT_ID` and
-`SPOTIFY_CLIENT_SECRET` repository secrets can be removed in **Settings >
-Secrets and variables > Actions** if no other integration uses them.
+does not read `.env` or use credentials. The former `SPOTIFY_CLIENT_ID` and
+`SPOTIFY_CLIENT_SECRET` repository secrets have been deleted.
 
 Each selected catalog needs the actual show URL in `links.Spotify`:
 
@@ -113,9 +112,7 @@ episodes from the previous show.
 Extraction does not rebuild feeds, start audio generation, create a PR, merge,
 deploy, or submit anything to Spotify. Existing course publication gates still
 apply. Nothing runs on a timer; to stop discovery, simply do not run the script.
-The old hosted daily workflow has also been manually disabled, so it no longer
-runs while the code-removal change awaits merge. Its definition is removed
-from the default branch only when this change is merged.
+The old hosted daily workflow has been disabled and removed.
 
 ## Limits and failure recovery
 
@@ -160,7 +157,7 @@ Validate the live service separately with the report-only command and check
 the actual matched/expected counts. Never claim a fixture-only run proves
 current Spotify access or all-show completeness.
 
-The initial local live verification extracted and exactly matched all 646
-catalog episodes across all 17 configured shows (38 per show: 30 practice
-topics and 8 story chapters). It was report-only: no catalogs or audio changed.
-This records that run, not a guarantee of future public-page availability.
+The initial live run extracted and exactly matched all 646 catalog episodes
+across all 17 configured shows (38 per show: 30 practice topics and 8 story
+chapters); those mappings were applied in PR #32. This records that run, not a
+guarantee of future public-page availability.
