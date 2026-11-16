@@ -165,6 +165,7 @@ class PodcastTests(unittest.TestCase):
             empty = (folder / "season-1-episode-02.html").read_text(encoding="utf-8")
             self.assertIn("Det finns inget transkript för det här avsnittet än.", empty)
             self.assertNotIn("data-print", empty)
+            self.assertNotIn("spotify-embed", empty)
             practice = (folder / "season-1-episode-01.html").read_text(encoding="utf-8")
             self.assertIn('<td lang="sv">Hej</td><td lang="es">Hola</td>', practice)
             self.assertLess(practice.index("Hola"), practice.index("Gracias"))
@@ -184,6 +185,37 @@ class PodcastTests(unittest.TestCase):
             season = (folder / "season-1.html").read_text(encoding="utf-8")
             self.assertEqual(season.count('<article class="sheet">'), 1)
             self.assertIn('<h2 class="title">Greetings</h2>', season)
+
+    def test_episode_page_embeds_only_a_valid_spotify_episode_and_keeps_fallback(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            courses = self._site(root)
+            course = root / "english-swedish"
+            config_path = course / "course.json"
+            config = json.loads(config_path.read_text(encoding="utf-8"))
+            spotify_id = "a" * 22
+            config["spotify_show_id"] = "4pCmGojSZmODKl9qvxTrgq"
+            config["episodes"][0]["spotify_episode_id"] = spotify_id
+            config_path.write_text(json.dumps(config), encoding="utf-8")
+            podcast.build_index(root, courses, "https://example.com", stories=self.stories)
+
+            page = (course / "transcripts/season-1-episode-01.html").read_text(encoding="utf-8")
+            self.assertIn(f'src="https://open.spotify.com/embed/episode/{spotify_id}"', page)
+            self.assertIn(f'href="https://open.spotify.com/episode/{spotify_id}"', page)
+            self.assertIn('title="Listen to Greetings on Spotify"', page)
+            self.assertIn('loading="lazy"', page)
+
+            config["spotify_show_id"] = "b" * 22
+            config_path.write_text(json.dumps(config), encoding="utf-8")
+            podcast.build_index(root, courses, "https://example.com", stories=self.stories)
+            page = (course / "transcripts/season-1-episode-01.html").read_text(encoding="utf-8")
+            self.assertNotIn("<iframe", page)
+            self.assertIn('href="https://open.spotify.com/show/4pCmGojSZmODKl9qvxTrgq"', page)
+
+            config["episodes"][0]["spotify_episode_id"] = "invalid"
+            config_path.write_text(json.dumps(config), encoding="utf-8")
+            with self.assertRaisesRegex(ValueError, "Invalid Spotify episode ID"):
+                podcast.build_index(root, courses, "https://example.com", stories=self.stories)
 
     def test_sitemap_and_robots(self):
         with tempfile.TemporaryDirectory() as directory:

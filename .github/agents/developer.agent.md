@@ -28,3 +28,21 @@ changes.
 Report the branch or PR, validation results, limitations and any approval
 needed. Do not merge a course PR or trigger paid generation unless authorized
 and all applicable publication gates are satisfied.
+
+## Integration setup and operational documentation
+
+For integrations, workflows, or tooling that need external configuration,
+deliver an actionable setup/runbook and link it from the README and relevant
+deployment guide. Document how to obtain credentials, exact variable names
+and secret scope, required service/repository permissions, local loading
+behavior, triggers and time zones, manual runs, expected output, failure
+recovery, and how to disable the integration. Update `.env.example` with
+empty optional values where relevant; never include real credentials.
+
+Include a safe local smoke test that avoids publication or paid work, plus
+first-live-run verification steps and any remaining maintainer actions.
+Distinguish mocked tests from actual service responses; missing credentials
+or unverified provider access must be explicit blockers to claiming the
+integration is operational. For example, "add Spotify secrets" is insufficient:
+link the app setup, GitHub secret location and permissions, explain that the
+script does not auto-load `.env`, and show how to verify real episode matches.

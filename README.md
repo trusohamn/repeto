@@ -136,6 +136,16 @@ to Cloudflare R2 before deploying feeds. Story changes render affected chapters;
 practice changes currently render affected directions. New course directions
 need separate initial packaging. See [docs/deploy.md](docs/deploy.md).
 
+### Optional Spotify episode players
+
+Automatic episode discovery needs a Spotify Developer app and the repository
+secrets `SPOTIFY_CLIENT_ID` and `SPOTIFY_CLIENT_SECRET`; show links alone are
+not enough. The sync runs daily at 06:15 UTC or manually, and proposes matched
+episode IDs in a PR. See the [Spotify setup and operations guide](docs/spotify-sync.md)
+for app and GitHub configuration, a non-destructive local live test, first-run
+verification, and troubleshooting. This integration is separate from audio
+generation and publication.
+
 ## Checks and further reference
 
 Work is tracked in GitHub Issues; see the [task tracking guide](docs/task-tracking.md).

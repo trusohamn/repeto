@@ -185,6 +185,13 @@ PRACTICE_ID = re.compile(r'^repeto:[^:]+:topic-(\d+)$')
 STORY_ID = re.compile(r'^([a-z0-9_]+):([a-z]{2}):([a-z]{2}):chapter-(\d+)$')
 LIST_ITEM = re.compile(r'(?:•|\d+\.)\s+')
 SPOTIFY_SHOW = re.compile(r'^https://open\.spotify\.com/show/([A-Za-z0-9]{22})$')
+SPOTIFY_EPISODE_ID = re.compile(r'^[A-Za-z0-9]{22}$')
+
+
+def spotify_episode_url(episode_id: str) -> str:
+    if not isinstance(episode_id, str) or SPOTIFY_EPISODE_ID.fullmatch(episode_id) is None:
+        raise ValueError(f'Invalid Spotify episode ID: {episode_id!r}')
+    return f'https://open.spotify.com/episode/{episode_id}'
 
 e = html.escape
 
@@ -322,7 +329,7 @@ STEPS = [
 
 AUDIENCE = [
     ('family-1-screen-free.jpg', 'Screen-free', 'Nothing to look at, so you can listen while walking, driving or cooking.'),
-    ('family-2-free.jpg', 'Free, no ads', 'No account, no tracking on this site, nothing to pay for.'),
+    ('family-2-free.jpg', 'Free to use', 'No account or payment is needed. Spotify embeds are hosted by Spotify and may show ads or collect data.'),
     ('family-3-print.jpg', 'Printable transcripts', 'Every episode has a transcript you can read or print.'),
     ('family-4-beginner.jpg', 'Beginner-friendly', 'Starts from zero and repeats each phrase several times. No reading needed.'),
 ]
@@ -523,11 +530,19 @@ def doc_page(course: dict, title: str, sheets: list[dict], base_url: str, path: 
     source, target = course['source_language'], course['target_language']
     listen = None
     if episode is not None:
+        spotify_url = None
+        if 'spotify_episode_id' in episode:
+            episode_url = spotify_episode_url(episode['spotify_episode_id'])
+            show_url = course.get('links', {}).get('Spotify')
+            show_match = SPOTIFY_SHOW.fullmatch(show_url) if isinstance(show_url, str) else None
+            if show_match and course.get('spotify_show_id') == show_match.group(1):
+                spotify_url = episode_url
         listen = {
             'cover': episode.get('cover') or course['cover'], 'label': course['seasons'].get(str(episode['season']), ''),
             'number': int(episode['episode']), 'title': episode['title'],
             'summary': '' if sheets else first_paragraph(episode.get('description', '')),
             'length': None if episode.get('pending_audio') is True else minutes(ui, int(episode.get('duration_ms') or 0)), 'links': course.get('links', {}),
+            'spotify_episode_url': spotify_url,
         }
     return render(
         'transcript.html', assets=assets, title=f'{title} – {course["title"]}', lang=ui, prefix='../../', ui=ui,

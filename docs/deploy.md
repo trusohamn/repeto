@@ -4,6 +4,11 @@ GitHub Actions generates and stages audio for reviewed pull requests. Cloudflare
 R2 stores public staging and production audio; GitHub Pages hosts the live
 website and RSS feeds.
 
+For optional Spotify episode discovery and players, follow the separate
+[Spotify setup and operations guide](spotify-sync.md). It documents the
+Developer app, repository secrets, Actions permissions, local live test, daily
+schedule, and metadata PR review. Azure/R2 setup alone does not enable Spotify.
+
 ## End-to-end flow
 
 ```mermaid

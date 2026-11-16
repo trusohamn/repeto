@@ -8,6 +8,7 @@
 <div class="doc-bar no-print"><a class="back" href="../">← {{ t.back }}</a>{% if sheets %}<button class="btn btn-orange" type="button" data-print>{{ t.print }}</button>{% endif %}</div>
 {% if listen %}
 <div class="listen no-print">{% if listen.length %}<span class="length">{{ listen.length }}</span>{% endif %}
+{% if listen.spotify_episode_url %}<div class="spotify-embed"><iframe src="{{ listen.spotify_episode_url|replace('open.spotify.com/episode/', 'open.spotify.com/embed/episode/') }}" title="Listen to {{ listen.title }} on Spotify" loading="lazy" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" allowfullscreen></iframe><a class="spotify-episode-link" href="{{ listen.spotify_episode_url }}" aria-label="Open {{ listen.title }} directly on Spotify">{{ t.spotify }}</a></div>{% endif %}
 {% if 'Spotify' in listen.links %}<a class="btn btn-spotify" href="{{ listen.links.Spotify }}">{{ t.spotify }}</a>{% endif %}
 {% if 'YouTube' in listen.links %}<a class="btn btn-youtube" href="{{ listen.links.YouTube }}">{{ t.youtube }}</a>{% endif %}
 {% if 'Spotify' not in listen.links %}<span class="soon-note">{{ t.soon_spotify }}</span>{% endif %}
