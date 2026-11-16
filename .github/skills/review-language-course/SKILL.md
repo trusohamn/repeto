@@ -12,8 +12,8 @@ description: Translate or carefully review Repeto language-course phrases, stori
 - Confirm source, target, regional variety, audience and requested deliverables.
   Spain Spanish and Mexican Spanish are not interchangeable defaults.
 - Inspect the worktree and existing course catalogs. Preserve user edits,
-  original story text, covers and publication settings. Never commit, push or
-  submit to a podcast platform without permission.
+  original story text, covers and publication settings. Follow `AGENT.md` for
+  branch and PR handling; never submit to a podcast platform without permission.
 - Keep credentials private. Only established speech helpers may load them.
 - Save a pre-edit content baseline outside the tracked course data. Determine
   counts from the actual files; do not assume a fixed number of phrases.
