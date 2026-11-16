@@ -173,5 +173,5 @@ description: Turn a chaptered, child-friendly story into a faithful multilingual
   and publication dates when updating.
 - Run the podcast tests and RSS builder. Verify episode counts, enclosures,
   actual file sizes, cover links, and target-language feed URLs.
-- Publishing is separate: never commit, push, or submit a show to Spotify
-  unless explicitly authorized.
+- Follow `AGENT.md` for branch and PR handling. Publishing is separate: never
+  merge an unreviewed course or submit a show to Spotify without authorization.

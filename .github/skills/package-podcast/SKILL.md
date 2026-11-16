@@ -35,8 +35,10 @@ Replace the example direction, slug and cover with the course being built. Do
 not copy the example course into `podcast/`. The draft output
 contains a reviewable feed and pages. The install step copies the pending
 catalog, feed and artwork into `podcast/<course>/` without overwriting existing
-files. Open a PR and check its target
-report before approving generation.
+files. After verifying a generated fingerprinted cover, remove a redundant
+untracked or newly introduced logical cover copy only when it is safe to do
+so; preserve pre-existing user artwork. Open a non-draft PR and check its
+target report before any explicitly authorized generation.
 
 ## Confirm scope for completed local recordings
 
@@ -214,9 +216,11 @@ Use a separate feed only when explicitly requested.
 
 ## Publish only when authorized
 
-Commit/push only when requested. For the existing-course PR workflow, review
-the staging links before merge; the Pages workflow promotes verified audio
-before deployment. A push to `main` triggers it only for configured paths.
+Follow `AGENT.md` for branch and PR handling. Review the staging links before
+any authorized course merge; the Pages workflow promotes verified audio before
+deployment. Feed enclosures point to production URLs, while listening links
+point to staging; production objects may not exist before promotion.
+A push to `main` triggers deployment only for configured paths.
 After deployment succeeds, fetch the public RSS, cover, and audio and check
 enclosure byte lengths and HTTP availability before reporting it live. A
 separate course feed is added as a separate externally hosted show in Spotify

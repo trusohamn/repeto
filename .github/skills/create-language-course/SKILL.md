@@ -75,12 +75,15 @@ durations, file sizes or checksums. The draft feed is for review, not
 publication. Use the local draft packaging command described in the
 [deployment guide](../../../docs/deploy.md).
 
-On PR open the target report identifies pending and changed recordings without
-calling speech services. Check its scope, then only add `publish-audio` when
-authorized. The pipeline renders the selected practice topics and story
-chapters, fills real audio metadata, stages the recordings and updates the PR
-feed. Review the links and final diff before merge; promotion uses those exact
-reviewed bytes.
+Open a non-draft course PR by default, using Git and GitHub CLI. The target
+report identifies pending and changed recordings without calling speech
+services. Check its scope and current revision, then only add `publish-audio`
+when the user explicitly authorizes generation for that PR. If authorized,
+monitor the actual run to completion, report failures and inspect the resulting
+catalog, feed and staging manifest. The pipeline renders the selected practice
+topics and story chapters, fills real audio metadata, stages the recordings and
+updates the PR feed. Review the links and final diff before merge; promotion
+uses those exact reviewed bytes.
 
 **Hard stop: never merge or deploy a course while any episode has
 `pending_audio: true`, is missing verified audio metadata, or lacks a reviewed
@@ -111,8 +114,10 @@ shared text is also required, not a substitute for creating the new course.
   show cover and story episode artwork.
 - Before merging, confirm no catalog episode has `pending_audio`, every episode
   has verified audio metadata and a production enclosure, all approved staging
-  links were listened to and reviewed, and the exact staged PR revision is the
-  one being merged. Otherwise stop and keep the PR open.
+  links were listened to and reviewed, and the manifest's approved input
+  revision and fingerprint match the final PR inputs and staged objects.
+  The workflow's metadata commit may make the final head SHA different from
+  the approved input SHA. Otherwise stop and keep the PR open.
 - Confirm the course page shows both seasons and descriptions mention the
   story. Check the homepage links to the new course.
 - Run relevant existing renderer, story and podcast tests. Passing machine
@@ -126,5 +131,6 @@ shared text is also required, not a substitute for creating the new course.
 Report practice and story coverage separately, total audio duration, validation
 results and any listening limitations. Link the final course page and RSS.
 Register those deliverables as artifacts, not temporary renders or staging.
-Do not commit, push, deploy or submit the feed to a podcast platform without
-explicit permission. Local creation is not publication.
+Use a separate branch and PR for requested course changes unless the user
+specifies local-only work. Do not merge, deploy or submit the feed to a podcast
+platform without the applicable approvals. Local creation is not publication.
