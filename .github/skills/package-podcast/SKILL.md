@@ -11,6 +11,11 @@ the [deployment guide](../../../docs/deploy.md) for the draft command and the
 approved PR audio workflow. The pipeline creates missing or changed recordings,
 fills real audio metadata, stages them for listening, and promotes reviewed
 bytes after merge. A draft feed without audio is not publishable.
+Never merge a draft course to `main`: keep its PR open while any episode is
+pending or lacks verified audio metadata. Merge only after all staging links
+have been reviewed and the final feed has a valid production enclosure for
+every episode. A request to merge pipeline code does not authorize paid audio
+generation; keep unrendered course data out of an infrastructure-only merge.
 
 The commands below describe deliberate packaging of existing local recordings;
 do not use them to bypass the approved PR workflow. This skill does not submit
@@ -22,11 +27,12 @@ After reviewing both seasons and selecting the existing course cover:
 
 ```sh
 .venv/bin/python code/package_draft.py --source pl --target de \
-  --course polish-german --output-root output/draft-polish-german \
-  --cover podcast/polish-german/cover.jpeg --install
+  --course example-course --output-root output/draft-example-course \
+  --cover podcast/english-russian/cover.jpeg --install
 ```
 
-Use the requested languages and slug, not the example values. The draft output
+Replace the example direction, slug and cover with the course being built. Do
+not copy the example course into `podcast/`. The draft output
 contains a reviewable feed and pages. The install step copies the pending
 catalog, feed and artwork into `podcast/<course>/` without overwriting existing
 files. Open a PR and check its target

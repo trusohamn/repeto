@@ -71,6 +71,11 @@ description: Turn a chaptered, child-friendly story into a faithful multilingual
   The target report identifies affected directions and chapters;
   the `publish-audio` label authorizes generation, and reviewed staged bytes
   are promoted only after merge.
+- A story course containing any `pending_audio: true` episode is not mergeable
+  or publishable. Keep its PR open until all chapters have verified audio
+  metadata, every staging item has been reviewed, and the final RSS has valid
+  production enclosures. A request to merge code does not authorize paid
+  generation.
 - For an intentional local partial render, repeat `--chapter NUMBER` for each
   selected chapter; omitting it renders every chapter. Partial podcast
   packaging replaces only those chapter episodes.
