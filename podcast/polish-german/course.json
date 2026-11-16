@@ -18,7 +18,8 @@
       "season": 1,
       "episode": 1,
       "bytes": 8943324,
-      "sha256": "d733c5d39f68508cfdf81cb91a1c5eef251f242b5ae0edee83b40472d36105ae"
+      "sha256": "d733c5d39f68508cfdf81cb91a1c5eef251f242b5ae0edee83b40472d36105ae",
+      "spotify_episode_id": "63rUGKzBRtAlhFPj0Vvals"
     },
     {
       "id": "repeto:polish-german:topic-02",
@@ -30,7 +31,8 @@
       "season": 1,
       "episode": 2,
       "bytes": 8287546,
-      "sha256": "18a8e9942af72f5021f9f9ea92f6d0affaa02b2b4091e21863a93b5639f87bc6"
+      "sha256": "18a8e9942af72f5021f9f9ea92f6d0affaa02b2b4091e21863a93b5639f87bc6",
+      "spotify_episode_id": "0vlZdj41wN4mkmIFAug77k"
     },
     {
       "id": "repeto:polish-german:topic-03",
@@ -42,7 +44,8 @@
       "season": 1,
       "episode": 3,
       "bytes": 7542743,
-      "sha256": "fa82da30633a4d8dc9f2e675f19c50c53173beaa7ac298e0610ca419de89a285"
+      "sha256": "fa82da30633a4d8dc9f2e675f19c50c53173beaa7ac298e0610ca419de89a285",
+      "spotify_episode_id": "4FhWYqtgr47VjIFKZQE7fr"
     },
     {
       "id": "repeto:polish-german:topic-04",
@@ -54,7 +57,8 @@
       "season": 1,
       "episode": 4,
       "bytes": 10037332,
-      "sha256": "f894653c21eb0350a4c1336eeff3d099485e0356188ece6b86fb6efb6b707344"
+      "sha256": "f894653c21eb0350a4c1336eeff3d099485e0356188ece6b86fb6efb6b707344",
+      "spotify_episode_id": "5doHQjbl6CTgaC0WlNokVR"
     },
     {
       "id": "repeto:polish-german:topic-05",
@@ -66,7 +70,8 @@
       "season": 1,
       "episode": 5,
       "bytes": 7019249,
-      "sha256": "5c00e07288af3d509c86abe8c1b55960cc9b95ccc69f4c78db502fabb41c0e58"
+      "sha256": "5c00e07288af3d509c86abe8c1b55960cc9b95ccc69f4c78db502fabb41c0e58",
+      "spotify_episode_id": "0Xi8YXFlrajBAkfAm92501"
     },
     {
       "id": "repeto:polish-german:topic-06",
@@ -78,7 +83,8 @@
       "season": 1,
       "episode": 6,
       "bytes": 11892444,
-      "sha256": "c6521596e6d0c91226251af3c322c327ad9473e2172d76758f1f9a2646b0c592"
+      "sha256": "c6521596e6d0c91226251af3c322c327ad9473e2172d76758f1f9a2646b0c592",
+      "spotify_episode_id": "4YqssH5FAiquB0KDn4fHjg"
     },
     {
       "id": "repeto:polish-german:topic-07",
@@ -90,7 +96,8 @@
       "season": 1,
       "episode": 7,
       "bytes": 8926397,
-      "sha256": "4741683e09041a63c24a04f7e92c63171d670945f176cec4fb8dfd65d56f5acc"
+      "sha256": "4741683e09041a63c24a04f7e92c63171d670945f176cec4fb8dfd65d56f5acc",
+      "spotify_episode_id": "4qig5y61ebBFxKDAjMbSp7"
     },
     {
       "id": "repeto:polish-german:topic-08",
@@ -102,7 +109,8 @@
       "season": 1,
       "episode": 8,
       "bytes": 7528323,
-      "sha256": "85ec2e616c063d4127170955da5864524f03a0a6db5299244f09ef41cbe1704b"
+      "sha256": "85ec2e616c063d4127170955da5864524f03a0a6db5299244f09ef41cbe1704b",
+      "spotify_episode_id": "3OAbLjcDX3XQcAA9ypN8VB"
     },
     {
       "id": "repeto:polish-german:topic-09",
@@ -114,7 +122,8 @@
       "season": 1,
       "episode": 9,
       "bytes": 9343311,
-      "sha256": "4ce66c99aabfe256438d33e72254cd53c51401147dde1bb9ce974515fb37a9f6"
+      "sha256": "4ce66c99aabfe256438d33e72254cd53c51401147dde1bb9ce974515fb37a9f6",
+      "spotify_episode_id": "7zhp9hZhnwLFosX45ac8Ix"
     },
     {
       "id": "repeto:polish-german:topic-10",
@@ -126,7 +135,8 @@
       "season": 1,
       "episode": 10,
       "bytes": 10488728,
-      "sha256": "e3142dc1029301afc94555f798f153add70e6ab6821969e67afbae2738549ed2"
+      "sha256": "e3142dc1029301afc94555f798f153add70e6ab6821969e67afbae2738549ed2",
+      "spotify_episode_id": "5qMWlijtSkWwfTBEYaSxX9"
     },
     {
       "id": "repeto:polish-german:topic-11",
@@ -138,7 +148,8 @@
       "season": 1,
       "episode": 11,
       "bytes": 6195452,
-      "sha256": "c50db77469b83975892fc02933b28f6a45797f8af2f470ad64095102ba145c0e"
+      "sha256": "c50db77469b83975892fc02933b28f6a45797f8af2f470ad64095102ba145c0e",
+      "spotify_episode_id": "2BNaE2gQlFuUb8zRJ6WIc2"
     },
     {
       "id": "repeto:polish-german:topic-12",
@@ -150,7 +161,8 @@
       "season": 1,
       "episode": 12,
       "bytes": 4971667,
-      "sha256": "87636aec33b20cd6986f49aceb5553d92999fa7c2be33dca01d466269b5cdcb1"
+      "sha256": "87636aec33b20cd6986f49aceb5553d92999fa7c2be33dca01d466269b5cdcb1",
+      "spotify_episode_id": "1Nh3DUsktGMH5lcKKSyrS1"
     },
     {
       "id": "repeto:polish-german:topic-13",
@@ -162,7 +174,8 @@
       "season": 1,
       "episode": 13,
       "bytes": 7371589,
-      "sha256": "229f6dd28b8addc896f64dc3ec15555bd66b7fc34b0df6d572a723c8024d7e6c"
+      "sha256": "229f6dd28b8addc896f64dc3ec15555bd66b7fc34b0df6d572a723c8024d7e6c",
+      "spotify_episode_id": "20qZ4EORACDZ6I8HU24fhK"
     },
     {
       "id": "repeto:polish-german:topic-14",
@@ -174,7 +187,8 @@
       "season": 1,
       "episode": 14,
       "bytes": 8905708,
-      "sha256": "be37ba334b3a55cf77ee85f483407a6da658c9456a303ad2540cca0e8e008a97"
+      "sha256": "be37ba334b3a55cf77ee85f483407a6da658c9456a303ad2540cca0e8e008a97",
+      "spotify_episode_id": "7iG6OltpybwFHWKcyq9iP1"
     },
     {
       "id": "repeto:polish-german:topic-15",
@@ -186,7 +200,8 @@
       "season": 1,
       "episode": 15,
       "bytes": 6638070,
-      "sha256": "041af51859730f3abf0c0906c098598fba45700c3a79086d1071fc395e7b3a57"
+      "sha256": "041af51859730f3abf0c0906c098598fba45700c3a79086d1071fc395e7b3a57",
+      "spotify_episode_id": "4HgHHmjEjbbLj9OhZD4VN1"
     },
     {
       "id": "repeto:polish-german:topic-16",
@@ -198,7 +213,8 @@
       "season": 1,
       "episode": 16,
       "bytes": 7717659,
-      "sha256": "0400a407fdb245d12e24eaca0018dac9b772063f7436aca5e29484a9668c3036"
+      "sha256": "0400a407fdb245d12e24eaca0018dac9b772063f7436aca5e29484a9668c3036",
+      "spotify_episode_id": "3TvgMXxMjweWPFYhNIehL4"
     },
     {
       "id": "repeto:polish-german:topic-17",
@@ -210,7 +226,8 @@
       "season": 1,
       "episode": 17,
       "bytes": 7630514,
-      "sha256": "5a03fdecee4e192b75cbebe49cfc15fc817b8900c6da638cfb330c7429d103d6"
+      "sha256": "5a03fdecee4e192b75cbebe49cfc15fc817b8900c6da638cfb330c7429d103d6",
+      "spotify_episode_id": "2lIcATux8VUX9ePuQBCcUu"
     },
     {
       "id": "repeto:polish-german:topic-18",
@@ -222,7 +239,8 @@
       "season": 1,
       "episode": 18,
       "bytes": 7478795,
-      "sha256": "aa92fe8967978735de0830b1d2b601fd15a0b81d073e91ffc81bcc841aadff53"
+      "sha256": "aa92fe8967978735de0830b1d2b601fd15a0b81d073e91ffc81bcc841aadff53",
+      "spotify_episode_id": "3INgfBq2S54nh6JbwrRZY9"
     },
     {
       "id": "repeto:polish-german:topic-19",
@@ -234,7 +252,8 @@
       "season": 1,
       "episode": 19,
       "bytes": 6569107,
-      "sha256": "c892f04d5ea491a9562b7ac2e94e52a2038d0174a6a60e8ac323da4fbb47c739"
+      "sha256": "c892f04d5ea491a9562b7ac2e94e52a2038d0174a6a60e8ac323da4fbb47c739",
+      "spotify_episode_id": "0VEdPIg8JqA1aPelVN7dpI"
     },
     {
       "id": "repeto:polish-german:topic-20",
@@ -246,7 +265,8 @@
       "season": 1,
       "episode": 20,
       "bytes": 6594185,
-      "sha256": "6834341254841b0c4d6dabda569d3cf50184dab67d71a02109a2cb1d91683f1f"
+      "sha256": "6834341254841b0c4d6dabda569d3cf50184dab67d71a02109a2cb1d91683f1f",
+      "spotify_episode_id": "3avLYCwuYwaTxCh5AoLUWk"
     },
     {
       "id": "repeto:polish-german:topic-21",
@@ -258,7 +278,8 @@
       "season": 1,
       "episode": 21,
       "bytes": 6448108,
-      "sha256": "ae362063f2df24c36417a72d70fdff9f87dd1905c8f961ccdfedead046805e33"
+      "sha256": "ae362063f2df24c36417a72d70fdff9f87dd1905c8f961ccdfedead046805e33",
+      "spotify_episode_id": "2E5q8rpbSkd1dfUEHj8UNH"
     },
     {
       "id": "repeto:polish-german:topic-22",
@@ -270,7 +291,8 @@
       "season": 1,
       "episode": 22,
       "bytes": 7785995,
-      "sha256": "70f4058b77f4abf000b6ee000406008bca2202082ddef22501168da60f656abb"
+      "sha256": "70f4058b77f4abf000b6ee000406008bca2202082ddef22501168da60f656abb",
+      "spotify_episode_id": "2vSyMMonnFx5Sh8Fk9ulnj"
     },
     {
       "id": "repeto:polish-german:topic-23",
@@ -282,7 +304,8 @@
       "season": 1,
       "episode": 23,
       "bytes": 6709541,
-      "sha256": "08fbce40fe61654c4eb726c75e2bc141484c527ff9deaef82ff24e0b2b7c5d09"
+      "sha256": "08fbce40fe61654c4eb726c75e2bc141484c527ff9deaef82ff24e0b2b7c5d09",
+      "spotify_episode_id": "4zWwhE5QalvX0LYkHp4ZZg"
     },
     {
       "id": "repeto:polish-german:topic-24",
@@ -294,7 +317,8 @@
       "season": 1,
       "episode": 24,
       "bytes": 6885084,
-      "sha256": "181a49cd9faf77513f8963f8bc1c1816bb0bc7bbacf4aef01368af30c646c45e"
+      "sha256": "181a49cd9faf77513f8963f8bc1c1816bb0bc7bbacf4aef01368af30c646c45e",
+      "spotify_episode_id": "1nMvYC6DabgbBefMVEkP8K"
     },
     {
       "id": "repeto:polish-german:topic-25",
@@ -306,7 +330,8 @@
       "season": 1,
       "episode": 25,
       "bytes": 10176513,
-      "sha256": "78facfc4e5228cd89a839d474152a3227c5ff4605ec6775403db0a5d003279b5"
+      "sha256": "78facfc4e5228cd89a839d474152a3227c5ff4605ec6775403db0a5d003279b5",
+      "spotify_episode_id": "4iGez3SYIx8TvcFZQpwSyQ"
     },
     {
       "id": "repeto:polish-german:topic-26",
@@ -318,7 +343,8 @@
       "season": 1,
       "episode": 26,
       "bytes": 6309554,
-      "sha256": "57520bfa72b446e697478b2535597da56a9d82dabc9569a96e5dc7af91de85f5"
+      "sha256": "57520bfa72b446e697478b2535597da56a9d82dabc9569a96e5dc7af91de85f5",
+      "spotify_episode_id": "6YrZjFtJa10MeFBY6QlN91"
     },
     {
       "id": "repeto:polish-german:topic-27",
@@ -330,7 +356,8 @@
       "season": 1,
       "episode": 27,
       "bytes": 6002354,
-      "sha256": "a862b91eae925f8343a2f641c0be2d6824381b3f39ce1dea75cf811e47738d30"
+      "sha256": "a862b91eae925f8343a2f641c0be2d6824381b3f39ce1dea75cf811e47738d30",
+      "spotify_episode_id": "1NHqzpy1AePYAIBw3ggk8P"
     },
     {
       "id": "repeto:polish-german:topic-28",
@@ -342,7 +369,8 @@
       "season": 1,
       "episode": 28,
       "bytes": 5981039,
-      "sha256": "37561d9d7fe6028b680c453e0fdf38da09a9c14afc78b87f5bf9c0966366fce7"
+      "sha256": "37561d9d7fe6028b680c453e0fdf38da09a9c14afc78b87f5bf9c0966366fce7",
+      "spotify_episode_id": "2egT2fyXwZeZLCXX2zIoqG"
     },
     {
       "id": "repeto:polish-german:topic-29",
@@ -354,7 +382,8 @@
       "season": 1,
       "episode": 29,
       "bytes": 4282661,
-      "sha256": "9456373aa48c1d290bd1f05cc60a432be9917325f38802e8882542caa7d058b8"
+      "sha256": "9456373aa48c1d290bd1f05cc60a432be9917325f38802e8882542caa7d058b8",
+      "spotify_episode_id": "2hFWjAi5hr3TE5NDbpCc4f"
     },
     {
       "id": "repeto:polish-german:topic-30",
@@ -366,7 +395,8 @@
       "season": 1,
       "episode": 30,
       "bytes": 3081447,
-      "sha256": "c66081b7765d04f9bbe5d1636d347f734cd6a78bb9f8d5bdbdb1b3570dba332e"
+      "sha256": "c66081b7765d04f9bbe5d1636d347f734cd6a78bb9f8d5bdbdb1b3570dba332e",
+      "spotify_episode_id": "1T3HmdXcVJ7P72ZcczqXUq"
     },
     {
       "id": "magical_radio:pl:de:chapter-01",
@@ -379,7 +409,8 @@
       "season": 2,
       "episode": 1,
       "bytes": 7431775,
-      "sha256": "1110707b2f5e93bd4348a50bfbe86e9f79b6ea614124f95494025d9b9619a0ea"
+      "sha256": "1110707b2f5e93bd4348a50bfbe86e9f79b6ea614124f95494025d9b9619a0ea",
+      "spotify_episode_id": "5lclZVI24YjxGR1TJczLXW"
     },
     {
       "id": "magical_radio:pl:de:chapter-02",
@@ -392,7 +423,8 @@
       "season": 2,
       "episode": 2,
       "bytes": 6630547,
-      "sha256": "493ee1a5259f8771e1d1013cd3fdcea198f59d1c367c67700a514c4d54229b4a"
+      "sha256": "493ee1a5259f8771e1d1013cd3fdcea198f59d1c367c67700a514c4d54229b4a",
+      "spotify_episode_id": "2yRAiXkmCDRNldhIxvcl6W"
     },
     {
       "id": "magical_radio:pl:de:chapter-03",
@@ -405,7 +437,8 @@
       "season": 2,
       "episode": 3,
       "bytes": 8698191,
-      "sha256": "33379dcb84f8e76d8c4b257192ef76ae9f094c0e056f96c4ee5ea494b5e937ee"
+      "sha256": "33379dcb84f8e76d8c4b257192ef76ae9f094c0e056f96c4ee5ea494b5e937ee",
+      "spotify_episode_id": "2uiZ9i1agfSOPcdG7yli3X"
     },
     {
       "id": "magical_radio:pl:de:chapter-04",
@@ -418,7 +451,8 @@
       "season": 2,
       "episode": 4,
       "bytes": 6657505,
-      "sha256": "b765f389474c548e4cb8e007d306cf8314c242bb61136ab43405aa30b15727cf"
+      "sha256": "b765f389474c548e4cb8e007d306cf8314c242bb61136ab43405aa30b15727cf",
+      "spotify_episode_id": "5G4gTcCOZioTypqQMokkd3"
     },
     {
       "id": "magical_radio:pl:de:chapter-05",
@@ -431,7 +465,8 @@
       "season": 2,
       "episode": 5,
       "bytes": 6621770,
-      "sha256": "41227b1136d40f29be7be0f8388cc5d2260a73ca2213d73b3e0884af77fa9789"
+      "sha256": "41227b1136d40f29be7be0f8388cc5d2260a73ca2213d73b3e0884af77fa9789",
+      "spotify_episode_id": "1EYrwMid8OaLLgDLrPYQyc"
     },
     {
       "id": "magical_radio:pl:de:chapter-06",
@@ -444,7 +479,8 @@
       "season": 2,
       "episode": 6,
       "bytes": 5365385,
-      "sha256": "4a9b5bb3e39fcea2e845dc806a05a6ffe2862f1df2debb265dc83a6fcfc3269b"
+      "sha256": "4a9b5bb3e39fcea2e845dc806a05a6ffe2862f1df2debb265dc83a6fcfc3269b",
+      "spotify_episode_id": "56qQaegqVBqwsDY2IDwnPA"
     },
     {
       "id": "magical_radio:pl:de:chapter-07",
@@ -457,7 +493,8 @@
       "season": 2,
       "episode": 7,
       "bytes": 8677502,
-      "sha256": "c77f93b8e5418d0d1d1068e0b7ce0721bd58a9a55fba97187eb622eecba83abc"
+      "sha256": "c77f93b8e5418d0d1d1068e0b7ce0721bd58a9a55fba97187eb622eecba83abc",
+      "spotify_episode_id": "1Nn9l347KQGdOFHYOim1UT"
     },
     {
       "id": "magical_radio:pl:de:chapter-08",
@@ -470,7 +507,8 @@
       "season": 2,
       "episode": 8,
       "bytes": 5627445,
-      "sha256": "78b2c5c8049ff082ea60c17f618be42608ddfde10bef99e93c83d832714c3114"
+      "sha256": "78b2c5c8049ff082ea60c17f618be42608ddfde10bef99e93c83d832714c3114",
+      "spotify_episode_id": "6n0lnCOBYn8gzLoqGo2O8Z"
     }
   ],
   "seasons": {
@@ -478,5 +516,6 @@
     "2": "Magiczne Radio"
   },
   "title": "Repeto.stream – Uczę się niemieckiego",
-  "description": "Ucz się niemieckiego, słuchając i mówiąc – z polskim jako wsparciem. Repeto.stream to kurs audio dla początkujących w każdym wieku: dzieci, rodziców, dziadków i wszystkich, którzy chcą zacząć naukę niemieckiego. Nie potrzebujesz wcześniejszej wiedzy ani podręcznika.\n\nJak to działa: słyszysz słowo lub zdanie po polsku, a potem masz chwilę, by powiedzieć je po niemiecku. Następnie usłyszysz odpowiedź dwa razy i będziesz mieć czas, by powtórzyć wymowę.\n\nW kursie znajdziesz:\n• Frazy: 30 krótkich tematów, od powitań i liczb po jedzenie, emocje i codzienne sytuacje.\n• Opowieść „Magiczne Radio” (Das magische Radio): jeden rozdział w każdym odcinku. Najpierw słuchasz rozdziału po niemiecku, ćwiczysz słownictwo, a potem słuchasz go ponownie.\n• Kolejne opowieści są w przygotowaniu – nowe odcinki będą dodawane regularnie. Obserwuj podcast, żeby ich nie przegapić.\n\nJak korzystać z kursu:\n• Zacznij od pierwszego odcinka z frazami i słuchaj po kolei.\n• Odpowiadaj na głos w przerwie – spróbuj samodzielnie przypomnieć sobie słowa.\n• Odtwórz odcinek ponownie, aż zdążysz odpowiedzieć przed głosem lektora.\n• Słuchanie w tle może pomóc oswoić się z brzmieniem i melodią języka. Ćwicz też aktywnie, powtarzając i odpowiadając w przerwach.\n\nPodoba Ci się ten format? Repeto.stream jest dostępne także w innych językach – ten sam układ pozwoli Ci od razu poczuć się swobodnie. Wyszukaj „Repeto.stream” w swojej aplikacji do podcastów.\n\nNapisz do nas! Sugestie dotyczące nowych języków, poprawki i pomysły na opowieści są mile widziane: repeto.stream@gmail.com\n\nGłosy zostały wygenerowane przez AI (Microsoft Azure)."
+  "description": "Ucz się niemieckiego, słuchając i mówiąc – z polskim jako wsparciem. Repeto.stream to kurs audio dla początkujących w każdym wieku: dzieci, rodziców, dziadków i wszystkich, którzy chcą zacząć naukę niemieckiego. Nie potrzebujesz wcześniejszej wiedzy ani podręcznika.\n\nJak to działa: słyszysz słowo lub zdanie po polsku, a potem masz chwilę, by powiedzieć je po niemiecku. Następnie usłyszysz odpowiedź dwa razy i będziesz mieć czas, by powtórzyć wymowę.\n\nW kursie znajdziesz:\n• Frazy: 30 krótkich tematów, od powitań i liczb po jedzenie, emocje i codzienne sytuacje.\n• Opowieść „Magiczne Radio” (Das magische Radio): jeden rozdział w każdym odcinku. Najpierw słuchasz rozdziału po niemiecku, ćwiczysz słownictwo, a potem słuchasz go ponownie.\n• Kolejne opowieści są w przygotowaniu – nowe odcinki będą dodawane regularnie. Obserwuj podcast, żeby ich nie przegapić.\n\nJak korzystać z kursu:\n• Zacznij od pierwszego odcinka z frazami i słuchaj po kolei.\n• Odpowiadaj na głos w przerwie – spróbuj samodzielnie przypomnieć sobie słowa.\n• Odtwórz odcinek ponownie, aż zdążysz odpowiedzieć przed głosem lektora.\n• Słuchanie w tle może pomóc oswoić się z brzmieniem i melodią języka. Ćwicz też aktywnie, powtarzając i odpowiadając w przerwach.\n\nPodoba Ci się ten format? Repeto.stream jest dostępne także w innych językach – ten sam układ pozwoli Ci od razu poczuć się swobodnie. Wyszukaj „Repeto.stream” w swojej aplikacji do podcastów.\n\nNapisz do nas! Sugestie dotyczące nowych języków, poprawki i pomysły na opowieści są mile widziane: repeto.stream@gmail.com\n\nGłosy zostały wygenerowane przez AI (Microsoft Azure).",
+  "spotify_show_id": "3cjB9e8s9YfypvRNxyfj6U"
 }

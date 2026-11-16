@@ -18,7 +18,8 @@
       "season": 1,
       "episode": 1,
       "bytes": 2286237,
-      "sha256": "a6ee4bc300732567f97fc0c57970fff5d758b8a30ebfc959f1d38c07c3f4b880"
+      "sha256": "a6ee4bc300732567f97fc0c57970fff5d758b8a30ebfc959f1d38c07c3f4b880",
+      "spotify_episode_id": "3mrWxEker0krZzS5kReYKj"
     },
     {
       "id": "repeto:russian-german:topic-02",
@@ -30,7 +31,8 @@
       "season": 1,
       "episode": 2,
       "bytes": 2054972,
-      "sha256": "c8552c64397ef3c3e9c46b31351f4495864e2ff4f9f6675b26433ce8e99e9e16"
+      "sha256": "c8552c64397ef3c3e9c46b31351f4495864e2ff4f9f6675b26433ce8e99e9e16",
+      "spotify_episode_id": "7vVeUvxwQNOYRUVzN3QE2z"
     },
     {
       "id": "repeto:russian-german:topic-03",
@@ -42,7 +44,8 @@
       "season": 1,
       "episode": 3,
       "bytes": 1964176,
-      "sha256": "8bfd488b6e0feab3a06fd37d8aa86b7f6ec3bd817c6f2eae7adebc5597eb14b7"
+      "sha256": "8bfd488b6e0feab3a06fd37d8aa86b7f6ec3bd817c6f2eae7adebc5597eb14b7",
+      "spotify_episode_id": "4eQwmFYL8Y2QtMqzd4Dc33"
     },
     {
       "id": "repeto:russian-german:topic-04",
@@ -54,7 +57,8 @@
       "season": 1,
       "episode": 4,
       "bytes": 2547572,
-      "sha256": "f08bb635a1a046774382da48f32cd083f68426ba4115ed14f0a004e57c0a442b"
+      "sha256": "f08bb635a1a046774382da48f32cd083f68426ba4115ed14f0a004e57c0a442b",
+      "spotify_episode_id": "4fptCStmQFXh22Pf6KLbwO"
     },
     {
       "id": "repeto:russian-german:topic-05",
@@ -66,7 +70,8 @@
       "season": 1,
       "episode": 5,
       "bytes": 1908306,
-      "sha256": "02375c2eccc6ee35b2c97d02799ba2e207756a5e23a2d020f406d7018f026ef0"
+      "sha256": "02375c2eccc6ee35b2c97d02799ba2e207756a5e23a2d020f406d7018f026ef0",
+      "spotify_episode_id": "4kSJ8U7gzQ7p0MqHOnO5pr"
     },
     {
       "id": "repeto:russian-german:topic-06",
@@ -78,7 +83,8 @@
       "season": 1,
       "episode": 6,
       "bytes": 2969836,
-      "sha256": "6f67ef1f3ee806aaffc31c5d4ce46af3d1cd191661f0afbf5e10eb1c83bb9162"
+      "sha256": "6f67ef1f3ee806aaffc31c5d4ce46af3d1cd191661f0afbf5e10eb1c83bb9162",
+      "spotify_episode_id": "50xzaw59SQcQzuq7mwNheJ"
     },
     {
       "id": "repeto:russian-german:topic-07",
@@ -90,7 +96,8 @@
       "season": 1,
       "episode": 7,
       "bytes": 2237227,
-      "sha256": "9333365f68e72dbcdac4f5ee3fe39c1558d8b774ec7e9c020625ba9787c4a934"
+      "sha256": "9333365f68e72dbcdac4f5ee3fe39c1558d8b774ec7e9c020625ba9787c4a934",
+      "spotify_episode_id": "3yZr7QoKc0dBzRI4wwKtDb"
     },
     {
       "id": "repeto:russian-german:topic-08",
@@ -102,7 +109,8 @@
       "season": 1,
       "episode": 8,
       "bytes": 1945016,
-      "sha256": "f3e003d107366cab0f221e5e15be55b97ee8ae60b24630cd390134c2eef427f6"
+      "sha256": "f3e003d107366cab0f221e5e15be55b97ee8ae60b24630cd390134c2eef427f6",
+      "spotify_episode_id": "7iFqzVGBZHQ40GnRcT6ePz"
     },
     {
       "id": "repeto:russian-german:topic-09",
@@ -114,7 +122,8 @@
       "season": 1,
       "episode": 9,
       "bytes": 2359181,
-      "sha256": "ede4628c7d027cdbc21a982102a006e1930bb6631b5f76b572d276ffdfd6de0f"
+      "sha256": "ede4628c7d027cdbc21a982102a006e1930bb6631b5f76b572d276ffdfd6de0f",
+      "spotify_episode_id": "3vaid2eigPxdEdYs451SIj"
     },
     {
       "id": "repeto:russian-german:topic-10",
@@ -126,7 +135,8 @@
       "season": 1,
       "episode": 10,
       "bytes": 2753288,
-      "sha256": "8f8710dba99fc69376d7c41a446317e4b42498104744df7491a75c40fd037b80"
+      "sha256": "8f8710dba99fc69376d7c41a446317e4b42498104744df7491a75c40fd037b80",
+      "spotify_episode_id": "6r1ydS2fs95M6yRwqarx9p"
     },
     {
       "id": "repeto:russian-german:topic-11",
@@ -138,7 +148,8 @@
       "season": 1,
       "episode": 11,
       "bytes": 1577445,
-      "sha256": "17b75a9a6a26125193b4d2b1a3cef95f8aac33c2107053f60858fd2fe02bfd6a"
+      "sha256": "17b75a9a6a26125193b4d2b1a3cef95f8aac33c2107053f60858fd2fe02bfd6a",
+      "spotify_episode_id": "393sxgnLxX0BCbWxPixEly"
     },
     {
       "id": "repeto:russian-german:topic-12",
@@ -150,7 +161,8 @@
       "season": 1,
       "episode": 12,
       "bytes": 1360173,
-      "sha256": "81652cf4174b19a33ce25fb08c00e2d9e8a85d3d0beb30903bf3c7b38fa94b89"
+      "sha256": "81652cf4174b19a33ce25fb08c00e2d9e8a85d3d0beb30903bf3c7b38fa94b89",
+      "spotify_episode_id": "7h7tBi8WbPWKGSoBOVxueq"
     },
     {
       "id": "repeto:russian-german:topic-13",
@@ -162,7 +174,8 @@
       "season": 1,
       "episode": 13,
       "bytes": 1935365,
-      "sha256": "15255d3a4c2772f6ede66f90b6284f2ad847b34bafb4e458e1db11cfdc5511a0"
+      "sha256": "15255d3a4c2772f6ede66f90b6284f2ad847b34bafb4e458e1db11cfdc5511a0",
+      "spotify_episode_id": "5e2mKRl3QaOReUPBUIBB3D"
     },
     {
       "id": "repeto:russian-german:topic-14",
@@ -174,7 +187,8 @@
       "season": 1,
       "episode": 14,
       "bytes": 2386165,
-      "sha256": "f5ad4b3778aa1d28df5c7152abf7cf40050f56ee79610129536d36c359235240"
+      "sha256": "f5ad4b3778aa1d28df5c7152abf7cf40050f56ee79610129536d36c359235240",
+      "spotify_episode_id": "5eW4ZEPsTNvHGHFfc0U7fc"
     },
     {
       "id": "repeto:russian-german:topic-15",
@@ -186,7 +200,8 @@
       "season": 1,
       "episode": 15,
       "bytes": 1791458,
-      "sha256": "48d8373630b84602beda3ca62acfa9cb390ed2f5fc265f350b716c87e084034b"
+      "sha256": "48d8373630b84602beda3ca62acfa9cb390ed2f5fc265f350b716c87e084034b",
+      "spotify_episode_id": "2Hr5QLjr6pQSW0m6jitTLc"
     },
     {
       "id": "repeto:russian-german:topic-16",
@@ -198,7 +213,8 @@
       "season": 1,
       "episode": 16,
       "bytes": 2139953,
-      "sha256": "ec511a3682b3b30478e35fe7b92251a13b142fa5fdbec1aa575d1672b65eb9d1"
+      "sha256": "ec511a3682b3b30478e35fe7b92251a13b142fa5fdbec1aa575d1672b65eb9d1",
+      "spotify_episode_id": "5nPudFG1cHLyFp9dXn72Rk"
     },
     {
       "id": "repeto:russian-german:topic-17",
@@ -210,7 +226,8 @@
       "season": 1,
       "episode": 17,
       "bytes": 2043426,
-      "sha256": "7283e9e314e1c9017be0c390ac202ee2b8ac4aec25f959893d518550e702f492"
+      "sha256": "7283e9e314e1c9017be0c390ac202ee2b8ac4aec25f959893d518550e702f492",
+      "spotify_episode_id": "3VAF50oDOMIZB4dJKQTReK"
     },
     {
       "id": "repeto:russian-german:topic-18",
@@ -222,7 +239,8 @@
       "season": 1,
       "episode": 18,
       "bytes": 1975615,
-      "sha256": "12f66aa76d9557d1d26d079454bf0177a4a73c600a464cfe4c9db883281512e7"
+      "sha256": "12f66aa76d9557d1d26d079454bf0177a4a73c600a464cfe4c9db883281512e7",
+      "spotify_episode_id": "0sdFn5oZNPtdwc4pt8z7TM"
     },
     {
       "id": "repeto:russian-german:topic-19",
@@ -234,7 +252,8 @@
       "season": 1,
       "episode": 19,
       "bytes": 1743372,
-      "sha256": "c87aa0639d9c24fc122dda2c03ad606665c70ce4fa58e50917b9b9aeef9f736c"
+      "sha256": "c87aa0639d9c24fc122dda2c03ad606665c70ce4fa58e50917b9b9aeef9f736c",
+      "spotify_episode_id": "072TkbQEOjL2vS8rEyDg3E"
     },
     {
       "id": "repeto:russian-german:topic-20",
@@ -246,7 +265,8 @@
       "season": 1,
       "episode": 20,
       "bytes": 1630200,
-      "sha256": "0a3a089243679c5f44184b0d5221b30753ba6000b3aa63ed8d82058a07c86b7e"
+      "sha256": "0a3a089243679c5f44184b0d5221b30753ba6000b3aa63ed8d82058a07c86b7e",
+      "spotify_episode_id": "3v3v7xP0B6Bf2JNsa3lJMo"
     },
     {
       "id": "repeto:russian-german:topic-21",
@@ -258,7 +278,8 @@
       "season": 1,
       "episode": 21,
       "bytes": 1769204,
-      "sha256": "b8a9394aebba27dab0be6a02a49bbd8d6b6d4ee3eb9a1d285d3b3931117b59f9"
+      "sha256": "b8a9394aebba27dab0be6a02a49bbd8d6b6d4ee3eb9a1d285d3b3931117b59f9",
+      "spotify_episode_id": "687ZRuiY0C4KEwZ724JBNQ"
     },
     {
       "id": "repeto:russian-german:topic-22",
@@ -270,7 +291,8 @@
       "season": 1,
       "episode": 22,
       "bytes": 2153202,
-      "sha256": "ee5d04e1b059b480854329fb442f91f0f339d1be36c622ce3dd5e88244e7e17e"
+      "sha256": "ee5d04e1b059b480854329fb442f91f0f339d1be36c622ce3dd5e88244e7e17e",
+      "spotify_episode_id": "3Xqk71BEWcXwQPPanBj1qy"
     },
     {
       "id": "repeto:russian-german:topic-23",
@@ -282,7 +304,8 @@
       "season": 1,
       "episode": 23,
       "bytes": 1795130,
-      "sha256": "39555a6a2839aecd6fc658f14731aacb33022f91f744ab9759cc652e0dec21be"
+      "sha256": "39555a6a2839aecd6fc658f14731aacb33022f91f744ab9759cc652e0dec21be",
+      "spotify_episode_id": "45Gx1PAqAZO5cVvF594lOs"
     },
     {
       "id": "repeto:russian-german:topic-24",
@@ -294,7 +317,8 @@
       "season": 1,
       "episode": 24,
       "bytes": 1742192,
-      "sha256": "d77dd1d8125ea6318f27a410d346b9ca62ed84e05782866b397492033f934569"
+      "sha256": "d77dd1d8125ea6318f27a410d346b9ca62ed84e05782866b397492033f934569",
+      "spotify_episode_id": "45xVvUJ75LLjKSL2jqcXI7"
     },
     {
       "id": "repeto:russian-german:topic-25",
@@ -306,7 +330,8 @@
       "season": 1,
       "episode": 25,
       "bytes": 2597449,
-      "sha256": "99e8c03594e5de93ef1147c7d45d26e98ccd32226e8bb2d948f2e56e5fd896ae"
+      "sha256": "99e8c03594e5de93ef1147c7d45d26e98ccd32226e8bb2d948f2e56e5fd896ae",
+      "spotify_episode_id": "4wnR8n1Ji3KN2wmNbVIPAI"
     },
     {
       "id": "repeto:russian-german:topic-26",
@@ -318,7 +343,8 @@
       "season": 1,
       "episode": 26,
       "bytes": 1725040,
-      "sha256": "718fcdc0c12f84b3066ad96fcaf5ad531f18efa633df25682d8b09f0bffdb1c3"
+      "sha256": "718fcdc0c12f84b3066ad96fcaf5ad531f18efa633df25682d8b09f0bffdb1c3",
+      "spotify_episode_id": "1T7AtH4QNazeSNRd44kkn3"
     },
     {
       "id": "repeto:russian-german:topic-27",
@@ -330,7 +356,8 @@
       "season": 1,
       "episode": 27,
       "bytes": 1633732,
-      "sha256": "09bc14eea655d1a121a1ac7c996effc093b715c8b7eb05d3893d9095c75787ec"
+      "sha256": "09bc14eea655d1a121a1ac7c996effc093b715c8b7eb05d3893d9095c75787ec",
+      "spotify_episode_id": "00slYPiVdR46Lk64syBne4"
     },
     {
       "id": "repeto:russian-german:topic-28",
@@ -342,7 +369,8 @@
       "season": 1,
       "episode": 28,
       "bytes": 1590654,
-      "sha256": "38d8c958c03db8e4582b74e91b0014a2e1c05d9701bef9c9d0961e925ae950d1"
+      "sha256": "38d8c958c03db8e4582b74e91b0014a2e1c05d9701bef9c9d0961e925ae950d1",
+      "spotify_episode_id": "5bIgoNhWhpSK192ilyNuxm"
     },
     {
       "id": "repeto:russian-german:topic-29",
@@ -354,7 +382,8 @@
       "season": 1,
       "episode": 29,
       "bytes": 1110534,
-      "sha256": "2cee69c6f55c8ca3ebadf64120f32c85f059f40c9a12f075a83a936953bc0478"
+      "sha256": "2cee69c6f55c8ca3ebadf64120f32c85f059f40c9a12f075a83a936953bc0478",
+      "spotify_episode_id": "1ZnINxfiFSCAoVhFhYHlGU"
     },
     {
       "id": "repeto:russian-german:topic-30",
@@ -366,7 +395,8 @@
       "season": 1,
       "episode": 30,
       "bytes": 865264,
-      "sha256": "8933f0174d5dfac5cc9c87afa431d6ac78a9bc621cbcdc92d66fc7b6818ad989"
+      "sha256": "8933f0174d5dfac5cc9c87afa431d6ac78a9bc621cbcdc92d66fc7b6818ad989",
+      "spotify_episode_id": "3Q09vUKLRSILdv325wEfXW"
     },
     {
       "id": "magical_radio:ru:de:chapter-01",
@@ -379,7 +409,8 @@
       "season": 2,
       "episode": 1,
       "bytes": 2116486,
-      "sha256": "b6d1c25616e438fbbee015b4646fd7221c894eb01b80b9212ad670982da3d2ce"
+      "sha256": "b6d1c25616e438fbbee015b4646fd7221c894eb01b80b9212ad670982da3d2ce",
+      "spotify_episode_id": "6x9D6aVuc1cSvSwNiFC1PM"
     },
     {
       "id": "magical_radio:ru:de:chapter-02",
@@ -392,7 +423,8 @@
       "season": 2,
       "episode": 2,
       "bytes": 1824018,
-      "sha256": "2cee969c35a94ca66e2ddccfa2080070ec97b85a6e50e5d4aafd142596f2360b"
+      "sha256": "2cee969c35a94ca66e2ddccfa2080070ec97b85a6e50e5d4aafd142596f2360b",
+      "spotify_episode_id": "6kQvlkLvRgvuGfl897l4j9"
     },
     {
       "id": "magical_radio:ru:de:chapter-03",
@@ -405,7 +437,8 @@
       "season": 2,
       "episode": 3,
       "bytes": 2476812,
-      "sha256": "f4526e5ca5dd4bcbe93d1d67431838f069ccd5e6444eac397cd56731f751425d"
+      "sha256": "f4526e5ca5dd4bcbe93d1d67431838f069ccd5e6444eac397cd56731f751425d",
+      "spotify_episode_id": "4WhXrtvE3KpieDYVnpgWhC"
     },
     {
       "id": "magical_radio:ru:de:chapter-04",
@@ -418,7 +451,8 @@
       "season": 2,
       "episode": 4,
       "bytes": 1754223,
-      "sha256": "d12bb9538eb7c60d1827734dbe3d363694da6e135d19a153921ecfc3269738ba"
+      "sha256": "d12bb9538eb7c60d1827734dbe3d363694da6e135d19a153921ecfc3269738ba",
+      "spotify_episode_id": "53A2TrsPZhlaTLglT60k9G"
     },
     {
       "id": "magical_radio:ru:de:chapter-05",
@@ -431,7 +465,8 @@
       "season": 2,
       "episode": 5,
       "bytes": 1798391,
-      "sha256": "c2c0252131b08ab906696839c2d3ab4a3eb3994e7e3f8dbe5c496cdd020fea0f"
+      "sha256": "c2c0252131b08ab906696839c2d3ab4a3eb3994e7e3f8dbe5c496cdd020fea0f",
+      "spotify_episode_id": "35oryZSfc5BJEj1M0Yl9Er"
     },
     {
       "id": "magical_radio:ru:de:chapter-06",
@@ -444,7 +479,8 @@
       "season": 2,
       "episode": 6,
       "bytes": 1466758,
-      "sha256": "742abaa564804b3aa00827c3d0545299d7268e0b4687184cdbe80c6461800f3c"
+      "sha256": "742abaa564804b3aa00827c3d0545299d7268e0b4687184cdbe80c6461800f3c",
+      "spotify_episode_id": "4BxWfGIlRA3zxDPJvXXT0i"
     },
     {
       "id": "magical_radio:ru:de:chapter-07",
@@ -457,7 +493,8 @@
       "season": 2,
       "episode": 7,
       "bytes": 2533462,
-      "sha256": "2dbbc29ab80623b4534ac74a0418c4666979eb196337c144bbafc99b05d41cc8"
+      "sha256": "2dbbc29ab80623b4534ac74a0418c4666979eb196337c144bbafc99b05d41cc8",
+      "spotify_episode_id": "5bReO2mK4RIJFcPsa91mUJ"
     },
     {
       "id": "magical_radio:ru:de:chapter-08",
@@ -470,7 +507,8 @@
       "season": 2,
       "episode": 8,
       "bytes": 1587933,
-      "sha256": "dd89723a2585cb2e50d131123ca055175cfbdd291d1fec00c3b979401e7cb239"
+      "sha256": "dd89723a2585cb2e50d131123ca055175cfbdd291d1fec00c3b979401e7cb239",
+      "spotify_episode_id": "4FsFbpMGPZo6vucegQ5Abq"
     }
   ],
   "seasons": {
@@ -478,5 +516,6 @@
     "2": "Волшебное радио"
   },
   "title": "Repeto.stream – Я учу немецкий",
-  "description": "Учи немецкий: слушай и говори с подсказками на русском. Repeto.stream — аудиокурс для начинающих любого возраста: детей, родителей, бабушек, дедушек и всех, кто хочет начать учить немецкий. Предварительные знания и учебник не нужны.\n\nКак это работает: ты слышишь слово или предложение по-русски, а затем во время паузы пробуешь сказать то же самое по-немецки. После этого ответ звучит дважды, с паузами для повторения.\n\nЧто входит в курс:\n• Фразы: 30 коротких тем — от приветствий и чисел до еды, чувств и повседневных ситуаций.\n• История «Волшебное радио» (Das magische Radio): по одной главе в каждом выпуске. Сначала слушай главу по-немецки, затем тренируй слова и слушай главу ещё раз.\n• Новые истории уже в работе. Подпишись на подкаст, чтобы не пропустить выпуски.\n\nКак заниматься:\n• Начни с первого выпуска с фразами и слушай по порядку.\n• Отвечай вслух во время пауз — попробуй вспомнить слова самостоятельно.\n• Слушай выпуск снова, пока не начнёшь отвечать раньше диктора.\n• Фоновое прослушивание помогает привыкнуть к звукам и ритму языка. Занимайся и активно: повторяй и отвечай во время пауз.\n\nНравится такой формат? У Repeto.stream есть курсы и для других языков с такой же структурой. Ищи Repeto.stream в своём приложении для подкастов.\n\nНапиши нам! Предложения новых языков, исправления и идеи для историй приветствуются: repeto.stream@gmail.com\n\nГолоса созданы с помощью ИИ (Microsoft Azure)."
+  "description": "Учи немецкий: слушай и говори с подсказками на русском. Repeto.stream — аудиокурс для начинающих любого возраста: детей, родителей, бабушек, дедушек и всех, кто хочет начать учить немецкий. Предварительные знания и учебник не нужны.\n\nКак это работает: ты слышишь слово или предложение по-русски, а затем во время паузы пробуешь сказать то же самое по-немецки. После этого ответ звучит дважды, с паузами для повторения.\n\nЧто входит в курс:\n• Фразы: 30 коротких тем — от приветствий и чисел до еды, чувств и повседневных ситуаций.\n• История «Волшебное радио» (Das magische Radio): по одной главе в каждом выпуске. Сначала слушай главу по-немецки, затем тренируй слова и слушай главу ещё раз.\n• Новые истории уже в работе. Подпишись на подкаст, чтобы не пропустить выпуски.\n\nКак заниматься:\n• Начни с первого выпуска с фразами и слушай по порядку.\n• Отвечай вслух во время пауз — попробуй вспомнить слова самостоятельно.\n• Слушай выпуск снова, пока не начнёшь отвечать раньше диктора.\n• Фоновое прослушивание помогает привыкнуть к звукам и ритму языка. Занимайся и активно: повторяй и отвечай во время пауз.\n\nНравится такой формат? У Repeto.stream есть курсы и для других языков с такой же структурой. Ищи Repeto.stream в своём приложении для подкастов.\n\nНапиши нам! Предложения новых языков, исправления и идеи для историй приветствуются: repeto.stream@gmail.com\n\nГолоса созданы с помощью ИИ (Microsoft Azure).",
+  "spotify_show_id": "4w75JxIfvzSrVubxY8CVrq"
 }

@@ -21,7 +21,8 @@
       "season": 1,
       "episode": 1,
       "bytes": 8837999,
-      "sha256": "7f09e1751d7800cd1f42bd6286d7e1661c7288109ea23b78b26fa801225619d3"
+      "sha256": "7f09e1751d7800cd1f42bd6286d7e1661c7288109ea23b78b26fa801225619d3",
+      "spotify_episode_id": "7MYATZ1igSzzNTx9jHXGrs"
     },
     {
       "id": "repeto:english-swedish:topic-02",
@@ -33,7 +34,8 @@
       "season": 1,
       "episode": 2,
       "bytes": 8247422,
-      "sha256": "0541289af2423eaccfd43d5c32f9683c84d4f547e03de5ac9124e325d29d7604"
+      "sha256": "0541289af2423eaccfd43d5c32f9683c84d4f547e03de5ac9124e325d29d7604",
+      "spotify_episode_id": "2nM1Kh2ra6VhOuZhsvOnzH"
     },
     {
       "id": "repeto:english-swedish:topic-03",
@@ -45,7 +47,8 @@
       "season": 1,
       "episode": 3,
       "bytes": 7267517,
-      "sha256": "9842525a88f49e284842d3b002bd67850f484d4ed451c71218c9fb7e693e1167"
+      "sha256": "9842525a88f49e284842d3b002bd67850f484d4ed451c71218c9fb7e693e1167",
+      "spotify_episode_id": "78pOWHDmlU2uUBOWSVJrST"
     },
     {
       "id": "repeto:english-swedish:topic-04",
@@ -57,7 +60,8 @@
       "season": 1,
       "episode": 4,
       "bytes": 10059275,
-      "sha256": "cb318debddbf5902857b64d2ce0dba02f7f7e08efc94b889513c25ee5b919799"
+      "sha256": "cb318debddbf5902857b64d2ce0dba02f7f7e08efc94b889513c25ee5b919799",
+      "spotify_episode_id": "4sE3TmRN8OLBKZYybMTPo3"
     },
     {
       "id": "repeto:english-swedish:topic-05",
@@ -69,7 +73,8 @@
       "season": 1,
       "episode": 5,
       "bytes": 6885711,
-      "sha256": "339c736a22f0a69fe8f7e43ad37976e30c378ab7ae053d55bc3ef428d2dc1993"
+      "sha256": "339c736a22f0a69fe8f7e43ad37976e30c378ab7ae053d55bc3ef428d2dc1993",
+      "spotify_episode_id": "18apzDnLs3L1NfbVGI0jCV"
     },
     {
       "id": "repeto:english-swedish:topic-06",
@@ -81,7 +86,8 @@
       "season": 1,
       "episode": 6,
       "bytes": 11949496,
-      "sha256": "c276ea21d23f027c7e14d640f303ae086a7bb994671db759b9aadbb5a74976f0"
+      "sha256": "c276ea21d23f027c7e14d640f303ae086a7bb994671db759b9aadbb5a74976f0",
+      "spotify_episode_id": "0PPg0JSyFCdT9T1zxXthrU"
     },
     {
       "id": "repeto:english-swedish:topic-07",
@@ -93,7 +99,8 @@
       "season": 1,
       "episode": 7,
       "bytes": 8859314,
-      "sha256": "bcc0dee856a8ecb0b14043ad0198d49cd95c10eb95265a3164ac022915988438"
+      "sha256": "bcc0dee856a8ecb0b14043ad0198d49cd95c10eb95265a3164ac022915988438",
+      "spotify_episode_id": "2zWDfe2wzBpHehlYDKxz0X"
     },
     {
       "id": "repeto:english-swedish:topic-08",
@@ -105,7 +112,8 @@
       "season": 1,
       "episode": 8,
       "bytes": 7358423,
-      "sha256": "9fd96a61a1e60d29f597159357814e5211df9198b2b610e797a6f8f9890e41e6"
+      "sha256": "9fd96a61a1e60d29f597159357814e5211df9198b2b610e797a6f8f9890e41e6",
+      "spotify_episode_id": "4O13qnTO7bRpUaehaxujCR"
     },
     {
       "id": "repeto:english-swedish:topic-09",
@@ -117,7 +125,8 @@
       "season": 1,
       "episode": 9,
       "bytes": 9312591,
-      "sha256": "5fa048aed38492f17891f22ffc14fae34b602df25f948e81e04355ee6c6f1d31"
+      "sha256": "5fa048aed38492f17891f22ffc14fae34b602df25f948e81e04355ee6c6f1d31",
+      "spotify_episode_id": "3m3DkBI1wU30YP3fHsEfAb"
     },
     {
       "id": "repeto:english-swedish:topic-10",
@@ -129,7 +138,8 @@
       "season": 1,
       "episode": 10,
       "bytes": 10286227,
-      "sha256": "03f8b394bce88a7edfcd156fe60396658211bd07720799e05ce13a21bea92698"
+      "sha256": "03f8b394bce88a7edfcd156fe60396658211bd07720799e05ce13a21bea92698",
+      "spotify_episode_id": "1sdS4k92gHuUZdmDTQSDgD"
     },
     {
       "id": "repeto:english-swedish:topic-11",
@@ -141,7 +151,8 @@
       "season": 1,
       "episode": 11,
       "bytes": 6125234,
-      "sha256": "34a2f53a4a2a700c79044ad930cc7e2c48fed8b0c6499cc38a01fcc7018d0591"
+      "sha256": "34a2f53a4a2a700c79044ad930cc7e2c48fed8b0c6499cc38a01fcc7018d0591",
+      "spotify_episode_id": "3EBG5LpZn63QGEg3y5hgPQ"
     },
     {
       "id": "repeto:english-swedish:topic-12",
@@ -153,7 +164,8 @@
       "season": 1,
       "episode": 12,
       "bytes": 4877626,
-      "sha256": "967c5d82acd2693a1b66b20023bcb7a4e7852d5c21823113dc57ec2ad708c3a7"
+      "sha256": "967c5d82acd2693a1b66b20023bcb7a4e7852d5c21823113dc57ec2ad708c3a7",
+      "spotify_episode_id": "6V73dAqsZgPndrja7pXJSk"
     },
     {
       "id": "repeto:english-swedish:topic-13",
@@ -165,7 +177,8 @@
       "season": 1,
       "episode": 13,
       "bytes": 7362812,
-      "sha256": "733a17138ad5ced57c0b0e409a83fedb315b09dac3cfb884613e04fa183dd8b2"
+      "sha256": "733a17138ad5ced57c0b0e409a83fedb315b09dac3cfb884613e04fa183dd8b2",
+      "spotify_episode_id": "3QV9LKX3IuuSCnXL4h9Dqb"
     },
     {
       "id": "repeto:english-swedish:topic-14",
@@ -177,7 +190,8 @@
       "season": 1,
       "episode": 14,
       "bytes": 8618570,
-      "sha256": "17d462dc4c8dfe2bdf39053af75344176f59b1af7b5d36037d7f97958fa5dcf6"
+      "sha256": "17d462dc4c8dfe2bdf39053af75344176f59b1af7b5d36037d7f97958fa5dcf6",
+      "spotify_episode_id": "15q0FkGgf4w97eMump3hoi"
     },
     {
       "id": "repeto:english-swedish:topic-15",
@@ -189,7 +203,8 @@
       "season": 1,
       "episode": 15,
       "bytes": 6523968,
-      "sha256": "ff60979aecd6f80ccc1a2000a8b5ec5bf5de60caf7bc235b6a81f077987444ae"
+      "sha256": "ff60979aecd6f80ccc1a2000a8b5ec5bf5de60caf7bc235b6a81f077987444ae",
+      "spotify_episode_id": "1LmoGrU7TR1YXSGIkcJySu"
     },
     {
       "id": "repeto:english-swedish:topic-16",
@@ -201,7 +216,8 @@
       "season": 1,
       "episode": 16,
       "bytes": 7573463,
-      "sha256": "30b8f2635ade04225150471d2a3c41b197717c04266c2bc70904aebf6fcbd595"
+      "sha256": "30b8f2635ade04225150471d2a3c41b197717c04266c2bc70904aebf6fcbd595",
+      "spotify_episode_id": "2AEpFmnlVbh6f3eKMMDDKX"
     },
     {
       "id": "repeto:english-swedish:topic-17",
@@ -213,7 +229,8 @@
       "season": 1,
       "episode": 17,
       "bytes": 7485692,
-      "sha256": "2dbca28a76173362b676e0f6ebc01702a7185962449f348d7822a5e0593a6c83"
+      "sha256": "2dbca28a76173362b676e0f6ebc01702a7185962449f348d7822a5e0593a6c83",
+      "spotify_episode_id": "2uvUr4KiUob8ucdLIiajSu"
     },
     {
       "id": "repeto:english-swedish:topic-18",
@@ -225,7 +242,8 @@
       "season": 1,
       "episode": 18,
       "bytes": 7148399,
-      "sha256": "33cee66a264cace5062c7a914143be486a11b1d51d956164981ec5452f1bc74c"
+      "sha256": "33cee66a264cace5062c7a914143be486a11b1d51d956164981ec5452f1bc74c",
+      "spotify_episode_id": "2P31qZ5iRnRRn6gkq7Beey"
     },
     {
       "id": "repeto:english-swedish:topic-19",
@@ -237,7 +255,8 @@
       "season": 1,
       "episode": 19,
       "bytes": 6404849,
-      "sha256": "72c2a44e5b2534a4ad2e00334b0c3d7e79346824d24578738ab7abae4af683fd"
+      "sha256": "72c2a44e5b2534a4ad2e00334b0c3d7e79346824d24578738ab7abae4af683fd",
+      "spotify_episode_id": "2r5n79aiTSCyxQJp1h0J3z"
     },
     {
       "id": "repeto:english-swedish:topic-20",
@@ -249,7 +268,8 @@
       "season": 1,
       "episode": 20,
       "bytes": 6587915,
-      "sha256": "befd14c8c4b2d89c18c3a6e619f1233b52b1016fa8002e92ff7c1323e4506b7e"
+      "sha256": "befd14c8c4b2d89c18c3a6e619f1233b52b1016fa8002e92ff7c1323e4506b7e",
+      "spotify_episode_id": "3LEqYu1xODPZEhL2yIxuLn"
     },
     {
       "id": "repeto:english-swedish:topic-21",
@@ -261,7 +281,8 @@
       "season": 1,
       "episode": 21,
       "bytes": 6039971,
-      "sha256": "833b74d7e406b75de4c2e01270953941d09bb3b4b7a9200eacc3944669ba37a2"
+      "sha256": "833b74d7e406b75de4c2e01270953941d09bb3b4b7a9200eacc3944669ba37a2",
+      "spotify_episode_id": "0Fuuyc33RrviaulgkhMJEZ"
     },
     {
       "id": "repeto:english-swedish:topic-22",
@@ -273,7 +294,8 @@
       "season": 1,
       "episode": 22,
       "bytes": 7624245,
-      "sha256": "225e4e751a0f67754280c4917ac8a40e4cc42710c786b7d61d2fded0d5f74020"
+      "sha256": "225e4e751a0f67754280c4917ac8a40e4cc42710c786b7d61d2fded0d5f74020",
+      "spotify_episode_id": "4u0l98GaR91oIJ3zsqocy7"
     },
     {
       "id": "repeto:english-swedish:topic-23",
@@ -285,7 +307,8 @@
       "season": 1,
       "episode": 23,
       "bytes": 6480082,
-      "sha256": "a803a8b09af84bd8db6748bd10b353b6f173314058a91e23d7fb630ad841d825"
+      "sha256": "a803a8b09af84bd8db6748bd10b353b6f173314058a91e23d7fb630ad841d825",
+      "spotify_episode_id": "7qTaQEp6Cb95unvanuRTAC"
     },
     {
       "id": "repeto:english-swedish:topic-24",
@@ -297,7 +320,8 @@
       "season": 1,
       "episode": 24,
       "bytes": 6782266,
-      "sha256": "f87d84d284652596485ce2ef07b74c22b187cfac8cad7ab64f40401f3f3a97a3"
+      "sha256": "f87d84d284652596485ce2ef07b74c22b187cfac8cad7ab64f40401f3f3a97a3",
+      "spotify_episode_id": "00t7YbyDr9HjAI7HnT9pOX"
     },
     {
       "id": "repeto:english-swedish:topic-25",
@@ -309,7 +333,8 @@
       "season": 1,
       "episode": 25,
       "bytes": 9905048,
-      "sha256": "6c1a6a18da818a71d3a7aa1f40e42fb1bda5301aaca735c2f6203c6a8033af9a"
+      "sha256": "6c1a6a18da818a71d3a7aa1f40e42fb1bda5301aaca735c2f6203c6a8033af9a",
+      "spotify_episode_id": "6dtOSyGoVWRJ2h5gYjzGSt"
     },
     {
       "id": "repeto:english-swedish:topic-26",
@@ -321,7 +346,8 @@
       "season": 1,
       "episode": 26,
       "bytes": 5982292,
-      "sha256": "1461ae48edee5453412646d2721aafa3f27c5d66dd807f24e8f767f6d1110c08"
+      "sha256": "1461ae48edee5453412646d2721aafa3f27c5d66dd807f24e8f767f6d1110c08",
+      "spotify_episode_id": "5MDbYUz9utqxo25p0pyvcb"
     },
     {
       "id": "repeto:english-swedish:topic-27",
@@ -333,7 +359,8 @@
       "season": 1,
       "episode": 27,
       "bytes": 5767252,
-      "sha256": "2fba5f9c8a510e6727db6823c762041a887f6f1b505673d8b94905adbd1b02e0"
+      "sha256": "2fba5f9c8a510e6727db6823c762041a887f6f1b505673d8b94905adbd1b02e0",
+      "spotify_episode_id": "4fZMjHnS67PVhD5vBEaBQj"
     },
     {
       "id": "repeto:english-swedish:topic-28",
@@ -345,7 +372,8 @@
       "season": 1,
       "episode": 28,
       "bytes": 5871951,
-      "sha256": "51cf4ebabe8a2b705dd9605d34390e2c7bcb71c4154562ef9687e978ae2d4914"
+      "sha256": "51cf4ebabe8a2b705dd9605d34390e2c7bcb71c4154562ef9687e978ae2d4914",
+      "spotify_episode_id": "3R1gRiummPRztlZYHYq1Cc"
     },
     {
       "id": "repeto:english-swedish:topic-29",
@@ -357,7 +385,8 @@
       "season": 1,
       "episode": 29,
       "bytes": 4221221,
-      "sha256": "b5b28e9c6e8cf62b876117f25014e61b328b99a8d44409aa9a9bf90ada0cb8d7"
+      "sha256": "b5b28e9c6e8cf62b876117f25014e61b328b99a8d44409aa9a9bf90ada0cb8d7",
+      "spotify_episode_id": "1KpxMWGEHeBjqagMZ0HjVA"
     },
     {
       "id": "repeto:english-swedish:topic-30",
@@ -369,7 +398,8 @@
       "season": 1,
       "episode": 30,
       "bytes": 3060758,
-      "sha256": "d0b12b71ad9df67a66232143c7c179f1dcc1b0a25f0809b0108f35cd03278f60"
+      "sha256": "d0b12b71ad9df67a66232143c7c179f1dcc1b0a25f0809b0108f35cd03278f60",
+      "spotify_episode_id": "3Is8SEQuEtTMWUN9E3r9kZ"
     },
     {
       "id": "magical_radio:en:sv:chapter-01",
@@ -382,7 +412,8 @@
       "season": 2,
       "episode": 1,
       "bytes": 7181626,
-      "sha256": "cff780280c3d4cd48536475d289976a31ac41e069a3db1f3b9ac9f4a34d3f3eb"
+      "sha256": "cff780280c3d4cd48536475d289976a31ac41e069a3db1f3b9ac9f4a34d3f3eb",
+      "spotify_episode_id": "2nyucl7dJqQmfzmEunemxY"
     },
     {
       "id": "magical_radio:en:sv:chapter-02",
@@ -395,7 +426,8 @@
       "season": 2,
       "episode": 2,
       "bytes": 6327109,
-      "sha256": "50b8c237407d63fb4ed93607e549d6cbad218dc918c697a0cf64c3931d55cb5d"
+      "sha256": "50b8c237407d63fb4ed93607e549d6cbad218dc918c697a0cf64c3931d55cb5d",
+      "spotify_episode_id": "6xjjqQkl5gLXhuOv0m2M3x"
     },
     {
       "id": "magical_radio:en:sv:chapter-03",
@@ -408,7 +440,8 @@
       "season": 2,
       "episode": 3,
       "bytes": 8243661,
-      "sha256": "d144d4be06aa3cca6bf7f53032b83e76be75e1ecfccc93b55a49211adb2c2f2c"
+      "sha256": "d144d4be06aa3cca6bf7f53032b83e76be75e1ecfccc93b55a49211adb2c2f2c",
+      "spotify_episode_id": "5yQL387Nf9JS9pTbHWidbP"
     },
     {
       "id": "magical_radio:en:sv:chapter-04",
@@ -421,7 +454,8 @@
       "season": 2,
       "episode": 4,
       "bytes": 6522714,
-      "sha256": "cc2d9a1ca06d62711b5b1484067203d1614b25c26e52bd5ac24287664215532a"
+      "sha256": "cc2d9a1ca06d62711b5b1484067203d1614b25c26e52bd5ac24287664215532a",
+      "spotify_episode_id": "6t8KVN7A9aYbwqZXKpbmtI"
     },
     {
       "id": "magical_radio:en:sv:chapter-05",
@@ -434,7 +468,8 @@
       "season": 2,
       "episode": 5,
       "bytes": 6663148,
-      "sha256": "88a36100d2caa9994551d8c55d044ce87f220db9d9bf4789c1593eeedbf4f5a2"
+      "sha256": "88a36100d2caa9994551d8c55d044ce87f220db9d9bf4789c1593eeedbf4f5a2",
+      "spotify_episode_id": "2EKsYSq77CJBM5FIr3Tlxg"
     },
     {
       "id": "magical_radio:en:sv:chapter-06",
@@ -447,7 +482,8 @@
       "season": 2,
       "episode": 6,
       "bytes": 5236235,
-      "sha256": "d74f4c3aa0905db079e5422b50de7e678a43b21236eb4e5cb4ae361bf5df21b8"
+      "sha256": "d74f4c3aa0905db079e5422b50de7e678a43b21236eb4e5cb4ae361bf5df21b8",
+      "spotify_episode_id": "4GZ9KwDWNniFOFYevh8jmu"
     },
     {
       "id": "magical_radio:en:sv:chapter-07",
@@ -460,7 +496,8 @@
       "season": 2,
       "episode": 7,
       "bytes": 8564026,
-      "sha256": "9f4ea77fc364a0278afbe724d30539ab613eaf49f0d93423905fd4c11248e266"
+      "sha256": "9f4ea77fc364a0278afbe724d30539ab613eaf49f0d93423905fd4c11248e266",
+      "spotify_episode_id": "0gD24ViBJY9SnGzkwl7o8R"
     },
     {
       "id": "magical_radio:en:sv:chapter-08",
@@ -473,11 +510,13 @@
       "season": 2,
       "episode": 8,
       "bytes": 5424317,
-      "sha256": "7a0a01423626893867a66c236a74a85ce67183823ffc0de958860926d5ee9a0b"
+      "sha256": "7a0a01423626893867a66c236a74a85ce67183823ffc0de958860926d5ee9a0b",
+      "spotify_episode_id": "7uud15N3j36DSGWLwNVZ1w"
     }
   ],
   "seasons": {
     "1": "Practice",
     "2": "The Magical Radio"
-  }
+  },
+  "spotify_show_id": "0W5kXHNATO2M8wvXTz9m7J"
 }
