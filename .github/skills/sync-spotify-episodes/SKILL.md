@@ -9,14 +9,9 @@ Work from the repository root. The full runbook is
 [docs/spotify-extraction.md](../../../docs/spotify-extraction.md); this skill
 is the short operational path.
 
-## Why a local browser script
-
-The Spotify Web API returns HTTP 403 for show episodes unless the developer
-app owner has Premium. Do not reintroduce API credentials, a scheduled
-workflow, or LLM/title guessing. `code/spotify_extract.py` opens the public
-show page in Playwright Chromium (no login), clicks the text button
-**Load more episodes** until it is gone, and matches each card by the exact
-Repeto transcript URL in its description.
+are `code/spotify_extract.py` opens the public show page in Playwright Chromium
+(no login), clicks the text button **Load more episodes** until it is gone,
+and matches each card by the exact Repeto transcript URL in its description.
 
 ## Procedure
 
