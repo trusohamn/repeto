@@ -1,3 +1,4 @@
 -r requirements.txt
 -r requirements-publish.txt
+-r requirements-spotify.txt
 pyright>=1.1.400,<2

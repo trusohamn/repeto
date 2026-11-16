@@ -43,6 +43,16 @@ Include a safe local smoke test that avoids publication or paid work, plus
 first-live-run verification steps and any remaining maintainer actions.
 Distinguish mocked tests from actual service responses; missing credentials
 or unverified provider access must be explicit blockers to claiming the
-integration is operational. For example, "add Spotify secrets" is insufficient:
-link the app setup, GitHub secret location and permissions, explain that the
-script does not auto-load `.env`, and show how to verify real episode matches.
+integration is operational. For local browser tools, document the optional
+dependency and browser installation, public-page limitations, report-only
+default, explicit mutation flag, and completeness checks. Test pagination and
+stalled loading against browser fixtures, not just mocked API responses.
+
+## Learnings
+
+Public-page discovery needs both pagination and an independent coverage check.
+Controls such as Spotify's "Load more episodes" may be text rather than ARIA
+buttons; inspect the rendered page before declaring anonymous access incomplete.
+Use per-card visible text for URLs (raw `textContent` can join a URL to the
+next date), and see the [local Spotify extraction runbook](../../docs/spotify-extraction.md)
+for the tested flow.

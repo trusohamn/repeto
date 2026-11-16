@@ -70,3 +70,13 @@ if(pickData){const data=JSON.parse(pickData.textContent),box=pickData.closest('.
   if(d.courses.some(c=>c.target===keep))le.value=keep;show();};
  sp.addEventListener('change',fill);le.addEventListener('change',show);
 }
+const coursePlayer=document.getElementById('course-player');
+if(coursePlayer){const buttons=[...document.querySelectorAll('.play[data-spotify]')],now=document.querySelector('.course-player .now b');
+ let controller=null,frame=coursePlayer;
+ const mark=id=>buttons.forEach(b=>{const on=b.dataset.spotify===id;b.setAttribute('aria-pressed',String(on));b.closest('li').classList.toggle('playing',on)});
+ const select=b=>{const id=b.dataset.spotify;mark(id);now.textContent=b.dataset.title;
+  if(controller){(controller.loadEntity||controller.loadUri).call(controller,'spotify:episode:'+id,false,0);controller.play()}
+  else{frame.src='https://open.spotify.com/embed/episode/'+id;frame.title=frame.title.split(':')[0]+': '+b.dataset.title}};
+ buttons.forEach(b=>b.addEventListener('click',()=>select(b)));
+ window.onSpotifyIframeApiReady=api=>api.createController(coursePlayer,{uri:'spotify:episode:'+coursePlayer.dataset.spotify,width:'100%',height:352},c=>{controller=c});
+ const api=document.createElement('script');api.src='https://open.spotify.com/embed/iframe-api/v1';api.async=true;document.head.appendChild(api);}

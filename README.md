@@ -138,13 +138,20 @@ need separate initial packaging. See [docs/deploy.md](docs/deploy.md).
 
 ### Optional Spotify episode players
 
-Automatic episode discovery needs a Spotify Developer app and the repository
-secrets `SPOTIFY_CLIENT_ID` and `SPOTIFY_CLIENT_SECRET`; show links alone are
-not enough. The sync runs daily at 06:15 UTC or manually, and proposes matched
-episode IDs in a PR. See the [Spotify setup and operations guide](docs/spotify-sync.md)
-for app and GitHub configuration, a non-destructive local live test, first-run
-verification, and troubleshooting. This integration is separate from audio
-generation and publication.
+Extract episode links locally on demand from public Spotify show pages, including
+**Load more episodes**, without a Developer app, Premium, login, or API secrets:
+
+```sh
+.venv/bin/python -m pip install -r requirements-spotify.txt
+.venv/bin/python -m playwright install chromium
+.venv/bin/python code/spotify_extract.py
+```
+
+By default this only writes an ignored JSON report. Use `--course english-french`
+to select a show, and `--apply` to update catalogs after complete exact matching.
+See the [local Spotify extraction guide](docs/spotify-extraction.md) for setup,
+outputs, safety checks, tests, and troubleshooting. There is no scheduled API
+sync; extraction never generates audio or publishes anything.
 
 ## Checks and further reference
 

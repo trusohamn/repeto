@@ -63,6 +63,7 @@ UI = {
             ('Say it out loud', 'You hear a phrase in your language. Say it in the new language during the pause.'),
             ('Listen and repeat', 'The answer is played twice. Say it along with the voice.'),
         ],
+        'play': 'Play', 'now_playing': 'Now playing', 'player': 'Course player',
         'kind_story': 'Story', 'episode': 'Episode', 'transcript': 'Transcript',
         'print_season': 'Print all transcripts', 'print': 'Print', 'back': 'Back to the course',
         'hear': 'You hear', 'say': 'You say',
@@ -89,6 +90,7 @@ UI = {
             ('Säg det högt', 'Du hör en fras på ditt språk. Säg den på det nya språket i pausen.'),
             ('Lyssna och härma', 'Svaret spelas två gånger. Säg det igen tillsammans med rösten.'),
         ],
+        'play': 'Spela', 'now_playing': 'Spelas nu', 'player': 'Kursspelare',
         'kind_story': 'Berättelse', 'episode': 'Avsnitt', 'transcript': 'Transkript',
         'print_season': 'Skriv ut alla transkript', 'print': 'Skriv ut', 'back': 'Tillbaka till kursen',
         'hear': 'Du hör', 'say': 'Du säger',
@@ -115,6 +117,7 @@ UI = {
             ('Powiedz to na głos', 'Słyszysz zdanie w swoim języku. W pauzie powiedz je w nowym języku.'),
             ('Słuchaj i powtarzaj', 'Odpowiedź pada dwa razy. Powtórz ją razem z lektorem.'),
         ],
+        'play': 'Odtwórz', 'now_playing': 'Teraz odtwarzane', 'player': 'Odtwarzacz kursu',
         'kind_story': 'Opowieść', 'episode': 'Odcinek', 'transcript': 'Transkrypcja',
         'print_season': 'Wydrukuj wszystkie transkrypcje', 'print': 'Drukuj', 'back': 'Wróć do kursu',
         'hear': 'Słyszysz', 'say': 'Mówisz',
@@ -141,6 +144,7 @@ UI = {
             ('Скажите вслух', 'Вы слышите фразу на своём языке. В паузе скажите её на новом языке.'),
             ('Слушайте и повторяйте', 'Ответ звучит дважды. Повторите его вместе с диктором.'),
         ],
+        'play': 'Слушать', 'now_playing': 'Сейчас звучит', 'player': 'Плеер курса',
         'kind_story': 'История', 'episode': 'Эпизод', 'transcript': 'Текст',
         'print_season': 'Распечатать все тексты', 'print': 'Распечатать', 'back': 'Назад к курсу',
         'hear': 'Вы слышите', 'say': 'Вы говорите',
@@ -167,6 +171,7 @@ UI = {
             ('Dilo en voz alta', 'Oyes una frase en tu idioma. Dila en el nuevo idioma durante la pausa.'),
             ('Escucha y repite', 'La respuesta suena dos veces. Repítela junto con la voz.'),
         ],
+        'play': 'Reproducir', 'now_playing': 'Reproduciendo', 'player': 'Reproductor del curso',
         'kind_story': 'Historia', 'episode': 'Episodio', 'transcript': 'Transcripción',
         'print_season': 'Imprimir todas las transcripciones', 'print': 'Imprimir', 'back': 'Volver al curso',
         'hear': 'Oyes', 'say': 'Dices',
@@ -192,6 +197,18 @@ def spotify_episode_url(episode_id: str) -> str:
     if not isinstance(episode_id, str) or SPOTIFY_EPISODE_ID.fullmatch(episode_id) is None:
         raise ValueError(f'Invalid Spotify episode ID: {episode_id!r}')
     return f'https://open.spotify.com/episode/{episode_id}'
+
+
+def bound_spotify_episode(course: dict, episode: dict) -> str | None:
+    """Episode ID only when its mapping belongs to the course's current Spotify show."""
+    if 'spotify_episode_id' not in episode:
+        return None
+    spotify_episode_url(episode['spotify_episode_id'])
+    show_url = course.get('links', {}).get('Spotify')
+    show_match = SPOTIFY_SHOW.fullmatch(show_url) if isinstance(show_url, str) else None
+    if show_match and course.get('spotify_show_id') == show_match.group(1):
+        return episode['spotify_episode_id']
+    return None
 
 e = html.escape
 
@@ -463,6 +480,7 @@ def course_page(course: dict, base_url: str, assets: dict) -> str:
                 'summary': (f'{ep["phrases"]} {plural(ui, ep["phrases"], "phrases")}' if 'phrases' in ep
                             else story_summary(first_paragraph(ep.get('description', '')), label)),
                 'length': None if ep.get('pending_audio') is True else minutes(ui, int(ep.get('duration_ms') or 0)), 'transcript': ep.get('transcript'),
+                'spotify': bound_spotify_episode(course, ep),
             } for ep in episodes],
         })
     stats = [
@@ -473,11 +491,13 @@ def course_page(course: dict, base_url: str, assets: dict) -> str:
     if not any(ep.get('pending_audio') is True for ep in course['episodes']):
         stats.append((hours(ui, counts['ms']), t['listening']))
     lead = first_paragraph(course.get('description', ''))
+    player = next(({'spotify': ep['spotify'], 'title': ep['title'], 'number': ep['number']}
+                   for season in seasons for ep in season['episodes'] if ep['spotify']), None)
     return render(
         'course.html', assets=assets, title=course['title'], lang=ui, prefix='../', ui=ui, description=lead[:300],
         canonical=f'{base_url}/{course["slug"]}/', image=f'{base_url}/{course["slug"]}/{course["cover"]}',
         course=course, pair=f'{NAMES[ui][source]} → {NAMES[ui][target]}', heading=short_title(course['title']),
-        lead=lead, stats=stats, links=course.get('links', {}), seasons=seasons,
+        lead=lead, stats=stats, links=course.get('links', {}), seasons=seasons, player=player,
     )
 
 
@@ -530,13 +550,8 @@ def doc_page(course: dict, title: str, sheets: list[dict], base_url: str, path: 
     source, target = course['source_language'], course['target_language']
     listen = None
     if episode is not None:
-        spotify_url = None
-        if 'spotify_episode_id' in episode:
-            episode_url = spotify_episode_url(episode['spotify_episode_id'])
-            show_url = course.get('links', {}).get('Spotify')
-            show_match = SPOTIFY_SHOW.fullmatch(show_url) if isinstance(show_url, str) else None
-            if show_match and course.get('spotify_show_id') == show_match.group(1):
-                spotify_url = episode_url
+        spotify_id = bound_spotify_episode(course, episode)
+        spotify_url = spotify_episode_url(spotify_id) if spotify_id else None
         listen = {
             'cover': episode.get('cover') or course['cover'], 'label': course['seasons'].get(str(episode['season']), ''),
             'number': int(episode['episode']), 'title': episode['title'],
