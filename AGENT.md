@@ -13,6 +13,8 @@
   [create-story-course](.github/skills/create-story-course/SKILL.md).
 - For podcast packaging and feed verification, follow
   [package-podcast](.github/skills/package-podcast/SKILL.md).
+- To fetch Spotify episode URLs/IDs for course pages, follow
+  [sync-spotify-episodes](.github/skills/sync-spotify-episodes/SKILL.md).
 
 The complete-course skill coordinates the component workflows; completing one
 component does not complete the course.
