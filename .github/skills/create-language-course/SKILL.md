@@ -80,7 +80,18 @@ calling speech services. Check its scope, then only add `publish-audio` when
 authorized. The pipeline renders the selected practice topics and story
 chapters, fills real audio metadata, stages the recordings and updates the PR
 feed. Review the links and final diff before merge; promotion uses those exact
-reviewed bytes. Do not generate paid audio locally as a substitute.
+reviewed bytes.
+
+**Hard stop: never merge or deploy a course while any episode has
+`pending_audio: true`, is missing verified audio metadata, or lacks a reviewed
+staging item.** Keep the course PR open until generation is explicitly
+authorized, staging links are reviewed, and the final feed has valid production
+enclosures for every episode. A request to merge pipeline code is not approval
+to generate audio. When merging pipeline implementation separately, exclude
+the new course's pending catalog, draft RSS, and course-specific generated
+artwork. Do not use a failing deployment as a way to test this gate.
+
+Do not generate paid audio locally as a substitute for the approved pipeline.
 
 The story narration language is the target, not the source. Preserve the book
 and chapter introductions, two whole-chapter readings, chimes, vocabulary
@@ -98,6 +109,10 @@ shared text is also required, not a substitute for creating the new course.
 - Parse the final RSS; check unique stable GUIDs, season/episode identities,
   publication dates, duration, every enclosure's actual byte length and path,
   show cover and story episode artwork.
+- Before merging, confirm no catalog episode has `pending_audio`, every episode
+  has verified audio metadata and a production enclosure, all approved staging
+  links were listened to and reviewed, and the exact staged PR revision is the
+  one being merged. Otherwise stop and keep the PR open.
 - Confirm the course page shows both seasons and descriptions mention the
   story. Check the homepage links to the new course.
 - Run relevant existing renderer, story and podcast tests. Passing machine

@@ -149,16 +149,21 @@ the catalog, pending feed and pages locally:
 
 ```bash
 .venv/bin/python code/package_draft.py --source pl --target de \
-  --course polish-german --output-root output/draft-polish-german \
-  --cover podcast/polish-german/cover.jpeg --install
+  --course example-course --output-root output/draft-example-course \
+  --cover podcast/english-russian/cover.jpeg --install
 ```
 
-Replace the example direction and slug as needed. The draft output is for
+Replace the example direction, slug and cover for the course being built. Do
+not copy the example course into `podcast/`. The draft output is for
 review and the installation places the catalog, draft feed and artwork in the
 course directory for the PR. The PR workflow uses trusted scripts from
 `main`, so these draft/pipeline changes must first be merged to `main` before a
-new-course PR can use them. Do not merge or publish a course with pending
-audio; generate, stage and review it first.
+new-course PR can use them. Keep the course PR open while any episode has
+`pending_audio: true` or lacks verified audio metadata. Merge only after the
+approved pipeline has generated and staged the exact PR revision, all staging
+audio has been reviewed, and the final feed contains valid production
+enclosures for every episode. This is separate from merging pipeline code and
+is never implied by a request to merge that code.
 
 Local renderers continue using `.audio_cache`; remote R2 cache access is only
 needed by the GitHub Actions pipeline. Install `requirements.txt` and

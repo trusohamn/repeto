@@ -102,8 +102,11 @@ Use the configured project interpreter and existing validators and tests.
 5. **Audio:** use the [PR audio workflow](../../../docs/deploy.md) for missing
    and changed recordings, including new locally packaged courses. It reuses
    verified cached clips and renders affected practice topics and story
-   chapters only. Review staging before merging. Keep both story readings
-   consistent; preserve introductions, chimes, pauses and narration settings.
+   chapters only. Review staging before merging. Never merge or deploy while any
+   course episode is pending, lacks verified audio metadata, or has not had its
+   staging audio reviewed. A request to merge pipeline code is not paid-audio
+   authorization. Keep both story readings consistent; preserve introductions,
+   chimes, pauses and narration settings.
 6. **Artifacts:** update timing JSON, build manifest, catalog, RSS and pages
    consistently. The automated workflow commits catalog, RSS and staging
    manifest changes, not temporary renders or timing manifests. Editing timing
