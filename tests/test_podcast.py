@@ -128,6 +128,31 @@ class PodcastTests(unittest.TestCase):
             self.assertIn("3 avsnitt", swedish.replace("<b>3</b><span>", "3 "))
             self.assertIn("Hittat ett fel?", swedish)
 
+    def test_published_german_courses_link_to_their_spotify_shows(self):
+        repository = Path(__file__).resolve().parents[1]
+        expected = {
+            "russian-german": "https://open.spotify.com/show/4w75JxIfvzSrVubxY8CVrq",
+            "polish-german": "https://open.spotify.com/show/3cjB9e8s9YfypvRNxyfj6U",
+        }
+        courses = [repository / "podcast" / slug for slug in expected]
+        for slug, url in expected.items():
+            config = json.loads((repository / "podcast" / slug / "course.json").read_text())
+            self.assertEqual(config["links"]["Spotify"], url)
+
+        with tempfile.TemporaryDirectory() as directory:
+            output = Path(directory)
+            for slug in expected:
+                (output / slug).mkdir()
+            podcast.build_index(output, courses, "https://example.com")
+            for slug, url in expected.items():
+                course_page = (output / slug / "index.html").read_text(encoding="utf-8")
+                episode_page = (
+                    output / slug / "transcripts" / "season-1-episode-01.html"
+                ).read_text(encoding="utf-8")
+                with self.subTest(course=slug):
+                    self.assertIn(f'href="{url}"', course_page)
+                    self.assertIn(f'href="{url}"', episode_page)
+
     def test_transcripts_follow_spoken_order_and_replace_stale_files(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
