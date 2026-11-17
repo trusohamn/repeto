@@ -87,7 +87,7 @@ class PodcastTests(unittest.TestCase):
             self.assertIn("prefers-reduced-motion", (root / css).read_text(encoding="utf-8"))
             self.assertRegex(page, r'<script src="assets/site-[0-9a-f]{10}\.js" defer></script>')
             self.assertNotIn("<style", page)
-            self.assertEqual(len(list((root / "assets").iterdir())), 2)
+            self.assertEqual(len(list((root / "assets").iterdir())), 3)
             self.assertIn('<option value="sv" lang="sv">svenska</option>', page)
             self.assertIn('"name": "spanska"', page)
             self.assertIn('"speak": "Jag talar"', page)

@@ -59,7 +59,7 @@ UI = {
         'soon_spotify': 'This course is coming to Spotify soon.',
         'how': 'How to listen',
         'steps': [
-            ('Press play', 'Start with episode 1 and put the screen away.'),
+            ('Press play', 'Put the screen away and enjoy listening.'),
             ('Say it out loud', 'You hear a phrase in your language. Say it in the new language during the pause.'),
             ('Listen and repeat', 'The answer is played twice. Say it along with the voice.'),
         ],
@@ -86,7 +86,7 @@ UI = {
         'soon_spotify': 'Kursen kommer snart till Spotify.',
         'how': 'Så lyssnar du',
         'steps': [
-            ('Tryck på play', 'Börja med avsnitt 1 och lägg undan skärmen.'),
+            ('Tryck på play', 'Lägg undan skärmen och lyssna i lugn och ro.'),
             ('Säg det högt', 'Du hör en fras på ditt språk. Säg den på det nya språket i pausen.'),
             ('Lyssna och härma', 'Svaret spelas två gånger. Säg det igen tillsammans med rösten.'),
         ],
@@ -113,7 +113,7 @@ UI = {
         'soon_spotify': 'Ten kurs wkrótce pojawi się na Spotify.',
         'how': 'Jak słuchać',
         'steps': [
-            ('Naciśnij play', 'Zacznij od odcinka 1 i odłóż ekran.'),
+            ('Naciśnij play', 'Odłóż ekran i słuchaj swobodnie.'),
             ('Powiedz to na głos', 'Słyszysz zdanie w swoim języku. W pauzie powiedz je w nowym języku.'),
             ('Słuchaj i powtarzaj', 'Odpowiedź pada dwa razy. Powtórz ją razem z lektorem.'),
         ],
@@ -308,15 +308,16 @@ ENV.globals.update(BRAND=BRAND, GITHUB_URL=GITHUB_URL, EMAIL=EMAIL)
 
 
 def write_assets(root: Path) -> dict[str, str]:
-    """Copy site.css/site.js to podcast/assets/ with a content hash in the name; return {kind: relative url}."""
+    """Copy site assets to podcast/assets/ with content hashes; return {kind: relative url}."""
     folder = root / 'assets'
     if folder.exists():
         shutil.rmtree(folder)
     folder.mkdir()
     urls = {}
-    for kind in ('css', 'js'):
-        data = (ASSETS / f'site.{kind}').read_bytes()
-        name = f'site-{hashlib.sha256(data).hexdigest()[:10]}.{kind}'
+    for kind, filename in (('css', 'site.css'), ('js', 'site.js'), ('player', 'course-player.js')):
+        data = (ASSETS / filename).read_bytes()
+        extension = filename.rsplit('.', 1)[1]
+        name = f'site-{hashlib.sha256(data).hexdigest()[:10]}.{extension}'
         (folder / name).write_bytes(data)
         urls[kind] = f'assets/{name}'
     return urls
@@ -339,7 +340,7 @@ MOMENTS = ['Walking to school', 'Car rides', 'Cooking together', 'Quiet play', '
 
 STEPS = [
     ('step-1-pick.jpg', 'Pick a course', 'Choose the language you speak and the one you want to learn.'),
-    ('step-2-play.jpg', 'Press play', "Start with episode 1. You don't need to look at the screen after that."),
+    ('step-2-play.jpg', 'Press play', "Put the screen away and enjoy listening."),
     ('step-3-say.jpg', 'Say it', 'You hear a phrase in your language. Say it in the new language during the pause.'),
     ('step-4-repeat.jpg', 'Check and repeat', 'The answer is played twice. Check what you said and say it again.'),
 ]
@@ -491,7 +492,8 @@ def course_page(course: dict, base_url: str, assets: dict) -> str:
     if not any(ep.get('pending_audio') is True for ep in course['episodes']):
         stats.append((hours(ui, counts['ms']), t['listening']))
     lead = first_paragraph(course.get('description', ''))
-    player = next(({'spotify': ep['spotify'], 'title': ep['title'], 'number': ep['number']}
+    player = next(({'spotify': ep['spotify'], 'title': ep['title'], 'number': ep['number'],
+                    'season': season['key']}
                    for season in seasons for ep in season['episodes'] if ep['spotify']), None)
     return render(
         'course.html', assets=assets, title=course['title'], lang=ui, prefix='../', ui=ui, description=lead[:300],

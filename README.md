@@ -114,16 +114,23 @@ and optional `links.Spotify` / `links.YouTube`. Keep episode IDs and publication
 dates stable when updating audio. Cover filenames are fingerprinted automatically.
 
 `code/podcast.py` writes each `feed.xml`; `code/website.py` builds the site:
-the homepage with a course picker, a localized page per course (links to
-Spotify/YouTube, no players or RSS links), an episode page with a printable
+the homepage with a course picker, a localized page per course (Spotify/YouTube
+links and a Spotify player beside the episode list when episode mappings are
+available), an episode page with a printable
 transcript for every episode under `<slug>/transcripts/` from `courses/practice/transcript.json`
 and each story's `generated/transcript.json`, plus `sitemap.xml` and
 `robots.txt` (which keeps crawlers out of `/*/audio/`). Feed items link to
 their episode page and the show description links to the course page. `podcast/social.jpeg`
 is the share image. Page markup lives in Jinja2 templates under
-`code/templates/`; shared styles and script are `code/site/site.css` and
-`code/site/site.js`, copied to `podcast/assets/` with a content hash. The
-generated HTML, assets, sitemap and robots file are git-ignored; the Pages
+`code/templates/`; shared styles and scripts are `code/site/site.css`,
+`code/site/site.js` and `code/site/course-player.js`, copied to `podcast/assets/`
+with a content hash. The course player advances through mapped episodes in
+playlist order and stops after the final episode. Automatic playback remains
+subject to the browser's and Spotify's playback restrictions.
+Run its interaction tests with `node --test tests/test_course_player.js` (Node.js
+22 or later) and rendering tests with
+`.venv/bin/python -m unittest discover -s tests -p test_website_player.py`.
+The generated HTML, assets, sitemap and robots file are git-ignored; the Pages
 workflow rebuilds them on deploy.
 
 Packaging does **not** commit, push, or publish. To use GitHub Pages, configure
