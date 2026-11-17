@@ -20,21 +20,23 @@
  </div>
 </section>
 <div class="wrap">
- {% if player %}
- <section class="course-player" aria-label="{{ t.player }}">
-  <iframe id="course-player" src="https://open.spotify.com/embed/episode/{{ player.spotify }}" data-spotify="{{ player.spotify }}" title="{{ t.spotify }}: {{ player.title }}" height="352" loading="lazy" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-  <p class="now" aria-live="polite">{{ t.now_playing }}: <b>{{ player.title }}</b></p>
- </section>
- {% endif %}
  <section aria-labelledby="how-title" style="padding:48px 0 0"><h2 id="how-title">{{ t.how }}</h2><ol class="how">{% for a, b in t.steps %}<li><b>{{ a }}</b><p>{{ b }}</p></li>{% endfor %}</ol></section>
  {% for season in seasons %}
  <section class="season" id="season-{{ season.key }}" aria-labelledby="season-{{ season.key }}-title">
   <div class="season-head"><div>{% if season.kind %}<p class="eyebrow">{{ season.kind }}</p>{% endif %}<h2 id="season-{{ season.key }}-title">{{ season.label }}</h2></div>{% if season.print %}<a class="btn btn-ghost" href="transcripts/{{ season.print }}">{{ t.print_season }}</a>{% endif %}</div>
+  <div class="episode-layout">
+  {% if player and season.key == player.season %}
+   <section class="course-player" aria-label="{{ t.player }}">
+    <iframe id="course-player" src="https://open.spotify.com/embed/episode/{{ player.spotify }}" data-spotify="{{ player.spotify }}" title="{{ t.spotify }}: {{ player.title }}" height="352" loading="lazy" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+    <p class="now" aria-live="polite">{{ t.now_playing }}: <b>{{ player.title }}</b></p>
+   </section>
+  {% endif %}
   <ol class="episodes">
   {% for ep in season.episodes %}
    <li{% if player and ep.spotify == player.spotify %} class="playing"{% endif %}>{% if ep.spotify %}<button class="num play" type="button" data-spotify="{{ ep.spotify }}" data-title="{{ ep.title }}" aria-label="{{ t.play }}: {{ ep.title }}" aria-pressed="{{ 'true' if player and ep.spotify == player.spotify else 'false' }}" aria-controls="course-player"><span>{{ ep.number }}</span></button>{% else %}<span class="num">{{ ep.number }}</span>{% endif %}<div><h3><a href="transcripts/{{ ep.page }}">{{ ep.title }}</a></h3><p>{{ ep.summary }}</p></div><div class="side">{% if ep.length %}<span>{{ ep.length }}</span>{% endif %}</div></li>
   {% endfor %}
   </ol>
+  </div>
  </section>
  {% endfor %}
  {% include '_mistake.html' %}

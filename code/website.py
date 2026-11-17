@@ -308,15 +308,16 @@ ENV.globals.update(BRAND=BRAND, GITHUB_URL=GITHUB_URL, EMAIL=EMAIL)
 
 
 def write_assets(root: Path) -> dict[str, str]:
-    """Copy site.css/site.js to podcast/assets/ with a content hash in the name; return {kind: relative url}."""
+    """Copy site assets to podcast/assets/ with content hashes; return {kind: relative url}."""
     folder = root / 'assets'
     if folder.exists():
         shutil.rmtree(folder)
     folder.mkdir()
     urls = {}
-    for kind in ('css', 'js'):
-        data = (ASSETS / f'site.{kind}').read_bytes()
-        name = f'site-{hashlib.sha256(data).hexdigest()[:10]}.{kind}'
+    for kind, filename in (('css', 'site.css'), ('js', 'site.js'), ('player', 'course-player.js')):
+        data = (ASSETS / filename).read_bytes()
+        extension = filename.rsplit('.', 1)[1]
+        name = f'site-{hashlib.sha256(data).hexdigest()[:10]}.{extension}'
         (folder / name).write_bytes(data)
         urls[kind] = f'assets/{name}'
     return urls
@@ -491,7 +492,8 @@ def course_page(course: dict, base_url: str, assets: dict) -> str:
     if not any(ep.get('pending_audio') is True for ep in course['episodes']):
         stats.append((hours(ui, counts['ms']), t['listening']))
     lead = first_paragraph(course.get('description', ''))
-    player = next(({'spotify': ep['spotify'], 'title': ep['title'], 'number': ep['number']}
+    player = next(({'spotify': ep['spotify'], 'title': ep['title'], 'number': ep['number'],
+                    'season': season['key']}
                    for season in seasons for ep in season['episodes'] if ep['spotify']), None)
     return render(
         'course.html', assets=assets, title=course['title'], lang=ui, prefix='../', ui=ui, description=lead[:300],
