@@ -91,6 +91,66 @@ test('episode completion advances once to the next episode', () => {
   assert.equal(calls.plays, 1);
 });
 
+test('a loaded next episode gets one play retry if it remains paused', () => {
+  const { calls, listeners } = createPlayer(['first', 'second', 'third']);
+  listeners.playback_update({ data: {
+    playingURI: 'spotify:episode:first',
+    isPaused: true,
+    isBuffering: false,
+    position: 10000,
+    duration: 10000,
+  } });
+  assert.equal(calls.plays, 1);
+
+  listeners.playback_update({ data: {
+    playingURI: 'spotify:episode:second',
+    isPaused: true,
+    isBuffering: false,
+    position: 0,
+    duration: 20000,
+  } });
+  assert.equal(calls.plays, 2);
+
+  listeners.playback_update({ data: {
+    playingURI: 'spotify:episode:second',
+    isPaused: true,
+    isBuffering: false,
+    position: 0,
+    duration: 20000,
+  } });
+  assert.equal(calls.plays, 2);
+});
+
+test('a paused completion update just short of duration advances', () => {
+  const { calls, listeners } = createPlayer(['first', 'second']);
+
+  listeners.playback_update({ data: {
+    playingURI: 'spotify:episode:first',
+    isPaused: true,
+    isBuffering: false,
+    position: 99500,
+    duration: 100000,
+  } });
+
+  assert.deepEqual(calls.loads, ['spotify:episode:second']);
+  assert.equal(calls.plays, 1);
+});
+
+test('completion advances even when Spotify has not marked playback paused', () => {
+  const { calls, listeners } = createPlayer(['first', 'second']);
+
+  listeners.playback_update({ data: {
+    playingURI: 'spotify:episode:first',
+    isPaused: false,
+    isBuffering: false,
+    position: 100000,
+    duration: 100000,
+  } });
+
+  assert.deepEqual(calls.loads, ['spotify:episode:second']);
+  assert.equal(calls.plays, 1);
+});
+
 test('playback started in the embed synchronizes the selected episode', () => {
   const { buttons, listeners, now } = createPlayer(['first', 'second']);
 
@@ -128,7 +188,7 @@ test('pausing before the end does not advance the playlist', () => {
     playingURI: 'spotify:episode:first',
     isPaused: true,
     isBuffering: false,
-    position: 9000,
+    position: 8500,
     duration: 10000,
   } });
 

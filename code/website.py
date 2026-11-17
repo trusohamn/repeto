@@ -59,7 +59,7 @@ UI = {
         'soon_spotify': 'This course is coming to Spotify soon.',
         'how': 'How to listen',
         'steps': [
-            ('Press play', 'Start with episode 1 and put the screen away.'),
+            ('Press play', 'Put the screen away and enjoy listening.'),
             ('Say it out loud', 'You hear a phrase in your language. Say it in the new language during the pause.'),
             ('Listen and repeat', 'The answer is played twice. Say it along with the voice.'),
         ],
@@ -86,7 +86,7 @@ UI = {
         'soon_spotify': 'Kursen kommer snart till Spotify.',
         'how': 'Så lyssnar du',
         'steps': [
-            ('Tryck på play', 'Börja med avsnitt 1 och lägg undan skärmen.'),
+            ('Tryck på play', 'Lägg undan skärmen och lyssna i lugn och ro.'),
             ('Säg det högt', 'Du hör en fras på ditt språk. Säg den på det nya språket i pausen.'),
             ('Lyssna och härma', 'Svaret spelas två gånger. Säg det igen tillsammans med rösten.'),
         ],
@@ -113,7 +113,7 @@ UI = {
         'soon_spotify': 'Ten kurs wkrótce pojawi się na Spotify.',
         'how': 'Jak słuchać',
         'steps': [
-            ('Naciśnij play', 'Zacznij od odcinka 1 i odłóż ekran.'),
+            ('Naciśnij play', 'Odłóż ekran i słuchaj swobodnie.'),
             ('Powiedz to na głos', 'Słyszysz zdanie w swoim języku. W pauzie powiedz je w nowym języku.'),
             ('Słuchaj i powtarzaj', 'Odpowiedź pada dwa razy. Powtórz ją razem z lektorem.'),
         ],
@@ -340,7 +340,7 @@ MOMENTS = ['Walking to school', 'Car rides', 'Cooking together', 'Quiet play', '
 
 STEPS = [
     ('step-1-pick.jpg', 'Pick a course', 'Choose the language you speak and the one you want to learn.'),
-    ('step-2-play.jpg', 'Press play', "Start with episode 1. You don't need to look at the screen after that."),
+    ('step-2-play.jpg', 'Press play', "Put the screen away and enjoy listening."),
     ('step-3-say.jpg', 'Say it', 'You hear a phrase in your language. Say it in the new language during the pause.'),
     ('step-4-repeat.jpg', 'Check and repeat', 'The answer is played twice. Check what you said and say it again.'),
 ]

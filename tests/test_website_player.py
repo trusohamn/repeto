@@ -47,6 +47,12 @@ class CoursePlayerPageTests(unittest.TestCase):
         self.assertIn('aria-pressed="true" aria-controls="course-player"', page)
         self.assertIn("aria-live=\"polite\"", page)
 
+    def test_listening_tip_does_not_direct_learners_to_episode_one(self):
+        self.assertEqual(website.UI["en"]["steps"][0][1], "Put the screen away and enjoy listening.")
+        self.assertEqual(website.UI["sv"]["steps"][0][1], "Lägg undan skärmen och lyssna i lugn och ro.")
+        self.assertEqual(website.UI["pl"]["steps"][0][1], "Odłóż ekran i słuchaj swobodnie.")
+        self.assertNotIn("episode 1", website.STEPS[1][2].lower())
+
     def test_player_script_is_included_in_hashed_site_assets(self):
         with tempfile.TemporaryDirectory() as temp_dir:
             assets = website.write_assets(Path(temp_dir))

@@ -1,4 +1,5 @@
 function setupCoursePlayer(doc, win) {
+  const endToleranceMs = 1000;
   const frame = doc.getElementById('course-player');
   if (!frame) return;
 
@@ -7,6 +8,10 @@ function setupCoursePlayer(doc, win) {
   let controller = null;
   let selectedId = frame.dataset.spotify;
   let advancedId = null;
+  let pendingAutoplayId = null;
+  const episodeId = (uri) => typeof uri === 'string'
+    ? uri.split(':').pop().split('?')[0]
+    : '';
 
   const mark = (id) => buttons.forEach((button) => {
     const active = button.dataset.spotify === id;
@@ -14,9 +19,10 @@ function setupCoursePlayer(doc, win) {
     button.closest('li').classList.toggle('playing', active);
   });
 
-  const select = (button) => {
+  const select = (button, retryAfterLoad = false) => {
     selectedId = button.dataset.spotify;
     advancedId = null;
+    pendingAutoplayId = retryAfterLoad ? selectedId : null;
     mark(selectedId);
     now.textContent = button.dataset.title;
     if (controller) {
@@ -30,11 +36,12 @@ function setupCoursePlayer(doc, win) {
   };
 
   const syncPlayback = (uri) => {
-    const id = typeof uri === 'string' ? uri.split(':').pop() : '';
+    const id = episodeId(uri);
     const button = buttons.find((candidate) => candidate.dataset.spotify === id);
     if (!button) return;
     selectedId = id;
     advancedId = null;
+    pendingAutoplayId = null;
     mark(id);
     now.textContent = button.dataset.title;
   };
@@ -51,13 +58,25 @@ function setupCoursePlayer(doc, win) {
       });
       controller.addListener('playback_update', (event) => {
         const state = event.data;
-        if (state.playingURI !== `spotify:episode:${selectedId}`) return;
-        if (!state.isPaused || state.isBuffering || state.duration <= 0 ||
-            state.position < state.duration || advancedId === selectedId) return;
+        const stateId = episodeId(state.playingURI);
+        if (stateId === pendingAutoplayId) {
+          if (state.isPaused && !state.isBuffering) {
+            pendingAutoplayId = null;
+            controller.play();
+          } else if (!state.isPaused) {
+            pendingAutoplayId = null;
+          }
+        }
+        if (stateId !== selectedId) return;
+        if (state.isBuffering || !Number.isFinite(state.position) ||
+            !Number.isFinite(state.duration) || state.duration <= 0 ||
+            state.position < state.duration - endToleranceMs || advancedId === selectedId) return;
 
         const index = buttons.findIndex((button) => button.dataset.spotify === selectedId);
         advancedId = selectedId;
-        if (index >= 0 && index < buttons.length - 1) select(buttons[index + 1]);
+        if (index >= 0 && index < buttons.length - 1) {
+          select(buttons[index + 1], true);
+        }
       });
     },
   );
