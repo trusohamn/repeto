@@ -18,6 +18,13 @@ changes.
   user instruction. Never push directly to `main`.
 - Run focused tests and check errors; report pre-existing failures separately
   and do not claim a clean test run when checks fail or are unavailable.
+- For website changes, always rebuild and serve a local preview, verify the
+  exact page URL responds, and share its clickable localhost link before
+  asking for review or opening/updating a PR. Refresh the preview after
+  follow-up edits and test the changed behavior in the browser; mocked tests
+  alone do not verify live playback or other provider integrations. Report
+  any preview or browser-testing blocker explicitly rather than claiming
+  verification.
 - Pipeline workflows execute trusted code from `main`, not PR-branch scripts.
   Keep infrastructure PRs free of pending course data. Merging code does not
   authorize paid generation or publishing.
