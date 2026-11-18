@@ -2,6 +2,10 @@
 __pycache__/
 .audio_cache/
 output/
+# Local marketing notes and drafts.
+marketing/
+# Local marketing workflows; keep them available in this checkout, not in Git.
+/.github/skills/marketing-*/
 # Podcast audio is hosted in R2; local renders must not be committed.
 podcast/*/audio/
 **/.DS_Store
