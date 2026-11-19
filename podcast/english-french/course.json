@@ -508,6 +508,18 @@
       "bytes": 5371654,
       "sha256": "282534a0ee3a20da291e1380b379272a01469e516b7ef43f229a67dafc6dd39c",
       "spotify_episode_id": "2z45OWjNKGyYc14rVoLt2o"
+    },
+    {
+      "id": "repeto:english-french:topic-31",
+      "title": "Winter Is Here! — L’hiver est là !",
+      "file": "practice/31_winter_is_here_en_fr_double_2026-11-19_11-34-34.mp3",
+      "duration_ms": 296121,
+      "published": "2026-11-19T11:36:20+00:00",
+      "description": "Topic 31 of 31: Winter Is Here! (L’hiver est là !) – 24 phrases.\n\nYou hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Winter is here! → L’hiver est arrivé !\n• It's cold outside. → Il fait froid dehors.\n• It's snowing. → Il neige.\n\nTip: listen again until you can answer before the recorded voice.",
+      "season": 1,
+      "episode": 31,
+      "bytes": 2001188,
+      "sha256": "3a6a4da78f68b314ce17ead3c3fdeea0c5eb8eb01a72d6e474d5ec551d88a464"
     }
   ],
   "seasons": {

@@ -980,5 +980,30 @@
       <itunes:image href="https://repeto.stream/russian-german/images/stories/magical_radio/cover-fe68de28.jpeg" />
       <enclosure url="https://audio.repeto.stream/russian-german/audio/stories/magical_radio/08_chapter_08_ru_de_2026-11-16_12-15-27.mp3" length="1587933" type="audio/mpeg" />
     </item>
+    <item>
+      <title>31 Зима уже здесь! — Der Winter ist da!</title>
+      <link>https://repeto.stream/russian-german/transcripts/season-1-episode-31.html</link>
+      <description>Тема 31 из 31: Зима уже здесь! (Der Winter ist da!) — 24 фразы.
+
+Ты услышишь слово или предложение по-русски. Скажи то же самое по-немецки во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.
+
+Примеры из выпуска:
+• Зима уже наступила! → Der Winter ist da!
+• На улице холодно. → Draußen ist es kalt.
+• Идёт снег. → Es schneit.
+
+Совет: слушай снова, пока не начнёшь отвечать раньше диктора.
+
+Текст: https://repeto.stream/russian-german/transcripts/season-1-episode-31.html</description>
+      <content:encoded>&lt;p&gt;Тема 31 из 31: Зима уже здесь! (Der Winter ist da!) — 24 фразы.&lt;/p&gt;&lt;p&gt;Ты услышишь слово или предложение по-русски. Скажи то же самое по-немецки во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.&lt;/p&gt;&lt;p&gt;Примеры из выпуска:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Зима уже наступила! → Der Winter ist da!&lt;/li&gt;&lt;li&gt;На улице холодно. → Draußen ist es kalt.&lt;/li&gt;&lt;li&gt;Идёт снег. → Es schneit.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Совет: слушай снова, пока не начнёшь отвечать раньше диктора.&lt;/p&gt;&lt;p&gt;Текст: &lt;a href="https://repeto.stream/russian-german/transcripts/season-1-episode-31.html"&gt;https://repeto.stream/russian-german/transcripts/season-1-episode-31.html&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:russian-german:topic-31</guid>
+      <pubDate>Thu, 19 Nov 2026 11:41:48 +0000</pubDate>
+      <itunes:episode>31</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>317</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://audio.repeto.stream/russian-german/audio/practice/31_winter_is_here_ru_de_double_2026-11-19_11-40-49.mp3" length="2183305" type="audio/mpeg" />
+    </item>
   </channel>
 </rss>

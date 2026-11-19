@@ -980,5 +980,30 @@ Transcript: https://repeto.stream/english-french/transcripts/season-2-episode-08
       <itunes:image href="https://repeto.stream/english-french/images/stories/magical_radio/cover-fe68de28.jpeg" />
       <enclosure url="https://audio.repeto.stream/english-french/audio/stories/magical_radio/08_chapter_08_en_fr_2026-11-12_10-13-52.mp3" length="5371654" type="audio/mpeg" />
     </item>
+    <item>
+      <title>31 Winter Is Here! — L’hiver est là !</title>
+      <link>https://repeto.stream/english-french/transcripts/season-1-episode-31.html</link>
+      <description>Topic 31 of 31: Winter Is Here! (L’hiver est là !) – 24 phrases.
+
+You hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.
+
+Examples from this episode:
+• Winter is here! → L’hiver est arrivé !
+• It's cold outside. → Il fait froid dehors.
+• It's snowing. → Il neige.
+
+Tip: listen again until you can answer before the recorded voice.
+
+Transcript: https://repeto.stream/english-french/transcripts/season-1-episode-31.html</description>
+      <content:encoded>&lt;p&gt;Topic 31 of 31: Winter Is Here! (L’hiver est là !) – 24 phrases.&lt;/p&gt;&lt;p&gt;You hear a word or sentence in English. Say it in French during the pause, before you hear the answer. Each French phrase is played twice: listen and repeat.&lt;/p&gt;&lt;p&gt;Examples from this episode:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Winter is here! → L’hiver est arrivé !&lt;/li&gt;&lt;li&gt;It&amp;#x27;s cold outside. → Il fait froid dehors.&lt;/li&gt;&lt;li&gt;It&amp;#x27;s snowing. → Il neige.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tip: listen again until you can answer before the recorded voice.&lt;/p&gt;&lt;p&gt;Transcript: &lt;a href="https://repeto.stream/english-french/transcripts/season-1-episode-31.html"&gt;https://repeto.stream/english-french/transcripts/season-1-episode-31.html&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:english-french:topic-31</guid>
+      <pubDate>Thu, 19 Nov 2026 11:36:20 +0000</pubDate>
+      <itunes:episode>31</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>296</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://audio.repeto.stream/english-french/audio/practice/31_winter_is_here_en_fr_double_2026-11-19_11-34-34.mp3" length="2001188" type="audio/mpeg" />
+    </item>
   </channel>
 </rss>

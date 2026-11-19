@@ -980,5 +980,30 @@ Transkript: https://repeto.stream/swedish-english/transcripts/season-2-episode-0
       <itunes:image href="https://repeto.stream/swedish-english/images/stories/magical_radio/cover-fe68de28.jpeg" />
       <enclosure url="https://audio.repeto.stream/swedish-english/audio/stories/magical_radio/08_chapter_08_sv_en_2026-10-29_13-39-49.mp3" length="5271971" type="audio/mpeg" />
     </item>
+    <item>
+      <title>31 Nu är vintern här! — Winter Is Here!</title>
+      <link>https://repeto.stream/swedish-english/transcripts/season-1-episode-31.html</link>
+      <description>Ämne 31 av 31: Nu är vintern här! (Winter Is Here!) – 24 fraser.
+
+Du hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.
+
+Exempel ur avsnittet:
+• Nu är vintern här! → Winter is here!
+• Det är kallt ute. → It's cold outside.
+• Det snöar. → It's snowing.
+
+Tips: lyssna igen tills du hinner svara före rösten.
+
+Transkript: https://repeto.stream/swedish-english/transcripts/season-1-episode-31.html</description>
+      <content:encoded>&lt;p&gt;Ämne 31 av 31: Nu är vintern här! (Winter Is Here!) – 24 fraser.&lt;/p&gt;&lt;p&gt;Du hör ett ord eller en mening på svenska. Säg det på engelska i pausen innan svaret kommer. Varje engelsk fras spelas två gånger: lyssna och härma.&lt;/p&gt;&lt;p&gt;Exempel ur avsnittet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Nu är vintern här! → Winter is here!&lt;/li&gt;&lt;li&gt;Det är kallt ute. → It&amp;#x27;s cold outside.&lt;/li&gt;&lt;li&gt;Det snöar. → It&amp;#x27;s snowing.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tips: lyssna igen tills du hinner svara före rösten.&lt;/p&gt;&lt;p&gt;Transkript: &lt;a href="https://repeto.stream/swedish-english/transcripts/season-1-episode-31.html"&gt;https://repeto.stream/swedish-english/transcripts/season-1-episode-31.html&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:swedish-english:topic-31</guid>
+      <pubDate>Thu, 19 Nov 2026 11:42:22 +0000</pubDate>
+      <itunes:episode>31</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>295</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://audio.repeto.stream/swedish-english/audio/practice/31_winter_is_here_se_en_double_2026-11-19_11-42-14.mp3" length="2002734" type="audio/mpeg" />
+    </item>
   </channel>
 </rss>

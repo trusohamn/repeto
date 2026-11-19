@@ -508,6 +508,18 @@
       "bytes": 5439990,
       "sha256": "074a2a1821476143100ed89779b6ceb35144f4ac03a757d5d0e8e472ecb057d2",
       "spotify_episode_id": "5sh1Z9Vbv1AU2nR69hJEdR"
+    },
+    {
+      "id": "repeto:english-polish:topic-31",
+      "title": "Winter Is Here! — Zima już tu jest!",
+      "file": "practice/31_winter_is_here_en_pl_double_2026-11-19_11-37-20.mp3",
+      "duration_ms": 296773,
+      "published": "2026-11-19T11:38:17+00:00",
+      "description": "Topic 31 of 31: Winter Is Here! (Zima już tu jest!) – 24 phrases.\n\nYou hear a word or sentence in English. Say it in Polish during the pause, before you hear the answer. Each Polish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Winter is here! → Zima już tu jest!\n• It's cold outside. → Na dworze jest zimno.\n• It's snowing. → Pada śnieg.\n\nTip: listen again until you can answer before the recorded voice.",
+      "season": 1,
+      "episode": 31,
+      "bytes": 2035536,
+      "sha256": "ea7f81fcf31cab6beef4eea459dc5cb1dcbf93c6abbc9ef0e1829be33bde0094"
     }
   ],
   "seasons": {

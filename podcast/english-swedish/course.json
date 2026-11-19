@@ -512,6 +512,18 @@
       "bytes": 5424317,
       "sha256": "7a0a01423626893867a66c236a74a85ce67183823ffc0de958860926d5ee9a0b",
       "spotify_episode_id": "7uud15N3j36DSGWLwNVZ1w"
+    },
+    {
+      "id": "repeto:english-swedish:topic-31",
+      "title": "Winter Is Here! — Nu är vintern här!",
+      "file": "practice/31_winter_is_here_en_se_double_2026-11-19_11-39-14.mp3",
+      "duration_ms": 298453,
+      "published": "2026-11-19T11:40:14+00:00",
+      "description": "Topic 31 of 31: Winter Is Here! (Nu är vintern här!) – 24 phrases.\n\nYou hear a word or sentence in English. Say it in Swedish during the pause, before you hear the answer. Each Swedish phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Winter is here! → Nu är vintern här!\n• It's cold outside. → Det är kallt ute.\n• It's snowing. → Det snöar.\n\nTip: listen again until you can answer before the recorded voice.",
+      "season": 1,
+      "episode": 31,
+      "bytes": 2009102,
+      "sha256": "d7157bcc21374ac65013a6e815ce05ad206fded1b4ad24402814bf7262c2a1ed"
     }
   ],
   "seasons": {

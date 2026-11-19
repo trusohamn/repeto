@@ -512,6 +512,18 @@
       "bytes": 5713963,
       "sha256": "d5bce40a5dbbdad45155c03e724fd98f431aeb3cffaafe3d03c3719aa6f604bd",
       "spotify_episode_id": "7r3Xmo2HDYRVNxjyEXcSvM"
+    },
+    {
+      "id": "repeto:polish-spanish:topic-31",
+      "title": "Zima już tu jest! — ¡Ya está aquí el invierno!",
+      "file": "practice/31_winter_is_here_pl_es_double_2026-11-19_11-40-32.mp3",
+      "duration_ms": 306257,
+      "published": "2026-11-19T11:40:40+00:00",
+      "description": "Temat 31 z 31: Zima już tu jest! (¡Ya está aquí el invierno!) – 24 zwroty.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po hiszpańsku w przerwie, zanim usłyszysz odpowiedź. Każdy hiszpański zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Zima już tu jest! → ¡Ya está aquí el invierno!\n• Na dworze jest zimno. → Hace frío fuera.\n• Pada śnieg. → Está nevando.\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
+      "season": 1,
+      "episode": 31,
+      "bytes": 2134782,
+      "sha256": "4510cfcaf418ff5e4ba0d3dbdbcfd18230cbad403e730d39cce9d798c2a1a61b"
     }
   ],
   "seasons": {

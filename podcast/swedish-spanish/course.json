@@ -508,6 +508,18 @@
       "bytes": 5747190,
       "sha256": "773a08eae80ae6e7db0fd1aa1b5c62de29baff7e3508e12ce269f287c02a9e89",
       "spotify_episode_id": "5GsMZFpJfq2CAFJYGLPPKy"
+    },
+    {
+      "id": "repeto:swedish-spanish:topic-31",
+      "title": "Nu är vintern här! — ¡Ya está aquí el invierno!",
+      "file": "practice/31_winter_is_here_se_es_double_2026-11-19_11-42-40.mp3",
+      "duration_ms": 307097,
+      "published": "2026-11-19T11:42:48+00:00",
+      "description": "Ämne 31 av 31: Nu är vintern här! (¡Ya está aquí el invierno!) – 24 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på spanska i pausen innan svaret kommer. Varje spansk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Nu är vintern här! → ¡Ya está aquí el invierno!\n• Det är kallt ute. → Hace frío fuera.\n• Det snöar. → Está nevando.\n\nTips: lyssna igen tills du hinner svara före rösten.",
+      "season": 1,
+      "episode": 31,
+      "bytes": 2121572,
+      "sha256": "dedb376f33d3faffa1025e824130d216f71ccb404bbdcb0aadafaccdcc80dde9"
     }
   ],
   "seasons": {

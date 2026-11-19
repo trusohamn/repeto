@@ -508,6 +508,18 @@
       "bytes": 5558482,
       "sha256": "73149b883c3debba4514a9c9a293dfcf81afeafb1cea971dcb8a59c940fdca6d",
       "spotify_episode_id": "554p31yx4J96fRQyiP80Na"
+    },
+    {
+      "id": "repeto:russian-swedish:topic-31",
+      "title": "Зима уже здесь! — Nu är vintern här!",
+      "file": "practice/31_winter_is_here_ru_se_double_2026-11-19_11-41-57.mp3",
+      "duration_ms": 309714,
+      "published": "2026-11-19T11:42:05+00:00",
+      "description": "Тема 31 из 31: Зима уже здесь! (Nu är vintern här!) — 24 фразы.\n\nТы услышишь слово или предложение по-русски. Скажи то же самое по-шведски во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.\n\nПримеры из выпуска:\n• Зима уже наступила! → Nu är vintern här!\n• На улице холодно. → Det är kallt ute.\n• Идёт снег. → Det snöar.\n\nСовет: слушай снова, пока не начнёшь отвечать раньше диктора.",
+      "season": 1,
+      "episode": 31,
+      "bytes": 2090783,
+      "sha256": "2d48bd5c2d7219be404ead0025ab00b975b89af1937370a48317d0167d16f040"
     }
   ],
   "seasons": {

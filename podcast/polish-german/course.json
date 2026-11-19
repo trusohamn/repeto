@@ -510,6 +510,18 @@
       "bytes": 5627445,
       "sha256": "78b2c5c8049ff082ea60c17f618be42608ddfde10bef99e93c83d832714c3114",
       "spotify_episode_id": "6n0lnCOBYn8gzLoqGo2O8Z"
+    },
+    {
+      "id": "repeto:polish-german:topic-31",
+      "title": "Zima już tu jest! — Der Winter ist da!",
+      "file": "practice/31_winter_is_here_pl_de_double_2026-11-19_11-40-23.mp3",
+      "duration_ms": 308267,
+      "published": "2026-11-19T11:40:31+00:00",
+      "description": "Temat 31 z 31: Zima już tu jest! (Der Winter ist da!) – 24 zwroty.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po niemiecku w przerwie, zanim usłyszysz odpowiedź. Każdy niemiecki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Zima już tu jest! → Der Winter ist da!\n• Na dworze jest zimno. → Draußen ist es kalt.\n• Pada śnieg. → Es schneit.\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
+      "season": 1,
+      "episode": 31,
+      "bytes": 2125509,
+      "sha256": "cd146d4e44befb11cccd7d74912776285f653e171ccc7c1b5b3dc9f4eebbe6c7"
     }
   ],
   "seasons": {

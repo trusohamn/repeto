@@ -508,6 +508,18 @@
       "bytes": 5276986,
       "sha256": "c42cc3bcf42358011f0e5cab5c05eec103cf94595b77cfae3b355f9a3b1db8b3",
       "spotify_episode_id": "6VmUtaOrMX2lmOhBHdEZSR"
+    },
+    {
+      "id": "repeto:spanish-english:topic-31",
+      "title": "¡Ya está aquí el invierno! — Winter Is Here!",
+      "file": "practice/31_winter_is_here_es_en_double_2026-11-19_11-42-06.mp3",
+      "duration_ms": 297039,
+      "published": "2026-11-19T11:42:14+00:00",
+      "description": "Tema 31 de 31: ¡Ya está aquí el invierno! (Winter Is Here!) – 24 frases.\n\nOyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.\n\nEjemplos de este episodio:\n• ¡Ya está aquí el invierno! → Winter is here!\n• Hace frío fuera. → It's cold outside.\n• Está nevando. → It's snowing.\n\nConsejo: vuelve a escuchar hasta que respondas antes que la voz grabada.",
+      "season": 1,
+      "episode": 31,
+      "bytes": 2048734,
+      "sha256": "de4452f2e5581cc552672e1b7d69d9699299458a0d325130e62223d23c2b8a87"
     }
   ],
   "seasons": {
