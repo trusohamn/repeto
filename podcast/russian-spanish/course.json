@@ -512,6 +512,18 @@
       "bytes": 5804869,
       "sha256": "545a8ea6593d6fc16bde2a05bf4a19ad766828c55adf1bea3fc8c91e83f3042d",
       "spotify_episode_id": "3XRelBycHHA1uqmZNopRIg"
+    },
+    {
+      "id": "repeto:russian-spanish:topic-31",
+      "title": "Зима уже здесь! — ¡Ya está aquí el invierno!",
+      "file": "practice/31_winter_is_here_ru_es_double_2026-11-19_11-41-48.mp3",
+      "duration_ms": 314534,
+      "published": "2026-11-19T11:41:56+00:00",
+      "description": "Тема 31 из 31: Зима уже здесь! (¡Ya está aquí el invierno!) — 24 фразы.\n\nТы услышишь слово или предложение по-русски. Скажи то же самое по-испански во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.\n\nПримеры из выпуска:\n• Зима уже наступила! → ¡Ya está aquí el invierno!\n• На улице холодно. → Hace frío fuera.\n• Идёт снег. → Está nevando.\n\nСовет: слушай снова, пока не начнёшь отвечать раньше диктора.",
+      "season": 1,
+      "episode": 31,
+      "bytes": 2201560,
+      "sha256": "ed00b5e8044c46e9a3e181cd559310e39426833d5cef2d9f8a70f5822097bf77"
     }
   ],
   "seasons": {

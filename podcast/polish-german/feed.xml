@@ -980,5 +980,30 @@ Transkrypcja: https://repeto.stream/polish-german/transcripts/season-2-episode-0
       <itunes:image href="https://repeto.stream/polish-german/images/stories/magical_radio/cover-fe68de28.jpeg" />
       <enclosure url="https://audio.repeto.stream/polish-german/audio/stories/magical_radio/08_chapter_08_pl_de_2026-11-16_11-05-49.mp3" length="5627445" type="audio/mpeg" />
     </item>
+    <item>
+      <title>31 Zima już tu jest! — Der Winter ist da!</title>
+      <link>https://repeto.stream/polish-german/transcripts/season-1-episode-31.html</link>
+      <description>Temat 31 z 31: Zima już tu jest! (Der Winter ist da!) – 24 zwroty.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po niemiecku w przerwie, zanim usłyszysz odpowiedź. Każdy niemiecki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Zima już tu jest! → Der Winter ist da!
+• Na dworze jest zimno. → Draußen ist es kalt.
+• Pada śnieg. → Es schneit.
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.
+
+Transkrypcja: https://repeto.stream/polish-german/transcripts/season-1-episode-31.html</description>
+      <content:encoded>&lt;p&gt;Temat 31 z 31: Zima już tu jest! (Der Winter ist da!) – 24 zwroty.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po niemiecku w przerwie, zanim usłyszysz odpowiedź. Każdy niemiecki zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Zima już tu jest! → Der Winter ist da!&lt;/li&gt;&lt;li&gt;Na dworze jest zimno. → Draußen ist es kalt.&lt;/li&gt;&lt;li&gt;Pada śnieg. → Es schneit.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;&lt;p&gt;Transkrypcja: &lt;a href="https://repeto.stream/polish-german/transcripts/season-1-episode-31.html"&gt;https://repeto.stream/polish-german/transcripts/season-1-episode-31.html&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-german:topic-31</guid>
+      <pubDate>Thu, 19 Nov 2026 11:40:31 +0000</pubDate>
+      <itunes:episode>31</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>308</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://audio.repeto.stream/polish-german/audio/practice/31_winter_is_here_pl_de_double_2026-11-19_11-40-23.mp3" length="2125509" type="audio/mpeg" />
+    </item>
   </channel>
 </rss>

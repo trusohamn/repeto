@@ -980,5 +980,30 @@
       <itunes:image href="https://repeto.stream/russian-swedish/images/stories/magical_radio/cover-fe68de28.jpeg" />
       <enclosure url="https://audio.repeto.stream/russian-swedish/audio/stories/magical_radio/08_chapter_08_ru_sv_2026-11-11_18-56-15.mp3" length="5558482" type="audio/mpeg" />
     </item>
+    <item>
+      <title>31 Зима уже здесь! — Nu är vintern här!</title>
+      <link>https://repeto.stream/russian-swedish/transcripts/season-1-episode-31.html</link>
+      <description>Тема 31 из 31: Зима уже здесь! (Nu är vintern här!) — 24 фразы.
+
+Ты услышишь слово или предложение по-русски. Скажи то же самое по-шведски во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.
+
+Примеры из выпуска:
+• Зима уже наступила! → Nu är vintern här!
+• На улице холодно. → Det är kallt ute.
+• Идёт снег. → Det snöar.
+
+Совет: слушай снова, пока не начнёшь отвечать раньше диктора.
+
+Текст: https://repeto.stream/russian-swedish/transcripts/season-1-episode-31.html</description>
+      <content:encoded>&lt;p&gt;Тема 31 из 31: Зима уже здесь! (Nu är vintern här!) — 24 фразы.&lt;/p&gt;&lt;p&gt;Ты услышишь слово или предложение по-русски. Скажи то же самое по-шведски во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.&lt;/p&gt;&lt;p&gt;Примеры из выпуска:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Зима уже наступила! → Nu är vintern här!&lt;/li&gt;&lt;li&gt;На улице холодно. → Det är kallt ute.&lt;/li&gt;&lt;li&gt;Идёт снег. → Det snöar.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Совет: слушай снова, пока не начнёшь отвечать раньше диктора.&lt;/p&gt;&lt;p&gt;Текст: &lt;a href="https://repeto.stream/russian-swedish/transcripts/season-1-episode-31.html"&gt;https://repeto.stream/russian-swedish/transcripts/season-1-episode-31.html&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:russian-swedish:topic-31</guid>
+      <pubDate>Thu, 19 Nov 2026 11:42:05 +0000</pubDate>
+      <itunes:episode>31</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>310</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://audio.repeto.stream/russian-swedish/audio/practice/31_winter_is_here_ru_se_double_2026-11-19_11-41-57.mp3" length="2090783" type="audio/mpeg" />
+    </item>
   </channel>
 </rss>

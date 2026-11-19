@@ -80,11 +80,42 @@ class RendererTests(unittest.TestCase):
         topics = renderer.load_topics(
             renderer.ROOT / "courses" / "practice" / "transcript.json"
         )
-        self.assertEqual(len(topics), 30)
+        self.assertEqual(len(topics), 31)
         self.assertGreater(sum(map(len, topics.values())), 0)
         self.assertTrue(all(
             item.get("es") for items in topics.values() for item in items
         ))
+        winter = topics["Winter Is Here!"]
+        self.assertEqual(len(winter), 24)
+        self.assertTrue(all(
+            item.get(language)
+            for item in winter
+            for language in ("es", "de", "fr")
+        ))
+        winter_entries = {item["id"]: item for item in winter}
+        self.assertEqual(winter_entries["phrase_000886"]["en"], "Christmas tree")
+        self.assertEqual(winter_entries["phrase_000887"]["fr"], "Un lutin")
+        self.assertEqual(
+            winter_entries["phrase_000891"]["pl"], "Pod choinką leżą prezenty."
+        )
+        self.assertEqual(
+            winter_entries["phrase_000893"]["en"], "Do you want to go sledging?"
+        )
+        self.assertEqual(
+            winter_entries["phrase_000894"]["se"], "Ska vi åka skridskor?"
+        )
+        self.assertEqual(winter_entries["phrase_000895"]["pl"], "Lubię jeździć na nartach.")
+        self.assertEqual(
+            winter_entries["phrase_000896"]["fr"], "Nous faisons un bonhomme de neige."
+        )
+        topic_titles = json.loads(
+            (renderer.ROOT / "courses" / "practice" / "topics.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        self.assertEqual(
+            set(topic_titles["Winter Is Here!"]), set(renderer.LANGUAGES)
+        )
         recap = next(
             item for item in topics["Review and Recap"] if item["id"] == "phrase_000681"
         )
@@ -98,6 +129,16 @@ class RendererTests(unittest.TestCase):
         self.assertEqual(entries["phrase_000687"]["se"], "Det är roligt att lära sig språk!")
         self.assertEqual(entries["phrase_000687"]["ru"], "Учить языки весело!")
         self.assertEqual(entries["phrase_000503"]["pl"], "Wesołych Świąt!")
+        for language in renderer.LANGUAGES:
+            self.assertEqual(
+                entries["phrase_000883"][language], entries["phrase_000503"][language]
+            )
+            self.assertEqual(
+                entries["phrase_000884"][language], entries["phrase_000505"][language]
+            )
+        self.assertEqual(
+            entries["phrase_000881"]["en"], "Not everyone celebrates the same holidays."
+        )
         self.assertEqual(entries["phrase_000870"]["se"], "Hon målar med pensel.")
         self.assertEqual(entries["phrase_000192"]["ru"], "Рука")
         self.assertEqual(entries["phrase_000752"]["pl"], "On zapomniał pracy domowej.")

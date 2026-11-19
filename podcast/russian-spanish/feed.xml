@@ -980,5 +980,30 @@
       <itunes:image href="https://repeto.stream/russian-spanish/images/stories/magical_radio/cover-fe68de28.jpeg" />
       <enclosure url="https://audio.repeto.stream/russian-spanish/audio/stories/magical_radio/08_chapter_08_ru_es_2026-10-30_17-01-44.mp3" length="5804869" type="audio/mpeg" />
     </item>
+    <item>
+      <title>31 Зима уже здесь! — ¡Ya está aquí el invierno!</title>
+      <link>https://repeto.stream/russian-spanish/transcripts/season-1-episode-31.html</link>
+      <description>Тема 31 из 31: Зима уже здесь! (¡Ya está aquí el invierno!) — 24 фразы.
+
+Ты услышишь слово или предложение по-русски. Скажи то же самое по-испански во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.
+
+Примеры из выпуска:
+• Зима уже наступила! → ¡Ya está aquí el invierno!
+• На улице холодно. → Hace frío fuera.
+• Идёт снег. → Está nevando.
+
+Совет: слушай снова, пока не начнёшь отвечать раньше диктора.
+
+Текст: https://repeto.stream/russian-spanish/transcripts/season-1-episode-31.html</description>
+      <content:encoded>&lt;p&gt;Тема 31 из 31: Зима уже здесь! (¡Ya está aquí el invierno!) — 24 фразы.&lt;/p&gt;&lt;p&gt;Ты услышишь слово или предложение по-русски. Скажи то же самое по-испански во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.&lt;/p&gt;&lt;p&gt;Примеры из выпуска:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Зима уже наступила! → ¡Ya está aquí el invierno!&lt;/li&gt;&lt;li&gt;На улице холодно. → Hace frío fuera.&lt;/li&gt;&lt;li&gt;Идёт снег. → Está nevando.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Совет: слушай снова, пока не начнёшь отвечать раньше диктора.&lt;/p&gt;&lt;p&gt;Текст: &lt;a href="https://repeto.stream/russian-spanish/transcripts/season-1-episode-31.html"&gt;https://repeto.stream/russian-spanish/transcripts/season-1-episode-31.html&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:russian-spanish:topic-31</guid>
+      <pubDate>Thu, 19 Nov 2026 11:41:56 +0000</pubDate>
+      <itunes:episode>31</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>315</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://audio.repeto.stream/russian-spanish/audio/practice/31_winter_is_here_ru_es_double_2026-11-19_11-41-48.mp3" length="2201560" type="audio/mpeg" />
+    </item>
   </channel>
 </rss>

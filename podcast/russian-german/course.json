@@ -510,6 +510,18 @@
       "bytes": 1587933,
       "sha256": "dd89723a2585cb2e50d131123ca055175cfbdd291d1fec00c3b979401e7cb239",
       "spotify_episode_id": "4FsFbpMGPZo6vucegQ5Abq"
+    },
+    {
+      "id": "repeto:russian-german:topic-31",
+      "title": "Зима уже здесь! — Der Winter ist da!",
+      "file": "practice/31_winter_is_here_ru_de_double_2026-11-19_11-40-49.mp3",
+      "duration_ms": 316544,
+      "published": "2026-11-19T11:41:48+00:00",
+      "description": "Тема 31 из 31: Зима уже здесь! (Der Winter ist da!) — 24 фразы.\n\nТы услышишь слово или предложение по-русски. Скажи то же самое по-немецки во время паузы, прежде чем прозвучит ответ. Каждая фраза на изучаемом языке звучит дважды: слушай и повторяй.\n\nПримеры из выпуска:\n• Зима уже наступила! → Der Winter ist da!\n• На улице холодно. → Draußen ist es kalt.\n• Идёт снег. → Es schneit.\n\nСовет: слушай снова, пока не начнёшь отвечать раньше диктора.",
+      "season": 1,
+      "episode": 31,
+      "bytes": 2183305,
+      "sha256": "f6d1500bef18879e2c18f943a2c8d13af51211f3f50e139fdf21d4f872b430ae"
     }
   ],
   "seasons": {

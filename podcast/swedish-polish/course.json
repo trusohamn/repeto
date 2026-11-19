@@ -510,6 +510,18 @@
       "bytes": 5516477,
       "sha256": "3ce03a4691a890ed8484a7364b37b911742f012e4cb3c05139e1091a5332f4f4",
       "spotify_episode_id": "6tZk5xTARNrKF7aXxjHnez"
+    },
+    {
+      "id": "repeto:swedish-polish:topic-31",
+      "title": "Nu är vintern här! — Zima już tu jest!",
+      "file": "practice/31_winter_is_here_se_pl_double_2026-11-19_11-42-23.mp3",
+      "duration_ms": 300597,
+      "published": "2026-11-19T11:42:31+00:00",
+      "description": "Ämne 31 av 31: Nu är vintern här! (Zima już tu jest!) – 24 fraser.\n\nDu hör ett ord eller en mening på svenska. Säg det på polska i pausen innan svaret kommer. Varje polsk fras spelas två gånger: lyssna och härma.\n\nExempel ur avsnittet:\n• Nu är vintern här! → Zima już tu jest!\n• Det är kallt ute. → Na dworze jest zimno.\n• Det snöar. → Pada śnieg.\n\nTips: lyssna igen tills du hinner svara före rösten.",
+      "season": 1,
+      "episode": 31,
+      "bytes": 2043111,
+      "sha256": "99464a868afbfbee5dab754c69107a8bd29f983afa78c5d50e4429bb32474f74"
     }
   ],
   "source_language": "sv",

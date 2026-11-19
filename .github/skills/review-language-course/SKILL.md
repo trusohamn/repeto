@@ -1,6 +1,6 @@
 ---
 name: review-language-course
-description: Translate or carefully review Repeto language-course phrases, stories and learner-facing copy; verify meaning, natural everyday usage, regional consistency and synchronized audio before packaging. Use before rendering a new language or when correcting an existing course.
+redescription: Translate or carefully review Repeto language-course phrases, stories and learner-facing copy, including changed course text in a Git diff; verify meaning, natural everyday usage, regional consistency and synchronized audio before packaging.
 ---
 
 # Translate and review a Repeto course
@@ -17,6 +17,52 @@ description: Translate or carefully review Repeto language-course phrases, stori
 - Keep credentials private. Only established speech helpers may load them.
 - Save a pre-edit content baseline outside the tracked course data. Determine
   counts from the actual files; do not assume a fixed number of phrases.
+
+## Review changed course text in Git
+
+When asked to review current changes, use this skill for linguistic review in
+addition to any code review; code correctness and tests do not establish
+translation quality. Keep a review-only task read-only unless the user also
+asks for corrections.
+
+1. Inspect `git status` and the complete relevant diff, including staged,
+   unstaged, and newly added files. Establish exactly which text and metadata
+   changed. Do not review only the examples selected by tests or assume a diff
+   with no obvious code changes has no learner-facing impact.
+2. For every changed practice entry, read every language field, its topic, and
+   nearby unchanged entries. Check the source-to-target meaning in context,
+   not just the changed language or a pivot translation. For stories, read the
+   complete affected chapter and its vocabulary; for topic-title changes, check
+   the corresponding phrases and every localized title.
+3. Compare changed text to the base version where useful, but do not mistake
+   unchanged neighboring text for reviewed new content. Check IDs, ordering,
+   duplicate entries, and whether an apparent correction accidentally changes
+   approved source text or stable content.
+4. Report concrete language issues with the permanent phrase ID (or chapter),
+   language, current wording, reason, and a suggested correction when
+   confidence is high. Separate definite errors from valid alternatives and
+   stylistic preferences. If there are no findings, state what changed text
+   and languages were actually reviewed; do not claim a complete review from
+   a structural test or a few spot checks.
+5. Run relevant structural validators when available, but report separately
+   whether linguistic review, machine validation, and audio listening were
+   performed. Never imply that tests or text inspection verify recorded audio.
+6. End with a short summary of the change and a checklist of applicable
+   content-suitability and project checks, marking each passed, failed, or not
+   verified. State the basis for each result. A child/family suitability check
+   is a content review, not a certification of legal or platform compliance.
+7. Estimate the resulting episode duration when changes add or materially
+   alter episode content. Identify the assumed language direction and playback
+   mode. For practice, include exact configured lead-in and inter-phrase pauses
+   from `code/transcription.py`, then estimate speech time using comparable
+   rendered manifests or clips for the same voices and playback mode. For
+   stories, prefer comparable narration manifests for the same voice and
+   narration settings; if none exist, use an explicit reasonable speaking-rate
+   range and the chapter word count. Report a rounded range and assumptions,
+   not false precision. If the direction or playback mode is unknown, give
+   conditional estimates or state what is missing; do not imply an estimate
+   is measured audio duration. When a final render manifest exists, report its
+   measured duration separately from any pre-render estimate.
 
 ## Translate for listeners, not word-for-word matching
 
@@ -131,5 +177,9 @@ replacement and validation.
 - If direct listening is unavailable, state that explicitly. Never claim to
   have heard an artifact disappear based only on silence detection.
 - Report the actual coverage, substantive examples, affected courses and
-  validation results. Separate linguistic review, machine checks and listening.
-  Do not call a course error-free, native-reviewed or published unless verified.
+  validation results, plus an episode-duration estimate when applicable.
+  Summarize checks such as meaning, child/family suitability, rights basis,
+  structure and project requirements as passed, failed, or not verified, with
+  the evidence and limitations. Separate linguistic review, machine checks and
+  listening. Do not claim general legal/platform compliance, error-free
+  content, native-speaker review or publication unless those facts are verified.

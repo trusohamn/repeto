@@ -512,6 +512,18 @@
       "bytes": 5238743,
       "sha256": "da8407129ad53a83e9004996b2b6e2573fb4162ee258f3e1dcafc2abad08a9fb",
       "spotify_episode_id": "1C11bHTjxqjrKiQdeisHD1"
+    },
+    {
+      "id": "repeto:polish-english:topic-31",
+      "title": "Zima już tu jest! — Winter Is Here!",
+      "file": "practice/31_winter_is_here_pl_en_double_2026-11-19_11-40-15.mp3",
+      "duration_ms": 293789,
+      "published": "2026-11-19T11:40:22+00:00",
+      "description": "Temat 31 z 31: Zima już tu jest! (Winter Is Here!) – 24 zwroty.\n\nUsłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.\n\nPrzykłady z odcinka:\n• Zima już tu jest! → Winter is here!\n• Na dworze jest zimno. → It's cold outside.\n• Pada śnieg. → It's snowing.\n\nWskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.",
+      "season": 1,
+      "episode": 31,
+      "bytes": 2020125,
+      "sha256": "a30696c697f3c3fbc9d2bec62ffbdd8a56df310e08dd7269d66dabfffcf8e0c6"
     }
   ],
   "seasons": {

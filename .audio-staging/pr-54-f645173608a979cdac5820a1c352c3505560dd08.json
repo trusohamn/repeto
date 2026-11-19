@@ -1,0 +1,265 @@
+{
+  "schema_version": 1,
+  "pull_request": 54,
+  "approved_sha": "f645173608a979cdac5820a1c352c3505560dd08",
+  "input_sha256": "96eca1bb9a6e2656befba3bff25ef1563a7e7ad0d6a3ef33d57237d6d63a2284",
+  "targets": [
+    {
+      "kind": "practice",
+      "course": "english-french",
+      "source": "en",
+      "target": "fr",
+      "story_id": null
+    },
+    {
+      "kind": "practice",
+      "course": "english-german",
+      "source": "en",
+      "target": "de",
+      "story_id": null
+    },
+    {
+      "kind": "practice",
+      "course": "english-polish",
+      "source": "en",
+      "target": "pl",
+      "story_id": null
+    },
+    {
+      "kind": "practice",
+      "course": "english-spanish",
+      "source": "en",
+      "target": "es",
+      "story_id": null
+    },
+    {
+      "kind": "practice",
+      "course": "english-swedish",
+      "source": "en",
+      "target": "se",
+      "story_id": null
+    },
+    {
+      "kind": "practice",
+      "course": "polish-english",
+      "source": "pl",
+      "target": "en",
+      "story_id": null
+    },
+    {
+      "kind": "practice",
+      "course": "polish-german",
+      "source": "pl",
+      "target": "de",
+      "story_id": null
+    },
+    {
+      "kind": "practice",
+      "course": "polish-spanish",
+      "source": "pl",
+      "target": "es",
+      "story_id": null
+    },
+    {
+      "kind": "practice",
+      "course": "polish-swedish",
+      "source": "pl",
+      "target": "se",
+      "story_id": null
+    },
+    {
+      "kind": "practice",
+      "course": "russian-german",
+      "source": "ru",
+      "target": "de",
+      "story_id": null
+    },
+    {
+      "kind": "practice",
+      "course": "russian-spanish",
+      "source": "ru",
+      "target": "es",
+      "story_id": null
+    },
+    {
+      "kind": "practice",
+      "course": "russian-swedish",
+      "source": "ru",
+      "target": "se",
+      "story_id": null
+    },
+    {
+      "kind": "practice",
+      "course": "spanish-english",
+      "source": "es",
+      "target": "en",
+      "story_id": null
+    },
+    {
+      "kind": "practice",
+      "course": "swedish-english",
+      "source": "se",
+      "target": "en",
+      "story_id": null
+    },
+    {
+      "kind": "practice",
+      "course": "swedish-polish",
+      "source": "se",
+      "target": "pl",
+      "story_id": null
+    },
+    {
+      "kind": "practice",
+      "course": "swedish-russian",
+      "source": "se",
+      "target": "ru",
+      "story_id": null
+    },
+    {
+      "kind": "practice",
+      "course": "swedish-spanish",
+      "source": "se",
+      "target": "es",
+      "story_id": null
+    }
+  ],
+  "items": [
+    {
+      "course": "english-french",
+      "episode_id": "repeto:english-french:topic-31",
+      "file": "practice/31_winter_is_here_en_fr_double_2026-11-19_11-34-34.mp3",
+      "staging_key": "staging/pr-54/f645173608a979cdac5820a1c352c3505560dd08/english-french/audio/practice/31_winter_is_here_en_fr_double_2026-11-19_11-34-34.mp3",
+      "size": 2001188,
+      "sha256": "3a6a4da78f68b314ce17ead3c3fdeea0c5eb8eb01a72d6e474d5ec551d88a464"
+    },
+    {
+      "course": "english-german",
+      "episode_id": "repeto:english-german:topic-31",
+      "file": "practice/31_winter_is_here_en_de_double_2026-11-19_11-36-21.mp3",
+      "staging_key": "staging/pr-54/f645173608a979cdac5820a1c352c3505560dd08/english-german/audio/practice/31_winter_is_here_en_de_double_2026-11-19_11-36-21.mp3",
+      "size": 2102248,
+      "sha256": "34625300c788a8f62925a25e3c75282259131d081fb35de335795d61c96a83b7"
+    },
+    {
+      "course": "english-polish",
+      "episode_id": "repeto:english-polish:topic-31",
+      "file": "practice/31_winter_is_here_en_pl_double_2026-11-19_11-37-20.mp3",
+      "staging_key": "staging/pr-54/f645173608a979cdac5820a1c352c3505560dd08/english-polish/audio/practice/31_winter_is_here_en_pl_double_2026-11-19_11-37-20.mp3",
+      "size": 2035536,
+      "sha256": "ea7f81fcf31cab6beef4eea459dc5cb1dcbf93c6abbc9ef0e1829be33bde0094"
+    },
+    {
+      "course": "english-spanish",
+      "episode_id": "repeto:english-spanish:topic-31",
+      "file": "practice/31_winter_is_here_en_es_double_2026-11-19_11-38-18.mp3",
+      "staging_key": "staging/pr-54/f645173608a979cdac5820a1c352c3505560dd08/english-spanish/audio/practice/31_winter_is_here_en_es_double_2026-11-19_11-38-18.mp3",
+      "size": 2118079,
+      "sha256": "ebec9a430835cf690ee0426bf659a919f91ae062f8fcf2d0eea1cabf60cca675"
+    },
+    {
+      "course": "english-swedish",
+      "episode_id": "repeto:english-swedish:topic-31",
+      "file": "practice/31_winter_is_here_en_se_double_2026-11-19_11-39-14.mp3",
+      "staging_key": "staging/pr-54/f645173608a979cdac5820a1c352c3505560dd08/english-swedish/audio/practice/31_winter_is_here_en_se_double_2026-11-19_11-39-14.mp3",
+      "size": 2009102,
+      "sha256": "d7157bcc21374ac65013a6e815ce05ad206fded1b4ad24402814bf7262c2a1ed"
+    },
+    {
+      "course": "polish-english",
+      "episode_id": "repeto:polish-english:topic-31",
+      "file": "practice/31_winter_is_here_pl_en_double_2026-11-19_11-40-15.mp3",
+      "staging_key": "staging/pr-54/f645173608a979cdac5820a1c352c3505560dd08/polish-english/audio/practice/31_winter_is_here_pl_en_double_2026-11-19_11-40-15.mp3",
+      "size": 2020125,
+      "sha256": "a30696c697f3c3fbc9d2bec62ffbdd8a56df310e08dd7269d66dabfffcf8e0c6"
+    },
+    {
+      "course": "polish-german",
+      "episode_id": "repeto:polish-german:topic-31",
+      "file": "practice/31_winter_is_here_pl_de_double_2026-11-19_11-40-23.mp3",
+      "staging_key": "staging/pr-54/f645173608a979cdac5820a1c352c3505560dd08/polish-german/audio/practice/31_winter_is_here_pl_de_double_2026-11-19_11-40-23.mp3",
+      "size": 2125509,
+      "sha256": "cd146d4e44befb11cccd7d74912776285f653e171ccc7c1b5b3dc9f4eebbe6c7"
+    },
+    {
+      "course": "polish-spanish",
+      "episode_id": "repeto:polish-spanish:topic-31",
+      "file": "practice/31_winter_is_here_pl_es_double_2026-11-19_11-40-32.mp3",
+      "staging_key": "staging/pr-54/f645173608a979cdac5820a1c352c3505560dd08/polish-spanish/audio/practice/31_winter_is_here_pl_es_double_2026-11-19_11-40-32.mp3",
+      "size": 2134782,
+      "sha256": "4510cfcaf418ff5e4ba0d3dbdbcfd18230cbad403e730d39cce9d798c2a1a61b"
+    },
+    {
+      "course": "polish-swedish",
+      "episode_id": "repeto:polish-swedish:topic-31",
+      "file": "practice/31_winter_is_here_pl_se_double_2026-11-19_11-40-40.mp3",
+      "staging_key": "staging/pr-54/f645173608a979cdac5820a1c352c3505560dd08/polish-swedish/audio/practice/31_winter_is_here_pl_se_double_2026-11-19_11-40-40.mp3",
+      "size": 2033763,
+      "sha256": "5c9bd5c6a40e91a93889cd78447f1bd4c6f0ce9d39fd216962808deb65a09441"
+    },
+    {
+      "course": "russian-german",
+      "episode_id": "repeto:russian-german:topic-31",
+      "file": "practice/31_winter_is_here_ru_de_double_2026-11-19_11-40-49.mp3",
+      "staging_key": "staging/pr-54/f645173608a979cdac5820a1c352c3505560dd08/russian-german/audio/practice/31_winter_is_here_ru_de_double_2026-11-19_11-40-49.mp3",
+      "size": 2183305,
+      "sha256": "f6d1500bef18879e2c18f943a2c8d13af51211f3f50e139fdf21d4f872b430ae"
+    },
+    {
+      "course": "russian-spanish",
+      "episode_id": "repeto:russian-spanish:topic-31",
+      "file": "practice/31_winter_is_here_ru_es_double_2026-11-19_11-41-48.mp3",
+      "staging_key": "staging/pr-54/f645173608a979cdac5820a1c352c3505560dd08/russian-spanish/audio/practice/31_winter_is_here_ru_es_double_2026-11-19_11-41-48.mp3",
+      "size": 2201560,
+      "sha256": "ed00b5e8044c46e9a3e181cd559310e39426833d5cef2d9f8a70f5822097bf77"
+    },
+    {
+      "course": "russian-swedish",
+      "episode_id": "repeto:russian-swedish:topic-31",
+      "file": "practice/31_winter_is_here_ru_se_double_2026-11-19_11-41-57.mp3",
+      "staging_key": "staging/pr-54/f645173608a979cdac5820a1c352c3505560dd08/russian-swedish/audio/practice/31_winter_is_here_ru_se_double_2026-11-19_11-41-57.mp3",
+      "size": 2090783,
+      "sha256": "2d48bd5c2d7219be404ead0025ab00b975b89af1937370a48317d0167d16f040"
+    },
+    {
+      "course": "spanish-english",
+      "episode_id": "repeto:spanish-english:topic-31",
+      "file": "practice/31_winter_is_here_es_en_double_2026-11-19_11-42-06.mp3",
+      "staging_key": "staging/pr-54/f645173608a979cdac5820a1c352c3505560dd08/spanish-english/audio/practice/31_winter_is_here_es_en_double_2026-11-19_11-42-06.mp3",
+      "size": 2048734,
+      "sha256": "de4452f2e5581cc552672e1b7d69d9699299458a0d325130e62223d23c2b8a87"
+    },
+    {
+      "course": "swedish-english",
+      "episode_id": "repeto:swedish-english:topic-31",
+      "file": "practice/31_winter_is_here_se_en_double_2026-11-19_11-42-14.mp3",
+      "staging_key": "staging/pr-54/f645173608a979cdac5820a1c352c3505560dd08/swedish-english/audio/practice/31_winter_is_here_se_en_double_2026-11-19_11-42-14.mp3",
+      "size": 2002734,
+      "sha256": "53f0017acb23058fdb9ce19ca0dd46e24885d73003e8c36044a1ffe10e9dd9a9"
+    },
+    {
+      "course": "swedish-polish",
+      "episode_id": "repeto:swedish-polish:topic-31",
+      "file": "practice/31_winter_is_here_se_pl_double_2026-11-19_11-42-23.mp3",
+      "staging_key": "staging/pr-54/f645173608a979cdac5820a1c352c3505560dd08/swedish-polish/audio/practice/31_winter_is_here_se_pl_double_2026-11-19_11-42-23.mp3",
+      "size": 2043111,
+      "sha256": "99464a868afbfbee5dab754c69107a8bd29f983afa78c5d50e4429bb32474f74"
+    },
+    {
+      "course": "swedish-russian",
+      "episode_id": "repeto:swedish-russian:topic-31",
+      "file": "practice/31_winter_is_here_se_ru_double_2026-11-19_11-42-31.mp3",
+      "staging_key": "staging/pr-54/f645173608a979cdac5820a1c352c3505560dd08/swedish-russian/audio/practice/31_winter_is_here_se_ru_double_2026-11-19_11-42-31.mp3",
+      "size": 2165509,
+      "sha256": "e7695d48340b5e7a4d38f7c394309e4956aad3f3a760be8d00dc82cee0767aab"
+    },
+    {
+      "course": "swedish-spanish",
+      "episode_id": "repeto:swedish-spanish:topic-31",
+      "file": "practice/31_winter_is_here_se_es_double_2026-11-19_11-42-40.mp3",
+      "staging_key": "staging/pr-54/f645173608a979cdac5820a1c352c3505560dd08/swedish-spanish/audio/practice/31_winter_is_here_se_es_double_2026-11-19_11-42-40.mp3",
+      "size": 2121572,
+      "sha256": "dedb376f33d3faffa1025e824130d216f71ccb404bbdcb0aadafaccdcc80dde9"
+    }
+  ]
+}

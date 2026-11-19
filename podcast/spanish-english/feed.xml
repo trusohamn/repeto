@@ -980,5 +980,30 @@ Transcripción: https://repeto.stream/spanish-english/transcripts/season-2-episo
       <itunes:image href="https://repeto.stream/spanish-english/images/stories/magical_radio/cover-fe68de28.jpeg" />
       <enclosure url="https://audio.repeto.stream/spanish-english/audio/stories/magical_radio/08_chapter_08_es_en_2026-11-12_09-44-33.mp3" length="5276986" type="audio/mpeg" />
     </item>
+    <item>
+      <title>31 ¡Ya está aquí el invierno! — Winter Is Here!</title>
+      <link>https://repeto.stream/spanish-english/transcripts/season-1-episode-31.html</link>
+      <description>Tema 31 de 31: ¡Ya está aquí el invierno! (Winter Is Here!) – 24 frases.
+
+Oyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.
+
+Ejemplos de este episodio:
+• ¡Ya está aquí el invierno! → Winter is here!
+• Hace frío fuera. → It's cold outside.
+• Está nevando. → It's snowing.
+
+Consejo: vuelve a escuchar hasta que respondas antes que la voz grabada.
+
+Transcripción: https://repeto.stream/spanish-english/transcripts/season-1-episode-31.html</description>
+      <content:encoded>&lt;p&gt;Tema 31 de 31: ¡Ya está aquí el invierno! (Winter Is Here!) – 24 frases.&lt;/p&gt;&lt;p&gt;Oyes una palabra o una frase en español. Dila en inglés durante la pausa, antes de oír la respuesta. Cada frase en inglés suena dos veces: escucha y repite.&lt;/p&gt;&lt;p&gt;Ejemplos de este episodio:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;¡Ya está aquí el invierno! → Winter is here!&lt;/li&gt;&lt;li&gt;Hace frío fuera. → It&amp;#x27;s cold outside.&lt;/li&gt;&lt;li&gt;Está nevando. → It&amp;#x27;s snowing.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Consejo: vuelve a escuchar hasta que respondas antes que la voz grabada.&lt;/p&gt;&lt;p&gt;Transcripción: &lt;a href="https://repeto.stream/spanish-english/transcripts/season-1-episode-31.html"&gt;https://repeto.stream/spanish-english/transcripts/season-1-episode-31.html&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:spanish-english:topic-31</guid>
+      <pubDate>Thu, 19 Nov 2026 11:42:14 +0000</pubDate>
+      <itunes:episode>31</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>297</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://audio.repeto.stream/spanish-english/audio/practice/31_winter_is_here_es_en_double_2026-11-19_11-42-06.mp3" length="2048734" type="audio/mpeg" />
+    </item>
   </channel>
 </rss>

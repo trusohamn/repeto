@@ -980,5 +980,30 @@ Transkrypcja: https://repeto.stream/polish-english/transcripts/season-2-episode-
       <itunes:image href="https://repeto.stream/polish-english/images/stories/magical_radio/cover-fe68de28.jpeg" />
       <enclosure url="https://audio.repeto.stream/polish-english/audio/stories/magical_radio/08_chapter_08_pl_en_2026-10-29_20-56-15.mp3" length="5238743" type="audio/mpeg" />
     </item>
+    <item>
+      <title>31 Zima już tu jest! — Winter Is Here!</title>
+      <link>https://repeto.stream/polish-english/transcripts/season-1-episode-31.html</link>
+      <description>Temat 31 z 31: Zima już tu jest! (Winter Is Here!) – 24 zwroty.
+
+Usłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.
+
+Przykłady z odcinka:
+• Zima już tu jest! → Winter is here!
+• Na dworze jest zimno. → It's cold outside.
+• Pada śnieg. → It's snowing.
+
+Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.
+
+Transkrypcja: https://repeto.stream/polish-english/transcripts/season-1-episode-31.html</description>
+      <content:encoded>&lt;p&gt;Temat 31 z 31: Zima już tu jest! (Winter Is Here!) – 24 zwroty.&lt;/p&gt;&lt;p&gt;Usłyszysz słowo lub zdanie po polsku. Powiedz je po angielsku w przerwie, zanim usłyszysz odpowiedź. Każdy angielski zwrot usłyszysz dwa razy: słuchaj i powtarzaj.&lt;/p&gt;&lt;p&gt;Przykłady z odcinka:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Zima już tu jest! → Winter is here!&lt;/li&gt;&lt;li&gt;Na dworze jest zimno. → It&amp;#x27;s cold outside.&lt;/li&gt;&lt;li&gt;Pada śnieg. → It&amp;#x27;s snowing.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Wskazówka: słuchaj ponownie, aż zdążysz odpowiedzieć przed głosem lektora.&lt;/p&gt;&lt;p&gt;Transkrypcja: &lt;a href="https://repeto.stream/polish-english/transcripts/season-1-episode-31.html"&gt;https://repeto.stream/polish-english/transcripts/season-1-episode-31.html&lt;/a&gt;&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false">repeto:polish-english:topic-31</guid>
+      <pubDate>Thu, 19 Nov 2026 11:40:22 +0000</pubDate>
+      <itunes:episode>31</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>294</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://audio.repeto.stream/polish-english/audio/practice/31_winter_is_here_pl_en_double_2026-11-19_11-40-15.mp3" length="2020125" type="audio/mpeg" />
+    </item>
   </channel>
 </rss>

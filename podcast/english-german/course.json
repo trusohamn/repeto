@@ -508,6 +508,18 @@
       "bytes": 5583559,
       "sha256": "707cab6bd46e36d15b024725e5a104a827593108c58ea456fc75d46077ff1c67",
       "spotify_episode_id": "5FEB1CF854nucyWqkFeAx2"
+    },
+    {
+      "id": "repeto:english-german:topic-31",
+      "title": "Winter Is Here! — Der Winter ist da!",
+      "file": "practice/31_winter_is_here_en_de_double_2026-11-19_11-36-21.mp3",
+      "duration_ms": 305283,
+      "published": "2026-11-19T11:37:20+00:00",
+      "description": "Topic 31 of 31: Winter Is Here! (Der Winter ist da!) – 24 phrases.\n\nYou hear a word or sentence in English. Say it in German during the pause, before you hear the answer. Each German phrase is played twice: listen and repeat.\n\nExamples from this episode:\n• Winter is here! → Der Winter ist da!\n• It's cold outside. → Draußen ist es kalt.\n• It's snowing. → Es schneit.\n\nTip: listen again until you can answer before the recorded voice.",
+      "season": 1,
+      "episode": 31,
+      "bytes": 2102248,
+      "sha256": "34625300c788a8f62925a25e3c75282259131d081fb35de335795d61c96a83b7"
     }
   ],
   "seasons": {
